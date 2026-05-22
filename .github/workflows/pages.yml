@@ -12,6 +12,11 @@ concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: true
 
+# Opt in early to the GitHub Actions Node.js 24 runtime so the workflow does not
+# depend on the deprecated Node.js 20 action runtime.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
   pages: write
@@ -33,7 +38,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - name: Setup Python
