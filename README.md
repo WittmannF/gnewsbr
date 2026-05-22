@@ -12,11 +12,25 @@ Na última coleta local: **347 stories encontrados/coletados** e **5.937 artigos
 
 ```bash
 npm install
-npm run collect  # gera public/data/latest.json
+pip install -r requirements.txt
+npm run sources:validate  # valida data/sources/source-spectrum.yml e aliases
+npm run sources:build     # gera public/data/source-spectrum.json
+npm run collect           # gera public/data/latest.json
 npm run dev -- --host 0.0.0.0 --port 4177
 npm run build
 npm run preview -- --host 0.0.0.0 --port 4177
 ```
+
+## Revisão colaborativa das fontes
+
+A classificação editorial das fontes fica fora do código, em arquivos revisáveis por PR:
+
+- `data/sources/source-spectrum.yml`: fonte canônica, score 1-10, tipo, peso político, confiança e justificativa.
+- `data/sources/source-aliases.yml`: nomes alternativos que o Google News emite para a mesma fonte.
+- `data/sources/methodology.md`: regras para revisar o posicionamento editorial.
+- `data/sources/review-template.md`: modelo de sugestão para issues/PRs.
+
+A escala mede linha editorial percebida, não veracidade/credibilidade: `1` = progressista forte, `5` = centro/institucional/sem viés nacional claro, `10` = conservador forte.
 
 ## Ideia de arquitetura
 
