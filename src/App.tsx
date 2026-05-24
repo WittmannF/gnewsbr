@@ -159,7 +159,88 @@ function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => vo
 }
 
 function SourcesPage({ data }: { data: NewsPayload }) {
-  return <main className="plain-page"><h1>Fontes monitoradas</h1><p>O MVP começa com o dicionário manual do script de referência. A classificação é estimada e revisável.</p><div className="source-grid">{data.sources.map((source) => <div className="source-card" key={source.name}><div><strong>{source.name}</strong><span>{source.domain}</span></div><b style={{ color: bucketColors[source.bucket] }}>{source.spectrumScore ?? '—'}</b><small>{source.label} · {source.type} · {source.region}</small></div>)}</div></main>
+  const [query, setQuery] = useState('')
+  const [bucket, setBucket] = useState<SpectrumBucket | 'all'>('all')
+  const [status, setStatus] = useState<'all' | 'reviewed' | 'draft' | 'disputed'>('all')
+
+  const sourceCoverage = useMemo(() => {
+    const coverage = new Map<string, { articles: number; clusters: Set<string> }>()
+    data.clusters.forEach((cluster) => {
+      cluster.articles.forEach((article) => {
+        const key = article.sourceCanonical || article.source
+        const current = coverage.get(key) ?? { articles: 0, clusters: new Set<string>() }
+        current.articles += 1
+        current.clusters.add(cluster.id)
+        coverage.set(key, current)
+      })
+    })
+    return coverage
+  }, [data.clusters])
+
+  const bucketCounts = useMemo(() => bucketOrder
+    .filter((item) => item !== 'unknown')
+    .map((item) => ({ bucket: item, count: data.sources.filter((source) => source.bucket === item).length })), [data.sources])
+  const reviewedCount = data.sources.filter((source) => source.reviewStatus === 'reviewed').length
+  const filteredSources = useMemo(() => data.sources.filter((source) => {
+    const q = query.trim().toLowerCase()
+    const coverage = sourceCoverage.get(source.name)
+    const haystack = [source.name, source.label, source.type, source.scope, source.region, source.rationale, ...(source.notes ?? [])].join(' ').toLowerCase()
+    const matchesQuery = !q || haystack.includes(q)
+    const matchesBucket = bucket === 'all' || source.bucket === bucket
+    const matchesStatus = status === 'all' || source.reviewStatus === status
+    return matchesQuery && matchesBucket && matchesStatus && (coverage || !q)
+  }), [bucket, data.sources, query, sourceCoverage, status])
+
+  return (
+    <main className="plain-page sources-page">
+      <section className="sources-hero">
+        <div>
+          <span className="eyebrow"><ShieldQuestion size={16} /> Mapa editorial auditável</span>
+          <h1>Fontes monitoradas</h1>
+          <p>Consulte a classificação editorial usada no radar, a confiança da revisão e a presença de cada veículo na coleta atual. A escala é uma estimativa editorial revisável — não mede qualidade, verdade ou credibilidade.</p>
+        </div>
+        <div className="source-summary-grid">
+          <ScorePill label="Fontes no mapa" value={data.sources.length} icon={Newspaper} />
+          <ScorePill label="Revisadas" value={reviewedCount} icon={CheckCircle2} />
+          <ScorePill label="Na coleta" value={data.stats.knownSources} icon={TrendingUp} />
+          <ScorePill label="Sem mapa" value={data.stats.unknownSources} icon={ShieldQuestion} />
+        </div>
+      </section>
+
+      <section className="source-spectrum-panel">
+        <div className="panel-title"><BarChart3 /> Distribuição do mapa de fontes</div>
+        <div className="source-bucket-bars">
+          {bucketCounts.map(({ bucket: item, count }) => {
+            const percent = Math.round((count / Math.max(1, data.sources.length)) * 100)
+            return <button key={item} className={bucket === item ? 'active' : ''} onClick={() => setBucket(bucket === item ? 'all' : item)}><span><i style={{ background: bucketColors[item] }} />{bucketLabels[item]}</span><strong>{count}</strong><em style={{ width: `${percent}%`, background: bucketColors[item] }} /></button>
+          })}
+        </div>
+      </section>
+
+      <section className="sources-toolbar">
+        <div className="search-box"><Search size={18} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar por veículo, justificativa, tipo ou país" /></div>
+        <div className="topic-tabs"><Filter size={16} /><button className={bucket === 'all' ? 'active' : ''} onClick={() => setBucket('all')}>Todos os perfis</button>{bucketOrder.filter((item) => item !== 'unknown').map((item) => <button key={item} className={bucket === item ? 'active' : ''} onClick={() => setBucket(item)}>{bucketLabels[item]}</button>)}</div>
+        <div className="topic-tabs compact"><button className={status === 'all' ? 'active' : ''} onClick={() => setStatus('all')}>Todos</button><button className={status === 'reviewed' ? 'active' : ''} onClick={() => setStatus('reviewed')}>Revisadas</button><button className={status === 'draft' ? 'active' : ''} onClick={() => setStatus('draft')}>Rascunho</button><button className={status === 'disputed' ? 'active' : ''} onClick={() => setStatus('disputed')}>Disputadas</button></div>
+      </section>
+
+      <div className="source-results"><strong>{filteredSources.length}</strong> fontes exibidas · ordenadas por presença na coleta e score editorial</div>
+      <div className="source-grid enhanced">
+        {filteredSources
+          .slice()
+          .sort((a, b) => (sourceCoverage.get(b.name)?.articles ?? 0) - (sourceCoverage.get(a.name)?.articles ?? 0) || (a.spectrumScore ?? 99) - (b.spectrumScore ?? 99) || a.name.localeCompare(b.name))
+          .map((source) => {
+            const coverage = sourceCoverage.get(source.name)
+            return <article className="source-card enhanced" key={source.name}>
+              <div className="source-card-head"><div><strong>{source.name}</strong><span>{source.scope ?? source.region} · {source.type}</span></div><b style={{ color: bucketColors[source.bucket] }}>{source.spectrumScore ?? '—'}</b></div>
+              <div className="source-label-row"><span style={{ borderColor: bucketColors[source.bucket], color: bucketColors[source.bucket] }}>{source.label}</span><small>{source.reviewStatus === 'reviewed' ? 'Revisada' : source.reviewStatus === 'disputed' ? 'Disputada' : 'Rascunho'} · confiança {source.confidence}</small></div>
+              <p>{source.rationale ?? 'Classificação inicial aberta para revisão por PR.'}</p>
+              {source.notes?.length ? <ul>{source.notes.slice(0, 2).map((note) => <li key={note}>{note}</li>)}</ul> : null}
+              <div className="source-foot"><span>{coverage?.articles ?? 0} artigos nesta coleta</span><span>{coverage?.clusters.size ?? 0} clusters</span><span>peso {source.politicalWeight ?? '—'}</span></div>
+            </article>
+          })}
+      </div>
+    </main>
+  )
 }
 
 function MethodologyPage() {
