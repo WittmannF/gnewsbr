@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generate GNewsBR static JSON from Google News Brasil stories.
+"""Generate GNewsBR static JSON from collected news stories.
 
 This intentionally starts from the reference script Fernando provided:
-- discover /stories/<id> links from Google News pages;
+- discover /stories/<id> links from news index pages;
 - open each story page;
 - parse AF_initDataCallback JSON;
 - extract article-like arrays with title/description/time/url/source;
@@ -111,7 +111,7 @@ def discover_story_ids(max_seed_pages: int | None = None) -> OrderedDict[str, se
             print(f"WARN seed page failed {label}: {exc}", file=sys.stderr)
             continue
         ids = set(re.findall(r'(?:\./|/)stories/([A-Za-z0-9_-]{20,})', html))
-        # Some Google markup puts escaped URLs in data blobs. This catches those too.
+        # Some upstream markup puts escaped URLs in data blobs. This catches those too.
         ids |= set(re.findall(r'stories/([A-Za-z0-9_-]{20,})\?', html))
         for sid in sorted(ids):
             story_sources.setdefault(sid, set()).add(label)
@@ -133,7 +133,7 @@ def extract_json_blobs(html: str) -> list[Any]:
 
 
 def source_name_from_article_list(row: list[Any]) -> str:
-    # Observed Google News structure: row[10][2] = source name; row[36][1][0][0] = "Acessar Fonte".
+    # Observed upstream structure: row[10][2] = source name; row[36][1][0][0] = "Acessar Fonte".
     try:
         val = row[10][2]
         if isinstance(val, str) and val.strip():
@@ -256,9 +256,9 @@ def article_id(url: str) -> str:
 
 
 def cluster_id(story_id: str) -> str:
-    """Create a stable unique cluster id from the full Google News story id.
+    """Create a stable unique cluster id from the full upstream story id.
 
-    Google News story ids share a long common prefix, so truncating the raw id
+    Upstream story ids share a long common prefix, so truncating the raw id
     creates duplicate React keys and can make distinct cards render as repeats.
     """
     return "story_" + hashlib.sha1(story_id.encode("utf-8")).hexdigest()[:12]
@@ -291,9 +291,9 @@ def normalized_cluster_title(cluster: dict[str, Any]) -> str:
 
 
 def dedupe_clusters(clusters: list[dict[str, Any]], overlap_threshold: float = 0.7) -> list[dict[str, Any]]:
-    """Remove near-duplicate Google News story variants.
+    """Remove near-duplicate story variants.
 
-    Google sometimes returns multiple /stories ids for the same coverage package.
+    The upstream feed sometimes returns multiple /stories ids for the same coverage package.
     When two clusters share most article URLs, keep the more complete one. Some
     duplicate variants also arrive with identical story titles but disjoint URL
     lists, so exact normalized title matches are treated as duplicates too.
@@ -394,7 +394,7 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
         flags.append("Cobertura monitorada")
 
     title = story_title_from_blobs(blobs, articles)
-    summary = articles[0]["description"] or "Cluster extraído do Google News Brasil com artigos relacionados e distribuição editorial estimada."
+    summary = articles[0]["description"] or "Cluster extraído da coleta editorial com artigos relacionados e distribuição editorial estimada."
     source_count = len(set(a["source"] for a in articles))
     fallback_image = FALLBACK_IMAGES[int(hashlib.sha1(story_id.encode()).hexdigest(), 16) % len(FALLBACK_IMAGES)]
 
@@ -487,8 +487,8 @@ def main() -> int:
 
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "version": "0.2.0-google-news-real",
-        "source": "Google News Brasil /stories coletados de Manchetes e tópicos",
+        "version": "0.2.0-editorial-collection",
+        "source": "Coleta editorial / stories coletados de manchetes e tópicos",
         "stats": {
             "clusterCount": len(clusters),
             "articleCount": article_count,

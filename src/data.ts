@@ -21,7 +21,7 @@ export const bucketColors: Record<SpectrumBucket, string> = {
 export const mockNewsData: NewsPayload = {
   generatedAt: new Date().toISOString(),
   version: '0.1.0-demo',
-  source: 'Google News Brasil · dados demonstrativos baseados no schema do scraper',
+  source: 'Coleta editorial · dados demonstrativos baseados no schema do scraper',
   stats: {
     clusterCount: 6,
     articleCount: 47,

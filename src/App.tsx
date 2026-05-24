@@ -101,9 +101,9 @@ function HomePage({ data, onOpen }: { data: NewsPayload; onOpen: (cluster: Clust
     <main>
       <section className="hero">
         <div className="hero-copy">
-          <span className="eyebrow"><Sparkles size={16} /> MVP com clusters do Google News Brasil</span>
+          <span className="eyebrow"><Sparkles size={16} /> Radar de cobertura da imprensa brasileira</span>
           <h1>Compare como a imprensa brasileira cobre a mesma história.</h1>
-          <p>Um radar inspirado no Ground News: clusters, manchetes lado a lado, distribuição editorial estimada e links para as fontes originais.</p>
+          <p>Um radar editorial com clusters, manchetes lado a lado, distribuição estimada de perfis e links para as fontes originais.</p>
           <div className="hero-actions"><button onClick={() => document.getElementById('clusters')?.scrollIntoView({ behavior: 'smooth' })}>Ver notícias de hoje</button><button className="secondary">Como funciona</button></div>
         </div>
         <div className="hero-panel">
@@ -230,7 +230,7 @@ function SourcesPage({ data }: { data: NewsPayload }) {
           <div><strong>Score editorial</strong><p>Escala 1–10 usada para posicionar fontes no espectro: valores menores indicam perfil mais progressista; valores maiores, mais conservador; o centro fica próximo de 5–6.</p></div>
           <div><strong>Peso político</strong><p>Indicador exibido em escala 1–5, convertido do peso relativo interno 0–1. Ajuda a estimar influência no debate político nacional combinando alcance, frequência em Brasília/eleições e relevância para formadores de opinião.</p></div>
           <div><strong>Confiança</strong><p>Mostra quão segura é a classificação atual. “Alta” indica fonte conhecida e metadados consistentes; “média/baixa” pede revisão humana.</p></div>
-          <div><strong>Presença na coleta</strong><p>Conta quantos artigos e clusters daquele veículo apareceram no snapshot atual do Google News, sem representar audiência total.</p></div>
+          <div><strong>Presença na coleta</strong><p>Conta quantos artigos e clusters daquele veículo apareceram no snapshot atual da coleta, sem representar audiência total.</p></div>
         </div>
       </section>
 
@@ -261,7 +261,7 @@ function SourcesPage({ data }: { data: NewsPayload }) {
 }
 
 function MethodologyPage() {
-  return <main className="plain-page"><h1>Metodologia do MVP</h1><div className="methodology"><section><h2>1. Coleta</h2><p>O scraper usa a home do Google News Brasil para descobrir IDs de stories e abre cada URL <code>/stories/&lt;id&gt;</code>. O parser reaproveita a estrutura interna <code>AF_initDataCallback</code>, como no script de referência.</p></section><section><h2>2. Clusters</h2><p>No MVP, o agrupamento é herdado do Google News. Isso reduz complexidade e permite focar na experiência de comparação de cobertura.</p></section><section><h2>3. Espectro editorial</h2><p>A escala 1–10 do código original será migrada para JSON. Na UI pública, usamos rótulos cuidadosos: progressista, centro-progressista, centro, centro-conservador e conservador.</p></section><section><h2>4. Limitações</h2><p>Não republicamos conteúdo completo; mostramos título, snippet, fonte e link. A classificação não mede verdade/falsidade e deve ser auditável.</p></section></div></main>
+  return <main className="plain-page"><h1>Metodologia</h1><div className="methodology"><section><h2>1. Coleta</h2><p>A rotina de coleta identifica histórias em alta, agrupa URLs relacionadas e preserva metadados mínimos para comparação: título, snippet, veículo, horário e link original.</p></section><section><h2>2. Clusters</h2><p>O agrupamento reúne diferentes veículos cobrindo a mesma história. Isso permite comparar enquadramentos, diversidade de fontes e distribuição editorial em uma experiência única.</p></section><section><h2>3. Espectro editorial</h2><p>A escala 1–10 posiciona fontes em rótulos cuidadosos: progressista, centro-progressista, centro, centro-conservador e conservador. As revisões assistidas por IA permanecem auditáveis.</p></section><section><h2>4. Limitações</h2><p>Não republicamos conteúdo completo; mostramos título, snippet, fonte e link. A classificação não mede verdade/falsidade e deve ser auditável.</p></section></div></main>
 }
 
 export function App() {
