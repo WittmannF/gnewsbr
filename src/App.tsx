@@ -74,7 +74,7 @@ function Header({ current, onNavigate }: { current: string; onNavigate: (view: s
   )
 }
 
-function HomePage({ data, onOpen }: { data: NewsPayload; onOpen: (cluster: Cluster) => void }) {
+function HomePage({ data, onOpen, onNavigate }: { data: NewsPayload; onOpen: (cluster: Cluster) => void; onNavigate: (view: string) => void }) {
   const [query, setQuery] = useState('')
   const [topic, setTopic] = useState('Todos')
   const topics = useMemo(() => {
@@ -104,7 +104,7 @@ function HomePage({ data, onOpen }: { data: NewsPayload; onOpen: (cluster: Clust
           <span className="eyebrow"><Sparkles size={16} /> Radar de cobertura da imprensa brasileira</span>
           <h1>Compare como a imprensa brasileira cobre a mesma história.</h1>
           <p>Um radar editorial com clusters, manchetes lado a lado, distribuição estimada de perfis e links para as fontes originais.</p>
-          <div className="hero-actions"><button onClick={() => document.getElementById('clusters')?.scrollIntoView({ behavior: 'smooth' })}>Ver notícias de hoje</button><button className="secondary">Como funciona</button></div>
+          <div className="hero-actions"><button onClick={() => document.getElementById('clusters')?.scrollIntoView({ behavior: 'smooth' })}>Ver notícias de hoje</button><button className="secondary" onClick={() => onNavigate('methodology')}>Como funciona</button></div>
         </div>
         <div className="hero-panel">
           <div className="panel-title"><BarChart3 /> Snapshot da coleta</div>
@@ -277,5 +277,5 @@ export function App() {
   }, [])
 
   const navigate = (next: string) => { setSelected(null); setView(next) }
-  return <><Header current={selected ? 'cluster' : view} onNavigate={navigate} />{selected ? <ClusterDetail cluster={selected} onBack={() => setSelected(null)} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={setSelected} />}</>
+  return <><Header current={selected ? 'cluster' : view} onNavigate={navigate} />{selected ? <ClusterDetail cluster={selected} onBack={() => setSelected(null)} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={setSelected} onNavigate={navigate} />}</>
 }
