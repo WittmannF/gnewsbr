@@ -25,6 +25,11 @@ from typing import Any
 from urllib.parse import parse_qs, urlparse
 
 import requests
+import yaml
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+SOURCE_SPECTRUM_PATH = ROOT_DIR / "data/sources/source-spectrum.yml"
+SOURCE_ALIASES_PATH = ROOT_DIR / "data/sources/source-aliases.yml"
 
 GOOGLE_NEWS_BASE = "https://news.google.com"
 COMMON_PARAMS = "hl=pt-BR&gl=BR&ceid=BR:pt-419"
@@ -34,36 +39,19 @@ HEADERS = {
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.6",
 }
 
-# Reference manual map. Kept as numeric internal signal; UI labels are deliberately softer.
+def load_source_config() -> tuple[dict[str, dict[str, Any]], dict[str, str]]:
+    """Load the reviewable source spectrum and alias files."""
+    spectrum_doc = yaml.safe_load(SOURCE_SPECTRUM_PATH.read_text(encoding="utf-8")) or {}
+    aliases_doc = yaml.safe_load(SOURCE_ALIASES_PATH.read_text(encoding="utf-8")) or {}
+    records = {item["name"]: item for item in spectrum_doc.get("sources", [])}
+    aliases = aliases_doc.get("aliases", {}) or {}
+    return records, aliases
+
+
+NEWS_SOURCE_CONFIG, SOURCE_ALIASES = load_source_config()
 NEWS_POLITICAL_SPECTRUM = {
-    "98 FM Natal": 5, "ANSA Brasil": 5, "Agora no Vale": 5, "Agência Brasil": 4,
-    "Aratu ON": 5, "BBC News Brasil": 3, "BNews": 5, "Bahia.Ba": 4,
-    "Blog do Esmael": 2, "Brasil 247": 1, "Brasil de Fato": 2, "CNN Brasil": 5,
-    "Canal Rural": 6, "CartaCapital": 2, "ClicRDC": 5, "Clube FM 100.5": 5,
-    "ContilNet Notícias": 5, "Correio Braziliense": 4, "Correio do Povo": 5,
-    "D'Ponta News": 5, "DW (Brasil)": 3, "Diario de Pernambuco": 4,
-    "Diário da Capital": 5, "Diário de Goiás": 5, "Diário do Centro do Mundo": 2,
-    "Diário do Nordeste": 4, "Diário do Poder": 8, "Estado de Minas": 5, "Estadão": 6,
-    "Exame Notícias": 5, "Expresso": 5, "Extra": 5, "Folha Vitória": 5,
-    "Folha de Boa Vista": 5, "Folha de Pernambuco": 4, "Forças Terrestres": 7,
-    "G1": 5, "GOV.BR": 5, "GZH": 5, "Gazeta do Povo": 8,
-    "Hora Certa Notícias": 5, "Hora do Povo": 2, "ISTOÉ": 7, "InfoMoney": 5,
-    "Inteligência Financeira": 5, "Investing.com Brasil": 5, "Istoé Dinheiro": 6,
-    "Itatiaia": 5, "Jornal Correio": 5, "Jornal O Sul": 5, "Jornal Opção": 5,
-    "Jornal de Brasília": 5, "Jornal de Notícias": 5, "Jornal do Comércio": 5,
-    "Jovem Pan": 9, "MSN": 5, "Mais Brasília": 5, "Metrópoles": 5,
-    "Money Times": 5, "NSC Total": 5, "Nexo Jornal": 3, "Notícia Hoje": 5,
-    "Notícias Agrícolas": 7, "O Antagonista": 8, "O Bairrista": 5, "O Bastidor": 5,
-    "O Cafezinho": 2, "O Dia": 5, "O Globo": 6, "O POVO": 4, "O Popular": 5,
-    "O Tempo": 5, "OLiberal.com": 5, "Petronotícias": 5, "Pleno.News": 9,
-    "Poder360": 6, "Ponta Porã Informa": 5, "Portal Salvador FM": 5,
-    "Portal do Estado do Rio Grande do Sul": 5, "Portal iG": 5, "Público": 3,
-    "R7": 7, "RDCTV": 5, "RFI Português": 3, "Revista Oeste": 10,
-    "Robsonpiresxerife": 5, "SBT": 7, "SIC Notícias": 5, "Senado Federal": 5,
-    "Seu Dinheiro": 5, "Stars Insider": 5, "Sul21": 2, "TSF Online": 5,
-    "Terra": 5, "Tribuna do Norte": 5, "Tribuna do Sertão": 5, "UOL Confere": 4,
-    "UOL Notícias": 5, "VEJA": 8, "Vermelho": 1, "cancaonova.com": 6, "epbr": 5,
-    "montesclaros.com": 5, "sampi.net.br": 5, "Área VIP": 5,
+    name: int(config["spectrum_score"])
+    for name, config in NEWS_SOURCE_CONFIG.items()
 }
 
 STOPWORDS = set("""
@@ -242,13 +230,24 @@ def score_to_bucket(score: int | None) -> str:
     return "right"
 
 
+def canonical_source_name(source: str) -> str:
+    source_clean = source.strip()
+    if source_clean in SOURCE_ALIASES:
+        return SOURCE_ALIASES[source_clean]
+    normalized = source_clean.lower()
+    for alias, canonical in SOURCE_ALIASES.items():
+        if alias.strip().lower() == normalized:
+            return canonical
+    for name in NEWS_SOURCE_CONFIG:
+        if name.strip().lower() == normalized:
+            return name
+    return source_clean
+
+
 def source_score(source: str) -> int | None:
-    if source in NEWS_POLITICAL_SPECTRUM:
-        return NEWS_POLITICAL_SPECTRUM[source]
-    normalized = source.strip().lower()
-    for key, value in NEWS_POLITICAL_SPECTRUM.items():
-        if key.strip().lower() == normalized:
-            return value
+    canonical = canonical_source_name(source)
+    if canonical in NEWS_POLITICAL_SPECTRUM:
+        return NEWS_POLITICAL_SPECTRUM[canonical]
     return None
 
 
@@ -284,6 +283,7 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
     bucket_counts = {"left": 0, "centerLeft": 0, "center": 0, "centerRight": 0, "right": 0, "unknown": 0}
     scores = []
     for item in articles_raw:
+        canonical_source = canonical_source_name(item["source"])
         score = source_score(item["source"])
         bucket = score_to_bucket(score)
         bucket_counts[bucket] += 1
@@ -295,6 +295,7 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
             "description": item["description"],
             "url": item["url"],
             "source": item["source"],
+            "sourceCanonical": canonical_source,
             "sourceDomain": item.get("sourceDomain"),
             "publishedAt": item["publishedAt"],
             "postedLabel": item.get("postedLabel") or "",
@@ -363,18 +364,24 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
 
 def build_sources() -> list[dict[str, Any]]:
     labels = {"left": "Progressista", "centerLeft": "Centro-progressista", "center": "Centro", "centerRight": "Centro-conservador", "right": "Conservador", "unknown": "Não classificado"}
-    return [
-        {
+    sources = []
+    for name, config in sorted(NEWS_SOURCE_CONFIG.items()):
+        score = int(config["spectrum_score"])
+        bucket = score_to_bucket(score)
+        sources.append({
             "name": name,
             "spectrumScore": score,
-            "bucket": score_to_bucket(score),
-            "label": labels[score_to_bucket(score)],
-            "confidence": "manual",
-            "region": "Brasil",
-            "type": "veículo",
-        }
-        for name, score in sorted(NEWS_POLITICAL_SPECTRUM.items())
-    ]
+            "bucket": bucket,
+            "label": config.get("spectrum_label") or labels[bucket],
+            "confidence": config.get("confidence", "medium"),
+            "region": config.get("country", "BR"),
+            "type": config.get("type", "editorial"),
+            "scope": config.get("scope"),
+            "politicalWeight": config.get("political_weight", 1),
+            "reviewStatus": config.get("review_status", "draft"),
+            "rationale": config.get("rationale"),
+        })
+    return sources
 
 
 def main() -> int:
@@ -405,7 +412,8 @@ def main() -> int:
     unknown_sources = set()
     for c in clusters:
         for a in c["articles"]:
-            (known_sources if a.get("spectrumScore") is not None else unknown_sources).add(a["source"])
+            source_key = a.get("sourceCanonical") or a["source"]
+            (known_sources if a.get("spectrumScore") is not None else unknown_sources).add(source_key)
 
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
