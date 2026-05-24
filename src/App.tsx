@@ -158,6 +158,12 @@ function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => vo
   )
 }
 
+function formatPoliticalWeight(weight?: number) {
+  if (weight === undefined || Number.isNaN(weight)) return '—'
+  const normalized = weight <= 1 ? weight * 5 : weight
+  return `${Math.max(1, Math.min(5, normalized)).toFixed(1)}/5`
+}
+
 function SourcesPage({ data }: { data: NewsPayload }) {
   const [query, setQuery] = useState('')
   const [bucket, setBucket] = useState<SpectrumBucket | 'all'>('all')
@@ -222,7 +228,7 @@ function SourcesPage({ data }: { data: NewsPayload }) {
         <div className="panel-title"><Gauge /> Como ler as métricas</div>
         <div className="metric-guide-grid">
           <div><strong>Score editorial</strong><p>Escala 1–10 usada para posicionar fontes no espectro: valores menores indicam perfil mais progressista; valores maiores, mais conservador; o centro fica próximo de 5–6.</p></div>
-          <div><strong>Peso político</strong><p>Indicador 1–5 de influência no debate político nacional: combina alcance, frequência com que pauta Brasília/eleições e relevância para formadores de opinião.</p></div>
+          <div><strong>Peso político</strong><p>Indicador exibido em 1–5, convertido do peso relativo interno 0–1. Ajuda a estimar influência no debate político nacional combinando alcance, frequência em Brasília/eleições e relevância para formadores de opinião.</p></div>
           <div><strong>Confiança</strong><p>Mostra quão segura é a classificação atual. “Alta” indica fonte conhecida e metadados consistentes; “média/baixa” pede revisão humana.</p></div>
           <div><strong>Presença na coleta</strong><p>Conta quantos artigos e clusters daquele veículo apareceram no snapshot atual do Google News, sem representar audiência total.</p></div>
         </div>
@@ -246,7 +252,7 @@ function SourcesPage({ data }: { data: NewsPayload }) {
               <div className="source-label-row"><span style={{ borderColor: bucketColors[source.bucket], color: bucketColors[source.bucket] }}>{source.label}</span><small>{source.reviewStatus === 'reviewed' ? 'Revisada com IA' : source.reviewStatus === 'disputed' ? 'Disputada' : 'Rascunho IA'} · confiança {source.confidence}</small></div>
               <p>{source.rationale ?? 'Classificação inicial assistida por IA e aberta para revisão editorial humana.'}</p>
               {source.notes?.length ? <ul>{source.notes.slice(0, 2).map((note) => <li key={note}>{note}</li>)}</ul> : null}
-              <div className="source-foot"><span>{coverage?.articles ?? 0} artigos nesta coleta</span><span>{coverage?.clusters.size ?? 0} clusters</span><span>peso {source.politicalWeight ?? '—'}</span></div>
+              <div className="source-foot"><span>{coverage?.articles ?? 0} artigos nesta coleta</span><span>{coverage?.clusters.size ?? 0} clusters</span><span>peso político {formatPoliticalWeight(source.politicalWeight)}</span></div>
             </article>
           })}
       </div>
