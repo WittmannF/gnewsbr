@@ -198,6 +198,7 @@ function SourcesPage({ data }: { data: NewsPayload }) {
           <span className="eyebrow"><ShieldQuestion size={16} /> Mapa editorial auditável</span>
           <h1>Fontes monitoradas</h1>
           <p>Consulte a classificação editorial usada no radar, a confiança da revisão e a presença de cada veículo na coleta atual. A escala é uma estimativa editorial revisável — não mede qualidade, verdade ou credibilidade.</p>
+          <div className="ai-review-note"><Sparkles size={17} /><span>As revisões e justificativas desta rodada foram <strong>assistidas por IA</strong> e devem ser tratadas como rascunho auditável até validação editorial humana.</span></div>
         </div>
         <div className="source-summary-grid">
           <ScorePill label="Fontes no mapa" value={data.sources.length} icon={Newspaper} />
@@ -217,6 +218,16 @@ function SourcesPage({ data }: { data: NewsPayload }) {
         </div>
       </section>
 
+      <section className="metric-guide">
+        <div className="panel-title"><Gauge /> Como ler as métricas</div>
+        <div className="metric-guide-grid">
+          <div><strong>Score editorial</strong><p>Escala 1–10 usada para posicionar fontes no espectro: valores menores indicam perfil mais progressista; valores maiores, mais conservador; o centro fica próximo de 5–6.</p></div>
+          <div><strong>Peso político</strong><p>Indicador 1–5 de influência no debate político nacional: combina alcance, frequência com que pauta Brasília/eleições e relevância para formadores de opinião.</p></div>
+          <div><strong>Confiança</strong><p>Mostra quão segura é a classificação atual. “Alta” indica fonte conhecida e metadados consistentes; “média/baixa” pede revisão humana.</p></div>
+          <div><strong>Presença na coleta</strong><p>Conta quantos artigos e clusters daquele veículo apareceram no snapshot atual do Google News, sem representar audiência total.</p></div>
+        </div>
+      </section>
+
       <section className="sources-toolbar">
         <div className="search-box"><Search size={18} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar por veículo, justificativa, tipo ou país" /></div>
         <div className="topic-tabs"><Filter size={16} /><button className={bucket === 'all' ? 'active' : ''} onClick={() => setBucket('all')}>Todos os perfis</button>{bucketOrder.filter((item) => item !== 'unknown').map((item) => <button key={item} className={bucket === item ? 'active' : ''} onClick={() => setBucket(item)}>{bucketLabels[item]}</button>)}</div>
@@ -232,8 +243,8 @@ function SourcesPage({ data }: { data: NewsPayload }) {
             const coverage = sourceCoverage.get(source.name)
             return <article className="source-card enhanced" key={source.name}>
               <div className="source-card-head"><div><strong>{source.name}</strong><span>{source.scope ?? source.region} · {source.type}</span></div><b style={{ color: bucketColors[source.bucket] }}>{source.spectrumScore ?? '—'}</b></div>
-              <div className="source-label-row"><span style={{ borderColor: bucketColors[source.bucket], color: bucketColors[source.bucket] }}>{source.label}</span><small>{source.reviewStatus === 'reviewed' ? 'Revisada' : source.reviewStatus === 'disputed' ? 'Disputada' : 'Rascunho'} · confiança {source.confidence}</small></div>
-              <p>{source.rationale ?? 'Classificação inicial aberta para revisão por PR.'}</p>
+              <div className="source-label-row"><span style={{ borderColor: bucketColors[source.bucket], color: bucketColors[source.bucket] }}>{source.label}</span><small>{source.reviewStatus === 'reviewed' ? 'Revisada com IA' : source.reviewStatus === 'disputed' ? 'Disputada' : 'Rascunho IA'} · confiança {source.confidence}</small></div>
+              <p>{source.rationale ?? 'Classificação inicial assistida por IA e aberta para revisão editorial humana.'}</p>
               {source.notes?.length ? <ul>{source.notes.slice(0, 2).map((note) => <li key={note}>{note}</li>)}</ul> : null}
               <div className="source-foot"><span>{coverage?.articles ?? 0} artigos nesta coleta</span><span>{coverage?.clusters.size ?? 0} clusters</span><span>peso {source.politicalWeight ?? '—'}</span></div>
             </article>
