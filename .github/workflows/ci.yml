@@ -37,5 +37,8 @@ jobs:
           npm run sources:validate
           npm run sources:build
 
+      - name: Run Python regression tests
+        run: python -m unittest discover -s tests -v
+
       - name: Build
         run: npm run build

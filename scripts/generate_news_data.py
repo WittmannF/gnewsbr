@@ -255,6 +255,59 @@ def article_id(url: str) -> str:
     return "article_" + hashlib.sha1(url.encode("utf-8")).hexdigest()[:12]
 
 
+def cluster_id(story_id: str) -> str:
+    """Create a stable unique cluster id from the full Google News story id.
+
+    Google News story ids share a long common prefix, so truncating the raw id
+    creates duplicate React keys and can make distinct cards render as repeats.
+    """
+    return "story_" + hashlib.sha1(story_id.encode("utf-8")).hexdigest()[:12]
+
+
+def cluster_article_urls(cluster: dict[str, Any]) -> set[str]:
+    return {article.get("url") for article in cluster.get("articles", []) if article.get("url")}
+
+
+def cluster_overlap_ratio(first: dict[str, Any], second: dict[str, Any]) -> float:
+    first_urls = cluster_article_urls(first)
+    second_urls = cluster_article_urls(second)
+    if not first_urls or not second_urls:
+        return 0.0
+    return len(first_urls & second_urls) / min(len(first_urls), len(second_urls))
+
+
+def cluster_completeness_key(cluster: dict[str, Any]) -> tuple[int, int, int]:
+    articles = cluster.get("articles", [])
+    return (
+        int(cluster.get("articleCount") or len(articles)),
+        int(cluster.get("sourceCount") or len({article.get("source") for article in articles if article.get("source")})),
+        int((cluster.get("spectrum") or {}).get("knownCount") or 0),
+    )
+
+
+def dedupe_clusters(clusters: list[dict[str, Any]], overlap_threshold: float = 0.7) -> list[dict[str, Any]]:
+    """Remove near-duplicate Google News story variants.
+
+    Google sometimes returns multiple /stories ids for the same coverage package.
+    When two clusters share most article URLs, keep the more complete one.
+    """
+    deduped: list[dict[str, Any]] = []
+    for cluster in clusters:
+        duplicate_index = None
+        for idx, existing in enumerate(deduped):
+            same_title = cluster.get("title") == existing.get("title")
+            high_overlap = cluster_overlap_ratio(cluster, existing) >= overlap_threshold
+            if high_overlap or (same_title and cluster_overlap_ratio(cluster, existing) >= 0.5):
+                duplicate_index = idx
+                break
+        if duplicate_index is None:
+            deduped.append(cluster)
+            continue
+        if cluster_completeness_key(cluster) > cluster_completeness_key(deduped[duplicate_index]):
+            deduped[duplicate_index] = cluster
+    return deduped
+
+
 def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: int) -> dict[str, Any] | None:
     url = STORY_URL_TEMPLATE.format(story_id)
     try:
@@ -330,7 +383,7 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
     fallback_image = FALLBACK_IMAGES[int(hashlib.sha1(story_id.encode()).hexdigest(), 16) % len(FALLBACK_IMAGES)]
 
     return {
-        "id": "story_" + story_id[:16],
+        "id": cluster_id(story_id),
         "storyId": story_id,
         "storyUrl": url,
         "seedPages": sorted(seed_labels),
@@ -406,6 +459,7 @@ def main() -> int:
             clusters.append(cluster)
         time.sleep(args.sleep)
 
+    clusters = dedupe_clusters(clusters)
     clusters.sort(key=lambda c: (c["articleCount"], c["spectrum"]["knownCount"]), reverse=True)
     article_count = sum(len(c["articles"]) for c in clusters)
     known_sources = set()
