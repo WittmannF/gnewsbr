@@ -160,8 +160,8 @@ function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => vo
 
 function formatPoliticalWeight(weight?: number) {
   if (weight === undefined || Number.isNaN(weight)) return '—'
-  const normalized = weight <= 1 ? weight * 5 : weight
-  return `${Math.max(1, Math.min(5, normalized)).toFixed(1)}/5`
+  const normalized = Math.max(1, Math.min(5, weight <= 1 ? weight * 5 : weight))
+  return Number.isInteger(normalized) ? String(normalized) : normalized.toFixed(1)
 }
 
 function SourcesPage({ data }: { data: NewsPayload }) {
@@ -228,7 +228,7 @@ function SourcesPage({ data }: { data: NewsPayload }) {
         <div className="panel-title"><Gauge /> Como ler as métricas</div>
         <div className="metric-guide-grid">
           <div><strong>Score editorial</strong><p>Escala 1–10 usada para posicionar fontes no espectro: valores menores indicam perfil mais progressista; valores maiores, mais conservador; o centro fica próximo de 5–6.</p></div>
-          <div><strong>Peso político</strong><p>Indicador exibido em 1–5, convertido do peso relativo interno 0–1. Ajuda a estimar influência no debate político nacional combinando alcance, frequência em Brasília/eleições e relevância para formadores de opinião.</p></div>
+          <div><strong>Peso político</strong><p>Indicador exibido em escala 1–5, convertido do peso relativo interno 0–1. Ajuda a estimar influência no debate político nacional combinando alcance, frequência em Brasília/eleições e relevância para formadores de opinião.</p></div>
           <div><strong>Confiança</strong><p>Mostra quão segura é a classificação atual. “Alta” indica fonte conhecida e metadados consistentes; “média/baixa” pede revisão humana.</p></div>
           <div><strong>Presença na coleta</strong><p>Conta quantos artigos e clusters daquele veículo apareceram no snapshot atual do Google News, sem representar audiência total.</p></div>
         </div>
