@@ -285,26 +285,42 @@ def cluster_completeness_key(cluster: dict[str, Any]) -> tuple[int, int, int]:
     )
 
 
+def normalized_cluster_title(cluster: dict[str, Any]) -> str:
+    title = str(cluster.get("title") or "").strip().lower()
+    return re.sub(r"\s+", " ", title)
+
+
 def dedupe_clusters(clusters: list[dict[str, Any]], overlap_threshold: float = 0.7) -> list[dict[str, Any]]:
     """Remove near-duplicate Google News story variants.
 
     Google sometimes returns multiple /stories ids for the same coverage package.
-    When two clusters share most article URLs, keep the more complete one.
+    When two clusters share most article URLs, keep the more complete one. Some
+    duplicate variants also arrive with identical story titles but disjoint URL
+    lists, so exact normalized title matches are treated as duplicates too.
     """
     deduped: list[dict[str, Any]] = []
+    seen_titles: dict[str, int] = {}
     for cluster in clusters:
         duplicate_index = None
-        for idx, existing in enumerate(deduped):
-            same_title = cluster.get("title") == existing.get("title")
-            high_overlap = cluster_overlap_ratio(cluster, existing) >= overlap_threshold
-            if high_overlap or (same_title and cluster_overlap_ratio(cluster, existing) >= 0.5):
-                duplicate_index = idx
-                break
+        title_key = normalized_cluster_title(cluster)
+        if title_key:
+            duplicate_index = seen_titles.get(title_key)
+        if duplicate_index is None:
+            for idx, existing in enumerate(deduped):
+                same_title = title_key and title_key == normalized_cluster_title(existing)
+                high_overlap = cluster_overlap_ratio(cluster, existing) >= overlap_threshold
+                if high_overlap or (same_title and cluster_overlap_ratio(cluster, existing) >= 0.5):
+                    duplicate_index = idx
+                    break
         if duplicate_index is None:
             deduped.append(cluster)
+            if title_key:
+                seen_titles[title_key] = len(deduped) - 1
             continue
         if cluster_completeness_key(cluster) > cluster_completeness_key(deduped[duplicate_index]):
             deduped[duplicate_index] = cluster
+            if title_key:
+                seen_titles[title_key] = duplicate_index
     return deduped
 
 

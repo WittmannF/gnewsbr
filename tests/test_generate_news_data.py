@@ -65,6 +65,15 @@ class GenerateNewsDataTest(unittest.TestCase):
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0]["storyId"], larger["storyId"])
 
+    def test_dedupe_clusters_removes_google_story_variants_with_identical_titles(self):
+        first = make_cluster("CAAqNggKIjBDQklT_first", ["https://example.com/a/1", "https://example.com/a/2"], title="Notícias sobre Trump")
+        duplicate = make_cluster("CAAqNggKIjBDQklT_second", ["https://example.com/b/1", "https://example.com/b/2"], title="  notícias   sobre trump  ")
+        unrelated = make_cluster("CAAqNggKIjBDQklT_third", ["https://example.com/c/1"], title="Different story")
+
+        result = generate_news_data.dedupe_clusters([first, duplicate, unrelated])
+
+        self.assertEqual([cluster["storyId"] for cluster in result], [first["storyId"], unrelated["storyId"]])
+
 
 if __name__ == "__main__":
     unittest.main()
