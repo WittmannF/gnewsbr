@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generate GNewsBR static JSON from Google News Brasil stories.
+"""Generate GNewsBR static JSON from collected news stories.
 
 This intentionally starts from the reference script Fernando provided:
-- discover /stories/<id> links from Google News pages;
+- discover /stories/<id> links from news index pages;
 - open each story page;
 - parse AF_initDataCallback JSON;
 - extract article-like arrays with title/description/time/url/source;
@@ -111,7 +111,7 @@ def discover_story_ids(max_seed_pages: int | None = None) -> OrderedDict[str, se
             print(f"WARN seed page failed {label}: {exc}", file=sys.stderr)
             continue
         ids = set(re.findall(r'(?:\./|/)stories/([A-Za-z0-9_-]{20,})', html))
-        # Some Google markup puts escaped URLs in data blobs. This catches those too.
+        # Some upstream markup puts escaped URLs in data blobs. This catches those too.
         ids |= set(re.findall(r'stories/([A-Za-z0-9_-]{20,})\?', html))
         for sid in sorted(ids):
             story_sources.setdefault(sid, set()).add(label)
@@ -133,7 +133,7 @@ def extract_json_blobs(html: str) -> list[Any]:
 
 
 def source_name_from_article_list(row: list[Any]) -> str:
-    # Observed Google News structure: row[10][2] = source name; row[36][1][0][0] = "Acessar Fonte".
+    # Observed upstream structure: row[10][2] = source name; row[36][1][0][0] = "Acessar Fonte".
     try:
         val = row[10][2]
         if isinstance(val, str) and val.strip():
@@ -255,6 +255,75 @@ def article_id(url: str) -> str:
     return "article_" + hashlib.sha1(url.encode("utf-8")).hexdigest()[:12]
 
 
+def cluster_id(story_id: str) -> str:
+    """Create a stable unique cluster id from the full upstream story id.
+
+    Upstream story ids share a long common prefix, so truncating the raw id
+    creates duplicate React keys and can make distinct cards render as repeats.
+    """
+    return "story_" + hashlib.sha1(story_id.encode("utf-8")).hexdigest()[:12]
+
+
+def cluster_article_urls(cluster: dict[str, Any]) -> set[str]:
+    return {article.get("url") for article in cluster.get("articles", []) if article.get("url")}
+
+
+def cluster_overlap_ratio(first: dict[str, Any], second: dict[str, Any]) -> float:
+    first_urls = cluster_article_urls(first)
+    second_urls = cluster_article_urls(second)
+    if not first_urls or not second_urls:
+        return 0.0
+    return len(first_urls & second_urls) / min(len(first_urls), len(second_urls))
+
+
+def cluster_completeness_key(cluster: dict[str, Any]) -> tuple[int, int, int]:
+    articles = cluster.get("articles", [])
+    return (
+        int(cluster.get("articleCount") or len(articles)),
+        int(cluster.get("sourceCount") or len({article.get("source") for article in articles if article.get("source")})),
+        int((cluster.get("spectrum") or {}).get("knownCount") or 0),
+    )
+
+
+def normalized_cluster_title(cluster: dict[str, Any]) -> str:
+    title = str(cluster.get("title") or "").strip().lower()
+    return re.sub(r"\s+", " ", title)
+
+
+def dedupe_clusters(clusters: list[dict[str, Any]], overlap_threshold: float = 0.7) -> list[dict[str, Any]]:
+    """Remove near-duplicate story variants.
+
+    The upstream feed sometimes returns multiple /stories ids for the same coverage package.
+    When two clusters share most article URLs, keep the more complete one. Some
+    duplicate variants also arrive with identical story titles but disjoint URL
+    lists, so exact normalized title matches are treated as duplicates too.
+    """
+    deduped: list[dict[str, Any]] = []
+    seen_titles: dict[str, int] = {}
+    for cluster in clusters:
+        duplicate_index = None
+        title_key = normalized_cluster_title(cluster)
+        if title_key:
+            duplicate_index = seen_titles.get(title_key)
+        if duplicate_index is None:
+            for idx, existing in enumerate(deduped):
+                same_title = title_key and title_key == normalized_cluster_title(existing)
+                high_overlap = cluster_overlap_ratio(cluster, existing) >= overlap_threshold
+                if high_overlap or (same_title and cluster_overlap_ratio(cluster, existing) >= 0.5):
+                    duplicate_index = idx
+                    break
+        if duplicate_index is None:
+            deduped.append(cluster)
+            if title_key:
+                seen_titles[title_key] = len(deduped) - 1
+            continue
+        if cluster_completeness_key(cluster) > cluster_completeness_key(deduped[duplicate_index]):
+            deduped[duplicate_index] = cluster
+            if title_key:
+                seen_titles[title_key] = duplicate_index
+    return deduped
+
+
 def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: int) -> dict[str, Any] | None:
     url = STORY_URL_TEMPLATE.format(story_id)
     try:
@@ -325,12 +394,12 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
         flags.append("Cobertura monitorada")
 
     title = story_title_from_blobs(blobs, articles)
-    summary = articles[0]["description"] or "Cluster extraído do Google News Brasil com artigos relacionados e distribuição editorial estimada."
+    summary = articles[0]["description"] or "Cluster extraído da coleta editorial com artigos relacionados e distribuição editorial estimada."
     source_count = len(set(a["source"] for a in articles))
     fallback_image = FALLBACK_IMAGES[int(hashlib.sha1(story_id.encode()).hexdigest(), 16) % len(FALLBACK_IMAGES)]
 
     return {
-        "id": "story_" + story_id[:16],
+        "id": cluster_id(story_id),
         "storyId": story_id,
         "storyUrl": url,
         "seedPages": sorted(seed_labels),
@@ -406,6 +475,7 @@ def main() -> int:
             clusters.append(cluster)
         time.sleep(args.sleep)
 
+    clusters = dedupe_clusters(clusters)
     clusters.sort(key=lambda c: (c["articleCount"], c["spectrum"]["knownCount"]), reverse=True)
     article_count = sum(len(c["articles"]) for c in clusters)
     known_sources = set()
@@ -417,8 +487,8 @@ def main() -> int:
 
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "version": "0.2.0-google-news-real",
-        "source": "Google News Brasil /stories coletados de Manchetes e tópicos",
+        "version": "0.2.0-editorial-collection",
+        "source": "Coleta editorial / stories coletados de manchetes e tópicos",
         "stats": {
             "clusterCount": len(clusters),
             "articleCount": article_count,

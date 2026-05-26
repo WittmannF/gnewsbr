@@ -6,9 +6,14 @@ export type SourceMeta = {
   spectrumScore?: number
   bucket: SpectrumBucket
   label: string
-  confidence: 'manual' | 'inferred' | 'unknown'
+  confidence: 'manual' | 'inferred' | 'unknown' | 'low' | 'medium' | 'high'
   region: string
   type: string
+  scope?: string
+  politicalWeight?: number
+  reviewStatus?: 'draft' | 'reviewed' | 'disputed'
+  rationale?: string
+  notes?: string[]
 }
 
 export type Article = {
@@ -17,6 +22,7 @@ export type Article = {
   description: string
   url: string
   source: string
+  sourceCanonical?: string
   sourceDomain?: string
   publishedAt: string
   postedLabel: string

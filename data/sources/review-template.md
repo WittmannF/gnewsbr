@@ -6,7 +6,7 @@ Use este modelo em issues ou PRs quando quiser revisar uma classificação.
 
 - Nome canônico:
 - URL principal:
-- Aliases conhecidos no Google News:
+- Aliases conhecidos na coleta:
 
 ## Classificação atual
 

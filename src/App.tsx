@@ -74,7 +74,7 @@ function Header({ current, onNavigate }: { current: string; onNavigate: (view: s
   )
 }
 
-function HomePage({ data, onOpen }: { data: NewsPayload; onOpen: (cluster: Cluster) => void }) {
+function HomePage({ data, onOpen, onNavigate }: { data: NewsPayload; onOpen: (cluster: Cluster) => void; onNavigate: (view: string) => void }) {
   const [query, setQuery] = useState('')
   const [topic, setTopic] = useState('Todos')
   const topics = useMemo(() => {
@@ -101,10 +101,10 @@ function HomePage({ data, onOpen }: { data: NewsPayload; onOpen: (cluster: Clust
     <main>
       <section className="hero">
         <div className="hero-copy">
-          <span className="eyebrow"><Sparkles size={16} /> MVP com clusters do Google News Brasil</span>
+          <span className="eyebrow"><Sparkles size={16} /> Radar de cobertura da imprensa brasileira</span>
           <h1>Compare como a imprensa brasileira cobre a mesma história.</h1>
-          <p>Um radar inspirado no Ground News: clusters, manchetes lado a lado, distribuição editorial estimada e links para as fontes originais.</p>
-          <div className="hero-actions"><button onClick={() => document.getElementById('clusters')?.scrollIntoView({ behavior: 'smooth' })}>Ver notícias de hoje</button><button className="secondary">Como funciona</button></div>
+          <p>Um radar editorial com clusters, manchetes lado a lado, distribuição estimada de perfis e links para as fontes originais.</p>
+          <div className="hero-actions"><button onClick={() => document.getElementById('clusters')?.scrollIntoView({ behavior: 'smooth' })}>Ver notícias de hoje</button><button className="secondary" onClick={() => onNavigate('methodology')}>Como funciona</button></div>
         </div>
         <div className="hero-panel">
           <div className="panel-title"><BarChart3 /> Snapshot da coleta</div>
@@ -158,12 +158,110 @@ function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => vo
   )
 }
 
+function formatPoliticalWeight(weight?: number) {
+  if (weight === undefined || Number.isNaN(weight)) return '—'
+  const normalized = Math.max(1, Math.min(5, weight <= 1 ? weight * 5 : weight))
+  return Number.isInteger(normalized) ? String(normalized) : normalized.toFixed(1)
+}
+
 function SourcesPage({ data }: { data: NewsPayload }) {
-  return <main className="plain-page"><h1>Fontes monitoradas</h1><p>O MVP começa com o dicionário manual do script de referência. A classificação é estimada e revisável.</p><div className="source-grid">{data.sources.map((source) => <div className="source-card" key={source.name}><div><strong>{source.name}</strong><span>{source.domain}</span></div><b style={{ color: bucketColors[source.bucket] }}>{source.spectrumScore ?? '—'}</b><small>{source.label} · {source.type} · {source.region}</small></div>)}</div></main>
+  const [query, setQuery] = useState('')
+  const [bucket, setBucket] = useState<SpectrumBucket | 'all'>('all')
+  const [status, setStatus] = useState<'all' | 'reviewed' | 'draft' | 'disputed'>('all')
+
+  const sourceCoverage = useMemo(() => {
+    const coverage = new Map<string, { articles: number; clusters: Set<string> }>()
+    data.clusters.forEach((cluster) => {
+      cluster.articles.forEach((article) => {
+        const key = article.sourceCanonical || article.source
+        const current = coverage.get(key) ?? { articles: 0, clusters: new Set<string>() }
+        current.articles += 1
+        current.clusters.add(cluster.id)
+        coverage.set(key, current)
+      })
+    })
+    return coverage
+  }, [data.clusters])
+
+  const bucketCounts = useMemo(() => bucketOrder
+    .filter((item) => item !== 'unknown')
+    .map((item) => ({ bucket: item, count: data.sources.filter((source) => source.bucket === item).length })), [data.sources])
+  const reviewedCount = data.sources.filter((source) => source.reviewStatus === 'reviewed').length
+  const filteredSources = useMemo(() => data.sources.filter((source) => {
+    const q = query.trim().toLowerCase()
+    const coverage = sourceCoverage.get(source.name)
+    const haystack = [source.name, source.label, source.type, source.scope, source.region, source.rationale, ...(source.notes ?? [])].join(' ').toLowerCase()
+    const matchesQuery = !q || haystack.includes(q)
+    const matchesBucket = bucket === 'all' || source.bucket === bucket
+    const matchesStatus = status === 'all' || source.reviewStatus === status
+    return matchesQuery && matchesBucket && matchesStatus && (coverage || !q)
+  }), [bucket, data.sources, query, sourceCoverage, status])
+
+  return (
+    <main className="plain-page sources-page">
+      <section className="sources-hero">
+        <div>
+          <span className="eyebrow"><ShieldQuestion size={16} /> Mapa editorial auditável</span>
+          <h1>Fontes monitoradas</h1>
+          <p>Consulte a classificação editorial usada no radar, a confiança da revisão e a presença de cada veículo na coleta atual. A escala é uma estimativa editorial revisável — não mede qualidade, verdade ou credibilidade.</p>
+          <div className="ai-review-note"><Sparkles size={17} /><span>As revisões e justificativas desta rodada foram <strong>assistidas por IA</strong> e devem ser tratadas como rascunho auditável até validação editorial humana.</span></div>
+        </div>
+        <div className="source-summary-grid">
+          <ScorePill label="Fontes no mapa" value={data.sources.length} icon={Newspaper} />
+          <ScorePill label="Revisadas" value={reviewedCount} icon={CheckCircle2} />
+          <ScorePill label="Na coleta" value={data.stats.knownSources} icon={TrendingUp} />
+          <ScorePill label="Sem mapa" value={data.stats.unknownSources} icon={ShieldQuestion} />
+        </div>
+      </section>
+
+      <section className="source-spectrum-panel">
+        <div className="panel-title"><BarChart3 /> Distribuição do mapa de fontes</div>
+        <div className="source-bucket-bars">
+          {bucketCounts.map(({ bucket: item, count }) => {
+            const percent = Math.round((count / Math.max(1, data.sources.length)) * 100)
+            return <button key={item} className={bucket === item ? 'active' : ''} onClick={() => setBucket(bucket === item ? 'all' : item)}><span><i style={{ background: bucketColors[item] }} />{bucketLabels[item]}</span><strong>{count}</strong><em style={{ width: `${percent}%`, background: bucketColors[item] }} /></button>
+          })}
+        </div>
+      </section>
+
+      <section className="metric-guide">
+        <div className="panel-title"><Gauge /> Como ler as métricas</div>
+        <div className="metric-guide-grid">
+          <div><strong>Score editorial</strong><p>Escala 1–10 usada para posicionar fontes no espectro: valores menores indicam perfil mais progressista; valores maiores, mais conservador; o centro fica próximo de 5–6.</p></div>
+          <div><strong>Peso político</strong><p>Indicador exibido em escala 1–5, convertido do peso relativo interno 0–1. Ajuda a estimar influência no debate político nacional combinando alcance, frequência em Brasília/eleições e relevância para formadores de opinião.</p></div>
+          <div><strong>Confiança</strong><p>Mostra quão segura é a classificação atual. “Alta” indica fonte conhecida e metadados consistentes; “média/baixa” pede revisão humana.</p></div>
+          <div><strong>Presença na coleta</strong><p>Conta quantos artigos e clusters daquele veículo apareceram no snapshot atual da coleta, sem representar audiência total.</p></div>
+        </div>
+      </section>
+
+      <section className="sources-toolbar">
+        <div className="search-box"><Search size={18} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar por veículo, justificativa, tipo ou país" /></div>
+        <div className="topic-tabs"><Filter size={16} /><button className={bucket === 'all' ? 'active' : ''} onClick={() => setBucket('all')}>Todos os perfis</button>{bucketOrder.filter((item) => item !== 'unknown').map((item) => <button key={item} className={bucket === item ? 'active' : ''} onClick={() => setBucket(item)}>{bucketLabels[item]}</button>)}</div>
+        <div className="topic-tabs compact"><button className={status === 'all' ? 'active' : ''} onClick={() => setStatus('all')}>Todos</button><button className={status === 'reviewed' ? 'active' : ''} onClick={() => setStatus('reviewed')}>Revisadas</button><button className={status === 'draft' ? 'active' : ''} onClick={() => setStatus('draft')}>Rascunho</button><button className={status === 'disputed' ? 'active' : ''} onClick={() => setStatus('disputed')}>Disputadas</button></div>
+      </section>
+
+      <div className="source-results"><strong>{filteredSources.length}</strong> fontes exibidas · ordenadas por presença na coleta e score editorial</div>
+      <div className="source-grid enhanced">
+        {filteredSources
+          .slice()
+          .sort((a, b) => (sourceCoverage.get(b.name)?.articles ?? 0) - (sourceCoverage.get(a.name)?.articles ?? 0) || (a.spectrumScore ?? 99) - (b.spectrumScore ?? 99) || a.name.localeCompare(b.name))
+          .map((source) => {
+            const coverage = sourceCoverage.get(source.name)
+            return <article className="source-card enhanced" key={source.name}>
+              <div className="source-card-head"><div><strong>{source.name}</strong><span>{source.scope ?? source.region} · {source.type}</span></div><b style={{ color: bucketColors[source.bucket] }}>{source.spectrumScore ?? '—'}</b></div>
+              <div className="source-label-row"><span style={{ borderColor: bucketColors[source.bucket], color: bucketColors[source.bucket] }}>{source.label}</span><small>{source.reviewStatus === 'reviewed' ? 'Revisada com IA' : source.reviewStatus === 'disputed' ? 'Disputada' : 'Rascunho IA'} · confiança {source.confidence}</small></div>
+              <p>{source.rationale ?? 'Classificação inicial assistida por IA e aberta para revisão editorial humana.'}</p>
+              {source.notes?.length ? <ul>{source.notes.slice(0, 2).map((note) => <li key={note}>{note}</li>)}</ul> : null}
+              <div className="source-foot"><span>{coverage?.articles ?? 0} artigos nesta coleta</span><span>{coverage?.clusters.size ?? 0} clusters</span><span>peso político {formatPoliticalWeight(source.politicalWeight)}</span></div>
+            </article>
+          })}
+      </div>
+    </main>
+  )
 }
 
 function MethodologyPage() {
-  return <main className="plain-page"><h1>Metodologia do MVP</h1><div className="methodology"><section><h2>1. Coleta</h2><p>O scraper usa a home do Google News Brasil para descobrir IDs de stories e abre cada URL <code>/stories/&lt;id&gt;</code>. O parser reaproveita a estrutura interna <code>AF_initDataCallback</code>, como no script de referência.</p></section><section><h2>2. Clusters</h2><p>No MVP, o agrupamento é herdado do Google News. Isso reduz complexidade e permite focar na experiência de comparação de cobertura.</p></section><section><h2>3. Espectro editorial</h2><p>A escala 1–10 do código original será migrada para JSON. Na UI pública, usamos rótulos cuidadosos: progressista, centro-progressista, centro, centro-conservador e conservador.</p></section><section><h2>4. Limitações</h2><p>Não republicamos conteúdo completo; mostramos título, snippet, fonte e link. A classificação não mede verdade/falsidade e deve ser auditável.</p></section></div></main>
+  return <main className="plain-page"><h1>Metodologia</h1><div className="methodology"><section><h2>1. Coleta</h2><p>A rotina de coleta identifica histórias em alta, agrupa URLs relacionadas e preserva metadados mínimos para comparação: título, snippet, veículo, horário e link original.</p></section><section><h2>2. Clusters</h2><p>O agrupamento reúne diferentes veículos cobrindo a mesma história. Isso permite comparar enquadramentos, diversidade de fontes e distribuição editorial em uma experiência única.</p></section><section><h2>3. Espectro editorial</h2><p>A escala 1–10 posiciona fontes em rótulos cuidadosos: progressista, centro-progressista, centro, centro-conservador e conservador. As revisões assistidas por IA permanecem auditáveis.</p></section><section><h2>4. Limitações</h2><p>Não republicamos conteúdo completo; mostramos título, snippet, fonte e link. A classificação não mede verdade/falsidade e deve ser auditável.</p></section></div></main>
 }
 
 export function App() {
@@ -179,5 +277,5 @@ export function App() {
   }, [])
 
   const navigate = (next: string) => { setSelected(null); setView(next) }
-  return <><Header current={selected ? 'cluster' : view} onNavigate={navigate} />{selected ? <ClusterDetail cluster={selected} onBack={() => setSelected(null)} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={setSelected} />}</>
+  return <><Header current={selected ? 'cluster' : view} onNavigate={navigate} />{selected ? <ClusterDetail cluster={selected} onBack={() => setSelected(null)} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={setSelected} onNavigate={navigate} />}</>
 }
