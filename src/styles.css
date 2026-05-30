@@ -45,3 +45,5 @@
 .metric-guide-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}.metric-guide-grid div{background:#f8faff;border:1px solid #e3e9f6;border-radius:18px;padding:15px}.metric-guide-grid strong{display:block;color:#0b1020;margin-bottom:7px}.metric-guide-grid p{margin:0;color:#5a667a;font-size:13px;line-height:1.5;max-width:none}
 @media (max-width:960px){.metric-guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:640px){.metric-guide-grid{grid-template-columns:1fr}.ai-review-note{font-size:14px}}
+
+.headline-col a>img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:14px;margin-bottom:10px;background:#edf1f8}

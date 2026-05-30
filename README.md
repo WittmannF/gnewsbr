@@ -16,10 +16,13 @@ pip install -r requirements.txt
 npm run sources:validate  # valida data/sources/source-spectrum.yml e aliases
 npm run sources:build     # gera public/data/source-spectrum.json
 npm run collect           # gera public/data/latest.json
+python3 scripts/image_preview_sandbox.py --clusters 2 --articles-per-cluster 4
 npm run dev -- --host 0.0.0.0 --port 4177
 npm run build
 npm run preview -- --host 0.0.0.0 --port 4177
 ```
+
+`npm run collect` tenta preencher imagens reais de preview a partir das metatags públicas das matérias (`og:image`/`twitter:image`). Use `-- --disable-preview-images` para pular essa etapa ou ajuste `--max-preview-image-fetches-per-story` e `--preview-image-timeout` ao rodar `scripts/generate_news_data.py` diretamente.
 
 ## Revisão colaborativa das fontes
 

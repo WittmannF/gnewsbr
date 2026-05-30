@@ -68,6 +68,10 @@ export type NewsPayload = {
     articleCount: number
     knownSources: number
     unknownSources: number
+    imageFetchAttempts?: number
+    articleImagesFromPreview?: number
+    clusterImagesFromPreview?: number
+    clusterImagesFromFallback?: number
   }
   clusters: Cluster[]
   sources: SourceMeta[]

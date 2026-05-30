@@ -151,7 +151,7 @@ function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => vo
       <section className="headline-section">
         <h2>Manchetes por perfil</h2>
         <div className="headline-columns">
-          {byBucket.map(({ bucket, articles }) => <div className="headline-col" key={bucket}><h3 style={{ color: bucketColors[bucket] }}>{bucketLabels[bucket]}</h3>{articles.map((article) => <a href={article.url} key={article.id}><strong>{article.source}</strong><span>{article.title}</span><small>{article.postedLabel}</small></a>)}</div>)}
+          {byBucket.map(({ bucket, articles }) => <div className="headline-col" key={bucket}><h3 style={{ color: bucketColors[bucket] }}>{bucketLabels[bucket]}</h3>{articles.map((article) => <a href={article.url} key={article.id}>{article.imageUrl ? <img src={article.imageUrl} alt="" loading="lazy" referrerPolicy="no-referrer" /> : null}<strong>{article.source}</strong><span>{article.title}</span><small>{article.postedLabel}</small></a>)}</div>)}
         </div>
       </section>
     </main>

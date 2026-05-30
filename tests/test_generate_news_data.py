@@ -1,6 +1,7 @@
 import importlib.util
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 
 MODULE_PATH = Path(__file__).resolve().parents[1] / "scripts" / "generate_news_data.py"
@@ -73,6 +74,58 @@ class GenerateNewsDataTest(unittest.TestCase):
         result = generate_news_data.dedupe_clusters([first, duplicate, unrelated])
 
         self.assertEqual([cluster["storyId"] for cluster in result], [first["storyId"], unrelated["storyId"]])
+
+    def test_preview_image_from_html_prefers_secure_open_graph_image(self):
+        html = """
+        <meta property="og:image" content="https://cdn.example.com/basic.jpg">
+        <meta property="og:image:secure_url" content="https://cdn.example.com/secure.jpg">
+        """
+
+        result = generate_news_data.preview_image_from_html(html, "https://example.com/news/story")
+
+        self.assertEqual(result, "https://cdn.example.com/secure.jpg")
+
+    def test_preview_image_from_html_resolves_relative_urls(self):
+        html = '<meta name="twitter:image" content="/images/story.jpg">'
+
+        result = generate_news_data.preview_image_from_html(html, "https://example.com/news/story")
+
+        self.assertEqual(result, "https://example.com/images/story.jpg")
+
+    def test_preview_image_from_html_ignores_placeholder_images(self):
+        html = '<meta property="og:image" content="https://example.com/assets/placeholder.jpg">'
+
+        result = generate_news_data.preview_image_from_html(html, "https://example.com/news/story")
+
+        self.assertIsNone(result)
+
+    def test_choose_cluster_image_prefers_classified_article_image_before_fallback(self):
+        articles = [
+            {"bucket": "unknown", "imageUrl": "https://cdn.example.com/unknown.jpg"},
+            {"bucket": "center", "imageUrl": "https://cdn.example.com/center.jpg"},
+        ]
+
+        result = generate_news_data.choose_cluster_image(articles, "story-id")
+
+        self.assertEqual(result, "https://cdn.example.com/center.jpg")
+
+    def test_enrich_article_preview_images_limits_fetches_and_mutates_article_images(self):
+        articles = [
+            {"url": "https://example.com/unknown", "source": "Unknown Source"},
+            {"url": "https://example.com/g1", "source": "G1"},
+            {"url": "https://example.com/folha", "source": "Folha de S.Paulo"},
+        ]
+
+        def fake_fetch(url, timeout):
+            return f"{url}/image.jpg"
+
+        with patch.object(generate_news_data, "fetch_preview_image", side_effect=fake_fetch) as fetch_mock:
+            generate_news_data.enrich_article_preview_images(articles, max_fetches=2, timeout=1)
+
+        self.assertEqual(fetch_mock.call_count, 2)
+        self.assertEqual(articles[1]["imageUrl"], "https://example.com/g1/image.jpg")
+        self.assertEqual(articles[2]["imageUrl"], "https://example.com/folha/image.jpg")
+        self.assertNotIn("imageUrl", articles[0])
 
 
 if __name__ == "__main__":
