@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import re
 import statistics
@@ -22,7 +23,7 @@ from collections import Counter, OrderedDict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
 import yaml
@@ -68,11 +69,63 @@ FALLBACK_IMAGES = [
     "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
 ]
 
+PREVIEW_IMAGE_META_PRIORITY = (
+    ("property", "og:image:secure_url"),
+    ("property", "og:image:url"),
+    ("property", "og:image"),
+    ("name", "twitter:image"),
+    ("name", "twitter:image:src"),
+)
+
 
 def fetch(url: str, timeout: int = 25) -> str:
     resp = requests.get(url, headers=HEADERS, timeout=timeout)
     resp.raise_for_status()
     return resp.text
+
+
+def tag_attrs(tag: str) -> dict[str, str]:
+    attrs: dict[str, str] = {}
+    for match in re.finditer(r"""([:\w-]+)\s*=\s*(['"])(.*?)\2""", tag, re.I | re.S):
+        attrs[match.group(1).lower()] = html.unescape(match.group(3)).strip()
+    return attrs
+
+
+def normalize_preview_image_url(raw_url: str | None, base_url: str) -> str | None:
+    if not raw_url:
+        return None
+    candidate = html.unescape(raw_url).strip()
+    if not candidate:
+        return None
+    if candidate.startswith("//"):
+        candidate = "https:" + candidate
+    candidate = urljoin(base_url, candidate)
+    parsed = urlparse(candidate)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return None
+
+    lower = candidate.lower()
+    rejected_tokens = ("favicon", "apple-touch-icon", "logo.svg", "placeholder")
+    if any(token in lower for token in rejected_tokens):
+        return None
+    return candidate
+
+
+def preview_image_from_html(page_html: str, base_url: str) -> str | None:
+    parsed_tags = [tag_attrs(tag) for tag in re.findall(r"<meta\b[^>]*>", page_html, re.I | re.S)]
+    for attr_name, attr_value in PREVIEW_IMAGE_META_PRIORITY:
+        for attrs in parsed_tags:
+            if attrs.get(attr_name) == attr_value:
+                image_url = normalize_preview_image_url(attrs.get("content"), base_url)
+                if image_url:
+                    return image_url
+    return None
+
+
+def fetch_preview_image(article_url: str, timeout: float) -> str | None:
+    resp = requests.get(article_url, headers=HEADERS, timeout=timeout)
+    resp.raise_for_status()
+    return preview_image_from_html(resp.text, resp.url)
 
 
 def story_id_from_url(url: str) -> str | None:
@@ -207,6 +260,62 @@ def story_title_from_blobs(blobs: list[Any], articles: list[dict[str, Any]]) -> 
     return articles[0]["title"] if articles else "Story sem título"
 
 
+def fallback_image_for_story(story_id: str) -> str:
+    return FALLBACK_IMAGES[int(hashlib.sha1(story_id.encode()).hexdigest(), 16) % len(FALLBACK_IMAGES)]
+
+
+def choose_cluster_image(articles: list[dict[str, Any]], story_id: str) -> str:
+    for article in articles:
+        if article.get("imageUrl") and article.get("bucket") != "unknown":
+            return article["imageUrl"]
+    for article in articles:
+        if article.get("imageUrl"):
+            return article["imageUrl"]
+    return fallback_image_for_story(story_id)
+
+
+def article_preview_priority(article: dict[str, Any], index: int) -> tuple[int, int]:
+    score = source_score(article.get("source", ""))
+    bucket = score_to_bucket(score)
+    return (0 if bucket != "unknown" else 1, index)
+
+
+def enrich_article_preview_images(
+    articles: list[dict[str, Any]],
+    max_fetches: int,
+    timeout: float,
+    stats: Counter[str] | None = None,
+) -> None:
+    if max_fetches <= 0:
+        return
+
+    attempts = 0
+    prioritized = sorted(enumerate(articles), key=lambda item: article_preview_priority(item[1], item[0]))
+    for _, article in prioritized:
+        if attempts >= max_fetches:
+            break
+        if article.get("imageUrl"):
+            if stats is not None:
+                stats["article_images_existing"] += 1
+            continue
+
+        attempts += 1
+        if stats is not None:
+            stats["preview_fetch_attempts"] += 1
+        try:
+            image_url = fetch_preview_image(article["url"], timeout)
+        except Exception:
+            if stats is not None:
+                stats["preview_fetch_failed"] += 1
+            continue
+        if image_url:
+            article["imageUrl"] = image_url
+            if stats is not None:
+                stats["article_images_open_graph"] += 1
+        elif stats is not None:
+            stats["preview_fetch_missing"] += 1
+
+
 def extract_topic_keywords(titles: list[str], top_n: int = 6) -> list[str]:
     words = []
     for title in titles:
@@ -324,7 +433,14 @@ def dedupe_clusters(clusters: list[dict[str, Any]], overlap_threshold: float = 0
     return deduped
 
 
-def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: int) -> dict[str, Any] | None:
+def build_cluster(
+    story_id: str,
+    seed_labels: set[str],
+    max_articles_per_story: int,
+    max_preview_image_fetches: int = 0,
+    preview_image_timeout: float = 5.0,
+    image_stats: Counter[str] | None = None,
+) -> dict[str, Any] | None:
     url = STORY_URL_TEMPLATE.format(story_id)
     try:
         html = fetch(url)
@@ -347,6 +463,7 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
     articles_raw = deduped[:max_articles_per_story]
     if not articles_raw:
         return None
+    enrich_article_preview_images(articles_raw, max_preview_image_fetches, preview_image_timeout, image_stats)
 
     articles = []
     bucket_counts = {"left": 0, "centerLeft": 0, "center": 0, "centerRight": 0, "right": 0, "unknown": 0}
@@ -368,7 +485,7 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
             "sourceDomain": item.get("sourceDomain"),
             "publishedAt": item["publishedAt"],
             "postedLabel": item.get("postedLabel") or "",
-            "imageUrl": None,
+            "imageUrl": item.get("imageUrl"),
             "spectrumScore": score,
             "bucket": bucket,
         })
@@ -396,7 +513,9 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
     title = story_title_from_blobs(blobs, articles)
     summary = articles[0]["description"] or "Cluster extraído da coleta editorial com artigos relacionados e distribuição editorial estimada."
     source_count = len(set(a["source"] for a in articles))
-    fallback_image = FALLBACK_IMAGES[int(hashlib.sha1(story_id.encode()).hexdigest(), 16) % len(FALLBACK_IMAGES)]
+    cluster_image = choose_cluster_image(articles, story_id)
+    if image_stats is not None:
+        image_stats["cluster_images_real" if any(a.get("imageUrl") == cluster_image for a in articles) else "cluster_images_fallback"] += 1
 
     return {
         "id": cluster_id(story_id),
@@ -407,7 +526,7 @@ def build_cluster(story_id: str, seed_labels: set[str], max_articles_per_story: 
         "summary": summary,
         "topic": " · ".join(keywords[:2]).title() if keywords else "Manchetes",
         "topicKeywords": keywords,
-        "imageUrl": fallback_image,
+        "imageUrl": cluster_image,
         "publishedAt": min(a["publishedAt"] for a in articles),
         "updatedAt": datetime.now(timezone.utc).isoformat(),
         "sourceCount": source_count,
@@ -459,6 +578,9 @@ def main() -> int:
     parser.add_argument("--archive-dir", default="public/data/archive")
     parser.add_argument("--max-stories", type=int, default=80)
     parser.add_argument("--max-articles-per-story", type=int, default=20)
+    parser.add_argument("--max-preview-image-fetches-per-story", type=int, default=4)
+    parser.add_argument("--preview-image-timeout", type=float, default=5.0)
+    parser.add_argument("--disable-preview-images", action="store_true")
     parser.add_argument("--sleep", type=float, default=0.15)
     args = parser.parse_args()
 
@@ -466,11 +588,20 @@ def main() -> int:
     print(f"Discovered {len(story_sources)} unique stories")
 
     clusters = []
+    image_stats: Counter[str] = Counter()
+    max_preview_fetches = 0 if args.disable_preview_images else args.max_preview_image_fetches_per_story
     for idx, (sid, labels) in enumerate(story_sources.items()):
         if len(clusters) >= args.max_stories:
             break
         print(f"[{idx+1}/{len(story_sources)}] story {sid[:12]} from {','.join(sorted(labels))}")
-        cluster = build_cluster(sid, labels, args.max_articles_per_story)
+        cluster = build_cluster(
+            sid,
+            labels,
+            args.max_articles_per_story,
+            max_preview_image_fetches=max_preview_fetches,
+            preview_image_timeout=args.preview_image_timeout,
+            image_stats=image_stats,
+        )
         if cluster:
             clusters.append(cluster)
         time.sleep(args.sleep)
@@ -495,6 +626,10 @@ def main() -> int:
             "knownSources": len(known_sources),
             "unknownSources": len(unknown_sources),
             "discoveredStories": len(story_sources),
+            "imageFetchAttempts": image_stats["preview_fetch_attempts"],
+            "articleImagesFromPreview": image_stats["article_images_open_graph"],
+            "clusterImagesFromPreview": image_stats["cluster_images_real"],
+            "clusterImagesFromFallback": image_stats["cluster_images_fallback"],
         },
         "clusters": clusters,
         "sources": build_sources(),
@@ -516,6 +651,13 @@ def main() -> int:
     archive.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"Wrote {out}: {len(clusters)} clusters, {article_count} articles")
+    print(
+        "Images: "
+        f"{image_stats['article_images_open_graph']} article previews, "
+        f"{image_stats['cluster_images_real']} cluster previews, "
+        f"{image_stats['cluster_images_fallback']} cluster fallbacks, "
+        f"{image_stats['preview_fetch_failed']} failed fetches"
+    )
     return 0
 
 
