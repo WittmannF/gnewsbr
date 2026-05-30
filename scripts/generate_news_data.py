@@ -16,6 +16,7 @@ import hashlib
 import html
 import json
 import re
+import shutil
 import statistics
 import sys
 import time
@@ -572,6 +573,142 @@ def build_sources() -> list[dict[str, Any]]:
     return sources
 
 
+def build_source_coverage(clusters: list[dict[str, Any]]) -> dict[str, dict[str, int]]:
+    coverage: dict[str, dict[str, int]] = {}
+    for cluster in clusters:
+        seen_in_cluster: set[str] = set()
+        for article in cluster.get("articles", []):
+            source_key = article.get("sourceCanonical") or article.get("source")
+            if not source_key:
+                continue
+            stats = coverage.setdefault(source_key, {"articles": 0, "clusters": 0})
+            stats["articles"] += 1
+            seen_in_cluster.add(source_key)
+        for source_key in seen_in_cluster:
+            coverage[source_key]["clusters"] += 1
+    return coverage
+
+
+def build_cluster_summary(cluster: dict[str, Any], detail_path: str) -> dict[str, Any]:
+    unique_sources: list[str] = []
+    seen_sources: set[str] = set()
+    for article in cluster.get("articles", []):
+        source = article.get("source")
+        if not source or source in seen_sources:
+            continue
+        seen_sources.add(source)
+        unique_sources.append(source)
+        if len(unique_sources) >= 5:
+            break
+
+    return {
+        "id": cluster["id"],
+        "detailPath": detail_path,
+        "storyUrl": cluster.get("storyUrl"),
+        "title": cluster.get("title"),
+        "summary": cluster.get("summary"),
+        "topic": cluster.get("topic"),
+        "topicKeywords": cluster.get("topicKeywords", []),
+        "imageUrl": cluster.get("imageUrl"),
+        "publishedAt": cluster.get("publishedAt"),
+        "updatedAt": cluster.get("updatedAt"),
+        "sourceCount": cluster.get("sourceCount", 0),
+        "articleCount": cluster.get("articleCount", 0),
+        "topSources": unique_sources,
+        "spectrum": cluster.get("spectrum", {}),
+        "scores": cluster.get("scores", {}),
+        "flags": cluster.get("flags", []),
+    }
+
+
+def with_source_coverage(sources: list[dict[str, Any]], clusters: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    coverage = build_source_coverage(clusters)
+    with_coverage: list[dict[str, Any]] = []
+    for source in sources:
+        source_coverage = coverage.get(source["name"], {"articles": 0, "clusters": 0})
+        with_coverage.append({
+            **source,
+            "coverage": {
+                "articles": source_coverage["articles"],
+                "clusters": source_coverage["clusters"],
+            },
+        })
+    return with_coverage
+
+
+def write_json_atomic(path: Path, payload: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    loaded = json.loads(tmp.read_text(encoding="utf-8"))
+    if not loaded.get("clusters"):
+        raise SystemExit(f"No clusters in {path.name}; refusing to write")
+    tmp.replace(path)
+
+
+def write_latest_partitioned(out: Path, base_payload: dict[str, Any], clusters: list[dict[str, Any]]) -> None:
+    cluster_dir = out.parent / "clusters" / "latest"
+    temp_cluster_dir = out.parent / "clusters" / ".latest_tmp"
+    if temp_cluster_dir.exists():
+        shutil.rmtree(temp_cluster_dir)
+    temp_cluster_dir.mkdir(parents=True, exist_ok=True)
+
+    summaries = []
+    for cluster in clusters:
+        detail_file = temp_cluster_dir / f"{cluster['id']}.json"
+        detail_file.write_text(json.dumps(cluster, ensure_ascii=False, indent=2), encoding="utf-8")
+        detail_path = f"data/clusters/latest/{cluster['id']}.json"
+        summaries.append(build_cluster_summary(cluster, detail_path))
+
+    index_payload = {
+        **base_payload,
+        "clusters": summaries,
+    }
+    write_json_atomic(out, index_payload)
+
+    if cluster_dir.exists():
+        shutil.rmtree(cluster_dir)
+    temp_cluster_dir.rename(cluster_dir)
+
+    missing = [c["id"] for c in clusters if not (cluster_dir / f"{c['id']}.json").exists()]
+    if missing:
+        raise SystemExit(f"Missing latest cluster detail files: {', '.join(missing[:5])}")
+
+
+def write_archive_partitioned(archive_dir: Path, date_key: str, base_payload: dict[str, Any], clusters: list[dict[str, Any]]) -> None:
+    target_day_dir = archive_dir / date_key
+    temp_day_dir = archive_dir / f".{date_key}.tmp"
+
+    if temp_day_dir.exists():
+        shutil.rmtree(temp_day_dir)
+    temp_day_dir.mkdir(parents=True, exist_ok=True)
+
+    summaries = []
+    for cluster in clusters:
+        detail_file = temp_day_dir / f"{cluster['id']}.json"
+        detail_file.write_text(json.dumps(cluster, ensure_ascii=False, indent=2), encoding="utf-8")
+        detail_path = f"data/archive/{date_key}/{cluster['id']}.json"
+        summaries.append(build_cluster_summary(cluster, detail_path))
+
+    index_payload = {
+        **base_payload,
+        "clusters": summaries,
+    }
+    index_file = temp_day_dir / "index.json"
+    index_file.write_text(json.dumps(index_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    loaded = json.loads(index_file.read_text(encoding="utf-8"))
+    if not loaded.get("clusters"):
+        raise SystemExit("No clusters in archive index; refusing to write")
+
+    if target_day_dir.exists():
+        shutil.rmtree(target_day_dir)
+    temp_day_dir.rename(target_day_dir)
+
+    missing = [c["id"] for c in clusters if not (target_day_dir / f"{c['id']}.json").exists()]
+    if missing or not (target_day_dir / "index.json").exists():
+        raise SystemExit(f"Archive validation failed for {date_key}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default="public/data/latest.json")
@@ -616,7 +753,7 @@ def main() -> int:
             source_key = a.get("sourceCanonical") or a["source"]
             (known_sources if a.get("spectrumScore") is not None else unknown_sources).add(source_key)
 
-    payload = {
+    payload_base = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "version": "0.2.0-editorial-collection",
         "source": "Coleta editorial / stories coletados de manchetes e tópicos",
@@ -631,26 +768,19 @@ def main() -> int:
             "clusterImagesFromPreview": image_stats["cluster_images_real"],
             "clusterImagesFromFallback": image_stats["cluster_images_fallback"],
         },
-        "clusters": clusters,
-        "sources": build_sources(),
+        "sources": with_source_coverage(build_sources(), clusters),
     }
 
     out = Path(args.output)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    tmp = out.with_suffix(".tmp.json")
-    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    # Validate by loading back and checking minimally.
-    loaded = json.loads(tmp.read_text(encoding="utf-8"))
-    if not loaded["clusters"]:
-        raise SystemExit("No clusters generated; refusing to overwrite latest.json")
-    tmp.replace(out)
+    write_latest_partitioned(out, payload_base, clusters)
 
     archive_dir = Path(args.archive_dir)
     archive_dir.mkdir(parents=True, exist_ok=True)
-    archive = archive_dir / (datetime.now(timezone.utc).strftime("%Y-%m-%d") + ".json")
-    archive.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    archive_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    write_archive_partitioned(archive_dir, archive_date, payload_base, clusters)
 
-    print(f"Wrote {out}: {len(clusters)} clusters, {article_count} articles")
+    print(f"Wrote partitioned latest index {out}: {len(clusters)} clusters, {article_count} articles")
+    print(f"Wrote partitioned archive {archive_dir / archive_date}")
     print(
         "Images: "
         f"{image_stats['article_images_open_graph']} article previews, "

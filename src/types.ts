@@ -16,6 +16,15 @@ export type SourceMeta = {
   notes?: string[]
 }
 
+export type SourceCoverage = {
+  articles: number
+  clusters: number
+}
+
+export type IndexedSourceMeta = SourceMeta & {
+  coverage?: SourceCoverage
+}
+
 export type Article = {
   id: string
   title: string
@@ -33,6 +42,7 @@ export type Article = {
 
 export type Cluster = {
   id: string
+  detailPath?: string
   storyUrl: string
   title: string
   summary: string
@@ -41,7 +51,10 @@ export type Cluster = {
   imageUrl: string
   publishedAt: string
   updatedAt: string
-  articles: Article[]
+  sourceCount?: number
+  articleCount?: number
+  topSources?: string[]
+  articles?: Article[]
   spectrum: {
     min?: number
     max?: number
@@ -59,6 +72,10 @@ export type Cluster = {
   flags: string[]
 }
 
+export type ClusterDetail = Omit<Cluster, 'detailPath'> & {
+  articles: Article[]
+}
+
 export type NewsPayload = {
   generatedAt: string
   version: string
@@ -74,5 +91,5 @@ export type NewsPayload = {
     clusterImagesFromFallback?: number
   }
   clusters: Cluster[]
-  sources: SourceMeta[]
+  sources: IndexedSourceMeta[]
 }

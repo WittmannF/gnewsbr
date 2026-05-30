@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "collect": "python3 scripts/generate_news_data.py --max-stories 400 --max-articles-per-story 20 --sleep 0.03",
+    "archive:migrate": "python3 scripts/migrate_archive_partitioned.py --delete-legacy",
     "sources:validate": "python3 scripts/validate_sources.py",
     "sources:build": "python3 scripts/build_source_map.py",
     "lint": "tsc --noEmit"
