@@ -1,11 +1,22 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { ArrowLeft, BarChart3, CalendarClock, CheckCircle2, ExternalLink, Filter, Gauge, Code2, Newspaper, Search, ShieldQuestion, Sparkles, TrendingUp } from 'lucide-react'
 import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 import { bucketColors, bucketLabels, mockNewsData } from './data'
-import type { Cluster, NewsPayload, SpectrumBucket } from './types'
+import type { Cluster, ClusterDetail, NewsPayload, SpectrumBucket } from './types'
 
 const bucketOrder: SpectrumBucket[] = ['left', 'centerLeft', 'center', 'centerRight', 'right', 'unknown']
+const validViews = ['home', 'sources', 'methodology'] as const
+type AppView = (typeof validViews)[number]
+const FALLBACK_CLUSTER_IMAGE = 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'
+
+function onImageError(event: React.SyntheticEvent<HTMLImageElement>) {
+  const img = event.currentTarget
+  if (img.src === FALLBACK_CLUSTER_IMAGE) {
+    return
+  }
+  img.src = FALLBACK_CLUSTER_IMAGE
+}
 
 function SpectrumBar({ cluster, compact = false }: { cluster: Cluster; compact?: boolean }) {
   const total = Math.max(1, Object.values(cluster.spectrum.buckets).reduce((a, b) => a + b, 0))
@@ -34,14 +45,17 @@ function ScorePill({ label, value, icon: Icon }: { label: string; value: string 
 }
 
 function ClusterCard({ cluster, onOpen }: { cluster: Cluster; onOpen: (cluster: Cluster) => void }) {
-  const sourceNames = Array.from(new Set(cluster.articles.map((a) => a.source))).slice(0, 5)
+  const sourceNames = cluster.topSources ?? Array.from(new Set((cluster.articles ?? []).map((a) => a.source))).slice(0, 5)
+  const articleCount = cluster.articleCount ?? (cluster.articles?.length ?? 0)
+  const imageSrc = cluster.imageUrl || FALLBACK_CLUSTER_IMAGE
   return (
     <article className="cluster-card" onClick={() => onOpen(cluster)}>
-      <div className="cluster-image" style={{ backgroundImage: `linear-gradient(180deg, rgba(8,12,24,.05), rgba(8,12,24,.72)), url(${cluster.imageUrl})` }}>
+      <div className="cluster-image">
+        <img src={imageSrc} alt="" loading="lazy" referrerPolicy="no-referrer" onError={onImageError} />
         <span>{cluster.topic}</span>
       </div>
       <div className="cluster-body">
-        <div className="cluster-meta"><span>{cluster.articles.length} artigos</span><span>{cluster.spectrum.knownCount} fontes classificadas</span></div>
+        <div className="cluster-meta"><span>{articleCount} artigos</span><span>{cluster.spectrum.knownCount} fontes classificadas</span></div>
         <h2>{cluster.title}</h2>
         <p>{cluster.summary}</p>
         <SpectrumBar cluster={cluster} compact />
@@ -92,7 +106,8 @@ function HomePage({ data, onOpen, onNavigate }: { data: NewsPayload; onOpen: (cl
   const hiddenTopicCount = Math.max(0, new Set(data.clusters.map((c) => c.topic.split(' · ')[0])).size - (topics.length - 1))
   const filtered = useMemo(() => data.clusters.filter((cluster) => {
     const q = query.trim().toLowerCase()
-    const matchesQuery = !q || [cluster.title, cluster.summary, cluster.topic, ...cluster.topicKeywords, ...cluster.articles.map(a => a.source)].join(' ').toLowerCase().includes(q)
+    const searchSources = cluster.topSources ?? (cluster.articles ?? []).map((a) => a.source)
+    const matchesQuery = !q || [cluster.title, cluster.summary, cluster.topic, ...cluster.topicKeywords, ...searchSources].join(' ').toLowerCase().includes(q)
     const matchesTopic = topic === 'Todos' || cluster.topic.includes(topic)
     return matchesQuery && matchesTopic
   }), [data.clusters, query, topic])
@@ -130,7 +145,25 @@ function HomePage({ data, onOpen, onNavigate }: { data: NewsPayload; onOpen: (cl
   )
 }
 
-function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => void }) {
+function ClusterDetail({ cluster, loading, error, onRetry, onBack }: { cluster: ClusterDetail | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void }) {
+  if (loading) {
+    return (
+      <main className="detail-page">
+        <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
+        <section className="plain-page"><h1>Carregando cobertura</h1><p>Buscando os artigos completos deste cluster.</p></section>
+      </main>
+    )
+  }
+
+  if (error || !cluster) {
+    return (
+      <main className="detail-page">
+        <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
+        <section className="plain-page"><h1>Falha ao carregar detalhe</h1><p>{error ?? 'Detalhe indisponivel no momento.'}</p><button onClick={onRetry}>Tentar novamente</button></section>
+      </main>
+    )
+  }
+
   const byBucket = bucketOrder.map((bucket) => ({ bucket, articles: cluster.articles.filter((a) => a.bucket === bucket) })).filter((g) => g.articles.length)
   return (
     <main className="detail-page">
@@ -142,7 +175,7 @@ function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => vo
           <p>{cluster.summary}</p>
           <div className="flag-row large">{cluster.flags.map((flag) => <span key={flag}>{flag}</span>)}</div>
         </div>
-        <img src={cluster.imageUrl} alt="" />
+        <img src={cluster.imageUrl || FALLBACK_CLUSTER_IMAGE} alt="" referrerPolicy="no-referrer" onError={onImageError} />
       </section>
       <section className="analysis-grid">
         <div className="analysis-card wide"><h3>Distribuição editorial estimada</h3><SpectrumBar cluster={cluster} /><div className="metric-row"><ScorePill label="Média" value={cluster.spectrum.average?.toFixed(1) ?? '—'} icon={Gauge} /><ScorePill label="Amplitude" value={`${cluster.spectrum.min ?? '—'}–${cluster.spectrum.max ?? '—'}`} icon={BarChart3} /><ScorePill label="Divergência" value={`${cluster.scores.headlineDivergence}%`} icon={TrendingUp} /></div></div>
@@ -151,7 +184,7 @@ function ClusterDetail({ cluster, onBack }: { cluster: Cluster; onBack: () => vo
       <section className="headline-section">
         <h2>Manchetes por perfil</h2>
         <div className="headline-columns">
-          {byBucket.map(({ bucket, articles }) => <div className="headline-col" key={bucket}><h3 style={{ color: bucketColors[bucket] }}>{bucketLabels[bucket]}</h3>{articles.map((article) => <a href={article.url} key={article.id}>{article.imageUrl ? <img src={article.imageUrl} alt="" loading="lazy" referrerPolicy="no-referrer" /> : null}<strong>{article.source}</strong><span>{article.title}</span><small>{article.postedLabel}</small></a>)}</div>)}
+          {byBucket.map(({ bucket, articles }) => <div className="headline-col" key={bucket}><h3 style={{ color: bucketColors[bucket] }}>{bucketLabels[bucket]}</h3>{articles.map((article) => <a href={article.url} key={article.id}><strong>{article.source}</strong><span>{article.title}</span><small>{article.postedLabel}</small></a>)}</div>)}
         </div>
       </section>
     </main>
@@ -170,18 +203,31 @@ function SourcesPage({ data }: { data: NewsPayload }) {
   const [status, setStatus] = useState<'all' | 'reviewed' | 'draft' | 'disputed'>('all')
 
   const sourceCoverage = useMemo(() => {
-    const coverage = new Map<string, { articles: number; clusters: Set<string> }>()
+    const coverage = new Map<string, { articles: number; clusters: number }>()
+    data.sources.forEach((source) => {
+      const current = coverage.get(source.name) ?? { articles: 0, clusters: 0 }
+      if (source.coverage) {
+        current.articles = source.coverage.articles
+        current.clusters = source.coverage.clusters
+      }
+      coverage.set(source.name, current)
+    })
+
     data.clusters.forEach((cluster) => {
-      cluster.articles.forEach((article) => {
+      const seenSources = new Set<string>()
+      ;(cluster.articles ?? []).forEach((article) => {
         const key = article.sourceCanonical || article.source
-        const current = coverage.get(key) ?? { articles: 0, clusters: new Set<string>() }
+        const current = coverage.get(key) ?? { articles: 0, clusters: 0 }
         current.articles += 1
-        current.clusters.add(cluster.id)
+        if (!seenSources.has(key)) {
+          current.clusters += 1
+          seenSources.add(key)
+        }
         coverage.set(key, current)
       })
     })
     return coverage
-  }, [data.clusters])
+  }, [data.clusters, data.sources])
 
   const bucketCounts = useMemo(() => bucketOrder
     .filter((item) => item !== 'unknown')
@@ -252,7 +298,7 @@ function SourcesPage({ data }: { data: NewsPayload }) {
               <div className="source-label-row"><span style={{ borderColor: bucketColors[source.bucket], color: bucketColors[source.bucket] }}>{source.label}</span><small>{source.reviewStatus === 'reviewed' ? 'Revisada com IA' : source.reviewStatus === 'disputed' ? 'Disputada' : 'Rascunho IA'} · confiança {source.confidence}</small></div>
               <p>{source.rationale ?? 'Classificação inicial assistida por IA e aberta para revisão editorial humana.'}</p>
               {source.notes?.length ? <ul>{source.notes.slice(0, 2).map((note) => <li key={note}>{note}</li>)}</ul> : null}
-              <div className="source-foot"><span>{coverage?.articles ?? 0} artigos nesta coleta</span><span>{coverage?.clusters.size ?? 0} clusters</span><span>peso político {formatPoliticalWeight(source.politicalWeight)}</span></div>
+              <div className="source-foot"><span>{coverage?.articles ?? 0} artigos nesta coleta</span><span>{coverage?.clusters ?? 0} clusters</span><span>peso político {formatPoliticalWeight(source.politicalWeight)}</span></div>
             </article>
           })}
       </div>
@@ -265,9 +311,44 @@ function MethodologyPage() {
 }
 
 export function App() {
-  const [view, setView] = useState('home')
+  const [view, setView] = useState<AppView>('home')
   const [data, setData] = useState<NewsPayload>(mockNewsData)
   const [selected, setSelected] = useState<Cluster | null>(null)
+  const [selectedDetail, setSelectedDetail] = useState<ClusterDetail | null>(null)
+  const [detailLoading, setDetailLoading] = useState(false)
+  const [detailError, setDetailError] = useState<string | null>(null)
+
+  const routeFromUrl = useCallback((): { view: AppView; clusterId: string | null } => {
+    const params = new URLSearchParams(window.location.search)
+    const maybeView = params.get('view')
+    const nextView = validViews.includes(maybeView as AppView) ? (maybeView as AppView) : 'home'
+    const clusterId = params.get('cluster')
+    return { view: nextView, clusterId }
+  }, [])
+
+  const updateUrl = useCallback((nextView: AppView, clusterId: string | null, mode: 'push' | 'replace' = 'push') => {
+    const params = new URLSearchParams()
+    if (nextView !== 'home') {
+      params.set('view', nextView)
+    }
+    if (clusterId) {
+      params.set('cluster', clusterId)
+    }
+    const query = params.toString()
+    const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname
+    if (mode === 'replace') {
+      window.history.replaceState({ view: nextView, clusterId }, '', nextUrl)
+      return
+    }
+    window.history.pushState({ view: nextView, clusterId }, '', nextUrl)
+  }, [])
+
+  const clearDetailState = useCallback(() => {
+    setSelected(null)
+    setSelectedDetail(null)
+    setDetailError(null)
+    setDetailLoading(false)
+  }, [])
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/latest.json`)
@@ -276,6 +357,105 @@ export function App() {
       .catch(() => setData(mockNewsData))
   }, [])
 
-  const navigate = (next: string) => { setSelected(null); setView(next) }
-  return <><Header current={selected ? 'cluster' : view} onNavigate={navigate} />{selected ? <ClusterDetail cluster={selected} onBack={() => setSelected(null)} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={setSelected} onNavigate={navigate} />}</>
+  const loadClusterDetail = useCallback((summary: Cluster, updateHistory = true) => {
+    setView('home')
+    setSelected(summary)
+    setDetailLoading(true)
+    setDetailError(null)
+    setSelectedDetail(null)
+
+    if (updateHistory) {
+      updateUrl('home', summary.id, 'push')
+    }
+
+    if (summary.articles?.length) {
+      const legacyDetail: ClusterDetail = {
+        ...summary,
+        articles: summary.articles,
+      }
+      setSelectedDetail(legacyDetail)
+      setDetailLoading(false)
+      return
+    }
+
+    if (!summary.detailPath) {
+      setDetailError('Detalhe deste cluster nao esta disponivel neste snapshot.')
+      setDetailLoading(false)
+      return
+    }
+
+    fetch(`${import.meta.env.BASE_URL}${summary.detailPath}`)
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error(`HTTP ${response.status}`)))
+      .then((detail: ClusterDetail) => {
+        if (!detail.articles) {
+          throw new Error('Detalhe sem artigos')
+        }
+        setSelectedDetail(detail)
+      })
+      .catch((error: Error) => {
+        setDetailError(`Nao foi possivel carregar os detalhes (${error.message}).`)
+      })
+      .finally(() => setDetailLoading(false))
+  }, [updateUrl])
+
+  useEffect(() => {
+    const syncRouteFromUrl = () => {
+      const { view: routeView, clusterId } = routeFromUrl()
+      setView(routeView)
+
+      if (!clusterId) {
+        clearDetailState()
+        return
+      }
+
+      const summary = data.clusters.find((cluster) => cluster.id === clusterId)
+      if (!summary) {
+        clearDetailState()
+        return
+      }
+
+      if (selected?.id === clusterId) {
+        return
+      }
+
+      loadClusterDetail(summary, false)
+    }
+
+    syncRouteFromUrl()
+    window.addEventListener('popstate', syncRouteFromUrl)
+    return () => window.removeEventListener('popstate', syncRouteFromUrl)
+  }, [clearDetailState, data.clusters, loadClusterDetail, routeFromUrl, selected?.id])
+
+  const navigate = (next: string) => {
+    if (!validViews.includes(next as AppView)) {
+      return
+    }
+    const nextView = next as AppView
+    const currentRoute = routeFromUrl()
+    if (currentRoute.view === nextView && !currentRoute.clusterId) {
+      return
+    }
+
+    clearDetailState()
+    setView(nextView)
+    updateUrl(nextView, null, 'push')
+  }
+
+  const closeDetail = () => {
+    const { clusterId } = routeFromUrl()
+    if (clusterId) {
+      window.history.back()
+      return
+    }
+    updateUrl(view, null, 'replace')
+    clearDetailState()
+  }
+
+  const retryDetail = () => {
+    if (selected) {
+      loadClusterDetail(selected, false)
+    }
+  }
+
+  return <><Header current={selected ? 'home' : view} onNavigate={navigate} />{selected ? <ClusterDetail cluster={selectedDetail} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
 }

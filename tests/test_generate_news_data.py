@@ -1,4 +1,6 @@
 import importlib.util
+import json
+import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -126,6 +128,112 @@ class GenerateNewsDataTest(unittest.TestCase):
         self.assertEqual(articles[1]["imageUrl"], "https://example.com/g1/image.jpg")
         self.assertEqual(articles[2]["imageUrl"], "https://example.com/folha/image.jpg")
         self.assertNotIn("imageUrl", articles[0])
+
+    def test_build_cluster_summary_includes_detail_path_and_counts(self):
+        cluster = {
+            "id": "story_abc",
+            "storyUrl": "https://news.google.com/stories/abc",
+            "title": "Cluster test",
+            "summary": "Resumo",
+            "topic": "Politica",
+            "topicKeywords": ["politica"],
+            "imageUrl": "https://example.com/image.jpg",
+            "publishedAt": "2026-05-29T00:00:00Z",
+            "updatedAt": "2026-05-29T01:00:00Z",
+            "sourceCount": 2,
+            "articleCount": 3,
+            "articles": [
+                {"source": "G1"},
+                {"source": "G1"},
+                {"source": "Folha"},
+            ],
+            "spectrum": {"knownCount": 2, "unknownCount": 1, "buckets": {"left": 0, "centerLeft": 0, "center": 2, "centerRight": 0, "right": 0, "unknown": 1}},
+            "scores": {"coverageDiversity": 50, "spectrumBalance": 50, "headlineDivergence": 20, "confidence": 70},
+            "flags": ["Cobertura monitorada"],
+        }
+
+        summary = generate_news_data.build_cluster_summary(cluster, "data/clusters/latest/story_abc.json")
+
+        self.assertEqual(summary["id"], "story_abc")
+        self.assertEqual(summary["detailPath"], "data/clusters/latest/story_abc.json")
+        self.assertEqual(summary["articleCount"], 3)
+        self.assertEqual(summary["sourceCount"], 2)
+        self.assertEqual(summary["topSources"], ["G1", "Folha"])
+
+    def test_with_source_coverage_adds_article_and_cluster_counts(self):
+        sources = [{"name": "G1", "bucket": "center"}, {"name": "Folha", "bucket": "centerLeft"}]
+        clusters = [
+            {
+                "id": "story_1",
+                "articles": [
+                    {"source": "G1", "sourceCanonical": "G1"},
+                    {"source": "G1", "sourceCanonical": "G1"},
+                    {"source": "Folha", "sourceCanonical": "Folha"},
+                ],
+            },
+            {
+                "id": "story_2",
+                "articles": [
+                    {"source": "G1", "sourceCanonical": "G1"},
+                ],
+            },
+        ]
+
+        enriched = generate_news_data.with_source_coverage(sources, clusters)
+        by_name = {item["name"]: item for item in enriched}
+
+        self.assertEqual(by_name["G1"]["coverage"], {"articles": 3, "clusters": 2})
+        self.assertEqual(by_name["Folha"]["coverage"], {"articles": 1, "clusters": 1})
+
+    def test_partitioned_writers_create_latest_and_archive_shapes(self):
+        clusters = [
+            {
+                "id": "story_abc",
+                "storyUrl": "https://news.google.com/stories/abc",
+                "title": "Cluster test",
+                "summary": "Resumo",
+                "topic": "Politica",
+                "topicKeywords": ["politica"],
+                "imageUrl": "https://example.com/image.jpg",
+                "publishedAt": "2026-05-29T00:00:00Z",
+                "updatedAt": "2026-05-29T01:00:00Z",
+                "sourceCount": 1,
+                "articleCount": 1,
+                "articles": [{"id": "a1", "source": "G1", "bucket": "center", "title": "t", "description": "d", "url": "u", "publishedAt": "2026-05-29T00:00:00Z", "postedLabel": "agora"}],
+                "spectrum": {"knownCount": 1, "unknownCount": 0, "buckets": {"left": 0, "centerLeft": 0, "center": 1, "centerRight": 0, "right": 0, "unknown": 0}},
+                "scores": {"coverageDiversity": 50, "spectrumBalance": 50, "headlineDivergence": 20, "confidence": 70},
+                "flags": ["Cobertura monitorada"],
+            }
+        ]
+        base_payload = {
+            "generatedAt": "2026-05-29T00:00:00Z",
+            "version": "test",
+            "source": "test",
+            "stats": {
+                "clusterCount": 1,
+                "articleCount": 1,
+                "knownSources": 1,
+                "unknownSources": 0,
+            },
+            "sources": [{"name": "G1", "bucket": "center", "coverage": {"articles": 1, "clusters": 1}}],
+        }
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+            latest_index = temp_path / "data" / "latest.json"
+            archive_root = temp_path / "data" / "archive"
+
+            generate_news_data.write_latest_partitioned(latest_index, base_payload, clusters)
+            generate_news_data.write_archive_partitioned(archive_root, "2026-05-29", base_payload, clusters)
+
+            latest = json.loads(latest_index.read_text(encoding="utf-8"))
+            self.assertEqual(latest["clusters"][0]["detailPath"], "data/clusters/latest/story_abc.json")
+            self.assertTrue((temp_path / "data" / "clusters" / "latest" / "story_abc.json").exists())
+
+            archive_index = archive_root / "2026-05-29" / "index.json"
+            archive = json.loads(archive_index.read_text(encoding="utf-8"))
+            self.assertEqual(archive["clusters"][0]["detailPath"], "data/archive/2026-05-29/story_abc.json")
+            self.assertTrue((archive_root / "2026-05-29" / "story_abc.json").exists())
 
 
 if __name__ == "__main__":
