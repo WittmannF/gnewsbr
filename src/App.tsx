@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
-import { ArrowLeft, BarChart3, CalendarClock, CheckCircle2, ExternalLink, Filter, Gauge, Code2, Newspaper, Search, ShieldQuestion, Sparkles, TrendingUp } from 'lucide-react'
+import { useRegisterSW } from 'virtual:pwa-register/react'
+import { ArrowLeft, BarChart3, CalendarClock, CheckCircle2, Download, ExternalLink, Filter, Gauge, Code2, Newspaper, Search, ShieldQuestion, Sparkles, TrendingUp, WifiOff } from 'lucide-react'
 import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 import { bucketColors, bucketLabels, mockNewsData } from './data'
@@ -8,6 +9,10 @@ import type { Cluster, ClusterDetail, NewsPayload, SpectrumBucket } from './type
 const bucketOrder: SpectrumBucket[] = ['left', 'centerLeft', 'center', 'centerRight', 'right', 'unknown']
 const validViews = ['home', 'sources', 'methodology'] as const
 type AppView = (typeof validViews)[number]
+type BeforeInstallPromptEvent = Event & {
+  prompt: () => Promise<void>
+  userChoice: Promise<{ outcome: 'accepted' | 'dismissed'; platform: string }>
+}
 const FALLBACK_CLUSTER_IMAGE = 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'
 
 function onImageError(event: React.SyntheticEvent<HTMLImageElement>) {
@@ -310,6 +315,40 @@ function MethodologyPage() {
   return <main className="plain-page"><h1>Metodologia</h1><div className="methodology"><section><h2>1. Coleta</h2><p>A rotina de coleta identifica histórias em alta, agrupa URLs relacionadas e preserva metadados mínimos para comparação: título, snippet, veículo, horário e link original.</p></section><section><h2>2. Clusters</h2><p>O agrupamento reúne diferentes veículos cobrindo a mesma história. Isso permite comparar enquadramentos, diversidade de fontes e distribuição editorial em uma experiência única.</p></section><section><h2>3. Espectro editorial</h2><p>A escala 1–10 posiciona fontes em rótulos cuidadosos: progressista, centro-progressista, centro, centro-conservador e conservador. As revisões assistidas por IA permanecem auditáveis.</p></section><section><h2>4. Limitações</h2><p>Não republicamos conteúdo completo; mostramos título, snippet, fonte e link. A classificação não mede verdade/falsidade e deve ser auditável.</p></section></div></main>
 }
 
+function PwaStatus({
+  isOffline,
+  canInstall,
+  needRefresh,
+  onInstall,
+  onRefresh,
+  onDismissUpdate,
+}: {
+  isOffline: boolean
+  canInstall: boolean
+  needRefresh: boolean
+  onInstall: () => void
+  onRefresh: () => void
+  onDismissUpdate: () => void
+}) {
+  if (!isOffline && !canInstall && !needRefresh) {
+    return null
+  }
+
+  return (
+    <aside className="pwa-toast" aria-live="polite">
+      {isOffline ? (
+        <div className="pwa-toast-row offline"><WifiOff size={17} /><span>Você está offline. Mostrando a última atualização salva quando disponível.</span></div>
+      ) : null}
+      {needRefresh ? (
+        <div className="pwa-toast-row"><Sparkles size={17} /><span>Nova versão disponível.</span><button onClick={onRefresh}>Atualizar agora</button><button className="ghost" onClick={onDismissUpdate}>Depois</button></div>
+      ) : null}
+      {canInstall ? (
+        <div className="pwa-toast-row"><Download size={17} /><span>Instalar app para abrir o GNewsBR em tela cheia.</span><button onClick={onInstall}>Instalar app</button><small>iOS: use Compartilhar → Adicionar à Tela de Início.</small></div>
+      ) : null}
+    </aside>
+  )
+}
+
 export function App() {
   const [view, setView] = useState<AppView>('home')
   const [data, setData] = useState<NewsPayload>(mockNewsData)
@@ -317,6 +356,19 @@ export function App() {
   const [selectedDetail, setSelectedDetail] = useState<ClusterDetail | null>(null)
   const [detailLoading, setDetailLoading] = useState(false)
   const [detailError, setDetailError] = useState<string | null>(null)
+  const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null)
+  const [isOffline, setIsOffline] = useState(() => typeof navigator !== 'undefined' ? !navigator.onLine : false)
+  const {
+    needRefresh: [needRefresh, setNeedRefresh],
+    updateServiceWorker,
+  } = useRegisterSW({
+    onRegistered(registration) {
+      registration?.update()
+    },
+    onRegisterError(error) {
+      console.warn('Falha ao registrar service worker do GNewsBR', error)
+    },
+  })
 
   const routeFromUrl = useCallback((): { view: AppView; clusterId: string | null } => {
     const params = new URLSearchParams(window.location.search)
@@ -349,6 +401,34 @@ export function App() {
     setDetailError(null)
     setDetailLoading(false)
   }, [])
+
+  useEffect(() => {
+    const updateOnlineState = () => setIsOffline(!navigator.onLine)
+    const captureInstallPrompt = (event: Event) => {
+      event.preventDefault()
+      setInstallPrompt(event as BeforeInstallPromptEvent)
+    }
+
+    window.addEventListener('online', updateOnlineState)
+    window.addEventListener('offline', updateOnlineState)
+    window.addEventListener('beforeinstallprompt', captureInstallPrompt)
+    return () => {
+      window.removeEventListener('online', updateOnlineState)
+      window.removeEventListener('offline', updateOnlineState)
+      window.removeEventListener('beforeinstallprompt', captureInstallPrompt)
+    }
+  }, [])
+
+  const installApp = useCallback(async () => {
+    if (!installPrompt) {
+      return
+    }
+    await installPrompt.prompt()
+    const choice = await installPrompt.userChoice
+    if (choice.outcome !== 'dismissed') {
+      setInstallPrompt(null)
+    }
+  }, [installPrompt])
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/latest.json`)
@@ -457,5 +537,5 @@ export function App() {
     }
   }
 
-  return <><Header current={selected ? 'home' : view} onNavigate={navigate} />{selected ? <ClusterDetail cluster={selectedDetail} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
+  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
 }

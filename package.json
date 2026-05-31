@@ -11,6 +11,7 @@
     "archive:migrate": "python3 scripts/migrate_archive_partitioned.py --delete-legacy",
     "sources:validate": "python3 scripts/validate_sources.py",
     "sources:build": "python3 scripts/build_source_map.py",
+    "pwa:validate": "python3 tests/validate_pwa.py",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.2.15",
-    "@types/react-dom": "^19.2.3"
+    "@types/react-dom": "^19.2.3",
+    "vite-plugin-pwa": "^1.2.0"
   }
 }
