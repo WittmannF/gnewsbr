@@ -81,6 +81,7 @@ class OllamaClient(LLMClient):
             "model": self.model,
             "prompt": f"{system}\n\n{user}",
             "stream": False,
+            "format": "json",
         }
         resp = requests.post(
             f"{self.base_url}/api/generate",

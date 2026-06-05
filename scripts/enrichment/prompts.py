@@ -58,6 +58,13 @@ headlineDivergence.level deve ser um de: low, medium, high
 confidence deve ser um de: low, medium, high"""
 
 
+def _truncate_words(text: str, max_words: int) -> str:
+    words = text.split()
+    if len(words) <= max_words:
+        return text
+    return " ".join(words[:max_words]) + " [truncado]"
+
+
 def build_article_user_prompt(article: dict) -> str:
     import json as _json
     return _json.dumps(
@@ -68,7 +75,7 @@ def build_article_user_prompt(article: dict) -> str:
             "title": article.get("title"),
             "description": article.get("description"),
             "publishedAt": article.get("publishedAt"),
-            "cleanText": article.get("cleanText"),
+            "cleanText": _truncate_words(article.get("cleanText") or "", 1500),
         },
         ensure_ascii=False,
         indent=2,
