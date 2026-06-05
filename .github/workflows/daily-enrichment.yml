@@ -1,0 +1,123 @@
+name: Daily LLM Enrichment
+
+on:
+  schedule:
+    - cron: "30 10 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to enrich (YYYY-MM-DD). Defaults to today UTC."
+        required: false
+        type: string
+      mock_llm:
+        description: "Use mock LLM instead of Ollama (for testing pipeline without a model)."
+        required: false
+        default: "false"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+
+    env:
+      LOCAL_LLM_MODEL: llama3.2:3b
+      ARTICLE_PROMPT_VERSION: article-summary-v1
+      CLUSTER_PROMPT_VERSION: cluster-summary-v1
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install Ollama
+        if: ${{ inputs.mock_llm != 'true' }}
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve > /tmp/ollama.log 2>&1 &
+          sleep 5
+
+      - name: Cache Ollama models
+        if: ${{ inputs.mock_llm != 'true' }}
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama
+          key: ollama-${{ env.LOCAL_LLM_MODEL }}-v1
+
+      - name: Pull Ollama model
+        if: ${{ inputs.mock_llm != 'true' }}
+        run: ollama pull "$LOCAL_LLM_MODEL"
+
+      - name: Resolve date
+        id: date
+        run: |
+          DATE="${{ inputs.date }}"
+          if [ -z "$DATE" ]; then
+            DATE="$(date -u +%F)"
+          fi
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+
+      - name: Run daily enrichment
+        env:
+          MOCK_FLAG: ${{ inputs.mock_llm == 'true' && '--mock' || '' }}
+        run: |
+          python3 scripts/run_daily_enrichment.py \
+            --date "${{ steps.date.outputs.date }}" \
+            --article-content-dir "public/data/article-content/${{ steps.date.outputs.date }}/articles" \
+            --max-clusters 20 \
+            --articles-per-cluster 5 \
+            --model "$LOCAL_LLM_MODEL" \
+            --article-prompt-version "$ARTICLE_PROMPT_VERSION" \
+            --cluster-prompt-version "$CLUSTER_PROMPT_VERSION" \
+            $MOCK_FLAG
+
+      - name: Validate frontend build
+        run: npm run build
+
+      - name: Commit enriched data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add public/data/enrichment/
+
+          if git diff --cached --quiet; then
+            echo "No enrichment changes to commit."
+          else
+            git commit -m "chore(data): add daily LLM enrichment (${{ steps.date.outputs.date }})"
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push failed; rebasing before retry $attempt..."
+              git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+            done
+            git push
+          fi
