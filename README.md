@@ -16,6 +16,8 @@ pip install -r requirements.txt
 npm run sources:validate  # valida data/sources/source-spectrum.yml e aliases
 npm run sources:build     # gera public/data/source-spectrum.json
 npm run collect           # gera índice em public/data/latest.json + detalhes particionados
+npm run articles:archive  # baixa texto limpo dos principais artigos em public/data/article-content/
+npm run enrichment:daily  # gera enriquecimento/newsletter em public/data/enrichment/
 npm run archive:migrate   # migra public/data/archive/*.json para pastas particionadas por dia
 python3 scripts/image_preview_sandbox.py --clusters 2 --articles-per-cluster 4
 npm run dev -- --host 0.0.0.0 --port 4177
@@ -24,6 +26,33 @@ npm run preview -- --host 0.0.0.0 --port 4177
 ```
 
 `npm run collect` tenta preencher imagens reais de preview a partir das metatags públicas das matérias (`og:image`/`twitter:image`). Use `-- --disable-preview-images` para pular essa etapa ou ajuste `--max-preview-image-fetches-per-story` e `--preview-image-timeout` ao rodar `scripts/generate_news_data.py` diretamente.
+
+## Enriquecimento e newsletter diária
+
+A camada de enriquecimento é aditiva e consome os textos limpos já arquivados por `npm run articles:archive` em `public/data/article-content/{YYYY-MM-DD}/`. Ela gera dados estruturados por cluster e uma newsletter diária sem alterar a coleta atual.
+
+Exemplo local:
+
+```bash
+npm run articles:archive -- --date 2026-06-05 --max-clusters 2
+npm run enrichment:daily -- --date 2026-06-05 --max-clusters 2
+```
+
+Saídas públicas:
+
+- `public/data/enrichment/latest.json`
+- `public/data/enrichment/latest.md`
+- `public/data/enrichment/clusters/{clusterId}.json`
+- `public/data/enrichment/newsletters/{YYYY-MM-DD}.json`
+- `public/data/enrichment/newsletters/{YYYY-MM-DD}.md`
+
+Por padrão, `enrichment:daily` usa `--llm-provider none` e gera um fallback determinístico/auditável com JSON validável. Para testar Ollama local:
+
+```bash
+LOCAL_LLM_MODEL=llama3.2:3b npm run enrichment:daily -- --date 2026-06-05 --llm-provider ollama --model llama3.2:3b
+```
+
+Os prompts versionados ficam em `scripts/enrichment/prompts/`. O workflow `.github/workflows/daily-enrichment.yml` pode rodar diariamente ou manualmente; o provider `none` mantém o CI barato, e `ollama` é opcional.
 
 ## Revisão colaborativa das fontes
 

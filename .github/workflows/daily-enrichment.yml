@@ -1,0 +1,135 @@
+name: Daily enrichment
+
+on:
+  schedule:
+    # Runs after the article-content archive workflow has time to commit.
+    - cron: '55 10 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Enrichment date key to process (YYYY-MM-DD). Defaults to today UTC.'
+        required: false
+        type: string
+      max_clusters:
+        description: 'Maximum article-content clusters to enrich.'
+        required: false
+        default: '20'
+        type: string
+      llm_provider:
+        description: 'LLM provider: none or ollama. none uses deterministic fallback.'
+        required: false
+        default: 'none'
+        type: choice
+        options:
+          - none
+          - ollama
+      model:
+        description: 'Local model name when llm_provider=ollama.'
+        required: false
+        default: 'llama3.2:3b'
+        type: string
+      run_article_archive:
+        description: 'Run article archive first if the date has no content yet.'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: daily-enrichment-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  daily-enrichment:
+    runs-on: ubuntu-latest
+    env:
+      LOCAL_LLM_MODEL: ${{ inputs.model || 'llama3.2:3b' }}
+      NEWSLETTER_LLM_PROVIDER: ${{ inputs.llm_provider || 'none' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Optionally install Ollama
+        if: ${{ inputs.llm_provider == 'ollama' }}
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve > /tmp/ollama.log 2>&1 &
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:11434/api/tags >/dev/null; then
+              break
+            fi
+            sleep 2
+          done
+          ollama pull "$LOCAL_LLM_MODEL"
+
+      - name: Optionally archive article content first
+        if: ${{ inputs.run_article_archive == true }}
+        env:
+          DATE_INPUT: ${{ inputs.date }}
+          MAX_CLUSTERS_INPUT: ${{ inputs.max_clusters }}
+        run: |
+          DATE_ARG=""
+          if [ -n "$DATE_INPUT" ]; then
+            DATE_ARG="--date $DATE_INPUT"
+          fi
+          python3 scripts/archive_article_content.py \
+            $DATE_ARG \
+            --max-clusters "${MAX_CLUSTERS_INPUT:-20}" \
+            --min-articles-per-cluster 5 \
+            --max-articles-per-cluster 8 \
+            --timeout 20 \
+            --sleep 0.25
+
+      - name: Generate enrichment artifacts
+        env:
+          DATE_INPUT: ${{ inputs.date }}
+          MAX_CLUSTERS_INPUT: ${{ inputs.max_clusters }}
+        run: |
+          DATE_ARG=""
+          if [ -n "$DATE_INPUT" ]; then
+            DATE_ARG="--date $DATE_INPUT"
+          fi
+          python3 scripts/enrichment/generate_daily_enrichment.py \
+            $DATE_ARG \
+            --max-clusters "${MAX_CLUSTERS_INPUT:-20}" \
+            --llm-provider "$NEWSLETTER_LLM_PROVIDER" \
+            --model "$LOCAL_LLM_MODEL"
+
+      - name: Validate frontend
+        run: |
+          npm run lint
+          npm run build
+
+      - name: Commit enrichment artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/enrichment/
+          if git diff --cached --quiet; then
+            echo "No enrichment changes to commit."
+          else
+            git commit -m "chore(data): generate daily enrichment"
+            git push
+          fi
