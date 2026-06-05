@@ -45,6 +45,27 @@ class GenerateNewsDataTest(unittest.TestCase):
         self.assertEqual(first[:16], second[:16])
         self.assertNotEqual(generate_news_data.cluster_id(first), generate_news_data.cluster_id(second))
 
+    def test_discover_story_ids_preserves_seed_page_order_and_rank_metadata(self):
+        home_id = "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l_home_rank_1"
+        shared_id = "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l_shared_rank_2"
+        top_only_id = "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l_top_rank_1"
+
+        def fake_fetch(url):
+            if "/home" in url:
+                return f'<a href="./stories/{home_id}?x=1"></a><a href="./stories/{shared_id}?x=1"></a>'
+            if "/topstories" in url:
+                return f'<a href="./stories/{top_only_id}?x=1"></a><a href="./stories/{shared_id}?x=1"></a>'
+            return ""
+
+        with patch.object(generate_news_data, "discover_seed_pages", return_value=[("home", "https://news.google.com/home"), ("topstories", "https://news.google.com/topstories")]), \
+             patch.object(generate_news_data, "fetch", side_effect=fake_fetch):
+            discovered = generate_news_data.discover_story_ids()
+
+        self.assertEqual(list(discovered.keys()), [home_id, shared_id, top_only_id])
+        self.assertEqual(discovered[home_id]["firstSeenRank"], 1)
+        self.assertEqual(discovered[shared_id]["seedRanks"], {"home": 2, "topstories": 2})
+        self.assertEqual(discovered[top_only_id]["firstSeenSeedPage"], "topstories")
+
     def test_dedupe_clusters_removes_google_story_variants_with_high_article_overlap(self):
         base_urls = [f"https://example.com/news/{i}" for i in range(20)]
         duplicate_urls = base_urls[:18] + ["https://example.com/news/extra-a", "https://example.com/news/extra-b"]

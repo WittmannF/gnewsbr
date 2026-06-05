@@ -152,8 +152,27 @@ def discover_seed_pages() -> list[tuple[str, str]]:
     return pages
 
 
-def discover_story_ids(max_seed_pages: int | None = None) -> OrderedDict[str, set[str]]:
-    story_sources: OrderedDict[str, set[str]] = OrderedDict()
+def extract_story_ids_in_order(page_html: str) -> list[str]:
+    """Return story ids in page order while removing duplicates.
+
+    The daily article archive uses this order as an approximation of Google News'
+    editorial ranking on home/topstories pages, so avoid sorting the ids here.
+    """
+    candidates = re.findall(r'(?:\./|/)stories/([A-Za-z0-9_-]{20,})', page_html)
+    # Some upstream markup puts escaped URLs in data blobs. This catches those too.
+    candidates.extend(re.findall(r'stories/([A-Za-z0-9_-]{20,})\?', page_html))
+    ordered: list[str] = []
+    seen: set[str] = set()
+    for story_id in candidates:
+        if story_id in seen:
+            continue
+        seen.add(story_id)
+        ordered.append(story_id)
+    return ordered
+
+
+def discover_story_ids(max_seed_pages: int | None = None) -> OrderedDict[str, dict[str, Any]]:
+    story_sources: OrderedDict[str, dict[str, Any]] = OrderedDict()
     seed_pages = discover_seed_pages()
     if max_seed_pages:
         seed_pages = seed_pages[:max_seed_pages]
@@ -164,11 +183,22 @@ def discover_story_ids(max_seed_pages: int | None = None) -> OrderedDict[str, se
         except Exception as exc:
             print(f"WARN seed page failed {label}: {exc}", file=sys.stderr)
             continue
-        ids = set(re.findall(r'(?:\./|/)stories/([A-Za-z0-9_-]{20,})', html))
-        # Some upstream markup puts escaped URLs in data blobs. This catches those too.
-        ids |= set(re.findall(r'stories/([A-Za-z0-9_-]{20,})\?', html))
-        for sid in sorted(ids):
-            story_sources.setdefault(sid, set()).add(label)
+        ids = extract_story_ids_in_order(html)
+        for rank, sid in enumerate(ids, start=1):
+            info = story_sources.setdefault(
+                sid,
+                {
+                    "seedPages": [],
+                    "seedRanks": {},
+                    "firstSeenSeedPage": label,
+                    "firstSeenRank": rank,
+                    "bestSeedRank": rank,
+                },
+            )
+            if label not in info["seedPages"]:
+                info["seedPages"].append(label)
+            info["seedRanks"].setdefault(label, rank)
+            info["bestSeedRank"] = min(int(info["bestSeedRank"]), rank)
         print(f"{label}: {len(ids)} stories")
     return story_sources
 
@@ -434,14 +464,41 @@ def dedupe_clusters(clusters: list[dict[str, Any]], overlap_threshold: float = 0
     return deduped
 
 
+def discovery_metadata(seed_info: Any) -> dict[str, Any]:
+    if isinstance(seed_info, dict):
+        seed_pages = list(seed_info.get("seedPages") or [])
+        seed_ranks = dict(seed_info.get("seedRanks") or {})
+        first_seen_seed_page = seed_info.get("firstSeenSeedPage") or (seed_pages[0] if seed_pages else None)
+        first_seen_rank = seed_info.get("firstSeenRank")
+        best_seed_rank = seed_info.get("bestSeedRank")
+    else:
+        seed_pages = sorted(set(seed_info or []))
+        seed_ranks = {}
+        first_seen_seed_page = seed_pages[0] if seed_pages else None
+        first_seen_rank = None
+        best_seed_rank = None
+    return {
+        "seedPages": seed_pages,
+        "seedRanks": seed_ranks,
+        "firstSeenSeedPage": first_seen_seed_page,
+        "firstSeenRank": first_seen_rank,
+        "bestSeedRank": best_seed_rank,
+        "isHomeTop": "home" in seed_pages,
+        "isTopStoriesTop": "topstories" in seed_pages,
+    }
+
+
 def build_cluster(
     story_id: str,
-    seed_labels: set[str],
+    seed_info: Any,
     max_articles_per_story: int,
     max_preview_image_fetches: int = 0,
     preview_image_timeout: float = 5.0,
     image_stats: Counter[str] | None = None,
 ) -> dict[str, Any] | None:
+    discovery = discovery_metadata(seed_info)
+    seed_labels = set(discovery["seedPages"])
+
     url = STORY_URL_TEMPLATE.format(story_id)
     try:
         html = fetch(url)
@@ -523,6 +580,7 @@ def build_cluster(
         "storyId": story_id,
         "storyUrl": url,
         "seedPages": sorted(seed_labels),
+        "discovery": discovery,
         "title": title,
         "summary": summary,
         "topic": " · ".join(keywords[:2]).title() if keywords else "Manchetes",
@@ -605,6 +663,8 @@ def build_cluster_summary(cluster: dict[str, Any], detail_path: str) -> dict[str
         "id": cluster["id"],
         "detailPath": detail_path,
         "storyUrl": cluster.get("storyUrl"),
+        "seedPages": cluster.get("seedPages", []),
+        "discovery": cluster.get("discovery", {}),
         "title": cluster.get("title"),
         "summary": cluster.get("summary"),
         "topic": cluster.get("topic"),
@@ -727,13 +787,14 @@ def main() -> int:
     clusters = []
     image_stats: Counter[str] = Counter()
     max_preview_fetches = 0 if args.disable_preview_images else args.max_preview_image_fetches_per_story
-    for idx, (sid, labels) in enumerate(story_sources.items()):
+    for idx, (sid, seed_info) in enumerate(story_sources.items()):
         if len(clusters) >= args.max_stories:
             break
-        print(f"[{idx+1}/{len(story_sources)}] story {sid[:12]} from {','.join(sorted(labels))}")
+        discovery = discovery_metadata(seed_info)
+        print(f"[{idx+1}/{len(story_sources)}] story {sid[:12]} from {','.join(discovery['seedPages'])}")
         cluster = build_cluster(
             sid,
-            labels,
+            seed_info,
             args.max_articles_per_story,
             max_preview_image_fetches=max_preview_fetches,
             preview_image_timeout=args.preview_image_timeout,
