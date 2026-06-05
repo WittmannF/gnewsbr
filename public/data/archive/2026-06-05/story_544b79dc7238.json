@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 24
+      "topic-7": 25
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 25,
+    "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/JBMYUMVCJZG37C4R6K7WXIS5LM.jpg?quality=80&auth=422c6e57020617a40125d0baeba4b93f2de356b4c93a761ee61b525fe34d22e4&width=1200&height=630&smart=true",
   "publishedAt": "2026-05-27T16:51:24+00:00",
-  "updatedAt": "2026-06-05T09:35:16.331965+00:00",
+  "updatedAt": "2026-06-05T13:29:59.412967+00:00",
   "sourceCount": 15,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "Jornal de Negócios",
       "sourceDomain": "jornaldenegocios.pt",
       "publishedAt": "2026-06-04T11:51:08+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -106,20 +106,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_5cb48a04c661",
-      "title": "Rússia: A Armênia pode sofrer o mesmo destino que a Ucrânia.",
-      "description": "GD&TĐ - Em 4 de junho, o Secretário Adjunto do Conselho de Segurança da Rússia, Mikhail Shevtsov, afirmou que a Armênia poderia ter o mesmo...",
-      "url": "https://www.vietnam.vn/pt/nga-armenia-co-the-chiu-chung-so-phan-voi-ukraine",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-06-05T02:17:22+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_24b01ce50de2",
       "title": "Rússia convoca embaixador na Armênia ante proximidade do país com UE",
       "description": "Formalmente aliada da Rússia, a Armênia tem estreitado laços com o Ocidente nos últimos anos, apesar de sua dependência econômica de Moscou.",
@@ -134,18 +120,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_5cb48a04c661",
+      "title": "Rússia: A Armênia pode sofrer o mesmo destino que a Ucrânia.",
+      "description": "GD&TĐ - Em 4 de junho, o Secretário Adjunto do Conselho de Segurança da Rússia, Mikhail Shevtsov, afirmou que a Armênia poderia ter o mesmo...",
+      "url": "https://www.vietnam.vn/pt/nga-armenia-co-the-chiu-chung-so-phan-voi-ukraine",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-06-05T02:17:22+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_5e9a5db98944",
       "title": "Rússia ameaça punir Armênia por aproximação com a UE",
       "description": "Kremlin sinaliza suspensão de contratos de fornecimento de petróleo e gás caso país do Cáucaso reforce laços com Bruxelas.",
       "url": "https://www.dw.com/pt-br/r%C3%BAssia-amea%C3%A7a-punir-arm%C3%AAnia-por-aproxima%C3%A7%C3%A3o-com-a-ue/a-77320070",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
+      "source": "DW",
+      "sourceCanonical": "DW",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-05-27T16:51:24+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_40bfebdb2cee",
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.17,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.18,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 5,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
