@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 16
+      "topic-3": 18
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 16,
-    "bestSeedRank": 16,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/Rio-1.jpg",
   "publishedAt": "2026-06-02T15:10:24+00:00",
-  "updatedAt": "2026-06-05T07:50:13.859406+00:00",
+  "updatedAt": "2026-06-05T09:26:03.027976+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -92,20 +92,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_d733cdd4d772",
-      "title": "Paraná Pesquisas: Eduardo Paes lidera com 35 pontos de vantagem no 1º turno",
-      "description": "Pesquisa aponta liderança isolada de Eduardo Paes na corrida eleitoral e mostra que a gestão estadual de Ricardo Couto tem 51,8% de...",
-      "url": "https://exame.com/brasil/parana-pesquisas-eduardo-paes-lidera-com-35-pontos-de-vantagem-no-1o-turno/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-06-04T18:57:51+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_7b90e0b898b6",
       "title": "Pesquisa mostra Paes com 60% e Ruas com 24,5% no 2º turno",
       "description": "Eduardo Paes (PSD) lidera a corrida pelo segundo turno da corrida eleitoral pelo governo do Rio de Janeiro contra Douglas Ruas (PL),...",
@@ -114,6 +100,20 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-06-04T08:44:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_d733cdd4d772",
+      "title": "Paraná Pesquisas: Eduardo Paes lidera com 35 pontos de vantagem no 1º turno",
+      "description": "Pesquisa aponta liderança isolada de Eduardo Paes na corrida eleitoral e mostra que a gestão estadual de Ricardo Couto tem 51,8% de...",
+      "url": "https://exame.com/brasil/parana-pesquisas-eduardo-paes-lidera-com-35-pontos-de-vantagem-no-1o-turno/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-06-04T18:57:51+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
@@ -232,6 +232,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_576ccc870c51",
+      "title": "Crusoé: Garotinho pode atrapalhar Paes no 1º turno, indica pesquisa",
+      "description": "Levantamento do instituto Paraná Pesquisas divulgado nesta quinta-feira, 4, indica que a entrada do ex-governador Anthony Garotinho...",
+      "url": "https://oantagonista.com.br/brasil/crusoe-garotinho-pode-atrapalhar-paes-no-1o-turno-indica-pesquisa/",
+      "source": "O Antagonista",
+      "sourceCanonical": "O Antagonista",
+      "sourceDomain": "oantagonista.com.br",
+      "publishedAt": "2026-06-04T13:16:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_7ad7ae9d2768",
       "title": "RJ: Garotinho supera Ruas entre eleitores menos escolarizados; Paes lidera",
       "description": "Eduardo Paes (PSD), atual prefeito da capital fluminense, lidera a corrida pelo governo do estado do Rio de Janeiro, com 48,3% das intenções...",
@@ -300,41 +314,27 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_b4629e7012f8",
-      "title": "Com 48,3%, Paes pode vencer no 1º turno no Rio, aponta Paraná Pesquisas",
-      "description": "Levantamento também aponta liderança de Benedita da Silva na disputa pelo Senado, seguida por Marcelo Crivella.",
-      "url": "https://www.brasil247.com/regionais/sudeste/com-48-3-paes-pode-vencer-no-1-turno-no-rio-aponta-parana-pesquisas",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-06-04T10:51:04+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 8,
-    "average": 4.29,
+    "average": 4.79,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
-      "left": 5,
+      "left": 4,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 0,
       "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
