@@ -17,7 +17,9 @@ on:
         type: string
 
 concurrency:
-  group: article-content-${{ github.ref }}
+  # Share the same lock with the Pages data refresh because both workflows can
+  # commit generated files to main.
+  group: data-writers-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
@@ -70,5 +72,12 @@ jobs:
             echo "No article content changes to commit."
           else
             git commit -m "chore(data): archive article content"
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push failed; rebasing on origin/${GITHUB_REF_NAME:-main} before retry $attempt..."
+              git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+            done
             git push
           fi
