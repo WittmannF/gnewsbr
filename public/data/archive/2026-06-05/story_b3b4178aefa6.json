@@ -5,12 +5,25 @@
   "seedPages": [
     "topic-4"
   ],
-  "title": "Notícias sobre Copa • Netflix",
+  "discovery": {
+    "seedPages": [
+      "topic-4"
+    ],
+    "seedRanks": {
+      "topic-4": 33
+    },
+    "firstSeenSeedPage": "topic-4",
+    "firstSeenRank": 33,
+    "bestSeedRank": 33,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
+  },
+  "title": "Série Brasil 70: a Saga do Tri",
   "summary": "Ainda há controvérsias sobre qual foi a maior seleção brasileira de todos os tempos, se a de 1958 ou a de 1970. Ambas foram espetaculares e...",
-  "topic": "Tri · Netflix",
+  "topic": "Netflix · Tri",
   "topicKeywords": [
-    "tri",
     "netflix",
+    "tri",
     "série",
     "copa",
     "saga",
@@ -18,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/02/17804537176a1f91550ef76_1780453717_3x2_rt.jpg",
   "publishedAt": "2026-05-29T03:00:00+00:00",
-  "updatedAt": "2026-06-05T03:28:29.014671+00:00",
+  "updatedAt": "2026-06-05T05:48:30.602779+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -37,6 +50,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_2a920be57f99",
+      "title": "Quem é Lucas Agrícola, ator que faz Pelé em ‘Brasil 70’",
+      "description": "Lucas Agrícola assumiu um grande papel em sua primeira experiência nas telas: interpretar o camisa 10 Pelé em Brasil 70: A Saga do Tri,...",
+      "url": "https://vejasp.abril.com.br/cultura-lazer/quem-e-lucas-agricola-ator-que-faz-pele-em-brasil-70/",
+      "source": "VEJA SÃO PAULO",
+      "sourceCanonical": "VEJA SÃO PAULO",
+      "sourceDomain": "vejasp.abril.com.br",
+      "publishedAt": "2026-06-01T20:46:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_2f5208071d10",
       "title": "Opinião - Tati Bernardi: O Brasil é o país do audiovisual",
       "description": "'Brasil 70' me fez torcer exasperada por lances históricos, incluindo chutes que eu já sabia que não entrariam.",
@@ -45,7 +72,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-06-05T02:00:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/26/17798507566a165e04c0a2d_1779850756_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -77,20 +104,6 @@
       "imageUrl": "https://s2-oglobo.glbimg.com/FjoHhbMP1dwUJiCwDSnFV1v0Ux4=/553x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/i/Q7wVGmRlA891L809AkaA/saldanha.png",
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_d2957b5ed202",
-      "title": "Demitido às vésperas da Copa, Saldanha escreveu a “carta aberta ao futebol”",
-      "description": "O treinador deixou o cargo a 78 dias da estreia no mundial do México, em 1970.",
-      "url": "https://jovempan.com.br/opiniao-jovem-pan/comentaristas/thiago-uberreich-comentaristas/demitido-as-vesperas-da-copa-saldanha-escreveu-a-carta-aberta-ao-futebol.html",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-06-04T10:00:20+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_d1f2d11fe1e8",
@@ -149,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_029579f178f2",
-      "title": "‘Brasil 70’: Como a série recriou lances históricos da Copa do Mundo",
-      "description": "Série da Netflix narra superação da seleção brasileira no tricampeonato e inspira o país a ter otimismo.",
-      "url": "https://vejasp.abril.com.br/cultura-lazer/brasil-70-serie-netflix-copa-do-mundo/",
-      "source": "VEJA SÃO PAULO",
-      "sourceCanonical": "VEJA SÃO PAULO",
-      "sourceDomain": "vejasp.abril.com.br",
-      "publishedAt": "2026-06-03T22:21:43+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_7ff21e233e45",
       "title": "\"Teria sido melhor ir ver o filme do Pelé?\": Diretores de Brasil 70 brincam com fim de meme clássico do Chaves (Entrevista)",
       "description": "Enquanto nova minissérie da Netflix domina o serviço de streaming, liderando a lista das séries mais vistas da plataforma, uma expressão...",
@@ -191,6 +190,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_d2957b5ed202",
+      "title": "Demitido às vésperas da Copa, Saldanha escreveu a “carta aberta ao futebol”",
+      "description": "O treinador deixou o cargo a 78 dias da estreia no mundial do México, em 1970.",
+      "url": "https://jovempan.com.br/opiniao-jovem-pan/comentaristas/thiago-uberreich-comentaristas/demitido-as-vesperas-da-copa-saldanha-escreveu-a-carta-aberta-ao-futebol.html",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-04T10:00:20+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_d0d55a20d5c3",
+      "title": "'Brasil 70: A Saga do Tri': veja o elenco da série da Netflix sobre a Copa de 1970",
+      "description": "Em clima de Copa do Mundo, a Netflix lançou, nesta sexta-feira, 29, a minissérie “Brasil 70: A Saga do Tri”. A produção resgata a campanha...",
+      "url": "https://exame.com/pop/brasil-70-a-saga-do-tri-veja-o-elenco-da-serie-da-netflix-sobre-a-copa-de-1970/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-05-29T18:55:56+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_7de2bc4759ef",
       "title": "Ex-Inter vira ator em série da Netflix sobre o tri do Brasil na Copa do Mundo de 1970",
       "description": "Destaque do futebol do interior gaúcho, Fabiano Heves interpretou o italiano Enrico Albertosi na produção lançada às vésperas do Mundial de...",
@@ -213,24 +240,10 @@
       "sourceCanonical": "IGN Brasil",
       "sourceDomain": "br.ign.com",
       "publishedAt": "2026-06-04T03:35:27+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_d0d55a20d5c3",
-      "title": "'Brasil 70: A Saga do Tri': veja o elenco da série da Netflix sobre a Copa de 1970",
-      "description": "Em clima de Copa do Mundo, a Netflix lançou, nesta sexta-feira, 29, a minissérie “Brasil 70: A Saga do Tri”. A produção resgata a campanha...",
-      "url": "https://exame.com/pop/brasil-70-a-saga-do-tri-veja-o-elenco-da-serie-da-netflix-sobre-a-copa-de-1970/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-05-29T18:55:56+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_b2155da657d5",
@@ -275,20 +288,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_2e3f7b5a0411",
-      "title": "Quem é Lucas Agrícola? Conheça o ator que interpreta Pelé em 'Brasil 70'",
-      "description": "Interpretar Pelé em uma produção sobre a conquista da Copa do Mundo de 1970 exigiu dedicação de Lucas Agrícola. No elenco de \"Brasil 70 - A...",
-      "url": "https://www.otempo.com.br/entretenimento/2026/6/3/quem-e-lucas-agricola-conheca-o-ator-que-interpreta-pele-em-brasil-70",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-06-03T16:25:19+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_48c59b8f6a15",
       "title": "Somos DriblaDores: Dorflex anuncia sua maior campanha do ano e parceria inédita com a Netflix",
       "description": "Somos DriblaDores: Dorflex anuncia sua maior campanha do ano e parceria inédita com a Netflix. Marca líder em analgésicos no Brasil se une à...",
@@ -301,21 +300,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_5e8c5ecfea72",
+      "title": "Antes de viver Rivellino na Netflix, Daniel Blanco passou em peneira do Flamengo",
+      "description": "Para reproduzir os momentos históricos da Seleção Brasileira de 1970, os atores passaram por uma preparação intensa, que incluiu treinos de...",
+      "url": "https://portalleodias.com/colunas/carla-bittencourt/antes-de-viver-rivellino-na-netflix-daniel-blanco-passou-em-peneira-do-flamengo",
+      "source": "Portal Leo Dias",
+      "sourceCanonical": "Portal Leo Dias",
+      "sourceDomain": "portalleodias.com",
+      "publishedAt": "2026-06-04T15:00:28+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.6,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.67,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 3,
-      "center": 5,
+      "center": 4,
       "centerRight": 1,
       "right": 1,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {

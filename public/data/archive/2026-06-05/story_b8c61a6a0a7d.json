@@ -6,6 +6,21 @@
     "topic-5",
     "topic-7"
   ],
+  "discovery": {
+    "seedPages": [
+      "topic-5",
+      "topic-7"
+    ],
+    "seedRanks": {
+      "topic-5": 13,
+      "topic-7": 9
+    },
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 13,
+    "bestSeedRank": 9,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
+  },
   "title": "Keir Starmer condena protestos após morte de Henry Nowak",
   "summary": "O escândalo em torno da morte por esfaqueamento de um jovem de 18 anos — que havia sido algemado pela polícia enquanto pedia ajuda por não...",
   "topic": "Reino · Unido",
@@ -15,11 +30,11 @@
     "morte",
     "polícia",
     "nowak",
-    "jovem"
+    "protestos"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/a2ca/live/20841970-5e0d-11f1-89a3-d1f559421220.png",
   "publishedAt": "2026-06-02T07:00:00+00:00",
-  "updatedAt": "2026-06-05T03:29:42.039404+00:00",
+  "updatedAt": "2026-06-05T05:49:59.747736+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -144,7 +159,7 @@
       "sourceCanonical": "Expresso",
       "sourceDomain": "expresso.pt",
       "publishedAt": "2026-06-04T21:57:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -158,7 +173,21 @@
       "sourceCanonical": "Notícias ao Minuto",
       "sourceDomain": "noticiasaominuto.com",
       "publishedAt": "2026-06-04T22:20:30+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_64c2e78f3e2e",
+      "title": "Protestos e confrontos com polícia por morte de estudante no Reino Unido",
+      "description": "Manifestantes atiraram garrafas e contentores do lixo contra as forças policiais em Southampton, no sul de Inglaterra, durante um protesto...",
+      "url": "https://expressodasilhas.cv/mundo/2026/06/03/protestos-e-confrontos-com-policia-por-morte-de-estudante-no-reino-unido/103009",
+      "source": "Expresso das Ilhas",
+      "sourceCanonical": "Expresso das Ilhas",
+      "sourceDomain": "expressodasilhas.cv",
+      "publishedAt": "2026-06-03T08:39:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -262,28 +291,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_69919860462b",
-      "title": "Polícia do Reino Unido sofre pressão após jovem morrer algemado e ferido",
-      "description": "Henry Nowak de 18 anos foi imobilizado por agentes depois que o homem que esfaqueou mentir para as autoridades alegando ter sofrido um...",
-      "url": "https://www.cnnbrasil.com.br/internacional/policia-do-reino-unido-sofre-pressao-apos-jovem-morrer-algemado-e-ferido/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-02T15:47:48+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6ea67827f28b",
-      "title": "Ex-oficial em fuga após ligação falsa à prisão de Henry Nowak",
-      "description": "Ex-oficial em fuga após ligação falsa à prisão de Henry Nowak. Ex-policial foge para abrigo após ser ligada erroneamente ao caso Henry Nowak...",
-      "url": "https://www.portaltela.com/noticias/geral/2026/06/03/ex-oficial-em-fuga-apos-ligacao-falsa-a-prisao-de-henry-nowak/",
-      "source": "Portal Tela",
-      "sourceCanonical": "Portal Tela",
-      "sourceDomain": "portaltela.com",
-      "publishedAt": "2026-06-03T15:36:33+00:00",
+      "id": "article_df934c5145fb",
+      "title": "Ex-policial está escondida depois que Grok a ligou falsamente à prisão de Henry Nowak | Notícias do Reino Unido",
+      "description": "O ativista de extrema direita Tommy Robinson está com manifestantes protestando contra a forma como a polícia lidou com a prisão de Henry...",
+      "url": "https://www.obusilis.com.br/estilo-de-vida/ex-policial-esta-escondida-depois-que-grok-a-ligou-falsamente-a-prisao-de-henry-nowak-noticias-do-reino-unido/72939/",
+      "source": "obusilis.com.br",
+      "sourceCanonical": "obusilis.com.br",
+      "sourceDomain": "obusilis.com.br",
+      "publishedAt": "2026-06-03T07:00:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -307,16 +322,16 @@
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.44,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.5,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 6,
+      "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
