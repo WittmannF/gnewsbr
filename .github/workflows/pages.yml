@@ -9,8 +9,11 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  # Serialize every workflow that can write generated data to main. Without this,
+  # the hourly Pages refresh and article-content archive can both commit from an
+  # old checkout and one push is rejected with "fetch first".
+  group: data-writers-${{ github.ref }}
+  cancel-in-progress: false
 
 # Opt in early to the GitHub Actions Node.js 24 runtime so the workflow does not
 # depend on the deprecated Node.js 20 action runtime.
@@ -72,6 +75,13 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "chore(data): refresh Google News stories"
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push failed; rebasing on origin/${GITHUB_REF_NAME:-main} before retry $attempt..."
+              git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+            done
             git push
           fi
 
