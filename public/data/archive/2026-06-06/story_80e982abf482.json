@@ -3,37 +3,40 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGcE9LbkVSRnhacE9sQ1l5aWd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGcE9LbkVSRnhacE9sQ1l5aWd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-2",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-2",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 30
+      "topic-2": 5,
+      "topic-7": 33
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenSeedPage": "topic-2",
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "A canetinha tem seus favoritos? Cientistas descobrem por que Ozempic pode não funcionar para algumas pessoas; entenda",
+  "title": "Notícias sobre Ozempic",
   "summary": "Estudo liderado por Stanford aponta que variantes genéticas associadas à resistência ao GLP-1 podem reduzir a eficácia de medicamentos...",
-  "topic": "Cientistas · Ozempic",
+  "topic": "Ozempic · Pode",
   "topicKeywords": [
-    "cientistas",
     "ozempic",
     "pode",
+    "cientistas",
     "não",
     "funcionar",
     "algumas"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/pcjmJtauXZVL16PpglzDCencYtA=/6048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/x/B/6vH7cwSUyeElitWwyTBg/high-angle-diabetic-woman-checking-her-glucose-level.jpg",
   "publishedAt": "2026-06-05T18:49:29+00:00",
-  "updatedAt": "2026-06-06T21:45:31.323827+00:00",
-  "sourceCount": 3,
-  "articleCount": 3,
+  "updatedAt": "2026-06-06T22:34:22.840646+00:00",
+  "sourceCount": 4,
+  "articleCount": 4,
   "articles": [
     {
       "id": "article_7c56d8ff38b9",
@@ -48,6 +51,20 @@
       "imageUrl": "https://s2-oglobo.glbimg.com/pcjmJtauXZVL16PpglzDCencYtA=/6048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/x/B/6vH7cwSUyeElitWwyTBg/high-angle-diabetic-woman-checking-her-glucose-level.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_b63100c50ede",
+      "title": "Pesquisa indica por que Ozempic pode ter efeito reduzido em alguns pacientes",
+      "description": "Estudo identifica variantes genéticas que podem reduzir a eficácia do Ozempic em parte dos pacientes com diabetes tipo 2.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/pesquisa-indica-por-que-ozempic-pode-ter-efeito-reduzido-em-alguns-pacientes/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-06-06T21:48:26+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/06/ozempic-transforma-a-novo-nordisk-na-maior-empresa-farmaceutica-da-europa.jpeg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c0da7fabf7e0",
@@ -79,13 +96,13 @@
     }
   ],
   "spectrum": {
-    "min": 6,
+    "min": 2,
     "max": 6,
-    "average": 6,
-    "knownCount": 1,
+    "average": 4,
+    "knownCount": 2,
     "unknownCount": 2,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 0,
@@ -94,10 +111,10 @@
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 54
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
+    "confidence": 59
   },
   "flags": [
     "Manchetes divergentes"
