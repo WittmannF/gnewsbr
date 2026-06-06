@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l4MU51bUVSSG9XOEhoRjA0TWhpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l4MU51bUVSSG9XOEhoRjA0TWhpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 6,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "EUA atacam radares no Irã após abaterem drones no Estreito",
   "summary": "Guarda Revolucionária do Irã afirmou ter disparado mísseis contra bases americanas no Bahrein e no Kuwait. Da CNN Brasil*, em São Paulo...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "irã",
     "eua",
-    "ter",
     "mísseis",
-    "ataque",
-    "kuwait"
+    "ter",
+    "golfo",
+    "ataque"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/GettyImages-2242508834-e1780712604571.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-06-01T20:27:18+00:00",
-  "updatedAt": "2026-06-06T10:53:53.486521+00:00",
+  "publishedAt": "2026-06-01T14:22:00+00:00",
+  "updatedAt": "2026-06-06T11:42:37.707167+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -81,18 +87,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_4fc8da1ada69",
-      "title": "Kuwait afirma que está respondendo a ataques “hostis” com mísseis e drones",
-      "description": "Ofensiva ocorre dias após ataque a aeroporto que deixou um morto e feridos, intensificando hostilidades na região do Golfo.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/kuwait-afirma-que-esta-respondendo-a-ataques-hostis-com-misseis-e-drones-1.1719803",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-06-06T02:29:35+00:00",
+      "id": "article_6274b673f435",
+      "title": "Exército dos EUA ataca instalações de radares no Irã",
+      "description": "Estados Unidos já haviam realizado quatro ataques terrestres em território iraniano no início da semana.",
+      "url": "https://jovempan.com.br/mundo/exercito-dos-eua-ataca-instalacoes-de-radares-no-ira/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-06T01:26:29+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1719802:1780712534/AFP__20260604__B4Z9467__v2__MidRes__LebanonIsraelIranUsWar.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=69e0189",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/02/0bd2d18ae5f9bd1f473c16432ae92dc1edd6bb06.jpg?w=1000&h=630&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_edde0872fafe",
@@ -109,6 +115,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_4fc8da1ada69",
+      "title": "Kuwait afirma que está respondendo a ataques “hostis” com mísseis e drones",
+      "description": "Ofensiva ocorre dias após ataque a aeroporto que deixou um morto e feridos, intensificando hostilidades na região do Golfo.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/kuwait-afirma-que-esta-respondendo-a-ataques-hostis-com-misseis-e-drones-1.1719803",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-06-06T02:29:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_35ed734de3cf",
       "title": "Irã lança drones em direção ao Estreito de Ormuz, diz CNN",
       "description": "O ​Irã lançou ​vários drones ⁠em ‌direção ‌ao ‌Estreito ⁠de Ormuz, informou a CNN ‌nesta ‌sexta- ...",
@@ -121,20 +141,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_47696a207cb7",
-      "title": "Exército dos EUA ataca instalações de radares no Irã",
-      "description": "O Exército dos Estados Unidos anunciou nesta sexta-feira (5) que bombardeou, em \"legítima defesa\", dois locais de radares no Irã. As forças...",
-      "url": "https://www.folhape.com.br/noticias/exercito-dos-eua-ataca-instalacoes-de-radares-no-ira/492213/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-06-06T00:32:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_7b12ec99b9d7",
@@ -151,6 +157,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_1c4f13ae17b1",
+      "title": "Irã diz ter feito disparos de advertência contra navios americanos no Mar de Omã; EUA negam",
+      "description": "O Irã afirmou nesta sexta-feira (5) que realizou disparos de advertência com mísseis e drones contra embarcações militares dos Estados...",
+      "url": "https://www.folhape.com.br/noticias/ira-diz-ter-feito-disparos-de-advertencia-contra-navios-americanos-no/492108/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-06-05T14:50:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_a97e2162a612",
       "title": "Irã danificou 20 instalações militares americanas desde o início da guerra, revelam imagens de satélite",
       "description": "Analistas ouvidos pelo BBC Verify afirmaram que os ataques do Irã foram mais amplos do que havia sido reconhecido publicamente.",
@@ -163,20 +183,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_36c1efc3049b",
-      "title": "Ataques recíprocos entre EUA e Irã, mas as negociações continuam",
-      "description": "A tensão volta a aumentar no Oriente Médio com ataques a navios que transitam pelo Estreito de Ormuz. Os Estados Unidos falaram em...",
-      "url": "https://www.vaticannews.va/pt/mundo/news/2026-06/ataques-eua-ira-negociacoes-continuam-libano-ao-menos-5-mortos.html",
-      "source": "Vatican News",
-      "sourceCanonical": "Vatican News",
-      "sourceDomain": "vaticannews.va",
-      "publishedAt": "2026-06-03T11:34:25+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_09078d5a45bd",
@@ -221,17 +227,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_fa2efc430476",
-      "title": "Irã afirma ter disparos de alerta contra navios dos EUA, mas Washington nega",
-      "description": "Teerã diz ter usado mísseis e drones para afastar destróieres no Mar de Omã, enquanto o comando americano classifica versão como falsa e...",
-      "url": "https://www.infomoney.com.br/mundo/ira-afirma-ter-disparos-de-alerta-contra-navios-dos-eua-mas-washington-nega/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-06-05T14:54:36+00:00",
-      "postedLabel": "hoje",
+      "id": "article_bd2c22e90fd9",
+      "title": "EUA derrubam mísseis e drones do Irã no Golfo Pérsico",
+      "description": "Operação interceptou drones e mísseis balísticos lançados durante período de cessar-fogo.",
+      "url": "https://www.poder360.com.br/poder-internacional/eua-derrubam-misseis-e-drones-do-ira-no-golfo-persico/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-06-06T11:03:45+00:00",
+      "postedLabel": "38 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -249,18 +255,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_cb36c05fd905",
-      "title": "Tensões no Golfo aumentam após Irã atingir Kuweit e EUA realizar ataque perto de Ormuz",
-      "description": "Fonte: Reuters. Publicado em 03/06/2026 08:50. Logotipo Reuters. Por Ahmed Elimam e Patricia Zengerle. DUBAI/WASHINGTON, 3 Jun (Reuters) - As hostilidades...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/422048-tensoes-no-golfo-aumentam-apos-ira-atingir-kuweit-e-eua-realizar-ataque-perto-de-ormuz.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-06-03T11:50:56+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_ebccd2fac35f",
+      "title": "Negociações entre Irã e EUA se arrastam enquanto violações do cessar-fogo continuam de ambos os lados",
+      "description": "Estados Unidos e Irã anunciaram, nesta segunda-feira (1º), uma série de ataques recíprocos, o que pode ser considerado um novo revés para o...",
+      "url": "https://www.brasildefato.com.br/2026/06/01/negociacoes-entre-ira-e-eua-se-arrastam-enquanto-violacoes-do-cessar-fogo-continuam-de-ambos-os-lados/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-06-01T14:22:00+00:00",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_00d33a8f014e",
@@ -275,6 +281,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_cb36c05fd905",
+      "title": "Tensões no Golfo aumentam após Irã atingir Kuweit e EUA realizar ataque perto de Ormuz",
+      "description": "Fonte: Reuters. Publicado em 03/06/2026 08:50. Logotipo Reuters. Por Ahmed Elimam e Patricia Zengerle. DUBAI/WASHINGTON, 3 Jun (Reuters) - As hostilidades...",
+      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/422048-tensoes-no-golfo-aumentam-apos-ira-atingir-kuweit-e-eua-realizar-ataque-perto-de-ormuz.html",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
+      "sourceDomain": "noticiasagricolas.com.br",
+      "publishedAt": "2026-06-03T11:50:56+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8d5324536eff",
@@ -303,41 +323,27 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_bb32d015457f",
-      "title": "EUA derrubam drones iranianos perto do Estreito de Ormuz em meio a tensões",
-      "description": "Investing.com - O exército dos EUA informou ter abatido quatro drones iranianos lançados em direção ao Estreito de Ormuz e atacado...",
-      "url": "https://br.investing.com/news/economy-news/eua-derrubam-drones-iranianos-perto-do-estreito-de-ormuz-em-meio-a-tensoes-1964689",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "sourceCanonical": "Investing.com Brasil",
-      "sourceDomain": "br.investing.com",
-      "publishedAt": "2026-06-06T01:28:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 5.21,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "max": 9,
+    "average": 5.2,
+    "knownCount": 20,
+    "unknownCount": 0,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 3,
-      "center": 11,
+      "center": 10,
       "centerRight": 4,
-      "right": 0,
-      "unknown": 1
+      "right": 1,
+      "unknown": 0
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
