@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 23
+      "topic-7": 24
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/7f15/live/4ab234a0-60c6-11f1-80e9-dd3de3da8ef3.jpg",
   "publishedAt": "2026-06-04T09:22:00+00:00",
-  "updatedAt": "2026-06-06T11:55:40.737592+00:00",
+  "updatedAt": "2026-06-06T12:52:53.047051+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Sherpa é encontrado vivo após 6 dias desaparecido no Everest",
       "description": "Sem comida ou oxigênio, nepalês sobreviveu de forma quase milagrosa a condições extremamente hostis na montanha mais alta do mundo.",
       "url": "https://www.dw.com/pt-br/sherpa-%C3%A9-encontrado-vivo-ap%C3%B3s-6-dias-desaparecido-no-everest/a-77424155",
-      "source": "DW",
-      "sourceCanonical": "DW",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-06-04T15:01:55+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://static.dw.com/image/77416426_6.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_758540b9c7fa",
@@ -101,7 +101,7 @@
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-06-06T04:24:10+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://assets.spalla.io/019e9b2c-7ad2-7006-93aa-cbf7d9b7a17c/thumbnail-1780719849.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -128,10 +128,24 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-06-05T11:59:51+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_3626ba985169",
+      "title": "Família do guia que reapareceu milagrosamente no Everest exige investigação",
+      "description": "A família de um alpinista que reapareceu milagrosamente após seis dias perdido no Everest exigiu uma investigação sobre a operação de...",
+      "url": "https://www.gazetaesportiva.com/todas-as-noticias/familia-do-guia-que-reapareceu-milagrosamente-no-everest-exige-investigacao/",
+      "source": "Gazeta Esportiva",
+      "sourceCanonical": "Gazeta Esportiva",
+      "sourceDomain": "gazetaesportiva.com",
+      "publishedAt": "2026-06-05T12:22:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d412d54cac05",
@@ -143,20 +157,6 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-06-04T18:22:51+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_1b8b89d24a87",
-      "title": "Família de guia encontrado vivo após seis dias desaparecido no Everest exige investigação",
-      "description": "Parentes acusam a empresa responsável pela expedição de demorar para iniciar as buscas pelo alpinista. 05/06/2026 | 9:52. AFP. O guia está em condição...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/familia-de-guia-encontrado-vivo-apos-seis-dias-desaparecido-no-everest-exige-investigacao-1.1719509",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-06-05T12:59:34+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,7 +254,7 @@
       "sourceCanonical": "Gazeta de São Paulo",
       "sourceDomain": "gazetasp.com.br",
       "publishedAt": "2026-06-05T12:14:55+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,7 +296,7 @@
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-06-05T12:12:59+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,13 +319,13 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5,
+    "average": 4.92,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
       "left": 0,
-      "centerLeft": 2,
-      "center": 9,
+      "centerLeft": 3,
+      "center": 8,
       "centerRight": 1,
       "right": 0,
       "unknown": 8
