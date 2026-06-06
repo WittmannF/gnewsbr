@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZcHZxbkVSR0szZzd0X0gycDdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZcHZxbkVSR0szZzd0X0gycDdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 13,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 9,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre Nunes Marques • CPI • Fachin",
+  "title": "Edson Fachin nega suspeição de Nunes Marques no caso Master",
   "summary": "Presidente do STF afirma que senadores apresentaram fora do prazo pedido para declarar suspeição do ministro na ação que discute instalação...",
   "topic": "Master · Fachin",
   "topicKeywords": [
     "master",
     "fachin",
     "cpi",
-    "marques",
+    "pedido",
     "nunes",
-    "pedido"
+    "marques"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ministro-nunes-marques-plenario-stf.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-05-27T07:00:00+00:00",
-  "updatedAt": "2026-06-06T03:22:50.475051+00:00",
+  "updatedAt": "2026-06-06T05:30:23.476176+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -61,10 +67,24 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-05T23:39:42+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8f05c3e2d66f",
+      "title": "Fachin nega pedido de suspeição de Kassio no caso Master",
+      "description": "Senadores Alessandro Vieira, Eduardo Girão, Marcos Pontes e Plínio Valério alegavam relação de amizade entre o ministro e Ciro Nogueira.",
+      "url": "https://www.estadao.com.br/politica/fachin-nega-pedido-de-suspeicao-de-kassio-no-caso-master-nprp/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-06-06T00:00:35+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/KFCXKYR2RVCNDA7EQ66WBEQPIQ.JPG?quality=80&auth=2f6265fffab1f1edab6a34ec1a4f051a862a4eabf62abfd99e461ca036e7cae0&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_611ff8f684ca",
@@ -76,23 +96,9 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-06-05T18:34:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/06/05153437/mendonca-stf.jpg",
+      "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_f73fca707298",
-      "title": "Fachin nega suspeição de Kassio para decidir sobre CPI do Master",
-      "description": "O presidente do Supremo Tribunal Federal, ministro Edson Fachin, negou pedido de quatro senadores para declarar a suspeição do ministro...",
-      "url": "https://www.cartacapital.com.br/justica/fachin-nega-suspeicao-de-kassio-para-decidir-sobre-cpi-do-master/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-06-05T20:42:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2024/08/52943371196_a5a8a0c27a_k.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_fc0e6bc46b59",
@@ -109,32 +115,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_e35caa4dec8a",
-      "title": "Fachin nega pedido de suspeição de Nunes Marques no caso Master",
-      "description": "Decisão mantém ministro na relatoria do mandado de segurança que busca obrigar o Senado a instalar a CPI do Banco Master.",
-      "url": "https://noticias.r7.com/brasilia/fachin-nega-pedido-de-suspeicao-de-nunes-marques-no-caso-master-06062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-06T00:54:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_f73fca707298",
+      "title": "Fachin nega suspeição de Kassio para decidir sobre CPI do Master",
+      "description": "O presidente do Supremo Tribunal Federal, ministro Edson Fachin, negou pedido de quatro senadores para declarar a suspeição do ministro...",
+      "url": "https://www.cartacapital.com.br/justica/fachin-nega-suspeicao-de-kassio-para-decidir-sobre-cpi-do-master/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-06-05T20:42:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_0a8752afb5d5",
-      "title": "Fachin nega suspeição de Kassio Nunes Marques para decidir sobre CPI do Master",
-      "description": "Presidente do STF afirmou que o pedido de senadores foi feito fora do prazo previsto pelo regimento interno do Supremo.",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/06/fachin-nega-suspeicao-de-kassio-nunes-marques-para-decidir-sobre-cpi-do-master-cmq1lei4s01ye013dao577x71.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-06-06T00:25:03+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_f02173a24a69",
@@ -146,6 +138,20 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-05T18:40:44+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0a8752afb5d5",
+      "title": "Fachin nega suspeição de Kassio Nunes Marques para decidir sobre CPI do Master",
+      "description": "Presidente do STF afirmou que o pedido de senadores foi feito fora do prazo previsto pelo regimento interno do Supremo.",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/06/fachin-nega-suspeicao-de-kassio-nunes-marques-para-decidir-sobre-cpi-do-master-cmq1lei4s01ye013dao577x71.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-06-06T00:25:03+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -173,7 +179,7 @@
       "sourceCanonical": "O Tempo",
       "sourceDomain": "otempo.com.br",
       "publishedAt": "2026-06-05T22:26:03+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -215,7 +221,7 @@
       "sourceCanonical": "Balada IN",
       "sourceDomain": "portalin.com.br",
       "publishedAt": "2026-06-05T22:18:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -243,7 +249,7 @@
       "sourceCanonical": "ISTOÉ",
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-06-06T00:35:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -263,6 +269,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_c4254800fc11",
+      "title": "STF: Fachin barra pedido e mantém Nunes Marques na CPI do Master",
+      "description": "Fachin mantém Nunes Marques em ação da CPI do Master; entenda o impacto da decisão do STF para o Brasil, inclusive no interior do Amazonas.",
+      "url": "https://barcelosnanet.com.br/stf-fachin-barra-pedido-e-mantem-nunes-marques-na-cpi-do-master/",
+      "source": "Portal Barcelos na NET",
+      "sourceCanonical": "Portal Barcelos na NET",
+      "sourceDomain": "barcelosnanet.com.br",
+      "publishedAt": "2026-06-06T04:06:56+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_cf2b28b623d8",
       "title": "Fachin rejeita tentativa de tirar Kassio de ação sobre CPI do Banco Master no STF",
       "description": "Presidente da Corte entendeu que pedido de quatro senadores foi apresentado fora do prazo previsto no regimento interno.",
@@ -277,6 +297,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_0144f92557c3",
+      "title": "Mendonça acelera operações sobre Master e INSS em meio a pressão e risco de revés no STF",
+      "description": "Gazeta do Povo – O ministro André Mendonça intensificou, nas últimas semanas, o ritmo das investigações dos dois maiores casos de corrupção...",
+      "url": "https://www.blogdorobertoararipina.com.br/mendonca-acelera-operacoes-sobre-master-e-inss-em-meio-a-pressao-e-risco-de-reves-no-stf/",
+      "source": "Blog do Roberto Gonçalves",
+      "sourceCanonical": "Blog do Roberto Gonçalves",
+      "sourceDomain": "blogdorobertoararipina.com.br",
+      "publishedAt": "2026-06-01T18:07:01+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_edc527155fac",
       "title": "Pedido de senadores para afastar relator da CPI do Banco Master negado por ministro do STF",
       "description": "O ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF), negou na quarta-feira (3) o pedido de quatro senadores para declarar...",
@@ -285,53 +319,25 @@
       "sourceCanonical": "PDNews",
       "sourceDomain": "politicadistrital.com.br",
       "publishedAt": "2026-06-06T02:02:06+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_07d02177a94e",
-      "title": "Fachin rejeita pedido para afastar Nunes Marques de ação sobre CPI do Banco Master",
-      "description": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, negou o pedido de quatro senadores que buscavam retirar o ministro...",
-      "url": "https://gpsbrasilia.com.br/fachin-rejeita-pedido-para-afastar-nunes-marques-de-acao-sobre-cpi-do-banco-master/",
-      "source": "GPS Brasília Portal de Notícias do DF",
-      "sourceCanonical": "GPS Brasília Portal de Notícias do DF",
-      "sourceDomain": "gpsbrasilia.com.br",
-      "publishedAt": "2026-06-05T18:36:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_9332b8cd119a",
-      "title": "Fachin nega suspender Marques para decidir sobre CPI do Master",
-      "description": "Nesta quarta-feira (3), o presidente do STF, ministro Edson Fachin, negou o pedido de quatro senadores para declarar a suspeição do ministro...",
-      "url": "https://pleno.news/brasil/politica-nacional/fachin-nega-suspender-marques-para-decidir-sobre-cpi-do-master.html",
-      "source": "Pleno.News",
-      "sourceCanonical": "Pleno.News",
-      "sourceDomain": "pleno.news",
-      "publishedAt": "2026-06-06T00:13:00+00:00",
       "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 6,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.77,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 8,
       "centerRight": 3,
-      "right": 2,
-      "unknown": 6
+      "right": 1,
+      "unknown": 7
     }
   },
   "scores": {
