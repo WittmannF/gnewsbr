@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 14
+      "topic-7": 30
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenRank": 30,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,10 +30,10 @@
     "bomba"
   ],
   "imageUrl": "https://cdn.brasil247.com/pb-b247gcp/swp/jtjeq9/media/20231012181052_686e70b5660cca0fa674b3d2389f2f3bcc048b74c27efd4fc3df30a11b895b15.jpg",
-  "publishedAt": "2026-06-06T13:57:02+00:00",
-  "updatedAt": "2026-06-06T15:50:58.288768+00:00",
-  "sourceCount": 3,
-  "articleCount": 3,
+  "publishedAt": "2026-05-30T18:11:00+00:00",
+  "updatedAt": "2026-06-06T16:46:01.296605+00:00",
+  "sourceCount": 5,
+  "articleCount": 5,
   "articles": [
     {
       "id": "article_542c32bd14f0",
@@ -44,7 +44,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-06T13:57:02+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -58,8 +58,8 @@
       "sourceCanonical": "diário do estado",
       "sourceDomain": "diariodoestadogo.com.br",
       "publishedAt": "2026-06-06T14:40:50+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://diariodoestadogo.com.br/wp-content/uploads/2026/06/agravamento-do-conflito3A-israel-e-o-uso-de-fosforo-branco-no-libano.jpg",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -72,32 +72,60 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-06-06T14:35:19+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://cdn.brasil247.com/pb-b247gcp/swp/jtjeq9/media/20231012181052_686e70b5660cca0fa674b3d2389f2f3bcc048b74c27efd4fc3df30a11b895b15.jpg",
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_0d5e818b619f",
+      "title": "Israel bombardeia Líbano com fósforo branco e viola cessar-fogo",
+      "description": "O Exército israelense atacou a localidade de Arnun, no sul do Líbano, com bombas de fósforo branco. A ação foi confirmada pelo portal...",
+      "url": "https://www.ocafezinho.com/2026/05/30/israel-bombardeia-libano-com-fosforo-branco-e-viola-cessar-fogo/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-05-30T18:11:00+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_c8ff1e99ea82",
+      "title": "Israel usa bomba de fósforo branco em áreas povoadas do Líbano, diz jornal",
+      "description": "Vídeos relatados pelo The New York Times mostram disparos em cidades como Nabatieh e Tiro; Exército israelense alega finalidade de...",
+      "url": "https://jovempan.com.br/mundo/israel-usa-bomba-de-fosforo-branco-em-areas-povoadas-do-libano-diz-jornal/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-06T16:04:10+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/000_36ld94m.jpg?w=1024&h=630&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 5,
-    "average": 3,
-    "knownCount": 2,
+    "max": 9,
+    "average": 4.25,
+    "knownCount": 4,
     "unknownCount": 1,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 0,
-      "right": 0,
+      "right": 1,
       "unknown": 1
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 60,
-    "headlineDivergence": 82,
-    "confidence": 57
+    "coverageDiversity": 60,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
+    "confidence": 67
   },
   "flags": [
     "Manchetes divergentes"
