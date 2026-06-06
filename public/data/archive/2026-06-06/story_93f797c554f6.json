@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-4": 4,
-      "topic-5": 60
+      "topic-4": 11,
+      "topic-5": 58
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 11,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/6e5b/live/8a96ff00-60b3-11f1-b682-cf91850925ea.jpg",
   "publishedAt": "2026-06-03T07:00:00+00:00",
-  "updatedAt": "2026-06-06T09:07:57.804736+00:00",
+  "updatedAt": "2026-06-06T09:54:37.872612+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -137,6 +137,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_b32f58b2759f",
+      "title": "Ator James Handy é morto a facadas; filho da namorada teria cometido o crime",
+      "description": "Ele foi encontrado pela polícia inconsciente no jardim em frente à casa da namorada O ator foi levado para um hospital - mas não resistiu...",
+      "url": "https://jovempan.com.br/entretenimento/famosos/ator-james-handy-e-morto-a-facadas-filho-da-namorada-teria-cometido-o-crime.html",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-05T16:44:37+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_157ce218d478",
       "title": "Ator de “Top Gun: Maverick” morre depois de ser esfaqueado",
       "description": "James Handy foi levado ao hospital, mas declarado morto no local; enteado é o principal suspeito e foi preso. Leia no Poder360.",
@@ -145,20 +159,6 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-05T12:40:36+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_b14ecb1b0aa5",
-      "title": "Ator James Handy morre esfaqueado; filho da namorada é preso",
-      "description": "Artista, conhecido por \"Jumanji\" e \"Top Gun: Maverick\", foi encontrado inconsciente em Los Angeles e não resistiu aos ferimentos.",
-      "url": "https://www.correiodopovo.com.br/arteagenda/ator-james-handy-morre-esfaqueado-filho-da-namorada-e-preso-1.1719607",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-06-05T16:59:33+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -321,27 +321,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.21,
+    "max": 9,
+    "average": 5.5,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 3,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
-      "right": 0,
+      "right": 1,
       "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
