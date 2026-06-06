@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 15,
-      "topic-5": 25
+      "topic-5": 26
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 15,
@@ -29,12 +29,12 @@
     "ciclone",
     "tempo",
     "sul",
-    "alerta",
-    "rio"
+    "rio",
+    "volta"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2024/10/Ciclone-extratropical-scaled.jpg",
   "publishedAt": "2026-06-03T07:15:52+00:00",
-  "updatedAt": "2026-06-06T19:44:42.179831+00:00",
+  "updatedAt": "2026-06-06T20:38:24.289333+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -137,20 +137,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f91e08c86d8b",
-      "title": "Chuva, vento forte e queda de granizo são previstos para 3 estados; saiba onde e quando",
-      "description": "Áreas dos três estados do Sul podem sofrer impactos de condições climáticas severas, conforme alerta do Inmet.",
-      "url": "https://www.canalrural.com.br/previsao-do-tempo/chuva-vento-forte-e-queda-de-granizo-sao-previstos-para-3-estados-saiba-onde-e-quando/",
-      "source": "Canal Rural",
-      "sourceCanonical": "Canal Rural",
-      "sourceDomain": "canalrural.com.br",
-      "publishedAt": "2026-06-06T16:53:28+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_d7fc693011e6",
       "title": "Sudeste e Centro-Oeste têm previsão de chuvas mais intensas para a época do ano; confira",
       "description": "As últimas previsões meteorológicas indicam um aumento significativo das chuvas sobre praticamente todo o Brasil ao longo da próxima semana.",
@@ -163,6 +149,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f91e08c86d8b",
+      "title": "Chuva, vento forte e queda de granizo são previstos para 3 estados; saiba onde e quando",
+      "description": "Áreas dos três estados do Sul podem sofrer impactos de condições climáticas severas, conforme alerta do Inmet.",
+      "url": "https://www.canalrural.com.br/previsao-do-tempo/chuva-vento-forte-e-queda-de-granizo-sao-previstos-para-3-estados-saiba-onde-e-quando/",
+      "source": "Canal Rural",
+      "sourceCanonical": "Canal Rural",
+      "sourceDomain": "canalrural.com.br",
+      "publishedAt": "2026-06-06T16:53:28+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_07b934e58f6e",
@@ -187,7 +187,7 @@
       "sourceCanonical": "Carta de Notícias",
       "sourceDomain": "cartadenoticias.com.br",
       "publishedAt": "2026-06-06T15:24:04+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -202,6 +202,20 @@
       "sourceDomain": "bemparana.com.br",
       "publishedAt": "2026-06-06T13:03:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_41a2816ef337",
+      "title": "Chuva volta a ganhar força no Centro-Sul do país com chegada de frente fria",
+      "description": "Frente fria chega ao Rio Grande do Sul na segunda-feira e favorece o aumento da chuva no Centro-Sul do Brasil, com possibilidade temporais...",
+      "url": "https://www.climatempo.com.br/noticia/temporal/chuva-volta-a-ganhar-forca-no-centro-sul-do-pais-com-chegada-de-frente-fria",
+      "source": "Climatempo",
+      "sourceCanonical": "Climatempo",
+      "sourceDomain": "climatempo.com.br",
+      "publishedAt": "2026-06-06T19:48:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -303,42 +317,28 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_a9120b9243a5",
-      "title": "Alerta de tempestade do Inmet: prepara-se para chuva forte, ventania e granizo no Sul do Brasil",
-      "description": "Um poderoso alerta de tempestade com perigo potencial foi emitido pelo INMET para partes do Rio Grande do Sul, Santa Catarina e Paraná para...",
-      "url": "https://oantagonista.com.br/clima/alerta-de-tempestade-do-inmet-prepara-se-para-chuva-forte-ventania-e-granizo-no-sul-do-brasil/",
-      "source": "O Antagonista",
-      "sourceCanonical": "O Antagonista",
-      "sourceDomain": "oantagonista.com.br",
-      "publishedAt": "2026-06-06T04:23:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 10,
-    "average": 6.57,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 6.33,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 4,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 1,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 80,
     "headlineDivergence": 85,
-    "confidence": 95
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
