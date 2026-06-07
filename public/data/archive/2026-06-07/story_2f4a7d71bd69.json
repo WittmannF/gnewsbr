@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pRcnJpZUVSRm9hZmNxZ3V3clNTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pRcnJpZUVSRm9hZmNxZ3V3clNTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-6"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-6"
     ],
     "seedRanks": {
-      "topic-5": 48
+      "topic-5": 50,
+      "topic-6": 24
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 48,
-    "bestSeedRank": 48,
+    "firstSeenRank": 50,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "argentina",
     "honduras",
     "messi",
-    "copa",
     "amistoso",
+    "copa",
     "vence"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/argentina-messi-mauritania-data-fifa-e1774967350828.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-05T19:29:00+00:00",
-  "updatedAt": "2026-06-07T17:46:25.247203+00:00",
+  "updatedAt": "2026-06-07T18:47:18.490420+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -184,7 +187,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-06-07T13:27:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -194,14 +197,14 @@
       "title": "Sem Messi, Argentina supera problemas de lesões e vence Honduras em amistoso",
       "description": "Assine para ter acesso ilimitado a todo o conteúdo do portal O POVO e também do streaming O POVO+. Reportagens, filmes, séries, clube de...",
       "url": "https://www.opovo.com.br/agencia/jogada10/2026/06/06/sem-messi-argentina-supera-problemas-de-lesoes-e-vence-honduras-em-amistoso.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
+      "source": "opovo.com.br",
+      "sourceCanonical": "opovo.com.br",
       "sourceDomain": "opovo.com.br",
       "publishedAt": "2026-06-07T02:14:37+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_28d204bef33f",
@@ -302,39 +305,39 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5d6c98ee2796",
-      "title": "Argentina poupa titulares e vence Honduras em amistoso antes da Copa do Mundo",
-      "description": "Lionel Scaloni roda o time em penúltimo jogo antes da estreia na Copa do Mundo, e Lautaro comanda vitória tranquila no Texas.",
-      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-internacional/copa-do-mundo/argentina-poupa-titulares-e-vence-honduras-em-amistoso-antes-da-copa-do-mundo/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-06-07T02:06:00+00:00",
+      "id": "article_ae4f64d9fd2b",
+      "title": "Lautaro e Simeone garantem vitória da Argentina em amistoso sem Messi",
+      "description": "Seleção de Lionel Scaloni venceu por 2 a 0 em Kansas City e agora se prepara para enfrentar a Islândia antes da estreia na Copa.",
+      "url": "https://tmc.com.br/esporte/argentina-honduras-lautaro-simeone-amistoso-copa-2026/",
+      "source": "tmc.com.br",
+      "sourceCanonical": "tmc.com.br",
+      "sourceDomain": "tmc.com.br",
+      "publishedAt": "2026-06-07T02:34:18+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 5,
     "max": 7,
-    "average": 5.4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.62,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
-      "center": 7,
+      "centerLeft": 0,
+      "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
