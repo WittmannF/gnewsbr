@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 38
+      "topic-8": 41
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 38,
-    "bestSeedRank": 38,
+    "firstSeenRank": 41,
+    "bestSeedRank": 41,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "emprego",
     "empregos",
     "não",
-    "vai",
-    "roubar",
-    "jensen"
+    "jensen",
+    "huang",
+    "nvidia"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/15/17788707566a0769e4293b1_1778870756_3x2_rt.jpg",
   "publishedAt": "2026-05-27T07:00:00+00:00",
-  "updatedAt": "2026-06-07T21:47:53.025526+00:00",
+  "updatedAt": "2026-06-07T22:45:54.214135+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -142,7 +142,7 @@
       "sourceCanonical": "CPG Click Petróleo e Gás",
       "sourceDomain": "clickpetroleoegas.com.br",
       "publishedAt": "2026-06-06T22:29:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -188,20 +188,6 @@
       "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_ea526dd8e6f1",
-      "title": "Cresce o temor popular da inteligência artificial nos Estados Unidos",
-      "description": "Vale do Silício terá dificuldades de conter uma onda de desconfiança que atravessa todo o espectro político.",
-      "url": "https://www.estadao.com.br/opiniao/colunas-do-dia/internacional/oliver-stuenkel/cresce-o-temor-popular-da-inteligencia-artificial-nos-estados-unidos/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-05-31T20:41:22+00:00",
-      "postedLabel": "7 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_e52f0d919a2e",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_65a92459ee96",
+      "title": "O que diz o CEO da Nvidia, Jensen Huang, sobre as preocupações com o desemprego em massa devido à IA?",
+      "description": "Em meio ao rápido desenvolvimento da IA ​​e ao debate contínuo sobre o futuro da força de trabalho, o CEO da Nvidia, Jensen Huang,...",
+      "url": "https://www.vietnam.vn/pt/ceo-nvidia-jensen-huang-noi-gi-ve-noi-lo-that-nghiep-hang-loat-do-ai",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-06-03T01:57:15+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 7,
-    "average": 4.29,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "max": 6,
+    "average": 3.83,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 3,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
-    "confidence": 95
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
