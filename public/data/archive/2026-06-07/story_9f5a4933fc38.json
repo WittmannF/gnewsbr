@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 29
+      "topic-7": 34
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/58e3/live/7f98e990-617d-11f1-8ac1-371ebc895245.jpg",
   "publishedAt": "2026-06-04T09:22:00+00:00",
-  "updatedAt": "2026-06-07T18:49:09.919673+00:00",
+  "updatedAt": "2026-06-07T19:54:15.485449+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -64,18 +64,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_c4edbf1d8ddc",
+      "id": "article_e5c24b3832f3",
       "title": "Sherpa é encontrado vivo após 6 dias desaparecido no Everest",
       "description": "Sem comida ou oxigênio, nepalês sobreviveu de forma quase milagrosa a condições extremamente hostis na montanha mais alta do mundo.",
-      "url": "https://www.dw.com/pt-br/sherpa-%C3%A9-encontrado-vivo-ap%C3%B3s-6-dias-desaparecido-no-everest/a-77424155",
-      "source": "DW",
-      "sourceCanonical": "DW",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-06-04T15:01:55+00:00",
+      "url": "https://www.cartacapital.com.br/mundo/sherpa-e-encontrado-vivo-apos-6-dias-desaparecido-no-everest/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-06-04T18:56:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/Nepal.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_fd537e1187a5",
@@ -101,7 +101,7 @@
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-06-06T20:25:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/06/sherpa-everest.jpg?quality=70",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -176,20 +176,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_57d9bff4b6a3",
-      "title": "O sherpa dado como morto e encontrado 'milagrosamente' 6 dias após desaparecer no Everest",
-      "description": "As esperanças de encontrá-lo com vida eram pequenas, já que o ar na altitude de 7,5 mil metros é rarefeito.",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/06/7434958-o-sherpa-dado-como-morto-e-encontrado-milagrosamente-6-dias-apos-desaparecer-no-everest.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-06-05T09:16:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_6b4014b77161",
       "title": "Guia desaparecido no Evereste foi resgatado vivo. A família estava a realizar o funeral",
       "description": "Dewa Sherpa sobreviveu uma semana sem comida ou reserva de oxigénio. Rastejava em direção ao acampamento no Evereste.",
@@ -216,6 +202,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_57d9bff4b6a3",
+      "title": "O sherpa dado como morto e encontrado 'milagrosamente' 6 dias após desaparecer no Everest",
+      "description": "As esperanças de encontrá-lo com vida eram pequenas, já que o ar na altitude de 7,5 mil metros é rarefeito.",
+      "url": "https://www.correiobraziliense.com.br/mundo/2026/06/7434958-o-sherpa-dado-como-morto-e-encontrado-milagrosamente-6-dias-apos-desaparecer-no-everest.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-06-05T09:16:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_8ca4d0571368",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.73,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 3,
       "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxMzl5ZUVSRlVGR1lLZ1NlMXBDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxMzl5ZUVSRlVGR1lLZ1NlMXBDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 18
+      "topic-3": 25,
+      "topic-5": 24
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 18,
-    "bestSeedRank": 18,
+    "firstSeenRank": 25,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/06/pref1-1.jpg",
   "publishedAt": "2026-06-01T13:51:33+00:00",
-  "updatedAt": "2026-06-07T18:41:36.988191+00:00",
+  "updatedAt": "2026-06-07T19:45:43.420257+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -72,7 +75,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-06-02T19:10:17+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": "https://s2-g1.glbimg.com/rvejtzh8qsYfg6x4CpIPhgGiiO0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/s/yGISu3TJmHoA26Z2Ga0A/tarcisio-freitas-governador.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -198,7 +201,7 @@
       "sourceCanonical": "O Cafezinho",
       "sourceDomain": "ocafezinho.com",
       "publishedAt": "2026-06-06T19:44:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -244,6 +247,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_b9082c9e209d",
+      "title": "Polícia apreende HD com contratos da Prefeitura e celular de produtora do filme de Bolsonaro",
+      "description": "Os policiais confiscaram documentos, o celular de Karina e um HD com contratos da Secretaria Municipal de Inovação e Tecnologia.",
+      "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/policia-apreende-hd-com-contratos-da-prefeitura-e-celular-de-produtora-do-filme-de-bolsonaro/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-06-01T22:18:15+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_80fe46317b00",
@@ -300,32 +317,18 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_e2f6540374da",
-      "title": "Governo do Distrito Federal contratou por R$ 5 milhões ONG ligada a produtora de Dark Horse",
-      "description": "A Secretaria de Educação do Distrito Federal firmou uma parceria no valor de R$ 5 milhões com a ONG Instituto Conhecer Brasil (ICB),...",
-      "url": "https://www.folhape.com.br/politica/governo-do-distrito-federal-contratou-por-r-5-milhoes-ong-ligada-a/491585/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-06-03T11:11:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 4.56,
+    "average": 4.62,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 5,
-      "centerLeft": 4,
-      "center": 3,
+      "centerLeft": 3,
+      "center": 4,
       "centerRight": 3,
       "right": 1,
       "unknown": 4
