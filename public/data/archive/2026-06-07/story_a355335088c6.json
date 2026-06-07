@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psamQ2Z0VSSHBEMmc2RHJBSmhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psamQ2Z0VSSHBEMmc2RHJBSmhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 8,
-      "topic-7": 6
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 9,
+      "topic-7": 4
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 8,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Vladimir Putin descarta cessar-fogo proposto por Volodymyr Zelensky",
   "summary": "Veja as principais notícias e manchetes do dia no Brasil e no Mundo. Leia textos e assista a vídeos de Política, Cotidiano, Crimes e mais.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/05/17806826926a230fc40c9ca_1780682692_3x2_rt.jpg",
   "publishedAt": "2025-02-18T08:00:00+00:00",
-  "updatedAt": "2026-06-07T19:50:46.150854+00:00",
+  "updatedAt": "2026-06-07T20:38:32.445969+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-07T14:28:11+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -89,7 +95,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-06-07T17:57:36+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/BJ7K6S5I2FEHVKP7CPMYJ3GM3M.JPG?smart=true&auth=ae21522fe14c067a4df71076c7ea085c6618a70b2ce7899af28d21527520f275&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -99,14 +105,14 @@
       "title": "Zelenski faz movimento em busca de fim da guerra na Ucrânia",
       "description": "Presidente ucraniano escreve carta a Putin, na qual propõe um encontro para negociar paz. Texto é divulgado após líder russo reconhecer...",
       "url": "https://www.dw.com/pt-br/zelenski-faz-movimento-em-busca-de-fim-da-guerra-na-ucr%C3%A2nia/a-77432737",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
+      "source": "DW",
+      "sourceCanonical": "DW",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-06-05T13:23:56+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a2619f32d02e",
@@ -221,6 +227,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_f0b39400f1a1",
+      "title": "Putin: Metas do Donbass não descartam um acordo com a Ucrânia",
+      "description": "O presidente russo Vladimir Putin afirmou que o controle da Rússia sobre toda a região de Donbass não exclui a possibilidade de um acordo...",
+      "url": "https://www.ocafezinho.com/2026/06/07/putin-metas-do-donbass-nao-descartam-um-acordo-com-a-ucrania/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-06-07T10:25:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_ec5b0532cc3f",
       "title": "Zelensky propõe encontro com Putin e cessar-fogo: 'Chega de guerra'",
       "description": "O presidente da Ucrânia disse ao líder russo que somente um \"diálogo direto\" entre os dois países pode pôr fim à guerra, com os EUA focados...",
@@ -233,20 +253,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_178e90d94abf",
-      "title": "Putin: ‘Controlar a região de Donbass e um acordo de paz não são excludentes’",
-      "description": "O presidente russo, Vladimir Putin, delineou as condições para o fim do conflito ucraniano durante um encontro com alguns representantes de...",
-      "url": "https://www.brasildefato.com.br/2026/06/04/putin-controlar-a-regiao-de-donbass-e-um-acordo-de-paz-nao-sao-excludentes/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-06-04T21:07:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_6394e05cc8e9",
@@ -263,20 +269,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_f0b39400f1a1",
-      "title": "Putin: Metas do Donbass não descartam um acordo com a Ucrânia",
-      "description": "O presidente russo Vladimir Putin afirmou que o controle da Rússia sobre toda a região de Donbass não exclui a possibilidade de um acordo...",
-      "url": "https://www.ocafezinho.com/2026/06/07/putin-metas-do-donbass-nao-descartam-um-acordo-com-a-ucrania/",
-      "source": "O Cafezinho",
-      "sourceCanonical": "O Cafezinho",
-      "sourceDomain": "ocafezinho.com",
-      "publishedAt": "2026-06-07T10:25:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_ba235b72a21e",
       "title": "UE diz apoiar carta aberta de Zelensky para reunião com Putin",
       "description": "A União Europeia afirmou nesta sexta-feira (5) que apoia a carta aberta publicada pelo presidente da Ucrânia, Volodymyr Zelensky,...",
@@ -289,6 +281,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_178e90d94abf",
+      "title": "Putin: ‘Controlar a região de Donbass e um acordo de paz não são excludentes’",
+      "description": "O presidente russo, Vladimir Putin, delineou as condições para o fim do conflito ucraniano durante um encontro com alguns representantes de...",
+      "url": "https://www.brasildefato.com.br/2026/06/04/putin-controlar-a-regiao-de-donbass-e-um-acordo-de-paz-nao-sao-excludentes/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-06-04T21:07:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_a1a4f01e4231",
@@ -322,16 +328,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.42,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 5.5,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
+      "centerLeft": 2,
       "center": 8,
       "centerRight": 4,
       "right": 2,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
