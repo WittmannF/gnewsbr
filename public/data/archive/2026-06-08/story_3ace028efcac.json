@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 2
+      "topic-9": 3
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "solar",
     "século",
     "longo",
-    "vai",
-    "total"
+    "total",
+    "vai"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/AFASTA-MEDICO-ASSEDIO-14.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-01T08:15:00+00:00",
-  "updatedAt": "2026-06-08T13:56:22.922338+00:00",
+  "updatedAt": "2026-06-08T15:31:44.012504+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "Sortir à Paris",
       "sourceDomain": "sortiraparis.com",
       "publishedAt": "2026-06-08T08:59:44+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,10 +114,24 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-06-07T14:15:48+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_e7989729d155",
+      "title": "Mais de 6 min de escuridão: saiba como acompanhar o Eclipse solar total mais longo do século",
+      "description": "Eclipse solar total de 2027 terá mais de seis minutos de escuridão e será melhor observado em países do norte da África.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/mais-de-6-min-de-escuridao-saiba-como-acompanhar-o-eclipse-solar-total-mais-longo-do-seculo/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-06-08T14:52:29+00:00",
+      "postedLabel": "39 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_a7281b5d8b22",
@@ -268,7 +282,7 @@
       "sourceCanonical": "Foro3D",
       "sourceDomain": "foro3d.com",
       "publishedAt": "2026-06-04T14:36:37+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,35 +310,21 @@
       "sourceCanonical": "diário do estado",
       "sourceDomain": "diariodoestadogo.com.br",
       "publishedAt": "2026-06-08T10:00:44+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_b85cba9f0dcd",
-      "title": "O eclipse solar mais longo do século está próximo, vai escurecer o céu por vários minutos e não vai acontecer de novo por mais de 156 anos",
-      "description": "Além de proporcionar um longo período de escuridão em plena luz do dia, ele será marcado por uma combinação rara de fatores astronômicos que...",
-      "url": "https://www.opovo.com.br/trends/o-eclipse-solar-mais-longo-do-seculo-esta-proximo-vai-escurecer-o-ceu-por-varios-minutos-e-nao-vai-acontecer-de-novo-por-mais-de-156-anos/",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "opovo.com.br",
-      "publishedAt": "2026-06-03T12:30:00+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.11,
+    "average": 4.89,
     "knownCount": 9,
     "unknownCount": 11,
     "buckets": {
-      "left": 1,
-      "centerLeft": 1,
+      "left": 2,
+      "centerLeft": 0,
       "center": 6,
       "centerRight": 0,
       "right": 1,
@@ -332,14 +332,13 @@
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 60,
     "spectrumBalance": 100,
     "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

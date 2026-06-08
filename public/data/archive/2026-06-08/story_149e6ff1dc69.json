@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 38
+      "topic-8": 43
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 38,
-    "bestSeedRank": 38,
+    "firstSeenRank": 43,
+    "bestSeedRank": 43,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "anthropic",
     "mythos",
     "claude",
-    "acesso",
     "segurança",
-    "cibersegurança"
+    "acesso",
+    "inteligência"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/bb2a/live/84ae5370-3a5e-11f1-bab3-e3881342f552.jpg",
   "publishedAt": "2026-06-01T17:27:00+00:00",
-  "updatedAt": "2026-06-08T13:55:23.152172+00:00",
+  "updatedAt": "2026-06-08T15:30:41.495596+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-06-08T08:45:44+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/bb2a/live/84ae5370-3a5e-11f1-bab3-e3881342f552.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -57,8 +57,8 @@
       "source": "DW.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
-      "publishedAt": "2026-06-08T06:01:22+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-06-07T06:59:59+00:00",
+      "postedLabel": "ontem",
       "imageUrl": "https://static.dw.com/image/76119629_6.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -90,6 +90,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_4a4296ce41d5",
+      "title": "Claude Mythos: nova IA revela a fragilidade do dinheiro nas mãos das Big Techs",
+      "description": "Modelo da Anthropic encontrou milhares de falhas críticas em softwares e expôs o risco de deixar bancos, pagamentos e dados da população...",
+      "url": "https://revistaforum.com.br/tecnologia/claude-mythos-dinheiro-em-risco/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-06-08T14:20:22+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/06/claude-mythos-sistema-financeiro.png",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_e5ed5efc6bd0",
@@ -170,7 +184,7 @@
       "sourceCanonical": "diário do estado",
       "sourceDomain": "diariodoestadogo.com.br",
       "publishedAt": "2026-06-08T11:02:09+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +240,7 @@
       "sourceCanonical": "BlockTrends",
       "sourceDomain": "blocktrends.com.br",
       "publishedAt": "2026-06-02T15:02:47+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,45 +310,31 @@
       "sourceCanonical": "F5 Online",
       "sourceDomain": "f5online.com.br",
       "publishedAt": "2026-06-08T11:01:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_d1810c8c0511",
-      "title": "Anthropic negocia com UE acesso a IA de cibersegurança Mythos",
-      "description": "A Anthropic tem restringindo o acesso à IA a algumas empresas, como Apple e Google, e ao governo do Reino Unido.",
-      "url": "https://exame.com/inteligencia-artificial/anthropic-negocia-com-ue-acesso-a-ia-de-ciberseguranca-mythos/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-06-01T20:10:55+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 6,
-    "average": 5,
+    "average": 4.5,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 3,
-      "center": 5,
+      "center": 4,
       "centerRight": 0,
       "right": 0,
       "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [

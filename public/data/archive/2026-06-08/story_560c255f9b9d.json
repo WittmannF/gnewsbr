@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 9
+      "topic-2": 12
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenRank": 12,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,11 +29,11 @@
     "meses",
     "diagnosticado"
   ],
-  "imageUrl": "https://files.agoramt.com.br/2026/03/pronto-atendimento-infantil.jpg",
+  "imageUrl": "https://s02.video.glbimg.com/x720/14681325.jpg",
   "publishedAt": "2026-06-06T21:33:22+00:00",
-  "updatedAt": "2026-06-08T13:45:23.524527+00:00",
-  "sourceCount": 5,
-  "articleCount": 5,
+  "updatedAt": "2026-06-08T15:20:05.794400+00:00",
+  "sourceCount": 6,
+  "articleCount": 6,
   "articles": [
     {
       "id": "article_a7e2f421ffae",
@@ -44,8 +44,36 @@
       "sourceCanonical": "Agora MT",
       "sourceDomain": "agoramt.com.br",
       "publishedAt": "2026-06-07T14:09:12+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://files.agoramt.com.br/2026/03/pronto-atendimento-infantil.jpg",
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_17551f28b92a",
+      "title": "Bebê de 5 meses está internado com meningite bacteriana em Rondonópolis",
+      "description": "Bebê de 5 meses está internado com meningite bacteriana em Rondonópolis. Expandir ou colapsar descrição. Bebê de 5 meses está internado com...",
+      "url": "https://g1.globo.com/mt/mato-grosso/videos-bom-dia-mt/video/bebe-de-5-meses-esta-internado-com-meningite-bacteriana-em-rondonopolis-14681325.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-06-08T13:47:31+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s02.video.glbimg.com/x720/14681325.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_fae4587e7c74",
+      "title": "Bebê diagnosticado com meningite respira sem aparelhos e apresenta evolução positiva",
+      "description": "Um bebê diagnosticado com meningite permanece internado em uma unidade de saúde de Rondonópolis e apresenta quadro clínico estável,...",
+      "url": "https://www.muvucapopular.com.br/2026/06/08/bebe-diagnosticado-com-meningite-respira-sem-aparelhos-e-apresenta-evolucao-positiva/",
+      "source": "muvucapopular.com.br",
+      "sourceCanonical": "muvucapopular.com.br",
+      "sourceDomain": "muvucapopular.com.br",
+      "publishedAt": "2026-06-08T11:15:52+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": "https://www.muvucapopular.com.br/wp-content/uploads/2026/06/MAO-DE-BEBE-1.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -64,20 +92,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_fae4587e7c74",
-      "title": "Bebê diagnosticado com meningite respira sem aparelhos e apresenta evolução positiva",
-      "description": "Um bebê diagnosticado com meningite permanece internado em uma unidade de saúde de Rondonópolis e apresenta quadro clínico estável,...",
-      "url": "https://www.muvucapopular.com.br/2026/06/08/bebe-diagnosticado-com-meningite-respira-sem-aparelhos-e-apresenta-evolucao-positiva/",
-      "source": "muvucapopular.com.br",
-      "sourceCanonical": "muvucapopular.com.br",
-      "sourceDomain": "muvucapopular.com.br",
-      "publishedAt": "2026-06-08T11:15:52+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_55bbe9b17de6",
       "title": "Bebê de cinco meses é internado com meningite bacteriana em Rondonópolis",
       "description": "A Secretaria de Saúde de Rondonópolis informou que ainda aguarda exames complementares para poder especificar qual bactéria desencadeou o...",
@@ -87,7 +101,7 @@
       "sourceDomain": "hnt.com.br",
       "publishedAt": "2026-06-07T20:07:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://cdn.hnt.com.br/storage/webdisco/2026/06/01/1200x900/64a947dc86c9aecf901f10e1e941c53e-hnt-com-br.jpg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -107,25 +121,25 @@
     }
   ],
   "spectrum": {
-    "min": null,
-    "max": null,
-    "average": null,
-    "knownCount": 0,
+    "min": 5,
+    "max": 5,
+    "average": 5,
+    "knownCount": 1,
     "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 0,
+      "center": 1,
       "centerRight": 0,
       "right": 0,
       "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 0,
-    "spectrumBalance": 0,
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 55
+    "confidence": 60
   },
   "flags": [
     "Muitas fontes não classificadas",
