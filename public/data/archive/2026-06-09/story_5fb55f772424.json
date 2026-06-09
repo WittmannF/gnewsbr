@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lmM0tXcEVSR1ZVTVNmRDg4NzBTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lmM0tXcEVSR1ZVTVNmRDg4NzBTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 24
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 26
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Donald Trump abandona entrevista à NBC após perguntas sobre fraude",
   "summary": "Donald Trump encerrou a entrevista à NBC com a jornalista Kristen Welker no domingo (7) acusando-a de “desonesta” e a imprensa de...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/06/trump-entrevista-nbc.webp",
   "publishedAt": "2026-06-07T19:00:59+00:00",
-  "updatedAt": "2026-06-09T01:22:24.914913+00:00",
+  "updatedAt": "2026-06-09T03:23:35.117182+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-06-08T01:48:02+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/06/trump-entrevista-nbc.webp",
       "spectrumScore": 2,
       "bucket": "left"
@@ -58,7 +64,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-06-08T21:01:34+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/iuMDV-yL-TEsD0Gq2kVXEJg78JA=/5616x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/4/sAHO3jR7Wsd46hSpRRxw/ap26156778556988.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -100,7 +106,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-06-08T22:31:39+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -113,8 +119,8 @@
       "source": "GZH",
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-06-08T22:00:20+00:00",
-      "postedLabel": "3 horas atrás",
+      "publishedAt": "2026-06-08T22:00:29+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -135,31 +141,17 @@
     },
     {
       "id": "article_28b09300e69d",
-      "title": "Trump abandona entrevista após insultar jornalista e criticar imprensa",
+      "title": "Trump abandona entrevista após insultar jornalista e criticar imprensa; veja vídeo",
       "description": "Uma entrevista com o presidente dos Estados Unidos, Donald Trump, para a NBC, gravada na sexta-feira, 5, e transmitida no domingo, 8,...",
       "url": "https://www.estadao.com.br/internacional/trump-abandona-entrevista-apos-insultar-jornalista-criticar-imprensa-npr/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-06-08T23:10:38+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_e43883567afb",
-      "title": "Trump abandona entrevista na TV depois de discutir com jornalista da NBC; veja",
-      "description": "O presidente dos Estados Unidos, Donald Trump interrompeu de forma abrupta uma entrevista concedida à emissora NBC News após um bate-boca...",
-      "url": "https://iclnoticias.com.br/trump-abandona-entrevista-na-tv/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-06-08T09:40:03+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_fdeeede7bade",
@@ -174,6 +166,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_e43883567afb",
+      "title": "Trump abandona entrevista na TV depois de discutir com jornalista da NBC; veja",
+      "description": "O presidente dos Estados Unidos, Donald Trump interrompeu de forma abrupta uma entrevista concedida à emissora NBC News após um bate-boca...",
+      "url": "https://iclnoticias.com.br/trump-abandona-entrevista-na-tv/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-06-08T09:40:03+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_122166649b45",
@@ -240,7 +246,7 @@
       "sourceCanonical": "cinemaecerveja.com.br",
       "sourceDomain": "cinemaecerveja.com.br",
       "publishedAt": "2026-06-08T02:49:27+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -282,24 +288,10 @@
       "sourceCanonical": "A Voz do Campo",
       "sourceDomain": "avozdocampo.com",
       "publishedAt": "2026-06-08T21:01:34+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_d34292c8ac7a",
-      "title": "Trump abandona entrevista tensa da NBC após confronto sobre eleições viciadas",
-      "description": "Numa entrevista gravada, Trump voltou a insistir nas falsas alegações de que as eleições de 2020 foram adulteradas, acabando por abandonar a conversa quando...",
-      "url": "https://www.msn.com/pt-br/noticias/brasil/trump-abandona-entrevista-tensa-da-nbc-ap%C3%B3s-confronto-sobre-elei%C3%A7%C3%B5es-viciadas/ar-AA254UUa",
-      "source": "MSN",
-      "sourceCanonical": "MSN",
-      "sourceDomain": "msn.com",
-      "publishedAt": "2026-06-08T09:25:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_03d600bd2358",
@@ -314,21 +306,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_6ac012673f3f",
+      "title": "Trump abandona entrevista após confrontação sobre ausência de provas de fraudes",
+      "description": "Trump abandona entrevista após confrontação sobre ausência de provas de fraudes. Trump abandona entrevista da NBC após ser confrontado com a...",
+      "url": "https://portaltela.pt/noticias/internacional/2026/06/08/trump-abandona-entrevista-apos-confrontacao-sobre-ausencia-de-provas-de-fraudes/",
+      "source": "portaltela.pt",
+      "sourceCanonical": "portaltela.pt",
+      "sourceDomain": "portaltela.pt",
+      "publishedAt": "2026-06-08T11:35:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.64,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 4.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 3,
       "centerLeft": 2,
-      "center": 6,
+      "center": 5,
       "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
