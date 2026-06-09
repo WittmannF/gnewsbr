@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvbDhxZUVSSHRaQzVmbW9yUTZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvbDhxZUVSSHRaQzVmbW9yUTZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 6
+      "home": 1,
+      "topstories": 1,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "PF e PGR avaliam nova proposta de delação de Daniel Vorcaro",
   "summary": "Investigadores afirmam que aditivo apresentado pela defesa de Vorcaro não trouxe elementos capazes de mudar a avaliação sobre o caso.",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "vorcaro",
     "delação",
+    "daniel",
     "proposta",
-    "pgr",
     "semana",
     "bolsonaro"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/03/vorcaro-preso-divulgacao-Secretaria-da-Administracao-Penitenciaria-2.jpg",
   "publishedAt": "2026-06-03T19:08:00+00:00",
-  "updatedAt": "2026-06-09T07:39:38.603161+00:00",
+  "updatedAt": "2026-06-09T09:23:40.485770+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,20 +56,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_fdf72da53948",
-      "title": "Preocupados, bolsonaristas buscam detalhes sobre delação de Vorcaro",
-      "description": "O advogado de Daniel Vorcaro, Sérgio Leonardo, virou alvo de investidas de bolsonaristas interessados na nova proposta de delação do dono do...",
-      "url": "https://oglobo.globo.com/blogs/bela-megale/post/2026/06/preocupados-bolsonaristas-buscam-detalhes-sobre-delacao-de-vorcaro.ghtml",
-      "source": "O Globo",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-06-08T19:30:24+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-oglobo.glbimg.com/VgPTWEpeiJ2sT9Cedt5cVq-WOlg=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/i/N/BWFNy0Q1mSt221Vkknqw/blog-flavio-vorcaro.png",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_4d61fa29fb1f",
       "title": "PF demonstra insatisfação com conteúdo de proposta de delação de Vorcaro",
       "description": "Investigadores avaliam que, apesar de mais completa, o empresário não tem demonstrado avanços em detalhes da investigação. Gustavo Uribe e...",
@@ -75,6 +67,20 @@
       "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/VORCARO_PERFIL_POTIM-e1773412607238.jpg?w=599&h=337&crop=1",
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_f1d0127eb600",
+      "title": "À espera\nda cavalaria",
+      "description": "O comportamento de Daniel Vorcaro, ex-banqueiro em atividade, na feliz definição de Arthur Dapieve, deixa clara sua esperança de que alguma...",
+      "url": "https://oglobo.globo.com/blogs/merval-pereira/coluna/2026/06/a-espera-da-cavalaria.ghtml",
+      "source": "O Globo",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-06-09T07:30:12+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/trs8DinEeOJpjLSnzj-3lwijUQ4=/800x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/O/S/SQpkUzQCGYrGXvU7CPAg/vorcaro.png",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -117,6 +123,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_9570a2ee7fe3",
+      "title": "Delação de Vorcaro patina, frustra expectativas da PF e pode ser rejeitada de novo",
+      "description": "As negociações para o acordo de colaboração premiada do ex-banqueiro Daniel Vorcaro parecem ter estagnado nos bastidores de Brasília.",
+      "url": "https://noticias.r7.com/brasilia/delacao-de-vorcaro-patina-frustra-expectativas-da-pf-e-pode-ser-rejeitada-de-novo-09062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-09T05:00:01+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -184,24 +204,10 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-06-08T09:03:49+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_9570a2ee7fe3",
-      "title": "Delação de Vorcaro patina, frustra expectativas da PF e pode ser rejeitada de novo",
-      "description": "As negociações para o acordo de colaboração premiada do ex-banqueiro Daniel Vorcaro parecem ter estagnado nos bastidores de Brasília.",
-      "url": "https://noticias.r7.com/brasilia/delacao-de-vorcaro-patina-frustra-expectativas-da-pf-e-pode-ser-rejeitada-de-novo-09062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-09T05:00:01+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_4a122caa0e73",
@@ -260,6 +266,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_a81d5befae1a",
+      "title": "Bolsonaristas acompanham com preocupação delação de Daniel Vorcaro e temem impactos na campanha eleitoral",
+      "description": "Aliados de Flávio Bolsonaro buscam informações sobre nova delação, com foco em revelações sobre financiamento de filme ligado sobre...",
+      "url": "https://www.brasil247.com/brasil/bolsonaristas-acompanham-com-preocupacao-delacao-de-daniel-vorcaro-e-temem-impactos-na-campanha-eleitoral",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-06-09T07:17:55+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_fea82c1d68b1",
       "title": "Como a PF e a PGR receberam a nova proposta de delação de Daniel Vorcaro",
       "description": "Conteúdo apresentado pela defesa do banqueiro não emocionou os investigadores.",
@@ -300,41 +320,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_b80486fdf67f",
-      "title": "Mendonça espera convergência entre PGR e PF sobre delação de Vorcaro",
-      "description": "O ministro André Mendonça, do STF (Supremo Tribunal Federal), aguarda as manifestações da Polícia Federal e da Procuradoria-Geral da...",
-      "url": "https://blogantenado.com/mendonca-espera-convergencia-entre-pgr-e-pf-sobre-delacao-de-vorcaro/",
-      "source": "blogantenado.com",
-      "sourceCanonical": "blogantenado.com",
-      "sourceDomain": "blogantenado.com",
-      "publishedAt": "2026-06-08T19:53:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 10,
-    "average": 6.06,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.78,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 2,
       "center": 9,
       "centerRight": 4,
       "right": 2,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
