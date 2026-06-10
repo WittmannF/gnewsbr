@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvbDhxZUVSRVE1cUFkTm1jbFFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvbDhxZUVSRVE1cUFkTm1jbFFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "PF e PGR avaliam nova proposta de delação de Daniel Vorcaro",
   "summary": "Defesa de Daniel Vorcaro apresentou uma segunda versão do acordo, mas investigadores veem falta de provas e omissões nos relatos.",
@@ -24,15 +30,15 @@
   "topicKeywords": [
     "vorcaro",
     "delação",
-    "proposta",
     "daniel",
     "pgr",
-    "não"
+    "rejeitar",
+    "proposta"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/04/image-2026-04-28-062245.jpg",
-  "publishedAt": "2026-06-05T06:02:00+00:00",
-  "updatedAt": "2026-06-10T05:51:18.240400+00:00",
-  "sourceCount": 18,
+  "publishedAt": "2026-06-08T11:03:00+00:00",
+  "updatedAt": "2026-06-10T07:47:59.725048+00:00",
+  "sourceCount": 17,
   "articleCount": 20,
   "articles": [
     {
@@ -50,17 +56,31 @@
       "bucket": "right"
     },
     {
-      "id": "article_f806aa710ca9",
-      "title": "Caso Master: Daniel Vorcaro cita 'Dark Horse' e Ciro Nogueira em nova proposta de delação",
-      "description": "A defesa do banqueiro Daniel Vorcaro, dono do Banco Master, incluiu informações sobre o financiamento de \"Dark Horse\", filme sobre a vida do...",
-      "url": "https://g1.globo.com/politica/noticia/2026/06/09/caso-master-daniel-vorcaro-cita-dark-horse-e-ciro-nogueira-em-nova-proposta-de-delacao-premiada.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-06-09T21:12:42+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/N-Mql-BK9YPw9WSU44bP0EYHDJs=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/l/ZKKTkoTAGd1zC6cUXUgg/vorcaro-ciro-montagem-1200px-1-.png",
-      "spectrumScore": 5,
+      "id": "article_40f89f2054eb",
+      "title": "O ministro de Lula citado na delação de Daniel Vorcaro",
+      "description": "O dono do Banco Master, Daniel Vorcaro, citou pelo menos um ministro de Lula em sua proposta de delação premiada.",
+      "url": "https://oglobo.globo.com/blogs/malu-gaspar/post/2026/06/o-ministro-de-lula-citado-na-delacao-de-daniel-vorcaro.ghtml",
+      "source": "O Globo",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-06-10T07:00:35+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/xFzEyZekWNu4O4OdIMgZv01h4Kc=/4288x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/E/Y/YZlt2URvi7X08F3IoNdg/113050809-data-02-12-2019-editoria-financas-reporter-flavia-furlan-nunes-local-banco-maxima-sao.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_110ce232392b",
+      "title": "A condição para André Mendonça seguir com a delação de Vorcaro",
+      "description": "O ministro do Supremo Tribunal Federal (STF) André Mendonça só pretende seguir com a negociação da delação premiada de Daniel Vorcaro se a...",
+      "url": "https://oglobo.globo.com/blogs/bela-megale/post/2026/06/a-condicao-para-andre-mendonca-seguir-com-a-delacao-de-vorcaro.ghtml",
+      "source": "O Globo",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-06-10T07:00:51+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/gTRAwKh9Z66cJ1Ub4Mo683_qY9U=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/1/H/Q4EewQQO6gN1oucPgbHg/arte-2026-05-22t193312.906.png",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -78,32 +98,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_3145b2431e0e",
-      "title": "PF vê comitiva de advogados do Centrão na cela de Vorcaro; lista de visitas tem sigilo de 100 anos",
-      "description": "Defensores teriam procurações do ex-banqueiro e com considerados legais. Cinco defensores são ligados ao Centrão e ao antigo governo do DF.",
-      "url": "https://www.gazetadopovo.com.br/republica/pf-ve-comitiva-de-advogados-do-centrao-na-cela-de-vorcaro-lista-de-visitas-tem-sigilo-de-100-anos/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-06-09T00:35:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/05/20230400/daniel-vorcaro-mugshot-foto-SAP-SP-EFE-4-1.jpg",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_09398e79a7aa",
-      "title": "Ala da PF vê risco de desgaste se PGR aceitar delação de Vorcaro",
-      "description": "Investigadores avaliam que eventual acordo nos termos atualmente propostos pelo banqueiro pode gerar questionamentos futuros.",
-      "url": "https://www.metropoles.com/colunas/manoela-alcantara/pf-risco-desgate-pgr-delacao-vorcaro",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-06-09T20:17:00+00:00",
+      "id": "article_0f29ddacd6ed",
+      "title": "Vorcaro muda versão sobre Ciro Nogueira em 2ª proposta de delação e substitui ‘amizade’ por propina",
+      "description": "PF apontou suspeitas do pagamento de mesada de R$ 300 mil a empresa ligada ao parlamentar; procurado, Ciro Nogueira ainda não se manifestou.",
+      "url": "https://www.estadao.com.br/politica/vorcaro-muda-versao-sobre-ciro-nogueira-em-2-proposta-de-delacao-e-substitui-amizade-por-propina/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-06-09T23:59:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_f1d0127eb600",
@@ -114,24 +120,10 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-09T07:30:12+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_d7b98238e136",
-      "title": "Vorcaro, o finório",
-      "description": "Ao dizer a seus advogados que pagou a autoridades por 'amizade', banqueiro mostra que sua eventual delação será uma piada.",
-      "url": "https://www.estadao.com.br/opiniao/vorcaro-o-finorio/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-06-05T06:02:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_95ac14e2a9b0",
@@ -148,17 +140,17 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_0f29ddacd6ed",
-      "title": "Vorcaro muda versão sobre Ciro Nogueira em 2ª proposta de delação e substitui ‘amizade’ por propina",
-      "description": "PF apontou suspeitas do pagamento de mesada de R$ 300 mil a empresa ligada ao parlamentar; procurado, Ciro Nogueira ainda não se manifestou.",
-      "url": "https://www.estadao.com.br/politica/vorcaro-muda-versao-sobre-ciro-nogueira-em-2-proposta-de-delacao-e-substitui-amizade-por-propina/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-06-09T23:59:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "id": "article_3145b2431e0e",
+      "title": "PF vê comitiva de advogados do Centrão na cela de Vorcaro; lista de visitas tem sigilo de 100 anos",
+      "description": "Defensores teriam procurações do ex-banqueiro e com considerados legais. Cinco defensores são ligados ao Centrão e ao antigo governo do DF.",
+      "url": "https://www.gazetadopovo.com.br/republica/pf-ve-comitiva-de-advogados-do-centrao-na-cela-de-vorcaro-lista-de-visitas-tem-sigilo-de-100-anos/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-06-09T00:35:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
+      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
@@ -169,8 +161,8 @@
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-10T01:37:08+00:00",
-      "postedLabel": "4 horas atrás",
+      "publishedAt": "2026-06-09T19:36:47+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -184,7 +176,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-06-10T00:26:05+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -202,6 +194,20 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_09398e79a7aa",
+      "title": "Ala da PF vê risco de desgaste se PGR aceitar delação de Vorcaro",
+      "description": "Investigadores avaliam que eventual acordo nos termos atualmente propostos pelo banqueiro pode gerar questionamentos futuros.",
+      "url": "https://www.metropoles.com/colunas/manoela-alcantara/pf-risco-desgate-pgr-delacao-vorcaro",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-06-09T20:17:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_909468019a32",
@@ -232,6 +238,48 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_6b9dc098f414",
+      "title": "PF pode rejeitar novamente proposta de delação de Daniel Vorcaro",
+      "description": "A proposta de delação do dono do Banco Master, Daniel Vorcaro, deve ser rejeitada novamente pela Polícia Federal, de acordo com fontes da...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/06/7437695-pf-pode-rejeitar-novamente-proposta-de-delacao-de-daniel-vorcaro.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-06-10T06:55:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_65e127ab4bfb",
+      "title": "PF vê tentativa de Vorcaro ganhar tempo com delação, PGR adota cautela, e defesa avalia má vontade",
+      "description": "Integrantes da Polícia Federal e da Procuradoria-Geral da República (PGR) ainda não conseguiram chegar a um acordo com a defesa do banqueiro...",
+      "url": "https://www.folhape.com.br/politica/pf-ve-tentativa-de-vorcaro-ganhar-tempo-com-delacao-pgr-adota/492836/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-06-09T19:51:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_ee50b24e5f1c",
+      "title": "Polícia Federal vai recusar nova delação de Daniel Vorcaro",
+      "description": "A Polícia Federal (PF) vai recusar a nova delação de Daniel Vorcaro. A apuração é da colunista de política da BandNews FM,Mônica Bergamo.",
+      "url": "https://blog.tribunadonorte.com.br/territoriolivre/policia-federal-vai-recusar-nova-delacao-de-daniel-vorcaro/",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
+      "sourceDomain": "blog.tribunadonorte.com.br",
+      "publishedAt": "2026-06-09T12:31:53+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_9570a2ee7fe3",
       "title": "Delação de Vorcaro patina, frustra expectativas da PF e pode ser rejeitada de novo",
       "description": "As negociações para o acordo de colaboração premiada do ex-banqueiro Daniel Vorcaro parecem ter estagnado nos bastidores de Brasília.",
@@ -246,34 +294,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_6aed0220397a",
-      "title": "PF e PGR avaliam que nova proposta de delação de Vorcaro será negada",
-      "description": "A proposta de delação do dono do Banco Master, Daniel Vorcaro, deve ser rejeitada novamente pela Polícia Federal, de acordo com fontes da...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/06/7437427-pf-e-pgr-avaliam-que-nova-proposta-de-delacao-de-vorcaro-sera-negada.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-06-09T19:17:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_2bb63126c9f1",
-      "title": "Delação de Vorcaro enfrenta impasse na PF e PGR, e defesa vê má vontade",
-      "description": "Integrantes da Polícia Federal e da Procuradoria-Geral da República (PGR) ainda não conseguiram chegar a um acordo com a defesa do banqueiro...",
-      "url": "https://tribunadonorte.com.br/politica/delacao-de-vorcaro-enfrenta-impasse-na-pf-e-pgr-e-defesa-ve-ma-vontade/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-06-10T03:00:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_9d7a8b603d1f",
       "title": "Daniel Vorcaro entre medo, pressão e cálculo na negociação da delação",
       "description": "O impasse na colaboração premiada do banqueiro passa por um jogo de pressão nos bastidores do poder.",
@@ -286,20 +306,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_aebf17d55820",
-      "title": "investigadores avaliam que segunda versão de proposta de delação de Vorcaro não tem fatos novos",
-      "description": "Investigadores envolvidos na apuração do caso Master avaliam que a segunda leva de anexos da proposta de delação apresentada pelo...",
-      "url": "https://www.folhape.com.br/politica/investigadores-avaliam-que-segunda-versao-de-proposta-de-delacao-de/492557/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-06-08T20:08:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_4a122caa0e73",
@@ -325,8 +331,8 @@
     "buckets": {
       "left": 0,
       "centerLeft": 3,
-      "center": 8,
-      "centerRight": 6,
+      "center": 9,
+      "centerRight": 5,
       "right": 2,
       "unknown": 1
     }
