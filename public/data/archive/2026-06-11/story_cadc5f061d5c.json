@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lzaG95bUVSSEQ4WjNoQnFNNVJTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lzaG95bUVSSEQ4WjNoQnFNNVJTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 10
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 9,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Juíza concede perdão judicial a Monique Medeiros no caso Henry Borel",
   "summary": "Florence Rosa anuncia saída após chegada de novo advogado e divergência sobre estratégia; Ministério Público, assistente de acusação e...",
@@ -25,14 +34,14 @@
     "henry",
     "borel",
     "caso",
-    "monique",
     "perdão",
+    "monique",
     "judicial"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/oxvMprw41SGU4MxaQ3IQelv5EtI=/4160x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/B/e/6lpAR3QlGXHIkJOwHILA/114343415-ri-rio-de-janeiro-23-03-2026-julgamento-do-acusados-de-matar-o-menino-henry-borel-comeca.jpg",
   "publishedAt": "2026-06-08T00:10:00+00:00",
-  "updatedAt": "2026-06-11T22:49:26.018498+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-06-11T23:44:13.167438+00:00",
+  "sourceCount": 17,
   "articleCount": 20,
   "articles": [
     {
@@ -44,38 +53,10 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-11T21:42:16+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/oxvMprw41SGU4MxaQ3IQelv5EtI=/4160x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/B/e/6lpAR3QlGXHIkJOwHILA/114343415-ri-rio-de-janeiro-23-03-2026-julgamento-do-acusados-de-matar-o-menino-henry-borel-comeca.jpg",
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_4c4a342fbd3b",
-      "title": "Criadora da Lei Maria da Penha critica 'perdão' à mãe de Henry Borel: 'Nada justifica, mulheres não querem bondade, querem equidade'",
-      "description": "Para a jurista Silvia Pimentel, perdão a Monique Medeiros é um equívoco jurídico e um desserviço aos interesses do feminismo e ao debate...",
-      "url": "https://www.bbc.com/portuguese/articles/cp9lzpnl88jo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-06-11T07:42:14+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/8745/live/b8a8f710-650c-11f1-b1db-af71d47507d6.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f1dfe2fb74ab",
-      "title": "Caso Henry Borel: advogada de Monique Medeiros deixa defesa após divergência de estratégias",
-      "description": "Na publicação, Florence Rosa disse que \"com a chegada de um novo colega à defesa, e, diante de uma legítima incompatibilidade de estratégias...",
-      "url": "https://cbn.globo.com/rio-de-janeiro/noticia/2026/06/11/caso-henry-borel-advogada-de-monique-medeiros-deixa-defesa-apos-divergencia-de-estrategias.ghtml",
-      "source": "CBN",
-      "sourceCanonical": "CBN",
-      "sourceDomain": "cbn.globo.com",
-      "publishedAt": "2026-06-11T21:47:36+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_cf886e0a9cd2",
@@ -106,6 +87,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_b02b527069b7",
+      "title": "A nossa Justiça cega",
+      "description": "O perito que examinou o corpo de Henry Borel, assassinado aos 4 anos, disse que o menino teve uma morte lenta e agônica.",
+      "url": "https://www.correiobraziliense.com.br/opiniao/2026/06/7438497-a-nossa-justica-cega.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-06-11T09:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/06/04/675x450/1_globo-canal-4-1-40-frame-249398-66821045.jpg?20260604161302?20260604161302",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_e2539e99fd11",
       "title": "José Fucs: A guinada woke da Justiça vai muito além do caso Henry Borel",
       "description": "O perdão judicial concedido pela juíza Elizabeth Machado Louro a Monique Medeiros, condenada por homicídio culposo por omissão no...",
@@ -134,6 +129,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_03d157ce4faf",
+      "title": "Por que o perdão judicial no caso Henry Borel é um erro histórico",
+      "description": "Ao extinguir a punibilidade da mãe, o Estado envia uma mensagem leniente e perigosa: a de que o remorso ou as consequências sociais...",
+      "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/por-que-o-perdao-judicial-no-caso-henry-borel-e-um-erro-historico/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-06-08T23:00:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_c1068b3b771d",
       "title": "Revoltado com o caso do menino Henry? Este texto é para você!",
       "description": "Todo mundo está revoltando com o desfecho do julgamento pelo assassinato do menino Henry Borel. Talvez este texto seja útil. Leia!",
@@ -146,6 +155,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_4c4a342fbd3b",
+      "title": "Criadora da Lei Maria da Penha critica 'perdão' à mãe de Henry Borel: 'Nada justifica, mulheres não querem bondade, querem equidade'",
+      "description": "Para a jurista Silvia Pimentel, perdão a Monique Medeiros é um equívoco jurídico e um desserviço aos interesses do feminismo e ao debate...",
+      "url": "https://www.bbc.com/portuguese/articles/cp9lzpnl88jo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-06-11T07:42:14+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_239defea055a",
@@ -190,20 +213,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_b02b527069b7",
-      "title": "A nossa Justiça cega",
-      "description": "O perito que examinou o corpo de Henry Borel, assassinado aos 4 anos, disse que o menino teve uma morte lenta e agônica.",
-      "url": "https://www.correiobraziliense.com.br/opiniao/2026/06/7438497-a-nossa-justica-cega.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-06-11T09:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_63af5ee1c159",
       "title": "Perdão a Monique é “desserviço ao feminismo”, diz criadora da Maria da Penha",
       "description": "Jurista Silvia Pimentel afirma que decisão não encontra respaldo adequado no caso e diz que feminismo busca equidade, não “bondade de...",
@@ -212,7 +221,7 @@
       "sourceCanonical": "VEJA RIO",
       "sourceDomain": "vejario.abril.com.br",
       "publishedAt": "2026-06-11T20:10:05+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -240,7 +249,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-11T20:00:19+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -302,45 +311,44 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_381adbfab6f8",
-      "title": "Defensora deixa caso Henry Borel em nova disputa judicial",
-      "description": "Saída de Florence Rosa ocorre após perdão judicial a Monique Medeiros e recursos contra sentença do Tribunal do Júri.",
-      "url": "https://www.brasil247.com/regionais/sudeste/defensora-deixa-caso-henry-borel-em-nova-disputa-judicial",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-06-11T19:10:14+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_c1910c19b3a0",
+      "title": "Gênero não é salvo-conduto (Mirian Guaraciaba)",
+      "description": "Elisabeth Louro preside o Segundo Tribunal do Juri do Rio de Janeiro há 30 anos. Fez jornalismo pela UFRJ, e aventurou-se no teatro.",
+      "url": "https://www.metropoles.com/blog-do-noblat/artigos/genero-nao-e-salvo-conduto-mirian-guaraciaba",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-06-10T13:00:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 10,
-    "average": 5.57,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.93,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
-      "center": 7,
-      "centerRight": 3,
+      "center": 8,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
