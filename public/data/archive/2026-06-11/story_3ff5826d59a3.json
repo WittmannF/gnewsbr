@@ -26,12 +26,12 @@
     "norte",
     "belfast",
     "protestos",
-    "violência",
-    "anti"
+    "anti",
+    "imigração"
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/06/10/675x450/1_7438294-4c2d9f1f08324b1f86a1abd4dba85764-66875631.jpeg?20260610162249?20260610162249",
   "publishedAt": "2026-06-09T21:35:42+00:00",
-  "updatedAt": "2026-06-11T22:03:32.396266+00:00",
+  "updatedAt": "2026-06-11T22:58:24.722844+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -106,6 +106,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_74e5b957a854",
+      "title": "Polícia usa canhões de água na 2ª noite de protestos na Irlanda do Norte",
+      "description": "Ao menos 16 pessoas foram presas e duas foram posteriormente acusadas; 12 policiais ficaram feridos, alguns por coquetéis Molotov.",
+      "url": "https://www.cnnbrasil.com.br/internacional/policia-usa-canhoes-de-agua-na-noite-de-protestos-na-irlanda-do-norte/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-06-11T18:26:42+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_86ef0b916d2d",
       "title": "A submissão da Europa ao multiculturalismo",
       "description": "A explicação sobre o que acontece na Europa está na destruição moral causada pelo comunismo. Leia Gustavo Maultasch na Gazeta do Povo.",
@@ -134,20 +148,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_a6cf42930ebd",
-      "title": "Vídeo: polícia da Irlanda do Norte usa canhões d’água contra manifestantes anti-imigração",
-      "description": "A polícia da Irlanda do Norte usou canhões de água para dispersar manifestantes anti-imigração em meio aos protestos violentos que atingem o...",
-      "url": "https://veja.abril.com.br/mundo/video-policia-da-irlanda-do-norte-usa-canhoes-dagua-contra-manifestantes-anti-imigracao/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-06-11T14:06:09+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_a2c9ed0d9600",
       "title": "Protestos anti-imigração na Irlanda do Norte resultam em feridos e prisões",
       "description": "Dois dias de manifestações violentas deixam 12 policiais feridos e 16 detidos.",
@@ -174,6 +174,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_a6cf42930ebd",
+      "title": "Vídeo: polícia da Irlanda do Norte usa canhões d’água contra manifestantes anti-imigração",
+      "description": "A polícia da Irlanda do Norte usou canhões de água para dispersar manifestantes anti-imigração em meio aos protestos violentos que atingem o...",
+      "url": "https://veja.abril.com.br/mundo/video-policia-da-irlanda-do-norte-usa-canhoes-dagua-contra-manifestantes-anti-imigracao/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-06-11T14:06:09+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_4df5e8e5cb18",
@@ -260,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b068fa67eae8",
-      "title": "Suspeito de ataque em Belfast aparece em tribunal após noite de violência",
-      "description": "O refugiado sudanês acusado de um ataque a faca em Belfast que chocou o Reino Unido deve comparecer nesta quarta-feira (10) a uma audiência...",
-      "url": "https://www.folhape.com.br/noticias/suspeito-de-ataque-em-belfast-aparece-em-tribunal-apos-noite-de/492977/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-06-10T11:04:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_004683942e0c",
       "title": "Vítima de esfaqueamento em Belfast ‘está melhor’ e poderá em breve acordar do coma",
       "description": "Gavin Robinson, líder do Partido Unionista Democrático (DUP) britânico, disse na quinta-feira que o estado de saúde do esfaqueador de...",
@@ -282,7 +282,7 @@
       "sourceCanonical": "segundabase.com.br",
       "sourceDomain": "segundabase.com.br",
       "publishedAt": "2026-06-11T18:44:23+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,13 +319,13 @@
   "spectrum": {
     "min": 3,
     "max": 8,
-    "average": 5.2,
+    "average": 5.27,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
       "left": 0,
-      "centerLeft": 6,
-      "center": 5,
+      "centerLeft": 5,
+      "center": 6,
       "centerRight": 4,
       "right": 0,
       "unknown": 5
