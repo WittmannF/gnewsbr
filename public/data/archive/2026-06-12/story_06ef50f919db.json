@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 12
+      "topic-2": 8
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 8,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "tipo",
     "doença",
     "categoria",
-    "divide",
-    "cientistas"
+    "classificação",
+    "reconhecida"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/b2d3/live/7e0bda20-5a9c-11f1-9626-f75d5d5577d2.png",
   "publishedAt": "2026-06-10T17:13:13+00:00",
-  "updatedAt": "2026-06-12T15:16:21.887943+00:00",
+  "updatedAt": "2026-06-12T17:13:07.092072+00:00",
   "sourceCount": 5,
   "articleCount": 5,
   "articles": [
@@ -48,20 +48,6 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/b2d3/live/7e0bda20-5a9c-11f1-9626-f75d5d5577d2.png",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_69cbce395dd6",
-      "title": "12/06/2026 | Diabetes tipo 5, delírio de infestação e CKM",
-      "description": "Desnutrição infantil e diabetes tipo 5, delírio de infestação e síndrome CKM. O episódio de hoje do Afya News traz três temas essenciais...",
-      "url": "https://portal.afya.com.br/podcasts/afya-news/12-06-2026",
-      "source": "Afya | Home",
-      "sourceCanonical": "Afya | Home",
-      "sourceDomain": "portal.afya.com.br",
-      "publishedAt": "2026-06-12T09:38:59+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://uploads.production.portal.marketing.afya.systems/wp-content/uploads/2026/02/04153454/thumb-afya-news.webp",
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_97baa6d28b70",
@@ -92,6 +78,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_1c1c17f6d447",
+      "title": "O que é o diabetes tipo 5, nova classificação da doença reconhecida internacionalmente",
+      "description": "A Federação Internacional de Diabetes mudou as diretrizes mundiais ao oficializar uma nova variação da doença causada pela fome crônica.",
+      "url": "https://www.terra.com.br/noticias/o-que-e-o-diabetes-tipo-5-nova-classificacao-da-doenca-reconhecida-internacionalmente,1e1e16566be3051e293296ff1d654368h7o45llb.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-06-12T15:37:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/06/12/738667554-abre-perfil-brasil-2026-06-12t123258611.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_37ea93ad9eaa",
       "title": "Diabetes tipo 5 é nova categoria reconhecida pela FID",
       "description": "O diabetes tipo 5 é uma nova categoria da doença reconhecida pela Federação Internacional do Diabetes (FID) em abril de 2025.",
@@ -109,26 +109,25 @@
   "spectrum": {
     "min": 4,
     "max": 5,
-    "average": 4.5,
-    "knownCount": 2,
-    "unknownCount": 3,
+    "average": 4.67,
+    "knownCount": 3,
+    "unknownCount": 2,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 1,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 61
+    "confidence": 64
   },
   "flags": [
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
