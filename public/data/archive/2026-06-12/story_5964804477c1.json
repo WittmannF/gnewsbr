@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pnNThXckVSRjJ0VjJhcGZlOXB5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pnNThXckVSRjJ0VjJhcGZlOXB5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 6,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 5,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 6,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Flávio Bolsonaro e o filme Dark Horse",
   "summary": "Deputado cita supostos repasses a Alcolumbre e financiamento do longa ao defender investigação no Congresso. 11 de junho de 2026,...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://cdn.brasil247.com/pb-b247gcp/swp/jtjeq9/media/20260611210640_fcd57cc1-42a3-4a2b-8471-b668da7c2065.jpg",
   "publishedAt": "2026-06-09T16:58:00+00:00",
-  "updatedAt": "2026-06-12T05:49:34.599517+00:00",
+  "updatedAt": "2026-06-12T07:56:14.858247+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-06-12T01:25:30+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://cdn.brasil247.com/pb-b247gcp/swp/jtjeq9/media/20260611210640_fcd57cc1-42a3-4a2b-8471-b668da7c2065.jpg",
       "spectrumScore": 1,
       "bucket": "left"
@@ -117,7 +123,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-06-12T00:15:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -165,20 +171,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ff6a1b0aedaa",
-      "title": "Intercept: documentos mostram como Vorcaro enviou dinheiro aos EUA para financiar ‘Dark Horse’",
-      "description": "Em mais uma matéria da série sobre as ligações entre a família Bolsonaro e o Banco Master, o Intercept apresentou planilhas, contratos…",
-      "url": "https://www.brasildefato.com.br/2026/06/09/intercept-documentos-mostram-como-vorcaro-enviou-dinheiro-aos-eua-para-financiar-dark-horse/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-06-09T21:48:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_3b1c1f497f99",
       "title": "Maria do Rosário critica Flávio Bolsonaro após surgimento de novos documentos do caso 'Bolsomaster'",
       "description": "A deputada Maria do Rosário (PT-RS) criticou Flávio Bolsonaro nas redes sociais após a divulgação de novas informações sobre o financiamento...",
@@ -191,6 +183,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ff6a1b0aedaa",
+      "title": "Intercept: documentos mostram como Vorcaro enviou dinheiro aos EUA para financiar ‘Dark Horse’",
+      "description": "Em mais uma matéria da série sobre as ligações entre a família Bolsonaro e o Banco Master, o Intercept apresentou planilhas, contratos…",
+      "url": "https://www.brasildefato.com.br/2026/06/09/intercept-documentos-mostram-como-vorcaro-enviou-dinheiro-aos-eua-para-financiar-dark-horse/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-06-09T21:48:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_f2b211be1199",
@@ -249,20 +255,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_15c752f15f03",
-      "title": "PT pede que STF apure se \"Dark Horse\" virou caixa 2 para campanha de Flávio",
-      "description": "Partido pede que a Suprema Corte avalie emendas repassadas à ONG da produtora.",
-      "url": "https://www.cnnbrasil.com.br/politica/pt-pede-que-stf-apure-se-dark-horse-virou-caixa-2-para-campanha-de-flavio/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-10T20:15:13+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_40df203713bf",
       "title": "PT protocola pedido de investigação na PF sobre filme de Bolsonaro",
       "description": "Segundo o partido, o dinheiro do Banco Master enviado para o longa-metragem 'Dark Horse' pode ter sido usado em outras finalidades.",
@@ -275,6 +267,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_15c752f15f03",
+      "title": "PT pede que STF apure se \"Dark Horse\" virou caixa 2 para campanha de Flávio",
+      "description": "Partido pede que a Suprema Corte avalie emendas repassadas à ONG da produtora.",
+      "url": "https://www.cnnbrasil.com.br/politica/pt-pede-que-stf-apure-se-dark-horse-virou-caixa-2-para-campanha-de-flavio/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-06-10T20:15:13+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6c0c52f0c199",
