@@ -3,29 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvbDhxZUVSRTB1aXFVWEhYNlJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvbDhxZUVSRTB1aXFVWEhYNlJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
-      "topic-3",
-      "topic-5"
+      "topic-3"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-3": 1,
-      "topic-5": 4
+      "topic-3": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "PF rejeita segunda proposta de delação de Daniel Vorcaro",
   "summary": "PF quer que ex-banqueiro deixe carceragem da Superintendência no DF após rejeição da 2ª proposta de delação. Leia no Poder360.",
@@ -34,13 +25,13 @@
     "vorcaro",
     "delação",
     "alcolumbre",
-    "daniel",
-    "prisão",
-    "milhões"
+    "milhões",
+    "proposta",
+    "daniel"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/03/vorcaro-lide-848x477.png",
   "publishedAt": "2026-06-11T02:17:00+00:00",
-  "updatedAt": "2026-06-13T13:46:34.127434+00:00",
+  "updatedAt": "2026-06-13T14:54:16.587369+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -67,10 +58,24 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-13T08:00:19+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/LJhhwRKkvD8tBZNSmdnGAc1Wnco=/4288x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/z/g/ikqLfqTYmqf121HoBYhA/71526689-data-05-09-2017editoria-financasreporter-vinicius-pinheirolocal-banco-maxima-sao-paulo.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_a730cffa27f1",
+      "title": "Trajetória de Vorcaro que o levou à prisão começou com figurões do PT da Bahia",
+      "description": "Não começou em Brasília a trajetória de fraudes que garantiram a Daniel Vorcaro a glória, a fortuna e a desgraça, resultando na liquidação...",
+      "url": "https://diariodopoder.com.br/coluna-claudio-humberto/trajetoria-de-vorcaro-que-o-levou-a-prisao-comecou-com-figuroes-do-pt-da-bahia",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-06-13T13:28:18+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://uploads.diariodopoder.com.br/2026/01/82b03774-daniel-vorcaro-by-div.jpg",
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_f116d80a1e13",
@@ -96,23 +101,9 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-06-13T01:01:37+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/Daniel-Vorcaro.png?w=1000&h=563&crop=1",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_da9ef7cb682f",
-      "title": "Trajetória de Vorcaro que o levou à prisão por fraude começou com figurões do PT da Bahia",
-      "description": "Não começou em Brasília a trajetória de fraudes que garantiram a Daniel Vorcaro a glória, a fortuna e a desgraça, resultando na liquidação...",
-      "url": "https://diariodopoder.com.br/coluna-claudio-humberto/trajetoria-de-vorcaro-que-o-levou-a-prisao-por-fraude-comecou-com-figuroes-do-pt-da-bahia",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-06-13T03:01:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_c9a26f5aaea4",
@@ -199,32 +190,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_4add7920fb58",
-      "title": "Caso Master: Polícia Federal quer Daniel Vorcaro de volta à Papuda",
-      "description": "Após rejeitar proposta de delação do dono do Master, corporação pede ao STF que ele deixe a Superintendência do órgão.",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/06/7440174-caso-master-policia-federal-quer-daniel-vorcaro-de-volta-a-papuda.html",
+      "id": "article_d84b8f8d1630",
+      "title": "Alcolumbre nega repasse de Vorcaro e promete acionar Justiça: 'Verdade prevalecerá'",
+      "description": "O presidente do Senado e do Congresso Nacional, Davi Alcolumbre (União-AP), negou ter recebido qualquer valor do ex-banqueiro Daniel Vorcaro...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/06/7439586-alcolumbre-nega-repasse-de-vorcaro-e-promete-acionar-justica-verdade-prevalecera.html",
       "source": "Correio Braziliense",
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-06-13T06:55:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-06-12T12:52:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_9798705b8de6",
-      "title": "Propina de R$ 155 milhões: Davi Alcolumbre contesta acusação de Vorcaro e diz que vai à Justiça",
-      "description": "O presidente do Congresso Nacional, senador Davi Alcolumbre (União Brasil-AP), negou ter recebido qualquer valor do banqueiro Daniel Vorcaro...",
-      "url": "https://blog.tribunadonorte.com.br/territoriolivre/propina-de-r-155-milhoes-davi-alcolumbre-contesta-acusacao-de-vorcaro-e-diz-que-vai-a-justica/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "blog.tribunadonorte.com.br",
-      "publishedAt": "2026-06-12T12:16:18+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_171864ca4b33",
@@ -269,14 +246,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_46ab5bf9a672",
-      "title": "Vorcaro recebe visita de advogado na prisão após PF rejeitar segunda proposta de delação premiada",
-      "description": "O advogado Sérgio Leonardo chegou na manhã desta sexta-feira à Superintendência da Polícia Federal, em Brasília, para visitar o banqueiro...",
-      "url": "https://www.folhape.com.br/politica/vorcaro-recebe-visita-de-advogado-na-prisao-apos-pf-rejeitar-segunda/493560/",
+      "id": "article_aaefcb98272a",
+      "title": "Proposta de delação de Vorcaro tem acusação de propina de US$ 30 mi a Alcolumbre, diz revista",
+      "description": "A segunda proposta de delação premiada do banqueiro Daniel Vorcaro teria, segundo relato da revista Veja, uma acusação de pagamento de...",
+      "url": "https://www.folhape.com.br/economia/proposta-de-delacao-de-vorcaro-tem-acusacao-de-propina-de-us-30-mi-a/493513/",
       "source": "Folha PE",
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-06-12T13:10:00+00:00",
+      "publishedAt": "2026-06-12T10:56:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
@@ -323,6 +300,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_9798705b8de6",
+      "title": "Propina de R$ 155 milhões: Davi Alcolumbre contesta acusação de Vorcaro e diz que vai à Justiça",
+      "description": "O presidente do Congresso Nacional, senador Davi Alcolumbre (União Brasil-AP), negou ter recebido qualquer valor do banqueiro Daniel Vorcaro...",
+      "url": "https://blog.tribunadonorte.com.br/territoriolivre/propina-de-r-155-milhoes-davi-alcolumbre-contesta-acusacao-de-vorcaro-e-diz-que-vai-a-justica/",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
+      "sourceDomain": "blog.tribunadonorte.com.br",
+      "publishedAt": "2026-06-12T12:16:18+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
