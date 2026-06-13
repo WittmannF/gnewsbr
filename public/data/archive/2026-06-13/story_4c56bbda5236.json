@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-2": 2,
-      "topic-5": 30
+      "topic-5": 32
     },
     "firstSeenSeedPage": "topic-2",
     "firstSeenRank": 2,
@@ -28,13 +28,13 @@
     "ebola",
     "caso",
     "suspeito",
-    "suspeita",
+    "paciente",
     "porto",
     "alegre"
   ],
   "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1721734:1781296257/Ebola-FA03.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e46bdf3",
   "publishedAt": "2026-06-03T23:44:00+00:00",
-  "updatedAt": "2026-06-13T10:59:24.523852+00:00",
+  "updatedAt": "2026-06-13T11:47:16.286770+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -89,7 +89,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-12T11:30:09+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -215,7 +215,7 @@
       "sourceCanonical": "Midiamax",
       "sourceDomain": "midiamax.com.br",
       "publishedAt": "2026-06-12T11:36:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -291,6 +291,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_9d0cdb90c570",
+      "title": "RS investiga ebola após teste positivo para malária em paciente",
+      "description": "SES notificou o Ministério da Saúde e monitora contatos do paciente, que será transferido para o Grupo Hospitalar Conceição.",
+      "url": "https://tmc.com.br/brasil/novo-hamburgo-suspeito-ebola-malaria-fiocruz-investigacao/",
+      "source": "tmc.com.br",
+      "sourceCanonical": "tmc.com.br",
+      "sourceDomain": "tmc.com.br",
+      "publishedAt": "2026-06-13T11:03:01+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_bbfdf34e5e3a",
       "title": "Município e Estado acompanham investigação de caso suspeito de Ebola em Novo Hamburgo",
       "description": "Portal Institucional da Prefeitura Municipal de Novo Hamburgo. Integra eventos, notícias e serviços disponibilizados a população.",
@@ -303,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f896fdc5e17a",
-      "title": "Rio Grande do Sul investiga suspeita de Ebola e trata malária",
-      "description": "Homem de 64 anos em Nova Hamburgo, RS, passa por exames após viagem a Uganda. Saiba mais sobre o caso suspeito de Ebola e os procedimentos...",
-      "url": "https://www.otempo.com.br/brasil/2026/6/12/rio-grande-do-sul-investiga-suspeita-de-ebola",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-06-13T00:04:30+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 6,
-    "average": 4.92,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 11,
+      "center": 10,
       "centerRight": 0,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {

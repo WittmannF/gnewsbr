@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otOXNpdEVSSHJWcVluRUtDek5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otOXNpdEVSSHJWcVluRUtDek5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 22
+      "topic-3": 20,
+      "topic-5": 9
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 20,
+    "bestSeedRank": 9,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +29,12 @@
     "material",
     "ipen",
     "incidente",
-    "vazamento",
-    "usp"
+    "usp",
+    "vazamento"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/4b4d/live/a8a5e780-665e-11f1-9afd-55fafa742f4a.jpg",
   "publishedAt": "2026-06-11T17:01:00+00:00",
-  "updatedAt": "2026-06-13T11:07:47.720873+00:00",
+  "updatedAt": "2026-06-13T11:48:34.867997+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -120,20 +123,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_0d346ab8c971",
-      "title": "Notícias sobre acidente-radioativo",
-      "description": "O que já se sabe sobre acidente radiotativo no Instituto de Pesquisas Nucleares em SP. O episódio ocorreu nesta quinta-feira (11), durante a retirada de...",
-      "url": "https://www.brasil247.com/tag/acidente-radioativo",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-06-12T14:04:51+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_987536aa9c57",
       "title": "Tecnécio-99: o que é o material radioativo envolvido em incidente em SP e quais os riscos à saúde?",
       "description": "Especialista ouvido pelo 'Estadão' explica como o elemento é produzido e as implicações após a Comissão Nacional de Energia Nuclear...",
@@ -146,6 +135,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_0d346ab8c971",
+      "title": "Notícias sobre acidente-radioativo",
+      "description": "O que já se sabe sobre acidente radiotativo no Instituto de Pesquisas Nucleares em SP. O episódio ocorreu nesta quinta-feira (11), durante a retirada de...",
+      "url": "https://www.brasil247.com/tag/acidente-radioativo",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-06-12T14:04:51+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_0dfafb37e64f",
@@ -170,7 +173,7 @@
       "sourceCanonical": "DW",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-06-12T11:24:48+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +201,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-12T11:18:34+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -246,20 +249,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_1510023ee66b",
-      "title": "Comissão de Energia confirma traços de radiação em material do Ipen",
-      "description": "Segundo relatório da Comissão Nacional de Energia Nuclear (CNEN), episódio ocorreu durante a retirada de sensores biológicos de uma...",
-      "url": "https://revistaoeste.com/brasil/comissao-de-energia-confirma-tracos-de-radiacao-em-material-do-ipen/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-06-12T11:47:23+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_6f4c0fb3ab6c",
       "title": "Ipen confirma vazamento radioativo e descarta contaminação",
       "description": "O Instituto de Pesquisas Energéticas e Nucleares (Ipen) confirmou nesta sexta-feira (12) que houve um vazamento de material radioativo no...",
@@ -272,6 +261,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_1510023ee66b",
+      "title": "Comissão de Energia confirma traços de radiação em material do Ipen",
+      "description": "Segundo relatório da Comissão Nacional de Energia Nuclear (CNEN), episódio ocorreu durante a retirada de sensores biológicos de uma...",
+      "url": "https://revistaoeste.com/brasil/comissao-de-energia-confirma-tracos-de-radiacao-em-material-do-ipen/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-06-12T11:47:23+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_cafce7760221",
@@ -288,18 +291,18 @@
       "bucket": "left"
     },
     {
-      "id": "article_540c6ca6df18",
-      "title": "Governo investiga possível vazamento de material radioativo em instituto na USP",
-      "description": "A ANSN (Autoridade Nacional de Segurança Nuclear) investiga uma possível contaminação e vazamento de material radioativo que teria ocorrido...",
-      "url": "https://www.r7.com/sao-paulo/governo-investiga-possivel-vazamento-de-material-radioativo-em-instituto-na-usp-12062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "r7.com",
-      "publishedAt": "2026-06-12T12:51:35+00:00",
+      "id": "article_a4c4a82dce47",
+      "title": "O que é tecnécio-99, material radioativo envolvido em incidente na USP",
+      "description": "Material radioativo, o tecnécio-99 é usado em exames de medicina nuclear; especialistas explicam riscos à saúde.",
+      "url": "https://www.diariodocentrodomundo.com.br/o-que-e-tecnecio-99-material-radioativo-envolvido-em-incidente-na-usp/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-06-13T02:04:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_9b5c7f53cd99",
@@ -310,7 +313,7 @@
       "sourceCanonical": "avozdocampo.com",
       "sourceDomain": "avozdocampo.com",
       "publishedAt": "2026-06-12T11:45:02+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,14 +322,14 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5,
+    "average": 4.71,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 4,
+      "left": 5,
       "centerLeft": 2,
       "center": 7,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 2,
       "unknown": 3
     }
