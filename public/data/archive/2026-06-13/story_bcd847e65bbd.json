@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1MnBHdUVSRjd5U1ZkZkdzMWVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1MnBHdUVSRjd5U1ZkZkdzMWVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 8
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "STF vê com preocupação decisão da Itália sobre Carla Zambelli",
   "summary": "O tribunal do país europeu negou a extradição da bolsonarista alegando que o ministro do STF acumulou funções no caso e comprometeu...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "zambelli",
     "justiça",
-    "itália",
     "moraes",
     "italiana",
-    "decisão"
+    "extradição",
+    "stf"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/alexandre-de-moraes-stf-foto-gustavo-moreno-stf.jpg",
-  "publishedAt": "2026-06-12T10:14:34+00:00",
-  "updatedAt": "2026-06-13T01:24:39.227332+00:00",
+  "publishedAt": "2026-06-12T12:07:00+00:00",
+  "updatedAt": "2026-06-13T03:22:19.466291+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,18 +56,32 @@
       "bucket": "left"
     },
     {
-      "id": "article_a1a37808c60e",
-      "title": "Justiça da Itália publica decisão que anulou extradição de Zambelli e diz que Moraes foi 'vítima' e 'juiz'",
-      "description": "Corte italiana aponta que o ministro Alexandre de Moraes violou a imparcialidade ao atuar como vítima e juiz no processo de extradição de...",
-      "url": "https://g1.globo.com/politica/noticia/2026/06/12/justica-da-italia-publica-decisao-sobre-absolvicao-de-zambelli.ghtml",
+      "id": "article_57461a1f1071",
+      "title": "Ponto a ponto: o que a Justiça italiana alegou na decisão que anulou a extradição de Zambelli",
+      "description": "Corte italiana entendeu que ministro do STF Alexandre de Moraes violou princípio da imparcialidade e independência do juiz.",
+      "url": "https://g1.globo.com/mundo/noticia/2026/06/13/ponto-a-ponto-o-que-a-justica-italiana-alegou-na-decisao-que-anulou-a-extradicao-de-zambelli.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-06-12T10:14:34+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-06-13T03:00:33+00:00",
+      "postedLabel": "21 minutos atrás",
       "imageUrl": "https://s2-g1.glbimg.com/EeHh63rTEGYkQeWQmVrvovO6Vyw=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/67/52/14695267",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_780c9b5c968d",
+      "title": "Extradição negada de Carla Zambelli impõe novo revés a Moraes e alimenta críticas",
+      "description": "A decisão da Justiça italiana de negar a extradição da ex-deputada federal Carla Zambelli impõe um novo revés ao ministro Alexandre de...",
+      "url": "https://www1.folha.uol.com.br/poder/2026/06/extradicao-negada-de-carla-zambelli-impoe-novo-reves-a-moraes-e-alimenta-criticas.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-06-13T02:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/15/17788763766a077fd81f8cd_1778876376_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_e46173c2f1bf",
@@ -92,57 +112,71 @@
       "bucket": "center"
     },
     {
-      "id": "article_91eedcb37859",
-      "title": "Fachin sai em defesa de Moraes e critica decisão da Itália sobre Zambelli",
-      "description": "Fachin afirmou que processo em que ex-deputada foi condenada tramitou com observância ao devido processo legal e manifestou preocupação com...",
-      "url": "https://www.migalhas.com.br/quentes/458054/fachin-defende-moraes-e-critica-decisao-da-italia-sobre-zambelli",
-      "source": "Migalhas",
-      "sourceCanonical": "Migalhas",
-      "sourceDomain": "migalhas.com.br",
-      "publishedAt": "2026-06-12T17:12:07+00:00",
+      "id": "article_e17453824398",
+      "title": "Quando a Justiça cruza fronteiras",
+      "description": "Recusa de tribunal italiano em extraditar Carla Zambelli lembra que credibilidade internacional do Judiciário pode ser colocada em dúvida.",
+      "url": "https://crusoe.com.br/diario/quando-a-justica-cruza-fronteiras/",
+      "source": "Crusoé",
+      "sourceCanonical": "Crusoé",
+      "sourceDomain": "crusoe.com.br",
+      "publishedAt": "2026-06-12T17:27:34+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_1c10cb80e06a",
-      "title": "Justiça italiana diz que STF não foi imparcial sobre Zambelli e cita 'dupla função' de Moraes",
-      "description": "Corte fala em 'macroscópica violação do direito de defesa' de ex-deputada ao justificar negativa à extradição.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/06/justica-italiana-diz-que-stf-nao-foi-imparcial-sobre-zambelli-e-cita-dupla-funcao-de-moraes.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-06-12T10:42:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2025/06/05/174912195168417b9fae0a5_1749121951_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "id": "article_51e1a02275d6",
+      "title": "O recado dos italianos à bandidagem: ameace o juiz e esculhambe com o processo. Por Moisés Mendes",
+      "description": "Os estagiários do Supremo estão assustados. Valeu na Suprema Corte da Itália, em favor de Carla Zambelli, o argumento que a extrema direita...",
+      "url": "https://www.diariodocentrodomundo.com.br/o-recado-dos-italianos-a-bandidagem-ameace-o-juiz-e-esculhambe-com-o-processo-por-moises-mendes/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-06-13T00:58:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
-      "id": "article_ae3878aa9d04",
-      "title": "A decisão italiana no caso Carla Zambelli e os reflexos sobre a cooperação jurídica internacional",
-      "description": "A recente decisão da Corte Suprema de Cassação da Itália de anular o pedido de extradição da ex-deputada Carla Zambelli para o Brasil...",
-      "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/a-decisao-italiana-no-caso-carla-zambelli-e-os-reflexos-sobre-a-cooperacao-juridica-internacional/",
+      "id": "article_69fe942542a3",
+      "title": "Por que tribunais estrangeiros estão negando pedidos de extradição do STF?",
+      "description": "Série de decisões na Itália, EUA e Espanha negando extradições evidencia percepção de parcialidade e autoritarismo nas decisões do STF no...",
+      "url": "https://www.gazetadopovo.com.br/republica/por-que-tribunais-estrangeiros-estao-negando-pedidos-de-extradicao-do-stf/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-06-13T01:56:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_f5905e94a6e5",
+      "title": "Decisão sobre Zambelli reforça questionamento a Moraes e repercutirá em outros casos, dizem juristas",
+      "description": "Especialistas concordam com fundamentos adotados pela Justiça italiana ao apontar dúvidas sobre imparcialidade em processo relatado por...",
+      "url": "https://www.estadao.com.br/politica/decisao-sobre-zambelli-reforca-questionamento-a-moraes-e-repercutira-em-outros-casos-dizem-juristas/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-06-12T18:59:07+00:00",
+      "publishedAt": "2026-06-12T18:49:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_609d039314ec",
-      "title": "Suprema Corte da Itália apontou parcialidade em caso Zambelli",
-      "description": "Ao justificar negativa de extradição da ex-deputada, corte italiana afirmou que ministro Alexandre de Moraes foi vítima e juiz no processo.",
-      "url": "https://www.conjur.com.br/2026-jun-12/suprema-corte-da-italia-apontou-violacao-da-imparcialidade-em-caso-zambelli/",
+      "id": "article_ab411af22158",
+      "title": "STF rebate acusação italiana de parcialidade ao julgar Zambelli",
+      "description": "O Supremo Tribunal Federal divulgou nesta sexta-feira (12/6) uma nota oficial em defesa da atuação da corte no julgamento da ação penal que...",
+      "url": "https://www.conjur.com.br/2026-jun-12/stf-rebate-acusacao-italiana-de-parcialidade-no-julgamento-de-carla-zambelli/",
       "source": "Consultor Jurídico",
       "sourceCanonical": "Consultor Jurídico",
       "sourceDomain": "conjur.com.br",
-      "publishedAt": "2026-06-12T13:28:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-06-12T21:51:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -156,24 +190,24 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-06-12T21:48:35+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_248cb382c5d7",
-      "title": "Decisões de tribunais estrangeiros expõem o autoritarismo do STF",
-      "description": "Série de negativas de tribunais estrangeiros para pedidos do STF mostram percepção de parcialidae e autoritarismo em decisões brasileiras.",
-      "url": "https://www.gazetadopovo.com.br/republica/imagem-de-autoritarismo-e-parcialidade-desmoraliza-os-pedidos-do-stf-no-exterior/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-06-12T23:55:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_91eedcb37859",
+      "title": "Fachin sai em defesa de Moraes e critica decisão da Itália sobre Zambelli",
+      "description": "Fachin afirmou que processo em que ex-deputada foi condenada tramitou com observância ao devido processo legal e manifestou preocupação com...",
+      "url": "https://www.migalhas.com.br/quentes/458054/fachin-defende-moraes-e-critica-decisao-da-italia-sobre-zambelli",
+      "source": "Migalhas",
+      "sourceCanonical": "Migalhas",
+      "sourceDomain": "migalhas.com.br",
+      "publishedAt": "2026-06-12T17:12:07+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4a058d551579",
@@ -194,14 +228,14 @@
       "title": "O que a Justiça italiana alegou para absolver Carla Zambelli",
       "description": "Magistrados italianos consideraram ter havido imparcialidade de Alexandre de Moraes no julgamento que condenou a ex-deputada no Brasil,...",
       "url": "https://www.dw.com/pt-br/o-que-a-justi%C3%A7a-italiana-alegou-para-absolver-carla-zambelli/a-77525500",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
+      "source": "DW",
+      "sourceCanonical": "DW",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-06-12T13:16:03+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9bcdccd0f08a",
@@ -216,6 +250,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_9bf146588063",
+      "title": "Itália nega extradição de Carla Zambelli",
+      "description": "Corte de Cassação de Roma publicou a decisão e apontou dúvidas sobre a imparcialidade de Alexandre de Moraes no caso.",
+      "url": "https://www.jb.com.br/brasil/justica/2026/06/1059945-italia-nega-extradicao-de-carla-zambelli.html",
+      "source": "Jornal do Brasil",
+      "sourceCanonical": "Jornal do Brasil",
+      "sourceDomain": "jb.com.br",
+      "publishedAt": "2026-06-12T15:39:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_befccdcf853f",
@@ -260,20 +308,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_9bf146588063",
-      "title": "Itália nega extradição de Carla Zambelli",
-      "description": "Corte de Cassação de Roma publicou a decisão e apontou dúvidas sobre a imparcialidade de Alexandre de Moraes no caso.",
-      "url": "https://www.jb.com.br/brasil/justica/2026/06/1059945-italia-nega-extradicao-de-carla-zambelli.html",
-      "source": "Jornal do Brasil",
-      "sourceCanonical": "Jornal do Brasil",
-      "sourceDomain": "jb.com.br",
-      "publishedAt": "2026-06-12T15:39:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_26453d15a969",
       "title": "Justiça da Itália solta Zambelli e alega falta de imparcialidade no julgamento do Brasil",
       "description": "A Suprema Corte da Itália negou a extradição da ex-deputada federal Carla Zambelli não por analisar o mérito da condenação imposta pelo STF,...",
@@ -286,49 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_9a64dde7e405",
-      "title": "Justiça da Itália publica decisão que anula extradição de Zambelli",
-      "description": "A Justiça da Itália apontou a atuação do ministro do Supremo Tribunal Federal, Alexandre de Moraes, como um dos motivos para negar a...",
-      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/justica/audio/2026-06/justica-da-italia-publica-decisao-que-anula-extradicao-de-zambelli",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-06-12T15:44:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_3869aa693e08",
-      "title": "Justiça italiana nega extradição de Zambelli e diz que Moraes foi parcial",
-      "description": "Um jornal independente comprometido com a defesa da diversidade, dos direitos, do meio ambiente e da democracia.",
-      "url": "https://sul21.com.br/noticias/politica/2026/06/justica-italiana-nega-extradicao-de-zambelli-e-diz-que-moraes-foi-parcial/",
-      "source": "Sul 21",
-      "sourceCanonical": "Sul 21",
-      "sourceDomain": "sul21.com.br",
-      "publishedAt": "2026-06-12T12:58:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.27,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.14,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 2,
-      "centerLeft": 3,
-      "center": 5,
+      "left": 3,
+      "centerLeft": 2,
+      "center": 4,
       "centerRight": 4,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +346,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
