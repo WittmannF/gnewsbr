@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 21
+      "topic-7": 23
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +29,9 @@
     "norte",
     "aquecimento"
   ],
-  "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/X5ARHB2F4BDKHAGYL5ATGW5JHY.jpg?smart=true&auth=d31e3aa9f1f259f953f111f37c7624ea88a7eebf145ee5737d1ef7a041354a7e&width=1200&height=630",
+  "imageUrl": "https://static.dw.com/image/77503762_6.jpg",
   "publishedAt": "2026-06-08T18:27:00+00:00",
-  "updatedAt": "2026-06-14T19:54:53.439979+00:00",
+  "updatedAt": "2026-06-14T20:45:55.173965+00:00",
   "sourceCount": 13,
   "articleCount": 13,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "\"Mancha fria\" no Atlântico intriga especialistas sobre clima",
       "description": "Área no Atlântico Norte desafia tendência global, esfriando há 150 anos, enquanto o resto do planeta aquece. Novo estudo fornece possível...",
       "url": "https://www.dw.com/pt-br/mancha-fria-no-atl%C3%A2ntico-intriga-especialistas-sobre-clima/a-77537037",
-      "source": "DW",
-      "sourceCanonical": "DW",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-06-13T14:03:18+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://static.dw.com/image/77503762_6.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_068d53e079c5",
@@ -120,20 +120,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a52e5871d9ce",
-      "title": "“Mancha fria” no Atlântico vira mistério para cientistas em meio ao aquecimento global",
-      "description": "Uma área do Atlântico Norte vem chamando a atenção de cientistas por seguir na contramão do aquecimento global. Enquanto a maior parte dos...",
-      "url": "https://revistaforum.com.br/meio-ambiente-e-sustentabilidade/mancha-fria-atlantico/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-06-13T22:51:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/06/17813849586a2dc6feaff3e_1781384958_3x2_md.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_5de3a6ce931a",
       "title": "Uma misteriosa \"mancha fria\" no Atlântico tem intrigado cientistas. Novo estudo aponta para um sinal sinistro",
       "description": "No Oceano Atlântico Norte, a sul da Gronelândia e da Islândia, uma vasta área de água está a fazer algo muito estranho. Enquanto o resto do...",
@@ -146,6 +132,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a52e5871d9ce",
+      "title": "“Mancha fria” no Atlântico vira mistério para cientistas em meio ao aquecimento global",
+      "description": "Uma área do Atlântico Norte vem chamando a atenção de cientistas por seguir na contramão do aquecimento global. Enquanto a maior parte dos...",
+      "url": "https://revistaforum.com.br/meio-ambiente-e-sustentabilidade/mancha-fria-atlantico/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-06-13T22:51:34+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_3a73d812fdd7",
@@ -222,25 +222,26 @@
     "min": 1,
     "max": 7,
     "average": 4,
-    "knownCount": 7,
-    "unknownCount": 6,
+    "knownCount": 8,
+    "unknownCount": 5,
     "buckets": {
       "left": 3,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 3,
       "centerRight": 1,
       "right": 0,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
     "headlineDivergence": 88,
-    "confidence": 92
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
