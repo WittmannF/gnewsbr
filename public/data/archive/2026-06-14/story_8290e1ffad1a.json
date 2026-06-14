@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owMDRDaUVSR2dwOWQ2NkpQcy1pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owMDRDaUVSR2dwOWQ2NkpQcy1pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Keiko Fujimori e Roberto Sánchez disputam presidência do Peru voto a voto",
   "summary": "Com 98,5% da apuração concluída, candidata conservadora à Presidência do Peru tem 17 mil votos a mais que o esquerdista; confira os números.",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "peru",
     "keiko",
+    "sánchez",
     "votos",
     "fujimori",
-    "sánchez",
     "eleições"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2021/04/peru-keiko-fujimori.jpg",
-  "publishedAt": "2026-06-12T14:01:00+00:00",
-  "updatedAt": "2026-06-14T07:56:18.759787+00:00",
+  "publishedAt": "2026-06-09T15:17:00+00:00",
+  "updatedAt": "2026-06-14T09:18:22.053545+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -86,7 +92,7 @@
       "sourceCanonical": "O POVO+",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-06-14T04:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,7 +120,7 @@
       "sourceCanonical": "Brazil Journal",
       "sourceDomain": "braziljournal.com",
       "publishedAt": "2026-06-14T02:47:34+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -190,20 +196,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_743f6903c3d1",
-      "title": "Apuração de votos no Peru já é mais longa do que mandato recente de presidente do país",
-      "description": "Manuel Merino foi presidente do país por cinco dias, devido a protestos violentos por todo o Peru.",
-      "url": "https://noticias.r7.com/internacional/apuracao-de-votos-no-peru-ja-e-mais-longa-do-que-mandato-recente-de-presidente-do-pais-12062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-12T19:05:27+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_b43c6c19c158",
       "title": "Com 98,5% das urnas apuradas, Keiko mantém vantagem no Peru",
       "description": "Diferença é de cerca de 16 mil votos; candidata da direita à Presidência do país está à frente de Sánchez. Leia no Poder360.",
@@ -218,18 +210,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_b2a184587002",
-      "title": "Keiko Fujimori já abre 4.519 votos de vantagem no Peru",
-      "description": "Candidata a presidente do Peru, Keiko Fujimori (Força Popular) ampliou um pouco a vantagem sobre seu adversário, Roberto Sanchez (Juntos...",
-      "url": "https://diariodopoder.com.br/exteriores/keiko-fujimori-ja-abre-3-696-votos-de-vantagem-no-peru",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-06-13T00:12:57+00:00",
+      "id": "article_743f6903c3d1",
+      "title": "Apuração de votos no Peru já é mais longa do que mandato recente de presidente do país",
+      "description": "Manuel Merino foi presidente do país por cinco dias, devido a protestos violentos por todo o Peru.",
+      "url": "https://noticias.r7.com/internacional/apuracao-de-votos-no-peru-ja-e-mais-longa-do-que-mandato-recente-de-presidente-do-pais-12062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-12T19:05:27+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_1a58c1636002",
@@ -296,10 +288,24 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-06-13T08:15:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_358d479665a0",
+      "title": "Representantes do TSE acompanham 2º turno das eleições presidenciais do Peru",
+      "description": "Ministro substituto Nauê Bernardo Pinheiro de Azevedo integra missão internacional da Uniore que observa o processo eleitoral peruano em...",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Junho/representantes-do-tse-acompanham-2o-turno-das-eleicoes-presidenciais-do-peru",
+      "source": "Tribunal Superior Eleitoral",
+      "sourceCanonical": "Tribunal Superior Eleitoral",
+      "sourceDomain": "tse.jus.br",
+      "publishedAt": "2026-06-09T15:17:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_904e92d505f6",
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.75,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.53,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 3,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 4,
-      "right": 3,
-      "unknown": 4
+      "right": 2,
+      "unknown": 5
     }
   },
   "scores": {
