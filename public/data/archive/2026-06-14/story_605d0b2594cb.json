@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1MnBHdUVSRUdHNnJCMlJKUXVpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1MnBHdUVSRUdHNnJCMlJKUXVpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 12
+      "topic-3": 14,
+      "topic-5": 29
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 14,
+    "bestSeedRank": 14,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "zambelli",
     "italiana",
-    "moraes",
     "justiça",
-    "carla",
-    "itália"
+    "moraes",
+    "stf",
+    "carla"
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/04/23/675x450/1_55212289154-0fa702bab4-o-66413523.jpg",
   "publishedAt": "2026-06-12T10:00:59+00:00",
-  "updatedAt": "2026-06-14T16:44:29.719831+00:00",
+  "updatedAt": "2026-06-14T17:43:16.773960+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +103,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-06-13T17:12:07+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s.glbimg.com/jo/g1/static/live/imagens/img_facebook.png?g1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -142,7 +145,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-06-13T17:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -274,20 +277,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_34b1875e86d2",
-      "title": "Itália nega extradição de Zambelli e critica atuação de Alexandre de Moraes no caso",
-      "description": "A Justiça da Itália divulgou, nesta sexta-feira (10), os fundamentos da decisão que negou a extradição da ex-deputada Carla Zambelli em 22...",
-      "url": "https://www.brasildefato.com.br/2026/06/12/italia-nega-extradicao-de-zambelli-e-critica-atuacao-de-alexandre-de-moraes-no-caso/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-06-12T13:51:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_fbf7c72f3ff0",
       "title": "🗞️ Esta é a #capadodia deste sábado, 13. Acesse e assine o jornal em estadao.com.br",
       "description": "",
@@ -314,17 +303,31 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c65c61bef3b4",
+      "title": "STF reage à Itália e vê risco para cooperação jurídica no caso Zambelli",
+      "description": "O Supremo Tribunal Federal (STF) manifestou preocupação com a decisão da Justiça italiana de negar a extradição da ex-deputada federal Carla Zambelli, con.",
+      "url": "https://www.folhape.com.br/politica/stf-reage-a-italia-e-ve-risco-para-cooperacao-juridica-no-caso/493756/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-06-13T09:03:04+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.57,
+    "average": 5.71,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
-      "left": 2,
-      "centerLeft": 3,
+      "left": 1,
+      "centerLeft": 4,
       "center": 3,
       "centerRight": 4,
       "right": 2,
