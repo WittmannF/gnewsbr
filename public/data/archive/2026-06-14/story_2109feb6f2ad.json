@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laeUpxb0VSRWd1T2kxUHVKaFJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laeUpxb0VSRWd1T2kxUHVKaFJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2,
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 3,
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Romeu Zema critica Flávio Bolsonaro por relação com Daniel Vorcaro",
   "summary": "BRASÍLIA — O ex-deputado Eduardo Bolsonaro sugeriu um rompimento total com o Partido Novo em função das críticas do ex-governador de Minas...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/HECU6EALTVG4LJJAQQ3PGBBSR4.png?quality=80&auth=b56ad5a1aa7fad9b3daeba67c3cad7a6472bcf562e10a10533dc1565a3ee04bf&width=1200&height=630&smart=true",
   "publishedAt": "2026-06-05T20:13:07+00:00",
-  "updatedAt": "2026-06-14T03:25:28.177987+00:00",
+  "updatedAt": "2026-06-14T05:46:59.593470+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -95,20 +101,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_2d673af46a00",
-      "title": "Eduardo Bolsonaro sugere rompimento total com o Novo após fala de Zema",
-      "description": "Ex-deputado afirmou que as críticas do ex-governador de Minas Gerais sobre a relação de Flávio com Daniel Vorcaro ocorreram porque ele...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/eduardo-bolsonaro-sugere-rompimento-total-com-o-novo-apos-fala-de-zema/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-13T15:45:56+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/lula-acordo-mariana_mcamgo_abr_25102024-6-e1779312149965.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_3b30c95e242a",
       "title": "Zema volta a criticar Flávio, mas promete apoio contra Lula no 2º turno",
       "description": "Apesar das críticas, Zema defendeu a união da direita e disse que estará ao lado de Flávio em eventual segundo turno contra o PT.",
@@ -118,9 +110,37 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-06-13T02:12:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/06/12231026/zema.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_2d673af46a00",
+      "title": "Eduardo Bolsonaro sugere rompimento total com o Novo após fala de Zema",
+      "description": "Ex-deputado afirmou que as críticas do ex-governador de Minas Gerais sobre a relação de Flávio com Daniel Vorcaro ocorreram porque ele...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/eduardo-bolsonaro-sugere-rompimento-total-com-o-novo-apos-fala-de-zema/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-06-13T15:45:56+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_12b78f6a0aea",
+      "title": "Eduardo sugere rompimento com Novo após crítica de Zema",
+      "description": "Declaração foi depois do ex-governador criticar o senador Flávio Bolsonaro (PL-RJ) por proximidade com Daniel Vorcaro. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes/eduardo-sugere-rompimento-com-novo-apos-critica-de-zema/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-06-13T21:44:17+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_cbe7e4d90c9e",
@@ -137,20 +157,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_12b78f6a0aea",
-      "title": "Eduardo sugere rompimento com Novo após crítica de Zema",
-      "description": "Declaração foi depois do ex-governador criticar o senador Flávio Bolsonaro (PL-RJ) por proximidade com Daniel Vorcaro. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes/eduardo-sugere-rompimento-com-novo-apos-critica-de-zema/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-06-13T21:44:17+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_157cf7a92256",
       "title": "Zema diz que caso Master é ‘caixa de Pandora’ e volta a criticar Flávio Bolsonaro",
       "description": "O pré-candidato à Presidência da República Romeu Zema (Novo) disse que o caso do Banco Master, do ex-banqueiro Daniel Vorcaro,...",
@@ -163,20 +169,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_012a5c953850",
-      "title": "Eduardo diz que Zema tem 'postura vagabunda' e pede rompimento com o Novo",
-      "description": "Ex-governador voltou a ciíticar as relações entre o senador e o banqueiro e disse que 'quem anda com bandido merece ser visto com cautela'",
-      "url": "https://www.em.com.br/politica/2026/06/7440425-eduardo-diz-que-zema-tem-postura-vagabunda-e-pede-rompimento-com-o-novo.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-06-13T18:15:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_8fc5c54c0b34",
@@ -201,24 +193,24 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-06-10T03:33:51+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
     },
     {
-      "id": "article_fd155a477eab",
-      "title": "Eduardo Bolsonaro sugere rompimento com Novo após fala de Zema sobre Flávio",
-      "description": "O ex-deputado federal Eduardo Bolsonaro (PL-SP) sugeriu um rompimento “geral” com o partido Novo após novas críticas do ex-governador de...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/06/7440430-eduardo-bolsonaro-sugere-rompimento-com-novo-apos-fala-de-zema-sobre-flavio.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-06-13T19:10:41+00:00",
+      "id": "article_012a5c953850",
+      "title": "Eduardo diz que Zema tem 'postura vagabunda' e pede rompimento com o Novo",
+      "description": "Ex-governador voltou a ciíticar as relações entre o senador e o banqueiro e disse que 'quem anda com bandido merece ser visto com cautela'",
+      "url": "https://www.em.com.br/politica/2026/06/7440425-eduardo-diz-que-zema-tem-postura-vagabunda-e-pede-rompimento-com-o-novo.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-06-13T18:15:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2eda0c5e5be3",
@@ -233,6 +225,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_fd155a477eab",
+      "title": "Eduardo Bolsonaro sugere rompimento com Novo após fala de Zema sobre Flávio",
+      "description": "O ex-deputado federal Eduardo Bolsonaro (PL-SP) sugeriu um rompimento “geral” com o partido Novo após novas críticas do ex-governador de...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/06/7440430-eduardo-bolsonaro-sugere-rompimento-com-novo-apos-fala-de-zema-sobre-flavio.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-06-13T19:10:41+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_37b81f89f57e",
