@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKbzgtdUVSSFB2Yk52R0JVZ2FTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKbzgtdUVSSFB2Yk52R0JVZ2FTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5",
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5",
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 7,
-      "topic-7": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Acordo entre Irã e EUA",
   "summary": "Dos US$ 300 bilhões previstos em recursos privados para investimentos no Irã, mais da metade já está comprometida. Leia no Poder360.",
@@ -29,13 +32,13 @@
     "acordo",
     "eua",
     "trump",
-    "guerra",
-    "fundo"
+    "estados",
+    "unidos"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/donald-trump-eua-1024x760-1-848x477-1-848x477.jpg",
   "publishedAt": "2026-06-15T10:00:23+00:00",
-  "updatedAt": "2026-06-17T10:53:18.990637+00:00",
-  "sourceCount": 17,
+  "updatedAt": "2026-06-17T12:33:26.681430+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -67,18 +70,32 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_9630c47939ea",
-      "title": "Leão XIV: triste pela Ucrânia e satisfeito com o acordo entre EUA e Irã",
-      "description": "Ao final da Audiência Geral desta quarta-feira (17/06), Leão XIV expressa satisfação pela conclusão do acordo que será assinado em 19 de...",
-      "url": "https://www.vaticannews.va/pt/papa/news/2026-06/papa-leao-xiv-apelo-audiencia-geral-acordo-eua-ira-ucrania-2026.html",
-      "source": "Vatican News",
-      "sourceCanonical": "Vatican News",
-      "sourceDomain": "vaticannews.va",
-      "publishedAt": "2026-06-17T09:27:51+00:00",
+      "id": "article_a956885da62e",
+      "title": "Acordo de paz tem compensação financeira ao Irã e garantias de Teerã de que nunca terá arma nuclear, diz TV; VEJA pontos",
+      "description": "O acordo para o fim da guerra no Oriente Médio assinado por Estados Unidos e Irã inclui garantias por parte de Teerã de que nunca terá armas...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/06/17/acordo-de-paz-tem-compensacao-financeira-ao-ira-e-garantias-de-teera-de-que-nunca-tera-arma-nuclear-veja-pontos.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-06-17T10:46:44+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://s2-g1.glbimg.com/HvQwhKHcee8ys_Rs-aKCrze5GKE=/5500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/T/KbQ9pmR8CydBahmF6EzQ/2026-06-16t180449z-731274368-rc2eulap3g9q-rtrmadp-3-iran-crisis-investment-fund.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_d3b40a4d9963",
+      "title": "Por que o acordo entre EUA e Irã é pesadelo político para o premiê de Israel",
+      "description": "O acordo de cessar-fogo de Donald Trump com o Irã deixa o primeiro-ministro israelense preso em um novo dilema político e de segurança.",
+      "url": "https://www.bbc.com/portuguese/articles/cjdg37vk229o",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-06-16T16:35:45+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_portuguese/ee5d/live/2f08dc10-6961-11f1-8e1d-bbbb1017d210.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_c280ccfc032b",
@@ -90,23 +107,9 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-06-16T06:02:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_012d83cb1310",
-      "title": "Por que o acordo entre EUA e Irã é pesadelo político para o premiê de Israel",
-      "description": "O acordo de cessar-fogo de Donald Trump com o Irã deixa o primeiro-ministro israelense preso em um novo dilema político e de segurança.",
-      "url": "https://g1.globo.com/mundo/noticia/2026/06/16/por-que-o-acordo-entre-eua-e-ira-e-pesadelo-politico-para-o-premie-de-israel.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-06-16T19:34:12+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/YlwuPxPGUuifAsCu-IrWS4ciAhg=/1280x0/filters:format(jpeg)/https://s04.video.glbimg.com/x720/992055.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_1954177ade71",
@@ -165,56 +168,70 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_3b7dfb9b1680",
-      "title": "Acordo dos EUA e Irã prevê fundo de US$ 300 bilhões investido por empresas",
-      "description": "Fundo privado previsto no acordo-quadro entre EUA e Irã tem mais de metade do valor já prometido por empresas e só será criado após o acordo...",
-      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/06/17/fundo-privado-de-us-300-bi-para-o-ira-ja-tem-mais-da-metade-comprometida.ghtm",
+      "id": "article_4c2103220455",
+      "title": "Trump afirma que memorando de entendimento com Irã não é definitivo",
+      "description": "EVIAN-LES-BAINS, França, 17 Jun (Reuters) - O presidente ​dos EUA, ​Donald Trump, disse nesta quarta-feira que o memorando de ​entendimento...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/06/17/trump-afirma-que-memorando-de-entendimento-com-ira-nao-e-definitivo.htm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-06-17T09:46:35+00:00",
+      "publishedAt": "2026-06-17T11:09:50+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_af4c50fba2f2",
-      "title": "Líderes do G7 celebran avanços no Irã e Ucrânia antes de debate sobre IA",
-      "description": "Os líderes do G7 celebraram nesta quarta-feira (17) o acordo entre Estados Unidos e Irã para acabar com a guerra como uma \"oportunidade...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/06/17/lideres-do-g7-celebran-avancos-no-ira-e-ucrania-antes-de-debate-sobre-ia.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-06-17T10:09:09+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_75cb8d8e3b56",
-      "title": "A derrota de Trump no Irã tem a mesma cara de Obama: para que serviu a guerra?",
+      "id": "article_cc4561357784",
+      "title": "O Papa Leão XIV se pronuncia sobre as ordenações da Fraternidade São Pio X e o acordo EUA-Irã",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
-      "url": "https://www.ihu.unisinos.br/categorias/667217-a-derrota-de-trump-no-ira-tem-a-mesma-cara-de-obama-para-que-serviu-a-guerra",
+      "url": "https://www.ihu.unisinos.br/667303-o-papa-leao-xiv-se-pronuncia-sobre-as-ordenacoes-da-fraternidade-sao-pio-x-e-o-acordo-eua-ira",
       "source": "Instituto Humanitas Unisinos - IHU",
       "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
       "sourceDomain": "ihu.unisinos.br",
-      "publishedAt": "2026-06-16T11:10:29+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-06-17T11:05:08+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_9be0f2ac78c2",
-      "title": "Governistas e oposicionistas criticam acordo com Irã nos EUA e em Israel",
-      "description": "Trump aceitou liberar US$ 24 bilhões em troca apenas da reabertura do Estreito de Ormuz, deixando todo o resto para negociar depois.",
-      "url": "https://www.cnnbrasil.com.br/blogs/lourival-santanna/internacional/governistas-e-oposicionistas-criticam-acordo-com-ira-nos-eua-e-em-israel/",
+      "id": "article_3d844fced40d",
+      "title": "Memorando entre Estados Unidos e Irã reacende expectativa de paz e acordo sobre programa nuclear",
+      "description": "Estados Unidos e Irã assinam, na Suíça na próxima sexta-feira (19), um documento que foi chamado de \"acordo de paz\", mas que neste momento é...",
+      "url": "https://www12.senado.leg.br/radio/1/conexao-senado/2026/06/17/memorando-entre-estados-unidos-e-ira-reacende-expectativa-de-paz-e-acordo-sobre-programa-nuclear",
+      "source": "Senado Federal",
+      "sourceCanonical": "Senado Federal",
+      "sourceDomain": "www12.senado.leg.br",
+      "publishedAt": "2026-06-17T11:45:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_2886ce9a95f8",
+      "title": "Texto do acordo EUA-Irã é revelado pela imprensa internacional; veja os 14 pontos",
+      "description": "Órgãos de imprensa dos Estados Unidos, como a emissora CNN e a agência Bloomberg, e de outros países, como o jornal britânico The...",
+      "url": "https://www.gazetadopovo.com.br/mundo/texto-acordo-eua-ira-revelado-imprensa-internacional-14-pontos/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-06-17T11:38:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_b744c4b7c282",
+      "title": "Professor: Guerra no Irã foi danosa para a popularidade interna de Trump",
+      "description": "Ao WW, Carlos Gustavo Poggio avalia que Trump busca acordo para \"estancar\" danos políticos antes das eleições de meio de mandato. Da CNN...",
+      "url": "https://www.cnnbrasil.com.br/internacional/professor-guerra-no-ira-foi-danosa-para-a-popularidade-interna-de-trump/",
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-16T09:00:13+00:00",
+      "publishedAt": "2026-06-16T02:52:45+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -235,46 +252,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c6102104fc0c",
-      "title": "Do que desconfiar no acordo entre Estados Unidos e Irã",
-      "description": "Países chegam a trato com previsão de cessar-fogo de 60 dias e reabertura do Estreito de Ormuz. Negociações enfrentam desafios para se...",
-      "url": "https://www.nexojornal.com.br/expresso/2026/06/15/acordo-de-paz-assinado-eua-e-ira-donald-trump",
-      "source": "Nexo Jornal",
-      "sourceCanonical": "Nexo Jornal",
-      "sourceDomain": "nexojornal.com.br",
-      "publishedAt": "2026-06-15T20:47:22+00:00",
-      "postedLabel": "ontem",
+      "id": "article_169969df5ce8",
+      "title": "Líderes do G7 celebram avanços no Irã e Ucrânia antes de debate sobre IA",
+      "description": "Os líderes do G7 celebraram nesta quarta-feira (17) o acordo entre Estados Unidos e Irã para acabar com a guerra como uma \"oportunidade...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/lideres-do-g7-celebram-avancos-no-ira-e-ucrania-antes-de-debate-sobre-ia-1.1722900",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-06-17T10:53:35+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_797e8b0d1187",
-      "title": "Análise: acordo com o Irã põe fim à guerra que revelou limites do domínio americano",
-      "description": "O acordo para pôr fim aos combates e reabrir o estreito de Ormuz deixa os diversos lados nos pontos onde estavam 24 horas antes da guerra.",
-      "url": "https://www.bbc.com/portuguese/articles/cly72xl7vzgo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-06-15T19:29:53+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f86cf4a0a643",
-      "title": "Trump diz que memorando de entendimento aponta claramente que Irã não terá arma nuclear",
-      "description": "EVIAN-LES-BAINS, França, 16 Jun (Reuters) - O presidente dos EUA, Donald Trump, disse nesta terça-feira a jornalistas durante as reuniões do...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/422918-trump-diz-que-memorando-de-entendimento-aponta-claramente-que-ira-nao-tera-arma-nuclear.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-06-16T14:49:17+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3f0b4a0b69d6",
@@ -291,6 +280,34 @@
       "bucket": "left"
     },
     {
+      "id": "article_c6102104fc0c",
+      "title": "Do que desconfiar no acordo entre Estados Unidos e Irã",
+      "description": "Países chegam a trato com previsão de cessar-fogo de 60 dias e reabertura do Estreito de Ormuz. Negociações enfrentam desafios para se...",
+      "url": "https://www.nexojornal.com.br/expresso/2026/06/15/acordo-de-paz-assinado-eua-e-ira-donald-trump",
+      "source": "Nexo Jornal",
+      "sourceCanonical": "Nexo Jornal",
+      "sourceDomain": "nexojornal.com.br",
+      "publishedAt": "2026-06-15T20:47:22+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_77b45502d7db",
+      "title": "Acordo entre Irã e EUA reabre oportunidades e impõe novos desafios ao agro brasileiro",
+      "description": "O possível acordo de paz entre Irã e Estados Unidos e a perspectiva de reabertura do Estreito de Ormuz já começam a alterar o ambiente de...",
+      "url": "https://www.noticiasagricolas.com.br/artigos/artigos-geral/422902-acordo-entre-ira-e-eua-reabre-oportunidades-e-impoe-novos-desafios-ao-agro-brasileiro.html",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
+      "sourceDomain": "noticiasagricolas.com.br",
+      "publishedAt": "2026-06-16T13:52:59+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_8889b2006ca2",
       "title": "Trump diz que Estreito de Ormuz estará completamente aberto na sexta-feira",
       "description": "O republicano fez essas declarações no início de uma reunião bilateral com seu homólogo francês, Emmanuel Macron.",
@@ -303,41 +320,27 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_1b138f34dd2a",
-      "title": "Líder da comissão de segurança do Irã pede cumprimento de todas cláusulas pelos EUA",
-      "description": "Segundo o representante iraniano, a resiliência do país forçou uma mudança estratégica, levando os EUA a aceitarem os termos de Teerã.",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/06/1252751-lider-da-comissao-de-seguranca-do-ira-pede-cumprimento-de-todas-clausulas-pelos-eua.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-06-16T20:11:47+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.84,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "max": 8,
+    "average": 5,
+    "knownCount": 20,
+    "unknownCount": 0,
     "buckets": {
       "left": 2,
       "centerLeft": 5,
       "center": 8,
-      "centerRight": 4,
+      "centerRight": 5,
       "right": 0,
-      "unknown": 1
+      "unknown": 0
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
