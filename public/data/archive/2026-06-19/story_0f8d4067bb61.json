@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrcVpteEVSSDNkb2xyTGFGd3VDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrcVpteEVSSDNkb2xyTGFGd3VDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 19
+      "topic-5": 24,
+      "topic-7": 3
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenRank": 24,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/ryhCAzBAnUt-8TBRk9of6aGlmgs=/4648x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/R/JMUlOwT1WXLOEqerWNvg/keiko-fujimori-roberto-sanchez-1-.jpg",
   "publishedAt": "2026-06-12T23:10:00+00:00",
-  "updatedAt": "2026-06-19T01:35:59.590809+00:00",
+  "updatedAt": "2026-06-19T03:30:49.938505+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,29 +67,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_9513aeb4ecd8",
-      "title": "Direita alerta que esquerda pode não aceitar derrota no Peru",
-      "description": "O partido de direita Fuerza Popular, da candidata Keiko Fujimori, alertou nesta quinta-feira (18) que os protestos convocados pelo...",
-      "url": "https://www.gazetadopovo.com.br/mundo/direita-alerta-que-esquerda-pode-nao-reconhecer-resultado-das-eleicoes-no-peru/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-06-19T00:38:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/06/14174739/Keiko-Fujimori-Eleicoes-Peru.jpg",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_c90e7b307f39",
       "title": "Candidato da esquerda convoca protesto em ‘respeito ao voto’ no Peru",
-      "description": "O partido de Roberto Sánchez alega ter havido irregularidade na cadeia de custódia das atas de votação nos Estados Unidos e na Argentina.",
+      "description": "O candidato de esquerda à Presidência do Peru, Roberto Sánchez, que está perdendo por uma margem estreita na contagem oficial para a...",
       "url": "https://www.cartacapital.com.br/mundo/candidato-da-esquerda-convoca-protesto-em-respeito-ao-voto-no-peru/",
       "source": "CartaCapital",
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-06-18T21:04:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/04/AFP__20260415__A7U89Q6__v1__MidRes__PeruElectionAftermath.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -100,10 +89,24 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-17T01:40:44+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
+      "postedLabel": "2 dias atrás",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/06/Roberto-Sanchez-Peru-848x477.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_a488d1c1cd27",
+      "title": "Peru continua sem presidente: Fujimori lidera por 39 mil votos",
+      "description": "Com mais de 99% da contagem concluída, Keiko Fujimori está à frente de Roberto Sánchez por pouco mais de 39 mil votos. No entanto, as atas...",
+      "url": "https://pt.euronews.com/2026/06/18/peru-fujimori-aumenta-vantagem-sobre-sanchez-para-mais-de-39-mil-votos",
+      "source": "Euronews",
+      "sourceCanonical": "Euronews",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-06-18T14:46:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e1584491fcec",
@@ -118,6 +121,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_773c7e6b905c",
+      "title": "Quem é Keiko Fujimori? A mulher de direita que pode ser presidente do Peru",
+      "description": "Em uma das eleições mais disputadas da história recente da América Latina, uma mulher voltou a dominar o debate político: Keiko Fujimori.",
+      "url": "https://www.gazetadopovo.com.br/vozes/anne-dias/quem-keiko-fujimori-mulher-direita-pode-ser-presidente-peru/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-06-17T17:44:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_62e2b698d8b1",
@@ -162,20 +179,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_a488d1c1cd27",
-      "title": "Peru continua sem presidente: Fujimori lidera por 39 mil votos",
-      "description": "Com mais de 99% da contagem concluída, Keiko Fujimori está à frente de Roberto Sánchez por pouco mais de 39 mil votos. No entanto, as atas...",
-      "url": "https://pt.euronews.com/2026/06/18/peru-fujimori-aumenta-vantagem-sobre-sanchez-para-mais-de-39-mil-votos",
-      "source": "Euronews",
-      "sourceCanonical": "Euronews",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-06-18T14:46:19+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_79d09f239936",
       "title": "Keiko Fujimori lidera apuração e se aproxima da Presidência do Peru",
       "description": "A candidata de direita manteve vantagem estreita na reta final da apuração e pode se tornar a primeira mulher eleita diretamente presidente...",
@@ -184,24 +187,10 @@
       "sourceCanonical": "Jornal do Brasil",
       "sourceDomain": "jb.com.br",
       "publishedAt": "2026-06-18T20:42:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_c0405f407f71",
-      "title": "Eleições no Peru: Partido de Sánchez pede anulação de votos no exterior",
-      "description": "O partido Juntos pelo Peru, do candidato de esquerda Roberto Sánchez, entrou com uma ação judicial contra as autoridades eleitorais exigindo...",
-      "url": "https://www.cnnbrasil.com.br/internacional/eleicoes-no-peru-partido-de-sanchez-pede-anulacao-de-votos-no-exterior/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-16T16:51:11+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_443219e3b3d7",
@@ -216,6 +205,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c0405f407f71",
+      "title": "Eleições no Peru: Partido de Sánchez pede anulação de votos no exterior",
+      "description": "O partido Juntos pelo Peru, do candidato de esquerda Roberto Sánchez, entrou com uma ação judicial contra as autoridades eleitorais exigindo...",
+      "url": "https://www.cnnbrasil.com.br/internacional/eleicoes-no-peru-partido-de-sanchez-pede-anulacao-de-votos-no-exterior/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-06-16T16:51:11+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_94d842a30905",
@@ -240,7 +243,7 @@
       "sourceCanonical": "Brazil Journal",
       "sourceDomain": "braziljournal.com",
       "publishedAt": "2026-06-14T02:47:34+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
