@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o4aDVTeEVSRU5EUVBManpOLU55Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o4aDVTeEVSRU5EUVBManpOLU55Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 8
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Líbano e Israel",
   "summary": "Conflito ameaça negociações de paz entre EUA e Irã; Exército israelense fez forte ataque após Hezbollah matar militares.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Presidente-dos-EUA-Donald-Trump-na-Casa-Branca.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-17T12:40:00+00:00",
-  "updatedAt": "2026-06-19T20:51:13.503884+00:00",
+  "updatedAt": "2026-06-19T21:36:48.742497+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-06-19T19:08:28+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Presidente-dos-EUA-Donald-Trump-na-Casa-Branca.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +78,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-06-19T14:54:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/Libano-1.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -100,24 +106,10 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-06-18T21:21:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_531525dcf4cc",
-      "title": "Israel e Hezbollah concordam com cessar-fogo, enquanto EUA e Irã cancelam reunião",
-      "description": "Israel e o Hezbollah concordaram com um cessar-fogo nesta sexta-feira (19), informou uma autoridade dos EUA, após novos confrontos mortais...",
-      "url": "https://jovempan.com.br/mundo/israel-e-hezbollah-concordam-com-cessar-fogo-enquanto-eua-e-ira-cancelam-reuniao/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-06-19T14:59:29+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_66fc5cd86c2c",
@@ -148,18 +140,32 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_94f0c940277b",
-      "title": "Israel e Hezbollah anunciam acordo de cessar-fogo",
-      "description": "Negociadores dos Estados Unidos e do Qatar teriam elaborado medida com ajuda do Irã.",
-      "url": "https://noticias.r7.com/record-news/conexao-record-news/video/israel-e-hezbollah-anunciam-acordo-de-cessar-fogo-19062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-19T19:54:14+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_531525dcf4cc",
+      "title": "Israel e Hezbollah concordam com cessar-fogo, enquanto EUA e Irã cancelam reunião",
+      "description": "Negociações são ameaçadas por novos ataques aéreos israelenses no Líbano.",
+      "url": "https://jovempan.com.br/mundo/israel-e-hezbollah-concordam-com-cessar-fogo-enquanto-eua-e-ira-cancelam-reuniao/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-19T14:59:29+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_8d7966241335",
+      "title": "Ofensiva de Israel no Líbano coloca acordo EUA-Irã à prova",
+      "description": "Ataques no Líbano deixaram dezenas de mortos e colocam em xeque acordo entre EUA e Irã. Cessar-fogo é acertado, mas violência começa a...",
+      "url": "https://www.dw.com/pt-br/ofensiva-de-israel-no-l%C3%ADbano-coloca-acordo-eua-ir%C3%A3-%C3%A0-prova/a-77624918",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-06-19T19:22:04+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_28dc7179ce6d",
@@ -174,6 +180,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_94f0c940277b",
+      "title": "Israel e Hezbollah anunciam acordo de cessar-fogo",
+      "description": "Negociadores dos Estados Unidos e do Qatar teriam elaborado medida com ajuda do Irã.",
+      "url": "https://noticias.r7.com/record-news/conexao-record-news/video/israel-e-hezbollah-anunciam-acordo-de-cessar-fogo-19062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-19T19:54:14+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_0a8dd31e79ae",
@@ -232,15 +252,29 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c9ba164843fc",
-      "title": "Acordo Irã-EUA sob ameaça com aumento da violência no Líbano",
-      "description": "Guerra, desencadeada pelos ataques dos Estados Unidos e de Israel contra a República Islâmica em 28 de fevereiro, provocou milhares de...",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/06/7444406-acordo-ira-eua-sob-ameaca-com-aumento-da-violencia-no-libano.html",
+      "id": "article_d6e34c22e8ec",
+      "title": "Trump pediu que Israel concordasse com cessar-fogo com o Hezbollah, diz jornal",
+      "description": "19 Jun (Reuters) – ⁠O ⁠presidente dos Estados ‌Unidos, Donald Trump, disse à ‌NBC News em entrevista por telefone que conversou ⁠com ‌Israel...",
+      "url": "https://www.infomoney.com.br/mundo/trump-pediu-que-israel-concordasse-com-cessar-fogo-com-o-hezbollah-diz-jornal/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-06-19T20:58:20+00:00",
+      "postedLabel": "38 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_9cece5aa5cd6",
+      "title": "Exército israelense afirma que continuará operando no sul do Líbano",
+      "description": "Após divulgar um mapa da 'zona de segurança', que avança quase 10 km dentro do território libanês, o Exército informou que suas tropas...",
+      "url": "https://www.correiobraziliense.com.br/mundo/2026/06/7443599-exercito-israelense-afirma-que-continuara-operando-no-sul-do-libano.html",
       "source": "Correio Braziliense",
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-06-19T15:02:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "publishedAt": "2026-06-18T15:01:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -260,17 +294,17 @@
       "bucket": "left"
     },
     {
-      "id": "article_a040f133979f",
-      "title": "Hezbollah afirma que Irã condiciona diálogo com EUA a cessar-fogo abrangente",
-      "description": "Mísseis iranianos em exposição no Museu da Força Aeroespacial do Corpo da Guarda Revolucionária Islâmica (IRGC), em Teerã, Irã - 12/11/2025...",
-      "url": "https://www.infomoney.com.br/mundo/hezbollah-afirma-que-ira-condiciona-dialogo-com-eua-a-cessar-fogo-abrangente/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-06-19T12:51:42+00:00",
+      "id": "article_bf5df2fc6fb9",
+      "title": "Israel e Hezbollah acordam cessar-fogo no Líbano, diz funcionário dos EUA",
+      "description": "Israel e o Hezbollah concordaram com um cessar-fogo, declarou nesta sexta-feira, 19, um funcionário do governo dos Estados Unidos,...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/israel-e-hezbollah-acordam-cessar-fogo-no-libano-diz-funcionario-dos-eua-1.1723719",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-06-19T15:24:12+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -286,46 +320,18 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_bf5df2fc6fb9",
-      "title": "Israel e Hezbollah acordam cessar-fogo no Líbano, diz funcionário dos EUA",
-      "description": "Israel e o Hezbollah concordaram com um cessar-fogo, declarou nesta sexta-feira, 19, um funcionário do governo dos Estados Unidos,...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/israel-e-hezbollah-acordam-cessar-fogo-no-libano-diz-funcionario-dos-eua-1.1723719",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-06-19T15:24:12+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_bd33731c15b0",
-      "title": "Trump pediu que Israel concordasse com cessar-fogo com o Hezbollah, diz NBC News",
-      "description": "‌O presidente dos Estados ​Unidos, Donald ​Trump, disse à NBC ⁠News em ‌entrevista por telefone ...",
-      "url": "https://www.terra.com.br/noticias/mundo/trump-pediu-que-israel-concordasse-com-cessar-fogo-com-o-hezbollah-diz-nbc-news,7543f644ae3afab505356d2427d1e60cxf6jt63j.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-06-19T20:00:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.42,
+    "average": 5.37,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
-      "center": 8,
+      "centerLeft": 4,
+      "center": 7,
       "centerRight": 5,
       "right": 1,
       "unknown": 1
