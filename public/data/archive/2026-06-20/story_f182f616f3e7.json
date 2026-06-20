@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKbzgtdUVSRlU1Z19ncGtiX2dpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKbzgtdUVSRlU1Z19ncGtiX2dpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 9,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Trump • Irã",
   "summary": "Jared Kushner, genro do presidente americano, também deve estar no país para participar das conversas técnicas. Kevin Liptak, da CNN...",
@@ -27,11 +36,11 @@
     "trump",
     "paz",
     "eua",
-    "guerra"
+    "negociações"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2025binary_LYNXMPEL7P13P-BASEIMAGE.jpg?w=800&h=557&crop=1",
   "publishedAt": "2026-06-15T10:38:25+00:00",
-  "updatedAt": "2026-06-20T12:58:37.183551+00:00",
+  "updatedAt": "2026-06-20T13:46:48.686919+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -58,7 +67,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-20T11:45:55+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/-6JSMlW2TU_xpmuz-y8e9BzXamY=/1024x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/z/V/ufZqA9Rny29pU0UYGV0g/afp-20250212-2198419639-v3-preview-presidenttrumpmeetswithteachermarcfogelafter.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -164,13 +173,13 @@
     {
       "id": "article_9108db780caf",
       "title": "Acordo de Trump com Irã, assinado na França, já enfrenta críticas, diz CNN",
-      "description": "Trump assinou em Versalhes um memorando com o Irã para avançar negociações sobre o programa nuclear. Acordo de 14 pontos já enfrenta...",
+      "description": "Donald Trump assinou em Versalhes um memorando de entendimento com o Irã para abrir caminho a novas negociações sobre o programa nuclear...",
       "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/06/20/trump-assina-acordo-com-ira-em-versalhes-e-memorando-ja-enfrenta-criticas.ghtm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-20T12:26:16+00:00",
-      "postedLabel": "32 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -204,20 +213,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_263fd188f27c",
-      "title": "Irã promete cobrança firme das condições impostas aos EUA em acordo",
-      "description": "O principal negociador do Irã, Mohammad Bagher Ghalibaf, afirmou que as conversações diretas com os Estados Unidos não significam 'aceitar...",
-      "url": "https://www.cartacapital.com.br/mundo/ira-promete-cobranca-firme-das-condicoes-impostas-aos-eua-em-acordo/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-06-19T10:44:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_643dc162ca0b",
       "title": "Trump ataca críticos de acordo de paz e responde líder supremo do Irã",
       "description": "Opositores dizem que memorando seria mais generoso que pacto nuclear de 2015, que presidente retirou os EUA unilateralmente.",
@@ -230,6 +225,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_263fd188f27c",
+      "title": "Irã promete cobrança firme das condições impostas aos EUA em acordo",
+      "description": "O principal negociador do Irã, Mohammad Bagher Ghalibaf, afirmou que as conversações diretas com os Estados Unidos não significam 'aceitar...",
+      "url": "https://www.cartacapital.com.br/mundo/ira-promete-cobranca-firme-das-condicoes-impostas-aos-eua-em-acordo/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-06-19T10:44:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_63b66a3a70a1",
@@ -274,6 +283,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_0483504d26f2",
+      "title": "Linha-dura do Irã ameaça estragar comemoração da vitória do regime",
+      "description": "Enquanto os detalhes do acordo entre os Estados Unidos e o Irã começavam a surgir na semana passada, um político iraniano poderoso deu um...",
+      "url": "https://noticias.r7.com/internacional/linha-dura-do-ira-ameaca-estragar-comemoracao-da-vitoria-do-regime-20062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-20T05:00:01+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_2a1163e96e0f",
       "title": "Petróleo Brent caminha para queda semanal de 9% apesar de dúvidas sobre acordo de paz",
       "description": "Portal de notícias e análises de economia, negócios, finanças, tecnologia e investimentos.",
@@ -300,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_977d591d9ae2",
-      "title": "Fim da guerra no Irã traz alívio, mas prejuízo ficou com os mais pobres, dizem analistas",
-      "description": "Economistas avaliam que ações do governo foram eficientes para diminuir impactos econômicos do conflito. Reportagem. 18 de junho de 2026.",
-      "url": "https://apublica.org/2026/06/fim-da-guerra-no-ira-traz-alivio-mas-prejuizo-ficou-com-os-mais-pobres-dizem-analistas/",
-      "source": "Agência Pública",
-      "sourceCanonical": "Agência Pública",
-      "sourceDomain": "apublica.org",
-      "publishedAt": "2026-06-18T18:07:33+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.06,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.17,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
       "centerLeft": 4,
       "center": 7,
-      "centerRight": 4,
+      "centerRight": 5,
       "right": 0,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
