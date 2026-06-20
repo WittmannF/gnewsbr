@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKdGMyeEVSRUttWWtudHFVdC15Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKdGMyeEVSRUttWWtudHFVdC15Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 7,
-      "topic-5": 7
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Alexandre de Moraes autoriza depoimento de Jair Bolsonaro sobre arma",
   "summary": "Deputado federal Lindbergh Farias sugeriu que o ex-presidente cometeu obstrução de justiça. Clique para saber mais.",
@@ -27,14 +30,14 @@
   "topicKeywords": [
     "bolsonaro",
     "arma",
-    "moraes",
     "apreendida",
+    "moraes",
     "polícia",
-    "domiciliar"
+    "pede"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/04/image-2026-04-29-080449.jpg",
   "publishedAt": "2026-06-17T19:01:16+00:00",
-  "updatedAt": "2026-06-20T01:21:45.629145+00:00",
+  "updatedAt": "2026-06-20T03:21:44.534247+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -61,7 +64,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-20T01:09:00+00:00",
-      "postedLabel": "12 minutos atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -75,7 +78,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-06-19T21:03:54+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/Bfhi2PHaxm8KE5mlqgRMy-gOf1o=/3450x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/A/Y/kQWhnWQJWqcKSTIWywmw/age20250911073.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -131,24 +134,10 @@
       "sourceCanonical": "Consultor Jurídico",
       "sourceDomain": "conjur.com.br",
       "publishedAt": "2026-06-19T22:53:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_9fab56376558",
-      "title": "Moraes autoriza que polícia colha depoimento de Bolsonaro sobre arma apreendida",
-      "description": "Advogados do ex-presidente sustentaram que a equipe de segurança deixou o artefato \"inoperante\", mas que o político não tinha conhecimento...",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/06/moraes-autoriza-que-policia-colha-depoimento-de-bolsonaro-sobre-arma-apreendida-cmqlg0j4v0yg501k9rdt3wlo3.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-06-19T21:33:16+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_a39fd61e1561",
@@ -159,7 +148,21 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-06-19T21:49:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_9fab56376558",
+      "title": "Moraes autoriza que polícia colha depoimento de Bolsonaro sobre arma apreendida",
+      "description": "Advogados do ex-presidente sustentaram que a equipe de segurança deixou o artefato \"inoperante\", mas que o político não tinha conhecimento...",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/06/moraes-autoriza-que-policia-colha-depoimento-de-bolsonaro-sobre-arma-apreendida-cmqlg0j4v0yg501k9rdt3wlo3.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-06-19T21:33:16+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -179,6 +182,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_8e6f2c6b2bdc",
+      "title": "Bolsonaro prestará depoimento à Polícia Civil do DF por caso de arma",
+      "description": "Depoimento foi autorizado pelo ministro Alexandre de Moraes, do STF, e será tomado por videoconferência. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-justica/arma-de-bolsonaro-ex-presidente-prestara-depoimento-para-a-policia-do-df/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-06-19T01:30:55+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_86d7a87085e7",
       "title": "Bolsonaro diz que arma apreendida é legal e que seguranças a deixaram inoperante",
       "description": "Defesa de Bolsonaro disse ao STF que arma de fogo apreendida com militar da equipe de segurança do ex-presidente está devidamente registrada...",
@@ -191,48 +208,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_8e6f2c6b2bdc",
-      "title": "Bolsonaro prestará depoimento à Polícia Civil do DF por caso de arma",
-      "description": "Depoimento foi autorizado pelo ministro Alexandre de Moraes, do STF, e será tomado por videoconferência. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-justica/arma-de-bolsonaro-ex-presidente-prestara-depoimento-para-a-policia-do-df/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-06-19T01:30:55+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_aac53493cacb",
-      "title": "Escolta de Bolsonaro impede que ex-presidente seja intimado",
-      "description": "Escolta de Jair Bolsonaro teria impedido intimação em investigação sobre arma registrada em seu nome e encontrada com agente do GSI.",
-      "url": "https://iclnoticias.com.br/escolta-bolsonaro-barra-intimacao-caso-arma/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-06-19T21:54:59+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_852d740ae629",
-      "title": "Moraes autoriza que Bolsonaro preste depoimento sobre arma apreendida pela Polícia Civil",
-      "description": "Uma pistola que pertence ao ex-presidente foi apreendida no último dia 16; Polícia Civil do DF apura o caso.",
-      "url": "https://www.estadao.com.br/politica/moraes-autoriza-que-bolsonaro-preste-depoimento-sobre-arma-apreendida-pela-policia-civil/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-06-19T21:38:21+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_e063ebedaefd",
@@ -249,14 +224,42 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_5a3f4f706280",
-      "title": "Defesa confirma posse de Bolsonaro e nega irregularidades",
-      "description": "A defesa de Jair Bolsonaro (PL) apresentou um parecer solicitado pelo Supremo Tribunal Federal (STF) sobre uma arma apreendida em Brasília,...",
-      "url": "https://diariodopoder.com.br/brasil-e-regioes/e07-brasil/defesa-confirma-posse-de-bolsonaro-e-nega-irregularidades",
+      "id": "article_aac53493cacb",
+      "title": "Escolta de Bolsonaro impede que ex-presidente seja intimado",
+      "description": "Escolta de Jair Bolsonaro teria impedido intimação em investigação sobre arma registrada em seu nome e encontrada com agente do GSI.",
+      "url": "https://iclnoticias.com.br/escolta-bolsonaro-barra-intimacao-caso-arma/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-06-19T21:54:59+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_852d740ae629",
+      "title": "Moraes autoriza que Bolsonaro preste depoimento sobre arma apreendida pela Polícia Civil",
+      "description": "Uma pistola que pertence ao ex-presidente foi apreendida no último dia 16; Polícia Civil do DF apura o caso.",
+      "url": "https://www.estadao.com.br/politica/moraes-autoriza-que-bolsonaro-preste-depoimento-sobre-arma-apreendida-pela-policia-civil/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-06-19T21:38:21+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_40daf5452fad",
+      "title": "PCDF pede ao STF para ouvir Bolsonaro sobre arma apreendida",
+      "description": "A Polícia Civil do Distrito Federal solicitou ao ministro Alexandre de Moraes, do Supremo Tribunal Federal, autorização para ouvir o...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/e12-brasil/pcdf-pede-ao-stf-para-ouvir-bolsonaro-sobre-arma-apreendida",
       "source": "Diário do Poder",
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-06-18T11:39:00+00:00",
+      "publishedAt": "2026-06-18T21:06:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 9,
@@ -291,15 +294,15 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_f6856c42567c",
-      "title": "PCDF solicita aval de Moraes para Bolsonaro depor sobre arma encontrada em blitz",
-      "description": "A PCDF planeja ouvir o ex-presidente por videoconferência, às 15h de 24 de junho.",
-      "url": "https://midiamax.com.br/brasil/2026/pcdf-solicita-aval-moraes-bolsonaro-depor-arma-encontrada-blitz/",
-      "source": "Midiamax",
-      "sourceCanonical": "Midiamax",
-      "sourceDomain": "midiamax.com.br",
-      "publishedAt": "2026-06-18T19:52:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_472eca943b83",
+      "title": "Apreensão de arma com segurança de Bolsonaro compromete prisão em casa",
+      "description": "Aliados do ex-presidente Jair Bolsonaro avaliam que a apreensão de uma arma registrada em seu nome pode comprometer a prisão domiciliar que...",
+      "url": "https://bncamazonas.com.br/rapidinhas/arma-apreendida-ameaca-prisao-domiciliar-de-bolsonaro/",
+      "source": "bncamazonas.com.br",
+      "sourceCanonical": "bncamazonas.com.br",
+      "sourceDomain": "bncamazonas.com.br",
+      "publishedAt": "2026-06-19T18:26:39+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
