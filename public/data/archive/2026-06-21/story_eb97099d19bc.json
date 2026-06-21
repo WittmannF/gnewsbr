@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laeWJHc0VSSDRJN2JDeXZmSEppZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laeWJHc0VSSDRJN2JDeXZmSEppZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 11
+      "topic-3": 10,
+      "topic-5": 13
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 11,
-    "bestSeedRank": 11,
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "frio",
     "temperaturas",
-    "polar",
-    "semana",
+    "previsão",
     "sul",
-    "massa"
+    "polar",
+    "semana"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/Io13FBP6s-Q2ISLidiEwKP9ePAo=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/i/6/SPEU7FSKy3TwkhaFtJzg/arte-55-.png",
   "publishedAt": "2026-06-15T17:14:00+00:00",
-  "updatedAt": "2026-06-21T15:49:00.384198+00:00",
+  "updatedAt": "2026-06-21T16:47:22.173335+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +47,7 @@
       "sourceCanonical": "MetSul Meteorologia",
       "sourceDomain": "metsul.com",
       "publishedAt": "2026-06-21T14:35:44+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -64,20 +67,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_a8da9adf0564",
-      "title": "Massa de ar frio derruba temperaturas no RS nesta semana",
-      "description": "Uma massa de ar frio de origem polar ingressa no Brasil no começo desta semana, derrubando a temperatura em vários estados e propiciando...",
-      "url": "https://sul21.com.br/noticias/geral/2026/06/massa-de-ar-frio-derruba-temperaturas-no-rs-nesta-semana/",
-      "source": "Sul 21",
-      "sourceCanonical": "Sul 21",
-      "sourceDomain": "sul21.com.br",
-      "publishedAt": "2026-06-21T15:15:00+00:00",
-      "postedLabel": "33 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_5ffb1ff49138",
       "title": "Observação Meteorológica SDC/SC 21/06 10:00 – Declínio acentuado das temperaturas a partir da noite de segunda-feira (22) e onda de frio até o sábado (27)",
       "description": "Elaborado em: 21/06/2026 às 10:00 – N° 115/2026. Meteorologistas: Francine Sacco e Augusto Pereira. Uma intensa massa de ar seco e frio,...",
@@ -86,7 +75,7 @@
       "sourceCanonical": "Secretaria de Estado da Proteção e Defesa Civil",
       "sourceDomain": "defesacivil.sc.gov.br",
       "publishedAt": "2026-06-21T12:46:44+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -118,6 +107,34 @@
       "imageUrl": "https://imagens.ebc.com.br/30J61I3vYZMEPNvek0FW9B2rBNY=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/12/frio_sp06.jpg?itok=5pE6JKI7",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_a8da9adf0564",
+      "title": "Massa de ar frio derruba temperaturas no RS nesta semana",
+      "description": "Uma massa de ar frio de origem polar ingressa no Brasil no começo desta semana, derrubando a temperatura em vários estados e propiciando...",
+      "url": "https://sul21.com.br/noticias/geral/2026/06/massa-de-ar-frio-derruba-temperaturas-no-rs-nesta-semana/",
+      "source": "Sul 21",
+      "sourceCanonical": "Sul 21",
+      "sourceDomain": "sul21.com.br",
+      "publishedAt": "2026-06-21T15:15:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_fcba4d5a5083",
+      "title": "Frio de ‘tremer o queixo’: temperaturas podem chegar a -7°C com chance de neve em SC",
+      "description": "Massa de ar polar derruba as temperaturas a partir de segunda-feira (22) e pode provocar geada ampla no estado. 21/06/2026 às 09h19. Foto do perfil do autor...",
+      "url": "https://ndmais.com.br/tempo/previsao-do-tempo-em-sc-preve-neve/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-06-21T12:19:40+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ce3107ecafe7",
@@ -156,7 +173,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-06-19T15:59:37+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -170,6 +187,20 @@
       "sourceCanonical": "abcmais.com",
       "sourceDomain": "abcmais.com",
       "publishedAt": "2026-06-21T00:20:46+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_5441fa816efd",
+      "title": "Cidade brasileira registra -6,7°C e marca a menor temperatura do ano",
+      "description": "Uma cidade brasileira entrou para a lista dos locais mais frios do país em 2026 ao registrar impressionantes -6,7°C, a menor temperatura do...",
+      "url": "https://diarinho.net/em-alta/cidade-brasileira-registra-67c-e-marca-a-menor-temperatura-do-ano/",
+      "source": "DIARINHO",
+      "sourceCanonical": "DIARINHO",
+      "sourceDomain": "diarinho.net",
+      "publishedAt": "2026-06-21T00:05:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -190,20 +221,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5441fa816efd",
-      "title": "Cidade brasileira registra -6,7°C e marca a menor temperatura do ano",
-      "description": "Uma cidade brasileira entrou para a lista dos locais mais frios do país em 2026 ao registrar impressionantes -6,7°C, a menor temperatura do...",
-      "url": "https://diarinho.net/em-alta/cidade-brasileira-registra-67c-e-marca-a-menor-temperatura-do-ano/",
-      "source": "DIARINHO",
-      "sourceCanonical": "DIARINHO",
-      "sourceDomain": "diarinho.net",
-      "publishedAt": "2026-06-21T00:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_39c2fc5dcea2",
       "title": "INMET divulga previsão para semana de 15 a 22 de junho de 2026",
       "description": "De acordo com o modelo numérico do INMET, a previsão de chuva acumulada entre os dias 15 e 22 de junho de 2026 (Figura 1) indica maiores...",
@@ -213,20 +230,6 @@
       "sourceDomain": "portal.inmet.gov.br",
       "publishedAt": "2026-06-15T17:14:00+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_fcba4d5a5083",
-      "title": "Frio de ‘tremer o queixo’: temperaturas podem chegar a -7°C com chance de neve em SC",
-      "description": "Massa de ar polar derruba as temperaturas a partir de segunda-feira (22) e pode provocar geada ampla no estado. 21/06/2026 às 09h19. Foto do perfil do autor...",
-      "url": "https://ndmais.com.br/tempo/previsao-do-tempo-em-sc-preve-neve/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-06-21T12:19:40+00:00",
-      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -260,14 +263,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_125b598d92b7",
-      "title": "Frio persiste no país com risco de geada no Sul e no Sudeste",
+      "id": "article_42119e8c6ddd",
+      "title": "Sul e Sudeste seguem com risco de geada, aponta previsão do Inmet",
       "description": "O frio deve continuar em grande parte do país nos próximos dias, segundo previsão do Instituto Nacional de Meteorologia, o Inmet.",
-      "url": "https://orebate.com.br/canal-viu/frio-persiste-no-pais-com-risco-de-geada-no-sul-e-no-sudeste",
-      "source": "O Rebate",
-      "sourceCanonical": "O Rebate",
-      "sourceDomain": "orebate.com.br",
-      "publishedAt": "2026-06-20T21:46:20+00:00",
+      "url": "https://www.portalviu.com.br/dnews/sul-e-sudeste-seguem-com-risco-de-geada-aponta-previsao-do-inmet",
+      "source": "portalviu.com.br",
+      "sourceCanonical": "portalviu.com.br",
+      "sourceDomain": "portalviu.com.br",
+      "publishedAt": "2026-06-20T22:03:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -288,20 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_47a407f3f680",
-      "title": "Onda de frio derruba temperaturas e amplia risco de geada",
-      "description": "A onda de frio ganhou força nesta terça-feira (16) e derrubou as temperaturas em grande parte do Centro-Sul do Brasil. Com o avanço da massa...",
-      "url": "https://www.gazetadopovo.com.br/brasil/mapa-mostra-regioes-que-podem-registrar-geada-proximos-dias/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-06-16T18:26:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_1fe842c119da",
       "title": "Chuva e queda nas temperaturas marcam a previsão",
       "description": "A previsão do Instituto Nacional de Meteorologia indica a manutenção das instabilidades atmosféricas nos próximos dias em áreas das regiões...",
@@ -314,12 +303,26 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_509dcd436902",
+      "title": "❄️ Previsão do tempo: geada volta ao Sul e frio segue intenso nesta quarta 17/06/2026",
+      "description": "Clima Tempo. ❄️ Previsão do tempo: geada volta ao Sul e frio segue intenso nesta quarta 17/06/2026. Publicado em 16/06/2026 18:55.",
+      "url": "https://www.noticiasagricolas.com.br/videos/clima/422960-previsao-do-tempo-geada-volta-ao-sul-e-frio-segue-intenso-nesta-quarta-17062026.html",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
+      "sourceDomain": "noticiasagricolas.com.br",
+      "publishedAt": "2026-06-16T21:55:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 5,
-    "max": 8,
-    "average": 6.12,
+    "max": 7,
+    "average": 6,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
@@ -333,8 +336,8 @@
   },
   "scores": {
     "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
