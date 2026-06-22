@@ -3,35 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1OG9hMUVSRk14dlFDLVcwakt5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1OG9hMUVSRk14dlFDLVcwakt5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-6"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 24
+      "topic-5": 69,
+      "topic-6": 25
     },
-    "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 69,
+    "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Egito vence Nova Zelândia por 3 a 1 na Copa do Mundo",
   "summary": "Ídolo egípcio, Salah também marcou na primeira vitória do país em Copas do Mundo.",
-  "topic": "Egito · Copa",
+  "topic": "Egito · Salah",
   "topicKeywords": [
     "egito",
-    "copa",
     "salah",
+    "copa",
     "zelândia",
     "vitória",
     "mundo"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/zico-salah-egito-nova-zelandia-e1782097060545.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-21T18:33:00+00:00",
-  "updatedAt": "2026-06-22T22:54:26.858973+00:00",
+  "updatedAt": "2026-06-22T23:49:20.703621+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -212,7 +215,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-06-22T20:31:15+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -244,6 +247,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_158bfd3d23c4",
+      "title": "Vídeo: Salah dança no vestiário após vitória histórica do Egito e recorde em Copas",
+      "description": "Mohamed Salah foi o grande destaque da vitória do Egito sobre a Nova Zelândia, neste domingo. O jogador comandou o resultado inédito para a...",
+      "url": "https://diariodonordeste.verdesmares.com.br/jogada/video-salah-danca-no-vestiario-apos-vitoria-historica-do-egito-e-recorde-em-copas-1.3772360",
+      "source": "Diário do Nordeste",
+      "sourceCanonical": "Diário do Nordeste",
+      "sourceDomain": "diariodonordeste.verdesmares.com.br",
+      "publishedAt": "2026-06-22T23:23:00+00:00",
+      "postedLabel": "26 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_71b81d58671f",
@@ -300,41 +317,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_3c87b55197c3",
-      "title": "O impacto da vitória histórica... A seleção egípcia sobe no ranking da FIFA",
-      "description": "A seleção egípcia conquistou mais uma vitória após sua vitória histórica sobre a Nova Zelândia por 3 a 1 na segunda rodada da fase de grupos...",
-      "url": "https://www.goal.com/br/not%C3%ADcias/o-impacto-da-vitoria-historica-a-selecao-egipcia-sobe-no-ranking-da-fifa/bltd53ae93c2b0545f2",
-      "source": "Goal.com",
-      "sourceCanonical": "Goal.com",
-      "sourceDomain": "goal.com",
-      "publishedAt": "2026-06-22T13:34:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 7,
-    "average": 5.58,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.46,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 9,
       "centerRight": 3,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
