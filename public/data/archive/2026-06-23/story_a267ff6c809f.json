@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzc29DM0VSRmE2WkRBcXVWMGRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzc29DM0VSRmE2WkRBcXVWMGRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5",
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5",
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 24,
-      "topic-7": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 24,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "China restringe exportações para dez empresas dos EUA",
   "summary": "Medida visa \"salvaguardar a segurança e os interesses nacionais\" e é uma \"resposta à prática\" dos Estados Unidos de qualificar companhias...",
@@ -28,13 +31,13 @@
     "china",
     "empresas",
     "eua",
+    "lista",
     "americanas",
-    "retaliação",
-    "lista"
+    "retaliação"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/GettyImages-2209907770.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-22T01:26:58+00:00",
-  "updatedAt": "2026-06-23T07:41:02.322388+00:00",
+  "updatedAt": "2026-06-23T09:24:06.830257+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -159,7 +162,7 @@
       "sourceCanonical": "O Cafezinho",
       "sourceDomain": "ocafezinho.com",
       "publishedAt": "2026-06-22T09:14:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -173,7 +176,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-06-23T01:46:42+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -233,6 +236,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_24e98baecab5",
+      "title": "China reage a lista discriminatória dos EUA e impõe restrições a 56 empresas americanas",
+      "description": "China restringe 56 empresas dos EUA com controle de exportações e veto a compras públicas após nova lista americana contra companhias...",
+      "url": "https://www.brasil247.com/globaltimes/china-reage-a-lista-discriminatoria-dos-eua-e-impoe-restricoes-a-56-empresas-americanas",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-06-23T07:57:35+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_86597fef4658",
@@ -303,41 +320,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_06a90dd4d532",
-      "title": "China amplia disputa comercial com os Estados Unidos e impõe restrições a empresas americanas",
-      "description": "MACEIÓ – A tensão econômica entre as duas maiores potências do planeta ganhou um novo capítulo após o governo da China anunciar restrições...",
-      "url": "https://www.alagoasalerta.com.br/noticia/china-amplia-disputa-comercial-com-os-estados-unidos-e-impoe-restricoes-a-empresas-americanas",
-      "source": "Alagoas Alerta",
-      "sourceCanonical": "Alagoas Alerta",
-      "sourceDomain": "alagoasalerta.com.br",
-      "publishedAt": "2026-06-22T11:33:24+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 10,
-    "average": 5.08,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.77,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 1,
       "center": 7,
       "centerRight": 1,
       "right": 1,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
