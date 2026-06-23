@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 15,
-      "topic-5": 16
+      "topic-3": 18,
+      "topic-5": 20
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 15,
-    "bestSeedRank": 15,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,13 +28,13 @@
     "chuva",
     "frente",
     "fria",
-    "alerta",
     "previsão",
-    "ventos"
+    "alerta",
+    "traz"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/KFkRmbF4fyKfUhPzO6MQYoTJk9o=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/H/lvgjppSbK64zxVHzzcQg/whatsapp-image-2026-03-24-at-16.08.17.jpeg",
   "publishedAt": "2026-06-22T15:54:11+00:00",
-  "updatedAt": "2026-06-23T17:49:09.113677+00:00",
+  "updatedAt": "2026-06-23T18:57:56.832949+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -159,10 +159,24 @@
       "sourceCanonical": "Notícias Agrícolas",
       "sourceDomain": "noticiasagricolas.com.br",
       "publishedAt": "2026-06-23T12:34:21+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_d2758e49165c",
+      "title": "Previsão do tempo em São Paulo hoje: veja como fica o clima nesta terça-feira",
+      "description": "Temperaturas variam entre 13°C e 21°C, com previsão de chuva no fim da manhã e tarde chuvosa.",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/previsao-do-tempo-em-sao-paulo-hoje-veja-como-fica-o-clima-nesta-terca-feira,23e04f6887d2957bca88653d8fac6fa9q71tkhtq.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-06-23T14:50:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_b4005e4fd92e",
@@ -173,38 +187,10 @@
       "sourceCanonical": "ACidade ON",
       "sourceDomain": "acidadeon.com",
       "publishedAt": "2026-06-22T18:20:14+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_11e8648b0e86",
-      "title": "Previsão do tempo em São Paulo hoje: veja como fica o clima nesta segunda-feira",
-      "description": "Temperaturas variam entre 11°C e 27°C, com previsão de sol com algumas nuvens e tempo seco.",
-      "url": "https://www.terra.com.br/noticias/previsao-do-tempo-em-sao-paulo-hoje-veja-como-fica-o-clima-nesta-segunda-feira,65fe6bbde78e6b8ee7f987ec9b83cff2uv7c99a9.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-06-22T19:08:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_aa9d5dfc5443",
-      "title": "Inmet faz alerta para chuvas intensas nesta terça em todo estado de SP",
-      "description": "Frente fria avança na região, trazendo chuva. Aviso é válido até o final desta terça (23/6) e abrange todo o estado de SP.",
-      "url": "https://www.metropoles.com/sao-paulo/inmet-alerta-chuvas-intensas-sp-2",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-06-23T14:15:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_cd7daa6b65e5",
@@ -219,6 +205,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_aa9d5dfc5443",
+      "title": "Inmet alerta para chuvas intensas em todo o estado de SP nesta terça",
+      "description": "Frente fria avança na região, trazendo chuva. Aviso é válido até o fim desta terça-feira (23/6) e abrange todo o estado de SP.",
+      "url": "https://www.metropoles.com/sao-paulo/inmet-alerta-chuvas-intensas-sp-2",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-06-23T14:15:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_7df8b62cb5e8",
@@ -249,20 +249,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ce03bec68124",
-      "title": "Frente fria avança e leva chuva de até 70 mm ao Brasil nesta semana, alerta INMET",
-      "description": "Novo boletim do Instituto Nacional de Meteorologia indica mudança no tempo, avanço de instabilidades, chuva forte e queda nas temperaturas...",
-      "url": "https://comprerural.com/frente-fria-avanca-e-leva-chuva-de-ate-70-mm-ao-brasil-nesta-semana-alerta-inmet/",
-      "source": "CompreRural",
-      "sourceCanonical": "CompreRural",
-      "sourceDomain": "comprerural.com",
-      "publishedAt": "2026-06-22T21:13:49+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_73a2c1da7f16",
       "title": "São Paulo recebe alerta para primeira frente fria do inverno",
       "description": "Ventos de até 60 km/h e queda na sensação térmica ocorrerão em diferente regiões do estado.",
@@ -277,6 +263,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_ce03bec68124",
+      "title": "Frente fria avança e leva chuva de até 70 mm ao Brasil nesta semana, alerta INMET",
+      "description": "Novo boletim do Instituto Nacional de Meteorologia indica mudança no tempo, avanço de instabilidades, chuva forte e queda nas temperaturas...",
+      "url": "https://comprerural.com/frente-fria-avanca-e-leva-chuva-de-ate-70-mm-ao-brasil-nesta-semana-alerta-inmet/",
+      "source": "CompreRural",
+      "sourceCanonical": "CompreRural",
+      "sourceDomain": "comprerural.com",
+      "publishedAt": "2026-06-22T21:13:49+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_b1da84466c28",
+      "title": "Frente fria traz chuvas atípicas de até 100 mm para 6 estados; confira a previsão",
+      "description": "Uma nova frente fria provoca instabilidades e chuvas atípicas para esta época do ano em parte do Brasil. Os acumulados previstos para os...",
+      "url": "https://www.tempo.com/noticias/previsao/frente-fria-traz-chuvas-atipicas-de-ate-100-mm-para-6-estados-confira-a-previsao.html",
+      "source": "Meteored Brasil",
+      "sourceCanonical": "Meteored Brasil",
+      "sourceDomain": "tempo.com",
+      "publishedAt": "2026-06-23T14:26:27+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_03e867311e5d",
       "title": "Virada no tempo traz chuva e derruba temperaturas em SP; veja quando",
       "description": "O sistema frontal manterá o tempo fechado e chuvoso até quinta-feira na capital paulista, intensificando a sensação de frio com a chegada de...",
@@ -285,7 +299,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-06-23T14:07:18+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -299,21 +313,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-06-22T18:21:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_3d2ecc7db3df",
-      "title": "Folha da Região: Frente fria derruba temperaturas e coloca Araçatuba em alerta",
-      "description": "ALERTA CLIMÁTICO:Defesa Civil recomenda atenção redobrada com idosos, crianças e motoristas diante da previsão de chuva e do avanço do frio...",
-      "url": "https://sampi.net.br/aracatuba/noticias/2987577/aracatuba/2026/06/frente-fria-derruba-temperaturas-e-coloca-aracatuba-em-alerta",
-      "source": "sampi.net.br",
-      "sourceCanonical": "sampi.net.br",
-      "sourceDomain": "sampi.net.br",
-      "publishedAt": "2026-06-23T12:55:45+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.55,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.6,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 9,
+      "center": 8,
       "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
