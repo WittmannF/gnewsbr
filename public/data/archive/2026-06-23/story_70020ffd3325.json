@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 21,
-      "topic-5": 24
+      "topic-3": 24,
+      "topic-5": 30
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/12/Lula2.jpg",
   "publishedAt": "2026-06-20T13:09:00+00:00",
-  "updatedAt": "2026-06-23T22:41:08.408087+00:00",
+  "updatedAt": "2026-06-23T23:35:40.697272+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -131,7 +131,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-06-23T21:22:11+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -144,7 +144,7 @@
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-06-22T10:18:11+00:00",
+      "publishedAt": "2026-06-22T10:18:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -221,6 +221,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_3c61da117fda",
+      "title": "Pesquisa Genial Quaest não mostrou Lula com 65% das intenções de voto",
+      "description": "Circula no X uma imagem que atribui à pesquisa Genial Quaest divulgada em junho um resultado segundo o qual o presidente Lula (PT) teria 65...",
+      "url": "https://www.agencialupa.org/noticias/2026/06/23/pesquisa-genial-quaest-nao-mostrou-lula-com-65-das-intencoes-de-voto/",
+      "source": "Agência Lupa",
+      "sourceCanonical": "Agência Lupa",
+      "sourceDomain": "agencialupa.org",
+      "publishedAt": "2026-06-23T18:31:31+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_6e377c722b3d",
       "title": "Terceira via patina nas pesquisas e expõe fracasso de projeto sem lastro popular",
       "description": "As pesquisas de intenção de voto divulgadas nesta semana escancaram um fenômeno que se repete desde o início do ciclo eleitoral de 2026: a...",
@@ -243,7 +257,7 @@
       "sourceCanonical": "Blog do Esmael",
       "sourceDomain": "esmaelmorais.com.br",
       "publishedAt": "2026-06-23T17:20:22+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -291,20 +305,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_853e0ad6c440",
-      "title": "Na Datafolha, Lula mantém vantagem sobre Flávio Bolsonaro em cenários de 1º e 2º turno",
-      "description": "Tanto no 1º turno quanto no 2º turno hipotéticos, a situação é de estabilidade. Intenções de votos para o petista e para o bolsonarista...",
-      "url": "https://mais.opovo.com.br/jornal/dom/2026/06/21/na-datafolha-lula-mantem-vantagem-sobre-flavio-bolsonaro-em-cenarios-de-1-e-2-turno.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-06-21T04:00:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_246238fb0818",
       "title": "Abilio não crê em reeleição de Lula: \"Maior rejeição da história dele\"",
       "description": "Prefeito bolsonarista diz que segundo turno tem ligação com rejeição e por isso petista não vence pleito. O prefeito de Cuiabá Abilio...",
@@ -322,27 +322,26 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.15,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 4.17,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 5,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 60,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
