@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 21
+      "topic-8": 23
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/02/2025-02-10T105742Z_1_LYNXMPEL190DN_RTROPTP_4_UE-TRUMP-TARIFAS.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-20T13:50:13+00:00",
-  "updatedAt": "2026-06-24T14:07:57.593731+00:00",
+  "updatedAt": "2026-06-24T15:19:53.862780+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-06-24T09:03:50+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/Captura-de-tela-2026-06-23-135931.png?w=570&h=325&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -73,7 +73,7 @@
       "sourceDomain": "gov.br",
       "publishedAt": "2026-06-23T20:21:30+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.gov.br/mme/pt-br/assuntos/noticias/brasil-e-uniao-europeia-ampliam-parceria-em-energia-e-minerais-criticos-em-reuniao-no-mme/reuniao-uniao-europeia/@@images/abcc2555-dcde-4c1f-9426-b789d5ea71b1.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -184,7 +184,7 @@
       "sourceCanonical": "IBRAM - Mineração do Brasil",
       "sourceDomain": "ibram.org.br",
       "publishedAt": "2026-06-24T12:16:10+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -208,14 +208,14 @@
       "title": "Minerais críticos, defesa e tecnologia aproximam Brasil e União Europeia",
       "description": "Brasil e UE defendem cooperação, agregação de valor e integração diante do avanço do isolacionismo em evento da ApexBrasil.",
       "url": "https://www.brasil247.com/economia/minerais-criticos-defesa-e-tecnologia-aproximam-brasil-e-uniao-europeia",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-06-23T21:02:41+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_9e2c4317884e",
@@ -288,6 +288,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_23f8e56556f3",
+      "title": "UE se vê como opção melhor que EUA para acordo de minerais com Brasil",
+      "description": "Compartilhar matériaO comissário para Parcerias Internacionais da União Europeia, Jozef Síkela, defendeu em entrevista à CNN que o Brasil...",
+      "url": "https://contilnetnoticias.com.br/noticias/ue-se-ve-como-opcao-melhor-que-eua-para-acordo-de-minerais-com-brasil/",
+      "source": "ContilNet Notícias",
+      "sourceCanonical": "ContilNet Notícias",
+      "sourceDomain": "contilnetnoticias.com.br",
+      "publishedAt": "2026-06-24T09:32:13+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_e3c952c5abe6",
       "title": "Comissário da União Europeia visita o projeto Colossus",
       "description": "Colossus selecionada para visita oficial ao local durante missão da UE ao Brasil, à medida que avançam as discussões sobre cadeias...",
@@ -300,41 +314,27 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_23f8e56556f3",
-      "title": "UE se vê como opção melhor que EUA para acordo de minerais com Brasil",
-      "description": "Compartilhar matériaO comissário para Parcerias Internacionais da União Europeia, Jozef Síkela, defendeu em entrevista à CNN que o Brasil...",
-      "url": "https://contilnetnoticias.com.br/noticias/ue-se-ve-como-opcao-melhor-que-eua-para-acordo-de-minerais-com-brasil/",
-      "source": "ContilNet Notícias",
-      "sourceCanonical": "ContilNet Notícias",
-      "sourceDomain": "contilnetnoticias.com.br",
-      "publishedAt": "2026-06-24T09:32:13+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 7,
-    "average": 5.33,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 11,
       "centerRight": 1,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
