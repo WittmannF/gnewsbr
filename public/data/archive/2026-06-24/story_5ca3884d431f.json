@@ -3,20 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pqaGVlekVSRUhQeWoxNE8xcVFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pqaGVlekVSRUhQeWoxNE8xcVFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories"
     ],
     "seedRanks": {
-      "topic-3": 1
+      "home": 1,
+      "topstories": 1
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Jaques Wagner e Lula",
   "summary": "Senador foi alvo de operação da PF que investiga relação entre ele e o banqueiro Augusto Lima, ex-sócio de Daniel Vorcaro, do Banco Master.",
@@ -25,13 +28,13 @@
     "wagner",
     "jaques",
     "lula",
+    "liderança",
     "master",
-    "operação",
-    "liderança"
+    "caso"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/hkYV9s-lqC2CxEiNWqkvNSLFTUk=/2506x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/w/kP2klISEWasblHiR4z3A/55268276416-6576e4b70b-o.jpg",
   "publishedAt": "2026-06-19T01:03:09+00:00",
-  "updatedAt": "2026-06-24T21:43:04.285061+00:00",
+  "updatedAt": "2026-06-24T22:39:05.938296+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -86,38 +89,10 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-06-24T16:25:10+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/lula-brasil-africa-mc_abr_25052026-13.jpg?quality=70&strip=info&resize=1080,565&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_c313568fd619",
-      "title": "Amigos, amigos, eleições à parte. Saída de Wagner é dilema de Lula",
-      "description": "Escândalos raramente são julgados pela gravidade objetiva dos fatos. Seu impacto depende da capacidade de atingir simbolicamente o poder.",
-      "url": "https://blogs.correiobraziliense.com.br/azedo/amigos-amigos-eleicoes-a-parte-saida-de-wagner-e-dilema-de-lula/",
-      "source": "blogs.correiobraziliense.com.br",
-      "sourceCanonical": "blogs.correiobraziliense.com.br",
-      "sourceDomain": "blogs.correiobraziliense.com.br",
-      "publishedAt": "2026-06-23T12:30:27+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6b8505793224",
-      "title": "Investigações do Master nivelam o jogo",
-      "description": "Para a campanha do presidente Lula, um certo nivelamento por baixo não é de todo ruim. Sua candidatura já conta com as vantagens da...",
-      "url": "https://valor.globo.com/opiniao/coluna/investigacoes-do-master-nivelam-o-jogo.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-06-23T08:02:15+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_afba69ba3baa",
@@ -129,6 +104,20 @@
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-24T15:36:40+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_64c2defefdf6",
+      "title": "Flávio ataca PT e finge esquecer o próprio tombo no Caso Master",
+      "description": "No programa do Noblat desta semana, Ricardo Noblat ironizou a tentativa de faturamento político do senador Flávio Bolsonaro em cima da...",
+      "url": "https://www.metropoles.com/blog-do-noblat/flavio-ataca-pt-e-finge-esquecer-o-proprio-tombo-no-caso-master",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-06-20T11:00:00+00:00",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -156,7 +145,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-06-24T21:17:42+00:00",
-      "postedLabel": "25 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -176,28 +165,28 @@
       "bucket": "left"
     },
     {
-      "id": "article_e81bde40e5e3",
-      "title": "Lula e Wagner se reúnem por duas horas após operação da PF",
-      "description": "Presidente e líder do governo conversaram por cerca de 2h no Palácio da Alvorada nesta 4ª feira (24.jun). Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-governo/lula-e-wagner-se-reunem-por-duas-horas-apos-operacao-da-pf/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-06-24T20:31:28+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_c7290e57e67d",
+      "title": "Jaques Wagner deixa Alvorada após reunião de 2h com Lula",
+      "description": "O líder do governo no Senado, Jaques Wagner (PT-BA), deixou o Palácio da Alvorada por volta das 16h30 após se reunir com o presidente Luiz...",
+      "url": "https://www.gazetadopovo.com.br/republica/jaques-wagner-deixa-alvorada-apos-reuniao-de-2h-com-lula/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-06-24T20:30:00+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
-      "id": "article_de94bfc7b1f8",
-      "title": "Jaques Wagner deixa liderança do governo no Senado após ser alvo de operação da PF",
-      "description": "‌Alvo da operação Compliance Zero da Polícia Federal, o senador Jaques Wagner (PT-BA) disse nesta quarta-feira ⁠em uma rede social ‌que...",
-      "url": "https://www.terra.com.br/noticias/brasil/jaques-wagner-deixa-lideranca-do-governo-no-senado-apos-ser-alvo-de-operacao-da-pf,d9f7a067469b59e5b8bfa90f8120b8ccktbr22cx.html",
+      "id": "article_61015d323b4f",
+      "title": "Sob pressão, Jaques Wagner entrega cargo de líder do governo e diz que foi 'em comum acordo'",
+      "description": "Alvo da Polícia Federal, senador foi acusado de defender interesses do Banco Master, mas nega irregularidades.",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/sob-pressao-jaques-wagner-entrega-cargo-de-lider-do-governo-e-diz-que-foi-em-comum-acordo,66931391d5d5a84d43161a3884026985143t89ch.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-06-24T20:54:00+00:00",
+      "publishedAt": "2026-06-24T21:03:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -218,6 +207,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_45678a3aadb7",
+      "title": "Luiz Marinho optaria por substituir Wagner, mas diz que Lula decidirá",
+      "description": "Às vezes, é melhor a pessoa deixar a posição que ocupa para poder se defender\", afirmou o ministro do Trabalho e Emprego. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-congresso/luiz-marinho-optaria-por-substituir-wagner-mas-diz-que-lula-decidira/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-06-24T17:35:37+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_037bafbea58a",
       "title": "Ação da PF contra Wagner arranha estratégia do Planalto",
       "description": "Especialistas afirmam que operação da PF que atingiu líder do governo Lula enfraqueceu estratégia eleitoral do Planalto contra Flávio...",
@@ -232,32 +235,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_78066ee02560",
-      "title": "Jaques Wagner teria tratado da \"Emenda Master\" com aliado de Vorcaro",
-      "description": "Mensagens do senador com Augusto Lima apontam encontro para tratar de interesses do banco no Senado. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/republica/jaques-wagner-tratado-emenda-master-aliado-de-vorcaro/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-06-24T13:55:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_eb88ab40f1d8",
+      "title": "Jaques Wagner anuncia saída da liderança do governo no Senado",
+      "description": "Senador informou, em nota, que decisão foi tomada em \"comum acordo\" com presidente Lula.",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/jaques-wagner-anuncia-saida-da-lideranca-do-governo-no-senado",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-06-24T21:49:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_98f04ba93b13",
-      "title": "Lula e o PT querem que verdade sobre Banco Master venha à tona, reafirma Edinho",
-      "description": "Em entrevista, presidente do PT diz que últimos fatos provam autonomia da Polícia Federal. Sobre economia, destaca compromisso com...",
-      "url": "https://pt.org.br/lula-e-o-pt-querem-que-verdade-sobre-banco-master-venha-a-tona-reafirma-edinho/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-06-23T02:52:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_4c8902c173f3",
@@ -282,10 +271,38 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-06-24T20:37:50+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_fb939fee5aa9",
+      "title": "Jaques Wagner deixa liderança do governo no Senado após reunião com Lula",
+      "description": "O senador Jaques Wagner (PT-BA) deixou a liderança do governo após se reunir com o presidente Luiz Inácio Lula da Silva (PT) às 16h40 desta...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/jaques-wagner-deixa-lideranca-do-governo-no-senado-apos-reuniao-com-lula-1.1725174",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-06-24T21:03:17+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_c1a901a70b16",
+      "title": "Lula e Jaques Wagner se reúnem para decidir sobre liderança no Senado após operação da PF",
+      "description": "O presidente Luiz Inácio Lula da Silva recebeu o senador Jaques Wagner (PT-BA) nesta quarta-feira (24) no Palácio da Alvorada, em Brasília,...",
+      "url": "https://noticias.r7.com/brasilia/lula-e-jaques-wagner-se-reunem-para-decidir-sobre-lideranca-no-senado-apos-operacao-da-pf-24062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-24T19:56:57+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_eba3fdbb36e9",
@@ -300,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_8eed4a4f7cac",
-      "title": "Quem decide sobre Jaques Wagner é o Lula, mas eu optaria por substituí-lo, diz Luiz Marinho",
-      "description": "Líder do governo no Senado é alvo de apurações da PF por suspeitas envolvendo sua relação com o ex-banqueiro Daniel Vorcaro.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/quem-decide-sobre-jaques-wagner-e-o-lula-mas-eu-optaria-por-substitui-lo-diz-luiz-marinho-1.1725060",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-06-24T16:42:36+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
     "average": 5.47,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "knownCount": 19,
+    "unknownCount": 1,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 11,
-      "centerRight": 3,
+      "center": 12,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 1
     }
   },
   "scores": {
