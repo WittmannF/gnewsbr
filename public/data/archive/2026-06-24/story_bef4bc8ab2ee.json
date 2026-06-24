@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 40
+      "topic-6": 35
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/Dcj2tnNm27V0BIZzn-f6_ya7ysc=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/4/cLNDfCQ2mp5sXA671O5w/globo-canal-4-20260603-1947-frame-157474.jpeg",
   "publishedAt": "2026-06-18T16:58:05+00:00",
-  "updatedAt": "2026-06-24T13:15:28.759838+00:00",
+  "updatedAt": "2026-06-24T14:04:30.822315+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -194,14 +194,14 @@
       "title": "Parreira segue na UTI com insuficiência respiratória e leve melhora",
       "description": "Ex-técnico da seleção brasileira está internado no Rio com inflamação pulmonar e ainda respira com auxílio de aparelhos.",
       "url": "https://www.brasil247.com/247-na-copa/parreira-segue-na-uti-com-insuficiencia-respiratoria-e-leve-melhora",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-06-22T23:24:14+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d926d7b95689",
@@ -317,29 +317,30 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 10,
-    "average": 5.4,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.71,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 9,
       "centerRight": 2,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

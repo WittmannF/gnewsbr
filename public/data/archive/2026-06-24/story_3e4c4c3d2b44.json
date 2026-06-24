@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 34
+      "topic-7": 32
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 34,
-    "bestSeedRank": 34,
+    "firstSeenRank": 32,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/TPV55NJ66JFBJGDBLNS5BFT2SQ.jpg?quality=80&auth=2a6caee3c42fe28d1ff4902d8cba86a7af1fb77a68e8a529ec3927ade479d151&width=1200&height=630&smart=true",
   "publishedAt": "2026-06-17T17:41:00+00:00",
-  "updatedAt": "2026-06-24T13:17:26.756010+00:00",
+  "updatedAt": "2026-06-24T14:05:57.338239+00:00",
   "sourceCount": 14,
   "articleCount": 20,
   "articles": [
@@ -152,14 +152,14 @@
       "title": "Presidente iraniano afirma que não haverá negociações sobre mísseis balísticos",
       "description": "247 - A tensão entre Irã e EUA cresceu nesta terça-feira (23) depois que o presidente iraniano, Masoud Pezeshkian, afirmou que Teerã não...",
       "url": "https://www.brasil247.com/mundo/presidente-iraniano-afirma-que-nao-havera-negociacoes-sobre-misseis-balisticos",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-06-24T06:35:47+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bfae6242ab8b",
@@ -170,7 +170,7 @@
       "sourceCanonical": "vermelho.org.br",
       "sourceDomain": "vermelho.org.br",
       "publishedAt": "2026-06-18T13:20:00+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,20 +246,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_2d45616ec8b7",
-      "title": "Presidente iraniano defende nova estrutura de segurança entre países do Oriente Médio",
-      "description": "O presidente do Irã, Masoud Pezeshkian, defendeu nesta terça-feira (24/06), em coletiva de imprensa, a criação de uma nova estrutura de...",
-      "url": "https://operamundi.uol.com.br/oriente-medio/presidente-iraniano-defende-nova-estrutura-de-seguranca-entre-paises-do-oriente-medio/",
-      "source": "Opera Mundi",
-      "sourceCanonical": "Opera Mundi",
-      "sourceDomain": "operamundi.uol.com.br",
-      "publishedAt": "2026-06-24T10:16:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_8865fa111c53",
       "title": "O formidável arsenal do Irã no conflito do Oriente Médio.",
       "description": "Mísseis balísticos, drones suicidas (VANTs) e mísseis de cruzeiro são armas essenciais que ajudam o Irã a fortalecer sua capacidade de...",
@@ -269,6 +255,20 @@
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-06-23T02:23:15+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2d45616ec8b7",
+      "title": "Presidente iraniano defende nova estrutura de segurança entre países do Oriente Médio",
+      "description": "O presidente do Irã, Masoud Pezeshkian, defendeu nesta terça-feira (24/06), em coletiva de imprensa, a criação de uma nova estrutura de...",
+      "url": "https://operamundi.uol.com.br/oriente-medio/presidente-iraniano-defende-nova-estrutura-de-seguranca-entre-paises-do-oriente-medio/",
+      "source": "Opera Mundi",
+      "sourceCanonical": "Opera Mundi",
+      "sourceDomain": "operamundi.uol.com.br",
+      "publishedAt": "2026-06-24T10:16:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 7,
-    "average": 4.9,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.33,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

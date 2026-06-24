@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0cjhpc0VSRmdRNlZkNHNtZTB5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0cjhpc0VSRmdRNlZkNHNtZTB5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 12,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 13,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 12,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Governo propõe novo limite de faturamento para o MEI",
   "summary": "Presidente da Câmara debateu novo limite do faturamento para microempreendedores individuais em reunião com ministros do governo Lula.",
@@ -28,13 +34,13 @@
     "mei",
     "limite",
     "câmara",
-    "simples",
-    "motta",
-    "aumentar"
+    "aumentar",
+    "teto",
+    "simples"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/img20260527182215358.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-06-19T21:39:08+00:00",
-  "updatedAt": "2026-06-24T13:05:10.954944+00:00",
+  "publishedAt": "2026-06-20T10:00:02+00:00",
+  "updatedAt": "2026-06-24T13:53:34.234657+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -61,10 +67,24 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-24T10:37:16+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/AMOVVPdT0hm7YXpkmlvFAhDbEYw=/720x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/w/M/y8eiD2T1mXMU074AzHxA/115404407-ministro-do-empreendedorismo-paulo-pereira-credito-beto-neves-memp.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_f162bafa6da2",
+      "title": "Governo prepara projeto para aumentar limite de faturamento do MEI",
+      "description": "Proposta deve ser enviada à Câmara dos Deputados e prevê ampliação do teto anual de receita, além da possibilidade de contratar mais...",
+      "url": "https://veja.abril.com.br/economia/governo-prepara-projeto-para-aumentar-limite-de-faturamento-do-mei/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-06-24T12:45:03+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2018/01/economia-empreendimento-mei-2.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_a60729ceba7c",
@@ -95,6 +115,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_235500f20ed3",
+      "title": "Novo Teto do MEI",
+      "description": "O novo teto do MEI é a atualização progressiva do limite de faturamento anual permitido para o Microempreendedor Individual (MEI),...",
+      "url": "https://www.gov.br/memp/pt-br/governo-do-brasil-ao-lado-do-empreendedor/novo-teto-do-mei",
+      "source": "GOV.BR",
+      "sourceCanonical": "GOV.BR",
+      "sourceDomain": "gov.br",
+      "publishedAt": "2026-06-23T19:27:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_9cfdf62f40df",
+      "title": "Teto do MEI: Relator, Jorge Goetten defende atualização do Simples e desoneração",
+      "description": "Governo, no entanto, quer restringir mudanças ao MEI e estuda atualizar teto de faturamento para até R$ 140 mil.",
+      "url": "https://www.jota.info/legislativo/teto-do-mei-relator-jorge-goetten-defende-atualizacao-do-simples-e-desoneracao",
+      "source": "JOTA",
+      "sourceCanonical": "JOTA",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-06-24T12:35:06+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_aba1be3ef4b2",
       "title": "Governo e Câmara terão grupo de trabalho para discutir ampliação do Simples, diz relator",
       "description": "O deputado Jorge Goetten (Republicanos-SC), relator do projeto de lei complementar que atualiza o teto do microempreendedor individual (MEI)...",
@@ -118,20 +166,6 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-06-24T08:00:00+00:00",
       "postedLabel": "5 horas atrás",
-      "imageUrl": "https://i.metroimg.com/Wc2_Safng6tQDZI-XeECkGpsQGxtXX7ZHZKf_Tdt1QQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2025/09/29175033/Presidente-Lula-e-Hugo-Motta.-O-ministro-Edson-Fachin-assume-a-presidencia-do-Supremo-Tribunal-Federal-STF.-O-magistrado-tera-como-vice-presidente-o-ministro-Alexandre-de-Moraes-Metropoles-3.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_bacb62e40b1e",
-      "title": "Governo enviará PL à Câmara, nesta semana, para aumentar limite do MEI",
-      "description": "Executivo discutiu com Motta texto sobre microempreendedores individuais que deve chegar à Casa nesta quarta-feira.",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/governo-enviara-projeto-camara-para-aumentar-limite-do-mei",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-06-23T13:18:00+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -173,7 +207,21 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-23T13:30:32+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_bacb62e40b1e",
+      "title": "Governo enviará PL à Câmara, nesta semana, para aumentar limite do MEI",
+      "description": "Executivo discutiu com Motta texto sobre microempreendedores individuais que deve chegar à Casa nesta quarta-feira.",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/governo-enviara-projeto-camara-para-aumentar-limite-do-mei",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-06-23T13:18:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -193,20 +241,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_5751fdc0eb62",
-      "title": "Fazenda avalia elevar limite do MEI para R$ 130 mil e descarta ampliar Simples Nacional",
-      "description": "O governo federal negocia com o Congresso uma proposta para elevar gradualmente o limite de faturamento anual do Microempreendedor...",
-      "url": "https://www.jota.info/executivo/fazenda-avalia-elevar-limite-do-mei-para-r-130-mil-e-descarta-ampliar-simples-nacional",
-      "source": "JOTA",
-      "sourceCanonical": "JOTA",
-      "sourceDomain": "jota.info",
-      "publishedAt": "2026-06-19T21:39:08+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_9b1d2a631337",
       "title": "Governo cede à pressão da Câmara e deve enviar proposta para aumentar limite para MEIs",
       "description": "O governo cedeu à pressão do Congresso nas negociações em relação ao programa do Microempreendedor Individual (MEI) e vai propor elevar o...",
@@ -221,20 +255,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_235500f20ed3",
-      "title": "Novo Teto do MEI",
-      "description": "O novo teto do MEI é a atualização progressiva do limite de faturamento anual permitido para o Microempreendedor Individual (MEI),...",
-      "url": "https://www.gov.br/memp/pt-br/governo-do-brasil-ao-lado-do-empreendedor/novo-teto-do-mei",
-      "source": "GOV.BR",
-      "sourceCanonical": "GOV.BR",
-      "sourceDomain": "gov.br",
-      "publishedAt": "2026-06-23T19:27:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_898607d17b60",
       "title": "Atualização do Simples pode estimular crescimento de pequenas empresas, aponta Sistema Comércio",
       "description": "Seminário em Belo Horizonte debate limites de faturamento e entraves ao empreendedorismo A atualização dos limites do Simples Nacional é...",
@@ -243,34 +263,6 @@
       "sourceCanonical": "Portal do Comércio",
       "sourceDomain": "portaldocomercio.org.br",
       "publishedAt": "2026-06-23T20:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_06299ff6b06f",
-      "title": "Mudança no MEI Prevê Aumento do Limite de Faturamento e Mais Espaço para Contratações",
-      "description": "O Microempreendedor Individual (MEI) foi criado em 2008 para tirar trabalhadores da informalidade. Ao longo dos anos, tornou-se uma das...",
-      "url": "https://forbes.com.br/forbes-money/2026/06/mudanca-no-mei-preve-aumento-do-limite-de-faturamento-e-mais-espaco-para-contratacoes/",
-      "source": "Forbes Brasil",
-      "sourceCanonical": "Forbes Brasil",
-      "sourceDomain": "forbes.com.br",
-      "publishedAt": "2026-06-23T20:54:46+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_fb611c310884",
-      "title": "Relator comemora avanço na atualização do MEI. Governo não deu garantia que Simples Nacional também entre na atualização",
-      "description": "Entrevista: Jorge Goetten, deputado federal, Republicanos-SC, relator da atualização do MEI e do Simples Nacional.",
-      "url": "https://www.acaert.com.br/noticia/62522/relator-comemora-avanco-na-atualizacao-do-mei-governo-nao-deu-garantia-que-simples-nacional-tambem-entre-na-atualizacao",
-      "source": "Acaert",
-      "sourceCanonical": "Acaert",
-      "sourceDomain": "acaert.com.br",
-      "publishedAt": "2026-06-24T03:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -305,6 +297,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_01d1db6a7be2",
+      "title": "Teto do MEI deve subir, mas de forma escalonada; entenda o que está em discussão",
+      "description": "O ministro da Fazenda, Dario Durigan, disse nesta sexta-feira, 19, que o governo trabalhará em conjunto com o Congresso Nacional para...",
+      "url": "https://istoedinheiro.com.br/teto-do-mei-deve-subir-mas-de-forma-escalonada-entenda-o-que-esta-em-discussao",
+      "source": "ISTOÉ DINHEIRO",
+      "sourceCanonical": "Istoé Dinheiro",
+      "sourceDomain": "istoedinheiro.com.br",
+      "publishedAt": "2026-06-20T10:00:02+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_3ef7e7bb4f48",
       "title": "MEI: o que deve mudar para os microempreendedores com projeto em análise na Câmara",
       "description": "Proposta prevê aumento de limite de faturamento para R$ 130 mil; relator apresentará parecer na próxima semana.",
@@ -322,16 +328,16 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.08,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.27,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 9,
-      "centerRight": 2,
+      "center": 10,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 5
     }
   },
   "scores": {
@@ -343,7 +349,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
