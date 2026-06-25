@@ -3,17 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owcnZxNUVSRkFxdWVoVGwxNXVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owcnZxNUVSRkFxdWVoVGwxNXVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "topic-3": 21,
       "topic-5": 18
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 18,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 21,
     "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -25,13 +28,13 @@
     "quinta",
     "feira",
     "frio",
-    "previsão",
     "chuva",
-    "nesta"
+    "nesta",
+    "previsão"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/UxOBrpZOBE-r1omignMwRHtw4jo=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/s/S/t3cQozTLmJP7ij9Addqw/midia-de-distribuicao-g1-2026-06-24t141822.996.jpg",
   "publishedAt": "2026-06-24T17:46:00+00:00",
-  "updatedAt": "2026-06-25T17:03:30.382772+00:00",
+  "updatedAt": "2026-06-25T17:57:50.487918+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +75,7 @@
       "sourceCanonical": "INMET",
       "sourceDomain": "portal.inmet.gov.br",
       "publishedAt": "2026-06-24T17:46:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -86,10 +89,24 @@
       "sourceCanonical": "Notícias Agrícolas",
       "sourceDomain": "noticiasagricolas.com.br",
       "publishedAt": "2026-06-25T14:07:30+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/sul-6pf2F.jpg",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_48f490b989de",
+      "title": "Frio persiste no Centro-Sul e chuva avança em várias regiões do país",
+      "description": "Após registrar o dia mais frio do ano em diversas cidades, o Brasil continua sob influência de uma massa de ar frio nesta quinta-feira (25).",
+      "url": "https://iclnoticias.com.br/frio-persiste-no-centro-sul-e-chuva-avanca/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-06-25T12:18:41+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_5eb295d6fbc3",
@@ -101,7 +118,7 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-06-24T20:00:52+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2017/07/frio-sp-temperaturas-20170718-0002.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -134,6 +151,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_d9840e3f31be",
+      "title": "Previsão do tempo em São Paulo (SP) hoje: veja como fica o clima nesta quinta-feira",
+      "description": "A previsão do tempo para São Paulo (SP) nesta quinta-feira, 25 de junho, indica um dia de frio e nebulosidade, segundo o Climatempo. Os...",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/previsao-do-tempo-em-sao-paulo-sp-hoje-veja-como-fica-o-clima-nesta-quinta-feira,fde6925c0a09ac9c8dbc4349dac274d4x44j7e1n.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-06-25T14:41:48+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_903c5e5eec81",
+      "title": "Até quando vai a onda de frio no país e a chuva no Sudeste?",
+      "description": "A massa de ar polar que atua sobre o Brasil ainda mantém o cenário de frio intenso no Sul.",
+      "url": "https://www.brasil247.com/meioambiente/ate-quando-vai-a-onda-de-frio-no-pais-e-a-chuva-no-sudeste",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-06-25T10:59:48+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_d0168228c678",
       "title": "Clima: Sul permanece gelado e temporais se espalham pelo país nesta 5ª",
       "description": "Esta quinta-feira será marcada pela forte influência da massa de ar polar que estacionou sobre o território brasileiro.",
@@ -156,38 +201,10 @@
       "sourceCanonical": "Olhar Digital",
       "sourceDomain": "olhardigital.com.br",
       "publishedAt": "2026-06-25T12:14:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_903c5e5eec81",
-      "title": "Até quando vai a onda de frio no país e a chuva no Sudeste?",
-      "description": "A massa de ar polar que atua sobre o Brasil ainda mantém o cenário de frio intenso no Sul.",
-      "url": "https://www.brasil247.com/meioambiente/ate-quando-vai-a-onda-de-frio-no-pais-e-a-chuva-no-sudeste",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-06-25T10:59:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
-      "id": "article_d9840e3f31be",
-      "title": "Previsão do tempo em São Paulo (SP) hoje: veja como fica o clima nesta quinta-feira",
-      "description": "A previsão do tempo para São Paulo (SP) nesta quinta-feira, 25 de junho, indica um dia de frio e nebulosidade, segundo o Climatempo. Os...",
-      "url": "https://www.terra.com.br/noticias/brasil/cidades/previsao-do-tempo-em-sao-paulo-sp-hoje-veja-como-fica-o-clima-nesta-quinta-feira,fde6925c0a09ac9c8dbc4349dac274d4x44j7e1n.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-06-25T14:41:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_c935f1add254",
@@ -198,7 +215,7 @@
       "sourceCanonical": "Grupo RBJ de Comunicação",
       "sourceDomain": "rbj.com.br",
       "publishedAt": "2026-06-25T14:03:46+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -216,20 +233,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_6e909b8053e7",
-      "title": "Quinta-feira com chuva expressiva em áreas do Sudeste e Centro-Oeste",
-      "description": "Notícias. Executivo · Legislativo · Brasil · Geral · Jurídico · Malagueta · Artigos · Cidades · Artigos · Entrevistas · Vídeos · Galeria de...",
-      "url": "https://www.caldeiraopolitico.com.br/video/10074/quinta-feira-com-chuva-expressiva-em-areas-do-sudeste-e-centro-oeste",
-      "source": "Caldeirão Político",
-      "sourceCanonical": "Caldeirão Político",
-      "sourceDomain": "caldeiraopolitico.com.br",
-      "publishedAt": "2026-06-25T10:46:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_640aee3dcc5b",
@@ -274,6 +277,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_6e909b8053e7",
+      "title": "Quinta-feira com chuva expressiva em áreas do Sudeste e Centro-Oeste",
+      "description": "Notícias. Executivo · Legislativo · Brasil · Geral · Jurídico · Malagueta · Artigos · Cidades · Artigos · Entrevistas · Vídeos · Galeria de...",
+      "url": "https://www.caldeiraopolitico.com.br/video/10074/quinta-feira-com-chuva-expressiva-em-areas-do-sudeste-e-centro-oeste",
+      "source": "Caldeirão Político",
+      "sourceCanonical": "Caldeirão Político",
+      "sourceDomain": "caldeiraopolitico.com.br",
+      "publishedAt": "2026-06-25T10:46:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_391a9832b9ca",
       "title": "Chuva retorna e temperaturas seguem baixas na região nesta quinta-feira",
       "description": "A quinta-feira (25) deve ser marcada por grande variação de nebulosidade e temperaturas baixas em toda a região. O dia começa com céu...",
@@ -300,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_7a58ec20de18",
-      "title": "Frio recorde! Acompanhe a previsão do tempo para esta quinta-feira, dia 25",
-      "description": "Utilizamos cookies essenciais e tecnologias semelhantes de acordo com a nossa Política de Privacidade e, ao continuar navegando,...",
-      "url": "https://horahiper.com.br/colunistas/leandro-puchalski/frio-recorde-acompanhe-a-previsao-do-tempo-para-esta-quinta-feira-dia-25-4148",
-      "source": "Hora Hiper",
-      "sourceCanonical": "Hora Hiper",
-      "sourceDomain": "horahiper.com.br",
-      "publishedAt": "2026-06-25T11:04:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.09,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 2,
       "right": 1,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
