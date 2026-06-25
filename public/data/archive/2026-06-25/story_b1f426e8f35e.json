@@ -3,36 +3,30 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3eUxLMUVSR082d3ZwcE11NHBDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3eUxLMUVSR082d3ZwcE11NHBDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-3": 2,
-      "topic-5": 12
+      "topic-5": 14
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Marília Campos critica candidatura própria do PT em Minas Gerais",
   "summary": "Ex-prefeita de Contagem despistou concorrer ao governo do Estado e disse que sua “única disponibilidade” é para uma vaga no Senado.",
-  "topic": "Lula · Marília",
+  "topic": "Marília · Lula",
   "topicKeywords": [
-    "lula",
     "marília",
+    "lula",
     "candidatura",
     "minas",
     "campos",
@@ -40,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/lula-marilia-campos-planalto-848x477.jpg",
   "publishedAt": "2026-06-22T14:07:41+00:00",
-  "updatedAt": "2026-06-25T22:41:56.418350+00:00",
+  "updatedAt": "2026-06-25T23:42:24.889624+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -80,25 +74,11 @@
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-06-25T16:04:16+00:00",
+      "publishedAt": "2026-06-25T16:04:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/2NEFP5RQZZGYHLWSHZDMSHSNMA.jpg?quality=80&auth=b000289fd3ad22cd1010e177049ec2e265f6a0757346cadb7bf3d3ab5447661c&width=1200&height=630&focal=1092,838",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_7c8bd1f30252",
-      "title": "Sem fazer o L e sem boné do MST, ex-tucano tenta virar o candidato de Lula em Minas",
-      "description": "Gabriel Azevedo disputa o espaço que a recusa de Marília Campos deixou aberto no PT, enquanto a ex-prefeita de Contagem chama de equívoco...",
-      "url": "https://www.cartacapital.com.br/blogs/daniel-camargos/sem-fazer-o-l-e-sem-bone-do-mst-ex-tucano-tenta-virar-o-candidato-de-lula-em-minas/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-06-25T17:30:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/MG.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_36efb55bcbbc",
@@ -110,9 +90,23 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-25T14:21:40+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://s2-oglobo.glbimg.com/3CRutLCzjiEdQwZw9p4nDpaQdGA=/678x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/I/f/FdyJRrTPOoCgAgzFAFdA/images.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_7c8bd1f30252",
+      "title": "Sem fazer o L e sem boné do MST, ex-tucano tenta virar o candidato de Lula em Minas",
+      "description": "Gabriel Azevedo disputa o espaço que a recusa de Marília Campos deixou aberto no PT, enquanto a ex-prefeita de Contagem chama de equívoco...",
+      "url": "https://www.cartacapital.com.br/blogs/daniel-camargos/sem-fazer-o-l-e-sem-bone-do-mst-ex-tucano-tenta-virar-o-candidato-de-lula-em-minas/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-06-25T17:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_b4507eaf0ac1",
@@ -137,7 +131,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-06-25T18:33:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -157,20 +151,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_9c4a3bc9ca98",
-      "title": "Lula quer que Marília Campos seja candidata ao governo de Minas",
-      "description": "Solução, no entanto, tem custo político elevado: Marília vem liderando as pesquisas sobre o Senado no estado.",
-      "url": "https://noticias.r7.com/prisma/r7-planalto/lula-quer-que-marilia-campos-seja-candidata-ao-governo-de-minas-24062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-24T11:22:43+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_76854cb2b2aa",
       "title": "Após reunião com Lula, PT decide disputar governo de MG com candidatura própria",
       "description": "Ausência de um candidato competitivo capaz de unificar o campo aliado acelerou a decisão de lançar uma candidatura própria.",
@@ -185,18 +165,18 @@
       "bucket": "right"
     },
     {
-      "id": "article_b6fe5b18d510",
-      "title": "Ex-reitora da UFMG se coloca à disposição para chapa do PT ao governo de MG",
-      "description": "Sandra Goulart defende diálogo e cita possibilidade de articulação da legenda com outros partidos progressistas no estado em entrevista...",
-      "url": "https://www.em.com.br/politica/2026/06/7448675-ex-reitora-da-ufmg-se-coloca-a-disposicao-para-chapa-do-pt-ao-governo-de-mg.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-06-25T15:57:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_9c4a3bc9ca98",
+      "title": "Lula quer que Marília Campos seja candidata ao governo de Minas",
+      "description": "Solução, no entanto, tem custo político elevado: Marília vem liderando as pesquisas sobre o Senado no estado.",
+      "url": "https://noticias.r7.com/prisma/r7-planalto/lula-quer-que-marilia-campos-seja-candidata-ao-governo-de-minas-24062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-24T11:22:43+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c0cb91d7a4fa",
@@ -207,6 +187,20 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-06-25T16:25:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_4a098ae82cd6",
+      "title": "O PT quer Marília, mas Marília quer o Senado",
+      "description": "O partido sinaliza que dará mais ênfase à estratégia de forçar um segundo turno do que propriamente investir em alianças para vencer a...",
+      "url": "https://www.em.com.br/colunistas/bertha-maakaroun/2026/06/7448310-o-pt-quer-marilia-mas-marilia-quer-o-senado.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-06-25T05:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
