@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kydGNXdkVSR05iQXpxc0Nqbmx5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kydGNXdkVSR05iQXpxc0Nqbmx5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 3,
-      "topic-7": 6
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 4,
+      "topic-7": 7
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre América do Sul",
   "summary": "Os governos de direita, por sua vez, dominam os países que somam US$ 2,2 bi, o que equivale a 45,4% do PIB continental. Leia no Poder360.",
-  "topic": "Colômbia · Direita",
+  "topic": "América · Colômbia",
   "topicKeywords": [
+    "américa",
     "colômbia",
     "direita",
-    "américa",
     "sul",
     "latina",
     "espriella"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/esquerda-direita-america-sul-24-jun-2026-03-848x477.png",
   "publishedAt": "2026-06-23T01:00:00+00:00",
-  "updatedAt": "2026-06-26T15:10:48.480620+00:00",
+  "updatedAt": "2026-06-26T15:59:38.293100+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -151,6 +157,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_6980f5b68c7d",
+      "title": "Sem libertadores",
+      "description": "Olá, jogando em casa, Lula é capaz de driblar a oposição, mas tudo fica mais difícil com a derrota das esquerdas na América Latina.",
+      "url": "https://www.brasildefato.com.br/colunista/boletim-ponto/2026/06/26/sem-libertadores/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-06-26T15:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_a464dafdf5da",
       "title": "As vitórias da direita na Colômbia e no Peru",
       "description": "O mês de junho colocou a direita no poder em mais duas nações sul-americanas. Na conturbada apuração do segundo turno peruano,...",
@@ -177,6 +197,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c13f89ecc21d",
+      "title": "O caldeirão político em que ferve a América Latina",
+      "description": "O pedido de recontagem de votos na eleição presidencial da Colômbia e a aproximação do provável novo governo com os Estados Unidos se somam a um cenário de...",
+      "url": "https://apublica.org/podcast/2026/06/podcast-pauta-publica/o-caldeirao-politico-em-que-ferve-a-america-latina/",
+      "source": "Agência Pública",
+      "sourceCanonical": "Agência Pública",
+      "sourceDomain": "apublica.org",
+      "publishedAt": "2026-06-26T11:04:43+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_66838113168b",
@@ -235,20 +269,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_77f974028c46",
-      "title": "Extrema direita vence no Peru e na Colômbia: o que está acontecendo na América Latina?",
-      "description": "Hugo Albuquerque e Katia Marko analisam nível de governabilidade e ingerência estadunidense nas eleições…",
-      "url": "https://www.brasildefato.com.br/podcast/o-estrangeiro/2026/06/24/extrema-direita-vence-no-peru-e-na-colombia-o-que-esta-acontecendo-na-america-latina/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-06-24T21:09:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_adc8e9aa85ee",
       "title": "Por que a extrema direita avança na América Latina",
       "description": "Autoridade eleitoral do Peru aponta vantagem insuperável de Keiko Fujimori, enquanto apuração preliminar na Colômbia mostra vitória de De la...",
@@ -261,20 +281,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_254e12b22c19",
-      "title": "De la Espriella tem vitória confirmada pelo Conselho Eleitoral na Colômbia",
-      "description": "O Conselho Nacional Eleitoral da Colômbia confirmou, nesta quarta-feira (24), a vitória de Abelardo de la Espriella no segundo turno da...",
-      "url": "https://www.cnnbrasil.com.br/internacional/de-la-espriella-tem-vitoria-confirmada-pelo-conselho-eleitoral-na-colombia/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-24T21:36:50+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_17b21edd3e33",
@@ -291,6 +297,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_254e12b22c19",
+      "title": "De la Espriella tem vitória confirmada pelo Conselho Eleitoral na Colômbia",
+      "description": "O Conselho Nacional Eleitoral da Colômbia confirmou, nesta quarta-feira (24), a vitória de Abelardo de la Espriella no segundo turno da...",
+      "url": "https://www.cnnbrasil.com.br/internacional/de-la-espriella-tem-vitoria-confirmada-pelo-conselho-eleitoral-na-colombia/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-06-24T21:36:50+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_9d0abfa9a732",
       "title": "É falso que Lula tenha declarado não reconhecer vitória da direita na Colômbia",
       "description": "PRESIDENTE BRASILEIRO NÃO DISSE NADA EM PÚBLICO SOBRE O ASSUNTO; CANDIDATO DERROTADO JÁ RECONHECEU RESULTADO.",
@@ -303,20 +323,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_38995e7275c7",
-      "title": "O alerta colombiano e o Brasil na mira de Trump",
-      "description": "A apuração das eleições presidenciais na Colômbia, realizadas no último domingo, se encerrou apenas nesta quarta-feira.",
-      "url": "https://esquerdaonline.com.br/2026/06/24/o-alerta-colombiano-e-o-brasil-na-mira-de-trump/",
-      "source": "Esquerda Online",
-      "sourceCanonical": "Esquerda Online",
-      "sourceDomain": "esquerdaonline.com.br",
-      "publishedAt": "2026-06-24T21:03:07+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
