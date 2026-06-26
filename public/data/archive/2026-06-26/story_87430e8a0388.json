@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lOb05LeEVSSFZxWjRXclNOQzN5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lOb05LeEVSSFZxWjRXclNOQzN5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-3": 3,
+      "topic-3": 11,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 11,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Marco Rubio responde carta de Flávio Bolsonaro sobre tarifas",
   "summary": "Senador havia pedido que os EUA desistissem de impor o tarifaço em produtos brasileiros proposto por Donald Trump. Leia no Poder360.",
@@ -33,14 +27,14 @@
   "topicKeywords": [
     "flávio",
     "eua",
+    "bolsonaro",
     "rubio",
     "carta",
-    "bolsonaro",
     "tarifaço"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/03/Marco-Rubio-4-mar-2026-848x477.jpg",
   "publishedAt": "2026-06-24T11:48:39+00:00",
-  "updatedAt": "2026-06-26T22:37:33.920297+00:00",
+  "updatedAt": "2026-06-26T23:38:14.221745+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -53,7 +47,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-26T20:41:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/03/Marco-Rubio-4-mar-2026-848x477.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -81,7 +75,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-06-26T19:27:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/27/17799178696a17642d29b57_1779917869_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -115,20 +109,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_1f4f63a2dab3",
-      "title": "Itamaraty troca diplomacia por lacração nas redes",
-      "description": "Após o governo Lula (PT) não fazer parte das audiências públicas nos Estados Unidos que discutirão tarifas sugeridas contra o Brasil,...",
-      "url": "https://diariodopoder.com.br/politica/itamaraty-troca-diplomacia-por-lacracao-nas-redes",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-06-26T14:35:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_dff54998eca3",
       "title": "Atuação de Flávio nos EUA é lamentável, diz ministro da Fazenda",
       "description": "O ministro da Fazenda, Dario Durigan, classificou a atuação do pré-candidato à Presidência da República e senador Flávio Bolsonaro (PL) nos...",
@@ -141,6 +121,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_1f4f63a2dab3",
+      "title": "Itamaraty troca diplomacia por lacração nas redes",
+      "description": "Após o governo Lula (PT) não fazer parte das audiências públicas nos Estados Unidos que discutirão tarifas sugeridas contra o Brasil,...",
+      "url": "https://diariodopoder.com.br/politica/itamaraty-troca-diplomacia-por-lacracao-nas-redes",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-06-26T14:35:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_615f553bbfcc",
@@ -185,20 +179,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_1c1fcc5dd42d",
-      "title": "Rubio rejeita pedido de Flávio Bolsonaro para cancelar novas tarifas contra Brasil",
-      "description": "O secretário de Estado dos Estados Unidos, Marco Rubio, rejeitou um pedido do senador e pré-candidato à presidência da República,...",
-      "url": "https://www.terra.com.br/noticias/brasil/rubio-rejeita-pedido-de-flavio-bolsonaro-para-cancelar-novas-tarifas-contra-brasil,3e3227808efb2bbcdb1e76413ee9341703fwlj1f.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-06-26T18:16:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_3d65c3e60233",
       "title": "Rubio a Flávio após pedido de suspensão de tarifaço: “Brasil onera EUA”",
       "description": "Secretário norte-americano afirma que práticas brasileiras impõem restrições ao comércio dos Estados Unidos.",
@@ -213,32 +193,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_461eb0e7262f",
-      "title": "Governo tem reuniões semanais com autoridades dos EUA sobre tarifaço, diz Márcio Rosa",
-      "description": "24 Jun (Reuters) - O governo brasileiro tem tido reuniões semanais com autoridades do governo dos Estados Unidos para tratar de tarifas e já...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/423513-governo-tem-reunioes-semanais-com-autoridades-dos-eua-sobre-tarifaco-diz-marcio-rosa.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-06-24T20:51:04+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_1c1fcc5dd42d",
+      "title": "Rubio rejeita pedido de Flávio Bolsonaro para cancelar novas tarifas contra Brasil",
+      "description": "O secretário de Estado dos Estados Unidos, Marco Rubio, rejeitou um pedido do senador e pré-candidato à presidência da República,...",
+      "url": "https://www.terra.com.br/noticias/brasil/rubio-rejeita-pedido-de-flavio-bolsonaro-para-cancelar-novas-tarifas-contra-brasil,3e3227808efb2bbcdb1e76413ee9341703fwlj1f.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-06-26T18:16:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_54bf18a31b62",
+      "title": "Brasil avalia que tarifaço dos EUA foi politizado mirando eleições",
+      "description": "País busca convencer os EUA de que um acordo seria mais vantajoso do que as tarifas extras de 25% sobre parte dos produtos brasileiros.",
+      "url": "https://noticias.r7.com/brasilia/brasil-avalia-que-tarifaco-dos-eua-foi-politizado-mirando-eleicoes-26062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-26T22:59:12+00:00",
+      "postedLabel": "38 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_7716333d646f",
-      "title": "Rubio diz que Flávio ofereceu equipe de transição aos EUA caso seja eleito",
-      "description": "Por Gabriel Gomes e Jamil Chade. A carta enviada pelo secretário de Estado dos Estados Unidos, Marco Rubio, ao senador e pré-candidato à...",
-      "url": "https://iclnoticias.com.br/carta-de-rubio-sugere-que-flavio-alinhamento/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-06-26T19:12:04+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_aa42f0cf60b4",
@@ -263,24 +243,24 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-06-26T16:39:44+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_0212c73623a1",
-      "title": "Brasil vê tarifaço dos EUA como medida politizada em ano eleitoral",
-      "description": "Governo brasileiro tenta reverter sobretaxas de 25% sobre parte dos produtos do país e afirma que a medida tem origem em tentativa de...",
-      "url": "https://jornaldebrasilia.com.br/noticias/economia/brasil-ve-tarifaco-dos-eua-como-medida-politizada-em-ano-eleitoral/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-06-26T22:14:13+00:00",
-      "postedLabel": "23 minutos atrás",
+      "id": "article_533868d97bf6",
+      "title": "Ministro de Trump confirma a Flávio Bolsonaro que ‘tariFlávio’ está mantido",
+      "description": "O governo dos Estados Unidos respondeu ao apelo de Flávio Bolsonaro e manteve a proposta de impor tarifas sobre produtos brasileiros.",
+      "url": "https://bncamazonas.com.br/poder/ministro-de-trump-confirma-a-flavio-bolsonaro-que-tariflavio-esta-mantido/",
+      "source": "bncamazonas.com.br",
+      "sourceCanonical": "bncamazonas.com.br",
+      "sourceDomain": "bncamazonas.com.br",
+      "publishedAt": "2026-06-26T16:47:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b9aa78282313",
@@ -297,20 +277,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_5a9499fe7be0",
-      "title": "Rubio responde carta de Flávio e mantém críticas que embasam possível tarifaço ao Brasil",
-      "description": "Secretário de Estado agradece pedido para evitar sobretaxas, mas afirma que persistem divergências comerciais entre os dois países.",
-      "url": "https://noticias.r7.com/internacional/rubio-responde-flavio-e-mantem-criticas-que-embasam-possivel-tarifaco-ao-brasil-26062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-26T14:31:20+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_63be90aafed7",
       "title": "Itamaraty exige desculpas por tarifaço dos EUA",
       "description": "Ministério das Relações Exteriores rebate declarações de Flávio Bolsonaro sobre audiência nos Estados Unidos. 24/06/2026 | 21:43.",
@@ -323,27 +289,55 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_24e737d2d95e",
+      "title": "Flávio Bolsonaro tenta reverter imagem de traidor em audiência nos EUA",
+      "description": "... em audiência nos EUA. Senador quer participar de audiência pública sobre tarifas aplicadas por Trump. por Priscila Lobregatte.",
+      "url": "https://vermelho.org.br/2026/06/25/flavio-bolsonaro-tentara-reverter-imagem-de-traidor-em-audiencia-nos-eua/",
+      "source": "vermelho.org.br",
+      "sourceCanonical": "vermelho.org.br",
+      "sourceDomain": "vermelho.org.br",
+      "publishedAt": "2026-06-25T16:47:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_e9525c1c3317",
+      "title": "'Postura é de puro interesse político e de capacho', dispara Zarattini sobre Flávio Bolsonaro",
+      "description": "Deputado do PT afirma que carta do secretário de Estado dos EUA expõe interesse eleitoral de Flávio Bolsonaro em meio ao tarifaço contra o...",
+      "url": "https://www.brasil247.com/regionais/brasilia/postura-e-de-puro-interesse-politico-e-de-capacho-dispara-zarattini-sobre-flavio-bolsonaro",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-06-26T19:24:20+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 9,
-    "average": 5.68,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 5.59,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 9,
-      "centerRight": 5,
+      "center": 8,
+      "centerRight": 4,
       "right": 2,
-      "unknown": 1
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
