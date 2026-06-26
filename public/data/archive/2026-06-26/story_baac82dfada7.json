@@ -3,39 +3,45 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ozNXRDNEVSRkRkRzJzcUt0VVF5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ozNXRDNEVSRkRkRzJzcUt0VVF5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 4,
-      "topic-5": 10
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 5,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre São Paulo • temperatura",
+  "title": "Temperatura em SP",
   "summary": "Em meio à primeira onda de frio do inverno de 2026, a capital paulista atingiu 13,4°C nesta quinta-feira (25). Helena Barra, da CNN Brasil*,...",
-  "topic": "Fria · Paulo",
+  "topic": "Paulo · Fria",
   "topicKeywords": [
-    "fria",
     "paulo",
-    "feira",
+    "fria",
+    "frio",
     "tem",
-    "junho",
-    "tarde"
+    "chuva",
+    "máxima"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/05/PHO20220518009.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-06-22T15:54:11+00:00",
-  "updatedAt": "2026-06-26T07:36:48.763216+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-06-22T11:47:00+00:00",
+  "updatedAt": "2026-06-26T09:20:51.737640+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -53,72 +59,30 @@
       "bucket": "center"
     },
     {
-      "id": "article_9da038b61e59",
-      "title": "SP iguala tarde mais fria de junho em 30 anos; calor volta no fim de semana",
-      "description": "A cidade de São Paulo igualou hoje o recorde de menor temperatura máxima para junho em 30 anos, segundo a meteorologista Josélia Pegorim, da...",
-      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/06/25/sp-iguala-tarde-mais-fria-de-junho-em-30-anos-calor-volta-no-fim-de-semana.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-06-25T21:38:14+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_9217c01402a5",
+      "title": "Frio persiste na Grande São Paulo nesta sexta (26); temperaturas voltam a subir no domingo",
+      "description": "Cidades do Sudeste devem seguir com temperaturas baixas nesta sexta-feira (26), a exemplo de localidades da Grande São Paulo. Na capital, os...",
+      "url": "https://www1.folha.uol.com.br/cotidiano/2026/06/frio-persiste-na-grande-sao-paulo-nesta-sexta-26-temperaturas-voltam-a-subir-no-domingo.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-06-26T08:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/25/17824186436a3d8cd323a8e_1782418643_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
-      "id": "article_ef61d9fc5268",
-      "title": "São Paulo terá mudança de tempo amanhã: veja a máxima na capital paulista",
-      "description": "A previsão do tempo para São Paulo nesta sexta-feira, 26 de junho, indica mais um dia marcado por muitas nuvens e sensação de frio nas...",
-      "url": "https://veja.abril.com.br/agenda-verde/sao-paulo-tera-mudanca-de-tempo-amanha-veja-a-maxima-na-capital-paulista/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-06-25T16:49:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/02/anhangabau_chuva_11_0.jpg?quality=70&strip=info&resize=1080,565&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_286f90420b88",
-      "title": "Previsão para quarta-feira (24) e quinta-feira (25):",
-      "description": "Entre terça (23) e quarta (24), o tempo estabiliza e as temperaturas caem em toda a região Sul do Brasil após a passagem do Sistema Frontal,...",
-      "url": "https://portal.inmet.gov.br/noticias/previs%C3%A3o-para-quarta-feira-24-e-quinta-feira-25",
-      "source": "INMET",
-      "sourceCanonical": "INMET",
-      "sourceDomain": "portal.inmet.gov.br",
-      "publishedAt": "2026-06-23T17:49:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c5a7c8d39785",
-      "title": "SP bate recorde de menor temperatura máxima no mês de junho em 30 anos",
-      "description": "Recorde anterior aconteceu um dia antes, na quarta-feira (24), quando a menor máxima registrada na cidade foi de 13,5°C.",
-      "url": "https://jovempan.com.br/brasil/sp-bate-recorde-de-menor-temperatura-maxima-no-mes-de-junho-em-30-anos/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-06-25T23:03:52+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/06/3696725709-pedestres-enfrentam-frio-e-garoa-na-avenida-brigadeiro-faria-lima-nesta-quarta-27-e1751909092623.jpg?w=1000&h=630&crop=1",
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_5125809ee184",
-      "title": "São Paulo registra tarde mais fria do ano com 13,5°C",
-      "description": "Capital paulista registrou a menor máxima de 2026 e o maior volume de chuva para junho desde 1995, com morte registrada por desabamento. Da...",
-      "url": "https://www.cnnbrasil.com.br/nacional/sao-paulo-registra-tarde-mais-fria-do-ano-com-135c/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-25T10:54:26+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
+      "id": "article_6fc5f94ced54",
+      "title": "Com 13,5ºC, SP tem a tarde mais fria de 2026 nesta quarta-feira",
+      "description": "Meteorologistas preveem início de inverno frio, mas descartam cenário mais rigoroso e chuvoso da história recente.",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/06/24/com-135oc-sp-tem-a-tarde-mais-fria-de-2026-nesta-quarta-feira.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-06-24T20:27:52+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://s2-g1.glbimg.com/lohYSG8LuSYl7CZxAbID150PAJ4=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/i/J/E4UcwDTCqz2r9Lhn9ZZQ/ato20251010013.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -137,18 +101,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6fc5f94ced54",
-      "title": "Com 13,5ºC, SP tem a tarde mais fria de 2026 nesta quarta-feira",
-      "description": "Meteorologistas preveem início de inverno frio, mas descartam cenário mais rigoroso e chuvoso da história recente.",
-      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/06/24/com-135oc-sp-tem-a-tarde-mais-fria-de-2026-nesta-quarta-feira.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-06-24T20:27:52+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_ef61d9fc5268",
+      "title": "São Paulo terá mudança de tempo amanhã: veja a máxima na capital paulista",
+      "description": "A previsão do tempo para São Paulo nesta sexta-feira, 26 de junho, indica mais um dia marcado por muitas nuvens e sensação de frio nas...",
+      "url": "https://veja.abril.com.br/agenda-verde/sao-paulo-tera-mudanca-de-tempo-amanha-veja-a-maxima-na-capital-paulista/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-06-25T16:49:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/02/anhangabau_chuva_11_0.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_0a972125f62c",
@@ -165,14 +129,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_0d635184de0c",
-      "title": "São Paulo tem a menor temperatura para junho em 30 anos",
-      "description": "Uma forte massa de ar polar avança pelo Brasil e faz as temperaturas caírem drasticamente nas capitais. No sul do país, o frio intenso...",
-      "url": "https://record.r7.com/fala-brasil/video/sao-paulo-tem-a-menor-temperatura-para-junho-em-30-anos-25062026/",
+      "id": "article_c4668f45eace",
+      "title": "Virada no tempo: frente fria a caminho e nuvens assustam moradores #alerta #meteorologia #shorts",
+      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
+      "url": "https://noticias.r7.com/sao-paulo/interior/virada-no-tempo-frente-fria-a-caminho-e-nuvens-assustam-moradores-alerta-meteorologia-shorts-25062026/",
       "source": "R7",
       "sourceCanonical": "R7",
-      "sourceDomain": "record.r7.com",
-      "publishedAt": "2026-06-25T13:38:15+00:00",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-25T16:45:22+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -193,6 +157,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_7c41d8b64c85",
+      "title": "INMET divulga previsão para semana de 22 a 29 de junho de 2026",
+      "description": "De acordo com o modelo numérico do INMET, a previsão de chuva acumulada entre os dias 22 e 29 de junho de 2026 (Figura 1) indica...",
+      "url": "https://portal.inmet.gov.br/noticias/inmet-divulga-previs%C3%A3o-para-semana-de-22-a-29-de-junho-de-2026",
+      "source": "INMET",
+      "sourceCanonical": "INMET",
+      "sourceDomain": "portal.inmet.gov.br",
+      "publishedAt": "2026-06-22T17:10:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_edc14f9add02",
       "title": "Cientistas pedem que brasileiros se preparem para \"catástrofe\" com ventos de 100 km/h e possível tornado",
       "description": "A primeira frente fria intensa do inverno de 2026 começou a avançar pelo Brasil nesta segunda-feira (22), trazendo uma combinação de chuva...",
@@ -205,20 +183,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_fdf9b7ec0395",
-      "title": "São Paulo tem dia de junho mais frio dos últimos 30 anos",
-      "description": "São Paulo sente o rigor do inverno: Capital registra nesta quinta-feira 13,4°C, a temperatura mais baixa desde 1996.",
-      "url": "https://revistaoeste.com/brasil/sao-paulo-tem-dia-de-junho-mais-frio-dos-ultimos-30-anos/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-06-26T00:08:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
     },
     {
       "id": "article_37eed3fb8b77",
@@ -249,6 +213,48 @@
       "bucket": "center"
     },
     {
+      "id": "article_fdf9b7ec0395",
+      "title": "São Paulo tem dia de junho mais frio dos últimos 30 anos",
+      "description": "São Paulo sente o rigor do inverno: Capital registra nesta quinta-feira 13,4°C, a temperatura mais baixa desde 1996.",
+      "url": "https://revistaoeste.com/brasil/sao-paulo-tem-dia-de-junho-mais-frio-dos-ultimos-30-anos/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-06-26T00:08:11+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
+      "id": "article_c5a7c8d39785",
+      "title": "SP bate recorde de menor temperatura máxima no mês de junho em 30 anos",
+      "description": "Recorde anterior aconteceu um dia antes, na quarta-feira (24), quando a menor máxima registrada na cidade foi de 13,5°C.",
+      "url": "https://jovempan.com.br/brasil/sp-bate-recorde-de-menor-temperatura-maxima-no-mes-de-junho-em-30-anos/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-25T23:03:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_b7b620349179",
+      "title": "São Paulo registra 13,5°C e tem tarde mais fria de 2026",
+      "description": "Capital teve a menor temperatura máxima do ano nesta quarta-feira (24); massa polar mantém frio e chuva nesta quinta-feira (25), máxima de...",
+      "url": "https://ultimosegundo.ig.com.br/2026-06-25/sao-paulo-registra-13-5c-tem-tarde-mais-fria-2026.html",
+      "source": "Portal iG",
+      "sourceCanonical": "Portal iG",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-06-25T09:19:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_d62a06c73b76",
       "title": "Onda de frio derruba temperaturas no país e traz risco de temporais; Confira a previsão completa",
       "description": "247 - A onda de frio que avança pelo Brasil mantém as temperaturas muito baixas no Centro-Sul nesta quarta-feira (24), com possibilidade de...",
@@ -261,20 +267,6 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
-    },
-    {
-      "id": "article_b7b620349179",
-      "title": "São Paulo registra 13,5°C e tem tarde mais fria de 2026",
-      "description": "Capital teve a menor temperatura máxima do ano nesta quarta-feira (24); massa polar mantém frio e chuva nesta quinta-feira (25), máxima de...",
-      "url": "https://ultimosegundo.ig.com.br/2026-06-25/sao-paulo-registra-13-5c-tem-tarde-mais-fria-2026.html",
-      "source": "Portal iG",
-      "sourceCanonical": "Portal iG",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-06-25T09:19:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_b3dad25d0cd7",
@@ -291,20 +283,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_02457ad93616",
-      "title": "Previsão do tempo: um dos dias mais frios do ano e alerta de chuva forte em SP 24/06/2026",
-      "description": "Clima Tempo. Previsão do tempo: um dos dias mais frios do ano e alerta de chuva forte em SP 24/06/2026. Publicado em 23/06/2026 18:04.",
-      "url": "https://www.noticiasagricolas.com.br/videos/tempo-e-clima/423423-previsao-do-tempo-um-dos-dias-mais-frios-do-ano-e-alerta-de-chuva-forte-em-sp-24062026.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-06-23T21:04:10+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_79e99664bf47",
       "title": "Até quando vai a chuva em São Paulo?",
       "description": "Quantidade de nuvens aumenta e há potencial para precipitações de fraca a moderada intensidade ao menos até quinta-feira, 25.",
@@ -317,25 +295,53 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_9bb1261d44ea",
+      "title": "Inmet prevê segunda sob frio intenso no Sudeste",
+      "description": "O Instituto Nacional de Meteorologia (Inmet) prevê forte frio em todo o Sudeste, em especial nas áreas de serra e no sul paulista e mineiro,...",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-06/inmet-preve-forte-frio-no-sudeste-para-esta-segunda",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-06-22T11:47:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_02457ad93616",
+      "title": "Previsão do tempo: um dos dias mais frios do ano e alerta de chuva forte em SP 24/06/2026",
+      "description": "Clima Tempo. Previsão do tempo: um dos dias mais frios do ano e alerta de chuva forte em SP 24/06/2026. Publicado em 23/06/2026 18:04.",
+      "url": "https://www.noticiasagricolas.com.br/videos/tempo-e-clima/423423-previsao-do-tempo-um-dos-dias-mais-frios-do-ano-e-alerta-de-chuva-forte-em-sp-24062026.html",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
+      "sourceDomain": "noticiasagricolas.com.br",
+      "publishedAt": "2026-06-23T21:04:10+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.81,
+    "average": 5.75,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 10,
+      "centerLeft": 1,
+      "center": 9,
       "centerRight": 3,
       "right": 2,
       "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
     "headlineDivergence": 97,
     "confidence": 95
