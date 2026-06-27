@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvc3VXNkVSRUdEQ1BRYTIyU3RpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvc3VXNkVSRUdEQ1BRYTIyU3RpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Terremoto no leste do Afeganistão",
+  "title": "Terremoto de magnitude 6,1 atinge Afeganistão e Paquistão",
   "summary": "Segundo agências AFP e Reuters, tremor abalou províncias do leste do país e também foi sentido na capital do Paquistão, Islamabad.",
   "topic": "Afeganistão · Terremoto",
   "topicKeywords": [
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/aTaUTvQZo4AsNvllMTaRHOySWr0=/3831x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/W/KYiuRTQ8edA7Gc6pVbXQ/2026-06-27t142244z-1734172098-rc2d2may7l4d-rtrmadp-3-afghanistan-quake-pakistan.jpg",
   "publishedAt": "2026-06-27T06:47:37+00:00",
-  "updatedAt": "2026-06-27T16:43:40.695169+00:00",
+  "updatedAt": "2026-06-27T17:34:40.238141+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,6 +56,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_86d3a4a92a57",
+      "title": "Terremoto de magnitude 6.1 atinge Afeganistão",
+      "description": "Um terremoto de forte intensidade foi sentido em Cabul, no Afeganistão, e em regiões do norte do Paquistão neste sábado (27).",
+      "url": "https://oglobo.globo.com/mundo/noticia/2026/06/27/terremoto-atinge-afeganistao.ghtml",
+      "source": "O Globo",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-06-27T14:13:20+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/HP0fvDj9kypUXdyJiL1KCdMxMoo=/1273x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/Z/i/lvNIpaSIiBGtBGjjoDUQ/terremoto-afeganistao.png",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_04e813bf1d1e",
       "title": "Forte terremoto atinge o leste do Afeganistão (jornalistas da AFP)",
       "description": "Forte terremoto atinge o leste do Afeganistão (jornalistas da AFP)strs-ash/rsc/lga/aa© Agence France-Presse.",
@@ -58,7 +78,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-27T14:01:04+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,10 +92,24 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-06-27T16:16:00+00:00",
-      "postedLabel": "27 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_196ef0c7c90a",
+      "title": "Terramoto de magnitude 6,1 atingiu o Afeganistão e o Paquistão",
+      "description": "Sismo teve hipocentro a 201 quilómetros de profundidade, de acordo com o Centro Sismológico Euro-Mediterrânico e foi sentido em ambos os...",
+      "url": "https://www.publico.pt/2026/06/27/mundo/noticia/terramoto-magnitude-6-atingiu-afeganistao-paquistao-2179693",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-06-27T15:44:27+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_536bc30d3215",
@@ -86,10 +120,52 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-06-27T15:17:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/06/27113920/Hindu_Kush_mountains_30357238428.jpg",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_ea5079274cdc",
+      "title": "Terremoto de magnitude 6 atinge Afeganistão",
+      "description": "Tremor foi sentido em Cabul e também em regiões do Paquistão; até o momento, não há registro oficial de mortos, feridos ou danos materiais.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/terremoto-de-magnitude-6-atinge-afeganistao",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-06-27T15:45:30+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_234a865f2ced",
+      "title": "Terremoto de magnitude 6,1 atinge o Afeganistão e o Paquistão",
+      "description": "De acordo com jornalistas da AFP, o tremor abalou províncias do leste, incluindo Khost e Nangarhar e a capital paquistanesa, Islamabad.",
+      "url": "https://jovempan.com.br/mundo/terremoto-de-magnitude-61-atinge-o-afeganistao-e-o-paquistao/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-27T14:29:52+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_8837f7fa76bf",
+      "title": "Terremoto de magnitude 5,9 atinge Paquistão e Afeganistão; não há relatos de vítimas",
+      "description": "Um terremoto de magnitude 5,9 atingiu partes do Paquistão e do Afeganistão neste sábado, 27, informaram as autoridades. Não houve relatos imediatos de danos...",
+      "url": "https://tribunadepetropolis.com.br/noticias/terremoto-de-magnitude-59-atinge-paquistao-e-afeganistao-nao-ha-relatos-de-vitimas/",
+      "source": "Tribuna de Petrópolis",
+      "sourceCanonical": "Tribuna de Petrópolis",
+      "sourceDomain": "tribunadepetropolis.com.br",
+      "publishedAt": "2026-06-27T17:02:59+00:00",
+      "postedLabel": "31 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4356959266cc",
@@ -100,7 +176,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-06-27T14:57:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -120,6 +196,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_f81e1e1f0a8d",
+      "title": "Terremoto de magnitude 6 atinge o Afeganistão e assusta moradores",
+      "description": "Tremor com epicentro na região de Hindu Kush reflete a alta atividade tectônica na região; não há relato imediato de vítimas.",
+      "url": "https://jornalggn.com.br/internacional/terremoto-de-magnitude-6-atinge-o-afeganistao-e-assusta-moradores/",
+      "source": "Jornal GGN",
+      "sourceCanonical": "Jornal GGN",
+      "sourceDomain": "jornalggn.com.br",
+      "publishedAt": "2026-06-27T16:42:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_5eb3c3f35cd9",
       "title": "Terremoto de magnitude 6,2 atinge o Afeganistão e é sentido em vários países da região",
       "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
@@ -128,10 +218,24 @@
       "sourceCanonical": "Tribuna do Sertão",
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-06-27T16:21:00+00:00",
-      "postedLabel": "22 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_a987203182de",
+      "title": "Terremoto de magnitude 6 atinge Afeganistão e Paquistão",
+      "description": "Um terremoto de forte intensidade foi sentido em Cabul e em regiões do norte do Paquistão neste sábado (27).",
+      "url": "https://santaportal.com.br/geral/terremoto-de-magnitude-6-atinge-afeganistao-e-paquistao/",
+      "source": "Santa Portal",
+      "sourceCanonical": "Santa Portal",
+      "sourceDomain": "santaportal.com.br",
+      "publishedAt": "2026-06-27T15:35:16+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d2cd4376a7e6",
@@ -146,104 +250,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_bd3726fa7143",
-      "title": "Terremoto de magnitude 6,0 atinge regiões do Afeganistão e Paquistão",
-      "description": "Um forte terremoto atingiu a região de Hindu Kush, no Afeganistão, neste sábado (27), informou o EMSC (Centro Sismológico Euro-Mediterrâneo)...",
-      "url": "https://www.cnnbrasil.com.br/internacional/terremoto-de-magnitude-60-atinge-regioes-do-afeganistao-e-paquistao/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-27T16:07:35+00:00",
-      "postedLabel": "36 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_1c728bdb3d20",
-      "title": "\"Foi muito forte e durou bastante tempo\": sismo de 6,1 na escala de Richter sentido no Afeganistão e no Paquistão",
-      "description": "Um sismo de magnitude 6,1 escala de Richter atingiu este sábado o leste do Afeganistão, segundo o Instituto de Estudos Geológicos dos...",
-      "url": "https://revista.tempo.co.mz/foi-muito-forte-e-durou-bastante-tempo-sismo-de-61-na-escala-de-richter-sentido-no-afeganistao-e-no-paquistao/",
-      "source": "revista.tempo.co.mz",
-      "sourceCanonical": "revista.tempo.co.mz",
-      "sourceDomain": "revista.tempo.co.mz",
-      "publishedAt": "2026-06-27T15:55:15+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_5d8ec8e55923",
-      "title": "Terremoto de magnitude 6 atinge Afeganistão e Paquistão",
-      "description": "De acordo com o Centro Sismológico Euro-Mediterrânico (EMSC), o abalo sísmico teve magnitude 6 e ocorreu na região do Hindu Kush, no...",
-      "url": "https://www.noticiasaominuto.com.br/mundo/2393652/terremoto-de-magnitude-6-atinge-afeganistao-e-paquistao",
-      "source": "Notícias ao Minuto Brasil",
-      "sourceCanonical": "Notícias ao Minuto Brasil",
-      "sourceDomain": "noticiasaominuto.com.br",
-      "publishedAt": "2026-06-27T14:28:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_ea5079274cdc",
-      "title": "Terremoto de magnitude 6 atinge Afeganistão",
-      "description": "Tremor foi sentido em Cabul e também em regiões do Paquistão; até o momento, não há registro oficial de mortos, feridos ou danos materiais.",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/terremoto-de-magnitude-6-atinge-afeganistao",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-06-27T15:45:30+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_c37a7d7111d5",
-      "title": "Sismo de 6.1 na escala de Richter sentido no Afeganistão e no Paquistão",
-      "description": "Epicentro foi localizado no nordeste do Afeganistão, a uma profundidade superior a 208 quilómetros.",
-      "url": "https://www.cmjornal.pt/mundo/detalhe/sismo-de-6-1-na-escala-de-richter-sentido-no-afeganistao-e-no-paquistao",
-      "source": "Correio da Manhã",
-      "sourceCanonical": "Correio da Manhã",
-      "sourceDomain": "cmjornal.pt",
-      "publishedAt": "2026-06-27T15:35:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_86d3a4a92a57",
-      "title": "Terremoto de magnitude 6.1 atinge Afeganistão",
-      "description": "Um terremoto de forte intensidade foi sentido em Cabul, no Afeganistão, e em regiões do norte do Paquistão neste sábado (27).",
-      "url": "https://oglobo.globo.com/mundo/noticia/2026/06/27/terremoto-atinge-afeganistao.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-06-27T14:13:20+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_234a865f2ced",
-      "title": "Terremoto de magnitude 6,1 atinge o Afeganistão e o Paquistão",
-      "description": "De acordo com jornalistas da AFP, o tremor abalou províncias do leste, incluindo Khost e Nangarhar e a capital paquistanesa, Islamabad.",
-      "url": "https://jovempan.com.br/mundo/terremoto-de-magnitude-61-atinge-o-afeganistao-e-o-paquistao/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-06-27T14:29:52+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_b1d689730501",
@@ -268,38 +274,38 @@
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-06-27T15:23:39+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
     {
-      "id": "article_1e670bbafa5a",
-      "title": "Terremoto de magnitude 6 atinge Afeganistão e Paquistão: entenda as consequências",
-      "description": "Um tremor de 6 graus no Afeganistão abalou o Paquistão, gerando pânico e incertezas.",
-      "url": "https://diariodoestadogo.com.br/terremoto-de-magnitude-6-atinge-afeganistao-e-paquistao-entenda-as-consequencias/",
-      "source": "Diário do Estado",
-      "sourceCanonical": "Diário do Estado",
-      "sourceDomain": "diariodoestadogo.com.br",
-      "publishedAt": "2026-06-27T15:41:16+00:00",
+      "id": "article_c37a7d7111d5",
+      "title": "Sismo de 6.1 na escala de Richter sentido no Afeganistão e no Paquistão",
+      "description": "Epicentro foi localizado no nordeste do Afeganistão, a uma profundidade superior a 208 quilómetros.",
+      "url": "https://www.cmjornal.pt/mundo/detalhe/sismo-de-6-1-na-escala-de-richter-sentido-no-afeganistao-e-no-paquistao",
+      "source": "Correio da Manhã",
+      "sourceCanonical": "Correio da Manhã",
+      "sourceDomain": "cmjornal.pt",
+      "publishedAt": "2026-06-27T15:35:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_7e8957193134",
-      "title": "Forte terremoto atinge o leste do Afeganistão",
-      "description": "Um terremoto de magnitude 6,1 atingiu o Afeganistão neste sábado (27), informou o Serviço Geológico dos Estados Unidos (USGS) e jornalistas...",
-      "url": "https://www.diariodepernambuco.com.br/mundo/2026/06/11717556-forte-terremoto-atinge-o-leste-do-afeganistao.html",
-      "source": "Diario de Pernambuco",
-      "sourceCanonical": "Diario de Pernambuco",
-      "sourceDomain": "diariodepernambuco.com.br",
-      "publishedAt": "2026-06-27T14:39:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_42533e147fd1",
+      "title": "Terremoto de magnitude 6 atinge o Afeganistão e Paquistão",
+      "description": "Um forte terremoto atingiu a região do Hindu Kush, no Afeganistão, neste sábado (27), provocando tremores que puderam ser sentidos desde a...",
+      "url": "https://noticias.r7.com/internacional/terremoto-de-magnitude-6-atinge-o-afeganistao-e-paquistao-27062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-27T16:45:44+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_b128fb29c395",
@@ -310,7 +316,7 @@
       "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-06-27T16:13:19+00:00",
-      "postedLabel": "30 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,14 +325,14 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.4,
+    "average": 5.47,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 11,
-      "centerRight": 1,
+      "center": 10,
+      "centerRight": 2,
       "right": 1,
       "unknown": 5
     }
