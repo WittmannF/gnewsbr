@@ -4,20 +4,26 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXem9HNUVSSG1KR2M2cHZfM3ppZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-3",
+    "topic-5",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 1,
+      "topic-5": 1
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 3,
+    "bestSeedRank": 1,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -27,15 +33,15 @@
   "topicKeywords": [
     "michelle",
     "flávio",
-    "vídeo",
     "bolsonaro",
+    "vídeo",
     "bolsonarismo",
     "crise"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/5385/live/542a55d0-71a1-11f1-91d4-ab93ad9f4654.jpg",
   "publishedAt": "2026-06-25T16:06:00+00:00",
-  "updatedAt": "2026-06-27T11:43:21.591630+00:00",
-  "sourceCount": 16,
+  "updatedAt": "2026-06-27T12:43:33.030468+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -47,7 +53,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-06-27T10:07:36+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/5385/live/542a55d0-71a1-11f1-91d4-ab93ad9f4654.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -61,10 +67,24 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-27T07:00:52+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/COXhd1ghA1V5mtz_2NhfvgKZfTM=/727x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/f/0/hVBCGvSkORJsrh5hAkiw/whatsapp-image-2026-06-24-at-22.28.37.jpeg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_3f90fd6c7b78",
+      "title": "O que se sabe sobre embate entre Michelle e Flávio Bolsonaro",
+      "description": "Conflito entre ex-primeira-dama e senador expõe racha no núcleo bolsonarista e estremece candidatura do filho de Jair Bolsonaro à...",
+      "url": "https://www.ihu.unisinos.br/667704-o-que-se-sabe-sobre-embate-entre-michelle-e-flavio-bolsonaro",
+      "source": "Instituto Humanitas Unisinos - IHU",
+      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "sourceDomain": "ihu.unisinos.br",
+      "publishedAt": "2026-06-27T12:07:10+00:00",
+      "postedLabel": "36 minutos atrás",
+      "imageUrl": "https://www.ihu.unisinos.br/images/ihu/2022/08/16_08_Michelle_Bolsonaro-Foto_Michel_Jesus_Camara_dos_Deputados.jpg",
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_2d97d6df3a8e",
@@ -89,8 +109,8 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-06-27T06:02:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true",
+      "postedLabel": "hoje",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -103,7 +123,7 @@
       "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-06-26T12:18:46+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -151,20 +171,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_4826efc93619",
-      "title": "Vídeo de Michelle reaproxima Malafaia de Flávio",
-      "description": "Silas Malafaia, que andava afastado de Flávio Bolsonaro, ligou para o Zero Um ainda na noite de quarta-feira, pouco após a divulgação do...",
-      "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/06/video-de-michelle-reaproxima-malafaia-de-flavio.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-06-27T10:22:20+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_e4a67a38efc4",
       "title": "A 1ª pesquisa AtlasIntel sobre o vídeo de Michelle contra Flávio Bolsonaro",
       "description": "O instituto também incluirá a ex-primeira-dama em cenários de primeiro e segundo turnos.",
@@ -173,7 +179,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-06-26T12:41:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -193,45 +199,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_41736259cb8a",
-      "title": "O balanço que a equipe de marketing de Flávio fez da briga com Michelle Bolsonaro",
-      "description": "De acordo com a campanha, a maioria das menções ao caso poupou o senador e teve Michelle como foco.",
-      "url": "https://veja.abril.com.br/politica/o-balanco-que-a-equipe-de-marketing-de-flavio-fez-da-briga-com-michelle-bolsonaro/",
+      "id": "article_976cff27ddee",
+      "title": "O timing de Michelle Bolsonaro para expor briga com Flávio nas redes sociais",
+      "description": "Levantamento da Ativaweb mostra explosão de engajamento em poucas horas e alta aprovação à ex-primeira-dama.",
+      "url": "https://veja.abril.com.br/politica/o-timming-de-michelle-bolsonaro-para-expor-briga-com-flavio-nas-redes-sociais/",
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-06-26T18:25:41+00:00",
+      "publishedAt": "2026-06-26T23:00:32+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_da976161807b",
-      "title": "Como a briga entre Michelle e Flávio expõe o bolsonarismo",
-      "description": "Embate nas redes mostra racha nas estratégias de campanha do grupo político. Ex-primeira dama diz que 'não é idiota' e é 'muito difícil'...",
-      "url": "https://www.nexojornal.com.br/expresso/2026/06/26/video-de-michele-bolsonaro-flavio-familia-bolsonaro",
-      "source": "Nexo Jornal",
-      "sourceCanonical": "Nexo Jornal",
-      "sourceDomain": "nexojornal.com.br",
-      "publishedAt": "2026-06-26T14:57:27+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_e9cd48e3cc0d",
-      "title": "Bate-boca com Flávio foi pior para Michelle, avaliam caciques partidários",
-      "description": "Líderes de três partidos acham que esposa do ex-presidente Jair Bolsonaro pode perder votos no Distrito Federal após desavença com Flávio.",
-      "url": "https://www.gazetadopovo.com.br/vozes/coluna-esplanada/discussao-michelle-bolsonaro-flavio-bolsonaro/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-06-26T16:33:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
@@ -263,34 +241,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_cd0543407555",
-      "title": "Valdemar sobre Michelle e Flávio: ‘Se não nos entendermos, vamos perder a eleição’",
-      "description": "O presidente nacional do PL, Valdemar Costa Neto, afirmou nesta quinta-feira, 25, que o partido precisa resolver o conflito entre Michelle...",
-      "url": "https://www.infomoney.com.br/politica/valdemar-sobre-michelle-e-flavio-se-nao-nos-entendermos-vamos-perder-a-eleicao/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-06-26T17:22:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_59272145946e",
-      "title": "Estadão aponta a podridão do bolsonarismo após confronto entre Flávio e Michelle",
-      "description": "Editorial afirma que a disputa interna da família Bolsonaro expõe um projeto político voltado à preservação do poder e não aos interesses do...",
-      "url": "https://www.brasil247.com/midia/estadao-aponta-a-podridao-do-bolsonarismo-apos-confronto-entre-flavio-e-michelle",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-06-27T07:08:02+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_98d2c8bb8120",
       "title": "Flávio é rifado pelo pai para evitar que a crise engula toda a família",
       "description": "São inúmeras as versões para o vídeo de Michelle Bolsonaro detonando o enteado. Por que divulgá-lo agora se o diálogo narrado ocorreu em...",
@@ -305,29 +255,85 @@
       "bucket": "center"
     },
     {
-      "id": "article_7bb3db0b9e7d",
-      "title": "Flávio diz que atrito com Michelle é “página virada” em Goiás",
-      "description": "Pré-candidato à Presidência participou de romaria em Trindade e afirmou que foi ao evento com “camiseta branca da paz”. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes/flavio-diz-que-atrito-com-michelle-e-pagina-virada-em-goias/",
+      "id": "article_cca1af171f3d",
+      "title": "Bia Kicis diz que vídeo de Michelle \"caiu como uma bomba\"",
+      "description": "Deputada afirma que atrito entre ex-primeira-dama e Flávio Bolsonaro deve ser superado após abertura para diálogo. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-partidos-politicos/bia-kicis-diz-que-video-de-michelle-caiu-como-uma-bomba/",
       "source": "Poder360",
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-06-27T00:59:57+00:00",
+      "publishedAt": "2026-06-25T20:44:50+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_341cabcc2746",
+      "title": "Pesquisa medirá impacto do vídeo de Michelle na candidatura de Flávio Bolsonaro",
+      "description": "Instituto AtlasIntel também questionou entrevistados sobre envolvimento de Jaques Wagner com o Banco Master e influência na campanha de...",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/rosane-de-oliveira/noticia/2026/06/pesquisa-medira-impacto-do-video-de-michelle-na-candidatura-de-flavio-bolsonaro-cmqvh0zap01ke015fj1twrrhc.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-06-26T22:00:19+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_9d1affa71333",
+      "title": "Valdemar sobre Michelle e Flávio Bolsonaro: “Se não nos entendermos, vamos perder a eleição”",
+      "description": "Presidente nacional do partido antecipa retorno ao Brasil para intermediar conflito.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/valdemar-sobre-michelle-e-flavio-bolsonaro-se-nao-nos-entendermos-vamos-perder-a-eleicao-1.1725965",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-06-26T21:37:41+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b53e814c09de",
+      "title": "PL e o desafio de uma vice mulher para Flávio Bolsonaro",
+      "description": "Cúpula do partido dobra aposta por estratégia, mas esbarra com desafio de nome fora da legenda.",
+      "url": "https://noticias.r7.com/prisma/r7-planalto/pl-e-o-desafio-de-uma-vice-mulher-para-flavio-bolsonaro-27062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-27T05:00:01+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_da976161807b",
+      "title": "Como a briga entre Michelle e Flávio expõe o bolsonarismo",
+      "description": "Embate nas redes mostra racha nas estratégias de campanha do grupo político. Ex-primeira dama diz que 'não é idiota' e é 'muito difícil'...",
+      "url": "https://www.nexojornal.com.br/expresso/2026/06/26/video-de-michele-bolsonaro-flavio-familia-bolsonaro",
+      "source": "Nexo Jornal",
+      "sourceCanonical": "Nexo Jornal",
+      "sourceDomain": "nexojornal.com.br",
+      "publishedAt": "2026-06-26T14:57:27+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 9,
-    "average": 5.37,
+    "average": 5.32,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
-      "left": 3,
-      "centerLeft": 2,
+      "left": 2,
+      "centerLeft": 3,
       "center": 8,
       "centerRight": 5,
       "right": 1,
@@ -337,7 +343,7 @@
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
