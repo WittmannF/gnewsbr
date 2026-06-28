@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2dWRLdUVSSFZURnhhNkpUSGtDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2dWRLdUVSSFZURnhhNkpUSGtDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 2
+      "topic-5": 8,
+      "topic-7": 4
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 8,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,15 +27,15 @@
   "topicKeywords": [
     "ucrânia",
     "rússia",
-    "ataques",
     "ataca",
-    "crimeia",
-    "drones"
+    "drones",
+    "ataques",
+    "crimeia"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2025binary_LYNXMPEL7A0MV-BASEIMAGE.jpg?w=800&h=534&crop=1",
-  "publishedAt": "2026-06-22T12:39:08+00:00",
-  "updatedAt": "2026-06-28T14:55:16.498786+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-06-22T11:20:22+00:00",
+  "updatedAt": "2026-06-28T15:47:21.710785+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -46,20 +49,6 @@
       "publishedAt": "2026-06-28T08:28:22+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2025binary_LYNXMPEL7A0MV-BASEIMAGE.jpg?w=800&h=534&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d855b2fc5b54",
-      "title": "Ataques da Ucrânia deixam Crimeia em crise e pressionam Putin",
-      "description": "Ofensiva com drones tem provocado cortes generalizados de energia e escassez de combustível.",
-      "url": "https://www.cnnbrasil.com.br/internacional/ataques-da-ucrania-deixam-crimeia-em-crise-e-pressionam-putin/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-28T07:00:06+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/ataque-da-ucrania-na-crimeia.jpeg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -96,12 +85,12 @@
       "title": "Autoridades russas da Crimeia declaram estado de emergência",
       "description": "Após semanas de intensos ataques aéreos executados pela Ucrânia, península ocupada pela Rússia desde 2014 tem lidado com grave escassez de...",
       "url": "https://www.dw.com/pt-br/autoridades-russas-da-crimeia-declaram-emerg%C3%AAncia-em-meio-a-ataques-ucranianos/a-77728783",
-      "source": "dw.com",
+      "source": "DW.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-06-26T17:09:13+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://static.dw.com/image/77696049_6.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -120,12 +109,26 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_3f5499c782d0",
+      "title": "Crimeia decreta emergência após ataques da Ucrânia",
+      "description": "Governador local suspende venda de combustível e atividades ligadas ao turismo no começo do verão; Península anexada em 2014 tem importância...",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/06/crimeia-decreta-emergencia-apos-ataques-da-ucrania.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-06-26T12:14:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_ae342d960c39",
       "title": "Ucrânia atinge fábrica de armas após ataque russo matar duas pessoas",
       "description": "A Ucrânia afirmou ter usado durante a noite mísseis de cruzeiro FP-5 Flamingo para atingir a fábrica russa de armamento Titan-Barrikady,...",
       "url": "https://pt.euronews.com/my-europe/2026/06/27/ucrania-atinge-fabrica-de-armas-na-russia-enquanto-kiev-e-moscovo-trocam-ataques",
-      "source": "Euronews",
-      "sourceCanonical": "Euronews",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-06-27T11:42:02+00:00",
       "postedLabel": "ontem",
@@ -142,24 +145,10 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-28T13:07:43+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_3f5499c782d0",
-      "title": "Crimeia decreta emergência após ataques da Ucrânia",
-      "description": "Governador local suspende venda de combustível e atividades ligadas ao turismo no começo do verão; Península anexada em 2014 tem importância...",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/06/crimeia-decreta-emergencia-apos-ataques-da-ucrania.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-06-26T12:14:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_55abb4fde7f6",
@@ -174,20 +163,6 @@
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_023c3aa729ee",
-      "title": "Rússia diz ter abatido 660 drones em ofensiva recorde da Ucrânia",
-      "description": "Ataque atingiu mais de 10 regiões russas e danificou fábrica apontada por Kiev como estratégica para a produção de explosivos.",
-      "url": "https://www.metropoles.com/mundo/russia-abatido-660-drones-ucrania",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-06-26T21:05:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_b6d49b73af8e",
@@ -226,10 +201,24 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-06-28T12:21:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_023c3aa729ee",
+      "title": "Rússia diz ter abatido 660 drones em ofensiva recorde da Ucrânia",
+      "description": "Ataque atingiu mais de 10 regiões russas e danificou fábrica apontada por Kiev como estratégica para a produção de explosivos.",
+      "url": "https://www.metropoles.com/mundo/russia-abatido-660-drones-ucrania",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-06-26T21:05:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_59f234b37941",
@@ -246,6 +235,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_7cf248815abc",
+      "title": "Rússia sofre uma pressão grosseira e sem precedentes das elites ocidentais, diz Putin",
+      "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/06/28/930036-russia-sofre-uma-pressao-grosseira-e-sem-precedentes-das-elites-ocidentais-diz-putin",
+      "source": "Tribuna do Sertão",
+      "sourceCanonical": "Tribuna do Sertão",
+      "sourceDomain": "tribunadosertao.com.br",
+      "publishedAt": "2026-06-28T13:33:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_3bbbbdca1cb0",
       "title": "Ucrânia ataca complexo industrial em Volgogrado; drone russo mata homem em Sumy",
       "description": "A Ucrânia intensificou seus ataques aéreos de longo alcance contra indústrias militares e instalações de energia da Rússia, com o objetivo...",
@@ -257,20 +260,6 @@
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_000c7fa528d2",
-      "title": "Momento atual é decisivo para o país e a Rússia não pode ser derrotada no campo de batalha, afirma Putin",
-      "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
-      "url": "https://www.tribunadosertao.com.br/geral/2026/06/28/930038-momento-atual-e-decisivo-para-o-pais-e-a-russia-nao-pode-ser-derrotada-no-campo-de-batalha-afirma-putin",
-      "source": "Tribuna do Sertão",
-      "sourceCanonical": "Tribuna do Sertão",
-      "sourceDomain": "tribunadosertao.com.br",
-      "publishedAt": "2026-06-28T13:07:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -314,18 +303,32 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_5c1ac3559269",
+      "title": "Enxames de drones ucranianos expõem fraquezas da Rússia",
+      "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
+      "url": "https://www.ihu.unisinos.br/667439-enxames-de-drones-ucranianos-expoem-fraquezas-da-russia",
+      "source": "Instituto Humanitas Unisinos - IHU",
+      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "sourceDomain": "ihu.unisinos.br",
+      "publishedAt": "2026-06-22T11:20:22+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 3,
     "max": 9,
-    "average": 5.33,
+    "average": 5.22,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 0,
-      "centerLeft": 4,
-      "center": 10,
+      "centerLeft": 5,
+      "center": 9,
       "centerRight": 3,
       "right": 1,
       "unknown": 2
