@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 31
+      "topic-3": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "chuva",
     "domingo",
     "semana",
+    "tempo",
     "região",
-    "previsão",
-    "frio"
+    "previsão"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/orCY9IHiJYqJRLMQe_-apZ2z_W8=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/K/wlSTxvTxCjFF827oJPAg/g1-4-.png",
-  "publishedAt": "2026-06-18T07:00:00+00:00",
-  "updatedAt": "2026-06-28T18:40:34.270004+00:00",
+  "publishedAt": "2026-06-19T12:39:00+00:00",
+  "updatedAt": "2026-06-28T19:44:57.891412+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -232,6 +232,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_ced69acb8657",
+      "title": "Oscilação entre chuva e tempo seco marca próximos dias no RS",
+      "description": "Na próxima semana, o tempo deverá oscilar entre instável e estável em todo o território gaúcho. É o que prevê o Boletim Integrado...",
+      "url": "https://www.agricultura.rs.gov.br/oscilacao-entre-chuva-e-tempo-seco-marca-proximos-dias-no-rs",
+      "source": "Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação",
+      "sourceCanonical": "Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação",
+      "sourceDomain": "agricultura.rs.gov.br",
+      "publishedAt": "2026-06-19T12:39:00+00:00",
+      "postedLabel": "9 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_afb16c0537eb",
       "title": "Not��cias - Chuva intensa marca o domingo em Crissiumal e região",
       "description": "Cidade da região já registra 200mm de acumulado. A chuva segue intensa desde a madrugada deste domingo (28) em Crissiumal,...",
@@ -240,7 +254,7 @@
       "sourceCanonical": "Guia Crissiumal",
       "sourceDomain": "guiacrissiumal.com.br",
       "publishedAt": "2026-06-28T12:46:53+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,42 +314,28 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_c89c08060e18",
-      "title": "Defesa Civil alerta para chuva, frio e riscos no RS em entrevista no estúdio",
-      "description": "A meteorologista da Defesa Civil do Rio Grande do Sul, Cátia Valente, esteve nos estúdios para falar sobre os impactos do clima no estado.",
-      "url": "https://noticias.r7.com/rio-grande-do-sul/defesa-civil-alerta-para-chuva-frio-e-riscos-no-rs-em-entrevista-no-estudio-18062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-18T07:00:00+00:00",
-      "postedLabel": "10 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 10,
-    "average": 6.33,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 6.2,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 4,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 1,
-      "unknown": 14
+      "unknown": 15
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 40,
+    "spectrumBalance": 72,
     "headlineDivergence": 85,
-    "confidence": 93
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",

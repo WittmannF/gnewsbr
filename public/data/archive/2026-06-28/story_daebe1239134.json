@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pNeGFlOUVSR3lJcFdibzh4ZEdDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pNeGFlOUVSR3lJcFdibzh4ZEdDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 11
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 13
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 11,
-    "bestSeedRank": 11,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Avião cai em Tomblaine e deixa 11 mortos no nordeste francês",
   "summary": "Aeronave pertencia a uma escola de paraquedismo. O piloto e os dez passageiros — cinco alunos e cinco instrutores — morreram no acidente,...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/YlwuPxPGUuifAsCu-IrWS4ciAhg=/1280x0/filters:format(jpeg)/https://s04.video.glbimg.com/x720/992055.jpg",
   "publishedAt": "2026-06-28T08:59:00+00:00",
-  "updatedAt": "2026-06-28T18:46:48.293687+00:00",
+  "updatedAt": "2026-06-28T19:42:28.845963+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,20 +70,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_1f79252a6e9d",
-      "title": "Queda de avião mata 11 pessoas em Nancy, Nordeste de França",
-      "description": "De acordo com o prefeito de Meurthe-et-Moselle, todos os ocupantes do avião morreram: o piloto, cinco instrutores de paraquedismo e cinco...",
-      "url": "https://www.publico.pt/2026/06/28/mundo/noticia/aviao-transportava-paraquedistas-cai-nancy-nordeste-franca-2179733",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-06-28T11:21:47+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_6d55a39ea69c",
       "title": "Avião cai na França e deixa 11 mortos",
       "description": "Aeronave pertencia à escola de paraquedismo e transportava alunos e instrutores em voo; todos a bordo morreram.",
@@ -92,6 +84,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_1f79252a6e9d",
+      "title": "Queda de avião mata 11 pessoas em Nancy, Nordeste de França",
+      "description": "De acordo com o prefeito de Meurthe-et-Moselle, todos os ocupantes do avião morreram: o piloto, cinco instrutores de paraquedismo e cinco...",
+      "url": "https://www.publico.pt/2026/06/28/mundo/noticia/aviao-transportava-paraquedistas-cai-nancy-nordeste-franca-2179733",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-06-28T11:21:47+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_01f39d886b0a",
       "title": "Avião cai na França e mata 11 pessoas",
       "description": "Um avião de paraquedismo caiu no nordeste da França neste domingo, 28, matando todas as 11 pessoas a bordo, informou o governante da região.",
@@ -100,7 +106,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-06-28T13:12:55+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -115,20 +121,6 @@
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-06-28T12:01:15+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_1ccb2be23557",
-      "title": "Avião Pilatus com paraquedistas cai na França e deixa 11 mortos",
-      "description": "Queda de um Pilatus PC-6 Turbo Porter após decolagem na França deixa 11 mortos; causas do acidente serão investigadas pelas autoridades.",
-      "url": "https://aeroin.net/aviao-pilatus-com-paraquedistas-cai-na-franca-e-deixa-11-mortos/",
-      "source": "AEROIN",
-      "sourceCanonical": "AEROIN",
-      "sourceDomain": "aeroin.net",
-      "publishedAt": "2026-06-28T13:53:35+00:00",
-      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -156,10 +148,24 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-06-28T13:41:07+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_49a8e272cbb8",
+      "title": "Onze pessoas morrem em acidente aéreo no nordeste da França",
+      "description": "Onze ‌pessoas, incluindo um piloto e dez paraquedistas, morreram quando uma pequena aeronave caiu na cidade de Tomblaine, no nordeste da...",
+      "url": "https://www.terra.com.br/noticias/mundo/onze-pessoas-morrem-em-acidente-aereo-no-nordeste-da-franca,b6775b7f2181df14287dcd6d48ea1e57y9lt14ov.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-06-28T15:01:37+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_858e002774d2",
@@ -176,18 +182,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_49a8e272cbb8",
-      "title": "Onze pessoas morrem em acidente aéreo no nordeste da França",
-      "description": "Onze ‌pessoas, incluindo um piloto e dez paraquedistas, morreram quando uma pequena aeronave caiu na cidade de Tomblaine, no nordeste da...",
-      "url": "https://www.terra.com.br/noticias/mundo/onze-pessoas-morrem-em-acidente-aereo-no-nordeste-da-franca,b6775b7f2181df14287dcd6d48ea1e57y9lt14ov.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-06-28T15:01:37+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_1ccb2be23557",
+      "title": "Avião Pilatus com paraquedistas cai na França e deixa 11 mortos",
+      "description": "Queda de um Pilatus PC-6 Turbo Porter após decolagem na França deixa 11 mortos; causas do acidente serão investigadas pelas autoridades.",
+      "url": "https://aeroin.net/aviao-pilatus-com-paraquedistas-cai-na-franca-e-deixa-11-mortos/",
+      "source": "AEROIN",
+      "sourceCanonical": "AEROIN",
+      "sourceDomain": "aeroin.net",
+      "publishedAt": "2026-06-28T13:53:35+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_46cef6560eb4",
@@ -198,7 +204,7 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-06-28T13:36:24+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -212,7 +218,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-06-28T14:10:38+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -222,14 +228,14 @@
       "title": "Queda de avião civil deixa 11 mortos na França",
       "description": "Um avião civil que transportava paraquedistas em seu primeiro voo caiu neste domingo (28) perto da cidade francesa de Tomblaine e matou...",
       "url": "https://odia.ig.com.br/mundo-e-ciencia/2026/06/7270563-queda-de-aviao-civil-deixa-11-mortos-na-franca.html",
-      "source": "O Dia",
-      "sourceCanonical": "O Dia",
+      "source": "odia.ig.com.br",
+      "sourceCanonical": "odia.ig.com.br",
       "sourceDomain": "odia.ig.com.br",
       "publishedAt": "2026-06-28T13:34:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f2c40b95f6a8",
@@ -254,7 +260,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-06-28T13:12:25+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -296,7 +302,7 @@
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-06-28T13:39:52+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 3,
     "max": 8,
-    "average": 5.31,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.33,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 9,
+      "center": 8,
       "centerRight": 2,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
