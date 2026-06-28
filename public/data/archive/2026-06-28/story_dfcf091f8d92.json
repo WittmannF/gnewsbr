@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLdjYyNEVSR2hISlV0QUZjUENDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLdjYyNEVSR2hISlV0QUZjUENDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 23
+      "topic-3": 23,
+      "topic-5": 29
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 23,
@@ -26,12 +29,12 @@
     "rope",
     "morte",
     "jovem",
-    "pede",
-    "investigação"
+    "salto",
+    "pede"
   ],
   "imageUrl": "https://midias.correio24horas.com.br/2026/06/13/maria-eduarda-foi-lancada-sem-cordas-3304076.jpg",
   "publishedAt": "2026-06-19T07:00:00+00:00",
-  "updatedAt": "2026-06-28T20:40:15.731377+00:00",
+  "updatedAt": "2026-06-28T21:35:12.775975+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -288,20 +291,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_0d7f4652ce59",
-      "title": "MPSP pede investigação sobre ataques à vítima de rope jump",
-      "description": "Ministério Público quer identificar perfis que divulgaram mensagens misóginas e de ódio após a tragédia.",
-      "url": "https://www.brasil247.com/regionais/sudeste/mpsp-pede-investigacao-sobre-ataques-a-vitima-de-rope-jump",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-06-27T00:41:32+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_0c9556265db3",
       "title": "Federação cobra medidas para reforçar segurança no turismo de aventura",
       "description": "Em ofícios enviados ao Ministério do Turismo e à Secretaria de Estado de Turismo e Viagens, Fhoresp defende ampliação da fiscalização,...",
@@ -314,27 +303,41 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_6a35211a1c40",
+      "title": "'Minha função era viralizar nas redes', diz dona de grupo de rope jump após morte de jovem em salto",
+      "description": "Dona do grupo de rope jump investigado pela morte de uma jovem em Limeira disse à polícia que sua função era recepcionar clientes e...",
+      "url": "https://tribunadoplanalto.com.br/minha-funcao-era-viralizar-nas-redes-diz-dona-de-grupo-de-rope-jump-apos-morte-de-jovem-em-salto/",
+      "source": "Tribuna do Planalto",
+      "sourceCanonical": "Tribuna do Planalto",
+      "sourceDomain": "tribunadoplanalto.com.br",
+      "publishedAt": "2026-06-26T18:30:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 8,
-    "average": 4.86,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.15,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
