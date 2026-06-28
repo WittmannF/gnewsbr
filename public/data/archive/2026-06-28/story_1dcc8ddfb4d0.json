@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0a3VlNkVSSGtQaFFzbHZhVnBDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0a3VlNkVSSGtQaFFzbHZhVnBDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 4,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 5,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "José Ricardo Ramos desaparece após mergulho em São Conrado",
   "summary": "Ricardo Ramos diz que busca casal que estava na praia na madrugada do desaparecimento para ajudar a reconstituir os últimos momentos do pai.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/NnNgOvMHJUYSHde9vvASqoNw9sI=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/p/m/LhKJtgRA6FXRmHTVx6xg/whatsapp-image-2026-06-28-at-12.43.03-1-.jpeg",
   "publishedAt": "2026-06-25T20:02:44+00:00",
-  "updatedAt": "2026-06-28T19:43:23.919205+00:00",
+  "updatedAt": "2026-06-28T20:37:44.698824+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-06-28T15:14:23+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/NnNgOvMHJUYSHde9vvASqoNw9sI=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/p/m/LhKJtgRA6FXRmHTVx6xg/whatsapp-image-2026-06-28-at-12.43.03-1-.jpeg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -85,14 +91,14 @@
       "title": "Bombeiros buscam por professor de surfe desaparecido no mar de São Conrado",
       "description": "José Ricardo Ramos, conhecido como Bocão, entrou na água na última quarta (24) e não foi mais visto.",
       "url": "https://odia.ig.com.br/rio-de-janeiro/2026/06/7269777-bombeiros-buscam-por-professor-de-surfe-desaparecido-no-mar-de-sao-conrado.html",
-      "source": "odia.ig.com.br",
-      "sourceCanonical": "odia.ig.com.br",
+      "source": "O Dia",
+      "sourceCanonical": "O Dia",
       "sourceDomain": "odia.ig.com.br",
       "publishedAt": "2026-06-26T11:36:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://odia.ig.com.br/_midias/jpg/2026/06/26/1200x1920/1_buscas-38938161.jpg?20260626110824",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_c766e7132a96",
@@ -103,10 +109,24 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-06-25T20:02:44+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F06-25-2026%2Ft_1def7e6f6dca48829fd05c01b5f03a60_name_Captura_de_tela_2026_06_25_163338.png?smart=true&auth=b9df8bd08233fa36a3f4a6e9185b2dea8b5aaa664ff6de37639d569fdd8d5943&width=1200&height=630",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_bfcf9b99edcf",
+      "title": "Corpo é encontrado no costão da Avenida Niemeyer",
+      "description": "O Corpo de Bombeiros localizou, na manhã deste domingo (28), um corpo no costão da Avenida Niemeyer, na Zona Sul do Rio de Janeiro.",
+      "url": "https://atribunarj.com.br/materia/corpo-e-encontrado-no-costao-da-avenida-niemeyer",
+      "source": "A Tribuna RJ",
+      "sourceCanonical": "A Tribuna RJ",
+      "sourceDomain": "atribunarj.com.br",
+      "publishedAt": "2026-06-28T14:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_15b1c3a57de6",
@@ -127,14 +147,14 @@
       "title": "Corpo de homem é encontrado no Costão da Niemeyer",
       "description": "A vítima foi localizada na manhã deste domingo (28) e levada ao IML do Centro do Rio para identificação.",
       "url": "https://odia.ig.com.br/rio-de-janeiro/2026/06/7270572-corpo-de-homem-e-encontrado-no-costao-da-niemeyer.html",
-      "source": "odia.ig.com.br",
-      "sourceCanonical": "odia.ig.com.br",
+      "source": "O Dia",
+      "sourceCanonical": "O Dia",
       "sourceDomain": "odia.ig.com.br",
       "publishedAt": "2026-06-28T14:41:25+00:00",
       "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_7455eb1d930d",
@@ -163,20 +183,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_488ce0e7595f",
-      "title": "Corpo é encontrado no costão da Avenida Niemeyer",
-      "description": "O Corpo de Bombeiros localizou, na manhã deste domingo (28), um corpo no costão da Avenida Niemeyer, na Zona Sul do Rio de Janeiro.",
-      "url": "https://www.atribunarj.com.br/materia/corpo-e-encontrado-no-costao-da-avenida-niemeyer",
-      "source": "A Tribuna RJ",
-      "sourceCanonical": "A Tribuna RJ",
-      "sourceDomain": "atribunarj.com.br",
-      "publishedAt": "2026-06-28T14:30:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_ac51088fa6a5",
@@ -215,7 +221,7 @@
       "sourceCanonical": "Enfoco",
       "sourceDomain": "enfoco.com.br",
       "publishedAt": "2026-06-28T17:12:29+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -229,7 +235,7 @@
       "sourceCanonical": "rio press",
       "sourceDomain": "riopress.com.br",
       "publishedAt": "2026-06-28T17:23:44+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -285,7 +291,7 @@
       "sourceCanonical": "Extra",
       "sourceDomain": "extra.globo.com",
       "publishedAt": "2026-06-28T15:24:20+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -313,7 +319,7 @@
       "sourceCanonical": "Povo na Rua",
       "sourceDomain": "povonarua.com.br",
       "publishedAt": "2026-06-25T20:06:47+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -322,16 +328,16 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.33,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 9,
+      "center": 11,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 8
     }
   },
   "scores": {
