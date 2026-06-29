@@ -3,25 +3,31 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkeVptNUVSSFNuWVRHSGhWOXFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkeVptNUVSSFNuWVRHSGhWOXFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2,
-      "topic-5": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 1,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Lula e Flávio Bolsonaro em pesquisa",
+  "title": "Pesquisa BTG/Nexus: Lula lidera primeiro turno com 42%",
   "summary": "Senador diminui desvantagem numérica e está em situação de empate técnico com o atual presidente, segundo o levantamento.",
   "topic": "Lula · Flávio",
   "topicKeywords": [
@@ -33,8 +39,8 @@
     "bolsonaro"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/02/Eleicao.jpg",
-  "publishedAt": "2026-06-20T07:00:00+00:00",
-  "updatedAt": "2026-06-29T13:46:43.251177+00:00",
+  "publishedAt": "2026-06-26T03:00:37+00:00",
+  "updatedAt": "2026-06-29T15:20:24.139827+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-06-29T10:17:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/02/Eleicao.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -67,20 +73,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_4d7b2261f399",
-      "title": "BTG/Nexus: Lula e Flávio têm empate técnico no 2º turno, com 47% e 44% dos votos",
-      "description": "O presidente Lula (PT) lidera numericamente todos os cenários de segundo turno testados pela pesquisa BTG/Nexus, divulgada hoje,...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/06/29/lula-tem-47-contra-44-de-flavio-bolsonaro-no-2-turno-em-empate-tecnico-aponta-btgnexus.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-06-29T10:30:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_52c3e0572bf0",
       "title": "Nexus/BTG Pactual divulga nova pesquisa para presidente",
       "description": "Pesquisa divulgada pela Nexus e pelo BTG Pactual mostra a intenção de voto para presidente da República em 2026. Leia na Gazeta do Povo.",
@@ -89,10 +81,24 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-06-29T09:20:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://media.gazetadopovo.com.br/2026/06/27120240/pesquisa-presidente-1280x720-1-1-4.png",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_98e0458fb9d7",
+      "title": "Análise: pesquisa demonstra abstenção como forte adversária de Lula",
+      "description": "Vantagem de petista sobre Flávio Bolsonaro cai de três para um ponto percentual quando se consideram apenas os eleitores que votaram nas...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/analise-pesquisa-demonstra-abstencao-como-forte-adversaria-de-lula/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-06-29T13:23:51+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/55345493581_588bd6d7b5_o.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_231b46ecc005",
@@ -109,6 +115,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_8a8050460d70",
+      "title": "BTG/Nexus: Lula e Flávio Bolsonaro voltam a empatar, com 47% a 44% no 2º turno",
+      "description": "Diferença entre petista e senador vai de 6 para 3 pontos percentuais em junho.",
+      "url": "https://www1.folha.uol.com.br/poder/2026/06/btgnexus-lula-e-flavio-bolsonaro-voltam-a-empatar-com-47-a-44-no-2o-turno.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-06-29T11:27:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_2fc7016e2fb9",
       "title": "Flávio volta a empatar com Lula no 2º turno, aponta pesquisa BTG/Nexus",
       "description": "O presidente Lula lidera os cenários de primeiro turno da eleição presidencial de 2026, mas voltou a empatar tecnicamente com Flávio...",
@@ -117,24 +137,10 @@
       "sourceCanonical": "Congresso em Foco",
       "sourceDomain": "congressoemfoco.com.br",
       "publishedAt": "2026-06-29T10:35:39+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_10f5d314ce60",
-      "title": "Datafolha: Lula mantém vantagem com 47% no 2º turno contra 43% de Flávio",
-      "description": "Pesquisa mostra que senador estancou por ora desgaste com 'Dark Horse', enquanto caso Master chega ao PT.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/06/datafolha-lula-mantem-vantagem-com-41-no-1o-turno-contra-31-de-flavio.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-06-20T07:00:00+00:00",
-      "postedLabel": "9 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_14394a62bcc7",
@@ -145,66 +151,10 @@
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-06-29T11:00:29+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_b30c088e4a46",
-      "title": "Análise: pesquisa demonstra abstenção como forte adversária de Lula",
-      "description": "Vantagem de petista sobre Flávio Bolsonaro cai de três para um ponto percentual quando se consideram apenas os eleitores que votaram nas...",
-      "url": "https://www.cnnbrasil.com.br/politica/analise-pesquisa-demonstra-abstencao-como-forte-adversaria-de-lula/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-06-29T13:23:51+00:00",
-      "postedLabel": "22 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_bbff73fda709",
-      "title": "BTG/Nexus: Lula lidera no 1º e no 2º turno contra Flávio Bolsonaro",
-      "description": "Levantamento aponta que o atual presidente possui 42% no primeiro turno e 47% em eventual disputa direta contra o senador.",
-      "url": "https://jovempan.com.br/politica/btg-nexus-lula-lidera-no-1o-e-2o-turnos-contra-flavio-bolsonaro-2/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-06-29T09:34:36+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_b3782c30dd10",
-      "title": "Lula e Flávio empatam no 2º turno, diz Nexus",
-      "description": "Pesquisa entrevistou 2.009 pessoas de 26 a 28 de junho de 2026. A margem de erro é 2 pontos percentuais, para mais ou para menos. Leia no...",
-      "url": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-2o-turno-diz-nexus/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-06-29T10:54:09+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_10efceb6b60d",
-      "title": "Lula tem 47% das intenções de voto em cenário de 2º turno; Flávio tem 44%, mostra pesquisa",
-      "description": "Levantamento BTG/Nexus mostra que atual presidente petista registra 42% dos votos na simulação de primeiro turno, contra 34% do senador do...",
-      "url": "https://www.estadao.com.br/politica/lula-tem-47-das-intencoes-de-voto-em-cenario-de-2-turno-flavio-tem-44-mostra-pesquisa/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-06-29T10:13:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_9401d41fe6e4",
@@ -215,10 +165,52 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-06-29T12:20:50+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_bbff73fda709",
+      "title": "BTG/Nexus: Lula lidera no 1º e no 2º turno contra Flávio Bolsonaro",
+      "description": "Levantamento aponta que o atual presidente possui 42% no primeiro turno e 47% em eventual disputa direta contra o senador.",
+      "url": "https://jovempan.com.br/politica/btg-nexus-lula-lidera-no-1o-e-2o-turnos-contra-flavio-bolsonaro-2/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-06-29T09:34:36+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_10efceb6b60d",
+      "title": "Lula tem 47% das intenções de voto em cenário de 2º turno; Flávio tem 44%, mostra pesquisa",
+      "description": "Levantamento BTG/Nexus mostra que atual presidente petista registra 42% dos votos na simulação de primeiro turno, contra 34% do senador do...",
+      "url": "https://www.estadao.com.br/politica/lula-tem-47-das-intencoes-de-voto-em-cenario-de-2-turno-flavio-tem-44-mostra-pesquisa/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-06-29T10:13:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_b3782c30dd10",
+      "title": "Lula e Flávio empatam no 2º turno, diz Nexus",
+      "description": "Pesquisa entrevistou 2.009 pessoas de 26 a 28 de junho de 2026. A margem de erro é 2 pontos percentuais, para mais ou para menos. Leia no...",
+      "url": "https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-2o-turno-diz-nexus/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-06-29T10:54:48+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_474304568be0",
@@ -229,7 +221,7 @@
       "sourceCanonical": "JOTA",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-06-29T12:56:38+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -243,7 +235,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-06-29T11:36:13+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -257,7 +249,21 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-06-29T13:03:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_92b81f491fc1",
+      "title": "Lula tem 47% contra 44% de Flávio Bolsonaro no segundo turno, em empate técnico, aponta BTG/Nexus",
+      "description": "O presidente Luiz Inácio Lula da Silva (PT) lidera numericamente todos os cenários de segundo turno testados pela pesquisa BTG/Nexus,...",
+      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/06/lula-tem-47-contra-44-de-flavio-bolsonaro-no-segundo-turno-em-empate-tecnico-aponta-btg-nexus-cmqz6j2lq001r015to9yalo4u.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-06-29T12:16:44+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -271,7 +277,7 @@
       "sourceCanonical": "O Tempo",
       "sourceDomain": "otempo.com.br",
       "publishedAt": "2026-06-29T09:00:02+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -285,7 +291,7 @@
       "sourceCanonical": "PlatôBR",
       "sourceDomain": "platobr.com.br",
       "publishedAt": "2026-06-29T10:25:26+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -313,7 +319,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-06-29T11:41:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
