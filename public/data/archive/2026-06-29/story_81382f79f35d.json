@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkeVptNUVSSFNuWVRHSGhWOXFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkeVptNUVSSFNuWVRHSGhWOXFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 2,
-      "topic-5": 6
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula e Flávio Bolsonaro empatam tecnicamente em pesquisa BTG/Nexus",
   "summary": "Senador diminui desvantagem numérica e está em situação de empate técnico com o atual presidente, segundo o levantamento.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/02/Eleicao.jpg",
   "publishedAt": "2026-06-28T18:02:00+00:00",
-  "updatedAt": "2026-06-29T21:43:39.360231+00:00",
+  "updatedAt": "2026-06-29T22:34:18.102337+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -61,24 +67,10 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-06-29T16:01:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/2KPNT4FYUNDZFKLSEMIGUFOTUE.png?quality=80&auth=43b958b026f3b28fcd21c22fe24206ec8515e94704d6422b80a141f801bd59ae&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_7feb7e778294",
-      "title": "Datafolha divulga pesquisa presidencial com eleitores de SP e intenções de voto para governo do estado e Senado a partir de domingo (5)",
-      "description": "Levantamento medirá intenções de voto de pré-candidatos, além da avaliação dos governos do presidente Lula (PT) e do governador Tarcísio de...",
-      "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/06/29/datafolha-presidente-eleitores-sp-governo-do-estado-senado.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-06-29T20:25:08+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_82d11b04f6d7",
@@ -104,9 +96,23 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-06-29T09:20:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/06/27120240/pesquisa-presidente-1280x720-1-1-4.png",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_7feb7e778294",
+      "title": "Datafolha divulga a partir de domingo (5) pesquisa presidencial com eleitores de SP e intenções de voto para governo do estado e Senado",
+      "description": "O Datafolha realiza nesta semana uma pesquisa com as intenções de voto dos eleitores do estado de São Paulo para a disputa presidencial.",
+      "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/06/29/datafolha-presidente-eleitores-sp-governo-do-estado-senado.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-06-29T20:25:08+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8a8050460d70",
@@ -165,20 +171,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_eadd4b41c475",
-      "title": "O ‘fator Michelle’ que será contabilizado nas próximas pesquisas, segundo cientista político",
-      "description": "Marco Antonio Teixeira avalia que interrupção de queda de Flávio nas pesquisas é sinal positivo para senador, mas que novos fatores podem...",
-      "url": "https://veja.abril.com.br/brasil/o-fator-michelle-que-sera-contabilizado-nas-proximas-pesquisas-segundo-cientista-politico/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-06-29T16:47:25+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_98e0458fb9d7",
       "title": "Análise: pesquisa demonstra abstenção como forte adversária de Lula",
       "description": "Vantagem de petista sobre Flávio Bolsonaro cai de três para um ponto percentual quando se consideram apenas os eleitores que votaram nas...",
@@ -191,6 +183,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_eadd4b41c475",
+      "title": "O ‘fator Michelle’ que será contabilizado nas próximas pesquisas, segundo cientista político",
+      "description": "Marco Antonio Teixeira avalia que interrupção de queda de Flávio nas pesquisas é sinal positivo para senador, mas que novos fatores podem...",
+      "url": "https://veja.abril.com.br/brasil/o-fator-michelle-que-sera-contabilizado-nas-proximas-pesquisas-segundo-cientista-politico/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-06-29T16:47:25+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_bbff73fda709",
@@ -257,7 +263,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-06-29T16:58:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
