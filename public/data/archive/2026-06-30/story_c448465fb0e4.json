@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lfMnI2OUVSRkRSVDBSaWVJUTRTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lfMnI2OUVSRkRSVDBSaWVJUTRTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Luiz Inácio Lula da Silva participa da Cúpula do Mercosul",
   "summary": "Brasil elevará contribuição ao Focem por dez anos e busca pressionar demais integrantes do bloco a ampliar contribuições.",
@@ -26,12 +32,12 @@
     "lula",
     "cúpula",
     "paraguai",
-    "anuncia",
-    "milhões"
+    "participa",
+    "anuncia"
   ],
   "imageUrl": "https://cdn.brasil247.com/pb-b247gcp/swp/jtjeq9/media/20260428190420_74ad880f-702d-45d9-aec4-3c9a16fb7262.jpg",
   "publishedAt": "2026-06-26T19:51:26+00:00",
-  "updatedAt": "2026-06-30T13:04:48.409305+00:00",
+  "updatedAt": "2026-06-30T13:48:19.807344+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,24 +64,24 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-06-30T12:29:18+00:00",
-      "postedLabel": "35 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_412d68650449",
-      "title": "Lula vai ao Paraguai participar da 68ª Cúpula do Mercosul",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) participa nesta terça-feira 30 da 68ª Cúpula de Chefes de Estado do Mercosul e Estados...",
-      "url": "https://www.cartacapital.com.br/politica/lula-vai-ao-paraguai-participar-da-68a-cupula-do-mercosul/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-06-30T12:13:00+00:00",
+      "id": "article_03f5e0b5bc73",
+      "title": "Ao vivo: Lula participa da 68ª Cúpula do Mercosul",
+      "description": "O presidente Luiz Inácio Lula da Silva (PT) participa nesta 3ª feira (30.jun.2026) da 68ª Cúpula do Mercosul, em Assunção, no Paraguai.",
+      "url": "https://www.poder360.com.br/poder-governo/ao-vivo-lula-participa-da-68a-cupula-do-mercosul/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-06-30T13:02:04+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/07/Lula-1.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "imageUrl": "https://static.poder360.com.br/uploads/2025/11/lula-mocambique-discurso-encontro-empresarial-848x477.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ae22dba1f1fd",
@@ -90,20 +96,6 @@
       "imageUrl": "https://media.gazetadopovo.com.br/2026/06/12222630/lula-foto-andre-borges-efe-17-1.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_22a54faf54d8",
-      "title": "Cúpula do Mercosul busca fortalecer integração regional",
-      "description": "Bloco quer aprofundar as negociações de acordos de livre-comércio em meio à escalada do protecionismo liderada pelos EUA.",
-      "url": "https://valor.globo.com/brasil/noticia/2026/06/30/cupula-do-mercosul-busca-fortalecer-integracao-regional.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-06-30T08:00:49+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_4bc64cdfa58a",
@@ -134,32 +126,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_28b4ece41c5c",
+      "id": "article_7b360b8ada63",
       "title": "Brasil anuncia US$ 100 milhões anuais para fundo do Mercosul",
-      "description": "Reforço no aporte busca reduzir desigualdades e financiar obras de integração para o bloco sul-americano.",
-      "url": "https://noticias.r7.com/brasilia/brasil-anuncia-us-100-milhoes-anuais-para-fundo-do-mercosul-30062026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-06-30T10:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "description": "O reforço no aporte busca reduzir desigualdades e financiar obras.",
+      "url": "https://www.cartacapital.com.br/economia/brasil-anuncia-us-100-milhoes-anuais-para-fundo-do-mercosul/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-06-29T23:00:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_f7ab40e062e6",
-      "title": "Agenda da semana: 6 X 1 no Senado e Lula na cúpula do Mercosul",
-      "description": "Semana terá encontro de Lula com líder do Governo no Senado e STF julga trechos da Lei de Improbidade Administrativa. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-governo/agenda-da-semana-6-x-1-no-senado-e-lula-no-mercosul/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-06-29T09:04:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_6e3dc5a25434",
@@ -170,7 +148,35 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-06-30T09:32:19+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_205627577d33",
+      "title": "Lula participa da cúpula do Mercosul e defende unidade do bloco",
+      "description": "O presidente Lula participa nesta terça-feira (30) da cúpula do Mercosul, em Assunção, no Paraguai, a primeira com maioria de governos de...",
+      "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/lula-participa-da-cupula-do-mercosul-e-defende-unidade-do-bloco-30062026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-06-30T03:58:58+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_232cb0f28dfb",
+      "title": "Paraguai recebe cúpula do Mercosul em meio a enfraquecimento de outros órgãos regionais",
+      "description": "Nesta terça (30), os presidentes dos Estados parte e associados vão se encontrar e o Paraguai passará a Presidência ao Uruguai.",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/06/1254360-paraguai-recebe-cupula-do-mercosul-em-meio-a-enfraquecimento-de-outros-orgaos-regionais.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-06-29T22:24:42+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -184,20 +190,6 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-06-29T14:17:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_232cb0f28dfb",
-      "title": "Paraguai recebe cúpula do Mercosul em meio a enfraquecimento de outros órgãos regionais",
-      "description": "Nesta terça (30), os presidentes dos Estados parte e associados vão se encontrar e o Paraguai passará a Presidência ao Uruguai.",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/06/1254360-paraguai-recebe-cupula-do-mercosul-em-meio-a-enfraquecimento-de-outros-orgaos-regionais.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-06-29T22:24:42+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -230,6 +222,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_8e323e0e8d8c",
+      "title": "Lula se reúne com líderes sul-americanos para a 68ª Cúpula do Mercosul no Paraguai",
+      "description": "O presidente Luiz Inácio Lula da Silva participa nesta terça-feira (30) da 68ª Cúpula de Chefes de Estado do Mercosul e Estados Associados,...",
+      "url": "https://midiamax.com.br/brasil/2026/lula-reune-lideres-sul-americanos-68a-cupula-mercosul-paraguai/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-06-30T11:50:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_6933a8aca3a8",
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.75,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 4.67,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
-      "center": 10,
+      "center": 9,
       "centerRight": 2,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
