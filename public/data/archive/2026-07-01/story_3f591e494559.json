@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 2
+      "topic-2": 4
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "bronquiolite",
     "bebês",
     "gestantes",
-    "vírus",
-    "vacina"
+    "vacina",
+    "vírus"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/1XouAji4ZltzWV80WPy68z3_nLM=/1280x0/filters:format(jpeg)/https://s03.video.glbimg.com/x720/14691338.jpg",
   "publishedAt": "2026-06-22T16:39:34+00:00",
-  "updatedAt": "2026-07-01T21:44:17.104035+00:00",
+  "updatedAt": "2026-07-01T22:39:41.405431+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "Prefeitura de Eusébio",
       "sourceDomain": "eusebio.ce.gov.br",
       "publishedAt": "2026-07-01T15:52:33+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -115,20 +115,6 @@
       "sourceDomain": "sbim.org.br",
       "publishedAt": "2026-06-30T22:44:13+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_073014764554",
-      "title": "Vírus sincicial respiratório mantém crescimento de infecções no Ceará, aponta relatório nacional",
-      "description": "Um relatório que analisa o cenário mais atual do Brasil em relação à Síndrome Respiratória Aguda Grave (SRAG) apontou que o Vírus Sincicial...",
-      "url": "https://cearaagora.com.br/virus-sincicial-respiratorio-mantem-crescimento-de-infeccoes-no-ceara-aponta-relatorio-nacional/",
-      "source": "Ceará Agora",
-      "sourceCanonical": "Ceará Agora",
-      "sourceDomain": "cearaagora.com.br",
-      "publishedAt": "2026-07-01T20:27:36+00:00",
-      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -160,6 +146,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_8756a1ffe35b",
+      "title": "Vacina contra vírus sincicial respiratório para gestantes protege bebês",
+      "description": "Um relatório que analisa o cenário mais atual do Brasil em relação à Síndrome Respiratória Aguda Grave (SRAG) apontou que o Vírus Sincicial Respiratório...",
+      "url": "https://www.msn.com/pt-br/noticias/brasil/vacina-contra-v%C3%ADrus-sincicial-respirat%C3%B3rio-para-gestantes-protege-beb%C3%AAs/ar-AA26ZUC2",
+      "source": "MSN",
+      "sourceCanonical": "MSN",
+      "sourceDomain": "msn.com",
+      "publishedAt": "2026-07-01T20:30:31+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_44f085bcbbdb",
@@ -199,7 +199,7 @@
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-06-26T13:32:03+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/IMAGEM_NOTA_640x440_1_2ee622c538.png",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -240,7 +240,7 @@
       "sourceCanonical": "JORNAL BEIRA RIO -",
       "sourceDomain": "jornalbeirario.com.br",
       "publishedAt": "2026-06-30T21:52:56+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 6,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 5.83,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 15
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 90
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
