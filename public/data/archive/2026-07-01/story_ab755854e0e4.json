@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvOUppN0VSSHRRc24zY09MMnlpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvOUppN0VSSHRRc24zY09MMnlpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-6"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-6"
     ],
     "seedRanks": {
-      "topic-5": 66
+      "topic-5": 66,
+      "topic-6": 18
     },
     "firstSeenSeedPage": "topic-5",
     "firstSeenRank": 66,
-    "bestSeedRank": 66,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +30,11 @@
     "cunha",
     "matheus",
     "jogador",
-    "explica"
+    "atacante"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/Foto-site-5-848x477.png",
   "publishedAt": "2026-06-29T13:55:00+00:00",
-  "updatedAt": "2026-07-01T05:56:03.993829+00:00",
+  "updatedAt": "2026-07-01T07:56:41.881612+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -218,20 +221,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_d72816f1f848",
-      "title": "Atacante do Japão recua de declaração que irritou o Brasil",
-      "description": "Eliminado da Copa, jogador tenta esclarecer críticas feitas ao Brasil antes do confronto.",
-      "url": "https://www.brasil247.com/mundo/atacante-do-japao-recua-de-declaracao-que-irritou-o-brasil",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-06-29T22:28:33+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_1d3c328dbc64",
       "title": "Matheus Cunha explica provocação a japonês: 'Unidos contra os de fora'",
       "description": "Rio - O atacante Matheus Cunha, de 26 anos, explicou a provocação feita depois da vitória da seleção brasileira sobre o Japão por 2 a 1 na...",
@@ -244,6 +233,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_d72816f1f848",
+      "title": "Atacante do Japão recua de declaração que irritou o Brasil",
+      "description": "Eliminado da Copa, jogador tenta esclarecer críticas feitas ao Brasil antes do confronto.",
+      "url": "https://www.brasil247.com/mundo/atacante-do-japao-recua-de-declaracao-que-irritou-o-brasil",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-06-29T22:28:33+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_a678b5c60199",
@@ -302,33 +305,33 @@
       "bucket": "right"
     },
     {
-      "id": "article_6daec105288a",
-      "title": "Japonês explica provocação a Neymar após queda para o Brasil",
-      "description": "Kento Shiogai disse que não quis chamar o Brasil de fraco, mas manteve a avaliação de que o Japão tinha chances de vencer. Após a eliminação...",
-      "url": "https://www.noticiasaominuto.com.br/esporte/2394152/japones-explica-provocacao-a-neymar-apos-queda-para-o-brasil",
-      "source": "Notícias ao Minuto Brasil",
-      "sourceCanonical": "Notícias ao Minuto Brasil",
-      "sourceDomain": "noticiasaominuto.com.br",
-      "publishedAt": "2026-06-30T07:30:00+00:00",
+      "id": "article_28374710bd20",
+      "title": "Atacante japonês envolvido em polêmica sobre Seleção Brasileira se manifesta",
+      "description": "Kento Shiogai foi alvo de ofensas xenofóbicas após entrevista em que comentou sobre atual estágio da equipe brasileira e de Neymar.",
+      "url": "https://revistaforum.com.br/esporte/copa-do-mundo/japones-polemica-selecao-brasileira/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-06-30T17:20:46+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.57,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.33,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 2,
       "right": 2,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
