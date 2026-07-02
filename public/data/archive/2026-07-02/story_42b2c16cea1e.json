@@ -3,31 +3,25 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnck1hNEVSR3V2TGl4dDhVZlJTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnck1hNEVSR3V2TGl4dDhVZlJTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-3": 8,
-      "topic-5": 1
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 8,
+    "bestSeedRank": 2,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
-  "title": "Rodoviários do Rio de Janeiro suspendem greve de ônibus",
+  "title": "Rio de Janeiro: Rodoviários suspendem greve e buscam nova negociação",
   "summary": "Decisão foi divulgada após assembleia realizada no Tribunal Regional do Trabalho.",
   "topic": "Greve · Rio",
   "topicKeywords": [
@@ -35,12 +29,12 @@
     "rio",
     "rodoviários",
     "ônibus",
-    "motoristas",
-    "trabalho"
+    "suspendem",
+    "motoristas"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WhatsApp-Image-2026-06-28-at-12.31.00-PM-1.jpeg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-30T11:18:00+00:00",
-  "updatedAt": "2026-07-02T05:30:53.143685+00:00",
+  "updatedAt": "2026-07-02T07:24:30.955091+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -87,18 +81,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_8303491957d4",
-      "title": "Justiça determina operação de 80% da frota de ônibus durante a greve dos rodoviários no Rio",
-      "description": "A Justiça do Trabalho determinou que as empresas de ônibus do Rio de Janeiro coloquem em circulação, a partir desta quarta-feira, 1º, no...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/01/justica-determina-operacao-de-80-da-frota-de-onibus-durante-a-greve-dos-rodoviarios-no-rio.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-01T14:51:00+00:00",
+      "id": "article_778f82e9f055",
+      "title": "Greve no Rio: Justiça determina operação de 80% da frota de ônibus",
+      "description": "Decisão do TST atende pedido da Prefeitura e prevê foi multa diária de R$ 100 mil para a representação da categoria profissional em caso de...",
+      "url": "https://www.estadao.com.br/brasil/greve-no-rio-justica-determina-operacao-de-80-da-frota-de-onibus-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-01T13:09:01+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/CWOPT6VGYBF3BHKUGABO5B4RZI.jpg?quality=80&auth=48da5cae298acbcb7a5b2cb9a894f6f4a3d9192b35eb7d77620559c1519ef475&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_288efbb2c063",
@@ -129,6 +123,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b10e6663f80c",
+      "title": "Greve dos rodoviários no Rio chega ao terceiro dia; trens e metrô reforçam operação",
+      "description": "A greve dos rodoviários do Rio de Janeiro chega ao terceiro dia nesta quarta-feira, 1, sem previsão de término, e continua afetando a...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/01/greve-dos-rodoviarios-no-rio-chega-ao-terceiro-dia-trens-e-metro-reforcam-operacao.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-01T11:40:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_a9e62df692bc",
       "title": "Greve de ônibus: reunião na Justiça tem pedido de trégua; motoristas vão se reunir à tarde",
       "description": "A solicitação será avaliada numa assembleia da categoria, às 16h, na sede do sindicato.",
@@ -137,20 +145,6 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-07-01T16:40:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_ca4d0b4ceb62",
-      "title": "Greve dos rodoviários no Rio chega ao terceiro dia; trens e metrô reforçam operação",
-      "description": "Sem acordo entre trabalhadores e empresas, paralisação continua afetando a circulação dos transportes; Justiça determina que ao menos 80% da...",
-      "url": "https://www.estadao.com.br/brasil/greve-dos-rodoviarios-no-rio-chega-ao-terceiro-dia-trens-e-metro-reforcam-operacao-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-01T08:59:50+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -186,14 +180,14 @@
     },
     {
       "id": "article_87ae9b513241",
-      "title": "Rodoviários suspendem greve e ônibus voltam no Rio",
+      "title": "Rodoviários suspendem greve e ônibus devem retomar circulação no Rio",
       "description": "Após três dias de paralisação, categoria decidiu suspender o movimento; passageiros devem acompanhar a volta gradual das linhas nesta...",
       "url": "https://ofluminense.com.br/rodoviarios-suspendem-greve-onibus-voltam-rio/",
       "source": "O Fluminense",
       "sourceCanonical": "O Fluminense",
       "sourceDomain": "ofluminense.com.br",
       "publishedAt": "2026-07-02T02:56:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -241,20 +235,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_31c505aaa205",
-      "title": "Rio Ônibus tenta encerrar a greve dos rodoviários anunciando reajuste de 4,39%",
-      "description": "O Sindicato das Empresas de Ônibus da Cidade do Rio de Janeiro (Rio Ônibus) informou, nesta quarta-feira (1º), que os rodoviários terão...",
-      "url": "https://sindsprevrj.org/rio-onibus-tenta-encerrar-a-greve-dos-rodoviarios-anunciando-reajuste-de-439/",
-      "source": "sindsprev/rj",
-      "sourceCanonical": "sindsprev/rj",
-      "sourceDomain": "sindsprevrj.org",
-      "publishedAt": "2026-07-01T18:04:23+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_48042265da23",
       "title": "Sem acordo entre rodoviários e empresas, paralisação dos ônibus continua nesta terça",
       "description": "Os cariocas deverão enfrentar hoje mais um dia de transtornos em seus deslocamentos pela cidade. Sem um acordo entre rodoviários e empresas...",
@@ -269,14 +249,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_6a059435bc24",
-      "title": "Sindicato dos Rodoviários convoca assembleia e cobra posicionamento da Prefeitura sobre campanha salarial",
-      "description": "O Sindicato dos Rodoviários informou que a campanha salarial da categoria entrou em um momento considerado decisivo e convocou os trabalhadores para uma...",
-      "url": "https://berlinda.com.br/geral/sindicato-dos-rodoviarios-convoca-assembleia-e-cobra-posicionamento-da-prefeitura-sobre-campanha-salarial",
-      "source": "Berlinda News",
-      "sourceCanonical": "Berlinda News",
-      "sourceDomain": "berlinda.com.br",
-      "publishedAt": "2026-07-01T18:49:04+00:00",
+      "id": "article_c39825faf7de",
+      "title": "Rodoviários do Rio suspendem greve até segunda-feira",
+      "description": "Os rodoviários do Rio de Janeiro suspenderam a greve até a próxima segunda-feira, quando haverá nova reunião com o Rio ônibus,...",
+      "url": "https://monitormercantil.com.br/rodoviarios-do-rio-suspendem-greve-ate-segunda-feira/",
+      "source": "Monitor Mercantil",
+      "sourceCanonical": "Monitor Mercantil",
+      "sourceDomain": "monitormercantil.com.br",
+      "publishedAt": "2026-07-02T00:18:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -311,15 +291,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_8fcee36cdb7a",
-      "title": "Aneel mantém bandeira amarela para esse mês de julho e o bolso dos Brasileiros continua sendo impactado",
-      "description": "O impasse na greve dos rodoviários no Rio de Janeiro pode estar próximo do fim. O Rio Ônibus informou, nesta quarta-feira (1º),...",
-      "url": "https://jornaldr1.com.br/aneel-mantem-bandeira-amarela-para-esse-mes-de-julho-e-o-bolso-dos-brasileiros-continua-sendo-impactado/",
-      "source": "Jornal DR1",
-      "sourceCanonical": "Jornal DR1",
-      "sourceDomain": "jornaldr1.com.br",
-      "publishedAt": "2026-07-01T18:15:00+00:00",
+      "id": "article_1ac2a0b7ec3f",
+      "title": "Rio Ônibus propõe reajuste de 4,39% para tentar encerrar greve dos rodoviários - O São Gonçalo",
+      "description": "O sindicato das empresas de ônibus do Rio de Janeiro, Rio Ônibus, anunciou um reajuste salarial de 4,39% para os rodoviários como tentativa...",
+      "url": "https://www.osaogoncalo.com.br/geral/166771/rio-onibus-propoe-reajuste-de-439-para-tentar-encerrar-greve-dos-rodoviarios",
+      "source": "O São Gonçalo",
+      "sourceCanonical": "O São Gonçalo",
+      "sourceDomain": "osaogoncalo.com.br",
+      "publishedAt": "2026-07-01T15:24:57+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4aa49859c7cc",
+      "title": "Condutores iniciam greve na cidade Rio de Janeiro",
+      "description": "Categoria recusou proposta patronal, pediu piso maior e teve ordem judicial para manter 50% da frota por linha e itinerário. Publicado em:...",
+      "url": "https://causaoperaria.org.br/2026/condutores-iniciam-greve-na-cidade-rio-de-janeiro/",
+      "source": "Diário Causa Operária",
+      "sourceCanonical": "Diário Causa Operária",
+      "sourceDomain": "causaoperaria.org.br",
+      "publishedAt": "2026-07-01T03:00:35+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
