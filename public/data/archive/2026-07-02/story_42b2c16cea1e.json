@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnck1hNEVSR3V2TGl4dDhVZlJTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnck1hNEVSR3V2TGl4dDhVZlJTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 8,
+      "home": 2,
+      "topstories": 2,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 8,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Rio de Janeiro: Rodoviários suspendem greve e buscam nova negociação",
   "summary": "Decisão foi divulgada após assembleia realizada no Tribunal Regional do Trabalho.",
@@ -29,12 +32,12 @@
     "rio",
     "rodoviários",
     "ônibus",
-    "suspendem",
-    "motoristas"
+    "motoristas",
+    "trabalho"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WhatsApp-Image-2026-06-28-at-12.31.00-PM-1.jpeg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-30T11:18:00+00:00",
-  "updatedAt": "2026-07-02T07:24:30.955091+00:00",
+  "updatedAt": "2026-07-02T09:15:47.946567+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -187,7 +190,7 @@
       "sourceCanonical": "O Fluminense",
       "sourceDomain": "ofluminense.com.br",
       "publishedAt": "2026-07-02T02:56:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -221,6 +224,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_2c9741563408",
+      "title": "TRT1 orienta magistrados a adotarem cautela na aplicação de penalidades durante greve dos rodoviários",
+      "description": "Atenção, advocacia! Após ponderação da OABRJ, a Corregedoria do Tribunal Regional do Trabalho da 1ª Região (TRT1) recomendou aos magistrados...",
+      "url": "https://oabrj.org.br/noticias/trt1-orienta-magistrados-adotarem-cautela-aplicacao-penalidades-durante-greve-dos",
+      "source": "OABRJ",
+      "sourceCanonical": "OABRJ",
+      "sourceDomain": "oabrj.org.br",
+      "publishedAt": "2026-07-01T15:57:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_31c505aaa205",
+      "title": "Rio Ônibus tenta encerrar a greve dos rodoviários anunciando reajuste de 4,39%",
+      "description": "O Sindicato das Empresas de Ônibus da Cidade do Rio de Janeiro (Rio Ônibus) informou, nesta quarta-feira (1º), que os rodoviários terão...",
+      "url": "https://sindsprevrj.org/rio-onibus-tenta-encerrar-a-greve-dos-rodoviarios-anunciando-reajuste-de-439/",
+      "source": "sindsprev/rj",
+      "sourceCanonical": "sindsprev/rj",
+      "sourceDomain": "sindsprevrj.org",
+      "publishedAt": "2026-07-01T18:04:23+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_0e4583cc979a",
       "title": "Rio: greve de rodoviários entra no 2º dia e deixa paradas lotadas",
       "description": "Além da lotação nos pontos, passageiros relatam falta de veículos. Rio Ônibus informou que há cerca de 1.150 ônibus circulando.",
@@ -249,32 +280,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_c39825faf7de",
-      "title": "Rodoviários do Rio suspendem greve até segunda-feira",
-      "description": "Os rodoviários do Rio de Janeiro suspenderam a greve até a próxima segunda-feira, quando haverá nova reunião com o Rio ônibus,...",
-      "url": "https://monitormercantil.com.br/rodoviarios-do-rio-suspendem-greve-ate-segunda-feira/",
-      "source": "Monitor Mercantil",
-      "sourceCanonical": "Monitor Mercantil",
-      "sourceDomain": "monitormercantil.com.br",
-      "publishedAt": "2026-07-02T00:18:00+00:00",
+      "id": "article_6a059435bc24",
+      "title": "Sindicato dos Rodoviários convoca assembleia e cobra posicionamento da Prefeitura sobre campanha salarial",
+      "description": "O Sindicato dos Rodoviários informou que a campanha salarial da categoria entrou em um momento considerado decisivo e convocou os trabalhadores para uma...",
+      "url": "https://berlinda.com.br/geral/sindicato-dos-rodoviarios-convoca-assembleia-e-cobra-posicionamento-da-prefeitura-sobre-campanha-salarial",
+      "source": "Berlinda News",
+      "sourceCanonical": "Berlinda News",
+      "sourceDomain": "berlinda.com.br",
+      "publishedAt": "2026-07-01T18:49:04+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f24d99e8601b",
-      "title": "Greve de ônibus no Rio: passageiros do BRT enfrentam longas filas no Terminal Alvorada",
-      "description": "Mobi-Rio afirma que dos 541 veículos projetados para operar na hora pico nesta quarta-feira, um total de 502 estavam em circulação;...",
-      "url": "https://oglobo.globo.com/rio/noticia/2026/07/01/greve-de-onibus-no-rio-passageiros-do-brt-enfrentam-longas-filas-no-terminal-alvorada.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-07-01T12:36:54+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_1c0ab33c39f3",
@@ -291,29 +308,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_1ac2a0b7ec3f",
-      "title": "Rio Ônibus propõe reajuste de 4,39% para tentar encerrar greve dos rodoviários - O São Gonçalo",
-      "description": "O sindicato das empresas de ônibus do Rio de Janeiro, Rio Ônibus, anunciou um reajuste salarial de 4,39% para os rodoviários como tentativa...",
-      "url": "https://www.osaogoncalo.com.br/geral/166771/rio-onibus-propoe-reajuste-de-439-para-tentar-encerrar-greve-dos-rodoviarios",
-      "source": "O São Gonçalo",
-      "sourceCanonical": "O São Gonçalo",
-      "sourceDomain": "osaogoncalo.com.br",
-      "publishedAt": "2026-07-01T15:24:57+00:00",
+      "id": "article_8fcee36cdb7a",
+      "title": "Aneel mantém bandeira amarela para esse mês de julho e o bolso dos Brasileiros continua sendo impactado",
+      "description": "O impasse na greve dos rodoviários no Rio de Janeiro pode estar próximo do fim. O Rio Ônibus informou, nesta quarta-feira (1º),...",
+      "url": "https://jornaldr1.com.br/aneel-mantem-bandeira-amarela-para-esse-mes-de-julho-e-o-bolso-dos-brasileiros-continua-sendo-impactado/",
+      "source": "Jornal DR1",
+      "sourceCanonical": "Jornal DR1",
+      "sourceDomain": "jornaldr1.com.br",
+      "publishedAt": "2026-07-01T18:15:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_4aa49859c7cc",
-      "title": "Condutores iniciam greve na cidade Rio de Janeiro",
-      "description": "Categoria recusou proposta patronal, pediu piso maior e teve ordem judicial para manter 50% da frota por linha e itinerário. Publicado em:...",
-      "url": "https://causaoperaria.org.br/2026/condutores-iniciam-greve-na-cidade-rio-de-janeiro/",
-      "source": "Diário Causa Operária",
-      "sourceCanonical": "Diário Causa Operária",
-      "sourceDomain": "causaoperaria.org.br",
-      "publishedAt": "2026-07-01T03:00:35+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -322,16 +325,16 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.15,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.08,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 9,
+      "center": 8,
       "centerRight": 2,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
