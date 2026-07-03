@@ -10,15 +10,15 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 7
+      "topic-2": 6
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Notícias sobre VSR",
+  "title": "Notícias sobre vírus respiratórios",
   "summary": "O vírus sincicial respiratório (VSR) eleva casos de SRAG no Brasil, mas vacina para grupos de risco garante proteção prolongada por até três...",
   "topic": "Casos · Alerta",
   "topicKeywords": [
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/R3uu3MgE4D6ycf-SLcfwGp9zJC4=/1536x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/V/4/hhvjzJQVG4S53B9Ia2lg/gripe-1536x864.png",
   "publishedAt": "2025-05-02T07:00:00+00:00",
-  "updatedAt": "2026-07-03T05:30:20.740834+00:00",
+  "updatedAt": "2026-07-03T07:19:00.411945+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -190,20 +190,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b8316eab822f",
-      "title": "VSR e Influenza lideram hospitalizações por SRAG no Brasil",
-      "description": "O Boletim InfoGripe da Fundação Oswaldo Cruz (Fiocruz), referente à Semana Epidemiológica 24, 14 a 20 de junho de 2026, aponta estabilização...",
-      "url": "https://portal.afya.com.br/saude/vsr-e-influenza-lideram-hospitalizacoes-por-srag-no-brasil",
-      "source": "Afya | Home",
-      "sourceCanonical": "Afya | Home",
-      "sourceDomain": "portal.afya.com.br",
-      "publishedAt": "2026-06-25T20:30:08+00:00",
-      "postedLabel": "7 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_0481a4ffb809",
       "title": "Santa Catarina acende alerta para aumento de casos de doenças respiratórias",
       "description": "Santa Catarina está em alerta para o aumento dos casos de Síndrome Respiratória Aguda Grave, a SRAG, especialmente entre crianças.",
@@ -244,6 +230,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_1ea861378edf",
+      "title": "Fiocruz: internações por gripe e VSR seguem em alta em todo o país",
+      "description": "Os casos de infecção respiratória grave continuam em alta no Brasil, de acordo com informações do novo Boletim InfoGripe divulgado nesta...",
+      "url": "https://www.folhape.com.br/noticias/fiocruz-internacoes-por-gripe-e-vsr-seguem-em-alta-em-todo-o-pais/496364/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-06-25T15:46:34+00:00",
+      "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_880e77b3b2a8",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 10,
-    "average": 6,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 6,
       "centerRight": 2,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
