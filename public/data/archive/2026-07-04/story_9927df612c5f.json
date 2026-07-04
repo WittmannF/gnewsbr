@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k5bF9pNUVSSEFxSVp1aGhXamVpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k5bF9pNUVSSEFxSVp1aGhXamVpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2,
-      "topic-5": 10
+      "topic-5": 9
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 9,
+    "bestSeedRank": 9,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Mortes após terremotos na Venezuela",
   "summary": "Presidente interina afirmou que agentes de segurança, militares e servidores municipais também morreram; buscas por sobreviventes continuam.",
@@ -32,12 +26,12 @@
     "terremotos",
     "ajuda",
     "terremoto",
-    "humanitária",
-    "quase"
+    "quase",
+    "todos"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/8EtM23sMnzQwLTATRKQX917EKW0=/5210x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/r/uLZlEfRqGqJRVEx1i4Jw/ap26180709899365.jpg",
   "publishedAt": "2026-07-02T00:56:00+00:00",
-  "updatedAt": "2026-07-04T10:47:45.124575+00:00",
+  "updatedAt": "2026-07-04T11:50:25.223251+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,10 +72,24 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-07-04T10:30:00+00:00",
-      "postedLabel": "17 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/07/ajuda-chinesa-2-cd4600dd.webp",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_da1ce620ed6f",
+      "title": "Vídeo: papagaio é resgatado vivo sob escombros dos terremotos na Venezuela",
+      "description": "Bombeiros da Venezuela resgataram um papagaio vivo sob os escombros de um prédio que desabou após os terremotos que atingiram o país em 24...",
+      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/03/papagaio-e-resgatado-vivo-sob-escombros-de-terremoto-na-venezuela-video.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-04T01:37:28+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f59a5744222f",
@@ -93,7 +101,7 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-03T01:47:26+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://s2-oglobo.glbimg.com/t8VpU-8k1z0JjlLalTM67Vv31PY=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/G/S/UHgJNmQoGCj9H3QERmxw/afp-20260629-b8q28g3-v3-midres-topshotvenezuelaearthquakeaftermath.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -112,20 +120,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_da1ce620ed6f",
-      "title": "Vídeo: papagaio é resgatado vivo sob escombros dos terremotos na Venezuela",
-      "description": "Bombeiros da Venezuela resgataram um papagaio vivo sob os escombros de um prédio que desabou após os terremotos que atingiram o país em 24...",
-      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/03/papagaio-e-resgatado-vivo-sob-escombros-de-terremoto-na-venezuela-video.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-04T01:37:28+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_cae924d71c1c",
       "title": "Brasileiro tenta localizar o pai sob os escombros mais de uma semana após terremotos na Venezuela",
       "description": "O venezuelano Félix Tovar estava em La Guaira e não se comunica desde a tragédia; família relata buscas improvisadas e pede ajuda com...",
@@ -138,20 +132,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_b210fc00f4f3",
-      "title": "Quase todos os chefes do governo de La Guaira morreram, diz Delcy Rodríguez",
-      "description": "Líder interina da Venezuela afirmou que autoridades morreram após os terremotos que atingiram o país na última quarta-feira (24)",
-      "url": "https://www.cnnbrasil.com.br/internacional/quase-todos-os-chefes-do-governo-de-la-guaira-morreram-diz-delcy-rodriguez/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-03T01:24:25+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_c86cb4acd4cb",
@@ -168,18 +148,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d788ac682e85",
-      "title": "Bombeiros do Paraná mantêm busca por sobreviventes na força-tarefa na Venezuela",
-      "description": "Os integrantes do Corpo de Bombeiros Militar do Paraná (CBMPR) seguem atuando de forma ininterrupta a apenas dois dias do fim da chamada...",
-      "url": "https://www.parana.pr.gov.br/aen/Noticia/Bombeiros-do-Parana-mantem-busca-por-sobreviventes-na-forca-tarefa-na-Venezuela",
-      "source": "Governo do Paraná",
-      "sourceCanonical": "Governo do Paraná",
-      "sourceDomain": "parana.pr.gov.br",
-      "publishedAt": "2026-07-02T22:08:00+00:00",
+      "id": "article_b210fc00f4f3",
+      "title": "Quase todos os chefes do governo de La Guaira morreram, diz Delcy Rodríguez",
+      "description": "Líder interina da Venezuela afirmou que autoridades morreram após os terremotos que atingiram o país na última quarta-feira (24)",
+      "url": "https://www.cnnbrasil.com.br/internacional/quase-todos-os-chefes-do-governo-de-la-guaira-morreram-diz-delcy-rodriguez/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-03T01:24:25+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_9c31434e9c60",
@@ -196,6 +176,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_3e6b18e1809d",
+      "title": "Bombeiros e Defesa Civil intensificam operação de resgate em busca de sobreviventes na Venezuela",
+      "description": "Cães farejadores identificaram sinais que podem indicar a presença de vítimas sob os escombros de um edifício colapsado em La Guaira.",
+      "url": "https://www.agenciasp.sp.gov.br/bombeiros-defesa-civil-sobreviventes-venezuela/",
+      "source": "Agência SP",
+      "sourceCanonical": "Agência SP",
+      "sourceDomain": "agenciasp.sp.gov.br",
+      "publishedAt": "2026-07-02T11:10:07+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_c346ccdbfbf9",
+      "title": "Como a ‘arquitetura chavista’ agravou a destruição dos terremotos na Venezuela",
+      "description": "Especialistas apontam que falhas históricas em construções públicas podem ter ampliado os impactos da tragédia.",
+      "url": "https://noticias.r7.com/internacional/como-a-arquitetura-chavista-agravou-a-destruicao-dos-terremotos-da-venezuela-04072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-04T05:00:01+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_f454801e144b",
       "title": "Número de mortos por terremotos na Venezuela sobe para 2.645",
       "description": "Pelo menos 2.645 pessoas morreram e 12.666 ficaram feridas em decorrência dos dois terremotos que atingiram a Venezuela em 24 de junho,...",
@@ -208,20 +216,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_a5f83eb32abb",
-      "title": "Israel envia delegação com ajuda humanitária à Venezuela após terremotos",
-      "description": "Delegação é coordenada pelo primeiro-ministro Benjamin Netanyahu e busca apoiar vítimas da tragédia.",
-      "url": "https://noticias.r7.com/internacional/israel-envia-delegacao-com-ajuda-humanitaria-a-venezuela-apos-terremotos-03072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-03T19:17:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_32d54bdac6ac",
@@ -252,14 +246,28 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3e6b18e1809d",
-      "title": "Bombeiros e Defesa Civil intensificam operação de resgate em busca de sobreviventes na Venezuela",
-      "description": "Cães farejadores identificaram sinais que podem indicar a presença de vítimas sob os escombros de um edifício colapsado em La Guaira.",
-      "url": "https://www.agenciasp.sp.gov.br/bombeiros-defesa-civil-sobreviventes-venezuela/",
-      "source": "Agência SP",
-      "sourceCanonical": "Agência SP",
-      "sourceDomain": "agenciasp.sp.gov.br",
-      "publishedAt": "2026-07-02T11:10:07+00:00",
+      "id": "article_8c42b97440f0",
+      "title": "O difícil e longo trabalho de apoio às crianças traumatizadas pelos terremotos na Venezuela",
+      "description": "Um estádio transformado em abrigo para vítimas: em La Guaira, a ONU administra um acampamento para pessoas deslocadas pelos terremotos que...",
+      "url": "https://www.terra.com.br/noticias/mundo/america-latina/o-dificil-e-longo-trabalho-de-apoio-as-criancas-traumatizadas-pelos-terremotos-na-venezuela,85e64df86dddb7312142d66e4179a4f8nu8in3od.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-03T14:13:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_d788ac682e85",
+      "title": "Bombeiros do Paraná mantêm busca por sobreviventes na força-tarefa na Venezuela",
+      "description": "Os integrantes do Corpo de Bombeiros Militar do Paraná (CBMPR) seguem atuando de forma ininterrupta a apenas dois dias do fim da chamada...",
+      "url": "https://www.parana.pr.gov.br/aen/Noticia/Bombeiros-do-Parana-mantem-busca-por-sobreviventes-na-forca-tarefa-na-Venezuela",
+      "source": "Governo do Paraná",
+      "sourceCanonical": "Governo do Paraná",
+      "sourceDomain": "parana.pr.gov.br",
+      "publishedAt": "2026-07-02T22:08:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -278,20 +286,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_106121cb8993",
-      "title": "Como os terremotos reordenaram a relação EUA-Venezuela",
-      "description": "Catástrofe altera rumo da estratégia com a qual governo Trump aspirava guiar o futuro político do país e torna mais difícil uma transição de...",
-      "url": "https://www.terra.com.br/noticias/como-os-terremotos-reordenaram-a-relacao-eua-venezuela,0511ca91dd4a8e912fd1104555715f50lnsudspl.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-03T12:41:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_9a3d9a1bd245",
