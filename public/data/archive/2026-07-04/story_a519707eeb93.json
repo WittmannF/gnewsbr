@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 28
+      "topic-7": 26
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/lJ4gfFXgJqrWwwZ4C0_yHuNsHAk=/5500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/R/gAz79XTFGuaDsrdCmfwg/2026-05-14t130928z-649865790-rc209lanii5q-rtrmadp-3-germany-karlspreis.jpg",
   "publishedAt": "2026-06-29T10:53:42+00:00",
-  "updatedAt": "2026-07-04T03:24:56.737725+00:00",
+  "updatedAt": "2026-07-04T05:40:06.408658+00:00",
   "sourceCount": 15,
   "articleCount": 18,
   "articles": [
@@ -54,7 +54,7 @@
       "title": "Governo alemão anuncia reforma que eleva imposto de ricos",
       "description": "Amplo pacote de medidas que pretende aumentar competividade e tirar país da estagnação inclui mudanças em impostos, aposentadorias e saúde, além de...",
       "url": "https://www.dw.com/pt-br/governo-alem%C3%A3o-anuncia-pacote-de-reformas-que-eleva-imposto-de-ricos/a-77810088",
-      "source": "dw.com",
+      "source": "DW.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-07-02T19:30:27+00:00",
@@ -86,7 +86,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-03T03:25:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://media.gazetadopovo.com.br/2026/07/03002533/alemanha-pacote-de-reformas-1.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -104,6 +104,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_7aee2e7aacf6",
+      "title": "Médicos de família contestam novas regras de baixa de Merz na Alemanha",
+      "description": "Muitos médicos na Alemanha criticam sobretudo a obrigação de apresentar declaração de incapacidade laboral desde o primeiro dia de doença,...",
+      "url": "https://pt.euronews.com/my-europe/2026/07/03/medicos-de-familia-contestam-novas-regras-de-baixa-de-merz-na-alemanha",
+      "source": "Euronews",
+      "sourceCanonical": "Euronews",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-07-03T14:45:29+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_89ada90495ae",
@@ -132,20 +146,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_d60fb0e9a8c5",
-      "title": "Alemanha: o país “campeão das baixas médicas” tenta reduzi-las",
-      "description": "Governo acaba com possibilidade de baixas telefónicas; organizações alertam para caos nos consultórios médicos. É a medida mais controversa...",
-      "url": "https://www.publico.pt/2026/07/03/mundo/noticia/alemanha-pais-campeao-baixas-medicas-tenta-reduzilas-2180399",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-07-03T11:12:52+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_5904393da6e2",
@@ -289,28 +289,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 4,
     "max": 8,
-    "average": 5.46,
-    "knownCount": 13,
-    "unknownCount": 5,
+    "average": 5.67,
+    "knownCount": 12,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
-      "centerLeft": 3,
+      "centerLeft": 2,
       "center": 6,
       "centerRight": 4,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
