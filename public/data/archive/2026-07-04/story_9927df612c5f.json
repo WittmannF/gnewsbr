@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k5bF9pNUVSSEFxSVp1aGhXamVpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k5bF9pNUVSSEFxSVp1aGhXamVpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 8
+      "home": 2,
+      "topstories": 2,
+      "topic-5": 10
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Mortes após terremotos na Venezuela",
   "summary": "Presidente interina afirmou que agentes de segurança, militares e servidores municipais também morreram; buscas por sobreviventes continuam.",
@@ -25,13 +31,13 @@
     "venezuela",
     "terremotos",
     "ajuda",
-    "todos",
-    "quase",
-    "chefes"
+    "terremoto",
+    "humanitária",
+    "quase"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/8EtM23sMnzQwLTATRKQX917EKW0=/5210x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/r/uLZlEfRqGqJRVEx1i4Jw/ap26180709899365.jpg",
   "publishedAt": "2026-07-02T00:56:00+00:00",
-  "updatedAt": "2026-07-04T10:01:37.351677+00:00",
+  "updatedAt": "2026-07-04T10:47:45.124575+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,6 +70,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_99626917ff95",
+      "title": "China envia R$ 76 milhões em ajuda humanitária e fornece imagens de satélite à Venezuela após terremoto",
+      "description": "China consolidou sua posição de líder global no transporte marítimo durante o período do 14º Plano Quinquenal (2021-2025) segundo o...",
+      "url": "https://www.brasildefato.com.br/colunista/noticias-da-china/2026/07/04/china-envia-r-76-milhoes-em-ajuda-humanitaria-e-fornece-imagens-de-satelite-a-venezuela-apos-terremoto/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-04T10:30:00+00:00",
+      "postedLabel": "17 minutos atrás",
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/07/ajuda-chinesa-2-cd4600dd.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_f59a5744222f",
       "title": "Número de mortos na Venezuela chega a 2.595 e Delcy Rodríguez nega que corpos tenham sido enterrados em valas comuns",
       "description": "Governo venezuelano está sendo criticado pela resposta aos estragos causados pelos terremotos da semana passada.",
@@ -87,7 +107,7 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-03T09:00:13+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/TERREMOTO-VENEZUELA-2026-RESGATE-VITIMAS-6142.jpg.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -176,20 +196,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_a5f83eb32abb",
-      "title": "Israel envia delegação com ajuda humanitária à Venezuela após terremotos",
-      "description": "Delegação é coordenada pelo primeiro-ministro Benjamin Netanyahu e busca apoiar vítimas da tragédia.",
-      "url": "https://noticias.r7.com/internacional/israel-envia-delegacao-com-ajuda-humanitaria-a-venezuela-apos-terremotos-03072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-03T19:17:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_f454801e144b",
       "title": "Número de mortos por terremotos na Venezuela sobe para 2.645",
       "description": "Pelo menos 2.645 pessoas morreram e 12.666 ficaram feridas em decorrência dos dois terremotos que atingiram a Venezuela em 24 de junho,...",
@@ -204,18 +210,32 @@
       "bucket": "left"
     },
     {
-      "id": "article_67a36c49f97b",
-      "title": "‘Sentimos réplicas dos terremotos todos os dias’, diz brigadista do MST na Venezuela",
-      "description": "Denir Rosa relata que retomada da rotina é difícil porque muitas pessoas ainda esperam encontrar familiares vivos…",
-      "url": "https://www.brasildefato.com.br/2026/07/03/sentimos-replicas-dos-terremotos-todos-os-dias-diz-brigadista-do-mst-na-venezuela/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-07-04T00:30:00+00:00",
+      "id": "article_a5f83eb32abb",
+      "title": "Israel envia delegação com ajuda humanitária à Venezuela após terremotos",
+      "description": "Delegação é coordenada pelo primeiro-ministro Benjamin Netanyahu e busca apoiar vítimas da tragédia.",
+      "url": "https://noticias.r7.com/internacional/israel-envia-delegacao-com-ajuda-humanitaria-a-venezuela-apos-terremotos-03072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-03T19:17:39+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_32d54bdac6ac",
+      "title": "“Quando as paredes já não sustentam, a solidariedade é a coluna que fica”!",
+      "description": "Site oficial do MST - Movimento dos Trabalhadores Rurais Sem Terra, contendo informações sobre Reforma Agrária, Agroecologia e Agricultura...",
+      "url": "https://mst.org.br/2026/07/03/quando-as-paredes-ja-nao-sustentam-a-solidariedade-e-a-coluna-que-fica/",
+      "source": "mst.org.br",
+      "sourceCanonical": "mst.org.br",
+      "sourceDomain": "mst.org.br",
+      "publishedAt": "2026-07-03T20:57:54+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a8abbd04db26",
@@ -255,20 +275,6 @@
       "sourceDomain": "msf.org.br",
       "publishedAt": "2026-07-02T21:50:47+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_32d54bdac6ac",
-      "title": "“Quando as paredes já não sustentam, a solidariedade é a coluna que fica”!",
-      "description": "Site oficial do MST - Movimento dos Trabalhadores Rurais Sem Terra, contendo informações sobre Reforma Agrária, Agroecologia e Agricultura...",
-      "url": "https://mst.org.br/2026/07/03/quando-as-paredes-ja-nao-sustentam-a-solidariedade-e-a-coluna-que-fica/",
-      "source": "mst.org.br",
-      "sourceCanonical": "mst.org.br",
-      "sourceDomain": "mst.org.br",
-      "publishedAt": "2026-07-03T20:57:54+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
