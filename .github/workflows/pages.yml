@@ -90,6 +90,9 @@ jobs:
           GITHUB_PAGES: 'true'
         run: npm run build
 
+      - name: Limit published data to last 30 days
+        run: npm run publish:prune
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 

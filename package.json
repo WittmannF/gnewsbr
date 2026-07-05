@@ -12,6 +12,7 @@
     "archive:migrate": "python3 scripts/migrate_archive_partitioned.py --delete-legacy",
     "sources:validate": "python3 scripts/validate_sources.py",
     "sources:build": "python3 scripts/build_source_map.py",
+    "publish:prune": "python3 scripts/prune_published_data.py --dist-dir dist --days 30",
     "pwa:validate": "python3 tests/validate_pwa.py",
     "lint": "tsc --noEmit"
   },
