@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXOGE2N0VSR3hQTTdvSGRXWTBpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXOGE2N0VSR3hQTTdvSGRXWTBpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-6"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 19
+      "topic-5": 60,
+      "topic-6": 30
     },
-    "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 60,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/02JULHO26_TREINO_37-e1783100631895.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-06-30T00:00:00+00:00",
-  "updatedAt": "2026-07-05T20:43:19.021908+00:00",
+  "updatedAt": "2026-07-05T21:44:28.547515+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -86,7 +89,7 @@
       "sourceCanonical": "ESPN Brasil",
       "sourceDomain": "espn.com.br",
       "publishedAt": "2026-07-04T21:28:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -274,6 +277,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_9b1aac68f0b1",
+      "title": "Ancelotti cita sufoco da Argentina e faz alerta",
+      "description": "247 – Carlo Ancelotti usou a dificuldade enfrentada pela Argentina contra Cabo Verde como alerta para o Brasil antes do duelo com a Noruega,...",
+      "url": "https://www.brasil247.com/247-na-copa/ancelotti-cita-sufoco-da-argentina-e-faz-alerta/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-07-05T16:10:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_6cc823855796",
       "title": "Em coletiva, Ancelotti avalia evolução do Brasil na Copa do Mundo",
       "description": "Na entrevista coletiva deste sábado (4/7), Ancelotti foi questionado por Ivan Moré sobre a evolução da Seleção Brasileira no Mundial.",
@@ -300,41 +317,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_5f8bf4431684",
-      "title": "\"Ancelotti é um homem extraordinário.\"",
-      "description": "A seleção brasileira entrou nesta Copa do Mundo com inúmeras feridas abertas. Desde a final de 2022 no Catar, passou por quatro técnicos,...",
-      "url": "https://www.vietnam.vn/pt/ancelotti-la-mot-nguoi-dan-ong-phi-thuong",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-07-05T09:40:28+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 7,
-    "average": 5.67,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.2,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
