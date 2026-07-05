@@ -55,7 +55,9 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: ({ url }) => /\/data\/archive\/\d{4}-\d{2}-\d{2}\/story_[a-zA-Z0-9]+\.json$/.test(url.pathname),
+            urlPattern: ({ url }) =>
+              /\/data\/archive\/\d{4}-\d{2}-\d{2}\/story_[a-zA-Z0-9]+\.json$/.test(url.pathname) ||
+              /\/data\/clusters\/latest\/story_[a-zA-Z0-9]+\.json$/.test(url.pathname),
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'gnewsbr-cluster-details',
