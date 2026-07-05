@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 15
+      "topic-2": 11
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 15,
-    "bestSeedRank": 15,
+    "firstSeenRank": 11,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,13 +27,13 @@
     "diferenciar",
     "alergias",
     "respiratórias",
-    "assunto"
+    "não"
   ],
   "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/07/04/1125068150-portrait-young-ill-indian-male-blowing-nose-paper-tissue-scaled.jpg",
   "publishedAt": "2026-06-26T14:59:52+00:00",
-  "updatedAt": "2026-07-05T12:42:20.495238+00:00",
+  "updatedAt": "2026-07-05T13:45:35.885781+00:00",
   "sourceCount": 7,
-  "articleCount": 7,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_0f799b37cfcb",
@@ -46,6 +46,20 @@
       "publishedAt": "2026-07-04T11:02:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/07/04/1125068150-portrait-young-ill-indian-male-blowing-nose-paper-tissue-scaled.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_dd6cb037cc3b",
+      "title": "Como não pegar gripe: além da vacina, veja dicas infalíveis",
+      "description": "Em período de maior circulação de vírus respiratórios, o Ministério da Saúde reforça que a vacina anual contra a gripe é a forma mais segura...",
+      "url": "https://www.band.com.br/saude/noticias/como-nao-pegar-gripe-alem-da-vacina-veja-dicas-infaliveis-202605201527",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-07-05T13:00:06+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://img.band.com.br/image/2025/05/18/gripe-srg-141134.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -101,20 +115,6 @@
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-06-26T14:59:52+00:00",
       "postedLabel": "8 dias atrás",
-      "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2022/01/12082020/Pessoa-gripada-gripe.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_2fb911d05929",
-      "title": "Gripe x Resfriado: quais são as principais diferenças?",
-      "description": "Com o aumento das doenças respiratórias, entender as diferenças entre os sintomas de gripe e resfriado evita a automedicação e salva vidas.",
-      "url": "https://www.band.com.br/noticias/bora-brasil/videos/gripe-x-resfriado-quais-sao-as-principais-diferencas-202606300941",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-06-30T12:41:12+00:00",
-      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -132,18 +132,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_2fb911d05929",
+      "title": "Gripe x Resfriado: quais são as principais diferenças?",
+      "description": "Com o aumento das doenças respiratórias, entender as diferenças entre os sintomas de gripe e resfriado evita a automedicação e salva vidas.",
+      "url": "https://www.band.com.br/noticias/bora-brasil/videos/gripe-x-resfriado-quais-sao-as-principais-diferencas-202606300941",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-06-30T12:41:12+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 6,
-    "average": 5.2,
-    "knownCount": 5,
+    "average": 5.17,
+    "knownCount": 6,
     "unknownCount": 2,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 5,
+      "center": 6,
       "centerRight": 0,
       "right": 0,
       "unknown": 2
@@ -153,7 +167,7 @@
     "coverageDiversity": 20,
     "spectrumBalance": 19,
     "headlineDivergence": 73,
-    "confidence": 74
+    "confidence": 79
   },
   "flags": [
     "Manchetes divergentes"
