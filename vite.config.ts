@@ -33,7 +33,16 @@ export default defineConfig({
       workbox: {
         cleanupOutdatedCaches: true,
         navigateFallback: `${base}index.html`,
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,json}'],
+        // Keep the app shell in the precache, but leave generated data under
+        // runtime caching. Pre-caching every historical JSON file makes the
+        // service worker huge and turns Pages deploys into large file syncs.
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,webmanifest}'],
+        globIgnores: [
+          '**/data/archive/**',
+          '**/data/article-content/**',
+          '**/data/clusters/**',
+          '**/data/enrichment/**',
+        ],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.endsWith('/data/latest.json') || url.pathname.endsWith('data/latest.json'),
@@ -46,7 +55,9 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: ({ url }) => /\/data\/archive\/\d{4}-\d{2}-\d{2}\/story_[a-zA-Z0-9]+\.json$/.test(url.pathname),
+            urlPattern: ({ url }) =>
+              /\/data\/archive\/\d{4}-\d{2}-\d{2}\/story_[a-zA-Z0-9]+\.json$/.test(url.pathname) ||
+              /\/data\/clusters\/latest\/story_[a-zA-Z0-9]+\.json$/.test(url.pathname),
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'gnewsbr-cluster-details',
