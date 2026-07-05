@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lBOGR1OEVSRUx4d1ZiWHdqeld5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lBOGR1OEVSRUx4d1ZiWHdqeld5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 2,
-      "topic-5": 7
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Polícia investiga ataque a tenente da Rota em São Caetano do Sul",
   "summary": "Hércules da Costa Siqueira, conhecido pelos vulgos \"Golias\" e \"Peruca\", é procurado pela Polícia Civil de São Paulo, suspeito de participar...",
@@ -29,12 +35,12 @@
     "suspeito",
     "rota",
     "polícia",
-    "atirar",
-    "oferece"
+    "mil",
+    "atirar"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/IRMAO-ELOA-BALEADO-1.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-03T00:07:00+00:00",
-  "updatedAt": "2026-07-05T19:41:16.946226+00:00",
+  "updatedAt": "2026-07-05T20:33:52.073526+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-05T15:56:15+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/IRMAO-ELOA-BALEADO-1.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,7 +67,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-07-05T16:27:07+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -117,7 +123,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-05T17:24:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -131,7 +137,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-07-05T15:19:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -160,6 +166,34 @@
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-07-03T16:07:41+00:00",
       "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0f7f759698d0",
+      "title": "Governo oferece recompensa de R$ 50 mil por informações sobre suspeito de atirar em tenente da Rota",
+      "description": "O governo Tarcísio de Freitas (Republicanos) oferece R$ 50 mil neste domingo (5) por pistas que ajudem a capturar o atirador que feriu o...",
+      "url": "https://www.bemparana.com.br/noticias/brasil/governo-oferece-recompensa-de-r-50-mil-por-informacoes-sobre-suspeito-de-atirar-em-tenente-da-rota/",
+      "source": "Bem Paraná",
+      "sourceCanonical": "Bem Paraná",
+      "sourceDomain": "bemparana.com.br",
+      "publishedAt": "2026-07-05T18:22:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_755e68b6e5dc",
+      "title": "Suspeito de atirar em irmão de Eloá Pimentel é procurado com recompensa de R$ 50 mil em São Paulo",
+      "description": "Justiça decretou a prisão temporária de Hércules da Costa Siqueira, investigado por participação no ataque ao policial militar.",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/suspeito-de-atirar-em-irmao-de-eloa-pimentel-e-procurado-com-recompensa-de-r-50-mil-em-sao-paulo,fc8c59a26c42ffc52a6f7808c2de8623fi6dueug.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-05T19:35:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -207,20 +241,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_0f7f759698d0",
-      "title": "Governo oferece recompensa de R$ 50 mil por informações sobre suspeito de atirar em tenente da Rota",
-      "description": "O governo Tarcísio de Freitas (Republicanos) oferece R$ 50 mil neste domingo (5) por pistas que ajudem a capturar o atirador que feriu o...",
-      "url": "https://www.bemparana.com.br/noticias/brasil/governo-oferece-recompensa-de-r-50-mil-por-informacoes-sobre-suspeito-de-atirar-em-tenente-da-rota/",
-      "source": "Bem Paraná",
-      "sourceCanonical": "Bem Paraná",
-      "sourceDomain": "bemparana.com.br",
-      "publishedAt": "2026-07-05T18:22:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_54a5070ecfc2",
       "title": "Tenente da Rota segue na UTI uma semana após ser baleado em SP",
       "description": "Policial foi baleado durante uma tentativa de execução, na Grande São Paulo, e segue em estado grave; tenente é irmão de Eloá Pimentel,...",
@@ -235,32 +255,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_1dfbad3e99d2",
-      "title": "Polícia descarta que homem morto por Rota tenha participado de atentado contra tenente Pimentel",
-      "description": "Denúncia feita à PM na quarta-feira informava sobre possível relação de um suspeito com o caso. Homem foi atingido após troca de tiros e não...",
-      "url": "https://www.terra.com.br/noticias/brasil/cidades/policia-descarta-que-homem-morto-por-rota-tenha-participado-de-atentado-contra-tenente-pimentel,5ea0934e827c23f494dfe52efafda0644pq7d1nt.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-03T02:09:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7a1194f2a8fb",
       "title": "Caso Eloá: polícia busca suspeitos de atentado em Tubaté (SP)",
       "description": "A Polícia Militar fez buscas por envolvidos no atentado contra o primeiro-tenente da Rota, Ronickson Pimentel dos Santos, em Taubaté,...",
       "url": "https://ultimosegundo.ig.com.br/2026-07-03/caso-eloa--policia-busca-suspeitos-de-atentado-em-tubate-sp.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
+      "source": "Portal iG",
+      "sourceCanonical": "Portal iG",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-07-03T14:03:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ef05b08f1231",
@@ -291,10 +297,10 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_60bc7be9a8f1",
+      "id": "article_35acfb3a2e99",
       "title": "Smart Sanca ajuda a identificar atiradores de tenente da ROTA",
       "description": "A exposição O sistema Smart Sanca rastreou o veículo dos criminosos que monitoraram a rotina do policial antes do atentado em São Caetano.",
-      "url": "https://abcdoabc.com.br/smart-sanca-identificar-atiradores-tenente/",
+      "url": "https://www.abcdoabc.com.br/smart-sanca-identificar-atiradores-tenente",
       "source": "Portal ABC do ABC",
       "sourceCanonical": "Portal ABC do ABC",
       "sourceDomain": "abcdoabc.com.br",
@@ -305,24 +311,24 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a549e69243e3",
-      "title": "Justiça decreta prisão de suspeito de atirar em tenente",
-      "description": "Apontado como autor dos disparos contra tenente da Rota segue foragido; outro suspeito morreu em ação policial no litoral paulista.",
-      "url": "https://sbtnews.sbt.com.br/noticia/brasil/justica-decreta-prisao-de-suspeito-de-atacar-irmao-de-eloa",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-07-03T23:32:05+00:00",
-      "postedLabel": "ontem",
+      "id": "article_b96657899391",
+      "title": "Polícia descarta que homem morto por Rota tenha participado de atentado contra tenente Pimentel",
+      "description": "A polícia descartou que um homem morto pelas Rondas Ostensivas Tobias de Aguiar (Rota) em uma troca de tiros na zona leste de São Paulo na última...",
+      "url": "https://tribunadepetropolis.com.br/noticias/policia-descarta-que-homem-morto-por-rota-tenha-participado-de-atentado-contra-tenente-pimentel/",
+      "source": "Tribuna de Petrópolis",
+      "sourceCanonical": "Tribuna de Petrópolis",
+      "sourceDomain": "tribunadepetropolis.com.br",
+      "publishedAt": "2026-07-03T10:34:06+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.67,
+    "average": 5.6,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
