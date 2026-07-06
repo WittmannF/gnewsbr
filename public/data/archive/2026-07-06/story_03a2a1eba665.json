@@ -3,25 +3,31 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFX1llOEVSRlpFVWpoV1R4eS15Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFX1llOEVSRlpFVWpoV1R4eS15Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 7,
-      "topic-7": 8
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 6,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre governo • Hamas • Gaza",
+  "title": "Notícias sobre Hamas • Gaza",
   "summary": "O Hamas anunciou nesta 2ª feira (6.jul.2026) que deixa o governo da Faixa de Gaza após quase 20 anos. A saída abre caminho para que um...",
   "topic": "Hamas · Gaza",
   "topicKeywords": [
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2025/09/crianca_gaza_palestina-848x477.jpg",
   "publishedAt": "2026-07-06T10:41:00+00:00",
-  "updatedAt": "2026-07-06T22:45:54.746976+00:00",
+  "updatedAt": "2026-07-06T23:34:26.837597+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,18 +73,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_725d648b2055",
-      "title": "Como a saída do Hamas do poder civil em Gaza altera a gepolítica na região",
-      "description": "O Hamas anunciou nesta segunda-feira (6) a dissolução do comitê que administra a Faixa de Gaza há quase duas décadas. “O Hamas deu um novo...",
-      "url": "https://www.brasildefato.com.br/2026/07/06/como-a-saida-do-hamas-do-poder-civil-em-gaza-altera-a-gepolitica-na-regiao/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-07-06T21:38:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/04/AFP__20260404__A6QV7C6__v2__MidRes__TopshotPalestinianIsraelConflictGaza.webp",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "id": "article_ba99450e71c4",
+      "title": "Saída do Hamas não anula influência em Gaza e aumenta pressão sobre Israel, avaliam especialistas",
+      "description": "Grupo terrorista disse que deixará governo do território, mas desarmamento permanece incerto; Comitê palestino apoiado por Trump se diz...",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/07/saida-do-hamas-nao-anula-influencia-em-gaza-e-aumenta-pressao-sobre-israel-avaliam-especialistas.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-07-06T23:01:00+00:00",
+      "postedLabel": "33 minutos atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/06/17833761596a4c291f47ac5_1783376159_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_cf23c727da1f",
@@ -117,21 +123,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-07-06T20:22:53+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_4760aeb99178",
-      "title": "Hamas anuncia saída do governo de Gaza após quase 20 anos",
-      "description": "O Hamas anunciou hoje que dissolveu o órgão que governou a Faixa de Gaza durante quase duas décadas.O que aconteceuA saída do grupo islâmico...",
-      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/06/hamas-governo-gaza.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-06T12:55:03+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -179,6 +171,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_725d648b2055",
+      "title": "Como a saída do Hamas do poder civil em Gaza altera a gepolítica na região",
+      "description": "O Hamas anunciou nesta segunda-feira (6) a dissolução do comitê que administra a Faixa de Gaza há quase duas décadas. “O Hamas deu um novo...",
+      "url": "https://www.brasildefato.com.br/2026/07/06/como-a-saida-do-hamas-do-poder-civil-em-gaza-altera-a-gepolitica-na-regiao/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-06T21:38:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_5fe77f0c1085",
       "title": "Quem deve governar Gaza após saída do Hamas",
       "description": "O grupo informou que a medida foi adotada para facilitar a transição administrativa ao comitê criado pelo Conselho de Paz instituído por...",
@@ -187,10 +193,24 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-07-06T20:09:25+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_6f3c8575e024",
+      "title": "Hamas dissolve governo de Gaza e pressiona por avanços no plano de paz",
+      "description": "O Hamas anunciou nesta segunda-feira, 6, que dissolveu ‌seu governo de fato em Gaza e sinalizou que está pronto para passar o poder a um...",
+      "url": "https://www.terra.com.br/noticias/mundo/hamas-dissolve-governo-de-gaza-e-pressiona-por-avancos-no-plano-de-paz,110511ea69befbd94d33dd9ace94f9caoav5gk16.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-06T14:09:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_397f505d10b9",
@@ -207,20 +227,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_14736cd25a2e",
-      "title": "Vídeo. Hamas anuncia dissolução do órgão governativo de Gaza",
-      "description": "Vídeo. Esta medida marca uma mudança política significativa por parte do Hamas, que governa Gaza desde que os seus combatentes tomaram o...",
-      "url": "https://pt.euronews.com/video/2026/07/06/hamas-anuncia-dissolucao-do-orgao-governativo-de-gaza-abrindo-caminho-para-um-comite-tecno",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-07-06T11:02:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_83d48365b9ce",
       "title": "Hamas dissolve órgão que governou Gaza por quase 20 anos e abre caminho para governo de transição",
       "description": "Por que a Faixa de Gaza é tão importante no conflito entre Israel e o Hamas? 4:01. Thumbnail do video:Por que a Faixa de Gaza é tão...",
@@ -235,14 +241,28 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_6f3c8575e024",
-      "title": "Hamas dissolve governo de Gaza e pressiona por avanços no plano de paz",
-      "description": "O Hamas anunciou nesta segunda-feira, 6, que dissolveu ‌seu governo de fato em Gaza e sinalizou que está pronto para passar o poder a um...",
-      "url": "https://www.terra.com.br/noticias/mundo/hamas-dissolve-governo-de-gaza-e-pressiona-por-avancos-no-plano-de-paz,110511ea69befbd94d33dd9ace94f9caoav5gk16.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-06T14:09:00+00:00",
+      "id": "article_14736cd25a2e",
+      "title": "Vídeo. Hamas anuncia dissolução do órgão governativo de Gaza",
+      "description": "Vídeo. Esta medida marca uma mudança política significativa por parte do Hamas, que governa Gaza desde que os seus combatentes tomaram o...",
+      "url": "https://pt.euronews.com/video/2026/07/06/hamas-anuncia-dissolucao-do-orgao-governativo-de-gaza-abrindo-caminho-para-um-comite-tecno",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-07-06T11:02:38+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_cf08f418952c",
+      "title": "Hamas anuncia que deixará governo de Gaza e abre caminho para liderança civil",
+      "description": "O grupo terrorista Hamas anunciou nesta segunda-feira (6) a dissolução do órgão que governou na Faixa de Gaza por quase duas décadas.",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/07/1255145-hamas-anuncia-que-deixara-governo-de-gaza-e-abre-caminho-para-lideranca-civil.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-07-06T15:19:23+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -263,18 +283,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_cf08f418952c",
-      "title": "Hamas anuncia que deixará governo de Gaza e abre caminho para liderança civil",
-      "description": "O grupo terrorista Hamas anunciou nesta segunda-feira (6) a dissolução do órgão que governou na Faixa de Gaza por quase duas décadas.",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/07/1255145-hamas-anuncia-que-deixara-governo-de-gaza-e-abre-caminho-para-lideranca-civil.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-07-06T15:19:23+00:00",
+      "id": "article_f16beec217a0",
+      "title": "Hamas deixa a liderança de Gaza após cerca de 20 anos no poder",
+      "description": "O grupo político e militar, Hamas anunciou a saída do governo de Gaza após quase 20 anos no poder, nesta segunda-feira (6).",
+      "url": "https://midiamax.com.br/mundo/2026/hamas-deixa-lideranca-gaza-apos-cerca-20-anos-poder/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-07-06T12:17:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_41d63453500d",
@@ -285,7 +305,7 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-07-06T17:24:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -303,32 +323,18 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_f16beec217a0",
-      "title": "Hamas deixa a liderança de Gaza após cerca de 20 anos no poder",
-      "description": "O grupo político e militar, Hamas anunciou a saída do governo de Gaza após quase 20 anos no poder, nesta segunda-feira (6).",
-      "url": "https://midiamax.com.br/mundo/2026/hamas-deixa-lideranca-gaza-apos-cerca-20-anos-poder/",
-      "source": "Midiamax",
-      "sourceCanonical": "Midiamax",
-      "sourceDomain": "midiamax.com.br",
-      "publishedAt": "2026-07-06T12:17:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.35,
+    "average": 5.29,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 1,
-      "centerLeft": 2,
-      "center": 10,
+      "centerLeft": 3,
+      "center": 9,
       "centerRight": 3,
       "right": 1,
       "unknown": 3
