@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFX1llOEVSRTFGQzhXTks1c3NTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFX1llOEVSRTFGQzhXTks1c3NTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 5
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre governo • Hamas • Gaza",
   "summary": "Grupo palestino propõe transferência de poder em meio a estagnação de negociações mediadas pelos Estados Unidos.",
@@ -25,13 +31,13 @@
     "gaza",
     "hamas",
     "anuncia",
-    "faixa",
-    "dissolução",
-    "órgão"
+    "saída",
+    "abre",
+    "caminho"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/Membros-do-Hamas-sao-vistos-durante-uma-demonstracao-militar-na-Cidade-de-Gaza-e1760876535143.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-02T13:50:23+00:00",
-  "updatedAt": "2026-07-06T17:18:12.606308+00:00",
+  "updatedAt": "2026-07-06T18:48:21.562306+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-06T16:49:45+00:00",
-      "postedLabel": "28 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/Membros-do-Hamas-sao-vistos-durante-uma-demonstracao-militar-na-Cidade-de-Gaza-e1760876535143.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -58,24 +64,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-06T12:15:42+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://g1.globo.com/mundo/noticia/2026/07/06/None",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/oy4c9SZFPigK4IMIhaE60qbkYOU=/5000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/c/yL0JjSQESbh2w0zORLvw/2026-05-24t064554z-1429185544-rc2gflaqre3t-rtrmadp-3-israel-palestinians-gaza.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_494a78681541",
-      "title": "Hamas anuncia fim de seu governo de 20 anos na Faixa de Gaza",
-      "description": "Hamas anuncia fim de seu governo de 20 anos na Faixa de Gaza - Controle de território palestino será entregue a comitê da ONU,...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/07/06/hamas-anuncia-fim-de-seu-governo-de-20-anos-na-faixa-de-gaza.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-06T16:38:00+00:00",
-      "postedLabel": "40 minutos atrás",
+      "id": "article_0857fa452b42",
+      "title": "Gaza: o Hamas dissolve o órgão governamental do território palestino",
+      "description": "O Hamas anunciou a dissolução do órgão governamental da Faixa de Gaza, que governava desde 2007. A decisão dá início à transferência de...",
+      "url": "https://www.vaticannews.va/pt/mundo/news/2026-07/gaza-hamas-dissolve-governo-palestino.html",
+      "source": "Vatican News",
+      "sourceCanonical": "Vatican News",
+      "sourceDomain": "vaticannews.va",
+      "publishedAt": "2026-07-06T12:15:04+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ad8cd0745877",
@@ -85,10 +91,24 @@
       "source": "InfoMoney",
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-07-06T15:55:06+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-07-06T14:12:00+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/05/Ibovespa-ao-vivo-13-2.jpg?quality=70",
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_4760aeb99178",
+      "title": "Hamas anuncia saída do governo de Gaza após quase 20 anos",
+      "description": "O Hamas anunciou hoje que dissolveu o órgão que governou a Faixa de Gaza durante quase duas décadas.O que aconteceuA saída do grupo islâmico...",
+      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/07/06/hamas-governo-gaza.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-06T12:55:03+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -100,7 +120,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-06T15:05:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -114,10 +134,24 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-06T13:28:13+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_f70bfefed5fd",
+      "title": "Hamas anuncia fim de seu governo de 20 anos na Faixa de Gaza",
+      "description": "Controle de território palestino será entregue a comitê da ONU, mas ainda restam dúvidas sobre desarmamento e segurança.",
+      "url": "https://www.dw.com/pt-br/hamas-anuncia-fim-de-seu-governo-de-20-anos-na-faixa-de-gaza/a-77855322",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-07-06T16:41:15+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_8e455913dc93",
@@ -127,8 +161,8 @@
       "source": "Poder360",
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-06T15:24:51+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-07-06T15:25:40+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -148,6 +182,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_d8b11411bc8d",
+      "title": "Hamas anuncia saída do governo da Faixa de Gaza. O que isso significa? | Chamada Geral 1",
+      "description": "O Hamas anunciou, nesta segunda-feira (6), que dissolveu o órgão que governou a Faixa de Gaza durante quase duas décadas, abrindo caminho...",
+      "url": "https://gauchazh.clicrbs.com.br/video/hamas-anuncia-saida-do-governo-da-faixa-de-gaza-o-que-isso-significa-chamada-geral-1-cmr9gwrli0001018nkw98ick0.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-06T17:02:11+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_83d48365b9ce",
       "title": "Hamas dissolve órgão que governou Gaza por quase 20 anos e abre caminho para comitê tecnocrático",
       "description": "Por que a Faixa de Gaza é tão importante no conflito entre Israel e o Hamas? 4:01. Thumbnail do video:Por que a Faixa de Gaza é tão...",
@@ -156,38 +204,52 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-06T12:41:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_6f3c8575e024",
-      "title": "Hamas dissolve governo de Gaza e pressiona por avanços no plano de paz",
-      "description": "O Hamas anunciou nesta segunda-feira, 6, que dissolveu ‌seu governo de fato em Gaza e sinalizou que está pronto para passar o poder a um...",
-      "url": "https://www.terra.com.br/noticias/mundo/hamas-dissolve-governo-de-gaza-e-pressiona-por-avancos-no-plano-de-paz,110511ea69befbd94d33dd9ace94f9caoav5gk16.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-06T14:09:00+00:00",
+      "id": "article_7d981d2a525b",
+      "title": "Em direto/ Trump. \"Prefiro chegar a um acordo, pois não quero afetar 91 milhões de pessoas\"",
+      "description": "Governo do Hamas cessa funções com o objetivo de transferir a autoridade sobre Gaza para o Comité Nacional para a Administração de Gaza. Em...",
+      "url": "https://observador.pt/liveblogs/ataque-russo-com-misseis-balisticos-e-drones-mata-pelo-menos-cinco-pessoas-em-kiev/",
+      "source": "Observador",
+      "sourceCanonical": "Observador",
+      "sourceDomain": "observador.pt",
+      "publishedAt": "2026-07-06T15:34:14+00:00",
       "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_0857fa452b42",
-      "title": "Gaza: o Hamas dissolve o órgão governamental do território palestino",
-      "description": "O Hamas anunciou a dissolução do órgão governamental da Faixa de Gaza, que governava desde 2007. A decisão dá início à transferência de...",
-      "url": "https://www.vaticannews.va/pt/mundo/news/2026-07/gaza-hamas-dissolve-governo-palestino.html",
-      "source": "Vatican News",
-      "sourceCanonical": "Vatican News",
-      "sourceDomain": "vaticannews.va",
-      "publishedAt": "2026-07-06T12:15:04+00:00",
-      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f1301fbab0e3",
+      "title": "Hamas anuncia saída do governo de Gaza e abre caminho para criação de comitê gestor",
+      "description": "Após quase duas décadas, o movimento de resistência palestino Hamas anunciou nesta segunda-feira (06) a dissolução de seu órgão governante...",
+      "url": "https://www.brasildefato.com.br/2026/07/06/hamas-anuncia-saida-do-governo-de-gaza-e-abre-caminho-para-criacao-de-comite-gestor/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-06T17:22:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_57efcc071583",
+      "title": "Hamas dissolve órgão de governo em Gaza e abre caminho a comitê tecnocrático",
+      "description": "Ministro de Israel definiu a medida como um 'truque' para evitar desarmamento.",
+      "url": "https://www.terra.com.br/esportes/hamas-dissolve-orgao-de-governo-em-gaza-e-abre-caminho-a-comite-tecnocratico,ee392d5001d6eb7567a2b1e7cc4779505pjlg50c.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-06T16:51:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_247b2d790929",
@@ -198,24 +260,10 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-07-06T14:32:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_7d981d2a525b",
-      "title": "Hamas anuncia demissão do governo da Faixa de Gaza",
-      "description": "Governo do Hamas cessa funções com o objetivo de transferir a autoridade sobre Gaza para o Comité Nacional para a Administração de Gaza. Em...",
-      "url": "https://observador.pt/liveblogs/ataque-russo-com-misseis-balisticos-e-drones-mata-pelo-menos-cinco-pessoas-em-kiev/",
-      "source": "Observador",
-      "sourceCanonical": "Observador",
-      "sourceDomain": "observador.pt",
-      "publishedAt": "2026-07-06T12:20:58+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_cf08f418952c",
@@ -226,7 +274,7 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-07-06T15:11:15+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -240,24 +288,10 @@
       "sourceCanonical": "Midiamax",
       "sourceDomain": "midiamax.com.br",
       "publishedAt": "2026-07-06T12:17:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_2b1a89c285ae",
-      "title": "Hamas prepara-se para dissolver administração que gere Gaza",
-      "description": "O Hamas prepara-se para dissolver a sua administração, que governou a Faixa de Gaza durante quase 20 anos, avançaram responsáveis do grupo...",
-      "url": "https://www.jn.pt/mundo/artigo/hamas-prepara-se-para-dissolver-administracao-que-gere-gaza/18103101",
-      "source": "Jornal de Notícias",
-      "sourceCanonical": "Jornal de Notícias",
-      "sourceDomain": "jn.pt",
-      "publishedAt": "2026-07-06T10:41:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_5cb9fb3d2986",
@@ -274,71 +308,44 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_05a9b9c90ac6",
-      "title": "O Hamas adia as negociações sobre o futuro de Gaza, acompanhando de perto uma questão em particular.",
-      "description": "O movimento Hamas decidiu adotar uma tática de adiamento semelhante à de Israel, aguardando até o final de 2026 para ver o que o futuro...",
-      "url": "https://www.vietnam.vn/pt/phong-trao-hamas-tri-hoan-dam-phan-ve-tuong-lai-gaza-theo-doi-sat-sao-mot-viec",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-07-05T04:27:33+00:00",
-      "postedLabel": "ontem",
+      "id": "article_93ab94199511",
+      "title": "Comité palestiniano diz-se pronto para governar a Faixa de Gaza",
+      "description": "Cairo, 06 jul 2026 (Lusa) — O comité tecnocrático palestiniano criado pelo Conselho de Paz estabelecido pelo Presidente norte-americano...",
+      "url": "https://www.correiodamanhacanada.com/comite-palestiniano-diz-se-pronto-para-governar-a-faixa-de-gaza/",
+      "source": "Correio da Manhã Canadá",
+      "sourceCanonical": "Correio da Manhã Canadá",
+      "sourceDomain": "correiodamanhacanada.com",
+      "publishedAt": "2026-07-06T12:27:03+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_c7a4c1f56ec3",
-      "title": "Comité palestiniano afirma estar pronto para governar a Faixa de Gaza",
-      "description": "Comité técnico palestiniano afirma estar pronto para governar a Faixa de Gaza, após dissolução do governo do Hamas. Telinha. Por Telinha.",
-      "url": "https://portaltela.pt/geopolitica/2026/07/06/comite-palestiniano-afirma-estar-pronto-para-governar-a-faixa-de-gaza/",
-      "source": "Portal Tela Portugal -",
-      "sourceCanonical": "Portal Tela Portugal -",
-      "sourceDomain": "portaltela.pt",
-      "publishedAt": "2026-07-06T12:38:13+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_41a7d28682a8",
-      "title": "Hamas prepara dissolução de governo na Faixa de Gaza",
-      "description": "Grupo palestino tenta avançar nas negociações mediadas no Egito para a aplicação do acordo de paz apoiado pelos Estados Unidos.",
-      "url": "https://exame.com/mundo/hamas-prepara-dissolucao-de-governo-na-faixa-de-gaza/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-07-06T11:31:14+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 8,
-    "average": 5.69,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.29,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
-      "centerLeft": 0,
-      "center": 10,
+      "left": 1,
+      "centerLeft": 1,
+      "center": 9,
       "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
