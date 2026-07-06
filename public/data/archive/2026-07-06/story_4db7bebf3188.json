@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmN1l6QkVSR1ZxWW8zWjM5Y05DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmN1l6QkVSR1ZxWW8zWjM5Y05DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-5",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 13
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 20,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 13,
-    "bestSeedRank": 13,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Supertufão Bavi ameaça Guam e Ilhas Marianas do Norte",
   "summary": "Os habitantes de Guam e das Ilhas Marianas do Norte, dois territórios americanos no Pacífico, se preparam neste domingo (5) para a passagem...",
@@ -24,14 +33,14 @@
   "topicKeywords": [
     "supertufão",
     "pacífico",
-    "eua",
     "bavi",
+    "eua",
     "ilhas",
-    "perigoso"
+    "ilha"
   ],
   "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/07/afp-20260705-b9aj8zq-v1-midres-usguammarianaweathertyphoon.jpg",
   "publishedAt": "2026-07-02T14:53:57+00:00",
-  "updatedAt": "2026-07-06T01:15:49.540879+00:00",
+  "updatedAt": "2026-07-06T01:49:24.717686+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_ad290a912f24",
+      "title": "Imagem de satélite mostra supertufão se aproximando de ilha americana no Pacífico",
+      "description": "Satélite da Administração Nacional Oceânica e Atmosférica registrou a aproximação do supertufão Bavi da ilha de Guam. A previsão era de...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/07/05/imagem-de-satelite-mostra-supertufao-se-aproximando-de-ilha-americana-no-pacifico.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-06T01:27:41+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/N6Gyb-ldzzFeW6yQM5u_MFsqay4=/3240x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/o/AAcXUnSja5P9iKdBnbAw/ap26186710141611.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_54d8ffb2a8a2",
       "title": "Supertufão Bavi atinge ilha americana rajadas de vento de quase 300 km/h",
       "description": "Serviço Meteorológico Nacional dos EUA alertou para danos catastróficos e informou que ventos devem continuar durante a passagem do...",
@@ -86,7 +109,21 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-07-05T21:36:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_5692ad09a04b",
+      "title": "Supertufão Bavi provoca “grandes danos” na ilha norte-americana de Rota, no Pacífico",
+      "description": "Tempestade tem ventos confirmados de até 289 km/h, com alto potencial de destruição.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/supertufao-bavi-provoca-grandes-danos-na-ilha-norte-americana-de-rota-no-pacifico-1.1728488",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-07-06T01:41:15+00:00",
+      "postedLabel": "8 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -101,20 +138,6 @@
       "sourceDomain": "otempo.com.br",
       "publishedAt": "2026-07-05T16:28:20+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_2380a4ee1e21",
-      "title": "Supertufão ameaça ilhas dos EUA no Pacífico",
-      "description": "Os habitantes de Guam e das Ilhas Marianas do Norte se preparavam para a passagem do supertufão Bavi, que avançava pelo Pacífico em direção...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/supertufao-ameaca-ilhas-dos-eua-no-pacifico-1.1728175",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-07-04T02:12:22+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -162,20 +185,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_8a235a014538",
-      "title": "Supertufão Bavi provoca ‘grandes danos’ na ilha americana de Rota, no Pacífico",
-      "description": "O supertufão Bavi provocou “grandes danos” na ilha de Rota, no arquipélago americano das Marianas, no oceano Pacífico, anunciaram as...",
-      "url": "https://www.swissinfo.ch/por/supertuf%C3%A3o-bavi-provoca-%27grandes-danos%27-na-ilha-americana-de-rota%2C-no-pac%C3%ADfico/91702137",
-      "source": "SWI swissinfo.ch",
-      "sourceCanonical": "SWI swissinfo.ch",
-      "sourceDomain": "swissinfo.ch",
-      "publishedAt": "2026-07-06T00:50:00+00:00",
-      "postedLabel": "25 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_8a2b522b1173",
       "title": "EUA evacuam ilhas no Pacífico com chegada do supertufão Bavi",
       "description": "Os Estados Unidos intensificaram a retirada de civis em Guam e nas Ilhas Marianas do Norte com a aproximação do supertufão Bavi,...",
@@ -185,6 +194,20 @@
       "sourceDomain": "portalmarcossantos.com.br",
       "publishedAt": "2026-07-05T13:59:16+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_85ec245bb877",
+      "title": "Supertufão Bavi toca o solo na ilha americana de Rota, no Pacífico",
+      "description": "O supertufão Bavi tocou o solo na ilha americana de Rota, no Pacífico, na segunda-feira (noite de domingo, 5, horário de Brasília),...",
+      "url": "https://www.swissinfo.ch/por/supertuf%C3%A3o-bavi-toca-o-solo-na-ilha-americana-de-rota%2C-no-pac%C3%ADfico/91702137",
+      "source": "SWI swissinfo.ch",
+      "sourceCanonical": "SWI swissinfo.ch",
+      "sourceDomain": "swissinfo.ch",
+      "publishedAt": "2026-07-05T22:45:26+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -216,6 +239,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_b22c251e5124",
+      "title": "Supertufão ameaça ilhas dos EUA no Pacífico",
+      "description": "Os oceanos do mundo registraram o mês de junho mais quente de toda a série histórica e podem bater novos recordes nos próximos meses.",
+      "url": "https://jovempan.com.br/mundo/supertufao-ameaca-ilhas-dos-eua-no-pacifico/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-07-03T13:48:45+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_06c3c7208db1",
@@ -274,20 +311,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_b22c251e5124",
-      "title": "Supertufão ameaça ilhas dos EUA no Pacífico",
-      "description": "Os oceanos do mundo registraram o mês de junho mais quente de toda a série histórica e podem bater novos recordes nos próximos meses.",
-      "url": "https://jovempan.com.br/mundo/supertufao-ameaca-ilhas-dos-eua-no-pacifico/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-07-03T13:48:45+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_24667076842e",
       "title": "Supertufão Bavi ameaça território dos EUA com ventos de 260 km/h",
       "description": "O supertufão Bavi avança pelo Oceano Pacífico e colocou em alerta máximo os territórios norte-americanos de Guam e das Ilhas Marianas do...",
@@ -300,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_035b39a8b800",
-      "title": "Supertufão Bavi ameaça ilhas do Pacífico com ventos de 260 km/h",
-      "description": "Supertufão Bavi avança sobre Guam e Ilhas Marianas com ventos de até 260 km/h, risco de enchentes e evacuações.",
-      "url": "https://olhardigital.com.br/2026/07/05/ciencia-e-espaco/supertufao-bavi-ameaca-ilhas-do-pacifico-com-ventos-de-260-km-h/",
-      "source": "Olhar Digital",
-      "sourceCanonical": "Olhar Digital",
-      "sourceDomain": "olhardigital.com.br",
-      "publishedAt": "2026-07-05T14:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
     "average": 5,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 9,
+      "center": 10,
       "centerRight": 0,
       "right": 1,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
