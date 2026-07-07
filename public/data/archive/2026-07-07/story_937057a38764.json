@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 2
+      "topic-9": 3
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +26,14 @@
     "sonda",
     "japonesa",
     "defesa",
-    "voo",
-    "rasante"
+    "planetária",
+    "voo"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/06/17833565866a4bdcaa60421_1783356586_3x2_rt.jpg",
   "publishedAt": "2026-06-29T14:21:00+00:00",
-  "updatedAt": "2026-07-07T09:32:23.993019+00:00",
-  "sourceCount": 16,
-  "articleCount": 19,
+  "updatedAt": "2026-07-07T11:32:06.096725+00:00",
+  "sourceCount": 18,
+  "articleCount": 20,
   "articles": [
     {
       "id": "article_98dede18f641",
@@ -114,7 +114,7 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-07-07T07:12:43+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -129,6 +129,20 @@
       "sourceDomain": "diarioinduscom.com.br",
       "publishedAt": "2026-07-06T11:40:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2c09c4c99631",
+      "title": "Agência espacial japonesa divulga imagens de asteroide registradas por sonda durante sobrevoo",
+      "description": "A agência espacial japonesa divulgou imagens de um asteroide chamado Torifune, registradas por uma sonda durante um sobrevoo.",
+      "url": "https://www3.nhk.or.jp/nhkworld/pt/news/20260706_23/",
+      "source": "nhk.or.jp",
+      "sourceCanonical": "nhk.or.jp",
+      "sourceDomain": "www3.nhk.or.jp",
+      "publishedAt": "2026-07-07T08:29:24+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -218,6 +232,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b6854e11b31e",
+      "title": "Japão envia sonda ao espaço para analisar asteroide e testar defesa planetária",
+      "description": "O Japão deu mais um passo rumo à defesa planetária ao testar uma tecnologia inédita durante a passagem de uma sonda pelo asteroide Torifune.",
+      "url": "https://oantagonista.com.br/ladooa/tecnologia/japao-envia-sonda-ao-espaco-para-analisar-asteroide-e-testar-defesa-planetaria/",
+      "source": "O Antagonista",
+      "sourceCanonical": "O Antagonista",
+      "sourceDomain": "oantagonista.com.br",
+      "publishedAt": "2026-07-07T09:53:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_03d065fffb40",
       "title": "Sonda japonesa sobrevoa asteroide em teste para proteger a Terra",
       "description": "Uma sonda espacial japonesa sobrevoou, neste domingo (5), um asteroide próximo da Terra, em uma missão de teste destinada a desenvolver...",
@@ -286,45 +314,32 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_41bc5eec8aa3",
-      "title": "Japão divulga imagem de asteroide em forma de boneco de neve",
-      "description": "Imagens raras feitas por uma sonda espacial japonesa durante o sobrevoo de um asteroide próximo da Terra revelaram que a rocha espacial...",
-      "url": "https://www.swissinfo.ch/por/jap%C3%A3o-divulga-imagem-de-asteroide-em-forma-de-boneco-de-neve/91705407",
-      "source": "SWI swissinfo.ch",
-      "sourceCanonical": "SWI swissinfo.ch",
-      "sourceDomain": "swissinfo.ch",
-      "publishedAt": "2026-07-06T12:51:21+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 10,
-    "average": 5.43,
-    "knownCount": 7,
+    "average": 5.75,
+    "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 3,
       "center": 3,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 1,
       "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
