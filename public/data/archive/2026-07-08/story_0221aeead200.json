@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lYeE1TX0VSRWhia3VnU3hsX0ZDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lYeE1TX0VSRWhia3VnU3hsX0ZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 16
+      "topic-5": 17,
+      "topic-7": 13
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 16,
-    "bestSeedRank": 16,
+    "firstSeenRank": 17,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/05/abelardo-de-la-espriella-colombia-direita-848x477.jpg",
   "publishedAt": "2026-07-06T11:37:00+00:00",
-  "updatedAt": "2026-07-08T15:03:54.824285+00:00",
+  "updatedAt": "2026-07-08T16:00:40.413788+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -176,6 +179,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_af14a18dc247",
+      "title": "O exemplo mais fresco da esquerda golpista",
+      "description": "A esquerda golpista tem exemplo fresco como peixe de mercado portuário na figura do presidente colombiano Gustavo Petro.",
+      "url": "https://www.metropoles.com/colunas/mario-sabino/o-exemplo-mais-fresco-da-esquerda-golpista",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-07-08T14:57:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_df905ea07b9c",
       "title": "Petro antecipa saída da Presidência e convoca ato contra a extrema-direita na Colômbia",
       "description": "O presidente da Colômbia, Gustavo Petro, anunciou nas redes sociais que irá antecipar a sua saída da presidência, de 7 de agosto, para 20 de...",
@@ -212,7 +229,7 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-07-07T15:34:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -300,32 +317,18 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f1c82708bb95",
-      "title": "Presidente eleito da Colômbia acusa Petro de querer dar 'golpe de Estado'",
-      "description": "Abelardo de la Espriella, afirmou que o presidente em fim de mandato tenta dar um 'golpe de Estado' e pediu às Forças Armadas que 'protejam'...",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/07/7456804-presidente-eleito-da-colombia-acusa-petro-de-querer-dar-golpe-de-estado.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-07-07T20:36:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.47,
+    "average": 5.53,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
-      "center": 6,
+      "centerLeft": 2,
+      "center": 7,
       "centerRight": 4,
       "right": 2,
       "unknown": 3
