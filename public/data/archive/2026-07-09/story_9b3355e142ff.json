@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pHeXJiSEVSRm9mNDBtN3ptRnlTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pHeXJiSEVSRm9mNDBtN3ptRnlTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9,
-      "topic-5": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 7,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 9,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Justiça mantém prisão de Márcio Canella após operação da PF",
   "summary": "A Justiça manteve a prisão de Márcio Canella, preso em flagrante por posse ilegal de arma de fogo durante a 6ª fase da Operação Unha e Carne...",
@@ -28,13 +34,13 @@
     "canella",
     "senado",
     "márcio",
-    "flávio",
-    "prisão",
-    "rio"
+    "operação",
+    "rio",
+    "prisão"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/DF-f-Efk6ocpBw4exHee2-7Ua5Q=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/K/8/p6GBj2QV643vJnWP4BMA/whatsapp-image-2025-04-13-at-11.23.57.jpeg",
   "publishedAt": "2026-07-07T09:57:00+00:00",
-  "updatedAt": "2026-07-09T03:18:31.103793+00:00",
+  "updatedAt": "2026-07-09T05:31:48.033030+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-08T21:54:56+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/DF-f-Efk6ocpBw4exHee2-7Ua5Q=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/K/8/p6GBj2QV643vJnWP4BMA/whatsapp-image-2025-04-13-at-11.23.57.jpeg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -61,38 +67,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-09T03:00:48+00:00",
-      "postedLabel": "17 minutos atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/_jZ7MeomzoZpnaNZevrHW4A793w=/1280x0/filters:format(jpeg)/https://s03.video.glbimg.com/x720/14764050.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_943079de1233",
-      "title": "Justiça decide manter prisão do ex-prefeito de Belford Roxo",
-      "description": "O ex-prefeito Márcio Canella, preso nesta terça-feira 7 pela Polícia Federal, na 6ª fase da Operação Unha e Carne, passou nesta quarta-feira...",
-      "url": "https://www.cartacapital.com.br/politica/justica-decide-manter-prisao-do-ex-prefeito-de-belford-roxo/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-09T00:22:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/marcio-canella-2.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_02bf7a2e5b6f",
-      "title": "Vídeo: PF mostra pacotes de dinheiro encontrados em ação que mirou aliado de Flávio",
-      "description": "A Polícia Federal apreendeu 919 mil reais e 13 mil dólares em dinheiro vivo durante a sexta fase da Operação Unha e Carne, realizada nesta...",
-      "url": "https://veja.abril.com.br/brasil/video-pf-mostra-pacotes-de-dinheiro-encontrados-em-acao-que-mirou-aliado-de-flavio/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-07T21:06:39+00:00",
+      "id": "article_71f72f6dd07e",
+      "title": "PF deflagra 6ª fase da Operação Unha e Carne no Rio de Janeiro — Polícia Federal",
+      "description": "O grupo criminoso investigado teria movimentado mais de R$ 7,6 bilhões, de acordo com o Relatório do COAF.",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/07/pf-deflagra-6a-fase-da-operacao-unha-e-carne-no-rio-de-janeiro",
+      "source": "GOV.BR",
+      "sourceCanonical": "GOV.BR",
+      "sourceDomain": "gov.br",
+      "publishedAt": "2026-07-07T09:57:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-07-at-17.44.27.jpeg?quality=70&strip=info&resize=1080,565&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/07/pf-deflagra-6a-fase-da-operacao-unha-e-carne-no-rio-de-janeiro/whatsapp-image-2026-07-07-at-16-04-15-1.jpeg/@@images/2c33e00f-e1d8-4722-a67b-7adceab693a2.jpeg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_96d84d455760",
@@ -104,9 +96,37 @@
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-07-08T18:17:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/08/17835339206a4e91606fe5a_1783533920_3x2_lg.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_943079de1233",
+      "title": "Justiça decide manter prisão do ex-prefeito de Belford Roxo",
+      "description": "O ex-prefeito Márcio Canella, preso nesta terça-feira 7 pela Polícia Federal, na 6ª fase da Operação Unha e Carne, passou nesta quarta-feira...",
+      "url": "https://www.cartacapital.com.br/politica/justica-decide-manter-prisao-do-ex-prefeito-de-belford-roxo/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-09T00:22:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_6dccf7ae5800",
+      "title": "Justiça mantém prisão de Márcio Canella em audiência de custódia",
+      "description": "Prisão em flagrante também foi convertida em prisão preventiva. Ex-prefeito de Belford Roxo foi transferido para o Complexo Penitenciário de...",
+      "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/justica-mantem-prisao-de-marcio-canella-em-audiencia-de-custodia/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-08T22:33:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3a5e903fb48d",
@@ -123,32 +143,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_71f72f6dd07e",
-      "title": "PF deflagra 6ª fase da Operação Unha e Carne no Rio de Janeiro — Polícia Federal",
-      "description": "O grupo criminoso investigado teria movimentado mais de R$ 7,6 bilhões, de acordo com o Relatório do COAF.",
-      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/07/pf-deflagra-6a-fase-da-operacao-unha-e-carne-no-rio-de-janeiro",
-      "source": "GOV.BR",
-      "sourceCanonical": "GOV.BR",
-      "sourceDomain": "gov.br",
-      "publishedAt": "2026-07-07T09:57:00+00:00",
+      "id": "article_5c33ac8a864f",
+      "title": "PF apreendeu R$ 800 mil em operação que atingiu pré-candidato ao Senado no Rio",
+      "description": "Dinheiro vivo foi encontrado em empresa em Niterói durante as buscas da sexta fase da Operação Unha e Carne.",
+      "url": "https://veja.abril.com.br/politica/pf-apreendeu-r-800-mil-em-operacao-que-atingiu-pre-candidato-ao-senado-no-rio/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-07T20:56:55+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6dccf7ae5800",
-      "title": "Justiça mantém prisão de Márcio Canella em audiência de custódia",
-      "description": "Prisão em flagrante também foi convertida em prisão preventiva. Ex-prefeito de Belford Roxo foi transferido para o Complexo Penitenciário de...",
-      "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/justica-mantem-prisao-de-marcio-canella-em-audiencia-de-custodia/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-08T22:33:35+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_9e10b393b86a",
@@ -221,20 +227,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_c70f9286d459",
-      "title": "Unha e Carne: Mãe de Flávio Bolsonaro é suplente de candidato ao Senado no Rio e alvo da PF",
-      "description": "Rogéria Bolsonaro, mãe do senador Flávio Bolsonaro, pré-candidato do PL à Presidência da República, é a primeira suplente da pré-candidatura...",
-      "url": "https://blog.tribunadonorte.com.br/territoriolivre/unha-e-carne-mae-de-flavio-bolsonaro-e-suplente-de-candidato-ao-senado-no-rio-e-alvo-da-pf/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "blog.tribunadonorte.com.br",
-      "publishedAt": "2026-07-07T14:23:47+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_443e0bd4986a",
       "title": "União Progressista cogita Leniel Borel para vaga de Márcio Canella ao Senado",
       "description": "Federação União Progressista avalia nomes para substituir Márcio Canella na disputa ao Senado após operação da Polícia Federal e prisão em...",
@@ -247,6 +239,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c70f9286d459",
+      "title": "Unha e Carne: Mãe de Flávio Bolsonaro é suplente de candidato ao Senado no Rio e alvo da PF",
+      "description": "Rogéria Bolsonaro, mãe do senador Flávio Bolsonaro, pré-candidato do PL à Presidência da República, é a primeira suplente da pré-candidatura...",
+      "url": "https://blog.tribunadonorte.com.br/territoriolivre/unha-e-carne-mae-de-flavio-bolsonaro-e-suplente-de-candidato-ao-senado-no-rio-e-alvo-da-pf/",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
+      "sourceDomain": "blog.tribunadonorte.com.br",
+      "publishedAt": "2026-07-07T14:23:47+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8f10d5406dc8",
@@ -313,7 +319,7 @@
       "sourceCanonical": "instagram.com",
       "sourceDomain": "instagram.com",
       "publishedAt": "2026-07-09T02:54:39+00:00",
-      "postedLabel": "23 minutos atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
