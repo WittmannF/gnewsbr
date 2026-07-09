@@ -12,16 +12,16 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 25,
-      "topic-5": 25
+      "topic-3": 30,
+      "topic-5": 27
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 30,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Moraes autoriza busca na casa de Jair Bolsonaro por armas",
+  "title": "Moraes ordena busca e apreensão de armas de Jair Bolsonaro",
   "summary": "O armamento estava em posse de um homem na cidade de Cachoeirinha.",
   "topic": "Bolsonaro · Casa",
   "topicKeywords": [
@@ -33,8 +33,8 @@
     "não"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/03/Bolsonaro2.jpg",
-  "publishedAt": "2026-07-08T12:24:33+00:00",
-  "updatedAt": "2026-07-09T21:42:21.358959+00:00",
+  "publishedAt": "2026-07-08T10:34:28+00:00",
+  "updatedAt": "2026-07-09T22:44:46.643247+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -102,7 +102,7 @@
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-08T13:34:28+00:00",
+      "publishedAt": "2026-07-08T10:34:28+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -113,14 +113,14 @@
       "title": "Zema critica operação contra Bolsonaro e cita esposa de Moraes",
       "description": "Pré-candidato à Presidência classificou como 'suspeita' a ação da Polícia Federal contra Jair Bolsonaro e afirmou que a investigação deveria...",
       "url": "https://www.correiobraziliense.com.br/politica/2026/07/7457674-zema-critica-operacao-contra-bolsonaro-e-cita-esposa-de-moraes.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-08T20:21:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_6c4d2aa92c0a",
@@ -193,20 +193,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_3dd9c569871f",
-      "title": "PF diz ao STF não ter encontrado armas na casa de Bolsonaro",
-      "description": "A operação ocorreu após uma pistola do ex-capitão ser encontrada no carro de um militar parado em uma blitz.",
-      "url": "https://www.cartacapital.com.br/cartaexpressa/pf-diz-ao-stf-nao-ter-encontrado-armas-na-casa-de-bolsonaro/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-08T17:54:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_390d3ef7386f",
       "title": "PF faz operação de busca e apreensão na casa de Jair Bolsonaro. #JR24H #Shorts",
       "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
@@ -219,6 +205,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_3dd9c569871f",
+      "title": "PF diz ao STF não ter encontrado armas na casa de Bolsonaro",
+      "description": "A operação ocorreu após uma pistola do ex-capitão ser encontrada no carro de um militar parado em uma blitz.",
+      "url": "https://www.cartacapital.com.br/cartaexpressa/pf-diz-ao-stf-nao-ter-encontrado-armas-na-casa-de-bolsonaro/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-08T17:54:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_e25f5579c847",
@@ -322,20 +322,20 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.47,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 7,
       "centerRight": 4,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
@@ -343,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
