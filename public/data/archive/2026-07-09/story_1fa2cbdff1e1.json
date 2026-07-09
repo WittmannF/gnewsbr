@@ -3,40 +3,37 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkMVpISEVSSHR5ZTREMVZKR1h5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkMVpISEVSSHR5ZTREMVZKR1h5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 32,
-      "topic-5": 30
+      "topic-3": 31
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 32,
-    "bestSeedRank": 30,
+    "firstSeenRank": 31,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Homem é baleado após atropelar suspeito de assalto em São Paulo",
   "summary": "Segundo a polícia, o motorista perseguia o homem que havia acabado de cometer um assalto na região. A vítima foi socorrida e levada ao...",
-  "topic": "Assalto · Baleado",
+  "topic": "Assalto · Atropela",
   "topicKeywords": [
     "assalto",
-    "baleado",
     "atropela",
     "suspeito",
+    "baleado",
     "zona",
     "sul"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/Tbxp5z5LDHAudxJsQJXfVSGENz8=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/l/4jP7c6QDSSa2mjGgsZDQ/fotojet-2026-07-08t092700.508.jpg",
   "publishedAt": "2026-07-06T12:00:47+00:00",
-  "updatedAt": "2026-07-09T01:01:02.117393+00:00",
-  "sourceCount": 12,
-  "articleCount": 16,
+  "updatedAt": "2026-07-09T01:49:39.618257+00:00",
+  "sourceCount": 13,
+  "articleCount": 17,
   "articles": [
     {
       "id": "article_ecf544cf21bc",
@@ -89,7 +86,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-07-08T19:15:09+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://assets.spalla.io/019f4327-b843-7009-b647-1c40fde9468c/thumbnail-1783538109.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -207,6 +204,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_a4f8eb41e598",
+      "title": "Vítima de assalto atropela suspeito de moto e é baleada em SP",
+      "description": "Um homem de 30 anos atropelou um suspeito de assalto que estava de moto e acabou baleado pelo criminoso na noite de domingo (5), no Capão...",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/vitima-assalto-atropela-suspeito-moto-baleada-sp/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-07-09T01:18:52+00:00",
+      "postedLabel": "30 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_afa94541970b",
       "title": "Vítima de assalto atropela suspeito de moto e é baleada no Capão Redondo, na Zona Sul de S",
       "description": "A vítima foi socorrida ao Hospital do Campo Limpo, e o criminoso fugiu.",
@@ -264,13 +275,13 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.64,
-    "knownCount": 11,
+    "average": 5.33,
+    "knownCount": 12,
     "unknownCount": 5,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 6,
       "centerRight": 4,
@@ -279,13 +290,14 @@
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
