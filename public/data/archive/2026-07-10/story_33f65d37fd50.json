@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxaGRESUVSRjFONHl1bGtZUUF5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxaGRESUVSRjFONHl1bGtZUUF5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 22,
-      "topic-7": 2
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 5,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 22,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Incêndio florestal na Andaluzia deixa ao menos 11 mortos",
   "summary": "Cerca de 150 bombeiros trabalham para conter as chamas na cidade de Los Gallardos, região sul do país, informou a Agência de Emergência de...",
@@ -30,11 +36,11 @@
     "mortos",
     "florestal",
     "deixa",
-    "sul"
+    "desaparecidos"
   ],
-  "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/1_d0c145.png?w=1200&h=630&crop=1",
-  "publishedAt": "2026-07-10T01:08:53+00:00",
-  "updatedAt": "2026-07-10T13:05:40.636397+00:00",
+  "imageUrl": "https://s2-g1.glbimg.com/slHfM6f-YRuYw_ZI69UnPMjCRKs=/1280x0/filters:format(jpeg)/https://s04.video.glbimg.com/x720/14767847.jpg",
+  "publishedAt": "2026-07-10T01:12:01+00:00",
+  "updatedAt": "2026-07-10T13:48:02.912992+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,28 +49,14 @@
       "title": "Incêndio florestal na Espanha deixa ao menos 11 mortos, diz autoridade",
       "description": "Cerca de 150 bombeiros trabalham para conter as chamas na cidade de Los Gallardos, região sul do país, informou a Agência de Emergência de...",
       "url": "https://www.cnnbrasil.com.br/internacional/incendio-florestal-na-espanha-deixa-mortos-diz-autoridade/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-10T09:03:00+00:00",
       "postedLabel": "4 horas atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/1_d0c145.png?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e2b48bfa55f8",
-      "title": "Incêndio florestal deixa ao menos 11 mortos no sul da Espanha",
-      "description": "Pelo menos 11 pessoas morreram em um incêndio florestal perto de Almería, no sul da Espanha, no fim da noite desta quinta-feira (9),...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/07/09/incendio-florestal-deixa-12-mortos-no-sul-da-espanha.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-10T01:08:53+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a7931131b3cd",
@@ -81,16 +73,16 @@
       "bucket": "center"
     },
     {
-      "id": "article_a624637d8153",
-      "title": "Doze morrem e 23 estão desaparecidos em um dos incêndios mais letais da Espanha",
-      "description": "Pelo menos 12 pessoas morreram ao tentar fugir de um incêndio florestal no sul da Espanha e 23 estavam desaparecidas, enquanto os bombeiros...",
-      "url": "https://www.terra.com.br/noticias/mundo/doze-morrem-e-23-estao-desaparecidos-em-um-dos-incendios-mais-letais-da-espanha,8809800689f8564a8fccd355abc27149dzn1dbya.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-10T11:21:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
+      "id": "article_9d7c67fab0b3",
+      "title": "Espanha: incêndio florestal de grandes proporções em Andaluzia deixa mortos e desaparecidos",
+      "description": "Um incêndio florestal de grandes proporções atinge a região da Andaluzia, no sul da Espanha, e já deixou pelo menos 12 mortos e oito feridos...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/rfi/2026/07/10/espanha-incendio-florestal-de-grandes-proporcoes-em-andaluzia-deixa-mortos-e-desaparecidos.htm?uol_app=uolnoticias",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-10T13:31:50+00:00",
+      "postedLabel": "16 minutos atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -103,7 +95,7 @@
       "sourceCanonical": "Euronews",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-07-10T10:30:56+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -117,8 +109,8 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-07-10T09:25:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
+      "postedLabel": "4 horas atrás",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/AFP__20260710__B9U33ZQ__v1__MidRes__SpainFireEmergency.jpg",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -137,6 +129,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_b0f299aef03c",
+      "title": "Incêndio florestal deixa ao menos 11 mortos no sul da Espanha",
+      "description": "Fogo já destruiu mais de 3.100 hectares na província de Almería; autoridades mantêm buscas por desaparecidos e investigam circunstâncias das...",
+      "url": "https://www.estadao.com.br/internacional/incendio-florestal-deixa-ao-menos-11-mortos-no-sul-da-espanha-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-10T07:51:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_90e21d8ceb24",
       "title": "Incêndio florestal deixa dezenas de mortos, feridos e desaparecidos na Espanha",
       "description": "Incêndio florestal começou na quinta-feira (9) na região da Andaluzia, no sudoeste da Espanha. Leia na Gazeta do Povo.",
@@ -145,7 +151,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-10T10:31:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -159,21 +165,35 @@
       "sourceCanonical": "RTP",
       "sourceDomain": "rtp.pt",
       "publishedAt": "2026-07-10T12:38:46+00:00",
-      "postedLabel": "26 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_b0f299aef03c",
-      "title": "Incêndio florestal deixa ao menos 11 mortos no sul da Espanha",
-      "description": "Fogo já destruiu mais de 3.100 hectares na província de Almería; autoridades mantêm buscas por desaparecidos e investigam circunstâncias das...",
-      "url": "https://www.estadao.com.br/internacional/incendio-florestal-deixa-ao-menos-11-mortos-no-sul-da-espanha-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-10T07:51:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "id": "article_13cd519c0d42",
+      "title": "Espanha: incêndio florestal em Almería mata ao menos 12 e deixa 23 desaparecidos",
+      "description": "Um dos incêndios florestais mais mortais já registrados na Espanha deixou ao menos 12 mortos na noite de quinta (9) para sexta-feira, 10,...",
+      "url": "https://tribunadepetropolis.com.br/noticias/espanha-incendio-florestal-em-almeria-mata-ao-menos-12-e-deixa-23-desaparecidos/",
+      "source": "Tribuna de Petrópolis",
+      "sourceCanonical": "Tribuna de Petrópolis",
+      "sourceDomain": "tribunadepetropolis.com.br",
+      "publishedAt": "2026-07-10T13:37:53+00:00",
+      "postedLabel": "10 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_53497580d405",
+      "title": "Incêndio florestal deixa ao menos 11 mortos e 19 desaparecidos na Espanha",
+      "description": "Pelo menos 11 pessoas morreram ao tentar fugir de um incêndio florestal no sul da Espanha e 19 estavam desaparecidas, com os bombeiros ainda...",
+      "url": "https://noticias.r7.com/internacional/incendios-na-espanha-deixam-mortos-e-feridos-10072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-10T11:35:11+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -249,20 +269,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a7082ba6f409",
-      "title": "Imagens aéreas mostram extensão da área atingida pelo fogo na Andaluzia",
-      "description": "As vítimas mortais serão turistas estrangeiros que não seguiram a rota de evacuação.",
-      "url": "https://www.sabado.pt/video/detalhe/imagens-aereas-mostram-extensao-da-area-atingida-pelo-fogo-na-andaluzia",
-      "source": "SÁBADO",
-      "sourceCanonical": "SÁBADO",
-      "sourceDomain": "sabado.pt",
-      "publishedAt": "2026-07-10T10:45:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ce98f7417185",
       "title": "Incêndio florestal na Espanha deixa ao menos 11 mortos e 19 desaparecidos",
       "description": "Fogo na Andaluzia atinge área turística, mata estrangeiros que tentavam fugir e expõe início antecipado da temporada de incêndios.",
@@ -271,24 +277,24 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-07-10T11:45:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
     },
     {
-      "id": "article_0ed0b945e164",
-      "title": "Incêndio florestal deixa 11 mortos no sul da Espanha",
-      "description": "Bombeiros seguem combatendo as chamas, e outras 19 pessoas continuam desaparecidas.",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/incendio-florestal-deixa-11-mortos-no-sul-da-espanha",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-07-10T09:43:02+00:00",
+      "id": "article_a7082ba6f409",
+      "title": "Imagens aéreas mostram extensão da área atingida pelo fogo na Andaluzia",
+      "description": "As vítimas mortais serão turistas estrangeiros que não seguiram a rota de evacuação.",
+      "url": "https://www.sabado.pt/video/detalhe/imagens-aereas-mostram-extensao-da-area-atingida-pelo-fogo-na-andaluzia",
+      "source": "SÁBADO",
+      "sourceCanonical": "SÁBADO",
+      "sourceDomain": "sabado.pt",
+      "publishedAt": "2026-07-10T10:45:00+00:00",
       "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9d5ff51c38ad",
@@ -305,33 +311,33 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_2410a828ceb9",
-      "title": "Seguro envia condolências e solidariedade ao Rei de Espanha por incêndio em Almeria",
-      "description": "O Presidente da República, António José Seguro, lamentou esta sexta-feira as vítimas mortais resultantes do incêndio florestal na província...",
-      "url": "https://www.tsf.pt/mundo/artigo/seguro-envia-condolencias-e-solidariedade-ao-rei-de-espanha-por-incendio-em-almeria/18104641",
-      "source": "TSF",
-      "sourceCanonical": "TSF",
-      "sourceDomain": "tsf.pt",
-      "publishedAt": "2026-07-10T08:53:00+00:00",
+      "id": "article_0ed0b945e164",
+      "title": "Incêndio florestal deixa 11 mortos no sul da Espanha",
+      "description": "Bombeiros seguem combatendo as chamas, e outras 19 pessoas continuam desaparecidas.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/incendio-florestal-deixa-11-mortos-no-sul-da-espanha",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-07-10T09:43:02+00:00",
       "postedLabel": "4 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.73,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 4.9,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 6,
-      "centerRight": 2,
+      "center": 4,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {

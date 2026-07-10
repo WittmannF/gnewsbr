@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 24
+      "topic-6": 64
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 64,
+    "bestSeedRank": 64,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/07/07/1288935845-pec-e1717016072692.jpg",
   "publishedAt": "2026-07-07T16:45:10+00:00",
-  "updatedAt": "2026-07-10T13:08:31.676466+00:00",
+  "updatedAt": "2026-07-10T13:58:41.681718+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -166,8 +166,8 @@
       "title": "Lembra dele? Ex-Corinthians pode reforçar o Cruzeiro após passagem pela Arábia",
       "description": "Raposa busca acertar empréstimo com Wesley para reforçar ataque de Artur Jorge no resto da temporada.",
       "url": "https://www.goal.com/br/listas/lembra-dele-ex-corinthians-pode-reforcar-cruzeiro-apos-passagem-arabia/bltec1fbbcefb677297",
-      "source": "goal.com",
-      "sourceCanonical": "goal.com",
+      "source": "Goal.com",
+      "sourceCanonical": "Goal.com",
       "sourceDomain": "goal.com",
       "publishedAt": "2026-07-09T16:23:13+00:00",
       "postedLabel": "hoje",
@@ -208,14 +208,14 @@
       "title": "Cruzeiro tem interesse na contratação de Wesley, ex-Corinthians",
       "description": "Jogador de 21 anos, revelado pelo Corinthians, pode chegar à Toca da Raposa para reforçar o elenco celeste.",
       "url": "https://www.cnnbrasil.com.br/esportes/futebol/cruzeiro/cruzeiro-tem-interesse-na-contratacao-de-wesley-ex-corinthians/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-07T17:20:09+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_51b55e508520",
@@ -274,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dc9e0839389d",
-      "title": "Lembra dele? Ex-Corinthians pode reforçar o Cruzeiro após passagem pela Arábia",
-      "description": "Raposa busca acertar empréstimo com Wesley para reforçar ataque de Artur Jorge no resto da temporada. O Cruzeiro está perto de anunciar um nome conhecido do...",
-      "url": "https://www.msn.com/pt-br/esportes/futebol/lembra-dele-ex-corinthians-pode-refor%C3%A7ar-o-cruzeiro-ap%C3%B3s-passagem-pela-ar%C3%A1bia/ar-AA27zmfp",
-      "source": "MSN",
-      "sourceCanonical": "MSN",
-      "sourceDomain": "msn.com",
-      "publishedAt": "2026-07-09T19:45:51+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_48fff863d072",
       "title": "Cruzeiro abre negociação com o atacante Wesley, do Al-Nassr",
       "description": "Após anunciar o atacante Gabriel Pec, o Cruzeiro vai atrás de outro jogador para o setor ofensivo. Trata-se de Wesley, de 21 anos,...",
@@ -314,28 +300,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_bc9e8c7d27bf",
+      "title": "Cruzeiro negocia com Al-Nassr pela contratação de Wesley",
+      "description": "Clube mineiro busca acerto com atleta formado no Corinthians para reforçar o elenco na Série A. Wesley tem trajetória promissora no futebol...",
+      "url": "https://boainformacao.com.br/2026/07/cruzeiro-negocia-com-al-nassr-pela-contratacao-de-wesley/",
+      "source": "Boa Informação",
+      "sourceCanonical": "Boa Informação",
+      "sourceDomain": "boainformacao.com.br",
+      "publishedAt": "2026-07-07T18:15:03+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 5,
-    "average": 4.88,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 4.83,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 5,
       "centerRight": 0,
       "right": 0,
-      "unknown": 12
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 95
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
