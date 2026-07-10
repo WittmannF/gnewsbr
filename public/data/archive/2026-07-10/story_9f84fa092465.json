@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJLUtyR0VSRlp4aTZXZXNlUWt5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJLUtyR0VSRlp4aTZXZXNlUWt5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 46,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 48,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 46,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula e Flávio Bolsonaro em pesquisa",
   "summary": "A rodada de junho mostrava Lula com seis pontos de vantagem sobre Flávio Bolsonaro em um eventual segundo turno.",
@@ -28,13 +34,13 @@
     "lula",
     "flávio",
     "pesquisa",
+    "ideia",
     "bolsonaro",
-    "turno",
-    "ideia"
+    "turno"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/05/LF-2.jpg",
-  "publishedAt": "2026-07-04T18:00:00+00:00",
-  "updatedAt": "2026-07-10T07:27:57.160785+00:00",
+  "publishedAt": "2026-07-07T12:30:00+00:00",
+  "updatedAt": "2026-07-10T09:17:37.597681+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -81,20 +87,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_e3a1296762d1",
-      "title": "Datafolha: Lula e Flávio Bolsonaro empatam em SP para presidente, mas petista tem rejeição maior",
-      "description": "Líderes registram 35% de intenção de voto em 1º turno no estado; no 2º, senador tem 46%, e petista, 43%",
-      "url": "https://www1.folha.uol.com.br/poder/2026/07/datafolha-lula-e-flavio-bolsonaro-empatam-em-sp-para-presidente-mas-petista-tem-rejeicao-maior.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-07-08T16:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/13/17786688766a04554ceafd1_1778668876_3x2_xl.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_aad5511ffc8f",
       "title": "Gerp divulga pesquisa eleitoral para presidente da República",
       "description": "O instituto Gerp divulgou nesta quarta-feira (8) uma nova pesquisa de intenções de voto para presidente da República nas eleições de 2026.",
@@ -104,8 +96,22 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-08T11:04:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/07/07075024/pesquisa-presidente-1280x720-1-1.png",
       "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_a51a56da3dfd",
+      "title": "PL usa recortes estaduais como estratégia para mobilizar aliados de Flávio Bolsonaro",
+      "description": "Grupos de direita replicaram levantamentos em que pré-candidato tem melhor desempenho, como RJ e RS.",
+      "url": "https://noticias.r7.com/prisma/r7-planalto/pl-usa-recortes-estaduais-como-estrategia-para-mobilizar-aliados-de-flavio-bolsonaro-09072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-09T05:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -149,20 +155,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_e7b6fdbc4503",
-      "title": "Letícia Cesarino: O medo mudou de lado: por que isso pode ser bom para Lula?",
-      "description": "Novo levantamento Atlas evidencia impactos do racha entre Flávio e Michele Bolsonaro à medida que expõe o medo do brasileiro como...",
-      "url": "https://www.cartacapital.com.br/opiniao/o-medo-mudou-de-lado-por-que-isso-pode-ser-bom-para-lula/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-04T18:00:00+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_bf7aa846a579",
@@ -221,14 +213,14 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c97cba16bec0",
-      "title": "Flávio tem 45% e Lula 42% em eventual 2º turno, diz pesquisa",
-      "description": "Segundo a pesquisa da Gerp, os 2 estão tecnicamente empatados; margem de erro é de 2,2 p.p.. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes/flavio-tem-45-e-lula-42-em-eventual-2o-turno-diz-pesquisa/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-08T14:05:44+00:00",
+      "id": "article_7e3cd8f5355b",
+      "title": "Datafolha: em SP, Lula e Flávio empatam em 1º e 2º turnos",
+      "description": "Pesquisa realizou 1.608 entrevistas entre os dias 1° e 3 de julho; margem de erro é de 2 pontos percentuais com intervalo de confiança de...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-em-sp-lula-e-flavio-empatam-em-1o-e-2o-turnos/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-08T17:30:21+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -249,6 +241,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_c97cba16bec0",
+      "title": "Flávio tem 45% e Lula 42% em eventual 2º turno, diz pesquisa",
+      "description": "Segundo a pesquisa da Gerp, os 2 estão tecnicamente empatados; margem de erro é de 2,2 p.p.. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes/flavio-tem-45-e-lula-42-em-eventual-2o-turno-diz-pesquisa/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-08T14:05:44+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_6b5c872852b7",
+      "title": "Lula está em posição frágil de reeleição, avalia fundador do Ideia",
+      "description": "Pesquisa Meio Ideia para 2026 mostra Lula à frente de Flávio Bolsonaro, mas com cenário de reeleição considerado frágil, diz Mauricio Moura.",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/08/lula-esta-em-posicao-fragil-de-reeleicao-avalia-mauricio-moura.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-08T14:51:25+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_6f5d4ce1ea5c",
       "title": "Isolamento político de Lula pode favorecer oposição no segundo turno",
       "description": "O presidente Lula continua favorito, mas seu desempenho está estagnado. A pesquisa Meio/Ideia mostra como esse equilíbrio é mais frágil do...",
@@ -261,34 +281,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_7e3cd8f5355b",
-      "title": "Datafolha: em SP, Lula e Flávio empatam em 1º e 2º turnos",
-      "description": "Pesquisa realizou 1.608 entrevistas entre os dias 1° e 3 de julho; margem de erro é de 2 pontos percentuais com intervalo de confiança de...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-em-sp-lula-e-flavio-empatam-em-1o-e-2o-turnos/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-08T17:30:21+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_a51a56da3dfd",
-      "title": "PL usa recortes estaduais como estratégia para mobilizar aliados de Flávio Bolsonaro",
-      "description": "Grupos de direita replicaram levantamentos em que pré-candidato tem melhor desempenho, como RJ e RS.",
-      "url": "https://noticias.r7.com/prisma/r7-planalto/pl-usa-recortes-estaduais-como-estrategia-para-mobilizar-aliados-de-flavio-bolsonaro-09072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-09T05:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_eb3a32787a89",
@@ -317,32 +309,45 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_731fded00140",
+      "title": "Lula x Flávio Bolsonaro: o eleitor invisível nas pesquisas para a presidência em 2026",
+      "description": "As duas últimas pesquisas para a presidência alimentaram interpretações sobre o ritmo da disputa entre Lula e Flávio Bolsonaro.",
+      "url": "https://www.brasildefato.com.br/2026/07/08/lula-x-flavio-bolsonaro-o-eleitor-invisivel-nas-pesquisas-para-a-presidencia-em-2026/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-08T15:01:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.24,
+    "average": 5.29,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 3,
-      "centerLeft": 1,
-      "center": 8,
+      "centerLeft": 0,
+      "center": 9,
       "centerRight": 5,
       "right": 0,
       "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
