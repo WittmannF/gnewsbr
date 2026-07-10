@@ -3,22 +3,25 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lYeE1TX0VSSHpHNWJVLXZ4RWxTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lYeE1TX0VSSHpHNWJVLXZ4RWxTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-7"
+      "home",
+      "topstories"
     ],
     "seedRanks": {
-      "topic-7": 2
+      "home": 2,
+      "topstories": 2
     },
-    "firstSeenSeedPage": "topic-7",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Em meio à crise sobre eleições na Colômbia, Petro telefona para Lula e diz que fará 'transição pacífica'",
+  "title": "Petro e a eleição na Colômbia",
   "summary": "Gustavo Petro confirmou, em ligação a Lula, sua saída do governo colombiano em agosto após acusações de golpe feitas pelo presidente eleito,...",
   "topic": "Petro · Colômbia",
   "topicKeywords": [
@@ -27,11 +30,11 @@
     "transição",
     "lula",
     "pacífica",
-    "crise"
+    "presidente"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/KnbsvHRTGvzx0rUSdS4Q_v_CiOw=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/Y/n/k4PwGOTEiQo05gMSsKrA/whatsapp-image-2023-05-30-at-11.45.50.jpeg",
   "publishedAt": "2026-07-07T16:47:00+00:00",
-  "updatedAt": "2026-07-10T03:28:16.131854+00:00",
+  "updatedAt": "2026-07-10T05:31:29.621875+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,20 +50,6 @@
       "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/KnbsvHRTGvzx0rUSdS4Q_v_CiOw=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/Y/n/k4PwGOTEiQo05gMSsKrA/whatsapp-image-2023-05-30-at-11.45.50.jpeg",
       "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_44aa34d1f841",
-      "title": "Gustavo Petro repete Bolsonaro",
-      "description": "A crise política por que passa a Colômbia tem muitos paralelos com a que o Brasil viveu em 2022 — ainda que os polos ideológicos estejam...",
-      "url": "https://oglobo.globo.com/opiniao/pablo-ortellado/coluna/2026/07/gustavo-petro-repete-bolsonaro.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-07-10T03:05:08+00:00",
-      "postedLabel": "23 minutos atrás",
-      "imageUrl": "https://s2-oglobo.glbimg.com/sbxo7ziL0xNfgc8A3KxZ-2mRmG8=/3941x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/Z/6/ENpeNsSAyMDH657la50Q/afp-20260217-97ve866-v1-highres-filescolombiaconflictpeacetalks.jpg",
-      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -92,6 +81,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_3fc8820ee885",
+      "title": "Papelão na saída: Petro tumultua transição para presidente de direita",
+      "description": "Piadinha colombiana: “Não reconhecemos a vitória da Suíça”. A frase jocosa emula, em termos de Copa do Mundo, o tumulto que o presidente em...",
+      "url": "https://veja.abril.com.br/coluna/mundialista/papelao-na-saida-petro-tumultua-transicao-para-presidente-de-direita/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-09T10:08:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/GettyImages-2282096922.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_b1c77232a63a",
       "title": "Em ligação com Lula, Petro promete transição pacífica na Colômbia",
       "description": "Presidente colombiano em exercício, que deve deixar o cargo em 6 de agosto, destacou o período em que trabalhou junto com seu homólogo...",
@@ -104,34 +107,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_3fc8820ee885",
-      "title": "Papelão na saída: Petro tumultua transição para presidente de direita",
-      "description": "Piadinha colombiana: “Não reconhecemos a vitória da Suíça”. A frase jocosa emula, em termos de Copa do Mundo, o tumulto que o presidente em...",
-      "url": "https://veja.abril.com.br/coluna/mundialista/papelao-na-saida-petro-tumultua-transicao-para-presidente-de-direita/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-09T10:08:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_809071a7eb79",
-      "title": "Após dizer que não reconheceria novo presidente, Petro recua em telefonema para Lula",
-      "description": "O presidente da Colômbia, Gustavo Petro, prometeu uma \"transição pacífica\" na Colômbia durante uma ligação com seu homólogo brasileiro e...",
-      "url": "https://www.gazetadopovo.com.br/mundo/apos-dizer-que-nao-reconheceria-novo-presidente-petro-recua-em-telefonema-para-lula/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-07-09T22:50:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
     },
     {
       "id": "article_7bcb8fe3c1c7",
@@ -162,18 +137,18 @@
       "bucket": "right"
     },
     {
-      "id": "article_c43af3b4927e",
-      "title": "Petro liga para Lula e se compromete com 'transição pacífica' na Colômbia",
-      "description": "O presidente Luiz Inácio Lula da Silva conversou por telefone, nesta quinta-feira (9), com seu par da Colômbia, Gustavo Petro, que o...",
-      "url": "https://www.em.com.br/internacional/2026/07/7458543-petro-liga-para-lula-e-se-compromete-com-transicao-pacifica-na-colombia.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-07-09T22:41:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_809071a7eb79",
+      "title": "Após dizer que não reconheceria novo presidente, Petro recua em telefonema para Lula",
+      "description": "O presidente da Colômbia, Gustavo Petro, prometeu uma \"transição pacífica\" na Colômbia durante uma ligação com seu homólogo brasileiro e...",
+      "url": "https://www.gazetadopovo.com.br/mundo/apos-dizer-que-nao-reconheceria-novo-presidente-petro-recua-em-telefonema-para-lula/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-07-09T22:50:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_d3e559e9ac5b",
@@ -190,15 +165,29 @@
       "bucket": "left"
     },
     {
-      "id": "article_0c2bf3309aad",
-      "title": "Eleito na Colômbia acusa atual presidente de preparar \"golpe de Estado\" e pede que militares desobedeçam ordens",
-      "description": "Transição de governo entre Espriella e Petro foi suspensa após acusações de corrupção e debate sobre resultado das eleições.",
-      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/07/eleito-na-colombia-acusa-atual-presidente-de-preparar-golpe-de-estado-e-pede-que-militares-desobedecam-ordens-cmraz5kla00pn0131bq9twqru.html",
+      "id": "article_c43af3b4927e",
+      "title": "Petro liga para Lula e se compromete com 'transição pacífica' na Colômbia",
+      "description": "O presidente Luiz Inácio Lula da Silva conversou por telefone, nesta quinta-feira (9), com seu par da Colômbia, Gustavo Petro, que o...",
+      "url": "https://www.em.com.br/internacional/2026/07/7458543-petro-liga-para-lula-e-se-compromete-com-transicao-pacifica-na-colombia.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-07-09T22:41:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_fa6d141deec3",
+      "title": "Petro liga para Lula e se compromete com \"transição pacífica\" de governo na Colômbia",
+      "description": "Colombiano garantiu que deixará o cargo em 6 de agosto, apesar de desentendimentos com sucessor direitista, Abelardo De la Espriella.",
+      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/07/petro-diz-a-lula-que-fara-transicao-pacifica-apos-rejeitar-reconhecimento-de-eleito-na-colombia-cmre4fz6501nk013v2d7cofde.html",
       "source": "GZH",
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-07-07T19:07:44+00:00",
-      "postedLabel": "2 dias atrás",
+      "publishedAt": "2026-07-09T23:40:18+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -212,7 +201,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-09T22:02:03+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -226,7 +215,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-08T04:14:17+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -246,18 +235,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1bc64ddcc285",
-      "title": "Em telefonema para Lula, Petro garante 'transição pacífica' na Colômbia",
-      "description": "Presidente da Colômbia vai transferir o cargo em agosto para o direitista Abelardo de La Espriella. Petro chegou a afirmar que não reconhece...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/07/7458458-petro-garante-a-lula-transicao-pacifica-na-colombia-em-ligacao.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-07-09T21:08:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_847e31bf90ad",
+      "title": "Espriella suspende transição na presidência da Colômbia e lança acusações contra Gustavo Petro",
+      "description": "O presidente eleito da Colômbia, Abelardo de la Espriella, determinou, nesta terça-feira (7), a suspensão do processo de transição com o...",
+      "url": "https://www.brasildefato.com.br/2026/07/07/espriella-suspende-transicao-na-presidencia-na-colombia-e-lanca-acusacoes-contra-gustavo-petro/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-07T16:47:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_af14a18dc247",
@@ -274,29 +263,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_847e31bf90ad",
-      "title": "Espriella suspende transição na presidência da Colômbia e lança acusações contra Gustavo Petro",
-      "description": "O presidente eleito da Colômbia, Abelardo de la Espriella, determinou, nesta terça-feira (7), a suspensão do processo de transição com o...",
-      "url": "https://www.brasildefato.com.br/2026/07/07/espriella-suspende-transicao-na-presidencia-na-colombia-e-lanca-acusacoes-contra-gustavo-petro/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-07-07T16:47:00+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_1bc64ddcc285",
+      "title": "Em telefonema para Lula, Petro garante 'transição pacífica' na Colômbia",
+      "description": "Presidente da Colômbia vai transferir o cargo em agosto para o direitista Abelardo de La Espriella. Petro chegou a afirmar que não reconhece...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/07/7458458-petro-garante-a-lula-transicao-pacifica-na-colombia-em-ligacao.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-07-09T21:08:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
-      "id": "article_b2afe480e257",
-      "title": "Lula conversa com Petro em meio à crise de transição presidencial na Colômbia",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) conversou por telefone nesta quinta-feira (9) com seu homólogo da Colômbia, Gustavo Petro.",
-      "url": "https://www.jornaldocomercio.com/politica/2026/07/1255720-lula-conversa-com-petro-em-meio-a-crise-de-transicao-presidencial-na-colombia.html",
+      "id": "article_f20bb78c7818",
+      "title": "Petro diz que não reconhece presidente eleito da Colômbia e convoca manifestações",
+      "description": "Ex-magistrado do Conselho Nacional Eleitoral (CNE) diz que entrará com uma ação judicial para anular a eleição de Espriella.",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/07/1255352-petro-diz-que-nao-reconhece-presidente-eleito-da-colombia-e-convoca-manifestacoes.html",
       "source": "Jornal do Comércio",
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-07-09T23:49:20+00:00",
-      "postedLabel": "3 horas atrás",
+      "publishedAt": "2026-07-07T19:19:55+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -314,18 +303,32 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_c69f1d4d96c1",
+      "title": "Presidente eleito da Colômbia acusa Petro de querer dar 'golpe de Estado'",
+      "description": "O presidente eleito da Colômbia, Abelardo de la Espriella, afirmou nesta terça-feira (7) que o presidente em fim de mandato, Gustavo Petro,...",
+      "url": "https://www.folhape.com.br/noticias/presidente-eleito-da-colombia-acusa-petro-de-querer-dar-golpe-de/499026/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-07-07T23:31:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.32,
+    "average": 5.21,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
-      "center": 10,
+      "centerLeft": 3,
+      "center": 9,
       "centerRight": 4,
       "right": 1,
       "unknown": 1
