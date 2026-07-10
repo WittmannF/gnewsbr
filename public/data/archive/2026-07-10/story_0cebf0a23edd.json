@@ -3,35 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2N01iSEVSRlRXUEdwZDczX2p5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2N01iSEVSRlRXUEdwZDczX2p5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 27
+      "topic-3": 23,
+      "topic-5": 25
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Anvisa atualiza composição de vacinas contra a Covid-19",
   "summary": "Novos imunizantes deverão ser monovalentes e conter a cepa LP.8.1 ou antígenos derivados da variante JN.1. Khauan Wood, da CNN Brasil*, em...",
-  "topic": "Vacinas · Covid",
+  "topic": "Covid · Anvisa",
   "topicKeywords": [
-    "vacinas",
     "covid",
     "anvisa",
-    "novas",
+    "vacinas",
     "variantes",
+    "novas",
     "atualiza"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/vacina-gripe.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-08T21:54:00+00:00",
-  "updatedAt": "2026-07-10T17:48:16.872066+00:00",
+  "updatedAt": "2026-07-10T18:43:36.740403+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,23 +61,9 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-10T12:25:55+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/gRWFprnewV8x8GhjiVyr8gWQAtc=/1024x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/2/G/ZgADkZQSS3N9DZ2qUBng/vacina-contra-covid.jpg",
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_ee75710a4bd6",
-      "title": "Confira os destaques da 12ª Reunião Ordinária Pública da Diretoria da Anvisa",
-      "description": "A atualização da composição das vacinas contra a Covid-19 em uso no Brasil foi um dos itens aprovados.",
-      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/confira-os-destaques-da-12a-reuniao-ordinaria-publica-da-diretoria-da-anvisa",
-      "source": "www.gov.br",
-      "sourceCanonical": "GOV.BR",
-      "sourceDomain": "gov.br",
-      "publishedAt": "2026-07-08T21:54:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/confira-os-destaques-da-12a-reuniao-ordinaria-publica-da-diretoria-da-anvisa/02-jpg-1-1-1.jpeg/@@images/37f6e36a-0357-46d7-9290-164ea46111ba.jpeg",
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -86,10 +75,24 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-10T13:28:16+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/5OQXD6EGDJBVXDQIFKYBKCQRYQ.jpeg?quality=80&auth=8bb8985a252b29c64769fd54553fb20dbd26b1e4961b30c7811a91702fb1d9a0&width=1200&height=630&focal=725,468",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_ee75710a4bd6",
+      "title": "Confira os destaques da 12ª Reunião Ordinária Pública da Diretoria da Anvisa",
+      "description": "A atualização da composição das vacinas contra a Covid-19 em uso no Brasil foi um dos itens aprovados.",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/confira-os-destaques-da-12a-reuniao-ordinaria-publica-da-diretoria-da-anvisa",
+      "source": "www.gov.br",
+      "sourceCanonical": "GOV.BR",
+      "sourceDomain": "gov.br",
+      "publishedAt": "2026-07-08T21:54:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_228cc370f018",
@@ -100,7 +103,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-07-09T18:04:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -141,8 +144,8 @@
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-09T18:00:33+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-07-10T17:39:10+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -176,20 +179,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_99d67e0f800c",
-      "title": "Anvisa muda regras de composição de vacinas da Covid",
-      "description": "Norma define atualizações na composição dos imunizantes comercializados no Brasil, alinhadas às variantes mais recentes do vírus em...",
-      "url": "https://sbtnews.sbt.com.br/noticia/saude/anvisa-muda-regras-de-composicao-de-vacinas-da-covid",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-07-09T13:31:10+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_0c029c2dfe08",
       "title": "Anvisa atualiza composição de vacinas contra Covid para acompanhar variantes em circulação",
       "description": "Vacinas contra a Covid já registradas e produzidas antes da atualização, assim como doses que já estejam distribuídas no país, poderão ser usadas por até...",
@@ -212,7 +201,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-07-09T18:38:09+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -232,6 +221,48 @@
       "bucket": "center"
     },
     {
+      "id": "article_99d67e0f800c",
+      "title": "Anvisa muda regras de composição de vacinas da covid",
+      "description": "Norma define atualizações na composição dos imunizantes comercializados no Brasil, alinhadas às variantes mais recentes do vírus em...",
+      "url": "https://sbtnews.sbt.com.br/noticia/saude/anvisa-muda-regras-de-composicao-de-vacinas-da-covid",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-07-09T09:31:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b51c78913d1b",
+      "title": "Anvisa determina atualização de vacinas contra a covid-19",
+      "description": "Novas regras exigem imunizantes monovalentes contra variantes em circulação; estoque antigo possui autorização de uso por até nove meses.",
+      "url": "https://costanorte.com.br/saude/anvisa-determina-atualizacao-de-vacinas-contra-a-covid-19.html",
+      "source": "Costa Norte",
+      "sourceCanonical": "Costa Norte",
+      "sourceDomain": "costanorte.com.br",
+      "publishedAt": "2026-07-10T16:33:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_368802b04910",
+      "title": "Anvisa muda vacina para enfrentar covid",
+      "description": "Novas regras da Anvisa pedem vacinas monovalentes baseadas em JN.1. Há transição de até nove meses e exigências de eficácia e segurança.",
+      "url": "https://tribunaonline.com.br/saude/anvisa-muda-vacina-para-enfrentar-covid-315886",
+      "source": "Tribuna Online",
+      "sourceCanonical": "Tribuna Online",
+      "sourceDomain": "tribunaonline.com.br",
+      "publishedAt": "2026-07-10T17:40:51+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_d1900aa71cf0",
       "title": "Anvisa vai atualizar vacinas contra a covid-19 no Brasil; veja o que muda",
       "description": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou um conjunto de atualizações para as vacinas contra a covid-19. O objetivo da...",
@@ -240,7 +271,7 @@
       "sourceCanonical": "Money Times",
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-07-10T14:12:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -260,34 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e3e6a0028415",
-      "title": "Vacinas contra covid-19 serão atualizadas contra novas variantes",
-      "description": "Anvisa publica norma que atualiza vacinas da covid-19 para novas variantes e define prazo de até nove meses para uso de doses antigas.",
-      "url": "https://tribunaonline.com.br/saude/vacinas-contra-covid-19-serao-atualizadas-contra-novas-variantes-315849",
-      "source": "Tribuna Online",
-      "sourceCanonical": "Tribuna Online",
-      "sourceDomain": "tribunaonline.com.br",
-      "publishedAt": "2026-07-10T11:39:53+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_bfe5b602934b",
-      "title": "Anvisa aprova atualização de vacinas e regras de rotulagem",
-      "description": "Diretoria Colegiada também deliberou sobre pesquisas clínicas, Farmacopeia, certificação de boas práticas e mudanças em normas regulatórias.",
-      "url": "https://jornaldebrasilia.com.br/noticias/saude/anvisa-aprova-atualizacao-de-vacinas-e-regras-de-rotulagem/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-07-08T22:47:51+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_b6c971e5fce3",
       "title": "Vacinas contra covid-19 serão atualizadas para acompanhar novas variantes",
       "description": "A Anvisa determinou a atualização das vacinas contra covid-19 no Brasil. Novas formulações serão voltadas às variantes mais recentes.",
@@ -296,21 +299,21 @@
       "sourceCanonical": "Folha Vitória",
       "sourceDomain": "folhavitoria.com.br",
       "publishedAt": "2026-07-10T17:15:20+00:00",
-      "postedLabel": "32 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_403b590d76bc",
-      "title": "Anvisa define novas regras para atualizar a vacina contra Covid-19",
-      "description": "De acordo com a agência, muitos casos recentes de gripe estavam associados com a Covid-19; as vacinas terão resposta imunológica contra uma...",
-      "url": "https://www.itatiaia.com.br/brasil/brasil-geral/anvisa-define-novas-regras-para-atualizar-a-vacina-contra-covid-19/",
+      "id": "article_9ef535cf4414",
+      "title": "Anvisa determina atualização da vacina contra a covid-19; veja o que muda",
+      "description": "A Agência Nacional de Vigilância Sanitária (Anvisa) determinou que a vacina contra a covid-19 deve ser atualizada para proteger contra novas...",
+      "url": "https://www.itatiaia.com.br/saude/anvisa-determina-atualizacao-da-vacina-contra-a-covid-19-veja-o-que-muda/",
       "source": "Rádio Itatiaia",
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-07-10T13:31:06+00:00",
-      "postedLabel": "4 horas atrás",
+      "publishedAt": "2026-07-10T18:37:28+00:00",
+      "postedLabel": "6 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.53,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 12,
+      "center": 11,
       "centerRight": 3,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
