@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZc056SEVSRmttb09JbGQxT1dTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZc056SEVSRmttb09JbGQxT1dTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 1,
-      "topic-5": 44
+      "topic-5": 46
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Cleitinho Azevedo reconhece erro em sessão na CPI das Bets",
   "summary": "O senador Cleitinho Azevedo (Republicanos-MG), cotado para concorrer ao governo de Minas, disse que foi \"idiota\" ao ter pedido foto com a...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/qh75c4O_u3b2BBQqrrw8Z7yqy9Y=/675x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/J/L/tbAgV0T62vKt3gBsRBAw/1-virginiasenador-67147862.webp",
   "publishedAt": "2026-07-08T20:11:21+00:00",
-  "updatedAt": "2026-07-11T08:46:27.657786+00:00",
+  "updatedAt": "2026-07-11T09:44:05.045034+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -123,20 +129,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_cb098a932e09",
-      "title": "Cleitinho diz que errou ao tirar foto com Virginia na CPI das Bets",
-      "description": "Cleitinho afirmou que o episódio marcou seu mandato e usou o discurso para defender o endurecimento das regras para apostas.",
-      "url": "https://www.congressoemfoco.com.br/noticia/120376/cleitinho-diz-que-errou-ao-tirar-foto-com-virginia-na-cpi-das-bets",
-      "source": "Congresso em Foco",
-      "sourceCanonical": "Congresso em Foco",
-      "sourceDomain": "congressoemfoco.com.br",
-      "publishedAt": "2026-07-10T12:39:36+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_c041b3c1cffe",
       "title": "Cleitinho pede desculpas por foto com Virginia na CPI das Bets: \"Fui idiota\"",
       "description": "Veja o pedido de desculpas de Cleitinho após foto com Virginia na CPI das Bets e os impactos das apostas no Brasil.",
@@ -149,6 +141,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_cb098a932e09",
+      "title": "Cleitinho diz que errou ao tirar foto com Virginia na CPI das Bets",
+      "description": "Cleitinho afirmou que o episódio marcou seu mandato e usou o discurso para defender o endurecimento das regras para apostas.",
+      "url": "https://www.congressoemfoco.com.br/noticia/120376/cleitinho-diz-que-errou-ao-tirar-foto-com-virginia-na-cpi-das-bets",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-07-10T12:39:36+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1bc89b1bdb42",
