@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 12,
-      "topic-5": 15
+      "topic-3": 13,
+      "topic-5": 20
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 13,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2023/12/CNJ-848x477.jpg",
   "publishedAt": "2026-07-09T16:24:00+00:00",
-  "updatedAt": "2026-07-11T19:36:49.208388+00:00",
+  "updatedAt": "2026-07-11T20:27:51.655943+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -187,7 +187,7 @@
       "sourceCanonical": "ES Hoje",
       "sourceDomain": "eshoje.com.br",
       "publishedAt": "2026-07-09T20:08:56+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -277,6 +277,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_a68e8b11f5df",
+      "title": "CNJ afasta desembargadora por “deboche” contra juízes e OAB",
+      "description": "CNJ afastou Marise Chamberlain, do TRT-17, após falas contra juízes de primeira instância e a OAB-ES em sessão.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/cnj-afasta-desembargadora-deboche-juizes-oab/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-07-11T19:51:46+00:00",
+      "postedLabel": "36 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_d3b029cf8b9b",
       "title": "CNJ afasta desembargadora por “deboche e excessos verbais” em sessão",
       "description": "Ao criticar questionamentos da OAB, Marise Chamberlain afirmou que servidores e magistrados do segundo grau trabalham “feito uns animais”",
@@ -303,41 +317,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_f3f4e8dc7b5e",
-      "title": "CNJ afasta desembargadora do ES após ataques à OAB e críticas ao primeiro grau da Justiça",
-      "description": "O Conselho Nacional de Justiça (CNJ) determinou o afastamento da desembargadora Marise Medeiros Cavalcanti Chamberlain do Tribunal Regional...",
-      "url": "https://redenoticia.es/cnj-afasta-desembargadora-do-es-apos-ataques-a-oab-e-criticas-ao-primeiro-grau-da-justica/",
-      "source": "rede noticia es",
-      "sourceCanonical": "rede noticia es",
-      "sourceDomain": "redenoticia.es",
-      "publishedAt": "2026-07-10T11:02:24+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 8,
-    "average": 5.6,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.27,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 8,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
