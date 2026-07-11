@@ -4,20 +4,23 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pRdDlyREVSSFdmTXVBbWhnaHdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-7",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-7"
     ],
     "seedRanks": {
-      "home": 3,
-      "topstories": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-7": 2
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -27,14 +30,14 @@
   "topicKeywords": [
     "trump",
     "irã",
+    "caso",
+    "mísseis",
     "eua",
-    "israel",
-    "plano",
     "ameaça"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/trump-22jun2026-848x477.jpg",
   "publishedAt": "2026-07-08T03:54:00+00:00",
-  "updatedAt": "2026-07-11T14:34:30.562983+00:00",
+  "updatedAt": "2026-07-11T15:30:28.896708+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +50,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-11T12:03:48+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/06/trump-22jun2026-848x477.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -95,34 +98,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_bc9eab6f5459",
-      "title": "Trump diz que EUA estão prontos para \"ataque em larga escala\" contra o Irã",
-      "description": "Em publicação na rede social Truth Social, o presidente do Estados Unidos, Donald Trump, afirmou que as forças armadas norte-americanas...",
-      "url": "https://gauchazh.clicrbs.com.br/video/trump-diz-que-eua-estao-prontos-para-ataque-em-larga-escala-contra-o-ira-cmrgalarh001e01djae0ohdcx.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-07-11T11:39:41+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_89bc8c8aee87",
-      "title": "Troca de ameaças de EUA e Irã eleva tensão no Oriente Médio",
-      "description": "Trump prometeu \"dizimar\" o Irã se país tentar assassiná;-lo. Líder supremo iraniano jura vingança pela morte de seu pai.",
-      "url": "https://www.dw.com/pt-br/troca-de-amea%C3%A7as-entre-eua-e-ir%C3%A3-eleva-tens%C3%A3o-em-torno-de-tr%C3%A9gua/a-77916210",
-      "source": "dw.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-07-11T12:49:29+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_ae9fb08b6acc",
       "title": "Trump ameaça atacar Irã caso Teerã tente assassiná-lo",
       "description": "Presidente dos EUA afirma que já ordenou uma resposta militar e diz que 1.000 mísseis estão prontos para atingir o país. Da CNN Brasil 11/07/26 às 00:53...",
@@ -132,6 +107,34 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-11T03:56:21+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_89bc8c8aee87",
+      "title": "Troca de ameaças de EUA e Irã eleva tensão no Oriente Médio",
+      "description": "Trump prometeu \"dizimar\" o Irã se país tentar assassiná;-lo. Líder supremo iraniano jura vingança pela morte de seu pai.",
+      "url": "https://www.dw.com/pt-br/troca-de-amea%C3%A7as-entre-eua-e-ir%C3%A3-eleva-tens%C3%A3o-em-torno-de-tr%C3%A9gua/a-77916210",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-07-11T12:49:29+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_bc9eab6f5459",
+      "title": "Trump diz que EUA estão prontos para \"ataque em larga escala\" contra o Irã",
+      "description": "Em publicação na rede social Truth Social, o presidente do Estados Unidos, Donald Trump, afirmou que as forças armadas norte-americanas...",
+      "url": "https://gauchazh.clicrbs.com.br/video/trump-diz-que-eua-estao-prontos-para-ataque-em-larga-escala-contra-o-ira-cmrgalarh001e01djae0ohdcx.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-11T11:39:41+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -165,15 +168,15 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_65527a5de62b",
-      "title": "Inteligência de Israel compartilha com EUA novos planos do Irã para matar Trump",
-      "description": "A inteligência israelense informou o governo dos EUA sobre novos planos do Irã para assassinar o presidente Donald Trump.",
-      "url": "https://www.gazetadopovo.com.br/mundo/inteligencia-de-israel-compartilha-com-eua-novos-planos-do-ira-para-matar-trump/",
+      "id": "article_e4fb66024bf6",
+      "title": "Trump diz que deixou instrução para bombardear Irã “em níveis nunca vistos” caso ele seja assassinado",
+      "description": "O presidente dos Estados Unidos, Donald Trump, disse que deixou instruções para que as forças armadas americanas bombardeiem o Irã “em...",
+      "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-deixou-instrucao-bombardear-ira-niveis-nunca-vistos-caso-ele-seja-assassinado/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-07-10T01:59:00+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-07-10T17:21:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -187,49 +190,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-07-11T10:47:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_75aef19f1bd4",
-      "title": "Trump ameaça Irão com “mil mísseis” caso o tentem assassinar",
-      "description": "Aviso de Trump surge horas antes de o ministro dos Negócios Estrangeiros iraniano chegar a Omã para conversações sobre o estreito de Ormuz.",
-      "url": "https://www.publico.pt/2026/07/11/mundo/noticia/trump-ameaca-irao-mil-misseis-caso-tentem-assassinar-2181317",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-07-11T11:03:58+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f1453eb0bd3b",
-      "title": "Israel compartilha com EUA suposto plano do Irã para matar Trump",
-      "description": "'Estou no topo da lista', disse o presidente americano nesta semana.",
-      "url": "https://www.terra.com.br/noticias/mundo/israel-compartilha-com-eua-suposto-plano-do-ira-para-matar-trump,072a4b42a848c27b6d4b57b30e43168ftfuaraau.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-10T10:57:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e9ce1af25f19",
-      "title": "Israel alerta Trump sobre plano do Irã para matá-lo",
-      "description": "O governo de Israel informou ao governo dos Estados Unidos e compartilhou informações importantes sobre um plano do Irã para o assassinato...",
-      "url": "https://diariodopoder.com.br/exteriores/e07-internacional/israel-alerta-trump-sobre-plano-do-ira-para-mata-lo",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-07-10T14:50:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -249,6 +210,48 @@
       "bucket": "center"
     },
     {
+      "id": "article_75aef19f1bd4",
+      "title": "Trump ameaça Irão com “mil mísseis” caso o tentem assassinar",
+      "description": "Aviso de Trump surge horas antes de o ministro dos Negócios Estrangeiros iraniano chegar a Omã para conversações sobre o estreito de Ormuz.",
+      "url": "https://www.publico.pt/2026/07/11/mundo/noticia/trump-ameaca-irao-mil-misseis-caso-tentem-assassinar-2181317",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-07-11T11:03:58+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_e9ce1af25f19",
+      "title": "Israel alerta Trump sobre plano do Irã para matá-lo",
+      "description": "O governo de Israel informou ao governo dos Estados Unidos e compartilhou informações importantes sobre um plano do Irã para o assassinato...",
+      "url": "https://diariodopoder.com.br/exteriores/e07-internacional/israel-alerta-trump-sobre-plano-do-ira-para-mata-lo",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-07-10T14:50:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_caa79c8f745d",
+      "title": "Médio Oriente: tensão continua, com Israel a afirmar que Irão quer matar Trump",
+      "description": "De acordo com as autoridades iranianas, os Estados Unidos tornaram a bombardear o país durante a noite de quinta-feira a sexta-feira, o que...",
+      "url": "https://www.rfi.fr/pt/mundo/20260710-m%C3%A9dio-oriente-tens%C3%A3o-continua-com-israel-a-afirmar-que-ir%C3%A3o-quer-matar-trump",
+      "source": "RFI",
+      "sourceCanonical": "RFI",
+      "sourceDomain": "rfi.fr",
+      "publishedAt": "2026-07-10T14:40:13+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_f0db28f10459",
       "title": "Trump ameaça 'dizimar e destruir' o Irã se governo do país tentar matá-lo",
       "description": "Donald Trump usou suas redes sociais na madrugada deste sábado (11) para fazer uma ameaça contundente contra o governo iraniano .",
@@ -257,7 +260,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-07-11T11:03:47+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -277,18 +280,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_caa79c8f745d",
-      "title": "Médio Oriente: tensão continua, com Israel a afirmar que Irão quer matar Trump",
-      "description": "De acordo com as autoridades iranianas, os Estados Unidos tornaram a bombardear o país durante a noite de quinta-feira a sexta-feira, o que...",
-      "url": "https://www.rfi.fr/pt/mundo/20260710-m%C3%A9dio-oriente-tens%C3%A3o-continua-com-israel-a-afirmar-que-ir%C3%A3o-quer-matar-trump",
-      "source": "RFI",
-      "sourceCanonical": "RFI",
-      "sourceDomain": "rfi.fr",
-      "publishedAt": "2026-07-10T14:40:13+00:00",
+      "id": "article_0581f3ac48b3",
+      "title": "EUA têm \"mil mísseis\" armados e apontados caso Teerão tente assassinar Trump",
+      "description": "O presidente norte-americano, Donald Trump, afirmou que existem \"mil mísseis armados, preparados e apontados\" contra o Irão caso Teerão...",
+      "url": "https://www.jn.pt/mundo/artigo/eua-tem-mil-misseis-armados-e-apontados-caso-teerao-tente-assassinar-trump/18104991",
+      "source": "Jornal de Notícias",
+      "sourceCanonical": "Jornal de Notícias",
+      "sourceDomain": "jn.pt",
+      "publishedAt": "2026-07-11T08:21:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_88e6d70f701c",
@@ -299,7 +302,7 @@
       "sourceCanonical": "Investidor10",
       "sourceDomain": "investidor10.com.br",
       "publishedAt": "2026-07-11T12:42:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -313,7 +316,7 @@
       "sourceCanonical": "Tribuna do Norte",
       "sourceDomain": "tribunadonorte.com.br",
       "publishedAt": "2026-07-11T12:55:09+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
