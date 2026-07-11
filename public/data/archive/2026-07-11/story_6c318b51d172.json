@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyc2NQSEVSRWxRWVRfdzVlc3FpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyc2NQSEVSRWxRWVRfdzVlc3FpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 6,
-      "topic-5": 8
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 7,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Reunião de Lula sobre minerais críticos",
   "summary": "Presidente afirmou que o encontro com ministros evidenciou o potencial tecnológico e científico do Brasil em um setor que é visto como uma...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/jyw6xcA8fguAdMWc1TcKRQPEUIw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/M/KMMgx5Q7aa7AmZQefBUw/foto11bra-101-luladf-a6.jpg",
   "publishedAt": "2026-07-09T02:16:15+00:00",
-  "updatedAt": "2026-07-11T00:51:56.598082+00:00",
+  "updatedAt": "2026-07-11T01:47:17.262910+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -60,23 +66,9 @@
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-10T18:54:51+00:00",
-      "postedLabel": "5 horas atrás",
+      "publishedAt": "2026-07-10T22:54:51+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_c5f6c7cf2545",
-      "title": "Lula diz que Trump deve se preocupar com Brasil por terras-raras",
-      "description": "Em reunião sobre minerais críticos, Presidente afirma que o país pode fazer “as mesmas coisas ou até melhor” que a China. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-governo/lula-diz-que-trump-deve-se-preocupar-com-brasil-por-terras-raras/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-11T00:29:29+00:00",
-      "postedLabel": "22 minutos atrás",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Lula-DonaLindu-EntregasGovernamentais-Saude-Educacao-Habitacao-9-848x477.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -103,6 +95,20 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-10T17:36:22+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/52717891737_013190f314_k-e1772722212453.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_1324abc87bcb",
+      "title": "Silveira defende nova regra para venda de mineradoras",
+      "description": "Ministro de Minas e Energia defende projeto de lei que exige aval do Estado para mudança acionária em empresas de minerais críticos.",
+      "url": "https://www.poder360.com.br/poder-governo/silveira-defende-nova-regra-para-venda-de-mineradoras/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-10T18:13:23+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -145,7 +151,7 @@
       "sourceCanonical": "Partido dos Trabalhadores",
       "sourceDomain": "pt.org.br",
       "publishedAt": "2026-07-10T20:09:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -159,7 +165,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-11T00:29:06+00:00",
-      "postedLabel": "22 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -200,8 +206,8 @@
       "source": "Jornal do Comércio",
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-07-10T20:26:15+00:00",
-      "postedLabel": "4 horas atrás",
+      "publishedAt": "2026-07-10T18:52:05+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -229,7 +235,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-10T19:18:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -243,7 +249,7 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-07-10T20:03:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -299,7 +305,7 @@
       "sourceCanonical": "Agência iNFRA",
       "sourceDomain": "agenciainfra.com",
       "publishedAt": "2026-07-10T22:36:11+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
