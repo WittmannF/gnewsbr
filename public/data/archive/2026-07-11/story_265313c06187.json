@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZc056SEVSRmttb09JbGQxT1dTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZc056SEVSRmttb09JbGQxT1dTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 1,
-      "topic-5": 50
+      "topic-5": 44
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Cleitinho Azevedo reconhece erro em sessão na CPI das Bets",
   "summary": "O senador Cleitinho Azevedo (Republicanos-MG), cotado para concorrer ao governo de Minas, disse que foi \"idiota\" ao ter pedido foto com a...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/qh75c4O_u3b2BBQqrrw8Z7yqy9Y=/675x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/J/L/tbAgV0T62vKt3gBsRBAw/1-virginiasenador-67147862.webp",
   "publishedAt": "2026-07-08T20:11:21+00:00",
-  "updatedAt": "2026-07-11T10:36:48.753399+00:00",
+  "updatedAt": "2026-07-11T11:30:26.418729+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -117,7 +123,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-07-10T11:02:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -163,6 +169,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_877292880876",
+      "title": "Senador reconhece que foi 'idiota' em caso envolvendo Virginia na CPI das Bets",
+      "description": "Cleitinho fez autocrítica durante discurso no Senado e relembrou selfie com a influenciadora, que voltou a ser alvo de ação do Ministério...",
+      "url": "https://www.correio24horas.com.br/em-alta/senador-reconhece-que-foi-idiota-em-caso-envolvendo-virginia-na-cpi-das-bets-0726",
+      "source": "Jornal Correio",
+      "sourceCanonical": "Jornal Correio",
+      "sourceDomain": "correio24horas.com.br",
+      "publishedAt": "2026-07-11T10:53:03+00:00",
+      "postedLabel": "37 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_1bc89b1bdb42",
@@ -303,46 +323,31 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_fbc26db876d3",
-      "title": "Cleitinho diz que errou ao pedir foto com Virginia Fonseca na CPI das Bets",
-      "description": "Cleitinho afirma que se arrependeu da atitude, critica a regulamentação das apostas e cobra medidas mais rígidas contra o setor.",
-      "url": "https://revistaoeste.com/politica/cleitinho-diz-que-errou-ao-pedir-foto-com-virginia-fonseca-na-cpi-das-bets/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-07-10T12:40:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 10,
-    "average": 5.36,
+    "max": 7,
+    "average": 4.91,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 8,
+      "center": 9,
       "centerRight": 1,
-      "right": 1,
+      "right": 0,
       "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
