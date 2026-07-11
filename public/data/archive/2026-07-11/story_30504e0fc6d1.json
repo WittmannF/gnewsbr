@@ -3,20 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pRdDlyREVSR08yWkxmZ1BobDhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pRdDlyREVSR08yWkxmZ1BobDhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "home",
+      "topstories"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 3,
+      "topstories": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Trump • Irã",
   "summary": "Presidente dos EUA afirma que já ordenou uma resposta militar e diz que 1.000 mísseis estão prontos para atingir o país. Da CNN Brasil 11/07/26 às 00:53...",
@@ -26,12 +29,12 @@
     "irã",
     "ameaça",
     "caso",
-    "mísseis",
-    "plano"
+    "plano",
+    "mísseis"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/2026-07-01T140244Z_1_LYNXMPEM602TW_RTROPTP_4_USA-250-TRUMP.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-10T03:01:00+00:00",
-  "updatedAt": "2026-07-11T22:37:24.851052+00:00",
+  "updatedAt": "2026-07-11T23:29:27.849289+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -190,6 +193,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_75aef19f1bd4",
+      "title": "Trump ameaça Irão com “mil mísseis” caso o tentem assassinar",
+      "description": "Aviso de Trump surge horas antes de o ministro dos Negócios Estrangeiros iraniano chegar a Omã para conversações sobre o estreito de Ormuz.",
+      "url": "https://www.publico.pt/2026/07/11/mundo/noticia/trump-ameaca-irao-mil-misseis-caso-tentem-assassinar-2181317",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-07-11T16:56:06+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_da01d500b7a2",
       "title": "Trump ameaça destruir o Irã caso país tente assassiná-lo e diz ter ‘mil mísseis prontos’",
       "description": "Ameaças entre Washington e Teerã se intensificaram desde a morte do general iraniano Qassem Soleimani, em 2020.",
@@ -218,20 +235,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_75aef19f1bd4",
-      "title": "Trump ameaça Irão com “mil mísseis” caso o tentem assassinar",
-      "description": "Aviso de Trump surge horas antes de o ministro dos Negócios Estrangeiros iraniano chegar a Omã para conversações sobre o estreito de Ormuz.",
-      "url": "https://www.publico.pt/2026/07/11/mundo/noticia/trump-ameaca-irao-mil-misseis-caso-tentem-assassinar-2181317",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-07-11T16:56:06+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_0e3db4970e1c",
       "title": "Trump promete “dizimar” o Irã com mil mísseis prontos — mas negociações de paz seguem de pé nos bastidores",
       "description": "O presidente dos Estados Unidos, Donald Trump, elevou ainda mais o tom contra o Irã neste sábado (11), afirmando que Washington está pronta...",
@@ -244,6 +247,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_59ff7a8fbf20",
+      "title": "Trump assassinado? Irão fala em \"vingança\", povo aponta: \"Vamos matar-te\"",
+      "description": "Esta semana surgiu, com mais força, a possibilidade de estar a ser planeado um ataque que resulte na morte do presidente dos EUA.",
+      "url": "https://www.noticiasaominuto.com/mundo/3020120/trump-assassinado-irao-fala-em-vinganca-povo-aponta-vamos-matar-te",
+      "source": "Notícias ao Minuto",
+      "sourceCanonical": "Notícias ao Minuto",
+      "sourceDomain": "noticiasaominuto.com",
+      "publishedAt": "2026-07-11T17:37:40+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e9ce1af25f19",
@@ -274,20 +291,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_b410dade2797",
-      "title": "Israel compartilha informações de inteligência sobre suposto plano do Irã para matar Trump",
-      "description": "Israel compartilhou informações de inteligência com os Estados Unidos sobre um plano novo e “específico” do Irã para assassinar o presidente...",
-      "url": "https://www.em.com.br/internacional/2026/07/7458642-israel-compartilha-informacoes-de-inteligencia-sobre-suposto-plano-do-ira-para-matar-trump.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-07-10T03:01:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_caa79c8f745d",
       "title": "Médio Oriente: tensão continua, com Israel a afirmar que Irão quer matar Trump",
       "description": "De acordo com as autoridades iranianas, os Estados Unidos tornaram a bombardear o país durante a noite de quinta-feira a sexta-feira, o que...",
@@ -302,18 +305,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_88e6d70f701c",
-      "title": "Trump corre risco de morte? EUA ameaçam Irã com ataque de mísseis",
-      "description": "A tensão entre Estados Unidos e Irã alcançou um novo patamar na noite desta sexta-feira (10), quando o presidente americano Donald Trump...",
-      "url": "https://investidor10.com.br/noticias/trump-corre-risco-de-morte-eua-ameacam-ira-com-ataque-de-misseis-121411/",
-      "source": "Investidor10",
-      "sourceCanonical": "Investidor10",
-      "sourceDomain": "investidor10.com.br",
-      "publishedAt": "2026-07-11T12:42:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_b410dade2797",
+      "title": "Israel compartilha informações de inteligência sobre suposto plano do Irã para matar Trump",
+      "description": "Israel compartilhou informações de inteligência com os Estados Unidos sobre um plano novo e “específico” do Irã para assassinar o presidente...",
+      "url": "https://www.em.com.br/internacional/2026/07/7458642-israel-compartilha-informacoes-de-inteligencia-sobre-suposto-plano-do-ira-para-matar-trump.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-07-10T03:01:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
