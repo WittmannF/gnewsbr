@@ -3,37 +3,40 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEbExqS0VSRklrTnV3RzlIUjhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEbExqS0VSRklrTnV3RzlIUjhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 17
+      "topic-3": 18,
+      "topic-5": 26
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Artesã denuncia envenenamento por mercúrio em projeto no Recife",
+  "title": "Artesã no Recife filma aluna colocando mercúrio em sua água",
   "summary": "Exames detectaram mercúrio na água e no organismo da vítima, que afirma ter ficado com sequelas e aguarda consulta pelo SUS.",
-  "topic": "Aluna · Garrafa",
+  "topic": "Aluna · Artesã",
   "topicKeywords": [
     "aluna",
-    "garrafa",
     "artesã",
-    "envenenada",
     "mercúrio",
+    "garrafa",
+    "envenenada",
     "colocando"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/R7jsi6O0Ol5nhY7ZlgULbXrDUjI=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/C/n5AL8YSQad1oiCfayeQQ/mercurio.png",
   "publishedAt": "2026-07-12T02:50:03+00:00",
-  "updatedAt": "2026-07-12T22:29:34.168668+00:00",
-  "sourceCount": 4,
-  "articleCount": 8,
+  "updatedAt": "2026-07-12T23:30:45.858397+00:00",
+  "sourceCount": 5,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_442c0d21aeda",
@@ -72,10 +75,24 @@
       "sourceCanonical": "Diario de Pernambuco",
       "sourceDomain": "diariodepernambuco.com.br",
       "publishedAt": "2026-07-12T18:24:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.diariodepernambuco.com.br/_midias/jpg/2026/07/12/600x400/1_vitima_envenenamento_mercurio-920289.jpeg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_8bf7f8ad824a",
+      "title": "JCNET: Mercúrio na água: artesã filmou suspeita em ação",
+      "description": "Uma artesã denunciou ter sido envenenada por uma aluna durante aulas de um projeto social no Recife após registrar em vídeo a mulher...",
+      "url": "https://sampi.net.br/bauru/noticias/2991474/brasil-e-mundo/2026/07/mercurio-na-agua-artesa-filmou-suspeita-em-acao",
+      "source": "sampi.net.br",
+      "sourceCanonical": "sampi.net.br",
+      "sourceDomain": "sampi.net.br",
+      "publishedAt": "2026-07-12T23:03:56+00:00",
+      "postedLabel": "26 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_7d52401a5ab1",
@@ -87,7 +104,7 @@
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-12T03:00:18+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/R7jsi6O0Ol5nhY7ZlgULbXrDUjI=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/C/n5AL8YSQad1oiCfayeQQ/mercurio.png",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -100,7 +117,7 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-07-12T21:25:19+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -128,7 +145,7 @@
       "sourceCanonical": "Jornal Correio",
       "sourceDomain": "correio24horas.com.br",
       "publishedAt": "2026-07-12T21:51:55+00:00",
-      "postedLabel": "37 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -151,13 +168,13 @@
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 4.12,
-    "knownCount": 8,
+    "average": 4.22,
+    "knownCount": 9,
     "unknownCount": 0,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 5,
+      "center": 6,
       "centerRight": 0,
       "right": 0,
       "unknown": 0
@@ -167,7 +184,7 @@
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 85
+    "confidence": 90
   },
   "flags": [
     "Manchetes divergentes"
