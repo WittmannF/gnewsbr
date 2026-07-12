@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1aDd6S0VSRXpaQkpVNnR5bFRTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1aDd6S0VSRXpaQkpVNnR5bFRTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 3,
-      "topic-7": 1
+      "topic-7": 4
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
-    "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Mojtaba Khamenei promete vingar morte de Ali Khamenei",
   "summary": "Ali Khamenei morreu durante um ataque dos EUA no início do atual conflito e seu corpo foi sepultado nesta semana. Leia no Poder360.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Procissao-funebre-Ali-Khamenei-Teera-6-jul-2026-848x477.jpg",
   "publishedAt": "2026-07-10T10:36:24+00:00",
-  "updatedAt": "2026-07-12T08:59:45.702313+00:00",
+  "updatedAt": "2026-07-12T09:46:34.097084+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -131,7 +137,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-12T08:50:00+00:00",
-      "postedLabel": "9 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
