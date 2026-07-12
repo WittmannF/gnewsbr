@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1aDd6S0VSRXpaQkpVNnR5bFRTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1aDd6S0VSRXpaQkpVNnR5bFRTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 3,
-      "topic-7": 3
+      "topic-7": 4
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Mojtaba Khamenei promete vingança pela morte de Ali Khamenei",
   "summary": "Ali Khamenei morreu durante um ataque dos EUA no início do atual conflito e seu corpo foi sepultado nesta semana. Leia no Poder360.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Procissao-funebre-Ali-Khamenei-Teera-6-jul-2026-848x477.jpg",
   "publishedAt": "2026-07-10T10:36:24+00:00",
-  "updatedAt": "2026-07-12T07:10:34.622691+00:00",
+  "updatedAt": "2026-07-12T07:52:01.375548+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -207,20 +213,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_2e84db31a2da",
-      "title": "Guarda Revolucionária do Irã diz que ‘vingança’ por líder assassinado ‘não será apagada’",
-      "description": "Corpo de Ali Khamenei repousa no mausoléu do Imam Reza, principal centro de peregrinação dos xiitas.",
-      "url": "https://noticias.r7.com/internacional/guarda-revolucionaria-do-ira-diz-que-vinganca-por-lider-assassinado-nao-sera-apagada-10072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-10T13:09:46+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_45748d6e89d3",
       "title": "Líder supremo do Irã diz que vingança pelo assassinato de Ali Khamenei é ‘inevitável’",
       "description": "Multidões se reúnem no Irã para o velório de Ali Khamenei. 3:35. Thumbnail do video:Multidões se reúnem no Irã para o velório de Ali...",
@@ -230,6 +222,20 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-11T11:55:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_2e84db31a2da",
+      "title": "Guarda Revolucionária do Irã diz que ‘vingança’ por líder assassinado ‘não será apagada’",
+      "description": "Corpo de Ali Khamenei repousa no mausoléu do Imam Reza, principal centro de peregrinação dos xiitas.",
+      "url": "https://noticias.r7.com/internacional/guarda-revolucionaria-do-ira-diz-que-vinganca-por-lider-assassinado-nao-sera-apagada-10072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-10T13:09:46+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
