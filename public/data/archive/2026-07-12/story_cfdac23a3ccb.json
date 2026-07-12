@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pRdDlyREVSSFdmTXVBbWhnaHdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pRdDlyREVSSFdmTXVBbWhnaHdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 21,
       "topic-7": 5
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 21,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Trump • Irã",
   "summary": "O líder supremo iraniano disse que vingança pelo morte do aiatolá Ali Khamenei é “o que nossa nação está exigindo” e que “deve ser feita”.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/trump-22jun2026-848x477.jpg",
   "publishedAt": "2026-07-10T13:26:26+00:00",
-  "updatedAt": "2026-07-12T01:56:23.527381+00:00",
+  "updatedAt": "2026-07-12T03:15:03.893211+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -165,20 +171,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_62d96897f0f9",
-      "title": "Donald Trump promete destruir o Irã caso seja vítima de tentativa de assassinato. #JR24H #Shorts",
-      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
-      "url": "https://noticias.r7.com/jr-na-tv/donald-trump-promete-destruir-o-ira-caso-seja-vitima-de-tentativa-de-assassinato-jr24h-shorts-12072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-12T01:01:27+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_d024130ce65e",
       "title": "Trump deixa ordem para atacar Irã caso seja assassinado; decisão caberia a Vance",
       "description": "Trump escreveu neste sábado em sua rede social que o Irã fez ameaças de assassiná-lo e afirmou que \"mil mísseis estão prontos e apontados...",
@@ -187,23 +179,23 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-07-11T20:24:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
     {
-      "id": "article_e4fb66024bf6",
-      "title": "Trump diz que deixou instrução para bombardear Irã “em níveis nunca vistos” caso ele seja assassinado",
-      "description": "O presidente dos Estados Unidos, Donald Trump, disse que deixou instruções para que as forças armadas americanas bombardeiem o Irã “em...",
-      "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-deixou-instrucao-bombardear-ira-niveis-nunca-vistos-caso-ele-seja-assassinado/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-07-10T17:21:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_62d96897f0f9",
+      "title": "Donald Trump promete destruir o Irã caso seja vítima de tentativa de assassinato. #JR24H #Shorts",
+      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
+      "url": "https://noticias.r7.com/jr-na-tv/donald-trump-promete-destruir-o-ira-caso-seja-vitima-de-tentativa-de-assassinato-jr24h-shorts-12072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-12T01:01:27+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -219,6 +211,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_e4fb66024bf6",
+      "title": "Trump diz que deixou instrução para bombardear Irã “em níveis nunca vistos” caso ele seja assassinado",
+      "description": "O presidente dos Estados Unidos, Donald Trump, disse que deixou instruções para que as forças armadas americanas bombardeiem o Irã “em...",
+      "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-deixou-instrucao-bombardear-ira-niveis-nunca-vistos-caso-ele-seja-assassinado/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-07-10T17:21:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_75aef19f1bd4",
@@ -249,20 +255,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_da01d500b7a2",
-      "title": "Trump ameaça destruir o Irã caso país tente assassiná-lo e diz ter ‘mil mísseis prontos’",
-      "description": "Ameaças entre Washington e Teerã se intensificaram desde a morte do general iraniano Qassem Soleimani, em 2020.",
-      "url": "https://jovempan.com.br/mundo/trump-ameaca-destruir-o-ira-caso-pais-tente-assassina-lo-e-diz-ter-mil-misseis-prontos/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-07-11T10:47:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_0e3db4970e1c",
       "title": "Trump promete “dizimar” o Irã com mil mísseis prontos — mas negociações de paz seguem de pé nos bastidores",
       "description": "O presidente dos Estados Unidos, Donald Trump, elevou ainda mais o tom contra o Irã neste sábado (11), afirmando que Washington está pronta...",
@@ -277,18 +269,18 @@
       "bucket": "left"
     },
     {
-      "id": "article_59ff7a8fbf20",
-      "title": "Trump assassinado? Irão fala em \"vingança\", povo aponta: \"Vamos matar-te\"",
-      "description": "Esta semana surgiu, com mais força, a possibilidade de estar a ser planeado um ataque que resulte na morte do presidente dos EUA.",
-      "url": "https://www.noticiasaominuto.com/mundo/3020120/trump-assassinado-irao-fala-em-vinganca-povo-aponta-vamos-matar-te",
-      "source": "Notícias ao Minuto",
-      "sourceCanonical": "Notícias ao Minuto",
-      "sourceDomain": "noticiasaominuto.com",
-      "publishedAt": "2026-07-11T17:37:40+00:00",
+      "id": "article_da01d500b7a2",
+      "title": "Trump ameaça destruir o Irã caso país tente assassiná-lo e diz ter ‘mil mísseis prontos’",
+      "description": "Ameaças entre Washington e Teerã se intensificaram desde a morte do general iraniano Qassem Soleimani, em 2020.",
+      "url": "https://jovempan.com.br/mundo/trump-ameaca-destruir-o-ira-caso-pais-tente-assassina-lo-e-diz-ter-mil-misseis-prontos/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-07-11T10:47:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_e9ce1af25f19",
@@ -317,6 +309,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_caa79c8f745d",
+      "title": "Médio Oriente: tensão continua, com Israel a afirmar que Irão quer matar Trump",
+      "description": "De acordo com as autoridades iranianas, os Estados Unidos tornaram a bombardear o país durante a noite de quinta-feira a sexta-feira, o que...",
+      "url": "https://www.rfi.fr/pt/mundo/20260710-m%C3%A9dio-oriente-tens%C3%A3o-continua-com-israel-a-afirmar-que-ir%C3%A3o-quer-matar-trump",
+      "source": "RFI",
+      "sourceCanonical": "RFI",
+      "sourceDomain": "rfi.fr",
+      "publishedAt": "2026-07-10T14:40:13+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
