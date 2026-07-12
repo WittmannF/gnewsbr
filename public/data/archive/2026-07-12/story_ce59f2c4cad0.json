@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l2bjlYS0VSSE93MTJEXzYtdXV5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l2bjlYS0VSSE93MTJEXzYtdXV5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5",
-      "topic-7"
+      "home",
+      "topstories",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 3,
-      "topic-7": 2
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 3,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Senador republicano Lindsey Graham morre aos 71 anos",
   "summary": "Lindsey Graham, de 71 anos, morreu repentinamente no domingo (12); ele representava o estado da Carolina do Sul no Senado americano.",
@@ -28,14 +31,14 @@
     "senador",
     "lindsey",
     "graham",
-    "trump",
     "morre",
+    "trump",
     "aliado"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Lindsey-Graham.jpg?w=960&h=540&crop=1",
   "publishedAt": "2026-07-12T07:57:00+00:00",
-  "updatedAt": "2026-07-12T21:35:26.983576+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-07-12T22:28:12.684023+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -47,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-12T15:47:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Lindsey-Graham.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,7 +64,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-12T18:14:20+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/BNS4YwPCB4mouVSluaTxGDzfA7U=/5250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/f/vBGCvmQl60Z6quNuCR2A/2026-07-12t065510z-25653687-rc26cma6sxh5-rtrmadp-3-people-lindsey-graham.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -117,7 +120,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-12T19:04:44+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -163,6 +166,20 @@
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_c5d6f512c502",
+      "title": "Senador Lindsey Graham morreu de dissecação da aorta, aponta laudo preliminar",
+      "description": "O senador norte-americano Lindsey Graham, membro do Partido Republicano, morreu na noite deste sábado (11) em decorrência de uma dissecação...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/07/12/senador-lindsey-graham-morreu-de-dissecacao-da-aorta-aponta-laudo-preliminar.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-12T21:35:23+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a59f494fe0a2",
@@ -215,7 +232,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-12T15:57:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -229,34 +246,6 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-07-12T14:21:31+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_dd5c6e7c175c",
-      "title": "Morre aos 71 anos o senador Lindsey Graham, um dos principais aliados de Trump",
-      "description": "O senador americano Lindsey Graham, republicano da Carolina do Sul e um dos principais aliados do presidente Donald Trump no Congresso,...",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/07/7459722-morre-aos-71-anos-o-senador-lindsey-graham-um-dos-principais-aliados-de-trump.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-07-12T13:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_d007f0de7bc9",
-      "title": "Morre Lindsey Graham, senador republicano aliado de Trump",
-      "description": "Gabinete do político informou que a morte se deu por “doença repentina e breve”; presidente norte-americano disse estar “muito triste”.",
-      "url": "https://www.poder360.com.br/poder-internacional/morre-lindsey-graham-senador-republicano-aliado-de-trump/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-12T13:29:10+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -277,6 +266,48 @@
       "bucket": "center"
     },
     {
+      "id": "article_a10d6aadf64b",
+      "title": "Lindsey Graham: morre o senador arquiteto das guerras dos EUA",
+      "description": "O senador republicano Lindsey Graham, da Carolina do Sul, morreu na noite de sábado (11), aos 71 anos, vítima de uma \"doença breve e...",
+      "url": "https://revistaforum.com.br/global/lindsey-graham-morre-o-senador-arquiteto-das-guerras-dos-eua/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-07-12T14:45:17+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_d007f0de7bc9",
+      "title": "Morre Lindsey Graham, senador republicano aliado de Trump",
+      "description": "Gabinete do político informou que a morte se deu por “doença repentina e breve”; presidente norte-americano disse estar “muito triste”.",
+      "url": "https://www.poder360.com.br/poder-internacional/morre-lindsey-graham-senador-republicano-aliado-de-trump/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-12T13:29:10+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_dd5c6e7c175c",
+      "title": "Morre aos 71 anos o senador Lindsey Graham, um dos principais aliados de Trump",
+      "description": "O senador americano Lindsey Graham, republicano da Carolina do Sul e um dos principais aliados do presidente Donald Trump no Congresso,...",
+      "url": "https://www.correiobraziliense.com.br/mundo/2026/07/7459722-morre-aos-71-anos-o-senador-lindsey-graham-um-dos-principais-aliados-de-trump.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-07-12T13:05:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_ab25c3ad4240",
       "title": "Senador aliado de Trump, Lindsey Grahan morre nos EUA",
       "description": "O senador Republicano Lindsey Grahan, aliado de Donald Trump , morreu na noite deste sábado (11), nos Estados Unidos.",
@@ -289,49 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_83365dd3b676",
-      "title": "Lindsey Graham Was Facing Re-election in November. What Happens Now?",
-      "description": "<p<strongA Gazeta News Guarulhos acompanha uma pauta internacional de fonte premium e organiza o tema em português para leitores brasileiros...",
-      "url": "https://gazetanewsguarulhos.com.br/lindsey-graham-was-facing-re-election-in-november-what-happens-now/",
-      "source": "Gazeta News Guarulhos",
-      "sourceCanonical": "Gazeta News Guarulhos",
-      "sourceDomain": "gazetanewsguarulhos.com.br",
-      "publishedAt": "2026-07-12T17:59:59+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_64282a11bab1",
-      "title": "Reação de político francês à morte de Graham: 'Ultrafalcão sonhava com guerra mundial'",
-      "description": "Político francês critica Lindsey Graham após sua morte, chamando-o de russófobo e defensor de conflitos. © telegram SputnikBrasil.",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/07/12/938413-reacao-de-politico-frances-a-morte-de-graham-ultrafalcao-sonhava-com-guerra-mundial",
-      "source": "Tribuna do Agreste",
-      "sourceCanonical": "Tribuna do Agreste",
-      "sourceDomain": "tribunadoagreste.com.br",
-      "publishedAt": "2026-07-12T14:37:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.35,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.16,
+    "knownCount": 19,
+    "unknownCount": 1,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 3,
-      "center": 8,
+      "center": 9,
       "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 1
     }
   },
   "scores": {
