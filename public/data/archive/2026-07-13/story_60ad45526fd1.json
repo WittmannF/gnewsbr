@@ -3,21 +3,18 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEbExqS0VSRkR0Sjl5R252NVd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEbExqS0VSRkR0Sjl5R252NVd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 30,
-      "topic-5": 28
+      "topic-3": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 30,
-    "bestSeedRank": 28,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,15 +25,15 @@
     "artesã",
     "mercúrio",
     "aluna",
-    "envenenada",
     "garrafa",
-    "denuncia"
+    "envenenada",
+    "envenenamento"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/R7jsi6O0Ol5nhY7ZlgULbXrDUjI=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/C/n5AL8YSQad1oiCfayeQQ/mercurio.png",
   "publishedAt": "2026-07-12T02:50:03+00:00",
-  "updatedAt": "2026-07-13T13:03:29.573585+00:00",
-  "sourceCount": 8,
-  "articleCount": 13,
+  "updatedAt": "2026-07-13T13:54:05.631406+00:00",
+  "sourceCount": 10,
+  "articleCount": 15,
   "articles": [
     {
       "id": "article_6327c08bbd17",
@@ -109,10 +106,10 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_0845879f7e43",
-      "title": "OVALE: Mercúrio na água: artesã filmou suspeita em ação",
+      "id": "article_8bf7f8ad824a",
+      "title": "JCNET: Mercúrio na água: artesã filmou suspeita em ação",
       "description": "Uma artesã denunciou ter sido envenenada por uma aluna durante aulas de um projeto social no Recife após registrar em vídeo a mulher...",
-      "url": "https://sampi.net.br/ovale/noticias/2991474/brasil-e-mundo/2026/07/mercurio-na-agua-artesa-filmou-suspeita-em-acao",
+      "url": "https://sampi.net.br/bauru/noticias/2991474/brasil-e-mundo/2026/07/mercurio-na-agua-artesa-filmou-suspeita-em-acao",
       "source": "sampi.net.br",
       "sourceCanonical": "sampi.net.br",
       "sourceDomain": "sampi.net.br",
@@ -137,6 +134,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_d3b4fd7f86ba",
+      "title": "Artesã denuncia aluna por envenenamento com mercúrio no Recife",
+      "description": "A artesã Denny Cardoso, de 43 anos, denuncia ter sido vítima de envenenamento enquanto atuava em um projeto social no Recife.",
+      "url": "https://www.leiaja.com/noticias/2026/07/13/artesa-denuncia-aluna-por-envenenamento-com-mercurio-no-recife/",
+      "source": "LeiaJá",
+      "sourceCanonical": "LeiaJá",
+      "sourceDomain": "leiaja.com",
+      "publishedAt": "2026-07-13T12:46:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_292cef130848",
       "title": "Artesã filma aluna colocando mercúrio em garrafa e denuncia envenenamento",
       "description": "Uma artesã denunciou ter sido envenenada por mais de seis meses enquanto trabalhava no projeto social Arte na Medicina, no bairro de Santo...",
@@ -149,6 +160,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_2bfe0d9d8a03",
+      "title": "Artesã que denunciou envenenamento com mercúrio gravou aluna colocando substância na garrafa",
+      "description": "A artesã Denny Cardoso, que denunciou ter sido envenenada por uma aluna com mercúrio, gravou a suspeita colocando uma substância na garrafa...",
+      "url": "https://www.itatiaia.com.br/brasil/nordeste/pe/artesa-que-denunciou-envenenamento-com-mercurio-gravou-aluna-colocando-substancia-na-garrafa/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-07-13T12:55:13+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6dd256423023",
@@ -224,16 +249,16 @@
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 4.3,
-    "knownCount": 10,
-    "unknownCount": 3,
+    "average": 4.36,
+    "knownCount": 11,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 7,
+      "center": 8,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
