@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJLUtyR0VSRWwxTUJEVjhXYjRTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJLUtyR0VSRWwxTUJEVjhXYjRTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-3": 3,
-      "topic-5": 6
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "A disputa entre Lula e Flávio Bolsonaro em segundo turno, segundo a nova pesquisa Nexus/BTG",
   "summary": "O levantamento também testou cenários com o atual presidente enfrentando outros pré-candidatos.",
@@ -35,12 +29,12 @@
     "nexus",
     "btg",
     "flávio",
-    "turno",
-    "pesquisa"
+    "pesquisa",
+    "turno"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/12/Lula2.jpg",
   "publishedAt": "2026-07-05T07:00:00+00:00",
-  "updatedAt": "2026-07-13T18:45:23.392648+00:00",
+  "updatedAt": "2026-07-13T19:43:44.744203+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -59,18 +53,32 @@
       "bucket": "left"
     },
     {
-      "id": "article_7c53feb23db2",
-      "title": "Nexus/BTG Pactual divulga nova pesquisa para presidente",
-      "description": "O instituto Nexus, em parceria com o Banco BTG Pactual, divulgou nesta segunda-feira (13) uma nova pesquisa com as intenções de voto para...",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-julho-2026/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-07-13T09:15:00+00:00",
+      "id": "article_783e473813aa",
+      "title": "No estado de São Paulo, 43% avaliam o governo Lula como ruim ou péssimo e 29% como ótimo ou bom",
+      "description": "Taxas ficaram estáveis em comparação a março.",
+      "url": "https://datafolha.folha.uol.com.br/avaliacao-de-governo/2026/07/no-estado-de-sao-paulo-43-avaliam-o-governo-lula-como-ruim-ou-pessimo-e-29-como-otimo-ou-bom.shtml",
+      "source": "UOL",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "datafolha.folha.uol.com.br",
+      "publishedAt": "2026-07-13T19:28:00+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/13/17839708906a553c4aa5725_1783970890_3x2_rt.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_7cf5b20e0efe",
+      "title": "Pesquisa Nexus/BTG divulga cenário atualizado para a Presidência",
+      "description": "O Instituto Nexus divulgou uma nova pesquisa de intenções de voto para a Presidência da República nesta segunda-feira (13).",
+      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/07/pesquisa-nexus-btg-divulga-cenario-atualizado-para-a-presidencia-cmrj2zxzh000s013a16inif3z.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-13T10:32:17+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/07/09100212/presi.png",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/4/9/6/8/6/5/5_273372e700dd19d/5568694_ae4b51aa2bec711.jpg?w=1200&h=675&a=c&version=1575255600",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_73d25acc2d6e",
@@ -81,23 +89,9 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-13T12:54:40+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/yWTEiNPvLMwZ5y99b6vB7rzizj8=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/v/U/jjUpgLTECQZc7Ll387DQ/arte-5-.png",
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_abcfa179b669",
-      "title": "Lula e Flávio Bolsonaro empatam no 2º turno, diz Nexus",
-      "description": "Presidente tem 47% contra 44% do senador, mostra pesquisa Nexus; pesquisa entrevistou 2.003 pessoas de 10 a 12 de julho. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-13T10:41:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/nexus-presidentes-13-jul-2026-848x477.jpg",
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -179,10 +173,24 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-13T16:56:50+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_7c53feb23db2",
+      "title": "Nexus/BTG Pactual divulga nova pesquisa para presidente",
+      "description": "O instituto Nexus, em parceria com o Banco BTG Pactual, divulgou nesta segunda-feira (13) uma nova pesquisa com as intenções de voto para...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-julho-2026/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-07-13T09:15:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_5c35a8ca9268",
@@ -193,35 +201,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-07-13T17:34:22+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_04b3fee02d0d",
-      "title": "BTG/Nexus: 46% dizem que não votariam em Lula de jeito nenhum; 50% dizem o mesmo sobre Flávio",
-      "description": "A rejeição ao senador Flávio Bolsonaro (PL-RJ) para a disputa à presidência da República está em 50%, segundo pesquisa BTG/Nexus divulgada...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/13/btgnexus-46-dizem-que-nao-votariam-em-lula-de-jeito-nenhum-50-dizem-o-mesmo-sobre-flavio.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-13T10:42:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7cf5b20e0efe",
-      "title": "Pesquisa Nexus/BTG divulga cenário atualizado para a Presidência",
-      "description": "O Instituto Nexus divulgou uma nova pesquisa de intenções de voto para a Presidência da República nesta segunda-feira (13).",
-      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/07/pesquisa-nexus-btg-divulga-cenario-atualizado-para-a-presidencia-cmrj2zxzh000s013a16inif3z.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-07-13T10:32:17+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -235,10 +215,24 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-07-13T13:46:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_abcfa179b669",
+      "title": "Lula e Flávio Bolsonaro empatam no 2º turno, diz Nexus",
+      "description": "Presidente tem 47% contra 44% do senador, mostra pesquisa Nexus; pesquisa entrevistou 2.003 pessoas de 10 a 12 de julho. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-13T10:41:48+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_673c35c64efe",
@@ -249,7 +243,7 @@
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-07-13T17:28:45+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -269,14 +263,14 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_928e1fb499eb",
-      "title": "Lula tem 40% das intenções de voto no 1º turno e Flávio, 34%, aponta BTG-Nexus",
-      "description": "O levantamento divulgado nesta segunda-feira, 13, mostra uma diferença de seis pontos percentuais entre os dois candidatos.",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/videos/lula-tem-40-das-intencoes-de-voto-no-1-turno-e-flavio-34-aponta-btg-nexus,9a6b0884e9e5ad23fac355bb165ee8027b0jh012.html",
+      "id": "article_a910215c288a",
+      "title": "BTG/Nexus: 46% dizem que não votariam em Lula de jeito nenhum; 50% dizem o mesmo sobre Flávio",
+      "description": "A rejeição ao senador Flávio Bolsonaro (PL-RJ) para a disputa à Presidência da República está em ...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/btgnexus-46-dizem-que-nao-votariam-em-lula-de-jeito-nenhum-50-dizem-o-mesmo-sobre-flavio,1786695f070848c49b6935554bc9209bij9jk4j0.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-13T11:29:31+00:00",
+      "publishedAt": "2026-07-13T10:52:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -291,7 +285,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-13T13:27:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
