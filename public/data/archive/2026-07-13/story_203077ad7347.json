@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k4dXZIS0VSRnZ2cUN6VmltUVVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k4dXZIS0VSRnZ2cUN6VmltUVVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 25
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 26,
+      "topic-5": 33
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Sargento Yuri Luiz Desiderati Ribeiro é morto a tiros no Rio",
   "summary": "O sargento da Polícia Militar Yuri Luiz Desiderati Ribeiro foi morto a tiros na madrugada deste domingo (12), na Rua Mirataia, no Pechincha,...",
@@ -31,7 +40,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/8tyh00Td_J9N6lyivVlYeQwy-WA=/984x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/9/x/SsyPWbTOATRg9w4Q9PkQ/whatsapp-image-2026-07-12-at-14.11.39.jpeg",
   "publishedAt": "2026-07-12T13:48:20+00:00",
-  "updatedAt": "2026-07-13T07:26:15.478754+00:00",
+  "updatedAt": "2026-07-13T09:17:51.055118+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -120,6 +129,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_75f1ebe37910",
+      "title": "Sargento da PM é assassinado com 23 tiros ao chegar em casa na zona sudoeste do Rio",
+      "description": "O 3º sargento da Polícia Militar Yuri Luiz Desiderati Ribeiro, lotado no 21º BPM (São João de Meriti), foi assassinado a tiros na madrugada...",
+      "url": "https://noticias.r7.com/rio-de-janeiro/sargento-da-pm-e-assassinado-com-23-tiros-ao-chegar-em-casa-na-zona-sudoeste-do-rio-13072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-13T09:01:35+00:00",
+      "postedLabel": "16 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_17f2cbb7e528",
       "title": "Sargento investigado por envolvimento com CV é executado a tiros no RJ",
       "description": "Execução aconteceu na madrugada deste domingo (12/7). Em 2023, ligação entre o sargento e o Comando Vermelho foi apontada pela Polícia Civil.",
@@ -190,32 +213,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_4f3e95cf1acd",
-      "title": "Rio: sargento da PM é morto em emboscada ao chegar em casa em Jacarepaguá",
-      "description": "O sargento da Polícia Militar Yuri Desiderati Ribeiro foi morto a tiros na madrugada deste domingo (12), enquanto chegava em sua residência...",
-      "url": "https://www.em.com.br/nacional/2026/07/7459737-rio-sargento-da-pm-e-morto-em-emboscada-ao-chegar-em-casa-em-jacarepagua.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-07-12T14:10:00+00:00",
+      "id": "article_dd879c439e8d",
+      "title": "Sargento da PM é executado em emboscada ao chegar em casa",
+      "description": "Criminosos mataram a tiros o sargento da Polícia Militar Yuri Desiderati Ribeiro na madrugada deste domingo (12), quando ele chegava em casa...",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/sargento-pm-morto-emboscada-chegar-em-casa/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-07-12T19:00:45+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_196f2f5e8be9",
-      "title": "PM é morto com mais de 20 tiros em frente ao condomínio onde morava no Rio de Janeiro",
-      "description": "Leia mais sobre o assassinato do sargento Yuri Desiderati em Jacarepaguá, uma investigação que aponta execução e possíveis ligações com o...",
-      "url": "https://www.otempo.com.br/brasil/2026/7/12/pm-e-morto-com-mais-de-20-tiros-em-frente-ao-condominio-onde-morava-no-rio-de-janeiro",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-07-12T20:05:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_b3c3ffecc8c1",
@@ -230,6 +239,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_196f2f5e8be9",
+      "title": "PM é morto com mais de 20 tiros em frente ao condomínio onde morava no Rio de Janeiro",
+      "description": "Leia mais sobre o assassinato do sargento Yuri Desiderati em Jacarepaguá, uma investigação que aponta execução e possíveis ligações com o...",
+      "url": "https://www.otempo.com.br/brasil/2026/7/12/pm-e-morto-com-mais-de-20-tiros-em-frente-ao-condominio-onde-morava-no-rio-de-janeiro",
+      "source": "O TEMPO",
+      "sourceCanonical": "O Tempo",
+      "sourceDomain": "otempo.com.br",
+      "publishedAt": "2026-07-12T20:05:48+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_925b04715ec0",
@@ -300,45 +323,32 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_197e1910f9b5",
-      "title": "RIO: PM é executado com 23 tiros ao chegar em casa na Zona Sudoeste",
-      "description": "Rio. Um policial militar foi morto a tiros na madrugada deste domingo (12).O crime acontece em frente ao condomínio onde o.",
-      "url": "https://srzd.com/blog/brasil/rio-de-janeiro-brasil/rio-pm-e-executado-com-23-tiros-ao-chegar-em-casa-na-zona-sudoeste/",
-      "source": "SRzd",
-      "sourceCanonical": "SRzd",
-      "sourceDomain": "srzd.com",
-      "publishedAt": "2026-07-12T15:11:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
-    "max": 6,
-    "average": 5.08,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "min": 2,
+    "max": 7,
+    "average": 5,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 11,
-      "centerRight": 0,
+      "center": 10,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
