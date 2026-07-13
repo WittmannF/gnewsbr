@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lwcktYSkVSRzVnSHdfNnRyM0xpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lwcktYSkVSRzVnSHdfNnRyM0xpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 31,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 30,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 31,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Fiscalização intercepta remédios para emagrecer em veículos",
   "summary": "Canetas emagrecedoras ilegais com retatrutida entram no país pela fronteira, enquanto especialistas alertam para os riscos de substâncias...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/pc2izLAsHFDyDCODSEzc5nfyMZs=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/91/37/14773791",
   "publishedAt": "2026-07-07T15:13:13+00:00",
-  "updatedAt": "2026-07-13T03:18:56.444492+00:00",
+  "updatedAt": "2026-07-13T05:19:45.514070+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-12T23:46:30+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/pc2izLAsHFDyDCODSEzc5nfyMZs=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/91/37/14773791",
       "spectrumScore": 5,
       "bucket": "center"
@@ -145,7 +151,7 @@
       "sourceCanonical": "Rede Peperi",
       "sourceDomain": "peperi.com.br",
       "publishedAt": "2026-07-13T02:35:41+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -299,7 +305,7 @@
       "sourceCanonical": "Paiquerê",
       "sourceDomain": "paiquere.com.br",
       "publishedAt": "2026-07-12T23:22:06+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
