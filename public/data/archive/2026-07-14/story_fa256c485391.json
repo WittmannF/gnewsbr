@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJLUtyR0VSR09zcEpPOEx2LUNpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJLUtyR0VSR09zcEpPOEx2LUNpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 2,
-      "topic-5": 5
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Como evangélicos e católicos votariam no 2º turno entre Lula e Flávio Bolsonaro, segundo pesquisa",
   "summary": "Sem o recorte por religião, o levantamento Nexus indica empate técnico, com o presidente na liderança numérica.",
@@ -33,8 +39,8 @@
     "turno"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/05/LF-2.jpg",
-  "publishedAt": "2026-07-09T23:34:00+00:00",
-  "updatedAt": "2026-07-14T00:50:09.488110+00:00",
+  "publishedAt": "2026-07-05T07:00:00+00:00",
+  "updatedAt": "2026-07-14T01:46:50.482081+00:00",
   "sourceCount": 16,
   "articleCount": 20,
   "articles": [
@@ -89,7 +95,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-13T20:40:22+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/50514832812_cf1493e1ab_o.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -106,20 +112,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_f11c03581ee5",
-      "title": "A distância entre Lula e Flávio nas pesquisas eleitorais divulgadas nesta semana",
-      "description": "A nova rodada de pesquisas eleitorais divulgada nesta semana indica que a disputa presidencial de 2026 segue concentrada entre o presidente...",
-      "url": "https://veja.abril.com.br/politica/a-distancia-entre-lula-e-flavio-nas-pesquisas-eleitorais-divulgadas-nesta-semana-2/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-11T13:09:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -146,6 +138,20 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-13T13:27:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_f11c03581ee5",
+      "title": "A distância entre Lula e Flávio nas pesquisas eleitorais divulgadas nesta semana",
+      "description": "A nova rodada de pesquisas eleitorais divulgada nesta semana indica que a disputa presidencial de 2026 segue concentrada entre o presidente...",
+      "url": "https://veja.abril.com.br/politica/a-distancia-entre-lula-e-flavio-nas-pesquisas-eleitorais-divulgadas-nesta-semana-2/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-11T13:09:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -193,6 +199,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_783e473813aa",
+      "title": "No estado de São Paulo, 43% avaliam o governo Lula como ruim ou péssimo e 29% como ótimo ou bom",
+      "description": "Taxas ficaram estáveis em comparação a março.",
+      "url": "https://datafolha.folha.uol.com.br/avaliacao-de-governo/2026/07/no-estado-de-sao-paulo-43-avaliam-o-governo-lula-como-ruim-ou-pessimo-e-29-como-otimo-ou-bom.shtml",
+      "source": "UOL",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "datafolha.folha.uol.com.br",
+      "publishedAt": "2026-07-13T19:28:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_254b119a2c9c",
       "title": "Cientista político vê em nova pesquisa um possível trunfo para Lula no segundo turno",
       "description": "Fragmentação entre candidaturas da oposição pode dificultar a transferência de votos para Flávio em uma eventual disputa final contra o...",
@@ -201,24 +221,10 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-13T20:00:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_0f6b78816ed0",
-      "title": "Em São Paulo, Flávio Bolsonaro (PL) e Lula (PT) estão empatados no 1º e 2º turno - 13/07/2026 - Eleições",
-      "description": "BAIXE AQUI O RELATÓRIO COMPLETO. A disputa pela Presidência da República no maior colégio eleitoral do país, o Estado de São Paulo,...",
-      "url": "https://datafolha.folha.uol.com.br/eleicoes/2026/07/em-sao-paulo-flavio-bolsonaro-pl-e-lula-pt-estao-empatados-no-1o-e-2o-turno.shtml",
-      "source": "UOL",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "datafolha.folha.uol.com.br",
-      "publishedAt": "2026-07-13T19:45:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_a65394dcaff1",
@@ -249,18 +255,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_d3eb80fec572",
-      "title": "BTG/Nexus: o salto dos anti-Lula e anti-Bolsonaro",
-      "description": "A pesquisa BTG/Nexus divulgada nesta segunda-feira, 13, revela um crescimento expressivo do número de eleitores que demonstram cansaço com a...",
-      "url": "https://www.em.com.br/politica/platobr/2026/07/7460364-btg-nexus-o-salto-dos-anti-lula-e-anti-bolsonaro.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-07-13T17:47:00+00:00",
+      "id": "article_673c35c64efe",
+      "title": "BTG/Nexus: Lula perde dois pontos no primeiro turno, mas mantém vantagem no segundo",
+      "description": "A sexta rodada da pesquisa quinzenal BTG/Nexus mostra um cenário mais competitivo no primeiro turno do que o registrado há quinze dias.",
+      "url": "https://www.jota.info/eleicoes/eleicoes-2026/btg-nexus-lula-perde-dois-pontos-no-primeiro-turno-mas-mantem-vantagem-no-segundo",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-07-13T17:28:45+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c867a3070c96",
@@ -277,6 +283,34 @@
       "bucket": "right"
     },
     {
+      "id": "article_ab5db1abced4",
+      "title": "Lula cumpre agenda em SP após Datafolha apontar empate com Flávio",
+      "description": "O presidente Luiz Inácio Lula da Silva (PT) cumpre, nesta segunda-feira (12/7), agenda no interior de São Paulo uma semana após a pesquisa...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/07/7459948-lula-cumpre-agenda-em-sp-apos-datafolha-apontar-empate-com-flavio.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-07-05T07:00:00+00:00",
+      "postedLabel": "8 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_a910215c288a",
+      "title": "BTG/Nexus: 46% dizem que não votariam em Lula de jeito nenhum; 50% dizem o mesmo sobre Flávio",
+      "description": "A rejeição ao senador Flávio Bolsonaro (PL-RJ) para a disputa à Presidência da República está em ...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/btgnexus-46-dizem-que-nao-votariam-em-lula-de-jeito-nenhum-50-dizem-o-mesmo-sobre-flavio,1786695f070848c49b6935554bc9209bij9jk4j0.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-13T10:52:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_7cf5b20e0efe",
       "title": "Pesquisa Nexus/BTG divulga cenário atualizado para a Presidência",
       "description": "O Instituto Nexus divulgou uma nova pesquisa de intenções de voto para a Presidência da República nesta segunda-feira (13).",
@@ -289,53 +323,25 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_673c35c64efe",
-      "title": "BTG/Nexus: Lula perde dois pontos no primeiro turno, mas mantém vantagem no segundo",
-      "description": "A sexta rodada da pesquisa quinzenal BTG/Nexus mostra um cenário mais competitivo no primeiro turno do que o registrado há quinze dias.",
-      "url": "https://www.jota.info/eleicoes/eleicoes-2026/btg-nexus-lula-perde-dois-pontos-no-primeiro-turno-mas-mantem-vantagem-no-segundo",
-      "source": "JOTA Info",
-      "sourceCanonical": "JOTA Info",
-      "sourceDomain": "jota.info",
-      "publishedAt": "2026-07-13T17:28:45+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_abcfa179b669",
-      "title": "Lula e Flávio Bolsonaro empatam no 2º turno, diz Nexus",
-      "description": "Presidente tem 47% contra 44% do senador, mostra pesquisa Nexus; pesquisa entrevistou 2.003 pessoas de 10 a 12 de julho. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-bolsonaro-empatam-no-2o-turno-diz-nexus/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-13T10:41:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.58,
+    "average": 5.53,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
       "left": 3,
-      "centerLeft": 0,
-      "center": 8,
+      "centerLeft": 1,
+      "center": 7,
       "centerRight": 7,
       "right": 1,
       "unknown": 1
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
     "headlineDivergence": 94,
     "confidence": 95
