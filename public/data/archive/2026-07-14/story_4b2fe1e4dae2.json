@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3Z0xiR0VSSGtIQjhleGxUQW5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3Z0xiR0VSSGtIQjhleGxUQW5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 15,
-      "topic-7": 6
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 13,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 15,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Agentes do ICE matam imigrantes nos Estados Unidos",
   "summary": "Caso ocorreu na cidade de Biddeford, no sul do Maine, de acordo com presidente da Câmara dos Deputados do estado. ICE não se manifestou.",
@@ -27,15 +33,15 @@
   "topicKeywords": [
     "ice",
     "eua",
-    "agentes",
-    "colombiano",
     "maine",
-    "imigração"
+    "agentes",
+    "morte",
+    "colombiano"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/G6C2TXnDZVALKiANsU5QLSYQAiY=/5127x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/2/G1tzETQUGID6V1m91JQA/ap26194667204439.jpg",
-  "publishedAt": "2026-07-08T10:48:00+00:00",
-  "updatedAt": "2026-07-14T09:54:15.597012+00:00",
-  "sourceCount": 20,
+  "publishedAt": "2026-07-08T13:19:20+00:00",
+  "updatedAt": "2026-07-14T10:45:52.877223+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -67,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_290f321ff3a1",
+      "title": "VÍDEO mostra abordagem do ICE que terminou com a morte de imigrante no Maine, EUA",
+      "description": "Câmeras registraram quando os agentes pararam à força veículo e se aproximaram do motorista. Imagens desmentem versão do governo Trump de...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/07/14/video-abordagem-ice-morte-imigrante-maine-eua.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-14T10:29:34+00:00",
+      "postedLabel": "16 minutos atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/pNdsSswJRzF-drAdypa55Mgdt9U=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/x/A/fJ8S0gQkSOvY03pXWfLw/ice.png",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_0b92203615c5",
       "title": "Dois imigrantes são mortos por agentes do ICE em menos de uma semana",
       "description": "Casos no Maine e no Texas geram protestos, investigações e cobranças por maior responsabilização das autoridades de imigração.",
@@ -75,7 +95,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-14T06:37:51+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/2026-07-14T054512Z_1_LOP773014072026RP1_RTRMADP_BASEIMAGE-960X540_USA-MIGRATION-MAINE-SHOOTING-UGC.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -90,9 +110,23 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-14T00:30:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ZH5MRSY4JNCUDOXN2M7MW7IXP4.jpg?quality=80&auth=a2b0b83dc72b6132d33bd1762d48bdf92fda819cb3c274ffe4c7b4b983d9ba45&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_7bd36b72fa8e",
+      "title": "Câmeras mostram abordagem do ICE que terminou com morte de imigrante no Maine, EUA",
+      "description": "Imagens mostram veículo andando em círculo antes de ser parado à força por viatura do ICE. Os agentes, então, abordam o motorista e cercam o...",
+      "url": "https://g1.globo.com/mundo/video/cameras-mostram-abordagem-do-ice-que-terminou-com-morte-de-imigrante-no-maine-eua-14777140.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-14T10:13:49+00:00",
+      "postedLabel": "32 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_912743e5280d",
@@ -123,6 +157,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_5602ac6b19a9",
+      "title": "Tiroteio com agentes do ICE deixa um morto no Maine, nos EUA",
+      "description": "Um homem morreu durante um tiroteio com agentes do Serviço de Imigração e Alfândega dos Estados Unidos (ICE) nesta segunda-feira (13) no...",
+      "url": "https://www.terra.com.br/noticias/mundo/tiroteio-com-agentes-do-ice-deixa-um-morto-no-maine-nos-eua,97039ed744192de6c6f0026b034a1ce7f0tmuuo7.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-13T16:45:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_23f7623d22a8",
       "title": "Colombiano é morto durante perseguição do ICE nos EUA",
       "description": "Um agente de imigração dos Estados Unidos matou a tiros, nesta segunda-feira (13), um homem identificado por grupos de direitos humanos como...",
@@ -145,7 +193,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-07-14T08:43:26+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -177,20 +225,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_548fdc17b3c6",
-      "title": "Uma pessoa morre em confronto com agentes de imigração dos EUA no Maine, diz parlamentar",
-      "description": "Uma pessoa foi morta a tiros na segunda-feira ‌durante um confronto com agentes de imigração dos ...",
-      "url": "https://www.terra.com.br/noticias/mundo/uma-pessoa-morre-em-confronto-com-agentes-de-imigracao-dos-eua-no-maine-diz-parlamentar,e076f9d25e45237df2159662119d175d66yd4nqj.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-14T05:48:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_0da64092c50f",
@@ -257,10 +291,24 @@
       "sourceCanonical": "Correio da Manhã",
       "sourceDomain": "cmjornal.pt",
       "publishedAt": "2026-07-14T09:35:56+00:00",
-      "postedLabel": "18 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_8616eb60ca2f",
+      "title": "Agente de imigração dos EUA mata homem em Houston durante operação de fiscalização",
+      "description": "Um agente do Serviço de Imigração e Alfândega dos EUA (ICE) atirou e matou um homem em Houston depois que ele tentou fugir da prisão em seu...",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/07/1255431-agente-de-imigracao-dos-eua-mata-homem-em-houston-durante-operacao-de-fiscalizacao.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-07-08T13:19:20+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_9a46d0741cae",
@@ -275,63 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_38d822556084",
-      "title": "Testemunhas contradizem versão do ICE sobre morte de mexicano baleado em Houston",
-      "description": "Testemunhas da morte do mexicano baleado por um agente de imigração em Houston afirmaram nesta sexta-feira (10), por meio de seu advogado,...",
-      "url": "https://www.swissinfo.ch/por/testemunhas-contradizem-vers%C3%A3o-do-ice-sobre-morte-de-mexicano-baleado-em-houston/91730101",
-      "source": "SWI swissinfo.ch",
-      "sourceCanonical": "SWI swissinfo.ch",
-      "sourceDomain": "swissinfo.ch",
-      "publishedAt": "2026-07-10T20:26:54+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_19fa10f50a2e",
-      "title": "Colombiano morre baleado nos EUA em incidente com participação do ICE",
-      "description": "Caso envolvendo agentes de imigração é investigado pelo FBI após morte de um colombiano de 26 anos durante abordagem em Biddeford.",
-      "url": "https://jornaldebrasilia.com.br/noticias/mundo/colombiano-morre-baleado-nos-eua-em-incidente-com-participacao-do-ice/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-07-13T20:30:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e93386dda6bd",
-      "title": "Agente de imigração dos EUA mata homem em Houston durante operação de fiscalização",
-      "description": "Um agente do ICE (Serviço de Imigração e Alfândega dos EUA) atirou e matou um homem em Houston depois que ele tentou fugir da prisão em seu...",
-      "url": "https://midiamax.com.br/mundo/2026/agente-imigracao-eua-mata-homem-houston-durante-operacao-fiscalizacao/",
-      "source": "Midiamax",
-      "sourceCanonical": "Midiamax",
-      "sourceDomain": "midiamax.com.br",
-      "publishedAt": "2026-07-08T10:48:00+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 3,
     "max": 7,
     "average": 5,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 3,
-      "center": 8,
+      "center": 10,
       "centerRight": 2,
       "right": 0,
-      "unknown": 7
+      "unknown": 5
     }
   },
   "scores": {
@@ -342,7 +348,6 @@
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
