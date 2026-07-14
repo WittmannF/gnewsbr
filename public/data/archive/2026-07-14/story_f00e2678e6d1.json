@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxaEpqSkVSR1NaWXdmR1ZnaVR5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxaEpqSkVSR1NaWXdmR1ZnaVR5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Kassio Nunes Marques reúne institutos de pesquisa no TSE",
+  "title": "TSE propõe selo de acurácia para pesquisas eleitorais",
   "summary": "Em reunião com empresas do setor, Nunes Marques disse que sugestão é preliminar e que espera sugestões até 17 de julho. Leia no Poder360.",
   "topic": "Tse · Pesquisa",
   "topicKeywords": [
@@ -26,13 +32,13 @@
     "pesquisa",
     "institutos",
     "selo",
-    "pesquisas",
-    "propõe"
+    "eleitorais",
+    "pesquisas"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/05/nunesmarques-sergiolima-poder360-posse-tse-2-848x477.jpeg",
   "publishedAt": "2026-07-10T19:42:03+00:00",
-  "updatedAt": "2026-07-14T17:42:06.246612+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-07-14T18:34:20.988122+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -43,23 +49,9 @@
       "source": "Poder360",
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-14T14:45:13+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/05/nunesmarques-sergiolima-poder360-posse-tse-2-848x477.jpeg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e4e064777cd4",
-      "title": "Pesquisas eleitorais: Institutos dizem que proposta de Nunes Marques 'confunde ciência com bola de cristal'",
-      "description": "Presidente do TSE propôs nesta terça-feira (14), em reunião com empresas, criar um selo de acerto para pesquisas eleitorais.",
-      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/14/empresas-de-pesquisa-criticam-proposta-de-presidente-do-tse-de-premiar-acertos-confundir-ciencia-com-bola-de-cristal.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-14T16:52:56+00:00",
+      "publishedAt": "2026-07-14T17:50:52+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/YlwuPxPGUuifAsCu-IrWS4ciAhg=/1280x0/filters:format(jpeg)/https://s04.video.glbimg.com/x720/992055.jpg",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/05/nunesmarques-sergiolima-poder360-posse-tse-2-848x477.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -72,10 +64,24 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-07-14T15:20:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/10/17811113286a299a204551b_1781111328_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_9ffaf2dd5750",
+      "title": "Associação de empresas de pesquisa diz que TSE não é ‘árbitro de qualidade’ e critica selo para premiar institutos",
+      "description": "Para Abep, a proposta cria um “incentivo perverso”, uma vez que institutos “sem rigor metodológico” poderiam ajustar seus números para...",
+      "url": "https://valor.globo.com/politica/noticia/2026/07/14/associacao-de-empresas-de-pesquisa-diz-que-tse-nao-e-arbitro-de-qualidade-e-critica-selo-para-premiar-institutos.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-07-14T18:20:38+00:00",
+      "postedLabel": "13 minutos atrás",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_d21d569d0aa2",
@@ -86,24 +92,10 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-14T14:19:33+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ministro-nunes-marques-tse.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_5c77c1844481",
-      "title": "TSE reúne empresas de pesquisa para fortalecer diálogo institucional sobre metodologias eleitorais",
-      "description": "Durante o encontro, o presidente do Tribunal, ministro Kassio Nunes Marques, afirmou que institutos de pesquisa desempenham papel importante...",
-      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Julho/tse-reune-empresas-de-pesquisa-para-fortalecer-dialogo-institucional-sobre-metodologias-eleitorais",
-      "source": "Tribunal Superior Eleitoral",
-      "sourceCanonical": "Tribunal Superior Eleitoral",
-      "sourceDomain": "tse.jus.br",
-      "publishedAt": "2026-07-14T16:06:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_133f20dd616d",
@@ -114,10 +106,52 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-14T13:17:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_5c77c1844481",
+      "title": "TSE reúne empresas de pesquisa para fortalecer diálogo institucional sobre metodologias eleitorais",
+      "description": "Durante o encontro, o presidente do Tribunal, ministro Kassio Nunes Marques, afirmou que institutos de pesquisa desempenham papel importante...",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Julho/tse-reune-empresas-de-pesquisa-para-fortalecer-dialogo-institucional-sobre-metodologias-eleitorais",
+      "source": "Tribunal Superior Eleitoral",
+      "sourceCanonical": "Tribunal Superior Eleitoral",
+      "sourceDomain": "tse.jus.br",
+      "publishedAt": "2026-07-14T16:06:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_a88993d52e0f",
+      "title": "Nunes Marques apresenta proposta de premiação a institutos de pesquisa que mais acertarem resultados das eleições",
+      "description": "Iniciativa foi exposta em uma reunião com institutos nesta terça-feira. Selo seria entregue após o segundo turno.",
+      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/07/nunes-marques-apresenta-proposta-de-premiacao-a-institutos-de-pesquisa-que-mais-acertarem-resultados-das-eleicoes-cmrkxjb2100mg013a4n93me04.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-14T17:53:38+00:00",
+      "postedLabel": "40 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_a85ddc0d6499",
+      "title": "A reação de empresas ao plano do TSE de criar um selo de precisão para pesquisas eleitorais",
+      "description": "Exigir que um levantamento 'acerte' o resultado é confundir ciência com bola de cristal, criticou associação.",
+      "url": "https://www.cartacapital.com.br/politica/a-reacao-de-empresas-ao-plano-do-tse-de-criar-um-selo-de-precisao-para-pesquisas-eleitorais/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-14T17:40:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_57ba5796bb51",
@@ -128,24 +162,10 @@
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-07-14T17:03:15+00:00",
-      "postedLabel": "38 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_a38683e40fc3",
-      "title": "TSE propõe criar um selo de qualidade para institutos de pesquisa eleitoral",
-      "description": "Representantes de Datafolha, Quaest, Ipec, Ipesp e MDA se opõem à metodologia da premiação.",
-      "url": "https://www.cartacapital.com.br/justica/tse-propoe-criar-um-selo-de-qualidade-para-institutos-de-pesquisa-eleitoral/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-14T15:48:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_73b7535bfe35",
@@ -156,20 +176,20 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-14T16:03:04+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_bb55722f9c62",
-      "title": "Nunes Marques, do TSE, propõe criação de selo de acurácia para institutos de pesquisa eleitoral",
-      "description": "O ministro Kássio Nunes Marques, do Tribunal Superior Eleitoral (TSE), propôs a criação de um ...",
-      "url": "https://www.terra.com.br/noticias/eleicoes/nunes-marques-do-tse-propoe-criacao-de-selo-de-acuracia-para-institutos-de-pesquisa-eleitoral,0a57089cd9fe5cd33fc2bc614881f85cuqdxz427.html",
+      "id": "article_4a38ec1bf646",
+      "title": "Empresas de pesquisa devem apresentar sugestões ao TSE sobre selo até sexta",
+      "description": "O prazo para institutos de pesquisa apresentarem sugestões ao Tribunal Superior Eleitoral (TSE) ...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/empresas-de-pesquisa-devem-apresentar-sugestoes-ao-tse-sobre-selo-ate-sexta,946c73f9e067d4237df819ebe30653ff7kqzbu1a.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-14T16:04:00+00:00",
+      "publishedAt": "2026-07-14T16:40:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -177,14 +197,14 @@
     },
     {
       "id": "article_b8b3b153e595",
-      "title": "TSE propõe premiar institutos que divulgarem pesquisas com resultado próximo ao das urnas",
+      "title": "TSE propõe reconhecer qualidade de institutos que divulgarem resultados próximos ao das urnas",
       "description": "O TSE (Tribunal Superior Eleitoral) discutiu, em reunião com representantes de institutos de pesquisa nesta terça-feira (14), a criação de...",
       "url": "https://noticias.r7.com/eleicoes/2026/tse-propoe-premiar-institutos-que-divulgarem-pesquisas-com-resultado-proximo-ao-das-urnas-14072026/",
       "source": "R7",
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-14T15:01:47+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -204,6 +224,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_a831b700e1e7",
+      "title": "Nunes Marques propõe selo para institutos de pesquisa com mais acertos dos resultados eleitorais",
+      "description": "Minuta de portaria foi apresentada a diretores de institutos de pesquisa pelo presidente do TSE; representantes das empresas manifestaram...",
+      "url": "https://www.estadao.com.br/politica/nunes-marques-propoe-selo-para-institutos-de-pesquisa-com-mais-acertos-dos-resultados-eleitorais/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-14T15:38:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_01760d7e7dac",
       "title": "TSE propõe prêmio a institutos de pesquisa que mais se aproximarem dos resultados da eleição",
       "description": "O Tribunal Superior Eleitoral (TSE) apresentou nesta terça-feira (14) aos principais institutos de pesquisa uma minuta de portaria para...",
@@ -212,20 +246,20 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-07-14T15:26:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_a0f8aa28de8b",
-      "title": "Empresas de pesquisa devem apresentar sugestões ao TSE sobre selo até sexta",
-      "description": "A minuta foi apresentada na manhã desta terça-feira, 14, em reunião com diretores de 19 institutos. As contribuições devem sugerir critérios...",
-      "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/empresas-de-pesquisa-devem-apresentar-sugestoes-ao-tse-sobre-selo-ate-sexta/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-07-14T16:42:43+00:00",
+      "id": "article_e4e064777cd4",
+      "title": "Pesquisas eleitorais: Institutos dizem que proposta de Nunes Marques 'confunde ciência com bola de cristal'",
+      "description": "Presidente do TSE propôs nesta terça-feira (14), em reunião com empresas, criar um selo de acerto para pesquisas eleitorais.",
+      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/14/empresas-de-pesquisa-criticam-proposta-de-presidente-do-tse-de-premiar-acertos-confundir-ciencia-com-bola-de-cristal.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-14T16:52:56+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -260,34 +294,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_37da69d00916",
-      "title": "Presidente do TSE anuncia proposta de premiação a institutos de pesquisa que mais acertarem os resultados das eleições",
-      "description": "A minuta com a proposta de premiação foi apresentada em reunião com 16 institutos de pesquisa no TSE nesta terça-feira (14).",
-      "url": "https://g1.globo.com/politica/noticia/2026/07/14/presidente-do-tse-anuncia-proposta-de-premiacao-a-institutos-de-pesquisa-que-mais-acertarem-os-resultados-das-eleicoes.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-14T16:00:30+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_fa02a9ec4290",
-      "title": "TSE lança nova versão de ferramenta para pesquisa em eleições",
-      "description": "Brasília (DF) – O Tribunal Superior Eleitoral lançou uma nova versão da ferramenta de pesquisa de eleições eleitorais, com melhorias...",
-      "url": "https://republicanos10.org.br/candidato-republicano-2026/tse-lanca-nova-versao-de-ferramenta-para-pesquisa-em-eleicoes/",
-      "source": "Republicanos 10",
-      "sourceCanonical": "Republicanos 10",
-      "sourceDomain": "republicanos10.org.br",
-      "publishedAt": "2026-07-10T19:42:03+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_a278b9ffe092",
       "title": "Eleições 2026: instituto capixaba debate pesquisas eleitorais no TSE",
       "description": "O Instituto de Pesquisas Perfil, responsável pelos levantamentos de intenção de voto publicados com exclusividade pelo portal ES Hoje,...",
@@ -302,15 +308,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d49c1e7304f7",
-      "title": "ABEP reprova selo proposto pelo TSE para pesquisa eleitoral",
-      "description": "A Associação Brasileira de Empresas de Pesquisa (ABEP) manifestou, nesta terça-feira (14), sua desaprovação em relação à proposta do...",
-      "url": "https://boca.com.br/politica/abep-reprova-selo-proposto-pelo-tse-para-pesquisa-eleitoral",
-      "source": "boca.com.br",
-      "sourceCanonical": "boca.com.br",
-      "sourceDomain": "boca.com.br",
-      "publishedAt": "2026-07-14T17:05:24+00:00",
-      "postedLabel": "36 minutos atrás",
+      "id": "article_fa02a9ec4290",
+      "title": "TSE lança nova versão de ferramenta para pesquisa em eleições",
+      "description": "Brasília (DF) – O Tribunal Superior Eleitoral lançou uma nova versão da ferramenta de pesquisa de eleições eleitorais, com melhorias...",
+      "url": "https://republicanos10.org.br/candidato-republicano-2026/tse-lanca-nova-versao-de-ferramenta-para-pesquisa-em-eleicoes/",
+      "source": "Republicanos 10",
+      "sourceCanonical": "Republicanos 10",
+      "sourceDomain": "republicanos10.org.br",
+      "publishedAt": "2026-07-10T19:42:03+00:00",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.93,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.13,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 7,
-      "centerRight": 3,
+      "centerRight": 4,
       "right": 0,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +346,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
