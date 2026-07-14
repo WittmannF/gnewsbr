@@ -10,28 +10,28 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 4
+      "topic-3": 5
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Notícias sobre Centro do Rio",
+  "title": "Notícias sobre RJ",
   "summary": "Bianca da Silva Ribeiro, de 26 anos, estava desaparecida desde 6 de julho após ir a um evento acompanhada do namorado.",
   "topic": "Polícia · Suspeito",
   "topicKeywords": [
     "polícia",
     "suspeito",
+    "matar",
     "miguel",
     "pereira",
-    "matar",
     "procura"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/vitima.png?w=1200&h=630&crop=1",
-  "publishedAt": "2026-07-11T18:09:41+00:00",
-  "updatedAt": "2026-07-14T06:58:30.122009+00:00",
+  "publishedAt": "2026-07-11T19:37:22+00:00",
+  "updatedAt": "2026-07-14T07:48:34.948602+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -48,6 +48,20 @@
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/vitima.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_97e63900203d",
+      "title": "Namorado é suspeito de feminicídio contra estudante de história no Rio",
+      "description": "Bianca da Silva Ribeiro, 26, foi morta após se hospedar em apartamento alugado no centro da cidade.",
+      "url": "https://www1.folha.uol.com.br/cotidiano/2026/07/namorado-e-suspeito-de-feminicidio-contra-estudante-de-historia-no-rio.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-07-14T07:06:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/14/17840124816a55dec1627dd_1784012481_3x2_lg.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_0c6e68a7e18b",
@@ -87,7 +101,7 @@
       "sourceDomain": "odia.ig.com.br",
       "publishedAt": "2026-07-13T17:53:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://odia.ig.com.br/_midias/jpg/2026/07/13/1200x750/1_suspeito2-39049061.jpeg?20260713160754",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -300,41 +314,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_76d111db96cc",
-      "title": "Jovem desaparecida é encontrada morta em Miguel Pereira, RJ; Polícia Civil investiga feminicídio",
-      "description": "Bianca da Silva Ribeiro, de 26 anos, estava desaparecida desde o dia 4 de julho; corpo foi localizado parcialmente enterrado em uma fazenda...",
-      "url": "https://agazetarm.com.br/jovem-desaparecida-e-encontrada-morta-em-miguel-pereira-rj-policia-civil-investiga-feminicidio/",
-      "source": "A Gazeta RM",
-      "sourceCanonical": "A Gazeta RM",
-      "sourceDomain": "agazetarm.com.br",
-      "publishedAt": "2026-07-11T18:09:41+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 7,
-    "average": 5.44,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.3,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
