@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1OWRfTEVSRWNVYklsNmNCejFTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1OWRfTEVSRWNVYklsNmNCejFTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 21
+      "topic-3": 24,
+      "topic-5": 8
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 24,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/ccg_oGaJT-CtHIrnXZbV_eZfrs4=/3389x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/8/M/XosKDJQLKSkAHYF3sjkw/bre-0405.jpg",
   "publishedAt": "2026-07-07T15:32:00+00:00",
-  "updatedAt": "2026-07-15T13:48:06.846974+00:00",
+  "updatedAt": "2026-07-15T14:48:35.931305+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +47,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-07-15T12:30:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +75,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-13T14:02:23+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/07/voz_do_brasil_abr_mca_20220520_0636.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -100,7 +103,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-15T09:00:13+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -114,24 +117,10 @@
       "sourceCanonical": "broadcast.com.br",
       "sourceDomain": "broadcast.com.br",
       "publishedAt": "2026-07-15T13:16:17+00:00",
-      "postedLabel": "31 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_8f1fb8007343",
-      "title": "O conselho de Silas Malafaia à campanha de Flávio Bolsonaro contra efeitos da crise com Michelle",
-      "description": "O pastor Silas Malafaia, conselheiro espiritual da família do ex-presidente Jair Bolsonaro, sugeriu perfil específico de candidata a vice.",
-      "url": "https://www.nsctotal.com.br/noticias/o-conselho-de-silas-malafaia-a-campanha-de-flavio-bolsonaro-contra-efeitos-da-crise-com-michelle",
-      "source": "NSC Total",
-      "sourceCanonical": "NSC Total",
-      "sourceDomain": "nsctotal.com.br",
-      "publishedAt": "2026-07-13T21:14:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_d8e0648dc621",
@@ -146,6 +135,20 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_8f1fb8007343",
+      "title": "O conselho de Silas Malafaia à campanha de Flávio Bolsonaro contra efeitos da crise com Michelle",
+      "description": "O pastor Silas Malafaia, conselheiro espiritual da família do ex-presidente Jair Bolsonaro, sugeriu perfil específico de candidata a vice.",
+      "url": "https://www.nsctotal.com.br/noticias/o-conselho-de-silas-malafaia-a-campanha-de-flavio-bolsonaro-contra-efeitos-da-crise-com-michelle",
+      "source": "NSC Total",
+      "sourceCanonical": "NSC Total",
+      "sourceDomain": "nsctotal.com.br",
+      "publishedAt": "2026-07-13T21:14:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_43460bf830e3",
@@ -176,20 +179,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d2a42d76995f",
-      "title": "PL busca vice para Flávio Bolsonaro e amplia articulações com foco no eleitorado feminino",
-      "description": "A escolha de quem ocupará a vaga de vice na chapa do pré-candidato à Presidência da República, Flávio Bolsonaro (PL), tornou-se um dos...",
-      "url": "https://redeondadigital.com.br/politica/pl-busca-vice-para-flavio-bolsonaro-e-amplia-articulacoes-com-foco-no-eleitorado-feminino",
-      "source": "Rede Onda Digital",
-      "sourceCanonical": "Rede Onda Digital",
-      "sourceDomain": "redeondadigital.com.br",
-      "publishedAt": "2026-07-14T23:33:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_89649cd4435b",
       "title": "Escolha de vice na chapa de Flávio provoca novo racha no PL depois de briga com Michelle",
       "description": "Aliados do senador dizem que fato de Daniella Marques ter trabalhado no Digimais, banco de Edir Macedo, pode ser usado contra ele na...",
@@ -202,6 +191,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_d2a42d76995f",
+      "title": "PL busca vice para Flávio Bolsonaro e amplia articulações com foco no eleitorado feminino",
+      "description": "A escolha de quem ocupará a vaga de vice na chapa do pré-candidato à Presidência da República, Flávio Bolsonaro (PL), tornou-se um dos...",
+      "url": "https://redeondadigital.com.br/politica/pl-busca-vice-para-flavio-bolsonaro-e-amplia-articulacoes-com-foco-no-eleitorado-feminino",
+      "source": "Rede Onda Digital",
+      "sourceCanonical": "Rede Onda Digital",
+      "sourceDomain": "redeondadigital.com.br",
+      "publishedAt": "2026-07-14T23:33:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f14b1cad409b",
@@ -274,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6e3640cf7069",
-      "title": "Malafaia sugere vice a Flávio Bolsonaro para mostrar \"que você não rejeita mulher\"",
-      "description": "Declaração enfatiza o tom machista e misógino da candidatura de Flávio Bolsonaro. Malafaia ainda demonstra tom xenofóbico ao sugerir ao...",
-      "url": "https://revistaforum.com.br/politica/malafaia-sugere-vice-a-flavio-bolsonaro-para-mostrar-que-voce-nao-rejeita-mulher/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-07-13T10:21:11+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_2a91ff7df67b",
       "title": "\"Lula está gastando como se estivesse enfrentando uma pandemia\"",
       "description": "Daniella Marques, coordenadora da agenda econômica de Flávio Bolsonaro, volta a criticar política fiscal da gestão petista.",
@@ -300,6 +289,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_6e3640cf7069",
+      "title": "Malafaia sugere vice a Flávio Bolsonaro para mostrar \"que você não rejeita mulher\"",
+      "description": "Declaração enfatiza o tom machista e misógino da candidatura de Flávio Bolsonaro. Malafaia ainda demonstra tom xenofóbico ao sugerir ao...",
+      "url": "https://revistaforum.com.br/politica/malafaia-sugere-vice-a-flavio-bolsonaro-para-mostrar-que-voce-nao-rejeita-mulher/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-07-13T10:21:11+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_ea94eaa720ff",
