@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 24
+      "topic-5": 25
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 25,
+    "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/ZFSWz3nlBPbW3SLk6XmKX98Es2c=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/A/Ny9xAOSAiadXn0mEWpDg/ap26189642009611.jpg",
   "publishedAt": "2026-07-11T16:10:00+00:00",
-  "updatedAt": "2026-07-15T05:18:47.808676+00:00",
+  "updatedAt": "2026-07-15T07:07:06.661314+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -176,6 +176,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_60c9e75ca248",
+      "title": "Parasita. Estados Unidos enfrentam surto recorde de infeções intestinais",
+      "description": "Quase 7.000 casos confirmados ou suspeitos de ciclosporíase, uma infeção causada por um parasita microscópico, foram relatados até à data em...",
+      "url": "https://www.rtp.pt/noticias/mundo/parasita-estados-unidos-enfrentam-surto-recorde-de-infecoes-intestinais_n1753382",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
+      "sourceDomain": "rtp.pt",
+      "publishedAt": "2026-07-14T20:42:45+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_6ad45c27d68a",
       "title": "Alface é suspensa após aumento de 69% nos casos de doença causada por parasita muito perigoso",
       "description": "O estado de Michigan, nos Estados Unidos, registrou 2.640 infecções e 44 internações por ciclosporíase desde a identificação do surto, em...",
@@ -190,18 +204,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_60c9e75ca248",
-      "title": "Parasita. Estados Unidos enfrentam surto recorde de infeções intestinais",
-      "description": "Quase 7.000 casos confirmados ou suspeitos de ciclosporíase, uma infeção causada por um parasita microscópico, foram relatados até à data em...",
-      "url": "https://www.rtp.pt/noticias/mundo/parasita-estados-unidos-enfrentam-surto-recorde-de-infecoes-intestinais_n1753382",
-      "source": "RTP",
-      "sourceCanonical": "RTP",
-      "sourceDomain": "rtp.pt",
-      "publishedAt": "2026-07-14T20:42:45+00:00",
+      "id": "article_428c70ed6519",
+      "title": "Conheça o parasita que causa a 'diarreia explosiva' e já infectou mais de 2,8 mil pessoas nos EUA",
+      "description": "Segundo o Departamento de Saúde de Michigan, os primeiros resultados da investigação indicam que alfaces e outras folhas consumidas cruas...",
+      "url": "https://www.jornalopcao.com.br/ultimas-noticias/conheca-o-parasita-que-causa-a-diarreia-explosiva-e-ja-infectou-mais-de-28-mil-pessoas-nos-eua-846765/",
+      "source": "Jornal Opção",
+      "sourceCanonical": "Jornal Opção",
+      "sourceDomain": "jornalopcao.com.br",
+      "publishedAt": "2026-07-14T14:38:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_55f2cc72a302",
@@ -260,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a985420d7a3d",
-      "title": "Parasita que causa diarreia 'explosiva' infecta 2,8 mil pessoas nos EUA",
-      "description": "Alface e outras folhas usadas em saladas aparecem como suspeitas da contaminação; infecção provoca diarréia intensa podendo durar semanas.",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/07/7460856-parasita-que-causa-diarreia-explosiva-infecta-28-mil-pessoas.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-07-14T15:56:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_7ec648ed45c1",
       "title": "'Diarreia explosiva': surto de parasita infecta mais de 3,7 mil pessoas nos EUA",
       "description": "Mais de 3,7 mil pessoas foram diagnosticadas com ciclosporíase nos Estados Unidos em 2026, no que pode se tornar o maior surto da doença já...",
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.29,
+    "average": 5.36,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
-      "center": 9,
+      "centerLeft": 0,
+      "center": 10,
       "centerRight": 3,
       "right": 0,
       "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
