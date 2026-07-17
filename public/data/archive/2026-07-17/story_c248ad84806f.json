@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lma3BfSEVSSE5RcjBlYzJqQnZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lma3BfSEVSSE5RcjBlYzJqQnZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 5
+      "home": 4,
+      "topstories": 4,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Fumaça de incêndios no Canadá afeta qualidade do ar nos EUA",
   "summary": "O presidente dos EUA, Donald Trump, culpou o goveno canadense pelos incêndios que vêm atingindo o país e gerado espessas núvens de fumaça...",
-  "topic": "Incêndios · Fumaça",
+  "topic": "Incêndios · Canadá",
   "topicKeywords": [
     "incêndios",
-    "fumaça",
     "canadá",
+    "fumaça",
     "florestais",
     "final",
     "copa"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/Rcmr_NtvNO8G4ylaROA_41r1AC0=/7503x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/7/l9jJTiQQGxibDOkWrvpQ/afp-20260716-c2ec86m-v1-highres-airqualityfromcanadianwildfires.jpg",
-  "publishedAt": "2026-07-15T23:34:22+00:00",
-  "updatedAt": "2026-07-17T21:35:16.518912+00:00",
+  "publishedAt": "2026-07-15T18:03:40+00:00",
+  "updatedAt": "2026-07-17T22:27:13.782573+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-17T16:20:06+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Fumaca-de-incendios-florestais-no-Canada-encobre-o-Meio-Oeste-e-o-Nordeste-dos-EUA.jpeg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,10 +92,24 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-17T17:06:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://media.gazetadopovo.com.br/2026/04/10151503/Imagem-agecia-catolica-padrao-1.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_4461fa3acf96",
+      "title": "Fumaça de queimadas vira preocupação para a final da Copa do Mundo entre Espanha e Argentina",
+      "description": "Apesar de ser no Canadá, evento tem causado problemas nos EUA.",
+      "url": "https://www.espn.com.br/futebol/copa-do-mundo/artigo/_/id/17014530/fumaca-de-queimadas-vira-preocupacao-para-final-da-copa-do-mundo-entre-espanha-argentina",
+      "source": "ESPN Brasil",
+      "sourceCanonical": "ESPN Brasil",
+      "sourceDomain": "espn.com.br",
+      "publishedAt": "2026-07-17T16:57:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fccd1426950b",
@@ -104,20 +124,6 @@
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_4461fa3acf96",
-      "title": "Fumaça de queimadas vira preocupação para a final da Copa do Mundo entre Espanha e Argentina",
-      "description": "Apesar de ser no Canadá, evento tem causado problemas nos EUA.",
-      "url": "https://www.espn.com.br/futebol/copa-do-mundo/artigo/_/id/17014530/fumaca-de-queimadas-vira-preocupacao-para-final-da-copa-do-mundo-entre-espanha-argentina",
-      "source": "ESPN Brasil",
-      "sourceCanonical": "ESPN Brasil",
-      "sourceDomain": "espn.com.br",
-      "publishedAt": "2026-07-17T16:57:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_1305e2b13809",
@@ -142,52 +148,24 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-07-17T19:50:23+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_57dae281c6e4",
-      "title": "Fumaça se torna adversário inesperado da final da Copa do Mundo; entenda",
-      "description": "Resultado dos incêndios florestais no Canadá, fumaça ameaça qualidade do ar em Nova York e Nova Jersey, palco da decisão do Mundial.",
-      "url": "https://veja.abril.com.br/esporte/fumaca-se-torna-adversario-inesperado-da-final-da-copa-do-mundo-entenda/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-17T13:32:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_87235fe5686c",
-      "title": "Fumaça de incêndios florestais no Canadá encobre céu de Nova York",
-      "description": "A fumaça de incêndios florestais que acontecem no Canadá encobrem o céu de Nova York desde a última quarta-feira, 15.",
-      "url": "https://www.terra.com.br/noticias/mundo/estados-unidos/videos/fumaca-de-incendios-florestais-no-canada-encobre-ceu-de-nova-york,a9d1e1c34ecd54b66c758f20e399d2c4ojgytzqn.html",
+      "id": "article_f8d06b0af16a",
+      "title": "Final da Copa entra em alerta por motivo inesperado",
+      "description": "A poucos dias da final da Copa do Mundo, uma densa camada de fumaça provocada pelos incêndios florestais no Canadá cobriu Nova York e Nova...",
+      "url": "https://www.terra.com.br/esportes/futebol/final-da-copa-entra-em-alerta-por-motivo-inesperado,d5a7dc01f92ed255269ece274eff7640ne8pmyf5.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-16T22:26:43+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-07-17T21:57:00+00:00",
+      "postedLabel": "30 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_451bd12d8f3b",
-      "title": "Fumo, alertas e máscaras: Nova Iorque prepara-se para a final",
-      "description": "Uma densa camada de fumo proveniente dos incêndios florestais no Canadá degradou a qualidade do ar em Nova Iorque e Nova Jérsia,...",
-      "url": "https://pt.euronews.com/health/2026/07/17/final-envolta-em-fumo-para-cada-adepto-seria-como-fumar-dez-cigarros-ao-longo-do-dia",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-07-17T08:40:35+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_a8a9bfd29378",
@@ -204,18 +182,46 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_e8538609c290",
-      "title": "Fumaça de incêndios florestais no Canadá se espalha pelos EUA",
-      "description": "O entorno dos Grandes Lagos e partes da Costa Leste tem o ar afetado.",
-      "url": "https://midiamax.com.br/mundo/2026/fumaca-incendios-florestais-canada-espalha-eua/",
-      "source": "Midiamax",
-      "sourceCanonical": "Midiamax",
-      "sourceDomain": "midiamax.com.br",
-      "publishedAt": "2026-07-17T14:54:00+00:00",
+      "id": "article_390edaab23ce",
+      "title": "Fumaça na região de Nova York ameaça preparação de Espanha e Argentina para a final da Copa",
+      "description": "A névoa foi causada por incêndios florestais no Canadá chegou à área; chuvas no sábado podem ajudar a diminuir o problema antes do jogo de...",
+      "url": "https://www.cartacapital.com.br/esporte/fumaca-na-regiao-de-nova-york-atrapalha-preparacao-de-espanha-e-argentina-para-a-final-da-copa/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-17T12:54:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_451bd12d8f3b",
+      "title": "Fumo, alertas e máscaras: Nova Iorque prepara-se para a final",
+      "description": "Uma densa camada de fumo proveniente dos incêndios florestais no Canadá degradou a qualidade do ar em Nova Iorque e Nova Jérsia,...",
+      "url": "https://pt.euronews.com/health/2026/07/17/final-envolta-em-fumo-para-cada-adepto-seria-como-fumar-dez-cigarros-ao-longo-do-dia",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-07-17T08:40:35+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_49863f40c0c8",
+      "title": "Fumaça de incêndios florestais no Canadá se espalha pelos EUA",
+      "description": "Uma fumaça intensa e com forte odor de incêndios florestais escureceu os céus dos Estados Unidos na quinta-feira, 16, do entorno dos Grandes...",
+      "url": "https://www.folhape.com.br/noticias/fumaca-de-incendios-florestais-no-canada-se-espalha-pelos-eua/501044/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-07-17T15:28:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_5799c9a5501c",
@@ -226,24 +232,10 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-17T17:39:15+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_3206e0518f5a",
-      "title": "Fumaça de incêndios florestais no Canadá afeta os EUA",
-      "description": "A fumaça dos incêndios florestais que atingiram a província canadense de Ontário se espalhou nesta quinta-feira (16) em direção ao nordeste...",
-      "url": "https://www.folhape.com.br/noticias/fumaca-de-incendios-florestais-no-canada-afeta-os-eua/500881/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-07-16T18:01:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_0a7531f68046",
@@ -260,6 +252,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b03f3712e832",
+      "title": "O motivo que fez Toronto, no Canadá, registrar pior qualidade do ar do mundo",
+      "description": "Agência governamental para o meio ambiente emitiu alertas de saúde após céu da maior cidade do país adquirir coloração amarelada.",
+      "url": "https://veja.abril.com.br/mundo/o-motivo-que-fez-toronto-no-canada-registrar-pior-qualidade-do-ar-do-mundo/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-15T18:03:40+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_00214cd3d322",
       "title": "Incêndios no Norte de Ontário levam província a pedir apoio federal",
       "description": "Os incêndios florestais continuam a agravar-se no Norte de Ontário. Perante a evolução da situação, o Governo provincial pediu apoio ao...",
@@ -268,7 +274,7 @@
       "sourceCanonical": "Correio da Manhã Canadá",
       "sourceDomain": "correiodamanhacanada.com",
       "publishedAt": "2026-07-17T17:44:28+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -302,44 +308,44 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_da666b84e451",
-      "title": "Alerta de qualidade do ar em Nova York: fumaça de incêndios florestais do Canadá",
-      "description": "A cidade de Nova York está enfrentando níveis elevados de poluição do ar. Saiba mais sobre as regiões afetadas, as causas subjacentes e a...",
-      "url": "https://www.iqair.com/pt/newsroom/new-york-air-quality-alert-canadian-wildfire-smoke",
-      "source": "IQAir",
-      "sourceCanonical": "IQAir",
-      "sourceDomain": "iqair.com",
-      "publishedAt": "2026-07-15T23:34:22+00:00",
+      "id": "article_ce7ca082646c",
+      "title": "Vídeo: Trem de carga fica rodeado por chamas ao passar por vegetação",
+      "description": "A região enfrenta dezenas de focos ativos de incêndio, intensificados por uma onda de calor extremo e baixa umidade.",
+      "url": "https://www.band.com.br/noticias/bora-brasil/ultimas/video-trem-de-carga-fica-rodeado-por-chamas-ao-passar-por-vegetacao-202607161311",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-07-16T16:11:08+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 8,
-    "average": 5.43,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.19,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 3,
-      "center": 7,
+      "center": 8,
       "centerRight": 4,
       "right": 0,
-      "unknown": 6
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
