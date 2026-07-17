@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lma0lETkVSRWhHbnB6dFhEVmRDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lma0lETkVSRWhHbnB6dFhEVmRDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 4,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Advogado Pedro Ely Cordeiro dos Santos é encontrado morto em SP",
   "summary": "Imagens mostram Pedro Ely Cordeiro dos Santos acompanhado de outro homem; advogado da família afirma que principal hipótese é o golpe do...",
@@ -25,14 +34,14 @@
     "advogado",
     "morto",
     "encontrado",
-    "carioca",
     "morte",
+    "carioca",
     "polícia"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/RSN47OM5IJF7JHTBK52LJ2AQ2I.jpg?quality=80&auth=0ef2aa796880208d75096f64e2bdbc9315318e7a1398dcb95d8e20c014e95081&width=1200&height=630&smart=true",
   "publishedAt": "2026-07-14T17:29:30+00:00",
-  "updatedAt": "2026-07-17T18:33:01.184661+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-07-17T19:36:02.254709+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -44,24 +53,10 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-17T13:07:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/RSN47OM5IJF7JHTBK52LJ2AQ2I.jpg?quality=80&auth=0ef2aa796880208d75096f64e2bdbc9315318e7a1398dcb95d8e20c014e95081&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_2f25c60960ff",
-      "title": "Polícia identifica suspeito e investiga encontro por aplicativo antes da morte de advogado carioca em SP",
-      "description": "Pedro Ely Cordeiro dos Santos, de 43 anos, foi localizado caído em Pinheiros cerca de 40 minutos depois de entrar no estabelecimento,...",
-      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/07/17/policia-identifica-suspeito-e-investiga-encontro-por-aplicativo-antes-da-morte-de-advogado-carioca-em-sp.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-17T16:52:10+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/HyiMsDPFmLFOgnHZP1iALztiVe4=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/A/GWpb44Qlm35JwyOP6FJg/fotojet-2026-07-15t090444.968.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_d10b20594833",
@@ -72,8 +67,22 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-07-17T17:33:21+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_2f25c60960ff",
+      "title": "Polícia identifica suspeito e investiga encontro por aplicativo antes da morte de advogado carioca em SP",
+      "description": "Pedro Ely Cordeiro dos Santos, de 43 anos, foi localizado caído em Pinheiros cerca de 40 minutos depois de entrar no estabelecimento,...",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/07/17/policia-identifica-suspeito-e-investiga-encontro-por-aplicativo-antes-da-morte-de-advogado-carioca-em-sp.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-17T16:52:10+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/HyiMsDPFmLFOgnHZP1iALztiVe4=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/A/GWpb44Qlm35JwyOP6FJg/fotojet-2026-07-15t090444.968.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -198,7 +207,7 @@
       "sourceCanonical": "correiodamanha.com.br",
       "sourceDomain": "correiodamanha.com.br",
       "publishedAt": "2026-07-17T13:54:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,20 +255,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d90178d4d558",
-      "title": "Quem era o advogado que foi encontrado morto após desaparecer na Vila Madalena",
-      "description": "A identificação do corpo de Pedro Ely Cordeiro dos Santos, desaparecido desde a madrugada de sexta-feira, 10, encerrou a busca de pessoas...",
-      "url": "https://news.folhadoprogresso.com.br/quem-era-o-advogado-que-foi-encontrado-morto-apos-desaparecer-na-vila-madalena/",
-      "source": "Jornal Folha do Progresso",
-      "sourceCanonical": "Jornal Folha do Progresso",
-      "sourceDomain": "news.folhadoprogresso.com.br",
-      "publishedAt": "2026-07-15T18:34:59+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_b5b0f03ff0cc",
       "title": "Laudos que vão apontar causa da morte de advogado carioca encontrado no IML devem sair em até três semanas",
       "description": "Notícias em tempo real e o que você precisa saber para entender o Brasil e o mundo. Acesse o g1 aqui! Os laudos da Polícia Técnico-Científica que devem...",
@@ -272,6 +267,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_d90178d4d558",
+      "title": "Quem era o advogado que foi encontrado morto após desaparecer na Vila Madalena",
+      "description": "A identificação do corpo de Pedro Ely Cordeiro dos Santos, desaparecido desde a madrugada de sexta-feira, 10, encerrou a busca de pessoas...",
+      "url": "https://news.folhadoprogresso.com.br/quem-era-o-advogado-que-foi-encontrado-morto-apos-desaparecer-na-vila-madalena/",
+      "source": "Jornal Folha do Progresso",
+      "sourceCanonical": "Jornal Folha do Progresso",
+      "sourceDomain": "news.folhadoprogresso.com.br",
+      "publishedAt": "2026-07-15T18:34:59+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d427da90f830",
@@ -302,15 +311,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_81dc02c2e32f",
-      "title": "Câmeras mostram advogado carioca entrando em adega com homem antes de ser encontrado morto em SP",
-      "description": "Câmeras mostram advogado carioca entrando em adega com homem antes de ser encontrado morto em SP. Expandir ou colapsar descrição.",
-      "url": "https://g1.globo.com/sp/sao-paulo/sp1/video/cameras-mostram-advogado-carioca-entrando-em-adega-com-homem-antes-de-ser-encontrado-morto-em-sp-14788031.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-17T16:07:18+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_ff025d4fe1cd",
+      "title": "Tatá Werneck sobre advogado achado morto em SP: 'Cara legal pra caramba'",
+      "description": "Tatá Werneck lamentou a morte de Pedro Ely Cordeiro dos Santos, advogado carioca de 43 anos que foi encontrado morto na sexta-feira (10) em...",
+      "url": "https://www.uol.com.br/splash/noticias/2026/07/17/tata-werneck-sobre-advogado-achado-morto-em-sp-cara-legal-pra-caramba.ghtm",
+      "source": "UOL",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "uol.com.br",
+      "publishedAt": "2026-07-17T18:14:01+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
