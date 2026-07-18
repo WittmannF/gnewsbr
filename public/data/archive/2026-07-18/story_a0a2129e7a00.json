@@ -5,22 +5,25 @@
   "seedPages": [
     "home",
     "topic-5",
+    "topic-7",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
       "topstories",
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-5": 8
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 10,
+      "topic-7": 1
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 3,
+    "bestSeedRank": 1,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -30,14 +33,14 @@
   "topicKeywords": [
     "trump",
     "eleições",
-    "eleitoral",
+    "china",
     "eua",
-    "discurso",
-    "china"
+    "eleitoral",
+    "acusa"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/1-tp3-S-sB-v0PTH2Y6S3Fl00eE=/6164x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/z/fWADmnQ62lWUMEFe9b1w/2026-07-17t015019z-1330152308-rc2dfma3tr4c-rtrmadp-3-usa-trump.jpg",
-  "publishedAt": "2026-07-17T01:16:35+00:00",
-  "updatedAt": "2026-07-18T07:45:57.426230+00:00",
+  "publishedAt": "2026-07-17T01:00:13+00:00",
+  "updatedAt": "2026-07-18T08:46:32.870436+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -70,20 +73,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_f6f720918ac6",
-      "title": "CIA identifica plano chavista para fraudar votos na Venezuela",
-      "description": "Trump divulga documentos da CIA mostrando plano chavista para manipular até 1,5 milhão de votos na Venezuela desde 2012. Saiba mais.",
-      "url": "https://www.poder360.com.br/poder-internacional/trump-afirma-que-o-regime-de-maduro-fraudou-as-eleicoes-na-venezuela/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-17T14:46:54+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/donald-trump-discurso-casa-branca-min-848x477.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_83b4a459eb0c",
       "title": "Leonardo Sakamoto: Trump acusa conspiração da China enquanto lança uma contra o Brasil",
       "description": "Há uma ironia difícil de ignorar quando um presidente defende a \"liberdade de expressão\" pedindo que se calem as emissoras que não quiseram...",
@@ -106,21 +95,35 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-07-17T08:19:36+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_d1e20c7d2fed",
+      "id": "article_c14280140791",
+      "title": "China rebate Trump e nega interferência em eleições dos EUA",
+      "description": "A China negou nesta 6ª feira (17.jul.2026) as declarações do presidente dos Estados Unidos, Donald Trump (Partido Republicano), de que o...",
+      "url": "https://www.poder360.com.br/poder-eleicoes/china-responde-trump-e-nega-interferencia-em-eleicoes-dos-eua/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-17T08:20:43+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/05/xi-jinping-donald-trump-14mai2026-848x477.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_de9a7aefc7f2",
       "title": "\"Se Trump perder as eleições de meio de mandato, ele invalidará a votação, arriscando um golpe”. Entrevista com Robert Kagan",
-      "description": "O líder neoconservador durante o governo Bush Jr.: \"Ele está ensaiando para manipular o resultado em novembro próximo.\" A reportagem é de...",
-      "url": "https://ihu.unisinos.br/categorias/668546-se-trump-perder-as-eleicoes-de-meio-de-mandato-ele-invalidara-a-votacao-arriscando-um-golpe-entrevista-com-robert-kagan",
+      "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
+      "url": "https://www.ihu.unisinos.br/categorias/668546-se-trump-perder-as-eleicoes-de-meio-de-mandato-ele-invalidara-a-votacao-arriscando-um-golpe-entrevista-com-robert-kagan",
       "source": "Instituto Humanitas Unisinos - IHU",
       "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
       "sourceDomain": "ihu.unisinos.br",
-      "publishedAt": "2026-07-18T03:56:15+00:00",
-      "postedLabel": "3 horas atrás",
+      "publishedAt": "2026-07-18T03:02:13+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
@@ -138,20 +141,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_44e4c2d010b6",
-      "title": "‘Não tem autoridade moral’, diz historiador sobre denúncias de Trump contra interferência externa",
-      "description": "O presidente dos Estados Unidos, Donald Trump, volta a falar em fraudes nas eleições de 2020, quando o democrata Joe Biden saiu vitorioso.",
-      "url": "https://www.brasildefato.com.br/2026/07/17/trump-ressuscita-tese-de-fraude-em-2020-e-acusa-china-de-interferencia-eleitoral/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-07-17T23:51:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_b7fe8fae7fa3",
@@ -196,6 +185,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_97b54c9e585d",
+      "title": "Rússia rechaça acusações de Trump sobre suposta interferência nas eleições dos EUA",
+      "description": "A Rússia negou veementemente as acusações do presidente dos EUA, Donald Trump, que afirmou que Moscou teria interferido nas eleições...",
+      "url": "https://www.brasildefato.com.br/2026/07/17/russia-rechaca-acusacoes-de-trump-sobre-suposta-interferencia-nas-eleicoes-dos-eua/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-17T16:19:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_2510f90f7aae",
       "title": "Trump diz que sistema eleitoral dos EUA tem 'vulnerabilidades chocantes' às vésperas das eleições de meio de mandato",
       "description": "Presidente dos EUA acusa a China de interferir nas eleições de 2020, contradizendo diretamente conclusões anteriores da inteligência...",
@@ -210,46 +213,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_539e1850d8e4",
-      "title": "China chama de ‘pura invenção’ acusações de Trump sobre interferência eleitoral",
-      "description": "Em discurso na Casa Branca, presidente americano disse que Pequim roubou 220 milhões de registros de eleitores.",
-      "url": "https://www.estadao.com.br/internacional/china-chama-de-pura-invencao-acusacoes-de-trump-sobre-interferencia-eleitoral-npr/",
+      "id": "article_2a28e331e2a2",
+      "title": "Trump volta a questionar eleições de 2020 durante pronunciamento em rede nacional",
+      "description": "Conteúdo gerado automaticamente com o uso de Inteligência Artificial. Veja nossa Política de IA. E+. Conteúdo Patrocinado.",
+      "url": "https://www.estadao.com.br/em-alta/internacional/donald-trump-pronunciamento-julho-2026-npr/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-17T10:45:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_8103fa091f95",
-      "title": "O que documentos de Trump dizem — e não dizem — sobre ameaças às eleições dos EUA",
-      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou, em um discurso em horário nobre nesta quinta-feira (17), que existem...",
-      "url": "https://noticias.r7.com/internacional/o-que-documentos-de-trump-dizem-e-nao-dizem-sobre-ameacas-as-eleicoes-dos-eua-17072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-17T15:08:12+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_218554b69747",
-      "title": "Trump pede cassação de licenças de emissoras que se recusaram a transmitir seu discurso",
-      "description": "Últimas notícias sobre os acontecimentos do mundo. Informações sobre política, economia, cultura, cotidiano, conflitos, em todo mundo.",
-      "url": "https://www.em.com.br/internacional/2026/07/7462995-trump-pede-cassacao-de-licencas-de-emissoras-que-se-recusaram-a-transmitir-seu-discurso.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-07-17T01:52:00+00:00",
+      "publishedAt": "2026-07-17T01:00:13+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_5810cbde9c9e",
@@ -266,14 +241,42 @@
       "bucket": "right"
     },
     {
-      "id": "article_d8fb04e891e2",
-      "title": "ABC e NBC não transmitirão discurso de Trump sobre segurança das eleições nos canais abertos",
-      "description": "Duas das três ‌principais redes de televisão dos EUA decidiram não transmitir, em seus canais abertos, o discurso previsto para o horário...",
-      "url": "https://www.terra.com.br/noticias/mundo/abc-e-nbc-nao-transmitirao-discurso-de-trump-sobre-seguranca-das-eleicoes-nos-canais-abertos,7ab6af7258e01a0ce3b0e1915caa4c30gqu24ucy.html",
+      "id": "article_8103fa091f95",
+      "title": "O que documentos de Trump dizem — e não dizem — sobre ameaças às eleições dos EUA",
+      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou, em um discurso em horário nobre nesta quinta-feira (17), que existem...",
+      "url": "https://noticias.r7.com/internacional/o-que-documentos-de-trump-dizem-e-nao-dizem-sobre-ameacas-as-eleicoes-dos-eua-17072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-17T15:08:12+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_997794c2524b",
+      "title": "Trump ameaça cassar licenças de NBC, ABC e CNN, que não exibiram seu discurso ao vivo nessa quinta-feira",
+      "description": "Duas das três principais redes de televisão dos Estados Unidos e a CNN não levaram ao ar, em seus canais principais, o discurso de Donald...",
+      "url": "https://www.jb.com.br/mundo/2026/07/1060312-nbc-abc-e-cnn-nao-exibem-discurso-de-trump-no-canal-principal.html",
+      "source": "Jornal do Brasil",
+      "sourceCanonical": "Jornal do Brasil",
+      "sourceDomain": "jb.com.br",
+      "publishedAt": "2026-07-17T16:33:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_e114b6fe3b84",
+      "title": "China rebate Trump e chama acusações de interferência eleitoral de 'puras invenções e calúnias'",
+      "description": "Edward Maille, correspondente da RFI em Atlanta, e agências. O presidente dos Estados Unidos, Donald Trump, chega para se dirigir à nação a...",
+      "url": "https://www.terra.com.br/noticias/mundo/america-latina/china-rebate-trump-e-chama-acusacoes-de-interferencia-eleitoral-de-puras-invencoes-e-calunias,ae61821595c8d222d873e699ebc990e8abcuv9sv.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-17T21:42:00+00:00",
+      "publishedAt": "2026-07-17T09:16:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -294,44 +297,44 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_3b75ad11cf5e",
-      "title": "Rússia rejeita acusações de interferência nas eleições dos EUA",
-      "description": "Presidente dos EUA, Donald Trump, retomou acusações sobre interferência estrangeira e anunciou investigação sobre supostas fraudes.",
-      "url": "https://www.metropoles.com/mundo/russia-rejeita-acusacoes-de-interferencia-nas-eleicoes-dos-eua",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-17T11:58:00+00:00",
+      "id": "article_ef71c1a5ee8d",
+      "title": "Trump acusa a China de comprar dados de eleitores e ataca o voto",
+      "description": "A 110 dias das eleições de meio de mandato que podem transferir para os democratas o controle da Câmara dos Representantes e do Senado,...",
+      "url": "https://www.correiobraziliense.com.br/mundo/2026/07/7462781-trump-acusa-a-china-de-comprar-dados-de-eleitores-e-ataca-o-voto.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-07-17T07:50:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_60fdccfbf244",
+      "title": "Trump diz que a China e outros países interferiram nas eleições americanas em 2020",
+      "description": "O presidente dos Estados Unidos, Donald Trump, acusou na quinta-feira (16) a China de promover o que classificou como \"a maior violação...",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/07/1256599-trump-diz-que-a-china-e-outros-paises-interferiram-nas-eleicoes-americanas-em-2020.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-07-17T12:56:30+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_997794c2524b",
-      "title": "Trump ameaça cassar licenças de NBC, ABC e CNN, que não exibiram seu discurso ao vivo nessa quinta-feira",
-      "description": "Duas das três principais redes de televisão dos Estados Unidos e a CNN não levaram ao ar, em seus canais principais, o discurso de Donald...",
-      "url": "https://www.jb.com.br/mundo/2026/07/1060312-nbc-abc-e-cnn-nao-exibem-discurso-de-trump-no-canal-principal.html",
-      "source": "Jornal do Brasil",
-      "sourceCanonical": "Jornal do Brasil",
-      "sourceDomain": "jb.com.br",
-      "publishedAt": "2026-07-17T16:33:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.39,
+    "average": 5.33,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
-      "center": 8,
+      "centerLeft": 3,
+      "center": 7,
       "centerRight": 5,
       "right": 1,
       "unknown": 2
