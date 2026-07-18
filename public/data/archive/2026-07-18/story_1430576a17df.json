@@ -3,39 +3,45 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l2dTRmTUVSSGIyYV9hbEpEWDJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l2dTRmTUVSSGIyYV9hbEpEWDJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 2,
+      "home": 1,
+      "topstories": 1,
+      "topic-5": 5,
       "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Ucrânia • Rússia",
   "summary": "Ataques de drones ucranianos mataram pelo menos oito pessoas em armazéns na Rússia, segundo autoridades regionais.",
-  "topic": "Ataque · Drones",
+  "topic": "Ataque · Rússia",
   "topicKeywords": [
     "ataque",
-    "drones",
     "rússia",
+    "drones",
     "mortos",
     "ucrânia",
     "ucranianos"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Fumaca-sobe-de-galpao-em-Moscou-apos-ataques-de-drones-ucranianos.jpg?w=960&h=540&crop=1",
-  "publishedAt": "2026-07-12T19:59:59+00:00",
-  "updatedAt": "2026-07-18T18:36:51.034811+00:00",
-  "sourceCount": 20,
+  "publishedAt": "2026-07-13T07:00:00+00:00",
+  "updatedAt": "2026-07-18T19:35:23.319544+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -47,7 +53,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-18T14:15:14+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Fumaca-sobe-de-galpao-em-Moscou-apos-ataques-de-drones-ucranianos.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,8 +67,22 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-18T15:03:11+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/QdbfO8ct8kHlLCr_F1W-nPWAV10=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Y/D/QoFMlQQBAFlqwVEYnfhw/afp-20260718-c2jb4t4-v2-midres-topshotrussiaukraineconflictattacks.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_f9108a563093",
+      "title": "Vídeo mostra momento em que armazém desaba na Rússia após ataque de drones ucranianos",
+      "description": "Vídeo mostra momento em que armazém desaba na Rússia após ataque de drones ucranianos. Expandir ou colapsar descrição.",
+      "url": "https://g1.globo.com/mundo/video/video-mostra-momento-em-que-armazem-desaba-na-russia-apos-ataque-de-drones-ucranianos-14791413.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-18T19:24:18+00:00",
+      "postedLabel": "11 minutos atrás",
+      "imageUrl": "https://s02.video.glbimg.com/x720/14791413.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -90,7 +110,7 @@
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-07-18T11:48:01+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/000_36mq8lj.jpg?w=1024&h=630&crop=1",
+      "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
     },
@@ -103,7 +123,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-18T15:50:14+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -151,18 +171,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_7ead3a2e27c4",
-      "title": "Ataque ucraniano deixa mortos, provoca incêndio e leva à evacuação de maternidade perto de Moscou",
-      "description": "Um ataque com drones ucranianos contra dois centros logísticos deixou pelo menos oito mortos na Rússia. Na região de Moscou, um incêndio em...",
-      "url": "https://www.terra.com.br/noticias/mundo/ataque-ucraniano-deixa-mortos-provoca-incendio-e-leva-a-evacuacao-de-maternidade-perto-de-moscou,603d10ba4533dd092c82743d97b12ba59a4ntywg.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-18T12:49:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "id": "article_7f553ab191ec",
+      "title": "Ucrânia atinge grandes centros logísticos na Rússia central",
+      "description": "\"O agressor usou-as para fornecer componentes sancionados para a produção de drones e equipamento de navegação\", disse Zelenskyy sobre as...",
+      "url": "https://pt.euronews.com/my-europe/2026/07/18/ucrania-atinge-grandes-centros-logisticos-na-russia-central",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-07-18T12:05:55+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c0245e427475",
@@ -173,24 +193,24 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-07-18T17:25:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
     {
-      "id": "article_454becd14c50",
-      "title": "Novos ataques russos matam sete pessoas na Ucrânia",
-      "description": "Várias regiões da Ucrânia foram atingidas por drones e mísseis russos nas últimas 24 horas, com sete mortos e pelo menos 67 feridos em todo...",
-      "url": "https://pt.euronews.com/my-europe/2026/07/17/novos-ataques-russos-matam-sete-pessoas-na-ucrania",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-07-17T18:10:01+00:00",
-      "postedLabel": "ontem",
+      "id": "article_7ead3a2e27c4",
+      "title": "Ataque ucraniano deixa mortos, provoca incêndio e leva à evacuação de maternidade perto de Moscou",
+      "description": "Um ataque com drones ucranianos contra dois centros logísticos deixou pelo menos oito mortos na Rússia. Na região de Moscou, um incêndio em...",
+      "url": "https://www.terra.com.br/noticias/mundo/ataque-ucraniano-deixa-mortos-provoca-incendio-e-leva-a-evacuacao-de-maternidade-perto-de-moscou,603d10ba4533dd092c82743d97b12ba59a4ntywg.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-18T12:49:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_cc1afbadba9d",
@@ -257,7 +277,7 @@
       "sourceCanonical": "Tribuna do Agreste",
       "sourceDomain": "tribunadoagreste.com.br",
       "publishedAt": "2026-07-18T12:42:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -303,32 +323,18 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_c35f2a0b26a9",
-      "title": "Drones ucranianos afastam petroleiros russos do Mar de Azov",
-      "description": "Estratégia visa impor danos à \"frota fantasma\" e infraestrutura de petróleo russas e prejudicar fornecimento de combustível às tropas na...",
-      "url": "https://www.dw.com/pt-br/drones-ucranianos-impedem-tr%C3%A1fego-de-navios-russos-no-mar-de-azov/a-77926075",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-07-12T19:59:59+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5,
+    "average": 5.06,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
-      "center": 7,
+      "centerLeft": 2,
+      "center": 8,
       "centerRight": 3,
       "right": 1,
       "unknown": 4
