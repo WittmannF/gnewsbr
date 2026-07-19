@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkNHR6UkVSRlN6a3hWOUt0bGV5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkNHR6UkVSRlN6a3hWOUt0bGV5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-3": 28
+      "topic-3": 32,
+      "topic-8": 25
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 32,
+    "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +29,14 @@
     "crédito",
     "arcabouço",
     "bilhões",
-    "pacote",
-    "ignora"
+    "fiscal",
+    "pacote"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/06/55365211368_b41f6ebb8e_k.jpg",
   "publishedAt": "2026-07-09T18:56:00+00:00",
-  "updatedAt": "2026-07-19T19:37:50.295514+00:00",
-  "sourceCount": 7,
-  "articleCount": 7,
+  "updatedAt": "2026-07-19T20:30:20.671826+00:00",
+  "sourceCount": 8,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_214eee182675",
@@ -44,7 +47,7 @@
       "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-07-19T13:49:27+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/06/55365211368_b41f6ebb8e_k.jpg",
       "spectrumScore": 10,
       "bucket": "right"
@@ -72,7 +75,7 @@
       "sourceCanonical": "Em Tempo Notícias",
       "sourceDomain": "emtemponoticias.com.br",
       "publishedAt": "2026-07-19T16:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -90,6 +93,20 @@
       "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/03/real-moeda-dinheiro-mcajr-2904223671.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_26444a113cd7",
+      "title": "GOVERNO LULA DRIBLA ARCABOUÇO FISCAL E LIBERA R$ 145 BILHÕES EM CRÉDITO EM ANO ELEITORAL",
+      "description": "Pacote prevê expansão de linhas de financiamento por bancos públicos e fundos garantidores; especialistas apontam possíveis impactos sobre...",
+      "url": "https://diario360.com.br/2026/07/19/governo-lula-dribla-arcabouco-fiscal-e-libera-r-145-bilhoes-em-credito-em-ano-eleitoral/",
+      "source": "Diário 360 Notícias",
+      "sourceCanonical": "Diário 360 Notícias",
+      "sourceDomain": "diario360.com.br",
+      "publishedAt": "2026-07-19T18:26:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_21000e14ff58",
@@ -114,7 +131,7 @@
       "sourceCanonical": "GP1",
       "sourceDomain": "gp1.com.br",
       "publishedAt": "2026-07-19T14:50:36+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -139,21 +156,21 @@
     "max": 10,
     "average": 7.25,
     "knownCount": 4,
-    "unknownCount": 3,
+    "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 0,
       "centerRight": 2,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 91,
     "headlineDivergence": 88,
-    "confidence": 71
+    "confidence": 73
   },
   "flags": [
     "Muitas fontes não classificadas",
