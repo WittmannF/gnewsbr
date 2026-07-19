@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzeEtMUkVSRWZTOFF5VE5QM3lDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzeEtMUkVSRWZTOFF5VE5QM3lDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 32
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 32,
-    "bestSeedRank": 32,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Prefeito de Nova York cogita prender Benjamin Netanyahu na ONU",
+  "title": "Zohran Mamdani estuda prender Benjamin Netanyahu em Nova York",
   "summary": "Em entrevista ao 'New York Times', Zohran Mamdani classificou Israel de 'regime de Apartheid'.",
   "topic": "Netanyahu · Prefeito",
   "topicKeywords": [
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/a1PeeziNXlHPR5t_5_VVGNLSa_s=/5500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/r/inYJMZRSWMP5Z4EpBmug/2026-01-25t175553z-1474240344-rc2h8jaaio2i-rtrmadp-3-usa-weather.jpg",
   "publishedAt": "2026-07-18T15:20:59+00:00",
-  "updatedAt": "2026-07-19T07:59:37.739938+00:00",
+  "updatedAt": "2026-07-19T08:56:45.636325+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -134,20 +140,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_601f88ee4dd1",
-      "title": "Autarca de Nova Iorque pondera deter Netanyahu na Assembleia-Geral da ONU",
-      "description": "A Assembleia-Geral das Nações Unidas, o grande encontro anual dos líderes de todo o mundo, realiza-se em setembro na sede da ONU, em Nova...",
-      "url": "https://sicnoticias.pt/mundo/2026-07-18-autarca-de-nova-iorque-pondera-deter-netanyahu-na-assembleia-geral-da-onu-f3e50ccf",
-      "source": "SIC Notícias",
-      "sourceCanonical": "SIC Notícias",
-      "sourceDomain": "sicnoticias.pt",
-      "publishedAt": "2026-07-18T19:33:40+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_64116f8c8e92",
       "title": "Prefeito de Nova York diz cogitar prisão de Netanyahu em Assembleia da ONU",
       "description": "Reunião anual de líderes mundiais será realizada em setembro nos EUA; Mamdani afirma que dialoga sobre a prisão com a equipe jurídica.",
@@ -204,6 +196,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_0dd790bfe45a",
+      "title": "Prefeito de NY ameaça prender Netanyahu e acirra risco geopolítico",
+      "description": "O prefeito de Nova York, Zohran Mamdani, declarou que estuda ordenar a detenção do primeiro-ministro israelense Benjamin Netanyahu durante a...",
+      "url": "https://www.spacemoney.com.br/investimentos/prefeito-de-ny-ameaca-prender-netanyahu-e-acirra-risco-geopolitico/",
+      "source": "SpaceMoney",
+      "sourceCanonical": "SpaceMoney",
+      "sourceDomain": "spacemoney.com.br",
+      "publishedAt": "2026-07-18T20:11:55+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_7987267a6306",
       "title": "Prefeito de Nova York avalia legalidade da prisão de Netanyahu em possível visita",
       "description": "Detenção teria como base o mandado de prisão contra Netanyahu emitido pelo TPI e já era sinalizada por Zohran Mamdani desde que era...",
@@ -216,20 +222,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_0dd790bfe45a",
-      "title": "Prefeito de NY ameaça prender Netanyahu e acirra risco geopolítico",
-      "description": "Zohran Mamdani sinaliza possível prisão de Netanyahu na ONU. Entenda o impacto nos mercados e a reação diplomática.",
-      "url": "https://www.spacemoney.com.br/investimentos/prefeito-de-ny-ameaca-prender-netanyahu-e-acirra-risco-geopolitico/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-07-18T20:11:55+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_c524276b432b",
@@ -314,19 +306,33 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_784403264ecf",
+      "title": "Prefeito de Nova York avalia prender Netanyahu",
+      "description": "Zohran Mamdani diz que consulta equipe jurídica sobre alcance de sua autoridade; embaixador de Israel reage e critica declaração.",
+      "url": "https://oantagonista.com.br/mundo/prefeito-de-nova-york-avalia-prender-netanyahu/",
+      "source": "O Antagonista",
+      "sourceCanonical": "O Antagonista",
+      "sourceDomain": "oantagonista.com.br",
+      "publishedAt": "2026-07-18T20:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 4.71,
+    "average": 4.88,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 4,
       "centerLeft": 1,
-      "center": 9,
-      "centerRight": 2,
+      "center": 8,
+      "centerRight": 3,
       "right": 1,
       "unknown": 3
     }
