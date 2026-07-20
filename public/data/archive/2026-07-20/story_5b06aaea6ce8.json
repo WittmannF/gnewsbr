@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLZ09fUEVSSGhHZEdubmEyT1d5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLZ09fUEVSSGhHZEdubmEyT1d5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 3,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Partidos iniciam convenções para as Eleições 2026 nesta segunda-feira",
   "summary": "Convenções representam uma das etapas mais importantes do processo eleitoral, pois é durante esses encontros que partidos homologam seus...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "convenções",
     "partidárias",
-    "segunda",
     "partidos",
     "eleições",
-    "começam"
+    "segunda",
+    "candidatos"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/d5092faa-cc5a-4bdd-9ab4-20ee96669102.jpeg?w=676&h=450&crop=1",
-  "publishedAt": "2026-07-16T22:20:00+00:00",
-  "updatedAt": "2026-07-20T13:48:53.420635+00:00",
+  "publishedAt": "2026-07-19T11:14:51+00:00",
+  "updatedAt": "2026-07-20T14:55:19.969655+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -46,8 +52,8 @@
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-20T11:46:48+00:00",
-      "postedLabel": "2 horas atrás",
+      "publishedAt": "2026-07-20T13:46:06+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/d5092faa-cc5a-4bdd-9ab4-20ee96669102.jpeg?w=676&h=450&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -67,46 +73,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_cfb29ebc98b3",
-      "title": "Convenções partidárias têm início e 11 partidos e federações já definiram datas em MS",
-      "description": "Período para que partidos e federações definam candidatos para eleições de 2026 termina no dia 5 de agosto.",
-      "url": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/07/20/convencoes-partidarias-tem-inicio-e-11-partidos-e-federacoes-ja-definiram-datas-em-ms.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-20T13:25:45+00:00",
-      "postedLabel": "23 minutos atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/WnCS1fS9TbKNFDDhjq_MTdqmZBA=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/x/FzkaJDRGaZnMi4MVkeew/edicao-imagens-g1-33-.png",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_56d39ac71e03",
-      "title": "Eleições 2026: convenções partidárias para escolha de candidatos começam na segunda (20)",
-      "description": "Legendas definirão os nomes dos candidatos que disputarão o pleito. Saiba como funciona o processo e o envio de dados à Justiça Eleitoral.",
-      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Julho/eleicoes-2026-convencoes-partidarias-para-escolha-de-candidatos-comecam-na-segunda-20",
-      "source": "Tribunal Superior Eleitoral",
-      "sourceCanonical": "Tribunal Superior Eleitoral",
-      "sourceDomain": "tse.jus.br",
-      "publishedAt": "2026-07-16T22:20:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_aaad982f47d7",
-      "title": "Corrida eleitoral: partidos já podem oficializar candidaturas; vice de Flávio é incógnita",
-      "description": "Convenções dos partidos oficializam candidaturas; PL se reúne no próximo sábado e nome de vice-presidente segue em disputa.",
-      "url": "https://apublica.org/nota/partidos-oficializam-candidaturas-vice-de-flavio-e-incognita/",
-      "source": "Agência Pública",
-      "sourceCanonical": "Agência Pública",
-      "sourceDomain": "apublica.org",
-      "publishedAt": "2026-07-20T07:04:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "id": "article_29ef40dead1d",
+      "title": "Saiba quando cada partido fará sua convenção para definir os candidatos nas eleições",
+      "description": "Até 5 de agosto, partidos e federações realizarão reuniões para confirmar seus candidatos aos cargos em disputa, definir alianças e aprovar...",
+      "url": "https://www.cartacapital.com.br/politica/saiba-quando-cada-partido-fara-sua-convencao-para-definir-os-candidatos-nas-eleicoes/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-20T14:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/55371370375_b357832909_k.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_3e8ce9bfd88e",
@@ -123,6 +101,48 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_87d9e95bf4c1",
+      "title": "Convenções partidárias têm início e quatro partidos já definiram datas no MA",
+      "description": "Período para que partidos e federações definam candidatos para eleições de 2026 termina no dia 5 de agosto.",
+      "url": "https://g1.globo.com/ma/maranhao/eleicoes/2026/noticia/2026/07/20/convencoes-partidarias-comecam-e-quatro-partidos-ja-definiram-datas-no-maranhao.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-20T14:13:31+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_dc2ee05c36f7",
+      "title": "ELEIÇÕES 2026: Começam as CONVENÇÕES e definição dos candidatos e vices; Entenda | Gaúcha Atualidade",
+      "description": "Andressa Xavier, Rosane de Oliveira e Matheus Schuch comentam sobre esse momento de definição oficial dos candidatos e seus vices para a...",
+      "url": "https://gauchazh.clicrbs.com.br/video/eleicoes-2026-comecam-as-convencoes-e-definicao-dos-candidatos-e-vices-entenda-gaucha-atualidade-cmrtakgui000101clhdd0s3vt.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-20T14:00:03+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_aaad982f47d7",
+      "title": "Corrida eleitoral: partidos já podem oficializar candidaturas; vice de Flávio é incógnita",
+      "description": "Convenções dos partidos oficializam candidaturas; PL se reúne no próximo sábado e nome de vice-presidente segue em disputa.",
+      "url": "https://apublica.org/nota/partidos-oficializam-candidaturas-vice-de-flavio-e-incognita/",
+      "source": "Agência Pública",
+      "sourceCanonical": "Agência Pública",
+      "sourceDomain": "apublica.org",
+      "publishedAt": "2026-07-20T07:04:58+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_85e2301fffe6",
       "title": "Agenda da semana: tarifaço e largada das convenções eleitorais",
       "description": "Semana terá disputa por narrativa sobre tarifas dos EUA e prazo para partidos oficializarem candidatos até 5 de agosto. Leia no Poder360.",
@@ -131,24 +151,10 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-20T10:09:25+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_e7e3a81f01e3",
-      "title": "Largada para as convenções partidárias nesta semana",
-      "description": "Há pouco mais de um mês, a Seleção Brasileira entrou em campo para disputar a taça da Copa do Mundo e tentar conquistar o hexacampeonato de...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/07/7464207-largada-para-as-convencoes-partidarias-nesta-semana.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-07-20T06:59:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_808cda0665c7",
@@ -159,10 +165,38 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-20T11:59:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_5f57f6e0a74a",
+      "title": "A hora das definições",
+      "description": "*Coluna Eixo Capital publicada neste domingo (19/7) por Ana Maria Campos. Nos próximos 15 dias, os partidos e federações vão definir as...",
+      "url": "https://blogs.correiobraziliense.com.br/cbpoder/a-hora-das-definicoes/",
+      "source": "blogs.correiobraziliense.com.br",
+      "sourceCanonical": "blogs.correiobraziliense.com.br",
+      "sourceDomain": "blogs.correiobraziliense.com.br",
+      "publishedAt": "2026-07-19T11:14:51+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_19dc34ec5c6f",
+      "title": "Me explica, MPF: para que servem as convenções partidárias?",
+      "description": "Etapa define oficialmente os candidatos e abre o prazo para registro na Justiça Eleitoral, que vai até 15 de agosto.",
+      "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/me-explica-mpf-para-que-servem-as-convencoes-partidarias",
+      "source": "mpf.mp.br",
+      "sourceCanonical": "mpf.mp.br",
+      "sourceDomain": "mpf.mp.br",
+      "publishedAt": "2026-07-20T13:37:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3f3c6370519c",
@@ -186,11 +220,25 @@
       "source": "Correio do Povo",
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-07-20T09:56:15+00:00",
-      "postedLabel": "3 horas atrás",
+      "publishedAt": "2026-07-20T09:56:28+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_3fd83ebd6d40",
+      "title": "Convenções iniciam com indefinições sobre vices de Flávio e Zema, chapas incompletas e Centrão indec",
+      "description": "Pré-candidatos à Presidência e a cargos estaduais chegam às convenções partidárias com chapas incompletas e coligações a definir tanto na...",
+      "url": "https://www.folhape.com.br/politica/convencoes-iniciam-com-indefinicoes-sobre-vices-de-flavio-e-zema/501472/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-07-20T14:34:00+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_7e01d523d4dc",
@@ -201,24 +249,24 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-07-20T12:44:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_534af3265050",
-      "title": "Convenções partidárias começam nesta segunda-feira; entenda",
-      "description": "Até 5 de agosto, as legendas deverão realizar encontros para formalizar os candidatos e as coligações.",
-      "url": "https://noticias.r7.com/eleicoes/2026/convencoes-partidarias-comecam-nesta-segunda-feira-entenda-20072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-20T05:00:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_2c47cef570d5",
+      "title": "Convenções partidárias iniciam-se nesta segunda-feira (20)",
+      "description": "Partidos e federações têm até o dia 5 de agosto para definir seus candidatos.",
+      "url": "https://www.tre-pr.jus.br/comunicacao/noticias/2026/Julho/convencoes-partidarias-iniciam-se-nesta-segunda-feira-20",
+      "source": "Tribunal Regional Eleitoral do Paraná",
+      "sourceCanonical": "Tribunal Regional Eleitoral do Paraná",
+      "sourceDomain": "tre-pr.jus.br",
+      "publishedAt": "2026-07-20T13:20:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c1370e0ed61a",
@@ -229,38 +277,10 @@
       "sourceCanonical": "Tribuna do Norte",
       "sourceDomain": "blog.tribunadonorte.com.br",
       "publishedAt": "2026-07-20T11:40:20+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_331694f7e08d",
-      "title": "Prazo das convenções partidárias para escolha de candidatos começa nesta segunda (19)",
-      "description": "Descubra tudo sobre as convenções partidárias para 2026 e como os candidatos serão escolhidos. Conheça as regras.",
-      "url": "https://jornaldaparaiba.com.br/politica/convencoes-partidarias-para-escolha-de-candidatos-comecam-nesta-segunda-feira-19",
-      "source": "Jornal da Paraíba",
-      "sourceCanonical": "Jornal da Paraíba",
-      "sourceDomain": "jornaldaparaiba.com.br",
-      "publishedAt": "2026-07-20T09:09:16+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_31190d3a1dd0",
-      "title": "Covenções partidárias começam hoje para definir destino das eleições",
-      "description": "Começa hoje e segue até o dia 5 de agosto o prazo para as convenções partidárias. É neste período que as siglas, autorizadas pelo Tribunal...",
-      "url": "https://www.folhape.com.br/colunistas/blogdafolha/covencoes-partidarias-comecam-hoje-para-definir-destino-das-eleicoes/58479/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-07-20T09:01:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_f38b28be975f",
@@ -272,6 +292,20 @@
       "sourceDomain": "jb.com.br",
       "publishedAt": "2026-07-19T19:20:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_331694f7e08d",
+      "title": "Prazo das convenções partidárias para escolha de candidatos começa nesta segunda (19)",
+      "description": "Descubra tudo sobre as convenções partidárias para 2026 e como os candidatos serão escolhidos. Conheça as regras.",
+      "url": "https://jornaldaparaiba.com.br/politica/convencoes-partidarias-para-escolha-de-candidatos-comecam-nesta-segunda-feira-19",
+      "source": "Jornal da Paraíba",
+      "sourceCanonical": "Jornal da Paraíba",
+      "sourceDomain": "jornaldaparaiba.com.br",
+      "publishedAt": "2026-07-20T09:09:16+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -289,59 +323,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_5d459e44f288",
-      "title": "Período de convenções partidárias para eleições 2026 começa nesta segunda (20)",
-      "description": "Prazo para realização dos eventos para oficializar candidaturas encerra em 5 de agosto.",
-      "url": "https://www.jornaldocomercio.com/politica/2026/07/1256745-periodo-de-convencoes-partidarias-para-eleicoes-2026-comeca-nesta-segunda-20.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-07-20T10:41:15+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_51413481dcd0",
-      "title": "Partidos políticos terão de 20 de julho a 5 de agosto para realizar convenções; saiba quais têm data",
-      "description": "A partir desta segunda-feira (20) inicia mais um prazo do calendário eleitoral, quando os partidos políticos e as federações partidárias...",
-      "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/partidos-politicos-terao-de-20-de-julho-a-5-de-agosto-para-realizar-convencoes-saiba-quais-tem-data-1.3777688",
-      "source": "Diário do Nordeste",
-      "sourceCanonical": "Diário do Nordeste",
-      "sourceDomain": "diariodonordeste.verdesmares.com.br",
-      "publishedAt": "2026-07-20T09:00:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 4.75,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 0,
-      "centerLeft": 4,
+      "left": 1,
+      "centerLeft": 2,
       "center": 8,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 6
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
