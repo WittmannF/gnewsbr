@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p5eFlfU0VSRW9XcXVpcnRiWG1pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p5eFlfU0VSRW9XcXVpcnRiWG1pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-5",
-    "topic-7",
-    "topstories"
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-5": 5,
       "topic-7": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 5,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Morte de militares dos EUA no Irã",
   "summary": "Desde o início da guerra, 16 militares dos EUA foram mortos e mais de 430 ficaram feridos. Nova morte acontece em momento no qual Washington...",
@@ -33,14 +27,14 @@
   "topicKeywords": [
     "eua",
     "irã",
+    "militares",
     "jordânia",
     "dois",
-    "militares",
     "morte"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/SOhraQVbBelmvIvVyyX2Fyt-A5Q=/7979x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/8/aTtIi5T8qtGAkA5BpZVg/9341045.jpg",
   "publishedAt": "2026-07-18T18:15:51+00:00",
-  "updatedAt": "2026-07-20T03:15:49.167080+00:00",
+  "updatedAt": "2026-07-20T05:31:15.768326+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -73,6 +67,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_f7de6a475cec",
+      "title": "Trump: \"Nos sentimos muito mal\" pelas mortes de militares no Oriente Médio",
+      "description": "Um militar dos EUA foi morto no norte do Iraque no sábado (18), enquanto outros dois morreram durante ataques na Jordânia na sexta-feira...",
+      "url": "https://www.cnnbrasil.com.br/internacional/trump-nos-sentimos-muito-mal-pelas-mortes-de-militares-no-oriente-medio/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-20T01:05:24+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM4L1E5-BASEIMAGE.jpg?w=800&h=534&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_f2d8ee214e32",
       "title": "Morte de terceiro militar americano reaproxima EUA e Irã de nova guerra total no Oriente Médio",
       "description": "Washington atacou alvos da Guarda Revolucionária em retaliação à morte de soldados na Jordânia; Teerã suspendeu compromissos do acordo...",
@@ -81,22 +89,8 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-19T23:39:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/MZSHG7HNA5HLTLALRAHJB5WXEU.jpg?quality=80&auth=382fa2114aa038c79469f66602fb152b5cb1ea680d04e2c95b2a28ba6fdacb6e&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_589cd452a676",
-      "title": "Ataque do Irã à Jordânia mata dois militares e deixa um desaparecido, dizem EUA",
-      "description": "Comando Central dos EUA afirma que militares morreram durante tentativa de defesa contra ofensiva iraniana com drones e mísseis balísticos.",
-      "url": "https://veja.abril.com.br/mundo/ataque-do-ira-a-jordania-mata-dois-militares-e-deixa-um-desaparecido-dizem-eua/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-18T18:28:51+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/AFP__20260716__C2CW2CQ__v2__HighRes__TopshotIranUsIsraelWar.jpg?quality=70&strip=info&resize=1080,565&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -115,20 +109,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_574045349078",
-      "title": "EUA confirmam que militar americano foi morto em ação no Iraque",
-      "description": "Caso aconteceu durante detonação controlada de explosivo vindo de drone iraniano.",
-      "url": "https://www.cnnbrasil.com.br/internacional/eua-confirmam-que-militar-americano-foi-morto-em-acao-no-iraque/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-19T19:28:22+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_393a9f4a04f3",
       "title": "Resposta do Irã deixa mortos e aumenta escalada com EUA após rompimento do cessar-fogo",
       "description": "Teerã teve como alvo instalações militares americanas em toda a região do Golfo em recrudescimento das hostilidades entre as duas partes.",
@@ -137,7 +117,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-07-19T03:23:01+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -171,18 +151,32 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_be0536624fdd",
-      "title": "EUA emite alerta global para americanos devido ao conflito com o Irã",
-      "description": "Alerta cita risco de escalada imprevisível no conflito entre EUA e Irã, e orienta americanos no exterior a redobrarem a cautela.",
-      "url": "https://www.metropoles.com/mundo/eua-emite-alerta-global-para-americanos-devido-ao-conflito-com-o-ira",
+      "id": "article_ee560bd1118c",
+      "title": "Irã diz ter bombardeado aviões dos EUA em aeroporto na Jordânia",
+      "description": "O Irã afirmou neste domingo (19/7) ter atacado aeronaves militares dos Estados Unidos estacionadas no Aeroporto de Aqaba, na Jordânia,...",
+      "url": "https://www.metropoles.com/mundo/ira-diz-ter-bombardeado-avioes-dos-eua-em-aeroporto-na-jordania",
       "source": "Metrópoles",
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-18T21:06:00+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-07-20T02:58:00+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_589cd452a676",
+      "title": "Ataque do Irã à Jordânia mata dois militares e deixa um desaparecido, dizem EUA",
+      "description": "Comando Central dos EUA afirma que militares morreram durante tentativa de defesa contra ofensiva iraniana com drones e mísseis balísticos.",
+      "url": "https://veja.abril.com.br/mundo/ataque-do-ira-a-jordania-mata-dois-militares-e-deixa-um-desaparecido-dizem-eua/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-18T18:28:51+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e26a78f302b7",
@@ -193,7 +187,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-19T21:58:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -263,7 +257,7 @@
       "sourceCanonical": "NSC Total",
       "sourceDomain": "nsctotal.com.br",
       "publishedAt": "2026-07-20T01:32:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -283,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c484bffdc958",
-      "title": "Israel alerta sobre mísseis do Irã com potencial para atingir a Jordânia",
-      "description": "Israel afirmou neste domingo, 19, que o Irã lançou mísseis em direção à vizinha Jordânia, alertando a população para esperar os primeiros...",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/07/19/942672-israel-alerta-sobre-misseis-do-ira-com-potencial-para-atingir-a-jordania",
-      "source": "Tribuna do Agreste",
-      "sourceCanonical": "Tribuna do Agreste",
-      "sourceDomain": "tribunadoagreste.com.br",
-      "publishedAt": "2026-07-19T15:18:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_a209f02fc4f7",
       "title": "EUA perdem mais de 20 helicópteros em ataque iraniano na Jordânia",
       "description": "247 – Os Estados Unidos sofreram um dos maiores prejuízos materiais desde o agravamento do conflito com o Irã após um ataque com mísseis e...",
@@ -311,33 +291,47 @@
       "bucket": "left"
     },
     {
-      "id": "article_be0c12be0b7b",
-      "title": "Trump: “Nos sentimos muito mal” pelas mortes de militares no Oriente Médio",
-      "description": "O presidente dos Estados Unidos, Donald Trump, disse no domingo (20) que \"sentimos muito\" pelos militares norte-americanos que morreram na...",
-      "url": "https://contilnetnoticias.com.br/cotidiano/trump-nos-sentimos-muito-mal-pelas-mortes-de-militares-no-oriente-medio/",
-      "source": "ContilNet",
-      "sourceCanonical": "ContilNet",
-      "sourceDomain": "contilnetnoticias.com.br",
-      "publishedAt": "2026-07-20T00:45:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_f5c20fb80731",
+      "title": "Oitava noite de ataques aéreos: mercados em alerta enquanto Trump promete atingir o Irã “com extrema dureza”",
+      "description": "Os EUA realizam ataques contra o Irã pela oitava noite consecutiva, enquanto ataques na Jordânia e no Iraque matam três soldados.",
+      "url": "https://news.bitcoin.com/pt/oitava-noite-de-ataques-aereos-mercados-em-alerta-enquanto-trump-promete-atingir-o-ira-com-extrema-dureza/",
+      "source": "Bitcoin News",
+      "sourceCanonical": "Bitcoin News",
+      "sourceDomain": "news.bitcoin.com",
+      "publishedAt": "2026-07-20T00:03:28+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_867a01935804",
+      "title": "Os EUA reconhecem que o Irã se adaptou aos sistemas de defesa americanos, diz mídia",
+      "description": "Novo relatório aponta preocupações sobre capacidades militares do Irã.",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/07/18/942538-os-eua-reconhecem-que-o-ira-se-adaptou-aos-sistemas-de-defesa-americanos-diz-midia",
+      "source": "Tribuna do Sertão",
+      "sourceCanonical": "Tribuna do Sertão",
+      "sourceDomain": "tribunadosertao.com.br",
+      "publishedAt": "2026-07-18T23:52:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
     "average": 4.94,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 3,
-      "center": 7,
+      "center": 8,
       "centerRight": 4,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {

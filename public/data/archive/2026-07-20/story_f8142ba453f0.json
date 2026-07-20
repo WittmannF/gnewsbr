@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lOaHJ2SkVSRTZoYS03SGRCYWRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lOaHJ2SkVSRTZoYS03SGRCYWRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 2,
-      "topic-5": 4
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula recebeu ao menos 16 estrangeiros enquanto esteve preso",
   "summary": "Durante os 580 dias em que esteve preso em Curitiba, de 2018 a 2019, o presidente Luiz Inácio Lula da Silva (PT) recebeu ao menos 16...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "milei",
     "bolsonaro",
-    "visita",
     "moraes",
+    "visita",
     "nega",
     "pedido"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/07/lula-visitas-estrengeiros-cadeia-19-jul-2026-02-848x477.png",
   "publishedAt": "2026-07-17T22:20:04+00:00",
-  "updatedAt": "2026-07-20T03:16:51.511179+00:00",
+  "updatedAt": "2026-07-20T05:23:09.017190+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-20T01:08:06+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/07/lula-visitas-estrengeiros-cadeia-19-jul-2026-02-848x477.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -193,32 +199,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_f76a7615d6df",
-      "title": "Moraes nega pedido de visita de Milei a Bolsonaro",
-      "description": "Da Agência Brasil. O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), negou, neste sábado (18), o pedido para o presidente...",
-      "url": "https://sul21.com.br/noticias/politica/2026/07/moraes-nega-pedido-de-visita-de-milei-a-bolsonaro/",
-      "source": "Sul 21",
-      "sourceCanonical": "Sul 21",
-      "sourceDomain": "sul21.com.br",
-      "publishedAt": "2026-07-18T20:12:00+00:00",
+      "id": "article_2c79b09a32e8",
+      "title": "Moraes nega pedido para Javier Milei visitar Bolsonaro em casa",
+      "description": "Ex-presidente Jair Bolsonaro (PL) é um condenado por articular e liderar uma tentativa de golpe de Estado e cumpre, por concessão do STF,...",
+      "url": "https://mais.opovo.com.br/jornal/mundo/2026/07/19/moraes-nega-pedido-para-javier-milei-visitar-bolsonaro-em-casa.html",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-07-19T04:00:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_08bef441b486",
-      "title": "Moraes nega pedido de Bolsonaro para receber visita de Milei",
-      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), negou neste sábado 18 o pedido da defesa do ex-presidente Jair Bolsonaro...",
-      "url": "https://www.cartacapital.com.br/justica/moraes-nega-pedido-de-bolsonaro-para-receber-visita-de-milei/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-18T13:28:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_e82feabcf347",
@@ -243,6 +235,20 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-07-18T12:59:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_08bef441b486",
+      "title": "Moraes nega pedido de Bolsonaro para receber visita de Milei",
+      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), negou neste sábado 18 o pedido da defesa do ex-presidente Jair Bolsonaro...",
+      "url": "https://www.cartacapital.com.br/justica/moraes-nega-pedido-de-bolsonaro-para-receber-visita-de-milei/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-18T13:28:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
@@ -291,20 +297,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_eb830d33d4d3",
-      "title": "Moraes nega visita de Javier Milei a Bolsonaro",
-      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), rejeitou neste sábado (18) o pedido para que o presidente da Argentina,...",
-      "url": "https://www.jb.com.br/brasil/justica/2026/07/1060327-moraes-nega-visita-de-javier-milei-a-bolsonaro-no-brasil.html",
-      "source": "Jornal do Brasil",
-      "sourceCanonical": "Jornal do Brasil",
-      "sourceDomain": "jb.com.br",
-      "publishedAt": "2026-07-18T15:46:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_dc5cabe7f9d1",
       "title": "Moraes nega autorização a visita de Milei em prisão domiciliar de Bolsonaro",
       "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), negou o pedido da defesa do ex-presidente Jair Bolsonaro (PL) para...",
@@ -317,6 +309,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_eb830d33d4d3",
+      "title": "Moraes nega visita de Javier Milei a Bolsonaro",
+      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), rejeitou neste sábado (18) o pedido para que o presidente da Argentina,...",
+      "url": "https://www.jb.com.br/brasil/justica/2026/07/1060327-moraes-nega-visita-de-javier-milei-a-bolsonaro-no-brasil.html",
+      "source": "Jornal do Brasil",
+      "sourceCanonical": "Jornal do Brasil",
+      "sourceDomain": "jb.com.br",
+      "publishedAt": "2026-07-18T15:46:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
