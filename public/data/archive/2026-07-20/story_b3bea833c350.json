@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 27
+      "topic-7": 30
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 30,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://i0.statig.com.br/bancodeimagens/9c/7l/88/9c7l880n0o54ysibo9x3sky7x.jpg",
   "publishedAt": "2026-07-17T11:46:00+00:00",
-  "updatedAt": "2026-07-20T05:35:02.399752+00:00",
+  "updatedAt": "2026-07-20T07:33:21.215113+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -218,20 +218,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_8d190cfb3344",
-      "title": "Deslizamento de terra na China deixa mortos e desaparecidos",
-      "description": "Imagens mostram uma enorme massa de terra e pedras que soterrou parte de uma rua com casas e comércios ao pé de uma montanha.",
-      "url": "https://www.estadao.com.br/internacional/deslizamento-de-terra-na-china-deixa-mortos-e-desaparecidos-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-17T16:58:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_4494231441ef",
       "title": "O momento em que deslizamento de terras atinge zona residencial na China",
       "description": "Um deslizamento de terras atingiu, esta sexta-feira, uma zona residencial de Chongqing, no sudoeste da China, soterrando vários edifícios e...",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_3c4b46da9999",
+      "title": "Deslizamento em Chongqing deixa mortos e mobiliza resgate",
+      "description": "Um deslizamento de terra no distrito de Chongqing, sudoeste da China, resultou na morte de pelo menos oito pessoas, enquanto 34 continuam...",
+      "url": "https://boca.com.br/internacional/deslizamento-em-chongqing-deixa-mortos-e-mobiliza-resgate",
+      "source": "boca.com.br",
+      "sourceCanonical": "boca.com.br",
+      "sourceDomain": "boca.com.br",
+      "publishedAt": "2026-07-18T11:55:21+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 7,
-    "average": 4.79,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "max": 6,
+    "average": 4.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
       "center": 10,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

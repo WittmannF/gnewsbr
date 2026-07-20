@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 4
+      "topic-7": 8
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 8,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/estreito-de-ormuz-1-848x477-1-848x477.png",
   "publishedAt": "2026-07-12T10:31:07+00:00",
-  "updatedAt": "2026-07-20T05:33:54.156995+00:00",
+  "updatedAt": "2026-07-20T07:32:13.855802+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-20T01:28:43+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/gxDfL7z9yHaMXHO-pLMft34MbeM=/5453x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/A/SJPbGbTJ2sLekSO51fvQ/2026-07-17t143027z-99794466-rc2ofmarcmkz-rtrmadp-3-iran-crisis-oman-hormuz.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +72,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-07-20T01:08:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/2026-07-19T055021Z_1233646359_RC2OFMA7FFBT_RTRMADP_3_IRAN-CRISIS-GULF-OIL-1.jpg?fit=1100%2C700&quality=70&strip=all",
       "spectrumScore": 6,
       "bucket": "center"
@@ -114,7 +114,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-07-20T00:46:26+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -176,6 +176,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_e981f62a987b",
+      "title": "Irã anuncia explosão de dois petroleiros no Estreito de Ormuz",
+      "description": "247 – O Irã afirmou que dois petroleiros explodiram e ficaram imobilizados no Estreito de Ormuz, enquanto alertou que a rota seguirá...",
+      "url": "https://www.brasil247.com/mundo/ira-anuncia-explosao-de-dois-petroleiros-no-estreito-de-ormuz/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-07-20T07:15:00+00:00",
+      "postedLabel": "17 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_8b2ef6c2698d",
       "title": "Newsletter/ O tanque ou a piscina (e as obras) de Neves. Ormuz outra vez estreito. E os milhões da Arábia",
       "description": "O caso de Luís Neves, ministro da Administração Interna, continua a dar que falar. No Médio Oriente o Estreito de Ormuz voltou a fechar. E o...",
@@ -184,7 +198,7 @@
       "sourceCanonical": "Observador",
       "sourceDomain": "observador.pt",
       "publishedAt": "2026-07-14T07:08:45+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,45 +314,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_54c150860246",
-      "title": "EUA e Irão: conflito agrava-se após ataque mortal a petroleiro",
-      "description": "Navios mercantes foram atacados no Estreito de Ormuz, numa altura em que EUA e Irão trocam ações militares, aumentando o receio de que o...",
-      "url": "https://pt.euronews.com/2026/07/14/estados-unidos-e-irao-conflito-agrava-se-apos-ataque-mortal-a-petroleiros-no-estreito-de-o",
-      "source": "Euronews",
-      "sourceCanonical": "Euronews",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-07-14T12:41:59+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 9,
-    "average": 5.92,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 9,
       "centerRight": 3,
       "right": 1,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
