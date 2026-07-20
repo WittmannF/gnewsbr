@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p5eFlfU0VSRW9XcXVpcnRiWG1pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p5eFlfU0VSRW9XcXVpcnRiWG1pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 10,
-      "topic-7": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 3,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 10,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Irã e EUA na Jordânia",
+  "title": "Morte de militares dos EUA no Irã",
   "summary": "Desde o início da guerra, 16 militares dos EUA foram mortos e mais de 430 ficaram feridos. Nova morte acontece em momento no qual Washington...",
   "topic": "Eua · Irã",
   "topicKeywords": [
     "eua",
     "irã",
     "militares",
-    "dois",
     "americanos",
+    "dois",
     "jordânia"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/SOhraQVbBelmvIvVyyX2Fyt-A5Q=/7979x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/8/aTtIi5T8qtGAkA5BpZVg/9341045.jpg",
   "publishedAt": "2026-07-18T18:15:51+00:00",
-  "updatedAt": "2026-07-20T09:23:53.509947+00:00",
+  "updatedAt": "2026-07-20T11:11:16.598691+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -61,8 +67,22 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-07-20T07:43:43+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_f7de6a475cec",
+      "title": "Trump: \"Nos sentimos muito mal\" pelas mortes de militares no Oriente Médio",
+      "description": "Um militar dos EUA foi morto no norte do Iraque no sábado (18), enquanto outros dois morreram durante ataques na Jordânia na sexta-feira...",
+      "url": "https://www.cnnbrasil.com.br/internacional/trump-nos-sentimos-muito-mal-pelas-mortes-de-militares-no-oriente-medio/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-20T01:05:24+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM4L1E5-BASEIMAGE.jpg?w=800&h=534&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -81,46 +101,32 @@
       "bucket": "left"
     },
     {
-      "id": "article_574045349078",
-      "title": "EUA confirmam que militar americano foi morto em ação no Iraque",
-      "description": "Caso aconteceu durante detonação controlada de explosivo vindo de drone iraniano.",
-      "url": "https://www.cnnbrasil.com.br/internacional/eua-confirmam-que-militar-americano-foi-morto-em-acao-no-iraque/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-19T19:28:22+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/GettyImages-1135909695.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_f2e45ff9159d",
-      "title": "EUA diz que porto na Jordânia foi evacuado após ameaça",
-      "description": "Embaixada dos EUA no país árabe diz que porto de Aqaba foi evacuado após ameaças. Governo da Jordânia desmentiu. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/mundo/embaixada-dos-eua-alerta-sobre-evacuacao-de-porto-e-aeroporto-na-jordania/",
+      "id": "article_fbdec9a15edd",
+      "title": "Terceiro militar dos EUA é morto no Oriente Médio; troca de ataques com o Irã chega ao nono dia seguido",
+      "description": "Centcom confirmou que mais um militar americano foi morto na guerra contra o Irã, o que elevou o número a três mortes em dois dias.",
+      "url": "https://www.gazetadopovo.com.br/mundo/terceiro-militar-eua-morto-oriente-medio-troca-ataques-ira-nono-dia-seguido/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-07-19T13:30:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-07-20T10:47:00+00:00",
+      "postedLabel": "24 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_f2d8ee214e32",
-      "title": "Morte de terceiro militar americano reaproxima EUA e Irã de nova guerra total no Oriente Médio",
-      "description": "Washington atacou alvos da Guarda Revolucionária em retaliação à morte de soldados na Jordânia; Teerã suspendeu compromissos do acordo...",
-      "url": "https://www.estadao.com.br/internacional/morte-de-terceiro-militar-americano-reaproxima-eua-e-ira-de-nova-guerra-total-no-oriente-medio/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-19T23:39:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_f5ed6291f19f",
+      "title": "Mais um militar dos EUA morre e conflito se expande no Irã",
+      "description": "Militar morreu no Iraque após detonação de drone iraniano, elevando para 17 o total de óbitos americanos no conflito.",
+      "url": "https://www.dw.com/pt-br/mais-um-militar-dos-eua-morre-e-conflito-se-expande-no-oriente-m%C3%A9dio/a-78033967",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-07-20T10:09:17+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_393a9f4a04f3",
@@ -135,6 +141,34 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_3123fe71dabd",
+      "title": "Jordânia não ordenou evacuação do aeroporto ou do porto de Aqaba, afirma porta-voz do governo",
+      "description": "Autoridades ‌jordanianas não tomaram nenhuma decisão no domingo para evacuar o ​aeroporto ou o ...",
+      "url": "https://www.terra.com.br/noticias/mundo/jordania-nao-ordenou-evacuacao-do-aeroporto-ou-do-porto-de-aqaba-afirma-porta-voz-do-governo,be84eba0057e92bfd7e00a3ed4d44d5duce2a505.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-19T15:31:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e326082020b9",
+      "title": "Dois militares dos EUA morrem em ataque a bases na Jordânia; líder supremo do Irã faz ameaças",
+      "description": "Desde o início da guerra, 16 militares dos EUA foram mortos e mais de 430 feridos.",
+      "url": "https://www.estadao.com.br/internacional/dois-militares-dos-eua-morrem-em-ataque-do-ira-a-bases-na-jordania-segundo-o-exercito-americano/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-18T19:37:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8dbc2f08302d",
@@ -193,34 +227,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_5fa18dfb0ba4",
-      "title": "Ataque iraniano mata dois soldados dos EUA em base militar na Jordânia #shorts",
-      "description": "Vídeo mostra míssil iraniano atingindo base dos EUA na Jordânia; dois morreram. As imagens, que circulam nas redes sociais neste sábado, 18,...",
-      "url": "https://www.terra.com.br/noticias/brasil/videos/ataque-iraniano-mata-dois-soldados-dos-eua-em-base-militar-na-jordania-shorts,7c2722f758e3374cab561ce75d17b6cb2qxudl4c.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-19T01:40:06+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7ccedb9e1666",
-      "title": "Ataque do Irã a base dos EUA na Jordânia mata dois soldados",
-      "description": "Um terceiro militar está desaparecido após Teerã bombardear a Jordânia com mísseis balísticos e drones. Conflito voltou a se intensificar em...",
-      "url": "https://www.dw.com/pt-br/eua-confirmam-dois-militares-mortos-e-um-desaparecido-ap%C3%B3s-ir%C3%A3-atacar-base-na-jord%C3%A2nia/a-78021314",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-07-18T19:07:29+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_5ef215ab45c8",
       "title": "Irão. Registadas as primeiras duas vítimas militares dos EUA desde março",
       "description": "Dois soldados norte-americanos morreram e um está desaparecido depois do bombardeamento iraniano a uma base na Jordânia.",
@@ -229,7 +235,7 @@
       "sourceCanonical": "RTP",
       "sourceDomain": "rtp.pt",
       "publishedAt": "2026-07-20T03:57:50+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -277,18 +283,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_75f49d1229ce",
-      "title": "Sobe para 17 número de militares norte-americanos mortos na guerra com o Irão",
-      "description": "As forças militares dos EUA informaram que o membro das forças armadas foi morto no Iraque, no sábado, durante a \"detonação controlada\" de...",
-      "url": "https://sicnoticias.pt/especiais/tensao-eua-irao/2026-07-19-sobe-para-17-numero-de-militares-norte-americanos-mortos-na-guerra-com-o-irao-fa9fc0ab",
-      "source": "SIC Notícias",
-      "sourceCanonical": "SIC Notícias",
-      "sourceDomain": "sicnoticias.pt",
-      "publishedAt": "2026-07-19T20:58:03+00:00",
-      "postedLabel": "hoje",
+      "id": "article_5092cc37b85e",
+      "title": "País busca punir território persa após mortes de militares americanos",
+      "description": "O país quer punir o território persa. A decisão ocorre após a confirmação das primeiras mortes de militares americanos desde a retomada das...",
+      "url": "https://barcelosnanet.com.br/pais-busca-punir-territorio-persa-apos-mortes-de-militares-americanos/",
+      "source": "Portal Barcelos na NET",
+      "sourceCanonical": "Portal Barcelos na NET",
+      "sourceDomain": "barcelosnanet.com.br",
+      "publishedAt": "2026-07-20T10:00:52+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2358c3d05c87",
@@ -322,16 +328,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.19,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.2,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
-      "center": 8,
+      "center": 7,
       "centerRight": 4,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
