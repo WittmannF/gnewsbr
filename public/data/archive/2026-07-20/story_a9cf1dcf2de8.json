@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 7
+      "topic-2": 4
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +25,15 @@
     "câncer",
     "oms",
     "alerta",
+    "população",
     "epidemia",
-    "trás",
-    "previsão"
+    "trás"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/MD7YX5XHQVCVTEBCYC4LEXMKNM.jpeg?quality=80&auth=811989eb3236b897321804a1cc5c21799cf0290b6eafc485ea34252e815470d2&width=1200&height=630&smart=true",
   "publishedAt": "2026-07-15T10:41:43+00:00",
-  "updatedAt": "2026-07-20T11:11:58.896676+00:00",
-  "sourceCount": 6,
-  "articleCount": 7,
+  "updatedAt": "2026-07-20T12:55:17.852564+00:00",
+  "sourceCount": 7,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_596aba5688d2",
@@ -58,7 +58,7 @@
       "sourceCanonical": "Medicina S/A",
       "sourceDomain": "medicinasa.com.br",
       "publishedAt": "2026-07-20T08:08:16+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://medicinasa.com.br/wp-content/uploads/2020/10/Oncologia-imagem.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
@@ -76,6 +76,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_42dc6d704832",
+      "title": "OMS alerta para avanço do câncer e diz que doença afetará 92% da população global",
+      "description": "OMS projeta 35 milhões de novos casos de câncer por ano até 2050 e alerta que desigualdade amplia mortes evitáveis.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/oms-cancer-populacao-global-2050/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-07-20T12:25:52+00:00",
+      "postedLabel": "29 minutos atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/imagem-principal-oms-cancer-populacao-global-2050-adobestock-559951660-scaled.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c7999bbaf463",
@@ -135,13 +149,13 @@
     }
   ],
   "spectrum": {
-    "min": 7,
+    "min": 2,
     "max": 7,
-    "average": 7,
-    "knownCount": 2,
+    "average": 5.33,
+    "knownCount": 3,
     "unknownCount": 5,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 0,
       "centerRight": 2,
@@ -150,10 +164,10 @@
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 65
+    "coverageDiversity": 40,
+    "spectrumBalance": 72,
+    "headlineDivergence": 85,
+    "confidence": 70
   },
   "flags": [
     "Muitas fontes não classificadas",
