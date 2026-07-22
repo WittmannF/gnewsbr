@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6dXZUVEVSR1pKeVNvZEZzZ3VDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6dXZUVEVSR1pKeVNvZEZzZ3VDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Guerra entre Estados Unidos e Irã ganha nova escalada",
   "summary": "Novos ataques do Oriente Médio entram no décimo segundo dia com diferentes países envolvidos no conflito. Da CNN 22/07/26 às 08:00...",
@@ -31,8 +37,8 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Fumaca-vista-de-Eilat-apos-a-Jordania-interceptar-seis-misseis-iranianos.jpg?w=960&h=540&crop=1",
   "publishedAt": "2026-07-20T19:42:00+00:00",
-  "updatedAt": "2026-07-22T15:49:40.970551+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-07-22T16:41:24.061302+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -44,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-22T11:00:04+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Fumaca-vista-de-Eilat-apos-a-Jordania-interceptar-seis-misseis-iranianos.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,17 +70,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_8c7b79e7dd9a",
-      "title": "Trump participa de cerimônia de retorno de militares mortos na guerra contra o Irã",
-      "description": "O Pentágono informou na segunda-feira que 100 militares ficaram feridos desde 7 de julho e que 96% deles já retornaram ao serviço;...",
-      "url": "https://valor.globo.com/mundo/noticia/2026/07/22/trump-participa-de-cerimnia-de-retorno-de-militares-mortos-na-guerra-contra-o-ir.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-07-22T15:37:23+00:00",
-      "postedLabel": "12 minutos atrás",
-      "imageUrl": "https://s2-valor.glbimg.com/w-yQDn3gJcT9ODav3TBWf1NWdNo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/4/i/bFzp0tQkCIczqb3k5Eiw/2026-07-22t135753z-1029881313-rc21jmackzzi-rtrmadp-3-iran-crisis-transfer-usa.jpg",
-      "spectrumScore": 6,
+      "id": "article_06a8b29b08da",
+      "title": "Trump acompanha chegada aos EUA dos corpos de militares mortos na guerra do Irã",
+      "description": "O presidente dos Estados Unidos, Donald Trump, compareceu à cerimônia de repatriação dos corpos dos militares americanos mortos na guerra do...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/07/22/trump-acompanha-chegada-aos-eua-dos-corpos-de-militares-mortos-na-guerra-do-ira.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-22T16:24:55+00:00",
+      "postedLabel": "16 minutos atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/xab3bmG9yjLObKpKjrfnd72HiCM=/5120x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/4/KI8Lj3Qoemux2CBe1lVw/afp-20260722-c2w36cr-v1-highres-uspresidentdonaldtrumpattendsadignifiedtransfer.jpg",
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -92,18 +98,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_217ae30252f6",
-      "title": "Pentágono omitiu dezenas de militares dos EUA feridos na guerra contra o Irã",
-      "description": "Autoridades ouvidas pelo NYT dizem que ataques na Jordânia danificaram helicópteros e deixaram dezenas de feridos; Porta-voz do órgão nega...",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/07/pentagono-omitiu-dezenas-de-militares-dos-eua-feridos-na-guerra-contra-o-ira.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-07-21T20:58:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_8877ee304fde",
+      "title": "Agência iraniana Tasnim informa um ataque dos EUA à ilha de Larak, no Estreito de Ormuz",
+      "description": "Baixe nossos apps. 1996 - 2026 UOL - O melhor conteúdo. Todos os direitos reservados. Segurança e privacidade. Siga UOL Notícias.",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/07/22/agencia-iraniana-tasnim-informa-um-ataque-dos-eua-a-ilha-de-larak-no-estreito-de-ormuz.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-22T11:56:26+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_8c7b79e7dd9a",
+      "title": "Trump participa de cerimônia de retorno de militares mortos na guerra contra o Irã",
+      "description": "O Pentágono informou na segunda-feira que 100 militares ficaram feridos desde 7 de julho e que 96% deles já retornaram ao serviço;...",
+      "url": "https://valor.globo.com/mundo/noticia/2026/07/22/trump-participa-de-cerimnia-de-retorno-de-militares-mortos-na-guerra-contra-o-ir.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-07-22T15:37:23+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_6294759a232a",
@@ -148,20 +168,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_3a4a35165c9b",
-      "title": "EUA bombardeiam o Irã pela 10ª noite consecutiva, enquanto reconhecem que 100 soldados ficaram feridos nos últimos dias",
-      "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
-      "url": "https://www.ihu.unisinos.br/668646-os-eua-bombardeiam-o-ira-pela-decima-noite-consecutiva-enquanto-reconhecem-que-100-soldados-ficaram-feridos-nos-ultimos-dias",
-      "source": "Instituto Humanitas Unisinos - IHU",
-      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
-      "sourceDomain": "ihu.unisinos.br",
-      "publishedAt": "2026-07-21T10:54:50+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e2b400f11a80",
       "title": "Irã volta a atacar bases americanas no Bahrein, Kuwait e Jordânia após bombardeio dos EUA",
       "description": "Guarda Revolucionária Islâmica também anunciou ter apreendido dois petroleiros no Estreito de Ormuz; sul iraniano relata explosões...",
@@ -176,18 +182,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_43ca039950fe",
-      "title": "Trump ameaça Irã com 'preço muito alto' e afirma que americanos não são contra guerra",
-      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quarta-feira (22) que o Irã \"pagará um preço muito alto\" caso continue...",
-      "url": "https://tribunadonorte.com.br/internacional/trump-ameaca-ira-com-preco-muito-alto-e-afirma-que-americanos-nao-sao-contra-guerra/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-07-22T15:18:21+00:00",
-      "postedLabel": "31 minutos atrás",
+      "id": "article_3a4a35165c9b",
+      "title": "EUA bombardeiam o Irã pela 10ª noite consecutiva, enquanto reconhecem que 100 soldados ficaram feridos nos últimos dias",
+      "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
+      "url": "https://www.ihu.unisinos.br/668646-os-eua-bombardeiam-o-ira-pela-decima-noite-consecutiva-enquanto-reconhecem-que-100-soldados-ficaram-feridos-nos-ultimos-dias",
+      "source": "Instituto Humanitas Unisinos - IHU",
+      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "sourceDomain": "ihu.unisinos.br",
+      "publishedAt": "2026-07-21T10:54:50+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_f594a236d841",
@@ -204,6 +210,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_43ca039950fe",
+      "title": "Trump ameaça Irã com 'preço muito alto' e afirma que americanos não são contra guerra",
+      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quarta-feira (22) que o Irã \"pagará um preço muito alto\" caso continue...",
+      "url": "https://tribunadonorte.com.br/internacional/trump-ameaca-ira-com-preco-muito-alto-e-afirma-que-americanos-nao-sao-contra-guerra/",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
+      "sourceDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-07-22T15:18:21+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_f71444b621f7",
+      "title": "EUA identifica sargento morto pelo Irã durante ataque no Iraque",
+      "description": "O Departamento de Guerra dos Estados Unidos divulgou, nesta terça-feira (21/7), a identidade de um militar do país morto no Iraque,...",
+      "url": "https://www.metropoles.com/mundo/eua-identifica-sargento-morto-pelo-ira-durante-ataque-no-iraque",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-07-21T19:59:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_cf2e44a93e53",
       "title": "EUA negociam acordo nuclear com sauditas e ampliam ofensiva; Irã reage e ataca no Golfo Pérsico",
       "description": "Novos ataques norte-americanos acionaram os sistemas de defesa aérea em Teerã nesta quarta-feira, em uma nova etapa da guerra entre Estados...",
@@ -211,8 +245,8 @@
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-22T13:16:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "publishedAt": "2026-07-22T13:16:04+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -226,7 +260,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-07-21T16:11:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -260,20 +294,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_3fba15962eb9",
-      "title": "Agência iraniana Tasnim informa um ataque dos EUA à ilha de Larak, no Estreito de Ormuz",
-      "description": "A agência de notícias iraniana Tasnim relatou um ataque com míssil dos Estados Unidos à ilha de Larak, no Estreito de Ormuz, na tarde desta...",
-      "url": "https://www.folhape.com.br/noticias/agencia-iraniana-tasnim-informa-um-ataque-dos-eua-a-ilha-de-larak-no/501893/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-07-22T12:15:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e64db62b5040",
       "title": "Impasse entre EUA e Irã trava cessar-fogo e aprofunda erosão da confiança diplomática",
       "description": "Os Estados Unidos completaram nove dias de ataques consecutivos contra o Irã, que retaliou bombardeando navios que tentaram passar pelo...",
@@ -296,21 +316,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-07-21T16:40:14+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_f71444b621f7",
-      "title": "EUA identifica sargento morto pelo Irã durante ataque no Iraque",
-      "description": "O Departamento de Guerra dos Estados Unidos divulgou, nesta terça-feira (21/7), a identidade de um militar do país morto no Iraque,...",
-      "url": "https://www.metropoles.com/mundo/eua-identifica-sargento-morto-pelo-ira-durante-ataque-no-iraque",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-21T19:59:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,13 +325,13 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.06,
+    "average": 5.17,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
-      "center": 9,
+      "centerLeft": 1,
+      "center": 11,
       "centerRight": 3,
       "right": 1,
       "unknown": 2
