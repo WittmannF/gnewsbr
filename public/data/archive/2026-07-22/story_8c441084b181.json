@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6dXZUVEVSRnp1NTNNNVluVjdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6dXZUVEVSRnp1NTNNNVluVjdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Ataques e ameaças envolvem Estados Unidos e Irã",
   "summary": "Porta-voz negou que o governo ocultou dados de baixas e lesões graves; segundo ele, a maioria já voltou ao serviço. Leia no Poder360.",
@@ -26,13 +32,13 @@
     "eua",
     "ataques",
     "militares",
-    "pela",
-    "feridos"
+    "feridos",
+    "guerra"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/07/centcom-soldados-848x477.jpg",
-  "publishedAt": "2026-07-20T15:08:00+00:00",
-  "updatedAt": "2026-07-22T09:09:08.486389+00:00",
-  "sourceCount": 20,
+  "publishedAt": "2026-07-20T19:42:00+00:00",
+  "updatedAt": "2026-07-22T10:01:32.879340+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -58,8 +64,22 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-22T07:00:52+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/R_YIl8KmtCPZw6jjcNp1aAukvTg=/2090x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/E/uaW9uyRCqK7xBuHTLsbA/ap26202607128477.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_2aacc605a0f0",
+      "title": "Secretário de Trump diz que China tem cooperado com Irã",
+      "description": "Troca de ataques elevou a tensão no Oriente Médio e afetou rotas estratégicas de petróleo. Apesar da escalada, mediadores ainda tentam...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/07/22/secretario-de-trump-diz-que-china-tem-cooperado-com-ira.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-22T09:33:34+00:00",
+      "postedLabel": "27 minutos atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/-YkFFf3mqQzNCT3AqbtU1WQjyCg=/5557x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/6/bLLAJHQy2nSHMEDKpF1g/afp-20260722-c2tv7xe-v1-highres-philippinesasean.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -87,23 +107,9 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-21T13:25:01+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/AFP__20260715__C28P2KE__v2__HighRes__IranUsIsraelWar.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_fa679e72acb9",
-      "title": "Trump diz que Irã pagará ‘muitas vezes’ pela morte de cada soldado dos EUA",
-      "description": "Dois soldados norte-americanos morreram na sexta-feira em ataques do Irã contra a Jordânia, que também deixaram um desaparecido.",
-      "url": "https://www.cartacapital.com.br/mundo/trump-diz-que-ira-pagara-muitas-vezes-pela-morte-de-cada-soldado-dos-eua/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-20T19:42:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_e9557a2f9e04",
@@ -114,10 +120,24 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-21T09:34:24+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_cf719159c66a",
+      "title": "Aumento da cooperação com os EUA coloca a Jordânia na mira dos drones do Irã",
+      "description": "O papel da Jordânia nas operações dos EUA contra o Irã cresceu à medida que outros aliados na região restringiram a capacidade de Washington...",
+      "url": "https://www.estadao.com.br/internacional/aumento-da-cooperacao-com-os-eua-coloca-a-jordania-na-mira-dos-drones-do-ira/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-21T08:30:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_4b23fa95ad01",
@@ -132,20 +152,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_d5a464645b28",
-      "title": "Aumento da cooperação com os EUA coloca a Jordânia na mira dos drones do Irã",
-      "description": "O papel da Jordânia nas operações dos EUA contra o Irã cresceu à medida que outros aliados na região restringiram a capacidade de Washington de usar suas...",
-      "url": "https://www.estadao.com.br/em-alta/internacional/aumento-da-cooperacao-com-os-eua-coloca-a-jordania-na-mira-dos-drones-do-ira/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-21T08:40:15+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_6294759a232a",
@@ -190,14 +196,14 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c16063eac93a",
-      "title": "EUA sempre se relacionaram com outros países pela lógica da violência, avalia internacionalista",
-      "description": "Os ataques dos Estados Unidos contra o Irã entraram nesta segunda-feira (20) no seu 10º dia consecutivo, desde que o governo Donald Trump...",
-      "url": "https://www.brasildefato.com.br/2026/07/20/eua-sempre-se-relacionaram-com-outros-paises-pela-logica-da-violencia-avalia-internacionalista/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-07-21T01:24:00+00:00",
+      "id": "article_fa679e72acb9",
+      "title": "Trump diz que Irã pagará ‘muitas vezes’ pela morte de cada soldado dos EUA",
+      "description": "Dois soldados norte-americanos morreram na sexta-feira em ataques do Irã contra a Jordânia, que também deixaram um desaparecido.",
+      "url": "https://www.cartacapital.com.br/mundo/trump-diz-que-ira-pagara-muitas-vezes-pela-morte-de-cada-soldado-dos-eua/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-20T19:42:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
@@ -218,18 +224,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_2ead40db0694",
-      "title": "EUA-Irã: mediadores trabalham por um novo cessar-fogo",
-      "description": "Décima noite de ataques recíprocos entre os Estados Unidos e o Irã; forças militares das duas nações apontam ataques e alvos destruídos no...",
-      "url": "https://noticias.cancaonova.com/mundo/eua-ira-mediadores-trabalham-por-um-novo-cessar-fogo/",
-      "source": "Notícias - Canção Nova",
-      "sourceCanonical": "Notícias - Canção Nova",
-      "sourceDomain": "noticias.cancaonova.com",
-      "publishedAt": "2026-07-21T11:47:13+00:00",
-      "postedLabel": "hoje",
+      "id": "article_e64db62b5040",
+      "title": "Impasse entre EUA e Irã trava cessar-fogo e aprofunda erosão da confiança diplomática",
+      "description": "Os Estados Unidos completaram nove dias de ataques consecutivos contra o Irã, que retaliou bombardeando navios que tentaram passar pelo...",
+      "url": "https://www.brasildefato.com.br/2026/07/20/impasse-entre-eua-e-ira-trava-cessar-fogo-e-aprofunda-erosao-da-confianca-diplomatica/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-20T22:43:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_7282b131daef",
@@ -260,15 +266,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_cf19761e6f70",
-      "title": "EUA identifica militares norte-americanos mortos pelo Irã na Jordânia",
-      "description": "Dois militares dos EUA, mortos pelo Irã durante ataques na Jordânia, foram identificados como Tyler James Feehan e Isabella Gonzales.",
-      "url": "https://www.metropoles.com/mundo/eua-identifica-militares-norte-americanos-mortos-pelo-ira-na-jordania",
+      "id": "article_2ead40db0694",
+      "title": "EUA-Irã: mediadores trabalham por um novo cessar-fogo",
+      "description": "Décima noite de ataques recíprocos entre os Estados Unidos e o Irã; forças militares das duas nações apontam ataques e alvos destruídos no...",
+      "url": "https://noticias.cancaonova.com/mundo/eua-ira-mediadores-trabalham-por-um-novo-cessar-fogo/",
+      "source": "Notícias - Canção Nova",
+      "sourceCanonical": "Notícias - Canção Nova",
+      "sourceDomain": "noticias.cancaonova.com",
+      "publishedAt": "2026-07-21T11:47:13+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f71444b621f7",
+      "title": "EUA identifica sargento morto pelo Irã durante ataque no Iraque",
+      "description": "O Departamento de Guerra dos Estados Unidos divulgou, nesta terça-feira (21/7), a identidade de um militar do país morto no Iraque,...",
+      "url": "https://www.metropoles.com/mundo/eua-identifica-sargento-morto-pelo-ira-durante-ataque-no-iraque",
       "source": "Metrópoles",
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-20T20:32:00+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-07-21T19:59:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_346d52d2ed23",
-      "title": "EUA e Irã intensificam ataques e elevam tensão no Estreito de Ormuz",
-      "description": "As forças americanas voltaram a atacar o Irã pelo nono dia consecutivo, em meio à crescente preocupação com a segurança da navegação no...",
-      "url": "https://www.jb.com.br/mundo/2026/07/1060342-eua-e-ira-intensificam-ataques-e-elevam-tensao-no-estreito-de-ormuz.html",
-      "source": "Jornal do Brasil",
-      "sourceCanonical": "Jornal do Brasil",
-      "sourceDomain": "jb.com.br",
-      "publishedAt": "2026-07-20T15:08:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
     "average": 5,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
       "centerLeft": 3,
-      "center": 8,
+      "center": 9,
       "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
