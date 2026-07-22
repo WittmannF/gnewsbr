@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmNFlYS0VSR2MtRGxhaFBwWHFpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmNFlYS0VSR2MtRGxhaFBwWHFpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 19
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Houthis anunciam bloqueio naval contra a Arábia Saudita",
+  "title": "Notícias sobre bloqueio • Mar Vermelho",
   "summary": "Grupo do Iêmen, aliado do Irã, ameaçou fechar rota marítima para petroleiros da Arábia Saudita, país parceiro dos EUA.",
   "topic": "Houthis · Irã",
   "topicKeywords": [
     "houthis",
     "irã",
-    "bloqueio",
     "mar",
     "vermelho",
+    "eua",
     "petróleo"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Presidente-dos-Estados-Unidos-Donald-Trump-na-Turquia-para-a-Cupula-da-Otan.jpeg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-07-20T07:30:00+00:00",
-  "updatedAt": "2026-07-22T00:55:55.741189+00:00",
+  "publishedAt": "2026-07-20T15:17:10+00:00",
+  "updatedAt": "2026-07-22T01:47:23.227521+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,16 +70,16 @@
       "bucket": "center"
     },
     {
-      "id": "article_d4b5d9b79c8a",
-      "title": "Petroleiros sauditas dão meia-volta no Mar Vermelho em meio a bloqueio naval dos Houthis",
-      "description": "Dois navios com carregamento de petróleo saudita rumo à China e à Índia que navegavam rumo ao Estreito de Bab el-Mandeb e agora vão em...",
-      "url": "https://g1.globo.com/mundo/noticia/2026/07/21/petroleiros-sauditas-dao-meia-volta-mar-vermelho-bloqueio-naval-houthis.ghtml",
+      "id": "article_b9405311807b",
+      "title": "Fechamento de rota no Oriente Médio ameaça comércio global e petróleo",
+      "description": "Estreitos de Ormuz e Bab el-Mandeb e o Canal de Suez são caminhos estratégicos para o transporte de petróleo, alimentos e produtos entre...",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/07/21/fechamento-de-rota-no-oriente-medio-ameaca-comercio-global-e-petroleo.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-21T13:03:15+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/I8s1i8myu2rgxZ8CtlgX-SMtFWw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/q/BoAk6xTR6UycGXlMwigw/mapa.jpg",
+      "publishedAt": "2026-07-22T00:26:41+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/NGgyMz9lrkDlwjplW8POn5wEy_c=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/D/96b4IERmAMaVACeLPXFQ/videoframe-414735.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -86,8 +92,22 @@
       "sourceCanonical": "Nexo Jornal",
       "sourceDomain": "nexojornal.com.br",
       "publishedAt": "2026-07-21T20:34:33+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2026/07/houtis-640x399.webp",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_d1b130476d25",
+      "title": "Estreito de Bab al-Mandab: novas ameaças dos houthis podem gerar crise de transporte no Mar Vermelho?",
+      "description": "Cerca de 12% do transporte marítimo de petróleo do mundo passam através do Estreito de Bab al-Mandab. Com o Estreito de Ormuz fechado,...",
+      "url": "https://www.bbc.com/portuguese/articles/c20e5gdwpvvo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-07-21T20:58:04+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -106,20 +126,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_eff97afbf144",
-      "title": "Houthis do Iêmen anunciam 'embargo marítimo' à Arábia Saudita em rota crucial do petróleo: 'Olho por olho'",
-      "description": "Grupo apoiado pelo Irã afirma que o embargo no Estreito de Bab al-Mandab começa imediatamente e é uma resposta ao bloqueio saudita de portos...",
-      "url": "https://www.bbc.com/portuguese/articles/clyq2wzeyq7o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-07-20T20:31:29+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_4e51a4b0412c",
       "title": "Entrada do Iêmen na guerra entre EUA e Irã pode gerar ‘convulsão global’ por causa de petróleo, avalia analista internacional",
       "description": "Os ataques dos Estados Unidos contra o Irã chegam ao décimo dia e o país persa segue resistindo e respondendo às agressões,...",
@@ -128,7 +134,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-07-21T23:05:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -156,7 +162,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-21T21:15:56+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -204,15 +210,15 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_48b63ef49fcd",
-      "title": "Aliados do Irã, houthis anunciam bloqueio à Arábia Saudita",
-      "description": "Grupo ameaça fechar o estreito de Bab el-Mandeb, a 2ª maior rota de exportação de petróleo do Oriente Médio. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-internacional/aliados-do-ira-houthis-anunciam-bloqueio-a-arabia-saudita/",
+      "id": "article_8bcab7c965b7",
+      "title": "Ameaça dos houthis faz petroleiros contornarem o Mar Vermelho",
+      "description": "Refinarias passam a buscar outras rotas para escapar de bloqueios em canais. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-internacional/ameaca-dos-houthis-faz-petroleiros-contornarem-o-mar-vermelho/",
       "source": "Poder360",
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-21T07:56:42+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-07-21T22:47:55+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -230,20 +236,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_19a1d652d473",
-      "title": "Estreito de Bab al-Mandab: novas ameaças dos houthis podem gerar crise de transporte no Mar Vermelho?",
-      "description": "Cerca de 12% do transporte marítimo de petróleo do mundo passam através do Estreito de Bab al-Mandab. Com o Estreito de Ormuz fechado,...",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/07/7465529-estreito-de-bab-al-mandab-novas-ameacas-dos-houthis-podem-gerar-crise-de-transporte-no-mar-vermelho.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-07-21T20:49:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_6c40fa38eef2",
@@ -274,15 +266,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5717f71476c7",
-      "title": "O que é o Estreito de Bab el-Mandeb, rota comercial na mira do Irã",
-      "description": "Em meio à guerra no Oriente Médio entre Estados Unidos e Irã, o regime islâmico pode ter como alvo um outro canal marítimo importante para o...",
-      "url": "https://www.metropoles.com/mundo/o-que-e-o-estreito-de-bab-el-mandeb-rota-comercial-na-mira-do-ira",
+      "id": "article_2abde457d667",
+      "title": "Houthis e Arábia Saudita abrem nova frente em guerra no Oriente Médio",
+      "description": "Houthis anunciaram um bloqueio marítimo contra embarcações da Arábia Saudita no Estreito de Bab el-Mandeb.",
+      "url": "https://www.metropoles.com/mundo/houthis-e-arabia-saudita-abrem-nova-frente-em-guerra-no-oriente-medio",
       "source": "Metrópoles",
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-20T07:30:00+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-07-21T07:30:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -310,7 +302,21 @@
       "sourceCanonical": "Monitor Mercantil",
       "sourceDomain": "monitormercantil.com.br",
       "publishedAt": "2026-07-21T22:28:01+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_073b87d28006",
+      "title": "Bloqueio de rebeldes houthis amplia tensão em meio a nova rodada de ataques dos EUA contra o Irã",
+      "description": "A guerra no Oriente Médio chegou à décima noite seguida de ataques cruzados entre Estados Unidos e Irã, num ciclo que escapa ao controle...",
+      "url": "https://www.rfi.fr/br/mundo/20260721-bloqueio-de-rebeldes-houthis-amplia-tens%C3%A3o-em-meio-a-nova-rodada-de-ataques-dos-eua-contra-o-ir%C3%A3",
+      "source": "RFI",
+      "sourceCanonical": "RFI",
+      "sourceDomain": "rfi.fr",
+      "publishedAt": "2026-07-21T10:17:36+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.28,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "average": 5.35,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 1,
-      "centerLeft": 4,
+      "centerLeft": 3,
       "center": 8,
       "centerRight": 5,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
