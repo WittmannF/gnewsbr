@@ -4,16 +4,22 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKMU1YTkVSRUpoWERwZmo5eThpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-3",
+    "topic-5",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
       "home": 1,
-      "topstories": 1
+      "topstories": 1,
+      "topic-3": 1,
+      "topic-5": 1
     },
     "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
@@ -23,18 +29,18 @@
   },
   "title": "Tarifaço de Trump: lagosta viva é taxada, mas congelada escapa; veja lista de peixes e crustáceos isentos e tarifados",
   "summary": "Nova taxa de 25% entrou em vigor nesta terça-feira (22), após uma investigação do governo Donald Trump concluir que o Brasil adota práticas...",
-  "topic": "Tarifaço · Eua",
+  "topic": "Eua · Tarifaço",
   "topicKeywords": [
-    "tarifaço",
     "eua",
+    "tarifaço",
     "não",
     "trump",
-    "lula",
-    "evita"
+    "ministro",
+    "tarifa"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/QtSrQ0dd-gfjgFV13GU0h8WcI24=/9095x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/I/U/9ZdBnSQduqi9PgskKqwA/monika-borys-dstjr8ojurw-unsplash.jpg",
   "publishedAt": "2026-07-17T07:00:11+00:00",
-  "updatedAt": "2026-07-22T12:44:13.375401+00:00",
+  "updatedAt": "2026-07-22T13:46:01.919652+00:00",
   "sourceCount": 15,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-22T11:42:03+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/QtSrQ0dd-gfjgFV13GU0h8WcI24=/9095x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/I/U/9ZdBnSQduqi9PgskKqwA/monika-borys-dstjr8ojurw-unsplash.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -67,18 +73,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_8c152286ba08",
-      "title": "Tarifaço de 25% sobre produtos brasileiros entra em vigor",
-      "description": "São Paulo, 22 - Entrou em vigor nesta quarta-feira, 22, a tarifa de 25% imposta pelos Estados Unidos sobre produtos brasileiros.",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/22/tarifaco-de-25-sobre-produtos-brasileiros-entra-em-vigor.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-07-22T11:20:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_e1e00f24e66b",
+      "title": "Só acordo vai melhorar relação comercial entre Brasil e EUA, diz ministro da Indústria",
+      "description": "Márcio Elias afirma que vitória de candidato da direita não melhoraria situação entre os dois países.",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/07/so-acordo-vai-melhorar-relacao-comercial-entre-brasil-e-eua-diz-ministro-da-industria.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-07-22T13:06:00+00:00",
+      "postedLabel": "39 minutos atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/10/1765380338693990f28f6bd_1765380338_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_b9857cdb523d",
@@ -89,7 +95,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-22T06:47:01+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/ChatGPT-Image-21-de-jul.-de-2026-23_00_21.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -193,32 +199,88 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_9c055cb0f2a8",
-      "title": "Reciprocidade: ministro diz que Brasil vai usar instrumento quando for necessário: 'Precisa ferir o adversário, não apenas irritá-lo'",
-      "description": "Declaração de Márcio Elias Rosa foi dada no primeiro dia de vigência da tarifa adicional de 25% dos Estados Unidos sobre parte dos produtos...",
-      "url": "https://g1.globo.com/economia/noticia/2026/07/22/reciprocidade-ministro-diz-que-brasil-vai-usar-instrumento-quando-for-necessario-precisa-ferir-o-adversario-nao-apenas-irrita-lo.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-22T11:48:18+00:00",
+      "id": "article_0287dc2d2822",
+      "title": "Tarifa de 25% dos EUA ao Brasil entra em vigor",
+      "description": "Índice de preços ao consumidor (CPI) no Reino Unido e fluxo cambial no Brasil na agenda desta quarta-feira, 22/07/2026.",
+      "url": "https://conteudos.xpi.com.br/morning-call/tarifa-de-25-dos-eua-ao-brasil-entra-em-vigor/",
+      "source": "XP Investimentos",
+      "sourceCanonical": "XP Investimentos",
+      "sourceDomain": "conteudos.xpi.com.br",
+      "publishedAt": "2026-07-22T11:43:01+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_04758e6995bf",
+      "title": "Exportações do Brasil para os EUA despencam ao menor nível histórico após tarifaço",
+      "description": "Fatia das vendas aos EUA cai para 9,4% no primeiro semestre de 2026, refletindo o impacto das tarifas de Donald Trump.",
+      "url": "https://www.brasil247.com/economia/exportacoes-do-brasil-para-os-eua-despencam-ao-menor-nivel-historico-apos-tarifaco/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-07-22T09:31:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
+      "id": "article_cfe818c47898",
+      "title": "Tarifaço dos EUA: taxa extra de 25% entra em vigor nesta quarta-feira; confira perguntas e respostas",
+      "description": "Trump usa tarifas como pressão sobre seus parceiros; como o Brasil pode lidar com isso? 2:53. Thumbnail do video:Trump usa tarifas como...",
+      "url": "https://www.estadao.com.br/economia/tarifaco-dos-eua-taxa-extra-de-25-entra-em-vigor-nesta-quarta-perguntas-e-respostas-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-22T13:02:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_d510b747e94a",
+      "title": "Lei de reciprocidade 'não nos dá o direito de perder a razão', diz ministro",
+      "description": "Brasília, 22 - O ministro do Desenvolvimento, Indústria, Comércio e Serviços (MDIC), Márcio Elias Rosa, disse nesta quarta-feira, 22,...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/07/22/lei-de-reciprocidade-nao-nos-da-o-direito-de-perder-a-razao-diz-ministro.htm?iap=true&forcedFormat=NORMAL&forcedUserAgent=SMART&uol_app=flash%3Ft%3Ft",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-22T13:00:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_ea776a00d62f",
-      "title": "“O Brasil Não Se Entrega”: PT lança campanha nacional em resposta a tarifas dos EUA",
-      "description": "Iniciativa defende o PIX e terras raras contra interferências externas enquanto busca blindar a autonomia econômica do governo federal.",
-      "url": "https://veja.abril.com.br/politica/o-brasil-nao-se-entrega-pt-lanca-campanha-nacional-em-resposta-a-tarifas-dos-eua/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-22T12:29:38+00:00",
-      "postedLabel": "14 minutos atrás",
+      "id": "article_7e3cadee7137",
+      "title": "Com tarifaços em série, exportações brasileiras para os EUA caíram ao menor patamar histórico neste ano",
+      "description": "O tarifaço de Donald Trump fez as exportações do Brasil para os Estados Unidos no primeiro semestre deste ano recuarem ao menor patamar...",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/07/22/com-tarifacos-em-serie-exportacoes-brasileiras-para-os-eua-cairam-ao-menor-patamar-historico-neste-ano.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-07-22T07:00:40+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_8d0fb3d2f109",
+      "title": "PT lança campanha ‘O Brasil Não Se Entrega’ em defesa da soberania e contra o tarifaço",
+      "description": "Mobilização nacional responde ao tarifaço dos EUA, reforça a defesa dos empregos, da economia, do PIX e das riquezas estratégicas...",
+      "url": "https://pt.org.br/pt-lanca-campanha-o-brasil-nao-se-entrega-em-defesa-da-soberania-e-contra-o-tarifaco/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-07-22T11:55:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_963ecdf64032",
@@ -243,38 +305,10 @@
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-07-22T08:30:19+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_13d63612815b",
-      "title": "Setor privado brasileiro reforça lobby nos EUA para tentar conter tarifaço de Trump",
-      "description": "Ao menos 17 grupos brasileiros contrataram lobistas profissionais nos EUA desde o ano passado, com um desembolso total de R$ 42,2 milhões,...",
-      "url": "https://www.estadao.com.br/economia/setor-privado-brasileiro-reforca-lobby-eua-tarifaco-trump/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-21T21:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_ec7a7d638e62",
-      "title": "Tarifaço de Trump atinge US$ 7,4 bi do Brasil, mas Planalto evita confronto antes da eleição",
-      "description": "O novo tarifaço de Donald Trump já produz efeitos sobre a economia brasileira. Desde a meia-noite desta quarta-feira (22), os Estados Unidos...",
-      "url": "https://www.terra.com.br/noticias/brasil/tarifaco-de-trump-atinge-us-74-bi-do-brasil-mas-planalto-evita-confronto-antes-da-eleicao,70bcc946146122b424d3db6452a3875clx8401qm.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-22T09:01:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_6cdca6cfd8da",
@@ -285,59 +319,31 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-07-22T10:01:18+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_8e425a9eaa57",
-      "title": "Lula lida com impacto econômico do Tarifaço e Flávio tenta se blindar de acusações",
-      "description": "Às vésperas das eleições, medida de Trump entra em vigor e pré-candidatos tentam diminuir desgaste político provocado pelas tarifas.",
-      "url": "https://noticias.r7.com/eleicoes/2026/lula-lida-com-novo-tarifaco-de-25-dos-eua-as-vesperas-das-eleicoes-22072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-22T05:00:01+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_4e1edc2d6529",
-      "title": "EUA sabotou OMC para ter caminho livre ao usar ‘chantagem tarifária’, diz especialista",
-      "description": "Paulo Borba Casella defende que Lei de Reciprocidade cabe ao caso da tarifa que tem caráter meramente político…",
-      "url": "https://www.brasildefato.com.br/2026/07/21/eua-sabotou-omc-para-ter-caminho-livre-ao-usar-chantagem-tarifaria-diz-especialista/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-07-22T00:12:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 7,
-    "average": 5.26,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 5,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
-      "center": 11,
-      "centerRight": 5,
+      "centerLeft": 2,
+      "center": 10,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 1
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
