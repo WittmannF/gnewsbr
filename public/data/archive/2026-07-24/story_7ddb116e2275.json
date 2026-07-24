@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 11,
-      "topic-5": 13
+      "topic-5": 15
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 11,
@@ -28,13 +28,13 @@
     "frente",
     "fria",
     "tempo",
+    "alerta",
     "chuva",
-    "previsão",
-    "alerta"
+    "previsão"
   ],
   "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/03/chuva_mudanca_tempo_01.jpg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1",
   "publishedAt": "2026-07-22T18:42:31+00:00",
-  "updatedAt": "2026-07-24T13:47:08.863883+00:00",
+  "updatedAt": "2026-07-24T14:49:22.479937+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,6 +53,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_a1b0ed861786",
+      "title": "Defesa Civil alerta para mudança no tempo e orienta população sobre possibilidade de chuva e queda nas temperaturas",
+      "description": "A Defesa Civil de Jundiaí informa que a passagem de uma frente fria pelo Estado de São Paulo deve provocar mudanças nas condições do tempo...",
+      "url": "https://jundiai.sp.gov.br/noticias/2026/07/23/defesa-civil-alerta-para-mudanca-no-tempo-e-orienta-populacao-sobre-possibilidade-de-chuva-e-queda-nas-temperaturas/",
+      "source": "Prefeitura de Jundiaí",
+      "sourceCanonical": "Prefeitura de Jundiaí",
+      "sourceDomain": "jundiai.sp.gov.br",
+      "publishedAt": "2026-07-23T21:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_970bd9b30cd7",
+      "title": "Previsão do tempo: avanço de frente fria provoca temporais em quase todo o estado de SP",
+      "description": "Sul e Nordeste também estão em alerta para chuva.",
+      "url": "https://g1.globo.com/bom-dia-brasil/video/previsao-do-tempo-avanco-de-frente-fria-provoca-temporais-em-quase-todo-o-estado-de-sp-14807499.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-24T12:04:29+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://s04.video.glbimg.com/x720/14807499.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_c52ed2291cbb",
       "title": "São Paulo deve enfrentar chuva intensa e queda de temperatura nesta sexta (24)",
       "description": "A passagem de uma frente fria pelo litoral paulista deverá provocar uma mudança brusca nas condições do tempo na cidade de São Paulo nesta...",
@@ -65,20 +93,6 @@
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/23/17848541816a62b6a5a2b7a_1784854181_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_970bd9b30cd7",
-      "title": "Previsão do tempo: avanço de frente fria provoca temporais em quase todo o estado de SP",
-      "description": "Sul e Nordeste também estão em alerta para chuva.",
-      "url": "https://g1.globo.com/bom-dia-brasil/video/previsao-do-tempo-avanco-de-frente-fria-provoca-temporais-em-quase-todo-o-estado-de-sp-14807499.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-24T12:04:29+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://s04.video.glbimg.com/x720/14807499.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_6c594e8e66e1",
@@ -95,20 +109,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_a1b0ed861786",
-      "title": "Defesa Civil alerta para mudança no tempo e orienta população sobre possibilidade de chuva e queda nas temperaturas",
-      "description": "A Defesa Civil de Jundiaí informa que a passagem de uma frente fria pelo Estado de São Paulo deve provocar mudanças nas condições do tempo...",
-      "url": "https://jundiai.sp.gov.br/noticias/2026/07/23/defesa-civil-alerta-para-mudanca-no-tempo-e-orienta-populacao-sobre-possibilidade-de-chuva-e-queda-nas-temperaturas/",
-      "source": "Prefeitura de Jundiaí",
-      "sourceCanonical": "Prefeitura de Jundiaí",
-      "sourceDomain": "jundiai.sp.gov.br",
-      "publishedAt": "2026-07-23T21:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_e7adbfc23fb5",
       "title": "Previsão do tempo em São Paulo (SP) hoje: veja como fica o clima nesta sexta-feira",
       "description": "Temperaturas variam entre 14°C e 18°C, com previsão de chuva durante o dia e à noite.",
@@ -117,7 +117,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-24T11:58:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -137,6 +137,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_ab12594e79c1",
+      "title": "Tempestades com granizo colocam 48 cidades de MG em alerta; veja quais",
+      "description": "Belo Horizonte — O Instituto Nacional de Meteorologia (Inmet) emitiu um alerta de perigo de tempestades para 48 cidades do sul e sudeste de...",
+      "url": "https://www.metropoles.com/minas-gerais/tempestades-com-granizo-colocam-48-cidades-de-mg-em-alerta-veja-quais",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-07-24T11:45:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_dd1c149edbbc",
       "title": "Previsão do tempo nesta sexta, 24: frente fria provoca temporais em São Paulo",
       "description": "A previsão do tempo para esta sexta-feira, 24 de julho, será marcada pelo avanço de uma frente fria sobre o Sudeste do Brasil,...",
@@ -149,34 +163,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_21976c11b8c5",
-      "title": "Inmet emite aviso para risco de tempestades e granizo no estado de SP",
-      "description": "Aviso de perigo potencial é válido para a região metropolitana da capital, litoral norte e interior até o final desta sexta-feira (24/7)",
-      "url": "https://www.metropoles.com/sao-paulo/inmet-aviso-tempestades-granizo-sp",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-24T12:59:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d25cc4b42550",
-      "title": "Especialistas pedem que moradores de SP, MG, MS, PR, SC e RS se preparem para fenômeno raro na natureza",
-      "description": "Uma intensa mudança nas condições do tempo deve atingir parte do Brasil nos próximos dias com o avanço de uma nova frente fria acompanhada...",
-      "url": "https://diariodocomercio.com.br/mix/especialistas-pedem-que-moradores-de-sp-mg-ms-pr-sc-e-rs-se-preparem-para-fenomeno-raro-na-natureza/",
-      "source": "Diário do Comércio",
-      "sourceCanonical": "Diário do Comércio",
-      "sourceDomain": "diariodocomercio.com.br",
-      "publishedAt": "2026-07-23T11:39:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_f60c2319ceab",
@@ -201,7 +187,7 @@
       "sourceCanonical": "Tribuna de Petrópolis",
       "sourceDomain": "tribunadepetropolis.com.br",
       "publishedAt": "2026-07-24T12:19:45+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -221,6 +207,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_d25cc4b42550",
+      "title": "Especialistas pedem que moradores de SP, MG, MS, PR, SC e RS se preparem para fenômeno raro na natureza",
+      "description": "Uma intensa mudança nas condições do tempo deve atingir parte do Brasil nos próximos dias com o avanço de uma nova frente fria acompanhada...",
+      "url": "https://diariodocomercio.com.br/mix/especialistas-pedem-que-moradores-de-sp-mg-ms-pr-sc-e-rs-se-preparem-para-fenomeno-raro-na-natureza/",
+      "source": "Diário do Comércio",
+      "sourceCanonical": "Diário do Comércio",
+      "sourceDomain": "diariodocomercio.com.br",
+      "publishedAt": "2026-07-23T11:39:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_8bd0d7150e24",
       "title": "Nova frente fria avança e muda o tempo em todo o estado a partir de hoje",
       "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
@@ -235,20 +235,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_6e51c12ddbfa",
-      "title": "Tempesdades atingem várias regiões do país durante o final de semana",
-      "description": "247 – A frente fria mantém a chuva sobre o Sudeste e parte do Paraná nesta sexta-feira (24), enquanto uma nova área de baixa pressão deve...",
-      "url": "https://www.brasil247.com/meio-ambiente/tempesdades-atingem-varias-regioes-do-pais-durante-o-final-de-semana/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-07-24T10:03:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_e8aab868094d",
       "title": "Frente fria avança pelo Sudeste e mantém alerta de temporais em São Paulo",
       "description": "A maior probabilidade de temporais concentra-se nas regiões oeste, sudoeste e no trecho de divisa com o Paraná.",
@@ -261,6 +247,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_6e51c12ddbfa",
+      "title": "Tempesdades atingem várias regiões do país durante o final de semana",
+      "description": "247 – A frente fria mantém a chuva sobre o Sudeste e parte do Paraná nesta sexta-feira (24), enquanto uma nova área de baixa pressão deve...",
+      "url": "https://www.brasil247.com/meio-ambiente/tempesdades-atingem-varias-regioes-do-pais-durante-o-final-de-semana/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-07-24T10:03:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_2a9dfbd14b63",
@@ -291,20 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b19a1dd1ce75",
-      "title": "Frente fria avança e muda o tempo em parte do Brasil",
-      "description": "São Paulo tem risco de temporais; costa leste do Nordeste segue com chuva e o tempo seco persiste no interior.",
-      "url": "https://sbtnews.sbt.com.br/noticia/brasil/frente-fria-avanca-e-muda-o-tempo-em-parte-do-brasil",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-07-24T09:43:15+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_9c814642267f",
       "title": "Clima: previsão de chuvas e baixa umidade no Brasil",
       "description": "Um sistema frontal estacionário entre as regiões Sul, Sudeste e Centro-Oeste deve manter a instabilidade atmosférica sobre Mato Grosso do...",
@@ -317,6 +303,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_b19a1dd1ce75",
+      "title": "Frente fria avança e muda o tempo em parte do Brasil",
+      "description": "São Paulo tem risco de temporais; costa leste do Nordeste segue com chuva e o tempo seco persiste no interior.",
+      "url": "https://sbtnews.sbt.com.br/noticia/brasil/frente-fria-avanca-e-muda-o-tempo-em-parte-do-brasil",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-07-24T09:43:15+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
