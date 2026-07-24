@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 4
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2021/06/18/162406171060cd370ea2252_1624061710_3x2_xl.jpg",
   "publishedAt": "2026-07-21T21:19:12+00:00",
-  "updatedAt": "2026-07-24T10:50:44.567023+00:00",
+  "updatedAt": "2026-07-24T11:44:44.862916+00:00",
   "sourceCount": 7,
   "articleCount": 7,
   "articles": [
@@ -78,6 +78,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_c71fa26f85ef",
+      "title": "Estudo aponta que Viagra pode reduzir a metástase do câncer",
+      "description": "Um dos medicamentos mais conhecidos e utilizados no mundo para o tratamento da disfunção erétil pode ter uma aplicação promissora no combate...",
+      "url": "https://www.osul.com.br/estudo-aponta-que-viagra-pode-reduzir-a-metastase-do-cancer/",
+      "source": "Jornal O Sul",
+      "sourceCanonical": "Jornal O Sul",
+      "sourceDomain": "osul.com.br",
+      "publishedAt": "2026-07-23T22:42:42+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.osul.com.br/wp-content/uploads/2023/12/viagraaas.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_40afb7ff0c48",
       "title": "Medicamento usado para disfunção erétil pode ter efeito contra câncer, aponta estudo em Israel",
       "description": "Um estudo desenvolvido pelo Instituto Weizmann de Ciências, em Israel, sugere que o sildenafil, princípio ativo do Viagra, pode ajudar a...",
@@ -92,20 +106,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_73108667418e",
-      "title": "Estudo aponta que Viagra pode reduzir a metástase do câncer",
-      "description": "Um dos medicamentos mais conhecidos e utilizados no mundo para o tratamento da disfunção erétil pode ter uma aplicação promissora no combate...",
-      "url": "https://www.radiocaicara.com.br/estudo-aponta-que-viagra-pode-reduzir-a-metastase-do-cancer/",
-      "source": "radiocaicara.com.br",
-      "sourceCanonical": "radiocaicara.com.br",
-      "sourceDomain": "radiocaicara.com.br",
-      "publishedAt": "2026-07-23T22:32:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_c1f6858a720e",
       "title": "Viagra pode dificultar metástases do câncer, aponta estudo",
       "description": "O sildenafil, princípio ativo do Viagra, pode dificultar a formação de metástases, processo em que o câncer se espalha para outras partes do...",
@@ -115,7 +115,7 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-07-23T19:45:39+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/imagem-principal-viagra-pode-dificultar-metastases-do-cancer-aponta-estudo-comprimido-viagra.webp",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -137,26 +137,25 @@
   "spectrum": {
     "min": 2,
     "max": 6,
-    "average": 4.25,
-    "knownCount": 4,
-    "unknownCount": 3,
+    "average": 4.4,
+    "knownCount": 5,
+    "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 2,
+      "center": 3,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 68,
     "headlineDivergence": 82,
-    "confidence": 71
+    "confidence": 74
   },
   "flags": [
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
