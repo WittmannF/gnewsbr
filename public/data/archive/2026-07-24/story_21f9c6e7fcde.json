@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pHOGY3VUVSRlp0dXd3Q3VFTDRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pHOGY3VUVSRlp0dXd3Q3VFTDRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 15,
-      "topic-5": 6
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 13,
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 15,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Empresa para a qual Flávio Bolsonaro emitiu R$ 1 milhão em notas não existe no endereço informado",
   "summary": "Senador emitiu notas, depois canceladas, para empresa registrada em prédio em São Caetano do Sul; sala é ocupada pela Contábil Corrêa, da...",
@@ -29,12 +35,12 @@
     "bolsonaro",
     "notas",
     "empresa",
-    "emitiu",
-    "master"
+    "master",
+    "emitiu"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/SWJDHKQLG5FRNH7VKAJFEQKO5Q.jpg?quality=80&auth=3b2e7e1ecdd87810b7eb6bed908daba0c7fa54dbbe1d76cdc30f240fa19093ca&width=1200&height=630&smart=true",
   "publishedAt": "2026-07-22T18:29:00+00:00",
-  "updatedAt": "2026-07-24T20:42:07.186179+00:00",
+  "updatedAt": "2026-07-24T21:33:31.588222+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -46,8 +52,8 @@
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-24T17:22:10+00:00",
-      "postedLabel": "3 horas atrás",
+      "publishedAt": "2026-07-24T20:53:14+00:00",
+      "postedLabel": "40 minutos atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/SWJDHKQLG5FRNH7VKAJFEQKO5Q.jpg?quality=80&auth=3b2e7e1ecdd87810b7eb6bed908daba0c7fa54dbbe1d76cdc30f240fa19093ca&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -67,20 +73,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_8dd115d5af3a",
-      "title": "Flávio Bolsonaro emitiu 41 notas fiscais e quer ser candidato sem dizer quanto recebeu e quem pagou",
-      "description": "O senador Flávio Bolsonaro (PL-RJ) está, de novo, às voltas com o Banco Master. Dessa vez, não é áudio, vídeo ou conversa com o banqueiro...",
-      "url": "https://www.estadao.com.br/politica/francisco-leali/flavio-bolsonaro-emitiu-41-notas-fiscais-e-quer-ser-candidato-sem-dizer-quanto-recebeu-e-quem-pagou/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-24T12:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/SWVZEPX4Q5E7JNCLXMOOE6FD5Q.png?quality=80&auth=cde39918bf98ab22318472cb9c814842bf7c1db2b5ca05b7079f86078bb0ea03&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_e41b8da028df",
       "title": "Advogado: Nota emitida por Flávio não tem efeito jurídico-eleitoral por ora",
       "description": "Alexandre Rollo afirma que notas fiscais e serviços a empresa ligada ao Master não afetam candidatura em 2026 e só teriam impacto após...",
@@ -93,6 +85,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8dd115d5af3a",
+      "title": "Flávio Bolsonaro emitiu 41 notas fiscais e quer ser candidato sem dizer quanto recebeu e quem pagou",
+      "description": "O senador Flávio Bolsonaro (PL-RJ) está, de novo, às voltas com o Banco Master. Dessa vez, não é áudio, vídeo ou conversa com o banqueiro...",
+      "url": "https://www.estadao.com.br/politica/francisco-leali/flavio-bolsonaro-emitiu-41-notas-fiscais-e-quer-ser-candidato-sem-dizer-quanto-recebeu-e-quem-pagou/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-24T12:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/SWVZEPX4Q5E7JNCLXMOOE6FD5Q.png?quality=80&auth=cde39918bf98ab22318472cb9c814842bf7c1db2b5ca05b7079f86078bb0ea03&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c664753276a8",
@@ -123,14 +129,14 @@
       "bucket": "left"
     },
     {
-      "id": "article_feaf58934a48",
-      "title": "Empresa de fachada para a qual Flávio Bolsonaro emitiu notas recebeu R$ 11 milhões do Master um mês após ser aberta",
-      "description": "Copenhagen foi constituída em novembro de 2024 e logo recebeu aportes do Master; duas notas emitidas por Flávio Bolsonaro foram canceladas.",
-      "url": "https://www.metropoles.com/colunas/tacio-lorran/empresa-de-fachada-para-qual-flavio-bolsonaro-emitiu-notas-recebeu-r-11-milhoes-do-master-um-mes-apos-ser-aberta",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-23T20:35:00+00:00",
+      "id": "article_8a6c4e1f3d0d",
+      "title": "Flávio Bolsonaro emitiu notas fiscais que somam R$ 1 milhão para empresa que recebeu repasses do Master",
+      "description": "Senador diz que prestou serviços advocatícios e que relação é \"legal e privada\"",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/07/flavio-bolsonaro-emitiu-notas-fiscais-que-somam-r-1-milhao-para-empresa-que-recebeu-repasses-do-master-cmrxix7720197014clhlipycp.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-23T13:33:58+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -146,20 +152,6 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-24T05:45:39+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_8a6c4e1f3d0d",
-      "title": "Flávio Bolsonaro emitiu notas fiscais que somam R$ 1 milhão para empresa que recebeu repasses do Master",
-      "description": "Senador diz que prestou serviços advocatícios e que relação é \"legal e privada\"",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/07/flavio-bolsonaro-emitiu-notas-fiscais-que-somam-r-1-milhao-para-empresa-que-recebeu-repasses-do-master-cmrxix7720197014clhlipycp.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-07-23T13:33:58+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -193,6 +185,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_886bf90e90cc",
+      "title": "Deputado aciona PF contra Flávio por notas emitidas a empresas usadas em esquema do Master",
+      "description": "Lindbergh Farias pediu que PF investigue se serviços de advocacia realmente foram prestados para empresas ligadas a esquemas do Master.",
+      "url": "https://www.metropoles.com/colunas/tacio-lorran/deputado-aciona-a-pf-contra-flavio-por-notas-emitidas-a-empresas-usadas-em-esquema-do-master",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-07-23T15:34:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_613b27e01a3f",
       "title": "Aliados de Flávio demonstram preocupação após notas fiscais ligadas a Vorcaro",
       "description": "Ao serem surpreendidos a conta gotas, o Bolsonarismo acaba sem alinhamento de discurso para reagir a crise interna.",
@@ -215,7 +221,7 @@
       "sourceCanonical": "instagram.com",
       "sourceDomain": "instagram.com",
       "publishedAt": "2026-07-22T21:30:40+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -233,6 +239,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_89c131bfae18",
+      "title": "Deputado aciona PGR para investigar Flávio Bolsonaro por suspeita de lavagem de dinheiro",
+      "description": "Por Cleber Lourenço. O deputado federal Chico Alencar (PSOL-RJ) acionou a Procuradoria-Geral da República (PGR) para pedir a abertura de uma...",
+      "url": "https://iclnoticias.com.br/deputado-pgr-investigacao-flavio-bolsonaro/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-07-24T20:52:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_fa454ec62206",
@@ -271,24 +291,10 @@
       "sourceCanonical": "O Popular",
       "sourceDomain": "opopular.com.br",
       "publishedAt": "2026-07-23T20:50:59+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_89c131bfae18",
-      "title": "Deputado aciona PGR para investigar Flávio Bolsonaro por suspeita de lavagem de dinheiro",
-      "description": "Por Cleber Lourenço. O deputado federal Chico Alencar (PSOL-RJ) acionou a Procuradoria-Geral da República (PGR) para pedir a abertura de uma...",
-      "url": "https://iclnoticias.com.br/deputado-pgr-investigacao-flavio-bolsonaro/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-07-24T18:04:41+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_59b495d1b7e9",
