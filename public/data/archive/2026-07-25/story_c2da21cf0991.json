@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 17
+      "topic-4": 18
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/23/17848348256a626b0972d9c_1784834825_3x2_rt.jpg",
   "publishedAt": "2026-07-16T16:23:07+00:00",
-  "updatedAt": "2026-07-25T13:49:56.758546+00:00",
+  "updatedAt": "2026-07-25T14:46:15.807602+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -180,14 +180,14 @@
       "title": "Sidônio Palmeira chama Band de Globo durante evento da emissora",
       "description": "Ministro da Secom de Lula cometeu ato falho ao discursar na celebração dos 25 anos da Band, em São Paulo; leia mais em Oeste.",
       "url": "https://revistaoeste.com/imprensa/sidonio-palmeira-chama-band-de-globo-durante-evento-da-emissora/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-07-23T16:56:16+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5a72f1e185d9",
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_bb8f9e0e22a0",
-      "title": "Veruska Donato se despede da Veja e é contratada pela Band",
-      "description": "A jornalista Veruska Donato, de 46 anos, é a nova contratada da Band. Antes disso, a comunicadora estava à frente do programa Mercado da...",
-      "url": "https://www.leiaja.com/entretenimento/2026/07/18/veruska-donato-se-despede-da-veja-e-e-contratada-pela-band/",
-      "source": "LeiaJá",
-      "sourceCanonical": "LeiaJá",
-      "sourceDomain": "leiaja.com",
-      "publishedAt": "2026-07-18T19:17:00+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_944e9e6a8b20",
       "title": "BandNews TV celebra 25 anos com estúdio tecnológico, nova grade e reforço no jornalismo",
       "description": "Canal apresenta estrutura de última geração, novos programas e mudanças na cobertura política e econômica.",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_bb8f9e0e22a0",
+      "title": "Veruska Donato se despede da Veja e é contratada pela Band",
+      "description": "A jornalista Veruska Donato, de 46 anos, é a nova contratada da Band. Antes disso, a comunicadora estava à frente do programa Mercado da...",
+      "url": "https://www.leiaja.com/entretenimento/2026/07/18/veruska-donato-se-despede-da-veja-e-e-contratada-pela-band/",
+      "source": "LeiaJá",
+      "sourceCanonical": "LeiaJá",
+      "sourceDomain": "leiaja.com",
+      "publishedAt": "2026-07-18T19:17:00+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
-    "max": 10,
-    "average": 5.7,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 7,
+    "average": 5.22,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 7,
       "centerRight": 1,
-      "right": 1,
-      "unknown": 10
+      "right": 0,
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
