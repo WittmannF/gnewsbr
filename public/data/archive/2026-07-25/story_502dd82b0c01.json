@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIMFpEU0VSR2RfT0x0ekNxTFZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIMFpEU0VSR2RfT0x0ekNxTFZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 14
+      "topic-3": 15,
+      "topic-5": 13
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 15,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +30,11 @@
     "previsão",
     "tempo",
     "semana",
-    "temperaturas"
+    "sábado"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2024/08/Ciclone-extratropical.jpg.webp",
   "publishedAt": "2026-07-23T11:39:00+00:00",
-  "updatedAt": "2026-07-25T22:36:56.102303+00:00",
+  "updatedAt": "2026-07-25T23:32:11.025450+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -232,6 +235,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_1f6ee2612b93",
+      "title": "Clima: ciclone extratropical e frente fria atingem Brasil neste sábado",
+      "description": "Fenômenos afetam diretamente pelo menos oito estados brasileiros, intensificando os contrastes típicos do inverno.",
+      "url": "https://www.metropoles.com/brasil/clima-ciclone-extratropical-e-frente-fria-atingem-brasil-neste-sabado",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-07-25T10:16:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_a30722278885",
       "title": "Quando o Sol volta ao litoral de São Paulo? Veja previsão após fim de semana de chuva",
       "description": "Frente fria mantém tempo instável até domingo; calor acima da média para o inverno 2026 deve retornar no início da próxima semana.",
@@ -268,7 +285,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-23T22:56:47+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -283,20 +300,6 @@
       "sourceDomain": "diariodocomercio.com.br",
       "publishedAt": "2026-07-23T11:39:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_0eb33dd2679b",
-      "title": "Frente fria derruba temperatura na capital paulista",
-      "description": "A temperatura segue em queda com a atuação de uma frente fria, que mantém o tempo chuvoso e provoca ventos e maior umidade na capital.",
-      "url": "https://abcdoabc.com.br/frente-fria-temperatura-capital-paulista/",
-      "source": "Portal ABC do ABC",
-      "sourceCanonical": "Portal ABC do ABC",
-      "sourceDomain": "abcdoabc.com.br",
-      "publishedAt": "2026-07-24T10:03:20+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.92,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.85,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 6,
+      "center": 7,
       "centerRight": 4,
       "right": 1,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
