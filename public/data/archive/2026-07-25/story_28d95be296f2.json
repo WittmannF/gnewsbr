@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k5bDRIUEVSRTREMkk1VVdYUm9TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k5bDRIUEVSRTREMkk1VVdYUm9TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 10
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Cenipa divulga relatório final sobre queda de avião da Voepass",
   "summary": "O Globoplay lançará uma série documental sobre a queda do avião da Voepass que resultou na morte de 62 pessoas em Vinhedo, no interior de...",
@@ -26,12 +32,12 @@
     "avião",
     "queda",
     "cenipa",
-    "vinhedo",
-    "falhas"
+    "falhas",
+    "relatório"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/g9iCGl1hiASyh43dDBuOXhcYUEs=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/v/B/GUQTV6Q9CoiNPGAroTlA/voepass.png",
-  "publishedAt": "2026-07-23T22:37:00+00:00",
-  "updatedAt": "2026-07-25T03:24:20.138137+00:00",
+  "publishedAt": "2026-07-23T22:45:00+00:00",
+  "updatedAt": "2026-07-25T05:15:53.543381+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-24T22:22:46+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/g9iCGl1hiASyh43dDBuOXhcYUEs=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/v/B/GUQTV6Q9CoiNPGAroTlA/voepass.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +78,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-25T03:02:08+00:00",
-      "postedLabel": "22 minutos atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/cJQvJfYGuCq6W5w7B02w5VEe39A=/1252x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/9/t/n0MbGJRvyAOQAolSWmcA/entrevistado2.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -92,30 +98,16 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4196d0c10b82",
-      "title": "Simulação do Cenipa mostra voo da Voepass que caiu em Vinhedo; veja vídeo",
-      "description": "Material traz momentos desde a decolagem e exibe alertas emitidos à tripulação; companhia afirma que adotou 'procedimentos sérios de...",
-      "url": "https://www.estadao.com.br/brasil/simulacao-do-cenipa-mostra-voo-da-voepass-que-caiu-em-vinhedo-veja-video/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-24T21:04:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/6E5LOZMMUJA6JEOYGLYZAEHO34.gif?quality=50&auth=31027c908cdd23b4191509c61b2f67af1d70f586970b56f38d445f7343f9202b&width=1200&height=630&focal=233,110",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_3871db6a4174",
-      "title": "Associação de famílias de vítimas de acidente da Voepass vai à Justiça por indenização",
-      "description": "Advogado diz que expectativa é pela conclusão de inquérito da PF em agosto, com o indiciamento de possíveis responsáveis; Irmão de...",
-      "url": "https://www1.folha.uol.com.br/cotidiano/2026/07/associacao-de-familias-de-vitimas-de-acidente-da-voepass-vai-a-justica-por-indenizacao.shtml",
+      "id": "article_6597f057debd",
+      "title": "Mônica Bergamo: Globoplay lança série documental sobre queda de avião da Voepass",
+      "description": "Produção tem três episódios e estreia no dia 7 de agosto, dois anos após a tragédia.",
+      "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/07/globoplay-lanca-serie-documental-sobre-queda-de-aviao-da-voepass.shtml",
       "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-07-24T00:11:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2024/08/14/172365927066bcf40644996_1723659270_3x2_rt.jpg",
+      "publishedAt": "2026-07-24T17:40:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2024/08/12/172350437466ba96f61e618_1723504374_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -129,51 +121,9 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-24T00:26:19+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/08/Captura-de-tela-2024-08-09-165729.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_4a1cdaa966f7",
-      "title": "Veja a animação do CENIPA que mostra os minutos finais do voo 2283 da Voepass",
-      "description": "Vídeo do CENIPA mostra os momentos finais do voo 2283 da Voepass e a sequência de alertas antes da queda do ATR 72 em Vinhedo.",
-      "url": "https://aeroin.net/veja-a-animacao-do-cenipa-que-mostra-os-minutos-finais-do-voo-2283-da-voepass/",
-      "source": "AEROIN",
-      "sourceCanonical": "AEROIN",
-      "sourceDomain": "aeroin.net",
-      "publishedAt": "2026-07-24T19:08:59+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_4abdb2ca750c",
-      "title": "Relatório final aponta que avião da Voepass emitiu cinco alertas antes de cair em Vinhedo",
-      "description": "Cenipa identificou avisos de formação de gelo, perda de desempenho, baixa velocidade e risco de estol; acidente matou 62 pessoas.",
-      "url": "https://www.terra.com.br/noticias/brasil/cidades/relatorio-final-aponta-que-aviao-da-voepass-emitiu-cinco-alertas-antes-de-cair-em-vinhedo,b453392a817a9f9cbe1990b29d725d3d23ab62ii.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-24T21:27:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_29125eeba972",
-      "title": "Voo Voepass: 19 fatores levaram à queda em Vinhedo",
-      "description": "Cenipa revelou 19 fatores que causaram a queda do voo 2283 da Voepass em Vinhedo, incluindo falhas no degelo, manutenção e fiscalização da...",
-      "url": "https://www.campograndenews.com.br/brasil/cidades/queda-de-aviao-que-matou-4-pessoas-ligadas-a-ms-foi-provocada-por-19-fatores",
-      "source": "Campo Grande News",
-      "sourceCanonical": "Campo Grande News",
-      "sourceDomain": "campograndenews.com.br",
-      "publishedAt": "2026-07-23T23:45:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_94d3bb16744e",
@@ -190,6 +140,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_4a1cdaa966f7",
+      "title": "Veja a animação do CENIPA que mostra os minutos finais do voo 2283 da Voepass",
+      "description": "Vídeo do CENIPA mostra os momentos finais do voo 2283 da Voepass e a sequência de alertas antes da queda do ATR 72 em Vinhedo.",
+      "url": "https://aeroin.net/veja-a-animacao-do-cenipa-que-mostra-os-minutos-finais-do-voo-2283-da-voepass/",
+      "source": "AEROIN",
+      "sourceCanonical": "AEROIN",
+      "sourceDomain": "aeroin.net",
+      "publishedAt": "2026-07-24T19:08:59+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_29125eeba972",
+      "title": "Voo Voepass: 19 fatores levaram à queda em Vinhedo",
+      "description": "Cenipa revelou 19 fatores que causaram a queda do voo 2283 da Voepass em Vinhedo, incluindo falhas no degelo, manutenção e fiscalização da...",
+      "url": "https://www.campograndenews.com.br/brasil/cidades/queda-de-aviao-que-matou-4-pessoas-ligadas-a-ms-foi-provocada-por-19-fatores",
+      "source": "Campo Grande News",
+      "sourceCanonical": "Campo Grande News",
+      "sourceDomain": "campograndenews.com.br",
+      "publishedAt": "2026-07-23T23:45:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_83d3d0a3845c",
       "title": "Cenipa aponta falhas da tripulação e sistema de degelo desligado em acidente da Voepass",
       "description": "Relatório final cita falhas diante de alertas de gelo, mas não aponta causa única da tragédia - Confira na íntegra no Portal PANROTAS!",
@@ -202,6 +180,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_904118b1f2a9",
+      "title": "Relatório final aponta que avião da Voepass emitiu cinco alertas antes de cair em Vinhedo",
+      "description": "O relatório final sobre a queda do voo 2283 da Voepass, foi divulgado nesta quinta-feira, 23, pelo Centro de Investigação e Prevenção de...",
+      "url": "https://www.terra.com.br/noticias/videos/relatorio-final-aponta-que-aviao-da-voepass-emitiu-cinco-alertas-antes-de-cair-em-vinhedo,4d02710431464be4ba2ffe7a5c09c2671mwka2hv.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-24T22:46:32+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8b1b85453dfd",
@@ -288,20 +280,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_e1d2bcd2fe45",
-      "title": "Falhas de manutenção e pilotagem derrubaram avião em Vinhedo",
-      "description": "Relatório final do Cenipa aponta cultura de informalidade, manutenção precária e tripulação sem consciência situacional.",
-      "url": "https://ultimosegundo.ig.com.br/brasil/2026-07-23/cenipa-revela-falhas-que-levaram-a-queda-da-voepass-em-vinhedo.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-07-23T22:37:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_7504c98e2275",
       "title": "Falhas da Anac também contribuíram para queda da Voepass",
       "description": "O Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa) concluiu nesta quinta-feira (23) que a Agência Nacional de Aviação...",
@@ -314,32 +292,60 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_834dd48a6268",
+      "title": "Gelo, distração na cabine e falhas: o que diz relatório sobre queda de avião da Voepass",
+      "description": "O relatório final do Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa) sobre a queda do avião da Voepass, em Vinhedo...",
+      "url": "https://iclnoticias.com.br/relatorio-cabine-e-falhas-da-anac-voepass/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-07-24T14:02:49+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_93665a4a1454",
+      "title": "Anac analisará relatório do Cenipa sobre acidente da Voepass; veja próximos passos",
+      "description": "Segundo a agência, documento não busca atribuir 'culpa ou responsabilização' pelo acidente de 2024. Jovem Pan. 24/07/2026 às 08h50. O acidente com o avião...",
+      "url": "https://jovempan.com.br/brasil/anac-analisara-relatorio-do-cenipa-sobre-acidente-da-voepass-veja-proximos-passos/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-07-24T11:50:18+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
-    "min": 4,
-    "max": 7,
-    "average": 5.43,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "min": 2,
+    "max": 9,
+    "average": 5.33,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 2,
       "center": 9,
-      "centerRight": 3,
-      "right": 0,
-      "unknown": 6
+      "centerRight": 2,
+      "right": 1,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
