@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0LS1uV0VSRUtwalJkMUZucDJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0LS1uV0VSRUtwalJkMUZucDJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 3
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 4
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Tempestade em Ribeirão Preto",
   "summary": "O temporal em Ribeirão Preto causou uma morte, deixou milhares sem luz e água, e superlotou UTIs após registrar ventos de 122 km/h no...",
@@ -26,12 +32,12 @@
     "preto",
     "temporal",
     "destruição",
-    "tem",
-    "região"
+    "interior",
+    "tem"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/WqtCHjwQIKKO7mp7_M4b4KtDR4w=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/J/6A3eaTQkyAR0zYGffzcg/molduras-g1-2026-07-25t091658.303.png",
   "publishedAt": "2026-07-24T12:14:26+00:00",
-  "updatedAt": "2026-07-25T21:29:57.521616+00:00",
+  "updatedAt": "2026-07-25T22:29:26.685783+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -44,24 +50,38 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-25T18:22:12+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/WqtCHjwQIKKO7mp7_M4b4KtDR4w=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/J/6A3eaTQkyAR0zYGffzcg/molduras-g1-2026-07-25t091658.303.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_0ec187e0fcce",
-      "title": "Governo federal vai liberar recursos para cidades de SP atingidas por temporal",
-      "description": "Anúncio foi feito por Geraldo Alckmin após tempestade deixar um morto, destruir infraestrutura e afetar milhares de moradores no interior...",
-      "url": "https://veja.abril.com.br/brasil/governo-federal-vai-liberar-recursos-para-cidades-de-sp-atingidas-por-temporal/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-25T21:17:44+00:00",
-      "postedLabel": "12 minutos atrás",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-24-at-12.34.51.jpeg?quality=70&strip=info&resize=1080,565&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "id": "article_f228c764c14c",
+      "title": "SERVIDORES DO COMPLEXO RIBEIRÃO PRETO SE MOBILIZAM APÓS TEMPORAL E GARANTEM ACESSO ÀS UNIDADES SOCIOEDUCATIVAS",
+      "description": "O forte temporal, acompanhado de ventos que chegaram a aproximadamente 70 km/h, registrado em Ribeirão Preto, provocou a morte de uma pessoa...",
+      "url": "https://www.sitsesp.org.br/novo/servidores-do-complexo-ribeirao-preto-se-mobilizam-apos-temporal-e-garantem-acesso-as-unidades-socioeducativas/",
+      "source": "Sitsesp",
+      "sourceCanonical": "Sitsesp",
+      "sourceDomain": "sitsesp.org.br",
+      "publishedAt": "2026-07-25T21:22:34+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_04fcfa994d8b",
+      "title": "União vai reconhecer situação de emergência para liberar recursos a cidades de SP após temporal",
+      "description": "Em visita a Ribeirão Preto (SP), o vice-presidente da República, Geraldo Alckmin (PSB), confirmou neste sábado (25) que a União vai...",
+      "url": "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/07/25/uniao-vai-reconhecer-situacao-de-emergencia-para-liberar-recursos-a-cidades-de-sp-apos-temporal.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-07-25T20:46:58+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/TnckBIkOYUyzEELEr-c3WGoDh9k=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/u/b9q0FVRtAGLf62yLDo2g/molduras-g1-2026-07-24t171200.875.png",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_9e77e08a1229",
@@ -92,32 +112,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_9d94eb250edb",
-      "title": "Temporal deixa rastro de destruição na USP de Ribeirão Preto, SP",
-      "description": "O temporal que atingiu a região de Ribeirão Preto (SP) na sexta-feira (24) provocou estragos em diferentes pontos do campus da Universidade...",
-      "url": "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/07/25/temporal-deixa-rastro-de-destruicao-na-usp-de-ribeirao-preto-sp.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-07-25T19:47:05+00:00",
+      "id": "article_0ec187e0fcce",
+      "title": "Governo federal vai liberar recursos para cidades de SP atingidas por temporal",
+      "description": "Anúncio foi feito por Geraldo Alckmin após tempestade deixar um morto, destruir infraestrutura e afetar milhares de moradores no interior...",
+      "url": "https://veja.abril.com.br/brasil/governo-federal-vai-liberar-recursos-para-cidades-de-sp-atingidas-por-temporal/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-25T21:17:44+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
-      "id": "article_10c6d1e2cb22",
+      "id": "article_809713e2d69f",
       "title": "Região de Ribeirão Preto tem estragos após chuva: ‘Parecia um furacão’; veja vídeos",
-      "description": "Tempestade teve granizo e deixou rastro de destruição; cidades decretam situação de emergência.",
-      "url": "https://www.estadao.com.br/em-alta/sao-paulo/regiao-de-ribeirao-preto-tem-estragos-apos-chuva-parecia-um-furacao-veja-video/",
+      "description": "Tempestade teve granizo e deixou rastro de destruição; cidades decretam situação de emergência. Defesa Civil do Estado mantém ações nas...",
+      "url": "https://www.estadao.com.br/sao-paulo/regiao-de-ribeirao-preto-tem-estragos-apos-chuva-parecia-um-furacao-veja-video/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-24T19:33:33+00:00",
+      "publishedAt": "2026-07-24T18:51:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_320061ce3e53",
+      "title": "Temporal provoca destruição e paralisa acessos a Ribeirão Preto",
+      "description": "Um forte temporal atingiu Ribeirão Preto na madrugada desta sexta-feira (24), e provocou um cenário de destruição em diversos pontos da...",
+      "url": "https://jornaldosudoeste.com.br/noticia_detalhe.php?id=221741",
+      "source": "Jornal do Sudoeste",
+      "sourceCanonical": "Jornal do Sudoeste",
+      "sourceDomain": "jornaldosudoeste.com.br",
+      "publishedAt": "2026-07-24T12:41:51+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d3c1bd4ba88d",
@@ -176,20 +210,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_a421ecbff1b6",
-      "title": "Temporal na região de Ribeirão Preto (SP) provoca apagão e queda de 200 árvores",
-      "description": "Afetada por temporal e rajadas de vento de até 120 km/h na madrugada desta sexta-feira, 24, a região de Ribeirão Preto, no interior paulista...",
-      "url": "https://revistaoeste.com/brasil/temporal-na-regiao-de-ribeirao-preto-sp-provoca-apagao-e-queda-de-200-arvores/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-07-25T00:49:49+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_bc7695fe0c7c",
       "title": "Fundo Social de SP e Defesa Civil enviam ajuda humanitária a Ribeirão Preto",
       "description": "O Fundo Social de São Paulo e a Defesa Civil do Estado enviaram uma remessa de ajuda humanitária ao município de Ribeirão Preto, no interior...",
@@ -202,6 +222,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a421ecbff1b6",
+      "title": "Temporal na região de Ribeirão Preto (SP) provoca apagão e queda de 200 árvores",
+      "description": "Afetada por temporal e rajadas de vento de até 120 km/h na madrugada desta sexta-feira, 24, a região de Ribeirão Preto, no interior paulista...",
+      "url": "https://revistaoeste.com/brasil/temporal-na-regiao-de-ribeirao-preto-sp-provoca-apagao-e-queda-de-200-arvores/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-07-25T00:49:49+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_2a85c3323edb",
@@ -218,34 +252,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_4a2126bbee11",
-      "title": "Alckmin prevê saque de até 50% do FGTS para atingidos por vendaval",
-      "description": "O vice-presidente da República, Geraldo Alckmin, esteve em Ribeirão Preto na tarde deste sábado (25) para anunciar medidas após vendaval.",
-      "url": "https://www.acidadeon.com/ribeiraopreto/cotidiano/alckmin-preve-saque-de-ate-50-do-fgts-para-atingidos-por-vendaval/",
-      "source": "ACidade ON",
-      "sourceCanonical": "ACidade ON",
-      "sourceDomain": "acidadeon.com",
-      "publishedAt": "2026-07-25T20:34:28+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_320061ce3e53",
-      "title": "Temporal provoca destruição e paralisa acessos a Ribeirão Preto",
-      "description": "Um forte temporal atingiu Ribeirão Preto na madrugada desta sexta-feira (24), e provocou um cenário de destruição em diversos pontos da...",
-      "url": "https://jornaldosudoeste.com.br/noticia_detalhe.php?id=221741",
-      "source": "Jornal do Sudoeste",
-      "sourceCanonical": "Jornal do Sudoeste",
-      "sourceDomain": "jornaldosudoeste.com.br",
-      "publishedAt": "2026-07-24T12:41:51+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ea89fdeef717",
       "title": "GCN: Temporal afeta hospitais de Ribeirão e saúde alerta moradores",
       "description": "CONTINGÊNCIA:Apelo busca reduzir a sobrecarga na rede de saúde de Ribeirão Preto, que reorganiza atendimentos após os danos causados pela...",
@@ -254,7 +260,7 @@
       "sourceCanonical": "sampi.net.br",
       "sourceDomain": "sampi.net.br",
       "publishedAt": "2026-07-24T22:27:26+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -282,7 +288,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-07-25T18:49:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -302,14 +308,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3ea689997a0c",
-      "title": "Região de Ribeirão Preto tem estragos após chuva: 'Parecia um furacão'",
-      "description": "Quando a aposentada Sônia Camarinha gravou um vídeo do temporal que atingia Ribeirão Preto, no interior de São Paulo, às 5h40 da madrugada...",
-      "url": "https://correio.rac.com.br/mundo/regi-o-de-ribeir-o-preto-tem-estragos-apos-chuva-parecia-um-furac-o-1.1833010",
-      "source": "correio.rac.com.br",
-      "sourceCanonical": "correio.rac.com.br",
-      "sourceDomain": "correio.rac.com.br",
-      "publishedAt": "2026-07-24T19:40:00+00:00",
+      "id": "article_c25106700beb",
+      "title": "Arquivo de vias interdiçao semaforos desligados temporal ribeirao preto",
+      "description": "vias interdiçao semaforos desligados temporal ribeirao preto. semáforo. Cotidiano. Veja vias com interdição e semáforos desligados após temporal em Ribeirão...",
+      "url": "https://www.acidadeon.com/ribeiraopreto/tag/vias-interdicao-semaforos-desligados-temporal-ribeirao-preto/",
+      "source": "ACidade ON",
+      "sourceCanonical": "ACidade ON",
+      "sourceDomain": "acidadeon.com",
+      "publishedAt": "2026-07-24T15:14:11+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
