@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pIMFp6VUVSR19XZmIwaXB2d1JpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pIMFp6VUVSR19XZmIwaXB2d1JpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2,
-      "topic-5": 2
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 3,
+      "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Governo chama ao Brasil embaixador na Argentina após falas de Milei em convenção do PL",
   "summary": "O Ministério das Relações Exteriores (Itamaraty) convocou o embaixador do Brasil em Buenos Aires para prestar esclarecimentos após o...",
@@ -27,15 +33,15 @@
   "topicKeywords": [
     "milei",
     "flávio",
-    "bolsonaro",
     "lula",
+    "bolsonaro",
     "chama",
     "embaixador"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/2DH9GuorNKxWtFOVuNHcqUVT_X0=/1551x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/g/Mpql7qQ6mgBJUxllhYEQ/2026-07-25t160828z-1813509285-rc24lmalfgsd-rtrmadp-3-brazil-politics.jpg",
-  "publishedAt": "2026-07-25T14:33:20+00:00",
-  "updatedAt": "2026-07-26T17:33:56.154643+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-07-25T13:58:00+00:00",
+  "updatedAt": "2026-07-26T18:31:15.048890+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -47,9 +53,23 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-26T15:42:22+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/2DH9GuorNKxWtFOVuNHcqUVT_X0=/1551x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/g/Mpql7qQ6mgBJUxllhYEQ/2026-07-25t160828z-1813509285-rc24lmalfgsd-rtrmadp-3-brazil-politics.jpg",
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_5eb9906e135c",
+      "title": "Jornais argentinos destacam fala de Milei sobre Lula: ‘Tensão mais alta do que nunca’",
+      "description": "Publicações afirmaram que o líder argentino se envolveu na disputa eleitoral brasileira ao discursar em evento.",
+      "url": "https://www.infomoney.com.br/mundo/jornais-argentinos-destacam-fala-de-milei-sobre-lula-tensao-mais-alta-do-que-nunca/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-07-26T18:15:26+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/convencao-pl-partido-liberal-eleicoes-2026-flavio-bolsonaro-milei-03.jpg",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -61,38 +81,24 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-07-26T12:30:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_ab139add380d",
-      "title": "Brasil chama embaixador na Argentina após críticas de Milei a Lula e Moraes",
-      "description": "Em discurso na convenção do PL, presidente argentino chamou Lula de \"presidiário\" e Moraes de \"lixo careca\"",
-      "url": "https://www.cnnbrasil.com.br/blogs/luciana-taddeo/internacional/brasil-chama-embaixador-na-argentina-apos-criticas-de-milei-a-lula-e-moraes/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-26T12:23:30+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/ODR20260725041.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6df7f134c02c",
-      "title": "Brasil chama para consultas embaixador em Buenos Aires, depois de ofensas de Milei a Lula",
-      "description": "O ‌governo brasileiro chamou de volta a Brasília, para consultas, o embaixador em ​Buenos Aires, ...",
-      "url": "https://www.terra.com.br/noticias/brasil/brasil-chama-para-consultas-embaixador-em-buenos-aires-depois-de-ofensas-de-milei-a-lula,222cbd9c85e068c84cdf3a1753159679maj2d832.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-26T15:19:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/07/25/1224649050-lgfypirvjzhcnkaxcp57bxnesq.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_66490ce989e1",
+      "title": "De Messi a María Becerra, estrelas argentinas expõem o país real por trás de Milei",
+      "description": "Presidente argentino veio ao Brasil apoiar Flávio Bolsonaro; em seu país, ídolos do futebol, da música, do cinema e das artes denunciam...",
+      "url": "https://pt.org.br/de-messi-a-maria-becerra-estrelas-argentinas-expoem-o-pais-real-por-tras-de-milei/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-07-25T19:46:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_dd733b7a07a8",
@@ -102,9 +108,9 @@
       "source": "UOL",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
-      "publishedAt": "2026-07-26T16:12:16+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
+      "publishedAt": "2026-07-26T18:07:05+00:00",
+      "postedLabel": "24 minutos atrás",
+      "imageUrl": "https://conteudo.imguol.com.br/c/noticias/73/2026/07/25/javier-milei-e-flavio-bolsonaro-durante-a-convencao-nacional-do-pl-1785028303846_v2_615x300.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -117,7 +123,7 @@
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-07-26T15:28:58+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -151,18 +157,18 @@
       "bucket": "left"
     },
     {
-      "id": "article_ae03d71162e5",
-      "title": "A reação do Itamaraty às ofensas de Milei em ato de Flávio Bolsonaro",
-      "description": "O Itamaraty convocou para consultas o embaixador do Brasil na Argentina, Julio Bitelli, horas após a participação do presidente argentino,...",
-      "url": "https://www.cartacapital.com.br/politica/a-reacao-do-itamaraty-as-ofensas-de-milei-em-ato-de-flavio-bolsonaro/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-26T17:09:00+00:00",
-      "postedLabel": "24 minutos atrás",
+      "id": "article_ab139add380d",
+      "title": "Brasil chama embaixador na Argentina após críticas de Milei a Lula e Moraes",
+      "description": "Em discurso na convenção do PL, presidente argentino chamou Lula de \"presidiário\" e Moraes de \"lixo careca\"",
+      "url": "https://www.cnnbrasil.com.br/blogs/luciana-taddeo/internacional/brasil-chama-embaixador-na-argentina-apos-criticas-de-milei-a-lula-e-moraes/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-26T12:23:30+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_e7539fc8a65d",
@@ -193,6 +199,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_ae03d71162e5",
+      "title": "A reação do Itamaraty às ofensas de Milei em ato de Flávio Bolsonaro",
+      "description": "O Itamaraty convocou para consultas o embaixador do Brasil na Argentina, Julio Bitelli, horas após a participação do presidente argentino,...",
+      "url": "https://www.cartacapital.com.br/politica/a-reacao-do-itamaraty-as-ofensas-de-milei-em-ato-de-flavio-bolsonaro/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-07-26T17:09:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_1962d4b88d20",
       "title": "Tarcísio e Milei trocam experiências sobre austeridade fiscal e gestão liberal",
       "description": "A troca de experiências bem-sucedidas de austeridade fiscal e atuação do Estado para atração de investimentos privados deram o tom da...",
@@ -201,24 +221,10 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-25T18:29:48+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_66490ce989e1",
-      "title": "De Messi a María Becerra, estrelas argentinas expõem o país real por trás de Milei",
-      "description": "Presidente argentino veio ao Brasil apoiar Flávio Bolsonaro; em seu país, ídolos do futebol, da música, do cinema e das artes denunciam...",
-      "url": "https://pt.org.br/de-messi-a-maria-becerra-estrelas-argentinas-expoem-o-pais-real-por-tras-de-milei/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-07-25T19:46:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_8847992c40c8",
@@ -235,20 +241,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_4ed1098bbc7c",
-      "title": "Embaixador do Brasil na Argentina é chamado para consultas após falas de Milei em evento do PL",
-      "description": "Presidente argentino chamou o ministro do Supremo Tribunal Federal Alexandre de Moraes de \"lixo careca\"",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/07/embaixador-do-brasil-na-argentina-e-chamado-para-consultas-apos-falas-de-milei-em-evento-do-pl-cms21efmw007d014wnrg3cr0u.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-07-26T17:01:15+00:00",
-      "postedLabel": "32 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e8b244015671",
       "title": "Milei dança rock com Flávio Bolsonaro em convenção do PL",
       "description": "O presidente da Argentina, Javier Milei (La Libertad Avanza, direita), e o senador Flávio Bolsonaro dançaram no palco da convenção nacional...",
@@ -260,20 +252,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7babc2d779d3",
-      "title": "Com tapete azul, Tarcísio recebe Milei no Palácio dos Bandeirantes e entrega medalha",
-      "description": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), recebeu neste sábado, 25, o presidente da Argentina, Javier Milei, para...",
-      "url": "https://www.infomoney.com.br/politica/com-tapete-azul-tarcisio-recebe-milei-no-palacio-dos-bandeirantes-e-entrega-medalha/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-07-25T14:33:20+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -291,18 +269,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_6fdc66fd458d",
-      "title": "Lula e Milei discursaram por 27 minutos em convenções simultâneas",
-      "description": "Os discursos tiveram diferença de apenas 17 segundos na duração, apesar de ocorrerem em convenções distintas.",
-      "url": "https://www.metropoles.com/colunas/manoela-alcantara/lula-e-milei-discursaram-por-27-minutos-em-convencoes-simultaneas",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-25T21:06:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_4ed1098bbc7c",
+      "title": "Embaixador do Brasil na Argentina é chamado para consultas após falas de Milei em evento do PL",
+      "description": "Presidente argentino chamou o ministro do Supremo Tribunal Federal Alexandre de Moraes de \"lixo careca\"",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/07/embaixador-do-brasil-na-argentina-e-chamado-para-consultas-apos-falas-de-milei-em-evento-do-pl-cms21efmw007d014wnrg3cr0u.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-26T17:01:15+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_40370e0c3185",
+      "title": "Brasil chama para consultas embaixador em Buenos Aires, depois de ofensas de Milei a Lula",
+      "description": "O ‌governo brasileiro chamou de volta a Brasília, para consultas, o embaixador em ​Buenos Aires, ...",
+      "url": "https://www.terra.com.br/noticias/eleicoes/brasil-chama-para-consultas-embaixador-em-buenos-aires-depois-de-ofensas-de-milei-a-lula,222cbd9c85e068c84cdf3a1753159679maj2d832.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-26T15:19:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_8ee6d1978e92",
+      "title": "Milei e Tarcísio não falam com a imprensa em encontro de homenagem ao argentino",
+      "description": "O presidente da Argentina, Javier Milei, já está no Palácio dos Bandeirantes, sede do governo de São Paulo, onde será homenageado neste...",
+      "url": "https://www.brasildefato.com.br/2026/07/25/milei-e-tarcisio-nao-falam-com-a-imprensa-em-encontro-de-homenagem-ao-argentino/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-25T13:58:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_dd0933bb7608",
@@ -322,13 +328,13 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.11,
+    "average": 4.95,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
-      "left": 3,
+      "left": 4,
       "centerLeft": 1,
-      "center": 11,
+      "center": 10,
       "centerRight": 3,
       "right": 1,
       "unknown": 1
