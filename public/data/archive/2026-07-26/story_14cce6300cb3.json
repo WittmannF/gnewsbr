@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k2ejVMWUVSSGhDcFA1Vks0bV9DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k2ejVMWUVSSGhDcFA1Vks0bV9DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Polícia mata suspeito de ataque na Parada LGBT+ de Berlim",
+  "title": "Polícia mata suspeito de ataque em Berlim",
   "summary": "Homem atropelou multidão que participava da parada LGBT+ da capital alemã; uma pessoa morreu e 29 ficaram feridas.",
   "topic": "Berlim · Ataque",
   "topicKeywords": [
     "berlim",
     "ataque",
     "suspeito",
-    "parada",
     "polícia",
-    "orgulho"
+    "parada",
+    "morto"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Equipes-de-emergencia-foram-mobilizadas-apos-veiculo-atropelar-varias-pessoas-na-Alemanha.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-25T21:54:00+00:00",
-  "updatedAt": "2026-07-26T22:35:04.136645+00:00",
+  "updatedAt": "2026-07-26T23:30:40.688762+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-26T18:25:59+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Equipes-de-emergencia-foram-mobilizadas-apos-veiculo-atropelar-varias-pessoas-na-Alemanha.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -60,20 +66,6 @@
       "publishedAt": "2026-07-26T14:09:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/26/17850741526a6611e8c1b38_1785074152_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f96a8da3ef0c",
-      "title": "Ataque em Berlim acirra embates sobre política migratória",
-      "description": "Após atentado contra Parada do Orgulho LGBTQ+, políticos cobram medidas mais duras contra terrorismo e imigração. Em homenagem às vítimas,...",
-      "url": "https://www.dw.com/pt-br/ataque-em-berlim-acirra-embates-sobre-pol%C3%ADtica-migrat%C3%B3ria-na-alemanha/a-78122840",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-07-26T21:47:34+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://static.dw.com/image/78122831_6.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -100,10 +92,24 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-07-25T23:05:17+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
+      "postedLabel": "ontem",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/1d7d/live/e1d4e690-8919-11f1-b2ab-0dd01740f9f6.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_982a186245cc",
+      "title": "Parada do Orgulho em Berlim: atropelamento deixa ao menos um morto e 15 feridos",
+      "description": "Ao menos uma pessoa morreu e outras 15 ficaram feridas, entre elas “algumas com gravidade”, após um atropelamento à margem da Parada do...",
+      "url": "https://www.estadao.com.br/internacional/parada-do-orgulho-em-berlim-atropelamento-deixa-ao-menos-um-morto-e-15-feridos-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-26T01:08:10+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_ed4e539b50a5",
@@ -142,38 +148,24 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-07-26T17:41:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_982a186245cc",
-      "title": "Parada do Orgulho em Berlim: atropelamento deixa ao menos um morto e 15 feridos",
-      "description": "Ao menos uma pessoa morreu e outras 15 ficaram feridas, entre elas “algumas com gravidade”, após um atropelamento à margem da Parada do...",
-      "url": "https://www.estadao.com.br/internacional/parada-do-orgulho-em-berlim-atropelamento-deixa-ao-menos-um-morto-e-15-feridos-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-26T01:08:10+00:00",
+      "id": "article_1fed85950cb6",
+      "title": "Atentado em Berlim amplia onda de atropelamentos em massa",
+      "description": "O ataque contra participantes da Parada LGBTQ+ na capital alemã se soma a uma série de casos em que veículos foram usados como armas para...",
+      "url": "https://www.dw.com/pt-br/atentado-em-berlim-amplia-onda-de-atropelamentos-em-massa/a-78121638",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-07-26T17:17:22+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_2f21d1db7b24",
-      "title": "Alemanha faz caçada por suspeitos de ataque em parada LGBTI",
-      "description": "Van atingiu grupo perto da festa do Orgulho em Berlim; uma mulher morreu e 16 pessoas ficaram feridas. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-internacional/alemanha-faz-cacada-por-suspeitos-de-ataque-em-parada-lgbti/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-26T12:37:06+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_b1a9bee6abf2",
@@ -187,6 +179,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_2f21d1db7b24",
+      "title": "Alemanha faz caçada por suspeitos de ataque em parada LGBTI",
+      "description": "Van atingiu grupo perto da festa do Orgulho em Berlim; uma mulher morreu e 16 pessoas ficaram feridas. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-internacional/alemanha-faz-cacada-por-suspeitos-de-ataque-em-parada-lgbti/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-26T12:37:06+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -204,15 +210,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_61915b50b12e",
-      "title": "Vídeo. Alemanha: flores e velas após ataque mortal no festival do Orgulho em Berlim",
-      "description": "Vídeo. Em Berlim, moradores depositaram flores e velas junto a um memorial perto da Porta de Brandemburgo, enquanto equipas desmontavam...",
-      "url": "https://pt.euronews.com/video/2026/07/26/alemanha-flores-e-velas-apos-ataque-mortal-no-festival-do-orgulho-em-berlim",
+      "id": "article_426fd2aa7671",
+      "title": "Governo alemão: ataque em marcha LGBT de Berlim foi \"atentado terrorista islâmico\"",
+      "description": "Chanceler Friedrich Merz (CDU) promete rápido esclarecimento e ação após o ataque. Uma mulher morreu, 29 feridos; o suspeito, ligado a...",
+      "url": "https://pt.euronews.com/my-europe/2026/07/26/alemanha-merz-apos-atentado-no-csd-promete-vamos-defender-a-liberdade",
       "source": "Euronews.com",
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-07-26T19:54:09+00:00",
-      "postedLabel": "2 horas atrás",
+      "publishedAt": "2026-07-26T16:53:08+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,10 +232,24 @@
       "sourceCanonical": "Público",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-07-26T17:52:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_a75ebadf1764",
+      "title": "Suspeito do ataque em Berlim durante o Pride é morto pela polícia",
+      "description": "Investing.com - O suspeito de ter realizado o ataque fatal no sábado durante as celebrações do Pride LGBTQ em Berlim foi morto pela polícia...",
+      "url": "https://br.investing.com/news/general-news/suspeito-do-ataque-em-berlim-durante-o-pride-e-morto-pela-policia-2013870",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-07-26T19:43:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_cd7728812119",
@@ -240,7 +260,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-07-26T17:48:11+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,7 +274,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-26T17:18:08+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -268,7 +288,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-07-26T19:43:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -300,34 +320,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_d0aba1cafdcf",
-      "title": "Autor de atentado em Berlim é simpatizante do Estado Islâmico",
-      "description": "O autor do atropelamento múltiplo na parada LGBTQIA+ em Berlim, que deixou um morto e 29 pessoas feridas neste sábado (25), é simpatizante...",
-      "url": "https://pleno.news/mundo/autor-de-atentado-em-berlim-e-simpatizante-do-estado-islamico.html",
-      "source": "Pleno.News",
-      "sourceCanonical": "Pleno.News",
-      "sourceDomain": "pleno.news",
-      "publishedAt": "2026-07-26T15:35:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.44,
+    "average": 5.22,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 4,
-      "center": 8,
+      "center": 9,
       "centerRight": 3,
-      "right": 2,
+      "right": 1,
       "unknown": 2
     }
   },
