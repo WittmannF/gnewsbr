@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pTOUlUUEVSRVRQNEUzTGRScXhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pTOUlUUEVSRVRQNEUzTGRScXhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 1,
-      "topic-5": 7
+      "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Cleitinho lidera cenários de 1º e 2º turnos em MG, diz Quaest",
   "summary": "Sem o senador, Mateus Simões empata tecnicamente com Patrus Ananias e Alexandre Kalil. Leia no Poder360.",
@@ -28,13 +34,13 @@
     "cleitinho",
     "quaest",
     "minas",
-    "genial",
+    "lidera",
     "pesquisa",
-    "lidera"
+    "genial"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/07/cleitinho-azevedo-848x477.jpg",
   "publishedAt": "2026-07-26T22:47:31+00:00",
-  "updatedAt": "2026-07-28T16:49:31.453855+00:00",
+  "updatedAt": "2026-07-28T17:48:26.307517+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-28T11:41:17+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/07/cleitinho-azevedo-848x477.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -67,18 +73,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_7f5e5fa50d36",
-      "title": "O novo cenário eleitoral em Minas após definição de nome pelo PT, segundo pesquisa Quaest",
-      "description": "Cleitinho mantém liderança e chegada de Patrus Ananias embaralha ainda mais o segundo lugar, indica levantamento publicado nesta...",
-      "url": "https://veja.abril.com.br/brasil/o-novo-cenario-eleitoral-em-mg-apos-definicao-de-nome-pelo-pt-segundo-pesquisa-quaest/",
+      "id": "article_42f653c00215",
+      "title": "O que explica o favoritismo do candidato que lidera a pesquisa Quaest em Minas Gerais",
+      "description": "Senador do Republicanos transformou as redes sociais em principal ativo da pré-campanha e conquistou eleitores insatisfeitos com a política...",
+      "url": "https://veja.abril.com.br/politica/o-que-explica-o-favoritismo-do-candidato-que-lidera-a-pesquisa-quaest-ee-minas-gerais/",
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-28T10:01:07+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-07-28T16:20:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/cleitinho-kalil-patrus.jpg?quality=70&strip=info&resize=1080,565&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_251a84b9b3f2",
+      "title": "Genial/Quaest: Cleitinho Azevedo lidera disputa pelo governo de MG",
+      "description": "Senador aparece com vantagem confortável no primeiro turno em cenário de aprovação majoritária da atual gestão estadual.",
+      "url": "https://jovempan.com.br/politica/genial-quaest-cleitinho-azevedo-lidera-disputa-pelo-governo-de-mg/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-07-28T10:20:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/04/cleitinho-morning.png?w=1200&h=600&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_c2600687d64c",
@@ -95,6 +115,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_3d341723885e",
+      "title": "Genial/Quaest: Cleitinho segue na liderança de cenários de 1º e 2º turno para o governo de MG",
+      "description": "Senador mantém liderança registrada na rodada anterior da pesquisa, divulgada em abril; Marília Campos (PT) e Aécio Neves (PSDB) despontam...",
+      "url": "https://www.estadao.com.br/politica/genialquaest-cleitinho-segue-na-lideranca-de-cenarios-de-1-e-2-turno-para-o-governo-de-mg/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-28T17:24:39+00:00",
+      "postedLabel": "23 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_a80e6944bf1e",
       "title": "Genial/Quaest: pesquisa para governador de Minas Gerais",
       "description": "Cleitinho (Republicanos) lidera os três cenários estimulados de primeiro turno em que aparece com mais de 20 pontos percentuais de vantagem...",
@@ -109,20 +143,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_3d341723885e",
-      "title": "Genial/Quaest: Cleitinho segue na liderança de cenários de 1º e 2º turno para o governo de MG",
-      "description": "Senador mantém liderança registrada na rodada anterior da pesquisa, divulgada em abril; Marília Campos (PT) e Aécio Neves (PSDB) despontam...",
-      "url": "https://www.estadao.com.br/politica/genialquaest-cleitinho-segue-na-lideranca-de-cenarios-de-1-e-2-turno-para-o-governo-de-mg/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-28T10:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_3c165ea61797",
       "title": "Pesquisa Quaest mostra os cenários para o governo de MG em 1º e 2º turnos",
       "description": "Um levantamento divulgado nesta terça-feira 28 pelo instituto Quaest e pela Genial Investimentos mostra as preferências do eleitorado...",
@@ -131,7 +151,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-07-28T11:44:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -151,34 +171,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_251a84b9b3f2",
-      "title": "Genial/Quaest: Cleitinho Azevedo lidera disputa pelo governo de MG",
-      "description": "Senador aparece com vantagem confortável no primeiro turno em cenário de aprovação majoritária da atual gestão estadual.",
-      "url": "https://jovempan.com.br/politica/genial-quaest-cleitinho-azevedo-lidera-disputa-pelo-governo-de-mg/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-07-28T10:20:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_f6c661d16f70",
-      "title": "Quem são os pré-candidatos mais rejeitados em Minas segundo a Genial/Quaest",
-      "description": "Pesquisa mediu três indicadores para cada liderança política: percentual dos que conhecem e votariam, dos que não conhecem e dos que...",
-      "url": "https://www.em.com.br/politica/2026/07/7469162-quem-sao-os-pre-candidatos-mais-rejeitados-em-minas-segundo-a-genial-quaest.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-07-28T12:40:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_d4efd2c464bd",
       "title": "Líder na disputa pelo governo de Minas Gerais conforme pesquisa Quaest pode desistir das eleições; veja números",
       "description": "Na outra ponta da pesquisa, Alexandre Kalil (PDT) é o candidato mais rejeitado pelos eleitores mineiros…",
@@ -187,24 +179,10 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-07-28T14:25:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_1ea566a4779c",
-      "title": "O acordo costurado em Minas Gerais que passa pela desistência de Cleitinho",
-      "description": "Lideranças políticas de Minas Gerais foram avisadas de que Cleitinho deve anunciar, nas próximas horas, que não disputará o governo do...",
-      "url": "https://platobr.com.br/o-acordo-costurado-em-minas-gerais-que-passa-pela-desistencia-de-cleitinho",
-      "source": "PlatôBR",
-      "sourceCanonical": "PlatôBR",
-      "sourceDomain": "platobr.com.br",
-      "publishedAt": "2026-07-28T12:41:41+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_9f47ca379295",
@@ -215,24 +193,24 @@
       "sourceCanonical": "Jornal do Brasil",
       "sourceDomain": "jb.com.br",
       "publishedAt": "2026-07-28T12:01:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_df86dd9f603f",
-      "title": "PL de Minas termina convenção sem candidato ao governo e lança Domingos Sávio ao Senado",
-      "description": "A convenção do PL em Minas Gerais, realizada nesta segunda-feira (27), terminou sem a definição de um candidato que disputará o comando do...",
-      "url": "https://www.folhape.com.br/politica/pl-de-minas-termina-convencao-sem-candidato-ao-governo-e-lanca/502943/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-07-27T22:28:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_1ea566a4779c",
+      "title": "O acordo costurado em Minas Gerais que passa pela desistência de Cleitinho",
+      "description": "Lideranças políticas de Minas Gerais foram avisadas de que Cleitinho deve anunciar, nas próximas horas, que não disputará o governo do...",
+      "url": "https://platobr.com.br/o-acordo-costurado-em-minas-gerais-que-passa-pela-desistencia-de-cleitinho",
+      "source": "PlatôBR",
+      "sourceCanonical": "PlatôBR",
+      "sourceDomain": "platobr.com.br",
+      "publishedAt": "2026-07-28T12:41:41+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_aa889e367dbe",
@@ -249,20 +227,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e72f055b226e",
-      "title": "Patrus e Kalil em situação de empate técnico",
-      "description": "Primeira Genial Quaest divulgada após a definição da candidatura do PT em Minas, aponta para uma disputa acirrada pela segunda posição.",
-      "url": "https://www.itatiaia.com.br/colunas/bertha-maakaroun/politica/patrus-e-kalil-em-situacao-de-empate-tecnico/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-07-28T11:57:39+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_4df7df6f111a",
       "title": "Eleições 2026: Cleitinho lidera cenários para o governo de MG",
       "description": "Um levantamento do Instituto Genial/Quaest, divulgado nesta terça-feira (28), mostra que o senador Cleitinho Azevedo (Republicanos-MG)...",
@@ -271,7 +235,7 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-07-28T13:31:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -291,18 +255,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_ceefed11737c",
-      "title": "Nikolas diz ter ressalvas a Cleitinho, mas acredita que candidatura do senador fará bem a Minas",
-      "description": "O deputado federal Nikolas Ferreira (PL) e o pré-candidato ao governo do estado, Vittorio Medioli (PL), durante convenção da legenda nesta...",
-      "url": "https://www.otempo.com.br/eleicoes/2026/2026/7/27/nikolas-diz-ter-ressalvas-a-cleitinho-mas-acredita-que-candidatura-do-senador-fara-bem-a-minas",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-07-27T21:16:10+00:00",
-      "postedLabel": "hoje",
+      "id": "article_8ad0cca4deac",
+      "title": "Ainda sem anunciar candidatura, Cleitinho sonda nomes para eventual secretariado",
+      "description": "Senador faz mistério sobre sua candidatura ao governo de Minas, mas aliados garantem que ele estará na disputa pelo Palácio Tiradentes.",
+      "url": "https://www.itatiaia.com.br/politica/poder-em-minas/ainda-sem-anunciar-candidatura-cleitinho-sonda-nomes-para-eventual-secretariado/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-07-28T13:43:22+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_df86dd9f603f",
+      "title": "PL de Minas termina convenção sem candidato ao governo e lança Domingos Sávio ao Senado",
+      "description": "A convenção do PL em Minas Gerais, realizada nesta segunda-feira (27), terminou sem a definição de um candidato que disputará o comando do...",
+      "url": "https://www.folhape.com.br/politica/pl-de-minas-termina-convencao-sem-candidato-ao-governo-e-lanca/502943/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-07-27T22:28:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_eddef664e992",
@@ -317,21 +295,49 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_1351e50c1b83",
+      "title": "Presidente do PL coloca no arco de alianças partidos tratados como apoio certo por Simões",
+      "description": "O presidente estadual do PL, deputado federal Zé Vitor, afirmou nesta segunda-feira (27/7) que o arco de alianças da legenda para a disputa...",
+      "url": "https://www.otempo.com.br/eleicoes/2026/2026/7/27/presidente-do-pl-coloca-no-arco-de-aliancas-partidos-tratados-como-apoio-certo-por-simoes",
+      "source": "O TEMPO",
+      "sourceCanonical": "O Tempo",
+      "sourceDomain": "otempo.com.br",
+      "publishedAt": "2026-07-27T20:52:49+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0775c6f2f26a",
+      "title": "PL aguarda decisão de Cleitinho sobre candidatura para definir futuro de Medioli e Roscoe",
+      "description": "No aguardo de uma posição de Cleitinho Azevedo (Republicanos), o Partido Liberal (PL) adiou a decisão de lançar candidatura própria ao...",
+      "url": "https://www.hojeemdia.com.br/politica/pl-aguarda-decis-o-de-cleitinho-sobre-candidatura-para-definir-futuro-de-medioli-e-roscoe-1.1126750",
+      "source": "Hoje em Dia",
+      "sourceCanonical": "Hoje em Dia",
+      "sourceDomain": "hojeemdia.com.br",
+      "publishedAt": "2026-07-27T19:40:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.41,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.44,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
       "right": 2,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
