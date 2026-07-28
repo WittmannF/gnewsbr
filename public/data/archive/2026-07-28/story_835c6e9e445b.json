@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 4
+      "topic-9": 2
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/vwv4M9nk0ogQXObt4O2Aq7w7-98=/3072x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/K/v/lc64M6RdAf4CJlgoTerA/lake-cancer-outbreak-1.jpg",
   "publishedAt": "2026-07-23T21:44:02+00:00",
-  "updatedAt": "2026-07-28T05:30:14.525019+00:00",
+  "updatedAt": "2026-07-28T07:22:38.927255+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Cientistas descobrem câncer transmissível em peixe de água doce",
       "description": "Estudo publicado na revista Nature identificou um melanoma capaz de passar de um peixe para outro, um fenômeno extremamente raro e inédito.",
       "url": "https://www.terra.com.br/noticias/mundo/cientistas-descobrem-cancer-transmissivel-em-peixe-de-agua-doce,e55af68d1cc57a1fb00a92aa9fe59920n59fv4c6.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-27T07:58:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/07/27/captura-de-tela-2026-07-26-235905-rl5589wvlyk8.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a3efc9910972",
@@ -101,7 +101,7 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-27T15:38:57+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Cancer-transmissivel-entenda-caso-raro-entre-peixes-em-lago-famoso-nos-EUA.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -114,7 +114,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-28T02:20:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -190,20 +190,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c0b9a2c7c36a",
-      "title": "Câncer contagioso é descoberto em bagres e pode ‘invadir’ animais",
-      "description": "Cientistas da Universidade de Vermont descobrem em bagres o primeiro câncer transmissível entre peixes, cujas células tumorais passam de um...",
-      "url": "https://primeirapagina.com.br/ciencia/cancer-contagioso-que-age-como-parasita-e-descoberto-em-bagres/",
-      "source": "Primeira Página",
-      "sourceCanonical": "Primeira Página",
-      "sourceDomain": "primeirapagina.com.br",
-      "publishedAt": "2026-07-23T21:44:02+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_94a3b2476c66",
       "title": "Cientistas encontram câncer que passa entre peixes pela água",
       "description": "Estudo revela que bagres de um lago na fronteira entre EUA e Canadá sofrem com uma forma rara de câncer contagioso.",
@@ -213,6 +199,20 @@
       "sourceDomain": "aqui.uai.com.br",
       "publishedAt": "2026-07-27T21:58:58+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_c0b9a2c7c36a",
+      "title": "Câncer contagioso é descoberto em bagres e pode ‘invadir’ animais",
+      "description": "Cientistas da Universidade de Vermont descobrem em bagres o primeiro câncer transmissível entre peixes, cujas células tumorais passam de um...",
+      "url": "https://primeirapagina.com.br/ciencia/cancer-contagioso-que-age-como-parasita-e-descoberto-em-bagres/",
+      "source": "Primeira Página",
+      "sourceCanonical": "Primeira Página",
+      "sourceDomain": "primeirapagina.com.br",
+      "publishedAt": "2026-07-23T21:44:02+00:00",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.54,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.58,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 7,
+      "center": 6,
       "centerRight": 2,
       "right": 1,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
