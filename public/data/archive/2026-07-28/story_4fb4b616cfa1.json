@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 12,
-      "topic-5": 20
+      "topic-5": 21
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 12,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/SnmBJoXP57YTOXKMqPYEUFtHFvw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Y/s/mW7GKFSAWYo3Q7gGSNnA/intencao-de-voto-para-governador-no-1-turno-rio-de-janeiro-c1.jpg",
   "publishedAt": "2026-07-21T07:00:00+00:00",
-  "updatedAt": "2026-07-28T01:49:02.910331+00:00",
+  "updatedAt": "2026-07-28T03:17:02.540212+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -183,14 +183,14 @@
       "title": "Genial/Quaest: Paes vence simulações de 1º e 2º turno no RJ",
       "description": "Levantamento da Genial/Quaest sobre o cenário eleitoral do Rio de Janeiro aponta que o ex-prefeito do Rio, Eduardo Paes (PSD),...",
       "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/genialquaest-paes-vence-simulacoes-de-1-e-2-turno-no-rj,fe5bceab6de515aded09f73f691da20457k02wn5.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-27T10:10:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_6c2ab7f46f67",
@@ -291,20 +291,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_985682bff882",
-      "title": "Eduardo Paes e Sergio Moro lideram corrida aos governos do RJ e PR",
-      "description": "Novas pesquisas QUAEST de intenção de voto para governador apontam Eduardo Paes na liderança no Rio de Janeiro e Sergio Moro à frente no...",
-      "url": "https://www.band.com.br/noticias/jornal-da-band/videos/eduardo-paes-e-sergio-moro-lideram-corrida-aos-governos-do-rj-e-pr-202607272001",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-07-27T23:01:13+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e4e38e1121bf",
       "title": "Confira os cenários eleitorais no RJ, PR e PA",
       "description": "Confira a análise detalhada dos cenários eleitorais no RJ, PR e PA divulgados na nova Pesquisa Genial/Quaest para governo, Senado e...",
@@ -317,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_985682bff882",
+      "title": "Eduardo Paes e Sergio Moro lideram corrida aos governos do RJ e PR",
+      "description": "Novas pesquisas QUAEST de intenção de voto para governador apontam Eduardo Paes na liderança no Rio de Janeiro e Sergio Moro à frente no...",
+      "url": "https://www.band.com.br/noticias/jornal-da-band/videos/eduardo-paes-e-sergio-moro-lideram-corrida-aos-governos-do-rj-e-pr-202607272001",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-07-27T23:01:13+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
     "average": 5.06,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
-      "center": 9,
+      "center": 8,
       "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
