@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 22
+      "topic-7": 24
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/07/ChatGPT-Image-28-de-jul.-de-2026-14_48_37.png?w=1200&quality=88&strip=all",
   "publishedAt": "2026-07-20T16:24:00+00:00",
-  "updatedAt": "2026-07-29T17:55:33.584104+00:00",
+  "updatedAt": "2026-07-29T18:49:18.964655+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Prolongamento da guerra no Oriente Médio faz com que os EUA revivam traumas; veja análise",
       "description": "Prolongamento da guerra tem diminuído apoio de Donald Trump e se assemelha ao que foi visto nos conflitos do Iraque e Afeganistão.",
       "url": "https://noticias.r7.com/internacional/prolongamento-da-guerra-no-oriente-medio-faz-com-que-os-eua-revivam-traumas-veja-analise-28072026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-28T22:43:36+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c5be744f79fc",
@@ -152,14 +152,14 @@
       "title": "Espiral infinita",
       "description": "A guerra se alastra pelo Golfo Pérsico e engole o comércio mundial de petróleo e as pretensões eleitorais de Trump.",
       "url": "https://www.cartacapital.com.br/mundo/espiral-infinita/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-07-23T20:27:00+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c16063eac93a",
@@ -236,11 +236,11 @@
       "title": "Conflito com o Irã aumenta pressão sobre Trump, afirma professora",
       "description": "O presidente dos Estados Unidos, Donald Trump, deixou o conflito com o Irã politicamente mais fragilizado, segundo avaliação da professora de Relações...",
       "url": "https://www.gazetadevarginha.com.br/post/conflito-com-o-ir%C3%A3-aumenta-press%C3%A3o-sobre-trump-afirma-professora",
-      "source": "gazetadevarginha.com.br",
-      "sourceCanonical": "gazetadevarginha.com.br",
+      "source": "Gazeta De Varginha",
+      "sourceCanonical": "Gazeta De Varginha",
       "sourceDomain": "gazetadevarginha.com.br",
       "publishedAt": "2026-07-29T13:06:05+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 7,
+    "average": 4.18,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 2,
       "center": 5,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
