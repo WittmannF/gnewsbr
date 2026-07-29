@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 23
+      "topic-7": 22
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 22,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/07/ChatGPT-Image-28-de-jul.-de-2026-14_48_37.png?w=1200&quality=88&strip=all",
   "publishedAt": "2026-07-20T16:24:00+00:00",
-  "updatedAt": "2026-07-29T16:51:41.840217+00:00",
+  "updatedAt": "2026-07-29T17:55:33.584104+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-07-28T17:54:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/07/ChatGPT-Image-28-de-jul.-de-2026-14_48_37.png?w=1200&quality=88&strip=all",
       "spectrumScore": 1,
       "bucket": "left"
@@ -92,6 +92,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_f83ce963f4a6",
+      "title": "Prolongamento da guerra no Oriente Médio faz com que os EUA revivam traumas; veja análise",
+      "description": "Prolongamento da guerra tem diminuído apoio de Donald Trump e se assemelha ao que foi visto nos conflitos do Iraque e Afeganistão.",
+      "url": "https://noticias.r7.com/internacional/prolongamento-da-guerra-no-oriente-medio-faz-com-que-os-eua-revivam-traumas-veja-analise-28072026/",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-07-28T22:43:36+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_c5be744f79fc",
       "title": "Guerra ao Irã é rejeitada por 62% dos norte-americanos, diz pesquisa",
       "description": "Apoio à guerra contra o Irã chegou ao menor nível desde o início do conflito, conforme pesquisa Reuters/Ipsos divulgada no domingo...",
@@ -106,25 +120,11 @@
       "bucket": "center"
     },
     {
-      "id": "article_f83ce963f4a6",
-      "title": "Prolongamento da guerra no Oriente Médio faz com que os EUA revivam traumas; veja análise",
-      "description": "Prolongamento da guerra tem diminuído apoio de Donald Trump e se assemelha ao que foi visto nos conflitos do Iraque e Afeganistão.",
-      "url": "https://noticias.r7.com/internacional/prolongamento-da-guerra-no-oriente-medio-faz-com-que-os-eua-revivam-traumas-veja-analise-28072026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-07-28T22:43:36+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_f362d799caa3",
       "title": "Como a guerra no Irã fortalece parceria entre países árabes",
       "description": "Conflito alterou estrutura de segurança das nações no Golfo Pérsico. Governos agora precisam agir em cooperação, ouvindo os EUA, mas sem cortar relações com...",
       "url": "https://www.dw.com/pt-br/como-a-guerra-no-ir%C3%A3-fortalece-a-parceria-entre-pa%C3%ADses-%C3%A1rabes/a-78111913",
-      "source": "dw.com",
+      "source": "DW.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-07-25T11:07:11+00:00",
@@ -240,7 +240,7 @@
       "sourceCanonical": "gazetadevarginha.com.br",
       "sourceDomain": "gazetadevarginha.com.br",
       "publishedAt": "2026-07-29T13:06:05+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 7,
-    "average": 4.4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 6,
+    "average": 4.11,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 5,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
