@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSSHduNjVEMzE2dHF5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSSHduNjVEMzE2dHF5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 9,
       "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 9,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Irã lança mísseis contra forças dos EUA na região",
   "summary": "Guarda Revolucionária Islâmica teria lançado múltiplos mísseis balísticos contra alvos americanos no Oriente Médio; todos os projéteis foram...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/1_39b913.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-27T11:42:00+00:00",
-  "updatedAt": "2026-07-29T07:16:24.301530+00:00",
+  "updatedAt": "2026-07-29T08:06:45.060413+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,18 +73,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_2b902e0d3afb",
-      "title": "Irã contraria Trump e diz que não há negociações",
-      "description": "Vice-chanceler iraniano diz que único diálogo ativo é com Omã sobre o estreito de Ormuz. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-internacional/ira-contraria-trump-e-diz-que-nao-ha-negociacoes/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-28T21:26:07+00:00",
+      "id": "article_317dc255f392",
+      "title": "Trump ameaça retomar ataques ao Irã caso acordo nuclear não avance",
+      "description": "Presidente dos EUA afirma que Teerã está próximo de aceitar compromisso, enquanto Omã propõe gestão compartilhada do Estreito de Ormuz.",
+      "url": "https://www.estadao.com.br/internacional/trump-ameaca-retomar-ataques-ao-ira-caso-acordo-nuclear-nao-avance-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-28T14:01:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/03/eua-ira-guerra-conflito-bandeira-848x477.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/4LXRW74DRZESZIAP5PRDQWHQMU.jpg?quality=80&auth=20ac8f12c5f9710b0654c432591895958f20d1442787eb8ef43728e2d26f4b17&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_839151394142",
@@ -109,18 +115,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_317dc255f392",
-      "title": "Trump ameaça retomar ataques ao Irã caso acordo nuclear não avance",
-      "description": "Presidente dos EUA afirma que Teerã está próximo de aceitar compromisso, enquanto Omã propõe gestão compartilhada do Estreito de Ormuz.",
-      "url": "https://www.estadao.com.br/internacional/trump-ameaca-retomar-ataques-ao-ira-caso-acordo-nuclear-nao-avance-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-28T14:01:00+00:00",
+      "id": "article_2b902e0d3afb",
+      "title": "Irã contraria Trump e diz que não há negociações",
+      "description": "Vice-chanceler iraniano diz que único diálogo ativo é com Omã sobre o estreito de Ormuz. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-internacional/ira-contraria-trump-e-diz-que-nao-ha-negociacoes/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-28T21:26:07+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_239d0ad16a4e",
@@ -165,6 +171,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_31310610284f",
+      "title": "EUA afirma ter interceptado ataques do Irã no Oriente Médio, logo após reunião de Trump e Netanyahu",
+      "description": "A tensão no Oriente Médio voltou a aumentar nesta terça-feira após o Exército dos Estados Unidos anunciar a interceptação de mísseis...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/eua-afirma-ter-interceptado-ataques-do-ira-no-oriente-medio-logo-apos-reuniao-de-trump-e-netanyahu-1.1734944",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-07-29T01:49:14+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_912be312cd02",
       "title": "Trump diz haver ‘boas chances’ de alcançar acordo com Irã",
       "description": "O presidente dos Estados Unidos, Donald Trump, mostrou-se otimista nesta segunda-feira 27 quanto à possibilidade de alcançar um acordo com o...",
@@ -177,20 +197,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_31310610284f",
-      "title": "EUA afirma ter interceptado ataques do Irã no Oriente Médio, logo após reunião de Trump e Netanyahu",
-      "description": "A tensão no Oriente Médio voltou a aumentar nesta terça-feira após o Exército dos Estados Unidos anunciar a interceptação de mísseis...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/eua-afirma-ter-interceptado-ataques-do-ira-no-oriente-medio-logo-apos-reuniao-de-trump-e-netanyahu-1.1734944",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-07-29T01:49:14+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_af40d1704877",
@@ -249,20 +255,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_eb2180caa64a",
-      "title": "EUA acusa Irã de romper trégua informal e atacar bases do país",
-      "description": "De acordo com o Comando Central dos Estados Unidos (Centcom), ataque surpresa com mísseis foi interceptado pela defesa aérea...",
-      "url": "https://www.metropoles.com/mundo/eua-acusa-ira-de-romper-tregua-informal-e-atacar-bases-do-pais",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-28T22:58:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_750d278082cd",
       "title": "Trump diz que estão ocorrendo conversas \"muito amigáveis\" com o Irã",
       "description": "O ​presidente dos ​Estados Unidos, Donald ⁠Trump, afirmou ‌nesta segunda-feira que ‌os ‌EUA vêm ...",
@@ -271,6 +263,20 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-28T07:29:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_eb2180caa64a",
+      "title": "EUA acusa Irã de romper trégua informal e atacar bases do país",
+      "description": "De acordo com o Comando Central dos Estados Unidos (Centcom), ataque surpresa com mísseis foi interceptado pela defesa aérea...",
+      "url": "https://www.metropoles.com/mundo/eua-acusa-ira-de-romper-tregua-informal-e-atacar-bases-do-pais",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-07-28T22:58:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -313,7 +319,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-07-29T05:54:51+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
