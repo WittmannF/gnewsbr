@@ -3,35 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kweWJ6TkVSRWZyT2wtRTdLeTZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kweWJ6TkVSRWZyT2wtRTdLeTZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 12
+      "topic-3": 11,
+      "topic-5": 17
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 11,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Rio Grande do Sul segue sob alerta de tempestades severas",
   "summary": "Aviso do Inmet prevê chuva acima de 100 mm, ventos intensos e risco de alagamentos no estado gaúcho; veja locais afetados.",
-  "topic": "Chuva · Chuvas",
+  "topic": "Chuva · Alerta",
   "topicKeywords": [
     "chuva",
-    "chuvas",
     "alerta",
+    "chuvas",
     "rio",
     "inmet",
     "sul"
   ],
   "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1734791:1785259545/DSC_3422.jpeg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=10a6204",
   "publishedAt": "2026-07-20T07:00:00+00:00",
-  "updatedAt": "2026-07-29T11:52:49.597623+00:00",
+  "updatedAt": "2026-07-29T12:54:18.503277+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +103,7 @@
       "sourceCanonical": "BOL",
       "sourceDomain": "bol.uol.com.br",
       "publishedAt": "2026-07-28T12:23:38+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -260,6 +263,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_374a11e987f6",
+      "title": "Norte do RS revive drama das enchentes e expõe vulnerabilidade de famílias e produtores rurais",
+      "description": "Perdas na agricultura, comunidades alagadas e pontes interditadas, impactos de um dia em que choveu 70% da média prevista para todo o mês.",
+      "url": "https://www.ihu.unisinos.br/668773-norte-do-rs-revive-drama-das-enchentes-e-expoe-vulnerabilidade-de-familias-e-produtores-rurais",
+      "source": "Instituto Humanitas Unisinos - IHU",
+      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "sourceDomain": "ihu.unisinos.br",
+      "publishedAt": "2026-07-23T09:28:10+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_5dd050817963",
       "title": "Chuvas que ultrapassam 150 mm e temperaturas de até 40°C: como fica o tempo no fim de julho e começo de agosto?",
       "description": "A atuação de um rio atmosférico entre esta segunda-feira (20) e terça-feira (21) mantém o alerta para temporais no Sul do Brasil,...",
@@ -300,45 +317,32 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_004f5c125a14",
-      "title": "Chuvas acima de 100mm devem atingir RS na próxima semana, segundo meteorologistas",
-      "description": "Estado – Volumes excessivos de chuvas devem atingir diferentes regiões do estado, na próxima semana, de acordo com projeções de...",
-      "url": "https://www.jornalrepercussao.com.br/clima/chuvas-acima-de-100mm-devem-atingir-rs-na-proxima-semana-segundo-meteorologistas",
-      "source": "Jornal Repercussão",
-      "sourceCanonical": "Jornal Repercussão",
-      "sourceDomain": "jornalrepercussao.com.br",
-      "publishedAt": "2026-07-24T13:49:51+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.2,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
