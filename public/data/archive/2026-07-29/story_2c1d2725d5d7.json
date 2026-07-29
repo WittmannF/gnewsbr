@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 30
+      "topic-9": 33
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenRank": 33,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/sonda-nasa-marte.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-27T16:01:32+00:00",
-  "updatedAt": "2026-07-29T20:51:48.206524+00:00",
+  "updatedAt": "2026-07-29T21:48:41.855393+00:00",
   "sourceCount": 9,
   "articleCount": 9,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Nasa divulga 'time lapse' de Marte com imagens feitas por sonda espacial",
       "description": "A sonda Psyche passou por perto do planeta vermelho em seu caminho para o asteroide de mesmo nome, onde só chegará em 2029.",
       "url": "https://g1.globo.com/ciencia/noticia/2026/07/28/nasa-divulga-time-lapse-de-marte-com-imagens-feitas-por-sonda-espacial.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-28T16:20:31+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://s2-g1.glbimg.com/p6YsgfCFhyXtIFsaJmX1RLGuPM4=/2363x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/o/A0USw8T7Sq60OsrWZJOg/e2-pia26749-psyche-imager-mars-mosaic1-f247e-1-.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_316691db6f02",
@@ -72,7 +72,7 @@
       "sourceCanonical": "iG Último Segundo",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-07-29T15:27:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -157,7 +157,7 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-07-28T17:55:12+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/imagem-principal-nasa-divulga-time-lapse-de-marte-feito-pela-sonda-psyche-e2-pia26749-psyche-imager-mars-mosaic1-f247e-1.jpg",
       "spectrumScore": 2,
       "bucket": "left"
     }
@@ -165,23 +165,23 @@
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 4.4,
-    "knownCount": 5,
-    "unknownCount": 4,
+    "average": 4.25,
+    "knownCount": 4,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 4,
+      "center": 3,
       "centerRight": 0,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 78
+    "confidence": 75
   },
   "flags": [
     "Muitas fontes não classificadas",
