@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIMFpEU0VSSEdaMkdYUWllNmRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIMFpEU0VSSEdaMkdYUWllNmRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 14,
-      "topic-5": 3
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 17,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 14,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Mortes por ventos em São Paulo",
   "summary": "Ventos podem ser provocados por ciclones extratropicais, tempestades severas associadas a frentes frias, supercélulas com microexplosões...",
-  "topic": "Ventos · Paulo",
+  "topic": "Paulo · Litoral",
   "topicKeywords": [
-    "ventos",
     "paulo",
     "litoral",
     "ventania",
-    "vendaval",
-    "mortos"
+    "ventos",
+    "fortes",
+    "vento"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/ventos-fortes-sp-1.png?w=1200&h=630&crop=1",
-  "publishedAt": "2026-07-29T19:00:00+00:00",
-  "updatedAt": "2026-07-30T15:49:34.565187+00:00",
+  "publishedAt": "2026-07-28T21:29:37+00:00",
+  "updatedAt": "2026-07-30T16:43:17.058735+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -54,38 +60,38 @@
     },
     {
       "id": "article_c65137c4ac8d",
-      "title": "Câmera flagra árvore caindo e matando homem durante vendaval no litoral de SP",
+      "title": "Vídeo mostra momento em que árvore cai e mata homem durante vendaval no litoral de SP",
       "description": "Vítima estava sentada na mureta quando foi atingida pela árvore e caiu dentro do Canal 5, em Santos (SP).",
       "url": "https://g1.globo.com/sp/santos-regiao/noticia/2026/07/30/camara-flagra-arvore-caindo-e-matando-homem-durante-vendaval-no-litoral-de-sp.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-30T15:18:56+00:00",
-      "postedLabel": "30 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-g1.glbimg.com/-4wrI8sqh_DOZAa1DxadrzR1tCQ=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/7/KThK38RRy2erR260EoPg/arvore-12-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_4f1e8c915d02",
-      "title": "Ventos chegaram a 125 km/h em SP e 105 km/h no RJ; veja maiores rajadas",
-      "description": "Regiões mais afetadas foram o interior paulista, a Baixada Santista e a capital carioca; cinco pessoas morreram em decorrência do evento...",
-      "url": "https://www.cnnbrasil.com.br/nacional/brasil/ventos-chegaram-a-125-km-h-em-sp-e-105-km-h-no-rj-veja-maiores-rajadas/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-30T14:32:30+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/FERNANDA-APURACAO-CNN-BRASIL-13.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_1217ede48ffd",
+      "title": "O que explica os ventos de mais de 100 km/h que causaram mortes, destruição e apagões em SP e RJ",
+      "description": "Avanço de frente fria no Sudeste provocou ventania em algumas cidades que levou à queda de árvores, muros e destruição de residências;...",
+      "url": "https://www.bbc.com/portuguese/articles/cq89z5ekpzeo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-07-30T05:51:39+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/adfa/live/108d2920-8ba4-11f1-b2ab-0dd01740f9f6.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_faccf2d57bb8",
       "title": "Ventania deve continuar nesta quinta (30) em São Paulo e no Rio, mas em menor intensidade",
       "description": "Previsão indica que o tempo deve ser nublado com garoa em alguns momentos do dia nos dois estados.",
       "url": "https://www1.folha.uol.com.br/cotidiano/2026/07/ventania-deve-continuar-nesta-quinta-30-em-sao-paulo-e-no-rio-mas-em-menor-intensidade.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-07-30T02:52:00+00:00",
@@ -93,6 +99,34 @@
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/29/17853796356a6abb333d5a8_1785379635_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_552a56a197b8",
+      "title": "Mais de 80 voos foram afetados em aeroportos de SP e RJ por ventania",
+      "description": "Estados tiveram voos cancelados e alterações de rota devido as condições meteorológicas de quarta-feira (29); ventania causou cinco mortes.",
+      "url": "https://www.cnnbrasil.com.br/nacional/sudeste/mais-de-80-voos-foram-afetados-em-aeroportos-de-sp-e-rj-por-ventania/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-30T12:16:18+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_188cf6dbef7b",
+      "title": "Fortes rajadas de vento em SP: Defesa Civil envia alertas severos para o litoral e a Grande São Paulo; veja cuidados",
+      "description": "Mensagens foram disparadas para celulares da população nesta quarta-feira (29) diante da intensificação dos ventos.",
+      "url": "https://www.agenciasp.sp.gov.br/fortes-rajadas-de-vento-em-sp-defesa-civil-envia-alertas-severos-para-o-litoral-e-a-grande-sao-paulo-veja-orientacoes/",
+      "source": "agenciasp.sp.gov.br",
+      "sourceCanonical": "agenciasp.sp.gov.br",
+      "sourceDomain": "agenciasp.sp.gov.br",
+      "publishedAt": "2026-07-29T17:30:47+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0200909bc045",
@@ -109,46 +143,32 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_b5e0e9f6549f",
-      "title": "Pescador morre após barco naufragar em São Sebastião (SP) #shorts #falabrasil",
-      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
-      "url": "https://record.r7.com/fala-brasil/pescador-morre-apos-barco-naufragar-em-sao-sebastiao-sp-shorts-falabrasil-30072026/",
-      "source": "record.r7.com",
-      "sourceCanonical": "record.r7.com",
+      "id": "article_6c2920e13b56",
+      "title": "Fachada de comércio desaba sobre família em Santos (SP) durante ventania; veja o vídeo",
+      "description": "Subitamente, parte da estrutura do edifício cedeu e atingiu diretamente o pai e seu filho devido aos ventos de 125 km/h.",
+      "url": "https://record.r7.com/cidade-alerta/video/fachada-de-comercio-desaba-sobre-familia-em-santos-sp-durante-ventania-veja-o-video-29072026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
-      "publishedAt": "2026-07-30T14:08:19+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_1217ede48ffd",
-      "title": "O que explica os ventos de mais de 100 km/h que causaram mortes, destruição e apagões em SP e RJ",
-      "description": "Avanço de frente fria no Sudeste provocou ventania em algumas cidades que levou à queda de árvores, muros e destruição de residências;...",
-      "url": "https://www.bbc.com/portuguese/articles/cq89z5ekpzeo",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-07-30T05:51:39+00:00",
+      "publishedAt": "2026-07-29T21:59:39+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_ebf64ca30f55",
       "title": "Vídeos mostram barcos sendo arrastados devido a fortes ventos no litoral norte de SP",
       "description": "Os fortes ventos que atingiram o Estado de São Paulo nesta quarta-feira, 29, chegaram a arrastar barcos na costa das cidades litorâneas de...",
       "url": "https://www.terra.com.br/noticias/brasil/cidades/videos-mostram-barcos-sendo-arrastados-devido-a-fortes-ventos-no-litoral-norte-de-sp,67936d192b9b5ee05bdd398789af22fapntu8qyd.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-30T11:36:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_cbc4dca9a8a6",
@@ -173,24 +193,10 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-30T11:18:40+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_a10958502bde",
-      "title": "Ventania afeta operações dos aeroportos de Congonhas e Guarulhos",
-      "description": "Voos foram alterados e cancelados em Congonhas e Guarulhos.",
-      "url": "https://vejasp.abril.com.br/cidades/ventania-afeta-operacoes-dos-aeroportos-de-congonhas-e-guarulhos/",
-      "source": "VEJA SÃO PAULO",
-      "sourceCanonical": "VEJA SÃO PAULO",
-      "sourceDomain": "vejasp.abril.com.br",
-      "publishedAt": "2026-07-29T20:17:59+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_8cd8f65598d2",
@@ -207,18 +213,18 @@
       "bucket": "right"
     },
     {
-      "id": "article_eb12bfab6b99",
-      "title": "Navegação no porto de Santos volta ao normal após suspensão por vendaval",
-      "description": "SÃO PAULO, 29 Jul (Reuters) - A Autoridade Portuária de Santos (APS) informou que a entrada e saída de cargueiros do porto,...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/logistica/425586-navegacao-no-porto-de-santos-volta-ao-normal-apos-suspensao-por-vendaval.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-07-29T20:30:06+00:00",
-      "postedLabel": "hoje",
+      "id": "article_ac0ae3d80244",
+      "title": "Defesa Civil alerta para fortes rajadas de vento nesta quarta-feira e quinta-feira",
+      "description": "Novo site da Prefeitura Municipal de Caraguatatuba.",
+      "url": "https://www.caraguatatuba.sp.gov.br/pmc/2026/07/defesa-civil-alerta-para-fortes-rajadas-de-vento-nesta-quarta-feira-e-quinta-feira/",
+      "source": "Prefeitura de Caraguatatuba",
+      "sourceCanonical": "Prefeitura de Caraguatatuba",
+      "sourceDomain": "caraguatatuba.sp.gov.br",
+      "publishedAt": "2026-07-28T21:29:37+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d09b05e10dc5",
@@ -235,6 +241,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_daa4cd5c47f4",
+      "title": "Frente fria muda o tempo em São Paulo e Sul ganha trégua | Previsão do tempo 30/07/2026",
+      "description": "Clima Tempo. Frente fria muda o tempo em São Paulo e Sul ganha trégua | Previsão do tempo 30/07/2026. Publicado em 29/07/2026 17:31.",
+      "url": "https://www.noticiasagricolas.com.br/videos/tempo-e-clima/425585-frente-fria-muda-o-tempo-em-sao-paulo-e-sul-ganha-tregua-previsao-do-tempo-30072026.html",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
+      "sourceDomain": "noticiasagricolas.com.br",
+      "publishedAt": "2026-07-29T20:31:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_8f9c3292b4d2",
       "title": "\"Prejuízo\", diz comerciante após vendaval no Litoral Norte de SP",
       "description": "\"Prejuízo\", afirmou um comerciante depois do vendaval no Litoral Norte de São Paulo. #BandJornalismo #BoraBrasil.",
@@ -243,10 +263,24 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-07-30T14:14:16+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_ed51f2852642",
+      "title": "Ventos perdem força em SP após provocarem mortes no Sudeste",
+      "description": "Frente fria avança para o oceano e rajadas devem cair para cerca de 50 km/h nesta quinta-feira (30); Inmet mantém alerta para o litoral.",
+      "url": "https://vejasp.abril.com.br/cidades/ventos-perdem-forca-em-sp-apos-provocarem-mortes-no-sudeste/",
+      "source": "VEJA SÃO PAULO",
+      "sourceCanonical": "VEJA SÃO PAULO",
+      "sourceDomain": "vejasp.abril.com.br",
+      "publishedAt": "2026-07-30T13:33:27+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2b43314c9aeb",
@@ -257,7 +291,7 @@
       "sourceCanonical": "Climatempo",
       "sourceDomain": "climatempo.com.br",
       "publishedAt": "2026-07-30T11:34:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -271,7 +305,7 @@
       "sourceCanonical": "iG Último Segundo",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-07-30T11:33:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -289,55 +323,27 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_103a2e041597",
-      "title": "Rajadas de ventos de até 125 km/h deixam 3 mortos em SP e 2 no Rio",
-      "description": "Por André Fleury, Claudinei Queiroz, Yuri Eiras, Bruna Fantti, Nicola Pamplona e Ítalo Nogueira. (Folhapress) – Uma forte ventania, com...",
-      "url": "https://iclnoticias.com.br/rajadas-de-ventos-de-ate-125-km-h-3-mortos/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-07-30T09:02:22+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_7a658b3c1b09",
-      "title": "São Paulo entra em alerta para ventos acima de 90 km/h com frente fria; veja até quando",
-      "description": "A partir desta quarta-feira, 29, o Governo de São Paulo mobiliza o Gabinete de Crise por conta da passagem de uma frente fria com...",
-      "url": "https://correio.rac.com.br/mundo/s-o-paulo-entra-em-alerta-para-ventos-acima-de-90-km-h-com-frente-fria-veja-ate-quando-1.1834761",
-      "source": "correio.rac.com.br",
-      "sourceCanonical": "correio.rac.com.br",
-      "sourceDomain": "correio.rac.com.br",
-      "publishedAt": "2026-07-29T19:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 9,
-    "average": 5.36,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 1,
-      "centerLeft": 2,
-      "center": 5,
-      "centerRight": 2,
+      "left": 0,
+      "centerLeft": 3,
+      "center": 6,
+      "centerRight": 3,
       "right": 1,
-      "unknown": 9
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
