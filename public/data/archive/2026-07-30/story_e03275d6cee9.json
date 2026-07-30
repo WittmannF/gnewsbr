@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ppcmNUWEVSSFVLajdpcnBvMHJTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ppcmNUWEVSSFVLajdpcnBvMHJTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-4"
+    "topic-4",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-4"
+      "topic-4",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-4": 3
+      "topic-4": 3,
+      "topic-5": 55
     },
     "firstSeenSeedPage": "topic-4",
     "firstSeenRank": 3,
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-extra.glbimg.com/tcvLxrWykwLOFLpqyYF1mn_3jBk=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/B/z/TJyMzNQHGgCBmrGn4AaQ/arte-2-.png",
   "publishedAt": "2026-07-27T14:00:43+00:00",
-  "updatedAt": "2026-07-30T03:17:13.284860+00:00",
+  "updatedAt": "2026-07-30T05:18:25.664237+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,8 +85,8 @@
       "title": "Crítica: Nova série da Netfliix, Fúria esbanja brasilidade e homenageia o MMA",
       "description": "Enquanto o Brasil é amplamente conhecido como o país do futebol, produção aposta nas artes marciais para contar uma história de ação,...",
       "url": "https://www.tecmundo.com.br/minha-serie/604307-furia-esbanja-brasilidade-e-homenageia-o-mma-em-nova-serie-da-netflix.htm",
-      "source": "tecmundo.com.br",
-      "sourceCanonical": "tecmundo.com.br",
+      "source": "TecMundo",
+      "sourceCanonical": "TecMundo",
       "sourceDomain": "tecmundo.com.br",
       "publishedAt": "2026-07-29T03:01:00+00:00",
       "postedLabel": "ontem",
@@ -114,7 +117,7 @@
       "sourceCanonical": "AdoroCinema",
       "sourceDomain": "adorocinema.com",
       "publishedAt": "2026-07-29T21:58:23+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -138,14 +141,14 @@
       "title": "‘Fúria’ é versão nacional para o estilo ‘tiro, porrada e família’",
       "description": "Série que a Netflix lança nesta quarta-feira (29/7) é ambientada no universo do MMA e tem o novato Vinícius Neri e o funkeiro MC Cabelinho...",
       "url": "https://www.em.com.br/cultura/2026/07/7469576-furia-e-versao-nacional-para-o-estilo-tiro-porrada-e-familia.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-07-29T05:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "postedLabel": "ontem",
+      "imageUrl": "https://midias.em.com.br/_midias/jpg/2026/07/28/1000x1000/1_wmc41501-67276586.jpg?20260728170622?20260728170622",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_29e5267c10c9",
@@ -199,7 +202,7 @@
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-07-29T18:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/07/daniel-enquadramento-capa-2026-07-29t145321888.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -218,20 +221,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ea9457bf7004",
-      "title": "Conheça Vinícius Neri, ator que estreia como protagonista de \"Fúria\"",
-      "description": "Ator revelou os principais destaques da nova série da Netflix; saiba mais.",
-      "url": "https://www.cnnbrasil.com.br/pop/streaming/conheca-vinicius-neri-ator-que-estreia-como-protagonista-de-furia/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-07-29T22:04:45+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_95190a73433d",
       "title": "Série com MC Cabelinho na Netflix aborda universo do MMA",
       "description": "Para parecer um lutador de MMA diante das câmeras, não bastava aprender a desferir socos, estrangulamentos e pontapés.",
@@ -244,6 +233,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ea9457bf7004",
+      "title": "Conheça Vinícius Neri, ator que estreia como protagonista de \"Fúria\"",
+      "description": "O ator Vinícius Neri, 31, estreia como protagonista na nova série da Netflix “Fúria”. A trama chega ao streaming nesta quarta-feira (29) e...",
+      "url": "https://www.cnnbrasil.com.br/pop/streaming/conheca-vinicius-neri-ator-que-estreia-como-protagonista-de-furia/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-07-29T22:04:45+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_78c2d3da6395",
@@ -278,8 +281,8 @@
       "title": "‘Fúria’ em dobro: Netflix e Disney+ estreiam séries com mesmo nome; conheça cada uma",
       "description": "Disney+ e Netflix lançam, com apenas dois dias de diferença, duas séries completamente distintas que compartilham o mesmo título: Fúria.",
       "url": "https://hojepr.com/furia-em-dobro-netflix-e-disney-estreiam-series-com-mesmo-nome-conheca-cada-uma/",
-      "source": "hojepr.com",
-      "sourceCanonical": "hojepr.com",
+      "source": "HojePR",
+      "sourceCanonical": "HojePR",
       "sourceDomain": "hojepr.com",
       "publishedAt": "2026-07-29T19:54:50+00:00",
       "postedLabel": "hoje",
@@ -292,8 +295,8 @@
       "title": "Fúria estreia na Netflix com a 2ª temporada (quase) garantida",
       "description": "Nesta quarta (29), a Netflix lança Fúria, série brasileira sobre o mundo do MMA (Mixed Martial Arts, ou Artes Marciais Mistas, em português)",
       "url": "https://diariodeseries.com.br/furia-2-temporada/",
-      "source": "diariodeseries.com.br",
-      "sourceCanonical": "diariodeseries.com.br",
+      "source": "Diário de Séries",
+      "sourceCanonical": "Diário de Séries",
       "sourceDomain": "diariodeseries.com.br",
       "publishedAt": "2026-07-29T11:49:00+00:00",
       "postedLabel": "hoje",
@@ -319,23 +322,23 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.25,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 5.17,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 2,
+      "center": 4,
       "centerRight": 1,
       "right": 0,
-      "unknown": 16
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 87
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
