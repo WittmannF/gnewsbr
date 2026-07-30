@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 64
+      "topic-4": 67
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 64,
-    "bestSeedRank": 64,
+    "firstSeenRank": 67,
+    "bestSeedRank": 67,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/splash/4c/2026/07/28/paolla-oliveira-mostra-dias-de-folga-aos-seguidores-1785239387797_v2_615x300.jpg",
   "publishedAt": "2026-07-26T18:17:00+00:00",
-  "updatedAt": "2026-07-30T15:01:16.906947+00:00",
+  "updatedAt": "2026-07-30T15:56:19.037903+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Paolla Oliveira surpreende com habilidade no futevôlei no Rio de Janeiro",
       "description": "Atriz mostrou habilidade durante uma partida na areia e chamou atenção dos seguidores.",
       "url": "https://www.terra.com.br/vida-e-estilo/saude/paolla-oliveira-surpreende-com-habilidade-no-futevolei-no-rio-de-janeiro,3aa6090ef2652ce76b73f42c527c903071gdvwlb.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-27T18:49:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/07/27/356690220-paolla-oliveira-jogando-futevolei.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f44b574baef5",
@@ -199,7 +199,7 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-28T18:38:32+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/paolla-oliveira_93d0a0.jpg?w=956&h=506&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -260,20 +260,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e3c52b6534cf",
-      "title": "Paolla Oliveira encanta ao posar de lingerie em piscina à noite; fotos!",
-      "description": "Paolla Oliveira compartilha momentos de natação e piscina em registros que conquistam os fãs.",
-      "url": "https://www.meionews.com/entretemeio/famosos/paolla-oliveira-encanta-ao-posar-de-lingerie-em-piscina-a-noite-fotos-570808",
-      "source": "Meio News",
-      "sourceCanonical": "Meio News",
-      "sourceDomain": "meionews.com",
-      "publishedAt": "2026-07-28T19:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_78b8ddf10ac8",
       "title": "Paolla Oliveira impressiona fãs com habilidade em futevôlei na praia",
       "description": "A atriz Paolla Oliveira atriz compartilhou nas redes sociais imagens em que aparece jogando futevôlei na areia, neste domingo (26), no Rio...",
@@ -283,6 +269,20 @@
       "sourceDomain": "bemparana.com.br",
       "publishedAt": "2026-07-26T18:17:00+00:00",
       "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_e3c52b6534cf",
+      "title": "Paolla Oliveira encanta ao posar de lingerie em piscina à noite; fotos!",
+      "description": "Paolla Oliveira compartilha momentos de natação e piscina em registros que conquistam os fãs.",
+      "url": "https://www.meionews.com/entretemeio/famosos/paolla-oliveira-encanta-ao-posar-de-lingerie-em-piscina-a-noite-fotos-570808",
+      "source": "Meio News",
+      "sourceCanonical": "Meio News",
+      "sourceDomain": "meionews.com",
+      "publishedAt": "2026-07-28T19:00:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 4.5,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 4.4,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 5,
+      "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 14
+      "unknown": 15
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 93
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
