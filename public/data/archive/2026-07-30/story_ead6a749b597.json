@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSR2xTNERlYU5jVEdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSR2xTNERlYU5jVEdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 8,
+      "home": 2,
+      "topstories": 2,
+      "topic-5": 10,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 8,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Estados Unidos retomam ofensiva militar contra o Irã",
   "summary": "Teerã retoma ataques contra base americana na Jordânia; recentes ataques no Iraque e no Egito ameaçam arrastar mais países do Oriente Médio...",
@@ -29,12 +35,12 @@
     "eua",
     "ataques",
     "trump",
-    "lançam",
-    "surpresa"
+    "força",
+    "bases"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Fumaca-sobe-apos-ataque-em-local-nao-identificado-durante-o-que-as-Forcas-Armadas-dos-EUA-descrevem-como-sua-mais-recente-onda-de-ataques-contra-o-Ira-em-16-de-julho-de-2026-Comando-Central-dos-EUA.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-07-27T19:22:00+00:00",
-  "updatedAt": "2026-07-30T11:55:15.384151+00:00",
+  "publishedAt": "2026-07-28T14:13:08+00:00",
+  "updatedAt": "2026-07-30T12:45:30.609291+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -53,6 +59,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_d05be5a96037",
+      "title": "EUA retomam ataques ao Irã após pausa de Trump - 30/07/2026 - Mundo",
+      "description": "Guerra no Oriente Médio volta ao padrão de troca pontual de golpes, com riscos novos de escalada.",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/07/eua-retomam-ataques-ao-ira-apos-pausa-de-trump.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-07-30T11:37:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/30/17854111216a6b3631e7914_1785411121_3x2_xl.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_302bb618f7ab",
+      "title": "EUA fazem ataques ‘pesados’ contra o Irã em conflito que transborda para Egito e Iraque",
+      "description": "Os Estados Unidos lançaram nesta quinta-feira, 30, uma “onda pesada” de bombardeios contra o Irã, em retaliação a ataques contra suas bases...",
+      "url": "https://veja.abril.com.br/mundo/eua-fazem-ataques-pesados-contra-o-ira-em-conflito-que-transborda-para-egito-e-iraque/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-30T11:53:40+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/Captura-de-tela-2026-07-30-083023.png?resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_73532216a91e",
       "title": "Após ataque surpresa do Irã, Trump ameaça retaliar com 'muita força': 'É a nossa vez'",
       "description": "O presidente dos EUA, Donald Trump, disse nesta quarta-feira (29) que os Estados Unidos atingiriam o Irã com \"muita força\" após um ataque...",
@@ -67,20 +101,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d05be5a96037",
-      "title": "EUA retomam ataques ao Irã após pausa de Trump - 30/07/2026 - Mundo",
-      "description": "Guerra no Oriente Médio volta ao padrão de troca pontual de golpes, com riscos novos de escalada.",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/07/eua-retomam-ataques-ao-ira-apos-pausa-de-trump.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-07-30T11:37:00+00:00",
-      "postedLabel": "18 minutos atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/30/17854111216a6b3631e7914_1785411121_3x2_xl.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_b23a325885b1",
       "title": "EUA lançam ataques ao Irã em resposta à tentativa de \"ofensiva surpresa\"",
       "description": "Guarda Revolucionária Islâmica teria lançado múltiplos mísseis balísticos contra alvos americanos no Oriente Médio; todos os projéteis foram...",
@@ -90,23 +110,37 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-30T00:32:37+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/ARSENAL-EUA-2.jpg?w=1200&h=630&crop=1",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_3abec7fdee3b",
-      "title": "EUA lançam ataques contra Irã após ofensiva iraniana a bases norte-americanas",
-      "description": "O Centcom informou na terça-feira (28) ter interceptado 'ataque surpresa' da Guarda Revolucionária Islâmica.",
-      "url": "https://jovempan.com.br/mundo/eua-lancam-ataques-contra-ira-apos-ofensiva-iraniana-a-bases-norte-americanas/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-07-30T02:26:33+00:00",
+      "id": "article_bb3a019e2c33",
+      "title": "Novos ataques de EUA e Irã causam mortes e elevam o risco de uma guerra ampliada no Oriente Médio",
+      "description": "Mísseis e drones, mais do que uma violenta rotina na região desde fevereiro, podem forçar a entrada de novos atores em um conflito que anima...",
+      "url": "https://oglobo.globo.com/mundo/noticia/2026/07/30/novos-ataques-de-eua-e-ira-causam-mortes-e-elevam-o-risco-de-uma-guerra-ampliada-no-oriente-medio.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-07-30T11:46:55+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_212ae8375fa8",
+      "title": "Trump adverte que vai atingir Irã ‘com força’ e dar ‘uma surra’ após ataques contra bases dos EUA",
+      "description": "Declaração foi feita em conversa com o correspondente-chefe de assuntos internacionais da emissora Fox News.",
+      "url": "https://www.estadao.com.br/em-alta/internacional/trump-adverte-que-vai-atingir-ira-com-forca-e-dar-uma-surra-apos-ataques-contra-bases-dos-eua-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-29T17:25:15+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_4c705ec14cc0",
@@ -117,37 +151,23 @@
       "sourceCanonical": "Vatican News",
       "sourceDomain": "vaticannews.va",
       "publishedAt": "2026-07-30T11:24:15+00:00",
-      "postedLabel": "30 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_df83938b77c8",
-      "title": "EUA lançam ataques retaliatórios ‘poderosos’ contra o Irã, diz Exército",
-      "description": "A mídia iraniana informou que os ataques norte-americanos ocorreram ao redor da ilha de Qeshm e da cidade de Abadan.",
-      "url": "https://veja.abril.com.br/mundo/eua-lancam-ataques-retaliatorios-poderosos-contra-o-ira-diz-exercito/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-30T01:54:27+00:00",
+      "id": "article_401515ed257e",
+      "title": "Trump promete responder “com força” a ataques do Irã na Jordânia e Egito",
+      "description": "O presidente dos EUA, Donald Trump, prometeu nesta quarta-feira (29) que seu país responderá com força aos ataques do Irã contra interesses...",
+      "url": "https://www.gazetadopovo.com.br/mundo/trump-promete-responder-com-forca-a-ataques-do-ira-na-jordania-e-egito/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-07-29T22:52:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_9e3d9c086a29",
-      "title": "Forças armadas dos EUA lançam ataques de retaliação contra o Irã",
-      "description": "Internacional. Forças armadas dos EUA lançam ataques de retaliação contra o Irã. Saiba tudo. Arraste para cima. forcas armadas eua lancam...",
-      "url": "https://www.estadao.com.br/em-alta/internacional/forcas-armadas-eua-lancam-ataques-retaliacao-contra-ira-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-30T00:59:16+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
+      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
@@ -179,6 +199,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_3abec7fdee3b",
+      "title": "EUA lançam ataques contra Irã após ofensiva iraniana a bases norte-americanas",
+      "description": "O Centcom informou na terça-feira (28) ter interceptado 'ataque surpresa' da Guarda Revolucionária Islâmica.",
+      "url": "https://jovempan.com.br/mundo/eua-lancam-ataques-contra-ira-apos-ofensiva-iraniana-a-bases-norte-americanas/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-07-30T02:26:33+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_2b902e0d3afb",
+      "title": "Irã contraria Trump e diz que não há negociações",
+      "description": "Vice-chanceler iraniano diz que único diálogo ativo é com Omã sobre o estreito de Ormuz. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-internacional/ira-contraria-trump-e-diz-que-nao-ha-negociacoes/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-07-28T21:26:07+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_195141355f8a",
       "title": "Trump ameaça ‘surra brutal’ no Irã após ‘ataque surpresa’ contra bases dos EUA na Jordânia",
       "description": "Questionado sobre os ataques contra milícias iranianas no Iraque, presidente sugeriu coordenação com o governo iraquiano.",
@@ -193,54 +241,26 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_401515ed257e",
-      "title": "Trump promete responder “com força” a ataques do Irã na Jordânia e Egito",
-      "description": "O presidente dos EUA, Donald Trump, prometeu nesta quarta-feira (29) que seu país responderá com força aos ataques do Irã contra interesses...",
-      "url": "https://www.gazetadopovo.com.br/mundo/trump-promete-responder-com-forca-a-ataques-do-ira-na-jordania-e-egito/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-07-29T22:52:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_2b902e0d3afb",
-      "title": "Irã contraria Trump e diz que não há negociações",
-      "description": "Vice-chanceler iraniano diz que único diálogo ativo é com Omã sobre o estreito de Ormuz. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-internacional/ira-contraria-trump-e-diz-que-nao-ha-negociacoes/",
-      "source": "poder360.com.br",
-      "sourceCanonical": "poder360.com.br",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-07-28T21:26:07+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_52ea6fa08efd",
       "title": "Televisão oficial iraniana relata ataques americanos no noroeste do país",
       "description": "Incidentes ocorrem após Irã ter lançado mísseis contra base americana na Jordânia, reacendendo tensões entre os dois países.",
       "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/televisao-oficial-iraniana-relata-ataques-americanos-no-noroeste-do-pais-1.1734973",
-      "source": "correiodopovo.com.br",
-      "sourceCanonical": "correiodopovo.com.br",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-07-29T12:37:46+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_5ebd01c3771e",
       "title": "O que acontecerá após a pausa no conflito entre EUA e Irã, agora em seu sexto mês?",
       "description": "Foto tirada com celular mostra navios mercantes parados nas águas do Estreito de Ormuz, perto de Khasab, uma pequena cidade no norte de Omã,...",
       "url": "http://portuguese.xinhuanet.com/20260730/1e82f8cbf2084d5b8df3f4ecd25880ba/c.html",
-      "source": "portuguese.xinhuanet.com",
-      "sourceCanonical": "portuguese.xinhuanet.com",
+      "source": "新华网",
+      "sourceCanonical": "新华网",
       "sourceDomain": "portuguese.xinhuanet.com",
       "publishedAt": "2026-07-30T05:06:10+00:00",
       "postedLabel": "hoje",
@@ -263,32 +283,32 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_1abea0a2178a",
-      "title": "Irã lança mísseis balísticos contra bases dos EUA",
-      "description": "Em resposta, os EUA e a Arábia Saudita lançaram ataques em conjunto contra militantes pró-Irã no Iraque.",
-      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/07/ira-lanca-misseis-balisticos-contra-bases-dos-eua-cms5bbsmm00sw014pa74vun83.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-07-29T05:54:51+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e53e8d2cdf6f",
       "title": "Exército dos EUA lança represália \"potente\" contra o Irã",
       "description": "Os Estados Unidos lançaram nesta quinta-feira (30) uma série de bombardeios contra o Irã, em retaliação a ataques contra suas bases na...",
       "url": "https://www.folhape.com.br/noticias/exercito-dos-eua-lanca-represalia-potente-contra-o-ira/503488/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
+      "source": "folhape.com.br",
+      "sourceCanonical": "folhape.com.br",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-07-30T10:12:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_1abea0a2178a",
+      "title": "Irã lança mísseis balísticos contra bases dos EUA",
+      "description": "Em resposta, os EUA e a Arábia Saudita lançaram ataques em conjunto contra militantes pró-Irã no Iraque.",
+      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/07/ira-lanca-misseis-balisticos-contra-bases-dos-eua-cms5bbsmm00sw014pa74vun83.html",
+      "source": "gauchazh.clicrbs.com.br",
+      "sourceCanonical": "gauchazh.clicrbs.com.br",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-07-29T05:54:51+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f90c795c1605",
@@ -303,41 +323,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_912be312cd02",
-      "title": "Trump diz haver ‘boas chances’ de alcançar acordo com Irã",
-      "description": "O presidente dos Estados Unidos, Donald Trump, mostrou-se otimista nesta segunda-feira 27 quanto à possibilidade de alcançar um acordo com o...",
-      "url": "https://www.cartacapital.com.br/mundo/trump-diz-haver-boas-chances-de-alcancar-acordo-com-ira/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-07-27T19:22:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 9,
-    "average": 5.62,
+    "average": 5.94,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
-      "left": 1,
-      "centerLeft": 2,
-      "center": 7,
+      "left": 0,
+      "centerLeft": 1,
+      "center": 9,
       "centerRight": 5,
       "right": 1,
       "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
