@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 19
+      "topic-8": 20
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenRank": 20,
+    "bestSeedRank": 20,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/soja-MQqcl.jpg",
   "publishedAt": "2026-07-21T07:00:00+00:00",
-  "updatedAt": "2026-07-30T18:00:25.113133+00:00",
+  "updatedAt": "2026-07-30T18:55:04.814788+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "Globo Rural",
       "sourceDomain": "globorural.globo.com",
       "publishedAt": "2026-07-29T18:28:53+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -190,20 +190,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_decd7d5d507a",
-      "title": "Demanda por soja brasileira sustenta preços e eleva prêmios de exportação",
-      "description": "Cenário geopolítico e expectativa de intensificação do El Niño reforçam a valorização da oleaginosa.",
-      "url": "https://www.itatiaia.com.br/agro/demanda-por-soja-brasileira-sustenta-precos-e-eleva-premios-de-exportacao/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-07-28T04:16:31+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/07/IMAGEM-1800-X-1200-PX-4-3.png?resize=1280%2C720&w=1280&h=720&quality=75&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_a462a53e3431",
       "title": "Mercado de soja mostra reação tímida em dia de poucos negócios",
       "description": "O mercado brasileiro de soja teve poucas novidades na sessão, com leve recuperação das cotações após os recuos do dia anterior.",
@@ -226,7 +212,7 @@
       "sourceCanonical": "safras.com.br",
       "sourceDomain": "safras.com.br",
       "publishedAt": "2026-07-29T18:41:29+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -240,10 +226,24 @@
       "sourceCanonical": "progresso.com.br",
       "sourceDomain": "progresso.com.br",
       "publishedAt": "2026-07-28T18:30:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_decd7d5d507a",
+      "title": "Demanda por soja brasileira sustenta preços e eleva prêmios de exportação",
+      "description": "Cenário geopolítico e expectativa de intensificação do El Niño reforçam a valorização da oleaginosa.",
+      "url": "https://www.itatiaia.com.br/agro/demanda-por-soja-brasileira-sustenta-precos-e-eleva-premios-de-exportacao/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-07-28T04:16:31+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/07/IMAGEM-1800-X-1200-PX-4-3.png?resize=1280%2C720&w=1280&h=720&quality=75&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_5b40287cafe8",
@@ -264,14 +264,14 @@
       "title": "Soja recua em Chicago com avanço das exportações brasileiras à China",
       "description": "Demanda chinesa mais concentrada na oleaginosa brasileira aumenta pressão sobre os contratos futuros em Chicago.",
       "url": "https://www.cnnbrasil.com.br/agro/soja-recua-em-chicago-com-avanco-das-exportacoes-brasileiras-a-china/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-29T20:01:59+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_860f7c02c539",
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 5,
     "max": 9,
-    "average": 6.4,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 6.17,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 4,
       "centerRight": 1,
       "right": 1,
-      "unknown": 15
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 68,
     "headlineDivergence": 82,
-    "confidence": 90
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
