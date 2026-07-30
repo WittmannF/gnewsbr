@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 14
+      "topic-2": 13
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenRank": 13,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/2LYFUPVU4NBCPPVKKVG4GV6HOI.jpg?smart=true&auth=3e44556839fc94bfad281939e2a10c69998ff17018438c4a87e8e6704b3524eb&width=1200&height=630",
   "publishedAt": "2026-07-28T08:12:33+00:00",
-  "updatedAt": "2026-07-30T13:47:29.343841+00:00",
+  "updatedAt": "2026-07-30T14:55:59.262808+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -138,14 +138,14 @@
       "title": "Itália faz transplante inédito e recupera visão de idosa cega há 5 anos",
       "description": "Mulher de 67 anos foi a 1ª do mundo a receber parte central da retina, a mácula.",
       "url": "https://www.terra.com.br/noticias/mundo/italia-faz-transplante-inedito-e-recupera-visao-de-idosa-cega-ha-5-anos,e8a09497cbee6dca1e79684a4e392ccbppjc3dw0.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-28T16:21:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_e352dbc942d0",
@@ -166,8 +166,8 @@
       "title": "Idosa que ficou 5 anos sem enxergar após acidente tem visão recuperada em implante inédito; entenda",
       "description": "JIB - O seu jornal impresso e portal de Notícias.",
       "url": "https://jornalimpressobrasil.com.br/idosa-que-ficou-5-anos-sem-enxergar-apos-acidente-tem-visao-recuperada-em-implante-inedito-entenda/",
-      "source": "jornalimpressobrasil.com.br",
-      "sourceCanonical": "jornalimpressobrasil.com.br",
+      "source": "Jornal Impresso Brasil",
+      "sourceCanonical": "Jornal Impresso Brasil",
       "sourceDomain": "jornalimpressobrasil.com.br",
       "publishedAt": "2026-07-29T07:25:00+00:00",
       "postedLabel": "ontem",
@@ -212,7 +212,7 @@
       "sourceCanonical": "Aventuras na História",
       "sourceDomain": "aventurasnahistoria.com.br",
       "publishedAt": "2026-07-28T13:59:30+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,20 +246,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_10c121f7c55f",
-      "title": "Cirurgia inédita devolve visão a paciente cega há cinco anos",
-      "description": "Médicos italianos realizam transplante inédito de mácula e devolvem parte da visão a paciente que ficou cinco anos sem enxergar.",
-      "url": "https://olhardigital.com.br/2026/07/28/medicina-e-saude/cirurgia-inedita-devolve-visao-a-paciente-cega-ha-cinco-anos/",
-      "source": "Olhar Digital",
-      "sourceCanonical": "Olhar Digital",
-      "sourceDomain": "olhardigital.com.br",
-      "publishedAt": "2026-07-28T11:23:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_5ce9ed110afc",
       "title": "Transplante inédito devolve visão a idosa que ficou 5 anos cega na Itália; primeira do mundo",
       "description": "Um transplante inédito devolve a visão a uma idosa de 67 anos que ficou cega durante 5 anos. A cirurgia, considerada a primeira do mundo,...",
@@ -269,6 +255,20 @@
       "sourceDomain": "sonoticiaboa.com.br",
       "publishedAt": "2026-07-29T11:47:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_10c121f7c55f",
+      "title": "Cirurgia inédita devolve visão a paciente cega há cinco anos",
+      "description": "Médicos italianos realizam transplante inédito de mácula e devolvem parte da visão a paciente que ficou cinco anos sem enxergar.",
+      "url": "https://olhardigital.com.br/2026/07/28/medicina-e-saude/cirurgia-inedita-devolve-visao-a-paciente-cega-ha-cinco-anos/",
+      "source": "Olhar Digital",
+      "sourceCanonical": "Olhar Digital",
+      "sourceDomain": "olhardigital.com.br",
+      "publishedAt": "2026-07-28T11:23:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.25,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.22,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 3,
+      "center": 4,
       "centerRight": 3,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
