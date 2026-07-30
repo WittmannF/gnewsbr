@@ -12,11 +12,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 30,
+      "topic-3": 40,
       "topic-5": 12
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 30,
+    "firstSeenRank": 40,
     "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -28,13 +28,13 @@
     "quaest",
     "acm",
     "neto",
-    "bahia",
     "jerônimo",
+    "bahia",
     "genial"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/07/prismada-acm-neto-jeronimo-bahia-848x477.jpg",
   "publishedAt": "2026-07-29T10:00:00+00:00",
-  "updatedAt": "2026-07-30T12:48:40.190119+00:00",
+  "updatedAt": "2026-07-30T13:50:28.775064+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -61,7 +61,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-29T13:16:42+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-g1.glbimg.com/URuvm0On1PrSDEVJrJ4aGzway-I=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/H/C8PFU7TGiRwDlOy9g2Jg/presidenciaveis-3-.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -155,14 +155,14 @@
       "title": "Quaest: na Bahia, Lula lidera em todos os cenários de 1º e 2º turno",
       "description": "Pesquisa realizou 1.200 entrevistas pessoais com eleitores da Bahia, entre os dias 23 e 27 de julho; margem de erro é de 3 pontos...",
       "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-na-bahia-lula-lidera-em-todos-os-cenarios-de-1o-e-2o-turno/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-29T12:07:30+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bb108c125a19",
@@ -191,6 +191,20 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_5f4e3bcf6d9d",
+      "title": "Pesquisa empate técnico entre ACM Neto e Jerônimo",
+      "description": "Foto: Diogenis Santos / SEFOT e Marcelo Camargo/Agência Brasil ACM Neto e Jerônimo Rodrigues se enfrentam na eleição na Bahia. Pesquisa de...",
+      "url": "https://mais.opovo.com.br/jornal/politica/2026/07/30/pesquisa-empate-tecnico-entre-acm-neto-e-jeronimo.html",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-07-30T04:15:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_39591fd00f99",
@@ -271,7 +285,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-30T10:40:20+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -303,32 +317,18 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_120221768b47",
-      "title": "João Roma já vê desejo de mudança na Bahia após pesquisa Quaest e já aposta em vitória da chapa com ACM Neto; veja",
-      "description": "O candidato ao Senado pela Bahia, João Roma (PL), afirmou na quarta-feira (29) que a pesquisa Quaest reforça a percepção de que o eleitorado...",
-      "url": "https://infosaj.com.br/joao-roma-ve-desejo-de-mudanca-na-bahia-apos-quaest-e-aposta-em-vitoria-da-chapa-de-acm-neto/",
-      "source": "INFOSAJ",
-      "sourceCanonical": "INFOSAJ",
-      "sourceDomain": "infosaj.com.br",
-      "publishedAt": "2026-07-30T03:08:41+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.53,
+    "average": 5.47,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
-      "center": 9,
+      "centerLeft": 2,
+      "center": 8,
       "centerRight": 3,
       "right": 2,
       "unknown": 3
