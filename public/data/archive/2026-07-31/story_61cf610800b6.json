@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 45
+      "topic-7": 50
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 45,
-    "bestSeedRank": 45,
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/AFP__20260729__C3HL8MH__v1__MidRes__ItalyVaticanPopeConcert.jpg?quality=70&strip=info&resize=1080,565&crop=1",
   "publishedAt": "2026-07-30T08:22:15+00:00",
-  "updatedAt": "2026-07-31T16:07:42.797106+00:00",
+  "updatedAt": "2026-07-31T17:09:44.401787+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Em entrevista à NBC, o Papa Leão XIV afirma que os imigrantes são uma das “maiores riquezas” dos Estados Unidos",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
       "url": "https://www.ihu.unisinos.br/669089-em-entrevista-a-nbc-o-papa-leao-xiv-afirma-que-os-imigrantes-sao-uma-das-maiores-riquezas-dos-estados-unidos",
-      "source": "Instituto Humanitas Unisinos - IHU",
-      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "source": "ihu.unisinos.br",
+      "sourceCanonical": "ihu.unisinos.br",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-07-30T11:15:11+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.ihu.unisinos.br/images/ihu/2026/07/30_07_conceito_pela_paz_vatican_media.png",
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c450b5bae18b",
@@ -129,7 +129,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-30T12:06:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/04/16153219/Papa-Leao-XIV-1.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -152,8 +152,8 @@
       "title": "Papa Leão XIV deseja visitar os EUA: “Vocês me verão lá”",
       "description": "O Santo Padre manifestou o desejo de visitar os Estados Unidos, recorda suas origens e destaca a liberdade, as oportunidades e o acolhimento...",
       "url": "https://www.a12.com/redacaoa12/santo-padre/papa-leao-xiv-deseja-visitar-os-eua-voces-me-verao-la",
-      "source": "a12.com",
-      "sourceCanonical": "a12.com",
+      "source": "Portal A12",
+      "sourceCanonical": "Portal A12",
       "sourceDomain": "a12.com",
       "publishedAt": "2026-07-30T13:29:40+00:00",
       "postedLabel": "ontem",
@@ -198,7 +198,7 @@
       "sourceCanonical": "Francês News",
       "sourceDomain": "francesnews.com.br",
       "publishedAt": "2026-07-30T16:30:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,7 +254,7 @@
       "sourceCanonical": "O Hoje",
       "sourceDomain": "ohoje.com",
       "publishedAt": "2026-07-30T16:28:43+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.29,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
