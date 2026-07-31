@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 31,
-      "topic-5": 34
+      "topic-3": 33,
+      "topic-5": 32
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 33,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/07/23103517/suplentes-Senado.jpg",
   "publishedAt": "2026-07-27T17:03:00+00:00",
-  "updatedAt": "2026-07-31T03:18:31.103574+00:00",
+  "updatedAt": "2026-07-31T05:22:48.634255+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,14 +43,14 @@
       "title": "Oposição pode alcançar maioria no Senado em 2027, indicam pesquisas",
       "description": "A oposição pode alcançar maioria absoluta no Senado a partir de 2027, segundo projeção feita com base nas pesquisas estaduais mais recentes...",
       "url": "https://iclnoticias.com.br/oposicao-pode-alcancar-maioria-no-senado/",
-      "source": "iclnoticias.com.br",
-      "sourceCanonical": "iclnoticias.com.br",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-07-30T07:42:31+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_2058432103a3",
@@ -104,7 +104,7 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-28T22:21:04+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/taxa-renovacao-deputado-senador-28-jul-2026-imagens-1-848x477.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -183,14 +183,14 @@
       "title": "Quantos senadores têm cada estado do Brasil? Entenda a divisão",
       "description": "Saiba por que as Eleições 2026 renovam 54 vagas no Senado, como votar em dois candidatos na urna eletrônica e a regra da suplência.",
       "url": "https://www.nsctotal.com.br/politica/como-funciona-escolha-senadores-eleicoes-2026",
-      "source": "nsctotal.com.br",
-      "sourceCanonical": "nsctotal.com.br",
+      "source": "NSC Total",
+      "sourceCanonical": "NSC Total",
       "sourceDomain": "nsctotal.com.br",
       "publishedAt": "2026-07-29T17:38:29+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a2c8a9c4a369",
@@ -263,6 +263,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_2e1c96338d26",
+      "title": "Como votar para senador em 2026 e evitar voto nulo",
+      "description": "Nas eleicoes de 2026, os eleitores brasileiros voltarao as urnas para escolher dois representantes para o Senado Federal, em um processo que...",
+      "url": "https://www.spacemoney.com.br/politica/como-votar-para-senador-2026/",
+      "source": "SpaceMoney",
+      "sourceCanonical": "SpaceMoney",
+      "sourceDomain": "spacemoney.com.br",
+      "publishedAt": "2026-07-30T03:52:24+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_118e48f2c9ca",
       "title": "STF monitora pesquisas do Senado e calcula risco de processos de impeachment",
       "description": "O Supremo Tribunal Federal (STF) monitora pesquisas de intenção de voto para o Senado e projeta a composição da Casa em 2027.",
@@ -275,20 +289,6 @@
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
-    },
-    {
-      "id": "article_2e1c96338d26",
-      "title": "Como votar para senador em 2026 e evitar voto nulo",
-      "description": "Nas eleicoes de 2026, os eleitores brasileiros voltarao as urnas para escolher dois representantes para o Senado Federal, em um processo que...",
-      "url": "https://www.spacemoney.com.br/politica/como-votar-para-senador-2026/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-07-30T03:52:24+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_1769d87ac823",
@@ -320,28 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 10,
-    "average": 6.38,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
-      "center": 5,
+      "center": 6,
       "centerRight": 2,
       "right": 1,
-      "unknown": 12
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
