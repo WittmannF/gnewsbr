@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 20
+      "topic-7": 21
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 21,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +31,9 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/qs5KEKTc-OaiwFHm5FquwMUjTLo=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/N/K/rZBgK9QNa2SVfSogOhQg/78153975-1004.webp",
   "publishedAt": "2026-07-27T15:44:55+00:00",
-  "updatedAt": "2026-07-31T17:07:58.648157+00:00",
+  "updatedAt": "2026-07-31T17:56:30.414285+00:00",
   "sourceCount": 6,
-  "articleCount": 6,
+  "articleCount": 7,
   "articles": [
     {
       "id": "article_bbbcf87aeb4b",
@@ -96,14 +96,14 @@
       "title": "Vila eslovaca debate saída da lista da Unesco após pressão turística",
       "description": "Moradores de Vlkolínec, na Eslováquia, reclamam da falta de privacidade causada pelo turismo e discutem o futuro do selo da Unesco.",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/vila-eslovaca-debate-saida-lista-unesco-turismo/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-07-31T09:45:45+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/captura-de-tela-2026-07-31-064241.png",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b3d31ede92db",
@@ -118,30 +118,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_00d883f84d53",
+      "title": "'Exausto com turismo excessivo', vilarejo na Europa não quer ser mais patrimônio da Unesco",
+      "description": "Pelas manchetes da imprensa internacional, a história parecia simples: uma pequena vila da Eslováquia estaria pedindo para ser retirada da...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/deutschewelle/2026/07/29/o-vilarejo-europeu-que-esta-questionando-seu-titulo-de-patrimonio-da-unesco.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-07-29T17:29:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 6,
-    "average": 4.5,
+    "average": 5.25,
     "knownCount": 4,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 60,
-    "headlineDivergence": 82,
-    "confidence": 69
+    "coverageDiversity": 20,
+    "spectrumBalance": 19,
+    "headlineDivergence": 73,
+    "confidence": 71
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
