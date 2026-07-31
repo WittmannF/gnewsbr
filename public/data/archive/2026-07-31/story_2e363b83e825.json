@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 29
+      "topic-3": 28
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 28,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2025/12/IMAGE-2025-12-15-154118.jpg",
   "publishedAt": "2026-07-27T17:03:00+00:00",
-  "updatedAt": "2026-07-31T07:15:25.570049+00:00",
+  "updatedAt": "2026-07-31T09:17:08.530938+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -180,14 +180,14 @@
       "title": "Oposição pode alcançar maioria no Senado em 2027, indicam pesquisas",
       "description": "A oposição pode alcançar maioria absoluta no Senado a partir de 2027, segundo projeção feita com base nas pesquisas estaduais mais recentes...",
       "url": "https://iclnoticias.com.br/oposicao-pode-alcancar-maioria-no-senado/",
-      "source": "iclnoticias.com.br",
-      "sourceCanonical": "iclnoticias.com.br",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-07-30T07:42:31+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_4cdc9345f357",
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1769d87ac823",
-      "title": "Entenda o voto duplo para o Senado e como não anular sua escolha na urna",
-      "description": "Vencedores nas urnas assumem os cargos no início do próximo ano para um mandato que se estende até 2035.",
-      "url": "https://www.gazetasp.com.br/politica/entenda-o-voto-duplo-para-o-senado-e-como-nao-anular-sua-escolha-na-urna/",
-      "source": "Gazeta de São Paulo",
-      "sourceCanonical": "Gazeta de São Paulo",
-      "sourceDomain": "gazetasp.com.br",
-      "publishedAt": "2026-07-30T08:15:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_198893393d1e",
       "title": "Por que você vai votar em dois senadores nas eleições deste ano?",
       "description": "Em outubro, o Senado renova dois terços das suas 81 cadeiras. Entenda o esquema de rotação da Casa, como funciona o voto duplo e o detalhe...",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_1769d87ac823",
+      "title": "Entenda o voto duplo para o Senado e como não anular sua escolha na urna",
+      "description": "Vencedores nas urnas assumem os cargos no início do próximo ano para um mandato que se estende até 2035.",
+      "url": "https://www.gazetasp.com.br/politica/entenda-o-voto-duplo-para-o-senado-e-como-nao-anular-sua-escolha-na-urna/",
+      "source": "Gazeta de São Paulo",
+      "sourceCanonical": "Gazeta de São Paulo",
+      "sourceDomain": "gazetasp.com.br",
+      "publishedAt": "2026-07-30T08:15:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 10,
-    "average": 6.22,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 2,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
