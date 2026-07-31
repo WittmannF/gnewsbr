@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/30/17854161626a6b49e2b0833_1785416162_3x2_rt.jpg",
   "publishedAt": "2026-07-30T12:38:30+00:00",
-  "updatedAt": "2026-07-31T09:36:09.673387+00:00",
+  "updatedAt": "2026-07-31T11:27:47.118728+00:00",
   "sourceCount": 11,
   "articleCount": 11,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-31T07:01:48+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/92eJc0-UBr7GZOSOVQhQalZpFLo=/534x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/z/Z/kAS1UZSAGmt0DUJrfsTw/dinossauro-argentino.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -68,14 +68,14 @@
       "title": "Fóssil chinês revela órgãos internos de réptil marinho pré-histórico",
       "description": "Reuters - Esta publicação inclusive informação e dados são de propriedade intelectual de Reuters. Fica expresamente proibido seu uso ou de...",
       "url": "https://www.terra.com.br/diversao/fossil-chines-revela-orgaos-internos-de-reptil-marinho-pre-historico,2cbde9699836b1d31af7fa593ab4ccc5ia02h8q2.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-07-30T14:59:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fb728f01585f",
@@ -92,32 +92,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_81820ec04c2d",
-      "title": "Fóssil preserva órgãos de réptil de 245 milhões de anos - 30/07/2026 - Ciência",
-      "description": "Esqueleto de Austronaga minuta foi descoberto na província de Yunnan, na China.",
-      "url": "https://fotografia.folha.uol.com.br/galerias/1872149527431872-fossil-preserva-orgaos-de-reptil-de-245-milhoes-de-anos",
-      "source": "UOL",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "fotografia.folha.uol.com.br",
-      "publishedAt": "2026-07-30T14:16:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_5efbb206a8b8",
       "title": "Em um fóssil de 245 milhões de anos encontrado na China, pesquisadores identificam um fígado ainda preservado",
       "description": "Como um animal pode conservar até o fígado por milhões de anos? O fóssil de réptil marinho encontrado no sudoeste da China impressiona pela...",
       "url": "https://revistaoeste.com/oestegeral/2026/07/30/em-um-fossil-de-245-milhoes-de-anos-encontrado-na-china-pesquisadores-identificam-um-figado-ainda-preservado/",
-      "source": "revistaoeste.com",
-      "sourceCanonical": "revistaoeste.com",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-07-31T01:42:50+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/07/2-21.jpg",
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_6d02eca718f3",
@@ -162,6 +148,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_81820ec04c2d",
+      "title": "Fóssil preserva órgãos de réptil de 245 milhões de anos - 30/07/2026 - Ciência",
+      "description": "Esqueleto de Austronaga minuta foi descoberto na província de Yunnan, na China.",
+      "url": "https://fotografia.folha.uol.com.br/galerias/1872149527431872-fossil-preserva-orgaos-de-reptil-de-245-milhoes-de-anos",
+      "source": "UOL",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "fotografia.folha.uol.com.br",
+      "publishedAt": "2026-07-30T14:16:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_6fb106603f94",
       "title": "Cientistas revelam órgãos de réptil de 245 milhões de anos",
       "description": "Um fóssil encontrado na China está ajudando cientistas a compreender como alguns dos primeiros répteis terrestres se adaptaram à vida nos...",
@@ -192,27 +192,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.71,
+    "max": 10,
+    "average": 5.43,
     "knownCount": 7,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 5,
+      "center": 4,
       "centerRight": 0,
-      "right": 0,
+      "right": 1,
       "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 88
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
