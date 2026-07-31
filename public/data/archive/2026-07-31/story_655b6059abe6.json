@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 31
+      "topic-8": 34
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/02_carteira_de_trabalho.webp?w=1170&h=630&crop=1",
   "publishedAt": "2026-07-30T12:00:00+00:00",
-  "updatedAt": "2026-07-31T21:54:00.790828+00:00",
+  "updatedAt": "2026-07-31T22:53:06.837352+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -208,14 +208,14 @@
       "title": "IBGE indica nova mínima do desemprego às vésperas de possível greve",
       "description": "Taxa de desocupação ficou em 5,4%, mas rendimento médio segue em queda desde o início do ano. Leia na Gazeta do Povo.",
       "url": "https://www.gazetadopovo.com.br/economia/ibge-indica-nova-minima-do-desemprego-as-vesperas-de-possivel-greve/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-30T13:18:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_00d9f6228c4d",
@@ -227,6 +227,20 @@
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-31T01:34:46+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_6d22fbaa642f",
+      "title": "Desemprego até junho recua e fica em 5,4%, menor taxa para o período da série histórica",
+      "description": "Resultado medido pelo IBGE para o trimestre ficou dentro do esperado; em igual período do ano passado, a taxa de desemprego estava em 5,8%",
+      "url": "https://www.estadao.com.br/em-alta/economia/ibge-pnad-desemprego-junho-2026/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-07-30T12:12:33+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -244,20 +258,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_6d22fbaa642f",
-      "title": "Desemprego até junho recua e fica em 5,4%, menor taxa para o período da série histórica",
-      "description": "Resultado medido pelo IBGE para o trimestre ficou dentro do esperado; em igual período do ano passado, a taxa de desemprego estava em 5,8%",
-      "url": "https://www.estadao.com.br/em-alta/economia/ibge-pnad-desemprego-junho-2026/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-07-30T12:12:33+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_9438040bc6fa",
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 8,
-    "average": 5.71,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "max": 7,
+    "average": 5.54,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 6,
+      "centerRight": 5,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
