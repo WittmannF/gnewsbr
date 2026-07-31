@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 37
+      "topic-4": 42
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/OP33FU6KJJHEHPTEPBFIIR6YGU.PNG?quality=80&auth=4c3e8791f7015ec587185917ee830a0d18da659df5786b9b7d30d21793a2ce7e&width=1200&height=630&smart=true",
   "publishedAt": "2026-07-29T00:13:41+00:00",
-  "updatedAt": "2026-07-31T11:55:25.313692+00:00",
+  "updatedAt": "2026-07-31T12:55:36.862492+00:00",
   "sourceCount": 8,
   "articleCount": 9,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "A atriz de 'A Odisseia' que virou favorita ao Oscar com 10 minutos de cena",
       "description": "Circe, personagem de Nolan no longa-metragem, rendeu à atriz britânica a aposta mais forte para o Oscar de Melhor Atriz Coadjuvante de 2027.",
       "url": "https://exame.com/casual/a-atriz-de-a-odisseia-que-virou-favorita-ao-oscar-com-10-minutos-de-cena/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
+      "source": "exame.com",
+      "sourceCanonical": "exame.com",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-07-30T14:35:49+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://classic.exame.com/wp-content/uploads/2026/07/samantha-morton.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c2fb198d9acd",
@@ -120,20 +120,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_51c0619cdc83",
-      "title": "Quem é Samantha Morton, atriz favorita ao Oscar com apenas 10 minutos em \"A Odisseia\"",
-      "description": "Atriz britânica de 49 anos, com duas indicações no currículo, interpreta Circe no filme de Christopher Nolan. Confira na íntegra.",
-      "url": "https://tmc.com.br/entretenimento/quem-e-samantha-morton-atriz-favorita-oscar-apenas-10-minutos-a-odisseia/",
-      "source": "tmc.com.br",
-      "sourceCanonical": "tmc.com.br",
-      "sourceDomain": "tmc.com.br",
-      "publishedAt": "2026-07-30T19:42:02+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_0666cb035a67",
       "title": "Samantha Morton vira favorita ao Oscar por papel de 10 minutos em “A Odisseia”",
       "description": "A atriz Samantha Morton passou a figurar entre as favoritas ao Oscar de Melhor Atriz Coadjuvante de 2027 por sua participação de cerca de 10...",
@@ -148,6 +134,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_51c0619cdc83",
+      "title": "Quem é Samantha Morton, atriz favorita ao Oscar com apenas 10 minutos em \"A Odisseia\"",
+      "description": "Atriz britânica de 49 anos, com duas indicações no currículo, interpreta Circe no filme de Christopher Nolan. Confira na íntegra.",
+      "url": "https://tmc.com.br/entretenimento/quem-e-samantha-morton-atriz-favorita-oscar-apenas-10-minutos-a-odisseia/",
+      "source": "tmc.com.br",
+      "sourceCanonical": "tmc.com.br",
+      "sourceDomain": "tmc.com.br",
+      "publishedAt": "2026-07-30T19:42:02+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_7008d80c00f6",
       "title": "‘A Odisseia’: quem é Samantha Morton, atriz que rouba a cena como Circe e está cotada ao Oscar?",
       "description": "No épico inspirado na obra de Homero, a britânica interpreta a poderosa feiticeira que cruza o caminho de Odisseu.",
@@ -157,7 +157,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-31T00:05:26+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/OP33FU6KJJHEHPTEPBFIIR6YGU.PNG?quality=80&auth=4c3e8791f7015ec587185917ee830a0d18da659df5786b9b7d30d21793a2ce7e&width=1200&height=630&focal=642,294",
       "spectrumScore": 7,
       "bucket": "centerRight"
     }
@@ -165,23 +165,23 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.4,
-    "knownCount": 5,
-    "unknownCount": 4,
+    "average": 5.25,
+    "knownCount": 4,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 2,
+      "center": 1,
       "centerRight": 2,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 80,
     "headlineDivergence": 85,
-    "confidence": 78
+    "confidence": 75
   },
   "flags": [
     "Muitas fontes não classificadas",
