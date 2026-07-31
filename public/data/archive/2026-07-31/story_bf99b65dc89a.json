@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 1
+      "topic-2": 3
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/noticias/77/2026/07/30/antiga-mumia-inca-em-exibicao-em-museu-em-cusco-no-peru-cientistas-recuperaram-dna-do-virus-da-variola-de-duas-antigas-mumias-incas-encontradas-no-norte-do-chile-segundo-um-novo-estudo-1785444702977_v2_615x300.png",
   "publishedAt": "2026-07-30T19:10:00+00:00",
-  "updatedAt": "2026-07-31T12:49:40.813606+00:00",
+  "updatedAt": "2026-07-31T13:50:42.344007+00:00",
   "sourceCount": 8,
   "articleCount": 8,
   "articles": [
@@ -54,7 +54,7 @@
       "title": "DNA de vírus da varíola é detectado em múmias chilenas do século 16",
       "description": "Cientistas conseguiram a primeira evidência molecular direta da varíola trazida por europeus para as Américas, cinco séculos atrás.",
       "url": "https://www1.folha.uol.com.br/ciencia/2026/07/dna-de-virus-da-variola-e-detectado-em-mumias-chilenas-do-seculo-16.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-07-30T19:10:00+00:00",
@@ -86,7 +86,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-31T07:30:18+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/y3YC0BgdMEDHOOVtyqFW4GLPgU4=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/e/y/PFNXfgSRmP4zojpWXXmA/untitled-design-1-.png",
       "spectrumScore": 6,
       "bucket": "center"
@@ -96,28 +96,28 @@
       "title": "Como um vírus escondido em múmias chilenas liga a varíola à colonização das Américas",
       "description": "Para a América Central e do Sul, grande parte do século 15 foi marcada pela chegada dos europeus que, durante todo o período de colonização,...",
       "url": "https://veja.abril.com.br/ciencia/como-um-virus-escondido-em-mumias-chilenas-liga-a-variola-a-colonizacao-das-americas/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-30T22:30:24+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_12b6018c74c6",
       "title": "DNA da varíola é achado em múmias da época da conquista espanhola no Chile",
       "description": "Análise de corpos mumificados do início do período colonial revela a primeira evidência molecular do vírus no 'novo mundo' em território...",
       "url": "https://www.cnnbrasil.com.br/ciencia/dna-da-variola-e-achado-em-mumias-da-epoca-da-conquista-espanhola-no-chile/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-07-30T20:50:02+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2e99fc8df146",
@@ -151,26 +151,25 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 4,
-    "unknownCount": 4,
+    "average": 5.67,
+    "knownCount": 6,
+    "unknownCount": 2,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 2,
-      "centerRight": 1,
+      "center": 3,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 4
+      "unknown": 2
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 73
+    "confidence": 79
   },
   "flags": [
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
