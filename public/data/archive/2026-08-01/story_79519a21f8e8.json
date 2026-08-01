@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5OGVMY0VSR00wMzhwWGZoOEtDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5OGVMY0VSR00wMzhwWGZoOEtDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 3
+      "home": 3,
+      "topstories": 3,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-7",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Morte de Nirmal Purja em avalanche",
   "summary": "Nirmal Purja, alpinista que estabeleceu o recorde de ascensão mais rápida às 14 montanhas mais altas do mundo, morreu em decorrência de uma...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "avalanche",
     "paquistão",
-    "purja",
     "nirmal",
-    "alpinistas",
-    "dez"
+    "purja",
+    "mundial",
+    "alpinistas"
   ],
-  "imageUrl": "https://s2-g1.glbimg.com/fALkyohCOyhjn20WsMQ_CwghRJU=/6019x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/S/7cWOtRTmO2FQBYLWxgbg/2026-08-01t121004z-62939663-rc2opmab85xj-rtrmadp-3-nepal-climbers-avalanche.jpg",
+  "imageUrl": "https://s2-oglobo.glbimg.com/FFPwbMNyUKxAL0ofSFlkGwFNauE=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/J/NgEnQ8RsiOyJaOzeRHFg/afp-20260731-c3mf264-v1-midres-filespakistannepalavalancheaccident.jpg",
   "publishedAt": "2026-07-30T22:41:00+00:00",
-  "updatedAt": "2026-08-01T16:42:58.659091+00:00",
+  "updatedAt": "2026-08-01T17:31:04.255180+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +46,14 @@
       "title": "Nirmal Purja, montanhista recordista mundial, e outros nove alpinistas morrem em avalanche no Paquistão",
       "description": "Nirmal Purja, alpinista que estabeleceu o recorde de ascensão mais rápida às 14 montanhas mais altas do mundo, morreu em decorrência de uma...",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/01/escalador-recordista-e-outros-nove-alpinistas-morrem-em-avalanche-no-paquistao.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-01T12:14:05+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/fALkyohCOyhjn20WsMQ_CwghRJU=/6019x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/S/7cWOtRTmO2FQBYLWxgbg/2026-08-01t121004z-62939663-rc2opmab85xj-rtrmadp-3-nepal-climbers-avalanche.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_45c49f03ae1d",
@@ -58,7 +64,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-08-01T14:16:15+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/FFPwbMNyUKxAL0ofSFlkGwFNauE=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/J/NgEnQ8RsiOyJaOzeRHFg/afp-20260731-c3mf264-v1-midres-filespakistannepalavalancheaccident.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -72,7 +78,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-01T12:56:43+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -101,7 +107,7 @@
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-07-31T21:25:14+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/4/8/6/5/6/1/6_157d6995a87f134/6165684_10b575ab23d2f61.jpg?w=1200&h=675&a=c&version=1575255600",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -124,14 +130,42 @@
       "title": "Paquistão tem avalanche e explosão em mina no mesmo dia; 38 morrem e 6 estão desaparecidos",
       "description": "Acidente com mineradores de carvão ocorreu devido a gás metano; renomado alpinista nepalês Nirmal Purja estava na expedição internacional...",
       "url": "https://veja.abril.com.br/mundo/paquistao-tem-avalanche-e-explosao-em-mina-no-mesmo-dia-38-morrem-e-6-estao-desaparecidos/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-07-31T18:14:55+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_5d7713472b8b",
+      "title": "Dez alpinistas somem após avalanche na 12ª montanha mais alta do mundo",
+      "description": "Duas mortes foram confirmadas e buscas pelos outros continuam. Broad Peak é uma das 14 montanhas do mundo com mais de 8 mil metros.",
+      "url": "https://www.metropoles.com/mundo/dez-alpinistas-somem-apos-avalanche-na-12a-montanha-mais-alta-do-mundo",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-07-31T06:47:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_c159fcca7b48",
+      "title": "Morre Nirmal Purja, montanhista recordista mundial, em avalanche no Paquistão",
+      "description": "O renomado alpinista Nirmal Purja, que ficou conhecido por estabelecer o recorde da escalada mais rápida das 14 montanhas mais altas do...",
+      "url": "https://noticias.r7.com/internacional/morre-nirmal-purja-montanhista-recordista-mundial-em-avalanche-no-paquistao-01082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-01T16:57:55+00:00",
+      "postedLabel": "33 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8db49bb1e9bb",
@@ -152,14 +186,42 @@
       "title": "Montanhista Nirmal Purja morreu em avalanche no Paquistão",
       "description": "O renomado montanhista Nirmal Purja morreu em uma avalanche no Paquistão quando liderava uma expedição para chegar ao cume do Broad Peak,...",
       "url": "https://www.gazetaesportiva.com/mais-esportes/montanhista-nirmal-purja-morreu-em-avalanche-no-paquistao/",
-      "source": "Gazeta Esportiva",
-      "sourceCanonical": "Gazeta Esportiva",
+      "source": "gazetaesportiva.com",
+      "sourceCanonical": "gazetaesportiva.com",
       "sourceDomain": "gazetaesportiva.com",
       "publishedAt": "2026-08-01T12:43:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_0e951b001e9d",
+      "title": "Avalanche atinge expedição em uma das montanhas mais altas do mundo; quatro alpinistas são encontrados mortos",
+      "description": "As operações de busca enfrentam dificuldades por causa das condições climáticas adversas, do risco de novas avalanches e das limitações para...",
+      "url": "https://www.jornalopcao.com.br/mundo/avalanche-atinge-expedicao-em-uma-das-montanhas-mais-altas-do-mundo-quatro-alpinistas-sao-encontrados-mortos-852775/",
+      "source": "Jornal Opção",
+      "sourceCanonical": "Jornal Opção",
+      "sourceDomain": "jornalopcao.com.br",
+      "publishedAt": "2026-07-31T21:56:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_7a5b3004d463",
+      "title": "Avalanche no Paquistão mata ícone do montanhismo Nirmal Purja",
+      "description": "O renomado alpinista anglo-nepalês Nirmal Purja, conhecido mundialmente como \"Nimsdai\", está entre as 10 vítimas de uma avalanche que...",
+      "url": "https://www.terra.com.br/noticias/mundo/avalanche-no-paquistao-mata-icone-do-montanhismo-nirmal-purja,62d0548feeac217ff81b9fd20df880fdmfgw7gyq.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-01T15:52:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d03fec372ba4",
@@ -180,14 +242,42 @@
       "title": "Empresa confirma morte de alpinista em avalanche no Paquistão",
       "description": "Nirmal Purja, que escalou 14 picos de 8 mil metros em tempo recorde, morre com nove integrantes de sua expedição no Paquistão.",
       "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/empresa-confirma-morte-de-alpinista-em-avalanche-no-paquistao-1.1735842",
-      "source": "correiodopovo.com.br",
-      "sourceCanonical": "correiodopovo.com.br",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-08-01T15:33:45+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_cd7b0386a925",
+      "title": "Estrela da Netflix e recordista mundial, Nirmal Purja morre após avalanche durante expedição no Paquistão",
+      "description": "A empresa Elite Exped confirmou neste sábado (1º) a morte do alpinista Nirmal \"Nimsdai\" Purja, um dos maiores nomes da história do...",
+      "url": "https://www.correio24horas.com.br/em-alta/estrela-da-netflix-e-recordista-mundial-nirmal-purja-morre-apos-avalanche-durante-expedicao-no-paquistao-0826",
+      "source": "Jornal Correio",
+      "sourceCanonical": "Jornal Correio",
+      "sourceDomain": "correio24horas.com.br",
+      "publishedAt": "2026-08-01T12:16:39+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_5fa510ac7d9d",
+      "title": "Alpinista Nirmal Purja desaparece junto com outras nove pessoas após avalanche no Paquistão",
+      "description": "Últimas notícias sobre os acontecimentos do mundo. Informações sobre política, economia, cultura, cotidiano, conflitos, em todo mundo.",
+      "url": "https://www.em.com.br/internacional/2026/07/7471335-alpinista-nirmal-purja-desaparece-junto-com-outras-nove-pessoas-apos-avalanche-no-paquistao.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-07-31T11:50:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_b4f54c57bd26",
@@ -204,113 +294,29 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0e951b001e9d",
-      "title": "Avalanche atinge expedição em uma das montanhas mais altas do mundo; quatro alpinistas são encontrados mortos",
-      "description": "As operações de busca enfrentam dificuldades por causa das condições climáticas adversas, do risco de novas avalanches e das limitações para...",
-      "url": "https://www.jornalopcao.com.br/mundo/avalanche-atinge-expedicao-em-uma-das-montanhas-mais-altas-do-mundo-quatro-alpinistas-sao-encontrados-mortos-852775/",
-      "source": "jornalopcao.com.br",
-      "sourceCanonical": "jornalopcao.com.br",
-      "sourceDomain": "jornalopcao.com.br",
-      "publishedAt": "2026-07-31T21:56:00+00:00",
+      "id": "article_4686f74f4527",
+      "title": "Alpinistas desaparecidos no Broad Peak: tudo sobre a avalanche que provocou tragédia em montanha do Paquistão",
+      "description": "Uma avalanche de grandes proporções atingiu uma expedição internacional no Broad Peak, uma das montanhas mais altas e técnicas do planeta,...",
+      "url": "https://www.bandab.com.br/internacional/alpinistas-desaparecidos-broad-peak-avalanche-provocou-tragedia-paquistao/",
+      "source": "Banda B",
+      "sourceCanonical": "Banda B",
+      "sourceDomain": "bandab.com.br",
+      "publishedAt": "2026-07-31T20:19:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_7a5b3004d463",
-      "title": "Avalanche no Paquistão mata ícone do montanhismo Nirmal Purja",
-      "description": "O renomado alpinista anglo-nepalês Nirmal Purja, conhecido mundialmente como \"Nimsdai\", está entre as 10 vítimas de uma avalanche que...",
-      "url": "https://www.terra.com.br/noticias/mundo/avalanche-no-paquistao-mata-icone-do-montanhismo-nirmal-purja,62d0548feeac217ff81b9fd20df880fdmfgw7gyq.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-01T15:52:00+00:00",
+      "id": "article_9822d1d38a79",
+      "title": "Alpinista Nirmal Purja e outros nove expedicionários morrem após avalanche no Paquistão",
+      "description": "Estrela do documentário '14 Montanhas, 8 Mil Metros e 7 Meses', o montanhista britânico-nepalês de 43 anos não sobreviveu ao desastre na...",
+      "url": "https://www.itatiaia.com.br/mundo/alpinista-nirmal-purja-e-outros-nove-expedicionarios-morrem-apos-avalanche-no-paquistao/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-08-01T16:00:40+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_5d7713472b8b",
-      "title": "Dez alpinistas somem após avalanche na 12ª montanha mais alta do mundo",
-      "description": "Duas mortes foram confirmadas e buscas pelos outros continuam. Broad Peak é uma das 14 montanhas do mundo com mais de 8 mil metros.",
-      "url": "https://www.metropoles.com/mundo/dez-alpinistas-somem-apos-avalanche-na-12a-montanha-mais-alta-do-mundo",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-07-31T06:47:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_cd7b0386a925",
-      "title": "Estrela da Netflix e recordista mundial, Nirmal Purja morre após avalanche durante expedição no Paquistão",
-      "description": "A empresa Elite Exped confirmou neste sábado (1º) a morte do alpinista Nirmal \"Nimsdai\" Purja, um dos maiores nomes da história do...",
-      "url": "https://www.correio24horas.com.br/em-alta/estrela-da-netflix-e-recordista-mundial-nirmal-purja-morre-apos-avalanche-durante-expedicao-no-paquistao-0826",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
-      "sourceDomain": "correio24horas.com.br",
-      "publishedAt": "2026-08-01T12:16:39+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_182182eff228",
-      "title": "Conheça a Broad Peak, a 12ª maior montanha do mundo que virou cenário de tragédia com astro de documentário da Netflix",
-      "description": "Avalanche no Broad Peak deixa 10 alpinistas desaparecidos na expedição de Nirmal Purja. Veja detalhes dos resgates e a história da montanha.",
-      "url": "https://www.diariodolitoral.com.br/cotidiano/avalanche-broad-peak-alpinistas-desaparecidos-paquistao/",
-      "source": "Diário do Litoral",
-      "sourceCanonical": "Diário do Litoral",
-      "sourceDomain": "diariodolitoral.com.br",
-      "publishedAt": "2026-07-31T12:41:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_3abbbeb051bf",
-      "title": "Dez alpinistas desaparecem em uma das montanhas mais altas do mundo",
-      "description": "Grupo de alpinistas liderado por renomado montanhista nepalês Nirmal Purja perdeu comunicação após avalanche no Broad Peak, no Paquistão.",
-      "url": "https://avozdocampo.com/mundo/dez-alpinistas-desaparecem-em-uma-das-montanhas-mais-altas-do-mundo/",
-      "source": "avozdocampo.com",
-      "sourceCanonical": "avozdocampo.com",
-      "sourceDomain": "avozdocampo.com",
-      "publishedAt": "2026-07-31T04:59:33+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_e346cf2bb28e",
-      "title": "Uma avalanche no Paquistão matou ou deixou o famoso alpinista Purja e muitos outros desaparecidos.",
-      "description": "(CLO) As equipes de resgate paquistanesas estão numa corrida contra o tempo para encontrar 10 alpinistas, incluindo o mundialmente famoso...",
-      "url": "https://www.vietnam.vn/pt/lo-tuyet-o-pakistan-nha-leo-nui-noi-tieng-purja-va-nhieu-nguoi-khac-thiet-mang-hoac-mat-tich",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-07-31T10:53:39+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_25b7ad513db6",
-      "title": "Dez alpinistas desaparecidos após avalanche numa das montanhas mais altas do mundo",
-      "description": "Dez alpinistas, entre os quais o famoso recordista nepalês Nirmal Purja, estão desaparecidos após uma avalanche na montanha Broad Peak,...",
-      "url": "https://expresso.pt/asia/2026-07-31-dez-alpinistas-desaparecidos-apos-avalanche-numa-das-montanhas-mais-altas-do-mundo-8d23d1c7",
-      "source": "Expresso",
-      "sourceCanonical": "Expresso",
-      "sourceDomain": "expresso.pt",
-      "publishedAt": "2026-07-31T13:34:59+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.18,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.4,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 9,
-      "centerRight": 1,
+      "center": 11,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 9
+      "unknown": 5
     }
   },
   "scores": {
@@ -339,7 +345,6 @@
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
