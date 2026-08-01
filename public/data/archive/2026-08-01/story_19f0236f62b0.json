@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 30
+      "topic-7": 29
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenRank": 29,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/7JHXDOKEAFA6ZG3P2HADFCPQAU.jpg?quality=80&auth=7b1cd43c112e9c8680a516d45fae9d60c653b08b95fe635ff68a6ae9b46b75b7&width=1200&height=630&smart=true",
   "publishedAt": "2026-07-28T11:59:09+00:00",
-  "updatedAt": "2026-08-01T20:44:47.319262+00:00",
+  "updatedAt": "2026-08-01T21:40:38.406337+00:00",
   "sourceCount": 13,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "O Papa Francisco convidou Anthony Fauci ao Vaticano. Os apoiadores de Trump querem prendê-lo",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
       "url": "https://ihu.unisinos.br/categorias/669126-o-papa-francisco-convidou-anthony-fauci-ao-vaticano-os-apoiadores-de-trump-querem-prende-lo",
-      "source": "Instituto Humanitas Unisinos - IHU",
-      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "source": "ihu.unisinos.br",
+      "sourceCanonical": "ihu.unisinos.br",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-08-01T13:53:34+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.ihu.unisinos.br/images/ihu/2026/07/31_07_Anthony_Fauci_flickr.jpg",
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5e8675c77f9d",
@@ -101,7 +101,7 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-07-30T09:03:59+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/fauci-style-revista-reproducao-848x477.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -110,8 +110,8 @@
       "title": "F de fraude, F de Fauci",
       "description": "Lembram-se de Anthony Fauci? O Congresso dos EUA lembra-se, e está a investigar a respectiva conduta no tempo da Covid, quando o indivíduo...",
       "url": "https://observador.pt/opiniao/f-de-fraude-f-de-fauci/",
-      "source": "Observador",
-      "sourceCanonical": "Observador",
+      "source": "observador.pt",
+      "sourceCanonical": "observador.pt",
       "sourceDomain": "observador.pt",
       "publishedAt": "2026-07-31T23:25:37+00:00",
       "postedLabel": "hoje",
@@ -240,7 +240,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-01T17:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 5,
     "max": 9,
-    "average": 6.81,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 7.07,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 5,
       "centerRight": 8,
       "right": 2,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
