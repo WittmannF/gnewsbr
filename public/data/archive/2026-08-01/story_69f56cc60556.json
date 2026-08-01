@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyem9YWUVSSG5SaXlwbXhURWxTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyem9YWUVSSG5SaXlwbXhURWxTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 2,
-      "topic-5": 6
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Paraguai cobra devolução de canhão de Guerra da Tríplice Aliança após crise por fala de Lula",
   "summary": "Governo Santiago Peña reitera pleito histórico por repatriação de armamento militar e arquivos históricos capturados como troféus de guerra...",
@@ -28,13 +34,13 @@
     "paraguai",
     "lula",
     "guerra",
-    "embaixador",
     "fala",
+    "embaixador",
     "repúdio"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/7R4IMZAUIFHSHOD6PIS3W55LJE.png?quality=80&auth=acfc9d5546a65c944885bfdd61860ad06a9b581bc315e6cad0f761280ab755e8&width=1200&height=630&smart=true",
-  "publishedAt": "2026-07-29T07:00:00+00:00",
-  "updatedAt": "2026-08-01T07:53:39.803719+00:00",
+  "publishedAt": "2026-07-30T07:00:00+00:00",
+  "updatedAt": "2026-08-01T08:56:21.444836+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_e54eaee84f65",
+      "title": "Paraguai rejeita fala de Lula e exige devolução de troféus de guerra",
+      "description": "Além do protesto entregue ao embaixador em Assunção, Paraguai quer de volta espólios da guerra — dois canhões que estão no Museu Histórico...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7471962-paraguai-rejeita-fala-de-lula-e-exige-devolucao-de-trofeus-de-guerra.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-08-01T06:55:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/07/31/675x450/1_cristiano-67307687.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_1c5919c865b2",
       "title": "Paraguai entrega nota de repúdio a embaixador brasileiro, e vice diz não querer aprofundar rusga",
       "description": "Comunicado endereçado a Mauro Vieira diz que falas de Lula sobre a Guerra do Paraguai distorcem fatos históricos.",
@@ -85,28 +105,14 @@
       "title": "Guerra do Paraguai: como fala de Lula reacendeu crise diplomática — e o que historiadores contestam sobre o conflito",
       "description": "Conflito que envolveu três países foi ensinado para muitos como tendo sido fomentado por imperialismo britânico para tentar barrar potência...",
       "url": "https://www.bbc.com/portuguese/articles/cgmkwrllrm4o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-07-30T21:16:08+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/2e2e/live/04f06700-b890-11ef-a0f2-fd81ae5962f4.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_a2da875b1cb8",
-      "title": "Assim como Milei, presidente do Paraguai está sendo usado por Trump para prejudicar Lula",
-      "description": "A decisão do presidente do Paraguai de convocar o embaixador do Brasil em Assunção para entregar uma nota de repúdio pelas declarações do...",
-      "url": "https://www.brasildefato.com.br/2026/07/30/assim-como-milei-presidente-do-paraguai-esta-sendo-usado-por-trump-para-prejudicar-lula/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-07-30T23:05:00+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_dcbbce4e3da8",
@@ -155,28 +161,14 @@
       "title": "Paraguai convoca embaixador do Brasil por falas de Lula sobre guerra",
       "description": "Presidente utilizou o conflito entre os países em 1864 para defender a necessidade de investir em defesa e segurança.",
       "url": "https://jovempan.com.br/mundo/paraguai-convoca-embaixador-do-brasil-por-falas-de-lula-sobre-guerra/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
+      "source": "jovempan.com.br",
+      "sourceCanonical": "jovempan.com.br",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-07-30T18:30:31+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_2a54e69225e9",
-      "title": "Paraguai manifesta rejeição a declarações de Lula sobre guerra da Tríplice Aliança",
-      "description": "Nota de repúdio foi entregue ao embaixador brasileiro em Assunção na sede do Ministério das Relações Exteriores do Paraguai,...",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/07/paraguai-manifesta-rejeicao-a-declaracoes-de-lula-sobre-guerra-no-seculo-xix-cms9dcd8v01yn015doets6mtm.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-08-01T01:55:18+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fe2eb7345fbc",
@@ -193,6 +185,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_a2da875b1cb8",
+      "title": "Assim como Milei, presidente do Paraguai está sendo usado por Trump para prejudicar Lula",
+      "description": "A decisão do presidente do Paraguai de convocar o embaixador do Brasil em Assunção para entregar uma nota de repúdio pelas declarações do...",
+      "url": "https://www.brasildefato.com.br/2026/07/30/assim-como-milei-presidente-do-paraguai-esta-sendo-usado-por-trump-para-prejudicar-lula/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-07-30T23:05:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_2a54e69225e9",
+      "title": "Paraguai manifesta rejeição a declarações de Lula sobre guerra da Tríplice Aliança",
+      "description": "O Paraguai expressou ao Brasil, nesta sexta-feira (31), seu \"desagrado e repúdio\" pelas declarações do presidente Luiz Inácio Lula da Silva...",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/07/paraguai-manifesta-rejeicao-a-declaracoes-de-lula-sobre-guerra-no-seculo-xix-cms9dcd8v01yn015doets6mtm.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-08-01T01:55:18+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_10d347e19980",
       "title": "Paraguai entrega nota de repúdio ao Brasil por fala de Lula sobre guerra",
       "description": "O vice-presidente do Paraguai, Pedro Alliana, e o chanceler Rubén Ramírez Lezcano entregaram nesta sexta-feira (31) ao embaixador brasileiro...",
@@ -207,32 +227,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_7e53c585599e",
-      "title": "Mal-estar com Paraguai se agrava e gera protesto diplomático",
-      "description": "Os presidentes Luiz Inácio Lula da Silva e Santiago Peña, do Paraguai, conversaram a fim de tentarem superar o mal-estar provocado pelo...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/07/7471191-mal-estar-com-paraguai-se-agrava-e-gera-protesto-diplomatico.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-07-29T07:00:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_85c73e264da0",
       "title": "As declarações de Lula e a complexa relação entre Brasil e Paraguai",
       "description": "A relação do Brasil com os Estados Unidos atravessa um momento de tensão, patrocinada pela diplomacia da canelada de Donald Trump,...",
       "url": "https://noticias.r7.com/prisma/blog-do-porfirio/as-declaracoes-de-lula-e-a-complexa-relacao-entre-brasil-e-paraguai-31072026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-31T14:10:44+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_23edb8a6f43e",
@@ -277,20 +283,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_c5aa0e3ea60a",
-      "title": "Paraguai manifesta rejeição a falas de Lula sobre guerra no século XIX",
-      "description": "Episódio histórico sobre a Guerra da Tríplice Aliança afeta as relações entre os dois países vizinhos e parceiros comerciais.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/paraguai-manifesta-rejeicao-a-falas-de-lula-sobre-guerra-no-seculo-xix-1.1735699",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-07-31T19:45:05+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_678f9ed41c61",
       "title": "Declaração de Lula sobre a Guerra do Paraguai foi retirada de contexto, diz embaixador brasileiro em Assunção",
       "description": "Convocado, José Antônio Marcondes de Carvalho se reuniu com o governo paraguaio para prestar esclarecimentos.",
@@ -317,20 +309,34 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_c5aa0e3ea60a",
+      "title": "Paraguai manifesta rejeição a falas de Lula sobre guerra no século XIX",
+      "description": "Episódio histórico sobre a Guerra da Tríplice Aliança afeta as relações entre os dois países vizinhos e parceiros comerciais.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/paraguai-manifesta-rejeicao-a-falas-de-lula-sobre-guerra-no-seculo-xix-1.1735699",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-07-31T19:45:05+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.35,
+    "average": 5.24,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 3,
       "center": 7,
-      "centerRight": 3,
-      "right": 2,
+      "centerRight": 4,
+      "right": 1,
       "unknown": 3
     }
   },

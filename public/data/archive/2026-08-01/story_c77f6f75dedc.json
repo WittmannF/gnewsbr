@@ -3,21 +3,18 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pEN29MWkVSRjJxaFJOcEF0TmJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pEN29MWkVSRjJxaFJOcEF0TmJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5",
-    "topic-6"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5",
-      "topic-6"
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 38,
-      "topic-6": 2
+      "topic-5": 42
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 38,
-    "bestSeedRank": 2,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +31,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/esporte/45/2026/07/30/yuri-alberto-chora-ao-deixar-o-campo-em-corinthians-x-athletico-pr-1785457242974_v2_615x300.jpg",
   "publishedAt": "2026-07-31T05:28:23+00:00",
-  "updatedAt": "2026-08-01T08:01:05.981811+00:00",
+  "updatedAt": "2026-08-01T09:08:42.657154+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -71,7 +68,7 @@
       "title": "Milly Lacombe: O futebol vai morrer pelas mãos de seus gestores",
       "description": "O episódio da troca do gramado do estádio do Corinthians está apenas começando. As informações mais confiáveis, como as trazidas aqui para o...",
       "url": "https://www.uol.com.br/esporte/colunas/milly-lacombe/2026/07/31/o-futebol-vai-morrer-pelas-maos-de-seus-gestores.htm",
-      "source": "UOL",
+      "source": "uol.com.br",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
       "publishedAt": "2026-08-01T00:12:29+00:00",
@@ -239,14 +236,14 @@
       "title": "Corinthians confirma lesões de Labyad, Yuri Alberto e Garro",
       "description": "Labyad rompeu o LCA e passará por cirurgia. Garro e Yuri Alberto também se lesionaram e viram dúvidas para a Copa do Brasil.",
       "url": "https://www.metropoles.com/esportes/corinthians-confirma-lesoes-de-labyad-yuri-alberto-e-garro",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-07-31T19:31:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e5cf662329c7",
@@ -291,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e81663471696",
-      "title": "Labyad rompe ligamento do joelho e não deve jogar em 2026",
-      "description": "Meio-campista, que sofreu ruptura do LCA e lesão no menisco do joelho esquerdo, precisará passar por cirurgia no Timão.",
-      "url": "https://sports.sbt.com.br/noticia/corinthians/labyad-do-corinthians-rompe-ligamento-do-joelho-e-nao-deve-mais-jogar-em-2026",
-      "source": "SBT Sports",
-      "sourceCanonical": "SBT Sports",
-      "sourceDomain": "sports.sbt.com.br",
-      "publishedAt": "2026-07-31T13:28:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_f627bb195e94",
       "title": "\"É um adversário traiçoeiro\": Raniele projeta confronto do Corinthians contra o Internacional",
       "description": "Volante valorizou a sequência invicta do Timão, mas destacou que o mata-mata exige atenção máxima nos dois jogos das oitavas de final da...",
@@ -317,21 +300,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_e81663471696",
+      "title": "Labyad rompe ligamento do joelho e não deve jogar em 2026",
+      "description": "Meio-campista, que sofreu ruptura do LCA e lesão no menisco do joelho esquerdo, precisará passar por cirurgia no Timão.",
+      "url": "https://sports.sbt.com.br/noticia/corinthians/labyad-do-corinthians-rompe-ligamento-do-joelho-e-nao-deve-mais-jogar-em-2026",
+      "source": "SBT Sports",
+      "sourceCanonical": "SBT Sports",
+      "sourceDomain": "sports.sbt.com.br",
+      "publishedAt": "2026-07-31T13:28:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.12,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {

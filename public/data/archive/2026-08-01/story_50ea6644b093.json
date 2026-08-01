@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 29
+      "topic-3": 32
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 32,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "colonoscopia",
     "mulher",
-    "morre",
     "durante",
+    "morre",
     "intestino",
     "exame"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/MORRE-INTESTINO-PERFURADO-2-1.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-30T17:00:24+00:00",
-  "updatedAt": "2026-08-01T07:54:55.965359+00:00",
+  "updatedAt": "2026-08-01T08:59:56.814171+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -124,8 +124,8 @@
       "title": "Colonoscopia é perigosa? Saiba por que risco de morte com exame é baixo",
       "description": "Após morte de mulher em São Paulo, entenda como é feito o procedimento e saiba que os benefícios compensam de longe os riscos.",
       "url": "https://saude.abril.com.br/medicina/colonoscopia-risco-de-morte/",
-      "source": "saude.abril.com.br",
-      "sourceCanonical": "saude.abril.com.br",
+      "source": "Veja Saúde",
+      "sourceCanonical": "Veja Saúde",
       "sourceDomain": "saude.abril.com.br",
       "publishedAt": "2026-07-31T16:22:00+00:00",
       "postedLabel": "hoje",
@@ -152,14 +152,14 @@
       "title": "Tia de mulher que morreu após colonoscopia diz que ela relatou medo antes do exame",
       "description": "'Ela estava com medo', relatou a tia da vítima, ao lembrar das conversas que teve com a sobrinha antes do exame.",
       "url": "https://iclnoticias.com.br/tia-mulher-morreu-colonoscopia-medo/",
-      "source": "iclnoticias.com.br",
-      "sourceCanonical": "iclnoticias.com.br",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-07-31T22:42:46+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_5f700cdd0f34",
@@ -222,14 +222,14 @@
       "title": "Mulher morre após realizar exame de colonoscopia em São Paulo",
       "description": "Uma mulher morreu depois de ter o intestino perfurado durante uma colonoscopia no Hospital Municipal de Ermelino Matarazzo, na Zona Leste de...",
       "url": "https://www.correiobraziliense.com.br/brasil/2026/07/7470914-mulher-morre-apos-realizar-exame-de-colonoscopia-em-sao-paulo.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-30T17:55:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_ce5e2337d0e3",
@@ -288,14 +288,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e65f7615daf3",
-      "title": "Mulher morre após colonoscopia em hospital municipal de SP",
-      "description": "A paciente tinha 41 anos e passou por uma cirurgia de emergência depois de ter seu intestino lacerado durante procedimento em Ermelino...",
-      "url": "https://ultimosegundo.ig.com.br/brasil/sp/2026-07-30/mulher-morre-apos-colonoscopia-em-hospital-municipal-de-sp.html",
-      "source": "Portal iG",
-      "sourceCanonical": "Portal iG",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-07-30T18:09:00+00:00",
+      "id": "article_0c5f737e2070",
+      "title": "Mulher de 41 anos morre após ter intestino perfurado durante colonoscopia; hospital abre sindicância",
+      "description": "Ela fazia o exame pela primeira vez por causa; após a perfuração, a paciente passou por uma cirurgia de emergência, mas não resistiu.",
+      "url": "https://www.correio24horas.com.br/saude/mulher-de-41-anos-morre-apos-ter-intestino-perfurado-durante-colonoscopia-hospital-abre-sindicancia-0726",
+      "source": "Jornal Correio",
+      "sourceCanonical": "Jornal Correio",
+      "sourceDomain": "correio24horas.com.br",
+      "publishedAt": "2026-07-30T17:23:52+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 7,
-    "average": 5.42,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.07,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
-      "centerLeft": 0,
+      "left": 1,
+      "centerLeft": 1,
       "center": 10,
       "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

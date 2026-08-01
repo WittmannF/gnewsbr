@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 1
+      "topic-2": 2
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/r58EXbYr4Szq_cBvyOnQx57oD4w=/1723x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/N/ic8XIJT5AQeGvztmSaEA/captura-de-tela-2026-07-30-150255.png",
   "publishedAt": "2026-07-28T12:41:00+00:00",
-  "updatedAt": "2026-08-01T07:52:38.184843+00:00",
+  "updatedAt": "2026-08-01T08:56:34.478512+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -73,7 +73,7 @@
       "sourceDomain": "gov.br",
       "publishedAt": "2026-07-28T12:41:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/ministerio-da-saude-amplia-recomendacao-de-vacinacao-contra-o-sarampo-em-tres-municipios-de-sao-paulo/vacina-sarampo_-marcelo-camargo-agencia-brasil.jpg/@@images/1bf3916e-f16f-4a33-8fd7-4150a864316d.jpeg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -194,14 +194,14 @@
       "title": "Assista à íntegra da Edição Digital do JR 24 Horas desta sexta (31)",
       "description": "Governo de São Paulo promove campanha de vacinação contra o sarampo. Receita Federal realiza pagamento do terceiro lote do IR nesta sexta...",
       "url": "https://noticias.r7.com/jr-24h/conteudo-exclusivo/video/assista-a-integra-da-edicao-digital-do-jr-24-horas-desta-sexta-31-31072026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-07-31T14:53:36+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_1271b8018421",
@@ -222,14 +222,14 @@
       "title": "Sarampo em adultos: os sintomas são diferentes e podem ser mais graves",
       "description": "Apesar de ser comumente associada à infância, o sarampo também afeta adultos e pode se manifestar de forma mais agressiva.",
       "url": "https://www.correiobraziliense.com.br/aqui/2026/07/31/sarampo-em-adultos-os-sintomas-sao-diferentes-e-podem-ser-mais-graves/",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-31T18:30:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_476fbea378ea",
@@ -278,8 +278,8 @@
       "title": "Secretaria de Saúde de Araçatuba reforça importância da vacinação para proteção contra o sarampo",
       "description": "A Secretaria Municipal de Saúde de Araçatuba reforça que a vacinação é a principal forma de prevenção contra o sarampo, uma doença viral...",
       "url": "https://aracatuba.sp.gov.br/noticias/secretaria-de-sade-de-araatuba-refora-importncia-da-vacinao-para-proteo-contra-o-sarampo",
-      "source": "Prefeitura Municipal de Araçatuba",
-      "sourceCanonical": "Prefeitura Municipal de Araçatuba",
+      "source": "aracatuba.sp.gov.br",
+      "sourceCanonical": "aracatuba.sp.gov.br",
       "sourceDomain": "aracatuba.sp.gov.br",
       "publishedAt": "2026-07-30T19:45:00+00:00",
       "postedLabel": "ontem",
@@ -319,27 +319,27 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.85,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 4.93,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 9,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
