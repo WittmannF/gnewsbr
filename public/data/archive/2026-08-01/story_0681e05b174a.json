@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://iclnoticias.com.br/app/uploads/2023/02/Americanas-14.jpg",
   "publishedAt": "2026-07-29T19:07:00+00:00",
-  "updatedAt": "2026-08-01T10:59:53.068327+00:00",
+  "updatedAt": "2026-08-01T11:53:42.407200+00:00",
   "sourceCount": 14,
   "articleCount": 20,
   "articles": [
@@ -86,7 +86,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-31T11:05:30+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/S5V2IG5CUBC7TJQVHZ753YXJUI.jpg?quality=80&auth=7dbfc37d3f454b939009ac73929ba2309f239c8729b551c1240a662eb058e021&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -110,14 +110,14 @@
       "title": "Juíza vê indícios de que acionistas da Americanas sabiam de fraudes de R$ 54 bi",
       "description": "A juíza Giovana Teixeira Brantes Calmon, da 10ª Vara Criminal Federal do Rio de Janeiro, afirmou que os empresários Carlos Alberto Sicupira...",
       "url": "https://revistaoeste.com/politica/juiza-ve-indicios-de-que-acionistas-da-americanas-sabiam-de-fraudes-de-r-54-bi/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-07-30T18:42:51+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_37471a3cf2c0",
@@ -134,20 +134,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_dcb92ed8c41c",
-      "title": "Fraude na Americanas: decisão revela reação de diretor em reunião",
-      "description": "Documento cita que André Covre classificou irregularidades como fraude dias antes da revelação do rombo bilionário da varejista.",
-      "url": "https://ultimosegundo.ig.com.br/2026-07-30/fraude-na-americanas--decisao-revela-reacao-de-diretor-em-reuniao.html",
-      "source": "Portal iG",
-      "sourceCanonical": "Portal iG",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-07-30T16:57:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_aa55db308562",
       "title": "PF revela códigos usados em suposta fraude contábil nas Americanas",
       "description": "PF identificou códigos internos usados em supostas manipulações contábeis nas Americanas, como “verdes e vermelhos” e “versão 0”.",
@@ -160,6 +146,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_dcb92ed8c41c",
+      "title": "Fraude na Americanas: decisão revela reação de diretor em reunião",
+      "description": "Documento cita que André Covre classificou irregularidades como fraude dias antes da revelação do rombo bilionário da varejista.",
+      "url": "https://ultimosegundo.ig.com.br/2026-07-30/fraude-na-americanas--decisao-revela-reacao-de-diretor-em-reuniao.html",
+      "source": "ultimosegundo.ig.com.br",
+      "sourceCanonical": "ultimosegundo.ig.com.br",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-07-30T16:57:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_656e5eb6496a",
@@ -180,14 +180,14 @@
       "title": "Colunista expõe bastidores da fraude nas Americanas: \"vocês vão ser presos\"",
       "description": "De acordo com a reportagem, recém-empossado como diretor financeiro, André Covre reagiu às irregularidades: “Isso é fraude”.",
       "url": "https://horadopovo.com.br/colunista-expoe-bastidores-da-fraude-nas-americanas-voces-vao-ser-presos/",
-      "source": "Hora do Povo",
-      "sourceCanonical": "Hora do Povo",
+      "source": "horadopovo.com.br",
+      "sourceCanonical": "horadopovo.com.br",
       "sourceDomain": "horadopovo.com.br",
       "publishedAt": "2026-07-30T21:09:57+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_005d6b76d28a",
@@ -318,28 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 10,
-    "average": 5,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 7,
+    "average": 4.92,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 5,
+      "left": 4,
       "centerLeft": 0,
-      "center": 3,
+      "center": 2,
       "centerRight": 6,
-      "right": 1,
-      "unknown": 5
+      "right": 0,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
