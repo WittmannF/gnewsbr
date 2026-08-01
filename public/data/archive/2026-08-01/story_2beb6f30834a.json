@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSR0FHMUxPZ0t3WjJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSR0FHMUxPZ0t3WjJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 3,
-      "topic-7": 4
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Irã • EUA",
   "summary": "O Departamento de Estado dos Estados Unidos emitiu um alerta geral neste sábado (1º) para cidadãos americanos no Oriente Médio com...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/ARSENAL-EUA-2.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-30T03:04:00+00:00",
-  "updatedAt": "2026-08-01T22:36:39.525866+00:00",
+  "updatedAt": "2026-08-01T23:30:14.752127+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-01T18:40:19+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/ARSENAL-EUA-2.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -131,7 +137,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-01T16:43:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -291,6 +297,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_96bfcb6d752f",
+      "title": "Irã acusa EUA de 'agravar tensões' no Oriente Médio",
+      "description": "O Exército do Irã acusou neste sábado (1) os Estados Unidos de \"agravar as tensões\" no Oriente Médio e afirmou que os países da região devem...",
+      "url": "https://www.em.com.br/internacional/2026/08/7472043-ira-acusa-eua-de-agravar-tensoes-no-oriente-medio.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-08-01T11:13:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_3b30f03bfb18",
       "title": "O passado imperial do Irã desafia a força americana",
       "description": "Na guerra entre Estados Unidos e Irã que atinge o seu quinto mês, Teerã utiliza à história como instrumento estratégico para legitimar suas...",
@@ -303,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_96bfcb6d752f",
-      "title": "Irã acusa EUA de 'agravar tensões' no Oriente Médio",
-      "description": "O Exército do Irã acusou neste sábado (1) os Estados Unidos de \"agravar as tensões\" no Oriente Médio e afirmou que os países da região devem...",
-      "url": "https://www.em.com.br/internacional/2026/08/7472043-ira-acusa-eua-de-agravar-tensoes-no-oriente-medio.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-01T11:13:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
     "average": 4.88,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 3,
-      "center": 8,
+      "center": 9,
       "centerRight": 3,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
