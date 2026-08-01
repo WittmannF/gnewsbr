@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 51
+      "topic-4": 46
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 51,
-    "bestSeedRank": 51,
+    "firstSeenRank": 46,
+    "bestSeedRank": 46,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/30/17854446106a6bb902e6d4c_1785444610_3x2_rt.jpg",
   "publishedAt": "2026-07-30T14:45:28+00:00",
-  "updatedAt": "2026-08-01T15:42:26.347231+00:00",
+  "updatedAt": "2026-08-01T16:37:36.218192+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Wagner Moura diz estar animado com papel em novo ‘Onze Homens e Um Segredo’",
       "description": "Ator passa por temporada em peça de teatro na Europa e participará do longa após encerramento de período.",
       "url": "https://www.estadao.com.br/em-alta/cultura/cinema/wagner-moura-diz-estar-animado-com-papel-em-novo-onze-homens-e-um-segredo-nprec/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-30T22:10:10+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/G4MCK2J4W5BY7N6OZEA5Y7MM2A.png?quality=80&auth=dbee16f493b437d06480323e051960169b5ebd7d2be19e2c1469ad05d06b0498&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_ffff8ad9136f",
@@ -143,7 +143,7 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-07-31T12:31:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://i.metroimg.com/8CtZX-f6elEJAViI_7CMpj8rHNyJL6w90dIB4-dVHCw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/03/wagner-moura-gettyimages-2266689518-1.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -156,7 +156,7 @@
       "sourceCanonical": "Bahia.Ba",
       "sourceDomain": "bahia.ba",
       "publishedAt": "2026-07-31T16:26:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_8c098d6c24f2",
-      "title": "Wagner Moura entra no novo filme de “Onze Homens e Um Segredo”",
-      "description": "O ator disse que gravará com Bradley Cooper após concluir em agosto a turnê europeia de sua peça.",
-      "url": "https://www.brasil247.com/cultura/wagner-moura-entra-no-novo-filme-de-onze-homens-e-um-segredo/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-07-31T00:28:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_ad824806e86d",
       "title": "Wagner Moura comenta rumores sobre papel de vilão em novo filme dos X-Men",
       "description": "O nome de Wagner Moura entrou em uma fase inédita de sua carreira em Hollywood. Após a repercussão internacional de O Agente Secreto, o ator...",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_8c098d6c24f2",
+      "title": "Wagner Moura entra no novo filme de “Onze Homens e Um Segredo”",
+      "description": "O ator disse que gravará com Bradley Cooper após concluir em agosto a turnê europeia de sua peça.",
+      "url": "https://www.brasil247.com/cultura/wagner-moura-entra-no-novo-filme-de-onze-homens-e-um-segredo/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-07-31T00:28:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 5,
-    "average": 4.2,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 7,
+    "average": 4.45,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 4,
       "center": 5,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
