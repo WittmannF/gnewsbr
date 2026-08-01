@@ -12,11 +12,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 29,
-      "topic-5": 25
+      "topic-3": 25,
+      "topic-5": 26
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 29,
+    "firstSeenRank": 25,
     "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/png/2026/07/30/675x450/1_flavio-bolsonaro-live-67298045.png",
   "publishedAt": "2026-07-25T19:16:34+00:00",
-  "updatedAt": "2026-08-01T14:43:54.711390+00:00",
+  "updatedAt": "2026-08-01T15:36:46.797918+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,7 +47,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-31T15:29:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://midias.correiobraziliense.com.br/_midias/png/2026/07/30/675x450/1_flavio-bolsonaro-live-67298045.png",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -85,14 +85,14 @@
       "title": "Chiqueirinho global",
       "description": "Na falta de eleitores e com poucos aliados internos, Flávio apela ao que o mundo tem de pior. .Solidão e sobrenome. Passados sete meses da...",
       "url": "https://www.brasildefato.com.br/colunista/boletim-ponto/2026/07/31/chiqueirinho-global/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
+      "source": "brasildefato.com.br",
+      "sourceCanonical": "brasildefato.com.br",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-07-31T15:10:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/07/bolsonato-ia-772fddeb.webp",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ccb2cd85a87f",
@@ -104,7 +104,7 @@
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-07-26T17:04:05+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/07/Totens-de-Flavio-e-Michelle-na-convencao.jpg",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -201,7 +201,7 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-08-01T13:13:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -291,20 +291,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_3023fbe75365",
-      "title": "Flávio Bolsonaro inicia maratona de convenções familiares",
-      "description": "Flávio Bolsonaro inicia agenda nacional de convenções do PL com Michelle Bolsonaro no DF e Carlos Bolsonaro em Santa Catarina na disputa...",
-      "url": "https://www.esmaelmorais.com.br/flavio-bolsonaro-convencoes-michelle-carlos-senado-2026/",
-      "source": "Blog do Esmael",
-      "sourceCanonical": "Blog do Esmael",
-      "sourceDomain": "esmaelmorais.com.br",
-      "publishedAt": "2026-08-01T11:36:56+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_8b8b9638af6f",
       "title": "Flávio Bolsonaro oficializa candidatura ao lado de Milei e sem Michelle, e promete subir a rampa do Planalto em 2027 com Jair Bolsonaro",
       "description": "Evento exibiu vídeo com o ex-presidente Jair Bolsonaro que afirma ter sido feito por inteligência artificial. Michelle envia vídeo em que...",
@@ -317,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_3023fbe75365",
+      "title": "Flávio Bolsonaro inicia maratona de convenções familiares",
+      "description": "Flávio Bolsonaro inicia agenda nacional de convenções do PL com Michelle Bolsonaro no DF e Carlos Bolsonaro em Santa Catarina na disputa...",
+      "url": "https://www.esmaelmorais.com.br/flavio-bolsonaro-convencoes-michelle-carlos-senado-2026/",
+      "source": "Blog do Esmael",
+      "sourceCanonical": "Blog do Esmael",
+      "sourceDomain": "esmaelmorais.com.br",
+      "publishedAt": "2026-08-01T11:36:56+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 4.94,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.12,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 4,
+      "left": 3,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {

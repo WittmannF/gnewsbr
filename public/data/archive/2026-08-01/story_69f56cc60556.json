@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 8,
-      "topic-5": 8
+      "topic-5": 12
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 8,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/Vokur8UroCPzD5Pn5X2mtfviVtg=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/L/tfyG6LRn2oo5LzCoJnBQ/guerra-paraguai-1200w.jpg",
   "publishedAt": "2026-07-30T14:40:00+00:00",
-  "updatedAt": "2026-08-01T14:42:35.653974+00:00",
+  "updatedAt": "2026-08-01T15:35:34.251114+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -197,14 +197,14 @@
       "title": "Assim como Milei, presidente do Paraguai está sendo usado por Trump para prejudicar Lula",
       "description": "A decisão do presidente do Paraguai de convocar o embaixador do Brasil em Assunção para entregar uma nota de repúdio pelas declarações do...",
       "url": "https://www.brasildefato.com.br/2026/07/30/assim-como-milei-presidente-do-paraguai-esta-sendo-usado-por-trump-para-prejudicar-lula/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
+      "source": "brasildefato.com.br",
+      "sourceCanonical": "brasildefato.com.br",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-07-30T23:05:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_85c73e264da0",
@@ -221,20 +221,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_bd6eaad853a4",
-      "title": "Lula conversa com Peña após fala sobre guerra; Paraguai convoca embaixador",
-      "description": "O presidente Luiz Inácio Lula da Silva conversou por telefone com seu homólogo paraguaio, Santiago Peña, para discutir a repercussão de suas...",
-      "url": "https://www.terra.com.br/noticias/mundo/lula-conversa-com-pena-apos-fala-sobre-guerra-paraguai-convoca-embaixador,e073f639ca4acc94d126e4de91aa39693jxtuqjx.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-07-30T16:36:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_678f9ed41c61",
       "title": "Declaração de Lula sobre a Guerra do Paraguai foi retirada de contexto, diz embaixador brasileiro em Assunção",
       "description": "Convocado, José Antônio Marcondes de Carvalho se reuniu com o governo paraguaio para prestar esclarecimentos.",
@@ -247,6 +233,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_bd6eaad853a4",
+      "title": "Lula conversa com Peña após fala sobre guerra; Paraguai convoca embaixador",
+      "description": "O presidente Luiz Inácio Lula da Silva conversou por telefone com seu homólogo paraguaio, Santiago Peña, para discutir a repercussão de suas...",
+      "url": "https://www.terra.com.br/noticias/mundo/lula-conversa-com-pena-apos-fala-sobre-guerra-paraguai-convoca-embaixador,e073f639ca4acc94d126e4de91aa39693jxtuqjx.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-07-30T16:36:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2a54e69225e9",
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.21,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 5.39,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
-      "left": 3,
+      "left": 2,
       "centerLeft": 3,
       "center": 8,
       "centerRight": 3,
       "right": 2,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
