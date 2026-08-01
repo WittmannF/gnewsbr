@@ -29,9 +29,9 @@
     "vivo",
     "engolido"
   ],
-  "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/imagem-principal-homem-morre-ataque-piton-7-metros-indonesia-blog-python.jpg",
+  "imageUrl": "https://i.metroimg.com/Sinv3_duGOyGXmRw4DIp16e5gKB-iD4edC5-iQkURew/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/07/jkhkjhkjh.jpg",
   "publishedAt": "2026-07-07T07:00:00+00:00",
-  "updatedAt": "2026-08-01T13:58:21.598652+00:00",
+  "updatedAt": "2026-08-01T14:59:04.944678+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Homem morre após ataque de píton de 7 metros na Indonésia",
       "description": "Hasim Lumbessy, de 40 anos, morreu após ser atacado por uma píton de cerca de sete metros nas Ilhas Molucas do Norte, na Indonésia.",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/homem-morre-ataque-piton-7-metros-indonesia/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-07-31T22:20:17+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/07/imagem-principal-homem-morre-ataque-piton-7-metros-indonesia-blog-python.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e223d26cbeed",
@@ -162,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c889f4ec4692",
-      "title": "Homem é comido vivo por píton de 7 metros quando voltava para casa após noite de bebedeira",
-      "description": "Vítima estava embriagada no momento do ataque mortal em ilha na Indonésia.",
-      "url": "https://extra.globo.com/blogs/page-not-found/post/2026/07/homem-e-comido-vivo-por-piton-quando-voltava-para-casa-apos-festa.ghtml",
-      "source": "Extra online",
-      "sourceCanonical": "Extra",
-      "sourceDomain": "extra.globo.com",
-      "publishedAt": "2026-07-29T14:52:42+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": "https://s2-extra.glbimg.com/YRQj4wCGjwooolZutMPKWHt8T5A=/1219x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/F/B/iU5Ju0QwGyP1uPAVMrcg/blog-python.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_9dc721d7a08a",
       "title": "Cena chocante: Homem é engolido por cobra gigante após amigos notarem que ele desapareceu de festa",
       "description": "Um homem foi brutalmente esmagado por uma cobra gigante enquanto voltava para casa após uma festa na Indonésia.",
@@ -185,7 +171,21 @@
       "sourceDomain": "bnews.com.br",
       "publishedAt": "2026-07-31T10:20:12+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://www.bnews.com.br/media/_versions/2026/07/bnews_7r7cuazk_widexl.png",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_c889f4ec4692",
+      "title": "Homem é comido vivo por píton de 7 metros quando voltava para casa após noite de bebedeira",
+      "description": "Vítima estava embriagada no momento do ataque mortal em ilha na Indonésia.",
+      "url": "https://extra.globo.com/blogs/page-not-found/post/2026/07/homem-e-comido-vivo-por-piton-quando-voltava-para-casa-apos-festa.ghtml",
+      "source": "Extra online",
+      "sourceCanonical": "Extra",
+      "sourceDomain": "extra.globo.com",
+      "publishedAt": "2026-07-29T14:52:42+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": "https://s2-extra.glbimg.com/YRQj4wCGjwooolZutMPKWHt8T5A=/1219x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/F/B/iU5Ju0QwGyP1uPAVMrcg/blog-python.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -317,25 +317,25 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 5,
-    "average": 4.4,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 5,
+    "knownCount": 4,
+    "unknownCount": 16,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 15
+      "unknown": 16
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
-    "confidence": 90
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
+    "headlineDivergence": 70,
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",
