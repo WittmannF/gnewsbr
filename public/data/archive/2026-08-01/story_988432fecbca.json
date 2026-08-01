@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F07-31-2026%2Ft_6e75f2dea45845338d12808b39a71dae_name_file_960x540_1600_v4_.jpg?smart=true&auth=32dfb60f0f4d1268836a9fa96d29ca014820b075c6faefb84f45e083ebc4adf2&width=1200&height=630",
   "publishedAt": "2026-07-28T12:41:00+00:00",
-  "updatedAt": "2026-08-01T17:31:07.538707+00:00",
+  "updatedAt": "2026-08-01T18:29:56.593368+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "agenciasp.sp.gov.br",
       "sourceDomain": "agenciasp.sp.gov.br",
       "publishedAt": "2026-08-01T13:16:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,7 +114,7 @@
       "sourceCanonical": "Prefeitura de São Paulo",
       "sourceDomain": "prefeitura.sp.gov.br",
       "publishedAt": "2026-07-31T17:38:11+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -162,20 +162,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_4a7fe5153828",
-      "title": "SP: alta de casos de sarampo aumenta preocupação dos serviços de saúde",
-      "description": "O aumento dos casos de sarampo no estado de São Paulo - 15 já foram confirmados este ano - levou a recomendação por uma busca vacinal...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/sa%C3%BAde/sp-alta-de-casos-de-sarampo-aumenta-preocupacao-dos-servicos-de-saude-1.1735707",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-07-31T19:31:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_1271b8018421",
       "title": "Sarampo é contagioso? Quem corre mais risco? Tire as principais dúvidas",
       "description": "Os casos recentes de sarampo registrados em São Paulo e o avanço da doença nos Estados Unidos reacenderam uma dúvida que ainda é comum entre...",
@@ -190,18 +176,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_4a7fe5153828",
+      "title": "SP: alta de casos de sarampo aumenta preocupação dos serviços de saúde",
+      "description": "O aumento dos casos de sarampo no estado de São Paulo - 15 já foram confirmados este ano - levou a recomendação por uma busca vacinal...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/sa%C3%BAde/sp-alta-de-casos-de-sarampo-aumenta-preocupacao-dos-servicos-de-saude-1.1735707",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-07-31T19:31:48+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_01ffe67fdfd1",
       "title": "Sarampo em adultos: os sintomas são diferentes e podem ser mais graves",
       "description": "Apesar de ser comumente associada à infância, o sarampo também afeta adultos e pode se manifestar de forma mais agressiva.",
       "url": "https://www.correiobraziliense.com.br/aqui/2026/07/31/sarampo-em-adultos-os-sintomas-sao-diferentes-e-podem-ser-mais-graves/",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-07-31T18:30:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_c5261f5e802d",
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.67,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 3,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
