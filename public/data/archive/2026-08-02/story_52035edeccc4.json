@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwZ05qYkVSRmdBRmZ0YThaVVd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwZ05qYkVSRmdBRmZ0YThaVVd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 3,
-      "topic-5": 5
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Renan Santos: \"Nenhum estado terá mais Bolsa Família que trabalho formal\"",
   "summary": "Candidato do Missão foi oficializado pelo partido e apresentou cinco metas para um eventual governo durante congresso em São Paulo.",
@@ -29,12 +35,12 @@
     "santos",
     "missão",
     "candidatura",
-    "partido",
-    "presidência"
+    "matar",
+    "roubar"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/renan-santos.jpeg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-07-29T14:12:09+00:00",
-  "updatedAt": "2026-08-02T07:55:21.628617+00:00",
+  "publishedAt": "2026-07-31T07:20:21+00:00",
+  "updatedAt": "2026-08-02T08:58:06.054981+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -46,7 +52,7 @@
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-01T22:41:20+00:00",
+      "publishedAt": "2026-08-02T01:41:20+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/renan-santos.jpeg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
@@ -75,7 +81,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-02T03:33:11+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -85,8 +91,8 @@
       "title": "Partido Missão: o projeto de poder de Renan Santos e do MBL",
       "description": "Como o grupo Partido Missão estrutura a formação militante defendendo pautas que flertam com ruptura democrática, tortura e nazismo.",
       "url": "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/",
-      "source": "apublica.org",
-      "sourceCanonical": "apublica.org",
+      "source": "Agência Pública",
+      "sourceCanonical": "Agência Pública",
       "sourceDomain": "apublica.org",
       "publishedAt": "2026-07-31T07:20:21+00:00",
       "postedLabel": "2 dias atrás",
@@ -95,29 +101,43 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_68517b6d4ff5",
-      "title": "Sérgio Moro é xingado e vaiado em congresso do Partido Missão",
-      "description": "Moro foi criticado pelo candidato Renan Santos durante congresso que oficializou o nome dele na disputa pelo Palácio do Planalto.",
-      "url": "https://www.metropoles.com/sao-paulo/sergio-moro-e-xingado-e-vaiado-em-congresso-do-partido-missao",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-01T21:27:00+00:00",
+      "id": "article_ca93e929105e",
+      "title": "Renan Santos confirma candidatura à Presidência com ataques a Lula e Bolsonaro",
+      "description": "O empresário Renan Santos (Missão) foi oficializado neste sábado, 1º, como candidato à Presidência da República. A confirmação do nome dele...",
+      "url": "https://veja.abril.com.br/politica/renan-santos-confirma-candidatura-a-presidencia-com-ataques-a-lula-e-bolsonaro/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-08-02T00:05:05+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://i.metroimg.com/Qf-5xWVIYUQ20zI8kpEFIXulpR8dBcr4Xkmj_MfZlIw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/08/renan-santos-missao-mbl-2.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2021/11/Renan-Santos.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
-      "id": "article_c4ebfe72dedb",
-      "title": "Renan Santos lança \"Livro Amarelo\", desafia direita e avança entre jovens",
-      "description": "Programa de governo do Missão tem quase 500 páginas e propostas que serão revistas e atualizadas anualmente pelo partido.",
-      "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/renan-santos-lanca-livro-amarelo-desafia-direita-e-avanca-entre-jovens/",
+      "id": "article_e5edd59a5102",
+      "title": "Renan Santos é oficializado em ato com ingresso de até R$ 7 mil e livro de propostas ‘de luxo’",
+      "description": "Evento do partido é marcado por venda de ingresso, de suvenires e do livros de propostas, que tem versão básica, 'de luxo' e kit especial...",
+      "url": "https://www.estadao.com.br/politica/renan-santos-e-oficializado-em-ato-com-ingresso-de-ate-r-7-mil-e-livro-de-propostas-de-luxo/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-01T19:53:25+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_d316c5449c9b",
+      "title": "\"Vamos matar quem roubar\", diz Renan Santos ao lançar candidatura",
+      "description": "Renan Santos, candidato do partido Missão à Presidência da República, afirmou neste sábado (1º) que um eventual governo seu irá \"matar quem...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/vamos-matar-quem-roubar-diz-renan-santos-ao-lancar-candidatura/",
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-01T07:00:47+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-08-01T22:53:31+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -137,26 +157,12 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e5edd59a5102",
-      "title": "Renan Santos é oficializado em ato com ingresso de até R$ 7 mil e livro de propostas ‘de luxo’",
-      "description": "Evento do partido é marcado por venda de ingresso, de suvenires e do livros de propostas, que tem versão básica, 'de luxo' e kit especial...",
-      "url": "https://www.estadao.com.br/politica/renan-santos-e-oficializado-em-ato-com-ingresso-de-ate-r-7-mil-e-livro-de-propostas-de-luxo/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-01T19:53:25+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_0845f4174cf8",
       "title": "Com ingressos open bar, Missão promove candidatura de Renan Santos à Presidência",
       "description": "O partido do MBL fez um congresso neste sábado (1/8), apesar de candidato já ter sido lançado em convenção online.",
       "url": "https://www.jota.info/eleicoes/eleicoes-2026/com-ingressos-open-bar-missao-promove-candidatura-de-renan-santos-a-presidencia",
-      "source": "jota.info",
-      "sourceCanonical": "jota.info",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-08-01T22:35:51+00:00",
       "postedLabel": "hoje",
@@ -165,18 +171,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d695173e74fc",
-      "title": "Renan Santos propõe “matar quem roubar” em evento do Missão em clima de “balada”",
-      "description": "O partido Missão promoveu, neste sábado (1º), as candidaturas de Renan Santos à Presidência da República e de pré-candidatos aos governos...",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/renan-santos-matar-quem-roubar-missao/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-08-02T01:07:00+00:00",
+      "id": "article_5c849631d13f",
+      "title": "Renan xinga Lula e Flávio e fala em \"matar quem roubar\"",
+      "description": "O presidente do partido Missão e candidato à Presidência da República, Renan Santos, fez uma série de críticas a adversários políticos...",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/renan-xinga-lula-e-flavio-e-fala-em-matar-quem-roubar/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-01T23:09:26+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3b85eb699aea",
@@ -193,28 +199,28 @@
       "bucket": "left"
     },
     {
-      "id": "article_ca93e929105e",
-      "title": "Renan Santos confirma candidatura à Presidência com ataques a Lula e Bolsonaro",
-      "description": "O empresário Renan Santos (Missão) foi oficializado neste sábado, 1º, como candidato à Presidência da República. A confirmação do nome dele...",
-      "url": "https://veja.abril.com.br/politica/renan-santos-confirma-candidatura-a-presidencia-com-ataques-a-lula-e-bolsonaro/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-08-02T00:05:05+00:00",
+      "id": "article_d695173e74fc",
+      "title": "Renan Santos propõe “matar quem roubar” em evento do Missão em clima de “balada”",
+      "description": "O partido Missão promoveu, neste sábado (1º), as candidaturas de Renan Santos à Presidência da República e de pré-candidatos aos governos...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/renan-santos-matar-quem-roubar-missao/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-08-02T01:07:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
+      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_5c849631d13f",
-      "title": "Renan xinga Lula e Flávio e fala em \"matar quem roubar\"",
-      "description": "O presidente do partido Missão e candidato à Presidência da República, Renan Santos, fez uma série de críticas a adversários políticos...",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/renan-xinga-lula-e-flavio-e-fala-em-matar-quem-roubar/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-08-01T23:09:26+00:00",
+      "id": "article_68517b6d4ff5",
+      "title": "Sérgio Moro é xingado e vaiado em congresso do Partido Missão",
+      "description": "Moro foi criticado pelo candidato Renan Santos durante congresso que oficializou o nome dele na disputa pelo Palácio do Planalto.",
+      "url": "https://www.metropoles.com/sao-paulo/sergio-moro-e-xingado-e-vaiado-em-congresso-do-partido-missao",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-01T21:27:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -235,32 +241,32 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_3fdac10ca006",
+      "id": "article_7fa153894060",
       "title": "Renan Santos ataca Lula e Flávio, chama Moro de 'vassalo' e promete 'matar quem roubar'",
-      "description": "Santos teve a candidatura à Presidência lançada neste sábado, 1º, em ato do Missão.",
-      "url": "https://www.terra.com.br/noticias/eleicoes/renan-santos-ataca-lula-e-flavio-chama-moro-de-vassalo-e-promete-matar-quem-roubar,37ea621fd636dfe36804fa28589440c6ll08jxz2.html",
+      "description": "Candidato do Missão ironizou governadores, sugeriu permitir que professores 'punam' alunos 'rebeldes' e estabeleceu como meta a redução do...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/renan-santos-ataca-lula-e-flavio-chama-moro-de-vassalo-e-promete-matar-quem-roubar,8d675661334b12cbed3532774c1a1962isdijrmn.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-01T22:22:00+00:00",
+      "publishedAt": "2026-08-01T21:52:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_9c728530c3ac",
-      "title": "Renan tenta transformar eleição em disputa por “projeto de civilização” para o Brasil",
-      "description": "Em lançamento da candidatura pelo Partido Missão, presidenciável apresentou o “Livro Amarelo” como uma doutrina para redefinir o país e...",
-      "url": "https://www.infomoney.com.br/politica/renan-tenta-transformar-eleicao-em-disputa-por-projeto-de-civilizacao-para-o-brasil/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-08-01T23:28:35+00:00",
+      "id": "article_1de0c8fd90cd",
+      "title": "Durante convenção, Renan Santos ataca Lula e Flávio e promete ‘matar quem roubar’",
+      "description": "Convenção nacional do Missão confirmou o nome de Renan Santos à Presidência.",
+      "url": "https://midiamax.com.br/brasil/2026/durante-convencao-renan-santos-ataca-lula-flavio-promete-matar-quem-roubar/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-08-02T00:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0d04daa97236",
@@ -275,6 +281,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_9c728530c3ac",
+      "title": "Renan tenta transformar eleição em disputa por “projeto de civilização” para o Brasil",
+      "description": "Em lançamento da candidatura pelo Partido Missão, presidenciável apresentou o “Livro Amarelo” como uma doutrina para redefinir o país e...",
+      "url": "https://www.infomoney.com.br/politica/renan-tenta-transformar-eleicao-em-disputa-por-projeto-de-civilizacao-para-o-brasil/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-08-01T23:28:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_70562d4a099d",
@@ -299,39 +319,25 @@
       "sourceCanonical": "instagram.com",
       "sourceDomain": "instagram.com",
       "publishedAt": "2026-08-02T03:33:33+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_50d8e89afa9b",
-      "title": "Crescimento de Renan Santos é a principal novidade da pesquisa Atlas/Bloomberg",
-      "description": "Lula lidera todos os cenários de primeiro e segundo turnos, fora da margem de erro.",
-      "url": "https://gauchazh.clicrbs.com.br/colunistas/rosane-de-oliveira/noticia/2026/07/crescimento-de-renan-santos-e-a-principal-novidade-da-pesquisa-atlas-bloomberg-cms64yi8600wq014pc3mh4f9x.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-07-29T14:12:09+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.2,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.21,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 9,
+      "center": 8,
       "centerRight": 3,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +349,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
