@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Explosao-deixa-feridos-em-Cucuta-na-Colombia.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-08-01T12:29:00+00:00",
-  "updatedAt": "2026-08-02T15:48:33.876927+00:00",
+  "updatedAt": "2026-08-02T16:42:12.941306+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-01T15:55:44+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Explosao-deixa-feridos-em-Cucuta-na-Colombia.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -114,7 +114,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-01T15:53:01+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -124,14 +124,14 @@
       "title": "Caminhão-bomba explode na Colômbia poucos dias antes da posse do presidente",
       "description": "Veículo foi detonado ao lado de uma delegacia de polícia na cidade de Cúcuta, perto da fronteira com a Venezuela.",
       "url": "https://www.cartacapital.com.br/mundo/caminhao-bomba-explode-na-colombia-poucos-dias-antes-da-posse-do-presidente/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-01T12:29:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7f07d36f78b1",
@@ -198,7 +198,7 @@
       "sourceCanonical": "Tribuna do Sertão",
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-08-02T09:55:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -208,14 +208,14 @@
       "title": "Onze feridos após explosão de camião na Colômbia",
       "description": "Pelo menos 11 pessoas ficaram feridas no sábado, quando um camião carregado de explosivos detonou junto a uma esquadra de polícia colombiana...",
       "url": "https://www.jn.pt/mundo/artigo/onze-feridos-apos-explosao-de-camiao-na-colombia/18112142",
-      "source": "jn.pt",
-      "sourceCanonical": "jn.pt",
+      "source": "Jornal de Notícias",
+      "sourceCanonical": "Jornal de Notícias",
       "sourceDomain": "jn.pt",
       "publishedAt": "2026-08-01T18:50:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_5da3bd4fffe5",
@@ -278,8 +278,8 @@
       "title": "Caminhão-bomba explode na Colômbia, deixa 14 feridos e eleva tensão antes da posse do novo presidente",
       "description": "Atentado em Cúcuta, na fronteira com a Venezuela, deixa policiais em estado grave, reforça alerta de segurança e marca a reta final para a...",
       "url": "https://www.portaldecamaqua.com.br/noticias/106328/caminhao-bomba-explode-na-colombia-deixa-14-feridos-e-eleva-tensao-antes-da-posse-do-novo-presidente.html",
-      "source": "Portal de Camaquã",
-      "sourceCanonical": "Portal de Camaquã",
+      "source": "portaldecamaqua.com.br",
+      "sourceCanonical": "portaldecamaqua.com.br",
       "sourceDomain": "portaldecamaqua.com.br",
       "publishedAt": "2026-08-01T22:57:14+00:00",
       "postedLabel": "hoje",
@@ -292,11 +292,11 @@
       "title": "Caminhão-bomba explode na Colômbia poucos dias antes da posse do presidente Abelardo de la Espriella",
       "description": "A RedaçãoNotícias de Goiânia e Goiás |",
       "url": "https://aredacao.com.br/tag/caminhao-bomba/",
-      "source": "aredacao.com.br",
-      "sourceCanonical": "aredacao.com.br",
+      "source": "A Redação",
+      "sourceCanonical": "A Redação",
       "sourceDomain": "aredacao.com.br",
       "publishedAt": "2026-08-02T14:36:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 8,
-    "average": 5.2,
+    "average": 5.4,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
-      "center": 9,
+      "center": 10,
       "centerRight": 3,
       "right": 0,
       "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
