@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lINU5fWkVSRjZwNlZJNGJSQTlpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lINU5fWkVSRjZwNlZJNGJSQTlpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Milhares de migrantes entram no enclave espanhol de Ceuta",
+  "title": "Crise migratória em Ceuta deixa dezenas de mortos",
   "summary": "Vídeos mostram locais cobertos por lixo, pessoas dormindo no chão e militares nas ruas após a entrada de cerca de 50.000 imigrantes.",
-  "topic": "Ceuta · Espanha",
+  "topic": "Ceuta · Crise",
   "topicKeywords": [
     "ceuta",
-    "espanha",
     "crise",
+    "espanha",
     "migrantes",
-    "migratória",
+    "enclave",
     "invasão"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/07/imigracaoceutaespanha-848x477.png",
   "publishedAt": "2026-07-31T14:00:00+00:00",
-  "updatedAt": "2026-08-02T09:55:10.618871+00:00",
+  "updatedAt": "2026-08-02T10:44:28.420144+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,17 +56,31 @@
       "bucket": "center"
     },
     {
-      "id": "article_fceb1f1329a3",
-      "title": "Espanha escolta imigrantes para fora de Ceuta e instala barreira no mar para evitar chegadas a nado; VEJA",
-      "description": "A Espanha informou neste sábado (1º) que conseguiu interromper o fluxo de entrada de imigrantes em Ceuta e que a situação na cidade, que é...",
-      "url": "https://g1.globo.com/mundo/noticia/2026/08/01/espanha-escolta-imigrantes-para-fora-de-ceuta-e-instala-barreira-no-mar-para-evitar-chegadas-a-nado.ghtml",
+      "id": "article_f4ae6be5fbe8",
+      "title": "Espanha escolta imigrantes para fora de Ceuta e enfrenta crise com aliados europeus",
+      "description": "A União Europeia convocou uma reunião de emergência. O número de mortos durante a travessia subiu para 67. Segundo o governo espanhol,...",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/01/imigrantes-escoltados-marrocos-espanha-crise-uniao-europeia.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-08-01T10:02:08+00:00",
+      "publishedAt": "2026-08-02T00:47:10+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/UYpPVrp8ysoiYC2mjA9QHwDNrlc=/5500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Y/A/oat7yzQ0mSqWU16Iw4RA/2026-08-01t070716z-748322413-rc2jpmaa00hp-rtrmadp-3-migration-europe-spain-ceuta.jpg",
+      "imageUrl": "https://s2-g1.glbimg.com/7bmfs1oh27ojvAOTdeWfULVxsg8=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/b/vk57xkQaqYMNr1KSBXgQ/crise-ceuta.png",
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_415684249cb5",
+      "title": "Polícia espanhola calcula 73.500 saídas de Ceuta e confirma 71 mortos",
+      "description": "Cerca de 73.500 pessoas que entraram ilegalmente em Ceuta já deixaram a cidade desde quinta (30), estimaram as Forças de Segurança do Estado...",
+      "url": "https://oglobo.globo.com/mundo/noticia/2026/08/02/policia-espanhola-calcula-73500-saidas-de-ceuta-e-confirma-71-mortos.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-08-02T09:53:37+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/2smn1O8nfJI-DsL0xY8Eh_ushNs=/400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/8/o/0hdAtxSNqzDwTTIKzjvA/bloggif-6a6c8ec31227d.gif",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -78,32 +98,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_d356e6b242fa",
-      "title": "‘Sonho destruído’, ‘sofrimento’, ‘racismo’: a desilusão dos marroquinos expulsos de Ceuta",
-      "description": "VÍDEO mostra imigrantes do Marrocos chegando a nado em Ceuta, cidade da Espanha. 00:28. Thumbnail do video:VÍDEO mostra imigrantes do...",
-      "url": "https://www.estadao.com.br/internacional/sonho-destruido-sofrimento-racismo-a-desilusao-dos-marroquinos-expulsos-de-ceuta/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-01T19:07:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ARF2A5VXAZAY5MV4ZFC6GJBAO4.jpg?quality=80&auth=b7188f46d7c675f19698ef0e96eaaacf688ae6ffda5b4323d51c1584ee035a4b&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_54c40ba422cf",
-      "title": "O que se sabe sobre a entrada de 60 mil migrantes no enclave espanhol de Ceuta",
-      "description": "A Espanha instalou barreiras com boias em sua fronteira com o Marrocos neste sábado 1º, após a crise provocada pela chegada e posterior...",
-      "url": "https://www.cartacapital.com.br/mundo/o-que-se-sabe-sobre-a-entrada-de-60-mil-migrantes-no-enclave-espanhol-de-ceuta/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-08-01T13:47:00+00:00",
+      "id": "article_f252a72e43f9",
+      "title": "Crise migratória em Ceuta: o desespero de quem cruzou a fronteira",
+      "description": "A situação dos migrantes nos dois lados da fronteira era crítica. A maioria decidiu voltar diante do cenário desolador em Ceuta.",
+      "url": "https://www.bbc.com/portuguese/articles/c5ydp31g3eeo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-08-01T16:18:58+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_f63b17a34ce2",
@@ -120,12 +126,26 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_0b1e9c6d4720",
+      "title": "A lição de Ceuta",
+      "description": "É impossível não ficar aturdido com as imagens dos 50 mil marroquinos que irromperam, num dia, por Ceuta. É o equivalente a um Estádio do...",
+      "url": "https://www.jn.pt/opiniao/artigo/a-licao-de-ceuta/18111873",
+      "source": "Jornal de Notícias",
+      "sourceCanonical": "Jornal de Notícias",
+      "sourceDomain": "jn.pt",
+      "publishedAt": "2026-07-31T23:01:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_f285ae1a55f7",
       "title": "Ceuta e a esquerda",
       "description": "A esquerda deixou de possuir uma dimensão política do seu pensamento e da sua acção. Cada vez mais, tudo se reduz ao enfileiramento numa...",
       "url": "https://observador.pt/opiniao/ceuta-e-a-esquerda/",
-      "source": "observador.pt",
-      "sourceCanonical": "observador.pt",
+      "source": "Observador",
+      "sourceCanonical": "Observador",
       "sourceDomain": "observador.pt",
       "publishedAt": "2026-08-01T23:24:56+00:00",
       "postedLabel": "hoje",
@@ -148,34 +168,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_e4e62355219c",
-      "title": "Extrema direita usa medo como arma",
-      "description": "Trump saiu à frente com postagens alarmadas afirmando que os EUA serão Ceuta se os democratas vencerem em 2028.",
-      "url": "https://oglobo.globo.com/opiniao/dorrit-harazim/coluna/2026/08/extrema-direita-usa-medo-como-arma.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-08-02T03:05:08+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_94628d176c91",
-      "title": "União Europeia convoca reunião de emergência para discutir a crise migratória em Ceuta",
-      "description": "Governo espanhol condena a reação 'egoísta, polarizadora e ilegal' à crise depois que a Itália suspendeu o acordo Schengen de livre...",
-      "url": "https://www.bbc.com/portuguese/articles/c4g65x1y140o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-08-02T00:18:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_bb3dfe4df002",
       "title": "Entenda a decisão judicial da Espanha que levou 50 mil pessoas a Ceuta",
       "description": "Especialistas apontam que decisão do Supremo Tribunal espanhol, fatores econômicos e tensões com Marrocos ajudaram a impulsionar o fluxo...",
@@ -190,14 +182,28 @@
       "bucket": "center"
     },
     {
-      "id": "article_188287a2ad01",
-      "title": "Itália inicia verificações em viajantes provenientes da Espanha após suspender acordo Schengen",
-      "description": "Acompanhe as últimas notícias do Brasil e do mundo sobre política, economia e esportes. Leia também análises, opinião, estilo de vida e...",
-      "url": "https://www.gazetadopovo.com.br/mundo/italia-inicia-verificacoes-em-viajantes-provenientes-da-espanha-apos-suspender-acordo-schengen/",
+      "id": "article_d356e6b242fa",
+      "title": "‘Sonho destruído’, ‘sofrimento’, ‘racismo’: a desilusão dos marroquinos expulsos de Ceuta",
+      "description": "VÍDEO mostra imigrantes do Marrocos chegando a nado em Ceuta, cidade da Espanha. 00:28. Thumbnail do video:VÍDEO mostra imigrantes do...",
+      "url": "https://www.estadao.com.br/internacional/sonho-destruido-sofrimento-racismo-a-desilusao-dos-marroquinos-expulsos-de-ceuta/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-01T19:07:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_bb67e0d4b990",
+      "title": "Governo socialista espanhol instala barreira flutuante para bloquear entrada de migrantes",
+      "description": "Espanha instalou barreira inflável em Ceuta para barrar migrantes que tentam entrar no país. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/mundo/espanha-barreira-inflavel-ceuta-migrantes/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-08-01T13:22:00+00:00",
+      "publishedAt": "2026-08-01T20:56:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
@@ -218,6 +224,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_663c41f99e22",
+      "title": "Maioria da UE pede negociações sobre fluxo de migrantes para enclave de Ceuta",
+      "description": "Uma carta aberta dos líderes de 22 dos 27 membros do bloco exige que os ministros do Interior realizem uma reunião em caráter de urgência.",
+      "url": "https://veja.abril.com.br/mundo/maioria-da-ue-pede-negociacoes-sobre-fluxo-de-migrantes-para-enclave-de-ceuta/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-08-01T11:34:51+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_be032e5f2a7d",
       "title": "Ao menos 57 PESSOAS morreram na travessia em massa no enclave de CEUTA | Gaúcha +",
       "description": "Segundo o jornal El País, da Espanha, cerca de 50 mil pessoas realizaram a travessia a nado no enclave de CEUTA, na fronteira com o Marrocos...",
@@ -232,32 +252,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_21a7a4aa59a2",
-      "title": "'Estamos presas aqui, sem poder voltar para casa': o desespero dos milhares de migrantes que cruzaram a fronteira entre Marrocos e Espanha por Ceuta",
-      "description": "A situação dos migrantes nos dois lados da fronteira era crítica. A maioria decidiu voltar diante do cenário desolador em Ceuta.",
-      "url": "https://www.terra.com.br/noticias/mundo/estamos-presas-aqui-sem-poder-voltar-para-casa-o-desespero-dos-milhares-de-migrantes-que-cruzaram-a-fronteira-entre-marrocos-e-espanha-por-ceuta,5f1046ed986011eae1cfb768bdbf6786ttj56m0y.html",
+      "id": "article_bee865ef9c3e",
+      "title": "UE convoca reunião ministerial para terça-feira para discutir travessias de migrantes em Ceuta",
+      "description": "A ​União Europeia ​realizará uma videoconferência de ⁠emergência com ‌ministros nacionais nesta ...",
+      "url": "https://www.terra.com.br/noticias/mundo/ue-convoca-reuniao-ministerial-para-terca-feira-para-discutir-travessias-de-migrantes-em-ceuta,882478490d4b83507acfb0c802b3b63fxh1kbs0n.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-01T16:17:00+00:00",
+      "publishedAt": "2026-08-01T18:43:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_b83396d57264",
-      "title": "A explosão de menções sobre a crise migratória de Ceuta nas redes sociais",
-      "description": "Mais de 50 mil pessoas cruzaram a fronteira em cerca de 24 horas, deixando ao menos 34 mortos durante a travessia.",
-      "url": "https://veja.abril.com.br/politica/a-explosao-de-mencoes-sobre-a-crise-migratoria-de-ceuta-nas-redes-sociais/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-31T21:24:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_a56abfb9af41",
@@ -274,6 +280,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_3f06b1e22067",
+      "title": "Centenas de menores dormem ao relento em Ceuta devido à crise migratória",
+      "description": "Jovens atravessaram o mar a nado desde o Marrocos e buscam chegar à Europa continental.",
+      "url": "https://www.correiodopovo.com.br/centenas-de-menores-dormem-ao-relento-em-ceuta-devido-a-crise-migratoria-1.1735890",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-01T19:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_fe55f1a66671",
       "title": "‘Não é a migração que cria a crise, é a crise que cria os migrantes’, diz coordenador do Observatório das Migrações",
       "description": "Pelo menos 57 imigrantes morreram ao tentar chegar a nado até Ceuta, na Espanha. Segundo o governo espanhol, mais de 49 mil pessoas entraram...",
@@ -288,47 +308,33 @@
       "bucket": "left"
     },
     {
-      "id": "article_bec0e2376e48",
-      "title": "Centenas de menores dormem ao relento em Ceuta devido à crise migratória",
-      "description": "Jovens atravessaram o mar a nado desde o Marrocos e buscam chegar à Europa continental.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/centenas-de-menores-dormem-ao-relento-em-ceuta-devido-a-crise-migratoria-1.1735890",
-      "source": "correiodopovo.com.br",
-      "sourceCanonical": "correiodopovo.com.br",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-01T19:37:29+00:00",
+      "id": "article_54c40ba422cf",
+      "title": "O que se sabe sobre a entrada de 60 mil migrantes no enclave espanhol de Ceuta",
+      "description": "A Espanha instalou barreiras com boias em sua fronteira com o Marrocos neste sábado 1º, após a crise provocada pela chegada e posterior...",
+      "url": "https://www.cartacapital.com.br/mundo/o-que-se-sabe-sobre-a-entrada-de-60-mil-migrantes-no-enclave-espanhol-de-ceuta/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-08-01T13:47:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_de133cc1b5e1",
-      "title": "Vim em busca de um futuro melhor, afirma imigrante marroquina",
-      "description": "Com relatos de dezenas de mortes, a crise na fronteira entre o Marrocos e Espanha expõe o desespero de trabalhadores em busca de melhores...",
-      "url": "https://noticias.cancaonova.com/mundo/vim-em-busca-de-um-futuro-melhor-afirma-imigrante-marroquina/",
-      "source": "Notícias - Canção Nova",
-      "sourceCanonical": "Notícias - Canção Nova",
-      "sourceDomain": "noticias.cancaonova.com",
-      "publishedAt": "2026-08-01T12:22:04+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.19,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.17,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
-      "center": 7,
+      "center": 9,
       "centerRight": 4,
       "right": 1,
-      "unknown": 4
+      "unknown": 2
     }
   },
   "scores": {
