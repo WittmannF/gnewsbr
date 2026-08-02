@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/31/17855029756a6c9cff7496d_1785502975_3x2_rt.jpg",
   "publishedAt": "2026-07-27T21:33:42+00:00",
-  "updatedAt": "2026-08-02T07:16:31.615959+00:00",
+  "updatedAt": "2026-08-02T08:09:09.926602+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -194,14 +194,14 @@
       "title": "Sul da Europa está mais inflamável, e chance de perder controle de incêndios é cada vez maior",
       "description": "Por José Henrique Mariante. (Folhapress) – O sul da Europa registrou queda de 40% no número de focos de incêndio na última década.",
       "url": "https://iclnoticias.com.br/sul-europa-mais-inflamavel-controle/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
+      "source": "iclnoticias.com.br",
+      "sourceCanonical": "iclnoticias.com.br",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-07-30T18:30:42+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a5dbfdbfe6dd",
@@ -218,20 +218,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_fe7128ce89e7",
-      "title": "Incêndios na Europa aumentam debate sobre crise climática",
-      "description": "Para Ribera, os incêndios atuais não podem ser tratados apenas como eventos sazonais típicos do verão europeu, ressaltando que as mudanças...",
-      "url": "https://jornalggn.com.br/geopolitica/incendios-europa-crise-climatica/",
-      "source": "jornalggn.com.br",
-      "sourceCanonical": "jornalggn.com.br",
-      "sourceDomain": "jornalggn.com.br",
-      "publishedAt": "2026-07-30T23:22:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_73b6db60a052",
       "title": "Vinhedos de Bordeaux escapam de incêndio florestal na França, mas safra pode ser menor",
       "description": "Bloomberg — Os vinhedos da histórica região francesa de vinhos finos de Bordeaux foram poupados pelos incêndios florestais que assolaram o...",
@@ -241,6 +227,20 @@
       "sourceDomain": "bloomberglinea.com.br",
       "publishedAt": "2026-07-31T17:29:41+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_fe7128ce89e7",
+      "title": "Incêndios na Europa aumentam debate sobre crise climática",
+      "description": "Para Ribera, os incêndios atuais não podem ser tratados apenas como eventos sazonais típicos do verão europeu, ressaltando que as mudanças...",
+      "url": "https://jornalggn.com.br/geopolitica/incendios-europa-crise-climatica/",
+      "source": "Jornal GGN",
+      "sourceCanonical": "Jornal GGN",
+      "sourceDomain": "jornalggn.com.br",
+      "publishedAt": "2026-07-30T23:22:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -306,8 +306,8 @@
       "title": "El Niño e negligência. Uma combinação explosiva",
       "description": "A Espanha assiste, aterrorizada, a incêndios de grande magnitude. Até a manhã da última segunda-feira, 27, já eram mais de 115.000...",
       "url": "https://mais.opovo.com.br/colunistas/simone-varella/2026/07/29/el-nino-e-negligencia-uma-combinacao-explosiva.html",
-      "source": "mais.opovo.com.br",
-      "sourceCanonical": "mais.opovo.com.br",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-07-29T21:00:00+00:00",
       "postedLabel": "3 dias atrás",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 8,
-    "average": 5.27,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.6,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 5,
       "centerRight": 3,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
