@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 28
+      "topic-6": 29
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 29,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/esporte/c2/2026/01/24/lucca-do-sao-paulo-durante-duelo-com-palmeiras-no-campeonato-paulista-1769299218924_v2_615x300.jpg",
   "publishedAt": "2026-08-01T19:10:24+00:00",
-  "updatedAt": "2026-08-02T18:42:08.224153+00:00",
+  "updatedAt": "2026-08-02T19:51:33.045683+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -170,7 +170,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-01T19:10:24+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -212,7 +212,7 @@
       "sourceCanonical": "Portal ABC do ABC",
       "sourceDomain": "abcdoabc.com.br",
       "publishedAt": "2026-08-02T13:53:30+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +226,7 @@
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-08-02T14:32:17+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -250,14 +250,28 @@
       "title": "Lucca, do São Paulo, sofre acidente de carro e tem suspeita de fratura no rosto",
       "description": "O meia-atacante Guilherme VeigaLucca, conhecido como Lucca, do São Paulo, sofreu um acidente de carro no sábado (1º). O ex-meia Souza...",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/lucca-sao-paulo-acidente-carro-fratura-rosto/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-08-02T00:45:48+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_cb3f4e14e7a9",
+      "title": "Lucca tem alta após acidente e desfalca o São Paulo",
+      "description": "O atacante Lucca sofreu um acidente automobilístico na tarde do último sábado (1º) após jogo-treino do São Paulo contra o Ituano, no CT da...",
+      "url": "https://www.arqtricolor.com/ultimas/lucca-alta-acidente-sao-paulo/",
+      "source": "Arquibancada Tricolor",
+      "sourceCanonical": "Arquibancada Tricolor",
+      "sourceDomain": "arqtricolor.com",
+      "publishedAt": "2026-08-02T19:30:00+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_14012401ce41",
@@ -288,20 +302,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9b7e1782b6da",
-      "title": "São Paulo divulga nota oficial com atualização sobre Lucca após acidente",
-      "description": "O atacante Lucca sofreu um acidente automobilístico na tarde deste sábado (1º) após jogo-treino do São Paulo contra o Ituano, no CT da Barra...",
-      "url": "https://www.arqtricolor.com/ultimas/sao-paulo-nota-oficial-lucca/",
-      "source": "Arquibancada Tricolor",
-      "sourceCanonical": "Arquibancada Tricolor",
-      "sourceDomain": "arqtricolor.com",
-      "publishedAt": "2026-08-02T01:36:47+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_018b54a9085c",
       "title": "Lucca sofre acidente após treino e preocupa o São Paulo",
       "description": "Atacante Lucca, de 19 anos, sofreu um acidente de carro após treino do São Paulo e teve fratura no maxilar confirmada.",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 9,
-    "average": 5.33,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.75,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
       "right": 1,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
