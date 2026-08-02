@@ -3,25 +3,31 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSR0FHMUxPZ0t3WjJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1dVBMWkVSR0FHMUxPZ0t3WjJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 3,
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 4,
       "topic-7": 5
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre Irã",
+  "title": "Notícias sobre Irã • EUA",
   "summary": "O Departamento de Estado dos Estados Unidos emitiu um alerta geral neste sábado (1º) para cidadãos americanos no Oriente Médio com...",
   "topic": "Irã · Eua",
   "topicKeywords": [
@@ -30,11 +36,11 @@
     "oriente",
     "médio",
     "trump",
-    "americanas"
+    "guerra"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/ARSENAL-EUA-2.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-30T05:06:10+00:00",
-  "updatedAt": "2026-08-02T01:02:51.670326+00:00",
+  "updatedAt": "2026-08-02T01:47:26.883058+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,6 +59,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_818730233899",
+      "title": "Irã: por que guerra limitada com EUA pode ser melhor que a paz",
+      "description": "Foi um episódio incomum. Se a prioridade de Teerã fosse o cessar-fogo, seria difícil explicar este ataque. Mas, se os líderes iranianos...",
+      "url": "https://www.bbc.com/portuguese/articles/cvgj8dy3976o",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-08-01T11:18:41+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/ac59/live/96fbf5d0-8c3b-11f1-89bb-9b3e3c6f25f4.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_a37fe731c7de",
       "title": "Embaixadas americanas recomendam que os cidadãos considerem deixar o Oriente Médio",
       "description": "As embaixadas dos Estados Unidos em vários países do Oriente Médio alertaram os cidadãos americanos sobre uma possível \"escalada\" do...",
@@ -61,7 +81,7 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-08-01T19:28:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/06/afp-20260601-b4n82hv-v2-midres-lebanonisraeliranuswar.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -165,20 +185,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_302bb618f7ab",
-      "title": "EUA fazem ataques ‘pesados’ contra o Irã em conflito que transborda para Egito e Iraque",
-      "description": "Os Estados Unidos lançaram nesta quinta-feira, 30, uma “onda pesada” de bombardeios contra o Irã, em retaliação a ataques contra suas bases...",
-      "url": "https://veja.abril.com.br/mundo/eua-fazem-ataques-pesados-contra-o-ira-em-conflito-que-transborda-para-egito-e-iraque/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-07-30T11:53:40+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_0d0e89332b17",
       "title": "Trump ordena novo ataque ao Irã para tentar forçar Teerã a se render, diz WSJ",
       "description": "O presidente Donald Trump ordenou que os militares dos EUA realizem um novo ataque contra o Irã já neste fim de semana, informou o Wall...",
@@ -191,6 +197,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_302bb618f7ab",
+      "title": "EUA fazem ataques ‘pesados’ contra o Irã em conflito que transborda para Egito e Iraque",
+      "description": "Os Estados Unidos lançaram nesta quinta-feira, 30, uma “onda pesada” de bombardeios contra o Irã, em retaliação a ataques contra suas bases...",
+      "url": "https://veja.abril.com.br/mundo/eua-fazem-ataques-pesados-contra-o-ira-em-conflito-que-transborda-para-egito-e-iraque/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-07-30T11:53:40+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_4cd7e6bc6f3d",
@@ -235,6 +255,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_9d2dcb5643d2",
+      "title": "Guerra: Trump com poucas cartas na mão",
+      "description": "Diante de um Irã fortalecido e desafiador, presidente alterna insultos e pedidos de trégua. Conflito alastra-se; faltam mísseis e...",
+      "url": "https://outraspalavras.net/geopoliticaeguerra/guerra-trump-com-poucas-cartas-na-mao/",
+      "source": "Outras Palavras",
+      "sourceCanonical": "Outras Palavras",
+      "sourceDomain": "outraspalavras.net",
+      "publishedAt": "2026-07-31T21:07:58+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_fad3e00c7bd2",
       "title": "O que acontecerá após a pausa no conflito entre EUA e Irã, agora em seu sexto mês?",
       "description": "Foto tirada com celular mostra navios mercantes parados nas águas do Estreito de Ormuz, perto de Khasab, uma pequena cidade no norte de Omã,...",
@@ -244,20 +278,6 @@
       "sourceDomain": "portuguese.xinhuanet.com",
       "publishedAt": "2026-07-30T05:06:10+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c604123c4d89",
-      "title": "Guerra: Trump com poucas cartas na mão",
-      "description": "Diante de um Irã fortalecido e desafiador, presidente alterna insultos e pedidos de trégua. Conflito alastra-se; faltam mísseis e...",
-      "url": "https://outraspalavras.net/geopoliticaeguerra/guerratrump-com-poucas-cartas-na-mao/",
-      "source": "Outras Palavras",
-      "sourceCanonical": "Outras Palavras",
-      "sourceDomain": "outraspalavras.net",
-      "publishedAt": "2026-07-31T21:17:59+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -303,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_96bfcb6d752f",
-      "title": "Irã acusa EUA de 'agravar tensões' no Oriente Médio",
-      "description": "O Exército do Irã acusou neste sábado (1) os Estados Unidos de \"agravar as tensões\" no Oriente Médio e afirmou que os países da região devem...",
-      "url": "https://www.em.com.br/internacional/2026/08/7472043-ira-acusa-eua-de-agravar-tensoes-no-oriente-medio.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-01T11:13:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 4.93,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
+      "centerLeft": 3,
       "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -343,7 +349,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l5XzdIYkVSRkdZaERqT04yQk9TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l5XzdIYkVSRkdZaERqT04yQk9TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Após questionamento de Moraes, Flávio usa novo vídeo com Jair Bolsonaro",
   "summary": "A convenção do PL em Santa Catarina usou um novo vídeo com falas de Jair Bolsonaro apesar de isso já ter sido questionado pelo ministro...",
@@ -29,9 +35,9 @@
     "moraes",
     "jair"
   ],
-  "imageUrl": "https://media.gazetadopovo.com.br/2026/07/31200736/editorial-alexandre-de-moraes-flavio-bolsonaro-inelegibilidade.jpg",
+  "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true",
   "publishedAt": "2026-07-27T22:15:07+00:00",
-  "updatedAt": "2026-08-02T01:02:55.954157+00:00",
+  "updatedAt": "2026-08-02T01:47:29.271816+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-02T00:23:34+00:00",
-      "postedLabel": "39 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -54,28 +60,28 @@
       "title": "Alexandre de Moraes não é o dono do TSE",
       "description": "Ao insinuar possível inelegibilidade de Flávio Bolsonaro por vídeo de IA com Jair Bolsonaro, Alexandre de Moraes invade área do TSE e...",
       "url": "https://www.gazetadopovo.com.br/opiniao/editoriais/alexandre-de-moraes-video-ia-jair-bolsonaro-flavio-inelegibilidade/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-07-31T23:10:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/07/31200736/editorial-alexandre-de-moraes-flavio-bolsonaro-inelegibilidade.jpg",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_52d244ca9362",
       "title": "Defesa de Bolsonaro diz que ex-presidente não autorizou vídeo de IA",
       "description": "Conteúdo foi exibido na convenção do PL, no sábado (25). Advogados afirmam que, devido às restrições impostas pelo Supremo, Bolsonaro não...",
       "url": "https://g1.globo.com/politica/blog/julia-duailibi/post/2026/07/29/defesa-de-bolsonaro-diz-que-ex-presidente-nao-autorizou-video-de-ia.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-07-29T19:05:07+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/JJof1_TKP59kHvzzwYYxFPed798=/1212x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/4/f/T3VdhDTAuMsUZuGgqRFQ/1.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7a97e3d74749",
@@ -115,7 +121,7 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-07-30T03:05:08+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://s2-oglobo.glbimg.com/ugFVsfgDhKeoLqj6ijDX1kIUpSs=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/0/O/XpF8XlQpGpDCpNsAjeKA/nunes-marques.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -132,6 +138,20 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_e925eedd7204",
+      "title": "PL usa vídeo narrado por Bolsonaro em convenção; assista",
+      "description": "A voz da transmissão era parecida com a do ex-presidente e menciona passagens pessoas da sua vida, como o episódio da facada em 2018.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/pl-usa-video-narrado-por-bolsonaro-em-convencao-assista/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-02T00:33:04+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8fc959b2f4c8",
@@ -159,20 +179,6 @@
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e925eedd7204",
-      "title": "PL usa vídeo narrado por Bolsonaro em convenção; assista",
-      "description": "A voz da transmissão era parecida com a do ex-presidente e menciona passagens pessoas da sua vida, como o episódio da facada em 2018.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/pl-usa-video-narrado-por-bolsonaro-em-convencao-assista/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-08-02T00:31:07+00:00",
-      "postedLabel": "31 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -246,14 +252,14 @@
       "bucket": "right"
     },
     {
-      "id": "article_7740b416f143",
+      "id": "article_d6fa1853b2ca",
       "title": "Flávio nega que Bolsonaro soubesse do vídeo gerado por inteligência artificial",
       "description": "Para o senador e candidato à Presidência, a peça não viola a lei eleitoral: \"Não tem nada de errado nisso\"",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/elei%C3%A7%C3%B5es/flavio-nega-que-bolsonaro-soubesse-do-video-gerado-por-inteligencia-artificial-1.1735531",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/flavio-nega-que-bolsonaro-soubesse-do-video-gerado-por-inteligencia-artificial-1.1735531",
       "source": "Correio do Povo",
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-07-31T14:35:04+00:00",
+      "publishedAt": "2026-07-31T13:16:35+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -306,29 +312,29 @@
       "title": "Vídeo de IA de Bolsonaro na convenção do PL é ilegal? Veja comentários dos apresentadores | Timeline",
       "description": "Durante a convenção que oficializou Flávio Bolsonaro como candidato do PL à Presidência, foi exibido um vídeo feito por inteligência...",
       "url": "https://gauchazh.clicrbs.com.br/video/video-de-ia-de-bolsonaro-na-convencao-do-pl-e-ilegal-veja-comentarios-dos-apresentadores-timeline-cms7m53wn000u01c1hynjxyvg.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
+      "source": "gauchazh.clicrbs.com.br",
+      "sourceCanonical": "gauchazh.clicrbs.com.br",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-07-30T14:32:48+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.12,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 4.93,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
-      "center": 9,
-      "centerRight": 3,
+      "center": 7,
+      "centerRight": 2,
       "right": 1,
-      "unknown": 3
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +346,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
