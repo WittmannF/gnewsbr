@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwZ05qYkVSRTlrRm5QaXFYZS1DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwZ05qYkVSRTlrRm5QaXFYZS1DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 3,
-      "topstories": 3,
-      "topic-3": 5,
-      "topic-5": 1
+      "topic-3": 7,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 3,
-    "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 7,
+    "bestSeedRank": 2,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "\"Vamos matar quem roubar\", diz Renan Santos ao lançar candidatura",
   "summary": "Renan Santos, candidato do partido Missão à Presidência da República, afirmou neste sábado (1º) que um eventual governo seu irá \"matar quem...",
@@ -40,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/gLI4a1BcV4DAee2bXaeP979H4yQ=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/T/M2BERLTLGBRWtYMKLnNg/zim20260801044.jpg",
   "publishedAt": "2026-07-29T14:12:09+00:00",
-  "updatedAt": "2026-08-02T12:33:05.534410+00:00",
+  "updatedAt": "2026-08-02T13:45:30.058275+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -171,6 +165,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_8b20d715660d",
+      "title": "O que é o \"Livro Amarelo\", base do programa de governo do Partido Missão",
+      "description": "Obra foi lançada durante a Convenção Nacional do Partido neste sábado, em São Paulo; edições do livro custam a partir de R$ 140.",
+      "url": "https://www.metropoles.com/sao-paulo/o-que-e-o-livro-amarelo-base-do-programa-de-governo-do-partido-missao",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-01T19:53:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_2796205d455c",
       "title": "Com convite a R$ 7 mil, partido Missão lança Renan Santos neste sábado",
       "description": "Evento realizado em São Paulo, ocorre no Komplexo Tempo com estrutura digna de show.",
@@ -183,20 +191,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_68517b6d4ff5",
-      "title": "Sérgio Moro é xingado e vaiado em congresso do Partido Missão",
-      "description": "Moro foi criticado pelo candidato Renan Santos durante congresso que oficializou o nome dele na disputa pelo Palácio do Planalto.",
-      "url": "https://www.metropoles.com/sao-paulo/sergio-moro-e-xingado-e-vaiado-em-congresso-do-partido-missao",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-01T21:27:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_3b85eb699aea",
@@ -213,6 +207,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_776e6fae4689",
+      "title": "“Livro Amarelo”: a doutrina que Renan Santos diz ser a base do projeto do Missão",
+      "description": "Documento foi apresentado no lançamento da candidatura à Presidência como mais do que um plano de governo e reúne os princípios políticos,...",
+      "url": "https://www.infomoney.com.br/politica/livro-amarelo-a-doutrina-que-renan-santos-diz-ser-a-base-do-projeto-do-missao/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-08-01T23:37:51+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_89342d087ada",
       "title": "Renan Santos oficializa candidatura em convenção, neste sábado (1º)",
       "description": "Com as eleições cada dia mais próximas, o empresário Renan Santos (Missão) realiza a convenção partidária neste fim de semana para...",
@@ -221,7 +229,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-01T13:27:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -239,20 +247,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_9c728530c3ac",
-      "title": "Renan tenta transformar eleição em disputa por “projeto de civilização” para o Brasil",
-      "description": "Em lançamento da candidatura pelo Partido Missão, presidenciável apresentou o “Livro Amarelo” como uma doutrina para redefinir o país e...",
-      "url": "https://www.infomoney.com.br/politica/renan-tenta-transformar-eleicao-em-disputa-por-projeto-de-civilizacao-para-o-brasil/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-08-01T23:28:35+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_0d04daa97236",
@@ -283,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1de0c8fd90cd",
-      "title": "Durante convenção, Renan Santos ataca Lula e Flávio e promete ‘matar quem roubar’",
-      "description": "Convenção nacional do Missão confirmou o nome de Renan Santos à Presidência.",
-      "url": "https://midiamax.com.br/brasil/2026/durante-convencao-renan-santos-ataca-lula-flavio-promete-matar-quem-roubar/",
-      "source": "Midiamax",
-      "sourceCanonical": "Midiamax",
-      "sourceDomain": "midiamax.com.br",
-      "publishedAt": "2026-08-02T00:46:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_f455fb383fb6",
       "title": "ELEIÇÕES | O Partido Missão lançou neste sábado, 1º, a candidatura de Renan Santos à Presidência, em evento marcado pela venda de suvenires como forma de arrecadação de recursos para a campanha dos candidatos da sigla. Leia mais no #linkdabio",
       "description": "",
@@ -305,6 +285,20 @@
       "sourceCanonical": "instagram.com",
       "sourceDomain": "instagram.com",
       "publishedAt": "2026-08-01T21:30:51+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_1de0c8fd90cd",
+      "title": "Durante convenção, Renan Santos ataca Lula e Flávio e promete ‘matar quem roubar’",
+      "description": "Convenção nacional do Missão confirmou o nome de Renan Santos à Presidência.",
+      "url": "https://midiamax.com.br/brasil/2026/durante-convencao-renan-santos-ataca-lula-flavio-promete-matar-quem-roubar/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-08-02T00:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,

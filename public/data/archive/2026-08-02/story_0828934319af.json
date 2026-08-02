@@ -10,15 +10,15 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 6
+      "topic-8": 8
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
+    "firstSeenRank": 8,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Anthropic e OpenAI enfrentam problemas com segurança de IA",
+  "title": "Invasão de IA pela Anthropic",
   "summary": "Mais de 1.000 funcionários de empresas de IA assinaram carta aberta pedindo que medidas de segurança acompanhem avanço da tecnologia.",
   "topic": "Openai · Anthropic",
   "topicKeywords": [
@@ -27,11 +27,11 @@
     "segurança",
     "claude",
     "empresas",
-    "modelo"
+    "agentes"
   ],
-  "imageUrl": "https://s2-g1.glbimg.com/8cmxuzM2C5PJCn6xhzvXi1RTPj8=/1280x0/filters:format(jpeg)/https://s04.video.glbimg.com/x720/14721911.jpg",
+  "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-29-de-mai.-de-2026-20_25_00.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-07-29T14:31:11+00:00",
-  "updatedAt": "2026-08-02T12:47:52.085092+00:00",
+  "updatedAt": "2026-08-02T13:58:09.203525+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Funcionários de big techs pedem aos EUA para que avanço de IA desacelere",
       "description": "Mais de 1.000 funcionários de empresas de IA assinaram carta aberta pedindo que medidas de segurança acompanhem avanço da tecnologia.",
       "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/funcionarios-de-big-techs-pedem-aos-eua-para-que-avanco-de-ia-desacelere/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-01T04:32:38+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ChatGPT-Image-29-de-mai.-de-2026-20_25_00.png?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a2cdeb26e037",
@@ -115,7 +115,7 @@
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-08-01T19:13:24+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/2026-07-31T210155Z_1_LYNXMPEM6U20Y_RTROPTP_4_ANTHROPIC-AI.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -156,7 +156,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-02T07:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -190,20 +190,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_298253e1d043",
-      "title": "OpenAI revela que ataque à IA atingiu mais alvos do que se sabia; entenda falha de segurança",
-      "description": "Acreditava-se que a Hugging Face, uma espécie de biblioteca digital de tecnologia muito usada por desenvolvedores, era a única vítima do...",
-      "url": "https://www.bbc.com/portuguese/articles/c2elz7jw2lgo",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-07-29T14:31:11+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_462aee007772",
       "title": "Abrandar ritmo da IA? Líder da OpenAI mudou de opinião",
       "description": "Numa recente participação num podcast, Sam Altman, o cofundador e CEO da OpenAI, mostra que - em menos de um ano - mudou de opinião em...",
@@ -216,6 +202,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_298253e1d043",
+      "title": "OpenAI revela que ataque à IA atingiu mais alvos do que se sabia; entenda falha de segurança",
+      "description": "Acreditava-se que a Hugging Face, uma espécie de biblioteca digital de tecnologia muito usada por desenvolvedores, era a única vítima do...",
+      "url": "https://www.bbc.com/portuguese/articles/c2elz7jw2lgo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-07-29T14:31:11+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_e3ba529619a4",
@@ -250,38 +250,10 @@
       "title": "Agente de IA invadiu o Hugging Face usando credencial roubada do Tailscale",
       "description": "A Tailscale publicou um post-mortem sobre a invasão: nenhuma vulnerabilidade no produto foi explorada, mas a VPN zero trust não impediu o...",
       "url": "https://imasters.com.br/noticia/agente-de-ia-invadiu-o-hugging-face-usando-credencial-roubada-do-tailscale",
-      "source": "imasters.com.br",
-      "sourceCanonical": "imasters.com.br",
+      "source": "iMasters",
+      "sourceCanonical": "iMasters",
       "sourceDomain": "imasters.com.br",
       "publishedAt": "2026-08-01T12:48:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_af29c72f19d5",
-      "title": "Vídeo. Anthropic admite que modelo de IA invadiu sistemas durante testes",
-      "description": "Vídeo. O anúncio surge poucos dias depois de a rival OpenAI ter revelado que o seu modelo de IA mais avançado, utilizado na popular...",
-      "url": "https://pt.euronews.com/video/2026/07/31/anthropic-admite-que-modelo-de-ia-mais-avancado-invadiu-sistemas-durante-testes",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-07-31T10:23:39+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_59b9f69b7e97",
-      "title": "OpenAI apresenta novo modelo Astra a senadores dias antes da chegada de um regime de revisão de 30 dias",
-      "description": "Reuniões à porta fechada deram a senadores uma antevisão ...",
-      "url": "https://yellow.com/pt/news/openai-apresenta-novo-modelo-astra-a-senadores-dias-antes-de-entrar-em-vigor-revis%C3%A3o-federal-de-30-dias",
-      "source": "yellow.com",
-      "sourceCanonical": "yellow.com",
-      "sourceDomain": "yellow.com",
-      "publishedAt": "2026-08-01T06:47:38+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -297,6 +269,34 @@
       "sourceDomain": "bsbcapital.com.br",
       "publishedAt": "2026-08-01T20:00:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4961f12b18a1",
+      "title": "Nova IA da OpenAI promete funcionar como uma equipe digital",
+      "description": "Novo sistema da OpenAI promete assistentes de IA trabalhando em conjunto e amplia discussões sobre empregos, segurança e inovação digital.",
+      "url": "https://olhardigital.com.br/2026/07/31/inteligencia-artificial/nova-ia-da-openai-promete-funcionar-como-uma-equipe-digital/",
+      "source": "Olhar Digital",
+      "sourceCanonical": "Olhar Digital",
+      "sourceDomain": "olhardigital.com.br",
+      "publishedAt": "2026-07-31T13:08:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_af29c72f19d5",
+      "title": "Vídeo. Anthropic admite que modelo de IA invadiu sistemas durante testes",
+      "description": "Vídeo. O anúncio surge poucos dias depois de a rival OpenAI ter revelado que o seu modelo de IA mais avançado, utilizado na popular...",
+      "url": "https://pt.euronews.com/video/2026/07/31/anthropic-admite-que-modelo-de-ia-mais-avancado-invadiu-sistemas-durante-testes",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-07-31T10:23:39+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
-      "centerLeft": 3,
-      "center": 5,
+      "centerLeft": 4,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 9
     }
   },
   "scores": {
