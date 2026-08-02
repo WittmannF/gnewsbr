@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwZ05qYkVSRTlrRm5QaXFYZS1DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwZ05qYkVSRTlrRm5QaXFYZS1DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 3,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 5,
       "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "\"Vamos matar quem roubar\", diz Renan Santos ao lançar candidatura",
   "summary": "Renan Santos, candidato do partido Missão à Presidência da República, afirmou neste sábado (1º) que um eventual governo seu irá \"matar quem...",
@@ -28,13 +34,13 @@
     "renan",
     "santos",
     "missão",
+    "candidatura",
     "matar",
-    "roubar",
-    "candidatura"
+    "roubar"
   ],
-  "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/renan-santos-missao.png?w=855&h=392&crop=1",
+  "imageUrl": "https://s2-g1.glbimg.com/gLI4a1BcV4DAee2bXaeP979H4yQ=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/T/M2BERLTLGBRWtYMKLnNg/zim20260801044.jpg",
   "publishedAt": "2026-07-29T14:12:09+00:00",
-  "updatedAt": "2026-08-02T11:37:24.385811+00:00",
+  "updatedAt": "2026-08-02T12:33:05.534410+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,14 +49,14 @@
       "title": "\"Vamos matar quem roubar\", diz Renan Santos ao lançar candidatura",
       "description": "Renan Santos, candidato do partido Missão à Presidência da República, afirmou neste sábado (1º) que um eventual governo seu irá \"matar quem...",
       "url": "https://www.cnnbrasil.com.br/eleicoes/vamos-matar-quem-roubar-diz-renan-santos-ao-lancar-candidatura/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-01T22:53:31+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/renan-santos-missao.png?w=855&h=392&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_03dd306350f2",
@@ -81,6 +87,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_90522e2f81a3",
+      "title": "Renan Santos ataca Lula e Flávio, chama Moro de ‘vassalo’ e promete ‘matar quem roubar’",
+      "description": "Candidato do Missão ironizou governadores, sugeriu permitir que professores 'punam' alunos 'rebeldes' e estabeleceu como meta a redução do...",
+      "url": "https://www.estadao.com.br/politica/renan-santos-ataca-lula-e-flavio-chama-moro-de-vassalo-e-promete-matar-quem-roubar/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-01T21:40:42+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/PY2SMZVEY5GBTEQD3NRVAK4IN4.png?quality=80&auth=6390edc212bd86bceb558dd3f36ac50f0293ff31c79f47a65880d8adc6ccc3d7&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_dcf2fa24daa8",
       "title": "Partido Missão: o projeto de poder de Renan Santos e do MBL",
       "description": "Como o grupo Partido Missão estrutura a formação militante defendendo pautas que flertam com ruptura democrática, tortura e nazismo.",
@@ -95,6 +115,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_f224ff320aa2",
+      "title": "Renan Santos é oficializado em ato com ingresso de até R$ 7 mil e livro de propostas 'de luxo'",
+      "description": "O deputado federal Kim Kataguiri foi o responsável por fazer o lançamento da \"versão definitiva' do Livro Amarelo no palco.",
+      "url": "https://jovempan.com.br/politica/renan-santos-e-oficializado-em-ato-com-ingresso-de-ate-r-7-mil-e-livro-de-propostas-de-luxo/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-08-01T21:26:24+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/06/whatsapp-image-2022-03-14-at-19.10.19.jpeg?w=750&h=630&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_ca93e929105e",
       "title": "Renan Santos confirma candidatura à Presidência com ataques a Lula e Bolsonaro",
       "description": "O empresário Renan Santos (Missão) foi oficializado neste sábado, 1º, como candidato à Presidência da República. A confirmação do nome dele...",
@@ -103,20 +137,6 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-02T00:05:05+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2021/11/Renan-Santos.jpg?quality=70&strip=info&resize=1080,565&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_e5edd59a5102",
-      "title": "Renan Santos é oficializado em ato com ingresso de até R$ 7 mil e livro de propostas ‘de luxo’",
-      "description": "Evento do partido é marcado por venda de ingresso, de suvenires e do livros de propostas, que tem versão básica, 'de luxo' e kit especial...",
-      "url": "https://www.estadao.com.br/politica/renan-santos-e-oficializado-em-ato-com-ingresso-de-ate-r-7-mil-e-livro-de-propostas-de-luxo/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-01T19:53:25+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -127,14 +147,28 @@
       "title": "Com ingressos open bar, Missão promove candidatura de Renan Santos à Presidência",
       "description": "O partido do MBL fez um congresso neste sábado (1/8), apesar de candidato já ter sido lançado em convenção online.",
       "url": "https://www.jota.info/eleicoes/eleicoes-2026/com-ingressos-open-bar-missao-promove-candidatura-de-renan-santos-a-presidencia",
-      "source": "jota.info",
-      "sourceCanonical": "jota.info",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-08-01T22:35:51+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_d695173e74fc",
+      "title": "Renan Santos propõe “matar quem roubar” em evento do Missão em clima de “balada”",
+      "description": "O partido Missão promoveu, neste sábado (1º), as candidaturas de Renan Santos à Presidência da República e de pré-candidatos aos governos...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/renan-santos-matar-quem-roubar-missao/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-08-02T01:07:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_2796205d455c",
@@ -179,28 +213,28 @@
       "bucket": "left"
     },
     {
-      "id": "article_d695173e74fc",
-      "title": "Renan Santos propõe “matar quem roubar” em evento do Missão em clima de “balada”",
-      "description": "O partido Missão promoveu, neste sábado (1º), as candidaturas de Renan Santos à Presidência da República e de pré-candidatos aos governos...",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/renan-santos-matar-quem-roubar-missao/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-08-02T01:07:00+00:00",
+      "id": "article_89342d087ada",
+      "title": "Renan Santos oficializa candidatura em convenção, neste sábado (1º)",
+      "description": "Com as eleições cada dia mais próximas, o empresário Renan Santos (Missão) realiza a convenção partidária neste fim de semana para...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7472084-renan-santos-oficializa-candidatura-em-convencao-neste-sabado-1.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-08-01T13:27:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
-      "id": "article_140cb5702b14",
-      "title": "Renan Santos ataca Lula e Flávio e promete 'matar quem roubar'",
-      "description": "Renan Santos (Missão) lançou neste sábado (1º/6) a candidatura à Presidência com um discurso marcado por ataques aos adversários, o...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7472282-renan-santos-ataca-lula-e-flavio-e-promete-matar-quem-roubar.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-08-02T01:23:00+00:00",
+      "id": "article_5c849631d13f",
+      "title": "Renan xinga Lula e Flávio e fala em \"matar quem roubar\"",
+      "description": "O presidente do partido Missão e candidato à Presidência da República, Renan Santos, fez uma série de críticas a adversários políticos...",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/renan-xinga-lula-e-flavio-e-fala-em-matar-quem-roubar/",
+      "source": "poder360.com.br",
+      "sourceCanonical": "poder360.com.br",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-01T23:09:26+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -225,28 +259,14 @@
       "title": "Partido Missão oficializa Renan Santos como candidato e lança livro com plano de governo",
       "description": "O Partido Missão realiza neste sábado (1º), em São Paulo, o seu \"1º Congresso Nacional\", reunindo filiados, parlamentares e apoiadores em um...",
       "url": "https://www.folhape.com.br/politica/partido-missao-oficializa-renan-santos-como-candidato-e-lanca-livro/504063/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-08-01T20:43:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_5c849631d13f",
-      "title": "Renan xinga Lula e Flávio e fala em \"matar quem roubar\"",
-      "description": "O presidente do partido Missão e candidato à Presidência da República, Renan Santos, fez uma série de críticas a adversários políticos...",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/renan-xinga-lula-e-flavio-e-fala-em-matar-quem-roubar/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-08-01T23:09:26+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_70562d4a099d",
@@ -263,32 +283,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4df395a640ae",
-      "title": "Renan Santos mira ataques a Flávio em evento do Missão e defende 'matar quem roubar'",
-      "description": "Candidato do Missão à Presidência, Renan chamou Lula e Flávio de 'vagabundos' e disse que os dois 'têm que ir para a lata de lixo da...",
-      "url": "https://www.em.com.br/politica/2026/08/7472252-renan-santos-mira-ataques-a-flavio-em-evento-do-missao-e-defende-matar-quem-roubar.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-01T22:53:00+00:00",
+      "id": "article_1de0c8fd90cd",
+      "title": "Durante convenção, Renan Santos ataca Lula e Flávio e promete ‘matar quem roubar’",
+      "description": "Convenção nacional do Missão confirmou o nome de Renan Santos à Presidência.",
+      "url": "https://midiamax.com.br/brasil/2026/durante-convencao-renan-santos-ataca-lula-flavio-promete-matar-quem-roubar/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-08-02T00:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7fa153894060",
-      "title": "Renan Santos ataca Lula e Flávio, chama Moro de 'vassalo' e promete 'matar quem roubar'",
-      "description": "Candidato do Missão ironizou governadores, sugeriu permitir que professores 'punam' alunos 'rebeldes' e estabeleceu como meta a redução do...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/renan-santos-ataca-lula-e-flavio-chama-moro-de-vassalo-e-promete-matar-quem-roubar,8d675661334b12cbed3532774c1a1962isdijrmn.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-01T21:52:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f455fb383fb6",
@@ -298,8 +304,8 @@
       "source": "instagram.com",
       "sourceCanonical": "instagram.com",
       "sourceDomain": "instagram.com",
-      "publishedAt": "2026-08-02T09:34:02+00:00",
-      "postedLabel": "2 horas atrás",
+      "publishedAt": "2026-08-01T21:30:51+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -321,27 +327,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 5.38,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "max": 9,
+    "average": 5.58,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 9,
+      "centerLeft": 2,
+      "center": 5,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 7
+      "right": 1,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
