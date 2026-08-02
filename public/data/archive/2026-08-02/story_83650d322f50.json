@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pQbmZfZEVSSHd0dXYxZm9TZUtDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pQbmZfZEVSSHd0dXYxZm9TZUtDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-4"
+    "topic-4",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-4"
+      "topic-4",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-4": 17
+      "topic-4": 19,
+      "topic-5": 65
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +32,9 @@
     "queixa",
     "crime"
   ],
-  "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/31/17855302686a6d079c16de2_1785530268_3x2_xl.jpg",
+  "imageUrl": "https://www.brasil247.com/wp-content/uploads/2024/07/20240731190748_eb4f24492b9155e28aef6aac63f597c67246568e7a64fcb6b8e42d3ef406359c.jpg?w=1200&quality=88&strip=all",
   "publishedAt": "2026-08-01T11:00:54+00:00",
-  "updatedAt": "2026-08-02T09:04:31.071177+00:00",
+  "updatedAt": "2026-08-02T09:52:45.953529+00:00",
   "sourceCount": 14,
   "articleCount": 15,
   "articles": [
@@ -40,14 +43,14 @@
       "title": "Marcos Mion apresenta queixa-crime contra Bento Ribeiro",
       "description": "247 – Marcos Mion apresentou uma queixa-crime contra Bento Ribeiro e atribuiu ao humorista os crimes de calúnia e difamação por declarações...",
       "url": "https://www.brasil247.com/ta-nos-trends/marcos-mion-apresenta-queixa-crime-contra-bento-ribeiro/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-08-01T14:18:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2024/07/20240731190748_eb4f24492b9155e28aef6aac63f597c67246568e7a64fcb6b8e42d3ef406359c.jpg?w=1200&quality=88&strip=all",
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_65bfb35ef87f",
@@ -115,7 +118,7 @@
       "sourceDomain": "nsctotal.com.br",
       "publishedAt": "2026-08-01T15:01:38+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/bento-ribeiro-e-marcos-mion.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -138,14 +141,14 @@
       "title": "Quem é Bento Ribeiro, humorista alvo de queixa-crime de Marcos Mion",
       "description": "Falas do humorista sobre os bastidores do trabalho com Marcos Mion na MTV foram alvo de processo por parte do apresentador.",
       "url": "https://www.metropoles.com/celebridades/quem-e-bento-ribeiro-humorista-alvo-de-queixa-crime-de-marcos-mion",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-01T17:22:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_06c1e73276ee",
@@ -247,15 +250,15 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 5,
-    "average": 4.62,
+    "average": 4.12,
     "knownCount": 8,
     "unknownCount": 7,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
-      "center": 7,
+      "center": 6,
       "centerRight": 0,
       "right": 0,
       "unknown": 7
@@ -263,8 +266,8 @@
   },
   "scores": {
     "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [

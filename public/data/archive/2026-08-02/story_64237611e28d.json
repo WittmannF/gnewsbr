@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1659887:1760706908/CARRODEAPPUBERA.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=1f2edc6",
   "publishedAt": "2026-07-28T08:00:00+00:00",
-  "updatedAt": "2026-08-02T09:17:29.407208+00:00",
+  "updatedAt": "2026-08-02T10:02:42.681117+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -106,20 +106,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c669eef052d5",
-      "title": "BNDES aprova R$ 2,2 bilhões para renovar frota de taxistas e motoristas de app",
-      "description": "247 – O BNDES aprovou R$ 2,2 bilhões em financiamentos para taxistas e motoristas de aplicativo comprarem carros novos por meio do programa...",
-      "url": "https://www.brasil247.com/economia/bndes-aprova-r-22-bilhoes-para-renovar-frota-de-taxistas-e-motoristas-de-app/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-07-31T15:04:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_766cf562d506",
       "title": "Caixa e plataforma selam acordo para financiamento de veículos",
       "description": "A Caixa fechou uma parceria com a plataforma 99 para oferecer cashback a motoristas de aplicativo e taxistas cadastrados no serviço que...",
@@ -132,6 +118,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_c669eef052d5",
+      "title": "BNDES aprova R$ 2,2 bilhões para renovar frota de taxistas e motoristas de app",
+      "description": "247 – O BNDES aprovou R$ 2,2 bilhões em financiamentos para taxistas e motoristas de aplicativo comprarem carros novos por meio do programa...",
+      "url": "https://www.brasil247.com/economia/bndes-aprova-r-22-bilhoes-para-renovar-frota-de-taxistas-e-motoristas-de-app/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-07-31T15:04:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_4dfc14dc972d",
@@ -274,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_23b3ecae5832",
-      "title": "Banco do Brasil e Uber lançam cashback para motoristas de app que financiam veículos",
-      "description": "Benefício é para quem mantém as prestações em dia e realiza pelo menos 240 viagens mensais.",
-      "url": "https://www.tribunadosertao.com.br/financas/2026/07/31/950745-banco-do-brasil-e-uber-lancam-cashback-para-motoristas-de-app-que-financiam-veiculos",
-      "source": "Tribuna do Sertão",
-      "sourceCanonical": "Tribuna do Sertão",
-      "sourceDomain": "tribunadosertao.com.br",
-      "publishedAt": "2026-07-31T22:16:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7f25ea2b9452",
       "title": "Presidente cobra bancos que estão recusando Move Brasil a destravar financiamentos.",
       "description": "Na teoria, o programa deveria facilitar bastante o financiamento de carros e motos para quem trabalha usando o veículo, mas, na prática,...",
@@ -300,6 +286,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_23b3ecae5832",
+      "title": "Banco do Brasil e Uber lançam cashback para motoristas de app que financiam veículos",
+      "description": "Benefício é para quem mantém as prestações em dia e realiza pelo menos 240 viagens mensais.",
+      "url": "https://www.tribunadosertao.com.br/financas/2026/07/31/950745-banco-do-brasil-e-uber-lancam-cashback-para-motoristas-de-app-que-financiam-veiculos",
+      "source": "Tribuna do Sertão",
+      "sourceCanonical": "Tribuna do Sertão",
+      "sourceDomain": "tribunadosertao.com.br",
+      "publishedAt": "2026-07-31T22:16:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_35aa6b48675a",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 6,
-    "average": 5,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.6,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 0,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
