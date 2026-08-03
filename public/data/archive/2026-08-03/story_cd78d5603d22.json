@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 33
+      "topic-3": 34
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 33,
-    "bestSeedRank": 33,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/SaveClip.App_650193377_18570193633032488_3136828456901384751_n-e1785673234312.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-08-01T21:10:55+00:00",
-  "updatedAt": "2026-08-03T03:17:36.020811+00:00",
+  "updatedAt": "2026-08-03T05:28:59.334411+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Eduardo Leite anuncia fim do casamento com Thalis Bolzan",
       "description": "Governador disse que eles “tomaram essa decisão mantendo o respeito, o carinho e admiração que sentem um pelo outro”. Leia no Poder360.",
       "url": "https://www.poder360.com.br/poder-gente/eduardo-leite-anuncia-fim-do-casamento-com-thalis-bolzan/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
+      "source": "poder360.com.br",
+      "sourceCanonical": "poder360.com.br",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-02T02:08:19+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/eduardo-leite-marido-1ago26-848x477.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_087c234d43f2",
@@ -152,14 +152,14 @@
       "title": "Eduardo Leite confirma fim de relacionamento com médico Thalis Bolzan",
       "description": "Através de uma nota, governador do RS afirmou que a decisão foi tomada em comum acordo e de forma madura.",
       "url": "https://jovempan.com.br/noticias/eduardo-leite-confirma-fim-de-relacionamento-com-medico-thalis-bolzan/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-08-02T12:41:04+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_b9ecb17f773f",
@@ -194,8 +194,8 @@
       "title": "Governador do Rio Grande do Sul, Eduardo Leite confirma término de casamento com Thalis Bolzan",
       "description": "Eduardo Leite e Thalis estavam juntos desde 2021 e se casaram no final de 2023. Ele foi o primeiro governador a se assumir gay.",
       "url": "https://www.gazetasp.com.br/politica/governador-do-rio-grande-do-sul-eduardo-leite-confirma-termino-de-casamento-com-thalis-bolzan/",
-      "source": "gazetasp.com.br",
-      "sourceCanonical": "gazetasp.com.br",
+      "source": "Gazeta de São Paulo",
+      "sourceCanonical": "Gazeta de São Paulo",
       "sourceDomain": "gazetasp.com.br",
       "publishedAt": "2026-08-02T16:15:00+00:00",
       "postedLabel": "hoje",
@@ -292,14 +292,14 @@
       "title": "Governador do RS, Eduardo Leite se separa após decisão conjunta",
       "description": "Governador do RS, Eduardo Leite confirma o fim do casamento com o médico Thalis Bolzan. Nota oficial pede respeito à privacidade do ex-casal...",
       "url": "https://contilnetnoticias.com.br/cotidiano/governador-do-rs-eduardo-leite-se-separa-apos-decisao-conjunta/",
-      "source": "ContilNet",
-      "sourceCanonical": "ContilNet",
+      "source": "ContilNet Notícias",
+      "sourceCanonical": "ContilNet Notícias",
       "sourceDomain": "contilnetnoticias.com.br",
       "publishedAt": "2026-08-02T02:22:14+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2aa8feae5a75",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.2,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 9,
+    "average": 5.55,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 1,
-      "right": 0,
-      "unknown": 10
+      "right": 1,
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
