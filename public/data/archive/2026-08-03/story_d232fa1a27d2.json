@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 26
+      "topic-7": 19
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 26,
-    "bestSeedRank": 26,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/01/gustavo-petro-848x477.jpg",
   "publishedAt": "2026-07-06T07:00:00+00:00",
-  "updatedAt": "2026-08-03T22:47:06.178058+00:00",
+  "updatedAt": "2026-08-03T23:45:10.529786+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-03T18:35:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://media.gazetadopovo.com.br/2026/08/03151434/8023655191001w.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -68,14 +68,14 @@
       "title": "Violência e polarização assombram transição na Colômbia",
       "description": "A menos de uma semana da posse do ultradireitista Abelardo de la Espriella, caminhão-bomba ilustra os desafios do novo presidente.",
       "url": "https://www.correiobraziliense.com.br/mundo/2026/08/7472543-violencia-e-polarizacao-assombram-transicao-na-colombia.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-03T08:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/08/02/675x450/1_afp--20260801--c3r74zq--v1--highres--colombiaconflictunrest-67314669.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_edc7ce7e9559",
@@ -101,7 +101,7 @@
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-08-03T01:42:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/07/colombia.jpg?w=1200&quality=88&strip=all",
+      "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
     },
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ee94cddc8950",
-      "title": "Gustavo Petro antecipa saída da Presidência da Colômbia",
-      "description": "O presidente da Colômbia, Gustavo Petro, anunciou que deixará o cargo antecipadamente, em 20 de julho, antes da posse do sucessor de direita...",
-      "url": "https://www.juruaemtempo.com.br/internacionais/gustavo-petro-antecipa-saida-da-presidencia-da-colombia/",
-      "source": "O Juruá Em Tempo",
-      "sourceCanonical": "O Juruá Em Tempo",
-      "sourceDomain": "juruaemtempo.com.br",
-      "publishedAt": "2026-07-06T07:00:00+00:00",
-      "postedLabel": "28 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_990360d330a2",
       "title": "Congresso da Colômbia autoriza Espriella a tomar posse fora da capital Bogotá",
       "description": "O presidente eleito da Colômbia, Abelardo de la Espriella, tomará posse no dia 7 de agosto na cidade de Cali, depois que o Congresso aprovou...",
@@ -240,7 +226,21 @@
       "sourceCanonical": "93 Notícias",
       "sourceDomain": "93noticias.com.br",
       "publishedAt": "2026-08-03T20:33:28+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ee94cddc8950",
+      "title": "Gustavo Petro antecipa saída da Presidência da Colômbia",
+      "description": "O presidente da Colômbia, Gustavo Petro, anunciou que deixará o cargo antecipadamente, em 20 de julho, antes da posse do sucessor de direita...",
+      "url": "https://www.juruaemtempo.com.br/internacionais/gustavo-petro-antecipa-saida-da-presidencia-da-colombia/",
+      "source": "juruaemtempo.com.br",
+      "sourceCanonical": "juruaemtempo.com.br",
+      "sourceDomain": "juruaemtempo.com.br",
+      "publishedAt": "2026-07-06T07:00:00+00:00",
+      "postedLabel": "28 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.88,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 4.78,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

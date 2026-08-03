@@ -3,22 +3,25 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lYOS1yZUVSSDMxSmVQbXVURHlDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lYOS1yZUVSSDMxSmVQbXVURHlDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 33
+      "topic-5": 67,
+      "topic-8": 31
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 33,
-    "bestSeedRank": 33,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 67,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "RD Saúde inaugura loja conceito focada em beleza e cosméticos",
+  "title": "RD Saúde inaugura nova loja Raia Conceito em São Paulo",
   "summary": "Primeira unidade da Raia Conceito tem 65% do espaço dedicado à beleza e marcas como Kérastase e Lancôme. ouça este conteúdo. readme...",
   "topic": "Raia · Beleza",
   "topicKeywords": [
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/31/17855188276a6cdaeb876e2_1785518827_3x2_rt.jpg",
   "publishedAt": "2026-08-03T02:00:00+00:00",
-  "updatedAt": "2026-08-03T22:49:58.452431+00:00",
+  "updatedAt": "2026-08-03T23:42:39.909053+00:00",
   "sourceCount": 16,
   "articleCount": 16,
   "articles": [
@@ -45,7 +48,7 @@
       "sourceDomain": "meioemensagem.com.br",
       "publishedAt": "2026-08-03T09:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.meioemensagem.com.br/wp-content/uploads/2026/07/Raia-Conceito-3D.JPG.jpg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -124,14 +127,14 @@
       "title": "RD Saúde lança novo tipo de loja para vender de skincare coreano a perfumes árabes",
       "description": "Após sucesso da Needs, grupo dono de Raia e Drogasil cria loja conceito com 2.500 produtos de beleza e mira mercado disputado por varejo e...",
       "url": "https://exame.com/invest/mercados/rd-saude-lanca-novo-tipo-de-loja-para-vender-de-skincare-coreano-a-perfumes-arabes/",
-      "source": "exame.com",
-      "sourceCanonical": "exame.com",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-08-03T10:08:01+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://classic.exame.com/wp-content/uploads/2026/07/Raia-Conceito-3D.JPG.jpeg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_a53c55de51a1",
@@ -142,7 +145,7 @@
       "sourceCanonical": "Marcas pelo Mundo",
       "sourceDomain": "marcaspelomundo.com.br",
       "publishedAt": "2026-08-03T19:38:48+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -156,7 +159,7 @@
       "sourceCanonical": "Panorama Farmacêutico",
       "sourceDomain": "panoramafarmaceutico.com.br",
       "publishedAt": "2026-08-03T18:00:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -170,7 +173,7 @@
       "sourceCanonical": "broadcast.com.br",
       "sourceDomain": "broadcast.com.br",
       "publishedAt": "2026-08-03T20:01:28+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +229,7 @@
       "sourceCanonical": "Saúde Digital News",
       "sourceDomain": "saudedigitalnews.com.br",
       "publishedAt": "2026-08-03T19:56:04+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -263,23 +266,23 @@
   "spectrum": {
     "min": 4,
     "max": 6,
-    "average": 5,
-    "knownCount": 3,
-    "unknownCount": 13,
+    "average": 5.25,
+    "knownCount": 4,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 2,
+      "center": 3,
       "centerRight": 0,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 84
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",

@@ -4,20 +4,23 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3LTd6Y0VSRVFUYy0zZHYtQXdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
       "topic-3",
-      "topic-5"
+      "topic-5",
+      "topic-8"
     ],
     "seedRanks": {
       "topic-3": 29,
-      "topic-5": 11
+      "topic-5": 10,
+      "topic-8": 36
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 29,
-    "bestSeedRank": 11,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,16 +30,16 @@
   "topicKeywords": [
     "bilhões",
     "lula",
-    "libera",
     "pacote",
-    "risco",
-    "bondades"
+    "libera",
+    "aproximam",
+    "bolsonaro"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/EawxM-UrmXAGi3i581mAsJ5Vanw=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/F/O/KPAnPOSaA9eMtxZcF2Bw/lula-bolsonaro.jpg",
   "publishedAt": "2026-07-27T20:00:00+00:00",
-  "updatedAt": "2026-08-03T22:35:15.906810+00:00",
-  "sourceCount": 5,
-  "articleCount": 8,
+  "updatedAt": "2026-08-03T23:35:22.256672+00:00",
+  "sourceCount": 6,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_ae2079749a7e",
@@ -47,7 +50,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-03T17:30:39+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/EawxM-UrmXAGi3i581mAsJ5Vanw=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/F/O/KPAnPOSaA9eMtxZcF2Bw/lula-bolsonaro.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -89,7 +92,21 @@
       "sourceCanonical": "RRMAIS",
       "sourceDomain": "rrmais.com.br",
       "publishedAt": "2026-08-03T18:35:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_6373f28a706c",
+      "title": "Medidas de Lula somam R$ 283 bilhões e se aproximam de pacote de Bolsonaro",
+      "description": "As medidas econômicas anunciadas pelo governo do presidente Luiz Inácio Lula da Silva (PT) desde o início do ano já somam R$ 283,2 bilhões,...",
+      "url": "https://ojornalextra.com.br/noticias/brasil/2026/08/129467-medidas-de-lula-somam-r-283-bilhoes-e-se-aproximam-de-pacote-de-bolsonaro",
+      "source": "Jornal Extra de Alagoas",
+      "sourceCanonical": "Jornal Extra de Alagoas",
+      "sourceDomain": "ojornalextra.com.br",
+      "publishedAt": "2026-08-03T23:22:00+00:00",
+      "postedLabel": "13 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -103,7 +120,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-03T17:48:48+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s01.video.glbimg.com/x720/14835472.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -156,21 +173,21 @@
     "max": 8,
     "average": 6.2,
     "knownCount": 5,
-    "unknownCount": 3,
+    "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 3,
       "centerRight": 2,
       "right": 0,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 76
+    "confidence": 78
   },
   "flags": [
     "Muitas fontes não classificadas",
