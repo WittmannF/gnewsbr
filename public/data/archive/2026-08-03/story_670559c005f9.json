@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYMHVmWkVSRXFMS016d2NXdVJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYMHVmWkVSRXFMS016d2NXdVJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-6"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-6"
     ],
     "seedRanks": {
-      "topic-5": 35
+      "topic-5": 39,
+      "topic-6": 10
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 35,
-    "bestSeedRank": 35,
+    "firstSeenRank": 39,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/esporte/cd/2026/08/02/abel-ferreira-tecnico-do-palmeiras-em-jogo-contra-o-fortaleza-pela-copa-do-brasil-1785702201286_v2_615x300.jpg",
   "publishedAt": "2026-08-01T20:41:00+00:00",
-  "updatedAt": "2026-08-03T09:37:57.771490+00:00",
+  "updatedAt": "2026-08-03T11:26:29.161752+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -59,20 +62,6 @@
       "sourceDomain": "ge.globo.com",
       "publishedAt": "2026-08-02T22:08:17+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_2e516f5dddc0",
-      "title": "Felipe Melo analisa novo embate entre Flamengo e Palmeiras: 'Estratégia'",
-      "description": "Felipe Melo analisou a nova troca de farpas entre Flamengo e Palmeiras. As diretorias dos clubes voltaram a movimetar o cenário do futebol.",
-      "url": "https://www.lance.com.br/fora-de-campo/felipe-melo-analisa-novo-embate-entre-flamengo-e-palmeiras-estrategia.html",
-      "source": "LANCE!",
-      "sourceCanonical": "LANCE!",
-      "sourceDomain": "lance.com.br",
-      "publishedAt": "2026-08-03T08:10:00+00:00",
-      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -106,20 +95,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3599c7cb6654",
-      "title": "Palmeiras compra guerra fria com o Flamengo. ‘Cara de pau absurda!’ Leila. ‘Ninguém tira o asterisco da Libertadores de 2025!’ Abel",
-      "description": "Nem a 'gorda' vitória contra o Fortaleza, por 3 a 0, na primeira partida pelas oitavas da Copa do Brasil acalmou o Palmeiras.",
-      "url": "https://esportes.r7.com/prisma/cosme-rimoli/palmeiras-compra-guerra-fria-com-o-flamengo-cara-de-pau-absurda-leila-ninguem-tira-o-asterisco-da-libertadores-de-2025-abel-03082026/",
-      "source": "R7 Esportes",
-      "sourceCanonical": "R7 Esportes",
-      "sourceDomain": "esportes.r7.com",
-      "publishedAt": "2026-08-03T04:00:40+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_4fa6589d6471",
       "title": "Leila Pereira rebate Flamengo: \"Carapuça serviu?\"",
       "description": "Presidente do Palmeiras ironiza postura do Rubro-Negro sobre arbitragem e lembra polêmica da final da Libertadores 2025.",
@@ -134,14 +109,42 @@
       "bucket": "center"
     },
     {
+      "id": "article_2e516f5dddc0",
+      "title": "Felipe Melo analisa novo embate entre Flamengo e Palmeiras: 'Estratégia'",
+      "description": "Felipe Melo analisou a nova troca de farpas entre Flamengo e Palmeiras. As diretorias dos clubes voltaram a movimetar o cenário do futebol.",
+      "url": "https://www.lance.com.br/fora-de-campo/felipe-melo-analisa-novo-embate-entre-flamengo-e-palmeiras-estrategia.html",
+      "source": "LANCE!",
+      "sourceCanonical": "LANCE!",
+      "sourceDomain": "lance.com.br",
+      "publishedAt": "2026-08-03T08:10:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_3599c7cb6654",
+      "title": "Palmeiras compra guerra fria com o Flamengo. ‘Cara de pau absurda!’ Leila. ‘Ninguém tira o asterisco da Libertadores de 2025!’ Abel",
+      "description": "Nem a 'gorda' vitória contra o Fortaleza, por 3 a 0, na primeira partida pelas oitavas da Copa do Brasil acalmou o Palmeiras.",
+      "url": "https://esportes.r7.com/prisma/cosme-rimoli/palmeiras-compra-guerra-fria-com-o-flamengo-cara-de-pau-absurda-leila-ninguem-tira-o-asterisco-da-libertadores-de-2025-abel-03082026/",
+      "source": "R7 Esportes",
+      "sourceCanonical": "R7 Esportes",
+      "sourceDomain": "esportes.r7.com",
+      "publishedAt": "2026-08-03T04:00:40+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_11be770f98ed",
       "title": "Leila Pereira aponta ‘desespero’ e qualifica nota do Flamengo como ‘ridícula’: ‘Cara de pau’",
-      "description": "Time carioca foi citado pelo paulista em nota de contestação ao STJD pela denúncia de Maurício por cotovelada em Cacá, do Vitória, na ultima rodada do...",
+      "description": "Time carioca foi citado pelo paulista em nota de contestação ao STJD pela denúncia de Maurício por cotovelada em Cacá, do Vitória,...",
       "url": "https://www.estadao.com.br/em-alta/esportes/futebol/leila-pereira-ataca-manifestacao-do-flamengo-sobre-arbitragem-cara-de-pau-absurda/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-02T21:04:13+00:00",
+      "publishedAt": "2026-08-02T23:05:32+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/GDR7IF4BSFCSLINVDCAOLTPMDE.png?quality=80&auth=88e05ef13879ccf2064ad7c41df65e851797e8e60ba91fbb21a94876de6841ab&width=1200&height=630&smart=true",
       "spectrumScore": 7,
@@ -162,29 +165,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_334a2a905df7",
-      "title": "Técnico do Palmeiras, Abel rebate nota do Flamengo sobre arbitragem e volta a citar final da Libertadores",
-      "description": "Abel Ferreira rebateu neste domingo a nota do Flamengo repsondendo à crítica do Palmeiras sobre a denúncia de Mauricio ao STJD.",
-      "url": "https://www.gazetaesportiva.com/times/palmeiras/abel-rebate-nota-flamengo-palmeiras-arbitragem/",
+      "id": "article_f9b2cafbb961",
+      "title": "Abel manda recado ao Flamengo após nota oficial e alfineta rival",
+      "description": "Treinador relembra final da Libertadores e diz que conversa era \"entre A e B\", lembrando de polêmicas no jogo contra Vitória.",
+      "url": "https://www.band.com.br/esportes/abel-manda-recado-ao-flamengo-apos-nota-oficial-e-alfineta-rival-202608021850",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-08-02T21:59:53+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_53cd92d8e548",
+      "title": "Leila critica nota do Flamengo sobre arbitragem e rebate acusações contra o Palmeiras: “Cara de pau”",
+      "description": "Os bastidores do futebol brasileiro voltaram a esquentar com as polêmicas recentes envolvendo decisões da arbitragem e do Superior Tribunal...",
+      "url": "https://www.gazetaesportiva.com/times/palmeiras/leila-pereira-rebate-nota-flamengo-acusacoes-palmeiras/",
       "source": "Gazeta Esportiva",
       "sourceCanonical": "Gazeta Esportiva",
       "sourceDomain": "gazetaesportiva.com",
-      "publishedAt": "2026-08-02T23:09:00+00:00",
+      "publishedAt": "2026-08-02T22:18:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6c1362f94eed",
-      "title": "Flamengo entra em debate e vê Palmeiras \"reiteradamente beneficiado\" pela arbitragem",
-      "description": "Rubro-Negro se manifesta após Verdão questionar denúncia de Maurício pelo STJD, por lance em jogo contra o Vitória, na semana passada.",
-      "url": "https://mais.opovo.com.br/jornal/esportes/2026/08/02/flamengo-entra-em-debate-e-ve-palmeiras-reiteradamente-beneficiado-pela-arbitragem.html",
-      "source": "O POVO+",
-      "sourceCanonical": "O POVO+",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-08-02T04:00:00+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -202,20 +205,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_f9b2cafbb961",
-      "title": "Abel manda recado ao Flamengo após nota oficial e alfineta rival",
-      "description": "Treinador relembra final da Libertadores e diz que conversa era \"entre A e B\", lembrando de polêmicas no jogo contra Vitória.",
-      "url": "https://www.band.com.br/esportes/abel-manda-recado-ao-flamengo-apos-nota-oficial-e-alfineta-rival-202608021850",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-08-02T21:59:53+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_d83ae403252c",
@@ -236,28 +225,14 @@
       "title": "Abel cita \"asterisco\" na Libertadores 2025 e pede união à torcida: “Não se deixem levar por narrativas”",
       "description": "Treinador voltou a mencionar a final da competição internacional do ano passado.",
       "url": "https://www.abcdoabc.com.br/abel-cita-asterisco-na-libertadores/",
-      "source": "abcdoabc.com.br",
-      "sourceCanonical": "abcdoabc.com.br",
+      "source": "Portal ABC do ABC",
+      "sourceCanonical": "Portal ABC do ABC",
       "sourceDomain": "abcdoabc.com.br",
       "publishedAt": "2026-08-02T22:26:29+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_5839e7799b2a",
-      "title": "Leila reage à nota do Flamengo sobre o Palmeiras: 'Cara de pau'",
-      "description": "Presidente do Palmeiras respondeu às críticas do Flamengo sobre arbitragem e voltou a defender o clube paulista nos bastidores.",
-      "url": "https://www.correiobraziliense.com.br/esportes/2026/08/7472580-leila-reage-a-nota-do-flamengo-sobre-o-palmeiras-cara-de-pau.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-08-03T01:13:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_0609d12f7595",
@@ -274,6 +249,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_587b5f53164a",
+      "title": "Leila Pereira ataca manifestação do Flamengo sobre arbitragem",
+      "description": "A presidente do Palmeiras, Leila Pereira, atacou neste domingo a nota oficial do Flamengo, que definia o rival como \"reiteradamente...",
+      "url": "https://cidadeverde.com/esporte/460392/leila-pereira-ataca-manifestacao-do-flamengo-sobre-arbitragem",
+      "source": "CidadeVerde.com",
+      "sourceCanonical": "CidadeVerde.com",
+      "sourceDomain": "cidadeverde.com",
+      "publishedAt": "2026-08-02T22:54:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_7a307553752c",
       "title": "Palmeiras Online. . 🗣 Uma mancha que jamais será apagada! Em meio a polêmicas de arbitragem, Abel ferreira relembrou o episódio da final da Libertadores, onde Pulgar, atleta do Flamengo, não foi expulso após uma falta grave que poderia quebrar a per",
       "description": "",
@@ -286,6 +275,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a1d9c2ffb7d4",
+      "title": "Flamengo aponta favorecimento ao Palmeiras e cobra punição a árbitros",
+      "description": "Nota cita partida do alviverde contra o Vitória nesta semana, ocasião em que arbitragem polêmica expulsou dois atletas do clube baiano.",
+      "url": "https://www.correiobraziliense.com.br/esportes/2026/08/7472223-flamengo-aponta-favorecimento-ao-palmeiras-e-cobra-punicao-a-arbitros.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-08-01T23:12:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_1969b5f8ad54",
@@ -302,14 +305,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_0a9a308740ed",
-      "title": "O que Leila Pereira disse sobre a nota do Flamengo criticando a arbitragem?",
-      "description": "A troca de farpas entre Palmeiras e Flamengo ganhou um novo capítulo. A presidente do clube paulista, Leila Pereira, rebateu a nota oficial...",
-      "url": "https://www.sportingnews.com/br/futebol/noticias/o-que-leila-pereira-disse-sobre-nota-do-flamengo-criticando-arbitragem/7d695c183e77535939c04a36",
-      "source": "sportingnews.com",
-      "sourceCanonical": "sportingnews.com",
-      "sourceDomain": "sportingnews.com",
-      "publishedAt": "2026-08-02T22:05:00+00:00",
+      "id": "article_502c19728c92",
+      "title": "Abel Ferreira diz que o Flamengo não deveria se intrometer em polêmicas de arbitragem com o Palmeiras",
+      "description": "Após a vitória por 3 a 0 contra o Fortaleza, no domingo (2), na partida de ida das oitavas de final da Copa do Brasil, o treinador Abel...",
+      "url": "https://abcdjornal.com.br/esporte/noticia/2026/08/02/abel-ferreira-diz-que-o-flamengo-nao-deveria-se-intrometer-em-polemicas-de-arbitragem-com-o-palmeiras/",
+      "source": "ABCD Jornal",
+      "sourceCanonical": "ABCD Jornal",
+      "sourceDomain": "abcdjornal.com.br",
+      "publishedAt": "2026-08-02T22:38:16+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,

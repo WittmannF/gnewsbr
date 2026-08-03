@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pucTlYZUVSRXdZVnA2aUNZVDNpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pucTlYZUVSRXdZVnA2aUNZVDNpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 31
+      "topic-3": 22,
+      "topic-5": 34
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 22,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/DHQ3oiW6l7ovAl972yfUIN3XkZw=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/Q/usSaqXRy6ASOv9JAtaFw/design-sem-nome-93-.jpg",
   "publishedAt": "2026-08-02T17:04:14+00:00",
-  "updatedAt": "2026-08-03T09:32:10.701837+00:00",
-  "sourceCount": 5,
-  "articleCount": 8,
+  "updatedAt": "2026-08-03T11:19:23.210988+00:00",
+  "sourceCount": 6,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_950ce9df77ff",
@@ -48,6 +51,20 @@
       "imageUrl": "https://s2-g1.glbimg.com/DHQ3oiW6l7ovAl972yfUIN3XkZw=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/Q/usSaqXRy6ASOv9JAtaFw/design-sem-nome-93-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_0c87fd5cbc04",
+      "title": "Polícia procura suspeitos de furtar carros de luxo de concessionária em Belo Horizonte (MG)",
+      "description": "A polícia está procurando três suspeitos de participar do furto de seis carros de luxo que estavam no estacionamento de uma concessionária...",
+      "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/policia-procura-suspeitos-de-furtar-carros-de-luxo-de-concessionaria-em-belo-horizonte-mg-03082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-03T10:19:15+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F08-03-2026%2Ft_b9c5727b0dd34c24853299d7fa245f88_name_file_960x540_1600_v4_.jpg?smart=true&auth=927e4f2b2ca1678b5c9b21f040f0b74b143455ff2bc415b1d77ec166a9db8c78&width=1200&height=630",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_cc09844e3c58",
@@ -87,7 +104,7 @@
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-08-03T02:10:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://midias.em.com.br/_midias/jpg/2026/08/02/1000x1000/1_carros-de-luxo-furtados-em-bh-67315476.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -150,24 +167,24 @@
   ],
   "spectrum": {
     "min": 5,
-    "max": 5,
-    "average": 5,
-    "knownCount": 7,
+    "max": 7,
+    "average": 5.25,
+    "knownCount": 8,
     "unknownCount": 1,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
       "unknown": 1
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 82
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
+    "confidence": 87
   },
   "flags": [
     "Manchetes divergentes"
