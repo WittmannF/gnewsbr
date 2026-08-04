@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 52
+      "topic-3": 50
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 52,
-    "bestSeedRank": 52,
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://midias.correio24horas.com.br/2026/08/02/homem-invade-casa-ameaca-abusar-de-crianca-de-4-anos-para-forcar-jovem-de-20-a-manter-relacoes-sexuais-e-e-preso-apos-sofrer-acidente-ao-fugir-da-policia--3357449.jpg",
   "publishedAt": "2026-08-02T20:24:26+00:00",
-  "updatedAt": "2026-08-04T09:12:24.227359+00:00",
+  "updatedAt": "2026-08-04T10:13:45.903650+00:00",
   "sourceCount": 13,
   "articleCount": 13,
   "articles": [
@@ -50,20 +50,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_55b32712df6c",
-      "title": "Homem é preso após manter família refém, estuprar jovem e roubar motocicleta na Zona Sul de SP, diz PM",
-      "description": "Segundo a Polícia Militar, suspeito manteve quatro pessoas em cárcere privado, estuprou uma das vítimas sob ameaça e foi preso após roubar...",
-      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/08/02/homem-e-preso-apos-manter-familia-refem-estuprar-jovem-e-roubar-motocicleta-na-zona-sul-de-sp-diz-pm.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-08-02T20:24:26+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://s2-g1.glbimg.com/-iEhxkr18aMXEiEtbjV85F9mKCc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Q/PawuAMSvCwcBPdaYzXGw/montagem-horizontal-1200px-2-.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_72b52ca80439",
       "title": "Homem é preso sob suspeita de invadir casa, estuprar jovem e fazer família refém na zona sul de SP",
       "description": "Três mulheres e uma criança de 4 anos estavam na residência invadida neste domingo (2), no Grajaú.",
@@ -76,6 +62,20 @@
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/21/17846466946a5f8c26a31ae_1784646694_3x2_lg.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_55b32712df6c",
+      "title": "Homem é preso após manter família refém, estuprar jovem e roubar motocicleta na Zona Sul de SP, diz PM",
+      "description": "Segundo a Polícia Militar, suspeito manteve quatro pessoas em cárcere privado, estuprou uma das vítimas sob ameaça e foi preso após roubar...",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/08/02/homem-e-preso-apos-manter-familia-refem-estuprar-jovem-e-roubar-motocicleta-na-zona-sul-de-sp-diz-pm.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-08-02T20:24:26+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://s2-g1.glbimg.com/-iEhxkr18aMXEiEtbjV85F9mKCc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/Q/PawuAMSvCwcBPdaYzXGw/montagem-horizontal-1200px-2-.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_047dd21dc674",
@@ -194,14 +194,14 @@
       "title": "Homem é preso após invasão, estupro e família feita refém em SP",
       "description": "Homem de 37 anos foi preso após invadir uma casa, estuprar uma jovem e manter três mulheres e uma criança reféns no Grajaú.",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/homem-preso-estupro-familia-refem-grajau-sao-paulo/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-08-03T14:28:56+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_376ecd26d7d7",
@@ -219,29 +219,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 5,
-    "knownCount": 9,
-    "unknownCount": 4,
+    "average": 5.38,
+    "knownCount": 8,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 23,
-      "topic-5": 33
+      "topic-3": 29,
+      "topic-5": 37
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 29,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/kf-lZrX3eNxhkz6j004zQYLFMpY=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/r/jKjnY3SKCJ1M2QSXWFbA/carro-atropela-casal-de-idosos.jpg",
   "publishedAt": "2026-08-03T08:28:07+00:00",
-  "updatedAt": "2026-08-04T09:11:07.697865+00:00",
+  "updatedAt": "2026-08-04T10:12:27.569669+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -155,14 +155,14 @@
       "title": "Motorista embriagado invade calçada e mata casal em SP",
       "description": "Exame do IML confirmou ingestão de álcool por parte do condutor; uma das vítimas do atropelamento foi arremessada de viaduto.",
       "url": "https://sbtnews.sbt.com.br/noticia/brasil/motorista-embriagado-invade-calcada-e-mata-casal-em-sp",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-08-03T11:42:17+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2bd943b31e0f",
@@ -183,14 +183,14 @@
       "title": "Motorista bêbado atropela e mata casal na zona leste de SP; veja vídeo",
       "description": "Casal, de 56 e 58 anos, atravessava a rua no bairro da Vila Matilde quando foi atingido; homem foi preso em flagrante, e o caso foi...",
       "url": "https://jovempan.com.br/brasil/motorista-bebado-atropela-e-mata-casal-na-zona-leste-de-sp/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
+      "source": "jovempan.com.br",
+      "sourceCanonical": "jovempan.com.br",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-08-03T11:46:57+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7f53967f8c6e",
@@ -277,20 +277,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_b06299bea7e1",
-      "title": "Mulher morre após ser atropelada e cair de viaduto em São Paulo",
-      "description": "Um homem e uma mulher foram atropelados por um motorista embriagado na Zona Leste de São Paulo. O caso foi registrado na madrugada desta...",
-      "url": "https://ultimosegundo.ig.com.br/2026-08-03/mulher-morre-apos-ser-atropelada-e-cair-de-viaduto-em-sao-paulo.html",
-      "source": "Portal iG",
-      "sourceCanonical": "Portal iG",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-08-03T12:28:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_2514dcdb5877",
       "title": "Morre segunda vítima atropelada por motorista suspeita de embriaguez no viaduto Dona Matilde",
       "description": "O eletricista Nilson Leite Batista de 56 anos morreu na manhã desta segunda-feira 0308 horas após ser atropelado por um motorista embriagado...",
@@ -303,6 +289,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_b06299bea7e1",
+      "title": "Mulher morre após ser atropelada e cair de viaduto em São Paulo",
+      "description": "Um homem e uma mulher foram atropelados por um motorista embriagado na Zona Leste de São Paulo. O caso foi registrado na madrugada desta...",
+      "url": "https://ultimosegundo.ig.com.br/2026-08-03/mulher-morre-apos-ser-atropelada-e-cair-de-viaduto-em-sao-paulo.html",
+      "source": "Portal iG",
+      "sourceCanonical": "Portal iG",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-08-03T12:28:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_b534f76db119",
@@ -321,28 +321,29 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.33,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 7,
+    "average": 5,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 10,
+      "center": 9,
       "centerRight": 2,
-      "right": 1,
-      "unknown": 5
+      "right": 0,
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
