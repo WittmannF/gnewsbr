@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 32,
-      "topic-5": 40
+      "topic-3": 34,
+      "topic-5": 37
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 32,
-    "bestSeedRank": 32,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/kf-lZrX3eNxhkz6j004zQYLFMpY=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/r/jKjnY3SKCJ1M2QSXWFbA/carro-atropela-casal-de-idosos.jpg",
   "publishedAt": "2026-08-03T08:28:07+00:00",
-  "updatedAt": "2026-08-04T11:53:49.872918+00:00",
+  "updatedAt": "2026-08-04T12:52:39.659577+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -71,14 +71,14 @@
       "title": "Justiça determina que homem que atropelou e matou casal em SP siga preso",
       "description": "O Tribunal de Justiça de São Paulo determinou que Giuliano Franco Fontes, 24, motorista que atropelou e matou duas pessoas hoje na zona...",
       "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/08/03/prisao-preventiva-atropelamento-casal.ghtm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-03T18:09:58+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6df54dfb9bbc",
@@ -104,7 +104,7 @@
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-03T16:10:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/03/2133218868-motorista.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -127,14 +127,14 @@
       "title": "Casal morto por motorista bêbado em SP estava a 3 minutos de casa",
       "description": "Maria Saraiva e Nilson Batista, ambos de 58 anos, deixam dois filhos, um homem e uma mulher.",
       "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/casal-morto-por-motorista-bebado-em-sp-estava-a-3-minutos-de-casa/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-03T12:17:27+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_abf3126102e4",
@@ -239,14 +239,14 @@
       "title": "Motorista embriagado atropela e mata casal e depois dorme em delegacia",
       "description": "O motorista, identificado como Giuliano Franco Fontes, recusou-se a fazer o teste do bafômetro; ele estava com a CNH vencida por infrações.",
       "url": "https://revistaforum.com.br/brasil/motorista-embriagado-atropela-mata-casal-dorme-delegacia/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-08-03T15:31:20+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_dfdcf8a7d191",
@@ -271,7 +271,7 @@
       "sourceCanonical": "Portal iG",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-08-03T12:28:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -320,28 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 9,
-    "average": 5.82,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.43,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
-      "center": 8,
+      "center": 10,
       "centerRight": 2,
       "right": 1,
-      "unknown": 9
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
