@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 22
+      "topic-9": 26
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/noticias/c3/2026/08/02/recurso-de-geracao-de-imagens-por-ia-no-google-earth-foi-desativado-1785717667200_v2_615x300.jpg",
   "publishedAt": "2026-07-30T14:17:06+00:00",
-  "updatedAt": "2026-08-04T15:17:20.045935+00:00",
+  "updatedAt": "2026-08-04T16:16:32.925717+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -124,14 +124,14 @@
       "title": "Google Earth agora permite mudar a realidade",
       "description": "O Google anunciou uma nova ferramenta para o Google Earth. Agora é possível modificar imagens reais, criando novas possibilidades.",
       "url": "https://revistaoeste.com/tecnologia/google-earth-agora-permite-mudar-a-realidade/",
-      "source": "revistaoeste.com",
-      "sourceCanonical": "revistaoeste.com",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-08-01T00:00:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/07/masp-zeppelin.jpg.webp",
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_5a288c4dad27",
@@ -260,20 +260,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4684a28a4375",
-      "title": "Após críticas, Google cancela criação de imagens com IA no Earth",
-      "description": "Big tech identificou conteúdos que pareciam violar as políticas da empresa.",
-      "url": "https://www.cnnbrasil.com.br/inteligencia-artificial/apos-criticas-google-cancela-criacao-de-imagens-com-ia-no-earth/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-03T14:00:46+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/Captura-de-tela-2026-05-06-212356-e1778114073411.png?w=898&h=505&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7b0107a66a9e",
       "title": "Google Earth ganha IA que recria cidades e faz viagem no tempo",
       "description": "O Google anunciou a integração da IA Nano Banana ao Google Earth para criar imagens personalizadas a partir de qualquer lugar exibido no...",
@@ -286,6 +272,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_4684a28a4375",
+      "title": "Após críticas, Google cancela criação de imagens com IA no Earth",
+      "description": "Big tech identificou conteúdos que pareciam violar as políticas da empresa.",
+      "url": "https://www.cnnbrasil.com.br/inteligencia-artificial/apos-criticas-google-cancela-criacao-de-imagens-com-ia-no-earth/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-03T14:00:46+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_bc54ac497545",
@@ -318,24 +318,24 @@
   ],
   "spectrum": {
     "min": 5,
-    "max": 5,
-    "average": 5,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "max": 10,
+    "average": 6,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 4,
       "centerRight": 0,
-      "right": 0,
-      "unknown": 16
+      "right": 1,
+      "unknown": 15
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 87
+    "coverageDiversity": 40,
+    "spectrumBalance": 72,
+    "headlineDivergence": 85,
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
