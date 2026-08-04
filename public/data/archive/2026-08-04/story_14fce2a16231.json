@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzNi1fZkVSRWNSUjJONEhrWGdTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzNi1fZkVSRWNSUjJONEhrWGdTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 35
+      "topic-3": 18,
+      "topic-5": 40
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 35,
-    "bestSeedRank": 35,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/04/rogerio-correia-nikolas-4abr26-848x477.png",
   "publishedAt": "2026-08-01T15:06:00+00:00",
-  "updatedAt": "2026-08-04T21:48:43.200890+00:00",
+  "updatedAt": "2026-08-04T22:39:16.853387+00:00",
   "sourceCount": 14,
-  "articleCount": 14,
+  "articleCount": 15,
   "articles": [
     {
       "id": "article_7a40748fb22d",
@@ -44,7 +47,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-04T16:28:52+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/04/rogerio-correia-nikolas-4abr26-848x477.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -66,13 +69,13 @@
     {
       "id": "article_a626cee5a905",
       "title": "PT aciona PGR contra Nikolas por suposta propaganda eleitoral antecipada",
-      "description": "O deputado federal Rogério Correia (PT-MG) protocolou, nesta segunda-feira (3/8), uma notícia de fato na Procuradoria-Geral da República...",
+      "description": "O deputado federal Rogério Correia (PT-MG) protocolou, na segunda-feira (3/8), uma notícia de fato na Procuradoria-Geral da República (PGR),...",
       "url": "https://www.correiobraziliense.com.br/politica/2026/08/7473556-pt-aciona-pgr-contra-nikolas-por-suposta-propaganda-eleitoral-antecipada.html",
       "source": "Correio Braziliense",
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-04T17:35:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/03/19/675x450/1_dsc2829--1--65460434.jpg?20260803132908?20260803132908",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -82,8 +85,8 @@
       "title": "Autor do ‘Rap do Silva’, MC Bob Rum diz que Lula é ‘o maior dos estadistas’ do Brasil",
       "description": "Releitura de funk de 1996 conta história de Lula como o 'Silva da estrela que brilha'; presidente agradece pela música e se diz honrado.",
       "url": "https://pt.org.br/autor-do-rap-do-silva-mc-bob-rum-diz-que-lula-e-o-maior-dos-estadistas-do-brasil/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
+      "source": "pt.org.br",
+      "sourceCanonical": "pt.org.br",
       "sourceDomain": "pt.org.br",
       "publishedAt": "2026-08-01T15:06:00+00:00",
       "postedLabel": "3 dias atrás",
@@ -230,20 +233,34 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_8772540a0f03",
+      "title": "Deputado petista aciona a PGR por paródia sobre Lula",
+      "description": "O deputado federal Rogério Correia (PT-MG) que que seja apurada uma publicação que o deputado federal Nikolas Ferreira (PL-MG) fez nas redes...",
+      "url": "https://pleno.news/brasil/politica-nacional/deputado-petista-aciona-a-pgr-por-parodia-sobre-lula.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-08-04T18:03:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.5,
-    "knownCount": 8,
+    "average": 5,
+    "knownCount": 9,
     "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 3,
       "centerRight": 0,
-      "right": 1,
+      "right": 2,
       "unknown": 6
     }
   },
