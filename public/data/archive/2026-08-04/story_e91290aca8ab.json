@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lRMWUzWUVSSGxSc201cXpMbTFTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lRMWUzWUVSSGxSc201cXpMbTFTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 31
+      "topic-5": 70,
+      "topic-8": 34
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 70,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,13 +30,13 @@
     "mercado",
     "itaú",
     "bba",
-    "fundos"
+    "ipca"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/PZA6FAFM65OHFADXZIQQP24JAA.jpg?quality=80&auth=dbd9857f0037d0a750d99ac21635acdf45b123a2a1b874e0346e9a07cf33a114&width=1200&height=630&smart=true",
   "publishedAt": "2026-07-27T08:03:15+00:00",
-  "updatedAt": "2026-08-04T19:08:50.343469+00:00",
+  "updatedAt": "2026-08-04T19:54:03.110143+00:00",
   "sourceCount": 8,
-  "articleCount": 13,
+  "articleCount": 12,
   "articles": [
     {
       "id": "article_62dab363b3df",
@@ -134,20 +137,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c0f20b9e41d6",
-      "title": "Fundos de crédito privado tiveram resgates de R$ 96 bilhões no 1º semestre, estima Itaú BBA",
-      "description": "Depois de anos de forte expansão, o mercado brasileiro de crédito privado entrou em uma fase de ajuste em 2026. PUBLICIDADE.",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/fundos-de-credito-privado-tiveram-resgates-de-r-96-bilhoes-no-1-semestre-estima-itau-bba/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-03T23:07:31+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/PZA6FAFM65OHFADXZIQQP24JAA.jpg?quality=80&auth=dbd9857f0037d0a750d99ac21635acdf45b123a2a1b874e0346e9a07cf33a114&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_d874711d6986",
       "title": "Boa gestão, caixa e retorno: gestores traçam mapa da mina do crédito privado em 2026",
       "description": "Especialistas citam cenário difícil para a economia nos próximos meses, mas veem espaço para ganhos em papéis de empresas, com cautela e...",
@@ -199,7 +188,7 @@
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-07-27T08:03:15+00:00",
       "postedLabel": "8 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -221,14 +210,14 @@
   "spectrum": {
     "min": 6,
     "max": 7,
-    "average": 6.33,
-    "knownCount": 6,
+    "average": 6.2,
+    "knownCount": 5,
     "unknownCount": 7,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 4,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 0,
       "unknown": 7
     }
@@ -237,7 +226,7 @@
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 89
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
