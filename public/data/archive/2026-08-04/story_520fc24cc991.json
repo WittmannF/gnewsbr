@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxMWE3UUVSRzZDRkZkbFdCWTBDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxMWE3UUVSRzZDRkZkbFdCWTBDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 4,
-      "topic-5": 2
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 4,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "TSE inicia Semana Nacional do Sistema Eletrônico de Votação",
   "summary": "Declaração ocorreu após ato inédito em que o TSE desmontou uma urna para mostrar ao público seu funcionamento interno.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/ministro-nunes-marques-tse_f2ecf2.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-08-03T12:03:00+00:00",
-  "updatedAt": "2026-08-04T07:06:27.477387+00:00",
+  "updatedAt": "2026-08-04T08:03:18.857698+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -201,24 +207,10 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-04T01:41:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_0598c374bebc",
-      "title": "Ao vivo: Nunes Marques lança semana nacional sobre urnas eletrônicas",
-      "description": "Iniciativa terá atividades em todo o país para ampliar a confiança no sistema de votação. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-justica/ao-vivo-nunes-marques-lanca-semana-nacional-sobre-urnas-eletronicas/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-08-03T22:43:47+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_055eac8a4eb0",
@@ -249,6 +241,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_0598c374bebc",
+      "title": "Ao vivo: Nunes Marques lança semana nacional sobre urnas eletrônicas",
+      "description": "Iniciativa terá atividades em todo o país para ampliar a confiança no sistema de votação. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-justica/ao-vivo-nunes-marques-lanca-semana-nacional-sobre-urnas-eletronicas/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-03T22:43:47+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_1a68d9b101ad",
       "title": "Semana do Sistema Eletrônico de Votação começa hoje (3)",
       "description": "Programação tem início com transmissão ao vivo da abertura da urna eletrônica.",
@@ -263,6 +269,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_2584ee23d184",
+      "title": "‘Fraudes foram descartadas com sistema eletrônico’, destaca TRE-RS",
+      "description": "O Tribunal Regional Eleitoral (TRE-RS) promoveu, nesta segunda-feira (3), a cerimônia de Abertura da Urna Eletrônica.",
+      "url": "https://sul21.com.br/noticias/politica/2026/08/fraudes-foram-descartadas-com-sistema-eletronico-destaca-tre-rs/",
+      "source": "Sul 21",
+      "sourceCanonical": "Sul 21",
+      "sourceDomain": "sul21.com.br",
+      "publishedAt": "2026-08-03T21:25:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_a02c5ad7de9b",
       "title": "Urna eletrônica é patrimônio da democracia, diz presidente do TSE",
       "description": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, defendeu nesta terça-feira (3) o sistema eletrônico de...",
@@ -271,24 +291,10 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-08-04T04:15:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_2584ee23d184",
-      "title": "‘Fraudes foram descartadas com sistema eletrônico’, destaca TRE-RS",
-      "description": "O Tribunal Regional Eleitoral (TRE-RS) promoveu, nesta segunda-feira (3), a cerimônia de Abertura da Urna Eletrônica.",
-      "url": "https://sul21.com.br/noticias/politica/2026/08/fraudes-foram-descartadas-com-sistema-eletronico-destaca-tre-rs/",
-      "source": "sul21.com.br",
-      "sourceCanonical": "sul21.com.br",
-      "sourceDomain": "sul21.com.br",
-      "publishedAt": "2026-08-03T21:25:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_bfc800749be5",
