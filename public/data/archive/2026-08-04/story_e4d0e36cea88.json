@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 4
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://midias.correio24horas.com.br/2026/02/02/leite-condensado-3122487.jpg",
   "publishedAt": "2026-08-03T03:01:58+00:00",
-  "updatedAt": "2026-08-04T01:47:32.785578+00:00",
+  "updatedAt": "2026-08-04T03:15:00.987087+00:00",
   "sourceCount": 7,
   "articleCount": 7,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Agência FAPESP",
       "sourceDomain": "agencia.fapesp.br",
       "publishedAt": "2026-08-03T03:01:58+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://agencia.fapesp.br/lib/photo.php?src=https://agencia.fapesp.br/files/post/58845.jpg&w=615&h=300",
       "spectrumScore": null,
       "bucket": "unknown"
@@ -68,14 +68,14 @@
       "title": "Pesquisa revela que o consumo excessivo de açúcar pode agravar a asma; entenda",
       "description": "Segundo o estudo, o açúcar também é um fator de risco para a doença, pois aumenta as chances de crises alérgicas.",
       "url": "https://www.oliberal.com/saude/pesquisa-revela-que-consumo-excessivo-de-acucar-pode-agravar-a-asma-entenda-1.1152892",
-      "source": "O Liberal",
-      "sourceCanonical": "O Liberal",
+      "source": "oliberal.com",
+      "sourceCanonical": "OLiberal.com",
       "sourceDomain": "oliberal.com",
       "publishedAt": "2026-08-03T18:21:11+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.oliberal.com/image/contentid/policy:1.1152896:1785780221/image.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e3c1d56",
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_e0b4601796db",
@@ -92,20 +92,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f9ce4fc168c3",
-      "title": "Estudo associa alto consumo de açúcar a piora da asma em camundongos",
-      "description": "Estudo com camundongos indica que o alto consumo de açúcar intensifica a inflamação pulmonar e pode agravar quadros de asma.",
-      "url": "https://www.diariodocentrodomundo.com.br/essencial/excesso-de-acucar-pode-agravar-inflamacao-da-asma-indica-novo-estudo/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
-      "sourceDomain": "diariodocentrodomundo.com.br",
-      "publishedAt": "2026-08-04T00:19:37+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/imagem-principal-acucar-pode-agravar-inflamacao-da-asma-estudo-170907109565de5af767a9c_1709071095_3x2_rt.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_cdcd972d0fc5",
       "title": "Açúcar age como agente inflamatório e agrava quadros de asma, diz pesquisa",
       "description": "O consumo de açúcar está associado a uma maior incidência de cáries, ao ganho de peso e, no longo prazo, pode contribuir para o surgimento...",
@@ -114,10 +100,24 @@
       "sourceCanonical": "redeutv.com.br",
       "sourceDomain": "redeutv.com.br",
       "publishedAt": "2026-08-03T20:40:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f9ce4fc168c3",
+      "title": "Estudo associa alto consumo de açúcar a piora da asma em camundongos",
+      "description": "Estudo com camundongos indica que o alto consumo de açúcar intensifica a inflamação pulmonar e pode agravar quadros de asma.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/excesso-de-acucar-pode-agravar-inflamacao-da-asma-indica-novo-estudo/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-08-04T00:19:37+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/imagem-principal-acucar-pode-agravar-inflamacao-da-asma-estudo-170907109565de5af767a9c_1709071095_3x2_rt.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_858a6768ebeb",
@@ -128,7 +128,7 @@
       "sourceCanonical": "Fala Você Notícias",
       "sourceDomain": "falavoce.com.br",
       "publishedAt": "2026-08-03T20:20:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -137,23 +137,23 @@
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 3.5,
-    "knownCount": 2,
-    "unknownCount": 5,
+    "average": 4,
+    "knownCount": 3,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 1,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 65
+    "confidence": 68
   },
   "flags": [
     "Muitas fontes não classificadas",
