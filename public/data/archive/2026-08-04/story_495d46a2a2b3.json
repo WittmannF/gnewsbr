@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pTOUlUUEVSRmMtSkZseEd6cVF5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pTOUlUUEVSRmMtSkZseEd6cVF5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 1,
-      "topic-5": 6
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 1
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Em convenção do Republicanos, Cleitinho volta a pedir para ser candidato por Minas; Marcos Pereira nega novamente",
   "summary": "Depois de atritos com a direção do partido, senador fez apelo público durante evento da legenda para que decisão fosse reconsiderada.",
@@ -34,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/v04vrx_DT8a63c30WGfHOToGrb8=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/B/tsgAKBSVe8U4TYAQ8KvA/cleitinho.jpg",
   "publishedAt": "2026-08-03T20:05:39+00:00",
-  "updatedAt": "2026-08-04T20:41:22.231919+00:00",
+  "updatedAt": "2026-08-04T21:46:20.812121+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -89,7 +92,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-04T15:53:45+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-04-at-12.27.00-1.jpeg?quality=70&strip=info&resize=1080,565&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -99,14 +102,14 @@
       "title": "A novela Cleitinho e o bê-á-bá para entender a confusão na eleição em Minas",
       "description": "Como a desistência do favorito, as pressões opostas de Brasília e a disputa pelas vagas ao Senado abriram a eleição no segundo maior colégio...",
       "url": "https://www.cartacapital.com.br/blogs/daniel-camargos/a-novela-cleitinho-e-o-be-a-ba-para-entender-a-confusao-na-eleicao-em-minas/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-03T21:23:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_955d6fca7af8",
@@ -145,7 +148,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-08-04T16:02:24+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -159,20 +162,6 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-04T01:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_4334b093406b",
-      "title": "Como fica eleição em MG com saída de Cleitinho; quem ganha e quem perde",
-      "description": "Senador Cleitinho Azevedo (Republicanos) anunciou nesta segunda-feira (3/8) que não vai disputar governo de Minas.",
-      "url": "https://www.metropoles.com/minas-gerais/como-fica-eleicao-em-mg-com-saida-de-cleitinho-quem-ganha-e-quem-perde",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-04T05:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -193,20 +182,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a3cd09e8078e",
-      "title": "Cleitinho volta a pedir para disputar governo de MG durante convenção do Republicanos",
-      "description": "Senador Cleitinho Azevedo insiste com plano de disputar governo de MG, mas recebe nova negativa do Republicanos. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/minas-gerais/cleitinho-volta-a-pedir-para-disputar-governo-de-mg-durante-convencao-do-republicanos/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-08-04T15:11:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_d5adfa1211ec",
       "title": "Líder nas pesquisas, senador Cleitinho, do Republicanos, desiste da candidatura ao governo de Minas Gerais",
       "description": "Apesar de líder nas pesquisas eleitorais, o senador Cleitinho (Republicanos) anunciou, na tarde desta segunda-feira (3),...",
@@ -221,18 +196,60 @@
       "bucket": "left"
     },
     {
-      "id": "article_1f2c24388f18",
-      "title": "Coronel Cláudia ganha força no PL como vice em eventual aliança com aliados",
-      "description": "Saiba mais sobre a possibilidade de Coronel Cláudia ser vice do PL em Minas Gerais e os bastidores das negociações para as eleições de 2026.",
-      "url": "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/3/coronel-claudia-ganha-forca-no-pl-como-vice-em-eventual-alianca-com-aliados",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-08-03T21:13:55+00:00",
+      "id": "article_a3cd09e8078e",
+      "title": "Cleitinho volta a pedir para disputar governo de MG durante convenção do Republicanos",
+      "description": "Senador Cleitinho Azevedo insiste com plano de disputar governo de MG, mas recebe nova negativa do Republicanos. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/minas-gerais/cleitinho-volta-a-pedir-para-disputar-governo-de-mg-durante-convencao-do-republicanos/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-08-04T15:11:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_4334b093406b",
+      "title": "Como fica eleição em MG com saída de Cleitinho; quem ganha e quem perde",
+      "description": "Senador Cleitinho Azevedo (Republicanos) anunciou nesta segunda-feira (3/8) que não vai disputar governo de Minas.",
+      "url": "https://www.metropoles.com/minas-gerais/como-fica-eleicao-em-mg-com-saida-de-cleitinho-quem-ganha-e-quem-perde",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-04T05:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_1f2c24388f18",
+      "title": "Coronel Cláudia ganha força no PL como vice em eventual aliança com aliados",
+      "description": "Saiba mais sobre a possibilidade de Coronel Cláudia ser vice do PL em Minas Gerais e os bastidores das negociações para as eleições de 2026.",
+      "url": "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/3/coronel-claudia-ganha-forca-no-pl-como-vice-em-eventual-alianca-com-aliados",
+      "source": "otempo.com.br",
+      "sourceCanonical": "otempo.com.br",
+      "sourceDomain": "otempo.com.br",
+      "publishedAt": "2026-08-03T21:13:55+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ed5a02abd60c",
+      "title": "Cleitinho diz que gravou vídeo sobre desistência da candidatura 'em dúvida'",
+      "description": "O senador Cleitinho de Azevedo (Republicanos-PB) afirmou, nesta terça-feira (4/8), que gravou o vídeo anunciando sua desistência ao governo...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7473407-cleitinho-diz-que-gravou-video-sobre-desistencia-da-candidatura-em-duvida.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-08-04T15:35:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_928b78faa583",
@@ -249,20 +266,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ed5a02abd60c",
-      "title": "Cleitinho diz que gravou vídeo sobre desistência da candidatura 'em dúvida'",
-      "description": "O senador Cleitinho de Azevedo (Republicanos-PB) afirmou, nesta terça-feira (4/8), que gravou o vídeo anunciando sua desistência ao governo...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7473407-cleitinho-diz-que-gravou-video-sobre-desistencia-da-candidatura-em-duvida.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-08-04T15:35:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e58eee535b5d",
       "title": "Triste, Cleitinho desiste",
       "description": "O senador Cleitinho Azevedo anunciou nesta segunda-feira (3) que não será candidato ao governo de Minas Gerais.",
@@ -277,18 +280,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_6c1007f3801d",
-      "title": "Cotado para vice, Falcão reafirma apoio a Cleitinho: ‘Até o final’",
-      "description": "Ex-prefeito de Patos de Minas diz que seguirá ao lado do senador após tentativa de reverter desistência da candidatura ao governo de Minas.",
-      "url": "https://www.em.com.br/politica/2026/08/7473448-cotado-para-vice-falcao-reafirma-apoio-a-cleitinho-ate-o-final.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-04T15:53:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_fd1f64b12845",
+      "title": "Saída definitiva de Cleitinho deixa Flávio Bolsonaro sem palanque em MG",
+      "description": "Reorganização da direita no estado se tornou um desafio adicional para a campanha bolsonarista. por André Cintra. Publicado 04/08/2026 16:56.",
+      "url": "https://vermelho.org.br/2026/08/04/saida-definitiva-de-cleitinho-deixa-flavio-bolsonaro-sem-palanque-em-mg/",
+      "source": "vermelho.org.br",
+      "sourceCanonical": "vermelho.org.br",
+      "sourceDomain": "vermelho.org.br",
+      "publishedAt": "2026-08-04T19:56:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_deecb1618a18",
@@ -299,7 +302,7 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-08-04T14:52:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -313,7 +316,7 @@
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-08-04T15:30:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -322,16 +325,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.06,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "average": 5.27,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 2,
-      "center": 10,
+      "center": 8,
       "centerRight": 4,
       "right": 0,
-      "unknown": 2
+      "unknown": 5
     }
   },
   "scores": {
