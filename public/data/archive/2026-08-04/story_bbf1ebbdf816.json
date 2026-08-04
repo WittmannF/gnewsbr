@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 33
+      "topic-8": 29
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 33,
-    "bestSeedRank": 33,
+    "firstSeenRank": 29,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/42x8gYlBOPVtuBcXTQcE1BEB8mY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/r/R/TjHyiHREmRn3JRBAfe5Q/itau.jpeg",
   "publishedAt": "2026-08-01T00:07:22+00:00",
-  "updatedAt": "2026-08-04T03:29:12.042476+00:00",
+  "updatedAt": "2026-08-04T05:33:45.634217+00:00",
   "sourceCount": 12,
   "articleCount": 14,
   "articles": [
@@ -54,7 +54,7 @@
       "title": "Itaú vende operação de varejo na Colômbia e no Panamá por R$ 2,5 bilhões",
       "description": "Transação envolve R$ 9,7 bilhões em carteira de crédito e R$ 7,2 bilhões em depósitos.",
       "url": "https://www1.folha.uol.com.br/mercado/2026/08/itau-vende-operacao-de-varejo-na-colombia-e-no-panama-por-r-25-bilhoes.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-03T18:03:00+00:00",
@@ -124,14 +124,14 @@
       "title": "Itaú conclui venda de operação na Colômbia ao Banco de Bogotá",
       "description": "247 – O banco Itaú concluiu a transferência de sua carteira de varejo na Colômbia e no Panamá ao Banco de Bogotá. A operação foi avaliada em...",
       "url": "https://www.brasil247.com/negocios/itau-conclui-venda-de-operacao-na-colombia-ao-banco-de-bogota/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-08-03T18:31:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ebdd0d3e9e7a",
@@ -166,14 +166,14 @@
       "title": "Itaú (ITUB4) conclui venda de operação na Colômbia para o Banco de Bogotá",
       "description": "O Itaú Unibanco (ITUB4) concluiu a transferência de ativos, passivos e contratos da operação de varejo para pessoas físicas do Banco Itaú...",
       "url": "https://www.terra.com.br/economia/itau-itub4-conclui-venda-de-operacao-na-colombia-para-o-banco-de-bogota,d2733f7a9caa75f0e253a37310bbe294frd9c5op.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-03T16:13:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a91547581edd",
@@ -233,29 +233,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 7,
-    "average": 5,
-    "knownCount": 9,
-    "unknownCount": 5,
+    "average": 5.57,
+    "knownCount": 7,
+    "unknownCount": 7,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
-      "center": 5,
+      "center": 4,
       "centerRight": 1,
       "right": 0,
-      "unknown": 5
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
-    "confidence": 95
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 94
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
