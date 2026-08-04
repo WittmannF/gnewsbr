@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 2
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +26,14 @@
     "vitamina",
     "deficiência",
     "pode",
-    "mãos",
-    "nem"
+    "idosos",
+    "mãos"
   ],
-  "imageUrl": "https://netdeal.com.br/api/images/proxy?quality=100&width=1200&src=https://www.netdeal.com.br/api/images/producao.spayce.com.br/1776104787690_2021_11_23_colheres_com_comprimidos_vitaminas_remedios_649165_article.jpg",
+  "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/02/1330291904-5b30d172-3d6b-44c2-ae7b-5af5e3a39e93.jpg",
   "publishedAt": "2026-07-28T14:58:00+00:00",
-  "updatedAt": "2026-08-04T22:38:13.461131+00:00",
-  "sourceCount": 7,
-  "articleCount": 10,
+  "updatedAt": "2026-08-04T23:32:07.300239+00:00",
+  "sourceCount": 8,
+  "articleCount": 11,
   "articles": [
     {
       "id": "article_dc8c2f782611",
@@ -58,7 +58,7 @@
       "sourceCanonical": "Veja Saúde",
       "sourceDomain": "saude.abril.com.br",
       "publishedAt": "2026-08-04T18:07:10+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://saude.abril.com.br/wp-content/uploads/2024/10/vitamina-b12.jpg?quality=85&strip=info&resize=1080,565&crop=1",
       "spectrumScore": null,
       "bucket": "unknown"
@@ -68,14 +68,14 @@
       "title": "Idosos podem estar consumindo menos B12 do que deveriam, alerta estudo",
       "description": "Artigo aponta que níveis considerados normais da vitamina podem esconder riscos neurológicos graves para pessoas acima de 70 anos.",
       "url": "https://www.terra.com.br/vida-e-estilo/saude/idosos-podem-estar-consumindo-menos-b12-do-que-deveriam-alerta-estudo,08cc1365a5841da1f66eb0e3929e60b5cjwogqzn.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-04T13:16:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/02/1330291904-5b30d172-3d6b-44c2-ae7b-5af5e3a39e93.jpg",
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_72d95c30545b",
@@ -134,6 +134,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_16ddf7adb8c5",
+      "title": "Exame normal não garante B12 suficiente em idosos, aponta estudo; entenda o risco",
+      "description": "Pesquisa da Universidade da Califórnia identificou alterações neurológicas em idosos com níveis considerados normais da vitamina;...",
+      "url": "https://ohoje.com/2026/08/04/exame-normal-nao-garante-b12-suficiente-em-idosos-aponta-estudo-entenda-o-risco/",
+      "source": "O Hoje",
+      "sourceCanonical": "O Hoje",
+      "sourceDomain": "ohoje.com",
+      "publishedAt": "2026-08-04T23:02:43+00:00",
+      "postedLabel": "29 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_83e912dcd2d5",
       "title": "O esquecimento constante e a dificuldade de concentração nem sempre são só idade, podem indicar deficiência de vitamina B12",
       "description": "Esquecimento frequente e dificuldade de concentração podem estar ligados à deficiência de vitamina B12. Saiba os sintomas e fatores de...",
@@ -177,25 +191,25 @@
     }
   ],
   "spectrum": {
-    "min": null,
-    "max": null,
-    "average": null,
-    "knownCount": 0,
+    "min": 5,
+    "max": 5,
+    "average": 5,
+    "knownCount": 1,
     "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 0,
+      "center": 1,
       "centerRight": 0,
       "right": 0,
       "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 0,
-    "spectrumBalance": 0,
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 65
+    "confidence": 70
   },
   "flags": [
     "Alta cobertura",
