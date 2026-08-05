@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 5
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +29,9 @@
     "doença",
     "macacos"
   ],
-  "imageUrl": "https://s2-g1.glbimg.com/Y_BJAoEaimuS07hRBdpgIuJPDUM=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/w/I/A9B5GNRHWhslXsor3mEQ/javali-pinus-sagui-santa-catarina-f99a8447-celso-tavares-g1-.jpg",
+  "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/saguis.jpg",
   "publishedAt": "2026-07-30T19:42:40+00:00",
-  "updatedAt": "2026-08-05T11:04:30.559970+00:00",
+  "updatedAt": "2026-08-05T11:49:08.755366+00:00",
   "sourceCount": 12,
   "articleCount": 14,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "CompreRural",
       "sourceDomain": "comprerural.com",
       "publishedAt": "2026-08-04T11:45:11+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -68,14 +68,14 @@
       "title": "Animal silvestre \"fofinho\" pode transmitir doença fatal e acende atenção após alta de acidentes em Florianópolis",
       "description": "Em 2026, até esta segunda-feira (03), foram confirmados 83 acidentes envolvendo saguis, em Florianópolis. Os dados são da Secretaria de...",
       "url": "https://www.nsctotal.com.br/saude/animal-silvestre-fofinho-pode-transmitir-doenca-fatal-e-acende-atencao-apos-alta-de-acidentes-em-florianopolis",
-      "source": "nsctotal.com.br",
-      "sourceCanonical": "nsctotal.com.br",
+      "source": "NSC Total",
+      "sourceCanonical": "NSC Total",
       "sourceDomain": "nsctotal.com.br",
       "publishedAt": "2026-08-03T19:26:17+00:00",
       "postedLabel": "ontem",
       "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/saguis.jpg",
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_24c79b43eb4f",
@@ -233,25 +233,25 @@
     }
   ],
   "spectrum": {
-    "min": null,
-    "max": null,
-    "average": null,
-    "knownCount": 0,
-    "unknownCount": 14,
+    "min": 5,
+    "max": 5,
+    "average": 5,
+    "knownCount": 1,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 0,
+      "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 14
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 0,
-    "spectrumBalance": 0,
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 73
+    "confidence": 76
   },
   "flags": [
     "Alta cobertura",

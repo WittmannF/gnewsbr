@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 10
+      "topic-7": 11
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
+    "firstSeenRank": 11,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/08/04090131/rand.paul_.jpg",
   "publishedAt": "2026-07-30T09:03:59+00:00",
-  "updatedAt": "2026-08-05T11:16:12.603994+00:00",
+  "updatedAt": "2026-08-05T11:57:18.917286+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Por que Anthony Fauci, médico alvo de Trump, foi questionado no Senado dos EUA sobre origem da covid",
       "description": "Durante audiência, infectologista ficou em silêncio ao ser questionado sobre como surgiu o novo coronavírus e também sobre financiamento de...",
       "url": "https://www.estadao.com.br/ciencia/por-que-anthony-fauci-medico-alvo-de-trump-foi-questionado-no-senado-dos-eua-sobre-origem-da-covid-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-03T15:11:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/7JHXDOKEAFA6ZG3P2HADFCPQAU.jpg?quality=80&auth=7b1cd43c112e9c8680a516d45fae9d60c653b08b95fe635ff68a6ae9b46b75b7&width=1200&height=630&focal=1973,885",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0bd021db7040",
@@ -115,7 +115,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-03T13:53:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/07/30214030/anthony-fauci-depoimento-senado.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -292,14 +292,14 @@
       "title": "Papa Francisco convidou Anthony Fauci ao Vaticano. Os apoiadores de Trump querem prendê-lo",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
       "url": "https://www.ihu.unisinos.br/categorias/669126-o-papa-francisco-convidou-anthony-fauci-ao-vaticano-os-apoiadores-de-trump-querem-prende-lo",
-      "source": "Instituto Humanitas Unisinos - IHU",
-      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "source": "ihu.unisinos.br",
+      "sourceCanonical": "ihu.unisinos.br",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-08-03T07:00:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3d923e3e86c0",
@@ -319,20 +319,20 @@
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.25,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.29,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 3,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 7,
-      "centerRight": 4,
+      "centerRight": 3,
       "right": 1,
-      "unknown": 4
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 94,
     "confidence": 95
@@ -340,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
