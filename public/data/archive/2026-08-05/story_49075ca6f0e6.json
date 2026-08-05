@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 2
+      "topic-2": 3
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "raiva",
     "alerta",
     "florianópolis",
-    "doença",
     "caso",
+    "doença",
     "macacos"
   ],
-  "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/saguis.jpg",
+  "imageUrl": "https://s2-g1.glbimg.com/Y_BJAoEaimuS07hRBdpgIuJPDUM=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/w/I/A9B5GNRHWhslXsor3mEQ/javali-pinus-sagui-santa-catarina-f99a8447-celso-tavares-g1-.jpg",
   "publishedAt": "2026-07-30T19:42:40+00:00",
-  "updatedAt": "2026-08-05T10:08:04.907690+00:00",
+  "updatedAt": "2026-08-05T11:04:30.559970+00:00",
   "sourceCount": 12,
   "articleCount": 14,
   "articles": [
@@ -50,20 +50,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1a25fd183259",
-      "title": "Animal silvestre \"fofinho\" pode transmitir doença fatal e acende atenção após alta de acidentes em Florianópolis",
-      "description": "Em 2026, até esta segunda-feira (03), foram confirmados 83 acidentes envolvendo saguis, em Florianópolis. Os dados são da Secretaria de...",
-      "url": "https://www.nsctotal.com.br/saude/animal-silvestre-fofinho-pode-transmitir-doenca-fatal-e-acende-atencao-apos-alta-de-acidentes-em-florianopolis",
-      "source": "NSC Total",
-      "sourceCanonical": "NSC Total",
-      "sourceDomain": "nsctotal.com.br",
-      "publishedAt": "2026-08-03T19:26:17+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/saguis.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_fb1ffd70855b",
       "title": "Novo caso de raiva bovina acende alerta em SC: veja como evitar a doença na fazenda",
       "description": "Santa Catarina chega a 27 ocorrências em animais de produção neste ano; avanço da doença amplia preocupação no campo e exige atenção à...",
@@ -74,6 +60,20 @@
       "publishedAt": "2026-08-04T11:45:11+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_1a25fd183259",
+      "title": "Animal silvestre \"fofinho\" pode transmitir doença fatal e acende atenção após alta de acidentes em Florianópolis",
+      "description": "Em 2026, até esta segunda-feira (03), foram confirmados 83 acidentes envolvendo saguis, em Florianópolis. Os dados são da Secretaria de...",
+      "url": "https://www.nsctotal.com.br/saude/animal-silvestre-fofinho-pode-transmitir-doenca-fatal-e-acende-atencao-apos-alta-de-acidentes-em-florianopolis",
+      "source": "nsctotal.com.br",
+      "sourceCanonical": "nsctotal.com.br",
+      "sourceDomain": "nsctotal.com.br",
+      "publishedAt": "2026-08-03T19:26:17+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/saguis.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -233,25 +233,25 @@
     }
   ],
   "spectrum": {
-    "min": 5,
-    "max": 5,
-    "average": 5,
-    "knownCount": 1,
-    "unknownCount": 13,
+    "min": null,
+    "max": null,
+    "average": null,
+    "knownCount": 0,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 1,
+      "center": 0,
       "centerRight": 0,
       "right": 0,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
+    "coverageDiversity": 0,
+    "spectrumBalance": 0,
     "headlineDivergence": 70,
-    "confidence": 76
+    "confidence": 73
   },
   "flags": [
     "Alta cobertura",
