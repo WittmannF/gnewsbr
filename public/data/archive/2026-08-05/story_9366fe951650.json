@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 63
+      "topic-4": 65
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 63,
-    "bestSeedRank": 63,
+    "firstSeenRank": 65,
+    "bestSeedRank": 65,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2024/06/13/675x450/1_bazar_1-38019119.jpg?20240613140241?20240613140241",
   "publishedAt": "2026-08-03T02:18:27+00:00",
-  "updatedAt": "2026-08-05T00:56:19.723675+00:00",
+  "updatedAt": "2026-08-05T01:53:25.277725+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -114,7 +114,7 @@
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-08-04T19:22:28+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -180,14 +180,14 @@
       "title": "Paolla Oliveira denuncia uso criminoso de IA para criar deepfakes sexuais",
       "description": "“Fui chantageada, mas denunciei. Porém, fiquei traumatizada e com medo. Usaram minhas fotos, manipularam com IA, colocaram partes íntimas de...",
       "url": "https://revistaforum.com.br/brasil/paolla-oliveira-denuncia-criminoso-ia-deepfakes-sexuais/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
+      "source": "revistaforum.com.br",
+      "sourceCanonical": "revistaforum.com.br",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-08-03T12:12:08+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c597625e0cc4",
@@ -226,7 +226,7 @@
       "sourceCanonical": "SRzd",
       "sourceDomain": "srzd.com",
       "publishedAt": "2026-08-04T01:07:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,6 +246,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_602584818d39",
+      "title": "Paolla Oliveira revela choque ao receber vídeo pornô falso criado com IA: 'Gelei'",
+      "description": "Atriz voltou a denunciar o uso de deepfakes e fez um alerta sobre os impactos da inteligência artificial na violência contra mulheres.",
+      "url": "https://www.correio24horas.com.br/em-alta/paolla-oliveira-revela-choque-ao-receber-video-porno-falso-criado-com-ia-gelei-0826",
+      "source": "correio24horas.com.br",
+      "sourceCanonical": "correio24horas.com.br",
+      "sourceDomain": "correio24horas.com.br",
+      "publishedAt": "2026-08-04T02:54:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_15563123b3e0",
       "title": "'Recebi um vídeo pornográfico com o meu rosto': Paolla Oliveira se choca ao se ver nua em imagens falsas na web. 'Eu gelei'",
       "description": "Vítima frequente dos deepfakes, Paolla Oliveira assume ter medo desse tipo de conteúdo e lamenta: 'Misoginia, abuso, violência, mentira,...",
@@ -258,20 +272,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_602584818d39",
-      "title": "Paolla Oliveira revela choque ao receber vídeo pornô falso criado com IA: 'Gelei'",
-      "description": "Atriz voltou a denunciar o uso de deepfakes e fez um alerta sobre os impactos da inteligência artificial na violência contra mulheres.",
-      "url": "https://www.correio24horas.com.br/em-alta/paolla-oliveira-revela-choque-ao-receber-video-porno-falso-criado-com-ia-gelei-0826",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
-      "sourceDomain": "correio24horas.com.br",
-      "publishedAt": "2026-08-04T02:54:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_d03f624e70c7",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 4.8,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.12,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
