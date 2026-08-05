@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/03/17857983166a711eacc9030_1785798316_3x2_rt.jpg",
   "publishedAt": "2026-07-28T19:20:00+00:00",
-  "updatedAt": "2026-08-05T07:23:03.980953+00:00",
+  "updatedAt": "2026-08-05T08:21:18.865641+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Movimento Econômico",
       "sourceDomain": "movimentoeconomico.com.br",
       "publishedAt": "2026-08-04T08:01:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -54,7 +54,7 @@
       "title": "Leilão de baterias do Brasil tem recorde de cadastros - 03/08/2026 - Economia",
       "description": "Foram inscritos 6.091 projetos, somando 296,81 gigawatts, muito acima da demanda prevista para o leilão.",
       "url": "https://www1.folha.uol.com.br/mercado/2026/08/leilao-de-baterias-do-brasil-tem-recorde-de-cadastros.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-03T23:15:00+00:00",
@@ -110,14 +110,14 @@
       "title": "Primeiro leilão de baterias no País tem recorde de mais de 6 mil cadastros",
       "description": "Projetos ainda passarão por análise e habilitação técnica; certame está marcado para dezembro, em duas etapas.",
       "url": "https://www.estadao.com.br/em-alta/economia/primeiro-leilao-de-baterias-no-pais-tem-recorde-de-mais-de-6-mil-cadastros/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-04T00:15:32+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/H3TDAQDGORK3XC4PVMM5KTDPLI.png?quality=80&auth=a08d30e5d335aad2d548a3c809bd09d2d9a770640ff200f69b0959da1daebcc0&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_83706cb594a6",
@@ -171,7 +171,7 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-03T21:51:01+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/leilao-baterias-848x477.png",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -180,14 +180,14 @@
       "title": "Leilão de baterias esbarra em quem pagará os encargos, diz CEO da Engeform",
       "description": "Para Gilberto Feldman, baterias beneficiam todo o sistema elétrico e, por isso, não devem ser custeadas exclusivamente pelos geradores.",
       "url": "https://www.cnnbrasil.com.br/infra/leilao-de-baterias-esbarra-em-quem-pagara-os-encargos-diz-ceo-da-engeform/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-04T23:20:36+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_41095fac68ae",
@@ -222,14 +222,14 @@
       "title": "Primeiro leilão de baterias do Brasil tem recorde histórico de cadastramento, diz EPE",
       "description": "CATL lança o primeiro sistema de armazenamento de energia em baterias (BESS) de íons de sódio do mundo validado em campo, tornando o...",
       "url": "https://www.infomoney.com.br/economia/primeiro-leilao-de-baterias-do-brasil-tem-recorde-historico-de-cadastramento-diz-epe/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
+      "source": "infomoney.com.br",
+      "sourceCanonical": "infomoney.com.br",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-08-03T15:28:54+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1e49d6c9e241",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.67,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "max": 7,
+    "average": 4.86,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 4,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 14
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 93
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

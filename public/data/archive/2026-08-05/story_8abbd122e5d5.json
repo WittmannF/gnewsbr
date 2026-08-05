@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpNHUzZUVSSGVQN181OVNwQjh5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpNHUzZUVSSGVQN181OVNwQjh5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2,
-      "topic-3": 6,
+      "topic-3": 5,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 5,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Itamaraty rebaixa relação diplomática com Argentina após novas ofensas de Milei a Lula",
   "summary": "Medida deve durar enquanto o presidente argentino mantiver ataques contra seu homólogo, Luiz Inácio Lula da Silva.",
@@ -34,13 +28,13 @@
     "milei",
     "argentina",
     "lula",
+    "relações",
     "rebaixa",
-    "relação",
-    "relações"
+    "itamaraty"
   ],
-  "imageUrl": "https://s2-g1.glbimg.com/y4cIzfd86QiV446RTtwtvXo-Hmg=/1440x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/M/fSArM6RiuaF6rZGwXmNA/photo-collage.png-1-.png",
+  "imageUrl": "https://www.estadao.com.br/resizer/v2/UIVNSKB3KJFLDMCE43ESYNK54A.JPG?quality=80&auth=e825bc08724974a6a0fe19743e49f08a728f3af875ea9e6c371d99d5dcbbbd14&width=1200&height=630&focal=1877,1524",
   "publishedAt": "2026-08-01T19:01:00+00:00",
-  "updatedAt": "2026-08-05T07:06:46.262667+00:00",
+  "updatedAt": "2026-08-05T08:05:14.526136+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -49,28 +43,14 @@
       "title": "Itamaraty rebaixa relação diplomática com Argentina após novas ofensas de Milei a Lula",
       "description": "Medida deve durar enquanto o presidente argentino mantiver ataques contra seu homólogo, Luiz Inácio Lula da Silva.",
       "url": "https://www.estadao.com.br/internacional/itamaraty-rebaixa-relacao-diplomatica-com-argentina-npr/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-05T01:10:24+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_d0d156dd1694",
-      "title": "Brasil rebaixa relações com Argentina enquanto Milei mantiver ataques ao país, diz Itamaraty",
-      "description": "O Itamaraty decidiu que o embaixador brasileiro não voltará à Argentina enquanto Javier Milei mantiver ataques ao presidente Lula e a outras...",
-      "url": "https://g1.globo.com/politica/noticia/2026/08/04/brasil-rebaixa-relacoes-com-argentina-enquanto-milei-mantiver-ataques-ao-pais-diz-itamaraty.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-08-05T00:03:47+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/y4cIzfd86QiV446RTtwtvXo-Hmg=/1440x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/M/fSArM6RiuaF6rZGwXmNA/photo-collage.png-1-.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/UIVNSKB3KJFLDMCE43ESYNK54A.JPG?quality=80&auth=e825bc08724974a6a0fe19743e49f08a728f3af875ea9e6c371d99d5dcbbbd14&width=1200&height=630&focal=1877,1524",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8320f62ba4c9",
@@ -87,18 +67,32 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_d0d156dd1694",
+      "title": "Brasil rebaixa relações com Argentina enquanto Milei mantiver ataques ao país, diz Itamaraty",
+      "description": "O Itamaraty decidiu que o embaixador brasileiro não voltará à Argentina enquanto Javier Milei mantiver ataques ao presidente Lula e a outras...",
+      "url": "https://g1.globo.com/politica/noticia/2026/08/04/brasil-rebaixa-relacoes-com-argentina-enquanto-milei-mantiver-ataques-ao-pais-diz-itamaraty.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-08-05T00:03:47+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/y4cIzfd86QiV446RTtwtvXo-Hmg=/1440x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/M/fSArM6RiuaF6rZGwXmNA/photo-collage.png-1-.png",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_c8ac31f4f266",
       "title": "A dura reação diplomática do governo Lula aos ataques de Milei",
       "description": "O governo Lula decidiu rebaixar o nível das relações diplomáticas com a Argentina após ataques do presidente da Argentina, Javier Milei,...",
       "url": "https://veja.abril.com.br/mundo/a-dura-reacao-diplomatica-do-governo-lula-aos-ataques-de-milei/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-04T23:51:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/07/000_64PZ4RM.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e6e42bdfd19a",
@@ -110,7 +104,7 @@
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-08-03T16:41:51+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/0006/live/b8176990-8f4a-11f1-9818-6fa9a4d75fb0.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -138,7 +132,7 @@
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-01T19:01:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/07/25/17850020186a64f82228381_1785002018_3x2_rt.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -175,28 +169,14 @@
       "title": "Uruguai descarta mediação entre Lula e Milei, mas monitora crise",
       "description": "Chanceler uruguaio disse que tensão não contribui com Mercosul e pediu “lógica de Estado” a membros do bloco. Luciana Taddeo, da CNN Brasil,...",
       "url": "https://www.cnnbrasil.com.br/internacional/uruguai-descarta-mediacao-entre-lula-e-milei-mas-monitora-crise/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-04T14:36:58+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_28b51fd0d4b2",
-      "title": "Brasil rebaixa relação com a Argentina depois de Milei chamar Lula de “ladrão” pela 3ª vez",
-      "description": "O Brasil rebaixou, pela primeira vez em décadas, sua relação bilateral com a Argentina. Segundo o ministério das Relações Exteriores do...",
-      "url": "https://www.gazetadopovo.com.br/republica/brasil-rebaixa-relacao-com-a-argentina-depois-de-milei-chamar-lula-de-ladrao-pela-3a-vez/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-08-05T00:04:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_c36b71252ed5",
@@ -207,10 +187,24 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-05T02:10:17+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_02ce707ac1e8",
+      "title": "Milei critica Lula de novo e projeta vitória da direita no Brasil: “Livrar-se da esquerda é sempre bom”",
+      "description": "Foi a quarta vez em dez dias que o presidente argentino, Javier Milei, fez declarações criticando Lula. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/mundo/milei-critica-lula-de-novo-e-projeta-vitoria-da-direita-no-brasil/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-08-04T18:53:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_113c0d8a5db7",
@@ -241,15 +235,15 @@
       "bucket": "left"
     },
     {
-      "id": "article_72bb404016ae",
-      "title": "\"Ladrão\" e \"corrupto\": Milei volta a criticar Lula da Silva",
-      "description": "Milei rejeitou que as declarações façam parte de uma estratégia geopolítica alinhada com Donald Trump e insistiu que apenas \"descreveu...",
-      "url": "https://pt.euronews.com/2026/08/04/ladrao-e-corrupto-milei-volta-a-criticar-lula-da-silva",
+      "id": "article_be71d161c939",
+      "title": "Brasil e Argentina reduzem relações diplomáticas ao nível de encarregado de negócios",
+      "description": "Brasília solicitou a retirada do embaixador da Argentina e reduziu a representação diplomática ao nível de encarregado de negócios,...",
+      "url": "https://pt.euronews.com/2026/08/05/brasil-e-argentina-reduzem-relacoes-diplomaticas-ao-nivel-de-encarregado-de-negocios",
       "source": "Euronews",
       "sourceCanonical": "Euronews",
       "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-08-04T11:47:17+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-08-05T05:18:20+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -273,14 +267,14 @@
       "title": "Governo brasileiro decide rebaixar nível das relações diplomáticas com a Argentina",
       "description": "O governo brasileiro decidiu rebaixar o nível das relações diplomáticas com a Argentina, em meio as ofensas do presidente argentino Javier...",
       "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/governo-brasileiro-decide-rebaixar-nivel-das-relacoes-diplomaticas-com-a-argentina-05082026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-08-05T04:07:58+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e4d7d3f2f846",
@@ -305,7 +299,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-05T02:27:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -328,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.62,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 3,
       "centerLeft": 5,
-      "center": 3,
-      "centerRight": 1,
+      "center": 4,
+      "centerRight": 4,
       "right": 0,
-      "unknown": 8
+      "unknown": 4
     }
   },
   "scores": {
@@ -349,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
