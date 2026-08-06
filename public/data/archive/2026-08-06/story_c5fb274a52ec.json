@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLOFlEZ0VSRWVQWUR1QkZsUUlTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLOFlEZ0VSRWVQWUR1QkZsUUlTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-6"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-6"
     ],
     "seedRanks": {
-      "topic-3": 35
+      "topic-3": 34,
+      "topic-6": 32
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 35,
-    "bestSeedRank": 35,
+    "firstSeenRank": 34,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/Lwj1UrG8KvxdufxkBdDmuBav0Lw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/o/Q/ostLBLTFuSqWREPiDKBQ/fotojet-2026-08-04t114721.466.jpg",
   "publishedAt": "2026-08-04T14:57:43+00:00",
-  "updatedAt": "2026-08-06T09:10:16.860146+00:00",
+  "updatedAt": "2026-08-06T10:10:21.412905+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +85,14 @@
       "title": "Nicolas, lateral do São Paulo, é preso após atropelar e matar homem de 84 anos em Barueri",
       "description": "Jogador de 19 anos chegou a prestar socorro e permaneceu no local até a chegada do resgate; B.O. cita 'alta velocidade' e clube diz que foi...",
       "url": "https://www.estadao.com.br/esportes/futebol/nicolas-lateral-do-sao-paulo-e-preso-apos-atropelar-e-matar-homem-de-84-anos-em-barueri/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-04T18:44:18+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/JP3S4BZV25F2DPVISCO6BZXHGQ.jpg?quality=80&auth=14206bed83d9504c0977c5b14dfa9a87f1861e9697feb8384b1f77d3c5274076&width=1200&height=630&focal=473,455",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0f841e7a4152",
@@ -129,23 +132,9 @@
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-08-05T12:11:35+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/DCPTY4MB6RBVXBYTMCHS5ISGFY.jpg?smart=true&auth=1538937daf7dbf702d2e660c7164fb06e08dc8c1f5a279757be62315b7d84d90&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_3ea2daaaff98",
-      "title": "Nicolas, do São Paulo, responderá em liberdade por acidente",
-      "description": "Nicolas Bosshardt responderá em liberdade após se envolver em um acidente de carro que resultou na morte de um idoso. Veja detalhes.",
-      "url": "https://www.lance.com.br/sao-paulo/nicolas-do-sao-paulo-respondera-em-liberdade-por-acidente.html",
-      "source": "LANCE!",
-      "sourceCanonical": "LANCE!",
-      "sourceDomain": "lance.com.br",
-      "publishedAt": "2026-08-04T15:57:56+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_52c0ed2f605a",
@@ -160,6 +149,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_3ea2daaaff98",
+      "title": "Nicolas, do São Paulo, responderá em liberdade por acidente",
+      "description": "Nicolas Bosshardt responderá em liberdade após se envolver em um acidente de carro que resultou na morte de um idoso. Veja detalhes.",
+      "url": "https://www.lance.com.br/sao-paulo/nicolas-do-sao-paulo-respondera-em-liberdade-por-acidente.html",
+      "source": "lance.com.br",
+      "sourceCanonical": "lance.com.br",
+      "sourceDomain": "lance.com.br",
+      "publishedAt": "2026-08-04T15:57:56+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c78c1bc8d0f7",
@@ -264,8 +267,8 @@
       "title": "Barueri: Idoso de 84 anos morre após ser atropelado por BMW em Alphaville",
       "description": "Um idoso de 84 anos morreu por volta das 21h50 desta segunda-feira, 3, após ser atropelado na Alameda Rio Negro, em frente ao Shopping Iguatemi,...",
       "url": "https://www.portalviva.com.br/noticia/alphaville-idoso-de-84-anos-morre-ap%C3%B3s-ser-atropelado-por-bmw-na-alameda-rio-negro",
-      "source": "portalviva.com.br",
-      "sourceCanonical": "portalviva.com.br",
+      "source": "Portal Viva Cotia",
+      "sourceCanonical": "Portal Viva Cotia",
       "sourceDomain": "portalviva.com.br",
       "publishedAt": "2026-08-04T23:53:39+00:00",
       "postedLabel": "ontem",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 5,
     "max": 9,
-    "average": 5.73,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.64,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 11,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -339,6 +342,7 @@
   },
   "flags": [
     "Alta cobertura",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
