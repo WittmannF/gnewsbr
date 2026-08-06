@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 37
+      "topic-7": 40
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/VwkQRN1SlrDaVcAEgR89OYnJF7k=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/I/M/hwvfVrRdyO0qAytGffUw/design-sem-nome-2-.png",
   "publishedAt": "2026-08-05T07:49:38+00:00",
-  "updatedAt": "2026-08-06T00:59:43.947371+00:00",
+  "updatedAt": "2026-08-06T02:03:01.359675+00:00",
   "sourceCount": 15,
   "articleCount": 15,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "O erro da Starbucks que virou caso de polícia",
       "description": "Promoção lançada na Coreia do Sul em uma data histórica desencadeou boicotes, derrubou vendas e provocou a demissão do presidente da rede no...",
       "url": "https://veja.abril.com.br/economia/o-erro-da-starbucks-que-virou-caso-de-policia/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-05T11:20:11+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2016/06/starbucks-apos-mercado-asiatico-rede-vai-focar-expansao-em-paises-da-america-latina-original.jpeg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_40a6d88fbe48",
@@ -120,20 +120,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_fe131dcc94e7",
-      "title": "O anúncio da Starbucks que fez empresa virar alvo de investigação na Coreia do Sul",
-      "description": "A polícia sul-coreana realizou buscas nesta quarta-feira (5) nos escritórios da Starbucks, informou à AFP a operadora local da rede de...",
-      "url": "https://revistaforum.com.br/global/anuncio-starbucks-investigacao-coreia-do-sul/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-08-05T14:32:09+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_e67cd7274418",
       "title": "Starbucks é investigada por anúncio polêmico na Coreia do Sul",
       "description": "Rede de cafeterias é acusada de banalizar, em campanha, morte de ativistas em protestos pró-democracia na década de 1980.",
@@ -146,6 +132,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_fe131dcc94e7",
+      "title": "O anúncio da Starbucks que fez empresa virar alvo de investigação na Coreia do Sul",
+      "description": "A polícia sul-coreana realizou buscas nesta quarta-feira (5) nos escritórios da Starbucks, informou à AFP a operadora local da rede de...",
+      "url": "https://revistaforum.com.br/global/anuncio-starbucks-investigacao-coreia-do-sul/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-08-05T14:32:09+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_f10ceb7e82c2",
@@ -222,8 +222,8 @@
       "title": "Starbucks é alvo de operação policial na Coreia do Sul após campanha polêmica; entenda",
       "description": "A polícia da Coreia do Sul realizou, nesta quarta-feira (5), buscas nos escritórios da Starbucks Korea como parte da investigação sobre uma...",
       "url": "https://juruaonline.com.br/starbucks-e-alvo-de-operacao-policial-na-coreia-do-sul-apos-campanha-polemica-entenda/",
-      "source": "Juruá Online",
-      "sourceCanonical": "Juruá Online",
+      "source": "juruaonline.com.br",
+      "sourceCanonical": "juruaonline.com.br",
       "sourceDomain": "juruaonline.com.br",
       "publishedAt": "2026-08-05T13:58:41+00:00",
       "postedLabel": "hoje",
@@ -248,27 +248,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.62,
-    "knownCount": 8,
-    "unknownCount": 7,
+    "max": 7,
+    "average": 4.89,
+    "knownCount": 9,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
