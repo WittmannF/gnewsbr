@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 41
+      "topic-8": 50
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 41,
-    "bestSeedRank": 41,
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/TZeyutm04lmFM7LkCxpMLO_uYUU=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/E/5OEo2NTzCYixqU3LIDvg/moradia-vl.-leopoldina.jpeg",
   "publishedAt": "2026-08-03T17:03:00+00:00",
-  "updatedAt": "2026-08-06T07:19:51.721969+00:00",
+  "updatedAt": "2026-08-06T08:18:20.151623+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Airbnb vai remover 1.600 hospedagens de unidades habitacionais em SP",
       "description": "Medida para retirar anúncios atende solicitação da prefeitura para imóveis de Interesse Social e Mercado Popular a partir de agosto.",
       "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/airbnb-vai-remover-1-600-hospedagens-de-unidades-habitacionais-em-sp/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-04T00:34:24+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/05/KHQJDLUJWVNMPPQ4FX7DYOXQHE-1024x536-1.jpg?w=1024&h=536&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_cc16073636e4",
@@ -96,14 +96,14 @@
       "title": "Airbnb anuncia início da remoção de imóveis HIS da plataforma em São Paulo",
       "description": "Internacional. Trump afirma que EUA e Irã estão em negociações e faz novo ultimato ao regime iraniano. Saiba tudo · trump afirma que eua e ira estao em...",
       "url": "https://www.estadao.com.br/em-alta/economia/negocios/airbnb-anuncia-inicio-da-remocao-de-imoveis-his-da-plataforma-em-sao-paulo/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-03T17:36:07+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/2SQZXELGUBBSLEDEMAEM2L2NZQ.jpg?quality=80&auth=dc87b102baa38277a23eb87315f15ad330f231808d55a830fe205da74dcc76e5&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_d52c0bf196d4",
@@ -222,8 +222,8 @@
       "title": "Airbnb começa a remover 1.600 anúncios de habitações populares em SP",
       "description": "O Airbnb começou a retirar acomodações identificadas pela Prefeitura como unidades destinadas à habitação popular.",
       "url": "https://investnews.com.br/negocios/airbnb-remover-anuncios-prefeitura-sp/",
-      "source": "investnews.com.br",
-      "sourceCanonical": "investnews.com.br",
+      "source": "InvestNews",
+      "sourceCanonical": "InvestNews",
       "sourceDomain": "investnews.com.br",
       "publishedAt": "2026-08-04T17:04:30+00:00",
       "postedLabel": "ontem",
@@ -292,8 +292,8 @@
       "title": "Airbnb começa a excluir 1,6 mil anúncios de imóveis destinados à habitação popular em SP",
       "description": "Medida atende às regras municipais que restringem o aluguel por temporada de unidades construídas para famílias de baixa renda.",
       "url": "https://spdiario.com.br/noticias/noticias-de-sp/airbnb-comeca-a-excluir-16-mil-anuncios-de-imoveis-destinados-a-habitacao-popular-em-sp.html",
-      "source": "spdiario.com.br",
-      "sourceCanonical": "spdiario.com.br",
+      "source": "Diário de São Paulo",
+      "sourceCanonical": "Diário de São Paulo",
       "sourceDomain": "spdiario.com.br",
       "publishedAt": "2026-08-03T18:54:19+00:00",
       "postedLabel": "2 dias atrás",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.33,
+    "max": 7,
+    "average": 4.67,
     "knownCount": 6,
     "unknownCount": 14,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 4,
-      "centerRight": 0,
+      "center": 3,
+      "centerRight": 1,
       "right": 0,
       "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 93
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 24
+      "topic-7": 23
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/OC4TN23PLJFIDK6H4EYGR6ZKTA.jpg?smart=true&auth=dbeb82eaec2038b80fb61b2fbba4fa013018a8fb2652e1ed06307ac42f54a2e7&width=1200&height=630",
   "publishedAt": "2026-08-02T11:24:03+00:00",
-  "updatedAt": "2026-08-06T07:16:47.480357+00:00",
+  "updatedAt": "2026-08-06T08:14:30.880326+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Cuba restabelece energia dois dias após apagão nacional",
       "description": "São Paulo. Greve da CPTM entra no segundo dia em São Paulo; saiba como estão as linhas afetadas. Saiba tudo · greve da cptm entra no segundo dia em sao...",
       "url": "https://www.estadao.com.br/em-alta/internacional/cuba-restabelece-energia-dois-dias-apos-apagao-nacional-npr/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-04T20:10:48+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_31e1892671a7",
@@ -138,14 +138,14 @@
       "title": "ONU articula envio de combustível para Cuba em meio a apagões",
       "description": "País caribenho enfrenta crise energética há anos, que se agravou com bloqueio dos Estados Unidos.",
       "url": "https://www.cnnbrasil.com.br/internacional/onu-articula-envio-de-combustivel-para-cuba-em-meio-a-apagoes/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-04T19:47:51+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4b5594d567b0",
@@ -288,20 +288,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_bac618f50b59",
-      "title": "Cuba restaura eletricidade após apagão nacional, mas cortes persistem",
-      "description": "Cuba atribui o grave estado de sua rede elétrica às medidas punitivas de Washington. Apagões fazem parte da rotina dos cubanos,...",
-      "url": "https://iclnoticias.com.br/cuba-restaura-eletricidade-cortes-persistem/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-08-03T22:55:23+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_1d8d3bd4c106",
       "title": "Rede elétrica de Cuba entra em colapso e deixa milhões sem luz",
       "description": "A rede elétrica nacional de Cuba entrou em colapso no fim da noite deste domingo (2). O incidente deixou no escuro a ilha que possui cerca...",
@@ -314,19 +300,33 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_bac618f50b59",
+      "title": "Cuba restaura eletricidade após apagão nacional, mas cortes persistem",
+      "description": "Cuba atribui o grave estado de sua rede elétrica às medidas punitivas de Washington. Apagões fazem parte da rotina dos cubanos,...",
+      "url": "https://iclnoticias.com.br/cuba-restaura-eletricidade-cortes-persistem/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-08-03T22:55:23+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.18,
+    "average": 5.36,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 5,
-      "centerRight": 2,
+      "center": 4,
+      "centerRight": 3,
       "right": 1,
       "unknown": 9
     }
