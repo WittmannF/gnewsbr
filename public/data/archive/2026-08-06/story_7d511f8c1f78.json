@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/HeMQqdBF9VnUh2KfN295p-98vgo=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/e/x/9FTE4BTVyDmWheBfMl7A/image-49-.png",
   "publishedAt": "2026-07-30T05:35:00+00:00",
-  "updatedAt": "2026-08-06T05:32:19.576182+00:00",
+  "updatedAt": "2026-08-06T07:21:11.284657+00:00",
   "sourceCount": 13,
   "articleCount": 14,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-08-05T07:01:27+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-oglobo.glbimg.com/HeMQqdBF9VnUh2KfN295p-98vgo=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/e/x/9FTE4BTVyDmWheBfMl7A/image-49-.png",
       "spectrumScore": 6,
       "bucket": "center"
@@ -54,14 +54,14 @@
       "title": "'Cachoeiras de sangue' abrigam descendentes de antigos seres marinhos",
       "description": "Um novo estudo publicado na revista \"Nature Geoscience\" revelou que as águas avermelhadas das \"cachoeiras de sangue\", na Antártida,...",
       "url": "https://noticias.uol.com.br/meio-ambiente/ultimas-noticias/redacao/2026/08/04/cachoeiras-de-sangue-abrigam-descendentes-de-antigos-seres-marinhos.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-04T16:56:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_793362f3996a",
@@ -166,14 +166,14 @@
       "title": "Cientistas unem bacias antes isoladas e encontram sob a Antártida uma estrutura em leque de escala continental",
       "description": "A Antártida esconde sob 3 km de gelo um leque de bacias ligado à ruptura de Gondwana. Entenda o mapa tectônico escondido perto do Polo Sul.",
       "url": "https://revistaoeste.com/oestegeral/2026/07/30/cientistas-unem-bacias-antes-isoladas-e-encontram-sob-a-antartida-uma-estrutura-em-leque-de-escala-continental/",
-      "source": "revistaoeste.com",
-      "sourceCanonical": "revistaoeste.com",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-07-30T05:35:00+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "postedLabel": "7 dias atrás",
+      "imageUrl": "https://revistaoeste.com/oestegeral/wp-content/uploads/2026/07/Antarctic_ice_reveals_hidden_fan_202607081940.jpg",
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_7da87d318b13",
@@ -194,8 +194,8 @@
       "title": "Mistério das Cataratas de Sangue da Antártida ganha nova explicação",
       "description": "Estudo publicado na revista Nature Geoscience revela que microrganismos descendentes de antigas criaturas marinhas vivem na salmoura sob a...",
       "url": "https://aventurasnahistoria.com.br/noticias/historia-hoje/misterio-das-cataratas-de-sangue-da-antartida-ganha-nova-explicacao.phtml",
-      "source": "aventurasnahistoria.com.br",
-      "sourceCanonical": "aventurasnahistoria.com.br",
+      "source": "Aventuras na História",
+      "sourceCanonical": "Aventuras na História",
       "sourceDomain": "aventurasnahistoria.com.br",
       "publishedAt": "2026-08-04T17:14:26+00:00",
       "postedLabel": "ontem",
@@ -234,27 +234,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.5,
+    "max": 10,
+    "average": 5.33,
     "knownCount": 6,
     "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 4,
+      "center": 3,
       "centerRight": 0,
-      "right": 0,
+      "right": 1,
       "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 91
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
