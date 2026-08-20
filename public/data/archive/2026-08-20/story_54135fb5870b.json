@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 15
+      "topic-2": 14
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 15,
-    "bestSeedRank": 15,
+    "firstSeenRank": 14,
+    "bestSeedRank": 14,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +27,11 @@
     "risco",
     "pode",
     "estudo",
-    "cardíaco"
+    "imc"
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/07/2025/02/18/barriga-de-chope-gordura-visceral-sobrepeso-1739900335400_v2_615x300.jpg",
   "publishedAt": "2026-08-12T07:00:00+00:00",
-  "updatedAt": "2026-08-20T18:18:55.261858+00:00",
+  "updatedAt": "2026-08-20T19:21:48.398152+00:00",
   "sourceCount": 12,
   "articleCount": 12,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-20T15:46:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/20/i-yunmai-5jctamjz21a-unsplash-1iauulnzgwbxg.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -76,6 +76,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c5f737bc707c",
+      "title": "IMC normal pode esconder riscos cardiovasculares, diz estudo",
+      "description": "Estudo com mais de 260 mil pessoas indica que gordura abdominal pode revelar risco cardiovascular que o IMC sozinho não detecta.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/imc-normal-pode-esconder-riscos-cardiovasculares-diz-estudo/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-08-12T14:39:09+00:00",
+      "postedLabel": "8 dias atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/gettyimages-1098081374.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_534cdbee64ba",
@@ -104,20 +118,6 @@
       "imageUrl": "https://s2-g1.glbimg.com/T1lgil4RVIELm1yfuExYFfQ5iAA=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/n/i/YvkKXhT1m4bLmBHFKLNw/agingmeetingjejum.jpg",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_679046681c4a",
-      "title": "Gordura abdominal: entenda os riscos e como adotar hábitos saudáveis para o controle",
-      "description": "Entenda por que a gordura abdominal exige atenção médica e como mudanças na rotina de sono, alimentação e exercícios ajudam no controle do...",
-      "url": "https://fatopaulista.com.br/gordura-abdominal-riscos-saude-habitos/",
-      "source": "Fato Paulista",
-      "sourceCanonical": "Fato Paulista",
-      "sourceDomain": "fatopaulista.com.br",
-      "publishedAt": "2026-08-12T13:34:12+00:00",
-      "postedLabel": "8 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_56046da4deac",
@@ -157,7 +157,7 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-12T19:38:34+00:00",
       "postedLabel": "7 dias atrás",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/GettyImages-1470776953.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -205,28 +205,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.2,
-    "knownCount": 5,
-    "unknownCount": 7,
+    "average": 4.67,
+    "knownCount": 6,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 3,
       "centerRight": 1,
       "right": 0,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
-    "confidence": 84
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
