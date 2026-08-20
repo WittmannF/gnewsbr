@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/F2YTHzZ4CRIetgnUmmUxeZ8gjvg=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/b/kAVxF7SgqW8A0ARWgpQg/original.webp",
   "publishedAt": "2026-08-19T15:00:13+00:00",
-  "updatedAt": "2026-08-20T02:04:40.455603+00:00",
+  "updatedAt": "2026-08-20T02:50:14.980695+00:00",
   "sourceCount": 10,
   "articleCount": 10,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "S301: A estrela mais rápida da Via Láctea que orbita um buraco negro supermassivo",
       "description": "A Via Láctea, galáxia em que reside o Sistema Solar e dentro dele a Terra, tem em seu centro um buraco negro super massivo,...",
       "url": "https://veja.abril.com.br/ciencia/s301-a-estrela-mais-rapida-da-via-lactea-que-orbita-um-buraco-negro-supermassivo/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-19T22:01:01+00:00",
       "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/eso0949l.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_faa13bf29db8",
@@ -100,8 +100,8 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-08-19T20:09:26+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/imagem-principal-estrela-s301-rotacao-buraco-negro-via-lactea-original.jpg",
+      "postedLabel": "hoje",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -124,14 +124,14 @@
       "title": "Astrônomos descobrem estrela mais 'rápida' conhecida na Via Láctea",
       "description": "Batizada de S301, ela atinge 25 mil km/s ao orbitar o buraco negro Sagitário A* no centro da nossa galáxia.",
       "url": "https://www.cnnbrasil.com.br/ciencia/astronomos-descobrem-estrela-mais-rapida-ja-conhecida-na-via-lactea/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-19T15:00:15+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6d78cbc0e8af",
@@ -178,27 +178,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 5,
-    "average": 3.5,
-    "knownCount": 4,
-    "unknownCount": 6,
+    "max": 7,
+    "average": 4.33,
+    "knownCount": 6,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 1,
-      "centerRight": 0,
+      "center": 2,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 6
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
-    "confidence": 77
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
+    "confidence": 83
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

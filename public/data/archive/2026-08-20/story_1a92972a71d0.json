@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lHOFlQckVSRkkydUwzenlsaDVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lHOFlQckVSRkkydUwzenlsaDVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-5": 49
+      "topic-5": 51,
+      "topic-8": 15
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 49,
-    "bestSeedRank": 49,
+    "firstSeenRank": 51,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "vacina",
     "câncer",
     "moderna",
-    "ações",
     "pele",
-    "ação"
+    "ações",
+    "melanoma"
   ],
-  "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/2026-08-04T150024Z_1783274554_RC2LCR9UK8N7_RTRMADP_3_MODERNA-STUDY-EBOLA.jpg",
+  "imageUrl": "https://www.estadao.com.br/resizer/v2/MP2DF4UTDNIAJPOJDC6KO4PLMI.jpg?quality=80&auth=d60bc6fce84453dd541d6d22bf3f0a889f73d87c4f5844eb942e204bea73ac4f&width=1200&height=630&smart=true",
   "publishedAt": "2026-08-19T12:43:48+00:00",
-  "updatedAt": "2026-08-20T01:54:22.347829+00:00",
+  "updatedAt": "2026-08-20T02:41:54.092410+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +57,14 @@
       "title": "Ação da Moderna sobe mais de 175% em NY após anúncio de vacina contra o câncer",
       "description": "A farmacêutica americana Moderna (MRNA) anunciou que a fase final do estudo de sua vacina contra o câncer foi bem sucedida, o que levou as...",
       "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/acao-da-moderna-sobe-mais-de-150-em-ny-apos-anuncio-de-vacina-contra-o-cancer/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-19T14:37:18+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/MP2DF4UTDNIAJPOJDC6KO4PLMI.jpg?quality=80&auth=d60bc6fce84453dd541d6d22bf3f0a889f73d87c4f5844eb942e204bea73ac4f&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e3e840e48094",
@@ -76,20 +79,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_0e615f4cae02",
-      "title": "Moderna dispara 90% após sucesso histórico de tratamento de câncer com mRNA",
-      "description": "As ações da Moderna Inc (NASDAQ:MRNA) dispararam mais de 90% nas negociações pré-mercado de quarta-feira, após a empresa de biotecnologia e...",
-      "url": "https://br.advfn.com/jornal/2026/08/moderna-dispara-sucesso-tratamento-cancer-mrna-fase-3",
-      "source": "ADVFN",
-      "sourceCanonical": "ADVFN",
-      "sourceDomain": "br.advfn.com",
-      "publishedAt": "2026-08-19T16:24:55+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_10f85703dbd7",
@@ -120,6 +109,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_f6f443b5df2e",
+      "title": "Vacina inédita de RNA apresenta resultados promissores em pacientes com câncer de pele agressivo",
+      "description": "Uma vacina experimental personalizada contra o câncer desenvolvida pelas farmacêuticas Merck e Moderna apresentou resultados positivos em um...",
+      "url": "https://veja.abril.com.br/saude/vacina-contra-cancer-da-merck-e-da-moderna-aumenta-sobrevida-livre-de-melanoma-segundo-dados-preliminares/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-08-19T14:37:09+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2023/06/vacina-moderna.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_ef91b286ffb2",
       "title": "Ações da Moderna sobem 150% após vacina contra melanoma, em parceria com a Merck",
       "description": "Os resultados preliminares do estudo em andamento mostraram que o tratamento com Intismeran atingiu tanto seu objetivo principal de reduzir...",
@@ -134,20 +137,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_8b4bf1d19f80",
-      "title": "Avanço em vacina para o câncer faz ação da Moderna saltar mais de 100% nos EUA e no Brasil",
-      "description": "Papéis do laboratório também podem ser comprados de maneira indireta na bolsa brasileira, por meio das chamadas BDRs.",
-      "url": "https://veja.abril.com.br/economia/avanco-em-vacina-para-o-cancer-faz-acoes-da-moderna-dispararem-na-nasdaq/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-08-19T15:13:50+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_7d4af8249545",
       "title": "Moderna e Merck anunciam resultados positivos de vacina contra o câncer de pele",
       "description": "Vacina de mRNA contra câncer de pele é feita sob medida para cada paciente e aplicada com imunoterapia. Leia na Gazeta do Povo.",
@@ -156,38 +145,52 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-19T20:58:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/19175725/melanoma-cancer-de-pele.jpg",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_3b4a850b340f",
-      "title": "Moderna apresenta vacina contra câncer de pele e ações disparam 120%",
-      "description": "Nesta quarta-feira (19), a Moderna (M1RN34) divulgou os resultados de uma vacina experimental contra o câncer de pele. O fármaco apresentou...",
-      "url": "https://investidor10.com.br/noticias/moderna-apresenta-vacina-contra-cancer-de-pele-e-acoes-disparam-120-122152/",
-      "source": "Investidor10",
-      "sourceCanonical": "Investidor10",
-      "sourceDomain": "investidor10.com.br",
-      "publishedAt": "2026-08-19T15:48:50+00:00",
+      "id": "article_0e615f4cae02",
+      "title": "Moderna dispara 90% após sucesso histórico de tratamento de câncer com mRNA",
+      "description": "As ações da Moderna Inc (NASDAQ:MRNA) dispararam mais de 90% nas negociações pré-mercado de quarta-feira, após a empresa de biotecnologia e...",
+      "url": "https://br.advfn.com/jornal/2026/08/moderna-dispara-sucesso-tratamento-cancer-mrna-fase-3",
+      "source": "ADVFN",
+      "sourceCanonical": "ADVFN",
+      "sourceDomain": "br.advfn.com",
+      "publishedAt": "2026-08-19T16:24:55+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_33ca3ffb85ab",
-      "title": "Vacina experimental reduz risco de câncer de pele voltar",
-      "description": "Uma vacina experimental personalizada está mostrando potencial para reduzir o risco de retorno do melanoma após a cirurgia. Os dados...",
-      "url": "https://noticias.r7.com/record-news/news-das-19h/video/vacina-experimental-reduz-risco-de-cancer-de-pele-voltar-19082026/",
+      "id": "article_955006ec3de1",
+      "title": "Vacina experimental diminui risco de recaída do câncer de pele",
+      "description": "Tratamento será feito com fragmento específico do tumor de cada paciente, ou seja, personalizado para cada indivíduo, explica Fábio Franke.",
+      "url": "https://noticias.r7.com/saude/vacina-experimental-diminui-risco-de-recaida-do-cancer-de-pele-19082026/",
       "source": "R7",
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-08-19T23:15:53+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F08-19-2026%2Ft_31fa20d598c147d481e90bd66d8dc2d8_name_file_960x540_1600_v4_.jpg?smart=true&auth=af642dc339ecec2acd07c0f4ddba98f15592398a4cee04bde331e9207adfe24e&width=1200&height=630",
+      "publishedAt": "2026-08-19T23:25:20+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_3fcb56fac8d5",
+      "title": "Vacina experimental contra câncer: farmacêuticas citam resultado promissor, mas não detalham dados",
+      "description": "Merck e Moderna fazem comunicado à imprensa sobre testes com candidato a imunizante contra o melanoma, mas trabalho não foi publicado em...",
+      "url": "https://www.terra.com.br/byte/ciencia/vacina-experimental-contra-cancer-farmaceuticas-citam-resultado-promissor-mas-nao-detalham-dados,147d6b7e6312bb8c80ebbfe253251bec7lrjyf90.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-19T18:19:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6ed1cac7835c",
@@ -204,14 +207,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_3fcb56fac8d5",
-      "title": "Vacina experimental contra câncer: farmacêuticas citam resultado promissor, mas não detalham dados",
-      "description": "Merck e Moderna fazem comunicado à imprensa sobre testes com candidato a imunizante contra o melanoma, mas trabalho não foi publicado em...",
-      "url": "https://www.terra.com.br/byte/ciencia/vacina-experimental-contra-cancer-farmaceuticas-citam-resultado-promissor-mas-nao-detalham-dados,147d6b7e6312bb8c80ebbfe253251bec7lrjyf90.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-19T18:19:00+00:00",
+      "id": "article_3b4a850b340f",
+      "title": "Moderna apresenta vacina contra câncer de pele e ações disparam 120%",
+      "description": "Nesta quarta-feira (19), a Moderna (M1RN34) divulgou os resultados de uma vacina experimental contra o câncer de pele. O fármaco apresentou...",
+      "url": "https://investidor10.com.br/noticias/moderna-apresenta-vacina-contra-cancer-de-pele-e-acoes-disparam-120-122152/",
+      "source": "Investidor10",
+      "sourceCanonical": "Investidor10",
+      "sourceDomain": "investidor10.com.br",
+      "publishedAt": "2026-08-19T15:48:50+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -226,7 +229,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-08-19T23:13:12+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,7 +257,7 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-08-19T21:26:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -268,7 +271,7 @@
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-08-19T22:00:02+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -278,14 +281,14 @@
       "title": "Como foi desenvolvida a vacina contra o câncer da Moderna e da Merck, que apresentou resultados positivos — e animou o mercado financeiro",
       "description": "Tecnologia utilizada na vacina contra o câncer é a mesma utilizada durante a pandemia de Covid-19, mas há diferenças.",
       "url": "https://www.seudinheiro.com/2026/economia/vacina-contra-cancer-moderna-merck-mercado-financeiro-mlem/",
-      "source": "Seu Dinheiro",
-      "sourceCanonical": "Seu Dinheiro",
+      "source": "seudinheiro.com",
+      "sourceCanonical": "seudinheiro.com",
       "sourceDomain": "seudinheiro.com",
       "publishedAt": "2026-08-19T17:49:40+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_eaf9ca8af705",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.82,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.92,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 2,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 9
+      "unknown": 7
     }
   },
   "scores": {
