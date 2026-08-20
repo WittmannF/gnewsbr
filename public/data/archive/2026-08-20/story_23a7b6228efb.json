@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3M2JIckVSRm5NWWxpcjJkTS15Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3M2JIckVSRm5NWWxpcjJkTS15Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Explosão atinge edifício residencial na Zona Sul do Rio",
+  "title": "Prédio residencial sofre explosão em Copacabana",
   "summary": "O Corpo de Bombeiros foi acionado no fim da tarde desta quarta-feira para uma ocorrência de explosão em uma edificação residencial na Rua Sá...",
   "topic": "Explosão · Prédio",
   "topicKeywords": [
@@ -31,8 +37,8 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/MscdKIyd3_ET5kgEeyGXaxW7Ecg=/5184x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/J/Z/4bBvyhR3SODATlRs4cmw/115969962.jpg",
   "publishedAt": "2026-08-19T20:42:00+00:00",
-  "updatedAt": "2026-08-20T06:28:43.130869+00:00",
-  "sourceCount": 16,
+  "updatedAt": "2026-08-20T07:26:52.298660+00:00",
+  "sourceCount": 17,
   "articleCount": 20,
   "articles": [
     {
@@ -86,7 +92,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-08-20T02:15:29+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://img.band.com.br/image/2026/08/19/explosao-em-predio-deixa-feridos-e-interdita-imoveis-em-copacabana-rj-224154.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -148,6 +154,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_ce29857aa241",
+      "title": "Explosão em prédio de Copacabana deixa quatro feridos",
+      "description": "Defesa Civil interditou parte da garagem e dois apartamentos após avaliar a estrutura do edifício, que não corre risco de desabar.",
+      "url": "https://jornaldebrasilia.com.br/noticias/brasil/explosao-em-predio-de-copacabana-deixa-quatro-feridos/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-08-20T01:59:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_0f6a703036fd",
       "title": "Explosão em prédio residencial de Copacabana deixa feridos",
       "description": "Detonação atingiu garagem no subsolo e dois apartamentos do segundo andar; moradores foram retirados do edifício por segurança.",
@@ -162,29 +182,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_ce29857aa241",
-      "title": "Explosão em prédio de Copacabana deixa quatro feridos",
-      "description": "Defesa Civil interditou parte da garagem e dois apartamentos após avaliar a estrutura do edifício, que não corre risco de desabar.",
-      "url": "https://jornaldebrasilia.com.br/noticias/brasil/explosao-em-predio-de-copacabana-deixa-quatro-feridos/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-08-20T01:59:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_bb45e1e94e06",
+      "title": "Explosão em prédio residencial deixa quatro feridos no Rio; veja vídeos",
+      "description": "Corpo de Bombeiros foi acionado para o local e realizaram a evacuação do edifício, que possui 13 pavimentos, além de um subsolo.",
+      "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/explosao-em-predio-residencial-deixa-quatro-feridos-no-rio-veja-videos/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-19T22:39:28+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_bb45e1e94e06",
-      "title": "Explosão em prédio residencial deixa quatro feridos no Rio; veja vídeos",
-      "description": "Corpo de Bombeiros foi acionado para o local e realizaram a evacuação do edifício, que possui 13 pavimentos, além de um subsolo.",
-      "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/explosao-em-predio-residencial-deixa-quatro-feridos-no-rio-veja-videos/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-19T22:39:28+00:00",
-      "postedLabel": "hoje",
+      "id": "article_639ea2c1dfe5",
+      "title": "Explosão em prédio de Copacabana deixa quatro feridos; dois apartamentos são interditados",
+      "description": "Bombeiros retiraram cerca de 150 apartamentos do edifício na Rua Sá Ferreira; Defesa Civil descartou risco de desabamento.",
+      "url": "https://oreporter.com/rio/explosao-predio-copacabana-quatro-feridos",
+      "source": "oreporter.com",
+      "sourceCanonical": "oreporter.com",
+      "sourceDomain": "oreporter.com",
+      "publishedAt": "2026-08-20T06:57:53+00:00",
+      "postedLabel": "28 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -212,7 +232,7 @@
       "sourceCanonical": "Fato Paulista",
       "sourceDomain": "fatopaulista.com.br",
       "publishedAt": "2026-08-20T04:59:23+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +246,7 @@
       "sourceCanonical": "Portal Bueno",
       "sourceDomain": "portalbueno.com.br",
       "publishedAt": "2026-08-20T05:06:12+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -236,8 +256,8 @@
       "title": "Explosão em prédio de Copacabana deixa quatro feridos",
       "description": "Uma explosão em um prédio residencial no bairro de Copacabana, na Zona Sul do Rio, deixou quatro pessoas feridas nesta quarta-feira, 19.",
       "url": "https://atribunarj.com.br/materia/explosao-em-predio-de-copacabana-deixa-quatro-feridos",
-      "source": "atribunarj.com.br",
-      "sourceCanonical": "atribunarj.com.br",
+      "source": "A Tribuna RJ",
+      "sourceCanonical": "A Tribuna RJ",
       "sourceDomain": "atribunarj.com.br",
       "publishedAt": "2026-08-19T23:19:00+00:00",
       "postedLabel": "hoje",
@@ -296,20 +316,6 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-19T20:47:55+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_042fa9bc32d7",
-      "title": "Explosão em prédio residencial deixa quatro feridos e interdita rua em Copacabana, no Rio",
-      "description": "Segundo os bombeiros, duas vítimas foram levadas para o Hospital Municipal Miguel Couto; prédio de 13 andares está sendo evacuado.",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/video/explosao-em-predio-residencial-deixa-quatro-feridos-e-interdita-rua-em-copacabana-no-rio-14883835.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-08-19T21:00:57+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,

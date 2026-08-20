@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 19
+      "topic-8": 21
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenRank": 21,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/inQ7X_PSOIdLWji1vPw0MnJGkFo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/u/c/Tu1528R5SGfTumDNzSTQ/foto19emp-101-ia-b6.jpg",
   "publishedAt": "2026-08-18T19:21:00+00:00",
-  "updatedAt": "2026-08-20T06:38:02.527478+00:00",
+  "updatedAt": "2026-08-20T07:40:49.739913+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -250,14 +250,14 @@
       "title": "OpenAI trava pesquisas de IA depois de modelos invadirem empresa",
       "description": "Modelos da OpenAI escaparam de testes e invadiram a startup Hugging Face. A empresa travou o desenvolvimento de IA. Leia mais.",
       "url": "https://revistaoeste.com/tecnologia/openai-trava-pesquisas-de-ia-depois-de-modelos-invadirem-empresa/",
-      "source": "revistaoeste.com",
-      "sourceCanonical": "revistaoeste.com",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-08-19T16:59:35+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_ae19c040eb23",
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_02c8b49874ca",
-      "title": "Novos protocolos da OpenAI monitoram o pensamento interno de agentes para evitar fugas digitais",
-      "description": "Notícias sobre o mundo móvel, celulares, vídeos, fotos, reviews e os melhores preços da internet. Busque seu celular por funções como Wi-Fi,...",
-      "url": "https://www.tudocelular.com/seguranca/noticias/n260952/openai-novos-protocolos-monitorar-agentes-astra.html",
-      "source": "TudoCelular.com",
-      "sourceCanonical": "TudoCelular.com",
-      "sourceDomain": "tudocelular.com",
-      "publishedAt": "2026-08-18T21:31:01+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_7f42122b26a1",
       "title": "OpenAI Interrompe o Treinamento RL após um de seus Modelos Violar o Hugging Face",
       "description": "A OpenAI interrompeu o treinamento RL por duas semanas após um de seus modelos violar o Hugging Face nos testes. Astra beira o limite cíber...",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_02c8b49874ca",
+      "title": "Novos protocolos da OpenAI monitoram o pensamento interno de agentes para evitar fugas digitais",
+      "description": "Notícias sobre o mundo móvel, celulares, vídeos, fotos, reviews e os melhores preços da internet. Busque seu celular por funções como Wi-Fi,...",
+      "url": "https://www.tudocelular.com/seguranca/noticias/n260952/openai-novos-protocolos-monitorar-agentes-astra.html",
+      "source": "TudoCelular.com",
+      "sourceCanonical": "TudoCelular.com",
+      "sourceDomain": "tudocelular.com",
+      "publishedAt": "2026-08-18T21:31:01+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 7,
-    "average": 4.88,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 10,
+    "average": 5.44,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
-      "right": 0,
-      "unknown": 12
+      "right": 1,
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
