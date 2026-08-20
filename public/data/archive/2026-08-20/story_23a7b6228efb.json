@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3M2JIckVSRm5NWWxpcjJkTS15Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3M2JIckVSRm5NWWxpcjJkTS15Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-5": 3
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "home",
+    "firstSeenSeedPage": "topic-5",
     "firstSeenRank": 4,
-    "bestSeedRank": 3,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "bestSeedRank": 4,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Explosão atinge edifício residencial na Zona Sul do Rio",
   "summary": "O Corpo de Bombeiros foi acionado no fim da tarde desta quarta-feira para uma ocorrência de explosão em uma edificação residencial na Rua Sá...",
@@ -37,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/MscdKIyd3_ET5kgEeyGXaxW7Ecg=/5184x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/J/Z/4bBvyhR3SODATlRs4cmw/115969962.jpg",
   "publishedAt": "2026-08-19T20:42:00+00:00",
-  "updatedAt": "2026-08-20T05:19:08.837603+00:00",
+  "updatedAt": "2026-08-20T06:28:43.130869+00:00",
   "sourceCount": 16,
   "articleCount": 20,
   "articles": [
@@ -92,7 +86,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-08-20T02:15:29+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://img.band.com.br/image/2026/08/19/explosao-em-predio-deixa-feridos-e-interdita-imoveis-em-copacabana-rj-224154.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -140,6 +134,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_64036c0ef45c",
+      "title": "Explosão em prédio residencial deixa quatro feridos em Copacabana",
+      "description": "Incidente na Rua Sá Ferreira deixou quatro feridos e mobilizou os Bombeiros. Prédio de 13 andares foi evacuado e Defesa Civil avalia a...",
+      "url": "https://www.em.com.br/nacional/2026/08/7483469-explosao-em-predio-residencial-deixa-quatro-feridos-em-copacabana.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-08-19T22:29:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_0f6a703036fd",
       "title": "Explosão em prédio residencial de Copacabana deixa feridos",
       "description": "Detonação atingiu garagem no subsolo e dois apartamentos do segundo andar; moradores foram retirados do edifício por segurança.",
@@ -154,20 +162,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_64036c0ef45c",
-      "title": "Explosão em prédio residencial deixa quatro feridos em Copacabana",
-      "description": "Incidente na Rua Sá Ferreira deixou quatro feridos e mobilizou os Bombeiros. Prédio de 13 andares foi evacuado e Defesa Civil avalia a...",
-      "url": "https://www.em.com.br/nacional/2026/08/7483469-explosao-em-predio-residencial-deixa-quatro-feridos-em-copacabana.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-19T22:29:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ce29857aa241",
       "title": "Explosão em prédio de Copacabana deixa quatro feridos",
       "description": "Defesa Civil interditou parte da garagem e dois apartamentos após avaliar a estrutura do edifício, que não corre risco de desabar.",
@@ -176,7 +170,7 @@
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-08-20T01:59:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -186,14 +180,14 @@
       "title": "Explosão em prédio residencial deixa quatro feridos no Rio; veja vídeos",
       "description": "Corpo de Bombeiros foi acionado para o local e realizaram a evacuação do edifício, que possui 13 pavimentos, além de um subsolo.",
       "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/explosao-em-predio-residencial-deixa-quatro-feridos-no-rio-veja-videos/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-19T22:39:28+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a4e97ecc0bd9",
@@ -218,7 +212,7 @@
       "sourceCanonical": "Fato Paulista",
       "sourceDomain": "fatopaulista.com.br",
       "publishedAt": "2026-08-20T04:59:23+00:00",
-      "postedLabel": "19 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -228,11 +222,11 @@
       "title": "Explosão deixa quatro feridos em prédio de Copacabana",
       "description": "O Corpo de Bombeiros foi acionado no final da tarde desta quarta-feira (19) após uma explosão em um prédio residencial na Rua Sá Ferreira,...",
       "url": "https://www.portalbueno.com.br/post.php?id=53424&t=explosao-deixa-quatro-feridos-em-predio-de-copacabana",
-      "source": "portalbueno.com.br",
-      "sourceCanonical": "portalbueno.com.br",
+      "source": "Portal Bueno",
+      "sourceCanonical": "Portal Bueno",
       "sourceDomain": "portalbueno.com.br",
       "publishedAt": "2026-08-20T05:06:12+00:00",
-      "postedLabel": "12 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -242,8 +236,8 @@
       "title": "Explosão em prédio de Copacabana deixa quatro feridos",
       "description": "Uma explosão em um prédio residencial no bairro de Copacabana, na Zona Sul do Rio, deixou quatro pessoas feridas nesta quarta-feira, 19.",
       "url": "https://atribunarj.com.br/materia/explosao-em-predio-de-copacabana-deixa-quatro-feridos",
-      "source": "A Tribuna RJ",
-      "sourceCanonical": "A Tribuna RJ",
+      "source": "atribunarj.com.br",
+      "sourceCanonical": "atribunarj.com.br",
       "sourceDomain": "atribunarj.com.br",
       "publishedAt": "2026-08-19T23:19:00+00:00",
       "postedLabel": "hoje",
@@ -288,7 +282,7 @@
       "sourceCanonical": "LSM Notícias",
       "sourceDomain": "lsmnoticias.com.br",
       "publishedAt": "2026-08-19T23:24:57+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"

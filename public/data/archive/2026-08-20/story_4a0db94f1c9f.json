@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 53
+      "topic-7": 51
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 53,
-    "bestSeedRank": 53,
+    "firstSeenRank": 51,
+    "bestSeedRank": 51,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/261-1.png",
   "publishedAt": "2026-08-14T14:20:10+00:00",
-  "updatedAt": "2026-08-20T05:32:42.391453+00:00",
+  "updatedAt": "2026-08-20T06:36:33.502861+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -124,14 +124,14 @@
       "title": "Um estudante de 18 anos encontrou moedas de ouro durante uma obra na Bélgica: atrás delas havia um tesouro de € 9 milhões",
       "description": "O que você faria se encontrasse moedas douradas durante o trabalho? Um estudante de 18 anos descobriu um tesouro de ouro escondido em uma...",
       "url": "https://revistaoeste.com/oestegeral/2026/08/19/um-estudante-de-18-anos-encontrou-moedas-de-ouro-durante-uma-obra-na-belgica-atras-delas-havia-um-tesouro-de-e-9-milhoes/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-08-19T20:35:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_72c6dc68a014",
@@ -162,20 +162,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_45b1dd7f7375",
-      "title": "Veja o que será feito com tesouro avaliado em R$ 54 milhões encontrado na Bélgica",
-      "description": "Os trabalhadores perfuravam o solo para instalar novos canos de esgoto na propriedade, que pertence à CAW Oost-Vlaanderen, instituição de...",
-      "url": "https://noticias.r7.com/internacional/veja-o-que-sera-feito-com-tesouro-avaliado-em-r-54-milhoes-encontrado-na-belgica-17082026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-08-17T17:30:55+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_0478b2ed6a0f",
       "title": "Pedreiros encontram R$ 54 milhões ao instalar canos de esgoto na Bélgica",
       "description": "Moedas e o destino do tesouro. Os operários avisaram a polícia. O dono tem 5 anos para reaver o ouro. Caso contrário, o tesouro será dividido entre os...",
@@ -185,6 +171,20 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-15T17:23:50+00:00",
       "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_45b1dd7f7375",
+      "title": "Veja o que será feito com tesouro avaliado em R$ 54 milhões encontrado na Bélgica",
+      "description": "Os trabalhadores perfuravam o solo para instalar novos canos de esgoto na propriedade, que pertence à CAW Oost-Vlaanderen, instituição de...",
+      "url": "https://noticias.r7.com/internacional/veja-o-que-sera-feito-com-tesouro-avaliado-em-r-54-milhoes-encontrado-na-belgica-17082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-17T17:30:55+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 3,
-    "max": 10,
-    "average": 5.6,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 7,
+    "average": 5.11,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
       "center": 5,
       "centerRight": 2,
-      "right": 1,
-      "unknown": 10
+      "right": 0,
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
