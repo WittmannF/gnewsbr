@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 37
+      "topic-7": 38
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 38,
+    "bestSeedRank": 38,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/lula-e-trump-na-casa-branca.jpg",
   "publishedAt": "2026-08-11T17:04:45+00:00",
-  "updatedAt": "2026-08-20T15:33:52.942001+00:00",
+  "updatedAt": "2026-08-20T16:30:48.940941+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-08-20T09:42:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/lula-e-trump-na-casa-branca.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -72,7 +72,7 @@
       "sourceCanonical": "Intercept Brasil",
       "sourceDomain": "intercept.com.br",
       "publishedAt": "2026-08-20T10:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -138,14 +138,14 @@
       "title": "Coalizão americana contra cartéis avança sem Brasil e México",
       "description": "Com entrada da Colômbia, aliança impulsionada pelos EUA reúne agora 19 países. México e Brasil seguem fora.",
       "url": "https://www.dw.com/pt-br/coaliz%C3%A3o-americana-contra-cart%C3%A9is-avan%C3%A7a-sem-brasil-e-m%C3%A9xico/a-78375036",
-      "source": "dw.com",
-      "sourceCanonical": "DW (Brasil)",
+      "source": "DW",
+      "sourceCanonical": "DW",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-14T16:44:28+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_30c8bd8b0863",
@@ -213,6 +213,20 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-16T07:30:00+00:00",
       "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_831e4257e687",
+      "title": "EUA avaliam operações terrestres contra traficantes na América Latina",
+      "description": "Informações foram divulgadas pelo secretário de Defesa americano, Pete Hegseth, durante visita ao Panamá.",
+      "url": "https://www.cnnbrasil.com.br/internacional/eua-avaliam-operacoes-terrestres-contra-traficantes-na-america-latina/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-13T21:38:14+00:00",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -296,39 +310,25 @@
       "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-08-20T10:00:38+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_9f3211f540d4",
-      "title": "Para os EUA, PCC e Comando Vermelho podem ser alvos legítimos",
-      "description": "O secretário de Guerra dos Estados Unidos, Pete Hegseth, afirmou que organizações classificadas por Washington como terroristas podem ser...",
-      "url": "https://diariodopoder.com.br/exteriores/e10-internacional/para-os-eua-pcc-e-comando-vermelho-podem-ser-alvos-legitimos",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-08-15T01:08:00+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.27,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.07,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 3,
-      "centerLeft": 3,
-      "center": 4,
+      "centerLeft": 2,
+      "center": 5,
       "centerRight": 3,
-      "right": 2,
-      "unknown": 5
+      "right": 1,
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
