@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/chuvas-eua-destacao-OTYW2.jpg",
   "publishedAt": "2026-08-11T07:00:00+00:00",
-  "updatedAt": "2026-08-20T02:47:52.873722+00:00",
+  "updatedAt": "2026-08-20T03:41:45.943826+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -54,8 +54,8 @@
       "title": "Grãos sobem em Chicago com rendimento menor em lavouras dos EUA",
       "description": "Expedição aponta perdas para a safras de soja e milho do país na temporada 2026/27.",
       "url": "https://globorural.globo.com/cotacoes/noticia/2026/08/graos-sobem-em-chicago-com-rendimento-menor-em-lavouras-dos-eua.ghtml",
-      "source": "Globo Rural",
-      "sourceCanonical": "Globo Rural",
+      "source": "globorural.globo.com",
+      "sourceCanonical": "globorural.globo.com",
       "sourceDomain": "globorural.globo.com",
       "publishedAt": "2026-08-19T18:40:08+00:00",
       "postedLabel": "hoje",
@@ -96,8 +96,8 @@
       "title": "Em forte alta, preço da soja ultrapassa R$ 151 em Paranaguá",
       "description": "Traders estão monitorando de perto a demanda chinesa, as perspectivas de plantio de soja no Brasil e os desdobramentos geopolíticos.",
       "url": "https://globorural.globo.com/cotacoes/noticia/2026/08/em-forte-alta-preco-da-soja-ultrapassa-r-151-em-paranagua.ghtml",
-      "source": "Globo Rural",
-      "sourceCanonical": "Globo Rural",
+      "source": "globorural.globo.com",
+      "sourceCanonical": "globorural.globo.com",
       "sourceDomain": "globorural.globo.com",
       "publishedAt": "2026-08-19T09:15:08+00:00",
       "postedLabel": "hoje",
@@ -208,14 +208,14 @@
       "title": "Demanda aquecida sustenta preços da soja com menor estoque disponível",
       "description": "Maior disputa entre compradores internos e externos impulsiona cotações do complexo soja, segundo o Cepea.",
       "url": "https://www.itatiaia.com.br/agro/demanda-aquecida-sustenta-precos-da-soja-com-menor-estoque-disponivel/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
+      "source": "itatiaia.com.br",
+      "sourceCanonical": "itatiaia.com.br",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-08-18T07:04:48+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_13f847d19bf2",
@@ -268,7 +268,7 @@
       "sourceCanonical": "Vitória News",
       "sourceDomain": "vitorianews.com.br",
       "publishedAt": "2026-08-19T21:27:24+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_28aadaa737e3",
-      "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme",
-      "description": "O mercado brasileiro de soja registrou mais uma sessão de preços firmes no mercado físico, acompanhando as altas observadas durante boa...",
-      "url": "https://www.olharalerta.com.br/noticia/92904/mercado-da-soja-ganha-sustentacao-com-alta-em-chicago-e-dolar-firme",
-      "source": "olharalerta.com.br",
-      "sourceCanonical": "olharalerta.com.br",
-      "sourceDomain": "olharalerta.com.br",
-      "publishedAt": "2026-08-19T09:58:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_9c835978626d",
       "title": "Soja avança em Chicago com Crop Tour, demanda chinesa e dólar fraco",
       "description": "Porto Alegre, 19 de agosto de 2026 – Os contratos futuros da soja fecharam com preços acentuadamente mais altos nesta quarta-feira,...",
@@ -314,28 +300,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_28aadaa737e3",
+      "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme",
+      "description": "O mercado brasileiro de soja registrou mais uma sessão de preços firmes no mercado físico, acompanhando as altas observadas durante boa...",
+      "url": "https://www.olharalerta.com.br/noticia/92904/mercado-da-soja-ganha-sustentacao-com-alta-em-chicago-e-dolar-firme",
+      "source": "olharalerta.com.br",
+      "sourceCanonical": "olharalerta.com.br",
+      "sourceDomain": "olharalerta.com.br",
+      "publishedAt": "2026-08-19T09:58:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.57,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5.67,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 6,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 95
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",

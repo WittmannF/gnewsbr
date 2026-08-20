@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 12,
+      "topic-3": 10,
       "topic-5": 16
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2022/07/Adolfo-Sachsida.jpeg",
   "publishedAt": "2026-08-17T22:54:19+00:00",
-  "updatedAt": "2026-08-20T02:35:01.369597+00:00",
+  "updatedAt": "2026-08-20T03:29:07.968538+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -75,7 +75,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-08-20T00:52:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2025/09/licenciamento-foz-do-amazonas-exploracao.webp",
       "spectrumScore": 2,
       "bucket": "left"
@@ -117,7 +117,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-08-18T03:10:09+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -207,6 +207,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_7a91cbfa1b8e",
+      "title": "Durante visita a navio-sonda da Petrobras, Davi defende soberania do Brasil",
+      "description": "Nessa segunda-feira (17), durante visita ao navio-sonda usado na procura de petróleo na Margem Equatorial, o presidente do Senado,...",
+      "url": "https://www12.senado.leg.br/tv/programas/noticias-1/2026/08/durante-visita-a-navio-sonda-da-petrobras-davi-defende-soberania-do-brasil",
+      "source": "senado.leg.br",
+      "sourceCanonical": "senado.leg.br",
+      "sourceDomain": "www12.senado.leg.br",
+      "publishedAt": "2026-08-18T11:49:17+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_ed77177eaf9b",
       "title": "Amapá prepara infraestrutura para nova fronteira de petróleo e gás no Norte",
       "description": "Estado amplia planejamento logístico, capacitação e incentivos para atender possível expansão da cadeia de óleo e gás na Margem Equatorial.",
@@ -216,20 +230,6 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-19T07:30:29+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7a91cbfa1b8e",
-      "title": "Durante visita a navio-sonda da Petrobras, Davi defende soberania do Brasil",
-      "description": "Nessa segunda-feira (17), durante visita ao navio-sonda usado na procura de petróleo na Margem Equatorial, o presidente do Senado,...",
-      "url": "https://www12.senado.leg.br/tv/programas/noticias-1/2026/08/durante-visita-a-navio-sonda-da-petrobras-davi-defende-soberania-do-brasil",
-      "source": "Senado Federal",
-      "sourceCanonical": "Senado Federal",
-      "sourceDomain": "www12.senado.leg.br",
-      "publishedAt": "2026-08-18T11:49:17+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -299,7 +299,7 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-08-19T03:09:29+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.33,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "average": 5.35,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 8,
+      "center": 7,
       "centerRight": 6,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
