@@ -30,8 +30,8 @@
     "redes"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/XOt9L897aGCo3rTIDb_rc1dVdtM=/720x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/e/P/dheeI1ROKSsRkxjAe4ow/111619897-brazils-president-luiz-inacio-lula-da-silva-l-and-argentinas-president-javier-milei.jpg",
-  "publishedAt": "2026-08-18T19:35:11+00:00",
-  "updatedAt": "2026-08-20T08:35:14.509270+00:00",
+  "publishedAt": "2026-08-18T07:00:00+00:00",
+  "updatedAt": "2026-08-20T09:32:11.403938+00:00",
   "sourceCount": 15,
   "articleCount": 15,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Milei critica ‘socialismo empobrecedor’ defendido por Lula",
       "description": "O presidente da Argentina, Javier Milei, voltou a expor nas redes sociais sua oposição ao modelo econômico defendido pelo presidente Lula...",
       "url": "https://diariodopoder.com.br/politica/ttc-politica/milei-reforca-criticas-a-lula-e-aponta-custo-do-socialismo",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
+      "source": "diariodopoder.com.br",
+      "sourceCanonical": "diariodopoder.com.br",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-08-19T03:09:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b24ac45bdb80",
@@ -148,20 +148,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_2c0be5a3a8c5",
-      "title": "Milei chama Lula, Dilma e outros líderes da esquerda de 'tumor' em publicação nas redes sociais",
-      "description": "Declarações do presidente argentino voltam a tensionar as relações políticas entre Brasília e Buenos Aires.",
-      "url": "https://exame.com/mundo/milei-chama-lula-dilma-e-outros-lideres-da-esquerda-de-tumor-em-publicacao-nas-redes-sociais/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-08-19T22:19:41+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_b2fe35d0ebb0",
       "title": "Javier Milei publica nova ofensa a Lula em rede social",
       "description": "Presidente argentino usa imagem de líderes políticos ligados à esquerda, com a frase: \"socialismo empobrecedor do século XXI\"",
@@ -176,6 +162,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_2c0be5a3a8c5",
+      "title": "Milei chama Lula, Dilma e outros líderes da esquerda de 'tumor' em publicação nas redes sociais",
+      "description": "Declarações do presidente argentino voltam a tensionar as relações políticas entre Brasília e Buenos Aires.",
+      "url": "https://exame.com/mundo/milei-chama-lula-dilma-e-outros-lideres-da-esquerda-de-tumor-em-publicacao-nas-redes-sociais/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-08-19T22:19:41+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_2d18c00a8b90",
       "title": "Javier Milei compara Lula e líderes de esquerda a \"trem-fantasma\"",
       "description": "Publicação de Milei, nas redes sociais, reúne dezenas de políticos de esquerda da América Latina e da Europa.",
@@ -183,8 +183,8 @@
       "source": "Metrópoles",
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-19T21:25:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-08-18T07:00:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -248,28 +248,29 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 9,
-    "average": 4.91,
-    "knownCount": 11,
-    "unknownCount": 4,
+    "max": 8,
+    "average": 4.5,
+    "knownCount": 10,
+    "unknownCount": 5,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 1,
-      "right": 1,
-      "unknown": 4
+      "right": 0,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

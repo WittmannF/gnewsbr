@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDc3ZubUVSR0d2bUdpYmVlX0JTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDc3ZubUVSR0d2bUdpYmVlX0JTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 18,
-      "topic-7": 10
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 17,
+      "topic-7": 4
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 18,
-    "bestSeedRank": 10,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Candidatos de Trump tropeçam e esquerda avança na Flórida",
   "summary": "A ala esquerdista do Partido Democrata comemorou, nesta quarta-feira 19, sua vitória nas primárias para o Senado americano na Flórida,...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/08/AFP__20260814__C4PG68R__v1__MidRes__PresidentTrumpDepartsForNewYorkAndNewJersey.jpg",
   "publishedAt": "2026-08-10T23:29:04+00:00",
-  "updatedAt": "2026-08-20T08:28:39.876727+00:00",
+  "updatedAt": "2026-08-20T09:20:06.531871+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -159,7 +165,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-20T08:00:00+00:00",
-      "postedLabel": "28 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -201,7 +207,7 @@
       "sourceCanonical": "SWI swissinfo.ch",
       "sourceDomain": "swissinfo.ch",
       "publishedAt": "2026-08-20T07:00:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -215,7 +221,7 @@
       "sourceCanonical": "Startupi",
       "sourceDomain": "startupi.com.br",
       "publishedAt": "2026-08-20T08:00:00+00:00",
-      "postedLabel": "28 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -249,20 +255,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_792348957287",
-      "title": "Eleição de novembro na Flórida terá Donalds x Jolly e disputa acirrada pelo Senado",
-      "description": "A Flórida definiu nesta terça-feira (18 de agosto) os nomes que vão disputar as eleições gerais de novembro. As primárias marcaram o início...",
-      "url": "https://www.acheiusa.com/Noticia/eleicao-de-novembro-na-florida-tera-donalds-x-jolly-e-disputa-acirrada-pelo-senado-173233/",
-      "source": "AcheiUSA",
-      "sourceCanonical": "AcheiUSA",
-      "sourceDomain": "acheiusa.com",
-      "publishedAt": "2026-08-19T13:55:55+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_9d01f6795413",
       "title": "Primárias democratas expõem racha entre esquerda e centro antes das eleições de meio de mandato nos EUA",
       "description": "Em Minnesota, estado tradicionalmente democrata, com seis milhões de habitantes e situado na fronteira com o Canadá, a indicação democrata...",
@@ -272,6 +264,20 @@
       "sourceDomain": "rfi.fr",
       "publishedAt": "2026-08-12T16:09:45+00:00",
       "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_792348957287",
+      "title": "Eleição de novembro na Flórida terá Donalds x Jolly e disputa acirrada pelo Senado",
+      "description": "A Flórida definiu nesta terça-feira (18 de agosto) os nomes que vão disputar as eleições gerais de novembro. As primárias marcaram o início...",
+      "url": "https://www.acheiusa.com/Noticia/eleicao-de-novembro-na-florida-tera-donalds-x-jolly-e-disputa-acirrada-pelo-senado-173233/",
+      "source": "AcheiUSA",
+      "sourceCanonical": "AcheiUSA",
+      "sourceDomain": "acheiusa.com",
+      "publishedAt": "2026-08-19T13:55:55+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -295,8 +301,8 @@
       "title": "TRUMP EM CRISE: Cresce o SOCIALISMO nos EUA? | REDE INTERNACIONAL",
       "description": "O sistema bipartidário está em colapso nos EUA? Trump, crise econômica e a ascensão da esquerda.",
       "url": "https://www.esquerdadiario.com.br/TRUMP-EM-CRISE-Cresce-o-SOCIALISMO-nos-EUA-REDE-INTERNACIONAL",
-      "source": "esquerdadiario.com.br",
-      "sourceCanonical": "esquerdadiario.com.br",
+      "source": "Esquerda Diário",
+      "sourceCanonical": "Esquerda Diário",
       "sourceDomain": "esquerdadiario.com.br",
       "publishedAt": "2026-08-10T23:29:04+00:00",
       "postedLabel": "9 dias atrás",
@@ -305,14 +311,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_81ace53e7b7f",
+      "id": "article_e859f7bb5ae3",
       "title": "Democratas votam em estados-chave dos EUA em meio a disputa ideológica interna",
-      "description": "Os eleitores do Partido Democrata dos Estados Unidos vão às urnas nesta terça-feira (11) para primárias em vários estados que voltam a medir...",
-      "url": "https://www.em.com.br/internacional/2026/08/7478076-democratas-votam-em-estados-chave-dos-eua-em-meio-a-disputa-ideologica-interna.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-11T19:54:00+00:00",
+      "description": "Disputas em Minnesota e Wisconsin podem influenciar o rumo do Partido Democrata antes das eleições de meio de mandato e da oposição a Donald...",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/democratas-votam-em-estados-chave-dos-eua-em-meio-a-disputa-ideologica-interna/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-08-11T19:50:33+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
