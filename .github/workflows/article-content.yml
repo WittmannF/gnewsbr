@@ -17,9 +17,7 @@ on:
         type: string
 
 concurrency:
-  # Share the same lock with the Pages data refresh because both workflows can
-  # commit generated files to main.
-  group: data-writers-${{ github.ref }}
+  group: article-archive-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:

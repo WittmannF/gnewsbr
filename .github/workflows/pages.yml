@@ -9,11 +9,10 @@ on:
   workflow_dispatch:
 
 concurrency:
-  # Serialize every workflow that can write generated data to main. Without this,
-  # the hourly Pages refresh and article-content archive can both commit from an
-  # old checkout and one push is rejected with "fetch first".
-  group: data-writers-${{ github.ref }}
-  cancel-in-progress: false
+  # Keep only the newest Pages refresh/deploy for a given ref. This prevents the
+  # hourly schedule from building a backlog of pending runs.
+  group: pages-refresh-${{ github.ref }}
+  cancel-in-progress: true
 
 # Opt in early to the GitHub Actions Node.js 24 runtime so the workflow does not
 # depend on the deprecated Node.js 20 action runtime.

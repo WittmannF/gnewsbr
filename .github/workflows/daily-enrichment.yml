@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: data-writers-${{ github.ref }}
+  group: enrichment-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
