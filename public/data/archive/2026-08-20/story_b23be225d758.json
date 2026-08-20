@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Captura-de-tela-2026-08-19-175644.png?w=776&h=484&crop=1",
   "publishedAt": "2026-08-13T18:06:00+00:00",
-  "updatedAt": "2026-08-20T07:29:02.031504+00:00",
+  "updatedAt": "2026-08-20T08:22:59.246147+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-20T01:44:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -166,14 +166,14 @@
       "title": "Novo foguete é lançado em Alcântara, no Maranhão, sete meses após explosão",
       "description": "O SEBIT é um foguete suborbital multifuncional desenvolvido para transportar cargas úteis de clientes a altitudes de até 100 km.",
       "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/ciencia/novo-foguete-e-lancado-em-alcantara-no-maranhao-sete-meses-apos-explosao-1.3785516",
-      "source": "diariodonordeste.verdesmares.com.br",
-      "sourceCanonical": "diariodonordeste.verdesmares.com.br",
+      "source": "Diário do Nordeste",
+      "sourceCanonical": "Diário do Nordeste",
       "sourceDomain": "diariodonordeste.verdesmares.com.br",
       "publishedAt": "2026-08-20T00:02:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_ca0e70ba5879",
@@ -282,7 +282,7 @@
       "sourceCanonical": "Tribuna do Paraná",
       "sourceDomain": "tribunapr.com.br",
       "publishedAt": "2026-08-20T03:07:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 10,
-    "average": 6.5,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 6.22,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 4,
       "centerRight": 3,
       "right": 1,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
