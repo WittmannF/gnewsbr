@@ -3,36 +3,42 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psM0pMbkVSR3Qzd0NGLUVkN29pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psM0pMbkVSR3Qzd0NGLUVkN29pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 3
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula se reúne com advogado de Lulinha no Palácio da Alvorada",
   "summary": "O encontro de Lula e o responsável pela defesa de Lulinha ocorre em meio a revelações de que a Polícia Federal (PF) investiga se o filho do...",
-  "topic": "Lulinha · Lobista",
+  "topic": "Lulinha · Lula",
   "topicKeywords": [
     "lulinha",
-    "lobista",
     "lula",
+    "lobista",
+    "amiga",
     "contrato",
-    "mensagens",
-    "reúne"
+    "mensagens"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
   "publishedAt": "2026-08-17T23:46:35+00:00",
-  "updatedAt": "2026-08-20T04:29:17.893684+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-08-20T05:19:05.342017+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -44,7 +50,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-19T22:31:21+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
       "spectrumScore": 5,
       "bucket": "center"
@@ -58,7 +64,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-19T22:41:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/19/17871770166a86283805ebf_1787177016_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -110,14 +116,14 @@
       "title": "Lulinha frequentava casa de lobista; defesa fala em \"relação de amizade\"",
       "description": "O empresário Fábio Luís Lula da Silva, o Lulinha, frequentava uma casa no Lago Sul, região nobre de Brasília, alugada pela lobista Roberta...",
       "url": "https://www.cnnbrasil.com.br/blogs/clarissa-oliveira/politica/lulinha-frequentava-casa-de-lobista-defesa-fala-em-relacao-de-amizade/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-19T11:28:48+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2d74e4bf2a33",
@@ -134,6 +140,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_b6851d73ff1c",
+      "title": "Campanha de Lula se vê de mãos atadas para reagir à escalada da crise Lulinha-Marcola",
+      "description": "O presidente Luiz Inácio Lula da Silva vive um dilema entre não interferir no trabalho da PF e explicar as suspeitas,...",
+      "url": "https://www.em.com.br/politica/platobr/2026/08/7483593-campanha-de-lula-se-ve-de-maos-atadas-para-reagir-a-escalada-da-crise-lulinha-marcola.html",
+      "source": "em.com.br",
+      "sourceCanonical": "em.com.br",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-08-20T03:13:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b5e960e850a4",
       "title": "Marcola recebeu contrato de venda de canabidiol de lobista, diz PF",
       "description": "Roberta Luchsinger e Marcola são investigados em um esquema de tráfico de influência para vender medicamentos ao SUS. Leia no Poder360.",
@@ -146,20 +166,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_b6851d73ff1c",
-      "title": "Campanha de Lula se vê de mãos atadas para reagir à escalada da crise Lulinha-Marcola",
-      "description": "O presidente Luiz Inácio Lula da Silva vive um dilema entre não interferir no trabalho da PF e explicar as suspeitas,...",
-      "url": "https://www.em.com.br/politica/platobr/2026/08/7483593-campanha-de-lula-se-ve-de-maos-atadas-para-reagir-a-escalada-da-crise-lulinha-marcola.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-20T03:13:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_b8129d868f38",
@@ -212,7 +218,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-08-20T04:05:55+00:00",
-      "postedLabel": "23 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -232,32 +238,18 @@
       "bucket": "right"
     },
     {
-      "id": "article_6dc1efcf2f22",
-      "title": "Lobista postou foto em mansão usada para reuniões com Lulinha no dia de operação da PF sobre fraudes",
-      "description": "Apontada como lobista pela Polícia Federal, a empresária Roberta Luchsinger publicou imagens em uma casa no Lago Sul, região nobre de...",
-      "url": "https://www.folhape.com.br/politica/lobista-postou-foto-em-mansao-usada-para-reunioes-com-lulinha-no-dia/507423/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-08-19T10:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_ca647059aa0c",
       "title": "PF deve ouvir Lulinha após análise de mensagens com lobista",
       "description": "A Polícia Federal (PF) deve intimar Fábio Luís Lula da Silva, conhecido como Lulinha, para prestar depoimento em uma investigação que apura...",
       "url": "https://tribunadonorte.com.br/brasil/pf-deve-ouvir-lulinha-apos-analise-de-mensagens-com-lobista/",
-      "source": "tribunadonorte.com.br",
-      "sourceCanonical": "tribunadonorte.com.br",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
       "sourceDomain": "tribunadonorte.com.br",
       "publishedAt": "2026-08-18T12:48:13+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3abb9ffb217c",
@@ -302,15 +294,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_8aca1d6e6d6e",
-      "title": "Ex-chefe de gabinete de Lula recebeu de empresária ligada a Lulinha minuta de contrato de venda de canabidiol ao Ministério da Saúde",
-      "description": "A Polícia Federal (PF) localizou uma mensagem de WhatsApp que mostra que o ex-chefe de gabinete do presidente Luiz Inácio Lula da Silva (PT)...",
-      "url": "https://g1.globo.com/politica/noticia/2026/08/19/ex-chefe-de-gabinete-de-lula-recebeu-de-empresaria-ligada-a-lulinha-minuta-de-contrato-de-venda-de-canabidiol-ao-ministerio-da-saude.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-08-19T16:45:30+00:00",
-      "postedLabel": "hoje",
+      "id": "article_f89c7c584f40",
+      "title": "Boulos defende investigação sem privilégio e presunção de inocência",
+      "description": "Ministro afirmou que apuração sobre Fábio Luís Lula da Silva deve continuar, com responsabilização se houver provas e respeito à presunção...",
+      "url": "https://leiasemprebrasil.com.br/2026/08/19/boulos-investigacao-sem-privilegio-presuncao-inocencia/",
+      "source": "Leia Sempre Brasil",
+      "sourceCanonical": "Leia Sempre Brasil",
+      "sourceDomain": "leiasemprebrasil.com.br",
+      "publishedAt": "2026-08-20T01:06:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_bc48dceb7979",
+      "title": "Amiga de Lulinha encaminhou minuta de contrato a ex-chefe de gabinete de Lula",
+      "description": "CATIA SEABRA BRASÍLIA, DF (FOLHAPRESS). O ex-chefe de gabinete do presidente Lula (PT) Marco Aurélio Santana Ribeiro, o Marcola, recebeu da...",
+      "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/amiga-de-lulinha-encaminhou-minuta-de-contrato-a-ex-chefe-de-gabinete-de-lula/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-08-18T22:18:34+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.62,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.65,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
-      "centerLeft": 3,
-      "center": 8,
+      "centerLeft": 2,
+      "center": 10,
       "centerRight": 4,
       "right": 1,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {

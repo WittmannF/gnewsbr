@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6eU1UcEVSR29MdVdRTlhIdWpDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6eU1UcEVSR29MdVdRTlhIdWpDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-5": 65
+      "topic-5": 63,
+      "topic-8": 23
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 65,
-    "bestSeedRank": 65,
+    "firstSeenRank": 63,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +29,12 @@
     "fiscal",
     "juros",
     "tesouro",
-    "pelo",
-    "defende"
+    "defende",
+    "pelo"
   ],
   "imageUrl": "https://s2-valor.glbimg.com/mREQLM7nGpyExMOAxKt3mOlY7rA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/s/L/Bji2AKS8iK4Ijjdu2VSA/2705darioduriganfotowendersonaraujo-28.jpg",
   "publishedAt": "2026-08-17T05:08:00+00:00",
-  "updatedAt": "2026-08-20T04:31:12.335669+00:00",
+  "updatedAt": "2026-08-20T05:27:46.336842+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -180,14 +183,14 @@
       "title": "Gastos obrigatórios terão “travas” com impacto de R$ 10 bi, diz Durigan",
       "description": "Ministro da Fazenda afirmou que mecanismo de redução de despesas já foi embutido na legislação e cita juros altos como desafio.",
       "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/gastos-obrigatorios-terao-travas-com-impacto-de-r-10-bi-diz-durigan/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-17T15:06:06+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ae1462b4ba77",
@@ -212,7 +215,7 @@
       "sourceCanonical": "Kinvo",
       "sourceDomain": "kinvo.com.br",
       "publishedAt": "2026-08-17T05:08:00+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -264,8 +267,8 @@
       "title": "Durigan liga política fiscal a queda dos juros e controle da dívida",
       "description": "Durigan defende avanço da política fiscal para reduzir juros, cita trava de R$ 10 bilhões em 2027 e reconhece preocupação com dívida.",
       "url": "https://bmcnews.com.br/economia/durigan-liga-politica-fiscal-a-queda-dos-juros-e-controle-da-divida/",
-      "source": "bmcnews.com.br",
-      "sourceCanonical": "bmcnews.com.br",
+      "source": "BM&C News",
+      "sourceCanonical": "BM&C News",
       "sourceDomain": "bmcnews.com.br",
       "publishedAt": "2026-08-18T13:19:41+00:00",
       "postedLabel": "ontem",
@@ -288,20 +291,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_9cc93cf774ac",
-      "title": "Ministro da Fazenda diz que juros pagos pelo Tesouro são muito altos e o tema precisa ser solucionado",
-      "description": "O ministro da Fazenda, Dario Durigan, disse nesta quarta-feira (19) que as taxas de juros de longo prazo pagas pelo Tesouro Nacional são...",
-      "url": "https://www.tvpampa.com.br/ministro-da-fazenda-diz-que-juros-pagos-pelo-tesouro-sao-muito-altos-e-o-tema-precisa-ser-solucionado/",
-      "source": "TV Pampa",
-      "sourceCanonical": "TV Pampa",
-      "sourceDomain": "tvpampa.com.br",
-      "publishedAt": "2026-08-19T16:04:09+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_822534545839",
       "title": "Durigan critica juros do Tesouro e defende ajuste fiscal",
       "description": "O custo do financiamento da dívida pública brasileira voltou ao centro do debate. Nesta quarta-feira (19), o ministro da Fazenda,...",
@@ -314,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_edce13a334d2",
+      "title": "Durigan reafirma compromisso do governo com o equilíbrio fiscal",
+      "description": "O Congresso aprovou, na semana passada, o Projeto de Lei (PL) que autoriza mais gastos fora dos limites do arcabouço fiscal em 2026.",
+      "url": "https://correiodobrasil.com.br/a/durigan-reafirma-compromisso-governo-equilibrio-fiscal",
+      "source": "correiodobrasil.com.br",
+      "sourceCanonical": "correiodobrasil.com.br",
+      "sourceDomain": "correiodobrasil.com.br",
+      "publishedAt": "2026-08-17T23:57:57+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
     "average": 5,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
-      "center": 5,
+      "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
