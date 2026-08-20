@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmOWZQcUVSRjljUkZPNGgzYnNDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmOWZQcUVSRjljUkZPNGgzYnNDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9
+      "topic-3": 9,
+      "topic-5": 9
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 9,
@@ -25,13 +28,13 @@
     "acidente",
     "paraná",
     "vítimas",
-    "ônibus",
-    "prefeitura",
-    "divulga"
+    "matou",
+    "pessoas",
+    "veladas"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/ZJ09RnM0s2g3prCPQ9tKniFA3X8=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/l/J/q2fQiWRp2m9YBfAJXozw/1e426b3a-8fd6-4132-8d6c-84471a0f9ef0.jpeg",
   "publishedAt": "2026-08-19T11:59:17+00:00",
-  "updatedAt": "2026-08-20T19:22:13.087630+00:00",
+  "updatedAt": "2026-08-20T20:20:32.321986+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +61,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-20T13:23:36+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/n8IFhzWL36dLrISOeDdlCcKE6tQ=/2560x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Q/v/RXtevhRsATDwE1GZX0lA/novo-projeto.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -92,18 +95,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_04f0d44ec367",
-      "title": "Números de acidentes fatais envolvendo caminhões crescem e geram preocupação",
-      "description": "25 acidentes fatais envolvendo caminhões foram registrados na mesma semana nas estradas do Brasil. Esse número alarmante levanta questões...",
-      "url": "https://record.r7.com/fala-brasil/video/numeros-de-acidentes-fatais-envolvendo-caminhoes-crescem-e-geram-preocupacao-20082026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "record.r7.com",
-      "publishedAt": "2026-08-20T14:50:05+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_b33444461563",
+      "title": "Mortes na BR-373: só depois da tragédia descobrem que obras eram urgentes",
+      "description": "Confira as análises de João Zisman sobre os principais temas estaduais e nacionais. Leia mais na Tribuna do Paraná.",
+      "url": "https://www.tribunapr.com.br/colunas/joao-zisman/mortes-br-373-depois-tragedia-descobrem-obras-urgentes/",
+      "source": "Tribuna do Paraná",
+      "sourceCanonical": "Tribuna do Paraná",
+      "sourceDomain": "tribunapr.com.br",
+      "publishedAt": "2026-08-20T12:37:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_be055fe09b39",
@@ -115,6 +118,20 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-20T11:32:13+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_04f0d44ec367",
+      "title": "Números de acidentes fatais envolvendo caminhões crescem e geram preocupação",
+      "description": "25 acidentes fatais envolvendo caminhões foram registrados na mesma semana nas estradas do Brasil. Esse número alarmante levanta questões...",
+      "url": "https://record.r7.com/fala-brasil/video/numeros-de-acidentes-fatais-envolvendo-caminhoes-crescem-e-geram-preocupacao-20082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "record.r7.com",
+      "publishedAt": "2026-08-20T14:50:05+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -148,20 +165,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d6e6fcf525e6",
-      "title": "“Campeão” em mortes no trânsito, Paraná registra duas grandes tragédias em 24 horas",
-      "description": "Um dos estados com mais mortes no trânsito em todo o Brasil, o Paraná registrou em menos de 24 horas duas grandes tragédias nas estradas.",
-      "url": "https://www.bemparana.com.br/noticias/parana/campeao-em-mortes-no-transito-parana-registra-duas-grandes-tragedias-em-24-horas/",
-      "source": "Bem Paraná",
-      "sourceCanonical": "Bem Paraná",
-      "sourceDomain": "bemparana.com.br",
-      "publishedAt": "2026-08-20T00:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_983fb1d31002",
       "title": "Saiba quem são as vítimas do acidente entre micro-ônibus e carreta no PR",
       "description": "Colisão na BR-373, em Ipiranga, deixou 5 feridos; micro-ônibus era da Secretaria de Saúde de Imbituva.",
@@ -176,18 +179,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_bad96d849646",
-      "title": "Quem são os mortos em acidente entre micro-ônibus e caminhão no Paraná",
-      "description": "A colisão entre os veículos na BR-373 deixou 23 pessoas mortas e cinco feridas.",
-      "url": "https://jovempan.com.br/brasil/quem-sao-os-mortos-em-acidente-entre-micro-onibus-e-caminhao-no-parana/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-08-19T19:42:40+00:00",
+      "id": "article_d6e6fcf525e6",
+      "title": "“Campeão” em mortes no trânsito, Paraná registra duas grandes tragédias em 24 horas",
+      "description": "Um dos estados com mais mortes no trânsito em todo o Brasil, o Paraná registrou em menos de 24 horas duas grandes tragédias nas estradas.",
+      "url": "https://www.bemparana.com.br/noticias/parana/campeao-em-mortes-no-transito-parana-registra-duas-grandes-tragedias-em-24-horas/",
+      "source": "Bem Paraná",
+      "sourceCanonical": "Bem Paraná",
+      "sourceDomain": "bemparana.com.br",
+      "publishedAt": "2026-08-20T00:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_066a29530962",
@@ -201,6 +204,34 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_bad96d849646",
+      "title": "Quem são os mortos em acidente entre micro-ônibus e caminhão no Paraná",
+      "description": "A colisão entre os veículos na BR-373 deixou 23 pessoas mortas e cinco feridas.",
+      "url": "https://jovempan.com.br/brasil/quem-sao-os-mortos-em-acidente-entre-micro-onibus-e-caminhao-no-parana/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-08-19T19:42:40+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_c910a8196a42",
+      "title": "Acidente entre micro-ônibus e caminhão usado no transporte de porcos deixa 23 mortos no Paraná",
+      "description": "Veículo da Secretaria de Saúde de Imbituva levava pacientes para hospitais da Grande Curitiba; cinco pessoas ficaram feridas.",
+      "url": "https://www.canalrural.com.br/parana/acidente-entre-micro-onibus-e-caminhao-usado-no-transporte-de-porcos-deixa-23-mortos-no-parana/",
+      "source": "Canal Rural",
+      "sourceCanonical": "Canal Rural",
+      "sourceDomain": "canalrural.com.br",
+      "publishedAt": "2026-08-19T11:59:17+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -218,18 +249,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_c910a8196a42",
-      "title": "Acidente entre micro-ônibus e caminhão usado no transporte de porcos deixa 23 mortos no Paraná",
-      "description": "Veículo da Secretaria de Saúde de Imbituva levava pacientes para hospitais da Grande Curitiba; cinco pessoas ficaram feridas.",
-      "url": "https://www.canalrural.com.br/parana/acidente-entre-micro-onibus-e-caminhao-usado-no-transporte-de-porcos-deixa-23-mortos-no-parana/",
-      "source": "Canal Rural",
-      "sourceCanonical": "Canal Rural",
-      "sourceDomain": "canalrural.com.br",
-      "publishedAt": "2026-08-19T11:59:17+00:00",
-      "postedLabel": "ontem",
+      "id": "article_b688537eea83",
+      "title": "Vítimas do acidente na BR-737 são veladas em Imbituva",
+      "description": "Sete das 23 vítimas da colisão frontal entre um micro-ônibus e uma carreta na BR-373, em Ipiranga, na região dos Campos Gerais, no Paraná...",
+      "url": "https://ultimosegundo.ig.com.br/2026-08-20/vitimas-do-acidente-na-br-737-sao-veladas-em-imbituva.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-08-20T17:00:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_870f91a3adb2",
@@ -246,34 +277,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_4f317e1c5ba7",
-      "title": "Vítimas de acidente estão sendo veladas em Imbituva - Folha de Londrina",
-      "description": "Tragédia em Ipiranga: 23 vidas foram perdidas em acidente. Confira detalhes sobre os velórios e os sobreviventes dessa tragédia.",
-      "url": "https://www.folhadelondrina.com.br/geral/vitimas-de-acidente-estao-sendo-veladas-em-imbituva-3316934e.html",
-      "source": "Folha de Londrina",
-      "sourceCanonical": "Folha de Londrina",
-      "sourceDomain": "folhadelondrina.com.br",
-      "publishedAt": "2026-08-20T14:35:07+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6d5885d77a5b",
-      "title": "Acidente entre carreta e micro-ônibus deixa 23 mortos",
-      "description": "Grave acidente envolvendo uma carreta e um micro-ônibus deixou 23 mortos. O veículo de passageiros seguia para Curitiba quando ocorreu a...",
-      "url": "https://www.band.com.br/noticias/brasil-urgente/videos/acidente-entre-carreta-e-micro-onibus-deixa-23-mortos-202608191629",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-08-19T19:29:30+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_b5009135a330",
       "title": "Tragédia da BR-373: motorista do caminhão que matou 23 ostentava crimes de velocidade nas redes",
       "description": "A tragédia que vitimou 23 pessoas na BR-373 choca o Paraná. Polícia investiga vídeos do caminhoneiro correndo a 120 km/h e descaso na...",
@@ -288,28 +291,28 @@
       "bucket": "left"
     },
     {
-      "id": "article_e2f3f6723d68",
-      "title": "Prefeitura\ndivulga fotos das vítimas do acidente no PR",
-      "description": "A Prefeitura de Imbituva (PR) divulgou as imagens das vítimas que estavam no micro-ônibus da Secretaria de Saúde que bateu de frente com uma...",
-      "url": "https://ultimosegundo.ig.com.br/2026-08-20/prefeitura-de-imbituva-divulga-fotos-e-nomes-das-vitimas-do-acidente-no-pr.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-08-20T12:10:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_4f317e1c5ba7",
+      "title": "Vítimas de acidente estão sendo veladas em Imbituva - Folha de Londrina",
+      "description": "Tragédia em Ipiranga: 23 vidas foram perdidas em acidente. Confira detalhes sobre os velórios e os sobreviventes dessa tragédia.",
+      "url": "https://www.folhadelondrina.com.br/geral/vitimas-de-acidente-estao-sendo-veladas-em-imbituva-3316934e.html",
+      "source": "Folha de Londrina",
+      "sourceCanonical": "Folha de Londrina",
+      "sourceDomain": "folhadelondrina.com.br",
+      "publishedAt": "2026-08-20T14:35:07+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_214dc1c3eee7",
-      "title": "Prefeitura de Imbituva divulga nomes de vítimas do acidente na BR-373",
-      "description": "Prefeitura de Imbituva divulga nomes das 22 vítimas de acidente na BR-373 que estavam no micro-ônibus; 23ª vítima era motorista da carreta.",
-      "url": "https://www.metropoles.com/brasil/prefeitura-de-imbituva-divulga-nomes-de-vitimas-do-acidente-na-br-373",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-20T09:46:00+00:00",
+      "id": "article_5d5be3c8a910",
+      "title": "Polícia investiga acidente que deixou 23 mortos no Paraná",
+      "description": "A Polícia do Paraná aguarda os laudos da perícia sobre o grave acidente que deixou 23 mortos perto da cidade de Ipiranga.",
+      "url": "https://www.band.com.br/bandnews-fm/videos/policia-investiga-acidente-que-deixou-23-mortos-no-parana-202608200818",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-08-20T11:18:14+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.59,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.62,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 9,
+      "center": 8,
       "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
