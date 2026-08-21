@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2picmRQb0VSSGhMVzhqMDc2NXJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2picmRQb0VSSGhMVzhqMDc2NXJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 52
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 57,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 52,
-    "bestSeedRank": 52,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Flávio diz que \"Dark Horse\" é \"página virada\" e evita detalhar contas",
   "summary": "Candidato afirma que a prestação de contas do filme sobre Jair Bolsonaro já foi feita, mas não explica valores e destino dos recursos.",
@@ -31,7 +40,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/ODR20260725051.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-08-19T16:47:42+00:00",
-  "updatedAt": "2026-08-21T07:30:36.799674+00:00",
+  "updatedAt": "2026-08-21T08:21:41.426080+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -78,20 +87,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_07eb21c20a9b",
-      "title": "Flávio diz que já prestou contas sobre filme e cobra explicações de Lula",
-      "description": "O candidato do PL à Presidência da República, Flávio Bolsonaro, afirmou nesta quinta-feira (20/8) que já apresentou esclarecimentos sobre os...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7483903-flavio-diz-que-ja-prestou-contas-sobre-filme-e-cobra-explicacoes-de-lula.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-08-20T17:07:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/08/02/675x450/1_ed02082026--011-67315080.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_c00143afffda",
       "title": "Sem explicar dinheiro de Vorcaro e do banco Master, Flávio Bolsonaro diz que Dark Horse é ‘página virada’",
       "description": "O senador Flávio Bolsonaro (PL-RJ), candidato à Presidência da República, afirmou nesta quinta-feira (20) que a controvérsia envolvendo o...",
@@ -101,9 +96,23 @@
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-08-20T22:51:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/08/afp20260817c4ur77tv1midresbrazilelectioncampaign-12412896.webp",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_07eb21c20a9b",
+      "title": "Flávio diz que já prestou contas sobre filme e cobra explicações de Lula",
+      "description": "O candidato do PL à Presidência da República, Flávio Bolsonaro, afirmou nesta quinta-feira (20/8) que já apresentou esclarecimentos sobre os...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7483903-flavio-diz-que-ja-prestou-contas-sobre-filme-e-cobra-explicacoes-de-lula.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-08-20T17:07:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_b2dff5def081",
@@ -190,6 +199,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_8e2cb90817f7",
+      "title": "Flávio silencia sobre R$ 61 milhões e desvia foco para Lulinha",
+      "description": "Senador ignora cobrança por promessa de esclarecer doação milionária de Daniel Vorcaro, enquanto inquérito contra filho de Lula permanecerá.",
+      "url": "https://www.metropoles.com/blog-do-noblat/ricardo-noblat/flavio-silencia-sobre-r-61-milhoes-e-desvia-foco-para-lulinha",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-21T07:30:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_53a79da2c966",
       "title": "Flávio Bolsonaro ergue picanha, vê protestos e diz que Dark Horse é ‘página virada’ em 1ª agenda em SP",
       "description": "Flávio Bolsonaro ergue picanha, vê protestos e diz que Dark Horse é 'página virada' em agenda em SP. O candidato do PL à presidência visitou...",
@@ -218,18 +241,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_588e0cec9011",
-      "title": "O que significa Dark Horse, termo ligado a Flávio e Jair Bolsonaro",
-      "description": "Termo popular no inglês, Dark Horse é o título da cinebiografia de Jair Bolsonar e voltou a ser assunto na campanha de Flávio.",
-      "url": "https://www.metropoles.com/entretenimento/o-que-significa-dark-horse-termo-ligado-a-flavio-e-jair-bolsonaro",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-20T19:14:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_54623e950fb0",
+      "title": "Caso Fábio Luís afeta campanha eleitoral e praticamente empata disputa entre Lula e Flávio Bolsonaro",
+      "description": "Diferença entre o presidente e o senador teria recuado de uma faixa de sete a dez pontos para apenas dois a três pontos, segundo pesquisas...",
+      "url": "https://www.brasil247.com/poder/caso-fabio-luis-afeta-campanha-eleitoral-e-praticamente-empata-disputa-entre-lula-e-flavio-bolsonaro/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-08-21T07:26:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_f266bb5c5d24",
@@ -286,20 +309,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_54623e950fb0",
-      "title": "Caso Fábio Luís afeta campanha eleitoral e praticamente empata disputa entre Lula e Flávio Bolsonaro",
-      "description": "Diferença entre o presidente e o senador teria recuado de uma faixa de sete a dez pontos para apenas dois a três pontos, segundo pesquisas...",
-      "url": "https://www.brasil247.com/poder/caso-fabio-luis-afeta-campanha-eleitoral-e-praticamente-empata-disputa-entre-lula-e-flavio-bolsonaro/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-08-21T07:26:00+00:00",
-      "postedLabel": "4 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     },
     {
       "id": "article_1502db98f5a6",
