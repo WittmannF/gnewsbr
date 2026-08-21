@@ -3,35 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIcUlucEVSRW1sSDA4N3pKd3B5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIcUlucEVSRW1sSDA4N3pKd3B5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-5": 69
+      "topic-5": 70,
+      "topic-8": 25
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 69,
-    "bestSeedRank": 69,
+    "firstSeenRank": 70,
+    "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Notícias sobre BC • crédito",
   "summary": "O aumento da inadimplência no Brasil é generalizado – e o ciclo de deterioração está longe de terminar, o Citi disse num relatório enviado...",
-  "topic": "Crédito · Bancos",
+  "topic": "Inadimplência · Crédito",
   "topicKeywords": [
+    "inadimplência",
     "crédito",
     "bancos",
-    "inadimplência",
     "alerta",
     "citi",
     "trimestre"
   ],
   "imageUrl": "https://s2-valor.glbimg.com/nUjpMXZXL_l8HQcZgbBzwfNDdzw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/3/V/3B71lbTdq8xBcyiAEtZw/233915050.jpg",
   "publishedAt": "2026-07-02T07:00:00+00:00",
-  "updatedAt": "2026-08-21T10:27:06.779010+00:00",
+  "updatedAt": "2026-08-21T11:26:37.654754+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,20 +81,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_7d2380132b34",
-      "title": "Grandes bancos se blindam contra cenário econômico turvo e ampliam provisão contra calotes",
-      "description": "Com Selic ainda alta e inflação persistente, principais bancos do País aumentam provisões contra devedores duvidosos, refletindo um mercado...",
-      "url": "https://www.estadao.com.br/economia/grandes-bancos-blindam-cenario-economico-turvo-ampliam-provisao-calotes/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-18T08:30:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/QN6AHP5PONDZXJNRUCYK7VSKQM.jpeg?quality=80&auth=8f7f1df332934889b5e12ad5f048fae4b1ed378e4918f6f88258b853fd03e218&width=1200&height=630&focal=2980,2119",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_fcff57c16afc",
       "title": "Bancos esperam deterioração da inadimplência no terceiro trimestre apesar do Desenrola",
       "description": "BRASÍLIA, 20 Ago (Reuters) - A inadimplência deve seguir em processo de deterioração no terceiro trimestre deste ano, ainda que em menor...",
@@ -115,7 +104,7 @@
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-08-20T13:04:09+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2019/06/inadimplencia.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -156,10 +145,24 @@
       "sourceCanonical": "Money Times",
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-08-20T10:35:37+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_7d2380132b34",
+      "title": "Grandes bancos se blindam contra cenário econômico turvo e ampliam provisão contra calotes",
+      "description": "Com Selic ainda alta e inflação persistente, principais bancos do País aumentam provisões contra devedores duvidosos, refletindo um mercado...",
+      "url": "https://www.estadao.com.br/economia/grandes-bancos-blindam-cenario-economico-turvo-ampliam-provisao-calotes/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-18T08:30:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e3c4434360fa",
@@ -171,20 +174,6 @@
       "sourceDomain": "ouniversodatv.com",
       "publishedAt": "2026-08-20T01:57:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_f0631fe4260b",
-      "title": "Mesmo com o Desenrola, bancos fazem alerta para o 3º trimestre; veja o que pode pressionar o crédito",
-      "description": "Bancos preveem piora da inadimplência no terceiro trimestre mesmo com o Desenrola. Veja o que pode restringir o crédito para consumidores e...",
-      "url": "https://ndmais.com.br/economia/inadimplencia-no-terceiro-trimestre-preocupa-bancos/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-08-21T00:01:18+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -202,6 +191,34 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_989c8f90d4ed",
+      "title": "Endividamentos continuam no segundo semestre!",
+      "description": "Mesmo com a nova etapa do Desenrola em andamento, as diversas instituições financeiras e os bancos estão menos otimistas com o cenário de...",
+      "url": "https://www.agazetabahia.com/tomas/50963/endividamentos-continuam-no-segundo-semestre-21-08-2026/",
+      "source": "aGazeta Bahia",
+      "sourceCanonical": "aGazeta Bahia",
+      "sourceDomain": "agazetabahia.com",
+      "publishedAt": "2026-08-21T10:49:25+00:00",
+      "postedLabel": "37 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f0631fe4260b",
+      "title": "Mesmo com o Desenrola, bancos fazem alerta para o 3º trimestre; veja o que pode pressionar o crédito",
+      "description": "Bancos preveem piora da inadimplência no terceiro trimestre mesmo com o Desenrola. Veja o que pode restringir o crédito para consumidores e...",
+      "url": "https://ndmais.com.br/economia/inadimplencia-no-terceiro-trimestre-preocupa-bancos/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-08-21T00:01:18+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2aa5766682a9",
@@ -297,20 +314,6 @@
       "sourceDomain": "opetroleo.com.br",
       "publishedAt": "2026-08-20T23:34:07+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_b1d42736ae05",
-      "title": "Grandes bancos brasileiros recuam do crédito sem garantia e reduzem exposição a clientes de baixa renda",
-      "description": "Itaú, Bradesco, Santander e BB migram para crédito com garantia e clientes de alta renda. Comprometimento recorde de 50% da renda familiar...",
-      "url": "https://blocktrends.com.br/bancos-cortam-credito-baixa-renda-garantias/",
-      "source": "BlockTrends",
-      "sourceCanonical": "BlockTrends",
-      "sourceDomain": "blocktrends.com.br",
-      "publishedAt": "2026-08-15T21:32:25+00:00",
-      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
