@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pEbTlYc0VSRjRDQWF4OEpZUTB5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pEbTlYc0VSRjRDQWF4OEpZUTB5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 60
+      "topic-3": 45,
+      "topic-5": 50
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/bww0xiLidEmj6l1e6nNDpyF-98g=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/G/d/Qy4eGaQLeFAY5m2X9gGg/foto21leg-101-ab5-e1.jpg",
   "publishedAt": "2026-08-17T16:52:11+00:00",
-  "updatedAt": "2026-08-21T16:21:25.908662+00:00",
-  "sourceCount": 4,
-  "articleCount": 4,
+  "updatedAt": "2026-08-21T17:22:17.765616+00:00",
+  "sourceCount": 5,
+  "articleCount": 5,
   "articles": [
     {
       "id": "article_9b26f0ca6806",
@@ -78,6 +81,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_ff9853a78696",
+      "title": "STJ afasta o ICMS-Difal da base de cálculo do PIS e da Cofins",
+      "description": "A 1ª Seção do Superior Tribunal de Justiça (STJ) concluiu julgamento sob o rito dos recursos repetitivos e fixou entendimento de que o...",
+      "url": "https://www.hondatar.com.br/stj-afasta-o-icms-difal-da-base-de-calculo-do-pis-e-da-cofins/",
+      "source": "Honda, Teixeira, Rocha Advogados",
+      "sourceCanonical": "Honda, Teixeira, Rocha Advogados",
+      "sourceDomain": "hondatar.com.br",
+      "publishedAt": "2026-08-21T16:41:04+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_6acb84f2f0c2",
       "title": "Artigo: Exclusão do ICMS-ST da base de cálculo do PIS e da Cofins",
       "description": "Entenda como a apuração do ICMS e a exclusão do ICMS-ST do PIS/COFINS podem ser feitas sem identificar cada mercadoria vendida.",
@@ -86,7 +103,7 @@
       "sourceCanonical": "BNews",
       "sourceDomain": "bnews.com.br",
       "publishedAt": "2026-08-17T16:52:11+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": "https://www.bnews.com.br/media/_versions/2026/08/whatsapp-image-2026-08-17-at-134950_widexl.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -97,23 +114,24 @@
     "max": 6,
     "average": 5.5,
     "knownCount": 2,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 20,
     "spectrumBalance": 19,
     "headlineDivergence": 73,
-    "confidence": 59
+    "confidence": 61
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
