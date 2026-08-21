@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 6
+      "topic-2": 7
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
+    "firstSeenRank": 7,
+    "bestSeedRank": 7,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,13 +27,13 @@
     "câncer",
     "pilotos",
     "risco",
-    "estudo"
+    "maior"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/XoI4A8CwvCk-NXhPJIVPFxPzn5Y=/4161x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/6/tNeA4dSgqAIBw0nMJ9sQ/ap26230530732293.jpg",
   "publishedAt": "2026-08-17T16:11:43+00:00",
-  "updatedAt": "2026-08-21T11:18:13.308478+00:00",
-  "sourceCount": 10,
-  "articleCount": 10,
+  "updatedAt": "2026-08-21T12:19:29.117311+00:00",
+  "sourceCount": 11,
+  "articleCount": 11,
   "articles": [
     {
       "id": "article_d8b488b51661",
@@ -44,7 +44,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-21T08:04:37+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/XoI4A8CwvCk-NXhPJIVPFxPzn5Y=/4161x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/6/tNeA4dSgqAIBw0nMJ9sQ/ap26230530732293.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -58,7 +58,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-08-21T09:58:14+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/12/aviao_viajar.jpg?w=1000&h=630&crop=1",
       "spectrumScore": 9,
       "bucket": "right"
@@ -148,6 +148,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_644cd6bd1803",
+      "title": "Pilotos e comissários têm maior risco de morrer de câncer ligado à radiação; entenda",
+      "description": "Estudo nos EUA aponta que pilotos e comissários têm maior risco de morrer de cânceres ligados à radiação cósmica em voos.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/pilotos-comissarios-risco-morte-cancer-radiacao/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-08-21T11:29:05+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_432567623960",
       "title": "Câncer em pilotos e comissários: maior mortalidade ligada à radiação",
       "description": "Pilotos e comissários de bordo tiveram as maiores proporções de mortes por cânceres ligados à radiação entre 503 ocupações, mostra estudo da...",
@@ -177,13 +191,13 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 9,
-    "average": 5.8,
-    "knownCount": 5,
+    "average": 5.17,
+    "knownCount": 6,
     "unknownCount": 5,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 3,
       "centerRight": 0,
@@ -192,13 +206,14 @@
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 80
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
+    "confidence": 85
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
