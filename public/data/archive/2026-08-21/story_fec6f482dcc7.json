@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 42
+      "topic-3": 43
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "firstSeenRank": 43,
+    "bestSeedRank": 43,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "ensino",
     "médio",
     "pública",
-    "matemática",
     "alunos",
-    "aprendizagem"
+    "aprendizagem",
+    "matemática"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/09/sala_de_aula_rio.png?w=1170&h=630&crop=1",
   "publishedAt": "2026-04-01T07:00:00+00:00",
-  "updatedAt": "2026-08-21T13:32:05.940997+00:00",
+  "updatedAt": "2026-08-21T14:24:56.150482+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -62,6 +62,20 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/LYROVERQ3BEMZFHQ4THVBQHCHM.jpg?quality=80&auth=f0ae555282c38912a2a875d0a4909c2f6ecb69082d1494ceaa31a9526e8681c7&width=1200&height=630&focal=4280,2299",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_aeab06761093",
+      "title": "Educação é um processo cumulativo e avaliações, muitas vezes, desconsideram esse fato, diz professor",
+      "description": "Menos de um em cada dez estudantes da rede pública termina o ensino médio com aprendizagem adequada em matemática, segundo estudo do Todos...",
+      "url": "https://www.brasildefato.com.br/2026/08/21/educacao-e-um-processo-cumulativo-e-avaliacoes-muitas-vezes-desconsideram-esse-fato-diz-professor/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-08-21T13:33:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/08/foto-divulgcao-banco-de-imagem-1b451053.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_00c930a1da7b",
@@ -101,7 +115,7 @@
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-20T23:55:02+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/zEDin9eLZwJW94KavfOGgtTSwSo=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/6/sIrL1DTEauglHnH0tujQ/globo-canal-4-20260820-2000-frame-90733.jpeg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -198,7 +212,7 @@
       "sourceCanonical": "Jornal O Sul",
       "sourceDomain": "osul.com.br",
       "publishedAt": "2026-08-21T07:59:26+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -300,45 +314,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_90f1f0e8bc4e",
-      "title": "“O Brasil precisa ter mais atenção com a matemática”, afirma especialista",
-      "description": "Mesmo com avanços no Ideb, aprendizagem em Matemática segue baixa e preocupa especialistas desde os primeiros anos escolares.",
-      "url": "https://tribunaonline.com.br/educacao/o-brasil-precisa-ter-mais-atencao-com-a-matematica-afirma-especialista-328609",
-      "source": "Tribuna Online",
-      "sourceCanonical": "Tribuna Online",
-      "sourceDomain": "tribunaonline.com.br",
-      "publishedAt": "2026-08-17T18:24:26+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 7,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
