@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxOFBicUVSR19OWUpUWl8yblNTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxOFBicUVSR19OWUpUWl8yblNTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-6"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 23
+      "topic-5": 70,
+      "topic-6": 29
     },
-    "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 70,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/gol-flamengo-cruzeiro-libertadores-e1787192536486.jpeg?w=1200&h=630&crop=1",
   "publishedAt": "2026-08-19T15:40:00+00:00",
-  "updatedAt": "2026-08-21T14:34:29.482259+00:00",
+  "updatedAt": "2026-08-21T15:32:17.262029+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,11 +57,11 @@
       "title": "Arrascaeta chega a 100 jogos na Libertadores, é decisivo e ganha elogios de Jardim: \"Fantástico\"",
       "description": "A Libertadores é sinônimo de decisão para Arrascaeta. Em mais uma noite de protagonismo, o camisa 10 do Flamengo atingiu uma marca histórica...",
       "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/20/arrascaeta-chega-a-100-jogos-na-libertadores-e-decisivo-e-ganha-elogios-de-jardim-fantastico.ghtml",
-      "source": "GE",
-      "sourceCanonical": "GE",
+      "source": "ge",
+      "sourceCanonical": "ge",
       "sourceDomain": "ge.globo.com",
       "publishedAt": "2026-08-20T15:00:08+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -106,20 +109,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_fe9f54f524d9",
-      "title": "'Recital de futebol do Flamengo': Colunistas analisam classificação",
-      "description": "Flamengo: Arnaldo Ribeiro, Casagrande e Julio Gomes destacam Pedro, Arrascaeta e Samuel Lino na classificação.",
-      "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/20/recital-de-futebol-do-flamengo-colunistas-analisam-classificacao.ghtm",
-      "source": "UOL",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "uol.com.br",
-      "publishedAt": "2026-08-20T12:50:45+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://conteudo.imguol.com.br/c/esporte/3c/2026/08/19/arrascaeta-e-pedro-celebram-gol-do-flamengo-sobre-o-cruzeiro-em-jogo-da-libertadores-1787192093654_v2_615x300.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_52830f7f7621",
       "title": "Show do Flamengo na Libertadores, e vitória bem palmeirense em Assunção",
       "description": "Flamengo contra rapa, de novo?",
@@ -134,18 +123,32 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_614aa3df491b",
-      "title": "Redenção de Lino em Flamengo x Cruzeiro repercute: 'Com crueldade'",
-      "description": "Samuel Lino foi o responsável por marcar o gol da vitória do Flamengo sobre o Cruzeiro por 2 a 1, pelas oitavas de final da Libertadores.",
-      "url": "https://www.lance.com.br/fora-de-campo/redencao-de-lino-em-flamengo-x-cruzeiro-repercute-com-crueldade.html",
-      "source": "Lance!",
-      "sourceCanonical": "Lance!",
-      "sourceDomain": "lance.com.br",
-      "publishedAt": "2026-08-20T13:08:21+00:00",
+      "id": "article_fe9f54f524d9",
+      "title": "'Recital de futebol do Flamengo': Colunistas analisam classificação",
+      "description": "Flamengo: Arnaldo Ribeiro, Casagrande e Julio Gomes destacam Pedro, Arrascaeta e Samuel Lino na classificação.",
+      "url": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/20/recital-de-futebol-do-flamengo-colunistas-analisam-classificacao.ghtm",
+      "source": "UOL",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "uol.com.br",
+      "publishedAt": "2026-08-20T12:50:45+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://conteudo.imguol.com.br/c/esporte/3c/2026/08/19/arrascaeta-e-pedro-celebram-gol-do-flamengo-sobre-o-cruzeiro-em-jogo-da-libertadores-1787192093654_v2_615x300.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_4f0a6dc8645c",
+      "title": "Artur Jorge terá que preocupar com cinco jogadores do Cruzeiro",
+      "description": "O Cruzeiro volta a campo neste sábado (22), poucos dias após ser eliminado pelo Flamengo nas oitavas de final da Copa Libertadores.",
+      "url": "https://www.terra.com.br/esportes/cruzeiro/artur-jorge-tera-que-preocupar-com-cinco-jogadores-do-cruzeiro,4d955f31597cbf915bcfcf19287c0accekhyrchv.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-21T14:59:00+00:00",
+      "postedLabel": "33 minutos atrás",
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/21/1287534308-artur-jorge-cruzeiro.png",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_cabc8b30e3ef",
@@ -162,18 +165,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b5271f5356f3",
-      "title": "Jonathan Jesus desfalca o Cruzeiro contra o Flamengo",
-      "description": "Raposa volta ao Brasileirão após deixar a Libertadores e terá mudanças para enfrentar o time carioca em \"reencontro\"",
-      "url": "https://www.terra.com.br/esportes/cruzeiro/jonathan-jesus-desfalca-o-cruzeiro-contra-o-flamengo,fe860f25c73a6d2c4b3aeaf70ed2f1921swxypi0.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-21T00:50:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/21/65447829-jonathan-jesus-610x400.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_614aa3df491b",
+      "title": "Redenção de Lino em Flamengo x Cruzeiro repercute: 'Com crueldade'",
+      "description": "Samuel Lino foi o responsável por marcar o gol da vitória do Flamengo sobre o Cruzeiro por 2 a 1, pelas oitavas de final da Libertadores.",
+      "url": "https://www.lance.com.br/fora-de-campo/redencao-de-lino-em-flamengo-x-cruzeiro-repercute-com-crueldade.html",
+      "source": "LANCE!",
+      "sourceCanonical": "LANCE!",
+      "sourceDomain": "lance.com.br",
+      "publishedAt": "2026-08-20T13:08:21+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4feb4984c6d0",
@@ -190,20 +193,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0dab6cac9c14",
-      "title": "Flamengo x Cruzeiro na Libertadores: onde assistir, horário e escalações",
-      "description": "Equipes se enfrentam nesta quarta-feira, 19, no Maracanã, pelo jogo de volta das oitavas de final. Saiba como assistir à transmissão ao...",
-      "url": "https://veja.abril.com.br/esporte/flamengo-x-cruzeiro-na-libertadores-onde-assistir-horario-e-escalacoes/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-08-19T15:40:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_8de7a068805f",
       "title": "Decisivo pelo Flamengo, Arrascaeta manda recado ao Cruzeiro após vitória",
       "description": "O camisa 10 uruguaio fez um dos gols do Rubro-Negro nesta quarta (19), no Maracanã, pela Copa Libertadores.",
@@ -216,6 +205,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_0dab6cac9c14",
+      "title": "Flamengo x Cruzeiro na Libertadores: onde assistir, horário e escalações",
+      "description": "Equipes se enfrentam nesta quarta-feira, 19, no Maracanã, pelo jogo de volta das oitavas de final. Saiba como assistir à transmissão ao...",
+      "url": "https://veja.abril.com.br/esporte/flamengo-x-cruzeiro-na-libertadores-onde-assistir-horario-e-escalacoes/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-08-19T15:40:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_07d32a43d6a6",
@@ -274,6 +277,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_d58540b4bc29",
+      "title": "Cruzeiro x Flamengo: odds, palpites e principais informações do jogo de 22/08/2026",
+      "description": "Duelo de peso no Brasileirão: Cruzeiro e Flamengo se enfrentam em 22/08. Veja os palpites, odds e informações da partida.",
+      "url": "https://www.brasil247.com/sites/promocoes/cruzeiro-x-flamengo-brasileirao-22-08-2026/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-08-21T15:14:18+00:00",
+      "postedLabel": "17 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_45250def8921",
       "title": "A outra face do artilheiro do Flamengo: Pedro não gritou, mas foi decisivo no confronto com o Cruzeiro",
       "description": "O atacante, maior artilheiro da CONMEBOL Libertadores desde 2022, com 24 gols, participou dos dois tentos do 2 a 1 sobre o Cruzeiro.",
@@ -286,20 +303,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_d58540b4bc29",
-      "title": "Cruzeiro x Flamengo: odds, palpites e principais informações do jogo de 22/08/2026",
-      "description": "Duelo de peso no Brasileirão: Cruzeiro e Flamengo se enfrentam em 22/08. Veja os palpites, odds e informações da partida.",
-      "url": "https://www.brasil247.com/sites/promocoes/cruzeiro-x-flamengo-brasileirao-22-08-2026/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-08-20T18:16:44+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     },
     {
       "id": "article_64ff12f978d7",
