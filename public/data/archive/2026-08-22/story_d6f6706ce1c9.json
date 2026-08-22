@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 25
+      "topic-3": 26
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,14 +25,14 @@
     "defesa",
     "civil",
     "ventos",
-    "alerta",
     "vento",
-    "fortes"
+    "alerta",
+    "rajadas"
   ],
   "imageUrl": "https://s03.video.glbimg.com/x720/14886778.jpg",
   "publishedAt": "2026-08-20T17:55:00+00:00",
-  "updatedAt": "2026-08-22T11:18:46.254607+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-08-22T12:21:35.900281+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -59,7 +59,7 @@
       "sourceDomain": "macae.rj.gov.br",
       "publishedAt": "2026-08-20T17:55:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.macae.rj.gov.br/midia/noticias/62963/1787314713.jpeg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -106,6 +106,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_fb7384826439",
+      "title": "CORREÇÃO: suspensão de aulas em Barra Mansa",
+      "description": "A prefeitura de Barra Mansa suspendeu as aulas dos turnos da tarde e noite nesta sexta-feira para garantir a segurança escolar diante da...",
+      "url": "https://g1.globo.com/rj/sul-do-rio-costa-verde/noticia/2026/08/20/aulas-da-rede-municipal-de-barra-mansa-sao-suspensas-nesta-sexta-feira-devido-a-previsao-de-ventos-fortes.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-08-20T21:30:19+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://g1.globo.com/rj/sul-do-rio-costa-verde/noticia/2026/08/20/None",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_4f3ae2a80df3",
       "title": "Prefeitura de Maricá cancela aulas dos turnos da tarde e da noite devido à previsão de ventos fortes",
       "description": "A Prefeitura de Maricá informa que, em razão da previsão de condições meteorológicas adversas, as aulas dos turnos da tarde e da noite desta...",
@@ -114,7 +128,7 @@
       "sourceCanonical": "Prefeitura de Maricá",
       "sourceDomain": "marica.rj.gov.br",
       "publishedAt": "2026-08-21T12:03:41+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,7 +142,7 @@
       "sourceCanonical": "Prefeitura de Cabo Frio",
       "sourceDomain": "noticias.cabofrio.rj.gov.br",
       "publishedAt": "2026-08-21T11:36:55+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -268,7 +282,7 @@
       "sourceCanonical": "Gazeta 24 Horas Rio",
       "sourceDomain": "gazeta24horasrio.com.br",
       "publishedAt": "2026-08-21T12:03:18+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,21 +310,7 @@
       "sourceCanonical": "Diário de Petrópolis",
       "sourceDomain": "diariodepetropolis.com.br",
       "publishedAt": "2026-08-21T11:28:27+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_f5e40ffb61e1",
-      "title": "MARICÁ EMITE ALERTA DE VENTOS FORTES NESTA SEXTA-FEIRA (21/8)",
-      "description": "Defesa Civil orienta população a redobrar os cuidados diante da previsão de rajadas de até 70 km/h. A Prefeitura de Maricá alerta para a...",
-      "url": "https://jornalogoncalense.com.br/marica-emite-alerta-de-ventos-fortes-nesta-sexta-feira-21-8/",
-      "source": "O Gonçalense",
-      "sourceCanonical": "O Gonçalense",
-      "sourceDomain": "jornalogoncalense.com.br",
-      "publishedAt": "2026-08-21T14:05:03+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 6,
-    "knownCount": 2,
-    "unknownCount": 18,
+    "average": 5.67,
+    "knownCount": 3,
+    "unknownCount": 17,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 1,
+      "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 18
+      "unknown": 17
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 81
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
