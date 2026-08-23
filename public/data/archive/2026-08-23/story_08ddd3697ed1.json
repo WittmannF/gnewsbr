@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 5
+      "topic-7": 8
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
+    "firstSeenRank": 8,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/22/446375794-2026-08-20t192414z-1686795028-rc2h2na13for-rtrmadp-3-ukraine-crisis-attack-kyiv.jpg",
   "publishedAt": "2026-08-21T15:35:00+00:00",
-  "updatedAt": "2026-08-23T04:37:10.345878+00:00",
+  "updatedAt": "2026-08-23T05:32:18.506634+00:00",
   "sourceCount": 14,
   "articleCount": 17,
   "articles": [
@@ -50,20 +50,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_751afbc50b19",
-      "title": "França anuncia envio de mísseis interceptadores à Ucrânia",
-      "description": "O presidente da França, Emmanuel Macron, anunciou neste sábado (22) o envio de novos mísseis \"interceptadores\" para a Ucrânia, com o...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/22/presidente-da-franca-anuncia-envio-de-misseis-interceptadores-a-ucrania.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-08-22T14:52:54+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_358080447e4d",
       "title": "Após ataques russos matarem 23 na Ucrânia, Macron anuncia envio de mísseis interceptadores a Kiev",
       "description": "Presidente da França fala em dotar Kiev 'dos meios necessários para defender seu céu'; ofensiva ucraniana matou ao menos seis em solo russo...",
@@ -78,18 +64,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_751afbc50b19",
+      "title": "França anuncia envio de mísseis interceptadores à Ucrânia",
+      "description": "O presidente da França, Emmanuel Macron, anunciou neste sábado (22) o envio de novos mísseis \"interceptadores\" para a Ucrânia, com o...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/08/22/presidente-da-franca-anuncia-envio-de-misseis-interceptadores-a-ucrania.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-08-22T14:52:54+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_1188ed848119",
       "title": "Ministro alemão visita Ucrânia em meio a ofensiva russa",
       "description": "Ministro das Relações Exteriores da Alemanha, Johann Wadephul, chegou a Kiev a poucos dias do 35º aniversário da independência da Ucrânia.",
       "url": "https://www.dw.com/pt-br/ministro-alem%C3%A3o-visita-ucr%C3%A2nia-em-meio-a-escalada-de-ataques-russos/a-78468261",
-      "source": "DW",
-      "sourceCanonical": "DW",
+      "source": "dw.com",
+      "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-22T10:51:32+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_4d57fdfda3c5",
@@ -101,7 +101,7 @@
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-08-22T20:35:26+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/HUIMCGJRKFD5ZLUQH4HME6XHIM.png?smart=true&auth=02e8f6b98feeeda03a06425281da5ad0c5483e48fade09f44da57cdc6a43cabb&width=1200&height=630",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -127,8 +127,8 @@
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-22T16:18:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-08-23T03:37:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -170,7 +170,7 @@
       "sourceCanonical": "Vero Notícias",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-08-23T03:00:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -275,28 +275,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 9,
-    "average": 5.7,
-    "knownCount": 10,
-    "unknownCount": 7,
+    "average": 5.55,
+    "knownCount": 11,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 8,
       "centerRight": 1,
       "right": 1,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
