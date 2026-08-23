@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkM01qdEVSR0JYTmFCTmYzdFVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkM01qdEVSR0JYTmFCTmYzdFVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 4
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula e Flávio medem forças com atos simultâneos no Rio neste sábado",
   "summary": "Os candidatos à Presidência Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) cumprem agendas de campanha simultâneas no Rio de Janeiro...",
@@ -26,12 +32,12 @@
     "rio",
     "flávio",
     "segurança",
-    "paes",
-    "sábado"
+    "ato",
+    "paes"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/2Ib0FYDcSogHo8mhQWaKvqh1Ggw=/1238x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/0/UXgp7jQsmSA1OYww4K4w/lula-.jpeg",
   "publishedAt": "2026-08-22T08:30:00+00:00",
-  "updatedAt": "2026-08-23T03:31:43.443274+00:00",
+  "updatedAt": "2026-08-23T04:23:29.997188+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-23T01:12:15+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -120,14 +126,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_911971a8f94c",
-      "title": "Lula faz primeiro comício hoje no Rio, no simbólico estádio do Bangu",
-      "description": "Em grande ato político de campanha, presidente estará ao lado de Eduardo Paes e Benedita da Silva.",
-      "url": "https://pt.org.br/lula-faz-primeiro-comicio-hoje-no-rio-no-simbolico-estadio-do-bangu/",
+      "id": "article_77998b8de5fc",
+      "title": "Pres-Lula-Ato-Politico-em-Bangu-RJ-RicardoStuckert-14",
+      "description": "Conheça nossa história, filie-se e leia notas oficiais e notícias sobre o Governo Lula, política, economia, entre outros temas.",
+      "url": "https://pt.org.br/minha-primeira-obra-sera-ajudar-a-recuperar-o-rio-de-janeiro-diz-lula-a-eduardo-paes/pres-lula-ato-politico-em-bangu-rj-ricardostuckert-14/",
       "source": "Partido dos Trabalhadores",
       "sourceCanonical": "Partido dos Trabalhadores",
       "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-08-22T12:27:00+00:00",
+      "publishedAt": "2026-08-22T20:49:21+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -148,6 +154,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_d2cf7aafd115",
+      "title": "‘A gente investe em escola hoje ou em cadeia amanhã’, diz Lula em comício no Rio",
+      "description": "O candidato à reeleição para a Presidência, Luiz Inácio Lula da Silva (PT), participou, neste sábado (22), do primeiro comício de sua...",
+      "url": "https://www.brasildefato.com.br/2026/08/22/a-gente-investe-em-escola-hoje-ou-em-cadeia-amanha-diz-lula-em-comicio-no-rio/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-08-22T18:04:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_379faf9843a9",
       "title": "Lula e Flávio Bolsonaro lançam aliados no Rio e defendem medidas contra facções",
       "description": "Candidatos à Presidência da República, Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) participaram, neste sábado (22), de comícios...",
@@ -160,20 +180,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_e309b624ab59",
-      "title": "Eleições 2026: veja como foi o sábado dos candidatos a presidente",
-      "description": "Lula e Flávio Bolsonaro participam de atos no Rio de Janeiro.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/elei%C3%A7%C3%B5es/eleicoes-2026-veja-como-foi-o-sabado-dos-candidatos-a-presidente-1.1741423",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-23T00:50:17+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_cad47a2c56fa",
@@ -190,14 +196,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_481b6e606596",
-      "title": "PL tenta evitar voto casado em Flávio e Paes e aposta em ataques ao candidato do PSD",
-      "description": "Candidatos do PL do Rio de Janeiro estão usando o evento do partido na manhã deste sábado, 22, para desestimular o voto em Eduardo Paes...",
-      "url": "https://www.terra.com.br/noticias/eleicoes/pl-tenta-evitar-voto-casado-em-flavio-e-paes-e-aposta-em-ataques-ao-candidato-do-psd,059e9c6ea7d73fb3b9a646e88779c9b2oea6wktd.html",
+      "id": "article_893fd269134a",
+      "title": "Lula: escolha em 2026 é sobre quem quer vender as praias e quem quer o povo nelas",
+      "description": "No lançamento de sua candidatura no Rio de Janeiro, o presidente da República e candidato à ...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/lula-escolha-em-2026-e-sobre-quem-quer-vender-as-praias-e-quem-quer-o-povo-nelas,15bed3e1585f8e219b9d03b11d5fc31a65qyulrd.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-22T14:52:00+00:00",
+      "publishedAt": "2026-08-22T19:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -218,6 +224,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_e309b624ab59",
+      "title": "Eleições 2026: veja como foi o sábado dos candidatos a presidente",
+      "description": "Lula e Flávio Bolsonaro participam de atos no Rio de Janeiro.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/elei%C3%A7%C3%B5es/eleicoes-2026-veja-como-foi-o-sabado-dos-candidatos-a-presidente-1.1741423",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-23T00:50:17+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_6dabaddf3fcb",
       "title": "No Rio, Lula promete Ministério da Segurança e tirar bandidos de territórios",
       "description": "Ao lado de Paes e discursando para a militência petista, Lula disse que aliado é uma \"necessidade\" para o Rio.",
@@ -230,20 +250,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_d2cf7aafd115",
-      "title": "‘A gente investe em escola hoje ou em cadeia amanhã’, diz Lula em comício no Rio",
-      "description": "O candidato à reeleição para a Presidência, Luiz Inácio Lula da Silva (PT), participou, neste sábado (22), do primeiro comício de sua...",
-      "url": "https://www.brasildefato.com.br/2026/08/22/a-gente-investe-em-escola-hoje-ou-em-cadeia-amanha-diz-lula-em-comicio-no-rio/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-08-22T18:04:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_c44b1aa51ba3",
@@ -274,14 +280,14 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_e3ee4bd67aa0",
-      "title": "Lula: escolha em 2026 é sobre quem quer vender as praias e quem quer o povo nelas",
-      "description": "No lançamento de sua candidatura no Rio de Janeiro, o presidente da República e candidato à reeleição, Luiz Inácio Lula da Silva (PT),...",
-      "url": "https://www.folhape.com.br/politica/lula-escolha-em-2026-e-sobre-quem-quer-vender-as-praias-e-quem-quer-o/508166/",
+      "id": "article_23dafe18bf0d",
+      "title": "Cavaliere exalta parceria do Rio com Lula e diz que Paes pode reconstruir o Estado",
+      "description": "O prefeito do Rio de Janeiro, Eduardo Cavaliere (PSD), destacou que a aliança com o governo federal no mandato de Luiz Inácio Lula da Silva...",
+      "url": "https://www.folhape.com.br/politica/cavaliere-exalta-parceria-do-rio-com-lula-e-diz-que-paes-pode/508136/",
       "source": "Folha PE",
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-08-22T20:50:00+00:00",
+      "publishedAt": "2026-08-22T16:07:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,

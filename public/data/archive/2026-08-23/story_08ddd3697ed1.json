@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/08/22/446375794-2026-08-20t192414z-1686795028-rc2h2na13for-rtrmadp-3-ukraine-crisis-attack-kyiv.jpg",
   "publishedAt": "2026-08-21T15:35:00+00:00",
-  "updatedAt": "2026-08-23T03:41:48.093554+00:00",
+  "updatedAt": "2026-08-23T04:37:10.345878+00:00",
   "sourceCount": 14,
   "articleCount": 17,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Ministro alemão visita Ucrânia em meio a ofensiva russa",
       "description": "Ministro das Relações Exteriores da Alemanha, Johann Wadephul, chegou a Kiev a poucos dias do 35º aniversário da independência da Ucrânia.",
       "url": "https://www.dw.com/pt-br/ministro-alem%C3%A3o-visita-ucr%C3%A2nia-em-meio-a-escalada-de-ataques-russos/a-78468261",
-      "source": "dw.com",
-      "sourceCanonical": "DW (Brasil)",
+      "source": "DW",
+      "sourceCanonical": "DW",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-22T10:51:32+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4d57fdfda3c5",
@@ -101,7 +101,7 @@
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-08-22T20:35:26+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/HUIMCGJRKFD5ZLUQH4HME6XHIM.png?smart=true&auth=02e8f6b98feeeda03a06425281da5ad0c5483e48fade09f44da57cdc6a43cabb&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -138,8 +138,8 @@
       "title": "França vai fornecer novos mísseis intercetores à Ucrânia, diz Macron",
       "description": "É crucial fornecer à Ucrânia todos os meios necessários para defender o seu espaço aéreo e travar esta agressão”, escreveu Macron numa...",
       "url": "https://pt.euronews.com/my-europe/2026/08/22/franca-vai-fornecer-novos-misseis-intercetores-a-ucrania-diz-macron",
-      "source": "Euronews",
-      "sourceCanonical": "Euronews",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-08-22T14:35:24+00:00",
       "postedLabel": "hoje",
@@ -275,29 +275,28 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 5,
     "max": 9,
-    "average": 5.55,
-    "knownCount": 11,
-    "unknownCount": 6,
+    "average": 5.7,
+    "knownCount": 10,
+    "unknownCount": 7,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 8,
       "centerRight": 1,
       "right": 1,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
