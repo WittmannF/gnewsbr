@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzcmZfcEVSRXYyVTRjSHMzWjVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzcmZfcEVSRXYyVTRjSHMzWjVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 13
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 12
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 13,
-    "bestSeedRank": 13,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Irã ameaça retaliar países que apoiarem sanções dos EUA",
   "summary": "O presidente do Irã, Masoud Pezeshkian, afirmou que o mundo aceitou a vitória iraniana sobre os Estados Unidos, em meio a tensões crescentes...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2024/09/capturar_74.jpg",
   "publishedAt": "2026-08-20T09:28:12+00:00",
-  "updatedAt": "2026-08-23T02:51:33.356318+00:00",
+  "updatedAt": "2026-08-23T03:30:30.100522+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -142,7 +148,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-22T23:58:41+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -292,14 +298,14 @@
       "title": "Trump anuncia \"guerra econômica\" contra o Irã",
       "description": "Em meio a impasse militar e diplomático, presidente dos EUA anuncia uma nova ofensiva econômica contra o Irã, alertando ainda países que...",
       "url": "https://www.dw.com/pt-br/trump-anuncia-guerra-econ%C3%B4mica-contra-o-ir%C3%A3/a-78439887",
-      "source": "DW",
-      "sourceCanonical": "DW",
+      "source": "dw.com",
+      "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-20T09:28:12+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_8b8bf4dc1a25",
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.71,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.61,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
+      "centerLeft": 2,
       "center": 7,
       "centerRight": 5,
       "right": 2,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
