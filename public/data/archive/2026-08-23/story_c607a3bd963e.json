@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJb3Jia0VSRzlyT19tV0V0QzhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJb3Jia0VSRzlyT19tV0V0QzhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 4,
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 5,
       "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Estados Unidos e Canadá elevam tensões em guerra comercial",
   "summary": "O presidente dos Estados Unidos, Donald Trump, elevou neste domingo (23) o tom contra o Canadá após o fracasso das negociações comerciais...",
@@ -27,15 +33,15 @@
   "topicKeywords": [
     "canadá",
     "trump",
-    "eua",
     "tarifas",
+    "eua",
     "comercial",
-    "guerra"
+    "retaliação"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/dLt008B3pul_wfShCLOAQ9ztt1s=/5500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/d/vBbxBKT6qpnUMIJ2qU7g/2026-01-20t154640z-1661423511-rc235jals2sl-rtrmadp-3-davos-meeting.jpg",
-  "publishedAt": "2026-08-22T08:47:39+00:00",
-  "updatedAt": "2026-08-23T22:24:09.154994+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-08-22T10:46:34+00:00",
+  "updatedAt": "2026-08-23T23:17:08.319382+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -53,20 +59,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_0a446c80e549",
-      "title": "Governo Trump diz que guerra comercial terá impacto devastador para o Canadá",
-      "description": "Presidente americano afirma que vizinho quer benefícios de ser um estado dos EUA, sem ser.",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/governo-trump-diz-que-guerra-comercial-tera-impacto-devastador-para-o-canada.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-08-23T15:50:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/23/17874996126a8b145c9b48b_1787499612_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_84733379b863",
       "title": "Quais produtos canadenses serão atingidos pelas tarifas de 50% de Trump? Alguns itens são estranhos",
       "description": "Casacos impermeáveis e paletós. Bandeiras nacionais. Alguns enfeites de Natal. E 36 tipos diferentes de compensado. As listas com centenas...",
@@ -75,7 +67,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-23T21:10:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/23/17875187156a8b5efb7989d_1787518715_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -89,7 +81,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-23T17:42:58+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/AFP__20260810__C4CJ7RZ__v3__HighRes__UsPresidentDonaldTrumpSignsExecutiveOrderOnVacc.jpg?quality=70&strip=info&resize=1080,565&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -104,7 +96,7 @@
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-08-23T13:26:07+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/aa28/live/becb6d00-9e49-11f1-8871-ff7211da55c9.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -117,7 +109,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-23T20:43:47+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -151,20 +143,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_9c51b6879612",
-      "title": "\"Dólar por dólar\": premiê do Canadá promete retaliação aos EUA após tarifas de Trump",
-      "description": "Medidas devem entrar em vigor no dia 8 de setembro, atingindo aço e laticínios americanos.",
-      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/08/dolar-por-dolar-premie-do-canada-promete-retaliacao-aos-eua-apos-tarifas-de-trump-cmt4uhwfh02fy013gy18s29q0.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-08-22T22:28:31+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_830e1f0e6e91",
       "title": "Canadá retaliará os EUA com tarifas sobre diversos setores, diz Carney",
       "description": "Medida ocorre após falha em acordo comercial e imposição de tarifas de 50% por Washington sobre exportações canadenses.",
@@ -179,17 +157,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_ca4b7ec45227",
-      "title": "Por que fracassou o acordo entre EUA e Canadá? Embaixador revela bastidores",
-      "description": "Representante canadense diz que textos apresentados pelos EUA divergiam do que Ottawa entendia ter sido negociado; automóveis,...",
-      "url": "https://www.infomoney.com.br/mundo/por-que-fracassou-o-acordo-entre-eua-e-canada-embaixador-revela-bastidores/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-08-23T21:02:14+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_9c51b6879612",
+      "title": "\"Dólar por dólar\": premiê do Canadá promete retaliação aos EUA após tarifas de Trump",
+      "description": "Medidas devem entrar em vigor no dia 8 de setembro, atingindo aço e laticínios americanos.",
+      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/08/dolar-por-dolar-premie-do-canada-promete-retaliacao-aos-eua-apos-tarifas-de-trump-cmt4uhwfh02fy013gy18s29q0.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-08-22T22:28:31+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -215,9 +193,23 @@
       "sourceCanonical": "Tribuna do Norte",
       "sourceDomain": "tribunadonorte.com.br",
       "publishedAt": "2026-08-23T20:14:42+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ca4b7ec45227",
+      "title": "Por que fracassou o acordo entre EUA e Canadá? Embaixador revela bastidores",
+      "description": "Representante canadense diz que textos apresentados pelos EUA divergiam do que Ottawa entendia ter sido negociado; automóveis,...",
+      "url": "https://www.infomoney.com.br/mundo/por-que-fracassou-o-acordo-entre-eua-e-canada-embaixador-revela-bastidores/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-08-23T21:02:14+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -263,20 +255,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_7fd60e752f8d",
-      "title": "Trump critica Canadá após país anunciar retaliação tarifária contra os EUA",
-      "description": "O presidente dos Estados Unidos, Donald Trump, reagiu neste domingo (23) ao anúncio de tarifas retaliatórias feito pelo primeiro-ministro do...",
-      "url": "https://noticias.r7.com/internacional/trump-critica-canada-apos-pais-anunciar-retaliacao-tarifaria-contra-os-eua-23082026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-08-23T10:46:35+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_6f2ff9be6417",
       "title": "Carney decide enfrentar Trump, apesar dos perigos",
       "description": "O primeiro-ministro canadense, Mark Carney, decidiu enfrentar o presidente americano, Donald Trump, ao rejeitar um acordo comercial...",
@@ -291,18 +269,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_2a0d150663b2",
-      "title": "EUA taxam produtos do Canadá em 50% após acordo fracassar",
-      "description": "Tarifas de 50% recaem sobre cerca de 20 bilhões de dólares em produtos canadenses. Premiê do Canadá diz que seu país vai retaliar \"dólar por...",
-      "url": "https://www.dw.com/pt-br/eua-taxam-produtos-do-canad%C3%A1-em-50-ap%C3%B3s-acordo-fracassar/a-78467702",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-08-22T08:47:39+00:00",
+      "id": "article_e85f6ff3c7b7",
+      "title": "EUA impõem tarifa de 50% sobre US$ 20 bilhões em produtos do Canadá após negociação falhar",
+      "description": "As novas tarifas devem atingir aproximadamente 5% das exportações anuais do Canadá para os Estados Unidos.",
+      "url": "https://noticias.r7.com/internacional/eua-impoem-tarifa-de-50-sobre-us-20-bilhoes-em-produtos-do-canada-apos-negociacao-fracassar-22082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-22T10:46:34+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_9510f96a2d7a",
@@ -317,18 +295,46 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_e1a70c3d1a09",
+      "title": "Tarifas de retaliação do Canadá afetarão aço e laticínios dos Estados Unidos",
+      "description": "As medidas comerciais de retaliação do Canadá após a imposição de novas tarifas pelos Estados Unidos afetarão o aço e os laticínios...",
+      "url": "https://www.folhape.com.br/economia/tarifas-de-retaliacao-do-canada-afetarao-aco-e-laticinios-dos-estados/508138/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-08-22T16:16:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_a526c95e7d2e",
+      "title": "EUA impõem tarifa de 50% ao Canadá após fracasso de negociações",
+      "description": "As novas tarifas de 50% impostas pelo presidente dos Estados Unidos, Donald Trump, sobre diversos produtos canadenses entraram em vigor a...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/eua-impoem-tarifa-de-50-ao-canada-apos-fracasso-de-negociacoes-1.1741312",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-22T16:40:16+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.05,
+    "average": 5.1,
     "knownCount": 20,
     "unknownCount": 0,
     "buckets": {
       "left": 2,
-      "centerLeft": 5,
-      "center": 9,
+      "centerLeft": 4,
+      "center": 10,
       "centerRight": 3,
       "right": 1,
       "unknown": 0
