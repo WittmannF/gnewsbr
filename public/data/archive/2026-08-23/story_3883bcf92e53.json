@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxNjkzcUVSRmdqNzdhS05jVmJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxNjkzcUVSRmdqNzdhS05jVmJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 62
+      "topic-5": 68,
+      "topic-7": 24
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 62,
-    "bestSeedRank": 62,
+    "firstSeenRank": 68,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +29,14 @@
     "trump",
     "pelo",
     "esposa",
-    "prisão",
-    "eleitor"
+    "eleitor",
+    "votou"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/18/17870699536a8486018a529_1787069953_3x2_rt.jpg",
   "publishedAt": "2026-08-19T03:00:57+00:00",
-  "updatedAt": "2026-08-23T17:25:24.396597+00:00",
+  "updatedAt": "2026-08-23T18:32:42.240377+00:00",
   "sourceCount": 6,
-  "articleCount": 7,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_c8340fc668d0",
@@ -72,7 +75,7 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-08-23T14:12:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/imagem-principal-ice-detem-mulher-eleitor-trump-aeroporto-17870699536a8486018a529_1787069953_3x2_rt.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -120,6 +123,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_472fac3a4cb1",
+      "title": "Eleitor que votou três vezes em Trump critica política migratória após ICE deter sua mulher",
+      "description": "Brent Jindra, vendedor do setor de tecnologia que votou três vezes no presidente Donald Trump, passou a criticar a política migratória do...",
+      "url": "https://www.diariodocentrodomundo.com.br/eleitor-trump-critica-ice-prisao-mulher/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-08-23T18:17:00+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_5f4c68ef9cd5",
       "title": "Eleitor de Trump detona ICE após prisão da esposa",
       "description": "Eleitor de Trump critica ações do ICE após a prisão da esposa russa, que tem pedido de green card em andamento nos Estados Unidos.",
@@ -137,11 +154,11 @@
   "spectrum": {
     "min": 2,
     "max": 6,
-    "average": 3.5,
-    "knownCount": 6,
+    "average": 3.29,
+    "knownCount": 7,
     "unknownCount": 1,
     "buckets": {
-      "left": 3,
+      "left": 4,
       "centerLeft": 1,
       "center": 2,
       "centerRight": 0,
@@ -153,7 +170,7 @@
     "coverageDiversity": 60,
     "spectrumBalance": 68,
     "headlineDivergence": 82,
-    "confidence": 77
+    "confidence": 82
   },
   "flags": [
     "Manchetes divergentes"
