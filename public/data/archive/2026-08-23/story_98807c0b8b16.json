@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkM01qdEVSRnI1SWdVVGlZSWVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkM01qdEVSRnI1SWdVVGlZSWVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula diz que governo não vai “matar 100 ou 200”, mas vai “prender”",
   "summary": "Em discurso no Rio de Janeiro, presidente disse que vai “tirar os bandidos do território” e devolvê-lo ao povo. Leia no Poder360.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-comicio-eduardo-paes-benedita-pedro-paulo-22-ago-2026-1200x675.jpg",
   "publishedAt": "2026-08-22T05:03:54+00:00",
-  "updatedAt": "2026-08-23T07:32:11.391275+00:00",
+  "updatedAt": "2026-08-23T08:17:42.402890+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-23T06:55:00+00:00",
-      "postedLabel": "37 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -190,20 +196,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_6dabaddf3fcb",
-      "title": "No Rio, Lula promete Ministério da Segurança e tirar bandidos de territórios",
-      "description": "Ao lado de Paes e discursando para a militência petista, Lula disse que aliado é uma \"necessidade\" para o Rio.",
-      "url": "https://veja.abril.com.br/politica/no-rio-lula-promete-ministerio-da-seguranca-e-tirar-bandidos-de-territorios/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-08-22T19:41:08+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_860a9a558422",
       "title": "Flávio e Lula fazem atos no Rio com discursos voltados à segurança",
       "description": "Na disputa pela Presidência, o presidente Luiz Inácio Lula da Silva (PT) e o senador Flávio Bolsonaro (PL) fizeram neste sábado (22) atos de...",
@@ -215,6 +207,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_6dabaddf3fcb",
+      "title": "No Rio, Lula promete Ministério da Segurança e tirar bandidos de territórios",
+      "description": "Ao lado de Paes e discursando para a militência petista, Lula disse que aliado é uma \"necessidade\" para o Rio.",
+      "url": "https://veja.abril.com.br/politica/no-rio-lula-promete-ministerio-da-seguranca-e-tirar-bandidos-de-territorios/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-08-22T19:41:08+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
