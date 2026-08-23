@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzcmZfcEVSRXYyVTRjSHMzWjVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzcmZfcEVSRXYyVTRjSHMzWjVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 12
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 10
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Irã acusa Estados Unidos de travarem guerra econômica contra o país",
   "summary": "O presidente do Irã, Masoud Pezeshkian, afirmou que o mundo aceitou a vitória iraniana sobre os Estados Unidos, em meio a tensões crescentes...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "irã",
     "eua",
-    "guerra",
     "trump",
+    "guerra",
     "sanções",
     "econômica"
   ],
   "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2024/09/capturar_74.jpg",
   "publishedAt": "2026-08-20T09:28:12+00:00",
-  "updatedAt": "2026-08-23T00:34:10.397028+00:00",
+  "updatedAt": "2026-08-23T01:44:40.687651+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-22T20:26:53+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/q_nNpJ-oM68q1GsyDVKKXdnjaMY=/3500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/U/RO5cXIRbyrnoClLyQqGA/2026-05-29t093129z-833218144-rc2wilaxyi3o-rtrmadp-3-iran-crisis-talks.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -92,18 +98,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_851b77b3c386",
-      "title": "Irã diz que vai considerar 'inimigo' qualquer país que participe da 'guerra econômica' dos EUA",
-      "description": "Últimas notícias sobre os acontecimentos do mundo. Informações sobre política, economia, cultura, cotidiano, conflitos, em todo mundo.",
-      "url": "https://www.em.com.br/internacional/2026/08/7485293-ira-diz-que-vai-considerar-inimigo-qualquer-pais-que-participe-da-guerra-economica-dos-eua.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-22T20:06:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_ba35922cfdac",
+      "title": "Irã diz que considerará inimigo qualquer país que participe da ‘guerra econômica’ dos EUA",
+      "description": "As declarações partiram de Mohsen Rezai, chefe do Conselho Supremo de Segurança Nacional.",
+      "url": "https://www.cartacapital.com.br/mundo/ira-diz-que-considerara-inimigo-qualquer-pais-que-participe-da-guerra-economica-dos-eua/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-08-22T20:35:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_9c586a9c10a8",
@@ -120,20 +126,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_ba35922cfdac",
-      "title": "Irã diz que considerará inimigo qualquer país que participe da ‘guerra econômica’ dos EUA",
-      "description": "As declarações partiram de Mohsen Rezai, chefe do Conselho Supremo de Segurança Nacional.",
-      "url": "https://www.cartacapital.com.br/mundo/ira-diz-que-considerara-inimigo-qualquer-pais-que-participe-da-guerra-economica-dos-eua/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-08-22T20:35:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_bb165ba867f7",
       "title": "Autoridades do Irã desdenham de “Dia D econômico” prometido pelos EUA",
       "description": "Autoridades iranianas reagiram às ameaças do presidente dos Estados Unidos, Donald Trump, e do secretário do Tesouro, Scott Bessent,...",
@@ -148,32 +140,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_4dc8adc285de",
-      "title": "Analise: Fala do presidente do Irã mostra visões divergentes sobre a guerra",
-      "description": "Líder iraniano tenta levar guerra no Oriente Médio a um fim, porém enfrenta pressões de oposição que não acredita em paz com os EUA.",
-      "url": "https://www.cnnbrasil.com.br/internacional/analise-fala-do-presidente-do-ira-mostra-visoes-divergentes-sobre-a-guerra/",
+      "id": "article_928fa3b05e6f",
+      "title": "Trump descreve guerra com o Irã como \"um pequeno desvio\"",
+      "description": "Presidente atribuiu inflação aos democratas e prometeu que os preços da gasolina cairão em breve.",
+      "url": "https://www.cnnbrasil.com.br/internacional/trump-descreve-guerra-com-o-ira-como-um-pequeno-desvio/",
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-22T16:00:24+00:00",
+      "publishedAt": "2026-08-22T12:31:45+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_16326247b001",
-      "title": "Irã promete resposta ‘esmagadora’ e ‘devastadora’ após EUA ameaçarem impor novas sanções econômicas",
-      "description": "Chefe do Estado-Maior das Forças Armadas do Irã diz que país viveu 'revolução industrial de defesa'; Bessent deve detalhar novas ações dos...",
-      "url": "https://www.estadao.com.br/internacional/ira-promete-resposta-esmagadora-e-devastadora-apos-eua-ameacarem-impor-novas-sancoes-economicas-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-21T17:18:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_4cc193ffcfce",
@@ -188,6 +166,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_16326247b001",
+      "title": "Irã promete resposta ‘esmagadora’ e ‘devastadora’ após EUA ameaçarem impor novas sanções econômicas",
+      "description": "Chefe do Estado-Maior das Forças Armadas do Irã diz que país viveu 'revolução industrial de defesa'; Bessent deve detalhar novas ações dos...",
+      "url": "https://www.estadao.com.br/internacional/ira-promete-resposta-esmagadora-e-devastadora-apos-eua-ameacarem-impor-novas-sancoes-economicas-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-21T17:18:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_0a76156626d5",
@@ -212,7 +204,21 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-22T23:58:41+00:00",
-      "postedLabel": "35 minutos atrás",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_851b77b3c386",
+      "title": "Irã diz que vai considerar 'inimigo' qualquer país que participe da 'guerra econômica' dos EUA",
+      "description": "Últimas notícias sobre os acontecimentos do mundo. Informações sobre política, economia, cultura, cotidiano, conflitos, em todo mundo.",
+      "url": "https://www.em.com.br/internacional/2026/08/7485293-ira-diz-que-vai-considerar-inimigo-qualquer-pais-que-participe-da-guerra-economica-dos-eua.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-08-22T20:06:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -232,18 +238,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dcbe5cbef0cb",
-      "title": "EUA afirmam que vão impor “sanções mais severas da história” ao Irã",
-      "description": "DUBAI/WASHINGTON, 21 Ago (Reuters) - O secretário do Tesouro dos EUA, Scott Bessent, afirmou que os Estados Unidos imporão “as sanções mais...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/426769-eua-afirmam-que-vao-impor-sancoes-mais-severas-da-historia-ao-ira.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-08-21T09:05:25+00:00",
+      "id": "article_96523c65c275",
+      "title": "Presidente do Irã quer fim da guerra enquanto país está em “posição vantajosa” sobre os EUA",
+      "description": "Ministério das Relações Exteriores iraniano classificou recentes declarações de Trump como \"terrorismo econômico\"",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/presidente-do-ira-quer-fim-da-guerra-enquanto-pais-esta-em-posicao-vantajosa-sobre-os-eua-1.1741002",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-21T12:14:50+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6f61f7d92e9e",
@@ -260,25 +266,25 @@
       "bucket": "right"
     },
     {
-      "id": "article_96523c65c275",
-      "title": "Presidente do Irã quer fim da guerra enquanto país está em “posição vantajosa” sobre os EUA",
-      "description": "Ministério das Relações Exteriores iraniano classificou recentes declarações de Trump como \"terrorismo econômico\"",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/presidente-do-ira-quer-fim-da-guerra-enquanto-pais-esta-em-posicao-vantajosa-sobre-os-eua-1.1741002",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-21T12:14:50+00:00",
+      "id": "article_dcbe5cbef0cb",
+      "title": "EUA afirmam que vão impor “sanções mais severas da história” ao Irã",
+      "description": "DUBAI/WASHINGTON, 21 Ago (Reuters) - O secretário do Tesouro dos EUA, Scott Bessent, afirmou que os Estados Unidos imporão “as sanções mais...",
+      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/426769-eua-afirmam-que-vao-impor-sancoes-mais-severas-da-historia-ao-ira.html",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
+      "sourceDomain": "noticiasagricolas.com.br",
+      "publishedAt": "2026-08-21T09:05:25+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e5c4e5e1f1ae",
       "title": "Trump anuncia \"guerra econômica\" contra o Irã",
       "description": "Em meio a impasse militar e diplomático, presidente dos EUA anuncia uma nova ofensiva econômica contra o Irã, alertando ainda países que...",
       "url": "https://www.dw.com/pt-br/trump-anuncia-guerra-econ%C3%B4mica-contra-o-ir%C3%A3/a-78439887",
-      "source": "DW.com",
+      "source": "dw.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-20T09:28:12+00:00",
@@ -302,15 +308,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_10153220c42b",
-      "title": "Guarda Revolucionária do Irã ameaça usar 'armas mais destrutivas' se guerra for retomada",
-      "description": "Mohebbi disse que as mudanças poderão envolver novas gerações de ogivas, maior precisão dos ataques, alcance dos mísseis ou outras...",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/08/1260427-guarda-revolucionaria-do-ira-ameaca-usar-armas-mais-destrutivas-se-guerra-for-retomada.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-08-20T18:14:31+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_bec6e6185f2d",
+      "title": "Secretário do Irã ameça retaliar países vizinhos que apoiarem Trump",
+      "description": "Chefe da segurança do Irã disse que países que cooperarem com \"guerra econômica\" dos EUA serão inimigos e que Ormuz será afetado.",
+      "url": "https://www.metropoles.com/mundo/secretario-do-ira-ameca-retaliar-paises-vizinhos-que-apoiarem-trump",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-22T21:33:00+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
