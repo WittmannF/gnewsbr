@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 22
+      "topic-8": 24
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/pm-1-sphlW.png",
   "publishedAt": "2026-08-17T11:00:00+00:00",
-  "updatedAt": "2026-08-23T13:36:45.615403+00:00",
+  "updatedAt": "2026-08-23T14:30:56.278326+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -45,7 +45,7 @@
       "sourceDomain": "farmnews.com.br",
       "publishedAt": "2026-08-22T09:10:20+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://farmnews.com.br/wp-content/uploads/2026/08/futuro-bg-22082026-4.jpg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -96,14 +96,14 @@
       "title": "Saiba como alta no preço do gado afeta o valor da carne",
       "description": "O ciclo pecuário e os custos do boi em pé influenciam o preço da carne: saiba quais cortes sofreram maior reajuste para o consumidor.",
       "url": "https://www.correiobraziliense.com.br/aqui/2026/08/21/saiba-como-alta-no-preco-do-gado-afeta-o-valor-da-carne/",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-21T11:15:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.correiobraziliense.com.br/aqui/wp-content/uploads/2026/05/carnes-no-mercado_1778244369294.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_5ee811c7e291",
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_32202cd7f3f6",
-      "title": "Divergência marcou o mercado do boi gordo e da carne bovina este mês",
-      "description": "O mercado da pecuária registrou dinâmicas contrastantes entre as cotações do boi gordo e os preços praticados para a carne bovina no atacado...",
-      "url": "https://www.agronews.tv.br/divergencia-marcou-o-mercado-do-boi-gordo-e-da-carne-bovina-este-mes",
-      "source": "agronews.tv.br",
-      "sourceCanonical": "agronews.tv.br",
-      "sourceDomain": "agronews.tv.br",
-      "publishedAt": "2026-08-20T15:29:10+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ec31860859d2",
       "title": "Reposição segue valorizada no país, mas São Paulo registra pressão sobre o boi gordo",
       "description": "Escassez de bezerros e gado magro eleva preços do gado jovem; frigoríficos paulistas operam com cautela nas escalas.",
@@ -314,28 +300,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_4b688d4cc145",
+      "title": "Preço do boi gordo cai em SP pela primeira vez em mais de um mês",
+      "description": "Após um mês de preços firmes e em alta, a cotação do boi gordo caiu em São Paulo, informa a Scot Consultoria. O preço do boi não recuava no...",
+      "url": "https://beefpoint.com.br/preco-do-boi-gordo-cai-em-sp-pela-primeira-vez-em-mais-de-um-mes/",
+      "source": "BeefPoint",
+      "sourceCanonical": "BeefPoint",
+      "sourceDomain": "beefpoint.com.br",
+      "publishedAt": "2026-08-19T11:13:25+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 7,
-    "average": 6,
-    "knownCount": 3,
-    "unknownCount": 17,
+    "average": 5.5,
+    "knownCount": 4,
+    "unknownCount": 16,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 17
+      "unknown": 16
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
-    "confidence": 84
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",
