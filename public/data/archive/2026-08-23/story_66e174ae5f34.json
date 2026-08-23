@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 27
+      "topic-7": 30
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 30,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/2026-06-28T200619Z_1_LOP327028062026RP1_RTRMADP_BASEIMAGE-960X540_UKRAINE-CRISIS-PUTIN-TALKS.jpg?w=960&h=540&crop=1",
   "publishedAt": "2026-08-18T23:38:12+00:00",
-  "updatedAt": "2026-08-23T19:33:04.567857+00:00",
+  "updatedAt": "2026-08-23T20:29:00.887273+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Crise de combustíveis chega a Moscou e ameaça logística",
       "description": "Além da falta de combustível na capital, cresce o temor com a qualidade da gasolina. Especialistas apontam danos a veículos, meses de espera nas oficinas e...",
       "url": "https://www.dw.com/pt-br/crise-de-combust%C3%ADveis-na-r%C3%BAssia-chega-a-moscou-e-amea%C3%A7a-log%C3%ADstica/a-78470981",
-      "source": "DW",
-      "sourceCanonical": "DW",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-22T16:10:32+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://static.dw.com/image/78407748_6.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_d1d3bdab088a",
@@ -80,7 +80,7 @@
     {
       "id": "article_97aaea3f6525",
       "title": "Parece Cuba, mas é Moscou: escassez de gasolina gera filas com até 80 carros em postos",
-      "description": "Ataques ucranianos contra refinarias russas atrasa produção. Racionamento e reintrodução de combustível de baixa qualidade são realidade.",
+      "description": "Apesar da Rússia continuar bombardeando Kiev e outras cidades ucranianas com intensidade furiosa, como fez na última madrugada, o...",
       "url": "https://veja.abril.com.br/mundo/parece-cuba-mas-e-moscou-escassez-de-gasolina-gera-filas-com-ate-80-carros-em-postos/",
       "source": "VEJA",
       "sourceCanonical": "VEJA",
@@ -114,7 +114,7 @@
       "sourceCanonical": "Correio da Manhã Canadá",
       "sourceDomain": "correiodamanhacanada.com",
       "publishedAt": "2026-08-23T15:23:48+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -143,7 +143,7 @@
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-08-19T17:56:14+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": "https://s2-valor.glbimg.com/WJZ4GYs-tH2L13NqCTunFdWfAZE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/2/V/E6oHjKRDSBlXLOBOKEdw/2026-08-16t090756z-1595170361-rc2kzmagu2a6-rtrmadp-3-ukraine-crisis-russia-wildberries-moscow.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -310,7 +310,7 @@
       "sourceCanonical": "Portal ABC do ABC",
       "sourceDomain": "abcdoabc.com.br",
       "publishedAt": "2026-08-22T19:45:14+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 5,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 8,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
