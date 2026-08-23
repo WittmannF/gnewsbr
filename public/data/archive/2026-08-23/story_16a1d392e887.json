@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 12
+      "topic-7": 15
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/dHnqEC071HkeGaHnkR2LGUOStZw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/O/QHxxAiRLyOxeNUAMS8hQ/afp-20260619-b7n82p9-v1-midres-belgiumeusummitdiplomacy.jpg",
   "publishedAt": "2026-08-21T15:35:00+00:00",
-  "updatedAt": "2026-08-23T15:35:36.725209+00:00",
+  "updatedAt": "2026-08-23T16:36:24.478101+00:00",
   "sourceCount": 14,
   "articleCount": 18,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Ministro alemão visita Ucrânia em meio a ofensiva russa",
       "description": "Ministro das Relações Exteriores da Alemanha, Johann Wadephul, chegou a Kiev a poucos dias do 35º aniversário da independência da Ucrânia.",
       "url": "https://www.dw.com/pt-br/ministro-alem%C3%A3o-visita-ucr%C3%A2nia-em-meio-a-escalada-de-ataques-russos/a-78468261",
-      "source": "DW",
-      "sourceCanonical": "DW",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-22T10:50:42+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_4d57fdfda3c5",
@@ -113,9 +113,9 @@
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-23T03:37:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
+      "publishedAt": "2026-08-23T11:42:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -240,7 +240,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-22T16:19:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -289,28 +289,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 9,
-    "average": 5.78,
-    "knownCount": 9,
-    "unknownCount": 9,
+    "average": 5.6,
+    "knownCount": 10,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 7,
       "centerRight": 1,
       "right": 1,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
