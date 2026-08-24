@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 67
+      "topic-6": 63
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 67,
-    "bestSeedRank": 67,
+    "firstSeenRank": 63,
+    "bestSeedRank": 63,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "corinthians",
     "intervenção",
-    "torcedores",
     "torcida",
-    "protesta",
-    "parque"
+    "torcedores",
+    "clube",
+    "protesta"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/protesto-psj.jpeg?w=1200&h=630&crop=1",
   "publishedAt": "2026-08-18T11:08:00+00:00",
-  "updatedAt": "2026-08-24T22:29:55.261824+00:00",
+  "updatedAt": "2026-08-24T23:32:16.506403+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,8 +54,8 @@
       "title": "Torcida do Corinthians protesta no Parque São Jorge: \"Por bem, por mal, intervenção judicial\"",
       "description": "Centenas de torcedores marcaram presença no terceiro protesto da semana e pediram a saída dos dirigentes, nomeados de \"ratazanas\"",
       "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/22/torcida-do-corinthians-protesta-no-parque-sao-jorge-por-bem-por-mal-intervencao-judicial.ghtml",
-      "source": "ge",
-      "sourceCanonical": "ge",
+      "source": "GE",
+      "sourceCanonical": "GE",
       "sourceDomain": "ge.globo.com",
       "publishedAt": "2026-08-22T15:05:46+00:00",
       "postedLabel": "2 dias atrás",
@@ -72,7 +72,7 @@
       "sourceCanonical": "ESPN Brasil",
       "sourceDomain": "espn.com.br",
       "publishedAt": "2026-08-22T22:58:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -170,20 +170,6 @@
       "sourceCanonical": "Gazeta Esportiva",
       "sourceDomain": "gazetaesportiva.com",
       "publishedAt": "2026-08-19T22:57:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c3827b5bf1ed",
-      "title": "Torcidas do Corinthians se unem por intervenção judicial: ‘Socorro’",
-      "description": "Ativar para ir para o player da Audima. comscore.",
-      "url": "https://esportes.r7.com/lance/torcidas-do-corinthians-se-unem-por-intervencao-judicial-socorro-19082026/",
-      "source": "R7 Esportes",
-      "sourceCanonical": "R7 Esportes",
-      "sourceDomain": "esportes.r7.com",
-      "publishedAt": "2026-08-19T20:45:50+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -202,6 +188,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_b97fb1d6403a",
+      "title": "Torcida do Corinthians faz protesto em SP para pedir ao MP intervenção judicial no clube",
+      "description": "Novos protestos já estão programados para esta quinta (20), antes do jogo contra o Rosário Central, na Neo Química Arena, e no sábado (22),...",
+      "url": "https://noticias.r7.com/jr-na-tv/video/torcida-do-corinthians-faz-protesto-em-sp-para-pedir-ao-mp-intervencao-judicial-no-clube-20082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-20T00:19:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8edd733ad76e",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 5,
-    "average": 4.56,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 7,
+    "average": 4.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 7,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
