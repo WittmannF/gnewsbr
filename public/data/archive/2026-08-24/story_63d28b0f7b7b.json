@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lqX05qcEVSSGdPa0trS3F1R2VpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lqX05qcEVSSGdPa0trS3F1R2VpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 4
+      "topic-5": 10,
+      "topic-7": 5
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 10,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "ucrânia",
     "eleições",
-    "zelensky",
     "guerra",
+    "zelensky",
     "ministro",
     "pode"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/PR6Jok3Lfb9S6pPwokwJhXQusZE=/4383x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/S/GtiizGRlavR2zgfNB03Q/2026-08-18t213957z-1489398667-rc2w4maek6wo-rtrmadp-3-ukraine-crisis-fedorov.jpg",
   "publishedAt": "2026-08-18T22:25:37+00:00",
-  "updatedAt": "2026-08-24T00:37:15.572364+00:00",
+  "updatedAt": "2026-08-24T01:54:21.507962+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -104,20 +107,6 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_eed7063d72ad",
-      "title": "Ex-ministro da Defesa ucraniano diz que Zelensky deve responder por casos de corrupção",
-      "description": "A democracia não deve ser refém de Putin”, disse Fedorov. Ex-ministro da Ucrânia argumenta que investigação deixa dúvidas sobre se Zelensky...",
-      "url": "https://www.publico.pt/2026/08/23/mundo/noticia/exministro-defesa-ucraniano-zelensky-responder-casos-corrupcao-2185853",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-08-23T14:10:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_e770ce5e1b91",
@@ -254,7 +243,7 @@
       "sourceCanonical": "Diário de Notícias",
       "sourceDomain": "dn.pt",
       "publishedAt": "2026-08-23T21:15:07+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -314,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a423f32d9014",
+      "title": "Ex-ministro da Defesa desmente impossibilidade de eleições na Ucrânia",
+      "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/08/23/965277-ex-ministro-da-defesa-desmente-impossibilidade-de-eleicoes-na-ucrania",
+      "source": "Tribuna do Agreste",
+      "sourceCanonical": "Tribuna do Agreste",
+      "sourceDomain": "tribunadoagreste.com.br",
+      "publishedAt": "2026-08-23T10:37:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.94,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.07,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
+      "centerLeft": 2,
       "center": 7,
       "centerRight": 4,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
