@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oycl96bkVSRjh1bmt2d25sTjJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oycl96bkVSRjh1bmt2d25sTjJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 14
+      "topic-3": 16,
+      "topic-5": 22
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenRank": 16,
+    "bestSeedRank": 16,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "frente",
     "fria",
     "sul",
-    "alerta",
     "ciclone",
-    "semana"
+    "alerta",
+    "vento"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/qcvWBStf6NJdfpcA9VgAluRcOeI=/577x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/2/X/A38uCVS6CYVUsFtj71tQ/tempo-24-08-26.png",
   "publishedAt": "2026-08-20T10:01:00+00:00",
-  "updatedAt": "2026-08-24T16:21:56.027640+00:00",
+  "updatedAt": "2026-08-24T17:22:15.490356+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +103,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-08-24T13:44:31+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/UEUACNULH5ACVO2UIHQNS3C5WI.jpg?smart=true&auth=7ea641855824f62029741c797106a4d241d1ba6728bcb78d1d74e13a8c780011&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -170,7 +173,7 @@
       "sourceCanonical": "Diário do Grande ABC",
       "sourceDomain": "dgabc.com.br",
       "publishedAt": "2026-08-22T17:15:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -274,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_09b2a2e0e489",
-      "title": "Chegada de frente fria: rajadas de vento já passam de 50 km/h em cidades do Estado de SP; veja onde",
-      "description": "Na capital paulista, os termômetros também devem cair bastante ao longo dos próximos dias.",
-      "url": "https://www.estadao.com.br/sao-paulo/frente-fria-rajadas-de-vento-cidades-de-sao-paulo-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-21T15:20:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_2259c7604382",
       "title": "Como no domingo, a segunda-feira e a terça em M. Claros vão ter tardes de 31 graus; mínimas ao amanhecer seguem entre 18 e 19 graus",
       "description": "Como no domingo, a segunda-feira e a terça em M. Claros vão ter tardes de 31 graus; mínimas ao amanhecer seguem entre 18 e 19 graus.",
@@ -302,15 +291,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_d0d719d3f976",
-      "title": "Fim de semana de frio: veja onde terá geada e queda de temperatura",
-      "description": "Massa de ar frio derruba termômetros no país; serras do Sul podem registrar 0°C e há alerta de ventania para o litoral do Sudeste e Bahia.",
-      "url": "https://clube.fm/noticias/fim-de-semana-de-frio-veja-onde-tera-geada-e-queda-de-temperatura",
-      "source": "Clube FM Brasil",
-      "sourceCanonical": "Clube FM Brasil",
-      "sourceDomain": "clube.fm",
-      "publishedAt": "2026-08-21T18:00:00+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_09b2a2e0e489",
+      "title": "Chegada de frente fria: rajadas de vento já passam de 50 km/h em cidades do Estado de SP; veja onde",
+      "description": "Na capital paulista, os termômetros também devem cair bastante ao longo dos próximos dias.",
+      "url": "https://www.estadao.com.br/sao-paulo/frente-fria-rajadas-de-vento-cidades-de-sao-paulo-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-21T15:20:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_e2050c637fe9",
+      "title": "Ciclone provoca mudanças climáticas em todo o Brasil",
+      "description": "Com a passagem de um ciclone extratropical e o impacto de duas massas de ar frio, o Brasil inicia a semana com um cenário de tempo nublado e temperaturas em...",
+      "url": "https://boca.com.br/clima/ciclone-provoca-mudancas-climaticas-em-todo-o-brasil",
+      "source": "boca.com.br",
+      "sourceCanonical": "boca.com.br",
+      "sourceDomain": "boca.com.br",
+      "publishedAt": "2026-08-23T16:30:11+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"

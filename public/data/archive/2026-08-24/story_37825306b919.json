@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2phN3RYaEVSSDB4Tk1KU0VSXzBTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2phN3RYaEVSSDB4Tk1KU0VSXzBTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-8"
+    "home",
+    "topic-8",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-8"
     ],
     "seedRanks": {
+      "home": 1,
+      "topstories": 1,
       "topic-8": 1
     },
-    "firstSeenSeedPage": "topic-8",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Braskem busca acordo com credores para renegociar dívida",
   "summary": "Conselho de Administração aprovou o ajuizamento, mas pedido ainda não foi protocolado na Justiça.",
@@ -27,12 +33,12 @@
     "extrajudicial",
     "pedido",
     "dívida",
-    "bilhões"
+    "aprova"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/09J2r0zoDtJx4j_d0iGn0Mh_Y1c=/1503x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/x/b/QOwIfmRpK0AEifnLEV7w/captura-de-tela-2026-08-24-083626.png",
   "publishedAt": "2026-08-24T11:26:11+00:00",
-  "updatedAt": "2026-08-24T16:42:08.421765+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-08-24T17:20:12.738637+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -44,10 +50,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-24T11:52:48+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/09J2r0zoDtJx4j_d0iGn0Mh_Y1c=/1503x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/x/b/QOwIfmRpK0AEifnLEV7w/captura-de-tela-2026-08-24-083626.png",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_5572cfa5549b",
+      "title": "Braskem: Petrobras foi fundamental para que credores aceitassem plano de recuperação; leia bastidor",
+      "description": "Com apoio da estatal, detentores de títulos de dívida tendem a apoiar reestruturação, já que, com recuperação judicial, devem perder...",
+      "url": "https://www.estadao.com.br/economia/negocios/braskem-petrobras-foi-fundamental-para-que-credores-aceitassem-plano-de-recuperacao-leia-bastidor/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-24T17:10:00+00:00",
+      "postedLabel": "10 minutos atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/GEKKIMM7FNIRRDLEYYUYIPUVMI.jpg?quality=80&auth=b61e5cc51cc77ed2fd4ced9f89d7f1fb582a037824f28ad648eed4ffe4b585fd&width=1200&height=630&focal=302,231",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e6b5f1b98d4a",
@@ -59,20 +79,6 @@
       "sourceDomain": "economia.uol.com.br",
       "publishedAt": "2026-08-24T15:41:53+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_31c9eb66ab1c",
-      "title": "Braskem chega a acordo com credores para reestruturar US$ 10 bi em dívidas, dizem fontes",
-      "description": "Cerca de US$ 7 bilhões do passivo envolvido no acordo são devidos a detentores de títulos; partes têm agora 90 dias para definir os termos...",
-      "url": "https://www.bloomberglinea.com.br/negocios/braskem-obtem-apoio-de-credores-para-reestruturacao-extrajudicial-diz-jornal/",
-      "source": "Bloomberg Línea Brasil",
-      "sourceCanonical": "Bloomberg Línea Brasil",
-      "sourceDomain": "bloomberglinea.com.br",
-      "publishedAt": "2026-08-24T11:52:42+00:00",
-      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -92,6 +98,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_83778a1ad24b",
+      "title": "B3 exclui Braskem do Ibovespa após pedido de recuperação extrajudicial",
+      "description": "A B3 informou que os ativos da Braskem (BRKM3 e BRKM5) serão excluídos de uma série de índices de ações a partir da amanhã em razão da...",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/24/b3-anuncia-exclusao-de-ativos-da-braskem-em-indices-apos-pedido-de-recuperacao-extrajudicial.htm",
+      "source": "UOL Economia",
+      "sourceCanonical": "UOL Economia",
+      "sourceDomain": "economia.uol.com.br",
+      "publishedAt": "2026-08-24T15:16:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_f0872516486d",
       "title": "BREAKING: Braskem entra em recuperação extrajudicial e ganha 90 dias contra uma RJ",
       "description": "A Braskem deve protocolar nas próximas horas um pedido de recuperação extrajudicial, numa tentativa de chegar a um acordo com bancos,...",
@@ -100,10 +120,24 @@
       "sourceCanonical": "Brazil Journal",
       "sourceDomain": "braziljournal.com",
       "publishedAt": "2026-08-24T12:06:35+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ac8dd9f4ecb5",
+      "title": "Braskem entra com pedido de recuperação extrajudicial",
+      "description": "Empresa petroquímica é controlada pela IG4 e Petrobras.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/negocios/braskem-entra-com-pedido-de-recuperacao-extrajudicial/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-24T11:55:22+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2026binary_LYNXMPEM2517N-BASEIMAGE.jpg?w=800&h=493&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2a1f7eaed4ce",
@@ -114,7 +148,7 @@
       "sourceCanonical": "NeoFeed",
       "sourceDomain": "neofeed.com.br",
       "publishedAt": "2026-08-24T13:13:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,35 +162,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-08-24T15:01:20+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://www.rbsdirect.com.br/filestore/9/8/9/6/7/1/6_ec25d06568b6eb7/6176989_5b032a89a19beed.jpg?w=1200&h=675&a=c&version=1575255600",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_ef35aa68689a",
-      "title": "Braskem pede recuperação extrajudicial: quem pode perder dinheiro com dívida de US$ 10 bilhões?",
-      "description": "Acionistas minoritários são os investidores mais vulneráveis a perdas; veja também o impacto para debenturistas e detentores de CRAs.",
-      "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/braskem-pede-recuperacao-extrajudicial-quem-pode-perder-dinheiro-com-divida-de-us-10-bilhoes/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-24T13:34:25+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/76M7RHM3MFEQFCTPCJT47PLA2A.jpg?quality=80&auth=b55e4bd7ffd4127991133ba686827bf2989847e2d5429dcfb2201c8358fcaf95&width=1200&height=630&focal=3150,1488",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_ccf759266144",
-      "title": "B3 anuncia exclusão de ativos da Braskem em índices",
-      "description": "Medida ocorre após a companhia protocolar pedido de recuperação extrajudicial, afetando diversos índices da bolsa.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/b3-anuncia-exclusao-de-ativos-da-braskem-em-indices-1.1741696",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-24T15:33:45+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -176,20 +182,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_6b2f396a90d6",
-      "title": "Ibovespa reverte fraqueza e flerta com 172 mil pontos",
-      "description": "O Ibovespa revertia a fraqueza ‌da abertura e subia nesta segunda-feira, com o noticiário corporativo ocupando os holofotes,...",
-      "url": "https://www.terra.com.br/economia/ibovespa-reverte-fraqueza-e-flerta-com-172-mil-pontos,c11f181365f62098490fae3bf8add317behid0an.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-24T13:11:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_cbbff75362e9",
       "title": "Com reparação em andamento por colapso em Maceió, Braskem aprova pedido de recuperação extrajudicial",
       "description": "A Braskem anunciou, nesta segunda-feira (24), que vai entrar com um pedido de recuperação extrajudicial para reestruturar cerca de US$ 10,9...",
@@ -204,29 +196,15 @@
       "bucket": "left"
     },
     {
-      "id": "article_34a45f87875a",
-      "title": "Com dívida bilionária, Braskem protocola pedido de recuperação extrajudicial",
-      "description": "A Braskem protocolou na madrugada desta segunda-feira (24) o pedido de recuperação extrajudicial, envolvendo dívidas de mais de US$ 10...",
-      "url": "https://jovempan.com.br/brasil/com-divida-bilionaria-braskem-protocola-pedido-de-recuperacao-extrajudicial/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-08-24T11:57:17+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_f0bcd0eb583b",
-      "title": "Braskem entra com pedido de recuperação extrajudicial",
-      "description": "Controlada por Petrobras e IG4, companhia terá 90 dias de proteção para negociar plano sobre dívida de US$ 10,9 bilhões. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/braskem-entra-com-pedido-de-recuperacao-extrajudicial/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-08-24T15:33:50+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_389ce6f04187",
+      "title": "Braskem protocola pedido de recuperação extrajudicial",
+      "description": "A Braskem protocolou, na madrugada desta segunda-feira, 24, um pedido de recuperação extrajudicial para sanar dívidas de mais de US$ 10...",
+      "url": "https://www.terra.com.br/economia/braskem-protocola-pedido-de-recuperacao-extrajudicial,d591356d9543ba942c05b0878dd4e2cf4nizsw0p.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-24T11:27:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -246,6 +224,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_f0bcd0eb583b",
+      "title": "Braskem entra com pedido de recuperação extrajudicial",
+      "description": "Controlada por Petrobras e IG4, companhia terá 90 dias de proteção para negociar plano sobre dívida de US$ 10,9 bilhões. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/braskem-entra-com-pedido-de-recuperacao-extrajudicial/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-24T15:33:50+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_3b7e3f1f15e6",
       "title": "Braskem pede recuperação extrajudicial por dívida bilionária",
       "description": "A Braskem protocolou pedido de recuperação extrajudicial para renegociar dívidas de US$ 10,9 bilhões e conter o cerco de credores. Veja os...",
@@ -254,7 +246,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-24T14:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -274,6 +266,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_34a45f87875a",
+      "title": "Com dívida bilionária, Braskem protocola pedido de recuperação extrajudicial",
+      "description": "A Braskem protocolou na madrugada desta segunda-feira (24) o pedido de recuperação extrajudicial, envolvendo dívidas de mais de US$ 10...",
+      "url": "https://jovempan.com.br/brasil/com-divida-bilionaria-braskem-protocola-pedido-de-recuperacao-extrajudicial/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-08-24T11:57:17+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_ccf759266144",
+      "title": "B3 anuncia exclusão de ativos da Braskem em índices",
+      "description": "Medida ocorre após a companhia protocolar pedido de recuperação extrajudicial, afetando diversos índices da bolsa.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/b3-anuncia-exclusao-de-ativos-da-braskem-em-indices-1.1741696",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-24T15:33:45+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_1cc0191012e5",
       "title": "Braskem pede recuperação extrajudicial para renegociar R$ 54 bi em dívidas",
       "description": "Petroquímica terá 90 dias de proteção para renegociar passivo com credores e manter operacionais as suas atividades.",
@@ -282,7 +302,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-24T13:55:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -300,32 +320,18 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_e991c73f70c7",
-      "title": "Braskem entra com pedido de recuperação extrajudicial",
-      "description": "O Conselho de Administração da petroquímica Braskem aprovou, nesta segunda-feira (24), o ajuizamento de um pedido de recuperação...",
-      "url": "https://diariodonordeste.verdesmares.com.br/negocios/braskem-entra-com-pedido-de-recuperacao-extrajudicial-1.3786473",
-      "source": "Diário do Nordeste",
-      "sourceCanonical": "Diário do Nordeste",
-      "sourceDomain": "diariodonordeste.verdesmares.com.br",
-      "publishedAt": "2026-08-24T16:08:06+00:00",
-      "postedLabel": "33 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.25,
+    "average": 5.31,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
-      "center": 8,
+      "centerLeft": 1,
+      "center": 9,
       "centerRight": 3,
       "right": 1,
       "unknown": 4
