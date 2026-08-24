@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzcHFqdEVSRWJJNGlvLWxOQWZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzcHFqdEVSRWJJNGlvLWxOQWZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula diz à RECORD que filho deve se defender de acusações e afirma que ninguém está acima da lei",
   "summary": "O presidente Luiz Inácio Lula da Silva (PT) afirmou, em entrevista exclusiva à RECORD neste domingo (23), que trata com “muita seriedade” as...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "lula",
     "lulinha",
-    "entrevista",
-    "record",
     "filho",
-    "ninguém"
+    "ninguém",
+    "entrevista",
+    "defende"
   ],
   "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/57J7YOGYVRB6RBKZ5O4KQT7VCI.jpeg?smart=true&auth=5513d3dfbe502cb9b2eb6b40200a443533a6e8fb224ecf74745871fed9de7405&width=1200&height=630",
   "publishedAt": "2026-08-14T07:00:00+00:00",
-  "updatedAt": "2026-08-24T04:33:41.757622+00:00",
+  "updatedAt": "2026-08-24T05:24:45.993308+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,16 +84,16 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_08f169a99122",
+      "id": "article_856b2266b617",
       "title": "Lula discute investigações de Lulinha em entrevista transmitida durante debate em que vai faltar",
-      "description": "Direto ao Ponto: Com Lulinha e Vorcaro, campanhas presidenciais vivem troca de chumbo. 16:20. Thumbnail do video:Direto ao Ponto: Com...",
-      "url": "https://www.estadao.com.br/politica/eleicoes/lula-discute-investigacoes-de-lulinha-em-entrevista-transmitida-durante-debate-em-que-vai-faltar/",
+      "description": "Presidente negou tentar proibir investigação contra primogênito; declaração foi feita em entrevista à Record, que vai ao ar no mesmo horário...",
+      "url": "https://www.estadao.com.br/em-alta/politica/eleicoes/lula-discute-investigacoes-de-lulinha-em-entrevista-transmitida-durante-debate-em-que-vai-faltar/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-23T19:53:00+00:00",
+      "publishedAt": "2026-08-23T20:01:37+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/F4FGKAOIMBEQNB6Z2GK2TV5EAE.png?quality=80&auth=58cea2fcf8b1164ffd495e8ad31dd4b6563e865c6cef271e91694e15072c5e33&width=1200&height=630&focal=880,320",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/F4FGKAOIMBEQNB6Z2GK2TV5EAE.png?quality=80&auth=58cea2fcf8b1164ffd495e8ad31dd4b6563e865c6cef271e91694e15072c5e33&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -100,7 +106,21 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-24T00:35:21+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_037a9de69fcb",
+      "title": "Lula defende apuração sobre Lulinha: \"Ninguém está impune se cometeu erro\"",
+      "description": "Declaração ocorreu durante entrevista à TV Record, que transmitirá integra neste domingo no mesmo horário do debate presidencial da Band;...",
+      "url": "https://www.cnnbrasil.com.br/politica/lula-defende-apuracao-sobre-lulinha-ninguem-esta-impune-se-cometeu-erro/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-23T18:29:22+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -114,7 +134,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-24T00:03:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -148,14 +168,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_037a9de69fcb",
-      "title": "Lula defende apuração sobre Lulinha: \"Ninguém está impune se cometeu erro\"",
-      "description": "Declaração ocorreu durante entrevista à TV Record, que transmitirá integra neste domingo no mesmo horário do debate presidencial da Band;...",
-      "url": "https://www.cnnbrasil.com.br/politica/lula-defende-apuracao-sobre-lulinha-ninguem-esta-impune-se-cometeu-erro/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-23T18:29:22+00:00",
+      "id": "article_11d7a72c1e42",
+      "title": "Lula diz tratar com seriedade caso de Lulinha: \"Investigue-se\"",
+      "description": "O presidente da República e candidato à reeleição, Luiz Inácio Lula da Silva, falou sobre as investigações contra o seu primogênito,...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/lula-diz-tratar-com-seriedade-caso-de-lulinha-investigue-se-1.1741538",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-23T20:39:33+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -170,7 +190,7 @@
       "sourceCanonical": "Lula | Site oficial -",
       "sourceDomain": "lula.com.br",
       "publishedAt": "2026-08-24T01:41:15+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -188,20 +208,6 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_8ac3b0b9cb5f",
-      "title": "Lula na Record: acompanhe a entrevista do presidente no Domingo Espetacular de 23/8",
-      "description": "Entrevista de Lula na Record trata de segurança, feminicídio, economia e educação, confira os principais trechos.",
-      "url": "https://tvtnews.com.br/lula-na-record-acompanhe-a-entrevista-do-lula/",
-      "source": "TVT News",
-      "sourceCanonical": "TVT News",
-      "sourceDomain": "tvtnews.com.br",
-      "publishedAt": "2026-08-23T23:12:04+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_e05fb14eebbd",
@@ -240,7 +246,7 @@
       "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-08-24T00:07:37+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -274,20 +280,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_de3d5824dac8",
-      "title": "Record ‘passa a perna’ na Band e consegue Lula no horário do debate",
-      "description": "A Record confirmou na tarde deste domingo (23) uma manobra estratégica na cobertura das Eleições 2026.",
-      "url": "https://rd1.com.br/record-passa-a-perna-na-band-e-consegue-lula-no-horario-do-debate/",
-      "source": "RD1",
-      "sourceCanonical": "RD1",
-      "sourceDomain": "rd1.com.br",
-      "publishedAt": "2026-08-23T22:57:23+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_8008c0fb2e46",
       "title": "Lula diz que Lulinha terá de provar inocência e defende investigação",
       "description": "O presidente Lula (PT) afirmou neste domingo (23) que seu filho mais velho, Fábio Luís Lula da Silva, o Lulinha, terá de provar sua...",
@@ -314,21 +306,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ac7ed094af31",
+      "title": "Em meio ao caso Lulinha, Lula afirma que \"corrupção é uma coisa quase incontrolável’”",
+      "description": "Declaração do presidente Lula ocorreu neste domingo (23) entrevista à TV Record.",
+      "url": "https://www.bnews.com.br/noticias/politica/em-meio-ao-caso-lulinha-lula-afirma-que-corrupcao-e-uma-coisa-quase-incontrolavel.html",
+      "source": "Bnews",
+      "sourceCanonical": "BNews",
+      "sourceDomain": "bnews.com.br",
+      "publishedAt": "2026-08-24T00:24:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.93,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.82,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 7,
+      "center": 9,
       "centerRight": 4,
       "right": 2,
-      "unknown": 5
+      "unknown": 3
     }
   },
   "scores": {
