@@ -3,39 +3,45 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLdDZycUVSR3VaV3NtVVBwbURDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLdDZycUVSR3VaV3NtVVBwbURDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2,
-      "topic-5": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 6,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Polícia busca quinto suspeito de matar ciclista no Rio",
+  "title": "Assassinato de ciclista em Copacabana",
   "summary": "O segurança de rua Davi Santos Machado, de 21 anos prestou depoimento na última segunda como testemunha e negou ter participado das...",
-  "topic": "Ciclista · Copacabana",
+  "topic": "Copacabana · Morte",
   "topicKeywords": [
-    "ciclista",
     "copacabana",
     "morte",
+    "ciclista",
+    "segurança",
     "bicicleta",
-    "vítima",
-    "segurança"
+    "vítima"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/fiENENPlGiilKAIRR7cJXmPvJDE=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/O/INThTxRamAm0883XhhcQ/imagem-cortada-3-.jpg",
-  "publishedAt": "2026-08-21T15:56:24+00:00",
-  "updatedAt": "2026-08-24T17:21:19.310470+00:00",
-  "sourceCount": 18,
+  "publishedAt": "2026-08-22T09:30:00+00:00",
+  "updatedAt": "2026-08-24T18:19:15.206820+00:00",
+  "sourceCount": 17,
   "articleCount": 20,
   "articles": [
     {
@@ -61,7 +67,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-24T16:40:31+00:00",
-      "postedLabel": "40 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -75,7 +81,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-08-24T16:43:14+00:00",
-      "postedLabel": "38 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F08-24-2026%2Ft_4f25bb44ff2c464ba43b56b52f1c7c56_name_file_960x540_1600_v4_.jpg?smart=true&auth=d2fdc44635e0f5579ae97960ef6c0b9c15f101d979977416129ff2a256380beb&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -93,20 +99,6 @@
       "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/08/Jovem-morto-espancado-no-Rio.webp",
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_ac3d4ad1f555",
-      "title": "Vídeo mostra quinto envolvido em morte de ciclista em Copacabana dando chutes na vítima",
-      "description": "Uma câmera de segurança mostra um quinto envolvido no espancamento e morte de Cláudio Rafael Landeiro, o ciclista agredido depois de ser...",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/24/quinto-envolvido-caso-ciclista-copacabana.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-08-24T16:08:17+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_4d382763643a",
@@ -145,7 +137,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-24T15:14:22+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -159,7 +151,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-24T15:05:46+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -179,6 +171,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_383310e43888",
+      "title": "Preso por morte em Copacabana usou bicicleta da vítima para ir à delegacia",
+      "description": "Ao todo, quatro pessoas estão presas pela morte de Cláudio Rafael Landeiro Moreira, acusado falsamente de ter roubado a bicicleta.",
+      "url": "https://www.band.com.br/bandnews-fm/rio-de-janeiro/noticias/preso-por-morte-em-copacabana-usou-bicicleta-da-vitima-para-ir-a-delegacia-202608240909",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-08-24T17:57:31+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_1e815ff05680",
       "title": "Casos de “justiça com as próprias mãos” aumentam no RJ e segurança clandestina é investigada em Copacabana",
       "description": "Número de registros subiu 25% no primeiro trimestre de 2026; investigação sobre morte de ciclista expõe atuação irregular de seguranças...",
@@ -193,34 +199,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_be0ade2aad8e",
-      "title": "Ciclista morto: problema cognitivo impediu dizer que bike era da irmã Veja",
-      "description": "Cláudio Rafael Landeiro, ciclista, de 37 anos, morto espancado a pauladas ao ser confundido com um ladrão em Copacabana, zona sul do Rio de...",
-      "url": "https://www.metropoles.com/brasil/ciclista-morto-problema-cognitivo-impediu-dizer-que-bike-era-da-irma",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-24T13:51:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_383310e43888",
-      "title": "Preso por morte em Copacabana usou bicicleta da vítima para ir à delegacia",
-      "description": "O segurança que usou um pedaço da madeira no espancamento que resultou na morte de um homem em Copacabana foi prestar depoimento à Polícia...",
-      "url": "https://www.band.com.br/bandnews-fm/rio-de-janeiro/noticias/preso-por-morte-em-copacabana-usou-bicicleta-da-vitima-para-ir-a-delegacia-202608240909",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-08-24T12:09:10+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_dcb291aacc04",
       "title": "Suspeito de agredir ciclista usou bicicleta da vítima para ir à delegacia",
       "description": "Davi Santos Machado usou o veículo utilizado por Cláudio Rafael Landeiro para prestar depoimento após o dia do crime, ocorrido em...",
@@ -229,7 +207,7 @@
       "sourceCanonical": "odia.ig.com.br",
       "sourceDomain": "odia.ig.com.br",
       "publishedAt": "2026-08-24T15:36:19+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -257,7 +235,49 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-08-24T16:06:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ce6bdf451c83",
+      "title": "Estamos ficando cruéis",
+      "description": "Tem alguma coisa muito errada acontecendo com a gente. E não estou falando apenas da violência. Violência sempre existiu. O que está mudando...",
+      "url": "https://coletiva.net/colunas/estamos-ficando-crueis/",
+      "source": "Coletiva.net",
+      "sourceCanonical": "Coletiva.net",
+      "sourceDomain": "coletiva.net",
+      "publishedAt": "2026-08-24T17:38:38+00:00",
+      "postedLabel": "40 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_faa5aa4d758d",
+      "title": "Moradora denuncia grupos de 'justiçamento' na Zona Sul do Rio; imagens mostram 'justiceiros' invadindo vila de Cláudio Rafael",
+      "description": "O justiçamento na Zona Sul do Rio é investigado após imagens mostrarem o linchamento de Cláudio Rafael por falsas acusações de roubo em...",
+      "url": "https://g1.globo.com/fantastico/noticia/2026/08/24/moradora-denuncia-grupos-de-justicamento-na-zona-sul-do-rio-imagens-mostram-justiceiros-invadindo-vila-de-claudio-rafael.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-08-24T14:25:17+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ea8c3a2ed2cd",
+      "title": "VÍDEO: Segurança preso por espancamento e morte em Copacabana filmou local horas depois do crime",
+      "description": "Horas depois do espancamento e morte de Cláudio Rafael Landeiro, de 37 anos, um dos seguranças presos por participação no crime gravou um...",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/24/seguranca-preso-espancamento-morte-copacabana-video.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-08-24T15:17:59+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -300,20 +320,6 @@
       "sourceDomain": "noticiasaominuto.com.br",
       "publishedAt": "2026-08-23T23:40:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_8f98cb663db0",
-      "title": "Polícia Civil identifica os entregadores flagrados em vídeo de espancamento do homem acusado de roubar bicicleta",
-      "description": "Agentes da Polícia Civil identificaram os dois entregadores flagrados no vídeo que registrou o espancamento de de Cláudio Rafael Landeiro.",
-      "url": "https://temporealrj.com/policia-civil-identifica-entregadores-video/",
-      "source": "Tempo Real",
-      "sourceCanonical": "Tempo Real",
-      "sourceDomain": "temporealrj.com",
-      "publishedAt": "2026-08-21T15:56:24+00:00",
-      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
