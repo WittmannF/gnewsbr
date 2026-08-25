@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 42
+      "topic-6": 35
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/24/17875742626a8c37f645292_1787574262_3x2_xl.jpg",
   "publishedAt": "2026-08-24T01:04:05+00:00",
-  "updatedAt": "2026-08-25T19:33:00.939705+00:00",
+  "updatedAt": "2026-08-25T20:31:33.132714+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "São Paulo chega a 17,3% de chances de rebaixamento; veja os números",
       "description": "Dados do Departamento de Matemática da UFMG mostram as chances de rebaixamento de cada clube no Brasileirão.",
       "url": "https://www.terra.com.br/esportes/sao-paulo-chega-a-173-de-chances-de-rebaixamento-veja-os-numeros,aa7622fe7b7ff05400f58a7384191cce2m7o00gx.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-25T02:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/05/23/1877890111-hisiifwo5ffzbm3zczjx2ff7om.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ace89be7abc6",
@@ -86,7 +86,7 @@
       "sourceCanonical": "ESPN Brasil",
       "sourceDomain": "espn.com.br",
       "publishedAt": "2026-08-25T14:24:53+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -100,7 +100,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-25T14:04:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/palmeiras-vasco-vitor-roque.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -143,23 +143,9 @@
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-08-24T19:02:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://uploads.diariodopoder.com.br/2026/08/75bf0050-vitor-roque-jogador-do-palmeiras.jpeg",
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_d1723e3ba3bf",
-      "title": "Palmeiras abre vantagem, e Santos e São Paulo se complicam; veja as probabilidades do Brasileirão",
-      "description": "Com a goleada por 4 a 1 sobre o Vasco no último domingo e a derrota do Flamengo para o Cruzeiro, o Palmeiras voltou a abrir vantagem sobre o...",
-      "url": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/palmeiras-abre-vantagem-e-santos-e-sao-paulo-se-complicam-veja-as-probabilidades-do-brasileirao/",
-      "source": "Gazeta Esportiva",
-      "sourceCanonical": "Gazeta Esportiva",
-      "sourceDomain": "gazetaesportiva.com",
-      "publishedAt": "2026-08-24T13:58:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_002217791141",
@@ -174,6 +160,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_d1723e3ba3bf",
+      "title": "Palmeiras abre vantagem, e Santos e São Paulo se complicam; veja as probabilidades do Brasileirão",
+      "description": "Com a goleada por 4 a 1 sobre o Vasco no último domingo e a derrota do Flamengo para o Cruzeiro, o Palmeiras voltou a abrir vantagem sobre o...",
+      "url": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/palmeiras-abre-vantagem-e-santos-e-sao-paulo-se-complicam-veja-as-probabilidades-do-brasileirao/",
+      "source": "Gazeta Esportiva",
+      "sourceCanonical": "Gazeta Esportiva",
+      "sourceDomain": "gazetaesportiva.com",
+      "publishedAt": "2026-08-24T13:58:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a4c5ccc96d64",
@@ -282,7 +282,7 @@
       "sourceCanonical": "RCN 67",
       "sourceDomain": "rcn67.com.br",
       "publishedAt": "2026-08-24T20:31:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.8,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.89,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 5,
+      "center": 4,
       "centerRight": 1,
       "right": 2,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
