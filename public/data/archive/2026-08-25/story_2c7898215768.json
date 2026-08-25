@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3ajludUVSRURJTGNsMUNqTi1pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3ajludUVSRURJTGNsMUNqTi1pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-5": 58
+      "topic-5": 63,
+      "topic-8": 12
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 58,
-    "bestSeedRank": 58,
+    "firstSeenRank": 63,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +30,11 @@
     "endividamento",
     "pix",
     "alerta",
-    "não"
+    "risco"
   ],
   "imageUrl": "https://s2-valor.glbimg.com/f5wMs-Cfq2MFi0X9CgbhIs5ThmA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/x/p/FiSVSyRACkBLp9TBCqYQ/gr1-8712.jpg",
   "publishedAt": "2026-08-17T20:26:07+00:00",
-  "updatedAt": "2026-08-25T04:34:32.907810+00:00",
+  "updatedAt": "2026-08-25T05:27:56.901114+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -94,7 +97,7 @@
     {
       "id": "article_992c2e10c9ce",
       "title": "Galípolo alerta para avanço do endividamento e diz que BC prepara medidas para o crédito",
-      "description": "Na avaliação do presidente do BC, o aumento do endividamento não é necessariamente um problema.",
+      "description": "O presidente do Banco Central, Gabriel Galípolo, afirmou nesta segunda-feira, 24, que o avanço do crédito e o aumento do endividamento das...",
       "url": "https://veja.abril.com.br/economia/galipolo-alerta-para-avanco-do-endividamento-e-diz-que-bc-prepara-medidas-para-o-credito/",
       "source": "VEJA",
       "sourceCanonical": "VEJA",
@@ -117,6 +120,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_99ebf9332d29",
+      "title": "Galípolo alerta para avanço do endividamento das famílias",
+      "description": "\"Não dá para ficar contente com uma notícia de que o crédito cresceu e depois reclamar que o endividamento cresceu\", afirma o presidente do...",
+      "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/galipolo-alerta-para-avanco-do-endividamento-das-familias-25082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-25T04:32:17+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -254,7 +271,7 @@
       "sourceCanonical": "Associação Comercial e Industrial de Araçatuba",
       "sourceDomain": "aciara.com.br",
       "publishedAt": "2026-08-25T03:56:41+00:00",
-      "postedLabel": "37 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,33 +317,19 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_893909131066",
-      "title": "Galípolo: Não dá para comemorar alta do crédito e reclamar de endividamento",
-      "description": "O presidente do (BC) Banco Central, Gabriel Galípolo, comparou a alta na concessão de crédito pelas instituições e a consequente alta na taxa de dívidas da...",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/galipolo-nao-da-para-comemorar-alta-do-credito-e-reclamar-de-endividamento/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-24T15:50:47+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.57,
+    "average": 5.71,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 9,
-      "centerRight": 3,
+      "center": 8,
+      "centerRight": 4,
       "right": 0,
       "unknown": 6
     }
