@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ljMHZfdUVSRjlJVnN5VGpfWkVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ljMHZfdUVSRjlJVnN5VGpfWkVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 16
+      "topic-3": 36,
+      "topic-5": 11
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 16,
-    "bestSeedRank": 16,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 36,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/flavio-fiesp-8-1200x675.jpg",
   "publishedAt": "2026-08-21T19:23:00+00:00",
-  "updatedAt": "2026-08-25T08:29:21.743127+00:00",
-  "sourceCount": 12,
-  "articleCount": 14,
+  "updatedAt": "2026-08-25T09:24:02.643871+00:00",
+  "sourceCount": 14,
+  "articleCount": 16,
   "articles": [
     {
       "id": "article_701f584d02d2",
@@ -58,7 +61,7 @@
       "sourceCanonical": "UOL Economia",
       "sourceDomain": "economia.uol.com.br",
       "publishedAt": "2026-08-25T03:09:20+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -80,7 +83,7 @@
     {
       "id": "article_bdd9a1ac7fff",
       "title": "Paulo Skaf diz que Flávio Bolsonaro defende valores que Fiesp acredita",
-      "description": "O presidente da Federação das Indústrias do Estado de São Paulo (Fiesp), Paulo Skaf, evitou ...",
+      "description": "O presidente da Federação das Indústrias do Estado de São Paulo (Fiesp), Paulo Skaf, evitou declarar formalmente apoio à candidatura de...",
       "url": "https://www.terra.com.br/noticias/brasil/politica/paulo-skaf-diz-que-flavio-bolsonaro-defende-valores-que-fiesp-acredita,5c7fd886069f6a9329928ef0f1ad6581gcbg25wl.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
@@ -106,6 +109,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_91879bc39374",
+      "title": "Lula faz mais mal ao Brasil do que a pandemia, diz Flávio Bolsonaro",
+      "description": "A declaração foi feita durante reunião de líderes da FIESP, nesta segunda-feira (24), em São Paulo. Beatriz Manfredini e Júlia Lara.",
+      "url": "https://jovempan.com.br/politica/lula-faz-mais-mal-ao-brasil-do-que-a-pandemia-diz-flavio-bolsonaro/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-08-24T22:50:16+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_bf872a599a68",
       "title": "Flávio Bolsonaro se reúne com empresários em São Paulo",
       "description": "Flávio Bolsonaro se reuniu com diretores da Fiesp, a Federação das Indústrias de São Paulo. #BandEleicoes2026. 25/08/2026 - 00:19.",
@@ -114,10 +131,24 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-08-25T03:19:11+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_51f131d47492",
+      "title": "Flávio defende liberdade para negociar jornada de trabalho",
+      "description": "Nesta segunda-feira (24), em São Paulo, o candidato do PL à Presidência, Flávio Bolsonaro, defendeu a liberdade do trabalhador para negociar...",
+      "url": "https://pleno.news/brasil/eleicoes-2026/flavio-defende-liberdade-para-negociar-jornada-de-trabalho.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-08-25T01:14:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_bbd5b4958753",
@@ -198,7 +229,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-25T04:16:30+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -234,28 +265,27 @@
   ],
   "spectrum": {
     "min": 5,
-    "max": 6,
-    "average": 5.1,
-    "knownCount": 10,
+    "max": 9,
+    "average": 5.75,
+    "knownCount": 12,
     "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 10,
       "centerRight": 0,
-      "right": 0,
+      "right": 2,
       "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 19,
-    "headlineDivergence": 73,
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
