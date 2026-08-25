@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2025/09/dataglg.jpg",
   "publishedAt": "2026-08-18T22:02:58+00:00",
-  "updatedAt": "2026-08-25T17:42:04.983100+00:00",
+  "updatedAt": "2026-08-25T18:37:04.796912+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-08-25T15:54:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2025/09/dataglg.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -128,7 +128,7 @@
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-08-24T18:30:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2026/08/24150827/WhatsApp-Image-2026-08-24-at-14.33.18.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -156,7 +156,7 @@
       "sourceCanonical": "Espaço do Povo",
       "sourceDomain": "espacodopovo.com.br",
       "publishedAt": "2026-08-25T16:01:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -204,6 +204,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_d9868b25e2ac",
+      "title": "A corrida dos data centers",
+      "description": "A expansão da inteligência artificial acelera a demanda por data centers e coloca o Brasil no centro da disputa por recursos e territórios.",
+      "url": "https://iree.org.br/a-corrida-dos-data-centers/",
+      "source": "iree.org.br",
+      "sourceCanonical": "iree.org.br",
+      "sourceDomain": "iree.org.br",
+      "publishedAt": "2026-08-25T18:31:19+00:00",
+      "postedLabel": "5 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_4059d7bdd9fa",
       "title": "Data centers podem consumir energia equivalente ao Paraná até 2030",
       "description": "Com o avanço da inteligência artificial (IA), o consumo de energia por data centers no país pode chegar, até 2030, a um volume semelhante ao...",
@@ -226,7 +240,7 @@
       "sourceCanonical": "Empresa de Pesquisa Energética - EPE",
       "sourceDomain": "epe.gov.br",
       "publishedAt": "2026-08-21T18:10:30+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -268,7 +282,7 @@
       "sourceCanonical": "InovaSocial",
       "sourceDomain": "inovasocial.com.br",
       "publishedAt": "2026-08-19T17:59:22+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,42 +314,28 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_8d8ca0cd9fcf",
-      "title": "Data centers e a nova geopolítica da infraestrutura digital",
-      "description": "Com investimentos públicos relevantes e um ambiente regulatório em rápida consolidação, o Brasil se posiciona não apenas como destino de...",
-      "url": "https://valor.globo.com/legislacao/coluna/data-centers-e-a-nova-geopolitica-da-infraestrutura-digital.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-08-21T08:03:46+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 4.8,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 3,
+      "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 14
+      "unknown": 15
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 88,
     "headlineDivergence": 85,
-    "confidence": 93
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
