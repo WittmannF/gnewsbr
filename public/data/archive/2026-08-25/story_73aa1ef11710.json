@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/YJFCG43FP5EGDNPDXHUMS6YJBM.jpg?quality=80&auth=c0f2d23aee2bb867ce80a2db94ae20b836088285d7a7ce9769fe4c2f86df3b6c&width=1200&height=630&focal=1595,1001",
   "publishedAt": "2026-08-17T19:35:38+00:00",
-  "updatedAt": "2026-08-25T11:23:12.694610+00:00",
+  "updatedAt": "2026-08-25T12:29:00.800005+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Luciano Huck perde estrela antes da ‘Dança dos Famosos’ e situação preocupa; saiba o que aconteceu",
       "description": "Apresentador teria se machucado durante a preparação para o reality de Luciano Huck e passa por exames para avaliar a gravidade da lesão.",
       "url": "https://www.correio24horas.com.br/em-alta/luciano-huck-perde-estrela-antes-da-danca-dos-famosos-e-situacao-preocupa-saiba-o-que-aconteceu-0826",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
+      "source": "correio24horas.com.br",
+      "sourceCanonical": "correio24horas.com.br",
       "sourceDomain": "correio24horas.com.br",
       "publishedAt": "2026-08-20T22:20:51+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": "https://midias.correio24horas.com.br/2025/09/22/danca-dos-famosos-2025-2923391.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4f099660028f",
@@ -108,7 +108,7 @@
     {
       "id": "article_a64c9b1f2982",
       "title": "Otaviano Costa é sincero ao falar sobre o seu estado de saúde",
-      "description": "Um lesão às vésperas da estreia do \"Dança dos Famosos\", quadro do Caldeirão do Huck, mudou os planos de Otaviano Costa — participante desta...",
+      "description": "Um lesão às vésperas da estreia do \"Dança dos Famosos\", quadro do Caldeirão do Huck, mudou os ...",
       "url": "https://www.terra.com.br/diversao/gente/otaviano-costa-e-sincero-ao-falar-sobre-o-seu-estado-de-saude,2fea5cf4ccb5d311feafed54f14a6c2b9fbtewpr.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
@@ -129,7 +129,7 @@
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-08-24T16:39:34+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/08/FotoJet-2026-08-24T132505.891.jpg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0c40d7ed3b28",
-      "title": "Após lesão, Otaviano Costa fica fora da 1ª apresentação no Dança",
-      "description": "Otaviano Costa ficou fora da primeira apresentação da Dança dos Famosos após machucar a panturrilha durante os ensaios do programa.",
-      "url": "https://www.metropoles.com/colunas/fabia-oliveira/apos-lesao-otaviano-costa-fica-fora-da-1a-apresentacao-no-danca",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-23T22:58:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_0218ae08249b",
       "title": "Elenco da nova temporada do Dança dos Famosos enfrenta maratona de problemas de saúde",
       "description": "Sustos médicos, internações e lesões agitam o início da competição comandada por Luciano Huck no 'Domingão com Huck'; saiba mais.",
@@ -255,6 +241,20 @@
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-08-21T07:00:00+00:00",
       "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0c40d7ed3b28",
+      "title": "Após lesão, Otaviano Costa fica fora da 1ª apresentação no Dança",
+      "description": "Otaviano Costa ficou fora da primeira apresentação da Dança dos Famosos após machucar a panturrilha durante os ensaios do programa.",
+      "url": "https://www.metropoles.com/colunas/fabia-oliveira/apos-lesao-otaviano-costa-fica-fora-da-1a-apresentacao-no-danca",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-23T22:58:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.2,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.22,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 9,
+      "center": 8,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
