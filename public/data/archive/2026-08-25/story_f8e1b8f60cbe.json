@@ -3,17 +3,14 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxdFBYc0VSRi1JVEV4UnRiUzVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxdFBYc0VSRi1JVEV4UnRiUzVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 42,
-      "topic-5": 52
+      "topic-3": 42
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 42,
@@ -34,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/Moraes-tcm-1200x675.jpg",
   "publishedAt": "2026-08-21T18:34:38+00:00",
-  "updatedAt": "2026-08-25T12:24:02.225449+00:00",
+  "updatedAt": "2026-08-25T13:33:04.153083+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -277,6 +274,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_97f5fabad486",
+      "title": "Moraes: Fomos ingênuos de achar que big techs eram neutras",
+      "description": "Nesta segunda-feira (24), o ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, disse que “fomos ingênuos” por pensar que as...",
+      "url": "https://pleno.news/brasil/politica-nacional/moraes-fomos-ingenuos-de-achar-que-big-techs-eram-neutras.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-08-24T22:19:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_0aaa323fc0a8",
       "title": "Moraes critica atuação das big techs e diz que plataformas têm interesses políticos e econômicos",
       "description": "O ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes afirmou nesta segunda-feira (24) que as grandes empresas de tecnologia não...",
@@ -286,20 +297,6 @@
       "sourceDomain": "spdiario.com.br",
       "publishedAt": "2026-08-24T17:40:31+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_8bc2b7410f80",
-      "title": "Cármen Lúcia alerta para deepfakes que podem influenciar eleições",
-      "description": "Ministra do STF relembrou o caso de 1985 ao explicar por que conteúdos artificiais podem interferir na decisão do eleitor.",
-      "url": "https://www.maisgoias.com.br/politica/carmen-lucia-compara-deepfakes-foto-tancredo-1985/",
-      "source": "Mais Goiás",
-      "sourceCanonical": "Mais Goiás",
-      "sourceDomain": "maisgoias.com.br",
-      "publishedAt": "2026-08-22T11:56:35+00:00",
-      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -321,27 +318,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.38,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 9,
+    "average": 5.78,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 12
+      "right": 1,
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
