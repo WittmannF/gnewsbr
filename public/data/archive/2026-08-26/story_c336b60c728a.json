@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3NXZQdUVSRUE0SWFOZEc1STF5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3NXZQdUVSRUE0SWFOZEc1STF5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 13,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 13,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula volta a defender investimentos em Defesa em cerimônia no QG do Exército: 'Não é só para quando sobrar dinheiro'",
   "summary": "Presidente vem prometendo mais investimentos nas Forças Armadas em um eventual quarto mandato, mas desembolsou menos recursos que o...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/0KQ5y0a62nW3ezfk1OkdvZ3tHNc=/1305x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/R/t/TPgB2nQiq3Fn3xZEileg/whatsapp-image-2026-08-25-at-12.41.03.jpeg",
   "publishedAt": "2026-08-25T11:22:00+00:00",
-  "updatedAt": "2026-08-26T05:22:11.167532+00:00",
+  "updatedAt": "2026-08-26T06:21:27.235438+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -109,20 +115,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_23587b8fde1f",
-      "title": "O pedido de Lula a Mourão no Dia do Soldado",
-      "description": "Presidente Lula e senador Hamilton Mourão (Republicanos-RS) se cumprimentaram durante cerimônia do Dia do Soldado, no QG do Exército.",
-      "url": "https://www.metropoles.com/colunas/igor-gadelha/o-pedido-de-lula-a-mourao-no-dia-do-soldado",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-25T18:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e5c77d7854ec",
       "title": "Dia do Soldado em Brasília tem Lula, Gilmar e robô; veja imagens",
       "description": "Presidente participou nesta 3ª feira (25.ago.2026) da solenidade no QG do Exército, em Brasília. Leia no Poder360.",
@@ -145,10 +137,24 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-26T01:38:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_23587b8fde1f",
+      "title": "O pedido de Lula a Mourão no Dia do Soldado",
+      "description": "Presidente Lula e senador Hamilton Mourão (Republicanos-RS) se cumprimentaram durante cerimônia do Dia do Soldado, no QG do Exército.",
+      "url": "https://www.metropoles.com/colunas/igor-gadelha/o-pedido-de-lula-a-mourao-no-dia-do-soldado",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-25T18:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_9ecad38da608",
@@ -159,7 +165,7 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-08-26T03:01:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -243,7 +249,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-08-26T00:39:42+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
