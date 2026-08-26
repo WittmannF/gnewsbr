@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUdE96dkVSRi10SEMwUk5KV2J5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUdE96dkVSRi10SEMwUk5KV2J5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "home",
+    "topic-4",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-4"
     ],
     "seedRanks": {
-      "topic-3": 11,
-      "topic-5": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-4": 10
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 11,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Ronaldo Caiado fala sobre suas propostas na Globo: o que disse o candidato à Presidência na entrevista à emissora",
   "summary": "Candidato foi o segundo entrevistado em série especial da emissora para eleições e falou sobre anistia a bolsonaristas, narcotráfico,...",
@@ -28,13 +31,13 @@
     "caiado",
     "globo",
     "anistia",
-    "lula",
     "entrevista",
-    "stf"
+    "não",
+    "janeiro"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/bf7b/live/c6fae320-a0e2-11f1-aed2-8d6da8d75094.jpg",
-  "publishedAt": "2026-08-26T00:10:12+00:00",
-  "updatedAt": "2026-08-26T15:52:43.913761+00:00",
+  "publishedAt": "2026-08-26T00:06:43+00:00",
+  "updatedAt": "2026-08-26T16:36:06.881026+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -75,24 +78,10 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-26T15:17:00+00:00",
-      "postedLabel": "35 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/17/17870039546a838432a4a74_1787003954_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_d67e15d17e63",
-      "title": "Caiado foge de perguntas e aposta em anistia para despolarizar o Brasil",
-      "description": "No \"JN\", candidato à Presidência pelo PSD afirmou que sua intenção é perdoar todos os envolvidos na tentativa de golpe. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/caiado-foge-de-perguntas-e-aposta-em-anistia-para-despolarizar-o-brasil/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-08-26T04:23:32+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/caiado-sabatina-25-ago-2026-1200x675.png",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_6de13fd8dfcb",
@@ -104,9 +93,23 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-26T01:53:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/06/03212843/caiado-1.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_d67e15d17e63",
+      "title": "Caiado foge de perguntas e aposta em anistia para despolarizar o Brasil",
+      "description": "No \"JN\", candidato à Presidência pelo PSD afirmou que sua intenção é perdoar todos os envolvidos na tentativa de golpe. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/caiado-foge-de-perguntas-e-aposta-em-anistia-para-despolarizar-o-brasil/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-26T04:23:32+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ca60e271f895",
@@ -117,7 +120,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-08-26T15:13:10+00:00",
-      "postedLabel": "39 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -137,6 +140,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_d2811f1b6bfb",
+      "title": "Augusto Cury dá entrevista à Globo no sábado; veja como acompanhar",
+      "description": "Sabatina ao candidato do Avante será transmitida ao vivo após o \"Jornal Nacional\"",
+      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/08/augusto-cury-da-entrevista-a-globo-no-sabado-veja-como-acompanhar-cmt92t0dl00r20179cmr90c9d.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-08-26T00:06:43+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_e24427e9b26d",
       "title": "Caiado reclama de perguntas na Globo: 'Não estamos em mesa examinadora'",
       "description": "Candidato comparou o Brasil com a vítima de um acidente para ironizar as perguntas objetivas que recebeu.",
@@ -145,20 +162,6 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-08-26T02:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d2811f1b6bfb",
-      "title": "Augusto Cury dá entrevista à Globo no sábado; veja como acompanhar",
-      "description": "O candidato Augusto Cury (Avante) é o entrevistado de sábado (29) na série de sabatinas da Globo com os presidenciáveis de 2026.",
-      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/08/augusto-cury-da-entrevista-a-globo-no-sabado-veja-como-acompanhar-cmt92t0dl00r20179cmr90c9d.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-08-26T00:10:12+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -201,7 +204,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-08-26T10:34:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -221,6 +224,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_d272dc8c9174",
+      "title": "Caiado é corrigido após tentar minimizar plano de golpe contra Lula na Globo: 'Não foi um relato'",
+      "description": "A sabatina do candidato à Presidência da República Ronaldo Caiado (PSD) na TV Globo foi marcada por respostas longas e que pouco tinham a...",
+      "url": "https://iclnoticias.com.br/caiado-e-corrigido-por-renata-vasconcellos/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-08-26T10:54:31+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_74a14225cefc",
       "title": "ELEIÇÕES 2026 | Candidato do PSD citou anulação das penas do presidente Lula na Suprema Corte.⁣ ⁣ 📲 Veja como foi a entrevista completa no site do #Estadão.⁣⁣ ⁣⁣ Imagens: Globo",
       "description": "",
@@ -235,18 +252,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d272dc8c9174",
-      "title": "Caiado é corrigido após tentar minimizar plano de golpe contra Lula na Globo: 'Não foi um relato'",
-      "description": "A sabatina do candidato à Presidência da República Ronaldo Caiado (PSD) na TV Globo foi marcada por respostas longas e que pouco tinham a...",
-      "url": "https://iclnoticias.com.br/caiado-e-corrigido-por-renata-vasconcellos/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-08-26T10:54:31+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_a88795a1aba4",
+      "title": "Caiado promete anistia geral e critica polarização política no país",
+      "description": "O candidato do PSD disse que levará uma proposta de perdão ao Congresso e incluiu Jair Bolsonaro na medida.",
+      "url": "https://www.jb.com.br/brasil/politica/2026/08/1060703-caiado-diz-que-enviara-projeto-de-anistia-com-bolsonaro-incluido.html",
+      "source": "Jornal do Brasil",
+      "sourceCanonical": "Jornal do Brasil",
+      "sourceDomain": "jb.com.br",
+      "publishedAt": "2026-08-26T10:09:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2ee79ff1bb7f",
@@ -263,17 +280,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_d9a1d5c338c7",
-      "title": "Caiado promete anistia ampla e irrestrita, com inclusão de Bolsonaro, se eleito",
-      "description": "O candidato do PSD à presidência da República, Ronaldo Caiado, voltou a afirmar que vai encaminhar ao Congresso Nacional um projeto de...",
-      "url": "https://www.infomoney.com.br/politica/caiado-promete-anistia-ampla-e-irrestrita-com-inclusao-de-bolsonaro-se-eleito/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-08-26T01:04:49+00:00",
-      "postedLabel": "hoje",
+      "id": "article_b2ef1f01b692",
+      "title": "‘Eu não estava lá', responde Caiado ao ser questionado se houve tentativa de golpe em 8 de janeiro",
+      "description": "Apesar de defender um maior ajuste fiscal nas contas públicas, com mudanças na concessão de incentivos fiscais e em aposentadorias,...",
+      "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/26/eu-nao-estava-la-responde-caiado-ao-ser-questionado-se-houve-tentativa-de-golpe-em-8-de-janeiro",
+      "source": "O TEMPO",
+      "sourceCanonical": "O Tempo",
+      "sourceDomain": "otempo.com.br",
+      "publishedAt": "2026-08-26T15:56:50+00:00",
+      "postedLabel": "39 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -285,21 +302,7 @@
       "sourceCanonical": "Jornal Opção",
       "sourceDomain": "jornalopcao.com.br",
       "publishedAt": "2026-08-26T11:23:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_bf7cb151c879",
-      "title": "Caiado defende perdão 'amplo e geral' contemplando Bolsonaro e diz que STF anistiou Lula",
-      "description": "Ronaldo Caiado (PSD) é ex-governador de Goiás e concorre à presidência da República em chapa com Gilberto Kassab (PSD) Foto: Manoella Mello/...",
-      "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/25/caiado-entrevista-globo-jornal-nacional",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-08-26T00:16:16+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -322,16 +325,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 4.94,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
       "centerLeft": 3,
-      "center": 12,
+      "center": 11,
       "centerRight": 1,
       "right": 1,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
