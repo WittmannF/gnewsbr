@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lwcjgzd0VSSGxWdS1zUG83RFlDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lwcjgzd0VSSGxWdS1zUG83RFlDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 4,
-      "topic-5": 8
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 3,
+      "topic-5": 9
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Os números de Lula e Flávio nos estados, segundo a Quaest",
   "summary": "Presidente lidera nos estados do Nordeste e no Tocantins. Senador aparece à frente no Sul e Centro-Oeste. O Nexo depende de você para...",
@@ -30,11 +36,11 @@
     "turno",
     "pesquisa",
     "quaest",
-    "lidera"
+    "tem"
   ],
   "imageUrl": "https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2026/08/teaser-policiais-640x399.webp",
   "publishedAt": "2026-08-24T10:01:00+00:00",
-  "updatedAt": "2026-08-27T04:00:40.073692+00:00",
+  "updatedAt": "2026-08-27T06:19:22.182940+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -81,20 +87,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_27e55789425b",
-      "title": "Gerp divulga pesquisa para presidente; confira os números",
-      "description": "O instituto Gerp divulgou nesta quarta-feira (26) uma nova pesquisa com as intenções de voto para presidente da República nas eleições de...",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-08-26T11:01:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/25141717/pesquisa-presidente-4.png",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_f56af4021eb5",
       "title": "Nova pesquisa Nexus/BTG indica cenário apertado no 1º turno das eleições presidenciais",
       "description": "Em um dos cenários testados, Flávio Bolsonaro se aproxima de Lula e há empate técnico.",
@@ -104,9 +96,23 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-24T10:01:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/05/LF-1.jpg",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_c03211ad1f72",
+      "title": "Pesquisa presidente 2026: veja o que dizem os levantamentos mais recentes",
+      "description": "Levantamentos BTG/Nexus e Datafolha testam cenários de 1º e 2º turno em 2026, com Lula e Flávio Bolsonaro à frente nas simulações; veja.",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/08/26/pesquisa-presidente-2026-veja-o-que-dizem-os-levantamentos-mais-recentes.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-08-26T23:08:57+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_161ba4757aa4",
@@ -151,18 +157,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_c03211ad1f72",
-      "title": "Pesquisa presidente 2026: veja o que dizem os levantamentos mais recentes",
-      "description": "Levantamentos BTG/Nexus e Datafolha testam cenários de 1º e 2º turno em 2026, com Lula e Flávio Bolsonaro à frente nas simulações; veja.",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/08/26/pesquisa-presidente-2026-veja-o-que-dizem-os-levantamentos-mais-recentes.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-08-26T23:08:57+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_27e55789425b",
+      "title": "Gerp divulga pesquisa para presidente; confira os números",
+      "description": "O instituto Gerp divulgou nesta quarta-feira (26) uma nova pesquisa com as intenções de voto para presidente da República nas eleições de...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-08-26T11:01:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_d171135f8428",
@@ -221,20 +227,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_3bd7225b9c5c",
-      "title": "Lula lidera simulações de segundo turno em nova pesquisa",
-      "description": "Levantamento da Indexa/Broadcast mostra vantagem do presidente contra quatro possíveis adversários e detalha a margem de erro da sondagem.",
-      "url": "https://www.jb.com.br/brasil/politica/2026/08/1060714-pesquisa-indexa-broadcast-mostra-lula-na-frente-de-flavio-bolsonaro-no-2-turno.html",
-      "source": "Jornal do Brasil",
-      "sourceCanonical": "Jornal do Brasil",
-      "sourceDomain": "jb.com.br",
-      "publishedAt": "2026-08-26T21:53:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_3391001f8228",
       "title": "‘Cenário muito bom’: empate em SP é sinal positivo para reeleição de Lula, avalia cientista político",
       "description": "O presidente Luiz Inácio Lula da Silva (PT) e o senador Flávio Bolsonaro (PL-RJ) aparecem em disputa acirrada no primeiro turno e dividem...",
@@ -257,6 +249,20 @@
       "sourceCanonical": "Jornal da Paraíba",
       "sourceDomain": "jornaldaparaiba.com.br",
       "publishedAt": "2026-08-26T12:21:28+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_3bd7225b9c5c",
+      "title": "Lula lidera simulações de segundo turno em nova pesquisa",
+      "description": "Levantamento da Indexa/Broadcast mostra vantagem do presidente contra quatro possíveis adversários e detalha a margem de erro da sondagem.",
+      "url": "https://www.jb.com.br/brasil/politica/2026/08/1060714-pesquisa-indexa-broadcast-mostra-lula-na-frente-de-flavio-bolsonaro-no-2-turno.html",
+      "source": "Jornal do Brasil",
+      "sourceCanonical": "Jornal do Brasil",
+      "sourceDomain": "jb.com.br",
+      "publishedAt": "2026-08-26T21:53:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -305,33 +311,33 @@
       "bucket": "center"
     },
     {
-      "id": "article_684210ca5fbd",
-      "title": "Lula avança em redutos bolsonaristas e consolida caminho da reeleição, indica Quaest",
-      "description": "Lula avança no Sudeste, empata em SP, RJ e MG e lidera no DF, enquanto consolida ampla vantagem no Nordeste. por Davi Dmolir.",
-      "url": "https://vermelho.org.br/2026/08/26/lula-avanca-em-redutos-bolsonaristas-e-consolida-caminho-da-reeleicao-indica-quaest/",
-      "source": "vermelho.org.br",
-      "sourceCanonical": "vermelho.org.br",
-      "sourceDomain": "vermelho.org.br",
-      "publishedAt": "2026-08-26T13:46:00+00:00",
+      "id": "article_fed025f961f5",
+      "title": "Real Time: Lula tem 40% e Flávio Bolsonaro, 39%, no primeiro turno no Amazonas",
+      "description": "No segundo turno, senador e presidente seguem empatados tecnicamente, com 43% e 41%, respectivamente.",
+      "url": "https://noticias.r7.com/eleicoes/2026/real-time-lula-tem-40-e-flavio-bolsonaro-39-no-primeiro-turno-no-amazonas-27082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-26T10:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.2,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.31,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 7,
-      "centerRight": 3,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
