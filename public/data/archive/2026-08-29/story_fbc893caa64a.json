@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpbjZueEVSSFhEbVZucGEtSFJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpbjZueEVSSFhEbVZucGEtSFJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5",
-      "topic-7"
+      "home",
+      "topstories",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 13,
-      "topic-7": 10
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 18
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 13,
-    "bestSeedRank": 10,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "EUA e Venezuela fecham acordo sobre reservas de petróleo",
   "summary": "Tratado firmado entre Washington e Caracas deve conceder o controle de 65 bilhões de barris de petróleo venezuelano aos Estados Unidos.",
@@ -27,14 +30,14 @@
   "topicKeywords": [
     "venezuela",
     "acordo",
-    "eua",
     "petróleo",
+    "eua",
     "trump",
-    "reservas"
+    "bilhões"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM350TM-BASEIMAGE.jpg?w=800&h=534&crop=1",
   "publishedAt": "2026-08-28T15:03:56+00:00",
-  "updatedAt": "2026-08-29T18:34:16.312030+00:00",
+  "updatedAt": "2026-08-29T19:17:30.523029+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -89,7 +92,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-29T13:43:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/29/17880103506a92df6e04ebe_1788010350_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -235,20 +238,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_a19e1731c572",
-      "title": "Rubio diz que acordo sobre petróleo é bom para os EUA e a Venezuela",
-      "description": "Marco Rubio afirmou que o acordo sobre petróleo da Venezuela é \"grande vitória\" tanto para americanos quanto para norte-americanos.",
-      "url": "https://www.metropoles.com/mundo/rubio-diz-que-acordo-sobre-petroleo-e-bom-para-os-eua-e-venezuela",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-29T00:01:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_1be40bc7c72b",
       "title": "Trump anuncia que fechou com a Venezuela o 'maior acordo petrolífero da história do mundo'",
       "description": "Acordo petrolífero com a Venezuela que garante ao país o controle majoritário de 65 bilhões de barris de reservas provadas de petróleo.",
@@ -263,6 +252,34 @@
       "bucket": "right"
     },
     {
+      "id": "article_d29b52b852e6",
+      "title": "Rubio diz que acordo petrolífero levará US$ 100 bi em investimento privado à Venezuela",
+      "description": "Rubio afirmou no X que o acordo garantiria reservas estáveis e reduziria os preços da gasolina nos Estados Unidos, e acrescentou.",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/rubio-diz-que-acordo-petrolifero-levara-us-100-bi-em-investimento-privado-a-venezuela/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-08-29T00:17:53+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_a19e1731c572",
+      "title": "Rubio diz que acordo sobre petróleo é bom para os EUA e a Venezuela",
+      "description": "Marco Rubio afirmou que o acordo sobre petróleo da Venezuela é \"grande vitória\" tanto para americanos quanto para norte-americanos.",
+      "url": "https://www.metropoles.com/mundo/rubio-diz-que-acordo-sobre-petroleo-e-bom-para-os-eua-e-venezuela",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-29T00:01:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_39f1ed502dfa",
       "title": "Presidente da Venezuela festeja entrega da soberania do petróleo a Trump",
       "description": "A presidente interina da Venezuela, Delcy Rodríguez, celebrou o acordo firmado com os Estados Unidos que transfere a Washington o controle...",
@@ -271,7 +288,7 @@
       "sourceCanonical": "bncamazonas.com.br",
       "sourceDomain": "bncamazonas.com.br",
       "publishedAt": "2026-08-29T15:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -291,28 +308,14 @@
       "bucket": "left"
     },
     {
-      "id": "article_1c1dd0e44b51",
-      "title": "Acordo garante aos EUA participação majoritária em reservas de petróleo da Venezuela",
-      "description": "O presidente dos Estados Unidos, Donald Trump, anunciou nesta sexta-feira (28) um acordo que garante ao país o controle majoritário de 65...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/acordo-garante-aos-eua-participacao-majoritaria-em-reservas-de-petroleo-da-venezuela-1.1743269",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-29T02:12:29+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d29b52b852e6",
-      "title": "Rubio diz que acordo petrolífero levará US$ 100 bi em investimento privado à Venezuela",
-      "description": "Rubio afirmou no X que o acordo garantiria reservas estáveis e reduziria os preços da gasolina nos Estados Unidos, e acrescentou.",
-      "url": "https://jornaldebrasilia.com.br/noticias/mundo/rubio-diz-que-acordo-petrolifero-levara-us-100-bi-em-investimento-privado-a-venezuela/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-08-29T00:17:53+00:00",
+      "id": "article_64a627cd4d24",
+      "title": "Trump anuncia controle de bilhões de barris de petróleo da Venezuela",
+      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta sexta-feira (28/8) que o país fechou um acordo petrolífero com a Venezuela.",
+      "url": "https://www.em.com.br/internacional/2026/08/7489801-trump-anuncia-controle-de-bilhoes-de-barris-de-petroleo-da-venezuela.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-08-28T23:51:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
