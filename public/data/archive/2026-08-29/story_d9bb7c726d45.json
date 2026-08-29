@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pBb3ZUdkVSR0V2LUpxV21DOEVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pBb3ZUdkVSR0V2LUpxV21DOEVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre ondas de calor • Brasil",
   "summary": "Análise do Cemaden aponta pelo menos seis ondas de calor até dezembro, com risco de Super El Niño aumentar número de eventos.",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "niño",
     "alerta",
-    "super",
     "deve",
-    "seis",
-    "ondas"
+    "ondas",
+    "calor",
+    "super"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/W-CA0RUcHeYuwjTkSQX9XOo0bpY=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/g/BAPLRAQvu86fCMFShf5g/image.jpg",
   "publishedAt": "2026-08-27T07:00:00+00:00",
-  "updatedAt": "2026-08-29T13:21:18.044235+00:00",
+  "updatedAt": "2026-08-29T14:19:58.774627+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,20 +56,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_b7de30690ba2",
-      "title": "Seis ondas de calor sob El Niño ameaçam safra e põem cidades em alerta até o fim do ano",
-      "description": "Termômetros podem subir até 3 °C acima da média no país nos próximos quatro meses.",
-      "url": "https://veja.abril.com.br/brasil/seis-ondas-de-calor-sob-el-nino-ameacam-safra-e-poem-cidades-em-alerta-ate-o-fim-do-ano/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-08-29T13:10:25+00:00",
-      "postedLabel": "10 minutos atrás",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/elinino.jpg?quality=70&strip=info&resize=1080,565&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_748d0fffffd9",
       "title": "Molion alerta para cautela com previsões sobre “Super El Niño” e orienta produtores a monitorarem condições climáticas",
       "description": "Para auxiliar os produtores rurais de Mato Grosso no planejamento da próxima safra, a Associação dos Produtores de Soja e Milho de Mato...",
@@ -72,10 +64,24 @@
       "sourceCanonical": "Agrolink",
       "sourceDomain": "agrolink.com.br",
       "publishedAt": "2026-08-28T14:19:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_be73d263159e",
+      "title": "Padrão climático que impulsiona o Super El Niño está se tornando mais errático à medida que o planeta aquece, alerta novo estudo",
+      "description": "Pesquisa revela que o padrão climático El Niño e seus eventos se tornaram mais fortes nas últimas décadas, impulsionados pela elevação das...",
+      "url": "https://www.cnnbrasil.com.br/ciencia/padrao-climatico-que-impulsiona-o-super-el-nino-esta-se-tornando-mais-erratico-a-medida-que-o-planeta-aquece-alerta-novo-estudo/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-27T19:33:37+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Gemini_Generated_Image_fxsk2mfxsk2mfxsk-1-e1787612682483.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_de232ba432b0",
@@ -134,18 +140,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_be73d263159e",
-      "title": "Padrão climático que impulsiona o Super El Niño está se tornando mais errático à medida que o planeta aquece, alerta novo estudo",
-      "description": "Pesquisa revela que o padrão climático El Niño e seus eventos se tornaram mais fortes nas últimas décadas, impulsionados pela elevação das...",
-      "url": "https://www.cnnbrasil.com.br/ciencia/padrao-climatico-que-impulsiona-o-super-el-nino-esta-se-tornando-mais-erratico-a-medida-que-o-planeta-aquece-alerta-novo-estudo/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-27T19:33:37+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Gemini_Generated_Image_fxsk2mfxsk2mfxsk-1-e1787612682483.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_b7de30690ba2",
+      "title": "Seis ondas de calor sob El Niño ameaçam safra e põem cidades em alerta até o fim do ano",
+      "description": "Termômetros podem subir até 3 °C acima da média no país nos próximos quatro meses.",
+      "url": "https://veja.abril.com.br/brasil/seis-ondas-de-calor-sob-el-nino-ameacam-safra-e-poem-cidades-em-alerta-ate-o-fim-do-ano/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-08-29T13:10:25+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/elinino.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_da5ba89a6575",
@@ -162,14 +168,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_8d961f2af272",
-      "title": "Aproximação do período de pico do El Niño junto à fase de semeadura traz alerta para a cadeia produtiva do arroz de SC",
-      "description": "Impactos do fenômeno para a rizicultura foram debatidos durante palestra promovida pelo SindArroz-SC e apresentada por Márcio Sônego nesta...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/graos/427141-aproximacao-do-periodo-de-pico-do-el-nino-junto-a-fase-de-semeadura-traz-alerta-para-a-cadeia-produtiva-do-arroz-de-sc.html",
+      "id": "article_f697d671881a",
+      "title": "Safra principal de cacau, que começa em Outubro, deve ser menor no sul da Bahia",
+      "description": "Milton Andrade Júnior - Secretário de Agricultura e Pesca de Ilhéus/BA. Falta de chuva ao longo do ano e possíveis impactos do El Niño...",
+      "url": "https://www.noticiasagricolas.com.br/videos/hortifruti/427159-safra-principal-de-cacau-que-comeca-em-outubro-deve-ser-menor-no-sul-da-bahia.html",
       "source": "Notícias Agrícolas",
       "sourceCanonical": "Notícias Agrícolas",
       "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-08-28T15:50:37+00:00",
+      "publishedAt": "2026-08-28T19:58:28+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -190,6 +196,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_4aa1decd586f",
+      "title": "El Niño coloca em risco escoamento da safra do Centro-Oeste por rios do Norte",
+      "description": "No Tapajós — corredor estratégico para a safra de grãos —, a forte seca e falta de dragagem de manutenção pode interromper a navegação já a...",
+      "url": "https://blogs.correiobraziliense.com.br/capital-sa/2026/08/27/el-nino-coloca-em-risco-escoamento-da-safra-do-centro-oeste-por-rios-do-norte/",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "blogs.correiobraziliense.com.br",
+      "publishedAt": "2026-08-27T18:00:09+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_a58901ccd731",
+      "title": "Vem aí o “Super El Niño”? Fenômeno promete levar o clima ao extremo",
+      "description": "Estimativas indicam que estamos prestes a enfrentar um \"Super El Niño\", fenômeno que pode provocar caos climático global.",
+      "url": "https://olhardigital.com.br/2026/08/28/ciencia-e-espaco/vem-ai-o-super-el-nino-fenomeno-promete-levar-o-clima-ao-extremo/",
+      "source": "Olhar Digital",
+      "sourceCanonical": "Olhar Digital",
+      "sourceDomain": "olhardigital.com.br",
+      "publishedAt": "2026-08-28T11:15:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_a17c35c57be6",
       "title": "Estudo mostra que seis fortes ondas de calor devem atingir o Brasil em 2026",
       "description": "El Niño superforte provoca eventos climáticos extremos no país, mas calor prevalece em todas as regiões; saúde, economia e agricultura são...",
@@ -204,18 +238,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_1a217f4ba514",
-      "title": "El Niño ficou quase 40% mais forte nas últimas quatro décadas",
-      "description": "No Pacífico, enquanto fortes chuvas deslocam-se para a porção central, a zona ocidental sofre com a seca. Essas flutuações não ficam...",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/08/7488778-el-nino-ficou-quase-40-mais-forte-nas-ultimas-quatro-decadas.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-08-28T08:02:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_fb99724a8f1c",
+      "title": "El Niño: Brasil deve ter ao menos 6 ondas de calor até o fim do ano",
+      "description": "Segundo informações do Cemaden, o fenômeno favorece a alta das temperaturas e da seca, além de chuvas intensas. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-sustentavel/el-nino-brasil-deve-ter-ao-menos-6-ondas-de-calor-ate-o-fim-do-ano/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-29T13:31:17+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d87067737ef2",
@@ -254,7 +288,7 @@
       "sourceCanonical": "Jornal A Voz da Serra",
       "sourceDomain": "avozdaserra.com.br",
       "publishedAt": "2026-08-29T11:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -274,43 +308,15 @@
       "bucket": "left"
     },
     {
-      "id": "article_028c23357f90",
-      "title": "Super El Niño: como 1982, 1997 e 2015 podem ajudar a entender o impacto do fenômeno que deve seguir nos próximos meses em Santa Maria",
-      "description": "A previsão de um El Niño de forte intensidade para os próximos meses coloca Santa Maria e a Região Central em alerta para um período com...",
-      "url": "https://diariosm.com.br/noticias/geral/super-el-nino-como-1982-1997-e-2015-podem-ajudar-a-entender-o-impacto-do-fenomeno-que-deve-seguir-nos-proximos-meses-em-santa-maria.30897012",
-      "source": "Diário de Santa Maria",
-      "sourceCanonical": "Diário de Santa Maria",
-      "sourceDomain": "diariosm.com.br",
-      "publishedAt": "2026-08-28T16:11:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_8d20e17e19b3",
-      "title": "Corais mostram que El Niño se intensifica à medida que planeta aquece",
-      "description": "Estudo em esqueletos de mil anos mostra que eventos do fenômeno climático se tornam mais fortes.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/corais-mostram-que-el-nino-se-intensifica-a-medida-que-planeta-aquece-1.1742843",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-27T22:33:43+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_a3e1672f7c90",
-      "title": "Fenômeno já influencia o Brasil e população pode perder a conta de quantos ciclones atingirão o país em setembro",
-      "description": "O fortalecimento do El Niño também pode alterar as condições atmosféricas e oceânicas que favorecem a formação de sistemas ciclônicos.",
-      "url": "https://diariodocomercio.com.br/mix/fenomeno-ja-influencia-o-brasil-e-populacao-pode-perder-a-conta-de-quantos-ciclones-atingirao-o-pais-em-setembro/",
-      "source": "Diário do Comércio",
-      "sourceCanonical": "Diário do Comércio",
-      "sourceDomain": "diariodocomercio.com.br",
-      "publishedAt": "2026-08-28T23:29:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_e993aba39c3c",
+      "title": "Giro Agroclima: El Niño coloca safra 2026/27 em alerta para o plantio",
+      "description": "O início do plantio da safra 2026/27 se aproxima e o clima será um dos principais fatores de atenção para os produtores. Com a atuação do El...",
+      "url": "https://agroclima.climatempo.com.br/noticia/2026/08/27/giro-agroclima-el-nino-coloca-safra-2026-27-em-alerta-para-o-plantio",
+      "source": "Climatempo",
+      "sourceCanonical": "Climatempo",
+      "sourceDomain": "agroclima.climatempo.com.br",
+      "publishedAt": "2026-08-27T14:15:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
