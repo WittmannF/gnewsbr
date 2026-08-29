@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pFeWVYeEVSSG1Rb2oyeVdqYUNTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pFeWVYeEVSSG1Rb2oyeVdqYUNTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 15,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 10,
       "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 15,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Flávio Bolsonaro usa filme de Lula para ligá-lo ao chavismo",
   "summary": "Vídeo eleitoral conecta produtor do documentário, ex-embaixador Max Arveláiz, a empréstimos de R$ 10 bilhões que não foram quitados.",
@@ -34,8 +40,8 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-flavio-1200x675.jpg",
   "publishedAt": "2026-08-26T15:58:08+00:00",
-  "updatedAt": "2026-08-29T12:31:49.537742+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-08-29T13:18:53.843847+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -61,7 +67,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-29T10:34:57+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -75,7 +81,7 @@
       "sourceCanonical": "Valor Econômico",
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-08-29T11:01:35+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-valor.glbimg.com/-DuVMPOxBrqP3MRlLtsYuzR2z2U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/W/X/lfjBo0R8SpIpsDO0dwwA/design-sem-nome.png",
       "spectrumScore": 6,
       "bucket": "center"
@@ -109,14 +115,14 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_d562aa0ec95f",
+      "id": "article_aa4e0d1b31d1",
       "title": "Lula foca em educação e Flávio em segurança na estreia da propaganda de rádio",
       "description": "A estreia da propaganda eleitoral no rádio mostra Luiz Inácio Lula da Silva e Flávio Bolsonaro com diferentes escolhas de conteúdo. O...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/lula-foca-em-educacao-e-flavio-em-seguranca-na-estreia-da-propaganda-de-radio,f2feb89183201b5304d9110e603cbf8bidt5yr59.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-29T11:34:00+00:00",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/08/29/lula-foca-em-educacao-e-flavio-em-seguranca-na-estreia-da-propaganda-de-radio.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-08-29T11:25:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -135,6 +141,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_693c96939e15",
+      "title": "Lula e Flávio trocam ataques em estreia de campanha presidencial no rádio",
+      "description": "Ronaldo Caiado centralizou críticas ao PT e mirou gestão em segurança pública; Augusto Cury focou no combate à polarização e disse que \"é...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-e-flavio-trocam-ataques-em-estreia-de-campanha-presidencial-no-radio/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-29T12:32:14+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_5cc024b6fa5a",
@@ -158,8 +178,8 @@
       "source": "JOTA Info",
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
-      "publishedAt": "2026-08-28T12:32:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-08-28T13:10:25+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -173,7 +193,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-08-29T06:55:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -207,6 +227,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_eb0393f643c7",
+      "title": "Como campanhas de Lula e Flávio Bolsonaro farão estreias em horário eleitoral na TV",
+      "description": "Acusações devem dividir espaço com as propostas; apenas quatro candidatos terão espaço no horário eleitoral.",
+      "url": "https://www.terra.com.br/noticias/eleicoes/como-campanhas-de-lula-e-flavio-bolsonaro-farao-estreias-em-horario-eleitoral-na-tv,9fe59343a37cfaa59da762f6285daa38242bx0xg.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-28T18:21:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_c5f5f0581d14",
       "title": "Lula mira Flávio Bolsonaro em vídeo de campanha e fala em zerar fila do INSS",
       "description": "A ofensiva petista nas redes antecede a estreia do horário eleitoral e também tenta capitalizar o anúncio sobre a Previdência.",
@@ -219,20 +253,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_474cb954e537",
-      "title": "Análise: Lula x Flávio – ataque, defesa e olho no retrovisor",
-      "description": "A estreia da propaganda eleitoral na TV vai escancarar as estratégias do presidente Luiz Inácio Lula da Silva (PT) e do senador Flávio...",
-      "url": "https://www.cnnbrasil.com.br/blogs/julliana-lopes/eleicoes/analise-lula-x-flavio-ataque-defesa-e-olho-no-retrovisor/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-28T20:57:43+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_152b30c2d1b5",
@@ -257,7 +277,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-29T08:55:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -303,20 +323,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_60be8cab1fe8",
-      "title": "Lula e Flávio Bolsonaro elevam tom de ataques na campanha",
-      "description": "Lula (PT) e Flávio Bolsonaro (PL) intensificam a disputa na campanha, com ataques entre as candidaturas. Ronaldo Caiado (PSD), Renan Santos...",
-      "url": "https://www.band.com.br/noticias/jornal-da-band/videos/lula-e-flavio-bolsonaro-elevam-tom-de-ataques-na-campanha-202608281956",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-08-28T22:56:14+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
