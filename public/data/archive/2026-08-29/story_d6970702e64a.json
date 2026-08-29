@@ -13,11 +13,11 @@
     ],
     "seedRanks": {
       "topic-3": 3,
-      "topic-5": 2
+      "topic-5": 7
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 3,
-    "bestSeedRank": 2,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/Lula-e-jornalistas-da-Globo-27ago2026-1200x675.jpg",
   "publishedAt": "2026-08-28T01:20:22+00:00",
-  "updatedAt": "2026-08-29T02:30:22.744831+00:00",
+  "updatedAt": "2026-08-29T03:26:24.377855+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -75,7 +75,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-29T02:00:00+00:00",
-      "postedLabel": "30 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/28/17879540436a92037b8f601_1787954043_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -103,7 +103,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-28T20:45:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -117,7 +117,7 @@
       "sourceCanonical": "Aos Fatos",
       "sourceDomain": "aosfatos.org",
       "publishedAt": "2026-08-28T02:38:54+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -131,7 +131,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-08-28T03:15:41+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -207,29 +207,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3dd8a39e984e",
-      "title": "Ex-apresentadora da Globo critica maneira como Tralli e Renata entrevistaram Lula: “preocupação em constrangê-lo”",
-      "description": "A jornalista Leila Cordeiro, ex-apresentadora do 'Jornal Hoje' e 'Jornal da Globo', publicou uma postagem crítica à dupla de apresentadores...",
-      "url": "https://www.terra.com.br/diversao/tv/ex-apresentadora-da-globo-critica-maneira-como-tralli-e-renata-entrevistaram-lula-preocupacao-em-constrange-lo,a29aa15189cdaa3e146550990f9c588a8l0qhotp.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-28T22:27:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_a20b1a8b1a55",
       "title": "Maria Inês Nassif: Globo protagoniza mais um vexame em entrevista com Lula",
-      "description": "Renata Vasconcelos e César Tralli participaram de ação eleitoral da emissora.",
+      "description": "Não é preciso ser um especialista em comunicação para concluir que a entrevista do presidente Lula, candidato à reeleição,...",
       "url": "https://www.cartacapital.com.br/carta-capital/globo-protagoniza-mais-um-vexame-em-entrevista-com-lula/",
       "source": "CartaCapital",
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-28T22:25:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -243,10 +229,24 @@
       "sourceCanonical": "Partido dos Trabalhadores",
       "sourceDomain": "pt.org.br",
       "publishedAt": "2026-08-28T22:10:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_3dd8a39e984e",
+      "title": "Ex-apresentadora da Globo critica maneira como Tralli e Renata entrevistaram Lula: “preocupação em constrangê-lo”",
+      "description": "A jornalista Leila Cordeiro, ex-apresentadora do 'Jornal Hoje' e 'Jornal da Globo', publicou uma postagem crítica à dupla de apresentadores...",
+      "url": "https://www.terra.com.br/diversao/tv/ex-apresentadora-da-globo-critica-maneira-como-tralli-e-renata-entrevistaram-lula-preocupacao-em-constrange-lo,a29aa15189cdaa3e146550990f9c588a8l0qhotp.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-28T22:27:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_540e9d20bd40",
@@ -277,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_7793ff21ad05",
-      "title": "Lula não \"errou\" no Jornal Nacional; ele mentiu descaradamente",
-      "description": "Errar é enganar-se sobre algum dado ou mostrar aquela certeza ignorante a respeito de um aspecto da realidade; não foi o que Lula fez no JN.",
-      "url": "https://www.metropoles.com/colunas/mario-sabino/lula-nao-errou-no-jornal-nacional-ele-mentiu-descaradamente",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-28T16:01:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_3a295389f66e",
       "title": "Leia a íntegra das perguntas da \"Globo\" e as respostas de Lula",
       "description": "Durante sabatina, presidente foi questionado sobre inquéritos contra o filho, relação com lobista, caso Master e INSS. Leia no Poder360.",
@@ -299,6 +285,20 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-28T03:15:24+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_7793ff21ad05",
+      "title": "Lula não \"errou\" no Jornal Nacional; ele mentiu descaradamente",
+      "description": "Errar é enganar-se sobre algum dado ou mostrar aquela certeza ignorante a respeito de um aspecto da realidade; não foi o que Lula fez no JN.",
+      "url": "https://www.metropoles.com/colunas/mario-sabino/lula-nao-errou-no-jornal-nacional-ele-mentiu-descaradamente",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-28T16:01:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
