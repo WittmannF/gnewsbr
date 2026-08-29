@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 20,
-      "topic-5": 29
+      "topic-3": 21,
+      "topic-5": 28
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 21,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,12 +29,12 @@
     "saúde",
     "bolsonaro",
     "lottenberg",
-    "ministro",
-    "anuncia"
+    "anuncia",
+    "ministro"
   ],
   "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/Claudio-Lottenberg-medico-indicado-por-Flavio-ao-Ministerio-da-Saude.jpg",
   "publishedAt": "2026-08-29T01:16:00+00:00",
-  "updatedAt": "2026-08-29T20:25:24.531952+00:00",
+  "updatedAt": "2026-08-29T21:21:44.264777+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -61,7 +61,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-29T18:59:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -89,7 +89,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-29T18:52:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://i.metroimg.com/kzT8OpW1H4G5TCgjMnnER-pcZQkSAQEhJQRzzpnif50/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/08/flavio-bolsonaro-6.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -263,6 +263,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_c8f012778a36",
+      "title": "Flávio admite que, até hoje, não sabe onde Bolsonaro errou na pandemia",
+      "description": "Flávio Bolsonaro minimizou críticas de Claudio Lottenberg à gestão da Covid e disse não haver certeza sobre medidas adotadas na pandemia.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/flavio-admite-nao-saber-onde-bolsonaro-errou-na-pandemia/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-08-29T20:23:44+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_27d74f87d2e4",
       "title": "Flávio Bolsonaro faz motocarreata em dia da campanha e diz que vai levar 'padrão Einstein' ao SUS",
       "description": "Flávio disse que pretende ampliar o uso de tecnologia e inteligência artificial no SUS.",
@@ -271,7 +285,7 @@
       "sourceCanonical": "Jornal Correio",
       "sourceDomain": "correio24horas.com.br",
       "publishedAt": "2026-08-29T19:57:59+00:00",
-      "postedLabel": "27 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -303,46 +317,32 @@
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
-    },
-    {
-      "id": "article_ba482b9c7bea",
-      "title": "Flávio Bolsonaro nomeia Cláudio Lottenberg como possível ministro da Saúde",
-      "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
-      "url": "https://www.tribunadoagreste.com.br/politica/2026/08/29/969644-flavio-bolsonaro-nomeia-claudio-lottenberg-como-possivel-ministro-da-saude",
-      "source": "Tribuna do Agreste",
-      "sourceCanonical": "Tribuna do Agreste",
-      "sourceDomain": "tribunadoagreste.com.br",
-      "publishedAt": "2026-08-29T18:59:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 10,
-    "average": 6.07,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.8,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 10,
       "centerRight": 2,
       "right": 2,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
