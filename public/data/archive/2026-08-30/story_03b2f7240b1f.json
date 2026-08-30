@@ -3,37 +3,43 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzN2ZueUVSSFJJU2R3dHVZd3FTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzN2ZueUVSSFJJU2R3dHVZd3FTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 31
+      "topic-3": 41,
+      "topic-5": 56,
+      "topic-8": 29
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 41,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Interior ganha impulso com agro, e produtividade do Brasil muda de endereço",
   "summary": "A produtividade brasileira mudou de endereço. O motor do ganho de eficiência do país não roda mais nos tradicionais polos industriais,...",
-  "topic": "Produtividade · Agro",
+  "topic": "Agro · Produtividade",
   "topicKeywords": [
-    "produtividade",
     "agro",
+    "produtividade",
     "interior",
     "impulsiona",
     "endereço",
-    "faz"
+    "transforma"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2023/07/04/168849899764a4733565c9b_1688498997_3x2_rt.jpg",
   "publishedAt": "2026-03-09T07:00:00+00:00",
-  "updatedAt": "2026-08-30T19:34:34.286866+00:00",
-  "sourceCount": 7,
-  "articleCount": 7,
+  "updatedAt": "2026-08-30T20:25:27.913818+00:00",
+  "sourceCount": 8,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_3ab34de0c29c",
@@ -44,10 +50,24 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-08-30T14:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2023/07/04/168849899764a4733565c9b_1688498997_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_75a6fa0f517b",
+      "title": "Agro transforma interior do Brasil e reforça proposta de Bocalom para o Acre",
+      "description": "Reportagem da Folha de S.Paulo mostra que o crescimento da produção rural movimenta a indústria, o comércio e os serviços, gera empregos e...",
+      "url": "https://contilnetnoticias.com.br/destaque-2/agro-transforma-interior-do-brasil-e-reforca-proposta-de-bocalom-para-o-acre/",
+      "source": "ContilNet",
+      "sourceCanonical": "ContilNet",
+      "sourceDomain": "contilnetnoticias.com.br",
+      "publishedAt": "2026-08-30T20:04:21+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": "https://contilnetnoticias.com.br/wp-content/uploads/2026/08/bocalom-6-2-e1788120538846.avif",
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_756b7b965604",
@@ -72,7 +92,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-08-26T20:00:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": "https://www.brasil247.com/tendencias/wp-content/uploads/2026/08/39-Imagem-do-ChatGPT-25-de-ago-de-2026-15-27-34.jpg",
       "spectrumScore": 1,
       "bucket": "left"
@@ -128,7 +148,7 @@
       "sourceCanonical": "Jornal do Tocantins",
       "sourceDomain": "jornaldotocantins.com.br",
       "publishedAt": "2026-08-30T15:10:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -139,21 +159,21 @@
     "max": 4,
     "average": 2.5,
     "knownCount": 2,
-    "unknownCount": 5,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 0,
       "centerRight": 0,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 65
+    "confidence": 67
   },
   "flags": [
     "Muitas fontes não classificadas",
