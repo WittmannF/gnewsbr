@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 49
+      "topic-7": 50
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 49,
-    "bestSeedRank": 49,
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "japão",
     "magnitude",
     "atinge",
-    "leste",
-    "feridos"
+    "feridos",
+    "leste"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/T2F-CryIv3e_k9LvkA9g6iIy-4s=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/w/H/nwXDq6QwarAt0S6g8wGw/tokyo.jpg",
   "publishedAt": "2026-08-22T18:37:53+00:00",
-  "updatedAt": "2026-08-30T01:21:28.173419+00:00",
+  "updatedAt": "2026-08-30T01:47:54.480854+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -122,13 +122,13 @@
     {
       "id": "article_403d3f6d0226",
       "title": "Terremoto de magnitude 5,9 deixa ao menos 37 feridos no Japão",
-      "description": "00:0004:27. Esportes. Botafogo-SP x Cuiabá pela Série B: onde assistir ao vivo, horário e escalação. Leia o resumo.",
+      "description": "Esportes. Atlético-MG aposta em reservas e ganha do Vitória antes de jogo decisivo na Copa do Brasil. Leia o resumo. atletico mg aposta em reservas e ganha...",
       "url": "https://www.estadao.com.br/em-alta/internacional/terremoto-de-magnitude-59-deixa-ao-menos-37-feridos-no-japao-npr/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-28T07:00:00+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-08-23T07:16:53+00:00",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -260,20 +260,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e4cc6149fe54",
-      "title": "Terremoto de magnitude 5.9 atinge o leste do Japão, incluindo Tóquio, interrompendo os serviços ferroviários",
-      "description": "TÓQUIO — Um terremoto preliminar de magnitude 5,9 atingiu o leste do Japão na madrugada de domingo, ferindo pessoas em prefeituras próximas...",
-      "url": "https://ipc.digital/le-seisme-m5-9-frappe-lest-du-japon-y-compris-tokyo-perturbant-les-trains/",
-      "source": "IPC Digital",
-      "sourceCanonical": "IPC Digital",
-      "sourceDomain": "ipc.digital",
-      "publishedAt": "2026-08-23T06:23:49+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_199101f65047",
       "title": "Terremoto de magnitude 5,9 atingiu o Japão",
       "description": "Um terremoto de magnitude 5,9 atingiu a região de Tóquio e o leste de Kanto na madrugada deste domingo (23/8), por volta das 2h (horário...",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_2080651ba75d",
+      "title": "Forte terremoto de magnitude 5,9 atinge a região de Tóquio no Japão e deixa dezenas de feridos",
+      "description": "247 – Um terremoto de magnitude 5,9 atingiu a região metropolitana de Tóquio e o leste da região de Kanto na madrugada deste domingo (23),...",
+      "url": "https://www.brasil247.com/mundo/forte-terremoto-de-magnitude-59-atinge-a-regiao-de-toquio-no-japao-e-deixa-dezenas-de-feridos/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-08-23T12:53:00+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 9,
-    "average": 6.33,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 3,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
