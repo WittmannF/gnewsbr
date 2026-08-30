@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 41
+      "topic-3": 42
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 41,
-    "bestSeedRank": 41,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "alerta",
     "nesta",
-    "tempestade",
     "chuva",
+    "tempestade",
     "espírito",
     "santo"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/inLlpdVQh99GWuTvLrgmXvpwPIE=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/N/5iFBvxTfmwHzstaurQLg/juiz-de-fora-previsao-do-tempo-ju-netto-5.jpeg",
   "publishedAt": "2026-08-25T13:55:00+00:00",
-  "updatedAt": "2026-08-30T05:24:29.005178+00:00",
+  "updatedAt": "2026-08-30T06:38:14.492408+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -260,6 +260,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_c28bf35fc9c0",
+      "title": "Alerta Defesa Civil 26/08/2026 - Possibilidade de pancadas de chuva de intensidade moderada a forte",
+      "description": "A Secretaria Executiva de Defesa Civil de Macaé informa que a atuação de áreas de instabilidade atmosférica favorece a ocorrência de...",
+      "url": "https://www.macae.rj.gov.br/noticias/leitura/noticia/alerta-defesa-civil-26082026-possibilidade-de-pancadas-de-chuva-de-intensidade-moderada-a-forte",
+      "source": "Prefeitura de Macaé",
+      "sourceCanonical": "Prefeitura de Macaé",
+      "sourceDomain": "macae.rj.gov.br",
+      "publishedAt": "2026-08-27T02:26:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_1fa9d4d07ad6",
       "title": "Defesa Civil alerta para chuva forte, raios e granizo no ES",
       "description": "O Espírito Santo está sob aviso de impacto moderado para tempestades nesta quinta-feira (27). A previsão indica chuva de moderada a forte,...",
@@ -288,20 +302,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_35cbeed52654",
-      "title": "Quarta-feira de temporais no Sul, no Sudeste e no Centro-Oeste",
-      "description": "O clima é de chuvas intensas e trovoadas em parte do Brasil nesta quarta-feira, 26. Os fenômenos climáticos se fazem presente no norte do...",
-      "url": "https://revistaoeste.com/brasil/quarta-feira-de-temporais-no-sul-no-sudeste-e-no-centro-oeste/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-08-26T09:00:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_e915df38fe3d",
       "title": "Brasil tem alerta de granizo, geada e calor de 40°C; veja em quais locais",
       "description": "Áreas de instabilidade sobre as regiões Centro-Oeste, Sudeste e a parte norte do Sul do Brasil devem provocar chuvas e trovoadas nesta...",
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 10,
-    "average": 5.55,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 7,
+    "average": 5.1,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 1,
-      "right": 1,
-      "unknown": 9
+      "right": 0,
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
