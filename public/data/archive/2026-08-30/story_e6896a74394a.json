@@ -3,22 +3,31 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrcm96d0VSR2V0cG1IaXN5WFJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrcm96d0VSR2V0cG1IaXN5WFJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 5,
+      "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre Nepal",
+  "title": "Enchentes no Nepal",
   "summary": "'Se tivéssemos tomado essa decisão 10 minutos mais tarde, nenhum de nós — nem eu, nem os alunos — estaria aqui hoje', relata o diretor da...",
   "topic": "Nepal · Tibete",
   "topicKeywords": [
@@ -31,7 +40,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/9b03/live/1f2a22a0-a475-11f1-a291-b542ee92de7c.jpg",
   "publishedAt": "2026-08-26T15:08:54+00:00",
-  "updatedAt": "2026-08-30T21:25:52.495493+00:00",
+  "updatedAt": "2026-08-30T22:20:17.759371+00:00",
   "sourceCount": 16,
   "articleCount": 20,
   "articles": [
@@ -58,7 +67,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-30T18:35:31+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -184,7 +193,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-08-30T16:01:13+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -198,24 +207,10 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-08-30T20:15:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_22b45b9591d7",
-      "title": "Sobe para 781 o número mortos após tragédia no Nepal, com 2.502 desaparecidos",
-      "description": "A agência nepalesa de redução de riscos de desastres informou que quase 20 mil agentes de segurança foram mobilizados para os esforços de...",
-      "url": "https://www.cartacapital.com.br/mundo/sobe-para-781-o-numero-mortos-apos-tragedia-no-nepal-com-2-502-desaparecidos/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-08-30T18:20:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_1fc4db31a908",
@@ -230,6 +225,34 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_22b45b9591d7",
+      "title": "Sobe para 781 o número mortos após tragédia no Nepal, com 2.502 desaparecidos",
+      "description": "A agência nepalesa de redução de riscos de desastres informou que quase 20 mil agentes de segurança foram mobilizados para os esforços de...",
+      "url": "https://www.cartacapital.com.br/mundo/sobe-para-781-o-numero-mortos-apos-tragedia-no-nepal-com-2-502-desaparecidos/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-08-30T18:20:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_14f0a5ee3b9d",
+      "title": "China diz que há 16 mortos e 546 desaparecidos em deslizamento de terra no Tibete",
+      "description": "Número de vítimas de tragédia climática aumenta na região autônoma, segundo a imprensa estatal e autoridades locais.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/china-diz-que-ha-16-mortos-e-546-desaparecidos-em-deslizamento-de-terra-no-tibete-1.1743423",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-30T01:21:06+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_4daa0b2c4a1c",
@@ -254,23 +277,23 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-30T18:52:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_14f0a5ee3b9d",
-      "title": "China diz que há 16 mortos e 546 desaparecidos em deslizamento de terra no Tibete",
-      "description": "Número de vítimas de tragédia climática aumenta na região autônoma, segundo a imprensa estatal e autoridades locais.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/china-diz-que-ha-16-mortos-e-546-desaparecidos-em-deslizamento-de-terra-no-tibete-1.1743423",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-30T01:21:06+00:00",
-      "postedLabel": "hoje",
+      "id": "article_4f1e5a04b719",
+      "title": "Menina é resgatada após 60 horas sob escombros no Nepal",
+      "description": "Uma menina de seis anos foi resgatada com vida neste sábado (29) em Timure, no norte do Nepal, após permanecer quase 60 horas presa sob os...",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/menina-e-resgatada-apos-60-horas-sob-escombros-no-nepal",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-08-29T17:41:50+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -286,20 +309,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_4f1e5a04b719",
-      "title": "Menina é resgatada após 60 horas sob escombros no Nepal",
-      "description": "Uma menina de seis anos foi resgatada com vida neste sábado (29) em Timure, no norte do Nepal, após permanecer quase 60 horas presa sob os...",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/menina-e-resgatada-apos-60-horas-sob-escombros-no-nepal",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-08-29T17:41:50+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_b71e68ebbf7e",
