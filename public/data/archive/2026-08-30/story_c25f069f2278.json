@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lOeHZfeUVSRWpibmtZLTIwUkl5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lOeHZfeUVSRWpibmtZLTIwUkl5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre rajadas de vento • chuva",
   "summary": "Segundo o Alerta Rio, houve registro de chuva fraca entre 21h15 e 21h30 em Guaratiba, Copacabana, Barra/Barrinha e Alto da Boa Vista.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-extra.glbimg.com/4Ht3bhW76a9dO2Xtr-XFoHxUUfY=/4000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/B/7/lEecMfSeAXKQATUA7DYg/115794191-rio-29-07-2026-ventania-arpoador-tumulto-e-desorientacao-na-praia-com-a-forte-ventania.jpg",
   "publishedAt": "2026-08-29T23:48:40+00:00",
-  "updatedAt": "2026-08-30T07:32:25.342035+00:00",
+  "updatedAt": "2026-08-30T08:26:53.811656+00:00",
   "sourceCount": 6,
   "articleCount": 7,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "Extra",
       "sourceDomain": "extra.globo.com",
       "publishedAt": "2026-08-30T01:39:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-extra.glbimg.com/4Ht3bhW76a9dO2Xtr-XFoHxUUfY=/4000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/B/7/lEecMfSeAXKQATUA7DYg/115794191-rio-29-07-2026-ventania-arpoador-tumulto-e-desorientacao-na-praia-com-a-forte-ventania.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -92,14 +98,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6af8ff6cbb57",
-      "title": "Tempo muda em Niterói com previsão de chuva forte e rajadas de vento",
-      "description": "A Defesa Civil de Niterói informa a chegada de pancadas de chuva de intensidade moderada a forte nas próximas horas na cidade. O Centro de...",
-      "url": "https://www.atribunarj.com.br/materia/tempo-muda-em-niteroi-com-previsao-de-chuva-forte-e-rajadas-de-vento",
-      "source": "A Tribuna RJ",
-      "sourceCanonical": "A Tribuna RJ",
-      "sourceDomain": "atribunarj.com.br",
-      "publishedAt": "2026-08-30T00:16:00+00:00",
+      "id": "article_ad6a43a06212",
+      "title": "Rio tem alerta para chuva forte e rajadas de vento de até 76 km/h",
+      "description": "A chuva começou a atingir diferentes pontos do Rio de Janeiro na noite deste sábado (29/8). Segundo o Sistema Alerta Rio, houve registro de...",
+      "url": "https://www.diariodorio.com/rio-de-janeiro/2026/08/29/rio-tem-alerta-para-chuva-forte-e-rajadas-de-vento-de-ate-76-km-h.html",
+      "source": "Diário do Rio",
+      "sourceCanonical": "Diário do Rio",
+      "sourceDomain": "diariodorio.com",
+      "publishedAt": "2026-08-30T01:48:36+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -120,15 +126,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ad6a43a06212",
-      "title": "Rio tem alerta para chuva forte e rajadas de vento de até 76 km/h",
-      "description": "A chuva começou a atingir diferentes pontos do Rio de Janeiro na noite deste sábado (29/8). Segundo o Sistema Alerta Rio, houve registro de...",
-      "url": "https://www.diariodorio.com/rio-de-janeiro/2026/08/29/rio-tem-alerta-para-chuva-forte-e-rajadas-de-vento-de-ate-76-km-h.html",
-      "source": "Diário do Rio",
-      "sourceCanonical": "Diário do Rio",
-      "sourceDomain": "diariodorio.com",
-      "publishedAt": "2026-08-30T01:48:36+00:00",
-      "postedLabel": "5 horas atrás",
+      "id": "article_6af8ff6cbb57",
+      "title": "Tempo muda em Niterói com previsão de chuva forte e rajadas de vento",
+      "description": "A Defesa Civil de Niterói informa a chegada de pancadas de chuva de intensidade moderada a forte nas próximas horas na cidade. O Centro de...",
+      "url": "https://www.atribunarj.com.br/materia/tempo-muda-em-niteroi-com-previsao-de-chuva-forte-e-rajadas-de-vento",
+      "source": "A Tribuna RJ",
+      "sourceCanonical": "A Tribuna RJ",
+      "sourceDomain": "atribunarj.com.br",
+      "publishedAt": "2026-08-30T00:16:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
