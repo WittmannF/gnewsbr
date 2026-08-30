@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUMzU3d0VSRXRIMkJ4cFQ2OTh5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUMzU3d0VSRXRIMkJ4cFQ2OTh5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9,
-      "topic-5": 5
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 9,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula mira mulheres, já celebra fim da 6 X 1 e chama Marisa de Janja",
   "summary": "Presidente participou do ato “Mulheres com Lula”, em Minas Gerais; no palco, estavam ministras e candidatas do PT e partidos aliados.",
@@ -28,13 +31,13 @@
     "lula",
     "mulheres",
     "janja",
-    "ato",
+    "defende",
     "mira",
     "marisa"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-janja-29ago2026-1200x675.jpg",
   "publishedAt": "2026-08-26T00:48:38+00:00",
-  "updatedAt": "2026-08-30T11:20:03.379540+00:00",
+  "updatedAt": "2026-08-30T12:29:59.862768+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -165,20 +168,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_4b5a2bc0ffea",
-      "title": "‘Extrema alegria e muita saudade’, diz Patrus Ananias ao lembrar da mulher",
-      "description": "Candidato ao governo de Minas relembrou a mulher, Vera Maria, durante o 'Mulheres com Lula', em Belo Horizonte.",
-      "url": "https://www.em.com.br/politica/2026/08/7490004-extrema-alegria-e-muita-saudade-diz-patrus-ananias-ao-lembrar-da-mulher.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-08-29T18:19:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_26dd3b82d9ec",
       "title": "Em BH, Lula mira eleitorado feminino e defende zerar casos de feminicídios",
       "description": "Na manhã deste sábado (29/8), o presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, participou do ato Mulheres com Lula, em...",
@@ -205,6 +194,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_bbdeeb62c579",
+      "title": "Lula: ‘As mulheres estão botando pra quebrar, e os homens que se cuidem’",
+      "description": "Presidente disse em agenda de campanha que as mulheres são maioria em programas do governo voltados à Educação.",
+      "url": "https://www.em.com.br/politica/2026/08/7490030-lula-as-mulheres-estao-botando-pra-quebrar-e-os-homens-que-se-cuidem.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-08-29T18:48:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_24d71de3121c",
@@ -247,6 +250,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_313ed434dd63",
+      "title": "Lula defende igualdade de gênero em cargos de gestão em evento com mulheres",
+      "description": "Presidente fez aceno ao eleitorado feminino e destacou votação do fim da escala 6x1 \"para que mulheres e homens tenham mais tempo de cuidar...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-defende-igualdade-de-genero-em-cargos-de-gestao-em-evento-com-mulheres/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-29T19:31:45+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_39ef294d3ef5",
@@ -303,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_b50edbf32aae",
-      "title": "Marília Arraes participa de ato com Lula e lideranças femininas em BH",
-      "description": "A candidata ao Senado Marília Arraes (PDT) participou, neste sábado (29), em Belo Horizonte, do ato nacional “Mulheres com Lula”, ao lado do...",
-      "url": "https://blogcenario.com.br/2026/08/29/marilia-arraes-participa-de-ato-com-lula-e-liderancas-femininas-em-bh",
-      "source": "Blog Cenário",
-      "sourceCanonical": "Blog Cenário",
-      "sourceDomain": "blogcenario.com.br",
-      "publishedAt": "2026-08-29T17:20:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.38,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.36,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 8,
+      "center": 9,
       "centerRight": 2,
       "right": 1,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
