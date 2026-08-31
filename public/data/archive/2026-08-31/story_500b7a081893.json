@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 50
+      "topic-3": 53
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 50,
-    "bestSeedRank": 50,
+    "firstSeenRank": 53,
+    "bestSeedRank": 53,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +27,11 @@
     "nazismo",
     "apologia",
     "nazista",
-    "alunos"
+    "agredido"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/o8m6nQoekP0l6aOUbUvUyh6UGBM=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s01.video.glbimg.com/deo/vi/04/38/14903804",
   "publishedAt": "2026-08-26T17:12:33+00:00",
-  "updatedAt": "2026-08-31T01:06:01.487708+00:00",
+  "updatedAt": "2026-08-31T01:40:46.915494+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -274,20 +274,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_dd2056a3135e",
-      "title": "Vídeo: Estudante é espancado dentro da UFRJ",
-      "description": "Um estudante foi espancado na noite de terça-feira (25), nas dependências do Instituto de Filosofia e Ciências Sociais (IFCS) e do Instituto...",
-      "url": "https://www.faroldabahia.com.br/noticia/video-estudante-e-espancado-dentro-da-ufrj",
-      "source": "Farol da Bahia",
-      "sourceCanonical": "Farol da Bahia",
-      "sourceDomain": "faroldabahia.com.br",
-      "publishedAt": "2026-08-27T20:01:57+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_1f29c54d0e73",
       "title": "Aluno é agredido após suposta apologia ao nazismo em Universidade Federal",
       "description": "A Universidade Federal do Rio de Janeiro (UFRJ) abriu uma investigação para apurar um episódio de violência ocorrido na última terça-feira...",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c59ec6a7464c",
+      "title": "Estudante da UFRJ que teria feito apologia ao nazismo é agredido dentro da universidade",
+      "description": "Em nota, a faculdade disse que o caso está sendo apurado e repudia os acontecimentos.",
+      "url": "https://jovempan.com.br/brasil/estudante-da-ufrj-que-teria-feito-apologia-ao-nazismo-e-agredido-dentro-da-universidade/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-08-27T21:27:58+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 4,
-    "max": 8,
-    "average": 6,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 9,
+    "average": 6.19,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 6,
-      "right": 0,
-      "unknown": 5
+      "right": 1,
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
