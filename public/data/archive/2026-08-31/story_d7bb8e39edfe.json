@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpbjZueEVSRy1CdHhDa0dLSUppZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpbjZueEVSRy1CdHhDa0dLSUppZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 5,
-      "topic-7": 2
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 8,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 5,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "EUA e Venezuela firmam acordo sobre reservas de petróleo",
+  "title": "Notícias sobre petróleo • Trump • EUA",
   "summary": "EUA terão controle majoritário sobre 65 bilhões de barris; republicano prometeu reduzir os preços da gasolina no país. Leia no Poder360.",
-  "topic": "Venezuela · Petróleo",
+  "topic": "Venezuela · Acordo",
   "topicKeywords": [
     "venezuela",
-    "petróleo",
     "acordo",
+    "petróleo",
     "eua",
     "trump",
-    "reservas"
+    "petrolífero"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/03/donald-trump-eua.jpg",
   "publishedAt": "2026-08-29T03:17:58+00:00",
-  "updatedAt": "2026-08-31T07:40:33.363477+00:00",
+  "updatedAt": "2026-08-31T08:34:25.830811+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -53,18 +59,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_a839edc945a0",
-      "title": "Presidente interina da Venezuela 'rebate' Trump e diz que país manterá controle de seu petróleo após acordo",
-      "description": "Delcy Rodriguez, ex-vice de Maduro mantida no governo por Washington, não vê perda de soberania e prometeu entrada de bilhões de dólares na...",
-      "url": "https://oglobo.globo.com/mundo/noticia/2026/08/30/presidente-interina-da-venezuela-rebate-trump-e-diz-que-pais-mantera-controle-de-seu-petroleo-apos-acordo.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-08-30T05:03:55+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://s2-oglobo.glbimg.com/mZsGky1rPJ2nfcjXvjBbZliW8y8=/2822x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/4/g/Oy1hZuShOoArE6WuEwyA/113707742-this-handout-picture-released-by-the-venezuelan-presidency-on-january-30-2026-shows-venezu.jpg",
+      "id": "article_1fa11fed0c9d",
+      "title": "Chavistas e oposição criticam acordo petrolífero com Trump",
+      "description": "Delcy Rodríguez defende pacto que prevê US$ 100 bi em investimentos, mas é acusada de entregar recursos do país aos EUA.",
+      "url": "https://valor.globo.com/mundo/noticia/2026/08/31/chavistas-e-oposicao-criticam-acordo-petrolifero-com-trump.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-08-31T08:02:41+00:00",
+      "postedLabel": "31 minutos atrás",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_cb50eff811c0",
+      "title": "Petróleo da Venezuela será usado para reabastecer reservas dos EUA, diz Trump",
+      "description": "Líder interina da Venezuela fala em acordo histórico que ajudará a reerguer economia e diz que vai manter soberania sobre recursos.",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/08/petroleo-da-venezuela-sera-usado-para-reabastecer-reservas-dos-eua-diz-trump.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-08-30T16:55:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/28/17879581396a92137b67116_1787958139_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_f83bd9272c29",
@@ -90,37 +110,23 @@
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-08-30T15:24:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/08/delcy-alocucion-acuerdo-energia-29ag26-1024x576jpg-eeb9feb0.webp",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
     {
-      "id": "article_cb45fb7ec363",
-      "title": "Entenda o acordo que garante participação dos EUA em reservas de petróleo da Venezuela",
-      "description": "O presidente Donald Trump anunciou nesta sexta-feira (28) um acordo que garante aos Estados Unidos o controle majoritário de 65 bilhões de...",
-      "url": "https://jovempan.com.br/mundo/entenda-o-acordo-que-garante-participacao-dos-eua-em-reservas-de-petroleo-da-venezuela/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-08-29T17:15:11+00:00",
+      "id": "article_b1e2c3b49fc8",
+      "title": "Venezuela diz que manterá soberania sobre petróleo em acordo de US$ 100 bi com EUA",
+      "description": "Internacional. Venezuela diz que manterá soberania sobre petróleo em acordo de US$ 100 bi com EUA. Saiba tudo. Arraste para cima.",
+      "url": "https://www.estadao.com.br/em-alta/internacional/venezuela-diz-que-mantera-soberania-sobre-petroleo-em-acordo-de-us-100-bi-com-eua-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-08-30T06:12:37+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_e4561357af96",
-      "title": "Parceria petrolífera de Trump na Venezuela depende de empresário controverso",
-      "description": "Estará no centro do acordo Alejandro Betancourt, cuja família controla a 2ª maior petroleira venezuelana.",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/08/parceria-petrolifera-de-trump-na-venezuela-depende-de-empresario-controverso.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-08-30T07:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_f160999c2538",
@@ -134,20 +140,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_34b68dce1c0d",
-      "title": "Trump quer ampliar produção de petróleo na Venezuela com garantias para empresas dos EUA",
-      "description": "Os EUA negociam direitos de longo prazo sobre campos de petróleo para companhias americanas no país latino-americano.",
-      "url": "https://www.estadao.com.br/internacional/lourival-santanna/trump-quer-ampliar-producao-de-petroleo-na-venezuela-com-garantias-para-empresas-dos-eua/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-08-29T20:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -207,20 +199,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_53f07a3c2892",
-      "title": "Trump diz que petróleo da Venezuela será usado para reabastecer reservas",
-      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou que usará o petróleo venezuelano para encher as reservas americanas.",
-      "url": "https://www.metropoles.com/brasil/trump-diz-que-petroleo-da-venezuela-sera-usado-para-reabastecer-reservas",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-30T17:37:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7b295bf7e67c",
       "title": "Suspeita e dúvidas diante do acordo petrolífero entre Venezuela e EUA",
       "description": "Acordo que permitirá aos Estados Unidos operar campos de petróleo, gera dúvidas e desconfiança entre a população diante do sigilo estatal,...",
@@ -233,20 +211,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_87e65a7e89eb",
-      "title": "Trump anuncia uso de petróleo venezuelano para recompor Reserva Estratégica dos EUA. Acordo prevê 17 campos e produção.",
-      "description": "O presidente dos EUA, Donald Trump, anunciou neste domingo (30/08) que pretende utilizar petróleo da Venezuela para recompor a Reserva...",
-      "url": "https://br.advfn.com/jornal/2026/08/trump-anuncia-uso-de-petroleo-venezuelano-para-recompor-reserva-estrategica-dos-eua-acordo-preve-17-campos-e-producao",
-      "source": "ADVFN",
-      "sourceCanonical": "ADVFN",
-      "sourceDomain": "br.advfn.com",
-      "publishedAt": "2026-08-30T19:20:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_74f0042a92df",
@@ -277,6 +241,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_cb45fb7ec363",
+      "title": "Entenda o acordo que garante participação dos EUA em reservas de petróleo da Venezuela",
+      "description": "O presidente Donald Trump anunciou nesta sexta-feira (28) um acordo que garante aos Estados Unidos o controle majoritário de 65 bilhões de...",
+      "url": "https://jovempan.com.br/mundo/entenda-o-acordo-que-garante-participacao-dos-eua-em-reservas-de-petroleo-da-venezuela/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-08-29T17:15:11+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_b1f0c6052528",
+      "title": "Presidente da Venezuela diz que país continuará a ter controle do petróleo",
+      "description": "Após acordo com os Estados Unidos, Delcy Rodriguez, presidente interina da Venezuela, afirmou que o país não perderá o controle do petróleo.",
+      "url": "https://www.metropoles.com/mundo/presidente-da-venezuela-diz-que-pais-continuara-a-ter-controle-do-petroleo",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-30T10:31:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_112f267eb71a",
       "title": "A cartada de Trump para controlar o petróleo da Venezuela pelos próximos 100 anos",
       "description": "Pacto com Delcy Rodríguez amplia o domínio dos EUA no hemisfério e já provoca acusações de entrega da riqueza venezuelana.",
@@ -299,36 +291,50 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-08-31T04:02:35+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_8ad2b71063ca",
-      "title": "Trump: 'vamos encher as reservas estratégicas dos EUA com petróleo venezuelano'",
-      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou neste domingo, em publicação na rede social Truth Social, que uma das primeiras...",
-      "url": "https://www.folhape.com.br/noticias/trump-vamos-encher-as-reservas-estrategicas-dos-eua-com-petroleo/509557/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-08-30T16:20:00+00:00",
+      "id": "article_225e16887f47",
+      "title": "Pentágono planeja adquirir participação de 35% em empreendimento petrolífero na Venezuela",
+      "description": "Investing.com - O Pentágono planeja adquirir uma participação passiva de 35% em uma empresa privada detentora de direitos petrolíferos na...",
+      "url": "https://br.investing.com/news/economy-news/pentagono-planeja-adquirir-participacao-de-35-em-empreendimento-petrolifero-na-venezuela-2052766",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-08-30T03:20:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_87e65a7e89eb",
+      "title": "Trump anuncia uso de petróleo venezuelano para recompor Reserva Estratégica dos EUA. Acordo prevê 17 campos e produção.",
+      "description": "O presidente dos EUA, Donald Trump, anunciou neste domingo (30/08) que pretende utilizar petróleo da Venezuela para recompor a Reserva...",
+      "url": "https://br.advfn.com/jornal/2026/08/trump-anuncia-uso-de-petroleo-venezuelano-para-recompor-reserva-estrategica-dos-eua-acordo-preve-17-campos-e-producao",
+      "source": "ADVFN",
+      "sourceCanonical": "ADVFN",
+      "sourceDomain": "br.advfn.com",
+      "publishedAt": "2026-08-30T19:20:39+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.38,
+    "average": 5.44,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
-      "centerLeft": 4,
-      "center": 7,
+      "centerLeft": 3,
+      "center": 8,
       "centerRight": 3,
       "right": 1,
       "unknown": 4
