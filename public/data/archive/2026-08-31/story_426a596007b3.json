@@ -3,39 +3,45 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ljMHZfdUVSR29KLTl5XzB6bU5pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ljMHZfdUVSR29KLTl5XzB6bU5pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9,
-      "topic-5": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 7,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 9,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Saiba quais empresários e banqueiros são esperados em jantar de Lula",
   "summary": "Na sexta-feira (28), a CNN Brasil havia antecipado o movimento em torno da reunião no Palácio do Alvorada.",
-  "topic": "Flávio · Lula",
+  "topic": "Lula · Flávio",
   "topicKeywords": [
-    "flávio",
     "lula",
+    "flávio",
     "empresários",
     "banqueiros",
     "jantar",
-    "bolsonaro"
+    "pib"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportBusinessNews/tagreuters.com2025binary_LYNXMPEL750YF-BASEIMAGE.jpg?w=800&h=534&crop=1",
   "publishedAt": "2026-08-24T22:50:16+00:00",
-  "updatedAt": "2026-08-31T05:26:16.687218+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-08-31T06:46:30.050282+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -75,22 +81,22 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-30T23:33:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_ddd38b849f85",
-      "title": "Análise: Faria Lima já topa Flávio Bolsonaro",
-      "description": "Demorou, mas aconteceu. A Faria Lima, finalmente, sentou com Flávio Bolsonaro após meses de resistência ao candidato do PL.",
-      "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/analise-faria-lima-ja-topa-flavio-bolsonaro/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-29T01:01:27+00:00",
+      "id": "article_f9d73be51e00",
+      "title": "Mercado sugere a Flávio ter Kayath na Fazenda e Dani Marques na Casa Civil",
+      "description": "Segundo relatos, executivo e ex-presidente da Caixa foram descritos como os “2 postos Ipiranga” do candidato do PL. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/mercado-sugere-a-flavio-ter-kayath-na-fazenda-e-dani-marques-na-casa-civil/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-08-28T13:43:28+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/AF820260801004.jpg?w=1200&h=630&crop=1",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/prismada-kayath-daniella-marques-1200x675.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -109,20 +115,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_f9d73be51e00",
-      "title": "Mercado sugere a Flávio ter Kayath na Fazenda e Dani Marques na Casa Civil",
-      "description": "Segundo relatos, executivo e ex-presidente da Caixa foram descritos como os “2 postos Ipiranga” do candidato do PL. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/mercado-sugere-a-flavio-ter-kayath-na-fazenda-e-dani-marques-na-casa-civil/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-08-28T13:43:28+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_8f4c20d49aed",
       "title": "Lula convida empresários e banqueiros para jantar após Flávio se reunir com executivos do mercado",
       "description": "Flávio Bolsonaro repete que não há irregularidade em patrocínio do Master para filme sobre seu pai. Leia o resumo.",
@@ -137,6 +129,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_acdec3b46fde",
+      "title": "Ala da campanha teme TSE e defende jantar de Lula com PIB fora do Alvorada",
+      "description": "Aliados de Lula temem novo questionamento de Flávio Bolsonaro ao TSE por causa do jantar com empresários e banqueiros no Alvorada.",
+      "url": "https://www.metropoles.com/colunas/milena-teixeira/ala-da-campanha-teme-tse-e-defende-jantar-de-lula-com-pib-fora-do-alvorada",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-08-31T06:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_828316c7c25a",
       "title": "Lula convoca empresários do “PIB” para discutir investimentos",
       "description": "Presidente reúne grandes empresários em Brasília para discutir investimentos, indústria, tecnologia e os rumos da economia brasileira.",
@@ -149,20 +155,6 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_3a35c5e17055",
-      "title": "Receptividade do Bradesco a Flávio chama a atenção de aliados do senador",
-      "description": "Agenda de Flávio Bolsonaro (PL) no Bradesco, na quinta (27/8), contou com a presença da cúpula do banco e de executivos de mais de 30 áreas.",
-      "url": "https://www.metropoles.com/colunas/igor-gadelha/receptividade-do-bradesco-a-flavio-chama-atencao-de-aliados-do-senador",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-08-28T15:29:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_bdfbce19db49",
@@ -257,7 +249,21 @@
       "sourceCanonical": "Money Report",
       "sourceDomain": "moneyreport.com.br",
       "publishedAt": "2026-08-31T03:01:27+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_c96b0f079e45",
+      "title": "Flávio Bolsonaro reúne nomes do PIB e diz como pretende blindar a área econômica do Centrão",
+      "description": "Senador Flávio Bolsonaro se encontrou com 14 empresários para discutir sua candidatura e planos para um eventual governo.",
+      "url": "https://www.bnews.com.br/noticias/politica/flavio-reune-nomes-do-pib-e-diz-como-pretende-blindar-area-economica-do-centrao.html",
+      "source": "bnews.com.br",
+      "sourceCanonical": "bnews.com.br",
+      "sourceDomain": "bnews.com.br",
+      "publishedAt": "2026-08-30T12:00:34+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -275,20 +281,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_c96b0f079e45",
-      "title": "Flávio Bolsonaro reúne nomes do PIB e diz como pretende blindar a área econômica do Centrão",
-      "description": "Senador Flávio Bolsonaro se encontrou com 14 empresários para discutir sua candidatura e planos para um eventual governo.",
-      "url": "https://www.bnews.com.br/noticias/politica/flavio-reune-nomes-do-pib-e-diz-como-pretende-blindar-area-economica-do-centrao.html",
-      "source": "bnews.com.br",
-      "sourceCanonical": "bnews.com.br",
-      "sourceDomain": "bnews.com.br",
-      "publishedAt": "2026-08-30T12:00:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_8248b4bc5e61",
@@ -317,21 +309,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_7ce52c2f8ba6",
+      "title": "Presidente reúne o PIB brasileiro para uma conversa sobre economia",
+      "description": "Entre os convidados estão o empresário Joesley Batista, da J&F; e os banqueiros André Esteves, do BTG Pactual; Milton Maluhy, presidente do...",
+      "url": "https://correiodobrasil.com.br/a/presidente-reune-pib-brasileiro-conversa-economia",
+      "source": "correiodobrasil.com.br",
+      "sourceCanonical": "correiodobrasil.com.br",
+      "sourceDomain": "correiodobrasil.com.br",
+      "publishedAt": "2026-08-29T18:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.62,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.67,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 9,
+      "center": 8,
       "centerRight": 4,
       "right": 1,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
