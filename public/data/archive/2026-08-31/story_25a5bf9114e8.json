@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxNUs3ekVSRU04NU9LdEVUcUlTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxNUs3ekVSRU04NU9LdEVUcUlTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 2,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Campanha de Lula pede inelegibilidade de Flávio por ato em Barretos",
   "summary": "Coligação afirma que evento teve pedido de voto e uso de estrutura privada e pública em favor do candidato do PL. Leia no Poder360.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/Tarcisio-Flavio-em-Barretos-22-ago-2026-1200x675.jpg",
   "publishedAt": "2026-08-29T19:07:58+00:00",
-  "updatedAt": "2026-08-31T06:47:54.341888+00:00",
+  "updatedAt": "2026-08-31T07:31:34.972903+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -61,7 +67,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-08-31T00:52:40+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/Z8TZhOkiC6H2vN1xIVfSebaJs-Y=/1519x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/6/7/TX2keiScuFf06vLbzcEA/lula-e-flavio.png",
       "spectrumScore": 6,
       "bucket": "center"
@@ -75,7 +81,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-31T01:08:10+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -131,20 +137,20 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-31T02:19:12+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_441943a3430c",
-      "title": "Campanha de Lula pede cassação da chapa de Flávio Bolsonaro por ‘abuso de poder econômico’",
-      "description": "Segundo a defesa petista, o candidato do PL teria usado a Festa do Peão de Barretos disfarçada de “showmício”",
-      "url": "https://noticias.r7.com/eleicoes/2026/campanha-de-lula-pede-cassacao-da-chapa-de-flavio-bolsonaro-por-abuso-de-poder-economico-30082026/",
+      "id": "article_268967e4b522",
+      "title": "Justiça Eleitoral derruba propaganda do PT contra Flávio Bolsonaro",
+      "description": "TSE determina a retirada imediata da peça do ar e concede direito de resposta por falsa acusação.",
+      "url": "https://noticias.r7.com/eleicoes/2026/justica-eleitoral-derruba-propaganda-mentirosa-do-pt-contra-flavio-bolsonaro-31082026/",
       "source": "R7",
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-08-30T18:41:43+00:00",
+      "publishedAt": "2026-08-31T01:23:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -159,24 +165,10 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-31T01:30:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_b8419ce27101",
-      "title": "Justiça Eleitoral derruba propaganda do PT sobre Flávio Bolsonaro",
-      "description": "O Tribunal Superior Eleitoral (TSE) determinou neste domingo, 30, a suspensão de uma propaganda do PT sobre Flávio Bolsonaro (PL) que estava...",
-      "url": "https://www.terra.com.br/noticias/eleicoes/justica-eleitoral-derruba-propaganda-do-pt-sobre-flavio-bolsonaro,b90d1190e1ae6f44d44d4a9f570da044w0e7tu4k.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-31T01:16:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_a7e9741f0a7a",
@@ -187,7 +179,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-31T01:05:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -202,6 +194,34 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-29T19:07:58+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e6ecdeb64ac1",
+      "title": "Campanha de Lula pede inelegibilidade de Flávio Bolsonaro e acusa o candidato de receber doação vedada",
+      "description": "A ação foi protocolada após senador subir no palco da Festa do Peão de Barretos e pedir votos ao público.",
+      "url": "https://www.terra.com.br/noticias/eleicoes/campanha-de-lula-pede-inelegibilidade-de-flavio-bolsonaro-e-acusa-o-candidato-de-receber-doacao-vedada,6061dd6d27355f2f29c9cb023631b4f8egyq8oti.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-30T18:47:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ef8e1c0b8e52",
+      "title": "Coligação de Lula pede cassação da chapa de Flávio na justiça por abuso de poder econômico",
+      "description": "O candidato Flávio Bolsonaro (PL) fez um discurso curto na Festa do Peão de Barretos (SP) Foto: Charles Vieira/Divulgação.",
+      "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/30/coligacao-de-lula-pede-cassacao-da-chapa-de-flavio-na-justica-por-abuso-de-poder-economico",
+      "source": "O TEMPO",
+      "sourceCanonical": "O Tempo",
+      "sourceDomain": "otempo.com.br",
+      "publishedAt": "2026-08-30T19:42:18+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -243,24 +263,10 @@
       "sourceCanonical": "ISTOÉ Independente",
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-08-31T01:18:57+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_ef8e1c0b8e52",
-      "title": "Coligação de Lula pede cassação da chapa de Flávio na justiça por abuso de poder econômico",
-      "description": "O candidato Flávio Bolsonaro (PL) fez um discurso curto na Festa do Peão de Barretos (SP) Foto: Charles Vieira/Divulgação.",
-      "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/30/coligacao-de-lula-pede-cassacao-da-chapa-de-flavio-na-justica-por-abuso-de-poder-economico",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-08-30T19:42:18+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_77bf7b9d39a1",
@@ -271,6 +277,20 @@
       "sourceCanonical": "Diário Goianiense",
       "sourceDomain": "diariogoianiense.com.br",
       "publishedAt": "2026-08-30T19:34:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d5dd0b01ac9e",
+      "title": "PT diz que Flávio Bolsonaro fez “showmício disfarçado” e pede cassação",
+      "description": "Brasília – A campanha do presidente Luiz Inácio Lula da Silva (PT) protocolou uma ação na Justiça Eleitoral pedindo a cassação da...",
+      "url": "https://d24am.com/politica/pt-diz-que-flavio-bolsonaro-fez-showmicio-disfarcado-e-pede-cassacao/",
+      "source": "D24AM",
+      "sourceCanonical": "D24AM",
+      "sourceDomain": "d24am.com",
+      "publishedAt": "2026-08-30T20:40:36+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -303,46 +323,33 @@
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
-    },
-    {
-      "id": "article_3042d195eebc",
-      "title": "Lula aciona TSE contra Flávio Bolsonaro por discurso em Barretos",
-      "description": "Campanha petista pede cassação da chapa do PL e remoção de vídeo com deepfake que associa presidente à palavra “bandido”",
-      "url": "https://www.brasil247.com/brasil/lula-aciona-tse-contra-flavio-bolsonaro-por-discurso-em-barretos/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-08-30T00:30:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 10,
-    "average": 5.27,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 3,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
