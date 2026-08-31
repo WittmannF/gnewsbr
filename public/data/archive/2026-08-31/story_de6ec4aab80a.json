@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 5
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "sarampo",
     "vacinação",
-    "surto",
-    "chega",
     "casos",
-    "alerta"
+    "alerta",
+    "surto",
+    "chega"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/55440164776_9c0073462d_o.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-08-25T13:52:23+00:00",
-  "updatedAt": "2026-08-31T18:28:59.949075+00:00",
+  "updatedAt": "2026-08-31T19:18:22.910450+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -86,7 +86,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-29T19:02:59+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": "https://s02.video.glbimg.com/x720/14914013.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -100,7 +100,7 @@
       "sourceCanonical": "GOV.BR",
       "sourceDomain": "gov.br",
       "publishedAt": "2026-08-28T18:58:09+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/brasil-mantem-acoes-de-resposta-ao-sarampo-e-reforca-importancia-da-vacinacao/adolescente-vacina-foto-julia-prado-1.jpg/@@images/299518b0-127d-4eb2-974e-44abbaa274ed.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -114,7 +114,7 @@
       "sourceCanonical": "Prefeitura de Carapicuíba/SP",
       "sourceDomain": "carapicuiba.sp.gov.br",
       "publishedAt": "2026-08-31T13:13:42+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,10 +128,24 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-28T18:34:10+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_607abb184f0a",
+      "title": "São Paulo mantém alerta para sarampo após confirmação de 23 casos em 2026",
+      "description": "O Estado de São Paulo mantém estado de alerta para o sarampo diante da confirmação de 23 casos da doença em 2026,...",
+      "url": "https://www.cosemssp.org.br/noticias/sao-paulo-mantem-alerta-para-sarampo-apos-confirmacao-de-23-casos-em-2026/",
+      "source": "COSEMS/SP",
+      "sourceCanonical": "COSEMS/SP",
+      "sourceDomain": "cosemssp.org.br",
+      "publishedAt": "2026-08-31T19:02:40+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5041c617143c",
@@ -198,7 +212,7 @@
       "sourceCanonical": "SuperHiper",
       "sourceDomain": "superhiper.com.br",
       "publishedAt": "2026-08-31T13:50:42+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,35 +314,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_54cf44622e29",
-      "title": "Goiás reforça vacinação contra sarampo diante de risco de reintrodução da doença",
-      "description": "Goiás não registra casos confirmados de sarampo em 2026, mas a circulação do vírus em outras regiões do Brasil e em outros países mantém.",
-      "url": "https://www.jornalopcao.com.br/ultimas-noticias/goias-tem-so-66-de-cobertura-na-2a-dose-contra-sarampo-e-acende-alerta-861300/",
-      "source": "Jornal Opção",
-      "sourceCanonical": "Jornal Opção",
-      "sourceDomain": "jornalopcao.com.br",
-      "publishedAt": "2026-08-25T21:13:00+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 4.56,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.5,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 0,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
