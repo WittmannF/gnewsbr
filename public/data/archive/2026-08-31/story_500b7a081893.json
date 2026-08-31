@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0N3Jid0VSRjYzYWtURy1Ld0lpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0N3Jid0VSRjYzYWtURy1Ld0lpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 53
+      "topic-3": 45,
+      "topic-5": 68
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 53,
-    "bestSeedRank": 53,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "ufrj",
     "estudante",
     "nazismo",
-    "apologia",
     "nazista",
-    "agredido"
+    "apologia",
+    "alunos"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/o8m6nQoekP0l6aOUbUvUyh6UGBM=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s01.video.glbimg.com/deo/vi/04/38/14903804",
   "publishedAt": "2026-08-26T17:12:33+00:00",
-  "updatedAt": "2026-08-31T01:40:46.915494+00:00",
+  "updatedAt": "2026-08-31T02:36:56.764892+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -274,6 +277,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_27966817586e",
+      "title": "Estudante espancado na UFRJ nega ser nazista e diz que pesquisava simbologia",
+      "description": "O estudante de História Diego Costa da Silva Araújo, espancado por alunos da Universidade Federal do Rio de Janeiro (UFRJ) na noite de...",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/estudante-espancado-ufrj-nega-ser-nazista/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-08-31T02:21:09+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_1f29c54d0e73",
       "title": "Aluno é agredido após suposta apologia ao nazismo em Universidade Federal",
       "description": "A Universidade Federal do Rio de Janeiro (UFRJ) abriu uma investigação para apurar um episódio de violência ocorrido na última terça-feira...",
@@ -300,41 +317,27 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_c59ec6a7464c",
-      "title": "Estudante da UFRJ que teria feito apologia ao nazismo é agredido dentro da universidade",
-      "description": "Em nota, a faculdade disse que o caso está sendo apurado e repudia os acontecimentos.",
-      "url": "https://jovempan.com.br/brasil/estudante-da-ufrj-que-teria-feito-apologia-ao-nazismo-e-agredido-dentro-da-universidade/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-08-27T21:27:58+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     }
   ],
   "spectrum": {
-    "min": 4,
-    "max": 9,
-    "average": 6.19,
+    "min": 2,
+    "max": 8,
+    "average": 5.75,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 6,
-      "right": 1,
+      "right": 0,
       "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
