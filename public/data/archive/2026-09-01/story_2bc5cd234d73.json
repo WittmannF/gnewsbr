@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3MUxiekVSR2l5LVlKS0V5Y2ZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3MUxiekVSR2l5LVlKS0V5Y2ZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 12
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 11
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Tensões entre Estados Unidos e Irã",
   "summary": "Bombardeio americano deixou dois mortos em uma ilha no Estreito de Ormuz.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1743616:1788173952/AFP__20260831__C6VY4ZR__v1__MidRes__FilesIranUsIsraelWar.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=ffab004",
   "publishedAt": "2026-08-30T21:38:50+00:00",
-  "updatedAt": "2026-09-01T03:38:20.247265+00:00",
+  "updatedAt": "2026-09-01T04:27:21.270935+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +60,14 @@
       "title": "Trump se revolta ao ser questionado sobre uso de arma nuclear no Irã: 'Que pergunta estúpida'",
       "description": "No último domingo, os dois países voltaram a trocar agressões pela primeira vez desde julho. Republicano voltou a dizer que Teerã está...",
       "url": "https://g1.globo.com/mundo/noticia/2026/08/31/trump-se-revolta-ao-ser-questionado-sobre-uso-de-arma-nuclear-no-ira-que-pergunta-estupida.ghtml",
-      "source": "g1.globo.com",
-      "sourceCanonical": "g1.globo.com",
+      "source": "G1",
+      "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-31T20:15:40+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://s2-g1.glbimg.com/CkV43C1JhDHkMsoOHX4T4_Trqdg=/4925x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/O/MXwn1tQN2lqm8sjazomg/2026-08-31t195849z-383856320-rc2v9nadf5c5-rtrmadp-3-usa-trump.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ed6e55bb4ed4",
@@ -101,7 +107,7 @@
       "sourceDomain": "dw.com",
       "publishedAt": "2026-08-31T10:02:19+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.dw.com/image/78569471_6.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -166,28 +172,28 @@
       "title": "EUA voltam a lançar bombas contra o Irã após um mês sem ataques",
       "description": "\"Mais cedo, as forças americanas atacaram dois lançadores iranianos na ilha de Larak\", onde \"foi observado que membros da Guarda...",
       "url": "https://jovempan.com.br/mundo/eua-voltam-a-atacar-ira-apos-um-mes-de-tregua/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-08-30T21:38:50+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_133d7db24bd6",
       "title": "Guerra Irã-EUA deixa campo econômico e volta ao militar, com primeira troca de ataques em um mês",
       "description": "Depois de semanas em que a guerra entre Irã e Estados Unidos ficou no campo econômico, com o governo Donald Trump prometendo impor ao regime...",
       "url": "https://www.gazetadopovo.com.br/mundo/guerra-ira-eua-volta-troca-ataques/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-31T10:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_4ba1b61f13df",
@@ -208,14 +214,28 @@
       "title": "Irã ameaça novos ataques em caso de agressão dos EUA e diz que petroleiro pegou fogo em Ormuz",
       "description": "Guarda Revolucionária Irã afirmou ainda ter derrubado um drone americano MQ-9 sobre o Estreito de Ormuz. AFP/JC. Compartilhe: Agências.",
       "url": "https://www.jornaldocomercio.com/internacional/2026/08/1261556-ira-ameaca-novos-ataques-em-caso-de-agressao-dos-eua-e-diz-que-petroleiro-pegou-fogo-em-ormuz.html",
-      "source": "jornaldocomercio.com",
-      "sourceCanonical": "jornaldocomercio.com",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-08-31T12:09:38+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_61109d4dae8f",
+      "title": "Trump chama de ‘estúpida’ pergunta de jornalista sobre uso de arma nuclear contra o Irã",
+      "description": "Presidente dos Estados Unidos afirma que o país persa está 'totalmente derrotado militarmente'",
+      "url": "https://noticias.r7.com/internacional/trump-chama-de-estupida-pergunta-de-jornalista-sobre-uso-de-arma-nuclear-contra-o-ira-31082026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-31T23:39:07+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_23d97dc8695b",
@@ -230,20 +250,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_61109d4dae8f",
-      "title": "Trump chama de ‘estúpida’ pergunta de jornalista sobre uso de arma nuclear contra o Irã",
-      "description": "Presidente dos Estados Unidos afirma que o país persa está 'totalmente derrotado militarmente'",
-      "url": "https://noticias.r7.com/internacional/trump-chama-de-estupida-pergunta-de-jornalista-sobre-uso-de-arma-nuclear-contra-o-ira-31082026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-08-31T23:39:07+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_8a58c69d6933",
@@ -264,8 +270,8 @@
       "title": "Irão retalia após ataques dos EUA à ilha de Larak no estreito de Ormuz",
       "description": "Os ataques dos EUA ao Irão são os primeiros em cerca de um mês, após Washington ter passado a privilegiar sanções económicas. Segundo o...",
       "url": "https://pt.euronews.com/2026/08/31/irao-retalia-apos-ataques-dos-eua-a-ilha-de-larak-no-estreito-de-ormuz",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
+      "source": "pt.euronews.com",
+      "sourceCanonical": "pt.euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-08-31T05:09:17+00:00",
       "postedLabel": "hoje",
@@ -288,20 +294,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_36d4e46a6d49",
-      "title": "Irã retalia “alvos militares americanos” na Jordânia após ataque dos EUA",
-      "description": "Ação representa a primeira escalada direta entre os dois países em mais de um mês e aumenta as tensões no Oriente Médio.",
-      "url": "https://istoe.com.br/ira-retalia-eua-jordania-ataque-ilarak",
-      "source": "ISTOÉ Independente",
-      "sourceCanonical": "ISTOÉ Independente",
-      "sourceDomain": "istoe.com.br",
-      "publishedAt": "2026-08-31T14:01:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_6c4f8f2d0266",
       "title": "Trump defende bloqueio naval do Irã e projeta sucesso republicano nas eleições de novembro",
       "description": "O presidente americano classificou os iranianos como \"pessoas violentas e más\" e alegou que, se Teerã tivesse armas nucleares,...",
@@ -314,33 +306,46 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_36d4e46a6d49",
+      "title": "Irã retalia “alvos militares americanos” na Jordânia após ataque dos EUA",
+      "description": "Ação representa a primeira escalada direta entre os dois países em mais de um mês e aumenta as tensões no Oriente Médio.",
+      "url": "https://istoe.com.br/ira-retalia-eua-jordania-ataque-ilarak",
+      "source": "ISTOÉ Independente",
+      "sourceCanonical": "ISTOÉ Independente",
+      "sourceDomain": "istoe.com.br",
+      "publishedAt": "2026-08-31T14:01:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "max": 9,
+    "average": 5.39,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
-      "center": 7,
-      "centerRight": 3,
-      "right": 0,
-      "unknown": 6
+      "center": 9,
+      "centerRight": 4,
+      "right": 1,
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
