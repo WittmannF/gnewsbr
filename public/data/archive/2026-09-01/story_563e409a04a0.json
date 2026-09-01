@@ -25,13 +25,13 @@
     "ceuta",
     "crise",
     "sánchez",
-    "desinformação",
     "rússia",
-    "israel"
+    "israel",
+    "desinformação"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/NAc2TM5Sij11xh53PgVx5wylH3A=/4433x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/k/I/iABg1UTYqeBONAqXfP2Q/2026-07-31t112414z-409645030-rc2zoma4uf9k-rtrmadp-3-migration-europe-spain-ceuta.jpg",
-  "publishedAt": "2026-08-28T17:30:00+00:00",
-  "updatedAt": "2026-09-01T14:38:22.428265+00:00",
+  "publishedAt": "2026-08-28T18:20:11+00:00",
+  "updatedAt": "2026-09-01T15:54:34.418166+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-09-01T11:44:03+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,7 +128,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-08-31T15:11:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -138,8 +138,8 @@
       "title": "Ceuta expôs o desequilíbrio ibérico",
       "description": "Ceuta caiu da agenda mediática, mas os problemas continuam todos no mesmo sítio. Porque o assunto interessa a Portugal,...",
       "url": "https://www.dn.pt/opiniao-dn/ceuta-exps-o-desequilbrio-ibrico",
-      "source": "Diário de Notícias",
-      "sourceCanonical": "Diário de Notícias",
+      "source": "dn.pt",
+      "sourceCanonical": "dn.pt",
       "sourceDomain": "dn.pt",
       "publishedAt": "2026-08-30T23:09:29+00:00",
       "postedLabel": "ontem",
@@ -152,14 +152,28 @@
       "title": "Sánchez, Ceuta, Putin e a Matriosca",
       "description": "A Rússia dispõe de uma das máquinas de influência e desinformação mais documentadas no espaço europeu, e não é impossível que tenha sido...",
       "url": "https://www.publico.pt/2026/08/31/opiniao/editorial/sanchez-ceuta-putin-matriosca-2186593",
-      "source": "Público",
-      "sourceCanonical": "Público",
+      "source": "publico.pt",
+      "sourceCanonical": "publico.pt",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-08-31T20:30:48+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_3d6cb7e83f93",
+      "title": "Espanha insiste que Israel e Rússia usaram Ceuta para atacar Europa",
+      "description": "O Governo de Espanha disse ter evidências de que Israel e a Rússia \"amplificaram o acontecido\" em Ceuta no final de julho para \"fraturar e...",
+      "url": "https://www.jn.pt/mundo/artigo/espanha-insiste-que-israel-e-russia-usaram-ceuta-para-atacar-europa/18122117",
+      "source": "Jornal de Notícias",
+      "sourceCanonical": "Jornal de Notícias",
+      "sourceDomain": "jn.pt",
+      "publishedAt": "2026-09-01T14:33:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_7e8b15bf311d",
@@ -230,20 +244,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_1b163fed7bf8",
-      "title": "Espanha denuncia \"mega-influenciadores\" como Musk que tentam dividir Europa com crise de Ceuta",
-      "description": "Chefe da diplomacia espanhola acusa mega-influenciadores conservadores de explorarem crise migratória em Ceuta para dividir Europa.",
-      "url": "https://www.jn.pt/mundo/artigo/espanha-denuncia-mega-influenciadores-como-musk-que-tentam-dividir-europa-com-crise-de-ceuta/18120966",
-      "source": "Jornal de Notícias",
-      "sourceCanonical": "Jornal de Notícias",
-      "sourceDomain": "jn.pt",
-      "publishedAt": "2026-08-28T17:30:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_daacbde25148",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 5,
     "max": 8,
-    "average": 5.38,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.71,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
