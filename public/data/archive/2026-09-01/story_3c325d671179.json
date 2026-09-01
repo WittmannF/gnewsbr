@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pubjdUdkVSSE5JRTZIVWltRTFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pubjdUdkVSSE5JRTZIVWltRTFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 29
+      "topic-5": 69,
+      "topic-8": 28
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 69,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/FRDSK25ZFJPQRE6TXYKZBGMPZY.jpg?quality=80&auth=34dc093f60c225bcb5be0753138af31416a97bdcfae8d2d05556540e45230dfb&width=1200&height=630&smart=true",
   "publishedAt": "2026-08-23T07:00:00+00:00",
-  "updatedAt": "2026-09-01T02:49:55.180727+00:00",
+  "updatedAt": "2026-09-01T03:40:03.238366+00:00",
   "sourceCount": 10,
   "articleCount": 20,
   "articles": [
@@ -45,7 +48,7 @@
       "sourceDomain": "investidor10.com.br",
       "publishedAt": "2026-08-31T12:12:23+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://investidor10.com.br/storage/news/6a956e1f532fe.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -68,14 +71,14 @@
       "title": "Itaú (ITUB4), Vale (VALE3) e mais seis empresas pagam dividendos nesta semana; veja o calendário",
       "description": "Acompanhe os pagamentos de dividendos e JCP desta semana na bolsa. Informações sobre Itaú, Vale e mais empresas estão aqui.",
       "url": "https://www.moneytimes.com.br/itau-itub4-vale-vale3-e-mais-seis-empresas-pagam-dividendos-nesta-semana-veja-o-calendario/",
-      "source": "Money Times",
-      "sourceCanonical": "Money Times",
+      "source": "moneytimes.com.br",
+      "sourceCanonical": "moneytimes.com.br",
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-08-30T11:30:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": "https://www.moneytimes.com.br/uploads/2025/08/itau-1.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_135a60597ffb",
@@ -239,7 +242,7 @@
       "source": "Investidor10",
       "sourceCanonical": "Investidor10",
       "sourceDomain": "investidor10.com.br",
-      "publishedAt": "2026-08-23T11:42:23+00:00",
+      "publishedAt": "2026-08-23T07:00:00+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -264,14 +267,14 @@
       "title": "Fras-le (FRAS3) e mais duas empresas pagam dividendos nesta semana; veja o calendário",
       "description": "Fique por dentro dos dividendos. Veja os pagamentos de JCP da Fras-le e Taesa na semana de 24 a 28 de agosto.",
       "url": "https://www.moneytimes.com.br/dividendos-da-semana-21-8-26-apsa/",
-      "source": "Money Times",
-      "sourceCanonical": "Money Times",
+      "source": "moneytimes.com.br",
+      "sourceCanonical": "moneytimes.com.br",
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-08-23T07:00:00+00:00",
       "postedLabel": "8 dias atrás",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/dividendos-1.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9172b4ab6b7d",
@@ -317,25 +320,25 @@
     }
   ],
   "spectrum": {
-    "min": 6,
+    "min": 7,
     "max": 7,
-    "average": 6.5,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 7,
+    "knownCount": 2,
+    "unknownCount": 18,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 2,
+      "center": 0,
       "centerRight": 2,
       "right": 0,
-      "unknown": 16
+      "unknown": 18
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 27,
-    "headlineDivergence": 73,
-    "confidence": 87
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
+    "headlineDivergence": 70,
+    "confidence": 81
   },
   "flags": [
     "Alta cobertura",
