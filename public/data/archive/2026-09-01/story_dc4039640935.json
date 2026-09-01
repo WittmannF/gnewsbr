@@ -3,25 +3,31 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxZ2VueEVSRTZUWVctZVJKbXhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxZ2VueEVSRTZUWVctZVJKbXhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 7,
-      "topic-5": 8
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 6,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Bruno Dantas renuncia ao cargo de ministro do TCU",
+  "title": "Renuncia de Bruno Dantas ao TCU",
   "summary": "Ministro deixa a Corte para se dedicar a projetos de iniciativa \"de interesse nacional em áreas estratégicas” e analisa assumir comando de...",
   "topic": "Tcu · Dantas",
   "topicKeywords": [
@@ -30,11 +36,11 @@
     "bruno",
     "pacheco",
     "vaga",
-    "ministro"
+    "saída"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/BrunoDantas-TCU-Jornalista-Entrevista-CafeDaManha-TribunaldeDeContasDaUniao-16dez2022-10-1200x675.jpeg",
   "publishedAt": "2026-08-31T15:12:49+00:00",
-  "updatedAt": "2026-09-01T01:43:42.677908+00:00",
+  "updatedAt": "2026-09-01T02:33:54.123522+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -54,29 +60,29 @@
     },
     {
       "id": "article_f43bc5fc4027",
-      "title": "Alcolumbre indica Pacheco para vaga no TCU após saída de Bruno Dantas",
+      "title": "Alcolumbre indica Rodrigo Pacheco para vaga no TCU após saída de Bruno Dantas",
       "description": "O presidente do Senado, Davi Alcolumbre (União Brasil-AP), indicou nesta segunda-feira (31) o senador Rodrigo Pacheco (PSB-MG), para o...",
       "url": "https://g1.globo.com/politica/noticia/2026/08/31/alcolumbre-indica-pacheco-para-vaga-no-tcu-apos-saida-de-bruno-dantas.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-01T01:33:51+00:00",
-      "postedLabel": "9 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-g1.glbimg.com/mO-VPjkn0Z6m1DlVZncWeEskE5A=/2303x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/C/BY1UvuSgKS1e9BMkPzqQ/edilson-rodrigues.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_cf40d3e7f15b",
-      "title": "Alcolumbre indica Pacheco para vaga aberta no TCU com saída de Bruno Dantas",
-      "description": "Ex-presidente do Senado deve ser aprovado com folga e se tornar o próximo ministro, segundo senadores.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/08/alcolumbre-indica-pacheco-para-vaga-aberta-no-tcu-com-saida-de-bruno-dantas.shtml",
+      "id": "article_c8618bbafbb5",
+      "title": "Mônica Bergamo: Bruno Dantas renuncia ao TCU, e Rodrigo Pacheco assumirá cargo",
+      "description": "O ministro do TCU (Tribunal de Contas da União) Bruno Dantas enviou nesta segunda (31) ao presidente do órgão, Vital do Rêgo Filho,...",
+      "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/08/bruno-dantas-renuncia-ao-tcu-e-rodrigo-pacheco-assumira-cargo.shtml",
       "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-01T01:21:00+00:00",
-      "postedLabel": "22 minutos atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2024/03/06/170975904965e8da49346d8_1709759049_3x2_rt.jpg",
+      "publishedAt": "2026-08-31T15:24:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/28/17879274846a919bbc35279_1787927484_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -93,20 +99,6 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/Q6KILASN4BE5ZDINB4DK5OB5NQ.jpg?quality=80&auth=b9fa9eaecf48c2bef3821dd5ccc06f966101ebc697d5fd458305d1fcee3c77eb&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_11df9c8e4015",
-      "title": "Dantas renuncia",
-      "description": "Ministro deixa TCU prematuramente, após sua família vencer licitação bilionária no porto de Santos. Salvar em meu Bastidor. Compartilhe:.",
-      "url": "https://obastidor.com.br/politica/dantas-renuncia/",
-      "source": "O Bastidor",
-      "sourceCanonical": "O Bastidor",
-      "sourceDomain": "obastidor.com.br",
-      "publishedAt": "2026-08-31T18:19:19+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_0db8dc326be3",
@@ -127,14 +119,14 @@
       "title": "Renúncia de Bruno Dantas abre vaga para indicação do Senado ao TCU — Rádio Senado",
       "description": "O Senado deverá escolher um novo ministro para o Tribunal de Contas da União (TCU) após a renúncia de Bruno Dantas. A Constituição exige que...",
       "url": "https://www12.senado.leg.br/radio/1/noticia/2026/08/31/renuncia-de-bruno-dantas-abre-vaga-para-indicacao-do-senado-ao-tcu",
-      "source": "Senado Federal",
-      "sourceCanonical": "Senado Federal",
+      "source": "senado.leg.br",
+      "sourceCanonical": "senado.leg.br",
       "sourceDomain": "www12.senado.leg.br",
       "publishedAt": "2026-08-31T17:20:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b8f0ab7b233b",
@@ -151,32 +143,32 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_ffec6070c993",
-      "title": "Bruno Dantas renuncia ao cargo de ministro do TCU e abre vaga para Pacheco",
-      "description": "Dança das cadeiras faz parte de acordo do governo para tentar aprovar a PEC do fim da escala 6x1 e outras pautas no Senado.",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7490746-bruno-dantas-renuncia-ao-cargo-de-ministro-do-tcu-e-abre-vaga-para-pacheco.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-08-31T15:48:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_28021d04e14d",
-      "title": "Bruno Dantas renuncia ao cargo de ministro do TCU",
-      "description": "Ex-presidente da Corte deixará o posto em 9 de setembro, após 12 anos no tribunal; decisão abre vaga a ser preenchida por indicação do...",
-      "url": "https://conjur.com.br/2026-ago-31/bruno-dantas-renuncia-ao-cargo-de-ministro-do-tcu/",
-      "source": "Consultor Jurídico",
-      "sourceCanonical": "Consultor Jurídico",
-      "sourceDomain": "conjur.com.br",
-      "publishedAt": "2026-08-31T17:22:13+00:00",
-      "postedLabel": "hoje",
+      "id": "article_a36766b244f0",
+      "title": "Alcolumbre indica Rodrigo Pacheco para vaga no TCU",
+      "description": "Alcolumbre indicou o senador Rodrigo Pacheco ao TCU na vaga aberta após a saída antecipada do ministro Bruno Dantas.",
+      "url": "https://www.gazetadopovo.com.br/republica/alcolumbre-indica-rodrigo-pacheco-para-vaga-no-tcu/",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-01T02:13:00+00:00",
+      "postedLabel": "20 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_11df9c8e4015",
+      "title": "Dantas renuncia",
+      "description": "Ministro deixa TCU prematuramente, após sua família vencer licitação bilionária no porto de Santos. Salvar em meu Bastidor. Compartilhe:.",
+      "url": "https://obastidor.com.br/politica/dantas-renuncia/",
+      "source": "O Bastidor",
+      "sourceCanonical": "O Bastidor",
+      "sourceDomain": "obastidor.com.br",
+      "publishedAt": "2026-08-31T18:19:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3ce05c04c747",
@@ -193,6 +185,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_28021d04e14d",
+      "title": "Bruno Dantas renuncia ao cargo de ministro do TCU",
+      "description": "Ex-presidente da Corte deixará o posto em 9 de setembro, após 12 anos no tribunal; decisão abre vaga a ser preenchida por indicação do...",
+      "url": "https://conjur.com.br/2026-ago-31/bruno-dantas-renuncia-ao-cargo-de-ministro-do-tcu/",
+      "source": "conjur.com.br",
+      "sourceCanonical": "conjur.com.br",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-08-31T17:22:13+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_74527ed11a54",
       "title": "Governo Lula apoiará indicação de Pacheco ao TCU",
       "description": "O governo Lula apoiará a indicação do senador Rodrigo Pacheco (PSB-MG) para uma vaga no Tribunal de Contas da União (TCU).",
@@ -201,21 +207,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-31T22:20:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_04d30bed474e",
-      "title": "Pacheco deve ser aprovado para TCU sem sabatina e com aposta de unanimidade",
-      "description": "Brechas em votações anteriores abrem caminho para aprovação ágil após saída de Bruno Dantas ser alinhada com Alcolumbre para ocorrer em...",
-      "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/politica/pacheco-deve-ser-aprovado-para-tcu-sem-sabatina-e-com-aposta-de-unanimidade/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-08-31T22:08:05+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -235,6 +227,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_04d30bed474e",
+      "title": "Pacheco deve ser aprovado para TCU sem sabatina e com aposta de unanimidade",
+      "description": "Brechas em votações anteriores abrem caminho para aprovação ágil após saída de Bruno Dantas ser alinhada com Alcolumbre para ocorrer em...",
+      "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/politica/pacheco-deve-ser-aprovado-para-tcu-sem-sabatina-e-com-aposta-de-unanimidade/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-08-31T22:08:05+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ce11c75a65a0",
+      "title": "Pacheco no TCU: veja as etapas até a escolha de novo ministro",
+      "description": "A renúncia do ministro Bruno Dantas ao Tribunal de Contas da União (TCU) abriu uma vaga destinada à indicação do Senado Federal, colocando o...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/08/7491201-pacheco-no-tcu-veja-as-etapas-ate-a-escolha-de-novo-ministro.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-08-31T23:46:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_7facede8a9b5",
       "title": "Bruno Dantas antecipa saída do TCU após 12 anos na Corte",
       "description": "Ministro protocolou pedido de renúncia nesta segunda-feira, 31, e afirmou que pretende seguir dedicado à vida acadêmica e ao debate público.",
@@ -244,48 +264,6 @@
       "sourceDomain": "migalhas.com.br",
       "publishedAt": "2026-08-31T15:17:06+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_ef30c02959e7",
-      "title": "Renúncia de Bruno Dantas abre o caminho para Pacheco no TCU",
-      "description": "A saída do ministro libera vaga do Senado na Corte de Contas e permite que Alcolumbre acomode o aliado; movimento ocorre em meio à...",
-      "url": "https://www.cartacapital.com.br/politica/renuncia-de-bruno-dantas-abre-caminho-para-pacheco-no-tcu/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-08-31T18:09:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_47dfaa9e10a1",
-      "title": "Bruno Dantas renuncia ao cargo de ministro do TCU e abre espaço para Rodrigo Pacheco",
-      "description": "O ministro Bruno Dantas, do Tribunal de Contas da União (TCU), renunciou ao cargo nesta segunda-feira (31) em ofício enviado ao presidente...",
-      "url": "https://www.gazetadopovo.com.br/republica/bruno-dantas-renuncia-cargo-ministro-tcu-abre-espaco-rodrigo-pacheco/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-08-31T18:49:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_cf1feb200bcc",
-      "title": "Pacheco no TCU: veja as etapas até a escolha de novo ministro",
-      "description": "A eventual escolha, no entanto, é apenas o primeiro passo de um caminho que passa obrigatoriamente pela aprovação da própria Casa.",
-      "url": "https://www.em.com.br/politica/2026/08/7491213-pacheco-no-tcu-veja-as-etapas-ate-a-escolha-de-novo-ministro.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-01T00:21:00+00:00",
-      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -305,31 +283,59 @@
       "bucket": "right"
     },
     {
-      "id": "article_3148c8192fa1",
-      "title": "Bruno Dantas renuncia ao TCU; Rodrigo Pacheco deve ocupar cadeira",
-      "description": "O ministro Bruno Dantas anunciou nesta segunda-feira (31) que protocolou seu pedido de renúncia ao cargo no Tribunal de Contas da União...",
-      "url": "https://www.congressoemfoco.com.br/noticia/121800/bruno-dantas-renuncia-ao-tcu-rodrigo-pacheco-deve-ocupar-cadeira",
-      "source": "Congresso em Foco",
-      "sourceCanonical": "Congresso em Foco",
-      "sourceDomain": "congressoemfoco.com.br",
-      "publishedAt": "2026-08-31T15:24:12+00:00",
+      "id": "article_ef30c02959e7",
+      "title": "Renúncia de Bruno Dantas abre o caminho para Pacheco no TCU",
+      "description": "A saída do ministro libera vaga do Senado na Corte de Contas e permite que Alcolumbre acomode o aliado; movimento ocorre em meio à...",
+      "url": "https://www.cartacapital.com.br/politica/renuncia-de-bruno-dantas-abre-caminho-para-pacheco-no-tcu/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-08-31T18:09:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_0ba6a6617da0",
+      "title": "Presidente do TCU diz receber com tristeza pedido de renúncia de Bruno Dantas",
+      "description": "O presidente do Tribunal de Contas da União (TCU), ministro Vital do Rêgo, afirmou nesta segunda-feira, 31, que recebeu com tristeza e...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/presidente-do-tcu-diz-receber-com-tristeza-pedido-de-renuncia-de-bruno-dantas-1.1743818",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-31T19:52:39+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_89d88bf0eb8c",
+      "title": "Alcolumbre indica Rodrigo Pacheco para o TCU após saída de Bruno Dantas",
+      "description": "O presidente do Senado, Davi Alcolumbre, formalizou nesta segunda-feira (31) a indicação do senador Rodrigo Pacheco (PSB-MG) para ocupar uma...",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/alcolumbre-indica-rodrigo-pacheco-para-o-tcu-apos-saida-de-bruno-dantas-cmti1b6xd00gw0165zgz2yao0.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-09-01T02:20:13+00:00",
+      "postedLabel": "13 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.5,
+    "average": 5.31,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 8,
-      "centerRight": 4,
+      "center": 9,
+      "centerRight": 3,
       "right": 1,
       "unknown": 4
     }
