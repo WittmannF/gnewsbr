@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 4,
-      "topic-5": 4
+      "topic-5": 5
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 4,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/wiGbzE-V-4OwnHgSsdDwo3QaEpo=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/L/oUFfCyTda0H1tYKJlo9Q/8319b429-a38b-48c4-bf60-ef6c95593958.jfif",
   "publishedAt": "2026-05-24T07:00:00+00:00",
-  "updatedAt": "2026-09-01T06:41:44.019536+00:00",
+  "updatedAt": "2026-09-01T07:29:17.197061+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -131,24 +131,10 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-01T04:15:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_9b2bcc007335",
-      "title": "Brasil aponta tratamento discriminatório dos EUA em reunião sobre “tarifaço”",
-      "description": "Posição foi apresentada pelos ministros Mauro Vieira, das Relações Exteriores, e Márcio Elias Rosa, do Desenvolvimento, Indústria,...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/brasil-aponta-tratamento-discriminatorio-dos-eua-em-reuniao-sobre-tarifaco-1.1743815",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-08-31T19:42:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_00b4f255f394",
@@ -163,6 +149,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_9b2bcc007335",
+      "title": "Brasil aponta tratamento discriminatório dos EUA em reunião sobre “tarifaço”",
+      "description": "Posição foi apresentada pelos ministros Mauro Vieira, das Relações Exteriores, e Márcio Elias Rosa, do Desenvolvimento, Indústria,...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/brasil-aponta-tratamento-discriminatorio-dos-eua-em-reuniao-sobre-tarifaco-1.1743815",
+      "source": "correiodopovo.com.br",
+      "sourceCanonical": "correiodopovo.com.br",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-08-31T19:42:39+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ca750796013a",
@@ -211,14 +211,14 @@
       "title": "Após falar com Lula, Trump pede que equipe trabalhe por acordo sobre tarifa",
       "description": "Segundo o ministro Márcio Elias Rosa, Brasil e EUA estão sintonizados e buscam construir um acordo entre os dois países.",
       "url": "https://www.metropoles.com/brasil/apos-falar-com-lula-trump-pede-que-equipe-trabalhe-por-acordo-sobre-tarifa",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-31T22:04:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a84c04e3f23b",
@@ -285,7 +285,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-08-31T07:03:23+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.44,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.5,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 8,
+      "center": 6,
       "centerRight": 4,
       "right": 1,
-      "unknown": 4
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

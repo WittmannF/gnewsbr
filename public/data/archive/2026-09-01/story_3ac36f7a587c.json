@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 62
+      "topic-3": 63
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 62,
-    "bestSeedRank": 62,
+    "firstSeenRank": 63,
+    "bestSeedRank": 63,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/CLZxIefBSuHx1xokeNkDBPsMS7I=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/C/T/1lYAdiTPuVBI48FU8WjQ/abuso-guaruja.jpg",
   "publishedAt": "2026-08-31T08:25:00+00:00",
-  "updatedAt": "2026-09-01T06:45:41.350942+00:00",
+  "updatedAt": "2026-09-01T07:33:17.952411+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -96,8 +96,8 @@
       "title": "Banhista flagra homem tentando abusar de menino em praia: \"Estava ajudando a urinar\"",
       "description": "Notícias do Brasil- Uma abordagem feita por testemunhas em plena Praia da Enseada, no Guarujá, terminou na prisão de um homem de 53 anos...",
       "url": "https://ampost.com.br/brasil/banhista-flagra-homem-tentando-abusar-de-menino-em-praia-estava-ajudando-a-urinar/",
-      "source": "AM POST",
-      "sourceCanonical": "AM POST",
+      "source": "ampost.com.br",
+      "sourceCanonical": "ampost.com.br",
       "sourceDomain": "ampost.com.br",
       "publishedAt": "2026-08-31T16:50:58+00:00",
       "postedLabel": "hoje",
@@ -124,14 +124,14 @@
       "title": "Flagrado por banhistas, homem é preso por tentar estuprar menino em praia.",
       "description": "Suspeito foi filmado na manhã do último domingo (30/8), na praia da Enseada, no Guarujá, litoral sul de SP.",
       "url": "https://www.metropoles.com/sao-paulo/flagrado-banhistas-homem-preso-tentar-estuprar",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-31T11:42:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0e49ac44036b",
@@ -212,7 +212,7 @@
       "sourceCanonical": "Folha do ES",
       "sourceDomain": "folhadoes.com",
       "publishedAt": "2026-09-01T01:16:49+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -232,20 +232,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_433489d8c546",
-      "title": "G1 em 1 minuto - Santos: Homem é preso após levar garoto para debaixo de deck em praia",
-      "description": "Confira as notícias da região no g1.",
-      "url": "https://g1.globo.com/sp/santos-regiao/video/g1-em-1-minuto-santos-homem-e-preso-apos-levar-garoto-para-debaixo-de-deck-em-praia-14919329.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-01T00:58:24+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_8f1d719270de",
       "title": "Vídeo: Homem é preso suspeito de tentativa de estupro de vulnerável contra garoto em praia de Guarujá",
       "description": "Um homem de 53 anos foi preso neste domingo (30), em Guarujá, no litoral de São Paulo, suspeito de tentativa de estupro de vulnerável contra...",
@@ -258,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_433489d8c546",
+      "title": "G1 em 1 minuto - Santos: Homem é preso após levar garoto para debaixo de deck em praia",
+      "description": "Confira as notícias da região no g1.",
+      "url": "https://g1.globo.com/sp/santos-regiao/video/g1-em-1-minuto-santos-homem-e-preso-apos-levar-garoto-para-debaixo-de-deck-em-praia-14919329.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-09-01T00:58:24+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6395c66209e8",
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 4,
     "max": 5,
-    "average": 4.83,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 4.8,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 5,
+      "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 14
+      "unknown": 15
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 93
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
