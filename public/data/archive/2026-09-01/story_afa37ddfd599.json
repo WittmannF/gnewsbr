@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pydWRIeUVSRnRSMUZHSUFYTnNTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pydWRIeUVSRnRSMUZHSUFYTnNTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-3": 51
+      "topic-3": 62,
+      "topic-8": 48
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 51,
-    "bestSeedRank": 51,
+    "firstSeenRank": 62,
+    "bestSeedRank": 48,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +29,12 @@
     "fiscal",
     "ajuste",
     "reeleito",
-    "mercado",
-    "economia"
+    "economia",
+    "mandato"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/governo-sem-dinheiro.jpeg.webp",
-  "publishedAt": "2022-11-08T08:00:00+00:00",
-  "updatedAt": "2026-09-01T01:13:03.511605+00:00",
+  "publishedAt": "2026-08-24T17:41:36+00:00",
+  "updatedAt": "2026-09-01T01:46:55.367495+00:00",
   "sourceCount": 16,
   "articleCount": 20,
   "articles": [
@@ -142,7 +145,7 @@
       "sourceCanonical": "Folha do Estado",
       "sourceDomain": "folhadoestado.com.br",
       "publishedAt": "2026-08-31T20:40:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -216,20 +219,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_564d1c3ffbe6",
-      "title": "Entre um e outro Lula, mercado de capitais dobra, mas teme uso do BNDES",
-      "description": "O presidente eleito Luiz Inácio Lula da Silva assumirá seu terceiro mandato com um mercado de capitais muito mais robusto e relevante do que...",
-      "url": "https://www.estadao.com.br/economia/coluna-da-broad/entre-um-e-outro-lula-mercado-de-capitais-dobrou-mas-teme-uso-do-bndes/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2022-11-08T08:00:00+00:00",
-      "postedLabel": "",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_c5c0ac2c1755",
@@ -314,19 +303,33 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_06bcc809a45b",
+      "title": "Lula 4: Durigan promete redução da dívida pública e do gasto obrigatório e cobra corte na Selic",
+      "description": "247 – O presidente Lula (PT) planeja implementar uma desoneração ampla da folha de pagamentos para reduzir os custos trabalhistas do setor...",
+      "url": "https://www.brasil247.com/economia/lula-4-durigan-promete-reducao-da-divida-publica-e-do-gasto-obrigatorio-e-cobra-corte-na-selic/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-08-28T13:45:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 6,
+    "average": 5.6,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 1,
       "center": 4,
-      "centerRight": 6,
+      "centerRight": 5,
       "right": 2,
       "unknown": 5
     }
