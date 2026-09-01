@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 45,
-      "topic-5": 55
+      "topic-3": 59,
+      "topic-5": 53
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 45,
-    "bestSeedRank": 45,
+    "firstSeenRank": 59,
+    "bestSeedRank": 53,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/us_FqMy0J4uF0ffSDavOD2iRtfw=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/E/w/tF0gz8SkOXXGBn8bpdng/461449448.jpg",
   "publishedAt": "2026-08-27T21:35:48+00:00",
-  "updatedAt": "2026-09-01T05:28:19.112003+00:00",
+  "updatedAt": "2026-09-01T06:45:30.043578+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -71,14 +71,14 @@
       "title": "Flávio Bolsonaro escala equipe para ampliar presença em jantares da Faria Lima",
       "description": "A campanha de Flávio Bolsonaro (PL) à Presidência tem comemorado nos bastidores uma mudança na relação com integrantes do mercado financeiro...",
       "url": "https://jovempan.com.br/colunistas/beatriz-manfredini/flavio-bolsonaro-escala-equipe-para-ampliar-presenca-em-jantares-da-faria-lima/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-08-31T16:26:39+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/05/design-sem-nome-2026-05-19t085647.306.png?w=1000&h=600&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_56239b0685e6",
@@ -104,7 +104,7 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-28T20:38:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": "https://i.metroimg.com/UMmeIugdcaUsIIotef4hn4Tct4wKM_kbgKU34sF98e4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/06/flavio-bolsonaro-participa-do-debate-com-os-candidatos-a-presidente-do-brasil-para-a-eleicao-de-2026-no-evento-da-confederacao-nacional-da-industria-cni-metropoles-3-scaled.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -263,20 +263,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_374428b6bd22",
-      "title": "Lula convida empresários e banqueiros para jantar no Alvorada",
-      "description": "Ideia do chefe do Executivo é reduzir a resistência à sua reeleição; núcleo petista estabeleceu o ministro da Fazenda, Dario Durigan, como o...",
-      "url": "https://valor.globo.com/politica/noticia/2026/08/30/lula-convida-empresrios-e-banqueiros-para-jantar-no-alvorada.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-08-30T20:20:08+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_8248b4bc5e61",
       "title": "Jantar de Flávio com a Faria Lima gera desconfiança e incomoda Lula",
       "description": "Investing.com — O candidato à Presidência Flávio Bolsonaro (PL) jantou ontem (27) com cerca de 20 banqueiros e empresários no bairro do...",
@@ -288,6 +274,20 @@
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_374428b6bd22",
+      "title": "Lula convida empresários e banqueiros para jantar no Alvorada",
+      "description": "Ideia do chefe do Executivo é reduzir a resistência à sua reeleição; núcleo petista estabeleceu o ministro da Fazenda, Dario Durigan, como o...",
+      "url": "https://valor.globo.com/politica/noticia/2026/08/30/lula-convida-empresrios-e-banqueiros-para-jantar-no-alvorada.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-08-30T20:20:08+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -321,27 +321,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.54,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "max": 9,
+    "average": 5.79,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 10,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 7
+      "right": 1,
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
