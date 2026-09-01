@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lwcjgzd0VSR0c3dTgtRlU5VUJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lwcjgzd0VSR0c3dTgtRlU5VUJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 28
+      "topic-3": 22,
+      "topic-5": 36
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 22,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/JMWFRHOJORFVVG5ZTIB3KHHAZU.png?quality=80&auth=c6be8bf1e3b7881ba62c3148d2e4d03fa7ce06ac37e146d0ad4e9b793f21a354&width=1200&height=630&focal=493,324",
   "publishedAt": "2026-08-26T09:58:30+00:00",
-  "updatedAt": "2026-09-01T08:41:33.491985+00:00",
+  "updatedAt": "2026-09-01T09:29:55.543442+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -68,14 +71,14 @@
       "title": "Quaest: veja os números da eleição para presidente em 23 estados e no DF",
       "description": "Uma série de pesquisas Quaest divulgadas nesta semana mostra como está a disputa presidencial no 1º turno em 17 estados e no Distrito...",
       "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/08/28/quaest-eleicao-presidente-23-estados-df.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-08-28T03:00:47+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/Fd0Vgyc1Y27dQ-CzBsNR-aPlYvg=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/7/7Kve48TdS07WVpJCrsOg/design-sem-nome-20-.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c9e3397f6ee7",
@@ -101,7 +104,7 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-31T10:07:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/lula-e-flavio-bolsonaro-fotos-ricardo-stuckert-pr-e-nilson-almeida-afp.png",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -190,20 +193,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_92c94b07d769",
-      "title": "BTG/Nexus: Flávio Bolsonaro e Lula seguem como mais rejeitados, com 50% e 49%, respectivamente",
-      "description": "O senador Flávio Bolsonaro (PL-RJ) e o presidente Luiz Inácio Lula da Silva (PT) seguem ...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/btgnexus-flavio-bolsonaro-e-lula-seguem-como-mais-rejeitados-com-50-e-49-respectivamente,35b3885b75b06d83b0121f153e162d80g2kmvonk.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-08-31T10:52:56+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_706db7b7959a",
       "title": "E se Jair Bolsonaro pudesse disputar? AtlasIntel mostra como seria duelo com Lula",
       "description": "Se pudesse disputar a eleição presidencial de 2026, Jair Bolsonaro teria hoje um desempenho mais competitivo contra Lula (PT) do que o filho...",
@@ -215,6 +204,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_92c94b07d769",
+      "title": "BTG/Nexus: Flávio Bolsonaro e Lula seguem como mais rejeitados, com 50% e 49%, respectivamente",
+      "description": "O senador Flávio Bolsonaro (PL-RJ) e o presidente Luiz Inácio Lula da Silva (PT) seguem ...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/btgnexus-flavio-bolsonaro-e-lula-seguem-como-mais-rejeitados-com-50-e-49-respectivamente,35b3885b75b06d83b0121f153e162d80g2kmvonk.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-08-31T10:52:56+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -236,14 +239,14 @@
       "title": "Atlas/Bloomberg: confira os cenários da corrida à presidência da República",
       "description": "Lula tem 47,1% das intenções de voto e Flávio Bolsonaro, 42,6% no levantamento estimulado para o primeiro turno.",
       "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/elei%C3%A7%C3%B5es/atlasbloomberg-confira-os-cenarios-da-corrida-a-presidencia-da-republica-1.1743798",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
+      "source": "correiodopovo.com.br",
+      "sourceCanonical": "correiodopovo.com.br",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-08-31T19:32:39+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3312cdcf6c35",
@@ -320,15 +323,15 @@
     "min": 2,
     "max": 8,
     "average": 4.94,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 3,
       "centerLeft": 2,
-      "center": 9,
+      "center": 7,
       "centerRight": 4,
       "right": 0,
-      "unknown": 2
+      "unknown": 4
     }
   },
   "scores": {

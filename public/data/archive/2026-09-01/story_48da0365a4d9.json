@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pjMF83dkVSRTR4NWxYNVFzcVNTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pjMF83dkVSRTR4NWxYNVFzcVNTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Augusto Cury sobe nas pesquisas: candidato tira mais votos de Lula ou Flávio Bolsonaro? O que diz analista",
   "summary": "Pablo Ortellado comenta as chances de Cury no 1º turno, explica como ele pode influenciar um eventual 2º turno e analisa o que pode ter...",
@@ -27,11 +33,11 @@
     "nexus",
     "btg",
     "lula",
-    "pesquisas"
+    "tem"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/dde3/live/e6293c60-9f9d-11f1-a83c-33ebef033ca4.jpg",
   "publishedAt": "2026-08-31T09:27:52+00:00",
-  "updatedAt": "2026-09-01T08:40:51.702910+00:00",
+  "updatedAt": "2026-09-01T09:27:50.418226+00:00",
   "sourceCount": 16,
   "articleCount": 20,
   "articles": [
@@ -78,20 +84,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d151e242459e",
-      "title": "Quem está por trás da candidatura de Augusto Cury à Presidência",
-      "description": "Apesar do perfil pouco convencional do candidato, sua campanha conta com partido, recursos e profissionais experientes na corrida ao Palácio...",
-      "url": "https://veja.abril.com.br/politica/quem-esta-por-tras-da-candidatura-de-augusto-cury-a-presidencia/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-08-31T20:05:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/20260830_123016.jpg?quality=70&strip=info&resize=1080,565&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_9249d9ad4bd9",
       "title": "Potencial de voto de Lula é de 49%, aponta pesquisa Nexus",
       "description": "O presidente lidera o primeiro turno com seis pontos de vantagem sobre o senador Flávio Bolsonaro.",
@@ -101,7 +93,7 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-31T13:40:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/02/Eleicao.jpg",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -180,14 +172,14 @@
       "title": "Augusto Cury reacende a esperança de terceira via?",
       "description": "A polarização não é algo ruim em si. A esquerda sempre dominou a cena política brasileira, principalmente quando o eleitor era vítima do...",
       "url": "https://www.gazetadopovo.com.br/rodrigo-constantino/augusto-cury-reacende-esperanca-terceira-via/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-31T19:32:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_b69e5e88c90e",
@@ -232,18 +224,32 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_d151e242459e",
+      "title": "Quem está por trás da candidatura de Augusto Cury à Presidência",
+      "description": "Apesar do perfil pouco convencional do candidato, sua campanha conta com partido, recursos e profissionais experientes na corrida ao Palácio...",
+      "url": "https://veja.abril.com.br/politica/quem-esta-por-tras-da-candidatura-de-augusto-cury-a-presidencia/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-08-31T20:05:34+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_c7618c7fe2ef",
       "title": "Janones pede silêncio sobre Cury após alta nas pesquisas",
       "description": "Deputado avalia que críticas e menções nas redes podem ampliar a exposição de Augusto Cury e favorecer o candidato. Leia na Gazeta do Povo.",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/coordenador-da-campanha-do-pt-reage-a-alta-de-cury-nas-pesquisas-e-pede-que-parem-de-falar-dele/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-08-31T16:50:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e7e0c7f17b4a",
@@ -258,20 +264,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_a0852f9acf0f",
-      "title": "Quem é Júlio Delgado, candidato a vice-presidente de Augusto Cury nas eleições de 2026",
-      "description": "Júlio Delgado foi o relator do processo que resultou na cassação do então deputado federal José Dirceu.",
-      "url": "https://jovempan.com.br/politica/quem-e-julio-delgado-candidato-a-vice-presidente-de-augusto-cury-nas-eleicoes-de-2026/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-08-31T10:10:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_3b7f34b5788e",
@@ -314,27 +306,41 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8fa17e626a18",
+      "title": "Quem tem medo de Cury? Como PT e PL reagiram ao salto do candidato do Avante",
+      "description": "Enquanto a campanha de Flávio Bolsonaro teme perder votos no primeiro turno, o comitê de Lula receia que a candidatura de Cury represente um...",
+      "url": "https://www.em.com.br/politica/platobr/2026/09/7491280-quem-tem-medo-de-cury-como-pt-e-pl-reagiram-ao-salto-do-candidato-do-avante.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-09-01T03:08:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 9,
-    "average": 5.5,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "max": 8,
+    "average": 5.56,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 7,
-      "centerRight": 5,
-      "right": 1,
-      "unknown": 4
+      "center": 8,
+      "centerRight": 7,
+      "right": 0,
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
