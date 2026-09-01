@@ -3,18 +3,24 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPdVluMEVSSFRnLWVvOHl4UThDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPdVluMEVSSFRnLWVvOHl4UThDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 54
+      "topic-3": 50,
+      "topic-5": 67,
+      "topic-8": 53
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 54,
-    "bestSeedRank": 54,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +31,15 @@
     "kohler",
     "fábrica",
     "andradas",
+    "fecha",
     "louças",
-    "metais",
-    "sanitários"
+    "metais"
   ],
   "imageUrl": "https://s2-valor.glbimg.com/w_CqjcwphM_QoYj_emVmQYXjY_M=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/M/B/T2QKj5QZKAP725juDEGg/robertoriolobossanchez.jpg",
   "publishedAt": "2026-08-31T17:57:51+00:00",
-  "updatedAt": "2026-09-01T12:50:23.664768+00:00",
-  "sourceCount": 2,
-  "articleCount": 3,
+  "updatedAt": "2026-09-01T13:28:36.532491+00:00",
+  "sourceCount": 3,
+  "articleCount": 4,
   "articles": [
     {
       "id": "article_5dafa596afe7",
@@ -48,6 +54,20 @@
       "imageUrl": "https://s2-valor.glbimg.com/w_CqjcwphM_QoYj_emVmQYXjY_M=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/M/B/T2QKj5QZKAP725juDEGg/robertoriolobossanchez.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_c76ce13f9ca9",
+      "title": "Kohler fecha fábrica em Andradas e decisão impacta mais de 400 famílias na região",
+      "description": "Atualizado em 1 de setembro de 2026. A Kohler, empresa global do setor de equipamentos e acessórios para cozinhas e banheiros,...",
+      "url": "https://tvpocos.com.br/kohler-fecha-fabrica-em-andradas-e-decisao-impacta-mais-de-400-familias-na-regiao/",
+      "source": "TV Poços",
+      "sourceCanonical": "TV Poços",
+      "sourceDomain": "tvpocos.com.br",
+      "publishedAt": "2026-09-01T12:45:29+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_53d0fc63e0ac",
@@ -83,23 +103,24 @@
     "max": 6,
     "average": 6,
     "knownCount": 1,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 20,
     "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 54
+    "confidence": 56
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
