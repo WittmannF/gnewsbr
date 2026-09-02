@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 51
+      "topic-5": 52
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 51,
-    "bestSeedRank": 51,
+    "firstSeenRank": 52,
+    "bestSeedRank": 52,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/C_W6w9P9umKgOuzAG6jb0ftRRhA=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/c/kRcOA6T6iPwbqAzIPUjA/globo-canal-4-20260709-2000-frame-59721.jpeg",
   "publishedAt": "2026-08-11T07:00:00+00:00",
-  "updatedAt": "2026-09-02T04:41:53.234075+00:00",
+  "updatedAt": "2026-09-02T05:38:07.495267+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -124,14 +124,14 @@
       "title": "Servidor do Banco Central cobrou propina de Vorcaro após enviar denúncia sobre Master, diz PF",
       "description": "Investigação aponta que Belline Santana encaminhou suspeitas ao MPF e, dias depois, voltou a ser citado em mensagens sobre suposto...",
       "url": "https://www.brasil247.com/brasil/servidor-do-banco-central-cobrou-propina-de-vorcaro-apos-enviar-denuncia-sobre-master-diz-pf/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-01T09:52:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4f4cb6e495e5",
@@ -166,14 +166,14 @@
       "title": "Ministros do STF veem poucas chances de nova delação de Vorcaro",
       "description": "Tratativas para um acordo de colaboração enfrentaram barreiras tanto na Polícia Federal quanto na Procuradoria-Geral da República.",
       "url": "https://noticias.r7.com/brasilia/ministros-do-stf-consideram-dificil-nova-delacao-de-vorcaro-28082026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-08-28T05:00:01+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_38ead1453252",
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_7559166ca817",
-      "title": "Caso Master: Novo advogado de Vorcaro diz que banqueiro 'quer colaborar'",
-      "description": "Novo advogado de Daniel Vorcaro afirma que ex-banqueiro quer colaborar com as autoridades e avalia retomar tratativas para acordo no âmbito...",
-      "url": "https://www.band.com.br/nacional/brasil/caso-master-novo-advogado-de-vorcaro-diz-que-banqueiro-quer-colaborar",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-08-11T07:00:00+00:00",
-      "postedLabel": "21 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_a764784ed2f4",
       "title": "PF finaliza depoimento de Vorcaro feito por videoconferência da Papudinha",
       "description": "O banqueiro Daniel Vorcaro prestou depoimento na manhã e início da tarde desta sexta-feira à Polícia Federal (PF).",
@@ -230,6 +216,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_7559166ca817",
+      "title": "Caso Master: Novo advogado de Vorcaro diz que banqueiro 'quer colaborar'",
+      "description": "Novo advogado de Daniel Vorcaro afirma que ex-banqueiro quer colaborar com as autoridades e avalia retomar tratativas para acordo no âmbito...",
+      "url": "https://www.band.com.br/nacional/brasil/caso-master-novo-advogado-de-vorcaro-diz-que-banqueiro-quer-colaborar",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-08-11T07:00:00+00:00",
+      "postedLabel": "21 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a21e614cbce1",
@@ -317,16 +317,16 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 9,
-    "average": 5.14,
+    "average": 5.57,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 3,
       "center": 5,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 2,
       "unknown": 6
     }
@@ -334,7 +334,7 @@
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
