@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 45
+      "topic-7": 40
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 45,
-    "bestSeedRank": 45,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/H2IEVNJWFJEFFFG66RYX3UXPCI.jpg?quality=80&auth=defb7fee777643045c8504ecf35a3b32fa2d77f56ca96f8bf7265a685dda1c5e&width=1200&height=630&smart=true",
   "publishedAt": "2026-08-28T18:04:59+00:00",
-  "updatedAt": "2026-09-02T05:45:13.361713+00:00",
+  "updatedAt": "2026-09-02T06:58:51.009342+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -124,8 +124,8 @@
       "title": "EUA deportam comentador de extrema-direita",
       "description": "O comentador britânico de extrema-direita Milo Yiannopoulos foi deportado na sexta-feira pelos serviços de imigração dos EUA (ICE) para o...",
       "url": "https://www.cmjornal.pt/mundo/detalhe/eua-deportam-comentador-de-extrema-direita",
-      "source": "Correio da Manhã",
-      "sourceCanonical": "Correio da Manhã",
+      "source": "cmjornal.pt",
+      "sourceCanonical": "cmjornal.pt",
       "sourceDomain": "cmjornal.pt",
       "publishedAt": "2026-08-30T00:30:00+00:00",
       "postedLabel": "3 dias atrás",
@@ -208,42 +208,28 @@
       "title": "Influenciador de extrema direita Milo Yiannopoulos é deportado dos EUA",
       "description": "Influenciador Milo Yiannopoulos, de 41 anos, foi detido em um aeroporto da Louisiana (EUA) nessa quinta-feira (29/8)",
       "url": "https://www.metropoles.com/mundo/influenciador-de-extrema-direita-milo-yiannopoulos-e-deportado-dos-eua",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-29T20:00:00+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9c67b6e418c6",
       "title": "Ele defendia deportações; agora foi preso pelo ICE nos EUA",
       "description": "O influenciador britânico de extrema direita Milo Yiannopoulos, de 41 anos, foi detido por agentes do Serviço de Imigração e Alfândega dos...",
       "url": "https://revistaforum.com.br/global/ele-defendia-deportacoes-agora-foi-preso-pelo-ice-nos-eua/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-08-28T22:50:54+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_90f31df5ca2c",
-      "title": "Influenciador Milo Yiannopoulos é deportado dos Estados Unidos",
-      "description": "Conhecido por apoiar expulsões em massa de imigrantes, britânico foi detido pelo ICE após ultrapassar prazo do visto.",
-      "url": "https://www.acritica.com/geral/influenciador-milo-yiannopoulos-e-deportado-dos-estados-unidos-1.413697",
-      "source": "acritica.com",
-      "sourceCanonical": "acritica.com",
-      "sourceDomain": "acritica.com",
-      "publishedAt": "2026-08-31T16:53:45+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_5223eefac10a",
@@ -255,6 +241,20 @@
       "sourceDomain": "tribunadoagreste.com.br",
       "publishedAt": "2026-08-28T20:31:00+00:00",
       "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_90f31df5ca2c",
+      "title": "Influenciador Milo Yiannopoulos é deportado dos Estados Unidos",
+      "description": "Conhecido por apoiar expulsões em massa de imigrantes, britânico foi detido pelo ICE após ultrapassar prazo do visto.",
+      "url": "https://www.acritica.com/geral/influenciador-milo-yiannopoulos-e-deportado-dos-estados-unidos-1.413697",
+      "source": "A Crítica",
+      "sourceCanonical": "A Crítica",
+      "sourceDomain": "acritica.com",
+      "publishedAt": "2026-08-31T16:53:45+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,13 +319,13 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.91,
+    "average": 4.64,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 2,
       "right": 0,
       "unknown": 9
