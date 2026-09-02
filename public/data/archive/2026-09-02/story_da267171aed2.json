@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 65
+      "topic-3": 66
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 65,
-    "bestSeedRank": 65,
+    "firstSeenRank": 66,
+    "bestSeedRank": 66,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,23 +31,23 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/GUDC422ZQ5KDXOYYRLPY4UPSWI.jpg?quality=80&auth=05b3adc1bc42d3fd76324e68c32a6c28262bec6de5a7187b42db16aea28c44d6&width=1200&height=630&smart=true",
   "publishedAt": "2026-08-31T21:15:27+00:00",
-  "updatedAt": "2026-09-02T02:52:04.977194+00:00",
-  "sourceCount": 5,
-  "articleCount": 5,
+  "updatedAt": "2026-09-02T03:33:54.462852+00:00",
+  "sourceCount": 4,
+  "articleCount": 4,
   "articles": [
     {
       "id": "article_c03e32443c18",
       "title": "TRE-SP manda Padre Kelmon apagar acusação contra José Dirceu",
       "description": "O TRE-SP (Tribunal Regional Eleitoral de São Paulo) determinou que Padre Kelmon remova uma publicação em que acusa o ex-ministro José Dirceu...",
       "url": "https://noticias.uol.com.br/eleicoes/2026/08/31/tre-sp-manda-padre-kelmon-apagar-acusacao-contra-jose-dirceu.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-08-31T22:35:46+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_214a7a3ac524",
@@ -86,46 +86,32 @@
       "sourceCanonical": "correiodamanha.com.br",
       "sourceDomain": "correiodamanha.com.br",
       "publishedAt": "2026-09-01T03:03:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
+      "postedLabel": "ontem",
+      "imageUrl": "https://www.correiodamanha.com.br/_midias/jpg/2026/08/31/600x378/1_ze_dirceu_e_kelmon-684311.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_45929f0815a3",
-      "title": "TRE-SP manda Padre Kelmon apagar acusação contra José Dirceu",
-      "description": "Decisão fixa multa diária de R$ 1 mil após publicação atribuir ao ex-ministro ordem para destruir material eleitoral.",
-      "url": "https://www.brasil247.com/sudeste/tre-sp-manda-padre-kelmon-apagar-acusacao-contra-jose-dirceu/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-08-31T22:58:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2022/09/20220927200948_1637ed5f374f6cc809dd72ad705721af777c829f988a5e629193a2d0adf60e1c.jpg?w=1200&quality=88&strip=all",
-      "spectrumScore": 1,
-      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 5,
     "max": 7,
-    "average": 4.5,
-    "knownCount": 4,
-    "unknownCount": 1,
+    "average": 6,
+    "knownCount": 2,
+    "unknownCount": 2,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
-      "center": 2,
+      "center": 1,
       "centerRight": 1,
       "right": 0,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
-    "confidence": 67
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
+    "confidence": 59
   },
   "flags": [
     "Manchetes divergentes"
