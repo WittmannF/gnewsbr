@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 11
+      "topic-4": 12
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 11,
-    "bestSeedRank": 11,
+    "firstSeenRank": 12,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,8 +31,8 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/JftZgia7ZXPCsP6nij8w7WXTSYQ=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/B/R/5N8NZjTdAcceOprxFjhg/carla-madeira-site-4.jpg",
   "publishedAt": "2026-08-23T12:00:18+00:00",
-  "updatedAt": "2026-09-02T01:37:52.380305+00:00",
-  "sourceCount": 17,
+  "updatedAt": "2026-09-02T02:53:00.098263+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -143,6 +143,20 @@
       "sourceDomain": "culturadoria.com.br",
       "publishedAt": "2026-08-31T14:59:59+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2b35d61ea72d",
+      "title": "Clube de Leitura das Marés abre inscrições com obra de Carla Madeira em Paraty",
+      "description": "Moradores com 16 anos ou mais podem participar dos encontros gratuitos em setembro para discutir o aclamado romance 'Quando',...",
+      "url": "https://acidadecostaverde.com.br/noticia/clube-de-leitura-das-mares-abre-inscricoes-com-obra-de-carla-madeira-em-paraty",
+      "source": "A Cidade Costa Verde",
+      "sourceCanonical": "A Cidade Costa Verde",
+      "sourceDomain": "acidadecostaverde.com.br",
+      "publishedAt": "2026-08-24T16:57:00+00:00",
+      "postedLabel": "8 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -278,14 +292,14 @@
       "title": "Carla Madeira revela inspirações de novo livro: ‘Perdi minha mãe enquanto escrevia’",
       "description": "Imagine uma mãe que ama o filho o bastante para entregá-lo à polícia. Essa cena perturbadora é uma passagem central de Quando, novo romance...",
       "url": "https://veja.abril.com.br/cultura/carla-madeira-revela-inspiracoes-de-novo-livro-perdi-minha-mae-enquanto-escrevia/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-08-24T07:00:00+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_9aaa38c0a6ae",
@@ -300,45 +314,32 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_92f27dc99fc2",
-      "title": "Não era uma amiga me dizendo que é gay, era a minha filha, diz autora mais lida do Brasil sobre homofobia em novo livro",
-      "description": "Em entrevista ao videocast 'Conversa vai, conversa vem', Carla Madeira conta como a realidade da filha lésbica a fez refletir sobre a...",
-      "url": "https://www.tribunadosertao.com.br/curiosidades/2026/08/31/970607-nao-era-uma-amiga-me-dizendo-que-e-gay-era-a-minha-filha-diz-autora-mais-lida-do-brasil-sobre-homofobia-em-novo-livro",
-      "source": "Tribuna do Sertão",
-      "sourceCanonical": "Tribuna do Sertão",
-      "sourceDomain": "tribunadosertao.com.br",
-      "publishedAt": "2026-08-31T21:30:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.8,
+    "max": 7,
+    "average": 5,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 8,
-      "centerRight": 0,
+      "center": 7,
+      "centerRight": 1,
       "right": 0,
       "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
