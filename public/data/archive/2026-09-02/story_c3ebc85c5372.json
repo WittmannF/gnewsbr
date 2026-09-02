@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXd3VYeUVSR19yN2E4RnlFX1ZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXd3VYeUVSR19yN2E4RnlFX1ZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 38
+      "topic-3": 43,
+      "topic-5": 67
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 38,
-    "bestSeedRank": 38,
+    "firstSeenRank": 43,
+    "bestSeedRank": 43,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "calor",
     "tempo",
-    "nesta",
     "brasília",
-    "quarta",
-    "feira"
+    "nesta",
+    "temperatura",
+    "chuva"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/VlPKJkAwJwZpouaINnXjViAw3Nw=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/s/M/7GC9YlSFqyaT5xWYCKgA/whatsapp-image-2021-09-10-at-8.49.06-am.jpeg",
   "publishedAt": "2026-08-26T12:06:00+00:00",
-  "updatedAt": "2026-09-02T12:39:31.537559+00:00",
+  "updatedAt": "2026-09-02T13:29:39.017223+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -86,24 +89,10 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-01T13:29:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/01/675x450/1_001-67568773.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f6b4172819d8",
-      "title": "Após recordes de calor, DF amanhece com chuviscos nesta quarta-feira (2/9)",
-      "description": "Segundo o Instituto Nacional de Meteorologia (Inmet), o DF tem possibilidade de chuvas isoladas ao longo do dia.",
-      "url": "https://www.metropoles.com/distrito-federal/apos-recordes-de-calor-df-amanhece-com-chuviscos-nesta-quarta-feira-2-9",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-02T10:49:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://i.metroimg.com/GBSpLVD-0rFPk5SnssrKhgMMO5497toZhS26mBRQHyk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/apos-dias-recorde-calor-chuvas-df.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_306b93acef4f",
@@ -115,9 +104,37 @@
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-01T13:36:07+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F09-01-2026%2Ft_d812d6c5ec4b43a8a5ad01512f0a2bda_name_file_960x540_1600_v4_.jpg?smart=true&auth=584e875b2e6adc79ddc3eeab4ba8fc26501b7359e47cf73f0b9540a4eb033749&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c92347be36a1",
+      "title": "Após recordes de calor, DF amanhece nublado e com chuviscos nesta quarta",
+      "description": "Chuva fraca atingiu áreas como Cruzeiro, Sudoeste e Epia após a capital registrar 36,1°C ontem, a maior temperatura do ano.",
+      "url": "https://www.correiobraziliense.com.br/cidades-df/2026/09/7492188-apos-recordes-de-calor-df-amanhece-nublado-e-com-chuviscos-nesta-quarta.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-02T12:08:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_620856fb7973",
+      "title": "Calorão persiste no DF com máximas de 35ºC e possibilidade de chuva",
+      "description": "Apesar do calorão e do tempo seco que têm marcado os últimos dias no Distrito Federal, os moradores da capital podem se preparar para a...",
+      "url": "https://www.metropoles.com/distrito-federal/calorao-persiste-no-df-com-maximas-de-35oc-e-possibilidade-de-chuva",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-01T10:07:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_265f2c88d7c3",
@@ -166,14 +183,14 @@
       "title": "DF terá semana de calor intenso, tempo seco e temperaturas de até 33ºC",
       "description": "Inmet mantém dois alertas de baixa umidade nesta segunda-feira (31), após o Distrito Federal registrar novos recordes de temperatura no...",
       "url": "https://jornaldebrasilia.com.br/brasilia/df-tera-semana-de-calor-intenso-tempo-seco-e-temperaturas-de-ate-33oc/",
-      "source": "jornaldebrasilia.com.br",
-      "sourceCanonical": "jornaldebrasilia.com.br",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-08-31T10:10:12+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a424171187be",
@@ -184,7 +201,7 @@
       "sourceCanonical": "Jornal Brasília Capital",
       "sourceDomain": "bsbcapital.com.br",
       "publishedAt": "2026-08-31T13:28:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,6 +215,20 @@
       "sourceCanonical": "Jornal O Grito",
       "sourceDomain": "ogritonews.com.br",
       "publishedAt": "2026-08-31T14:25:20+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d5afd28f2649",
+      "title": "DF registra maior temperatura do ano",
+      "description": "O Distrito Federal registrou, nesta segunda-feira (31/8), a maior temperatura de 2026 pelo terceiro dia consecutivo.",
+      "url": "https://curtamais.com.br/brasilia/2026/08/31/df-registra-maior-temperatura-do-ano-pelo-terceiro-dia-consecutivo/",
+      "source": "Curta Mais - Goiânia",
+      "sourceCanonical": "Curta Mais - Goiânia",
+      "sourceDomain": "curtamais.com.br",
+      "publishedAt": "2026-08-31T22:04:03+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -286,49 +317,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_03bbd08caf0c",
-      "title": "DF registra novo recorde de calor pelo terceiro dia seguido",
-      "description": "O Distrito Federal registrou, pelo terceiro dia consecutivo, a maior temperatura do ano. Nesta segunda-feira (31/8), os termômetros da...",
-      "url": "https://acordadf.com.br/noticias/brasilia/df-registra-novo-recorde-de-calor-pelo-terceiro-dia-seguido/",
-      "source": "acorda df",
-      "sourceCanonical": "acorda df",
-      "sourceDomain": "acordadf.com.br",
-      "publishedAt": "2026-08-31T20:09:53+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c92347be36a1",
-      "title": "Após recordes de calor, DF amanhece nublado e com chuviscos nesta quarta",
-      "description": "Chuva fraca atingiu áreas como Cruzeiro, Sudoeste e Epia após a capital registrar 36,1°C ontem, a maior temperatura do ano.",
-      "url": "https://www.correiobraziliense.com.br/cidades-df/2026/09/7492188-apos-recordes-de-calor-df-amanhece-nublado-e-com-chuviscos-nesta-quarta.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-09-02T12:08:00+00:00",
-      "postedLabel": "31 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.22,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.2,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 5,
+      "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
