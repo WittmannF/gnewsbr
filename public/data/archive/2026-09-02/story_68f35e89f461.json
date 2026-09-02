@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 20
+      "topic-7": 22
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 22,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/5cc7/live/6072b780-a098-11f1-8a1f-314a01485cf4.jpg",
   "publishedAt": "2026-08-25T10:29:31+00:00",
-  "updatedAt": "2026-09-02T11:36:01.710464+00:00",
+  "updatedAt": "2026-09-02T12:53:47.526082+00:00",
   "sourceCount": 9,
   "articleCount": 9,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-01T11:43:56+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-oglobo.glbimg.com/ooVMxcubSCzXZwMs3VQvToYy3gI=/5103x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/O/3/sVVyoLQh21VJQBpoKTKw/114532526-a-woman-walks-past-stalls-selling-pulses-and-spices-in-the-old-quarters-of-delhi-on-april.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -82,14 +82,14 @@
       "title": "Índia tem o mês de agosto mais quente desde 1901, quando registros começaram a ser feitos",
       "description": "Temperatura da média nacional no mês foi de 28,01°C e superou o recorde histórico de 28°C aferido em 2023.",
       "url": "https://www.estadao.com.br/internacional/india-tem-o-mes-de-agosto-mais-quente-desde-1901-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-01T17:56:42+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/VWXU6TCODZGYBBAEAHBIJPWHOM.jpg?quality=80&auth=bebda1d1a20ad0735a8ecdefee1e9e3df3e3c95283a550e341dfac67f7f71c67&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_41094927c647",
@@ -101,7 +101,7 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-08-25T10:29:31+00:00",
       "postedLabel": "8 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/image-22.jpg",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -114,7 +114,7 @@
       "sourceCanonical": "Notícias ao Minuto",
       "sourceDomain": "noticiasaominuto.com",
       "publishedAt": "2026-09-01T12:20:07+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -164,27 +164,26 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.83,
-    "knownCount": 6,
-    "unknownCount": 3,
+    "max": 6,
+    "average": 4.4,
+    "knownCount": 5,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 3,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
-    "confidence": 81
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
+    "confidence": 78
   },
   "flags": [
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
