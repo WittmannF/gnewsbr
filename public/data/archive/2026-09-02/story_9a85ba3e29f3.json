@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUaGF2d0VSSERRSWFXRTJESHhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUaGF2d0VSSERRSWFXRTJESHhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 53
+      "topic-3": 47,
+      "topic-5": 61
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 53,
-    "bestSeedRank": 53,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 47,
+    "bestSeedRank": 47,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +32,9 @@
     "eleição",
     "tem"
   ],
-  "imageUrl": "https://s2-oglobo.glbimg.com/9fDd6earPSy0OdRDE5992n8_0IU=/649x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/0/A/abq1NNRHWSWi5ha4eASw/grafo.png",
+  "imageUrl": "https://static.poder360.com.br/uploads/2026/09/disputa-eleitoral-estadual-1-set-2026_page-0006-1200x675.jpg",
   "publishedAt": "2026-08-07T07:00:00+00:00",
-  "updatedAt": "2026-09-02T16:38:01.906875+00:00",
+  "updatedAt": "2026-09-02T17:25:52.949113+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +43,14 @@
       "title": "Lula tem 11 palanques competitivos nos Estados; Flávio tem 10",
       "description": "Levantamento do Poder360 mediu o desempenho dos palanques do petista e do senador nas disputas estaduais. Leia no Poder360.",
       "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-11-palanques-competitivos-nos-estados-flavio-tem-10/",
-      "source": "poder360.com.br",
-      "sourceCanonical": "poder360.com.br",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-02T10:01:12+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/09/disputa-eleitoral-estadual-1-set-2026_page-0006-1200x675.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_335ecda4e370",
@@ -101,7 +104,7 @@
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-01T15:32:41+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/F74ZD457MVC7JB7LY7Z4VXLNYU.jpg?smart=true&auth=49687242fed2532169da2f1a045681058eecf654749ebff80278f997be5406ea&width=1200&height=630",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -166,14 +169,14 @@
       "title": "Perigos do “Triângulo das Bermudas” (SP, MG e RJ) desafiam campanhas de Lula e Flávio",
       "description": "Os três estados concentram parcela decisiva do eleitorado e podem engolir qualquer vantagem construída no restante do país. O equilíbrio...",
       "url": "https://blogs.correiobraziliense.com.br/azedo/perigos-do-triangulo-das-bermudas-sp-mg-e-rj-desafiam-campanhas-de-lula-e-flavio/",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "blogs.correiobraziliense.com.br",
+      "sourceCanonical": "blogs.correiobraziliense.com.br",
       "sourceDomain": "blogs.correiobraziliense.com.br",
       "publishedAt": "2026-08-26T10:45:41+00:00",
       "postedLabel": "7 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b84e1f29b77d",
@@ -319,27 +322,26 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.08,
+    "average": 5.15,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
-      "center": 7,
+      "centerLeft": 0,
+      "center": 8,
       "centerRight": 3,
       "right": 0,
       "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
