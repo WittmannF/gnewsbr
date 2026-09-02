@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJbzRQdkVSRnZRTGMxd05yRFJTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJbzRQdkVSRnZRTGMxd05yRFJTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-3": 31
+      "topic-3": 30,
+      "topic-8": 41
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 30,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,19 +32,19 @@
     "compramos",
     "também"
   ],
-  "imageUrl": "https://www.meioemensagem.com.br/wp-content/uploads/2026/08/Urna-eletronica-cred-Rafael-Henrique-stockadobecom.jpg",
-  "publishedAt": "2026-08-31T09:04:00+00:00",
-  "updatedAt": "2026-09-02T19:22:37.556002+00:00",
-  "sourceCount": 3,
-  "articleCount": 3,
+  "imageUrl": "https://s2-oglobo.glbimg.com/z28hu_qC2bQfmNN8H6zsoI6YfBM=/4000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/O/I/F9zHOhQNmDAVabW5AhgA/464644251.jpg",
+  "publishedAt": "2026-08-29T18:23:15+00:00",
+  "updatedAt": "2026-09-02T20:27:12.216376+00:00",
+  "sourceCount": 4,
+  "articleCount": 4,
   "articles": [
     {
       "id": "article_1eaebcb2f5d1",
       "title": "José Saad Neto: O que compramos também é político? O que move o consumidor em ano eleitoral",
       "description": "Nas redes sociais, cada compra pode virar uma declaração política. No caixa, a escolha costuma ser bem menos ideológica.",
       "url": "https://economia.uol.com.br/colunas/jose-saad-neto/2026/09/02/o-que-compramos-tambem-e-politico-o-que-move-o-consumidor-em-ano-eleitoral.htm",
-      "source": "UOL Economia",
-      "sourceCanonical": "UOL Economia",
+      "source": "economia.uol.com.br",
+      "sourceCanonical": "economia.uol.com.br",
       "sourceDomain": "economia.uol.com.br",
       "publishedAt": "2026-09-02T12:30:00+00:00",
       "postedLabel": "hoje",
@@ -64,6 +67,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_a4a3bb235737",
+      "title": "Risco para marcas ao contratar influenciadores que falam de política é menor do que parece",
+      "description": "O medo de que o posicionamento político de um influenciador contamine a imagem de uma marca parece ser maior do que o risco real.",
+      "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/08/risco-para-marcas-ao-contratar-influenciadores-que-falam-de-politica-e-menor-do-que-parece.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-08-29T18:23:15+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/z28hu_qC2bQfmNN8H6zsoI6YfBM=/4000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/O/I/F9zHOhQNmDAVabW5AhgA/464644251.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_7e5c0ae39093",
       "title": "Alguém é beneficiado pela polarização brasileira?",
       "description": "O cenário eleitoral de 2026 é um dos mais polarizados dos últimos tempos. Nas eleições de 2022, o Brasil viveu situação semelhante e a...",
@@ -79,25 +96,25 @@
     }
   ],
   "spectrum": {
-    "min": null,
-    "max": null,
-    "average": null,
-    "knownCount": 0,
+    "min": 6,
+    "max": 6,
+    "average": 6,
+    "knownCount": 1,
     "unknownCount": 3,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 0,
+      "center": 1,
       "centerRight": 0,
       "right": 0,
       "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 0,
-    "spectrumBalance": 0,
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 51
+    "confidence": 56
   },
   "flags": [
     "Muitas fontes não classificadas",
