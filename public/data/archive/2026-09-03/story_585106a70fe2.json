@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 32
+      "topic-8": 29
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 32,
-    "bestSeedRank": 32,
+    "firstSeenRank": 29,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "warsh",
     "fed",
-    "juros",
     "discurso",
+    "juros",
     "dólar",
-    "alta"
+    "jackson"
   ],
-  "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/fed-910x568.jpg.webp",
+  "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
   "publishedAt": "2026-08-28T12:25:00+00:00",
-  "updatedAt": "2026-09-03T05:44:33.751930+00:00",
+  "updatedAt": "2026-09-03T07:02:00.513895+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "O FED mudou de regime. O Brasil deveria prestar atenção",
       "description": "A doutrina de Kevin Warsh recoloca a credibilidade no centro da política monetária e mostra por que juros baixos não se produzem por...",
       "url": "https://revistaoeste.com/economia/o-fed-mudou-de-regime-o-brasil-deveria-prestar-atencao/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-02T17:19:12+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/fed-910x568.jpg.webp",
-      "spectrumScore": 10,
-      "bucket": "right"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c45b6b1e8726",
@@ -90,6 +90,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f09d734a0e63",
+      "title": "Os dados dos EUA permitirão que o Fed mantenha a paciência?",
+      "description": "Investing.com - O UBS afirmou que uma série de dados econômicos dos EUA na semana que vem testará se a inflação e o emprego estão esfriando...",
+      "url": "https://br.investing.com/news/economy-news/os-dados-dos-eua-permitirao-que-o-fed-mantenha-a-paciencia-2054229",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-09-01T13:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a97184732581",
@@ -185,20 +199,6 @@
       "sourceDomain": "investidor10.com.br",
       "publishedAt": "2026-08-28T16:40:56+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_1dc96e1080fc",
-      "title": "Alta de juros do Fed seria erro, dizem analistas",
-      "description": "Analistas alertam que alta de juros do Fed seria erro com petróleo em disparada, enquanto Bitcoin e bolsas caem. Veja.",
-      "url": "https://www.spacemoney.com.br/economia/macroeconomia/risco-de-alta-de-juros-do-fed-pressiona-bitcoin-e-mercados/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-09-02T12:09:16+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 10,
-    "average": 6,
+    "max": 7,
+    "average": 5.55,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 8,
       "centerRight": 2,
-      "right": 1,
+      "right": 0,
       "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
