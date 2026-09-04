@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2paNDVEekVSRU1ZQlZpeDlkR3l5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2paNDVEekVSRU1ZQlZpeDlkR3l5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 7,
-      "topic-5": 28
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 38
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Pesquisa Datafolha para governador do Ceará: como será a divulgação",
   "summary": "A pesquisa Datafolha com intenções de voto para governador do Ceará, senador e presidente da República no Estado será divulgada a partir...",
@@ -34,8 +37,8 @@
   ],
   "imageUrl": "https://www.opovo.com.br/_midias/jpg/2024/09/25/818x460/1_preparacao___das____urnas___eletronicas_____24_-30474339.jpg",
   "publishedAt": "2026-08-29T01:13:00+00:00",
-  "updatedAt": "2026-09-04T08:38:16.839440+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-09-04T09:30:49.545617+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -99,35 +102,35 @@
       "title": "Datafolha: Distância entre Ciro e Elmano cai pela metade com campanha na rua",
       "description": "Resultado reforça peso do volume muito superior de campanha mantido pelo petista; diferença reduziu de 19 pontos percentuais para 9 pontos...",
       "url": "https://mais.opovo.com.br/colunistas/vertical/2026/09/03/datafolha-distancia-entre-ciro-e-elmano-cai-pela-metade-com-campanha-na-rua.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
+      "source": "mais.opovo.com.br",
+      "sourceCanonical": "mais.opovo.com.br",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-03T21:39:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
-      "id": "article_fc7058600a94",
-      "title": "Datafolha: recados para Ciro e Elmano",
-      "description": "Pesquisa Datafolha aponta que encurtou drasticamente a distância entre Ciro e Elmano. Caiu de 19 para 9 pontos percentuais, com o tucano...",
-      "url": "https://mais.opovo.com.br/colunistas/henrique-araujo/2026/09/03/datafolha-recados-para-ciro-e-elmano.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
+      "id": "article_424bddb804a1",
+      "title": "Datafolha tem boas notícias para Ciro e para Elmano, e más notícias também",
+      "description": "Vantagem de 9 pontos percentuais não é pouca coisa. Entretanto, a diminuição de 10 pontos percentuais na vantagem é impactante.",
+      "url": "https://mais.opovo.com.br/colunistas/erico-firmo/2026/09/03/datafolha-tem-boas-noticias-para-ciro-e-para-elmano-e-mas-noticias-tambem.html",
+      "source": "mais.opovo.com.br",
+      "sourceCanonical": "mais.opovo.com.br",
       "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-09-04T02:09:00+00:00",
+      "publishedAt": "2026-09-04T01:21:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1490b95a4909",
       "title": "Datafolha: Ciro Gomes lidera com 46% no Ceará, ante 37% de Elmano de Freitas",
       "description": "O ex-governador Ciro Gomes (PSDB) lidera a disputa pelo Governo do Ceará, aponta pesquisa Datafolha divulgada nesta quinta-feira (3).",
       "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-ciro-gomes-lidera-com-46-no-ceara-ante-37-de-elmano-de-freitas.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-03T21:57:00+00:00",
@@ -141,14 +144,14 @@
       "title": "Ciro tem 50% contra 42% de Elmano no 2º turno no Ceará, diz Datafolha",
       "description": "Levantamento ouviu 1.204 eleitores do Estado, de 31 de agosto a 2 de setembro; margem de erro é de 3 pontos. Leia no Poder360.",
       "url": "https://www.poder360.com.br/poder-eleicoes-2026/ciro-tem-50-contra-42-de-elmano-no-2o-turno-no-ceara-diz-datafolha/",
-      "source": "poder360.com.br",
-      "sourceCanonical": "poder360.com.br",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-08-31T07:00:00+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_cbfc5d985f3a",
@@ -193,20 +196,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_0f886d428eb7",
-      "title": "Fortaleza é de Ciro, Juazeiro é de Elmano: o Ceará dividido que a AtlasIntel revela por trás do 2° turno",
-      "description": "No cenário de segundo turno simulado, a nova pesquisa AtlasIntel/Focus Poder mostra Ciro Gomes (PSDB) com 50,0% contra 46,1% de Elmano de...",
-      "url": "https://www.ocafezinho.com/2026/09/03/fortaleza-e-de-ciro-juazeiro-e-de-elmano-o-ceara-dividido-que-a-atlasintel-revela-por-tras-do-2-turno/",
-      "source": "ocafezinho.com",
-      "sourceCanonical": "ocafezinho.com",
-      "sourceDomain": "ocafezinho.com",
-      "publishedAt": "2026-09-03T16:56:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_768c27bcc6fe",
       "title": "Datafolha: Ciro tem 46% contra 37% de Elmano na disputa ao governo do Ceará",
       "description": "Ciro Gomes também aparece à frente de Elmano no segundo turno, com 50% contra 42% do petista, segundo o Datafolha.",
@@ -219,6 +208,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_0f886d428eb7",
+      "title": "Fortaleza é de Ciro, Juazeiro é de Elmano: o Ceará dividido que a AtlasIntel revela por trás do 2° turno",
+      "description": "No cenário de segundo turno simulado, a nova pesquisa AtlasIntel/Focus Poder mostra Ciro Gomes (PSDB) com 50,0% contra 46,1% de Elmano de...",
+      "url": "https://www.ocafezinho.com/2026/09/03/fortaleza-e-de-ciro-juazeiro-e-de-elmano-o-ceara-dividido-que-a-atlasintel-revela-por-tras-do-2-turno/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-09-03T16:56:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_fbcca9a6f02e",
@@ -322,13 +325,13 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 4.92,
+    "average": 4.83,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
-      "left": 2,
-      "centerLeft": 5,
-      "center": 2,
+      "left": 3,
+      "centerLeft": 3,
+      "center": 3,
       "centerRight": 2,
       "right": 1,
       "unknown": 8
