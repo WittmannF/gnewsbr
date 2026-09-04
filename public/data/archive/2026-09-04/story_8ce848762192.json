@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyenR6dkVSRjY3M1U2R2R2YkdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyenR6dkVSRjY3M1U2R2R2YkdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 20
+      "topic-3": 21,
+      "topic-5": 36
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 21,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/NqqQVe_o81utCVBV4Ng425YTxb8=/6489x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/b/E/U35Vz5Tk6pZX6eElggMA/img20231009180427520.jpg",
   "publishedAt": "2026-09-03T10:09:16+00:00",
-  "updatedAt": "2026-09-04T06:41:37.406978+00:00",
+  "updatedAt": "2026-09-04T07:35:37.476467+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -110,14 +113,14 @@
       "title": "PF investiga deputado Ricardo Abrão por crime eleitoral em Nilópolis",
       "description": "O deputado federal Ricardo Abrão (PSDB) foi alvo de operação deflagrada pela Polícia Federal (PF), nesta quinta-feira (3), por suspeitas de...",
       "url": "https://diariodopoder.com.br/brasil-e-regioes/csa-brasil/pf-investiga-deputado-ricardo-abrao-por-crime-eleitoral-em-nilopolis",
-      "source": "diariodopoder.com.br",
-      "sourceCanonical": "diariodopoder.com.br",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-03T11:43:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_d80485b040e5",
@@ -292,8 +295,8 @@
       "title": "PF investiga deputado Ricardo Abrão em operação sobre compra de votos",
       "description": "A operação da Polícia Federal que tem como alvo o deputado federal Ricardo Abrão (PSDB-RJ) nesta quinta-feira (3) investiga suspeitas de...",
       "url": "https://atribunarj.com.br/materia/pf-investiga-deputado-ricardo-abrao-em-investigacao-sobre-compra-de-votos",
-      "source": "atribunarj.com.br",
-      "sourceCanonical": "atribunarj.com.br",
+      "source": "A Tribuna RJ",
+      "sourceCanonical": "A Tribuna RJ",
       "sourceDomain": "atribunarj.com.br",
       "publishedAt": "2026-09-03T10:32:00+00:00",
       "postedLabel": "hoje",
@@ -318,27 +321,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.45,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 9,
+    "average": 5.75,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 9
+      "right": 1,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

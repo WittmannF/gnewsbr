@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/7OMUKJXXWJLHTCR5ZTDIU6KVIQ.jpg?quality=80&auth=30e7f6ddd5761beea6b0b5b1ab0febd4813df74b3430ada82bf601a87de262a5&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-02T10:00:00+00:00",
-  "updatedAt": "2026-09-04T06:55:05.923754+00:00",
+  "updatedAt": "2026-09-04T07:58:08.259241+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -115,7 +115,7 @@
       "sourceDomain": "seudinheiro.com",
       "publishedAt": "2026-09-03T18:26:08+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2025/12/A-Galeria-Magalu-nova-megaloja-do-Magazine-Luiza-na-Avenida-Paulista-em-Sao-Paulo.-Foto-Olavo-MartinsDivulgacao-3.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -236,28 +236,28 @@
       "title": "Magazine Luiza e Mercado Livre fecham acordo para vendas no marketplace",
       "description": "Parceria envolve produtos das marcas Magazine Luiza, KaBuM! e Época Cosméticos, e acontece após acordos semelhantes com Amazon, AliExpress,...",
       "url": "https://www.cnnbrasil.com.br/economia/money/negocios/magazine-luiza-e-mercado-livre-fecham-acordo-para-vendas-no-marketplace/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-02T15:14:01+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f1c47a178e5f",
       "title": "Ações do Magalu saltam mais de 20% após acordo com Mercado Livre",
       "description": "As ações da varejista Magazine Luiza dispararam mais de 20% na sessão desta quarta-feira (2), depois de a empresa anunciar uma parceria...",
       "url": "https://diariodopoder.com.br/dinheiro/e02-dinheiro/acoes-do-magalu-saltam-mais-de-20-apos-acordo-com-mercado-livre",
-      "source": "diariodopoder.com.br",
-      "sourceCanonical": "diariodopoder.com.br",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-03T00:30:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_2a4bb6e5f3a1",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.75,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 9,
+    "average": 6,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 5,
+      "center": 6,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 12
+      "right": 1,
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
