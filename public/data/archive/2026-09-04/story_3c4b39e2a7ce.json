@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 2
+      "topic-2": 3
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,30 +24,30 @@
   "topicKeywords": [
     "rim",
     "porco",
-    "transplante",
     "humano",
+    "transplante",
     "paciente",
     "órgão"
   ],
-  "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/03/675x450/1_20250125-kaf-transplant-001-67598366.jpg",
+  "imageUrl": "https://s2-oglobo.glbimg.com/PlgxOSJCb8Szo7LzHo36hR3WjKw=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/K/0/IjzrRURmyxbXDxBp5N0w/arte-14-.png",
   "publishedAt": "2026-09-04T05:08:57+00:00",
-  "updatedAt": "2026-09-04T14:23:12.692357+00:00",
-  "sourceCount": 7,
-  "articleCount": 7,
+  "updatedAt": "2026-09-04T15:23:42.863876+00:00",
+  "sourceCount": 8,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_0d5b8e96c314",
       "title": "Quase dois anos depois, como está paciente que recebeu rim de porco em transplante e viveu com órgão por 271 dias",
       "description": "Um rim de porco geneticamente modificado funcionou durante 271 dias no corpo de Tim Andrews, de 66 anos, nos Estados Unidos.",
       "url": "https://oglobo.globo.com/saude/noticia/2026/09/04/quase-dois-anos-depois-como-esta-paciente-que-viveu-com-rim-de-porco-transplantado-por-271-dias.ghtml",
-      "source": "oglobo.globo.com",
-      "sourceCanonical": "oglobo.globo.com",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-04T08:49:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/PlgxOSJCb8Szo7LzHo36hR3WjKw=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/K/0/IjzrRURmyxbXDxBp5N0w/arte-14-.png",
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_692ad5335302",
@@ -86,7 +86,7 @@
       "sourceCanonical": "Olhar Digital",
       "sourceDomain": "olhardigital.com.br",
       "publishedAt": "2026-09-04T10:38:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,7 +114,7 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-09-04T13:10:07+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,32 +128,46 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-04T14:03:31+00:00",
-      "postedLabel": "19 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/imagem-principal-rim-de-porco-funcionou-271-dias-paciente-eua-arte-14.jpg",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_f7a867702aed",
+      "title": "Rim de porco transplantado mantém paciente humano sem diálise por recorde de 285 dias",
+      "description": "Órgão geneticamente editado com Crispr supera a marca anterior em xenotransplantes e reforça a expectativa de manter um enxerto suíno...",
+      "url": "https://epocanegocios.globo.com/ciencia-e-saude/noticia/2026/09/rim-de-porco-transplantado-mantem-paciente-humano-sem-dialise-por-recorde-de-285-dias.ghtml",
+      "source": "Época Negócios",
+      "sourceCanonical": "Época Negócios",
+      "sourceDomain": "epocanegocios.globo.com",
+      "publishedAt": "2026-09-04T13:14:32+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 4,
-    "average": 3,
-    "knownCount": 2,
+    "max": 6,
+    "average": 4,
+    "knownCount": 3,
     "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 0,
+      "center": 1,
       "centerRight": 0,
       "right": 0,
       "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
-    "confidence": 65
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
+    "confidence": 70
   },
   "flags": [
     "Muitas fontes não classificadas",
