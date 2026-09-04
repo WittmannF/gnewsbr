@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 62
+      "topic-7": 60
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 62,
-    "bestSeedRank": 62,
+    "firstSeenRank": 60,
+    "bestSeedRank": 60,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/ujLvlSh2wGx-X8KoH2I7lousnfM=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/u/p/4Zo9rTQuA5RHlxQAMLbw/whatsapp-image-2026-09-04-at-08.55.43.jpeg",
   "publishedAt": "2026-08-27T17:16:00+00:00",
-  "updatedAt": "2026-09-04T12:50:41.826356+00:00",
+  "updatedAt": "2026-09-04T13:41:04.167690+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Justiça da Colômbia suspende bombardeios a acampamentos de guerrilha com menores",
       "description": "Um juiz da Colômbia determinou hoje que o governo do presidente direitista Abelardo de la Espriella suspenda os bombardeios militares contra...",
       "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/09/03/justica-da-colombia-ordena-suspensao-de-bombardeios-a-acampamentos-da-guerrilha-com-menores.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-03T21:56:19+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_960ff0939ad4",
@@ -124,8 +124,8 @@
       "title": "Colômbia: um juiz impede bombardeios com menores recrutados",
       "description": "Um juiz de Bogotá proíbe temporariamente bombardeios em zonas com menores recrutados, em meio a críticas do Governo e mais de 1.170 casos...",
       "url": "https://www.democrata.es/pt/internacional/um-juiz-proibe-o-governo-de-bombardear-alvos-militares-onde-haja-indicios-de-menores-recrutados/",
-      "source": "democrata.es",
-      "sourceCanonical": "democrata.es",
+      "source": "Demócrata",
+      "sourceCanonical": "Demócrata",
       "sourceDomain": "democrata.es",
       "publishedAt": "2026-09-03T23:48:27+00:00",
       "postedLabel": "hoje",
@@ -148,20 +148,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0069857cd6b7",
-      "title": "Bombardeio contra grupo guerrilheiro na Colômbia deixa 20 mortos",
-      "description": "Exército alvejou um grupo guerrilheiro dissidente das Farc. Já são dois bombardeios na região amazônica da Colômbia em menos de uma semana.",
-      "url": "https://www.metropoles.com/mundo/bombardeio-contra-grupo-guerrilheiro-na-colombia-deixa-20-mortos",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-01T15:27:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e506a182e44d",
       "title": "Exército da Colômbia mata oito guerrilheiros em bombardeio",
       "description": "Oito guerrilheiros foram mortos nesta quinta-feira (27) em um bombardeio na Amazônia colombiana, o mais letal até o momento ordenado pelo...",
@@ -171,6 +157,20 @@
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-08-27T17:16:00+00:00",
       "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0069857cd6b7",
+      "title": "Bombardeio contra grupo guerrilheiro na Colômbia deixa 20 mortos",
+      "description": "Exército alvejou um grupo guerrilheiro dissidente das Farc. Já são dois bombardeios na região amazônica da Colômbia em menos de uma semana.",
+      "url": "https://www.metropoles.com/mundo/bombardeio-contra-grupo-guerrilheiro-na-colombia-deixa-20-mortos",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-01T15:27:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,7 +254,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-04T12:31:00+00:00",
-      "postedLabel": "19 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.83,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 5,
+      "center": 4,
       "centerRight": 3,
       "right": 2,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
