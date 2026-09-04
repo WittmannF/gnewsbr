@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/03/17884607946a99befa5aae2_1788460794_3x2_rt.jpg",
   "publishedAt": "2026-09-03T15:01:40+00:00",
-  "updatedAt": "2026-09-04T20:39:24.389465+00:00",
+  "updatedAt": "2026-09-04T21:29:31.694556+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -54,7 +54,7 @@
       "title": "ChatGPT, Claude e Grok têm instabilidade nesta quinta, mas voltam a funcionar",
       "description": "Os usuários do ChatGPT, Claude e Grok enfrentaram instabilidade nesta quinta-feira (3), mas as empresas responsáveis pelos três modelos de...",
       "url": "https://www1.folha.uol.com.br/tec/2026/09/chatgpt-claude-e-grok-tem-instabilidade-nesta-quinta-mas-voltam-a-funcionar.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-03T18:46:00+00:00",
@@ -68,14 +68,14 @@
       "title": "O que causou a instabilidade de chatbots na manhã desta quinta, 3",
       "description": "De acordo com o site Downdetector a OpenAI, que opera o ChatGPT, e a Anthropic, do chatbot Claude, tiveram relatos de falhas.",
       "url": "https://veja.abril.com.br/tecnologia/o-que-causou-a-instabilidade-de-chatbots-na-manha-desta-quinta-3/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-03T16:13:33+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2024/08/GettyImages-2285079184.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ec476250f135",
@@ -143,7 +143,7 @@
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-04T14:20:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.correiobraziliense.com.br/aqui/wp-content/uploads/2026/09/chat-gpt_1788523355655.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -260,6 +260,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_bbc444745388",
+      "title": "Instabilidade recorrente do ChatGPT expõe risco de dependência de fornecedor único de IA nas empresas brasileiras",
+      "description": "Eduardo Nery, CEO da Every Cybersecurity and GRC Solutions, avalia sucessivas falhas na plataforma da OpenAI nas últimas semanas.",
+      "url": "https://lagosul.com.br/instabilidade-recorrente-do-chatgpt-expoe-risco-de-dependencia-de-fornecedor-unico-de-ia-nas-empresas-brasileiras/",
+      "source": "Portal Lago Sul",
+      "sourceCanonical": "Portal Lago Sul",
+      "sourceDomain": "lagosul.com.br",
+      "publishedAt": "2026-09-04T16:58:28+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_6ee1e729cd29",
       "title": "ChatGPT, Claude e Grok enfrentam uma interrupção generalizada no serviço",
       "description": "Usuários relatam problemas que impedem o uso tanto do site quanto do aplicativo móvel.",
@@ -272,20 +286,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_bbc444745388",
-      "title": "Instabilidade recorrente do ChatGPT expõe risco de dependência de fornecedor único de IA nas empresas brasileiras",
-      "description": "Eduardo Nery, CEO da Every Cybersecurity and GRC Solutions, avalia sucessivas falhas na plataforma da OpenAI nas últimas semanas.",
-      "url": "https://lagosul.com.br/instabilidade-recorrente-do-chatgpt-expoe-risco-de-dependencia-de-fornecedor-unico-de-ia-nas-empresas-brasileiras/",
-      "source": "Portal Lago Sul",
-      "sourceCanonical": "Portal Lago Sul",
-      "sourceDomain": "lagosul.com.br",
-      "publishedAt": "2026-09-04T14:54:06+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_d039e1bc4140",
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.73,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 6,
+    "average": 4.5,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
       "center": 6,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
