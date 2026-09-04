@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/r9nxr-S3aNOE2heyeEtEhXOalMM=/4779x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/R/xBWqQeQG6OEHg49Xw94Q/ap26245825358532.jpg",
   "publishedAt": "2026-09-02T22:37:00+00:00",
-  "updatedAt": "2026-09-04T13:40:21.080076+00:00",
+  "updatedAt": "2026-09-04T14:41:04.813569+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -120,6 +120,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_c85dd2c25be5",
+      "title": "Tiroteio em prédio de Minneapolis deixa dois mortos e seis feridos",
+      "description": "Duas pessoas morreram e seis ficaram feridas, incluindo três policiais, durante um tiroteio na tarde de quarta-feira (2) em um edifício...",
+      "url": "https://www.acheiusa.com/Noticia/tiroteio-em-predio-de-minneapolis-deixa-dois-mortos-e-seis-feridos-174534/",
+      "source": "acheiusa.com",
+      "sourceCanonical": "acheiusa.com",
+      "sourceDomain": "acheiusa.com",
+      "publishedAt": "2026-09-03T16:05:43+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_31fd1e6c4cd6",
       "title": "Tiroteio no centro de Minneapolis, nos EUA, deixa três mortos e policiais feridos",
       "description": "Pelo menos três pessoas morreram e outras três ficaram feridas em um tiroteio ocorrido em um prédio de apartamentos no centro de Minneapolis...",
@@ -132,20 +146,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_c85dd2c25be5",
-      "title": "Tiroteio em prédio de Minneapolis deixa dois mortos e seis feridos",
-      "description": "Duas pessoas morreram e seis ficaram feridas, incluindo três policiais, durante um tiroteio na tarde de quarta-feira (2) em um edifício...",
-      "url": "https://www.acheiusa.com/Noticia/tiroteio-em-predio-de-minneapolis-deixa-dois-mortos-e-seis-feridos-174534/",
-      "source": "AcheiUSA",
-      "sourceCanonical": "AcheiUSA",
-      "sourceDomain": "acheiusa.com",
-      "publishedAt": "2026-09-03T16:05:43+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_8c66a5d3e2f3",
@@ -166,14 +166,14 @@
       "title": "Ataque a tiros deixa mortos nos EUA",
       "description": "Suspeito também morreu, informou em entrevista coletiva o porta-voz da polícia, Garret Parten.",
       "url": "https://jovempan.com.br/mundo/ataque-a-tiros-deixa-mortos-nos-eua/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
+      "source": "jovempan.com.br",
+      "sourceCanonical": "jovempan.com.br",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-03T02:26:38+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_82809671ffbc",
@@ -282,7 +282,7 @@
       "sourceCanonical": "Diario de Pernambuco",
       "sourceDomain": "diariodepernambuco.com.br",
       "publishedAt": "2026-09-03T13:59:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 9,
-    "average": 5.67,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "max": 7,
+    "average": 5.36,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 2,
-      "right": 1,
-      "unknown": 8
+      "right": 0,
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
