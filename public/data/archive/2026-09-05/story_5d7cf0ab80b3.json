@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/XoWUygpBEXY9fxsamIXwuGJBcWA=/4160x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/s/L/fokpxVTwy2TKlDnQxIdw/whatsapp-image-2026-09-04-at-13.33.34.jpeg",
   "publishedAt": "2026-09-03T20:45:57+00:00",
-  "updatedAt": "2026-09-05T12:42:05.454311+00:00",
+  "updatedAt": "2026-09-05T13:28:18.381584+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Alencar Santana aciona STF para investigar suposta propina a Tarcísio",
       "description": "O deputado federal Alencar Santana (PT-SP), pediu ao Supremo Tribunal Federal a abertura de uma investigação sobre R$ 5 milhões doados em...",
       "url": "https://www.metropoles.com/colunas/neila-guimaraes/alencar-santana-aciona-stf-para-investigar-suposta-propina-a-tarcisio",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-04T20:08:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5e6ed42052d3",
@@ -166,14 +166,14 @@
       "title": "Caiado diz que não existe processo em aberto em relação a delação de Vorcaro que citaria Kassab",
       "description": "O candidato do PSD à Presidência, Ronaldo Caiado, disse nesta sexta-feira (4) que não existe nenhum processo em aberto em relação à suposta...",
       "url": "https://www.folhape.com.br/politica/caiado-diz-que-nao-existe-processo-em-aberto-em-relacao-a-delacao-de/510835/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-04T21:42:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_a6376978879d",
@@ -212,24 +212,10 @@
       "sourceCanonical": "Justiça em Foco",
       "sourceDomain": "justicaemfoco.com.br",
       "publishedAt": "2026-09-05T07:26:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_00c470860439",
-      "title": "Vorcaro: doações a Bolsonaro e Tarcísio foram propina negociada com Kassab",
-      "description": "Outros R$ 10 milhões em espécie foram encaminhados para bancar campanhas do PSD, segundo o banqueiro.",
-      "url": "https://www.em.com.br/politica/2026/09/7493638-vorcaro-doacoes-a-bolsonaro-e-tarcisio-foram-propina-negociada-com-kassab.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-04T11:22:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_408de432455d",
@@ -240,6 +226,20 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-04T00:11:08+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_00c470860439",
+      "title": "Vorcaro: doações a Bolsonaro e Tarcísio foram propina negociada com Kassab",
+      "description": "Outros R$ 10 milhões em espécie foram encaminhados para bancar campanhas do PSD, segundo o banqueiro.",
+      "url": "https://www.em.com.br/politica/2026/09/7493638-vorcaro-doacoes-a-bolsonaro-e-tarcisio-foram-propina-negociada-com-kassab.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-09-04T11:22:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -319,13 +319,13 @@
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.85,
+    "average": 4.77,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
-      "center": 7,
+      "centerLeft": 3,
+      "center": 6,
       "centerRight": 1,
       "right": 1,
       "unknown": 7

@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 31
+      "topic-3": 34
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/jVHhTTikQTUPxr1vBIX7ahUXyX4=/4308x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/9/b/ACGTAQSue4LxC2KSmZZw/0o1a8036.jpg",
   "publishedAt": "2026-09-04T09:09:00+00:00",
-  "updatedAt": "2026-09-05T12:33:41.697775+00:00",
+  "updatedAt": "2026-09-05T13:22:13.334269+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -166,14 +166,14 @@
       "title": "Duda Salabert denuncia tentativa de homicídio em área de mineração em MG",
       "description": "Duda teria tentado filmar atividade suspeita em área de mineração, mas foi agredida por homens e registrou boletim de ocorrência.",
       "url": "https://www.metropoles.com/minas-gerais/duda-salabert-denuncia-tentativa-de-homicidio-em-area-de-mineracao-em-mg",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-04T12:42:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_14a9705173aa",
@@ -198,6 +198,20 @@
       "sourceCanonical": "Mídia NINJA",
       "sourceDomain": "midianinja.org",
       "publishedAt": "2026-09-04T16:39:04+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_3eec18a5343c",
+      "title": "Tudo sobre: extração ilegal de minério",
+      "description": "Acesse o Piauí Hoje e fique por dentro de tudo que acontece no Piauí e região. Notícias sobre política, municípios, colunas e blogs com o melhor do...",
+      "url": "https://piauihoje.com/tudo-sobre/extracao-ilegal-de-minerio",
+      "source": "piauihoje.com",
+      "sourceCanonical": "piauihoje.com",
+      "sourceDomain": "piauihoje.com",
+      "publishedAt": "2026-09-04T16:03:34+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -236,14 +250,14 @@
       "title": "Duda Salabert diz ter sido alvo de tentativa de homicídio durante fiscalização em BH",
       "description": "A deputada federal Duda Salabert (PSOL-MG) afirmou ter sido vítima de uma tentativa de homicídio na madrugada desta sexta-feira,...",
       "url": "https://www.folhape.com.br/politica/duda-salabert-diz-ter-sido-alvo-de-tentativa-de-homicidio-durante/510736/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-04T15:09:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_825c30d8d181",
@@ -300,39 +314,25 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_1b4262e41f41",
-      "title": "Duda Salabert afirma ter sofrido uma tentativa de homicídio",
-      "description": "A Polícia Civil vai apurar denúncia de tentativa de homicídio contra a deputada federal Duda Salabert (Psol). A parlamentar afirma ter sido...",
-      "url": "https://rede98.com.br/noticias/politica/duda-salabert-afirma-ter-sofrido-uma-tentativa-de-homicidio/",
-      "source": "Rede 98",
-      "sourceCanonical": "Rede 98",
-      "sourceDomain": "rede98.com.br",
-      "publishedAt": "2026-09-04T16:32:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.38,
+    "average": 5.31,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 9,
+      "centerLeft": 1,
+      "center": 8,
       "centerRight": 2,
       "right": 1,
       "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
