@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 10
+      "topic-9": 13
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
+    "firstSeenRank": 13,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/imagem-principal-detector-lz-sinal-raro-materia-escura-erd3ebm7inffjebwbaszaqnroy.jpg",
   "publishedAt": "2026-09-02T15:00:00+00:00",
-  "updatedAt": "2026-09-05T01:17:18.783691+00:00",
+  "updatedAt": "2026-09-05T01:51:31.005226+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "O que é matéria escura e por que sua possível descoberta agita cientistas?",
       "description": "Pesquisadores identificaram pela primeira vez a existência de matéria escura, estrutura invisível que mantém o universo unido.",
       "url": "https://www.infomoney.com.br/mundo/o-que-e-materia-escura-por-que-descoberta-agita-cientistas/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
+      "source": "infomoney.com.br",
+      "sourceCanonical": "infomoney.com.br",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-03T21:30:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/09/materia-escura.jpg?fit=1200%2C800&quality=70&strip=all",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d5d6ed8a4f9a",
@@ -115,7 +115,7 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-03T20:38:26+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/MMM-LZ.png.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -194,8 +194,8 @@
       "title": "Após décadas de busca, cientistas detectam sinal que pode ser o 1º indício direto de matéria escura",
       "description": "Substância representa cerca de 85% da massa do universo, e há décadas especialistas tentam detectá-la usando uma variedade de tecnologias.",
       "url": "https://www.obomdanoticia.com.br/variedades/apos-decadas-de-busca-cientistas-detectam-sinal-que-pode-ser-o-1-indicio-direto-de-materia-escura/243683",
-      "source": "obomdanoticia.com.br",
-      "sourceCanonical": "obomdanoticia.com.br",
+      "source": "O Bom da Notícia",
+      "sourceCanonical": "O Bom da Notícia",
       "sourceDomain": "obomdanoticia.com.br",
       "publishedAt": "2026-09-03T16:50:00+00:00",
       "postedLabel": "ontem",
@@ -274,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4f339cdfa99f",
-      "title": "Cientistas detectam indicativo de matéria escura",
-      "description": "Pesquisadores do experimento LUX-Zeplin registraram um sinal relacionado à matéria escura, mas ainda é cedo para confirmar.",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/09/03/972330-cientistas-detectam-indicativo-de-materia-escura",
-      "source": "Tribuna do Agreste",
-      "sourceCanonical": "Tribuna do Agreste",
-      "sourceDomain": "tribunadoagreste.com.br",
-      "publishedAt": "2026-09-03T05:01:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_daca6c228f4a",
       "title": "Sinal misterioso intriga cientistas e pode indicar matéria escura",
       "description": "Um único evento registrado pelo detector LUX-ZEPLIN chamou a atenção de pesquisadores, mas ainda não permite confirmar a descoberta.",
@@ -297,6 +283,20 @@
       "sourceDomain": "aventurasnahistoria.com.br",
       "publishedAt": "2026-09-02T16:24:51+00:00",
       "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4f339cdfa99f",
+      "title": "Cientistas detectam indicativo de matéria escura",
+      "description": "Pesquisadores do experimento LUX-Zeplin registraram um sinal relacionado à matéria escura, mas ainda é cedo para confirmar.",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/09/03/972330-cientistas-detectam-indicativo-de-materia-escura",
+      "source": "tribunadoagreste.com.br",
+      "sourceCanonical": "tribunadoagreste.com.br",
+      "sourceDomain": "tribunadoagreste.com.br",
+      "publishedAt": "2026-09-03T05:01:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.44,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.38,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 4,
+      "center": 3,
       "centerRight": 3,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
