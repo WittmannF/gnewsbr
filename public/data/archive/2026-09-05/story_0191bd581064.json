@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pkbjVMMUVSSE51TTdtRHA0YjlDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pkbjVMMUVSSE51TTdtRHA0YjlDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 32
+      "topic-3": 35,
+      "topic-5": 47
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 32,
-    "bestSeedRank": 32,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +32,9 @@
     "polícia",
     "homem"
   ],
-  "imageUrl": "https://static.poder360.com.br/uploads/2026/08/justiceiros-1200x675.jpeg",
+  "imageUrl": "https://s2-oglobo.glbimg.com/fCpCoweHYtGV2JaJVqCGaPYcxwY=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/R/Ow52ybRXqvBR0pA4ABIg/montagem-1788533439072.jpg",
   "publishedAt": "2026-08-20T07:00:00+00:00",
-  "updatedAt": "2026-09-05T20:26:07.871004+00:00",
+  "updatedAt": "2026-09-05T21:21:24.042484+00:00",
   "sourceCount": 7,
   "articleCount": 13,
   "articles": [
@@ -40,25 +43,25 @@
       "title": "Estupro coletivo e linchamento de ciclista: saiba o que aconteceu com envolvidos em crimes que chocaram Copacabana",
       "description": "O bairro de Copacabana, na Zona Sul do Rio, foi palco de dois crimes que chocaram o Rio de Janeiro neste ano. Em janeiro, uma jovem de 17...",
       "url": "https://oglobo.globo.com/rio/noticia/2026/09/05/estupro-coletivo-e-linchamento-de-ciclista-saiba-o-que-aconteceu-com-envolvidos-em-crimes-que-chocaram-copacabana.ghtml",
-      "source": "oglobo.globo.com",
-      "sourceCanonical": "oglobo.globo.com",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-05T07:30:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://s2-oglobo.glbimg.com/fCpCoweHYtGV2JaJVqCGaPYcxwY=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/R/Ow52ybRXqvBR0pA4ABIg/montagem-1788533439072.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_85a1164f9c97",
       "title": "Estupro coletivo e morte de ciclista: veja como estão casos que chocaram Copacabana",
       "description": "A violência em Copacabana choca o Rio de Janeiro com dois casos graves: o estupro coletivo de uma adolescente e a morte de um ciclista.",
       "url": "https://istoe.com.br/violencia-copacabana-estupro-morte-ciclista-justica",
-      "source": "ISTOÉ Independente",
-      "sourceCanonical": "ISTOÉ Independente",
+      "source": "istoe.com.br",
+      "sourceCanonical": "istoe.com.br",
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-09-05T16:38:46+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -143,7 +146,7 @@
       "sourceDomain": "extra.globo.com",
       "publishedAt": "2026-08-26T07:00:00+00:00",
       "postedLabel": "10 dias atrás",
-      "imageUrl": "https://s2-extra.glbimg.com/O32KKnVEJM9oi3WzqQnrUr51SnY=/670x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/c/O/HIFOKORFeekeCbOfvOcw/ext-espancamento.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -220,28 +223,27 @@
   ],
   "spectrum": {
     "min": 5,
-    "max": 5,
-    "average": 5,
-    "knownCount": 9,
-    "unknownCount": 4,
+    "max": 6,
+    "average": 5.1,
+    "knownCount": 10,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 9,
+      "center": 10,
       "centerRight": 0,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
+    "spectrumBalance": 19,
+    "headlineDivergence": 73,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
