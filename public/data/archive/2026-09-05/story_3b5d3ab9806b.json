@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 44
+      "topic-4": 45
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 44,
-    "bestSeedRank": 44,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/-RU42Hc0Ak6H5EixmuKK4dSpHBQ=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/l/UwUIhBQrGejAA4MNIDqw/fotos-g1-1920-x-1080-px-2026-09-04t220611.587.png",
   "publishedAt": "2026-08-31T17:55:00+00:00",
-  "updatedAt": "2026-09-05T15:26:26.158763+00:00",
+  "updatedAt": "2026-09-05T16:31:04.088585+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Diogo Defante mostra transformação física após retirada de tumor",
       "description": "Humorista contou que tratamento afetou o corpo e revelou como retomou os exercícios após período difícil. Giu Aya, da CNN Brasil 02/09/26 às...",
       "url": "https://www.cnnbrasil.com.br/pop/celebridades/diogo-defante-mostra-transformacao-fisica-apos-retirada-de-tumor/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-02T11:32:02+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/diogo-defante-antes-e-depois.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_88c378e87085",
@@ -101,7 +101,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-05T04:41:17+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/TCZZOHBDURGTTCN5VQSHPNNDJE.jpg?quality=80&auth=6156f235f7004daac759b33f70ef9b59e5d724f948bf1c2da691c969bb186586&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -170,7 +170,7 @@
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-09-03T16:26:10+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -232,20 +232,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_8a7fcb926b2f",
-      "title": "Diogo Defante faz show punk e expulsa robô do palco em sua estreia no Rock in Rio | Cultura | O Liberal",
-      "description": "Fiquei ligado na agenda cultural da noite de Belém na música, no teatro, nos shows e nas exposições e saiba tudo sobre as fofocas das...",
-      "url": "https://www.oliberal.com/cultura/diogo-defante-faz-show-punk-e-expulsa-robo-do-palco-em-sua-estreia-no-rock-in-rio-1.1165264",
-      "source": "O Liberal",
-      "sourceCanonical": "O Liberal",
-      "sourceDomain": "oliberal.com",
-      "publishedAt": "2026-09-05T11:06:47+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_38a4222c876d",
       "title": "Diogo Defante revela segredo por trás de transformação do corpo: 'Há um ano'",
       "description": "Revelação foi feita após o youtuber e comediante mostrar o antes e depois de seu corpo nas redes sociais.",
@@ -258,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8a7fcb926b2f",
+      "title": "Diogo Defante faz show punk e expulsa robô do palco em sua estreia no Rock in Rio | Cultura | O Liberal",
+      "description": "Fiquei ligado na agenda cultural da noite de Belém na música, no teatro, nos shows e nas exposições e saiba tudo sobre as fofocas das...",
+      "url": "https://www.oliberal.com/cultura/diogo-defante-faz-show-punk-e-expulsa-robo-do-palco-em-sua-estreia-no-rock-in-rio-1.1165264",
+      "source": "O Liberal",
+      "sourceCanonical": "O Liberal",
+      "sourceDomain": "oliberal.com",
+      "publishedAt": "2026-09-05T11:06:47+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e5d146b938e4",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.1,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.11,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 6,
+      "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
