@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 37
+      "topic-3": 38
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 38,
+    "bestSeedRank": 38,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/Nikolas-e-atingido-por-ovo-4-set-2026-1200x675.jpeg",
   "publishedAt": "2026-09-04T21:03:00+00:00",
-  "updatedAt": "2026-09-05T08:29:33.646318+00:00",
+  "updatedAt": "2026-09-05T09:25:27.890523+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -166,14 +166,14 @@
       "title": "Nikolas Ferreira é atingido por ovo durante ato de campanha",
       "description": "Ataque ocorreu um dia após divulgação de áudios sobre supostos contatos do deputado com Daniel Vorcaro, do Banco Master.",
       "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-raquel/nikolas-ferreira-e-atingido-por-ovo-durante-ato-de-campanha",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-04T22:41:16+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bf05390d78b2",
@@ -198,7 +198,7 @@
       "sourceCanonical": "Sou Mais Pop",
       "sourceDomain": "soumaispop.com.br",
       "publishedAt": "2026-09-05T03:06:26+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -208,14 +208,14 @@
       "title": "Nikolas Ferreira leva ovada durante campanha em Minas Gerais",
       "description": "A campanha de Nikolas Ferreira (PL-MG) ganhou uma cena inusitada nesta sexta-feira (4). Durante um ato em Lagoa Santa, na grande Belo...",
       "url": "https://revistaforum.com.br/politica/nikolas-ferreira-ovada/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-04T21:32:49+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_468a23bd7876",
@@ -236,8 +236,8 @@
       "title": "'O machão acabou de tacar um ovo': Nikolas reage a ataque",
       "description": "Um ato de campanha de Nikolas Ferreira (PL-MG) foi interrompido por um ataque com ovos nesta sexta-feira (4/9), no centro de Lagoa Santa,...",
       "url": "https://www.polemicaparaiba.com.br/politica/nikolas-ferreira-atingido-ovo-ato-campanha-lagoa-santa/",
-      "source": "Polêmica Paraíba",
-      "sourceCanonical": "Polêmica Paraíba",
+      "source": "polemicaparaiba.com.br",
+      "sourceCanonical": "polemicaparaiba.com.br",
       "sourceDomain": "polemicaparaiba.com.br",
       "publishedAt": "2026-09-05T01:07:13+00:00",
       "postedLabel": "hoje",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 8,
-    "average": 5.44,
+    "average": 5,
     "knownCount": 9,
     "unknownCount": 11,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
       "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

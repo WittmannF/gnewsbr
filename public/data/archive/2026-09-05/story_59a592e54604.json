@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 22
+      "topic-4": 23
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/8UGI0FlCZ_2CLRjV1ntqSeFuO1w=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/X/M/xMDkGNTA6cbW9WLpCYvQ/montagem-1788555620547.jpg",
   "publishedAt": "2026-09-02T19:55:52+00:00",
-  "updatedAt": "2026-09-05T08:31:58.165457+00:00",
+  "updatedAt": "2026-09-05T09:28:22.791970+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Pedro Scooby critica exposição dos filhos e diz que não falará mais sobre a família",
       "description": "Luana Piovani avalia participação de Pedro Scooby no Dança dos Famosos. 1:00. Thumbnail do video:Luana Piovani avalia participação de Pedro...",
       "url": "https://www.estadao.com.br/emais/gente/pedro-scooby-critica-exposicao-dos-filhos-e-diz-que-nao-falara-mais-sobre-a-familia-nprec/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-03T19:52:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/3VKCB54ALJDEHJBPLFBSR4Q2UE.jpg?quality=80&auth=57d6ba5b099272380b45ba6858d2e27eeeede29dea3f556e9bfb5c69d01d2071&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_3073ee199bae",
@@ -101,7 +101,7 @@
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-09-04T16:57:41+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/WJNWGVI3BVDAXEM2ZPTDFUOJ4M.jpg?smart=true&auth=1823ee57325df03ccf091208144baac2a17fee1ab55db9b00ebe6ba0d4a62fe2&width=1200&height=630",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -152,14 +152,14 @@
       "title": "Luana Piovani comenta vídeo de cientista com críticas a Pedro Scooby: Arrasou no óbvio",
       "description": "Após o \"piolhogate\", Luana Piovani voltou a falar sobre o período em que os filhos ficaram com Pedro Scooby no Brasil. A atriz critcou o...",
       "url": "https://www.folhape.com.br/cultura/luana-piovani-comenta-video-de-cientista-com-criticas-a-pedro-scooby/510704/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-04T13:47:42+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_abed91d21325",
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.18,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.23,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 8,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 9
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
