@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnbi1iMkVSSG1pbDV4MEdUQzZ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnbi1iMkVSSG1pbDV4MEdUQzZ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 20
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 19
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Defesa de Lindsay Clancy alega psicose pós-parto em julgamento",
   "summary": "Após dias de impasse no júri, o juiz à frente do caso de Lindsay Clancy, a enfermeira que matou os três filhos nos Estados Unidos,...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/uRMoIyUN9pSLnCA2zL5KhwcBtA8=/2781x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/O/skdBQXTL6znNzNYKfNGQ/ap26245681999453.jpg",
   "publishedAt": "2026-09-02T22:19:00+00:00",
-  "updatedAt": "2026-09-05T05:29:11.613556+00:00",
+  "updatedAt": "2026-09-05T06:33:26.208018+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +60,7 @@
       "title": "Juiz anula julgamento de Lindsay Clancy, que matou os 3 filhos nos EUA",
       "description": "Após dificuldade do júri em chegar a decisão consensual, caso volta à estaca zero; Defesa afirma que Clancy estava sob efeito de psicose...",
       "url": "https://www1.folha.uol.com.br/mundo/2026/09/juiz-anula-julgamento-de-lindsay-clancy-que-matou-os-3-filhos-nos-eua.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-04T19:55:00+00:00",
@@ -68,14 +74,14 @@
       "title": "Julgamento da mulher que matou os três filhos revela o poder perverso da ideologia",
       "description": "Em 24 de janeiro de 2023, Lindsay Clancy estrangulou em sua casa, com faixas de ginástica, seus três filhos: Dawson (5 anos), Cora (3 anos)...",
       "url": "https://www.gazetadopovo.com.br/ideias/julgamento-da-mulher-que-matou-os-tres-filhos-revela-o-poder-perverso-da-ideologia/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-04T12:31:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/04092914/EFEEPAFAZRY-ISMAIL-1.jpg",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d3dd562a1003",
@@ -92,6 +98,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_db925aac4d18",
+      "title": "Juiz planeja declarar nulidade do julgamento de Lindsay Clancy, mas permite recurso de emergência",
+      "description": "O juiz William Sullivan ‌disse nesta sexta-feira que não teve outra escolha a não ser declarar a ...",
+      "url": "https://www.terra.com.br/noticias/mundo/juiz-planeja-declarar-nulidade-do-julgamento-de-lindsay-clancy-mas-permite-recurso-de-emergencia,e4ec6196bfc37364b424237f45caf103ydvd7j1x.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-04T17:59:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_2e9254c0f9a8",
       "title": "Julgamento de mãe que matou os três filhos nos EUA é anulado após impasse do júri",
       "description": "Lindsay Clancy, de 36 anos, admitiu ter estrangulado Cora, de cinco anos, Dawson, de três, e Callan, de oito meses.",
@@ -104,20 +124,6 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_db925aac4d18",
-      "title": "Juiz planeja declarar nulidade do julgamento de Lindsay Clancy, mas permite recurso de emergência",
-      "description": "O juiz William Sullivan ‌disse nesta sexta-feira que não teve outra escolha a não ser declarar a ...",
-      "url": "https://www.terra.com.br/noticias/mundo/juiz-planeja-declarar-nulidade-do-julgamento-de-lindsay-clancy-mas-permite-recurso-de-emergencia,e4ec6196bfc37364b424237f45caf103ydvd7j1x.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-04T17:59:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_c3ff5e1673b7",
@@ -148,20 +154,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3b2ac37cd8c4",
-      "title": "Supremo brasileiro enfrenta a sua maior crise",
-      "description": "Revelações ligadas à derrocada de um banco envolvem juízes e figuras de topo da política brasileira. Um escândalo de favorecimento e...",
-      "url": "https://www.rtp.pt/noticias/mundo/supremo-brasileiro-enfrenta-maior-crise-de-sempre_v1763478",
-      "source": "RTP",
-      "sourceCanonical": "RTP",
-      "sourceDomain": "rtp.pt",
-      "publishedAt": "2026-09-04T20:51:51+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_a835c59d8060",
       "title": "O que se passa no caso de Lindsay Clancy e qual pode ser o desfecho?",
       "description": "Cabe ao júri decidir a intencionalidade do crime cometido pela mãe diagnosticada com psicose pós-parto.⁠",
@@ -176,18 +168,32 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_2d298afa46e6",
-      "title": "Juiz anula julgamento de mãe que matou os 3 filhos nos EUA",
-      "description": "O juiz William Sullivan declarou nulo nesta sexta-feira (4) o julgamento de Lindsay Clancy, acusada de matar os três filhos pequenos em...",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/juiz-anula-julgamento-de-mae-que-matou-os-3-filhos-nos-eua",
-      "source": "sbtnews.sbt.com.br",
-      "sourceCanonical": "sbtnews.sbt.com.br",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-09-04T23:12:39+00:00",
+      "id": "article_ea2c784247cc",
+      "title": "Paulo Raimundo acusa Chega de atirar ao lado com moção",
+      "description": "Paulo Raimundo diz que o Chega \"passa ao lado\" das razões que deveriam justificar uma moção de censura ao Governo. Na abertura da Festa do...",
+      "url": "https://www.rtp.pt/noticias/politica/paulo-raimundo-acusa-chega-de-atirar-ao-lado-com-mocao_v1763473",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
+      "sourceDomain": "rtp.pt",
+      "publishedAt": "2026-09-04T20:02:47+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_2d298afa46e6",
+      "title": "Juiz anula julgamento de mãe que matou os 3 filhos nos EUA",
+      "description": "O juiz William Sullivan declarou nulo nesta sexta-feira (4) o julgamento de Lindsay Clancy, acusada de matar os três filhos pequenos em...",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/juiz-anula-julgamento-de-mae-que-matou-os-3-filhos-nos-eua",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-04T23:12:39+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_c802122a347b",
@@ -208,11 +214,11 @@
       "title": "Caso Lindsay Clancy. Onde começa e acaba a responsabilidade do pai ou como \"quem está ao lado\" pode \"salvar vidas\"",
       "description": "A discussão em torno da responsabilização de Patrick Clancy pela morte dos três filhos, sabendo ele que a mulher estava doente,...",
       "url": "https://cnnportugal.iol.pt/saude-mental/mulher/caso-lindsay-clancy-onde-comeca-e-acaba-a-responsabilidade-do-pai-ou-como-quem-esta-ao-lado-pode-salvar-vidas/20260904/6a99a533d34e511da0b36bf9",
-      "source": "CNN Portugal",
-      "sourceCanonical": "CNN Portugal",
+      "source": "cnnportugal.iol.pt",
+      "sourceCanonical": "cnnportugal.iol.pt",
       "sourceDomain": "cnnportugal.iol.pt",
       "publishedAt": "2026-09-04T06:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -250,8 +256,8 @@
       "title": "Advogado de Lindsay Clancy quer um jurado substituído. \"Não ouve a lei\"",
       "description": "O advogado de Lindsay Clancy, Kevin Reddington, criticou um dos 12 jurados que está a decidir o futuro da sua cliente, alegando que este não...",
       "url": "https://www.noticiasaominuto.com/mundo/3046123/advogado-de-lindsay-clancy-quer-um-jurado-substituido-nao-ouve-a-lei",
-      "source": "Notícias ao Minuto",
-      "sourceCanonical": "Notícias ao Minuto",
+      "source": "noticiasaominuto.com",
+      "sourceCanonical": "noticiasaominuto.com",
       "sourceDomain": "noticiasaominuto.com",
       "publishedAt": "2026-09-03T22:59:01+00:00",
       "postedLabel": "ontem",
@@ -319,14 +325,14 @@
   "spectrum": {
     "min": 3,
     "max": 9,
-    "average": 5.55,
+    "average": 5.36,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 6,
-      "centerRight": 2,
+      "center": 7,
+      "centerRight": 1,
       "right": 1,
       "unknown": 9
     }
