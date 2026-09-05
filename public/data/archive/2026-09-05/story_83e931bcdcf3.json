@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lTajZfMkVSSHBBRU5PMkJWTkd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lTajZfMkVSSHBBRU5PMkJWTkd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 5,
+      "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula diz que 'ninguém' pode usar cargo em benefício pessoal e cobra transparência na Justiça",
   "summary": "O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta sexta-feira (4/9) que nenhuma autoridade pode utilizar o cargo público para obter...",
@@ -25,13 +34,13 @@
     "lula",
     "crise",
     "stf",
-    "pode",
     "cargo",
-    "moraes"
+    "ninguém",
+    "pode"
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/02/675x450/1_afp--20260902--c76w2vz--v1--midres--brazilpoliticshealthcare-67591277.jpg",
   "publishedAt": "2026-09-02T17:40:59+00:00",
-  "updatedAt": "2026-09-05T09:23:35.237168+00:00",
+  "updatedAt": "2026-09-05T11:18:31.908925+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_2a505f2d360d",
+      "title": "Lula pediu argumentos para defender o Supremo e ouviu invertida",
+      "description": "O pronunciamento do presidente Lula sobre a crise no Supremo foi motivado pelo impacto que o desgaste na Corte tem causado em sua campanha à...",
+      "url": "https://www.metropoles.com/colunas/andreza-matais/lula-pediu-argumentos-para-defender-o-supremo-e-ouviu-invertida",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-05T07:00:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": "https://i.metroimg.com/pnXmksqyI6HK5SOMz3FvZR0rBC6-aiSRhGCOccNTn1E/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/ministro-stf-edson-fachin-e-o-presidente-lula-durante-sancao-de-medidas-relacionadas-a-fundos-do-sistema-de-justica-no-palacio-do-planalto-metropoles-11-scaled.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_d82e7685eb54",
       "title": "Impacto eleitoral do caso Vorcaro-Moraes: como mensagens fortalecem a direita e pressionam a agenda de Lula",
       "description": "Christopher Garman, da Eurasia, avalia que o efeito das mensagens tende a ser negativo para Lula diante de um 'pessimismo' do eleitor e...",
@@ -78,6 +101,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_0e536e904c77",
+      "title": "Sakamoto: Lula joga batata quente para STF e tenta se desvencilhar",
+      "description": "Crise no STF: colunista diz que Lula cobra solução rápida da Corte e tenta se afastar do caso em meio a pressão eleitoral.",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/04/sakamoto-lula-joga-batata-quente-para-stf-e-tenta-se-desvencilhar.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-09-04T19:48:45+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_d8bcc28a92a4",
       "title": "Em reunião com Lula, Gilmar orienta PF a reagir a ordens de Mendonça quando considerá-las ilegais",
       "description": "Possibilidade de Moraes chefiar o Supremo em 2027 intensifica pressão e expõe fissura no STF. 2:10. Thumbnail do video:Possibilidade de...",
@@ -87,23 +124,9 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-03T16:10:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/56VTJCFXFJNZJBGWXJUFFRD56Y.png?quality=80&auth=3aaa67bfcb308a76137fddfbbabfa627b3a70199ed9745ce7e7a2bfde9e36f3d&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_d203b3d9e03a",
-      "title": "Cargo não pode ser usado para benefício pessoal em nome da democracia, diz Lula sem citar Moraes",
-      "description": "Petista deu a declaração enquanto falava sobre a crise que atingiu o STF.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/cargo-nao-pode-ser-usado-para-beneficio-pessoal-em-nome-da-democracia-diz-lula-sem-citar-moraes.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-04T15:34:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_ccc39f01faca",
@@ -120,60 +143,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_522075ca6908",
-      "title": "Silêncio fica insustentável, e Lula tenta se descolar de Moraes e da crise no STF",
-      "description": "O vídeo divulgado pelo presidente Luiz Inácio Lula da Silva na noite desta quinta-feira (3/9) tem uma origem bastante pragmática.",
-      "url": "https://www.jota.info/eleicoes/eleicoes-2026/silencio-fica-insustentavel-e-lula-tenta-se-descolar-de-moraes-e-da-crise-no-stf",
-      "source": "JOTA Info",
-      "sourceCanonical": "JOTA Info",
-      "sourceDomain": "jota.info",
-      "publishedAt": "2026-09-04T15:13:38+00:00",
+      "id": "article_6548c6049791",
+      "title": "Sem citar Moraes, Lula diz que “ninguém pode usar cargo em benefício pessoal”",
+      "description": "Em sanção de leis que criam fundos para o Judiciário, petista faz referência à crise no STF e fala sobre reforma no Judiciário.",
+      "url": "https://www.poder360.com.br/poder-governo/sem-citar-moraes-lula-diz-que-ninguem-pode-usar-cargo-em-beneficio-pessoal/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-09-04T15:31:48+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_2d5cc7add657",
-      "title": "Lula mantém apoio irrestrito a Moraes há anos e o defendeu em crises",
-      "description": "O presidente Lula tem longo histórico de apoio público e interlocução próxima com o ministro Alexandre de Moraes.",
-      "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/lula-mantem-apoio-irrestrito-a-moraes-ha-anos-e-o-defendeu-em-crises/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-04T18:45:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_eed7ccb4175d",
-      "title": "‘Nossa justiça não pode ficar refém de vazamentos seletivos’, diz Lula",
-      "description": "O presidente Luiz Inácio Inácio Lula da Silva quebrou o silêncio e afirmou nesta quinta-feira que o país não pode ficar refém de vazamentos...",
-      "url": "https://veja.abril.com.br/politica/nossa-justica-nao-pode-ficar-refem-de-vazamentos-seletivos-diz-lula/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-03T23:54:47+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_ac190397bf0e",
-      "title": "Lula enfatiza que democracia fica vulnerável ‘sem instituições sólidas funcionando’",
-      "description": "Presidente pede fé nas instituições, afirma que ninguém pode usar cargo em benefício pessoal e promete reforma do Judiciário.",
-      "url": "https://pt.org.br/lula-enfatiza-que-democracia-fica-vulneravel-sem-instituicoes-solidas-funcionando/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-09-04T17:45:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_43a79b2770be",
@@ -190,6 +171,62 @@
       "bucket": "center"
     },
     {
+      "id": "article_afce7ef01773",
+      "title": "Lula tenta se preservar de desgaste com revelações contra Moraes",
+      "description": "A crise histórica do Supremo Tribunal Federal (STF) obrigou o presidente Luiz Inácio Lula da Silva (PT) a calibrar a parceria com o ministro...",
+      "url": "https://www.gazetadopovo.com.br/vozes/silvio-ribas/como-o-explosivo-relatorio-da-pf-afeta-a-parceria-entre-lula-e-alexandre-de-moraes/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-04T23:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_2a30d220fbe3",
+      "title": "‘Ninguém pode usar o cargo em benefício pessoal’: Lula busca aliança com Fachin e Gonet diante de crise",
+      "description": "Em cerimônia com cúpula do Judiciário, presidente defende reforma da magistratura para 2027 e ataca vazamentos que atingem a Suprema Corte.",
+      "url": "https://veja.abril.com.br/politica/ninguem-pode-usar-o-cargo-em-beneficio-pessoal-lula-busca-alianca-com-fachin-e-gonet-diante-de-crise/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-04T15:40:29+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_522075ca6908",
+      "title": "Silêncio fica insustentável, e Lula tenta se descolar de Moraes e da crise no STF",
+      "description": "O vídeo divulgado pelo presidente Luiz Inácio Lula da Silva na noite desta quinta-feira (3/9) tem uma origem bastante pragmática.",
+      "url": "https://www.jota.info/eleicoes/eleicoes-2026/silencio-fica-insustentavel-e-lula-tenta-se-descolar-de-moraes-e-da-crise-no-stf",
+      "source": "jota.info",
+      "sourceCanonical": "jota.info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-09-04T15:13:38+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ac190397bf0e",
+      "title": "Lula enfatiza que democracia fica vulnerável ‘sem instituições sólidas funcionando’",
+      "description": "Presidente pede fé nas instituições, afirma que ninguém pode usar cargo em benefício pessoal e promete reforma do Judiciário.",
+      "url": "https://pt.org.br/lula-enfatiza-que-democracia-fica-vulneravel-sem-instituicoes-solidas-funcionando/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-09-04T17:45:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_6a2b5660f8fd",
       "title": "Em meio à crise no STF, Lula critica uso político de cargos e vazamentos seletivos",
       "description": "O presidente Lula (PT) criticou nesta sexta-feira 4 o uso de cargos públicos em benefício próprio e os vazamentos seletivos motivados por...",
@@ -202,34 +239,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_6fe9f81ff190",
-      "title": "Lula vislumbra ‘aliança’ com Fachin como saída para se descolar da crise no STF",
-      "description": "O presidente aposta em uma solução pelas mãos do presidente do STF. Para evitar desgaste eleitoral com a guerra na corte, o petista agora...",
-      "url": "https://www.em.com.br/politica/platobr/2026/09/7494546-lula-vislumbra-alianca-com-fachin-como-saida-para-se-descolar-da-crise-no-stf.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-05T03:03:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_87600581dfe2",
-      "title": "Equipe de Lula usa pesquisas para modular discurso em caso Vorcaro-Moraes",
-      "description": "A equipe de campanha do presidente Luiz Inácio Lula da Silva (PT) está fazendo pesquisas qualitativas para medir o impacto e modular o...",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/equipe-de-lula-usa-pesquisas-para-modular-discurso-em-caso-vorcaro-moraes/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-03T19:36:19+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_736dc792b102",
@@ -246,28 +255,28 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_ef5347c026f4",
-      "title": "Lula tem conversa reservada com Fachin e Gonet sobre crise no STF",
-      "description": "Conversa de Lula com Edson Fachin e Paulo Gonet ocorreu na manhã desta sexta-feira (4/9), no Palácio do Planalto, antes de evento oficial.",
-      "url": "https://www.metropoles.com/colunas/igor-gadelha/lula-tem-conversa-reservada-com-fachin-e-gonet-sobre-crise-no-stf",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-04T17:51:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7734bdbc5c92",
       "title": "“Ninguém pode utilizar o cargo em benefício pessoal”, diz Lula em meio à crise no STF",
       "description": "Presidente defendeu nova reforma do Judiciário e cobrou transparência de Fachin e Gonet.",
       "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/ninguem-pode-utilizar-o-cargo-em-beneficio-pessoal-diz-lula-em-meio-a-crise-no-stf-cmtn72upw00sh01g8smyn1geg.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
+      "source": "gauchazh.clicrbs.com.br",
+      "sourceCanonical": "gauchazh.clicrbs.com.br",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-04T22:43:59+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_5e14c3741ec5",
+      "title": "Lula diz que Fachin e Gonet precisam tranquilizar a população, 'sem tentar esconder nada'",
+      "description": "Presidente citou crise no STF em evento no Palácio do Planalto e afirmou que 'ninguém, em nome da democracia, pode utilizar seu cargo para...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/lula-diz-que-fachin-e-gonet-precisam-tranquilizar-a-populacao-sem-tentar-esconder-nada,dbb239618bb235a6ddbb824d22e4472disuzfhyw.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-04T15:14:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -288,18 +297,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_540890482990",
-      "title": "Ninguém pode utilizar o cargo que tem em benefício pessoal, diz Lula",
-      "description": "O presidente disse ainda que tem uma preocupação quase que 'sobrenatural' para que a sociedade não perca a esperança e a fé nas...",
-      "url": "https://jovempan.com.br/politica/ninguem-pode-utilizar-o-cargo-que-tem-em-beneficio-pessoal-diz-lula/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-04T15:47:46+00:00",
+      "id": "article_8947ad87b0d1",
+      "title": "Em meio a crise no STF, Lula diz que 'vazamentos' não ajudam democracia",
+      "description": "Presidente afirmou que denuncismo e fake news também prejudicam ambiente democrático e defendeu 'paz e tranquilidade'",
+      "url": "https://www.em.com.br/politica/2026/09/7494007-em-meio-a-crise-no-stf-lula-diz-que-vazamentos-nao-ajudam-democracia.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-09-04T15:59:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d6dd73926d6e",
@@ -318,23 +327,23 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.44,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "max": 8,
+    "average": 5.27,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
-      "centerLeft": 3,
-      "center": 7,
+      "centerLeft": 2,
+      "center": 8,
       "centerRight": 4,
-      "right": 1,
-      "unknown": 4
+      "right": 0,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [

@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 47
+      "topic-7": 55
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 47,
-    "bestSeedRank": 47,
+    "firstSeenRank": 55,
+    "bestSeedRank": 55,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/03/17884769436a99fe0f716e0_1788476943_3x2_rt.jpg",
   "publishedAt": "2026-08-31T16:29:03+00:00",
-  "updatedAt": "2026-09-05T09:38:18.041007+00:00",
+  "updatedAt": "2026-09-05T11:33:30.204160+00:00",
   "sourceCount": 12,
   "articleCount": 14,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-04T09:49:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -68,14 +68,14 @@
       "title": "Esquerda do Chile condena elogios de Milei a Pinochet",
       "description": "Os elogios que o presidente da Argentina, Javier Milei, fez ao ex-ditador chileno Augusto Pinochet geraram revolta na esquerda do Chile.",
       "url": "https://www.gazetadopovo.com.br/mundo/esquerda-chile-condena-elogios-milei-pinochet/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-04T13:06:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/04100536/milei.chile_.jpg",
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e106266bac70",
@@ -101,7 +101,7 @@
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-03T20:52:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/09/afp-20260903-c7a9793-v1-midres-chileargentinadiplomacy.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -128,7 +128,7 @@
       "sourceCanonical": "RFI",
       "sourceDomain": "rfi.fr",
       "publishedAt": "2026-09-04T09:42:36+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -180,14 +180,14 @@
       "title": "Milei renova ataque ao socialismo e fala em “novo despertar da liberdade” na América Latina",
       "description": "O presidente da Argentina, Javier Milei, foi o primeiro líder a discursar nesta quinta-feira (3), no Foro de Madri, um encontro que reúne...",
       "url": "https://www.gazetadopovo.com.br/mundo/milei-renova-ataque-ao-socialismo-e-fala-em-novo-despertar-da-liberdade-na-america-latina/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-03T18:33:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e0428d819f69",
@@ -234,27 +234,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 5,
-    "average": 3.2,
-    "knownCount": 5,
-    "unknownCount": 9,
+    "max": 8,
+    "average": 4.57,
+    "knownCount": 7,
+    "unknownCount": 7,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 1,
-      "centerRight": 0,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 88
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
+    "confidence": 94
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
