@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 45
+      "topic-8": 43
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 45,
-    "bestSeedRank": 45,
+    "firstSeenRank": 43,
+    "bestSeedRank": 43,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/8RBaZ57CqpJhl-oMyCre5yUMXkc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/B/J/Go5vJVStuJ7ZktH5R1Rg/screenshot-1.png",
   "publishedAt": "2026-06-02T07:00:00+00:00",
-  "updatedAt": "2026-09-06T07:42:55.877011+00:00",
+  "updatedAt": "2026-09-06T08:47:41.897409+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,7 +110,7 @@
       "title": "Audiência Pública debate editais dos primeiros leilões de baterias de grande porte no Brasil",
       "description": "O evento reuniu cerca de 70 pessoas, em Brasília. As contribuições podem ser enviadas por e-mail até o dia 14/9.",
       "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026-defeso-eleitoral/audiencia-publica-debate-editais-dos-primeiros-leiloes-de-baterias-de-grande-porte-no-brasil",
-      "source": "gov.br",
+      "source": "www.gov.br",
       "sourceCanonical": "GOV.BR",
       "sourceDomain": "gov.br",
       "publishedAt": "2026-09-01T20:41:33+00:00",
@@ -166,14 +166,14 @@
       "title": "Com R$ 20 bi em jogo, Aneel começa a discutir regras para leilão de baterias",
       "description": "Mais de 6 mil projetos demonstraram interesse ao leilão, mas capacidade de escoamento, prazo de implantação e divisão dos encargos ainda...",
       "url": "https://exame.com/esg/com-r-20-bi-em-jogo-aneel-comeca-a-discutir-regras-para-leilao-de-baterias/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
+      "source": "exame.com",
+      "sourceCanonical": "exame.com",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-09-01T19:39:54+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0534fffaa1b4",
@@ -236,14 +236,14 @@
       "title": "O plano do Brasil para revolucionar o mercado da energia limpa",
       "description": "O governo federal anunciou que deve realizar, entre os dias 2 e 4 de dezembro de 2026, dois leilões de baterias para o sistema elétrico...",
       "url": "https://revistaforum.com.br/brasil/o-plano-do-brasil-para-revolucionar-o-mercado-da-energia-limpa/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
+      "source": "revistaforum.com.br",
+      "sourceCanonical": "revistaforum.com.br",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-08-31T17:12:52+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_6df4fe62f3b6",
@@ -264,8 +264,8 @@
       "title": "UCB Power e Jinko ESS fecham acordo para nacionalizar baterias de grande porte e projetam capacidade de até 4,5 GWh por ano em Minas Gerais",
       "description": "Baterias UCB Power e Jinko poderão somar até 4,5 GWh por ano em Minas Gerais para atender aos leilões de armazenamento.",
       "url": "https://clickpetroleoegas.com.br/ucb-power-e-jinko-ess-fecham-acordo-para-nacionalizar-baterias-de-grande-porte-e-projetam-capacidade-de-ate-45-gwh-por-ano-em-minas-gerais-phsn84/",
-      "source": "clickpetroleoegas.com.br",
-      "sourceCanonical": "clickpetroleoegas.com.br",
+      "source": "CPG Click Petróleo e Gás",
+      "sourceCanonical": "CPG Click Petróleo e Gás",
       "sourceDomain": "clickpetroleoegas.com.br",
       "publishedAt": "2026-09-01T13:06:00+00:00",
       "postedLabel": "4 dias atrás",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 5,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.25,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
