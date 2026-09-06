@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/MORRE-PROFESSORA-RJ-2.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-02T15:09:00+00:00",
-  "updatedAt": "2026-09-06T02:35:04.801434+00:00",
+  "updatedAt": "2026-09-06T03:30:31.122221+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -166,8 +166,8 @@
       "title": "Professora de 26 anos procura hospital duas vezes com dor no peito, recebe alta e morre horas depois",
       "description": "A professora de história Giulia Silva de Araújo, de 26 anos, morreu na sexta-feira, 28, após procurar duas vezes um hospital público do Rio...",
       "url": "https://maringafm.com.br/noticia/professora-de-26-anos-procura-hospital-duas-vezes-com-dor-no-peito-recebe-alta-e-morre-horas-depois",
-      "source": "maringafm.com.br",
-      "sourceCanonical": "maringafm.com.br",
+      "source": "Maringa FM",
+      "sourceCanonical": "Maringa FM",
       "sourceDomain": "maringafm.com.br",
       "publishedAt": "2026-09-03T14:01:13+00:00",
       "postedLabel": "2 dias atrás",
@@ -180,14 +180,28 @@
       "title": "Laudo confirma aneurisma rompido em professora liberada duas vezes no Rio",
       "description": "O laudo de necropsia de Giulia Silva de Araújo, professora de história de 26 anos, apontou tamponamento cardíaco decorrente da ruptura de um...",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/policia-investiga-morte-de-professora-apos-duas-altas-em-hospital-municipal/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-05T02:54:19+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_8be6a4a0a548",
+      "title": "Hospital Francisco da Silva Telles: professora é diagnosticada com ansiedade e morre após 2ª alta",
+      "description": "Unidade, localizada na zona norte do RJ, informou que Giulia Araújo, de 26 anos, foi atendida, submetida a todos os exames do protocolo para...",
+      "url": "https://www.estadao.com.br/brasil/hospital-francisco-da-silva-telles-professora-e-diagnosticada-com-ansiedade-e-morre-apos-2-alta-npr/",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-02T16:39:40+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3845eb202c02",
@@ -202,20 +216,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_8be6a4a0a548",
-      "title": "Hospital Francisco da Silva Telles: professora é diagnosticada com ansiedade e morre após 2ª alta",
-      "description": "Unidade, localizada na zona norte do RJ, informou que Giulia Araújo, de 26 anos, foi atendida, submetida a todos os exames do protocolo para...",
-      "url": "https://www.estadao.com.br/brasil/hospital-francisco-da-silva-telles-professora-e-diagnosticada-com-ansiedade-e-morre-apos-2-alta-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-02T16:39:40+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_6a4ae0bff1bd",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 7,
-    "average": 5.22,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.43,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 6,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
