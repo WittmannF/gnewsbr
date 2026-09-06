@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKaGRUd0VSRW1HUFhQLXlKdXRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKaGRUd0VSRW1HUFhQLXlKdXRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 1,
+      "topstories": 1,
       "topic-3": 1
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Semana de Lula tem vitórias parciais no Congresso, mas PECs do fim da 6x1 e da Segurança ficam para depois da eleição",
   "summary": "A semana de esforço concentrado no Congresso Nacional terminou com vitórias para o presidente Luiz Inácio Lula da Silva (PT).",
@@ -26,12 +32,12 @@
     "6x1",
     "escala",
     "6×1",
-    "senado",
-    "lula"
+    "lula",
+    "senado"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
   "publishedAt": "2026-09-03T10:42:49+00:00",
-  "updatedAt": "2026-09-06T08:28:41.373830+00:00",
+  "updatedAt": "2026-09-06T09:22:04.542574+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -44,8 +50,22 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-06T03:00:01+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/0DF8JvbZYk2dFXopn_3FZQ5R65w=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s04.video.glbimg.com/deo/vi/55/20/992055",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_50bdce51baa6",
+      "title": "Lula leva 5 vitórias no Congresso antes da eleição, mas 6 X 1 é adiada",
+      "description": "Governo avançou em pautas de interesse eleitoral, enquanto as PECs do fim da escala 6 X 1 e da Segurança ficaram pendentes. Leia no...",
+      "url": "https://www.poder360.com.br/poder-congresso/lula-leva-5-vitorias-no-congresso-antes-da-eleicao-mas-6-x-1-e-adiada/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-09-06T09:02:31+00:00",
+      "postedLabel": "19 minutos atrás",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/07/Lula-5617-1.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -62,20 +82,6 @@
       "imageUrl": "https://imagens.ebc.com.br/NUo-YfO7gQjTEs7MLADKbnaoWuY=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/06/30/_int7702.jpg.jpeg?itok=M1BOTlAN",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_45880348e3eb",
-      "title": "Escala 6 X 1 piora saúde mental para 67% dos trabalhadores, diz estudo",
-      "description": "Para 70% das pessoas ouvidas, os trabalhadores deveriam trabalhar menos, já que a tecnologia aumentou a produtividade. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-economia/escala-6-x-1-piora-saude-mental-para-67-dos-trabalhadores-diz-estudo/",
-      "source": "poder360.com.br",
-      "sourceCanonical": "poder360.com.br",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-05T21:20:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_a3007557e3c1",
@@ -101,7 +107,7 @@
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-04T19:11:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/08/escala.jpg?w=1200&quality=88&strip=all",
+      "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
     },
@@ -142,7 +148,7 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-06T04:00:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.13,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.19,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 7,
-      "center": 5,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
