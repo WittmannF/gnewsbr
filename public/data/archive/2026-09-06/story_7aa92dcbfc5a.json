@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 17
+      "topic-2": 18
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-extra.glbimg.com/7osAdYhesl95lTbMIOCKg0ldgvI=/773x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/W/h/DjzzfFQ2qQAMBHi7GGPg/blog-bat.jpg",
   "publishedAt": "2026-08-25T07:00:00+00:00",
-  "updatedAt": "2026-09-06T09:23:17.429070+00:00",
+  "updatedAt": "2026-09-06T11:19:41.639319+00:00",
   "sourceCount": 7,
   "articleCount": 7,
   "articles": [
@@ -40,8 +40,8 @@
       "title": "Médica acorda com morcego na boca durante pesadelo com camundongos, leva um grande susto e consegue prender o animal para levá-lo ao hospital",
       "description": "Após o encontro inesperado, o morcego é levado para ser testado para raiva, enquanto a médica recebe atendimento preventivo ao vírus.",
       "url": "https://ndmais.com.br/animais/medica-acorda-com-morcego-na-boca-e-vai-ao-hospital/",
-      "source": "ndmais.com.br",
-      "sourceCanonical": "ndmais.com.br",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-08-31T16:59:36+00:00",
       "postedLabel": "5 dias atrás",
@@ -92,6 +92,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_40ce260e4230",
+      "title": "‘Tem um morcego na minha boca’: pesadelo de médica com animal viraliza",
+      "description": "Médicos destacam a seriedade de encontrar morcegos em casa, devido ao risco de raiva.",
+      "url": "https://noticias.r7.com/internacional/tem-um-morcego-na-minha-boca-pesadelo-de-medica-com-animal-viraliza-25082026/",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-08-25T07:00:00+00:00",
+      "postedLabel": "12 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_eac4c661957a",
       "title": "Médica revela susto com morcego e alerta sobre riscos de saúde",
       "description": "Na última semana, a médica Krista Edelman viveu um momento angustiante ao acordar e encontrar um morcego em sua boca enquanto dormia em sua residência na...",
@@ -106,20 +120,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_40ce260e4230",
-      "title": "‘Tem um morcego na minha boca’: pesadelo de médica com animal viraliza",
-      "description": "Médicos destacam a seriedade de encontrar morcegos em casa, devido ao risco de raiva.",
-      "url": "https://noticias.r7.com/internacional/tem-um-morcego-na-minha-boca-pesadelo-de-medica-com-animal-viraliza-25082026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-08-25T07:00:00+00:00",
-      "postedLabel": "12 dias atrás",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/EJU35UPM7BFTFOJNJ3BIMWQLZI.JPG?smart=true&auth=b210401924b7ed22b31d3d2445e4b0986960a5bf298ca69e2015f4690ce54f4d&width=1200&height=630",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_8b45d64f66a2",
       "title": "Médica acorda com morcego tentando entrar em sua boca durante a madrugada",
       "description": "Médica da Virgínia acordou com um morcego tentando entrar em sua boca, fez teste para raiva e recebeu tratamento preventivo.",
@@ -129,33 +129,34 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-08-28T11:58:56+00:00",
       "postedLabel": "8 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/08/imagem-principal-medica-acorda-morcego-tentando-entrar-boca-eua-blog-bat.jpg",
       "spectrumScore": 2,
       "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.8,
-    "knownCount": 5,
-    "unknownCount": 2,
+    "max": 5,
+    "average": 4.25,
+    "knownCount": 4,
+    "unknownCount": 3,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 3,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 74
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
+    "confidence": 71
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
