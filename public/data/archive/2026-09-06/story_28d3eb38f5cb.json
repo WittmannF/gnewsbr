@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKd2JYMkVSRk1Ma0lWN2txeVp5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKd2JYMkVSRk1Ma0lWN2txeVp5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Agentes da Abin criticam relatório da PF usado por Moraes contra Mendonça",
   "summary": "Associação afirma que documento divulgado foge dos \"parâmetros técnicos\" da atividade de inteligência e alerta para risco de uso desses...",
@@ -25,13 +31,13 @@
     "moraes",
     "mendonça",
     "relatório",
-    "usado",
     "stf",
+    "usado",
     "fachin"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/andre-mendonca-alexandre-de-moraes-plenario-stf.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-09-04T09:02:06+00:00",
-  "updatedAt": "2026-09-06T03:33:36.163198+00:00",
+  "publishedAt": "2026-09-04T00:19:18+00:00",
+  "updatedAt": "2026-09-06T04:25:44.349207+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-06T02:00:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/02/17883939496a98b9dd6b25e_1788393949_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -86,7 +92,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-05T21:49:35+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/Os-ministros-Alexandre-de-Moraes-e-Andre-Mendonca-Cristiano-Mariz-Agencia-Globo.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -96,28 +102,28 @@
       "title": "Fachin diz que meta é acabar com Inquérito das Fake News e manda tirar acusações contra Mendonça da investigação",
       "description": "Presidente do Supremo também determinou que a PGR se manifeste em até cinco dias úteis sobre o pedido de investigação feito pelo ministro...",
       "url": "https://www.bbc.com/portuguese/articles/c780jqdep1go",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-04T15:43:36+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ac9377ea94fd",
       "title": "Alexandre de Moraes vandaliza o Supremo",
       "description": "Ao declarar guerra ao colega André Mendonça, o ministro, suspeito de ser 'consigliere' de Vorcaro, causa mais dano ao STF do que a horda de...",
       "url": "https://www.estadao.com.br/opiniao/alexandre-de-moraes-vandaliza-o-supremo/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-04T19:40:15+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_1c3c704334cc",
@@ -148,20 +154,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_d288d262fe8c",
-      "title": "Relatório usado por Moraes contra Mendonça não segue parâmetros, diz associação de inteligência",
-      "description": "O relatório usado pelo ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), para ...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/relatorio-usado-por-moraes-contra-mendonca-nao-segue-parametros-diz-associacao-de-inteligencia,0aaea0e846461a11958497e7799b625epqh6ne8x.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-06T00:58:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_fd5aff5779ad",
       "title": "Fachin indica intenção de levar ao plenário crise envolvendo Moraes e Mendonça",
       "description": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, sinalizou ao presidente Luiz Inácio Lula da Silva (PT) que pretende levar ao...",
@@ -190,6 +182,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_a3cb5f846339",
+      "title": "Relatório usado por Moraes não poderia circular fora da PF, diz chefe de entidade dos delegados",
+      "description": "Ministro do Supremo incluiu documento no Inquérito das Fake News para acusar o colega André Mendonça por abuso de autoridade.",
+      "url": "https://noticias.r7.com/brasilia/relatorio-usado-por-moraes-nao-poderia-circular-fora-da-pf-diz-chefe-de-entidade-dos-delegados-05092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-05T20:02:36+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_a2c7442e3cac",
       "title": "Alcolumbre sinaliza a parlamentares 'impeachment cruzado' no STF",
       "description": "Alcolumbre acena com 'impeachment cruzado' caso senadores forcem a saída de Moraes do Supremo. Resposta seria analisar o impedimento também...",
@@ -202,20 +208,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_a3cb5f846339",
-      "title": "Relatório usado por Moraes não poderia circular fora da PF, diz chefe de entidade dos delegados",
-      "description": "Ministro do Supremo incluiu documento no Inquérito das Fake News para acusar o colega André Mendonça por abuso de autoridade.",
-      "url": "https://noticias.r7.com/brasilia/relatorio-usado-por-moraes-nao-poderia-circular-fora-da-pf-diz-chefe-de-entidade-dos-delegados-05092026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-05T20:02:36+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_b424d2644d1e",
@@ -268,7 +260,7 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-05T23:19:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -314,19 +306,33 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_307b7b2dced3",
+      "title": "Alexandre pede a presidente do STF que André Mendonça seja investigado",
+      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, encaminhou ao presidente da corte, ministro Edson Fachin, documentos da Polícia...",
+      "url": "https://conjur.com.br/2026-set-03/alexandre-pede-a-fachin-que-andre-mendonca-seja-investigado/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-09-04T00:19:18+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.88,
+    "average": 5.19,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
-      "centerLeft": 5,
-      "center": 8,
-      "centerRight": 2,
+      "centerLeft": 4,
+      "center": 7,
+      "centerRight": 4,
       "right": 0,
       "unknown": 4
     }
