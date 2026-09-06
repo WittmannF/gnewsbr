@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 45
+      "topic-3": 47
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 45,
-    "bestSeedRank": 45,
+    "firstSeenRank": 47,
+    "bestSeedRank": 47,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/09/朋友你好-2026-09-05T075242.423-e1788605548282.webp",
   "publishedAt": "2026-09-01T23:59:00+00:00",
-  "updatedAt": "2026-09-06T04:29:28.173935+00:00",
+  "updatedAt": "2026-09-06T05:25:08.332220+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Uczai cobra investigação sobre Moraes, Mendonça e Nikolas",
       "description": "O líder do PT na Câmara criticou a relação de deputado bolsonarista com Daniel Vorcaro e defendeu a apuração dos episódios envolvendo os...",
       "url": "https://www.correiobraziliense.com.br/politica/2026/09/7493116-uczai-cobra-investigacao-sobre-moraes-mendonca-e-nikolas.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-03T14:27:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_eadf0c003686",
@@ -162,20 +162,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_2d7b152dd196",
-      "title": "Alckmin critica André Mendonça e cobra fim do sigilo no caso Master",
-      "description": "Vice-presidente diz que é preciso esclarecer para onde foram os recursos repassados por Vorcaro a Flávio Bolsonaro para financiar o filme...",
-      "url": "https://revistaforum.com.br/politica/alckmin-critica-andre-mendonca/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-09-04T23:48:43+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_d2f7860d8474",
       "title": "O PT contra Mendonça",
       "description": "Após conversas de Lula com ministros do STF, bancada governista pede saída de André Mendonça do caso Master. Salvar em meu Bastidor.",
@@ -188,6 +174,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_2d7b152dd196",
+      "title": "Alckmin critica André Mendonça e cobra fim do sigilo no caso Master",
+      "description": "Vice-presidente diz que é preciso esclarecer para onde foram os recursos repassados por Vorcaro a Flávio Bolsonaro para financiar o filme...",
+      "url": "https://revistaforum.com.br/politica/alckmin-critica-andre-mendonca/",
+      "source": "revistaforum.com.br",
+      "sourceCanonical": "revistaforum.com.br",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-09-04T23:48:43+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_92a0df43dee1",
@@ -264,14 +264,14 @@
       "title": "Mario Vitor Santos: André Mendonça protege Vorcaro e Flávio Bolsonaro",
       "description": "De acordo com Mario Vitor Santos, a atuação de Mendonça tem se configurado como uma manipulação do procedimento investigativo destinada a...",
       "url": "https://www.brasil247.com/midia/mario-vitor-santos-andre-mendonca-protege-vorcaro-e-flavio-bolsonaro/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-04T14:23:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_7e7d49cc07db",
@@ -319,12 +319,12 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.4,
+    "average": 4.1,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
-      "left": 2,
-      "centerLeft": 1,
+      "left": 3,
+      "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
       "right": 0,
@@ -332,14 +332,13 @@
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

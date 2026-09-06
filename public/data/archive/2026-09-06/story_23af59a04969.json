@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 42
+      "topic-4": 40
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/gkay-e1788522390259.jpg?w=473&h=267&crop=1",
   "publishedAt": "2026-09-03T09:41:00+00:00",
-  "updatedAt": "2026-09-06T04:32:41.896658+00:00",
+  "updatedAt": "2026-09-06T05:28:04.462213+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-09-05T05:00:01+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/WXKHXLOK2NF3HEHN4JOC67TN2M.png?smart=true&auth=9bfe3ec776a40f486de1af14a4daac3d049a0688984ce12b53ae0c4bca9c08f6&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -124,14 +124,14 @@
       "title": "Aplicativos usam inteligência artificial para testar cabelo curto",
       "description": "Descubra como filtros e simulações digitais ajudam a visualizar o cabelo curto antes de mudar o visual no salão.",
       "url": "https://www.correiobraziliense.com.br/aqui/2026/09/04/aplicativos-usam-inteligencia-artificial-para-testar-cabelo-curto/",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-04T19:25:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4b44853e3e33",
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_472716f95793",
-      "title": "Fotos: Nada de IA! Após famosas simularem corte curto em trend de inteligência artificial, 7 versões verdadeiras do chanel que rejuvenescem e valorizam o rosto de mulheres 50+",
-      "description": "Encontre todas as fotos da notícia Nada de IA! Após famosas simularem corte curto em trend de inteligência artificial, 7 versões verdadeiras...",
-      "url": "https://www.purepeople.com.br/galeria/nada-de-ia-7-cortes-chanel-reais-que-rejuvenescem-e-valorizam-o-rosto-de-mulheres-50-apos-trend-das-famosas_a423863/1",
-      "source": "purepeople.com.br",
-      "sourceCanonical": "purepeople.com.br",
-      "sourceDomain": "purepeople.com.br",
-      "publishedAt": "2026-09-04T18:34:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_0fd374b413ec",
       "title": "Cabelo curto com IA: saiba como fazer a trend que viralizou entre famosos",
       "description": "Uma nova trend dominou as redes sociais, especialmente entre famosos, que apareceram com os cabelos mais curtos e até de uma cor diferente.",
@@ -240,10 +226,24 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-06T03:26:58+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_b4390925dfcd",
+      "title": "Nada de IA! Após famosas simularem corte curto em trend de inteligência artificial, 7 versões verdadeiras do chanel que rejuvenescem e valorizam o rosto de mulheres 50+",
+      "description": "Cortes reais para você que ficou com vontade de mudar o visual após os vídeos de IA de Adriane Galisteu e Patrícia Abravanel.",
+      "url": "https://www.purepeople.com.br/noticia/nada-de-ia-7-cortes-chanel-reais-que-rejuvenescem-e-valorizam-o-rosto-de-mulheres-50-apos-trend-das-famosas_a423863/1",
+      "source": "purepeople.com.br",
+      "sourceCanonical": "purepeople.com.br",
+      "sourceDomain": "purepeople.com.br",
+      "publishedAt": "2026-09-04T18:34:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_69f2455fa9ce",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 5,
     "max": 7,
-    "average": 5.44,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.62,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
