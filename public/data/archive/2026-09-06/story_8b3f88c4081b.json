@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzZzZEMEVSRmY4UXIyMU5oQ2NTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzZzZEMEVSRmY4UXIyMU5oQ2NTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 43
+      "topic-3": 26,
+      "topic-5": 44
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 43,
-    "bestSeedRank": 43,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "amazonas",
     "omar",
     "aziz",
-    "pesquisa",
     "paraná",
-    "pesquisas"
+    "pesquisas",
+    "pesquisa"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/amazonas_aziz-e-braga-910x568.jpg.webp",
   "publishedAt": "2026-09-01T14:51:16+00:00",
-  "updatedAt": "2026-09-06T16:32:33.376861+00:00",
+  "updatedAt": "2026-09-06T17:20:16.018644+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -48,6 +51,20 @@
       "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/amazonas_aziz-e-braga-910x568.jpg.webp",
       "spectrumScore": 10,
       "bucket": "right"
+    },
+    {
+      "id": "article_26e5aa494318",
+      "title": "Os números do Paraná Pesquisas para governo e Senado no Amazonas",
+      "description": "O instituto Paraná Pesquisas divulgou neste sábado (5) uma pesquisa de intenções de voto para governador do Amazonas nas eleições de 2026.",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amazonas-setembro-2026/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-05T10:27:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/01204619/senados_estados-4-1.png",
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_f1e47126552e",
@@ -78,20 +95,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_26e5aa494318",
-      "title": "Os números do Paraná Pesquisas para governo e Senado no Amazonas",
-      "description": "O instituto Paraná Pesquisas divulgou neste sábado (5) uma pesquisa de intenções de voto para governador do Amazonas nas eleições de 2026.",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amazonas-setembro-2026/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-05T10:27:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_cc97eb492b34",
       "title": "A acirrada corrida ao governo do Amazonas, segundo pesquisa AtlasIntel",
       "description": "A pesquisa contou com a participação de 1.185 pessoas.",
@@ -101,7 +104,7 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-04T20:01:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/03/AM.jpg",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -198,7 +201,7 @@
       "sourceCanonical": "Portal Você Online",
       "sourceDomain": "portalvoce.com",
       "publishedAt": "2026-09-06T12:56:41+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 6,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 6.2,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 5,
-      "centerRight": 1,
+      "centerRight": 2,
       "right": 2,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
