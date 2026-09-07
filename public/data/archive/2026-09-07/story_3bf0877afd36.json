@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ljcExIeEVSSFNzRkNOQTlXei15Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ljcExIeEVSSFNzRkNOQTlXei15Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 24
+      "topic-3": 15,
+      "topic-5": 23
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/04/17885636326a9b50b04d4b8_1788563632_3x2_rt.jpg",
   "publishedAt": "2026-08-29T07:00:00+00:00",
-  "updatedAt": "2026-09-07T06:55:37.725991+00:00",
+  "updatedAt": "2026-09-07T07:34:13.549739+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +99,14 @@
       "title": "Augusto Cury omitiu empresas nos Estados Unidos e no Brasil em declaração ao TSE",
       "description": "Presidenciável do Avante declarou sociedade em sete companhias, deixando cinco de fora; em nota, candidato diz que omissões são...",
       "url": "https://www.terra.com.br/noticias/brasil/politica/augusto-cury-omitiu-empresas-nos-estados-unidos-e-no-brasil-em-declaracao-ao-tse,eaf0b8cebc2393a187ea266c7fa925a1x6pdjssq.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-06T18:37:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a7d1c28a01a9",
@@ -114,7 +117,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-08-29T07:00:00+00:00",
-      "postedLabel": "8 dias atrás",
+      "postedLabel": "9 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -288,53 +291,53 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a7fbef0cfde6",
-      "title": "Augusto Cury omitiu empresas nos EUA em declaração ao TSE",
-      "description": "247 – O escritor e candidato à Presidência da República Augusto Cury (Avante), que avançou para a terceira colocação nas pesquisas de...",
-      "url": "https://www.brasil247.com/brasil/augusto-cury-omitiu-empresas-nos-eua-em-declaracao-ao-tse/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-05T15:13:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_5dc33a909471",
       "title": "Augusto Cury deixa cinco empresas fora de declaração de bens ao TSE",
       "description": "Candidato do Avante declarou patrimônio de R$ 242,2 milhões; campanha diz que inconsistências serão corrigidas Augusto Cury deixou cinco...",
       "url": "https://acritica.net/eleicoes-2026/augusto-cury-deixa-cinco-empresas-fora-de-declaracao-de-bens-ao-tse/",
-      "source": "A Crítica de Campo Grande",
-      "sourceCanonical": "A Crítica de Campo Grande",
+      "source": "acritica.net",
+      "sourceCanonical": "acritica.net",
       "sourceDomain": "acritica.net",
       "publishedAt": "2026-09-06T21:20:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a7fbef0cfde6",
+      "title": "Augusto Cury omitiu empresas nos EUA em declaração ao TSE",
+      "description": "247 – O escritor e candidato à Presidência da República Augusto Cury (Avante), que avançou para a terceira colocação nas pesquisas de...",
+      "url": "https://www.brasil247.com/brasil/augusto-cury-omitiu-empresas-nos-eua-em-declaracao-ao-tse/",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-05T15:13:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 6,
-    "average": 4.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.43,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 2,
-      "center": 5,
+      "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 11
+      "unknown": 13
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
