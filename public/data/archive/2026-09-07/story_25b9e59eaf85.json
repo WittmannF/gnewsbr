@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxNC1MMUVSSG5SMERQWV90RUt5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxNC1MMUVSSG5SMERQWV90RUt5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Flávio Bolsonaro cobra voto de Cármen Lúcia para investigar Moraes no STF",
   "summary": "O senador e candidato à presidência da República Flávio Bolsonaro (PL-RJ) cobrou o voto favorável da ministra do Supremo Tribunal Federal...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/08/18/675x450/1_ept18082026ef28-67453905.jpg?20260830140914?20260830140914",
   "publishedAt": "2026-09-05T01:31:12+00:00",
-  "updatedAt": "2026-09-07T09:41:32.754924+00:00",
+  "updatedAt": "2026-09-07T11:22:26.800788+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +60,7 @@
       "title": "Flávio Bolsonaro cobra voto de Cármen contra Moraes e diz que ela deve se preocupar com biografia",
       "description": "O senador e candidato à Presidência Flávio Bolsonaro (PL) cobrou neste domingo (6) voto da ministra Cármen Lúcia, do STF (Supremo Tribunal...",
       "url": "https://www1.folha.uol.com.br/poder/2026/09/flavio-bolsonaro-cobra-voto-de-carmen-contra-moraes-e-diz-que-ela-deve-se-preocupar-com-biografia.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-06T13:44:00+00:00",
@@ -72,7 +78,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-07T07:59:23+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/15ab/live/c3fea390-a8b8-11f1-b2cf-17987c467e7c.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -96,42 +102,42 @@
       "title": "Flávio visita Filipe Martins na prisão e critica Moraes: 'Laranja podre'",
       "description": "Candidato à Presidência citou contrato de advocacia que teria sido editado por Alexandre de Moraes antes de ser assinado por representantes...",
       "url": "https://www.em.com.br/politica/2026/09/7494867-flavio-visita-filipe-martins-na-prisao-e-critica-moraes-laranja-podre.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-09-06T01:35:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2aa740ea5760",
       "title": "Sakamoto: Ódio a Moraes empolga mais a direita para o 7 de setembro do que Flávio",
       "description": "Originalmente publicado em UOL. Há 130 milhões de razões para criticar o relacionamento promíscuo entre o ministro Alexandre de Moraes e o...",
       "url": "https://www.diariodocentrodomundo.com.br/odio-a-moraes-empolga-mais-a-direita-para-o-7-de-setembro-do-que-flavio/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-05T22:52:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_b39f9b414268",
       "title": "Leonardo Sakamoto: Ódio a Moraes empolga mais a direita para o 7 de setembro do que Flávio",
       "description": "Há 130 milhões de razões para criticar o relacionamento promíscuo entre o ministro Alexandre de Moraes e o banqueiro Daniel Vorcaro,...",
       "url": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/09/05/odio-a-moraes-e-usado-para-chamar-as-ruas-pois-flavio-nao-anima-multidoes.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-05T20:21:55+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_97d59cd619f4",
@@ -194,14 +200,14 @@
       "title": "Flávio Bolsonaro cobra voto de Cármen Lúcia para abertura de investigação contra Moraes",
       "description": "Análise | Sem Fergie, Black Eyed Peas comanda festa em clima de anos 2000 e exaltação ao Brasil no Rock In Rio.",
       "url": "https://www.estadao.com.br/em-alta/politica/flavio-bolsonaro-cobra-voto-de-carmen-lucia-para-abertura-de-investigacao-contra-moraes/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-06T16:02:26+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_da80c250b329",
@@ -222,14 +228,14 @@
       "title": "Flávio Bolsonaro acusa Alcolumbre de proteger Moraes e diz haver articulação contra sua candidatura",
       "description": "Candidato do PL afirma que presidente do Senado age por 'autoproteção', volta a cobrar impeachment de ministro e nega irregularidades no...",
       "url": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-acusa-alcolumbre-de-proteger-moraes-e-diz-haver-articulacao-contra-sua-candidatura/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-05T14:13:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8ba4a46e0d05",
@@ -260,74 +266,74 @@
       "bucket": "center"
     },
     {
+      "id": "article_43f8f13a87aa",
+      "title": "Flávio visita ex-assessor de Bolsonaro preso e chama Moraes de 'laranja podre'",
+      "description": "Flávio visita ex-assessor de Bolsonaro preso e chama Moraes de 'laranja podre'. O senador (PL) e candidato à Presidência da República...",
+      "url": "https://www.terra.com.br/noticias/eleicoes/videos/flavio-visita-ex-assessor-de-bolsonaro-preso-e-chama-moraes-de-laranja-podre,6fdaa9053d21c959b0148dbc302133ec5zhbjdvu.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-05T22:19:55+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_50b4e8c00db9",
       "title": "Flávio cobra voto de Cármen Lúcia a favor de investigação contra Moraes",
       "description": "O senador e candidato à Presidência da República Flávio Bolsonaro (PL) cobrou a ministra do STF (Supremo Tribunal Federal) Cármen Lúcia por...",
       "url": "https://www.cnnbrasil.com.br/politica/flavio-cobra-voto-de-carmen-lucia-a-favor-de-investigacao-contra-moraes/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-06T17:30:47+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ba74ee50678b",
       "title": "No Paraná, Flávio diz estar 'decepcionado' com Alcolumbre e volta a cobrar afastamento de Moraes",
       "description": "O candidato à Presidência Flávio Bolsonaro (PL) mencionou neste sábado a possibilidade de abertura de processos de impeachment mirando os...",
       "url": "https://www.folhape.com.br/politica/no-parana-flavio-diz-estar-decepcionado-com-alcolumbre-e-volta/510979/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-05T21:04:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_5c7b0c81263f",
       "title": "Coordenador da campanha de Flávio se reuniu com Gilmar Mendes em meio a escândalo no STF",
       "description": "Rogério Marinho buscou gabinete do magistrado para uma sinalização de boa vontade em relação à instituição.",
       "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/coordenador-da-campanha-de-flavio-se-reuniu-com-gilmar-mendes-em-meio-a-escandalo-no-stf-1.1745447",
-      "source": "correiodopovo.com.br",
-      "sourceCanonical": "correiodopovo.com.br",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-09-05T01:31:12+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_bcbb774b70fd",
-      "title": "Flávio Bolsonaro vai a Ponta Grossa visitar Filipe Martins",
-      "description": "O candidato à Presidência da República Flávio Bolsonaro (PL) terá uma agenda diferente neste sábado (5), em Ponta Grossa, no Paraná.",
-      "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/flavio-bolsonaro-vai-a-ponta-grossa-visitar-filipe-martins",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-09-05T13:22:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.62,
+    "average": 5.19,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
-      "centerLeft": 4,
-      "center": 5,
-      "centerRight": 4,
-      "right": 2,
+      "centerLeft": 5,
+      "center": 6,
+      "centerRight": 3,
+      "right": 1,
       "unknown": 4
     }
   },
