@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/GLq6SmsM_2fp4xxdouHNlFEsLpg=/6000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/t/7Pnun1TWWTMWcRuapJcw/afp-20260903-c77v8e7-v4-highres-topshotuspoliticstrump.jpg",
   "publishedAt": "2026-08-31T21:30:29+00:00",
-  "updatedAt": "2026-09-07T04:38:09.691578+00:00",
+  "updatedAt": "2026-09-07T05:32:00.845603+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -61,7 +61,7 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-07T04:15:00+00:00",
-      "postedLabel": "23 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://mais.opovo.com.br/includes/assets/opovomais/imgs/og-image.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -103,7 +103,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-06T22:50:43+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -113,14 +113,14 @@
       "title": "Aprovação de Trump registra novo recorde negativo",
       "description": "Levantamento da Focaldata publicado pelo Financial Times mostra que apenas 33% dos eleitores registrados aprovam o desempenho do...",
       "url": "https://www.cartacapital.com.br/mundo/aprovacao-de-trump-registra-novo-recorde-negativo/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-06T15:01:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2956f6b725f3",
@@ -159,7 +159,7 @@
       "sourceCanonical": "vermelho.org.br",
       "sourceDomain": "vermelho.org.br",
       "publishedAt": "2026-09-07T03:15:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -169,14 +169,14 @@
       "title": "Aprovação de Trump cai ao menor nível já registrado, aponta pesquisa",
       "description": "Levantamento aponta que apenas 33% dos eleitores americanos registrados aprovam o presidente americano, com queda de três pontos percentuais...",
       "url": "https://www.cnnbrasil.com.br/internacional/aprovacao-de-trump-cai-ao-menor-nivel-ja-registrado-aponta-pesquisa/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-06T22:29:38+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_435152284bc0",
@@ -211,8 +211,8 @@
       "title": "Aprovação de Trump entre republicanos cai para 72%, menor patamar da série do Financial Times",
       "description": "Um levantamento recente mostrou queda na aprovação do presidente Donald Trump entre os republicanos. Nesse grupo, o índice recuou para 72%.",
       "url": "https://barcelosnanet.com.br/aprovacao-de-trump-entre-republicanos-cai-para-72-menor-patamar-da-serie-do-financial-times/",
-      "source": "barcelosnanet.com.br",
-      "sourceCanonical": "barcelosnanet.com.br",
+      "source": "Portal Barcelos na NET",
+      "sourceCanonical": "Portal Barcelos na NET",
       "sourceDomain": "barcelosnanet.com.br",
       "publishedAt": "2026-09-06T15:00:37+00:00",
       "postedLabel": "hoje",
@@ -281,8 +281,8 @@
       "title": "Donald Trump tem pior aprovação em pesquisa nos EUA",
       "description": "Trump registra 33% de aprovação, menor índice da série da Focaldata, enquanto eleitores demonstram insatisfação com economia e custo de...",
       "url": "https://abcdoabc.com.br/donald-trump-pior-aprovacao-pesquisa-eua/",
-      "source": "abcdoabc.com.br",
-      "sourceCanonical": "abcdoabc.com.br",
+      "source": "Portal ABC do ABC",
+      "sourceCanonical": "Portal ABC do ABC",
       "sourceDomain": "abcdoabc.com.br",
       "publishedAt": "2026-09-06T14:59:40+00:00",
       "postedLabel": "hoje",
@@ -320,29 +320,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 5,
+    "average": 5.33,
     "knownCount": 9,
     "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
-      "center": 5,
+      "center": 6,
       "centerRight": 2,
       "right": 0,
       "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
