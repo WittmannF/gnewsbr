@@ -3,36 +3,42 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2NTZyMEVSR2VXRkxLZmZ2eUxTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2NTZyMEVSR2VXRkxLZmZ2eUxTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 52
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 52,
-    "bestSeedRank": 52,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Mendonça e Moraes no STF",
+  "title": "Notícias sobre Moraes • Vorcaro • STF",
   "summary": "Decisão de pautar ou não cabe agora ao presidente do Supremo, ministro Luiz Edson Fachin. Leia no Poder360.",
-  "topic": "Moraes · Mendonça",
+  "topic": "Moraes · Stf",
   "topicKeywords": [
     "moraes",
-    "mendonça",
     "stf",
-    "vorcaro",
+    "mendonça",
     "libera",
-    "caso"
+    "caso",
+    "vorcaro"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/moraes-mendonca-1200x675.jpg",
   "publishedAt": "2026-09-02T21:01:43+00:00",
-  "updatedAt": "2026-09-07T11:31:14.779086+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-09-07T12:35:00.028233+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -54,42 +60,42 @@
       "title": "Mendonça libera para plenário do STF caso de mensagens entre Moraes e Vorcaro; decisão cabe a Fachin",
       "description": "O ministro André Mendonça, do Supremo Tribunal Federal, liberou neste domingo (6) para julgamento no plenário da Corte o relatório da...",
       "url": "https://g1.globo.com/politica/noticia/2026/09/06/mendonca-libera-para-plenario-do-stf-caso-de-mensagens-entre-moraes-e-vorcaro.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-06T18:35:51+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/bDqCjUYjHq0Lg_hEmlcbiHAp8sg=/1250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/m/vzjIBjRBab0zJMFZx0JQ/imagem-destaque-g1-2-.png",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_121e0dd77198",
+      "title": "Crise no STF leva aliados de Lula a pedir apuração sobre ações de Moraes",
+      "description": "Crise no STF entra na disputa pelo Senado, com aliados de Lula, nomes de centro e bolsonaristas defendendo apurações ou impeachment.",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/09/07/crise-no-stf-leva-aliados-de-lula-a-pedir-apuracao-de-moraes.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-09-07T11:42:33+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_00b928898a99",
-      "title": "Escândalo do Master no STF dá novo significado ao feriado da Independência no Brasil",
-      "description": "O escândalo das mensagens de Daniel Vorcaro com o ministro Alexandre de Moraes deu um novo significado aos eventos marcados para este...",
-      "url": "https://veja.abril.com.br/brasil/escandalo-do-master-no-stf-da-novo-significado-ao-feriado-da-independencia-no-brasil/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-07T10:01:01+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/06/estatua-da-justica-STF-wallace-martins.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_805c9ddf0992",
-      "title": "Cármen Lúcia vê erros tanto de Moraes quanto de Mendonça e vira peça-chave na disputa por hegemonia no STF",
-      "description": "Ministra ainda não decidiu qual deles vai apoiar em meio à crise inédita que se abateu sobre a corte.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/carmen-lucia-ve-erros-tanto-de-moraes-quanto-de-mendonca-e-vira-peca-chave-na-disputa-por-hegemonia-no-stf.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-06T02:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/04/17885575006a9b38bc9e5b2_1788557500_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "id": "article_d4f72d5aec8c",
+      "title": "Redes sociais e o Caso Master",
+      "description": "Redes sociais explicam, em números, o poder do Caso Master em impulsionar crises políticas.",
+      "url": "https://www.em.com.br/opiniao/2026/09/7495082-redes-sociais-e-o-caso-master.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-09-07T05:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://midias.em.com.br/_midias/jpg/2026/09/06/1000x1000/1_wear2artigo-67620085.jpg?20260906171514?20260906171514",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_068943fc5e30",
@@ -101,7 +107,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-06T00:09:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/04190209/gonet_moraes_mendonca.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -138,28 +144,28 @@
       "title": "Com Vorcaro no foco, pior para Flávio; com Moraes, Lula que se cuide",
       "description": "Se há ainda estrago a ser feito é contra o presidente, que não é suspeito de envolvimento direto e grave com Vorcaro, como Flávio,...",
       "url": "https://www.estadao.com.br/politica/eliane-cantanhede/com-vorcaro-no-foco-pior-para-flavio-com-moraes-lula-que-se-cuide/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-05T17:11:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
-      "id": "article_d4f72d5aec8c",
-      "title": "Redes sociais e o Caso Master",
-      "description": "Redes sociais explicam, em números, o poder do Caso Master em impulsionar crises políticas.",
-      "url": "https://www.em.com.br/opiniao/2026/09/7495082-redes-sociais-e-o-caso-master.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-07T05:00:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_00b928898a99",
+      "title": "Escândalo do Master no STF dá novo significado ao feriado da Independência no Brasil",
+      "description": "O escândalo das mensagens de Daniel Vorcaro com o ministro Alexandre de Moraes deu um novo significado aos eventos marcados para este...",
+      "url": "https://veja.abril.com.br/brasil/escandalo-do-master-no-stf-da-novo-significado-ao-feriado-da-independencia-no-brasil/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-07T10:01:01+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_d9c4a5b5e819",
@@ -194,14 +200,28 @@
       "title": "Mendonça libera para julgamento relatório da PF sobre Moraes",
       "description": "O ministro André Mendonça, do Supremo Tribunal Federal, liberou para julgamento no plenário o relatório da Polícia Federal com mensagens do...",
       "url": "https://www.cartacapital.com.br/justica/mendonca-libera-para-julgamento-relatorio-da-pf-sobre-moraes/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-06T19:28:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_61fcf83d8bee",
+      "title": "Mendonça libera para julgamento do STF caso que cita mensagens de Moraes e Vorcaro",
+      "description": "Processo entrou na pauta do Supremo neste domingo (6); data da análise ainda será definida pelo presidente da Corte, Edson Fachin.",
+      "url": "https://noticias.r7.com/brasilia/mendonca-libera-para-julgamento-do-stf-caso-que-cita-mensagens-de-moraes-e-vorcaro-06092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-06T19:21:16+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_ddebd90df731",
@@ -216,20 +236,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_86396b54a3e8",
-      "title": "Fachin atrasa casos que envolvem Moraes e Vorcaro até 22 de setembro",
-      "description": "Prazos empurram análise de ministros do STF até 12 dias antes da eleição; tendência é deixar decisão para depois. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-justica/fachin-atrasa-casos-que-envolvem-moraes-e-vorcaro-ate-22-de-setembro/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-05T20:39:26+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_21481694a1bb",
@@ -260,6 +266,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_1b2b00f6952a",
+      "title": "Cármen Lúcia vê erros tanto de Moraes quanto de Mendonça e vira peça-chave na disputa por hegemonia no STF",
+      "description": "A ministra tem manifestado preocupação com o peso institucional da crise, diante de um potencial impacto catastrófico para o STF.",
+      "url": "https://www.jornaldocomercio.com/politica/2026/09/1262485-carmen-lucia-ve-erros-tanto-de-moraes-quanto-de-mendonca-e-vira-peca-chave-na-disputa-por-hegemonia-no-stf.html",
+      "source": "jornaldocomercio.com",
+      "sourceCanonical": "jornaldocomercio.com",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-09-06T18:22:05+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_d582ca6e5916",
       "title": "Mendonça e Moraes se atolam na sujeira do banco Master",
       "description": "Troca de acusações entre ministros revela contratos milionários e encontros secretos com Daniel Vorcaro no Supremo Tribunal Federal.",
@@ -278,8 +298,8 @@
       "title": "Moraes deve ser investigado, Mendonça, afastado e relatórios são ilegais, diz professor",
       "description": "Pedro Serrano não vê provas que Moraes e Mendonça, ministros do STF, cometeram ato ilegal, mas vê indícios, no caso de Alexandre.",
       "url": "https://apublica.org/2026/09/moraes-deve-ser-investigado-mendonca-afastado-relatorio-e-ilegal/",
-      "source": "Agência Pública",
-      "sourceCanonical": "Agência Pública",
+      "source": "apublica.org",
+      "sourceCanonical": "apublica.org",
       "sourceDomain": "apublica.org",
       "publishedAt": "2026-09-05T07:02:46+00:00",
       "postedLabel": "2 dias atrás",
@@ -300,33 +320,19 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_e63741159bc0",
-      "title": "Carlos Viana pede abertura de processo de impeachment de Alexandre de Moraes",
-      "description": "Em entrevista coletiva nesta sexta-feira (4), o senador Carlos Viana (PSD-MG) defendeu a abertura de processo de impeachment do ministro do...",
-      "url": "https://www12.senado.leg.br/noticias/videos/2026/09/carlos-viana-pede-abertura-de-processo-de-impeachment-de-alexandre-de-moraes",
-      "source": "Senado Federal",
-      "sourceCanonical": "Senado Federal",
-      "sourceDomain": "www12.senado.leg.br",
-      "publishedAt": "2026-09-04T21:56:23+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 4.94,
+    "average": 5.06,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 3,
-      "centerLeft": 2,
-      "center": 9,
-      "centerRight": 2,
+      "left": 4,
+      "centerLeft": 1,
+      "center": 7,
+      "centerRight": 4,
       "right": 1,
       "unknown": 3
     }
