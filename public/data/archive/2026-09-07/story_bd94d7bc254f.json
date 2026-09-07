@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 33
+      "topic-7": 35
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 33,
-    "bestSeedRank": 33,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/XX7SLID5MVA3RGQW3AHTTD3OGU.jpg?quality=80&auth=a7a2a8e7e4643c9256a8e1395a3fb2e551d09d9f5a91d62e7e4d2b6b266d85cf&width=1200&height=630&smart=true",
   "publishedAt": "2026-08-29T12:00:19+00:00",
-  "updatedAt": "2026-09-07T14:43:06.125611+00:00",
+  "updatedAt": "2026-09-07T15:39:27.832889+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-06T15:36:55+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -110,14 +110,14 @@
       "title": "Seis meses de guerra no Irã asfixiam agronegócio e encarecem os alimentos no Brasil",
       "description": "O conflito, a sabatina de Lula no 'Jornal Nacional' e o julgamento da uberização no STF foram pauta do 'Direto da Redação' da sexta-feira...",
       "url": "https://www.cartacapital.com.br/politica/direto-da-redacao/guerra-no-ira-impacto-brasil/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-08-31T15:32:00+00:00",
-      "postedLabel": "6 dias atrás",
+      "postedLabel": "7 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_f4157211d12c",
@@ -152,8 +152,8 @@
       "title": "Oriente Médio: EUA prorrogam presença militar até 2027",
       "description": "No contexto do impasse nas negociações entre Washington e Teerã, o Pentágono decidiu manter o destacamento de soldados no Golfo até o...",
       "url": "https://www.vaticannews.va/pt/mundo/news/2026-09/oriente-medio-estados-unidos-prorrogam-presenca-militar-ate-2027.html",
-      "source": "vaticannews.va",
-      "sourceCanonical": "vaticannews.va",
+      "source": "Vatican News",
+      "sourceCanonical": "Vatican News",
       "sourceDomain": "vaticannews.va",
       "publishedAt": "2026-09-04T10:58:28+00:00",
       "postedLabel": "3 dias atrás",
@@ -190,6 +190,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_01209b2231bf",
+      "title": "EUA e Irão em ciclo de ataques e recargas: risco de escalada persiste",
+      "description": "O que começou como uma série de ataques pontuais no Médio Oriente evoluiu para um padrão novo — uma guerra que não é contínua nem...",
+      "url": "https://www.distritonline.pt/7701-eua-e-irao-em-ciclo-de-ataques-e-recargas-risco-de-escalada-persiste/",
+      "source": "Distrito Online",
+      "sourceCanonical": "Distrito Online",
+      "sourceDomain": "distritonline.pt",
+      "publishedAt": "2026-09-07T15:13:17+00:00",
+      "postedLabel": "26 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_1a02a04d0d74",
       "title": "Seis meses depois, quem está vencendo a guerra no Golfo Pérsico?",
       "description": "Acompanhe as últimas notícias do Brasil e do mundo sobre política, economia e esportes. Leia também análises, opinião, estilo de vida e...",
@@ -216,20 +230,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_f35acb4d8399",
-      "title": "Trump pode ficar preso mais seis meses numa “guerra sem fim” com o Irão, avisa ex-chefe do Pentágono",
-      "description": "Leon Panetta considera que Washington e Teerão estão num “terrível impasse”, sem uma saída clara para um conflito que já dura há mais de...",
-      "url": "https://cnnportugal.iol.pt/guerra/donald-trump/trump-pode-ficar-preso-mais-seis-meses-numa-guerra-sem-fim-com-o-irao-avisa-ex-chefe-do-pentagono/20260906/6a9db945d34ed0733ba83ae8",
-      "source": "CNN Portugal",
-      "sourceCanonical": "CNN Portugal",
-      "sourceDomain": "cnnportugal.iol.pt",
-      "publishedAt": "2026-09-06T20:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_e9cc0c957b3e",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 8,
-    "average": 5.54,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.29,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 2,
       "center": 8,
       "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
