@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 47
+      "topic-6": 45
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 47,
-    "bestSeedRank": 47,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/parr.png.webp",
   "publishedAt": "2026-09-05T13:06:39+00:00",
-  "updatedAt": "2026-09-07T08:48:52.391163+00:00",
+  "updatedAt": "2026-09-07T09:46:06.964611+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +54,7 @@
       "title": "Parreira deixa hospital sob aplausos após quase três meses internado; veja vídeo",
       "description": "Carlos Alberto Parreira, 83, recebeu alta do Hospital Samaritano Barra, na zona sudoeste do Rio de Janeiro, na manhã deste sábado (5),...",
       "url": "https://www1.folha.uol.com.br/esporte/2026/09/carlos-alberto-parreira-recebe-alta-apos-quase-tres-meses-internado.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-05T14:28:00+00:00",
@@ -82,8 +82,8 @@
       "title": "Parreira recebe alta e agradece carinho: \"Ajudou muito\"",
       "description": "Carlos Alberto Parreira, técnico do Brasil na conquista da Copa do Mundo de 1994, recebeu alta, neste sábado, depois de 80 dias internado no...",
       "url": "https://ge.globo.com/video/parreira-recebe-alta-e-agradece-carinho-ajudou-muito-14934916.ghtml",
-      "source": "ge.globo.com",
-      "sourceCanonical": "ge.globo.com",
+      "source": "ge",
+      "sourceCanonical": "ge",
       "sourceDomain": "ge.globo.com",
       "publishedAt": "2026-09-05T19:12:48+00:00",
       "postedLabel": "ontem",
@@ -236,14 +236,14 @@
       "title": "Carlos Alberto Parreira recebe alta após quase três meses internado no Rio de Janeiro",
       "description": "Ex-técnico da Seleção Brasileira superou insuficiência respiratória grave, hemodiálise e traqueostomia. Tratamento seguirá em casa.",
       "url": "https://www.brasil247.com/esporte/carlos-alberto-parreira-recebe-alta-apos-quase-tres-meses-internado-no-rio-de-janeiro/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-05T13:22:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_f8adb80a89b5",
@@ -274,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0335f3eae4ca",
-      "title": "Carlos Alberto Parreira recebe alta após quase 3 meses internado",
-      "description": "Neste sábado (5), o ex-comandante da Seleção Brasileira, Carlos Alberto Parreira, de 83 anos, recebeu alta do hospital em que estava...",
-      "url": "https://www.lance.com.br/fora-de-campo/carlos-alberto-parreira-recebe-alta-apos-quase-3-meses-internado.html",
-      "source": "LANCE!",
-      "sourceCanonical": "LANCE!",
-      "sourceDomain": "lance.com.br",
-      "publishedAt": "2026-09-05T13:41:25+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_e52132a4516f",
       "title": "Parreira é homenageado com gritos de “é campeão” ao deixar hospital",
       "description": "Técnico do tetra foi cercado por familiares, funcionários e fãs após 80 dias internado no Rio de Janeiro. Gabriel Teles, da CNN Brasil...",
@@ -300,6 +286,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_0335f3eae4ca",
+      "title": "Carlos Alberto Parreira recebe alta após quase 3 meses internado",
+      "description": "Neste sábado (5), o ex-comandante da Seleção Brasileira, Carlos Alberto Parreira, de 83 anos, recebeu alta do hospital em que estava...",
+      "url": "https://www.lance.com.br/fora-de-campo/carlos-alberto-parreira-recebe-alta-apos-quase-3-meses-internado.html",
+      "source": "LANCE!",
+      "sourceCanonical": "LANCE!",
+      "sourceDomain": "lance.com.br",
+      "publishedAt": "2026-09-05T13:41:25+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8ad5c00afbf0",
@@ -317,30 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 10,
-    "average": 5.93,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.6,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 1,
       "center": 7,
       "centerRight": 3,
       "right": 2,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
