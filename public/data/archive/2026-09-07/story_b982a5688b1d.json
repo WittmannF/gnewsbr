@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ppcU83M0VSRUlWUGNWX0hRQ09DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ppcU83M0VSRUlWUGNWX0hRQ09DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 44
+      "topic-5": 49,
+      "topic-7": 27
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 44,
-    "bestSeedRank": 44,
+    "firstSeenRank": 49,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/quUDkb8E22IhJOEOcSebF0hnZtM=/770x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/I/o/oLsjnLTUOrOdeUwa2N3Q/sarah-khalifa-1788674119.webp",
   "publishedAt": "2026-09-05T17:00:12+00:00",
-  "updatedAt": "2026-09-07T19:29:12.713066+00:00",
+  "updatedAt": "2026-09-07T20:32:35.940518+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +57,14 @@
       "title": "A apresentadora de TV condenada à morte por tráfico de drogas no Egito",
       "description": "A apresentadora de televisão egípcia Sarah Khalifa e outras 11 pessoas foram condenadas à morte por enforcamento após serem consideradas...",
       "url": "https://www.bbc.com/portuguese/articles/c2l8k4ydd11o",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-06T14:09:14+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/6328/live/f1a48620-a95d-11f1-99c3-dba02712eb49.png",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_e78d794f81ae",
@@ -82,8 +85,8 @@
       "title": "Apresentadora de TV é condenada à morte por enforcamento no Egito",
       "description": "Sarah Khalifa e outras 11 pessoas receberam pena capital em processo sobre fabricação e tráfico de drogas sintéticas; apresentadora nega...",
       "url": "https://istoe.com.br/apresentadora-de-tv-e-condenada-a-morte-por-enforcamento-no-egito",
-      "source": "ISTOÉ Independente",
-      "sourceCanonical": "ISTOÉ Independente",
+      "source": "istoe.com.br",
+      "sourceCanonical": "istoe.com.br",
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-09-06T16:41:10+00:00",
       "postedLabel": "ontem",
@@ -128,8 +131,8 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-07T17:57:27+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/YOUDXNO7GRHWLD6FHK5FA24T5U.jpg?smart=true&auth=c9b7e634c43c4d3c97a434e1497050a3d17ad2f56996817588414f8fd41f59d1&width=1200&height=630",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -152,14 +155,14 @@
       "title": "Quem é a apresentadora Sarah Khalifa, condenada à pena de morte por enforcamento?",
       "description": "Uma decisão drástica do tribunal criminal do Cairo chocou o meio artístico e jornalístico do Egito. A apresentadora de televisão e...",
       "url": "https://www.terra.com.br/noticias/quem-e-a-apresentadora-sarah-khalifa-condenada-a-pena-de-morte-por-enforcamento,23d7e81faa11f05c70dfa2fee4790efbd5s4gd9h.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-06T14:40:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4e922cb05e8b",
@@ -319,13 +322,13 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.33,
+    "average": 5.25,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
-      "center": 9,
+      "centerLeft": 2,
+      "center": 8,
       "centerRight": 2,
       "right": 0,
       "unknown": 8
