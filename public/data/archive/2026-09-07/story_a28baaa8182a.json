@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 27
+      "topic-8": 33
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 33,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/noticias/04/2026/07/08/ilustracao-com-o-logotipo-da-openai-1783514627460_v2_615x300.jpg",
   "publishedAt": "2026-08-31T18:09:38+00:00",
-  "updatedAt": "2026-09-07T22:33:37.145954+00:00",
+  "updatedAt": "2026-09-07T23:38:13.215169+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -148,6 +148,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_472f879fbeb0",
+      "title": "Microsoft Diz ao Tribunal que o Copilot Raramente Reproduz Livros no MDL de Direitos Autorais de IA",
+      "description": "A Microsoft requereu julgamento sumário em 4 de setembro de 2026 na ação consolidada de direitos autorais movida por autores de livros e...",
+      "url": "https://www.unite.ai/pt/microsoft-tells-court-copilot-rarely-reproduces-books-in-ai-copyright-mdl/",
+      "source": "Unite.AI",
+      "sourceCanonical": "Unite.AI",
+      "sourceDomain": "unite.ai",
+      "publishedAt": "2026-09-04T16:24:02+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b5d25254fbe4",
       "title": "Jornais invocam direitos autorais em acusação contra OpenAI e Microsoft por uso de conteúdos em IA",
       "description": "Arquivos do tribunal apresentados na sexta-feira, 4, em um julgamento de direitos autorais que coloca o The New York Times (NYT) contra a...",
@@ -176,20 +190,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_472f879fbeb0",
-      "title": "Microsoft Diz ao Tribunal que o Copilot Raramente Reproduz Livros no MDL de Direitos Autorais de IA",
-      "description": "A Microsoft requereu julgamento sumário em 4 de setembro de 2026 na ação consolidada de direitos autorais movida por autores de livros e...",
-      "url": "https://www.unite.ai/pt/microsoft-tells-court-copilot-rarely-reproduces-books-in-ai-copyright-mdl/",
-      "source": "Unite.AI",
-      "sourceCanonical": "Unite.AI",
-      "sourceDomain": "unite.ai",
-      "publishedAt": "2026-09-04T16:24:02+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_54484b0f596d",
       "title": "Jornal argentino processa OpenAI e Microsoft por uso não autorizado de conteúdo e concorrência desleal",
       "description": "A denúncia se soma a outras centenas de disputas judiciais entre jornais e empresas de tecnologia acerca do uso de material jornalístico...",
@@ -204,6 +204,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_97d5edf201e1",
+      "title": "Governo dos EUA apoia OpenAI em ação movida pelo New York Times",
+      "description": "Jornal alega que os poderosos modelos de IA utilizaram, sem autorização, milhões de seus artigos para treinamento.",
+      "url": "https://jovempan.com.br/mundo/governo-dos-eua-apoia-openai-em-acao-movida-pelo-new-york-times/",
+      "source": "jovempan.com.br",
+      "sourceCanonical": "jovempan.com.br",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-03T14:57:21+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_1f2ef1c77f79",
       "title": "OpenAI diz à Justiça que copyright não pode barrar avanço da IA em disputa com NYT",
       "description": "OpenAI afirma que direitos autorais não podem travar a IA em ação do NYT, que acusa a empresa e a Microsoft de usar suas reportagens.",
@@ -216,20 +230,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_97d5edf201e1",
-      "title": "Governo dos EUA apoia OpenAI em ação movida pelo New York Times",
-      "description": "Jornal alega que os poderosos modelos de IA utilizaram, sem autorização, milhões de seus artigos para treinamento.",
-      "url": "https://jovempan.com.br/mundo/governo-dos-eua-apoia-openai-em-acao-movida-pelo-new-york-times/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-03T14:57:21+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_fdf1ee2ee3fc",
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.1,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 7,
+    "average": 4.67,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
-      "right": 1,
-      "unknown": 10
+      "right": 0,
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
