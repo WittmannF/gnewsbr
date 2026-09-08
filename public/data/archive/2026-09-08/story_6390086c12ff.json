@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 44
+      "topic-3": 52
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 44,
-    "bestSeedRank": 44,
+    "firstSeenRank": 52,
+    "bestSeedRank": 52,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/06/2026062811068_39766122ce83e1c008c2e8e87bd0e77976a5b034b28f257d2b97cc522cba0494.jpg?w=1200&quality=88&strip=all",
   "publishedAt": "2026-08-21T07:00:00+00:00",
-  "updatedAt": "2026-09-08T18:32:39.425657+00:00",
+  "updatedAt": "2026-09-08T19:23:10.890206+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Ao sabor das pesquisas",
       "description": "Não há preocupação genuína de Lula sobre os problemas causados pelas apostas online. Há, apenas, cálculo eleitoral e pressa para arranjar...",
       "url": "https://www.estadao.com.br/opiniao/ao-sabor-das-pesquisas/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-05T06:01:00+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_768fcf7d2a31",
@@ -118,6 +118,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_4161dc597602",
+      "title": "CNC leva ao presidente Lula impactos das bets sobre comércio e famílias",
+      "description": "Em reunião no Palácio do Planalto, Confederação defendeu maior controle das apostas on-line, combate às plataformas ilegais e regras mais...",
+      "url": "https://agora-to.com.br/cnc-leva-ao-presidente-lula-impactos-das-bets-sobre-comercio-e-familias/",
+      "source": "agora-to.com.br",
+      "sourceCanonical": "agora-to.com.br",
+      "sourceDomain": "agora-to.com.br",
+      "publishedAt": "2026-09-07T20:00:05+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e7c687fbe351",
@@ -174,20 +188,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_9862c4a1cd6b",
-      "title": "CNC leva ao presidente Lula impactos das bets sobre comércio e famílias",
-      "description": "Em reunião no Palácio do Planalto, Confederação defendeu maior controle das apostas on-line, combate às plataformas ilegais e regras mais...",
-      "url": "https://portaldocomercio.org.br/acoes-institucionais/cnc-leva-ao-presidente-lula-impactos-das-bets-sobre-comercio-e-familias/",
-      "source": "Portal do Comércio",
-      "sourceCanonical": "Portal do Comércio",
-      "sourceDomain": "portaldocomercio.org.br",
-      "publishedAt": "2026-09-04T20:34:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_fcae5de3109a",
@@ -282,7 +282,7 @@
       "sourceCanonical": "Regionalzão",
       "sourceDomain": "regionalzao.com.br",
       "publishedAt": "2026-09-08T12:33:23+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -292,11 +292,11 @@
       "title": "Jogos e apostas online no Brasil: o que mudou com a regulamentação de 2026",
       "description": "Veja o que mudou nas apostas online no Brasil em 2026, incluindo publicidade, sites autorizados, jogo responsável e novas regras do setor.",
       "url": "https://igamingbrazil.com/aposta-esportiva/2026/09/08/apostas-online-no-brasil-regulamentacao-em-2026/",
-      "source": "iGaming Brazil",
-      "sourceCanonical": "iGaming Brazil",
+      "source": "igamingbrazil.com",
+      "sourceCanonical": "igamingbrazil.com",
       "sourceDomain": "igamingbrazil.com",
       "publishedAt": "2026-09-08T16:19:30+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.5,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 7,
+    "average": 4.73,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
       "center": 7,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
