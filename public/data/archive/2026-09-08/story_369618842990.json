@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 20
+      "topic-8": 16
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 16,
+    "bestSeedRank": 16,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "mega",
     "sena",
     "milhões",
-    "prêmio",
     "confira",
+    "prêmio",
     "acumula"
   ],
   "imageUrl": "https://www.rbsdirect.com.br/filestore/7/4/7/7/2/3/4_ee94f1bd9bd30c0/4327747_4859d61e41290e0.jpg?w=1200&h=675",
   "publishedAt": "2026-08-30T07:00:00+00:00",
-  "updatedAt": "2026-09-08T05:41:51.914358+00:00",
+  "updatedAt": "2026-09-08T06:53:02.194877+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -152,14 +152,14 @@
       "title": "AO VIVO: confira o resultado dos sorteios da Mega-Sena, Quina e outras loterias deste domingo (6)",
       "description": "Na manhã deste domingo (6), no Espaço da Sorte, localizado na Grande São Paulo, serão sorteados os concursos das Loterias Caixa: Mega-Sena,...",
       "url": "https://www.correio24horas.com.br/brasil/ao-vivo-confira-o-resultado-dos-sorteios-da-mega-sena-quina-e-outras-loterias-deste-domingo-6-0926",
-      "source": "correio24horas.com.br",
-      "sourceCanonical": "correio24horas.com.br",
+      "source": "Jornal Correio",
+      "sourceCanonical": "Jornal Correio",
       "sourceDomain": "correio24horas.com.br",
       "publishedAt": "2026-09-06T14:05:30+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_e9b23461353b",
@@ -278,11 +278,25 @@
       "title": "Mega-Sena acumula e premiação pode chegar a R$ 47,4 milhões",
       "description": "Cinco apostas acertaram cinco das seis dezenas e faturaram R$ 30.145,38. A Caixa Econômica Federal sorteou deste domingo (6), o concurso 3054 da Mega-Sena.",
       "url": "http://www.midianews.com.br/conteudo.php?sid=3&cid=528652",
-      "source": "midianews.com.br",
-      "sourceCanonical": "midianews.com.br",
+      "source": "MidiaNews",
+      "sourceCanonical": "MidiaNews",
       "sourceDomain": "midianews.com.br",
       "publishedAt": "2026-09-07T11:24:28+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f0c54cf96a7c",
+      "title": "Apostas em bairros de Salvador ganham na Mega-Sena de R$ 36 milhões",
+      "description": "Apostas de Canabrava e Vila Laura, em Salvador, acertaram a quina da Mega-Sena e faturaram alto. Prêmio principal acumulou em R$ 41 milhões.",
+      "url": "https://atarde.com.br/salvador/canabrava-e-vila-laura-tem-ganhadores-em-mega-sena-de-r-36-milhoes-1400603",
+      "source": "A TARDE",
+      "sourceCanonical": "A TARDE",
+      "sourceDomain": "atarde.com.br",
+      "publishedAt": "2026-09-02T14:12:16+00:00",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,41 +314,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_e6261e71f220",
-      "title": "Aposta de Fortaleza acerta cinco números da Mega-Sena e leva prêmio de R$ 146 mil",
-      "description": "O jogo contendo nove números foi feito na Loteria Aldeota.",
-      "url": "https://diariodonordeste.verdesmares.com.br/loterias/aposta-de-fortaleza-acerta-cinco-numeros-da-mega-sena-e-leva-premio-de-r-146-mil-1.3789334",
-      "source": "Diário do Nordeste",
-      "sourceCanonical": "Diário do Nordeste",
-      "sourceDomain": "diariodonordeste.verdesmares.com.br",
-      "publishedAt": "2026-09-04T12:10:27+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 5,
     "max": 7,
-    "average": 5.22,
+    "average": 5.33,
     "knownCount": 9,
     "unknownCount": 11,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
-      "center": 7,
+      "centerLeft": 0,
+      "center": 8,
       "centerRight": 1,
       "right": 0,
       "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
