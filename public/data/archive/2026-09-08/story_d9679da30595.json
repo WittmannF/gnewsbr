@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/eclipse-nasa.jpg?quality=70&strip=info&resize=1200,630&crop=1",
   "publishedAt": "2026-08-12T07:00:00+00:00",
-  "updatedAt": "2026-09-08T07:41:36.876257+00:00",
+  "updatedAt": "2026-09-08T08:51:22.993456+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-06T08:00:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": "https://s2-g1.glbimg.com/NJSYiba59uEfOiYKt1ULndYZQ6U=/8192x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/k/VsNDDMTuy4S4JyBLpp0g/2026-08-12t182906z-965323106-rc26xma1md7a-rtrmadp-3-solar-eclipse-spain.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -162,20 +162,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_9255b54d3faf",
-      "title": "Eclipse solar em agosto de 2027 terá 6 minutos de escuridão",
-      "description": "Fenômeno atravessará regiões da Europa, África e Oriente Médio e será o segundo eclipse solar total mais longo do século XXI.",
-      "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2026/09/7494946-eclipse-solar-em-agosto-de-2027-tera-6-minutos-de-escuridao.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-09-06T13:58:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_4c580495974f",
       "title": "Confirmado: próximo eclipse solar vai fazer o dia virar noite durante 6 minutos; veja onde será visto",
       "description": "A NASA confirmou: o próximo eclipse solar vai fazer o dia virar noite durante 6 minutos e 23 segundos. O fenômeno será no dia 2 de agosto de...",
@@ -188,6 +174,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_9255b54d3faf",
+      "title": "Eclipse solar em agosto de 2027 terá 6 minutos de escuridão",
+      "description": "Fenômeno atravessará regiões da Europa, África e Oriente Médio e será o segundo eclipse solar total mais longo do século XXI.",
+      "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2026/09/7494946-eclipse-solar-em-agosto-de-2027-tera-6-minutos-de-escuridao.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-06T13:58:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_bfdae3aceaf5",
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 5.14,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
