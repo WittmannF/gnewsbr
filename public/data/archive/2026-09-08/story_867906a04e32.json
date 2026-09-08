@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 42,
-      "topic-5": 43
+      "topic-3": 51,
+      "topic-5": 50
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "firstSeenRank": 51,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/03/675x450/1_4644-67601249.jpg",
   "publishedAt": "2026-09-02T09:20:00+00:00",
-  "updatedAt": "2026-09-08T12:37:01.965300+00:00",
+  "updatedAt": "2026-09-08T13:27:37.970133+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +47,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-07T12:56:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/03/675x450/1_4644-67601249.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -145,7 +145,7 @@
       "sourceCanonical": "Jornal Pequeno",
       "sourceDomain": "jornalpequeno.com.br",
       "publishedAt": "2026-09-08T08:00:07+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -225,14 +225,14 @@
       "title": "Quem indicou André Mendonça para o STF?",
       "description": "Em julho de 2021, o presidente Jair Bolsonaro indicou André Mendonça ao Supremo Tribunal Federal, substituindo o aposentado Marco Aurélio...",
       "url": "https://revistaforum.com.br/politica/quem-indicou-andre-mendonca-para-o-stf/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-02T14:35:23+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_7f4731fe16d8",
@@ -243,10 +243,24 @@
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-09-08T09:45:31+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_b4c13781e604",
+      "title": "Motoryn: “Após tarifaço, segunda interferência eleitoral é a atuação de André Mendonça”",
+      "description": "Jornalista aponta delegados ligados ao bolsonarismo e vazamentos seletivos como fatores de contaminação do pleito.",
+      "url": "https://jornalggn.com.br/noticia/motoryn-apos-tarifaco-a-segunda-interferencia-eleitoral-e-a-atuacao-de-andre-mendonca/",
+      "source": "jornalggn.com.br",
+      "sourceCanonical": "jornalggn.com.br",
+      "sourceDomain": "jornalggn.com.br",
+      "publishedAt": "2026-09-03T20:19:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_911c82507253",
@@ -258,20 +272,6 @@
       "sourceDomain": "boca.com.br",
       "publishedAt": "2026-09-07T21:55:29+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_b4c13781e604",
-      "title": "Motoryn: “Após tarifaço, segunda interferência eleitoral é a atuação de André Mendonça”",
-      "description": "Jornalista aponta delegados ligados ao bolsonarismo e vazamentos seletivos como fatores de contaminação do pleito.",
-      "url": "https://jornalggn.com.br/noticia/motoryn-apos-tarifaco-a-segunda-interferencia-eleitoral-e-a-atuacao-de-andre-mendonca/",
-      "source": "Jornal GGN",
-      "sourceCanonical": "Jornal GGN",
-      "sourceDomain": "jornalggn.com.br",
-      "publishedAt": "2026-09-03T20:19:00+00:00",
-      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -313,7 +313,7 @@
       "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-08T11:12:02+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.44,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.1,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 1,
       "center": 3,
       "centerRight": 1,
       "right": 2,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
