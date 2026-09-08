@@ -12,12 +12,12 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 25,
-      "topic-7": 13
+      "topic-5": 22,
+      "topic-7": 14
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 25,
-    "bestSeedRank": 13,
+    "firstSeenRank": 22,
+    "bestSeedRank": 14,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/Imagem-07-09-2026-as-18.31-1200x675.png",
   "publishedAt": "2026-09-04T16:19:13+00:00",
-  "updatedAt": "2026-09-08T02:41:48.596778+00:00",
+  "updatedAt": "2026-09-08T03:34:23.544120+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -75,7 +75,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-07T21:25:52+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/NOVO-MAPA-MUNDO-ONU.jpg?w=800&h=425&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -85,14 +85,14 @@
       "title": "Novo mapa da ONU: por que Brasil 'cresceu' com projeção Equal Earth",
       "description": "A União Africana venceu uma batalha global ao conseguir que a ONU aprovasse uma resolução para mudar o mapa do planeta.",
       "url": "https://www.bbc.com/portuguese/articles/cvgyv1v5xjno",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-05T11:15:18+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/d5d2/live/06a2d540-a918-11f1-b109-879e35c24276.png",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_c876a16c3aef",
@@ -104,7 +104,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-07T22:37:00+00:00",
       "postedLabel": "4 horas atrás",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/07193402/8ac2047c-ba6c-4e6f-88aa-ec6dd3fd755b.jpg",
+      "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -239,8 +239,8 @@
       "title": "ONU aprova resolução para corrigir representação do mundo nos mapas",
       "description": "Modelo amplamente utilizado remonta ao Século 16; ele contém distorção que amplia massas de terra mais distantes da linha do Equador e reduz...",
       "url": "https://news.un.org/pt/story/2026/09/1854269",
-      "source": "UN News",
-      "sourceCanonical": "UN News",
+      "source": "news.un.org",
+      "sourceCanonical": "news.un.org",
       "sourceDomain": "news.un.org",
       "publishedAt": "2026-09-04T16:19:13+00:00",
       "postedLabel": "3 dias atrás",
@@ -267,14 +267,14 @@
       "title": "No 7/9, IBGE libera download de mapas com Brasil no centro do mundo",
       "description": "Em comemoração ao Dia da Independência do Brasil, IBGE lança mapas com o Hemisfério Sul em primeiro plano e o Brasil no centro do mundo.",
       "url": "https://www.metropoles.com/brasil/no-7-9-ibge-libera-download-de-mapas-com-brasil-no-centro-do-mundo",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-07T19:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_57c5e65973a9",
@@ -322,26 +322,27 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.25,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 6,
+      "centerLeft": 1,
+      "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 10
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
