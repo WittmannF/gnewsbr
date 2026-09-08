@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lVbDl2eUVSRVUyNEZrWVRQTG95Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lVbDl2eUVSRVUyNEZrWVRQTG95Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 6
+      "topic-3": 6,
+      "topic-5": 8
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 6,
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/07/17887937536a9ed39977789_1788793753_3x2_rt.jpg",
   "publishedAt": "2026-09-03T21:01:00+00:00",
-  "updatedAt": "2026-09-08T03:28:33.334623+00:00",
+  "updatedAt": "2026-09-08T04:28:12.674159+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +57,7 @@
       "title": "São Paulo registra tarde mais fria de setembro desde 2000 - 07/09/2026 - Cotidiano",
       "description": "Medição do Inmet aponta 13,6°C na zona norte, às 13h, com temperatura em declínio.",
       "url": "https://www1.folha.uol.com.br/cotidiano/2026/09/sao-paulo-registra-tarde-mais-fria-de-setembro-desde-2000.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-07T20:44:00+00:00",
@@ -68,14 +71,14 @@
       "title": "Previsão do tempo hoje para São Paulo (SP): tempo nublado com chuva de manhã; à tarde e à noite pode garoar",
       "description": "Confira a previsão do tempo para São Paulo nesta segunda-feira (7), com detalhes sobre temperaturas, chance de chuva, mudanças no clima e...",
       "url": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/09/07/previsao-do-tempo-hoje-para-sao-paulo-sp-tempo-nublado-com-chuva-de-manha-a-tarde-e-a-noite-pode-garoar.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-07T04:07:02+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/Y8oaOgbX_ymsTgYh1jmV-jj5ajI=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/o/eO6L47QoyjUM0qPHrOTA/previsao-tempo-s-o-paulo-20260907-130646.jpeg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_25307504a9da",
@@ -120,20 +123,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_addf38cd87e0",
-      "title": "São Paulo tem 7 de Setembro mais frio dos últimos quatro anos #shorts #JR24H",
-      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
-      "url": "https://noticias.r7.com/jr-na-tv/sao-paulo-tem-7-de-setembro-mais-frio-dos-ultimos-quatro-anos-shorts-jr24h-08092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-08T00:36:43+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_2f266662c803",
       "title": "Frente fria atinge o Brasil neste 7 de Setembro e traz chuva, trovoadas e queda acentuada de temperatura",
       "description": "Avanço de massa de ar frio provoca instabilidade em várias regiões do país nesta segunda-feira (7) e favorece geadas no Sul.",
@@ -143,9 +132,23 @@
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-07T11:44:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/09/pint4645-1-1.jpg?w=1200&quality=88&strip=all",
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_addf38cd87e0",
+      "title": "São Paulo tem 7 de Setembro mais frio dos últimos quatro anos #shorts #JR24H",
+      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
+      "url": "https://noticias.r7.com/jr-na-tv/sao-paulo-tem-7-de-setembro-mais-frio-dos-ultimos-quatro-anos-shorts-jr24h-08092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-08T00:36:43+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_33658b9074a6",
@@ -170,7 +173,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-07T23:20:01+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -260,18 +263,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6e4b027963e2",
-      "title": "Chuva vai continuar durante toda a semana no litoral de SP, que terá gangorra de temperatura e novos temporais",
-      "description": "A movimentação de uma nova frente fria no sul do Brasil atrelada a um ciclone extratropical abrirá um grande corredor de baixa pressão em...",
-      "url": "https://www.diariodolitoral.com.br/cotidiano/chuva-vai-continuar-durante-toda-a-semana-no-litoral-de-sp-que-tera-gangorra-de-temperatura-e-novos-temporais/",
-      "source": "Diário do Litoral",
-      "sourceCanonical": "Diário do Litoral",
-      "sourceDomain": "diariodolitoral.com.br",
-      "publishedAt": "2026-09-07T13:50:45+00:00",
+      "id": "article_e4e17a863fb5",
+      "title": "Frio e chuva em São Paulo: qual é a previsão do tempo?",
+      "description": "Massa de ar mantém temperaturas baixas no Estado, enquanto frente fria ainda provoca nebulosidade e possibilidade de garoa em áreas...",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/frio-e-chuva-em-sao-paulo-qual-e-a-previsao-do-tempo,fabe21140ac55d9da88fa0506ab550dd4lkpeyfd.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-07T14:15:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_dd574b98f79b",
@@ -288,18 +291,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_e4e17a863fb5",
-      "title": "Frio e chuva em São Paulo: qual é a previsão do tempo?",
-      "description": "Massa de ar mantém temperaturas baixas no Estado, enquanto frente fria ainda provoca nebulosidade e possibilidade de garoa em áreas...",
-      "url": "https://www.terra.com.br/noticias/brasil/cidades/frio-e-chuva-em-sao-paulo-qual-e-a-previsao-do-tempo,fabe21140ac55d9da88fa0506ab550dd4lkpeyfd.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-07T14:15:00+00:00",
+      "id": "article_6e4b027963e2",
+      "title": "Chuva vai continuar durante toda a semana no litoral de SP, que terá gangorra de temperatura e novos temporais",
+      "description": "A movimentação de uma nova frente fria no sul do Brasil atrelada a um ciclone extratropical abrirá um grande corredor de baixa pressão em...",
+      "url": "https://www.diariodolitoral.com.br/cotidiano/chuva-vai-continuar-durante-toda-a-semana-no-litoral-de-sp-que-tera-gangorra-de-temperatura-e-novos-temporais/",
+      "source": "Diário do Litoral",
+      "sourceCanonical": "Diário do Litoral",
+      "sourceDomain": "diariodolitoral.com.br",
+      "publishedAt": "2026-09-07T13:50:45+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c0e5f3b4a10b",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.54,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.58,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
       "right": 1,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {

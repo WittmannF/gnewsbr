@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 16,
-      "topic-5": 17
+      "topic-3": 15,
+      "topic-5": 20
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 16,
-    "bestSeedRank": 16,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,13 +28,13 @@
     "niño",
     "super",
     "efeitos",
+    "fenômeno",
     "pode",
-    "regiões",
-    "impactos"
+    "regiões"
   ],
   "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/09/Grafico-mostra-intensidade-do-El-Nino-que-deve-provocar-mais-chuvas-em-SC-o-que-pode-provocar-alagamentos-Foto-Meteored-ECMWF-Banco-de-imagens.jpg",
   "publishedAt": "2026-09-02T15:05:00+00:00",
-  "updatedAt": "2026-09-08T03:28:59.744880+00:00",
+  "updatedAt": "2026-09-08T04:28:28.435550+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,20 +53,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_44746bb1b772",
-      "title": "Super El Niño: temperatura média pode subir até 2°C nas regiões de Campinas e de Piracicaba, aponta Cptec",
-      "description": "Fenômeno também poderá motivar a formação de temporais violentos. Outras áreas do interior paulista e do sul de Minas Gerais também...",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/07/super-el-nino-temperatura-media-pode-subir-regioes-campinas-piracicaba.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-07T18:10:57+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/ooHXw9GmcyJ3AO-KMQ2KsGutQik=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/4/p/USwnKESa2WjAZIixcmQQ/16466483954-de9782a22e-k.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_6780aad5c167",
       "title": "Super El Niño será 'muito forte' nos meses de setembro, outubro e novembro; entenda os efeitos",
       "description": "Temperaturas devem ficar acima da média em praticamente todo o país ao longo deste trimestre.",
@@ -79,6 +65,20 @@
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/el-nino-2.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_44746bb1b772",
+      "title": "Super El Niño: temperatura média pode subir até 2°C nas regiões de Campinas e de Piracicaba, aponta Cptec",
+      "description": "Fenômeno também poderá motivar a formação de temporais violentos. Outras áreas do interior paulista e do sul de Minas Gerais também...",
+      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/09/07/super-el-nino-temperatura-media-pode-subir-regioes-campinas-piracicaba.ghtml",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-09-07T18:10:57+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0a8ca148cb8d",
@@ -118,7 +118,7 @@
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-07T14:46:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/07/1805235812-count.gif",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -127,8 +127,8 @@
       "title": "Como proteger pesca e aquicultura de efeitos do El Niño?",
       "description": "Oscilações no nível dos rios e chuvas irregulares afetam a reprodução das espécies e dificultam o trabalho de pescadores.",
       "url": "https://costanorte.com.br/clima/como-proteger-pesca-e-aquicultura-de-efeitos-do-el-nino.html",
-      "source": "costanorte.com.br",
-      "sourceCanonical": "costanorte.com.br",
+      "source": "Costa Norte",
+      "sourceCanonical": "Costa Norte",
       "sourceDomain": "costanorte.com.br",
       "publishedAt": "2026-09-07T09:00:00+00:00",
       "postedLabel": "hoje",
@@ -242,21 +242,7 @@
       "source": "Portal Correio",
       "sourceCanonical": "Portal Correio",
       "sourceDomain": "portalcorreio.com.br",
-      "publishedAt": "2026-09-07T12:01:24+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_140153d799d7",
-      "title": "\"O El Niño mais intenso do que qualquer outro nos últimos mil anos\": especialistas não têm certeza do que vai acontecer, mas os sinais de alerta não param de se acumular",
-      "description": "Dizem que, nas praias das ilhas Wolf e Darwin, repousam blocos de corais mortos encalhados na areia. Eles estão lá há quatro mil e...",
-      "url": "https://www.xataka.com.br/ciencia/nino-mais-intenso-do-que-qualquer-outro-nos-ultimos-mil-anos-especialistas-nao-tem-certeza-do-que-vai-acontecer-os-sinais-alerta-nao-param-se-acumular",
-      "source": "Xataka Brasil",
-      "sourceCanonical": "Xataka Brasil",
-      "sourceDomain": "xataka.com.br",
-      "publishedAt": "2026-09-07T18:00:28+00:00",
+      "publishedAt": "2026-09-07T11:58:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -285,10 +271,38 @@
       "sourceCanonical": "O Tempo",
       "sourceDomain": "otempo.com.br",
       "publishedAt": "2026-09-07T22:12:25+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_411dc704445f",
+      "title": "Bahia tem 90% do território em seca; risco de crise hídrica cresce",
+      "description": "O avanço da estiagem em praticamente todo o estado acendeu o alerta para o abastecimento de água. Dados do Monitor de Secas da Agência...",
+      "url": "https://seliguebahia.com.br/bahia/seca-e-influencia-do-el-nino-ampliam-alerta-sobre-abastecimento-de-agua-na-bahia/",
+      "source": "Se Ligue Bahia",
+      "sourceCanonical": "Se Ligue Bahia",
+      "sourceDomain": "seliguebahia.com.br",
+      "publishedAt": "2026-09-07T22:04:43+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_e0c729e0d95b",
+      "title": "Corais guardaram mil anos de história do El Niño e agora revelam mudança surpreendente no comportamento do fenômeno nas últimas 4 décadas",
+      "description": "Corais das Galápagos revelam que a variabilidade do El Niño aumentou nas últimas décadas em comparação com o período pré-industrial.",
+      "url": "https://www.diariodolitoral.com.br/diario-mais/corais-guardaram-mil-anos-de-historia-do-el-nino-e-agora-revelam-mudanca-surpreendente-no-comportamento-do-fenomeno-nas-ultimas-4-decadas/",
+      "source": "Diário do Litoral",
+      "sourceCanonical": "Diário do Litoral",
+      "sourceDomain": "diariodolitoral.com.br",
+      "publishedAt": "2026-09-07T17:41:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_cfc0541216c8",
@@ -303,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_9ab3ba87f73b",
-      "title": "Dados apontam que 90% do território da Bahia está sob algum grau de seca",
-      "description": "Seca e influência do El Niño ampliam alerta sobre abastecimento de água na Bahia. O avanço da seca na Bahia, associado à influência do...",
-      "url": "https://classepolitica.com.br/noticia/dados-apontam-que-90-do-territorio-da-bahia-esta-sob-algum-grau-de-seca",
-      "source": "classepolitica.com.br",
-      "sourceCanonical": "classepolitica.com.br",
-      "sourceDomain": "classepolitica.com.br",
-      "publishedAt": "2026-09-07T18:44:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 6,
     "average": 5,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 8,
+      "center": 7,
       "centerRight": 0,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {

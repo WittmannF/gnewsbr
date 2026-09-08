@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 50
+      "topic-8": 49
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 50,
-    "bestSeedRank": 50,
+    "firstSeenRank": 49,
+    "bestSeedRank": 49,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/destacao-dia-7-4XZry.png",
   "publishedAt": "2026-08-28T07:00:00+00:00",
-  "updatedAt": "2026-09-08T03:41:47.184550+00:00",
+  "updatedAt": "2026-09-08T04:40:24.185427+00:00",
   "sourceCount": 4,
   "articleCount": 15,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Calor acima de 38ºC acelera maturação de grãos nos Estados Unidos",
       "description": "Redução da umidade do solo atinge áreas das Grandes Planícies e do Meio-Oeste, enquanto o mercado monitora os efeitos sobre milho e soja.",
       "url": "https://www.canalrural.com.br/agricultura/calor-acima-de-38oc-acelera-maturacao-de-graos-nos-estados-unidos/",
-      "source": "Canal Rural",
-      "sourceCanonical": "Canal Rural",
+      "source": "canalrural.com.br",
+      "sourceCanonical": "canalrural.com.br",
       "sourceDomain": "canalrural.com.br",
       "publishedAt": "2026-09-03T14:42:26+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1467bf825e01",
@@ -129,6 +129,20 @@
       "sourceDomain": "noticiasagricolas.com.br",
       "publishedAt": "2026-09-04T15:05:59+00:00",
       "postedLabel": "3 dias atrás",
+      "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/thumb-1-qfed1.jpg",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_3fea114f1e1e",
+      "title": "Nova edição do Crop Tour Grupo Labhoro-Notícias Agrícolas reforça importância de conferência in loco da safra dos EUA e os impactos no mercado de grãos",
+      "description": "Nova edição do Crop Tour Grupo Labhoro-Notícias Agrícolas reforça importância de conferência in loco da safra dos EUA e os impactos no...",
+      "url": "https://www.noticiasagricolas.com.br/videos/agronegocio/427154-crop-tour-2026-eua.html",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
+      "sourceDomain": "noticiasagricolas.com.br",
+      "publishedAt": "2026-08-28T07:00:00+00:00",
+      "postedLabel": "10 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -143,20 +157,6 @@
       "sourceDomain": "noticiasagricolas.com.br",
       "publishedAt": "2026-09-02T22:46:05+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_3fea114f1e1e",
-      "title": "Nova edição do Crop Tour Grupo Labhoro-Notícias Agrícolas reforça importância de conferência in loco da safra dos EUA e os impactos no mercado de grãos",
-      "description": "Nova edição do Crop Tour Grupo Labhoro-Notícias Agrícolas reforça importância de conferência in loco da safra dos EUA e os impactos no...",
-      "url": "https://www.noticiasagricolas.com.br/videos/agronegocio/427154-crop-tour-2026-eua.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-08-28T07:00:00+00:00",
-      "postedLabel": "10 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -247,24 +247,24 @@
     }
   ],
   "spectrum": {
-    "min": 6,
+    "min": 7,
     "max": 7,
-    "average": 6.92,
-    "knownCount": 13,
-    "unknownCount": 2,
+    "average": 7,
+    "knownCount": 12,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 1,
+      "center": 0,
       "centerRight": 12,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 27,
-    "headlineDivergence": 73,
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
+    "headlineDivergence": 70,
     "confidence": 95
   },
   "flags": [
