@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5,
-      "topic-5": 40
+      "topic-3": 7,
+      "topic-5": 42
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
+    "firstSeenRank": 7,
+    "bestSeedRank": 7,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/cRVXQxeV3nJcj0Ph1lI7byTvx-4=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/q/wHvH7oSnKJZnm69e8gaQ/fotojet-3-2-.jpg",
   "publishedAt": "2026-08-28T07:00:00+00:00",
-  "updatedAt": "2026-09-09T04:29:23.957208+00:00",
+  "updatedAt": "2026-09-09T05:25:39.149325+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -57,14 +57,14 @@
       "title": "Quaest: Cleitinho lidera corrida ao governo de MG com 32% no 1º turno",
       "description": "Pesquisa Quaest divulgada hoje mostra Cleitinho (Republicanos) na liderança para o governo de Minas Gerais, com 32% das intenções de voto no...",
       "url": "https://noticias.uol.com.br/eleicoes/2026/09/08/quaest-governador-e-senado-em-mg.ghtm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-08T20:17:33+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_7e5fc708ceff",
@@ -118,7 +118,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-08T11:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/QCTDBEFP3BHBNPJEZVR7WBTEHE.jpg?quality=80&auth=fdc67776f3c185260ca07c8cf40c9051919dfe51f8d752aaba32256e46fd45c2&width=1200&height=630&focal=1989,627",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -215,7 +215,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-08T23:32:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -291,20 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c2d4deea758d",
-      "title": "Quaest: Cleitinho lidera com 32%; Kalil e Patrus empatam em 2º com 11%",
-      "description": "O candidato ao Governo de Minas, Cleitinho Azevedo (Republicanos), segue na liderança da corrida eleitoral, aponta pesquisa da Genial Quaest...",
-      "url": "https://www.hojeemdia.com.br/quaest-cleitinho-lidera-com-32-kalil-e-patrus-empatam-em-2-com-11-1.1132036",
-      "source": "Hoje em Dia",
-      "sourceCanonical": "Hoje em Dia",
-      "sourceDomain": "hojeemdia.com.br",
-      "publishedAt": "2026-09-08T20:25:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_4b7b333933d4",
       "title": "Líder nas pesquisas, Cleitinho tem menos da metade do tempo de TV de Simões em MG",
       "description": "Líder nas pesquisas de intenção de voto para o governo de Minas Gerais, o candidato Cleitinho Azevedo (Republicanos) tem 1 minuto e 7...",
@@ -317,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c2d4deea758d",
+      "title": "Quaest: Cleitinho lidera com 32%; Kalil e Patrus empatam em 2º com 11%",
+      "description": "O candidato ao Governo de Minas, Cleitinho Azevedo (Republicanos), segue na liderança da corrida eleitoral, aponta pesquisa da Genial Quaest...",
+      "url": "https://www.hojeemdia.com.br/quaest-cleitinho-lidera-com-32-kalil-e-patrus-empatam-em-2-com-11-1.1132036",
+      "source": "Hoje em Dia",
+      "sourceCanonical": "Hoje em Dia",
+      "sourceDomain": "hojeemdia.com.br",
+      "publishedAt": "2026-09-08T20:25:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.2,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.19,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 8,
+      "center": 9,
       "centerRight": 3,
       "right": 1,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
