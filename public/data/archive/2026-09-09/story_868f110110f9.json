@@ -3,36 +3,42 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKd2JYMkVSRWVWazJGNW9EczRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKd2JYMkVSRWVWazJGNW9EczRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 3
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Fachin • STF",
   "summary": "Presidente da Corte se reuniu com integrantes do governo para buscar uma saída para a guerra instalada no tribunal que preserve o equilíbrio...",
-  "topic": "Fachin · Mendonça",
+  "topic": "Mendonça · Fachin",
   "topicKeywords": [
-    "fachin",
     "mendonça",
+    "fachin",
     "moraes",
-    "crise",
     "stf",
-    "master"
+    "master",
+    "crise"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/MUAJAFFVSRF4DGH47CLF4JUTWU.jpg?quality=80&auth=b0e6a14b48164b07eda4584f46724049b313d4b4c31c05f5a2230afa2cc509fa&width=1200&height=630&smart=true",
-  "publishedAt": "2026-09-06T23:35:05+00:00",
-  "updatedAt": "2026-09-09T05:33:26.506572+00:00",
-  "sourceCount": 17,
+  "publishedAt": "2026-09-04T00:19:18+00:00",
+  "updatedAt": "2026-09-09T06:38:14.563495+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -64,11 +70,25 @@
       "bucket": "center"
     },
     {
+      "id": "article_6a7c20bc46a8",
+      "title": "O Supremo está uma bagunça",
+      "description": "Ao afastar o diretor-geral da PF, Mendonça dá o troco em Moraes, que usara a corporação contra o colega. Cabe a Fachin restabelecer a ordem...",
+      "url": "https://www.estadao.com.br/opiniao/o-supremo-esta-uma-bagunca/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-09T06:02:00+00:00",
+      "postedLabel": "36 minutos atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_200ec808863e",
       "title": "Mendonça planejou por um mês afastar chefe da PF, e relatório divulgado por Moraes selou decisão",
       "description": "Relator do Master e do INSS sinalizou a Fachin no início de agosto que medida drástica poderia ser necessária.",
       "url": "https://www1.folha.uol.com.br/poder/2026/09/mendonca-planejou-por-um-mes-afastar-chefe-da-pf-e-relatorio-divulgado-por-moraes-selou-decisao.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-08T21:31:00+00:00",
@@ -82,28 +102,14 @@
       "title": "Caso Master pode ser anulado? Como crise entre ministros do STF pode afetar investigação",
       "description": "Para criminalista, Moraes tem dificuldade de se defender de suspeitas e busca ampla anulação da operação Compliance Zero.",
       "url": "https://www.bbc.com/portuguese/articles/cx2z0v90eydo",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-08T07:52:21+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_8e2d59b2c5d2",
-      "title": "Mendonça libera ao plenário análise de relatório com mensagens de Moraes e Vorcaro",
-      "description": "Fachin decidirá se e quando o caso será submetido aos ministros; PGR sustenta que cabe ao colegiado deliberar sobre eventual investigação.",
-      "url": "https://www.migalhas.com.br/quentes/463967/mendonca-libera-analise-de-relatorio-sobre-moraes-e-vorcaro",
-      "source": "migalhas.com.br",
-      "sourceCanonical": "migalhas.com.br",
-      "sourceDomain": "migalhas.com.br",
-      "publishedAt": "2026-09-06T23:35:05+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_716173261e35",
@@ -115,7 +121,7 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-07T03:05:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://s2-oglobo.glbimg.com/lXsCSwPT7q9687PMPJnlZrKclAo=/5962x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/y/i/8B6yFqQ7mA8sNVX3Kc9w/116100389-brazilian-supreme-court-justice-alexandre-de-moraes-r-looks-on-next-to-justice-andre-mendo.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -124,42 +130,42 @@
       "title": "Moraes tem de sair: a hora de Fachin e da sociedade civil",
       "description": "Guilherme Cunha Pereira, presidente da Gazeta do Povo, afirma que Edson Fachin precisa urgentemente agir para frear Alexandre de Moraes, e a...",
       "url": "https://www.gazetadopovo.com.br/opiniao/editoriais/alexandre-de-moraes-saida-edson-fachin-sociedade-civil/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-08T17:53:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_b4c864db5b45",
       "title": "Moraes no inquérito das fake news",
       "description": "Uso de relatório apócrifo para incriminar colega de STF deveria incluir automaticamente o relator do 'inquérito do fim do mundo' na...",
       "url": "https://oantagonista.com.br/analise/moraes-no-inquerito-das-fake-news/",
-      "source": "oantagonista.com.br",
-      "sourceCanonical": "oantagonista.com.br",
+      "source": "O Antagonista",
+      "sourceCanonical": "O Antagonista",
       "sourceDomain": "oantagonista.com.br",
       "publishedAt": "2026-09-07T10:36:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_2aea0492cb7e",
       "title": "O afastamento necessário de André Mendonça – Pedro Benedito Maciel Neto",
       "description": "As recentes decisões do ministro André Mendonça, do Supremo Tribunal Federal são moralmente desprezíveis e comprometem, além da moralidade e...",
       "url": "https://www.brasil247.com/blog/o-afastamento-necessario-de-andre-mendonca/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-08T22:45:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_80287bbda274",
@@ -190,32 +196,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_734c41b81dfc",
-      "title": "Mendonça e Moraes jogam truco no Supremo enquanto Fachin demora para pôr ordem na Corte",
-      "description": "Mendonça repete o que Moraes fez em 2020 com Ramagem; resta saber se os seus pares vão referendar sua decisão.",
-      "url": "https://www.estadao.com.br/politica/marcelo-godoy/mendonca-e-moraes-jogam-truco-no-supremo-enquanto-fachin-demora-para-por-ordem-na-corte/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-08T18:32:51+00:00",
+      "id": "article_8e2d59b2c5d2",
+      "title": "Mendonça libera ao plenário análise de relatório com mensagens de Moraes e Vorcaro",
+      "description": "Fachin decidirá se e quando o caso será submetido aos ministros; PGR sustenta que cabe ao colegiado deliberar sobre eventual investigação.",
+      "url": "https://www.migalhas.com.br/quentes/463967/mendonca-libera-analise-de-relatorio-sobre-moraes-e-vorcaro",
+      "source": "Migalhas",
+      "sourceCanonical": "Migalhas",
+      "sourceDomain": "migalhas.com.br",
+      "publishedAt": "2026-09-06T23:35:05+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_28b22eb492de",
+      "title": "\"Judiciário brasileiro está à altura dos desafios que se apresentam\", diz Fachin em meio à crise no Supremo",
+      "description": "Presidente do STF discursou em evento do Conselho Nacional de Justiça (CNJ) com corregedores nesta terça-feira (8)",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/judiciario-brasileiro-esta-a-altura-dos-desafios-que-se-apresentam-diz-fachin-em-meio-a-crise-no-supremo-cmtt99sbn00kf01358gef16kg.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-09-09T03:10:37+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_4870b8eaa2d4",
+      "title": "Fachin estuda assumir relatoria do Master e do INSS no Supremo",
+      "description": "Decisão seria tomada para conter uma crise institucional e a escalada de confrontos na Corte.",
+      "url": "https://noticias.r7.com/brasilia/fachin-estuda-assumir-relatoria-do-master-e-do-inss-no-supremo-08092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-08T13:19:50+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_a204d7c32c53",
-      "title": "Justiça “está à altura dos desafios” e cumprirá seus deveres, diz Fachin",
-      "description": "Fachin afirmou que o Judiciário cumprirá seus deveres constitucionais enquanto conduz os desdobramentos da crise no STF.",
-      "url": "https://www.gazetadopovo.com.br/republica/justica-esta-a-altura-dos-desafios-e-cumprira-seus-deveres-diz-fachin/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-08T22:04:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_d3f8dcee5fa9",
@@ -232,20 +252,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_0c59d26c1433",
-      "title": "STF: Fachin espera manifestações de Moraes e Mendonça até sexta",
-      "description": "O presidente do Supremo Tribunal Federal, Edson Fachin, aguarda explicações dos ministros Alexandre de Moraes e André Mendonça para decidir...",
-      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/saude/audio/2026-09/stf-fachin-espera-manifestacoes-de-moraes-e-mendonca-ate-sexta",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-09-07T22:33:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7f7d000c9076",
       "title": "Fachin diz que Judiciário não se omitirá diante de deveres constitucionais",
       "description": "Presidente do STF e do CNJ fez a declaração em meio à crise entre os ministros André Mendonça e Alexandre de Moraes.",
@@ -260,18 +266,32 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_b3bd94a80cef",
-      "title": "Em meio a nova crise, Fachin defende diálogo e diz que Justiça cumprirá deveres constitucionais",
-      "description": "Declaração ocorre após a decisão do ministro André Mendonça de afastar o diretor-geral da Polícia Federal, Andrei Rodrigues.",
-      "url": "https://noticias.r7.com/brasilia/em-meio-a-nova-crise-fachin-defende-dialogo-e-diz-que-justica-cumprira-deveres-constitucionais-08092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-08T12:24:24+00:00",
-      "postedLabel": "hoje",
+      "id": "article_0c59d26c1433",
+      "title": "STF: Fachin espera manifestações de Moraes e Mendonça até sexta",
+      "description": "O presidente do Supremo Tribunal Federal, Edson Fachin, aguarda explicações dos ministros Alexandre de Moraes e André Mendonça para decidir...",
+      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/saude/audio/2026-09/stf-fachin-espera-manifestacoes-de-moraes-e-mendonca-ate-sexta",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-09-07T22:33:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_307b7b2dced3",
+      "title": "Alexandre pede a presidente do STF que André Mendonça seja investigado",
+      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, encaminhou ao presidente da corte, ministro Edson Fachin, documentos da Polícia...",
+      "url": "https://conjur.com.br/2026-set-03/alexandre-pede-a-fachin-que-andre-mendonca-seja-investigado/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-09-04T00:19:18+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bfe3315057b0",
@@ -288,47 +308,33 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_276584a43db7",
-      "title": "‘Remédio que piora o paciente’: oposição rechaça plano de tirar casos de Mendonça",
-      "description": "A hipótese de Edson Fachin avocar para si as relatorias dos inquéritos do Master e do INSS é malvista. Para senadores, a medida inflamaria...",
-      "url": "https://www.em.com.br/politica/platobr/2026/09/7496551-remedio-que-piora-o-paciente-oposicao-rechaca-plano-de-tirar-casos-de-mendonca.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-09T03:07:00+00:00",
+      "id": "article_54200f491f34",
+      "title": "Presidente do STF se diz \"plenamente convencido\" de que Judiciário está à altura dos desafios no momento",
+      "description": "O presidente do Supremo ‌Tribunal Federal (STF), Edson Fachin, disse nesta terça-feira estar ...",
+      "url": "https://www.terra.com.br/noticias/brasil/presidente-do-stf-se-diz-plenamente-convencido-de-que-judiciario-esta-a-altura-dos-desafios-no-momento,4b064c6e44c3af8ec7ffa277bad5d191h602haqu.html",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-09T04:21:00+00:00",
       "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_9ca3436864ff",
-      "title": "Fachin precisa combinar cautela e urgência diante da escalada da crise",
-      "description": "... escalada da crise. Decisão de Mendonça, em meio ao prazo estabelecido para manifestações, eleva a pressão e a tensão. 08/09/2026 | 16:30. Taline Oppitz.",
-      "url": "https://www.correiodopovo.com.br/colunistas/taline-oppitz/fachin-precisa-combinar-cautela-e-urgencia-diante-da-escalada-da-crise-1.1746138",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-09-08T19:33:01+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
-    "max": 7,
-    "average": 5.07,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "min": 2,
+    "max": 8,
+    "average": 5.67,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 2,
-      "centerLeft": 2,
-      "center": 6,
-      "centerRight": 4,
+      "left": 1,
+      "centerLeft": 3,
+      "center": 5,
+      "centerRight": 6,
       "right": 0,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +346,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
