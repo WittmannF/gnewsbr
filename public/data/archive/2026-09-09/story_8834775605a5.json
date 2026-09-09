@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 7,
-      "topic-5": 42
+      "topic-3": 6,
+      "topic-5": 8
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/cRVXQxeV3nJcj0Ph1lI7byTvx-4=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/q/wHvH7oSnKJZnm69e8gaQ/fotojet-3-2-.jpg",
   "publishedAt": "2026-08-28T07:00:00+00:00",
-  "updatedAt": "2026-09-09T07:29:31.166500+00:00",
+  "updatedAt": "2026-09-09T08:32:37.714307+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -85,14 +85,14 @@
       "title": "Veja pesquisa para governador e Senado em Minas Gerais",
       "description": "A nova pesquisa Real Time Big Data, divulgada nesta terça-feira (8), mostra como está a disputa para o governo de Minas Gerais e para o...",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-minas-gerais-setembro-2026/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-08T10:40:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/04160554/pesquisa-minas-gerais.png",
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_7d2e7df74f30",
@@ -104,7 +104,7 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-08T13:08:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/08/Cleitinho_Kalil_patrus_.jpg",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -131,7 +131,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-09-09T05:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -151,20 +151,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_af7e9233afa0",
-      "title": "Real Time: líder em MG, Cleitinho também tem maior rejeição; veja ranking",
-      "description": "Belo Horizonte — Líder em quase todos os cenários da disputa pelo governo de Minas Gerais, o senador Cleitinho Azevedo (Republicanos) também...",
-      "url": "https://www.metropoles.com/minas-gerais/real-time-lider-em-mg-cleitinho-tambem-tem-maior-rejeicao-veja-ranking",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-08T13:47:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_5f8c6137ab27",
       "title": "Cleitinho tem 32% das intenções de voto contra 11% de Kalil e 11% de Patrus, aponta Quest",
       "description": "Pesquisa Quaest divulgada nesta terça-feira, 8, sobre o cenário eleitoral de Minas Gerais aponta ...",
@@ -173,6 +159,20 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-08T20:40:23+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_af7e9233afa0",
+      "title": "Real Time: líder em MG, Cleitinho também tem maior rejeição; veja ranking",
+      "description": "Belo Horizonte — Líder em quase todos os cenários da disputa pelo governo de Minas Gerais, o senador Cleitinho Azevedo (Republicanos) também...",
+      "url": "https://www.metropoles.com/minas-gerais/real-time-lider-em-mg-cleitinho-tambem-tem-maior-rejeicao-veja-ranking",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-08T13:47:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.27,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.44,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
       "center": 9,
-      "centerRight": 3,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
