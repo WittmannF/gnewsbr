@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 45
+      "topic-3": 66
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 45,
-    "bestSeedRank": 45,
+    "firstSeenRank": 66,
+    "bestSeedRank": 66,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/I-YfMK1Su575BWSSLStdG3AVWvM=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/X/A/tzOPUXRqAn2cGzNVV9Kw/montagem-horizontal-1280x720px-1-.jpg",
   "publishedAt": "2026-09-02T15:33:10+00:00",
-  "updatedAt": "2026-09-09T19:23:51.551448+00:00",
+  "updatedAt": "2026-09-09T20:29:03.714834+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-08T20:17:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -138,14 +138,14 @@
       "title": "Pesquisa Quaest: como o eleitor lida com a polarização contínua",
       "description": "Uma nova pesquisa do Instituto Quaest para a eleição presidencial de 2026, divulgada em 2 de setembro, revela um cenário político que...",
       "url": "https://www.correiobraziliense.com.br/aqui/2026/09/08/pesquisa-quaest-como-o-eleitor-lida-com-a-polarizacao-continua/",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-08T13:15:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4a31c6f99765",
@@ -198,7 +198,7 @@
       "sourceCanonical": "boca.com.br",
       "sourceDomain": "boca.com.br",
       "publishedAt": "2026-09-09T14:53:21+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -260,6 +260,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_605d31e3b481",
+      "title": "Quaest: veja como está a disputa presidencial nos Estados",
+      "description": "Nova rodada da Quaest mostra Flávio Bolsonaro à frente de Lula em São Paulo, Rio de Janeiro e Distrito Federal; presidente lidera em Minas...",
+      "url": "https://tvtnews.com.br/quaest-como-esta-disputa-presidencial-estados/",
+      "source": "TVT News",
+      "sourceCanonical": "TVT News",
+      "sourceDomain": "tvtnews.com.br",
+      "publishedAt": "2026-09-09T16:05:55+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_e59595106b4e",
       "title": "Nova pesquisa Quaest revela cenário atual da disputa presidencial - Ponta Porã Informa - Notícias de Ponta",
       "description": "Uma nova pesquisa de intenções de voto para a Presidência da República foi divulgada nesta terça-feira (23) pela Quaest. O levantamento aponta o atual.",
@@ -272,20 +286,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_605d31e3b481",
-      "title": "Quaest: veja como está a disputa presidencial nos Estados",
-      "description": "Nova rodada da Quaest mostra Flávio Bolsonaro à frente de Lula em São Paulo, Rio de Janeiro e Distrito Federal; presidente lidera em Minas...",
-      "url": "https://tvtnews.com.br/quaest-como-esta-disputa-presidencial-estados/",
-      "source": "TVT News",
-      "sourceCanonical": "TVT News",
-      "sourceDomain": "tvtnews.com.br",
-      "publishedAt": "2026-09-09T16:05:55+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_ec835e4aa0d8",
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.9,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 7,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
