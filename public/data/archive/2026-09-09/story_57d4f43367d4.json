@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 29,
-      "topic-5": 31
+      "topic-3": 28,
+      "topic-5": 28
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 28,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/ybIQpymWQFW4NolhruhAA6inRng=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/o/KV7AVnQX2DYSqERRPHYQ/260908-grafico-intencao-de-voto-para-senador-2-.jpg",
   "publishedAt": "2026-08-31T05:00:00+00:00",
-  "updatedAt": "2026-09-09T12:36:51.013968+00:00",
+  "updatedAt": "2026-09-09T13:26:06.329021+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -57,14 +57,14 @@
       "title": "Benedita da Silva e Crivella lideram disputa pelo Senado no RJ, diz pesquisa Quaest",
       "description": "A deputada federal Benedita da Silva (PT) lidera a disputa pelas duas vagas do Rio de Janeiro no Senado em 2026, segundo pesquisa Quaest...",
       "url": "https://www.cartacapital.com.br/politica/benedita-da-silva-e-crivella-lideram-disputa-pelo-senado-no-rj-diz-pesquisa-quaest/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-08T21:54:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/Rio2.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_8cefafbf0ebc",
@@ -104,7 +104,7 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-08T10:00:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://i.metroimg.com/GFgbv9gJRXkFSJ-c8XFP70qeOLGOP_Kg7_Vv3Z4ikiQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/benedita-e-crivella.jpeg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -130,8 +130,8 @@
       "source": "Jovem Pan",
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-01T14:45:00+00:00",
-      "postedLabel": "7 dias atrás",
+      "publishedAt": "2026-09-01T07:00:00+00:00",
+      "postedLabel": "8 dias atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -183,8 +183,8 @@
       "title": "Benedita, Crivella, Pedro Paulo e Jordy disputam liderança pelo Senado no Rio",
       "description": "Real Time Big Data mostra Benedita e Crivella com 14%, Pedro Paulo com 13% e Carlos Jordy com 11% na disputa pelo Senado no Rio.",
       "url": "https://www.diariodorio.com/politica/2026/09/02/benedita-crivella-pedro-paulo-e-jordy-disputam-lideranca-pelo-senado-no-rio.html",
-      "source": "Diário do Rio",
-      "sourceCanonical": "Diário do Rio",
+      "source": "diariodorio.com",
+      "sourceCanonical": "diariodorio.com",
       "sourceDomain": "diariodorio.com",
       "publishedAt": "2026-09-02T14:26:24+00:00",
       "postedLabel": "6 dias atrás",
@@ -299,7 +299,7 @@
       "sourceCanonical": "correiodamanha.com.br",
       "sourceDomain": "correiodamanha.com.br",
       "publishedAt": "2026-09-04T12:59:00+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -320,28 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 9,
-    "average": 5.89,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.5,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 2,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
