@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 46
+      "topic-8": 45
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 46,
-    "bestSeedRank": 46,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/RDLCPTOOHFN7DHLVL3D5AOKBDA.jpg?quality=80&auth=481a67990400b5254d7e20db0b018fa26b2d7a407e1455b3df193a0be6aed647&width=1200&height=630&focal=344,330",
   "publishedAt": "2026-08-31T11:22:29+00:00",
-  "updatedAt": "2026-09-09T06:54:13.705176+00:00",
+  "updatedAt": "2026-09-09T07:49:19.491912+00:00",
   "sourceCount": 10,
   "articleCount": 13,
   "articles": [
@@ -40,8 +40,8 @@
       "title": "Quanto vale a Foz do Amazonas para a Petrobras? As contas do Scotiabank",
       "description": "Eleições? Para a Petrobras, as definições sobre a exploração da Foz do Amazonas serão bem mais importantes do que o resultado das urnas...",
       "url": "https://braziljournal.com/quanto-vale-a-foz-do-amazonas-para-a-petrobras-as-contas-do-scotiabank/",
-      "source": "Brazil Journal",
-      "sourceCanonical": "Brazil Journal",
+      "source": "braziljournal.com",
+      "sourceCanonical": "braziljournal.com",
       "sourceDomain": "braziljournal.com",
       "publishedAt": "2026-09-08T20:43:43+00:00",
       "postedLabel": "hoje",
@@ -152,14 +152,14 @@
       "title": "20 anos do pré-sal: expansão produtiva, internacionalização e desafios à soberania energética brasileira",
       "description": "Pré-sal faz 20 anos com alta produção, mais exportação de óleo cru e debate sobre Petrobras, leilões e soberania energética; entenda os...",
       "url": "https://www.brasil247.com/blog/20-anos-do-pre-sal-expansao-produtiva-internacionalizacao-e-desafios-a-soberania-energetica-brasileira/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-03T09:17:00+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/08/2026-08-03T143546Z_1_LYNXMPEM72174_RTROPTP_4_PETROBRAS.jpg?w=1200&quality=88&strip=all",
-      "spectrumScore": 1,
-      "bucket": "left"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_114c73547be3",
@@ -171,23 +171,9 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-08T10:57:50+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/RDLCPTOOHFN7DHLVL3D5AOKBDA.jpg?quality=80&auth=481a67990400b5254d7e20db0b018fa26b2d7a407e1455b3df193a0be6aed647&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_1929373fa1c7",
-      "title": "Pode o Brasil alterar o regime regulatório de sua principal fronteira petrolífera?",
-      "description": "Existem fundamentos sólidos para discutir a instituição do regime de partilha de produção na Margem Equatorial brasileira, mas a mudança...",
-      "url": "https://www.bnamericas.com/pt/feature/pode-o-brasil-alterar-o-regime-regulatorio-de-sua-principal-fronteira-petrolifera",
-      "source": "BNamericas",
-      "sourceCanonical": "BNamericas",
-      "sourceDomain": "bnamericas.com",
-      "publishedAt": "2026-08-31T11:22:29+00:00",
-      "postedLabel": "8 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_c97b7108d1c2",
@@ -202,6 +188,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_1929373fa1c7",
+      "title": "Pode o Brasil alterar o regime regulatório de sua principal fronteira petrolífera?",
+      "description": "Existem fundamentos sólidos para discutir a instituição do regime de partilha de produção na Margem Equatorial brasileira, mas a mudança...",
+      "url": "https://www.bnamericas.com/pt/feature/pode-o-brasil-alterar-o-regime-regulatorio-de-sua-principal-fronteira-petrolifera",
+      "source": "BNamericas",
+      "sourceCanonical": "BNamericas",
+      "sourceDomain": "bnamericas.com",
+      "publishedAt": "2026-08-31T11:22:29+00:00",
+      "postedLabel": "8 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3e99ab54c3a7",
@@ -219,25 +219,25 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 5,
     "max": 7,
-    "average": 5,
-    "knownCount": 6,
-    "unknownCount": 7,
+    "average": 5.8,
+    "knownCount": 5,
+    "unknownCount": 8,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 3,
       "centerRight": 2,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
-    "confidence": 89
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
+    "confidence": 86
   },
   "flags": [
     "Alta cobertura",
