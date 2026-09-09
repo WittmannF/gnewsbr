@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 60
+      "topic-3": 63
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 63,
+    "bestSeedRank": 63,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +31,9 @@
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/07/10/675x450/1_55384612147-fdd21e8c47-c-67150175.jpg",
   "publishedAt": "2026-09-04T20:17:00+00:00",
-  "updatedAt": "2026-09-09T14:27:07.534720+00:00",
+  "updatedAt": "2026-09-09T15:35:43.725984+00:00",
   "sourceCount": 10,
-  "articleCount": 12,
+  "articleCount": 13,
   "articles": [
     {
       "id": "article_4f85c8370bfe",
@@ -96,14 +96,14 @@
       "title": "Mais nomeações políticas e embaixadas sem titular: como Trump transformou a diplomacia dos EUA",
       "description": "Desde início do segundo mandato, presidente americano tem implementado mudanças profundas no Departamento de Estado.",
       "url": "https://www.bbc.com/portuguese/articles/cd9w5yk7wxdo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-05T17:36:25+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/9880/live/8ddd89a0-a950-11f1-ae8c-2528accc9a1a.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7ff95c451f26",
@@ -118,6 +118,20 @@
       "imageUrl": "https://www.ocafezinho.com/wp-content/uploads/2026/08/lula-flavio-datafolha-ago2026-thumb.jpg",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_2e399f8ca88f",
+      "title": "Sobre as eleições no Brasil – João Claudio Platenik Pitillo",
+      "description": "É preciso ter clareza de que Flávio Bolsonaro é o candidato de Donald Trump e que o que é bom para os Estados Unidos não é bom para o Brasil...",
+      "url": "https://www.brasil247.com/blog/sobre-as-eleicoes-no-brasil/",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-09T15:24:00+00:00",
+      "postedLabel": "11 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a32ec5c7f1a8",
@@ -143,23 +157,9 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-05T17:03:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/05/55264242319_5fb29b3b3b_k.jpg",
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_8733d1bb459e",
-      "title": "Interferência dos EUA na eleição brasileira é “possibilidade real”, diz diretor da The Atlantic",
-      "description": "Ações do governo norte-americano contra o Brasil revelam bastidores de desorganização, incompetência e influência da extrema-direita em...",
-      "url": "https://www.brasil247.com/midia/interferencia-dos-eua-na-eleicao-brasileira-e-possibilidade-real-diz-diretor-da-the-atlantic/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-05T13:48:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_a14e03ad6759",
@@ -202,28 +202,42 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8733d1bb459e",
+      "title": "Interferência dos EUA na eleição brasileira é “possibilidade real”, diz diretor da The Atlantic",
+      "description": "Ações do governo norte-americano contra o Brasil revelam bastidores de desorganização, incompetência e influência da extrema-direita em...",
+      "url": "https://www.brasil247.com/midia/interferencia-dos-eua-na-eleicao-brasileira-e-possibilidade-real-diz-diretor-da-the-atlantic/",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-05T13:48:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 3.29,
-    "knownCount": 7,
-    "unknownCount": 5,
+    "average": 3.17,
+    "knownCount": 6,
+    "unknownCount": 7,
     "buckets": {
       "left": 3,
-      "centerLeft": 3,
+      "centerLeft": 2,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 5
+      "unknown": 7
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 90
+    "confidence": 89
   },
   "flags": [
     "Alta cobertura",

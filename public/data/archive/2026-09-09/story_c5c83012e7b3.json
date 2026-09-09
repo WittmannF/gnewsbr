@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lVbDl2eUVSRWJVYzJNaTRRbDJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lVbDl2eUVSRWJVYzJNaTRRbDJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre São Paulo • chuva",
+  "title": "São Paulo tem alerta de chuva forte e ventania",
   "summary": "Previsão indica pancadas moderadas a fortes em grande parte do estado nesta quarta (9) e quinta-feira (10)",
   "topic": "Chuva · Alerta",
   "topicKeywords": [
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1-WhatsApp-Image-2026-09-08-at-17.27.56.jpeg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-08T10:03:00+00:00",
-  "updatedAt": "2026-09-09T14:30:36.649002+00:00",
+  "updatedAt": "2026-09-09T15:24:34.911099+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,32 +64,32 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-09T13:21:34+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2024/12/chuva_sp_1_1.webp?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_bd1857ba8cfc",
-      "title": "Defesa Civil emite alerta para chuva forte em São Paulo",
-      "description": "A previsão é de temporais, com possibilidade de raios, rajadas de vento e granizo em algumas regiões do estado, segundo a Defesa Civil.",
-      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/09/08/defesa-civil-emite-alerta-para-chuva-forte-em-sao-paulo.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-08T22:33:06+00:00",
+      "id": "article_56be208e337c",
+      "title": "Defesa Civil alerta para chuva forte quarta (9) e quinta (10) em São Paulo",
+      "description": "Região metropolitana da capital tem previsão de acumulados de até 70 mm e rajadas de vento.",
+      "url": "https://www1.folha.uol.com.br/cotidiano/2026/09/defesa-civil-alerta-para-chuva-forte-quarta-9-e-quinta-10-em-sao-paulo.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-09T08:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/08/17889193546aa0be3ac25d0_1788919354_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_0cfd86ff1408",
       "title": "SP entra em alerta para temporais",
       "description": "O estado de São Paulo vai passar por dias de forte instabilidade. Entre os dias 9 e 13 de setembro de 2026, uma combinação de fatores...",
       "url": "https://www.climatempo.com.br/noticia/sudeste/sp-entra-em-alerta-para-temporais",
-      "source": "climatempo.com.br",
-      "sourceCanonical": "climatempo.com.br",
+      "source": "Climatempo",
+      "sourceCanonical": "Climatempo",
       "sourceDomain": "climatempo.com.br",
       "publishedAt": "2026-09-08T23:21:00+00:00",
       "postedLabel": "hoje",
@@ -110,11 +116,25 @@
       "title": "Vale do Paraíba e Litoral Norte entram em alerta para chuva forte, granizo e ventos de até 65 km/h; veja previsão",
       "description": "A Defesa Civil de SP alerta para tempestades com granizo e ventos fortes no Vale do Paraíba e Litoral Norte entre esta quarta (9) e...",
       "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/09/08/chuva-forte-granizo-e-ventos-de-ate-65-kmh-colocam-vale-do-paraiba-e-litoral-norte-em-alerta-veja-previsao.ghtml",
-      "source": "g1.globo.com",
-      "sourceCanonical": "g1.globo.com",
+      "source": "G1",
+      "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-08T20:53:36+00:00",
       "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/uIfjuRFDI7TCF6pl5Y7CiFzu98I=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/V/CRUJazRnqNg0J0SHe1Xw/foto-g1-3-.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_2ce51c8bd3a1",
+      "title": "SP amanhece com chuva e pode ter temporais nesta quarta-feira; veja a previsão",
+      "description": "Nos próximos dias, todo o Estado deve ter fortes instabilidades; no litoral, os acumulados podem chegar a 70 milímetros.",
+      "url": "https://www.estadao.com.br/sao-paulo/sp-amanhece-com-chuva-e-pode-ter-temporais-nesta-quarta-feira-veja-a-previsao-npr/",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-09T10:39:00+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -132,20 +152,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_2ce51c8bd3a1",
-      "title": "SP amanhece com chuva e pode ter temporais nesta quarta-feira; veja a previsão",
-      "description": "Nos próximos dias, todo o Estado deve ter fortes instabilidades; no litoral, os acumulados podem chegar a 70 milímetros.",
-      "url": "https://www.estadao.com.br/sao-paulo/sp-amanhece-com-chuva-e-pode-ter-temporais-nesta-quarta-feira-veja-a-previsao-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-09T10:39:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/OGGBWNGDEJCY7CRNSQYSECKYNU.jpg?quality=80&auth=54f778d2ba0cd935eb933373b1870e6dee49942a65c3517b11bca4a19fd39fe5&width=1200&height=630&focal=1145,552",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_021d1ff0cffb",
@@ -166,8 +172,8 @@
       "title": "São Paulo terá chuva forte e temporais com nova frente fria",
       "description": "INMET prevê acumulados acima de 100 mm no centro-sul paulista até a próxima semana; capital pode ter 45 mm na quarta e 50 mm na...",
       "url": "https://ultimosegundo.ig.com.br/2026-09-08/sao-paulo-chuva-forte-temporais-nova-frente-fria.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
+      "source": "ultimosegundo.ig.com.br",
+      "sourceCanonical": "ultimosegundo.ig.com.br",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-09-09T00:04:00+00:00",
       "postedLabel": "hoje",
@@ -198,7 +204,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-09T12:35:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -208,14 +214,14 @@
       "title": "São Paulo registra tarde mais gelada de setembro em quase 26 anos",
       "description": "A combinação entre ar frio, nebulosidade e instabilidade mantém as temperaturas abaixo da média em parte do Centro-Sul do país.",
       "url": "https://www.brasil247.com/sudeste/sao-paulo-registra-tarde-mais-gelada-de-setembro-em-quase-26-anos/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-08T10:03:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_6bdb79f349bb",
@@ -226,6 +232,20 @@
       "sourceCanonical": "Agrolink",
       "sourceDomain": "agrolink.com.br",
       "publishedAt": "2026-09-08T19:47:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2e63eb218a32",
+      "title": "Interior de SP entra em alerta para chuva forte nesta quarta-feira; veja a previsão",
+      "description": "Defesa Civil prevê pancadas de chuva de intensidade moderada a forte, com possibilidade de raios e rajadas de vento; temperaturas variam...",
+      "url": "https://www.acidadeon.com/campinas/cotidiano/interior-de-sp-entra-em-alerta-para-chuva-forte-nesta-quarta-feira-veja-a-previsao/",
+      "source": "ACidade ON",
+      "sourceCanonical": "ACidade ON",
+      "sourceDomain": "acidadeon.com",
+      "publishedAt": "2026-09-09T00:47:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -260,20 +280,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f78fecc8b796",
-      "title": "Frio intenso diminui, mas chuvas continuam e SP tem alerta para tempestades",
-      "description": "Após dias frios durante o feriado prolongado da Independência, celebrado nessa segunda-feira (7/9), os termômetros de São Paulo devem subir...",
-      "url": "https://www.metropoles.com/sao-paulo/frio-diminiu-mas-sp-alerta-tempestades",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-08T10:25:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_c7309d6ec1df",
       "title": "SP entra em alerta para temporais a partir desta quarta (9)",
       "description": "Previsão indica acumulados de até 200 milímetros entre os dias 9 e 13 de setembro, com risco de alagamentos, deslizamentos e quedas de...",
@@ -285,6 +291,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_f78fecc8b796",
+      "title": "Frio intenso diminui, mas chuvas continuam e SP tem alerta para tempestades",
+      "description": "Após dias frios durante o feriado prolongado da Independência, celebrado nessa segunda-feira (7/9), os termômetros de São Paulo devem subir...",
+      "url": "https://www.metropoles.com/sao-paulo/frio-diminiu-mas-sp-alerta-tempestades",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-08T10:25:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -300,41 +320,27 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_2e63eb218a32",
-      "title": "Interior de SP entra em alerta para chuva forte nesta quarta-feira; veja a previsão",
-      "description": "Defesa Civil prevê pancadas de chuva de intensidade moderada a forte, com possibilidade de raios e rajadas de vento; temperaturas variam...",
-      "url": "https://www.acidadeon.com/campinas/cotidiano/interior-de-sp-entra-em-alerta-para-chuva-forte-nesta-quarta-feira-veja-a-previsao/",
-      "source": "ACidade ON",
-      "sourceCanonical": "ACidade ON",
-      "sourceDomain": "acidadeon.com",
-      "publishedAt": "2026-09-09T00:47:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 7,
-    "average": 5.3,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.44,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
-      "centerLeft": 0,
+      "left": 0,
+      "centerLeft": 1,
       "center": 6,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
