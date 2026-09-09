@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 24
+      "topic-8": 26
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://imagens.ebc.com.br/J_BJ-RTBPCNL_iw_XHX-VT4aO5U=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/banco_central_mcajr_abr_0104222276.jpg?itok=Wr5HSnOr",
   "publishedAt": "2026-09-08T11:30:39+00:00",
-  "updatedAt": "2026-09-09T08:51:58.706642+00:00",
+  "updatedAt": "2026-09-09T09:47:37.007883+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -92,20 +92,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_5b0f8c549742",
-      "title": "Focus: projeção de inflação para 2026 cai para 5%, enquanto PIB tem leve revisão",
-      "description": "Mercado reduz marginalmente estimativa para o IPCA deste ano, mantém Selic em 13,75% e revisa crescimento da economia brasileira para 1,93%",
-      "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-08092026/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-09-08T11:32:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_d9bf3ecbb365",
       "title": "Mercado reduz projeção da inflação para 5%, ainda acima da meta",
       "description": "Focus eleva PIB para 1,93% e mantém estimativas para Selic e dólar, em 13,75% e R$ 5,20 ao fim de 2026. Leia no Poder360.",
@@ -117,6 +103,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_5b0f8c549742",
+      "title": "Focus: projeção de inflação para 2026 cai para 5%, enquanto PIB tem leve revisão",
+      "description": "Mercado reduz marginalmente estimativa para o IPCA deste ano, mantém Selic em 13,75% e revisa crescimento da economia brasileira para 1,93%",
+      "url": "https://www.infomoney.com.br/economia/boletim-focus-projecoes-08092026/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-08T11:32:38+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -152,14 +152,14 @@
       "title": "Mercado melhora previsão para inflação e PIB de 2026, mas mantém Selic em 13,75%",
       "description": "Boletim Focus reduz projeção do IPCA de 5,01% para 5% e eleva estimativa de crescimento da economia de 1,92% para 1,93%",
       "url": "https://veja.abril.com.br/economia/mercado-melhora-previsao-para-inflacao-e-pib-de-2026-mas-mantem-selic-em-1375/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-08T11:41:58+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_afb40affe5a8",
@@ -278,14 +278,14 @@
       "title": "Mercado financeiro reduz estimativa da inflação para 5% e eleva projeção do PIB para 2026",
       "description": "Boletim Focus do Banco Central aponta ajuste nas expectativas para o IPCA e crescimento econômico de 1,93%, com taxa Selic mantida em 13,75%...",
       "url": "https://www.brasil247.com/economia/mercado-financeiro-reduz-estimativa-da-inflacao-para-5-e-eleva-projecao-do-pib-para-2026/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-08T11:53:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_c8d3412e295e",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 7,
-    "average": 5.5,
+    "average": 5,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 9,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 0,
       "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
