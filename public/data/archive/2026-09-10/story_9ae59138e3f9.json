@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2NTZyMEVSRzJEQmlXcTJGTUtDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2NTZyMEVSRzJEQmlXcTJGTUtDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Notícias sobre Vorcaro • STF",
   "summary": "Procedimento buscava esclarecer se houve interferência externa na elaboração de documento que revelou mensagens de Vorcaro a Moraes.",
@@ -31,13 +25,13 @@
     "mendonça",
     "stf",
     "moraes",
-    "fachin",
     "vorcaro",
+    "fachin",
     "ministro"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/pgr-paulo-gonet.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-01T07:00:00+00:00",
-  "updatedAt": "2026-09-10T09:26:03.531051+00:00",
+  "updatedAt": "2026-09-10T11:28:31.264894+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -58,7 +52,7 @@
     {
       "id": "article_58c5920ab442",
       "title": "Dino cita encontro de Mendonça com Vorcaro ao determinar volta de chefe da PF e chama decisão de 'interferência' sobre plenário do STF",
-      "description": "Relator do caso Master confirmou o encontro com Vorcaro no seu instituto, antes de assumir inquérito, mas disse que se 'limitou' a ouvir...",
+      "description": "O ministro Flávio Dino, do Supremo Tribunal Federal, destacou na sua decisão que reintegrou Andrei Rodrigues à direção-geral da Polícia...",
       "url": "https://oglobo.globo.com/politica/noticia/2026/09/09/dino-cita-encontro-de-mendonca-com-vorcaro-e-chama-decisao-de-interferencia-sobre-ministros-e-plenario.ghtml",
       "source": "O GLOBO",
       "sourceCanonical": "O Globo",
@@ -68,6 +62,20 @@
       "imageUrl": "https://s2-oglobo.glbimg.com/c2zQbsLOcDUDKlRlWblKv-N2Lbc=/5472x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/V/X/UKhmOIQpOZfkos0c5fYQ/6p3a9618.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_96492a9ea45c",
+      "title": "Moraes ou Mendonça: qual ministro do STF perde mais com novas decisões de Fachin",
+      "description": "Presidente da Corte suspendeu decisões sobre o comando da PF e assumiu a relatoria do inquérito das Fake News.",
+      "url": "https://veja.abril.com.br/politica/moraes-ou-mendonca-qual-ministro-do-stf-perde-mais-com-novas-decisoes-de-fachin/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-09T23:23:48+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/55343413723_efa532c72c_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_7ffe2ea61b92",
@@ -82,34 +90,6 @@
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/04/17885524796a9b251f5a0c0_1788552479_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_96492a9ea45c",
-      "title": "Moraes ou Mendonça: qual ministro do STF perde mais com novas decisões de Fachin",
-      "description": "Presidente da Corte suspendeu decisões sobre o comando da PF e assumiu a relatoria do inquérito das Fake News.",
-      "url": "https://veja.abril.com.br/politica/moraes-ou-mendonca-qual-ministro-do-stf-perde-mais-com-novas-decisoes-de-fachin/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-09T23:23:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/55343413723_efa532c72c_k.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_d87e121edd54",
-      "title": "O Supremo e o inquérito de Schrödinger",
-      "description": "O caso Banco Master produziu situação que faria inveja ao gato de Schrödinger. No experimento mental, o animal permanece, enquanto a caixa...",
-      "url": "https://conjur.com.br/2026-set-09/o-supremo-e-o-inquerito-de-schrodinger/",
-      "source": "Consultor Jurídico",
-      "sourceCanonical": "Consultor Jurídico",
-      "sourceDomain": "conjur.com.br",
-      "publishedAt": "2026-09-09T16:20:30+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_2d0019325da8",
@@ -196,6 +176,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_d87e121edd54",
+      "title": "O Supremo e o inquérito de Schrödinger",
+      "description": "O caso Banco Master produziu situação que faria inveja ao gato de Schrödinger. No experimento mental, o animal permanece, enquanto a caixa...",
+      "url": "https://conjur.com.br/2026-set-09/o-supremo-e-o-inquerito-de-schrodinger/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-09-09T16:20:30+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b0918f7ce20f",
       "title": "Crise no STF vira instrumento para proteger candidato e negar ao Brasil a verdade",
       "description": "Intromissão nas eleições é inaceitável, com parcialidade de relator do Master, que mantém escondidas as provas e protege Flávio Bolsonaro,...",
@@ -252,20 +246,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ab8359cc869d",
-      "title": "Fachin procura ministros e mostra disposição para punir Moraes",
-      "description": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, chamou ministros da Corte para conversas nesta semana sobre a crise no...",
-      "url": "https://www.metropoles.com/colunas/andreza-matais/fachin-procura-ministros-e-mostra-disposicao-para-punir-moraes",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-07T22:09:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_eed2af116521",
       "title": "CRÔNICAS DO PORTELINHA | Há processos que não terminam nos tribunais",
       "description": "Ganham as ruas. Entram nos discursos. Invadem os palanques. ANÚNCIO. E acabam chegando às urnas. O caso Master parece caminhar exatamente...",
@@ -278,6 +258,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ab8359cc869d",
+      "title": "Fachin procura ministros e mostra disposição para punir Moraes",
+      "description": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, chamou ministros da Corte para conversas nesta semana sobre a crise no...",
+      "url": "https://www.metropoles.com/colunas/andreza-matais/fachin-procura-ministros-e-mostra-disposicao-para-punir-moraes",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-07T22:09:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_fef5578e09f6",
@@ -308,33 +302,33 @@
       "bucket": "center"
     },
     {
-      "id": "article_76a0a17d3784",
-      "title": "Mendonça e Moraes jogam truco no Supremo enquanto Fachin demora para pôr ordem na Corte",
-      "description": "Mendonça repete o que Moraes fez em 2020 com Ramagem; resta saber se os seus pares vão referendar sua decisão.",
-      "url": "https://www.estadao.com.br/em-alta/politica/marcelo-godoy/mendonca-e-moraes-jogam-truco-no-supremo-enquanto-fachin-demora-para-por-ordem-na-corte/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-08T18:42:07+00:00",
-      "postedLabel": "ontem",
+      "id": "article_81924b01c44f",
+      "title": "Jornal Nacional não anunciou pedido de prisão preventiva contra Moraes; vídeo viral usa deepfake",
+      "description": "A revelação de uma troca de mensagens entre o ministro Alexandre de Moraes e o banqueiro Daniel Vorcaro, dono do Banco Master,...",
+      "url": "https://checamos.afp.com/doc.afp.com.C7UF2CQ",
+      "source": "AFP Checamos",
+      "sourceCanonical": "AFP Checamos",
+      "sourceDomain": "checamos.afp.com",
+      "publishedAt": "2026-09-09T19:40:30+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.55,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.4,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 3,
       "center": 5,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
