@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 20
+      "topic-7": 18
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/08/17889004956aa0748f2377e_1788900495_3x2_rt.jpg",
   "publishedAt": "2026-09-01T10:50:00+00:00",
-  "updatedAt": "2026-09-10T01:48:58.019550+00:00",
+  "updatedAt": "2026-09-10T02:45:10.697504+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -78,6 +78,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_79e4b4478630",
+      "title": "Jornal israelense diz que Netanyahu foi alertado dias antes do atentado terrorista do Hamas",
+      "description": "No jornal digital GZH, você encontra as últimas notícias do RS e do mundo, tudo sobre o seu time e muitos outros conteúdos exclusivos.",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/rodrigo-lopes/noticia/2026/09/jornal-israelense-diz-que-netanyahu-foi-alertado-dias-antes-do-atentado-terrorista-do-hamas-cmtufwzr400wi0135fh430rd0.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-09-09T20:13:20+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/3/7/0/1/6/8/5_a6c8cc9f7178ca3/5861073_53c105c4fee68fc.jpg?w=1200&h=675&a=c&version=1575255600",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_fc73771a98b2",
       "title": "EAU alertaram Netanyahu sobre ataque do Hamas, diz jornal",
       "description": "Reportagem do \"Haaretz\" afirma que Netanyahu ignorou alerta dos Emirados Árabes Unidos sobre ataque que Hamas planejava contra Israel.",
@@ -90,20 +104,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_79e4b4478630",
-      "title": "Jornal israelense diz que Netanyahu foi alertado dias antes do atentado terrorista do Hamas",
-      "description": "No jornal digital GZH, você encontra as últimas notícias do RS e do mundo, tudo sobre o seu time e muitos outros conteúdos exclusivos.",
-      "url": "https://gauchazh.clicrbs.com.br/colunistas/rodrigo-lopes/noticia/2026/09/jornal-israelense-diz-que-netanyahu-foi-alertado-dias-antes-do-atentado-terrorista-do-hamas-cmtufwzr400wi0135fh430rd0.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-09-09T20:11:06+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_988c3d10df5c",
@@ -180,14 +180,14 @@
       "title": "Oposição israelense ataca Netanyahu após denúncia sobre alerta antes de 7 de Outubro",
       "description": "Segundo o jornal Haaretz, o primeiro-ministro Benjamin Netanyahu teria recebido um telefonema do presidente dos Emirados Árabes Unidos,...",
       "url": "https://www.terra.com.br/noticias/mundo/oposicao-israelense-ataca-netanyahu-apos-denuncia-sobre-alerta-antes-de-7-de-outubro,23fcf6480df0af0a1dec08e72efa5732xau01tyx.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-09T09:25:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5548ab4e892c",
@@ -208,14 +208,14 @@
       "title": "Netanyahu enfrenta críticas após relato de que ignorou alerta sobre ataque de 7 de outubro",
       "description": "Com a publicação de alguns trechos de um livro escrito por dois de seus repórteres, o jornal Haaretz explica que o presidente emiradense,...",
       "url": "https://jovempan.com.br/mundo/netanyahu-enfrenta-criticas-apos-relato-de-que-ignorou-alerta-sobre-ataque-de-7-de-outubro/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
+      "source": "jovempan.com.br",
+      "sourceCanonical": "jovempan.com.br",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-08T10:26:01+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5fa22067fd31",
@@ -318,28 +318,29 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.06,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "max": 8,
+    "average": 4.79,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 6,
-      "center": 5,
+      "center": 4,
       "centerRight": 3,
-      "right": 1,
-      "unknown": 4
+      "right": 0,
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
