@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyaHNQMEVSSElSU1NTMElLWjN5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyaHNQMEVSSElSU1NTMElLWjN5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 12
+      "topic-5": 29,
+      "topic-7": 15
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 29,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/08/17889004956aa0748f2377e_1788900495_3x2_rt.jpg",
   "publishedAt": "2026-09-01T10:50:00+00:00",
-  "updatedAt": "2026-09-10T05:41:55.704192+00:00",
+  "updatedAt": "2026-09-10T06:47:02.877222+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -96,7 +99,7 @@
       "title": "EAU alertaram Netanyahu sobre ataque do Hamas, diz jornal",
       "description": "Reportagem do \"Haaretz\" afirma que Netanyahu ignorou alerta dos Emirados Árabes Unidos sobre ataque que Hamas planejava contra Israel.",
       "url": "https://www.dw.com/pt-br/eau-alertaram-netanyahu-sobre-ataque-do-hamas-pouco-antes-do-7-de-outubro-diz-jornal/a-79197986",
-      "source": "DW.com",
+      "source": "dw.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-09-09T09:31:13+00:00",
@@ -110,28 +113,28 @@
       "title": "A situação política de Netanyahu está se complicando: suas responsabilidades em relação ao dia 7 de outubro estão influenciando as eleições",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
       "url": "https://www.ihu.unisinos.br/670673-a-situacao-politica-de-netanyahu-esta-se-complicando-suas-responsabilidades-em-relacao-ao-dia-7-de-outubro-estao-influenciando-as-eleicoes",
-      "source": "ihu.unisinos.br",
-      "sourceCanonical": "ihu.unisinos.br",
+      "source": "Instituto Humanitas Unisinos - IHU",
+      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-09-09T16:43:47+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_9f52035a0af6",
       "title": "Netanyahu sabia dos ataques de 7 de outubro, diz jornal, e oposição pede renúncia do premiê",
       "description": "Investigação do 'Haaretz' revela que o líder israelense havia sido avisado pelos Emirados Árabes sobre invasão do Hamas quase 10 dias antes.",
       "url": "https://veja.abril.com.br/mundo/netanyahu-sabia-dos-ataques-de-7-de-outubro-diz-jornal-e-oposicao-pede-renuncia-do-premie/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-08T22:57:27+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_59ef7c0b0bf9",
@@ -292,14 +295,14 @@
       "title": "Esposa de Netanyahu compartilha teoria da conspiração sobre líder opositor",
       "description": "Sara Netanyahu, esposa do primeiro-ministro israelense Benjamin Netanyahu, afirmou que um líder da oposição tinha conhecimento do plano para...",
       "url": "https://www.em.com.br/internacional/2026/09/7491326-esposa-de-netanyahu-compartilha-teoria-da-conspiracao-sobre-lider-opositor.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
+      "source": "em.com.br",
+      "sourceCanonical": "em.com.br",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-09-01T10:50:00+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3921c02be457",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.93,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 4.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
-      "centerLeft": 5,
-      "center": 5,
-      "centerRight": 3,
+      "centerLeft": 6,
+      "center": 4,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
