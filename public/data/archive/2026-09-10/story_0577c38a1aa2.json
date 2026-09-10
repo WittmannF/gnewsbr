@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 39
+      "topic-3": 38
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 39,
-    "bestSeedRank": 39,
+    "firstSeenRank": 38,
+    "bestSeedRank": 38,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/10/15.laerciosenador.jpg?w=799&h=533&crop=1",
   "publishedAt": "2026-09-02T07:00:00+00:00",
-  "updatedAt": "2026-09-10T08:36:18.546325+00:00",
+  "updatedAt": "2026-09-10T09:29:46.486227+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Viana vê Senado omisso após decisões de Fachin: ‘Voltem para Brasília’",
       "description": "O senador Carlos Viana (PSD-MG) criticou, nesta quarta-feira (9), a ausência de senadores em Brasília enquanto o Supremo Tribunal Federal...",
       "url": "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/viana-ve-senado-omisso-apos-decisoes-de-fachin-voltem-para-brasilia",
-      "source": "diariodopoder.com.br",
-      "sourceCanonical": "diariodopoder.com.br",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-09T22:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_2671d4db3470",
@@ -288,20 +288,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_93c6157c1a33",
-      "title": "Carlos Viana representa contra Alcolumbre no Conselho de Ética",
-      "description": "Viana acusa Alcolumbre de omissão diante dos pedidos contra Moraes e pede seu afastamento cautelar da presidência do Senado.",
-      "url": "https://www.congressoemfoco.com.br/noticia/121959/carlos-viana-representa-contra-alcolumbre-no-conselho-de-etica",
-      "source": "Congresso em Foco",
-      "sourceCanonical": "Congresso em Foco",
-      "sourceDomain": "congressoemfoco.com.br",
-      "publishedAt": "2026-09-03T21:50:48+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ee7b039a19be",
       "title": "Em entrevista à CNN, Laércio defende reunião de líderes para definir impeachment de ministro do STF",
       "description": "Laércio Oliveira disse em entrevista à CNN que é preciso respeitar o rito no Senado, mas que é a crise no Supremo deve ser enfrentada.",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_93c6157c1a33",
+      "title": "Carlos Viana representa contra Alcolumbre no Conselho de Ética",
+      "description": "Viana acusa Alcolumbre de omissão diante dos pedidos contra Moraes e pede seu afastamento cautelar da presidência do Senado.",
+      "url": "https://www.congressoemfoco.com.br/noticia/121959/carlos-viana-representa-contra-alcolumbre-no-conselho-de-etica",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-09-03T21:50:48+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
-    "max": 8,
-    "average": 5.33,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 9,
+    "average": 5.56,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 3,
       "center": 9,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 5
+      "right": 1,
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }

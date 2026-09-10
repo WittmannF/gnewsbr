@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 10
+      "topic-5": 15
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ministro-andre-mendonca-plenario-stf-1.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-08T21:44:33+00:00",
-  "updatedAt": "2026-09-10T08:42:58.067851+00:00",
+  "updatedAt": "2026-09-10T09:36:22.653489+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Mendonça solta ex-contador suspeito de movimentar recursos desviados de aposentados",
       "description": "Samuel Chrisostomo, ligado à Conafer, usará tornozeleira eletrônica e ficará proibido de deixar o país e procurar outros investigados.",
       "url": "https://jovempan.com.br/colunistas/bruno-pinheiro/mendonca-solta-ex-contador-suspeito-de-movimentar-recursos-desviados-de-aposentados/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-08T21:44:33+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/05/fotografia-32.png?w=1000&h=600&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_9e5beea05b82",
@@ -101,7 +101,7 @@
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-09-09T16:15:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://imagens.ebc.com.br/V12EIX644ihCGO52J51ievJuk_I=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/52441529977_f3565b5d7d_o.jpg?itok=rlgK9Uj5",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -194,14 +194,14 @@
       "title": "Mendonça retira tornozeleira de ex-ministro de Bolsonaro investigado pela PF por fraudes no INSS",
       "description": "Mendonça retira tornozeleira de ex-ministro de Bolsonaro investigado pela PF por fraudes no INSS. A decisão divulgada na terça-feira, 8,...",
       "url": "https://www.terra.com.br/noticias/videos/mendonca-retira-tornozeleira-de-ex-ministro-de-bolsonaro-investigado-pela-pf-por-fraudes-no-inss,b172baedfe0ffd305cebb9a994e4d884llcvzk4b.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-09T12:29:23+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9320f161b501",
@@ -222,14 +222,14 @@
       "title": "Mendonça troca prisão de filho do “Careca do INSS” por tornozeleira",
       "description": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), substituiu nesta quarta-feira (9) a prisão preventiva de Romeu Carvalho...",
       "url": "https://diariodopoder.com.br/brasil-e-regioes/e12-brasil/mendonca-troca-prisao-de-filho-do-careca-do-inss-por-tornozeleira",
-      "source": "diariodopoder.com.br",
-      "sourceCanonical": "diariodopoder.com.br",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-09T21:23:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_cdc125d3922a",
@@ -318,29 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "max": 9,
+    "average": 5.53,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 6
+      "right": 2,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

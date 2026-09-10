@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2NTZyMEVSRzJEQmlXcTJGTUtDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2NTZyMEVSRzJEQmlXcTJGTUtDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Vorcaro • STF",
   "summary": "Procedimento buscava esclarecer se houve interferência externa na elaboração de documento que revelou mensagens de Vorcaro a Moraes.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/pgr-paulo-gonet.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-01T07:00:00+00:00",
-  "updatedAt": "2026-09-10T08:42:39.338495+00:00",
+  "updatedAt": "2026-09-10T09:26:03.531051+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -184,7 +190,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-09T09:16:17+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
