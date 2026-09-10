@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/trump-putin.jpg?w=800&h=547&crop=1",
   "publishedAt": "2026-09-05T15:12:14+00:00",
-  "updatedAt": "2026-09-10T03:42:59.929327+00:00",
+  "updatedAt": "2026-09-10T04:41:29.945999+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -180,14 +180,14 @@
       "title": "Putin e Trump discutem resolução da guerra da Ucrânia após visita de enviados dos EUA",
       "description": "O presidente da Rússia, Vladimir Putin, e o presidente dos Estados Unidos, Donald Trump, discutiram nesta terça-feira (8) o resultado das...",
       "url": "https://www.brasildefato.com.br/2026/09/08/putin-e-trump-discutem-resolucao-da-guerra-da-ucrania-apos-visita-de-enviados-dos-eua/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
+      "source": "brasildefato.com.br",
+      "sourceCanonical": "brasildefato.com.br",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-08T15:54:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f39dd78e971f",
@@ -204,20 +204,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_87c70c46a04a",
-      "title": "Trump afirma que Putin deseja fazer um acordo sobre a guerra na Ucrânia",
-      "description": "Declaração de Trump aconteceu antes de viagem para Dallas, onde o presidente dos EUA participa de uma convenção do Partido Republicano.",
-      "url": "https://www.metropoles.com/mundo/trump-afirma-que-putin-deseja-fazer-um-acordo-sobre-a-guerra-na-ucrania",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-09T20:24:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_d99fddd6571c",
       "title": "Trump defende fim rápido de guerra na Ucrânia em ligação com Putin",
       "description": "Kremlin diz que chamada durou uma hora e que presidente dos EUA também falou sobre restauração plena das relações com a Rússia.",
@@ -227,6 +213,20 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-08T15:58:18+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_87c70c46a04a",
+      "title": "Trump afirma que Putin deseja fazer um acordo sobre a guerra na Ucrânia",
+      "description": "Declaração de Trump aconteceu antes de viagem para Dallas, onde o presidente dos EUA participa de uma convenção do Partido Republicano.",
+      "url": "https://www.metropoles.com/mundo/trump-afirma-que-putin-deseja-fazer-um-acordo-sobre-a-guerra-na-ucrania",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-09T20:24:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 9,
-    "average": 5.44,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "average": 5.65,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 12,
       "centerRight": 3,
       "right": 1,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
