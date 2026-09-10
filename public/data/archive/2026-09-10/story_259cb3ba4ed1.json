@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 25
+      "topic-3": 28
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 28,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/aparte/2026/8/19/aparte-eleicoes_2026-frei_gaspar-pt-1787166357.png",
   "publishedAt": "2026-09-02T20:03:00+00:00",
-  "updatedAt": "2026-09-10T07:29:17.938563+00:00",
+  "updatedAt": "2026-09-10T08:35:26.840957+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -50,20 +50,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_94a02819cb0b",
-      "title": "Pesquisa governador de MG: veja o que dizem últimos números",
-      "description": "Levantamentos de Quaest e AtlasIntel mostram cenários de 1º e 2º turno para o governo de Minas, além de modalidades como espontânea e...",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/09/08/pesquisa-governador-de-mg-veja-o-que-dizem-ultimos-numeros.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-08T23:01:24+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_60999d1518c9",
       "title": "Quaest em MG: Cleitinho, 32%; Patrus, 11%; Kalil, 11%; Simões, 8%",
       "description": "Pesquisa divulgada nesta terça-feira foi encomendada pela Globo. Margem de erro é de três pontos percentuais.",
@@ -74,6 +60,20 @@
       "publishedAt": "2026-09-09T16:33:33+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://s03.video.glbimg.com/x720/14945266.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_94a02819cb0b",
+      "title": "Pesquisa governador de MG: veja o que dizem últimos números",
+      "description": "Levantamentos de Quaest e AtlasIntel mostram cenários de 1º e 2º turno para o governo de Minas, além de modalidades como espontânea e...",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/09/08/pesquisa-governador-de-mg-veja-o-que-dizem-ultimos-numeros.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-09-08T23:01:24+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -124,14 +124,14 @@
       "title": "Pesquisa Quaest mostra três nomes na briga pelo segundo lugar em Minas Gerais",
       "description": "Levantamento ouviu 1.506 eleitores com idades a partir dos 16 anos entre os dias 4 e 7 de setembro.",
       "url": "https://veja.abril.com.br/brasil/pesquisa-quaest-mostra-lideranca-de-cleitinho-em-mg-e-tres-na-briga-pela-segunda-posicao/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-08T20:25:19+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_f540f2675873",
@@ -278,14 +278,14 @@
       "title": "Cleitinho lidera corrida pelo Governo de Minas com 41%, aponta pesquisa",
       "description": "O senador Cleitinho Azevedo (Republicanos) lidera a disputa pelo Governo de Minas Gerais com 41% das intenções de voto no primeiro turno,...",
       "url": "https://diariodopoder.com.br/brasil-e-regioes/minas-gerais/e12-minas-gerais/cleitinho-lidera-corrida-pelo-governo-de-minas-com-41-aponta-pesquisa",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
+      "source": "diariodopoder.com.br",
+      "sourceCanonical": "diariodopoder.com.br",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-08T19:28:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8e686914fcc4",
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.24,
+    "max": 8,
+    "average": 5.12,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 10,
-      "centerRight": 3,
-      "right": 1,
+      "centerRight": 4,
+      "right": 0,
       "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
