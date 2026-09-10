@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyemFyNkVSR2dUcE9LSXdJR2pDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyemFyNkVSR2dUcE9LSXdJR2pDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Partido Republicano realiza convenção nacional inédita no Texas",
   "summary": "Presidente dos EUA diz que benefício seria pago a todos os cidadãos adultos, desde que o dinheiro seja gasto no país.",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "trump",
     "republicanos",
-    "eleições",
-    "convenção",
     "promete",
-    "mil"
+    "eleições",
+    "mil",
+    "convenção"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/tE20Oj2hKIzBX7RYNpqoIU44HX4=/3008x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/z/2/1sViGhRoKaPLzWC5b9rQ/2026-09-10t021845z-101481978-rc22gna7ql79-rtrmadp-3-usa-election-republicans.jpg",
   "publishedAt": "2026-09-08T19:57:12+00:00",
-  "updatedAt": "2026-09-10T06:50:56.229834+00:00",
+  "updatedAt": "2026-09-10T07:26:54.676311+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,18 +56,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_9a4df5c38dc6",
+      "title": "Convenção republicana: Trump defende guerra com o Irão, ataca democratas e promete dinheiro aos eleitores",
+      "description": "Donald Trump, na convenção republicana de meio de mandato desta quarta-feira, promete 5 mil dólares a cada adulto americano se os...",
+      "url": "https://pt.euronews.com/2026/09/10/convencao-republicana-trump-defende-guerra-com-o-irao-ataca-democratas-e-promete-dinheiro-",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-09-10T07:17:55+00:00",
+      "postedLabel": "8 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_f95911b596ce",
       "title": "Trump promete dar US$ 5 mil a americanos se republicanos vencerem eleições",
       "description": "O presidente Donald Trump discursou hoje durante a primeira convenção republicana voltada às eleições de meio de mandato, em Dallas (Texas).",
       "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/09/donald-trump-presidente-eua-estados-unidos-convencao-republicano.ghtm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-10T01:55:42+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_fd515d75d00c",
@@ -90,20 +110,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_59e47742f62e",
-      "title": "Trump ataca democratas e repete discursos de comício em convenção republicana",
-      "description": "Presidente usou evento para inflar seus feitos e se aproximar do partido às vésperas das eleições de meio de mandato.",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/09/trump-ataca-democratas-e-repete-discursos-de-comicio-em-convencao-republicana.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-10T02:08:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/09/17890035506aa2071e33f6e_1789003550_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_3137694c9c58",
@@ -148,60 +154,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_d6a4a86c4c91",
-      "title": "Estados Unidos: republicanos colocam Trump no centro de inédita convenção para as eleições intercalares",
-      "description": "Trump discursa na sessão principal de quarta-feira e regressa na quinta-feira para o encerramento, após o discurso do vice-presidente JD...",
-      "url": "https://pt.euronews.com/2026/09/09/estados-unidos-republicanos-colocam-trump-no-centro-de-inedita-convencao-para-as-eleicoes-",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-09-09T11:11:43+00:00",
-      "postedLabel": "hoje",
+      "id": "article_cbfca94ab917",
+      "title": "Trump pede a multidão eufórica que o deixe \"terminar o trabalho\" e o voto nos republicanos",
+      "description": "Num discurso de quase duas horas, Trump pediu os eleitores que \"finjam\" que é o nome dele que estará no boletim de voto nas eleições...",
+      "url": "https://www.rtp.pt/noticias/mundo/trump-pede-a-multidao-euforica-que-o-deixe-terminar-o-trabalho-e-o-voto-nos-republicanos_n1764519",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
+      "sourceDomain": "rtp.pt",
+      "publishedAt": "2026-09-10T05:45:58+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_d05d98d297b0",
+      "title": "EUA: Trump promete US$ 5 mil para adultos caso republicanos vençam eleições",
+      "description": "Presidente americano prometeu pagar dividendo para cada adulto americano caso o partido vença a disputa de meio de mandato no Senado e na...",
+      "url": "https://www.cnnbrasil.com.br/internacional/eua-trump-promete-us-5-mil-para-adultos-caso-republicanos-vencam-eleicoes/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-10T02:18:16+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_84a05a81fd91",
       "title": "Trump promete US$ 5 mil para cada americano se republicanos mantiverem Congresso nas eleições",
       "description": "Últimas notícias sobre os acontecimentos do mundo. Informações sobre política, economia, cultura, cotidiano, conflitos, em todo mundo.",
       "url": "https://www.em.com.br/internacional/2026/09/7497445-trump-promete-uss-5-mil-para-cada-americano-se-republicanos-mantiverem-congresso-nas-eleicoes.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-09-10T02:41:00+00:00",
       "postedLabel": "4 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c84de96ee18b",
-      "title": "Trump realiza convenção republicana para eleições de Meio de Mandato",
-      "description": "A dois meses das Midterms, presidente americano adota medida incomum com evento que reúne autoridades do partido em Dallas, no Texas,...",
-      "url": "https://www.cnnbrasil.com.br/internacional/trump-realiza-convencao-republicana-para-eleicoes-de-meio-de-mandato/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-09T09:00:41+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_f4a830d81829",
-      "title": "Trump pede a multidão eufórica que o deixe \"terminar o trabalho\"",
-      "description": "Num discurso de quase duas horas, Trump pediu os eleitores que \"finjam\" que é o nome dele que estará no boletim de voto nas eleições...",
-      "url": "https://www.noticiasaominuto.com/mundo/3049109/trump-pede-a-multidao-euforica-que-o-deixe-terminar-o-trabalho",
-      "source": "Notícias ao Minuto",
-      "sourceCanonical": "Notícias ao Minuto",
-      "sourceDomain": "noticiasaominuto.com",
-      "publishedAt": "2026-09-10T03:38:17+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_97ea8a1428b1",
@@ -274,43 +266,57 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_b97e547aeb74",
+      "title": "O presidente dos EUA está concentrando seus esforços na mobilização dos eleitores republicanos antes das eleições de meio de mandato.",
+      "description": "Enfatizando o risco de reverter políticas importantes caso perca o poder, o presidente dos EUA, Donald Trump, pediu aos republicanos que se...",
+      "url": "https://www.vietnam.vn/pt/tong-thong-my-don-suc-huy-dong-cu-tri-cong-hoa-truoc-bau-cu-giua-nhiem-ky",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-09-10T07:07:45+00:00",
+      "postedLabel": "19 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_7a111d2c6cbd",
+      "title": "Trump minimiza ausência de republicanos em convenção do partido",
+      "description": "Presidente dos EUA justifica falta de espaço e aposta em eventos de unidade para as eleições.",
+      "url": "https://boca.com.br/politica/trump-minimiza-ausencia-republicanos-convencao",
+      "source": "boca.com.br",
+      "sourceCanonical": "boca.com.br",
+      "sourceDomain": "boca.com.br",
+      "publishedAt": "2026-09-10T03:21:32+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_7886c7ec5e41",
       "title": "Trump promete R$ 25 mil por pessoa se republicanos vencerem eleições",
       "description": "Norte-americanos vão às urnas em novembro para as chamadas eleições de meio de mandato.",
       "url": "https://www.metropoles.com/mundo/trump-promete-r-25-mil-por-pessoa-se-republicanos-vencerem-eleicoes",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-10T06:33:00+00:00",
-      "postedLabel": "17 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_d44cf117f4cf",
-      "title": "Trump minimiza ausência de republicanos em convenção e diz que ‘não há espaço para todos’",
-      "description": "O presidente dos Estados Unidos, Donald Trump, minimizou nesta quarta-feira (9) as preocupações sobre a ausência de alguns republicanos na...",
-      "url": "https://fatoamazonico.com.br/trump-minimiza-ausencia-de-republicanos-em-convencao-e-diz-que-nao-ha-espaco-para-todos/",
-      "source": "Fato Amazônico",
-      "sourceCanonical": "Fato Amazônico",
-      "sourceDomain": "fatoamazonico.com.br",
-      "publishedAt": "2026-09-09T22:22:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_8bf78a952eea",
-      "title": "Eleições de meio de mandato nos EUA: Trump determinado a revitalizar o moral republicano em meio à turbulência.",
-      "description": "Em um discurso desafiador na Convenção Republicana de Meio de Mandato em Dallas, o presidente dos EUA, Donald Trump, afirmou que o Partido...",
-      "url": "https://www.vietnam.vn/pt/bau-cu-giua-ky-my-ong-trump-quyet-xoc-lai-tinh-than-phe-cong-hoa-giua-song-gio",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-09-10T05:34:41+00:00",
       "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_aaa9f090e9b1",
+      "title": "Trump chega a Dallas para convenção do Partido Republicano",
+      "description": "O presidente dos EUA, Donald Trump, chegou a Dallas nesta quarta-feira (9) no momento em que os republicanos davam início à sua primeira...",
+      "url": "https://contilnetnoticias.com.br/noticias/trump-chega-a-dallas-para-convencao-do-partido-republicano/",
+      "source": "ContilNet",
+      "sourceCanonical": "ContilNet",
+      "sourceDomain": "contilnetnoticias.com.br",
+      "publishedAt": "2026-09-09T23:20:51+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,27 +325,26 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.2,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.25,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
-      "center": 6,
+      "centerLeft": 0,
+      "center": 9,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
