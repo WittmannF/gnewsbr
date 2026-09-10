@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 21
+      "topic-7": 20
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 20,
+    "bestSeedRank": 20,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "netanyahu",
     "outubro",
-    "jornal",
     "ataque",
-    "hamas",
-    "israel"
+    "jornal",
+    "alerta",
+    "hamas"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/08/17889004956aa0748f2377e_1788900495_3x2_rt.jpg",
   "publishedAt": "2026-09-01T10:50:00+00:00",
-  "updatedAt": "2026-09-10T01:13:48.380929+00:00",
+  "updatedAt": "2026-09-10T01:48:58.019550+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -87,7 +87,7 @@
       "sourceDomain": "dw.com",
       "publishedAt": "2026-09-09T09:31:13+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.dw.com/image/77568978_6.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -204,6 +204,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_e54422bb47f4",
+      "title": "Netanyahu enfrenta críticas após relato de que ignorou alerta sobre ataque de 7 de outubro",
+      "description": "Com a publicação de alguns trechos de um livro escrito por dois de seus repórteres, o jornal Haaretz explica que o presidente emiradense,...",
+      "url": "https://jovempan.com.br/mundo/netanyahu-enfrenta-criticas-apos-relato-de-que-ignorou-alerta-sobre-ataque-de-7-de-outubro/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-08T10:26:01+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_5fa22067fd31",
       "title": "Netanyahu teria sido avisado sobre o ataque do Hamas dias antes do 7 de Outubro, diz jornal",
       "description": "Segundo o 'Haaretz' o presidente dos Emirados Árabes Unidos teria falado diretamente com o premiê israelense. Netanyahu nega.",
@@ -300,41 +314,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_3921c02be457",
-      "title": "Dilúvio de al-Aqsa ocorreu porque ‘Israel’ recusou cumprir acordo, revela jornal",
-      "description": "Netanyahu retardou entendimento praticamente concluído com o Hamas e recebeu vários avisos de que Sinwar preparava uma grande operação.",
-      "url": "https://causaoperaria.org.br/2026/diluvio-de-al-aqsa-ocorreu-porque-israel-recusou-cumprir-acordo-revela-jornal/",
-      "source": "Diário Causa Operária",
-      "sourceCanonical": "Diário Causa Operária",
-      "sourceDomain": "causaoperaria.org.br",
-      "publishedAt": "2026-09-09T03:00:18+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 4.8,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 9,
+    "average": 5.06,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 6,
       "center": 5,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 5
+      "right": 1,
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [

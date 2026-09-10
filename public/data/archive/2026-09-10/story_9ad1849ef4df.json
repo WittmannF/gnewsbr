@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 27
+      "topic-7": 26
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/ctCxnyFhLUZTFqrDDqy6bdlDj_s=/1591x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/x/U/53jZbrQTCF7iDydhaDGA/ap26252134545533.jpg",
   "publishedAt": "2026-08-31T14:08:00+00:00",
-  "updatedAt": "2026-09-10T01:14:04.181505+00:00",
+  "updatedAt": "2026-09-10T01:49:15.904263+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Sete aeroportos seguem fechados na Indonésia por cinzas vulcânicas",
       "description": "Cinzas do Anak Krakatau, localizado entre as ilhas de Java e Sumatra, cobrem Jacarta e várias áreas próximas desde a erupção.",
       "url": "https://www.cnnbrasil.com.br/internacional/aeroportos-fechados-na-indonesia-cinzas-vulcanicas/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-07T09:56:38+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/vulcao_indonesia_setembro-2.png?w=1141&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d30092fbe5f9",
@@ -185,7 +185,7 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-09T07:02:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://i.metroimg.com/WpWpoMq8zL47HLX78BJdc2DTwbW1iECOvJqYHS1CRO4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/vulcao-anak-krakatau.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9270160e0a3d",
-      "title": "Cinzas de vulcão mantêm principal aeroporto da Indonésia fechado e afetam centenas de milhares de viajantes",
-      "description": "As autoridades da Indonésia prolongaram até o fim desta segunda-feira (7) o fechamento do Aeroporto Internacional Soekarno-Hatta,...",
-      "url": "https://www.terra.com.br/noticias/mundo/cinzas-de-vulcao-mantem-principal-aeroporto-da-indonesia-fechado-e-afetam-centenas-de-milhares-de-viajantes,3881706bf1617639fbf41ab6e70a080cco0zdyxv.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-07T16:07:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_c488224f9e54",
       "title": "Vulcão Sinabung entra em erupção na Indonésia",
       "description": "O vulcão Sinabung, um dos mais ativos da Indonésia, entrou em erupção nesta segunda-feira (31) após vários dias de intensa atividade e...",
@@ -230,6 +216,20 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_9270160e0a3d",
+      "title": "Cinzas de vulcão mantêm principal aeroporto da Indonésia fechado e afetam centenas de milhares de viajantes",
+      "description": "As autoridades da Indonésia prolongaram até o fim desta segunda-feira (7) o fechamento do Aeroporto Internacional Soekarno-Hatta,...",
+      "url": "https://www.terra.com.br/noticias/mundo/cinzas-de-vulcao-mantem-principal-aeroporto-da-indonesia-fechado-e-afetam-centenas-de-milhares-de-viajantes,3881706bf1617639fbf41ab6e70a080cco0zdyxv.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-07T16:07:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f6cd42841ef9",
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.67,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 5.57,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 4,
+      "center": 5,
       "centerRight": 0,
       "right": 1,
-      "unknown": 14
+      "unknown": 13
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 80,
     "headlineDivergence": 85,
-    "confidence": 93
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
