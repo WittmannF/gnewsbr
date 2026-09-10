@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 10
+      "topic-7": 16
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
+    "firstSeenRank": 16,
+    "bestSeedRank": 16,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/qNUEsiiqFjcwZQ6zM7Y4GxX2nSg=/3600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/v/A/9l40NKR0yH2u80r1QvKw/000-1mw3tg.jpg",
   "publishedAt": "2026-09-10T09:33:32+00:00",
-  "updatedAt": "2026-09-10T22:33:05.756405+00:00",
+  "updatedAt": "2026-09-10T23:35:20.135695+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-09-10T21:21:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://cdn.jsdelivr.net/gh/sergiosdlima/assets-ebc@1.0.0/public/thumbs/thumb_1200x600_agbrasil.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -96,14 +96,14 @@
       "title": "Incêndio em navio atracado em porto na China deixa ao menos 25 mortos",
       "description": "Um incêndio em um navio de bandeira estrangeira atracado em um porto do leste da China deixou 25 mortos nesta quinta-feira, 10,...",
       "url": "https://veja.abril.com.br/mundo/incendio-em-navio-atracado-em-porto-na-china-deixa-ao-menos-25-mortos/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-10T16:19:32+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_dbe91b3139d4",
@@ -226,7 +226,7 @@
       "sourceCanonical": "Jornal Gazeta de Varginha",
       "sourceDomain": "gazetadevarginha.com.br",
       "publishedAt": "2026-09-10T17:28:04+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,7 +254,7 @@
       "sourceCanonical": "CPAD News",
       "sourceDomain": "cpadnews.com.br",
       "publishedAt": "2026-09-10T18:57:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.7,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 5,
+    "average": 4.44,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
       "center": 6,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
