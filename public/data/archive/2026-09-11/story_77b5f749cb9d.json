@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 54
+      "topic-4": 48
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 54,
-    "bestSeedRank": 54,
+    "firstSeenRank": 48,
+    "bestSeedRank": 48,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +29,9 @@
     "estreia",
     "pré"
   ],
-  "imageUrl": "https://www.estadao.com.br/resizer/v2/KWGKENKKCRND3ENX53ZSXWUOLE.jpg?quality=80&auth=8633d82bd2772977955bb5e9d3c4071c4a950bd048b208fbe4e3954843559d01&width=1200&height=630&smart=true",
+  "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/vingadores-doutor-destino-capa-1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
   "publishedAt": "2026-09-06T14:14:06+00:00",
-  "updatedAt": "2026-09-11T07:35:06.465744+00:00",
+  "updatedAt": "2026-09-11T08:37:51.563261+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Vingadores: Doutor Destino já arrecadou US$ 50 milhões antes de estrear",
       "description": "Esportes. Sabalenka bate 'freguesa' Pegula e vai buscar o tricampeonato do US Open diante de Rybakina. Leia o resumo.",
       "url": "https://www.estadao.com.br/em-alta/minha-serie/radar-pop/vingadores-doutor-destino-ja-arrecadou-us-50-milhoes-antes-de-estrear/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-10T15:25:39+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/KWGKENKKCRND3ENX53ZSXWUOLE.jpg?quality=80&auth=8633d82bd2772977955bb5e9d3c4071c4a950bd048b208fbe4e3954843559d01&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0251bbed8150",
@@ -138,8 +138,8 @@
       "title": "'Vingadores: Juízo Final' está esgotando mesmo faltando três meses para o lançamento.",
       "description": "O próximo grande lançamento do Universo Cinematográfico Marvel (MCU) está previsto apenas para o final deste ano. Mas, até o momento,...",
       "url": "https://www.vietnam.vn/pt/avengers-doomsday-chay-ve-du-3-thang-nua-moi-chieu",
-      "source": "vietnam.vn",
-      "sourceCanonical": "vietnam.vn",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-09-10T06:18:45+00:00",
       "postedLabel": "ontem",
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1da59bcbc579",
-      "title": "Vingadores: Doutor Destino – Vaza o novo trailer completo do filme",
-      "description": "Vaza o novo trailer completo de Vingadores: Doutor Destino. Insider revela que material pode ser exibido antes com Ultimato. Assista em...",
-      "url": "https://legadodamarvel.com.br/vingadores-doutor-destino-vaza-novo-trailer-completo/",
-      "source": "legadodamarvel.com.br",
-      "sourceCanonical": "legadodamarvel.com.br",
-      "sourceDomain": "legadodamarvel.com.br",
-      "publishedAt": "2026-09-08T14:30:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_65b392051139",
       "title": "'Vingadores: Doutor Destino' se torna o primeiro filme a ultrapassar US$ 40 milhões em bilheteria antes da estreia",
       "description": "A três meses da estreia, nova reunião d'Os Super-Heróis Mais Poderosos da Terra.",
@@ -314,28 +300,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_1da59bcbc579",
+      "title": "Vingadores: Doutor Destino – Vaza o novo trailer completo do filme",
+      "description": "Vaza o novo trailer completo de Vingadores: Doutor Destino. Insider revela que material pode ser exibido antes com Ultimato. Assista em...",
+      "url": "https://legadodamarvel.com.br/vingadores-doutor-destino-vaza-novo-trailer-completo/",
+      "source": "Legado da Marvel",
+      "sourceCanonical": "Legado da Marvel",
+      "sourceDomain": "legadodamarvel.com.br",
+      "publishedAt": "2026-09-08T14:30:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 6,
     "max": 7,
-    "average": 6.67,
-    "knownCount": 3,
-    "unknownCount": 17,
+    "average": 6.5,
+    "knownCount": 2,
+    "unknownCount": 18,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 1,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 17
+      "unknown": 18
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 84
+    "confidence": 81
   },
   "flags": [
     "Alta cobertura",
