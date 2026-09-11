@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/uvxe2timjjpddhgvjoztcouxo4-scaled.jpg",
   "publishedAt": "2026-09-07T12:11:19+00:00",
-  "updatedAt": "2026-09-11T22:21:28.634260+00:00",
+  "updatedAt": "2026-09-11T23:20:25.217045+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-10T22:45:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/uvxe2timjjpddhgvjoztcouxo4-scaled.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -86,7 +86,7 @@
       "sourceCanonical": "RedeTV!",
       "sourceDomain": "redetv.uol.com.br",
       "publishedAt": "2026-09-10T22:37:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,7 +128,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-10T22:50:49+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -156,7 +156,7 @@
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-09-11T19:21:51+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -184,7 +184,7 @@
       "sourceCanonical": "Rádio Santana FM",
       "sourceDomain": "santanafm.com.br",
       "publishedAt": "2026-09-11T21:15:06+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -194,14 +194,14 @@
       "title": "Itália registra 41 mortes e 594 casos do vírus do Nilo Ocidental",
       "description": "A Itália registrou 41 mortes e 594 casos confirmados do vírus do Nilo Ocidental em 2026. Os números constam no boletim semanal do Instituto...",
       "url": "https://www.folhape.com.br/noticias/italia-registra-41-mortes-e-594-casos-do-virus-do-nilo-ocidental/511634/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
+      "source": "folhape.com.br",
+      "sourceCanonical": "folhape.com.br",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-10T10:43:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_be0ce7d01a7c",
@@ -240,7 +240,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-09-11T18:06:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -264,8 +264,8 @@
       "title": "Itália eleva para 41 o número de mortos pelo vírus do Nilo Ocidental e confirma quase 600 casos",
       "description": "Dos 594 casos detetados, 306 correspondem à forma neuroinvasiva, a mais grave da doença.",
       "url": "https://cnnportugal.iol.pt/virus-do-nilo-ocidental/infecao/italia-eleva-para-41-o-numero-de-mortos-pelo-virus-do-nilo-ocidental-e-confirma-quase-600-casos/20260910/6aa27719d34e53c759c71951",
-      "source": "cnnportugal.iol.pt",
-      "sourceCanonical": "cnnportugal.iol.pt",
+      "source": "CNN Portugal",
+      "sourceCanonical": "CNN Portugal",
       "sourceDomain": "cnnportugal.iol.pt",
       "publishedAt": "2026-09-10T09:54:00+00:00",
       "postedLabel": "ontem",
@@ -282,7 +282,7 @@
       "sourceCanonical": "Folha do ES",
       "sourceDomain": "folhadoes.com",
       "publishedAt": "2026-09-11T17:38:48+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.8,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.89,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
