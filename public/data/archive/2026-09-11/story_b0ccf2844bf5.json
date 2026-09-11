@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/jOAFCvQ5OuPLQ_pjwBviSAi5pcM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/B/A/kIABvzQIeAedEgCpZdDQ/foto11fin-101-locais-c1.jpg",
   "publishedAt": "2026-09-08T20:43:10+00:00",
-  "updatedAt": "2026-09-11T16:41:10.471882+00:00",
+  "updatedAt": "2026-09-11T17:34:21.293179+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -180,14 +180,14 @@
       "title": "Dólar cai 0,18% e fecha em R$ 5,103; Ibovespa sobe",
       "description": "Os investidores reagiram ao cenário político, com a expectativa de que Flávio fique à frente de Lula nas eleições. Leia no Poder360.",
       "url": "https://www.poder360.com.br/poder-economia/dolar-cai-018-e-fecha-em-r-5103-ibovespa-sobe/",
-      "source": "poder360.com.br",
-      "sourceCanonical": "poder360.com.br",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-10T20:58:03+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_dfbd6cf10e7b",
@@ -208,14 +208,14 @@
       "title": "Dólar fecha em baixa, na contramão do exterior, após nova pesquisa eleitoral",
       "description": "Por Fabricio de Castro SÃO PAULO, 10 Set (Reuters) - O dólar fechou a quinta-feira em baixa após uma nova pesquisa eleitoral mostrar o...",
       "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/427802-dolar-fecha-em-baixa-na-contramao-do-exterior-apos-nova-pesquisa-eleitoral.html",
-      "source": "noticiasagricolas.com.br",
-      "sourceCanonical": "noticiasagricolas.com.br",
+      "source": "Notícias Agrícolas",
+      "sourceCanonical": "Notícias Agrícolas",
       "sourceDomain": "noticiasagricolas.com.br",
       "publishedAt": "2026-09-10T20:18:41+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_bc935f5d07d3",
@@ -278,14 +278,14 @@
       "title": "Ibovespa tem alta firme e vai a 188 mil pontos, à espera de pesquisa eleitoral",
       "description": "O Ibovespa avança, especialmente devido à mudança de sinal das ações de bancos. Além disso, papéis do setor de petróleo, como Petrobras...",
       "url": "https://www.folhape.com.br/economia/ibovespa-tem-alta-firme-e-vai-a-188-mil-pontos-a-espera-de-pesquisa/511729/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
+      "source": "folhape.com.br",
+      "sourceCanonical": "folhape.com.br",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-10T15:36:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d7c3eda0e0bd",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 5,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.67,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
-      "center": 11,
-      "centerRight": 2,
+      "centerLeft": 0,
+      "center": 12,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
