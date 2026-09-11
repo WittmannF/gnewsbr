@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 53
+      "topic-7": 54
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 53,
-    "bestSeedRank": 53,
+    "firstSeenRank": 54,
+    "bestSeedRank": 54,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/6Wv4YJ33oRv58XOA0obqYckfBVw=/1626x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/O/R/8SKNVTQ4C7iHRQtXbQog/screenshot-2026-09-06-at-04.20.10.png",
   "publishedAt": "2026-09-05T17:00:12+00:00",
-  "updatedAt": "2026-09-11T15:39:34.347278+00:00",
+  "updatedAt": "2026-09-11T16:39:41.401209+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "A apresentadora de TV condenada à morte por tráfico de drogas no Egito",
       "description": "A apresentadora de televisão egípcia Sarah Khalifa e outras 11 pessoas foram condenadas à morte por enforcamento após serem consideradas...",
       "url": "https://www.bbc.com/portuguese/articles/c2l8k4ydd11o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-06T14:09:14+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/6328/live/f1a48620-a95d-11f1-99c3-dba02712eb49.png",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7689ea07b5f2",
@@ -129,7 +129,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-06T13:55:51+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/N6HNP42GM5EV5CT27DINZTL5CE.png?quality=80&auth=0d41b9cb1d8544bafc8a8730a64088ca5fdb14cef8cada5a20796a6f8efd5bef&width=1200&height=630&focal=395,210",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -166,14 +166,14 @@
       "title": "Apresentadora de TV é condenada à morte por enforcamento no Egito",
       "description": "Sarah Khalifa e outras 11 pessoas receberam pena capital em processo sobre fabricação e tráfico de drogas sintéticas; apresentadora nega...",
       "url": "https://istoe.com.br/apresentadora-de-tv-e-condenada-a-morte-por-enforcamento-no-egito",
-      "source": "IstoÉ",
-      "sourceCanonical": "ISTOÉ",
+      "source": "istoe.com.br",
+      "sourceCanonical": "istoe.com.br",
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-09-06T16:41:10+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c40fe168ddee",
@@ -306,39 +306,40 @@
       "title": "Quem é Sarah Khalifa, apresentadora de TV condenada à morte por tráfico no Egito",
       "description": "Conhecida por comandar programa sobre crimes e segurança, empresário foi condenada com outros 11 réus; entenda o caso.",
       "url": "https://revistaforum.com.br/global/quem-e-sarah-khalifa-condenada-morte-egito/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-07T10:39:29+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.33,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.09,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 0,
-      "centerLeft": 2,
-      "center": 8,
+      "left": 1,
+      "centerLeft": 1,
+      "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
