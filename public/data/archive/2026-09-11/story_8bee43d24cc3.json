@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 11,
-      "topic-5": 16
+      "topic-3": 12,
+      "topic-5": 14
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 11,
-    "bestSeedRank": 11,
+    "firstSeenRank": 12,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/pgr-paulo-gonet-branco-stf.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-03T22:39:31+00:00",
-  "updatedAt": "2026-09-11T05:24:53.384111+00:00",
+  "updatedAt": "2026-09-11T06:38:56.514269+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -71,8 +71,8 @@
       "title": "OAB Nacional e seccionais definem medidas sobre apurações no STF",
       "description": "O Conselho Federal da OAB e os presidentes das 27 seccionais definiram, nesta quarta-feira (9/9), em Brasília, medidas institucionais diante...",
       "url": "https://www.oab.org.br/noticia/64585/oab-nacional-e-seccionais-definem-medidas-sobre-apuracoes-no-stf",
-      "source": "OAB Federal",
-      "sourceCanonical": "OAB Federal",
+      "source": "oab.org.br",
+      "sourceCanonical": "oab.org.br",
       "sourceDomain": "oab.org.br",
       "publishedAt": "2026-09-10T00:25:00+00:00",
       "postedLabel": "ontem",
@@ -155,14 +155,14 @@
       "title": "'No STF, não cabem disputas de paixões pessoais nem políticas'",
       "description": "A crise que envolve o Supremo Tribunal Federal (STF) chegou a um novo capítulo com uma posição contundente da OAB do Distrito Federal.",
       "url": "https://www.correiobraziliense.com.br/direito-e-justica/2026/09/7497356-no-stf-nao-cabem-disputas-de-paixoes-pessoais-nem-politicas.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-10T08:31:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_f2650c941448",
@@ -320,28 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 9,
-    "average": 6.45,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 6.25,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 6,
       "centerRight": 3,
       "right": 2,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

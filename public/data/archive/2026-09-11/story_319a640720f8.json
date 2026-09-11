@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/DGK7BYAZOVB5RGUGIUT4G57QIQ.png?quality=80&auth=5f9912926dd58c0b870c980b454fafd29a435b63c92117edda7a3fd6f39c0af0&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-02T07:00:00+00:00",
-  "updatedAt": "2026-09-11T05:25:04.920840+00:00",
+  "updatedAt": "2026-09-11T06:39:07.152435+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -155,14 +155,14 @@
       "title": "Força-tarefa mira esquema de furto e roubo de celulares pelo País",
       "description": "Agentes cumprem 84 mandados de busca e apreensão e de sete mandados de prisão temporária no Estado de São Paulo e em Goiás.",
       "url": "https://www.cartacapital.com.br/sociedade/forca-tarefa-mira-esquema-de-furto-e-roubo-de-celulares-pelo-pais/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-10T14:59:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5b5f7c060ead",
@@ -197,14 +197,14 @@
       "title": "Entenda o caminho dos celulares roubados em São Paulo",
       "description": "Megaoperação desmantela cadeia que começa nos furtos e roubos, fraude financeira e termina com a revenda de aparelhos e peças.",
       "url": "https://revistaoeste.com/brasil/entenda-o-caminho-dos-celulares-roubados-em-sao-paulo/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-10T21:50:59+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ae9968d60b65",
@@ -295,14 +295,14 @@
       "title": "Operação Frankmobile: rede de celulares roubados é desarticulada",
       "description": "Ação mobilizou cerca de 1,7 mil agentes em São Paulo e Goiás e investiga cadeia que envolve roubo, desbloqueio, adulteração e revenda de...",
       "url": "https://istoe.com.br/operacao-frankmobile-combate-rede-celulares-roubados-sp-go",
-      "source": "IstoÉ",
-      "sourceCanonical": "ISTOÉ",
+      "source": "istoe.com.br",
+      "sourceCanonical": "istoe.com.br",
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-09-10T18:23:07+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_99cd0e951282",
@@ -320,29 +320,30 @@
     }
   ],
   "spectrum": {
-    "min": 2,
-    "max": 10,
-    "average": 6.07,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "min": 4,
+    "max": 9,
+    "average": 6.08,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 4,
-      "right": 2,
-      "unknown": 5
+      "right": 1,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

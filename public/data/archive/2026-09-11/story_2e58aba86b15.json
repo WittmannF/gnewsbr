@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDX05yNkVSSExpX19OaXdsZ3BDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDX05yNkVSSExpX19OaXdsZ3BDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 20
+      "topic-5": 68,
+      "topic-8": 19
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 68,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s04.video.glbimg.com/x720/14945843.jpg",
   "publishedAt": "2026-07-20T07:00:00+00:00",
-  "updatedAt": "2026-09-11T05:39:17.029569+00:00",
+  "updatedAt": "2026-09-11T06:48:33.636658+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,8 +85,8 @@
       "title": "Aneel autoriza conexão da Scala AI City à rede elétrica no RS",
       "description": "Parecer do ONS prevê conexão em janeiro de 2028 e demanda elétrica de 120 MW para o empreendimento em Eldorado do Sul.",
       "url": "https://telesintese.com.br/aneel-autoriza-conexao-da-scala-ai-city-a-rede-eletrica-no-rs/",
-      "source": "telesintese.com.br",
-      "sourceCanonical": "telesintese.com.br",
+      "source": "TeleSíntese",
+      "sourceCanonical": "TeleSíntese",
       "sourceDomain": "telesintese.com.br",
       "publishedAt": "2026-09-10T22:18:12+00:00",
       "postedLabel": "hoje",
@@ -96,14 +99,14 @@
       "title": "O gargalo que desafia os projetos de IA em 2026",
       "description": "Opinião da Colunista - Embora a IA generativa seja prioridade para 91% das empresas no Brasil, nossa infraestrutura não acompanha essa...",
       "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/414641-o-gargalo-que-desafia-os-projetos-de-ia-em-2026/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-07-20T07:00:00+00:00",
       "postedLabel": "mês passado",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ELBDH6525BPK5KBMPHRYKU52R4.jpg?quality=80&auth=80845e5194666f9c93437ff8c098488406fe662ac2a268f596a5567aac0160af&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_288af35122b2",
@@ -129,7 +132,7 @@
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-09-09T15:31:19+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1746315:1788967332/photo_4974238325900250580_y.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=913f61d",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -318,28 +321,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.71,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "max": 5,
+    "average": 4.33,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 4,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
-    "confidence": 95
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

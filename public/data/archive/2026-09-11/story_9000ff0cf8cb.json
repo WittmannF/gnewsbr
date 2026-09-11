@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 14,
-      "topic-5": 22
+      "topic-3": 18,
+      "topic-5": 23
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/marina-salles-youtube-band-1200x675.jpg",
   "publishedAt": "2026-09-09T09:30:00+00:00",
-  "updatedAt": "2026-09-11T05:24:59.605167+00:00",
+  "updatedAt": "2026-09-11T06:39:13.221507+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -123,6 +123,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_209b5f71eaf2",
+      "title": "Marina denuncia desastre de Tarcísio em SP: “Estado está ficando para trás”",
+      "description": "Candidata afirma que estado “está ficando para trás” em áreas essenciais e rebate ataque de Ricardo Salles, que tentou desqualificá-la por...",
+      "url": "https://horadopovo.com.br/marina-denuncia-desastre-de-tarcisio-em-sp-estado-esta-ficando-para-tras/",
+      "source": "Hora do Povo",
+      "sourceCanonical": "Hora do Povo",
+      "sourceDomain": "horadopovo.com.br",
+      "publishedAt": "2026-09-11T00:23:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_2125040859b8",
       "title": "Debate do Senado vai ao ar hoje na Band com sete candidatos ao vivo",
       "description": "Estou na esteira da academia no Leblon e o pessoal já comentando o debate da noite. Hoje é dia mesmo, sem ensaio: às 22h45, horário de...",
@@ -135,20 +149,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_209b5f71eaf2",
-      "title": "Marina denuncia desastre de Tarcísio em SP: “Estado está ficando para trás”",
-      "description": "Candidata afirma que estado “está ficando para trás” em áreas essenciais e rebate ataque de Ricardo Salles, que tentou desqualificá-la por...",
-      "url": "https://horadopovo.com.br/marina-denuncia-desastre-de-tarcisio-em-sp-estado-esta-ficando-para-tras/",
-      "source": "Hora do Povo",
-      "sourceCanonical": "Hora do Povo",
-      "sourceDomain": "horadopovo.com.br",
-      "publishedAt": "2026-09-11T00:22:30+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     },
     {
       "id": "article_7a8c581dee02",
@@ -267,14 +267,14 @@
       "title": "Candidatos ao Senado por SP se enfrentam em debate inédito nesta 4ª",
       "description": "Pela primeira vez na TV brasileira, uma emissora exibe encontro apenas entre postulantes ao Senado Federal. Clique aqui e saiba mais.",
       "url": "https://revistaoeste.com/politica/candidatos-ao-senado-por-sp-se-enfrentam-em-debate-inedito-nesta-4a/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-09T09:30:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b9471fe60cdf",
@@ -285,7 +285,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-10T06:13:06+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -321,23 +321,23 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 10,
-    "average": 5.15,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "max": 7,
+    "average": 4.75,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 9,
       "centerRight": 1,
-      "right": 1,
-      "unknown": 7
+      "right": 0,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
