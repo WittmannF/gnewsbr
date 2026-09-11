@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 18,
-      "topic-5": 27
+      "topic-5": 28
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 18,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/09/09164725/senados_estados-21-1.png",
   "publishedAt": "2026-09-03T07:00:00+00:00",
-  "updatedAt": "2026-09-11T08:32:38.648416+00:00",
+  "updatedAt": "2026-09-11T09:27:38.705287+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -183,14 +183,14 @@
       "title": "Pesquisa Atlas: Zucco tem 44,3% e Juliana Brizola alcança 37,5% no Rio Grande do Sul",
       "description": "Em um eventual segundo turno entre os dois, o deputado bolsonarista ganharia com 48,5% dos votos, frente à 43,9%",
       "url": "https://www.estadao.com.br/em-alta/politica/eleicoes/atlasintel-zucco-tem-443-e-juliana-brizola-alcanca-375-no-rio-grande-do-sul/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-03T18:13:39+00:00",
       "postedLabel": "7 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_b7ccaaa249c6",
@@ -235,20 +235,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ae189ee39d91",
-      "title": "Juliana Brizola e Zucco empatam nos dois turnos da disputa pelo governo gaúcho",
-      "description": "Pesquisa Real Time Big Data divulgada nesta quinta (10) mostra Zucco com 36% e Juliana Brizola com 35% no primeiro turno no RS,...",
-      "url": "https://www.ocafezinho.com/2026/09/10/juliana-brizola-e-zucco-empatam-nos-dois-turnos-da-disputa-pelo-governo-gaucho/",
-      "source": "ocafezinho.com",
-      "sourceCanonical": "ocafezinho.com",
-      "sourceDomain": "ocafezinho.com",
-      "publishedAt": "2026-09-10T19:45:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_934d92db127d",
       "title": "Zucco lidera disputa ao governo do RS e soma 44,3% no primeiro turno",
       "description": "Luciano Zucco lidera a corrida pelo governo do Rio Grande do Sul com 44,3%, segundo pesquisa AtlasIntel. Juliana Brizola aparece em segundo...",
@@ -261,6 +247,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ae189ee39d91",
+      "title": "Juliana Brizola e Zucco empatam nos dois turnos da disputa pelo governo gaúcho",
+      "description": "Pesquisa Real Time Big Data divulgada nesta quinta (10) mostra Zucco com 36% e Juliana Brizola com 35% no primeiro turno no RS,...",
+      "url": "https://www.ocafezinho.com/2026/09/10/juliana-brizola-e-zucco-empatam-nos-dois-turnos-da-disputa-pelo-governo-gaucho/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-09-10T19:45:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_7d8457287713",
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.54,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.4,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 3,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 7
+      "unknown": 5
     }
   },
   "scores": {
@@ -343,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

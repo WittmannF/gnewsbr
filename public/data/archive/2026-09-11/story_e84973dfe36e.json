@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyMWFmN0VSRTJTQkptRndEU1F5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyMWFmN0VSRTJTQkptRndEU1F5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 3,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 2,
       "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "AtlasIntel mostra empate técnico entre Lula e Flávio Bolsonaro no 2º turno",
   "summary": "O senador aparece numericamente à frente do presidente em novo levantamento.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/LF.jpg",
   "publishedAt": "2026-09-08T09:58:00+00:00",
-  "updatedAt": "2026-09-11T08:32:00.933625+00:00",
+  "updatedAt": "2026-09-11T09:25:36.640947+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -169,14 +175,14 @@
       "title": "Pesquisa Atlas: Flávio Bolsonaro tem 46,4% e Lula 46,2% no segundo turno",
       "description": "No primeiro turno, petista tem 43% e Flávio tem 37,4%, de acordo com o levantamento.",
       "url": "https://www.estadao.com.br/politica/eleicoes/pesquisa-atlas-flavio-bolsonaro-tem-464-e-lula-462-no-segundo-turno/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-10T17:38:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8e3a4ff2a874",
@@ -239,14 +245,14 @@
       "title": "AtlasIntel divulga hoje nova pesquisa sobre eleição presidencial",
       "description": "Levantamento mede corrida de 2026 e consulta eleitores sobre qual grupo político acreditam estar mais ligado ao Banco Master.",
       "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496900-atlasintel-divulga-hoje-nova-pesquisa-sobre-eleicao-presidencial.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-10T03:01:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_77bbed755a37",
@@ -291,20 +297,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_f4702d0cba86",
-      "title": "Flávio tem 46,4% e Lula 46,2% no 2º turno, indica AtlasIntel",
-      "description": "Cenários de 2º turno mostram Lula em desvantagem numérica contra Flávio e Zema, em empate técnico. Ele ainda empata numericamente com...",
-      "url": "https://www.metropoles.com/brasil/flavio-tem-464-e-lula-462-no-2o-turno-indica-atlasintel",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-10T18:04:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_a80facc0da24",
       "title": "Atlas/Bloomberg: Lula mantém vantagem no 1º turno; 2º turno tem empate técnico",
       "description": "Nova pesquisa AtlasIntel/Bloomberg, divulgada nesta quinta-feira (10), aponta que o presidente Luiz Inácio Lula da Silva (PT) mantém a...",
@@ -317,25 +309,39 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_f4702d0cba86",
+      "title": "Flávio tem 46,4% e Lula 46,2% no 2º turno, indica AtlasIntel",
+      "description": "Cenários de 2º turno mostram Lula em desvantagem numérica contra Flávio e Zema, em empate técnico. Ele ainda empata numericamente com...",
+      "url": "https://www.metropoles.com/brasil/flavio-tem-464-e-lula-462-no-2o-turno-indica-atlasintel",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-10T18:04:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.31,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.33,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 3,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 9,
-      "centerRight": 3,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 4
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
