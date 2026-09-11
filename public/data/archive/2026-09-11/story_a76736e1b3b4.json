@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 49
+      "topic-7": 47
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 49,
-    "bestSeedRank": 49,
+    "firstSeenRank": 47,
+    "bestSeedRank": 47,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/SWneoEKHLIlYRts1WZcxgeJvjWM=/5000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/S/C/TCgZxqRHWsTAKAAtVZaQ/trump-devoted-aide.jpg",
   "publishedAt": "2026-09-09T09:35:00+00:00",
-  "updatedAt": "2026-09-11T01:15:27.168799+00:00",
+  "updatedAt": "2026-09-11T01:49:43.097187+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Trump presenteia assessores com até R$ 230.000, revela jornal, e levanta suspeitas",
       "description": "O presidente dos Estados Unidos, Donald Trump, deu presentes em dinheiro de até US$ 45 mil (quase R$ 230 mil, na cotação atual) a quatro...",
       "url": "https://veja.abril.com.br/mundo/trump-presenteia-assessores-com-ate-r-230-000-revela-jornal-e-levanta-suspeitas/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-09T11:59:30+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/gettyimages-2290522641-594x594-1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_09c4a46a0b38",
@@ -101,7 +101,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-09T15:40:55+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ERYZEP2YM5HORD2VOXGMDWD3PY.jpg?quality=80&auth=5b11bf1759c728f987d62ad5e79d6b256cc6e5945efd4db74e9de23090d79e75&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -208,14 +208,14 @@
       "title": "Trump dá R$ 229 mil em dinheiro a “impressora humana”; entenda",
       "description": "Donald Trump deu US$ 45 mil, cerca de R$ 229 mil, à assessora Natalie Harp. Outras duas funcionárias receberam valores semelhantes.",
       "url": "https://www.diariodocentrodomundo.com.br/trump-da-r-229-mil-em-dinheiro-a-impressora-humana-entenda/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-09T14:45:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_191aec3cbe7e",
@@ -250,8 +250,8 @@
       "title": "Trump deu US$ 45 mil em dinheiro à assessora Natalie Harp",
       "description": "Divulgações financeiras anuais da administração americana mostram que o presidente Donald Trump deu US$ 45 mil em dinheiro a Natalie Harp,...",
       "url": "https://www.spacemoney.com.br/politica/natalie-harp-presente-trump/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
+      "source": "spacemoney.com.br",
+      "sourceCanonical": "spacemoney.com.br",
       "sourceDomain": "spacemoney.com.br",
       "publishedAt": "2026-09-09T15:35:19+00:00",
       "postedLabel": "ontem",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 5,
+    "average": 5.56,
     "knownCount": 9,
     "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 1,
+      "centerRight": 2,
       "right": 0,
       "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
