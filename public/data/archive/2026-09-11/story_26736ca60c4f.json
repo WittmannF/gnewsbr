@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 15
+      "topic-4": 20
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 15,
-    "bestSeedRank": 15,
+    "firstSeenRank": 20,
+    "bestSeedRank": 20,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/09/17889867206aa1c5609e183_1788986720_3x2_xl.jpg",
   "publishedAt": "2026-09-08T20:51:20+00:00",
-  "updatedAt": "2026-09-11T06:42:55.172475+00:00",
+  "updatedAt": "2026-09-11T07:33:12.190203+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-10T07:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/09/17889867206aa1c5609e183_1788986720_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -142,7 +142,7 @@
       "sourceCanonical": "Bem Paraná",
       "sourceDomain": "bemparana.com.br",
       "publishedAt": "2026-09-11T01:29:59+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -152,14 +152,14 @@
       "title": "O Brasil aparece? Veja onde assitir e o que esperar do novo documentário do Oasis | Cultura | O Liberal",
       "description": "Don't Look Back in Anger” estreia nos cinemas nesta quinta-feira (10) e terá apenas duas sessões em Belém nesta semana.",
       "url": "https://www.oliberal.com/cultura/o-brasil-aparece-veja-onde-assistir-e-o-que-esperar-do-novo-documentario-do-oasis-1.1166983",
-      "source": "oliberal.com",
-      "sourceCanonical": "OLiberal.com",
+      "source": "O Liberal",
+      "sourceCanonical": "O Liberal",
       "sourceDomain": "oliberal.com",
       "publishedAt": "2026-09-09T22:13:03+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_80e1ddb2334e",
@@ -170,7 +170,7 @@
       "sourceCanonical": "Magazine.HD",
       "sourceDomain": "magazine-hd.com",
       "publishedAt": "2026-09-10T07:15:37+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -218,20 +218,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a5f7a5faafe4",
-      "title": "Documentário sobre Oasis revela bastidores da turnê e rivalidade entre os irmãos Gallagher",
-      "description": "Filme que chega aos cinemas nesta quinta-feira, dia 10, reúne imagens inéditas da turnê de reencontro e bastidores da conturbada relação...",
-      "url": "https://www.correiodopovo.com.br/arteagenda/documentario-sobre-oasis-revela-bastidores-da-turne-e-rivalidade-entre-os-irmaos-gallagher-1.1746496",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-09-09T22:37:53+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_787229ffa862",
       "title": "Noel gosta de ensaiar, Liam nem tanto — e mais 5 revelações do documentário do Oasis",
       "description": "Os irmãos Gallagher abriram as portas para os fãs em 'Don't Look Back in Anger', que estreia nos cinemas brasileiros nesta quinta (10): 'Eu...",
@@ -244,6 +230,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a5f7a5faafe4",
+      "title": "Documentário sobre Oasis revela bastidores da turnê e rivalidade entre os irmãos Gallagher",
+      "description": "Filme que chega aos cinemas nesta quinta-feira, dia 10, reúne imagens inéditas da turnê de reencontro e bastidores da conturbada relação...",
+      "url": "https://www.correiodopovo.com.br/arteagenda/documentario-sobre-oasis-revela-bastidores-da-turne-e-rivalidade-entre-os-irmaos-gallagher-1.1746496",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-09-09T22:37:53+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a29a0d44b2da",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.75,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.86,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 4,
+      "center": 3,
       "centerRight": 3,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
