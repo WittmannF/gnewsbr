@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/UYgeZlKOQVhgGedVTodu53xnFiQ=/4488x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/I/2If9S3S5Ap0mlhJB6Now/2026-09-08t192020z-1882401798-rc27fnaa6fhn-rtrmadp-3-norway-royals-king-harald-funeral.jpg",
   "publishedAt": "2026-09-09T15:23:00+00:00",
-  "updatedAt": "2026-09-11T03:44:44.602819+00:00",
+  "updatedAt": "2026-09-11T04:39:29.843952+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -180,14 +180,14 @@
       "title": "Ucrânia: avião de Zelensky quase atingido por drone na Moldova",
       "description": "O Presidente Volodymyr Zelensky e a primeira dama Olena Zelenska nas cerimónias fúnebres do rei Haroldo V, em Oslo Christoffer Andersen...",
       "url": "https://www.publico.pt/2026/09/09/mundo/noticia/ucrania-aviao-zelensky-quase-atingido-drone-moldova-2187546",
-      "source": "Público",
-      "sourceCanonical": "Público",
+      "source": "publico.pt",
+      "sourceCanonical": "publico.pt",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-09-09T18:55:45+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4f7ec06b2bc8",
@@ -226,6 +226,20 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-10T01:44:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_78cd8b37d8fe",
+      "title": "Avião que levava Zelensky para Oslo \"quase atingido\" por drone",
+      "description": "A revelação foi feita pelo primeiro-ministro norueguês, sem que tenham sido divulgados detalhes sobre a origem da informação ou sobre a...",
+      "url": "https://expresso.pt/guerra-ucrania/2026-09-09-aviao-que-levava-zelensky-para-oslo-quase-atingido-por-drone-0ac04891",
+      "source": "Expresso",
+      "sourceCanonical": "Expresso",
+      "sourceDomain": "expresso.pt",
+      "publishedAt": "2026-09-09T18:47:54+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -288,20 +302,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_5ac1ff3f78e5",
-      "title": "Avião de Zelensky \"quase foi atingido\" por drone quando viajava da Moldávia para a Noruega",
-      "description": "O avião que transportava o presidente ucraniano, Volodymyr Zelenskiy, para Oslo, para o funeral do rei da Noruega, \"quase foi atingido\" por...",
-      "url": "https://www.dn.pt/internacional/avio-de-zelensky-quase-foi-atingido-por-drone-quando-viajava-da-moldvia-para-a-noruega",
-      "source": "Diário de Notícias",
-      "sourceCanonical": "Diário de Notícias",
-      "sourceDomain": "dn.pt",
-      "publishedAt": "2026-09-09T18:42:02+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_4bb8b842bd99",
       "title": "Avião de Zelensky quase atingido por drone a caminho de Oslo",
       "description": "Um avião que transportava o presidente ucraniano, Volodymyr Zelensky, da Moldova para Oslo, para o funeral do rei Harald V da Noruega,...",
@@ -317,15 +317,15 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 4,
     "max": 8,
-    "average": 5.47,
+    "average": 5.6,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
       "left": 0,
-      "centerLeft": 2,
-      "center": 9,
+      "centerLeft": 1,
+      "center": 10,
       "centerRight": 4,
       "right": 0,
       "unknown": 5
@@ -333,8 +333,8 @@
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
