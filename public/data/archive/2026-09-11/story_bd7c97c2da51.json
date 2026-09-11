@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzMmRYM0VSR2ZHUzRDdVcxeUFpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzMmRYM0VSR2ZHUzRDdVcxeUFpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-6"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 19
+      "topic-5": 62,
+      "topic-6": 21
     },
-    "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 62,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/WYQBGCJXNBG6HPTHM7HCWETCHY.jpg?quality=80&auth=517930c34b3287127cb1e213e7e6383798eee5a61951856023148f6a2d2d022f&width=1200&height=630&focal=434,117",
   "publishedAt": "2026-09-03T11:57:02+00:00",
-  "updatedAt": "2026-09-11T20:34:43.172704+00:00",
+  "updatedAt": "2026-09-11T21:28:40.493671+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,14 +113,14 @@
       "title": "Marcos Lamacchia muda proposta de compra da SAF do Vasco; entenda",
       "description": "Marcos Lamacchia apresentou uma emenda à proposta de aquisição das ações da SAF do Vasco da ...",
       "url": "https://www.terra.com.br/esportes/vasco/marcos-lamacchia-muda-proposta-de-compra-da-saf-do-vasco-entenda,07d2095e90abe631bf8abbc9c2ab92c34taz9dfy.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-10T17:32:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/10/514253710-marcos-faria-lamacchia.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a00987e8cf67",
@@ -134,20 +137,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d73e4b68999a",
-      "title": "Com empréstimo, Vasco preserva valor da SAF antes de leilão — e gastar faz parte da estratégia",
-      "description": "DIP de até R$ 150 milhões permite ao clube manter a operação e investir no futebol enquanto busca um novo controlador.",
-      "url": "https://exame.com/insight/com-emprestimo-vasco-preserva-valor-da-saf-antes-de-leilao-e-gastar-faz-parte-da-estrategia/p",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-09-11T15:04:25+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_a4a3f9cd4744",
       "title": "Vasco: Justiça autoriza venda da SAF e empréstimo de R$ 150 milhões",
       "description": "Decisão abre caminho para propostas de investidores e injeta novo fôlego financeiro no Cruz-maltino.",
@@ -157,8 +146,22 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-10T19:56:50+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/vasco-estadio-e1785015692554.jpeg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_d73e4b68999a",
+      "title": "Com empréstimo, Vasco preserva valor da SAF antes de leilão — e gastar faz parte da estratégia",
+      "description": "DIP de até R$ 150 milhões permite ao clube manter a operação e investir no futebol enquanto busca um novo controlador.",
+      "url": "https://exame.com/insight/com-emprestimo-vasco-preserva-valor-da-saf-antes-de-leilao-e-gastar-faz-parte-da-estrategia/p",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-09-11T15:04:25+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -198,7 +201,7 @@
       "sourceCanonical": "Alô Alô Bahia",
       "sourceDomain": "aloalobahia.com",
       "publishedAt": "2026-09-10T21:09:05+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -320,15 +323,15 @@
     "min": 1,
     "max": 9,
     "average": 5,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 7,
+      "center": 6,
       "centerRight": 1,
       "right": 1,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
