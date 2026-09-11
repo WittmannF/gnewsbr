@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2liaGVmdkVSRkNsTWlpSmNOZHhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2liaGVmdkVSRkNsTWlpSmNOZHhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 28
+      "topic-3": 27,
+      "topic-5": 41
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 27,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/IcG_Sr-TUCeXXyqI_1AflVMV1Mw=/945x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/S/6/2JvZToS823yQtnJ126Xw/whatsapp-image-2024-02-03-at-08.27.54.jpeg",
   "publishedAt": "2026-09-09T08:56:54+00:00",
-  "updatedAt": "2026-09-11T12:37:06.574926+00:00",
+  "updatedAt": "2026-09-11T13:25:43.765400+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +85,14 @@
       "title": "Mãe de Edson Davi, sumido na Praia da Barra, entrega dados à PF para serem incluídos na Interpol após resgate de crianças nos EUA",
       "description": "A mãe do menino Edson Davi Silva Almeida, que sumiu na Praia da Barra da Tijuca, na Zona Oeste do Rio, em 2024, usou as redes sociais para...",
       "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/09/09/mae-de-edson-davi-sumido-na-praia-da-barra-diz-que-entregou-dados-a-pf-a-pedido-da-interpol.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-09T19:11:30+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://s2-g1.glbimg.com/IuoLF76aIOSdxTI8IfoTl0aXp4Q=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/e/J/XAYk9vQzWsjmTxKpVvVw/desaparecido-menino2.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e1df02025355",
@@ -101,7 +104,7 @@
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-09-10T18:42:34+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F09-10-2026%2Ft_712b7a12f237405e8a5b26fcf8c9b401_name_file_960x540_1600_v4_.jpg?smart=true&auth=0f025d0bd5b90fb613c824ea6320e4f5517707653b2cfb2276faeee1bc15fa87&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -120,20 +123,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_3857adc4d9b0",
-      "title": "Irmãos desparecidos no MA não estão entre crianças resgatadas nos EUA",
-      "description": "Os dois irmãos quilombolas desaparecidos no Maranhão não estão entre as crianças resgatadas nos EUA. As informações foram repassadas pela...",
-      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/seguranca/audio/2026-09/irmaos-desparecidos-no-ma-nao-estao-entre-criancas-resgatadas-nos-eua",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-09-10T19:25:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_ea05d0db58dd",
       "title": "Crianças encontradas nos EUA: megaoperação resgata 79 desaparecidos",
       "description": "Operação Meridian encontrou 79 crianças desaparecidas em Ohio em cenários de exploração e negligência. Da CNN Brasil 09/09/26 às 05:56...",
@@ -148,32 +137,46 @@
       "bucket": "center"
     },
     {
+      "id": "article_3857adc4d9b0",
+      "title": "Irmãos desparecidos no MA não estão entre crianças resgatadas nos EUA",
+      "description": "Os dois irmãos quilombolas desaparecidos no Maranhão não estão entre as crianças resgatadas nos EUA. As informações foram repassadas pela...",
+      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/seguranca/audio/2026-09/irmaos-desparecidos-no-ma-nao-estao-entre-criancas-resgatadas-nos-eua",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-09-10T19:25:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_a4b0cbccd296",
       "title": "PF diz que não há crianças brasileiras em resgate nos EUA",
       "description": "Informações de irmãos desaparecidos no Maranhão e menino que sumiu em praia no RJ foram fornecidas à Interpol.",
       "url": "https://sbtnews.sbt.com.br/noticia/brasil/pf-diz-que-nao-ha-criancas-brasileiras-em-resgate-nos-eua",
-      "source": "sbtnews.sbt.com.br",
-      "sourceCanonical": "sbtnews.sbt.com.br",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-10T16:30:42+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_0aadb6a8eb4f",
       "title": "Mãe de irmãos desaparecidos em Bacabal (MA) realizou exame de DNA após suspeita de que menino esteja nos EUA",
       "description": "Mãe de Allan e Ágatha, desaparecidos em Bacabal (MA), faz exame de DNA após semelhanças com menino resgatado nos Estados Unidos.",
       "url": "https://iclnoticias.com.br/mae-irmaos-desaparecidos-dna-filho-eua/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
+      "source": "iclnoticias.com.br",
+      "sourceCanonical": "iclnoticias.com.br",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-09-10T21:00:09+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a99a31fc39d9",
@@ -226,7 +229,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-10T12:47:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -260,15 +263,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_cf013cc04fd3",
-      "title": "Crianças desaparecidas: família sem aviso da PF no MA",
-      "description": "Advogada que representa a mãe de Ágatha Isabelly e Allan Michael emitiu nota sobre as atualizações do caso.",
-      "url": "https://imirante.com/noticias/maranhao/2026/09/09/familia-de-criancas-desaparecidas-ainda-nao-foi-notificada-de-informacoes-da-policia-federal",
-      "source": "Imirante.com",
-      "sourceCanonical": "Imirante.com",
-      "sourceDomain": "imirante.com",
-      "publishedAt": "2026-09-10T01:30:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_8dee48b6720d",
+      "title": "Resgate de 163 crianças nos EUA: PF diz que não há brasileiros",
+      "description": "Esclarecimento ocorre após famílias de desaparecidos buscarem informações sobre a operação; PF pediu alerta da Interpol para menino sumido...",
+      "url": "https://ultimosegundo.ig.com.br/2026-09-10/pf-diz-que-nao-ha-brasileiros-entre-163-criancas-resgatadas-nos-eua.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-09-10T15:42:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,15 +291,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_8dee48b6720d",
-      "title": "Resgate de 163 crianças nos EUA: PF diz que não há brasileiros",
-      "description": "Esclarecimento ocorre após famílias de desaparecidos buscarem informações sobre a operação; PF pediu alerta da Interpol para menino sumido...",
-      "url": "https://ultimosegundo.ig.com.br/2026-09-10/pf-diz-que-nao-ha-brasileiros-entre-163-criancas-resgatadas-nos-eua.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-09-10T15:42:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_ce562e4fcab1",
+      "title": "Crianças desaparecidas não foram localizadas nos EUA, diz PF",
+      "description": "Polícia Civil recebeu informações do órgão federal após consulta formal; Ágatha Isabelly e Allan Michael estão desaparecidos há oito meses.",
+      "url": "https://imirante.com/noticias/maranhao/2026/09/09/criancas-desaparecidas-nao-foram-localizadas-nos-eua-diz-pf",
+      "source": "Imirante.com",
+      "sourceCanonical": "Imirante.com",
+      "sourceDomain": "imirante.com",
+      "publishedAt": "2026-09-09T23:12:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.87,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.14,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 3,
       "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

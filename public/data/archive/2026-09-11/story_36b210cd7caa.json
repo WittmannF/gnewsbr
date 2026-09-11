@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 18
+      "topic-7": 19
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 18,
-    "bestSeedRank": 18,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/2ryv0bmRG3bi3lm0O65ZzpDGIUA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/t/m/5PJDZOQPu8snneCifO1Q/ap26188346928023.jpg",
   "publishedAt": "2026-09-04T08:24:00+00:00",
-  "updatedAt": "2026-09-11T12:50:04.549015+00:00",
+  "updatedAt": "2026-09-11T13:37:34.361638+00:00",
   "sourceCount": 8,
   "articleCount": 8,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Reino Unido, Noruega e EUA interrompem exercício russo no Ártico",
       "description": "Forças do Reino Unido, da Noruega e dos EUA interromperam no Ártico um exercício russo que simulava o uso de uma arma contra cabos...",
       "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/10/reino-unido-noruega-e-eua-interrompem-exercicio-russo-no-artico.ghtm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-10T10:37:44+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_b4e1f23ce2f0",
@@ -96,14 +96,14 @@
       "title": "Otan acusa Rússia de tentar sabotar cabos submarinos",
       "description": "Analistas de inteligência dos Estados Unidos temem que Moscou teste o pacto de defesa mútua firmado pelo grupo.",
       "url": "https://sbtnews.sbt.com.br/noticia/mundo/otan-acusa-russia-de-tentar-sabotar-cabos-submarinos",
-      "source": "sbtnews.sbt.com.br",
-      "sourceCanonical": "sbtnews.sbt.com.br",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-10T20:29:22+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/Bandeira_da_Otan_na_sede_da_alianca_militar_em_Bruxelas_02042025_Reuters_Yves_Herman_c39bef9883.JPG",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_87cc2a16111d",
@@ -115,7 +115,7 @@
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-09-05T01:15:00+00:00",
       "postedLabel": "6 dias atrás",
-      "imageUrl": "https://img.dhost.cloud/DJoZPYLHftrnz_ZsumieuKRZfoI=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/d72e3/8f35a9a45e0218660b1a028d9286124b18b.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -129,7 +129,7 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-10T14:40:08+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-oglobo.glbimg.com/SmvAiEDbxOFiOWExvAYkwUj6iLY=/4928x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/B/J/qyz5dpT4esZQBUrftxwQ/afp-20241118-36mp4jq-v1-highres-telecomcablelinkingfinlandgermanycut.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -151,26 +151,25 @@
   "spectrum": {
     "min": 5,
     "max": 8,
-    "average": 6.25,
-    "knownCount": 4,
-    "unknownCount": 4,
+    "average": 6,
+    "knownCount": 6,
+    "unknownCount": 2,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 4
+      "unknown": 2
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 73
+    "confidence": 79
   },
   "flags": [
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
