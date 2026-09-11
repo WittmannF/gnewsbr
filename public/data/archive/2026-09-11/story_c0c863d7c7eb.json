@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 18
+      "topic-7": 19
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 18,
-    "bestSeedRank": 18,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/7RqEwxXoes5EKi8o0WyRPB_DMdQ=/6000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/z/W/lOmudLTuSlT7i3jE6Ayg/2026-09-09t183748z-793362701-rc2ufnabbbjk-rtrmadp-3-usa-trump.jpg",
   "publishedAt": "2026-09-09T19:12:21+00:00",
-  "updatedAt": "2026-09-11T04:39:23.438524+00:00",
+  "updatedAt": "2026-09-11T05:36:08.980043+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -78,18 +78,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_0f3721aaeae7",
+      "id": "article_7af551c24d1c",
       "title": "No Nebraska, eleitores querem que EUA encerre a guerra com Irã",
       "description": "Assim como muitos eleitores do Nebraska, Kristin Benson, de 39 anos, votou em Donald Trump nas eleições presidenciais americanas de 2024.",
-      "url": "https://www.em.com.br/internacional/2026/09/7497551-no-nebraska-eleitores-querem-que-eua-encerre-a-guerra-com-ira.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-10T12:18:00+00:00",
+      "url": "https://www.folhape.com.br/noticias/no-nebraska-eleitores-querem-que-eua-encerre-a-guerra-com-ira/511669/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-09-10T12:46:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/09/1789044277.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_cdf4937bfb0d",
@@ -240,21 +240,7 @@
       "sourceCanonical": "Investing.com Brasil",
       "sourceDomain": "br.investing.com",
       "publishedAt": "2026-09-11T02:21:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_4b3bd008011a",
-      "title": "Trump prevê fim da guerra com Irã após eleições de meio de mandato nos EUA",
-      "description": "Donald Trump afirma que Teerã tenta influenciar votação de novembro e que o país persa não consegue sustentar o conflito por muito tempo.",
-      "url": "https://www.metropoles.com/mundo/trump-preve-fim-da-guerra-com-ira-apos-eleicoes-de-meio-de-mandato-nos-eua",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-09T21:18:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -272,6 +258,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_4b3bd008011a",
+      "title": "Trump prevê fim da guerra com Irã após eleições de meio de mandato nos EUA",
+      "description": "Donald Trump afirma que Teerã tenta influenciar votação de novembro e que o país persa não consegue sustentar o conflito por muito tempo.",
+      "url": "https://www.metropoles.com/mundo/trump-preve-fim-da-guerra-com-ira-apos-eleicoes-de-meio-de-mandato-nos-eua",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-09T21:18:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6353c4a1185b",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 9,
-    "average": 5.82,
+    "average": 5.76,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
-      "center": 12,
+      "centerLeft": 1,
+      "center": 11,
       "centerRight": 4,
       "right": 1,
       "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
