@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p1cDdUMkVSSDdKWV9leUFtVExpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p1cDdUMkVSSDdKWV9leUFtVExpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 31
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 9
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Mendonça volta a defender afastamento de Andrei, diretor-geral da PF",
   "summary": "Ministro diz que decisão não invade competência do presidente Lula nem do plenário do STF. Leia no Poder360.",
@@ -26,12 +32,12 @@
     "andrei",
     "afastamento",
     "diretor",
-    "defende",
-    "lula"
+    "geral",
+    "defende"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/STF-Vorcaro-FelipeCancadoVorcaro-HenriqueVorcaro-AndreMendonca-GilmarMendes-7-1-1200x675.jpg",
-  "publishedAt": "2026-09-09T15:08:07+00:00",
-  "updatedAt": "2026-09-12T07:29:39.257398+00:00",
+  "publishedAt": "2026-09-09T12:19:08+00:00",
+  "updatedAt": "2026-09-12T08:27:16.409400+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -64,18 +70,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_b3323447c43c",
-      "title": "'Mais Grave': Dino cita encontro de Mendonça com Vorcaro e interesse em parar PF",
-      "description": "Flávio Dino, do STF (Supremo Tribunal Federal), citou encontro entre o ministro André Mendonça e o ex-banqueiro Daniel Vorcaro na decisão de...",
-      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/09/dino-mendonca-vorcaro-policia-federal.ghtm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-09T16:49:37+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "id": "article_86aa344bf474",
+      "title": "Análise: Ofensiva de Dino enterra trégua proposta por Fachin",
+      "description": "Guerra no STF, com ares francamente eleitorais, suplanta esforço de acomodação do presidente da corte; Pronunciamento cancelado por Moraes é...",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/ofensiva-de-dino-enterra-tregua-proposta-por-fachin.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-10T14:24:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/09/17889890336aa1ce69b4892_1788989033_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_f3ab0775fc68",
@@ -110,14 +116,14 @@
       "title": "Mendonça queixa-se de ‘arapongagem’ da PF, mas já espionou opositores",
       "description": "Em 2020, o então ministro da Justiça de Bolsonaro monitorou mais de 500 servidores públicos integrantes do movimento “Policiais...",
       "url": "https://www.cartacapital.com.br/opiniao/mendonca-queixa-se-de-arapongagem-da-pf-mas-ja-espionou-opositores/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-11T13:45:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_7292ec91a2fd",
@@ -138,14 +144,14 @@
       "title": "Oposição articula CPMI para investigar atuação de braço de inteligência da PF",
       "description": "Encabeçada pelo deputado Marcel van Hattem, a oposição no Congresso Nacional está mobilizada na coleta de assinaturas para abertura de uma...",
       "url": "https://veja.abril.com.br/politica/oposicao-articula-cpmi-para-investigar-atuacao-de-braco-de-inteligencia-da-pf/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-11T14:31:38+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_6f8f0dcaef13",
@@ -171,7 +177,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-11T17:18:05+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/DIKVLM2V35BC3PW66KYBVNWKJM.png?quality=80&auth=58b90f5dbb7cc1df4e93b881ea1f296830be465347c595a84deb79c8f72bb794&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -180,14 +186,14 @@
       "title": "Flávio Dino e o desmonte do STF para salvar Daniel Vorcaro, o cliente de dona Vivi",
       "description": "Que estamos diante da pior crise institucional da história do Brasil, todos sabemos. Que estamos diante de um Estado de Exceção funcionando...",
       "url": "https://www.gazetadopovo.com.br/opiniao/artigos/flavio-dino-e-o-desmonte-do-stf-para-salvar-daniel-vorcaro-o-cliente-de-dona-vivi/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-11T11:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_ca0e390cfe6a",
@@ -204,18 +210,18 @@
       "bucket": "left"
     },
     {
-      "id": "article_ce098348e607",
-      "title": "AGU reitera a Fachin argumentos contra afastamento de diretor da PF",
-      "description": "Em nova manifestação, órgão pede a Fachin que suspenda decisão judicial que afastou Andrei Rodrigues do comando da Polícia Federal.",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/09/7498864-agu-reitera-a-fachin-argumentos-contra-afastamento-de-diretor-da-pf.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-09-11T20:36:00+00:00",
+      "id": "article_1a2dba5db4fe",
+      "title": "AGU volta a defender permanência de diretores da PF",
+      "description": "A Advocacia-Geral da União (AGU) voltou a defender, nesta sexta-feira (11), ao presidente do Supremo Tribunal Federal (STF), ministro Edson...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/agu-volta-a-defender-permanencia-de-diretores-da-pf",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-09-11T22:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_d8ff03391f17",
@@ -232,18 +238,32 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c09c8e7ad068",
-      "title": "Dino manda reintegrar Andrei no cargo de diretor-geral da PF",
-      "description": "Rodrigues havia sido afastado na 3ª feira (8.set) pelo ministro André Mendonça; decisão também contempla o delegado Leandro Almada. Leia no...",
-      "url": "https://www.poder360.com.br/poder-justica/dino-manda-reintegrar-andrei-ao-cargo-de-diretor-geral-da-pf/",
+      "id": "article_b98b2e112834",
+      "title": "Dino citou encontro de Mendonça e Vorcaro ao decidir pela volta de Andrei",
+      "description": "O ministro Flávio Dino, do Supremo Tribunal Federal, citou o encontro entre André Mendonça e Daniel Vorcaro ao determinar a volta de Andrei...",
+      "url": "https://www.poder360.com.br/poder-justica/dino-citou-encontro-de-mendonca-e-vorcaro-ao-decidir-pela-volta-de-andrei/",
       "source": "Poder360",
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-09T15:08:07+00:00",
+      "publishedAt": "2026-09-10T03:35:39+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_bbcf7248d93b",
+      "title": "Dino reintegra diretor-geral da PF e proíbe interferência de ministros do STF na corporação",
+      "description": "Em decisão monocrática, ministro Flávio Dino restabeleceu Andrei Rodrigues como diretor-geral da PF, desfazendo decisão de André Mendonça.",
+      "url": "https://conjur.com.br/2026-set-09/dino-reintegra-diretor-geral-da-pf-e-proibe-interferencia-de-ministros-do-stf/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-09-09T12:19:08+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_362ad06f4f7b",
@@ -282,53 +302,39 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-12T01:50:06+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_6432ff4866c3",
-      "title": "Lula defende Andrei Rodrigues e diz que diretor da PF é de sua 'total confiança'",
-      "description": "A declaração foi dada nesta quinta-feira, 10, durante entrevista exibida no SBT News. “O Andrei é da minha total confiança, é um companheiro...",
-      "url": "https://www.terra.com.br/noticias/eleicoes/videos/lula-defende-andrei-rodrigues-e-diz-que-diretor-da-pf-e-de-sua-total-confianca,f1104ca2985920dc5456e12096de48e2k7nm2pzq.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-11T01:49:35+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_effffbf7819b",
-      "title": "Fachin suspende decisão de Mendonça que afastou cúpula da PF",
-      "description": "Presidente do STF derruba afastamento de Andrei Rodrigues e Leandro Almada; medida havia sido questionada pela AGU.",
-      "url": "https://jovempan.com.br/politica/fachin-suspende-decisao-de-mendonca-que-afastou-cupula-da-pf/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-09T20:07:37+00:00",
+      "id": "article_120e22a99f1c",
+      "title": "A derrota de André Mendonça",
+      "description": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, ao suspender as decisões relacionadas ao afastamento do diretor-geral da...",
+      "url": "https://www.correiobraziliense.com.br/direito-e-justica/2026/09/7497322-a-derrota-de-andre-mendonca.html",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-10T08:01:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.31,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.4,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 2,
-      "center": 7,
-      "centerRight": 2,
+      "center": 6,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 7
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +346,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

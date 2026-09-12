@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwaGE3MUVSR2t3WGtkcWRaaFFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pwaGE3MUVSR2t3WGtkcWRaaFFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 1,
+      "topstories": 1,
       "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "André Mendonça retira sigilo de processos do caso Master",
   "summary": "Decisão do ministro do STF também inclui investigação sobre Jaques Wagner; medida se deu após pedido de Fachin e da PGR. Leia no Poder360.",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "mendonça",
     "sigilo",
-    "master",
     "caso",
+    "master",
     "moraes",
     "dark"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/andre-mendonca-stf-3set26-1200x675.jpg",
   "publishedAt": "2026-09-11T13:59:00+00:00",
-  "updatedAt": "2026-09-12T07:29:06.268154+00:00",
+  "updatedAt": "2026-09-12T08:27:02.871697+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-12T04:04:41+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/-sNTQZIPuEJbHv8mtsBClqyftzw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/z/DVLx49TYGdFIraqc5eRg/montagem-horizontal-1200px-4-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +78,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-12T07:08:13+00:00",
-      "postedLabel": "20 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://gauchazh.clicrbs.com.br/static/images/share.jpg?w=1200&h=675&a=c&version=1575255600",
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,7 +92,7 @@
       "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-12T03:01:30+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -106,17 +112,31 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_8b057cab97f6",
-      "title": "Da ordem de Fachin ao fim do sigilo do caso Master, linha do tempo detalha as 24 horas da guerra de despachos no Supremo",
-      "description": "O ministro André Mendonça tornou públicos na sexta-feira todos os processos do Supremo Tribunal Federal (STF) relacionados às fraudes do...",
-      "url": "https://oglobo.globo.com/politica/noticia/2026/09/12/da-ordem-de-fachin-ao-fim-do-sigilo-do-caso-master-linha-do-tempo-detalha-as-24-horas-da-guerra-de-despachos-no-supremo.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-09-12T06:30:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_4826881bbe8c",
+      "title": "Toda a verdade, doa a quem doer",
+      "description": "A transparência é uma obrigação institucional e o único antídoto capaz de restabelecer as bases éticas e jurisdicionais do Supremo Tribunal...",
+      "url": "https://www.correiobraziliense.com.br/opiniao/2026/09/7498935-toda-a-verdade-doa-a-quem-doer.html",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-12T08:00:00+00:00",
+      "postedLabel": "26 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ddfd40288a67",
+      "title": "Mendonça diz que “jamais poderia publicizar” totalidade do caso Master",
+      "description": "Ministro rebate argumentos de Moraes, cita necessidade de zelar pela preservação de dados pessoais de investigados e diz já ter liberado...",
+      "url": "https://www.cnnbrasil.com.br/politica/mendonca-diz-que-jamais-poderia-publicizar-totalidade-do-caso-master/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-11T21:17:24+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -138,42 +158,56 @@
       "title": "Moraes dobra aposta, após resposta de Mendonça sobre dados em sigilo",
       "description": "O ministro Alexandre de Moraes insistiu que André Mendonça não liberou todos os documentos necessários sobre as investigações do Banco...",
       "url": "https://veja.abril.com.br/brasil/moraes-dobra-aposta-apos-resposta-de-mendonca-sobre-dados-em-sigilo/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-11T22:24:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_002b8eeaa466",
       "title": "Mendonça libera sigilo de inquéritos sobre 'Dark Horse', que envolve Flávio Bolsonaro, e sobre Jaques Wagner, aliado de Lula; o que se sabe",
       "description": "Novos documentos sobre o caso Master vieram a público após o presidente do STF dar 24h para o ministro André Mendonça levantar o sigilo de...",
       "url": "https://www.bbc.com/portuguese/articles/cy9znz1p4q8o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-11T22:53:37+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ff002be30bf8",
+      "title": "André Mendonça levanta sigilo de 39 processos em tramitação no Supremo",
+      "description": "O ministro André Mendonça, do STF, determinou nesta sexta-feira (11/9) o levantamento do sigilo de 39 processos que tramitam na corte.",
+      "url": "https://conjur.com.br/2026-set-11/andre-mendonca-levanta-sigilo-de-39-processos-em-tramitacao-no-supremo/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-09-12T00:39:34+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_336b2fc55048",
       "title": "Vorcaro pede a manutenção de sigilo de mensagens ‘exclusivamente pessoais’",
       "description": "A defesa do ex-banqueiro Daniel Vorcaro pediu ao Supremo Tribunal Federal, nesta sexta-feira 11, que faça uma triagem de dados sensíveis...",
       "url": "https://www.cartacapital.com.br/justica/vorcaro-pede-a-manutencao-de-sigilo-de-mensagens-exclusivamente-pessoais/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-11T22:26:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_59e869038654",
@@ -204,20 +238,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ecf92949d7f7",
-      "title": "Zema e Caiado reagem à quebra de sigilo do Master",
-      "description": "Romeu Zema comemora decisão do STF; Ronaldo Caiado, internado, afirma que o caso do Banco Master vai \"muito além das especulações\"",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/elei%C3%A7%C3%B5es/zema-e-caiado-reagem-a-quebra-de-sigilo-do-master-1.1747000",
-      "source": "correiodopovo.com.br",
-      "sourceCanonical": "correiodopovo.com.br",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-09-12T00:50:05+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_f2807e57cd50",
       "title": "Fachin solicita que André Mendonça tire todo sigilo do caso Master em 24h",
       "description": "A decisão de Fachin atende a pedido da Procuradoria-Geral da República (PGR)",
@@ -232,46 +252,46 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_bd1b50665b43",
-      "title": "Mendonça atende PGR e libera nova leva de processos do caso Master",
-      "description": "Documentos são referentes a nomes como Jaques Wagner, Ciro Nogueira e Cláudio Castro, além do filme Dark Horse.",
-      "url": "https://www.cnnbrasil.com.br/politica/mendonca-atende-pgr-e-libera-nova-leva-de-processos-do-caso-master/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-11T22:57:06+00:00",
+      "id": "article_8aa04877bd43",
+      "title": "Ala do STF critica sigilo parcial de Mendonça e quer adiar julgamento de Moraes",
+      "description": "Parte da Corte cita relatório sobre Toffoli mantido sob sigilo e defende ampliar discussão prevista para terça-feira.",
+      "url": "https://www.infomoney.com.br/politica/ala-do-stf-critica-sigilo-parcial-de-mendonca-e-quer-adiar-julgamento-de-moraes/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-11T18:04:10+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ecf92949d7f7",
+      "title": "Zema e Caiado reagem à quebra de sigilo do Master",
+      "description": "Romeu Zema comemora decisão do STF; Ronaldo Caiado, internado, afirma que o caso do Banco Master vai \"muito além das especulações\"",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/elei%C3%A7%C3%B5es/zema-e-caiado-reagem-a-quebra-de-sigilo-do-master-1.1747000",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-09-12T00:50:05+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_d1a15d631d35",
-      "title": "Alexandre pede abertura total de dados do caso Master e julgamento conjunto na terça",
-      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, pediu ao presidente da corte, Edson Fachin, que duas petições relacionadas às...",
-      "url": "https://conjur.com.br/2026-set-11/alexandre-pede-abertura-total-de-dados-do-caso-master-e-julgamento-conjunto-na-terca-15/",
-      "source": "Consultor Jurídico",
-      "sourceCanonical": "Consultor Jurídico",
-      "sourceDomain": "conjur.com.br",
-      "publishedAt": "2026-09-11T16:03:09+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_4d5835e7ca52",
-      "title": "Moraes e Zanin voltam a confrontar Mendonça em guerra de ofícios no STF",
-      "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), pediu ao presidente da Corte, Luiz Edson Fachin, o compartilhamento...",
-      "url": "https://www.gazetadopovo.com.br/republica/moraes-e-zanin-voltam-a-confrontar-mendonca-em-guerra-de-oficios-no-stf/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "id": "article_dec6db60f0be",
+      "title": "Mendonça derruba sigilo do caso Dark Horse e dos que envolvem Ciro Nogueira e Jaques Wagner",
+      "description": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), determinou nesta sexta-feira (11) a retirada do sigilo de outros 38 processos...",
+      "url": "https://www.gazetadopovo.com.br/republica/mendonca-derruba-sigilo-do-caso-dark-horse-e-dos-que-envolvem-ciro-nogueira-e-jaques-wagner/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-11T22:44:00+00:00",
+      "publishedAt": "2026-09-11T23:24:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_6605a97a87e9",
@@ -300,41 +320,27 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_cf18fdc614cf",
-      "title": "Assista à íntegra da 3ª edição do JR 24 Horas desta sexta (11)",
-      "description": "Confira nesta edição do JR 24 Horas: No fim de um dia inteiro de uma verdadeira guerra de decisões, por volta das 21h, o ministro André...",
-      "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/assista-a-integra-da-3-edicao-do-jr-24-horas-desta-sexta-11-12092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-12T04:47:14+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 9,
-    "average": 5.64,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 0,
-      "centerLeft": 2,
-      "center": 6,
-      "centerRight": 2,
+      "left": 1,
+      "centerLeft": 1,
+      "center": 7,
+      "centerRight": 3,
       "right": 1,
-      "unknown": 9
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
