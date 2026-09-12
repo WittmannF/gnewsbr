@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 60
+      "topic-8": 61
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 61,
+    "bestSeedRank": 61,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/09/marcelo-kayath.jpg.webp",
   "publishedAt": "2026-09-09T08:00:00+00:00",
-  "updatedAt": "2026-09-12T16:40:39.340330+00:00",
+  "updatedAt": "2026-09-12T17:37:04.073249+00:00",
   "sourceCount": 10,
   "articleCount": 10,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Eduardo Bolsonaro diz que Marcelo Kayath seria nome forte para Ministério da Fazenda",
       "description": "O investidor e ex-banqueiro Marcelo Kayath seria um \"excelente nome\" para assumir o Ministério da Fazenda em um eventual governo do senador...",
       "url": "https://www.terra.com.br/noticias/brasil/politica/eduardo-bolsonaro-diz-que-marcelo-kayath-seria-nome-forte-para-ministerio-da-fazenda,1c6225a9d798ebbc3aa443afaabf8ca4l1qjrgbp.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-11T18:25:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/11/297699.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e2cdcf0effbb",
@@ -96,14 +96,14 @@
       "title": "Eduardo Bolsonaro reforça apoio a ex-Credit Suisse para a Fazenda de Flávio",
       "description": "Em conversas com empresários, o ex-deputado federal Eduardo Bolsonaro se tornou mais um que apoia a indicação do banqueiro Marcelo Kayath,...",
       "url": "https://veja.abril.com.br/economia/eduardo-bolsonaro-reforca-apoio-a-ex-credit-suisse-para-a-fazenda-de-flavio/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-11T17:38:35+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2f2cb20175e1",
@@ -157,7 +157,7 @@
       "sourceDomain": "pleno.news",
       "publishedAt": "2026-09-09T13:23:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://static.cdn.pleno.news/2026/09/585e37ccecdefdba0ccfcbcff9161b33_1718935.png",
       "spectrumScore": 9,
       "bucket": "right"
     },
@@ -179,27 +179,26 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 6.17,
-    "knownCount": 6,
-    "unknownCount": 4,
+    "average": 6.25,
+    "knownCount": 4,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 3,
-      "centerRight": 1,
+      "center": 2,
+      "centerRight": 0,
       "right": 1,
-      "unknown": 4
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
     "headlineDivergence": 85,
-    "confidence": 83
+    "confidence": 77
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
