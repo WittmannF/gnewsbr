@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 41
+      "topic-3": 45
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 41,
-    "bestSeedRank": 41,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/04/09/177576864369d81443a2726_1775768643_3x2_rt.jpg",
   "publishedAt": "2026-09-10T17:54:47+00:00",
-  "updatedAt": "2026-09-12T12:32:16.158866+00:00",
+  "updatedAt": "2026-09-12T13:22:56.824503+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Metrô de SP terá pagamento por aproximação em todas as catracas",
       "description": "Tecnologia estará disponível a partir de segunda-feira (14) nas linhas 1-Azul, 2-Verde, 3-Vermelha e 15-Prata.",
       "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/metro-de-sp-tera-pagamento-por-aproximacao-em-todas-as-catracas/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-11T14:49:10+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/03/greve_metro_sao_paulo_sp_23_03_2023_09-e1679935874621.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fe1d3d328e24",
@@ -110,14 +110,14 @@
       "title": "Metrô de São Paulo agora tem pagamento por aproximação em todas as catracas",
       "description": "Usuários do metrô podem pagar com cartões físicos ou virtuais das bandeiras Elo, Mastercard e Visa.",
       "url": "https://www.estadao.com.br/tecmundo/big-techs/metro-de-sao-paulo-agora-tem-pagamento-por-aproximacao-em-todas-as-catracas/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-11T16:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/E4ZPFOXQLRCZZHG7ZV2OOF36BE.jpg?quality=80&auth=dc0203488456619811986bf6f71d3f8b00b25802348104b6e2fe16eacb00e580&width=1200&height=630&focal=1330,726",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c156211c0cee",
@@ -236,8 +236,8 @@
       "title": "Metrô de SP terá pagamento por aproximação em todas as catracas; veja quando começa",
       "description": "O Metrô de São Paulo vai ampliar o pagamento por aproximação para todas as catracas das linhas 1-Azul, 2-Verde, 3-Vermelha e 15-Prata a...",
       "url": "https://canaltech.com.br/apps/metro-de-sp-tera-pagamento-por-aproximacao-em-todas-as-catracas-veja-quando-comeca/",
-      "source": "Canaltech",
-      "sourceCanonical": "Canaltech",
+      "source": "canaltech.com.br",
+      "sourceCanonical": "canaltech.com.br",
       "sourceDomain": "canaltech.com.br",
       "publishedAt": "2026-09-11T16:28:08+00:00",
       "postedLabel": "hoje",
@@ -292,8 +292,8 @@
       "title": "Metrô-SP amplia pagamento por aproximação para todas as catracas",
       "description": "O primeiro portal brasileiro inteiramente dedicado ao tema da mobilidade urbana sustentável.Se quiser entrar em contato com o Mobilize...",
       "url": "https://www.mobilize.org.br/noticias/14695/metrosp-amplia-pagamento-por-aproximacao-para-todas-as-catracas.html",
-      "source": "Mobilize Brasil",
-      "sourceCanonical": "Mobilize Brasil",
+      "source": "mobilize.org.br",
+      "sourceCanonical": "mobilize.org.br",
       "sourceDomain": "mobilize.org.br",
       "publishedAt": "2026-09-11T18:28:46+00:00",
       "postedLabel": "hoje",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.5,
+    "max": 7,
+    "average": 4.83,
     "knownCount": 6,
     "unknownCount": 14,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 4,
-      "centerRight": 0,
+      "center": 3,
+      "centerRight": 1,
       "right": 0,
       "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 93
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
