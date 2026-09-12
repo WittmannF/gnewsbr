@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 34
+      "topic-8": 35
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 34,
-    "bestSeedRank": 34,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2025/09/12/675x450/1_54778191878-039862088d-o-59119030.jpg?20251022071147?20251022071147",
   "publishedAt": "2026-09-09T09:03:00+00:00",
-  "updatedAt": "2026-09-12T04:38:02.787797+00:00",
+  "updatedAt": "2026-09-12T05:42:07.377004+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -194,8 +194,8 @@
       "title": "FUX ENQUADRA GOVERNO LULA E DÁ 15 DIAS PARA EXPLICAR VETO A SOCORRO BILIONÁRIO AO BRB",
       "description": "Ministro Luiz Fux determina que o governo federal explique, em até 15 dias, os motivos para não conceder aval a uma operação de crédito de...",
       "url": "https://diario360.com.br/2026/09/10/fux-enquadra-governo-lula-e-da-15-dias-para-explicar-veto-a-socorro-bilionario-ao-brb/",
-      "source": "Diário 360",
-      "sourceCanonical": "Diário 360",
+      "source": "diario360.com.br",
+      "sourceCanonical": "diario360.com.br",
       "sourceDomain": "diario360.com.br",
       "publishedAt": "2026-09-10T21:30:00+00:00",
       "postedLabel": "ontem",
@@ -218,20 +218,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_150e26f60375",
-      "title": "Fux dá 15 dias para União, BC e FGC explicarem operação de R$ 6,6 bilhões do BRB",
-      "description": "Ministro do STF deu prazo de 15 dias para esclarecimentos sobre operação pedida pelo GDF e encaminhou o processo à PGR.",
-      "url": "https://www.brasil247.com/brasilia/fux-da-15-dias-para-uniao-bc-e-fgc-explicarem-operacao-de-r-66-bilhoes-do-brb/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-10T20:01:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_5ae7e9fa7555",
       "title": "Notícia Fux dá 15 dias para União e BC responderem sobre empréstimo ao BRB",
       "description": "Um ministro do Supremo Tribunal Federal concedeu 15 dias para que órgãos federais e o Fundo Garantidor de Crédito expliquem os obstáculos...",
@@ -240,10 +226,24 @@
       "sourceCanonical": "Kinvo",
       "sourceDomain": "kinvo.com.br",
       "publishedAt": "2026-09-11T05:09:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_150e26f60375",
+      "title": "Fux dá 15 dias para União, BC e FGC explicarem operação de R$ 6,6 bilhões do BRB",
+      "description": "Ministro do STF deu prazo de 15 dias para esclarecimentos sobre operação pedida pelo GDF e encaminhou o processo à PGR.",
+      "url": "https://www.brasil247.com/brasilia/fux-da-15-dias-para-uniao-bc-e-fgc-explicarem-operacao-de-r-66-bilhoes-do-brb/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-10T20:01:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_00707320962b",
@@ -292,8 +292,8 @@
       "title": "Fux dá prazo de 15 dias para governo, BC e FGC responderem sobre socorro ao BRB",
       "description": "Ministro do STF analisa pedido do Distrito Federal para obter garantia da União em empréstimo de até R$ 6,6 bilhões para o Banco de...",
       "url": "https://emtemponoticias.com.br/noticias/brasil/fux-da-prazo-de-15-dias-para-governo-bc-e-fgc-responderem-sobre-socorro-ao-brb/",
-      "source": "Em Tempo Notícias",
-      "sourceCanonical": "Em Tempo Notícias",
+      "source": "emtemponoticias.com.br",
+      "sourceCanonical": "emtemponoticias.com.br",
       "sourceDomain": "emtemponoticias.com.br",
       "publishedAt": "2026-09-11T15:00:00+00:00",
       "postedLabel": "hoje",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 8,
-    "average": 5.22,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 2,
       "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
