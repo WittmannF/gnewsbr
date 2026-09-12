@@ -13,11 +13,11 @@
     ],
     "seedRanks": {
       "topic-3": 53,
-      "topic-5": 11
+      "topic-5": 22
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 53,
-    "bestSeedRank": 11,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/qYkL0PCKablPU0uJuOxH6Yqv90c=/1300x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/k/UKlnWsS6O8SkQBcakoGg/foto-e-montagem-vertical-59-.png",
   "publishedAt": "2026-09-08T10:18:00+00:00",
-  "updatedAt": "2026-09-12T06:37:20.887568+00:00",
+  "updatedAt": "2026-09-12T07:25:42.153539+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -141,14 +141,14 @@
       "title": "Datafolha divulga pesquisa para governo e Senado no Rio de Janeiro",
       "description": "O instituto Datafolha divulgou nesta sexta-feira (11) uma pesquisa que mostra como está a intenção de voto para o governo do Rio de Janeiro...",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-rio-de-janeiro-setembro-2026/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-11T21:25:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/10133935/Rio-de-Janeiro.png",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2d389496a4dd",
@@ -160,7 +160,7 @@
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-10T14:38:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/08/agenciasenado-5d2a0078.webp",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -169,14 +169,14 @@
       "title": "Datafolha: Benedita lidera ao Senado no RJ; 2º vaga tem empate quíntuplo",
       "description": "Carlos Jordy, Carlos Portinho, Pedro Paulo, Marcelo Crivella e Monica Benicio estão embolados dentro da margem de erro.",
       "url": "https://www.metropoles.com/brasil/datafolha-benedita-lidera-ao-senado-no-rj-2o-vaga-tem-empate-quintuplo",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-11T21:28:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_56aaf3bbc85e",
@@ -215,7 +215,7 @@
       "sourceCanonical": "novidades mt",
       "sourceDomain": "novidadesmt.com.br",
       "publishedAt": "2026-09-12T06:08:00+00:00",
-      "postedLabel": "29 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -321,28 +321,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 4.88,
+    "max": 5,
+    "average": 4.5,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 5,
-      "centerRight": 1,
+      "center": 6,
+      "centerRight": 0,
       "right": 0,
       "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

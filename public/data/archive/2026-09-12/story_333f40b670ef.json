@@ -27,11 +27,11 @@
     "tesouro",
     "rendimento",
     "juros",
-    "treasuries"
+    "taxas"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/11/17891294246aa3f2d0032d0_1789129424_3x2_rt.jpg",
   "publishedAt": "2026-09-09T17:44:26+00:00",
-  "updatedAt": "2026-09-12T06:48:22.042201+00:00",
+  "updatedAt": "2026-09-12T07:36:53.247893+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -64,20 +64,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_dfc3c899e3df",
-      "title": "O que está impulsionando as taxas e até onde os rendimentos podem chegar?",
-      "description": "Investing.com - O rendimento real dos títulos do Tesouro americano de 10 anos, utilizado como taxa de desconto para ações globais,...",
-      "url": "https://br.investing.com/news/economy-news/o-que-esta-impulsionando-as-taxas-de-juros-e-ate-onde-os-rendimentos-podem-chegar-2063096",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "sourceCanonical": "Investing.com Brasil",
-      "sourceDomain": "br.investing.com",
-      "publishedAt": "2026-09-11T11:04:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_6e3dc8520370",
       "title": "Escalada de juros nos EUA eleva taxas do Tesouro IPCA+ no Brasil",
       "description": "Juros de longo prazo alcançam maior nível em quase 20 anos nos EUA e afetam retornos da renda fixa no Brasil.",
@@ -90,6 +76,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_dfc3c899e3df",
+      "title": "O que está impulsionando as taxas e até onde os rendimentos podem chegar?",
+      "description": "Investing.com - O rendimento real dos títulos do Tesouro americano de 10 anos, utilizado como taxa de desconto para ações globais,...",
+      "url": "https://br.investing.com/news/economy-news/o-que-esta-impulsionando-as-taxas-de-juros-e-ate-onde-os-rendimentos-podem-chegar-2063096",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-09-11T11:04:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d18a2944fc27",
@@ -222,14 +222,14 @@
       "title": "Rendimentos de títulos do Tesouro dos EUA disparam com petróleo a US$ 107",
       "description": "FOLHAPRESS Os rendimentos de títulos do Tesouro dos Estados Unidos dispararam nesta quinta-feira (10), atingindo o nível mais alto em quase...",
       "url": "https://jornaldebrasilia.com.br/noticias/economia/rendimentos-de-titulos-do-tesouro-dos-eua-disparam-com-petroleo-a-us-107/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
+      "source": "jornaldebrasilia.com.br",
+      "sourceCanonical": "jornaldebrasilia.com.br",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-09-10T20:21:24+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2b5e4331a9d3",
@@ -302,14 +302,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_333b3f0ed57f",
-      "title": "O rendimento do Treasury dos EUA a 10 anos atinge o nível mais alto desde outubro de 2023",
-      "description": "O rendimento dos títulos do Tesouro dos EUA com vencimento em 10 anos subiu para 4,856% na quarta-feira, seu nível mais alto desde outubro...",
-      "url": "https://www.coindesk.com/pt-br/markets/2026/09/10/scott-bessent-doubles-down-on-bond-buybacks-as-treasury-yields-continue-to-surge",
-      "source": "CoinDesk",
-      "sourceCanonical": "CoinDesk",
-      "sourceDomain": "coindesk.com",
-      "publishedAt": "2026-09-10T11:47:41+00:00",
+      "id": "article_933ec21ddfd1",
+      "title": "Venda massiva de títulos globais leva o rendimento dos títulos de 10 anos dos EUA para perto de 5%, devido aos temores relacionados ao petróleo e ao aumento das taxas de juros",
+      "description": "Por Ankur BanerjeeUma onda global de vendas de títulos empurrou os rendimentos dos títulos do Treasury dos EUA de 10 anos para perto do...",
+      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N453068:0/",
+      "source": "TradingView",
+      "sourceCanonical": "TradingView",
+      "sourceDomain": "br.tradingview.com",
+      "publishedAt": "2026-09-11T05:52:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.44,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.5,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
