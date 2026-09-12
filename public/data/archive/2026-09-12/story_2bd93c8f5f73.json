@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 3
+      "topic-3": 6
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "vorcaro",
     "mpf",
-    "investigação",
     "aponta",
-    "grupo",
-    "master"
+    "master",
+    "investigação",
+    "grupo"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/ZQTAEM2VQZHHDDEFYNU2U5ZA4Q.png?quality=80&auth=80953298ed9a6d73db9af76df9005c05057f25c981cae41d7c525b48c9d63beb&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-11T04:00:00+00:00",
-  "updatedAt": "2026-09-12T05:23:46.054057+00:00",
+  "updatedAt": "2026-09-12T06:35:25.589345+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-11T06:03:28+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-g1.glbimg.com/koqYU-4eRx3HtDH08BQP-DS7tus=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/s/e/OeKL6ORtCq02Y6mrGAew/260306-montagem-fotos-vorcaro.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -162,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_2e645850cbee",
-      "title": "Documentos confidenciais, imóveis e viagens: veja relação de Vorcaro com BC",
-      "description": "Sigilo do caso Banco Master foi derrubado após determinação de Edson Fachin; investigação aponta relação de influência do banqueiro com...",
-      "url": "https://www.cnnbrasil.com.br/politica/documentos-confidenciais-imoveis-e-viagens-veja-relacao-de-vorcaro-com-bc/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-11T10:55:33+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_1e71d16baf7a",
       "title": "Chefe de supervisão do Banco Central recebeu ao menos R$ 13 milhões de Vorcaro, aponta PF",
       "description": "Pagamentos ao servidor do BC variavam entre R$ 500 mil e R$ 760 mil por mês.",
@@ -204,12 +190,26 @@
       "bucket": "right"
     },
     {
+      "id": "article_306dddd83095",
+      "title": "Caso Master: PF aponta uso de logins do MPF em acessos sigilosos",
+      "description": "De acordo com os investigadores, os acessos ocorriam por meio do uso de logins funcionais de terceiros, da extração indevida de documentos e...",
+      "url": "https://www.cnnbrasil.com.br/politica/caso-master-pf-aponta-uso-de-logins-do-mpf-em-acessos-sigilosos/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-11T08:15:29+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_1c2d9b408fd5",
       "title": "Grupo de Vorcaro tinha informações do MPF, da PF e até da Interpol",
       "description": "Da Agência Brasil. O grupo ligado ao então banqueiro Daniel Vorcaro, ex-dono do Banco Master, tinha acesso a informações sobre investigações...",
       "url": "https://sul21.com.br/noticias/politica/2026/09/grupo-de-vorcaro-tinha-informacoes-do-mpf-da-pf-e-ate-da-interpol/",
-      "source": "sul21.com.br",
-      "sourceCanonical": "sul21.com.br",
+      "source": "Sul 21",
+      "sourceCanonical": "Sul 21",
       "sourceDomain": "sul21.com.br",
       "publishedAt": "2026-09-11T20:43:00+00:00",
       "postedLabel": "hoje",
@@ -222,14 +222,14 @@
       "title": "Master: ex-chefe do BC recebeu R$ 3,8 milhões de Vorcaro por projeto social",
       "description": "Depoimento à PF aponta repasses entre 2023 e 2025 por projeto Jovens Potentes. Defesa nega vantagem ilícita e interferência no Master.",
       "url": "https://www.metropoles.com/brasil/master-ex-chefe-do-bc-recebeu-r-38-milhoes-de-vorcaro-por-projeto-social",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-11T22:10:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5cfbb806c65c",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.81,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.87,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 4,
-      "center": 6,
+      "center": 5,
       "centerRight": 4,
       "right": 2,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
