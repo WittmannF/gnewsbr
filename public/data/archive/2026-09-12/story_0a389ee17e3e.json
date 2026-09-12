@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 20
+      "topic-7": 19
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F09-10-2026%2Ft_42c98b67e0a04bda98965a435d570a63_name_WhatsApp_Image_2026_04_17_at_15_44_37.jpeg?smart=true&auth=3c65d42cbdb01fd4e581eb179eb9804d0beb64c038b9ae694a081f7b3b4bb82d&width=1200&height=630",
   "publishedAt": "2026-09-05T10:57:00+00:00",
-  "updatedAt": "2026-09-12T03:35:36.087671+00:00",
+  "updatedAt": "2026-09-12T04:35:12.717989+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -152,14 +152,14 @@
       "title": "Em telefonema, Putin e Trump têm conversa ‘extremamente franca’ sobre guerra na Ucrânia",
       "description": "Ligação acontece após a visita de enviados especiais americanos às capitais Moscou e Kiev no último fim de semana.",
       "url": "https://veja.abril.com.br/mundo/em-telefonema-putin-e-trump-tem-conversa-extremamente-franca-sobre-guerra-na-ucrania/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-08T21:31:36+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fe1f3aca7908",
@@ -218,20 +218,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_03afc92be2aa",
-      "title": "Trump diz que Putin quer chegar a um acordo na Ucrânia Por Reuters",
-      "description": "WASHINGTON, 9 Set (Reuters) - O presidente dos Estados Unidos, Donald Trump, afirmou nesta quarta-feira que teve uma ótima conversa com o...",
-      "url": "https://br.investing.com/news/world-news/trump-diz-que-putin-quer-chegar-a-um-acordo-na-ucrania-2060873",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "sourceCanonical": "Investing.com Brasil",
-      "sourceDomain": "br.investing.com",
-      "publishedAt": "2026-09-09T18:42:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_d3f813cd2d93",
       "title": "Enviado de Putin chega a aeroporto de Moscou para receber negociadores dos EUA",
       "description": "O voo com os negociadores dos Estados Unidos, Steve Witkoff e Jared Kushner, deve pousar em breve no Aeroporto Vnukovo de Moscou,...",
@@ -243,6 +229,20 @@
       "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_03afc92be2aa",
+      "title": "Trump diz que Putin quer chegar a um acordo na Ucrânia Por Reuters",
+      "description": "WASHINGTON, 9 Set (Reuters) - O presidente dos Estados Unidos, Donald Trump, afirmou nesta quarta-feira que teve uma ótima conversa com o...",
+      "url": "https://br.investing.com/news/world-news/trump-diz-que-putin-quer-chegar-a-um-acordo-na-ucrania-2060873",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-09-09T18:42:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 6.2,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 6.14,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 7,
-      "centerRight": 6,
+      "centerRight": 5,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
