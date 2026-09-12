@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPcjdiM0VSR0hScjNYWF95eElpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPcjdiM0VSR0hScjNYWF95eElpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 58
+      "topic-3": 56,
+      "topic-5": 63
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 58,
-    "bestSeedRank": 58,
+    "firstSeenRank": 56,
+    "bestSeedRank": 56,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/-sE1hg2uQkcf7bJkFc3VzPMIeSg=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/1/01ckxATOqfZLkhNFFk4Q/design-sem-nome-48-.png",
   "publishedAt": "2026-09-05T15:00:00+00:00",
-  "updatedAt": "2026-09-12T01:32:46.714545+00:00",
+  "updatedAt": "2026-09-12T02:36:38.975770+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,25 +46,11 @@
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-11T22:50:07+00:00",
-      "postedLabel": "2 horas atrás",
+      "publishedAt": "2026-09-11T20:05:12+00:00",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/-sE1hg2uQkcf7bJkFc3VzPMIeSg=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/1/01ckxATOqfZLkhNFFk4Q/design-sem-nome-48-.png",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_38fa09768e65",
-      "title": "Datafolha: Marília tem 12%, e Aécio, 10% para Senado em MG - 11/09/2026 - Política",
-      "description": "Nova pesquisa Datafolha divulgada nesta sexta-feira (11) testa 16 nomes que concorrem pelas duas vagas em disputa para o Senado por Minas...",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-marilia-campos-tem-12-em-disputa-pelo-senado-em-mg-aecio-neves-e-carlos-viana-marcam-10.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-11T20:21:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/11/17891676286aa4880c87a1a_1789167628_3x2_xl.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_9197e838d772",
@@ -72,7 +61,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-11T20:17:30+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/55478925460_df8a9d2340_o.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -92,29 +81,57 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_e8cd88ee2776",
+      "title": "Pesquisa: Aécio Neves avança e rearranja disputa ao Senado por Minas Gerais",
+      "description": "Disputa é liderada com larga vantagem pela petista Marília Campos, segundo levantamento do Real Time Big Data.",
+      "url": "https://veja.abril.com.br/politica/pesquisa-aecio-neves-avanca-e-tem-chance-de-conquistar-2a-vaga-ao-senado-por-minas/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-08T12:39:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/04/marilia-campos-aecio-neves-carlos-viana.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_38fa09768e65",
+      "title": "Datafolha: Marília tem 12%, e Aécio, 10% para Senado em MG - 11/09/2026 - Política",
+      "description": "Nova pesquisa Datafolha divulgada nesta sexta-feira (11) testa 16 nomes que concorrem pelas duas vagas em disputa para o Senado por Minas...",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-marilia-campos-tem-12-em-disputa-pelo-senado-em-mg-aecio-neves-e-carlos-viana-marcam-10.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-11T20:21:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_f55bb31c18a6",
       "title": "Em MG, Marília (PT) mantém liderança na disputa pelo Senado, diz Datafolha",
       "description": "Pesquisa Datafolha sobre a disputa pelo Senado em Minas Gerais, divulgada nesta sexta-feira (11), mostra a candidata do PT, Marília Campos,...",
       "url": "https://www.brasildefato.com.br/2026/09/11/em-mg-marilia-pt-mantem-lideranca-na-disputa-pelo-senado-diz-datafolha/",
-      "source": "brasildefato.com.br",
-      "sourceCanonical": "brasildefato.com.br",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-11T21:47:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_cd2ac286efd3",
       "title": "Datafolha/MG: Marília tem 12% para o Senado; Carlos Viana e Aécio, 10%",
-      "description": "Marília Campos (PT) tem 12% das intenções de voto na disputa pelas duas vagas ao Senado por Minas Gerais, segundo pesquisa Datafolha...",
+      "description": "Marília Campos (PT) tem 12% das intenções de voto na disputa pelas duas vagas ao Senado por ...",
       "url": "https://www.terra.com.br/noticias/brasil/politica/datafolhamg-marilia-tem-12-para-o-senado-carlos-viana-e-aecio-10,2b86a9d48b891d9bc4a9489bd36bcdb9o1jwa85l.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-11T21:33:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -128,24 +145,10 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-11T20:40:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_e8cd88ee2776",
-      "title": "Pesquisa: Aécio Neves avança e rearranja disputa ao Senado por Minas Gerais",
-      "description": "Disputa é liderada com larga vantagem pela petista Marília Campos, segundo levantamento do Real Time Big Data.",
-      "url": "https://veja.abril.com.br/politica/pesquisa-aecio-neves-avanca-e-tem-chance-de-conquistar-2a-vaga-ao-senado-por-minas/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-08T12:39:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_fc0fef4ae750",
@@ -208,8 +211,8 @@
       "title": "MG2 entrevista candidatos ao Senado por Minas Gerais para as eleições de 2026",
       "description": "MG2 realiza entrevistas com os principais candidatos ao Senado por Minas Gerais, trazendo propostas e debates essenciais para o futuro do...",
       "url": "https://minasinforma.com/entrevista-candidatos-senado-mg2-entrevista-candidatos-ao-senado-por-minas-2/",
-      "source": "minasinforma.com",
-      "sourceCanonical": "minasinforma.com",
+      "source": "Minas Informa",
+      "sourceCanonical": "Minas Informa",
       "sourceDomain": "minasinforma.com",
       "publishedAt": "2026-09-11T02:41:21+00:00",
       "postedLabel": "hoje",
@@ -226,7 +229,7 @@
       "sourceCanonical": "BHAZ",
       "sourceDomain": "bhaz.com.br",
       "publishedAt": "2026-09-11T20:53:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -250,8 +253,8 @@
       "title": "Aécio tem maior rejeição entre nomes testados pela AtlasIntel em Minas",
       "description": "Aécio Neves (PSDB), que voltou à disputa pelo Senado por Minas Gerais, registra 54,2% de rejeição entre os eleitores do estado,...",
       "url": "https://veronoticias.com/politica/aecio-tem-maior-rejeicao-entre-nomes-testados-pela-atlasintel-em-minas/",
-      "source": "Vero Notícias",
-      "sourceCanonical": "Vero Notícias",
+      "source": "veronoticias.com",
+      "sourceCanonical": "veronoticias.com",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-09-08T11:40:00+00:00",
       "postedLabel": "3 dias atrás",
@@ -306,8 +309,8 @@
       "title": "Está em dúvida em quem votar para Senador em Minas Gerais? Conheça os candidatos ao cargo em 2026",
       "description": "Explore os perfis dos 16 candidatos ao Senado por Minas Gerais nas Eleições 2026. Saiba suas trajetórias, partidos e propostas.",
       "url": "https://diariodocomercio.com.br/politica/candidatos-senador-minas-gerais-2026/",
-      "source": "Diário do Comércio",
-      "sourceCanonical": "Diário do Comércio",
+      "source": "diariodocomercio.com.br",
+      "sourceCanonical": "diariodocomercio.com.br",
       "sourceDomain": "diariodocomercio.com.br",
       "publishedAt": "2026-09-08T18:41:00+00:00",
       "postedLabel": "3 dias atrás",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.27,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 3,
       "right": 1,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

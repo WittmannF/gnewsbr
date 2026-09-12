@@ -26,12 +26,12 @@
     "eua",
     "estreito",
     "ormuz",
-    "guerra",
-    "ataques"
+    "ataques",
+    "golfo"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/lZyxAdtU1bw8OBHI1O2AjaYjUyg=/3965x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/7/c4r1QzRTmT9XSkEXwEqA/200629-f-gz700-9011.jpg",
   "publishedAt": "2026-09-06T14:25:00+00:00",
-  "updatedAt": "2026-09-12T01:43:00.758830+00:00",
+  "updatedAt": "2026-09-12T02:46:27.586889+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -57,7 +57,7 @@
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-11T14:17:02+00:00",
+      "publishedAt": "2026-09-11T13:59:47+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/YOYJVFL345FTBEJM6Y2PQPTYWE.jpg?quality=80&auth=c4b4c5278def9dd10940ec6d24cad73c69cb3745d505956c1f767141a7bd89ee&width=1200&height=630&smart=true",
       "spectrumScore": 7,
@@ -90,6 +90,20 @@
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/P6HDVH37KJCBZA35SZXGRLGY2M.jpeg?smart=true&auth=40d47bfe58132e298089b3b07b7da480342985ddab91b77d9c456a4bc46b38a6&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_80ed706423f3",
+      "title": "Trânsito em Ormuz volta a cair e avanço houthi em Bab el-Mandeb alarga crise no Médio Oriente",
+      "description": "Apenas sete navios passaram pelo estreito de Ormuz na quinta-feira, um revés para os EUA quando os houthis ameaçam ainda mais o estreito de...",
+      "url": "https://www.publico.pt/2026/09/11/mundo/noticia/passagens-navios-ormuz-voltam-diminuir-trump-tera-recusado-atacar-houthis-2187706",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-09-11T09:31:20+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_c336c87ada57",
@@ -274,32 +288,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_96ecb982ff7f",
-      "title": "Irã ameaça ampliar guerra com os EUA e diz estar pronto para conflito prolongado",
-      "description": "O Irã está preparado para uma guerra mais intensa e ampliará seus contra-ataques caso os Estados Unidos continuem atacando seu território e...",
-      "url": "https://www.infomoney.com.br/mundo/ira-ameaca-ampliar-guerra-com-os-eua-e-diz-estar-pronto-para-conflito-prolongado/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-09-09T18:41:57+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_162539abd184",
       "title": "Porta-voz iraniano promete respostas mais rápidas e fortes aos ataques dos Estados Unidos",
       "description": "O Irã prometeu seguir retaliando os Estados Unidos de forma mais rápida e intensa após bombardeios contra três navios petroleiros iranianos.",
       "url": "https://www.brasildefato.com.br/2026/09/06/porta-voz-iraniano-promete-respostas-mais-rapidas-e-fortes-aos-ataques-dos-estados-unidos/",
-      "source": "brasildefato.com.br",
-      "sourceCanonical": "brasildefato.com.br",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-06T14:25:00+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c34430082ccc",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.44,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.06,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
-      "left": 0,
-      "centerLeft": 2,
-      "center": 10,
+      "left": 1,
+      "centerLeft": 3,
+      "center": 9,
       "centerRight": 4,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
