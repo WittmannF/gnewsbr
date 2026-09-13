@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 67
+      "topic-4": 66
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 67,
-    "bestSeedRank": 67,
+    "firstSeenRank": 66,
+    "bestSeedRank": 66,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://midias.em.com.br/_midias/jpg/2026/09/11/1000x1000/1_globo-news-67667197.jpg?20260911152239?20260911152239",
   "publishedAt": "2026-09-11T16:46:00+00:00",
-  "updatedAt": "2026-09-13T06:47:36.737407+00:00",
+  "updatedAt": "2026-09-13T07:30:10.383079+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -124,8 +124,8 @@
       "title": "CASO MASTER: MALU GASPAR REBATE OTÁVIO GUEDES AO VIVO E QUESTIONA NARRATIVA PARA BLINDAR MORAES",
       "description": "Jornalista contestou ao vivo, na GloboNews, a justificativa de que ministros do STF não teriam tempo suficiente para analisar os documentos...",
       "url": "https://diario360.com.br/2026/09/11/caso-master-malu-gaspar-rebate-otavio-guedes-ao-vivo-e-questiona-narrativa-para-blindar-moraes/",
-      "source": "Diário 360",
-      "sourceCanonical": "Diário 360",
+      "source": "diario360.com.br",
+      "sourceCanonical": "diario360.com.br",
       "sourceDomain": "diario360.com.br",
       "publishedAt": "2026-09-11T18:45:00+00:00",
       "postedLabel": "ontem",
@@ -222,14 +222,14 @@
       "title": "VÍDEO: Malu Gaspar interrompe Octavio Guedes na GloboNews e toma invertida",
       "description": "Octavio Guedes disse que ministros do STF querem acesso integral aos documentos do caso Master antes de julgamento previsto para terça (15)",
       "url": "https://www.diariodocentrodomundo.com.br/video-malu-gaspar-interrompe-octavio-guedes-na-globonews-e-toma-invertida/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-11T16:46:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_af10b08584bf",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 9,
-    "average": 5.38,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 6,
       "centerRight": 0,
       "right": 1,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
