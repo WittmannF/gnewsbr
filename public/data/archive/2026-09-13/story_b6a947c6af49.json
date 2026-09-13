@@ -12,11 +12,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 11,
-      "topic-5": 10
+      "topic-3": 10,
+      "topic-5": 12
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 11,
+    "firstSeenRank": 10,
     "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/5824/live/440adf30-ae3c-11f1-a540-61c3f7fc4e6c.jpg",
   "publishedAt": "2026-09-11T18:28:00+00:00",
-  "updatedAt": "2026-09-13T01:04:55.443286+00:00",
+  "updatedAt": "2026-09-13T01:38:22.729949+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -127,28 +127,28 @@
       "title": "Vorcaro bancou viagens a Jaques Wagner e pediu discrição: ‘Tira o avião rápido de lá’",
       "description": "Mensagens foram identificadas pela PF e estão em novos documentos que André Mendonça retirou o sigilo nesta semana.",
       "url": "https://noticias.r7.com/brasilia/vorcaro-bancou-viagens-a-jaques-wagner-e-pediu-discricao-tira-o-aviao-rapido-de-la-12092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-12T12:56:54+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
-      "id": "article_afbd693ab1b6",
+      "id": "article_87fe6a4b2e46",
       "title": "PF revela Wagner como ponte entre Messias e ex-sócio de Vorcaro",
       "description": "Quando o banqueiro Augusto Ferreira Lima, ex-CEO do Banco Master e ex-sócio de Daniel Vorcaro, quis chegar a Jorge Messias, não precisou...",
-      "url": "https://diariodopoder.com.br/destaque-2/pf-revela-wagner-como-ponte-entre-messias-e-ex-socio-de-vorcaro",
-      "source": "diariodopoder.com.br",
-      "sourceCanonical": "diariodopoder.com.br",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/lsf-brasil/pf-revela-wagner-como-ponte-entre-messias-e-ex-socio-de-vorcaro",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-12T12:20:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_14e222b54be1",
@@ -201,7 +201,7 @@
       "sourceCanonical": "Vero Notícias",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-09-12T23:30:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -243,7 +243,7 @@
       "sourceCanonical": "Se Ligue Bahia",
       "sourceDomain": "seliguebahia.com.br",
       "publishedAt": "2026-09-12T19:11:52+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -321,27 +321,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 8,
-    "average": 5.5,
+    "max": 9,
+    "average": 5.7,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
       "center": 5,
-      "centerRight": 3,
-      "right": 0,
+      "centerRight": 2,
+      "right": 1,
       "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
