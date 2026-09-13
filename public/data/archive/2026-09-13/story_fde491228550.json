@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 58
+      "topic-8": 63
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 58,
-    "bestSeedRank": 58,
+    "firstSeenRank": 63,
+    "bestSeedRank": 63,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/11/17891333316aa4021391e5d_1789133331_3x2_rt.jpg",
   "publishedAt": "2026-09-09T08:00:00+00:00",
-  "updatedAt": "2026-09-13T08:48:28.549422+00:00",
+  "updatedAt": "2026-09-13T10:06:47.853587+00:00",
   "sourceCount": 10,
   "articleCount": 10,
   "articles": [
@@ -78,18 +78,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_3c6878e423a2",
+      "title": "Executivo do Bank of America é cogitado para governo Flávio",
+      "description": "Alexandre Bettamio tem o nome considerado para ser ministro da Fazenda em caso de vitória do senador.",
+      "url": "https://pleno.news/brasil/politica-nacional/executivo-do-bank-of-america-e-cogitado-para-governo-flavio.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-09-09T13:23:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": "https://static.cdn.pleno.news/2026/09/585e37ccecdefdba0ccfcbcff9161b33_1718935.png",
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_3574c0a01d2d",
       "title": "Eduardo Bolsonaro reforça apoio a ex-Credit Suisse para a Fazenda de Flávio",
       "description": "Em conversas com empresários, o ex-deputado federal Eduardo Bolsonaro se tornou mais um que apoia a indicação do banqueiro Marcelo Kayath,...",
       "url": "https://veja.abril.com.br/economia/eduardo-bolsonaro-reforca-apoio-a-ex-credit-suisse-para-a-fazenda-de-flavio/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-11T17:38:35+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_af20cd98f25d",
@@ -101,7 +115,7 @@
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-11T14:44:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/09/marcelo-kayath.jpg.webp",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -148,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3c6878e423a2",
-      "title": "Executivo do Bank of America é cogitado para governo Flávio",
-      "description": "Alexandre Bettamio tem o nome considerado para ser ministro da Fazenda em caso de vitória do senador.",
-      "url": "https://pleno.news/brasil/politica-nacional/executivo-do-bank-of-america-e-cogitado-para-governo-flavio.html",
-      "source": "Pleno.News",
-      "sourceCanonical": "Pleno.News",
-      "sourceDomain": "pleno.news",
-      "publishedAt": "2026-09-09T13:23:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_05d3d25cec55",
       "title": "Eduardo Bolsonaro cita Kayath para o Ministério da Fazenda",
       "description": "Segundo o Money Times, Eduardo Bolsonaro citou Marcelo Kayath como possível ministro da Fazenda em um eventual governo de Flávio Bolsonaro.",
@@ -179,26 +179,27 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 6,
-    "knownCount": 5,
-    "unknownCount": 5,
+    "average": 6.17,
+    "knownCount": 6,
+    "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 3,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 1,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
-    "confidence": 80
+    "confidence": 83
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
