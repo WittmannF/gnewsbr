@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 31
+      "topic-8": 34
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://cdn.noticiasagricolas.com.br/dbimagens/rebanho-boi-nelore-lGzIk.png",
   "publishedAt": "2026-09-07T14:00:00+00:00",
-  "updatedAt": "2026-09-13T14:36:22.263839+00:00",
+  "updatedAt": "2026-09-13T15:35:14.658600+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -59,7 +59,7 @@
       "sourceDomain": "farmnews.com.br",
       "publishedAt": "2026-09-10T12:07:27+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.farmnews.com.br/wp-content/uploads/2026/09/modelo-41.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -68,8 +68,8 @@
       "title": "Boi gordo segue firme e novilha sobe pelo 2º dia",
       "description": "O mercado do boi gordo permaneceu firme em São Paulo nesta quinta-feira (10), mesmo com cautela nas negociações.",
       "url": "https://www.agrolink.com.br/noticias/boi-gordo-segue-firme-e-novilha-sobe-pelo-2--dia_518726.html",
-      "source": "Agrolink",
-      "sourceCanonical": "Agrolink",
+      "source": "agrolink.com.br",
+      "sourceCanonical": "agrolink.com.br",
       "sourceDomain": "agrolink.com.br",
       "publishedAt": "2026-09-10T21:26:00+00:00",
       "postedLabel": "2 dias atrás",
@@ -250,8 +250,8 @@
       "title": "Arroba do boi será impulsionada pelos EUA em setembro, mas terá UE como freio",
       "description": "Possível aumento das exportações brasileiras aos norte-americanos deve aquecer o mercado, mas suspensão à União Europeia reduz empolgação.",
       "url": "https://www.acrissul.com.br/noticias/arroba-do-boi-sera-impulsionada-pelos-eua-em-setembro-mas-tera-ue/28060/",
-      "source": "Acrissul",
-      "sourceCanonical": "Acrissul",
+      "source": "acrissul.com.br",
+      "sourceCanonical": "acrissul.com.br",
       "sourceDomain": "acrissul.com.br",
       "publishedAt": "2026-09-09T17:27:00+00:00",
       "postedLabel": "3 dias atrás",
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_12609eabd7ed",
-      "title": "Mercado futuro do boi rumo ao recorde de R$ 400 a arroba",
-      "description": "Com vendas para os EUA e nova cota chinesa mercado futuro precifica, pela primeira vez, arroba acima de R$ 380 em 2027. Juliana Camargo, da...",
-      "url": "https://www.cnnbrasil.com.br/agro/mercado-futuro-do-boi-rumo-ao-recorde-de-r-400-a-arroba/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-07T17:16:22+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/01/Novo-Projeto-e1788794594949.png?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_0e4502aa7bcb",
       "title": "Boi gordo hoje: confira cotações para esta quinta-feira (10)",
       "description": "O preço do boi gordo apresenta alta de 0,33% nesta quinta-feira (10). Em São Paulo, a arroba é negociada a R$ 349,50. INDICADOR DO BOI GORDO...",
@@ -314,28 +300,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_12609eabd7ed",
+      "title": "Mercado futuro do boi rumo ao recorde de R$ 400 a arroba",
+      "description": "Com vendas para os EUA e nova cota chinesa mercado futuro precifica, pela primeira vez, arroba acima de R$ 380 em 2027. Juliana Camargo, da...",
+      "url": "https://www.cnnbrasil.com.br/agro/mercado-futuro-do-boi-rumo-ao-recorde-de-r-400-a-arroba/",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-07T17:16:22+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 6,
     "max": 7,
-    "average": 6.25,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 6.67,
+    "knownCount": 3,
+    "unknownCount": 17,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 2,
+      "center": 1,
       "centerRight": 2,
       "right": 0,
-      "unknown": 16
+      "unknown": 17
     }
   },
   "scores": {
     "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
-    "confidence": 87
+    "spectrumBalance": 27,
+    "headlineDivergence": 73,
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
