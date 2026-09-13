@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3bk1fdEVSRWtEX2FBX3lBbnpDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3bk1fdEVSRWtEX2FBX3lBbnpDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 3,
-      "topic-7": 3
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 8,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Cúpula do Brics reúne líderes em Nova Délhi",
+  "title": "Cúpula do Brics em Nova Délhi critica o protecionismo",
   "summary": "Líder chinês dominou segundo dia de discussões na cúpula do bloco; primeiro-ministro da Índia pediu que países deixem de usar tecnologia e...",
   "topic": "Brics · Cúpula",
   "topicKeywords": [
     "brics",
     "cúpula",
-    "índia",
     "oriente",
     "médio",
-    "líderes"
+    "índia",
+    "guerra"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/xi-jinping-narendra-modi-brics-cupula-india.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-12T07:53:27+00:00",
-  "updatedAt": "2026-09-13T20:32:30.393946+00:00",
+  "updatedAt": "2026-09-13T21:19:55.526514+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -67,20 +73,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_15ffcbe36c53",
-      "title": "FT: Rejeição ao 'trumpismo' gera raro consenso na cúpula do Brics",
-      "description": "Bloco historicamente pouco coeso alcança consenso fácil em meio a preocupações com a guerra no Golfo, tarifas e sanções dos EUA.",
-      "url": "https://valor.globo.com/mundo/noticia/2026/09/13/ft-rejeicao-ao-trumpismo-gera-raro-consenso-na-cupula-do-brics.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-09-13T19:33:37+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://s2-valor.glbimg.com/3pvDcDHgYwXX4QmJJVEAS_qwMAY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/K/X/Nz5Bu5Scihki8aDC4COw/55523574263-6411115327-o-1024x652.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_10f0d5c16386",
       "title": "Minerais críticos, IA e soberania: veja os principais pontos da declaração do Brics em Nova Déli",
       "description": "Soberania sobre recursos minerais, maior acesso dos países do Sul Global às tecnologias de inteligência artificial (IA) e mudanças nas...",
@@ -89,7 +81,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-12T20:53:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/09/afp20260912c84e8cuv3mockupindiabricssummitfamilyphoto-ffc89ede.webp",
       "spectrumScore": 2,
       "bucket": "left"
@@ -104,23 +96,37 @@
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-09-13T14:20:06+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2026/05/20/afp__20260515__b2wh6pm__v1__highres__chinausdiplomacy-11844342.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_15ffcbe36c53",
+      "title": "FT: Rejeição ao 'trumpismo' gera raro consenso na cúpula do Brics",
+      "description": "Bloco historicamente pouco coeso alcança consenso fácil em meio a preocupações com a guerra no Golfo, tarifas e sanções dos EUA.",
+      "url": "https://valor.globo.com/mundo/noticia/2026/09/13/ft-rejeicao-ao-trumpismo-gera-raro-consenso-na-cupula-do-brics.ghtml",
+      "source": "valor.globo.com",
+      "sourceCanonical": "valor.globo.com",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-09-13T19:33:37+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_46e7f5b1839e",
       "title": "Brics encerra cúpula com defesa do livre comércio; Xi critica protecionismo antes de viagem aos EUA",
       "description": "Líder chinês pediu rejeição a barreiras comerciais a menos de duas semanas de visita a Washington; Putin voltou a defender uma ordem mundial...",
       "url": "https://www.estadao.com.br/internacional/brics-encerra-cupula-com-defesa-do-livre-comercio-xi-critica-protecionismo-antes-de-viagem-aos-eua/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-13T19:32:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e46de3de5b6a",
@@ -131,7 +137,7 @@
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-09-13T15:10:38+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -159,24 +165,10 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-12T20:38:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_290f22a3a351",
-      "title": "Cúpula do Brics na Índia: Entenda em nove pontos os principais resultados",
-      "description": "Encontro dos líderes do bloco conseguiu chegar a um comunicado final, mas não responsabiliza nenhum país pela guerra no Oriente Médio e se...",
-      "url": "https://www.cnnbrasil.com.br/blogs/americo-martins/internacional/cupula-do-brics-na-india-entenda-em-nove-pontos-os-principais-resultados/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-13T18:33:38+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_920a7bbf2a86",
@@ -207,6 +199,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_290f22a3a351",
+      "title": "Cúpula do Brics na Índia: Entenda em nove pontos os principais resultados",
+      "description": "Encontro dos líderes do bloco conseguiu chegar a um comunicado final, mas não responsabiliza nenhum país pela guerra no Oriente Médio e se...",
+      "url": "https://www.cnnbrasil.com.br/blogs/americo-martins/internacional/cupula-do-brics-na-india-entenda-em-nove-pontos-os-principais-resultados/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-13T18:33:38+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ba95567ccb5f",
+      "title": "Brics cria sistema integrado para prevenção de pandemias e melhoria de respostas a desastres",
+      "description": "Nova Delhi - A prevenção de futuras crises sanitárias e climáticas foi um dos principais temas apresentados no segundo e último dia da 18ª...",
+      "url": "https://www.folhape.com.br/noticias/brics-cria-sistema-integrado-para-prevencao-de-pandemias-e-melhoria-de/512296/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-09-13T20:31:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_b797fb53ec01",
       "title": "BRICS, um caminho para um mundo mais equitativo e multipolar",
       "description": "Foto tirada em 17 de julho de 2026 mostra o Fórum Mútuo do BRICS da Conferência Mundial de IA 2026 (WAIC, na sigla em inglês) e a Reunião de...",
@@ -225,28 +245,14 @@
       "title": "Líderes do BRICS se reúnem na Índia e condenam ataques no Oriente Médio",
       "description": "Líderes do BRICS estão reunidos na Índia neste fim de semana. A cúpula acontece em Nova Délhi e reúne 11 países emergentes, entre eles China...",
       "url": "https://noticias.r7.com/jr-na-tv/video/lideres-do-brics-se-reunem-na-india-e-condenam-ataques-no-oriente-medio-13092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-13T00:08:28+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_b2c17ad64ea9",
-      "title": "Brics expressa preocupação com tensões no Oriente Médio",
-      "description": "Os participantes da reunião de Cúpula do Brics, neste fim de semana em Nova Delhi, capital da Índia, manifestaram “profunda preocupação” com...",
-      "url": "https://www.folhape.com.br/noticias/brics-expressa-preocupacao-com-tensoes-no-oriente-medio/512220/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-09-12T19:10:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d3bdfa59103c",
@@ -257,7 +263,7 @@
       "sourceCanonical": "UN News",
       "sourceDomain": "news.un.org",
       "publishedAt": "2026-09-13T16:50:57+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -305,44 +311,45 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_84a9f6086fed",
-      "title": "Líderes do BRICS se reúnem na Índia em meio a tensões com os EUA",
-      "description": "Cúpula em Nova Délhi será focada em comércio, investimento e conflitos globais.",
-      "url": "https://jovempan.com.br/mundo/lideres-do-brics-se-reunem-na-india-em-meio-a-tensoes-com-os-eua/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-12T12:35:13+00:00",
+      "id": "article_7784c1d8d966",
+      "title": "Brics expressa preocupação com tensões no Oriente Médio",
+      "description": "Os participantes da reunião de Cúpula do Brics, neste fim de semana em Nova Delhi, capital da Índia, manifestaram “profunda preocupação” com...",
+      "url": "https://midiamax.com.br/cotidiano/economia/2026/brics-expressa-preocupacao-tensoes-oriente-medio/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-09-12T17:19:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.18,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "max": 8,
+    "average": 4.54,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 2,
       "centerLeft": 3,
-      "center": 8,
-      "centerRight": 3,
-      "right": 1,
-      "unknown": 3
+      "center": 7,
+      "centerRight": 1,
+      "right": 0,
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
