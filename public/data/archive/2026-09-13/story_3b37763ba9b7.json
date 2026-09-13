@@ -12,11 +12,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 24,
-      "topic-5": 23
+      "topic-3": 23,
+      "topic-5": 26
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 24,
+    "firstSeenRank": 23,
     "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/Lula-em-Curitiba-6-1200x675.png",
   "publishedAt": "2026-09-09T00:50:00+00:00",
-  "updatedAt": "2026-09-13T09:49:30.787960+00:00",
+  "updatedAt": "2026-09-13T11:20:26.712632+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -127,14 +127,14 @@
       "title": "Lula: ‘A Faria Lima só chora. A Faria Lima não conhece a palavra social’",
       "description": "O presidente Luiz Inácio Lula da Silva (PT) criticou o setor empresarial brasileiro ao dizer que a “Faria Lima só chora” e não é capaz de...",
       "url": "https://www.em.com.br/politica/2026/09/7498223-lula-a-faria-lima-so-chora-a-faria-lima-nao-conhece-a-palavra-social.html",
-      "source": "em.com.br",
-      "sourceCanonical": "em.com.br",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-09-10T23:41:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ed878e36a485",
@@ -211,14 +211,14 @@
       "title": "‘Ninguém tem autoridade para falar de responsabilidade fiscal comigo’, diz Lula",
       "description": "Presidente colocou educação entre as prioridades e afirmou que investimentos na área não podem ser tratados apenas como gasto, em sabatina...",
       "url": "https://www.itatiaia.com.br/politica/eleicoes/ninguem-tem-autoridade-para-falar-de-responsabilidade-fiscal-comigo-diz-lula/",
-      "source": "itatiaia.com.br",
-      "sourceCanonical": "itatiaia.com.br",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-09-10T23:45:31+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ffa63e0e31fc",
@@ -291,20 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0a6f470a89ba",
-      "title": "Lula critica Faria Lima e diz que mercado “só chora”",
-      "description": "O presidente da República e candidato à reeleição, Luiz Inácio Lula da Silva (PT), criticou os economistas que representam a Faria Lima e...",
-      "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-critica-faria-lima-e-diz-que-mercado-so-chora",
-      "source": "sbtnews.sbt.com.br",
-      "sourceCanonical": "sbtnews.sbt.com.br",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-09-10T23:39:22+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_e91a85137ce1",
       "title": "Lula diz que é preciso parar com 'babaquice de fazer superávit' para governo investir",
       "description": "Analistas têm manifestado preocupação com reiterados déficits fiscais dos últimos anos. Para baixar juro e conter a dívida, cobram ajuste...",
@@ -317,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_0a6f470a89ba",
+      "title": "Lula critica Faria Lima e diz que mercado “só chora”",
+      "description": "O presidente da República e candidato à reeleição, Luiz Inácio Lula da Silva (PT), criticou os economistas que representam a Faria Lima e...",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-critica-faria-lima-e-diz-que-mercado-so-chora",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-10T23:39:22+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.75,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 4.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 4,
+      "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 12
+      "unknown": 9
     }
   },
   "scores": {
