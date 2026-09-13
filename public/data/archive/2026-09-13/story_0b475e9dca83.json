@@ -3,16 +3,19 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyMWFmN0VSR1RjUkVzalJXaFh5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pyMWFmN0VSR1RjUkVzalJXaFh5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "topic-3": 7,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 7,
     "bestSeedRank": 7,
     "isHomeTop": false,
@@ -26,13 +29,13 @@
     "flávio",
     "datafolha",
     "bolsonaro",
-    "tem",
-    "turno"
+    "turno",
+    "tem"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-flavio-sergio-lima-poder360-1200x675.webp",
   "publishedAt": "2026-09-09T18:25:00+00:00",
-  "updatedAt": "2026-09-13T12:39:58.460017+00:00",
-  "sourceCount": 17,
+  "updatedAt": "2026-09-13T13:22:22.603241+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -78,20 +81,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_4264a4e02a6a",
-      "title": "Opinião: Campanha acirrada, debate indigente",
-      "description": "Datafolha mostra distância reduzida entre Lula e Flávio Bolsonaro no 1ª e no 2ª turnos; Corrida presidencial até agora parece mais sujeita...",
-      "url": "https://www1.folha.uol.com.br/opiniao/2026/09/campanha-acirrada-debate-indigente.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-13T01:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/12/17892526576aa5d4317054c_1789252657_3x2_lg.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_28ee14836a9d",
       "title": "A nova pesquisa Quaest sobre a disputa entre Lula e Flávio Bolsonaro",
       "description": "O instituto Quaest divulgará na próxima segunda-feira 14 sua nova pesquisa de intenção de voto para presidente da República.",
@@ -101,9 +90,23 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-09T18:25:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/LF-1.jpg",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_05ee514d6d75",
+      "title": "Datafolha: Lula e Flávio empatam tecnicamente no 2º turno em MG",
+      "description": "A pesquisa foi feita presencialmente entre os dias 8 e 10 de setembro com 1.204 eleitores; a margem de erro é de três pontos percentuais...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-e-flavio-empatam-tecnicamente-no-2o-turno-em-mg/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-12T21:48:58+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_c2e60b6c6354",
@@ -218,32 +221,46 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_05ee514d6d75",
-      "title": "Datafolha: Lula e Flávio empatam tecnicamente no 2º turno em MG",
-      "description": "A pesquisa foi feita presencialmente entre os dias 8 e 10 de setembro com 1.204 eleitores; a margem de erro é de três pontos percentuais...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-e-flavio-empatam-tecnicamente-no-2o-turno-em-mg/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-12T21:48:58+00:00",
-      "postedLabel": "hoje",
+      "id": "article_ed29ad85178f",
+      "title": "Lula tem 43% dos votos válidos contra 38% de Flávio no 1º turno, mostra Datafolha",
+      "description": "Presidente oscila um ponto para cima e candidato do PL avança dois; nos votos válidos, placar é de 43% a 38%",
+      "url": "https://www.infomoney.com.br/politica/lula-tem-43-dos-votos-validos-contra-38-de-flavio-no-1o-turno-mostra-datafolha/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-11T21:47:33+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_122e2f11e792",
+      "title": "Datafolha: Lula tem 39%, e Flávio Bolsonaro, 35% em primeiro turno",
+      "description": "Por Igor Gielow. (Folhapress) – A primeira pesquisa do Datafolha realizada sob o impacto pleno da crise do Supremo Tribunal Federal mostra o...",
+      "url": "https://iclnoticias.com.br/datafolha-lula-tem-39-e-flavio-bolsonaro-35/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-09-11T22:18:37+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_e26277aa6001",
       "title": "Datafolha no DF: Flávio tem 40% e Lula, 32% no 1º turno",
       "description": "Pesquisa do Datafolha foi realizada entre 8 e 11 de setembro e ouviu 910 eleitores do DF.",
       "url": "https://www.metropoles.com/distrito-federal/datafolha-no-df-flavio-tem-40-e-lula-32-no-1o-turno",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-12T22:06:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_911348aa1f1a",
@@ -260,6 +277,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_7f741e8af4a7",
+      "title": "Datafolha: confira os cenários de disputa entre Lula e Flávio Bolsonaro em SP, MG, RJ e PE",
+      "description": "247 – A mais recente pesquisa Datafolha aponta vantagem de Flávio Bolsonaro (PL) sobre o presidente Lula (PT) em um eventual segundo turno...",
+      "url": "https://www.brasil247.com/brasil/datafolha-confira-os-cenarios-de-disputa-entre-lula-e-flavio-bolsonaro-em-sp-mg-rj-e-pe/",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-12T21:22:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_dc54f3f1cdcd",
       "title": "Datafolha: Flávio encurta distância e chega a 35% contra 39% de Lula",
       "description": "A pesquisa Datafolha divulgada nesta sexta-feira (11) mostra Lula com 39% e Flávio com 35% no 1º turno, diferença de 4 pontos. Publicado em...",
@@ -274,59 +305,31 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f83e43fad818",
-      "title": "Datafolha aponta Lula com 39% dos votos totais e Flávio, 35%, em empate técnico no 1º turno",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) lidera numericamente as intenções de voto no ...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/datafolha-aponta-lula-com-39-dos-votos-totais-e-flavio-35-em-empate-tecnico-no-1-turno,ac0eb292bf81d81ade9b2d1816cfac9cyvmv2fax.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-11T22:27:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_79eea8405f6b",
+      "title": "Disputa entre Lula, Flávio Bolsonaro e Augusto Cury fica mais acirrada no segundo turno, segundo pesquisa; veja como investir neste cenário",
+      "description": "Luiz Inácio Lula da Silva (PT) aparece com 39% das intenções de voto no primeiro turno, contra 35% de Flávio Bolsonaro (PL),...",
+      "url": "https://www.moneytimes.com.br/disputa-entre-lula-flavio-bolsonaro-e-augusto-cury-fica-mais-acirrada-no-segundo-turno-segundo-pesquisa-veja-como-investir-neste-cenario-lbrdjm039/",
+      "source": "Money Times",
+      "sourceCanonical": "Money Times",
+      "sourceDomain": "moneytimes.com.br",
+      "publishedAt": "2026-09-13T12:00:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_3d931238e72b",
-      "title": "Datafolha enfraquece polarização e mostra que Caiado surpreende",
-      "description": "A nova pesquisa Datafolha divulgada nesta sexta-feira, 11, mostra números e fraturas no cenário eleitoral do país. Fica claro, que Brasil...",
-      "url": "https://tribunadonorte.com.br/colunas/artigos/datafolha-enfraquece-polarizacao-e-mostra-que-caiado-surpreende/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-09-11T22:37:14+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7d57861fe83e",
-      "title": "Lula tem 46% no segundo turno contra 44% de Flávio Bolsonaro, diz Datafolha",
-      "description": "Empate técnico também se repete no primeiro turno, quando Lula tem 39% e Flávio, 35%",
-      "url": "https://noticias.r7.com/eleicoes/2026/lula-tem-46-no-segundo-turno-contra-44-de-flavio-bolsonaro-diz-datafolha-11092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-11T22:59:29+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.25,
+    "average": 5.12,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
-      "left": 1,
-      "centerLeft": 3,
-      "center": 8,
-      "centerRight": 4,
+      "left": 2,
+      "centerLeft": 2,
+      "center": 9,
+      "centerRight": 3,
       "right": 0,
       "unknown": 4
     }
