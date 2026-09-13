@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 19
+      "topic-9": 21
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenRank": 21,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/L72WAVRFXZJD3JWPHD7JC5R5N4.png?quality=80&auth=8fd093c845756d282f3117a5c49115c63642408bad778e8fdb2104451549e58c&width=1200&height=630&smart=true",
   "publishedAt": "2026-08-26T07:00:00+00:00",
-  "updatedAt": "2026-09-13T16:38:36.574308+00:00",
+  "updatedAt": "2026-09-13T17:35:59.309238+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,8 +68,8 @@
       "title": "RTX 4090 reduz consumo em 47 W sem perder desempenho com DLSS 5 após undervolt",
       "description": "Desde a chegada do DLSS 5, cresce a preocupação com o consumo das placas de vídeo, e um usuário do Reddit mostrou que um undervolt tira 47 W...",
       "url": "https://www.adrenaline.com.br/hardware/rtx-4090-undervolt-dlss-5-47w-menos-consumo/",
-      "source": "Adrenaline",
-      "sourceCanonical": "Adrenaline",
+      "source": "adrenaline.com.br",
+      "sourceCanonical": "adrenaline.com.br",
       "sourceDomain": "adrenaline.com.br",
       "publishedAt": "2026-09-11T17:36:00+00:00",
       "postedLabel": "ontem",
@@ -106,20 +106,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_efbabdb75f0e",
-      "title": "WARDOGS e Honeycomb: The World Beyond chegam com DLSS esta semana, e PUBG: BATTLEGROUNDS adiciona DLSS nesta quinta-feira",
-      "description": "Após a longa lista de lançamentos da semana passada e o lançamento do NVIDIA DLSS 5 com renderização neural guiada em 3D, esta semana traz...",
-      "url": "https://www.nvidia.com/pt-br/geforce/news/wardogs-pubg-battlegrounds-honeycomb-dlss/",
-      "source": "nvidia.com",
-      "sourceCanonical": "nvidia.com",
-      "sourceDomain": "nvidia.com",
-      "publishedAt": "2026-09-09T07:00:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_9259faa02743",
       "title": "Modder Ativa Recurso Restrito da NVIDIA em Placas RTX Antigas",
       "description": "Modder ativa DLSS Frame Generation da NVIDIA em placas RTX 20. Descubra como o mod funciona, os testes de desempenho e os riscos da...",
@@ -129,6 +115,20 @@
       "sourceDomain": "pichauarena.com.br",
       "publishedAt": "2026-09-11T01:19:33+00:00",
       "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_efbabdb75f0e",
+      "title": "WARDOGS e Honeycomb: The World Beyond chegam com DLSS esta semana, e PUBG: BATTLEGROUNDS adiciona DLSS nesta quinta-feira",
+      "description": "Após a longa lista de lançamentos da semana passada e o lançamento do NVIDIA DLSS 5 com renderização neural guiada em 3D, esta semana traz...",
+      "url": "https://www.nvidia.com/pt-br/geforce/news/wardogs-pubg-battlegrounds-honeycomb-dlss/",
+      "source": "NVIDIA",
+      "sourceCanonical": "NVIDIA",
+      "sourceDomain": "nvidia.com",
+      "publishedAt": "2026-09-09T07:00:00+00:00",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -208,14 +208,14 @@
       "title": "NVIDIA confirma que DLSS 5 será lançado oficialmente nas placas GeForce RTX 40",
       "description": "Revelação ocorre após usuários conseguirem fazer o recurso funcionar nas placas RTX 40 (e 30 e 20) usando mods.",
       "url": "https://www.terra.com.br/gameon/plataformas-e-consoles/nvidia-confirma-que-dlss-5-sera-lancado-oficialmente-nas-placas-geforce-rtx-40,2cdcc0f493fde08c05fba1c9905fd993su4ginxw.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-08T12:15:00+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/08/rtx4090-1hbj9k8xw68gx.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fa003e2594f5",
@@ -317,25 +317,25 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 7,
     "max": 7,
-    "average": 6,
-    "knownCount": 2,
-    "unknownCount": 18,
+    "average": 7,
+    "knownCount": 1,
+    "unknownCount": 19,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 1,
+      "center": 0,
       "centerRight": 1,
       "right": 0,
-      "unknown": 18
+      "unknown": 19
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
-    "confidence": 81
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
+    "headlineDivergence": 70,
+    "confidence": 78
   },
   "flags": [
     "Alta cobertura",
