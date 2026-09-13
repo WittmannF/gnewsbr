@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGOVBYOUVSRkxqaHJ2SVFUbkFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGOVBYOUVSRkxqaHJ2SVFUbkFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Naufrágio de balsa deixa mortos e desaparecidos na Indonésia",
   "summary": "Ao menos uma pessoa morreu e 102 foram resgatadas após embarcação virar durante mau tempo na Indonésia; buscas mobilizam helicóptero,...",
@@ -27,12 +33,12 @@
     "balsa",
     "mar",
     "java",
-    "deixa"
+    "desaparecidas"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/v5i17Fe3DZhwE41ac9AaPdX6HhQ=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/S/1NzkS9SSWxuhj46HLIAA/ap26256222438314.jpg",
   "publishedAt": "2026-09-12T21:15:07+00:00",
-  "updatedAt": "2026-09-13T13:31:00.830311+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-09-13T14:20:51.267995+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -44,7 +50,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-13T08:19:25+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/v5i17Fe3DZhwE41ac9AaPdX6HhQ=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/S/1NzkS9SSWxuhj46HLIAA/ap26256222438314.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,18 +70,74 @@
       "bucket": "center"
     },
     {
-      "id": "article_5b1670986ebd",
-      "title": "Balsa com 243 pessoas afunda na Indonésia e deixa mais de 140 desaparecidos",
-      "description": "Uma balsa com 243 pessoas a bordo naufragou no Mar de Java, na Indonésia, deixando mais de 140 desaparecidos neste domingo (13).O que...",
-      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/13/naufragio-balsa-mar-de-java-indonesia.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-13T09:15:05+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
+      "id": "article_864385e9807c",
+      "title": "Balsa vira na Indonésia e mata ao menos 6 pessoas; centenas estão desaparecidas",
+      "description": "Ao menos seis pessoas morreram e outras 130 seguem desaparecidas neste domingo (13) após uma balsa virar no mar de Java durante uma viagem...",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/09/balsa-vira-na-indonesia-e-mata-ao-menos-6-pessoas-centenas-estao-desaparecidas.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-13T13:43:00+00:00",
+      "postedLabel": "37 minutos atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/13/17893067226aa6a762a45f4_1789306722_3x2_lg.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_7b5f2309954c",
+      "title": "Embarcação com 243 pessoas é dada como desaparecida no mar da Indonésia",
+      "description": "Navio perdeu contato horas depois de zarpar de Surabaya rumo a Banjarmasin; agência de busca e salvamento já mobilizou equipes na região.",
+      "url": "https://www.cnnbrasil.com.br/internacional/embarcacao-com-243-pessoas-desaparece-no-mar-da-indonesia/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-13T00:37:03+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/12/GettyImages-2173673554.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_dc44f73c6a19",
+      "title": "Mais de 140 desaparecem após balsa com 243 pessoas afundar na Indonésia",
+      "description": "Embarcação perdeu contato com armadores neste domingo enquanto navegava entre as ilhas de Java e Bornéu. Segundo as autoridades, 102 pessoas...",
+      "url": "https://www.estadao.com.br/internacional/naufragio-de-balsa-deixa-1-morto-e-103-resgatados-na-indonesia-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-13T05:58:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_213bb40ce915",
+      "title": "Balsa vira na Indonésia e deixa ao menos seis mortos e 130 desaparecidos",
+      "description": "Pelo menos seis pessoas morreram e 130 estão desaparecidas após uma balsa virar neste domingo, 13, durante uma travessia entre as ilhas de...",
+      "url": "https://veja.abril.com.br/mundo/balsa-vira-na-indonesia-e-deixa-ao-menos-seis-mortos-e-130-desaparecidos/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-13T13:50:00+00:00",
+      "postedLabel": "30 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_9dffc3ad152e",
+      "title": "Balsa lotada pega mau tempo, afunda e deixa 140 pessoas desaparecidas na Indonésia",
+      "description": "Equipes de resgate da Indonésia buscam 140 pessoas desaparecidas depois que uma balsa com passageiros afundou no Mar de Java neste domingo...",
+      "url": "https://noticias.r7.com/internacional/balsa-lotada-enfrenta-mau-tempo-afunda-e-deixa-140-pessoas-desaparecidas-na-indonesia-13092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-13T10:51:48+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_de04be8f681c",
@@ -92,46 +154,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_dc44f73c6a19",
-      "title": "Naufrágio de balsa deixa 1 morto e 103 resgatados na Indonésia",
-      "description": "Embarcação perdeu contato com armadores neste domingo enquanto navegava entre as ilhas de Java e Bornéu.",
-      "url": "https://www.estadao.com.br/internacional/naufragio-de-balsa-deixa-1-morto-e-103-resgatados-na-indonesia-npr/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-13T05:58:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_d2d4c8bf1bb5",
+      "title": "Naufrágio na Indonésia: Seis corpos de passageiros foram recuperados, aproximadamente 130 pessoas ainda estão desaparecidas.",
+      "description": "Segundo um correspondente da Agência de Notícias do Vietnã (VNA) na Indonésia, autoridades indonésias informaram que aproximadamente 130...",
+      "url": "https://www.vietnam.vn/pt/vu-chim-tau-o-indonesia-truc-vot-6-thi-the-hanh-khach-van-con-khoang-130-nguoi-mat-tich",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-09-13T14:03:40+00:00",
+      "postedLabel": "17 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_9dffc3ad152e",
-      "title": "Balsa lotada pega mau tempo, afunda e deixa 140 pessoas desaparecidas na Indonésia",
-      "description": "Equipes de resgate da Indonésia buscam 140 pessoas desaparecidas depois que uma balsa com passageiros afundou no Mar de Java neste domingo...",
-      "url": "https://noticias.r7.com/internacional/balsa-lotada-enfrenta-mau-tempo-afunda-e-deixa-140-pessoas-desaparecidas-na-indonesia-13092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-13T10:51:48+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_7b5f2309954c",
-      "title": "Embarcação com 243 pessoas é dada como desaparecida no mar da Indonésia",
-      "description": "Navio perdeu contato horas depois de zarpar de Surabaya rumo a Banjarmasin; agência de busca e salvamento já mobilizou equipes na região.",
-      "url": "https://www.cnnbrasil.com.br/internacional/embarcacao-com-243-pessoas-desaparece-no-mar-da-indonesia/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-13T00:37:03+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_3b631d1c73ac",
@@ -142,21 +176,7 @@
       "sourceCanonical": "redeutv.com.br",
       "sourceDomain": "redeutv.com.br",
       "publishedAt": "2026-09-13T09:10:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_7772a9a79ec6",
-      "title": "Indonésia: Navio de passageiros com mais de 200 pessoas a bordo perde contato no mar.",
-      "description": "O chefe do Departamento de Busca e Resgate da cidade de Banjarmasin disse que a van Virgo Transport 8 perdeu contato por volta das 2h da...",
-      "url": "https://www.vietnam.vn/pt/indonesia-tau-khach-cho-hon-200-nguoi-mat-lien-lac-tren-bien",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-09-13T05:42:14+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -180,28 +200,28 @@
       "title": "Naufrágio de balsa deixa mais de 125 desaparecidos na Indonésia",
       "description": "Naufrágio de balsa deixou mais de 125 desaparecidos na Indonésia. A balsa Virgo Transport 8, com 243 passageiros a bordo, enfrentou uma...",
       "url": "https://www.tribunadosertao.com.br/geral/2026/09/13/977963-naufragio-de-balsa-deixa-mais-de-125-desaparecidos-na-indonesia",
-      "source": "tribunadosertao.com.br",
-      "sourceCanonical": "tribunadosertao.com.br",
+      "source": "Tribuna do Sertão",
+      "sourceCanonical": "Tribuna do Sertão",
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-09-13T09:09:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_45ab35eb5808",
       "title": "Mais de 140 desaparecem após balsa com 243 pessoas afundar na Indonésia",
       "description": "Ao menos uma pessoa morreu e 102 foram resgatadas após embarcação afundar durante tempestade na Indonésia; buscas continuam.",
       "url": "https://www.terra.com.br/noticias/mundo/mais-de-140-desaparecem-apos-balsa-com-243-pessoas-afundar-na-indonesia,7b713430374040c755d860f773bee852dr5blr96.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-13T11:49:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f5fc67bc6e9d",
@@ -212,7 +232,7 @@
       "sourceCanonical": "Notícias ao Minuto Brasil",
       "sourceDomain": "noticiasaominuto.com.br",
       "publishedAt": "2026-09-13T08:41:01+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +246,7 @@
       "sourceCanonical": "tmc.com.br",
       "sourceDomain": "tmc.com.br",
       "publishedAt": "2026-09-13T12:08:18+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -240,21 +260,21 @@
       "sourceCanonical": "radiocaicara.com.br",
       "sourceDomain": "radiocaicara.com.br",
       "publishedAt": "2026-09-13T11:33:54+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
       "id": "article_c66b18024380",
-      "title": "Balsa desaparece no Mar de Java e 140 pessoas somem",
+      "title": "Balsa desaparece no Mar de Java e deixa 140 pessoas desaparecidas",
       "description": "A balsa Virgo Transport 8 desapareceu no Mar de Java na manhã deste domingo (13), durante uma viagem entre Surabaya, no leste da ilha de...",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/balsa-desaparece-no-mar-de-java-e-140-pessoas-somem/",
       "source": "Diário do Centro do Mundo",
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-13T11:47:26+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -268,7 +288,7 @@
       "sourceCanonical": "bra1.com.br",
       "sourceDomain": "bra1.com.br",
       "publishedAt": "2026-09-13T11:40:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,45 +320,32 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_001ef4d343f7",
-      "title": "Naufrágio deixa 140 desaparecidos na Indonésia",
-      "description": "Naufrágio deixa 140 desaparecidos na Indonésia. Expandir ou colapsar descrição. Naufrágio deixa 140 desaparecidos na Indonésia...",
-      "url": "https://g1.globo.com/globonews/jornal-globonews/video/naufragio-deixa-140-desaparecidos-na-indonesia-14957182.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-13T10:38:53+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.33,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 7,
-      "centerRight": 1,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 11
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
