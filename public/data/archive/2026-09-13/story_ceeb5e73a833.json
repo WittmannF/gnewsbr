@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 56
+      "topic-8": 55
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 56,
-    "bestSeedRank": 56,
+    "firstSeenRank": 55,
+    "bestSeedRank": 55,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2019/11/shutterstock_1461426560.jpg",
   "publishedAt": "2026-09-11T12:01:00+00:00",
-  "updatedAt": "2026-09-13T03:44:38.512335+00:00",
+  "updatedAt": "2026-09-13T04:44:54.942723+00:00",
   "sourceCount": 12,
   "articleCount": 14,
   "articles": [
@@ -87,7 +87,21 @@
       "sourceDomain": "br.advfn.com",
       "publishedAt": "2026-09-11T14:12:35+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://br.advfn.com/jornal/files/2021/05/B3SA3_2_3.977270.jpeg",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_cdf3d6bc1e4a",
+      "title": "Ibovespa em dólar estreia na B3 nesta segunda",
+      "description": "B3 começa a divulgar Ibovespa em dólar no fechamento; indicador usa taxa WMR e mostra distância de 22,3% da máxima histórica em moeda...",
+      "url": "https://www.spacemoney.com.br/investimentos/ibovespa-dolar-b3/",
+      "source": "SpaceMoney",
+      "sourceCanonical": "SpaceMoney",
+      "sourceDomain": "spacemoney.com.br",
+      "publishedAt": "2026-09-12T15:59:07+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -110,22 +124,22 @@
       "title": "B3 passará a divulgar Ibovespa em dólar a partir de segunda-feira (14)",
       "description": "bovespa em dólar: B3 começa a divulgar novo índice, permitindo acompanhar o desempenho da bolsa brasileira na moeda americana.",
       "url": "https://www.moneytimes.com.br/b3-passara-a-divulgar-ibovespa-em-dolar-a-partir-de-segunda-feira-14-lils/",
-      "source": "moneytimes.com.br",
-      "sourceCanonical": "moneytimes.com.br",
+      "source": "Money Times",
+      "sourceCanonical": "Money Times",
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-09-11T12:01:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2025/10/b3-renda-fixa.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_abfca456a35c",
       "title": "B3 passa a divulgar Ibovespa em dólar a partir de segunda-feira",
       "description": "Até então, o cálculo do Ibovespa na moeda americana tem sido feito por conta própria por investidores internacionais.",
       "url": "https://investnews.com.br/investimentos/b3-passa-a-divulgar-ibovespa-em-dolar-a-partir-de-segunda-feira/",
-      "source": "investnews.com.br",
-      "sourceCanonical": "investnews.com.br",
+      "source": "InvestNews",
+      "sourceCanonical": "InvestNews",
       "sourceDomain": "investnews.com.br",
       "publishedAt": "2026-09-12T14:07:19+00:00",
       "postedLabel": "hoje",
@@ -143,20 +157,6 @@
       "sourceDomain": "suno.com.br",
       "publishedAt": "2026-09-11T17:55:06+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_cdf3d6bc1e4a",
-      "title": "Ibovespa em dólar estreia na B3 nesta segunda",
-      "description": "B3 começa a divulgar Ibovespa em dólar no fechamento; indicador usa taxa WMR e mostra distância de 22,3% da máxima histórica em moeda...",
-      "url": "https://www.spacemoney.com.br/investimentos/ibovespa-dolar-b3/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-09-12T15:59:07+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -235,23 +235,23 @@
   "spectrum": {
     "min": 6,
     "max": 7,
-    "average": 6.33,
-    "knownCount": 3,
-    "unknownCount": 11,
+    "average": 6.25,
+    "knownCount": 4,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 2,
+      "center": 3,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 82
+    "confidence": 85
   },
   "flags": [
     "Alta cobertura",
