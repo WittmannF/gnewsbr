@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 28,
+      "topic-3": 35,
       "topic-5": 33
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 35,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/HD80uNzhDU9yTDCdehlDqXRDsDM=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/5/9ETNdpSFuGlD4ovOL80Q/fotojet-12-.jpg",
   "publishedAt": "2026-09-11T15:12:00+00:00",
-  "updatedAt": "2026-09-13T01:39:21.295480+00:00",
+  "updatedAt": "2026-09-13T02:35:25.347184+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -71,28 +71,28 @@
       "title": "PF detalha viagens pagas por Vorcaro para Ciro com hospedagem \"royal\"",
       "description": "Ex-banqueiro e senador foram para Nova York e Alpes Franceses.",
       "url": "https://www.cnnbrasil.com.br/politica/pf-detalha-viagens-pagas-por-vorcaro-para-ciro-com-hospedagem-royal/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-12T03:40:19+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/WhatsApp-Image-2026-06-16-at-16.54.24-1.jpeg?w=549&h=285&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_c12dc43985db",
       "title": "Vorcaro movimentou US$ 89,6 milhões nas Bahamas em dois anos, aponta relatório do Coaf",
       "description": "O banqueiro Daniel Vorcaro movimentou US$ 89,6 milhões, o equivalente a R$ 455 milhões, em transações financeiras nas Bahamas em dois anos,...",
       "url": "https://www.folhape.com.br/politica/vorcaro-movimentou-us-896-milhoes-nas-bahamas-em-dois-anos-aponta/511990/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-11T15:12:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/03/whatsapp-image-2026-03-04-at-091716.jpeg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_1ad33fe1e5be",
@@ -286,7 +286,7 @@
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-09-11T18:07:26+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://s2-valor.glbimg.com/6wHEPn8qapXh7la-Mfq91-gTWw0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/P/t/OCrBmYQtiBgJkzV3tvRA/451268785.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -320,28 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 10,
-    "average": 6.67,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 6.12,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
-      "center": 4,
+      "centerLeft": 1,
+      "center": 5,
       "centerRight": 1,
       "right": 1,
-      "unknown": 14
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 93
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
