@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 27
+      "topic-7": 32
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 32,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "amazon",
     "miami",
     "avião",
-    "acidente",
     "pista",
+    "acidente",
     "suspende"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/image-1-1.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-06T07:00:00+00:00",
-  "updatedAt": "2026-09-14T17:34:50.083489+00:00",
+  "updatedAt": "2026-09-14T18:40:46.965242+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "AERO Magazine",
       "sourceDomain": "aeromagazine.uol.com.br",
       "publishedAt": "2026-09-14T11:53:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -222,14 +222,14 @@
       "title": "Acidente com avião da Amazon deixa vários mortos no Aeroporto de Miami",
       "description": "Um avião cargueiro da Amazon ultrapassou a pista neste domingo (6) e atingiu vários veículos numa via no entorno do Aeroporto Internacional...",
       "url": "https://www.gazetadopovo.com.br/mundo/acidente-aviao-da-amazon-aeroporto-miami/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-06T07:00:00+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_46fd83ecbfc1",
@@ -244,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_5f13cd9118ac",
+      "title": "O mistério do derrapagem do avião da Amazon na pista que matou 5 pessoas.",
+      "description": "Um avião de carga Boeing 767 da Amazon saiu da pista durante o pouso no aeroporto de Miami, matando cinco pessoas. O NTSB está investigando...",
+      "url": "https://www.vietnam.vn/pt/bi-an-cu-truot-khoi-duong-bang-cua-may-bay-amazon-khien-5-nguoi-chet",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-09-08T14:25:51+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_87fe58c60bda",
@@ -288,20 +302,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_22c3e82d3da3",
-      "title": "Queda do Boeing da Amazon: qual a possível causa do acidente que causou 5 mortes nos EUA",
-      "description": "247 – Investigadores que apuram o acidente com um Boeing 767-300 de carga da Amazon Prime Air em Miami analisam a possibilidade de a...",
-      "url": "https://www.brasil247.com/mundo/queda-do-boeing-da-amazon-qual-a-possivel-causa-do-acidente-que-causou-5-mortes-nos-eua/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-08T13:29:00+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_1d7637886347",
       "title": "Acidente com avião cargueiro provoca atrasos no Aeroporto de Miami",
       "description": "Ocorrência com Boeing 767 da Amazon Air mantém pista e taxiways fechadas e gera esperas de até quatro horas nesta terça-feira (8).",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 5,
     "max": 9,
-    "average": 5.73,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 6,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 6,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 1,
-      "unknown": 9
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

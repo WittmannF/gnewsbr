@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 40
+      "topic-7": 45
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/UO-y35d8iRyyf7ql9EQzWzTZKB8=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/Q/3/lV39byS2euqWsZUM9zZw/000-apw2001091911687.jpg",
   "publishedAt": "2026-09-06T15:52:51+00:00",
-  "updatedAt": "2026-09-14T17:35:31.129434+00:00",
+  "updatedAt": "2026-09-14T18:41:28.229377+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Caso da última pessoa morta em 11 de setembro de 2001 em Nova York continua sem solução",
       "description": "Para os quase três mil mortos no ataque terrorista contra as torres gêmeas do World Trade Center, em Nova York (EUA), em 11 de setembro de...",
       "url": "https://extra.globo.com/blogs/page-not-found/post/2026/09/caso-da-ultima-pessoa-morta-em-11-de-setembro-de-2001-em-nova-york-continua-sem-solucao.ghtml",
-      "source": "Extra online",
-      "sourceCanonical": "Extra",
+      "source": "extra.globo.com",
+      "sourceCanonical": "extra.globo.com",
       "sourceDomain": "extra.globo.com",
       "publishedAt": "2026-09-12T12:00:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://s2-extra.glbimg.com/dQcJV0C3QJu_W0aRaSZXEMaFgn0=/653x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/q/T/et53MrSyaKgRui0T2wqw/blog-siwiak.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_68a17c131353",
@@ -232,32 +232,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_a0d92f7544d7",
-      "title": "A poeira que continuou matando depois das Torres Gêmeas",
-      "description": "Um desastre não termina quando os escombros são removidos. No atentado de 11 de setembro de 2001, o colapso do World Trade Center deixou...",
-      "url": "https://www.spacemoney.com.br/curiosidades/poeira-torres-gemeas-doencas/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-09-11T22:35:18+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_9bc52fe2ad37",
       "title": "Ações de Mamdani politizam 11 de Setembro na semana em que atentados completam 25 anos",
       "description": "O prefeito de Nova York, Zohran Mamdani, da ala socialista do Partido Democrata, anunciou nesta terça-feira (8) duas ações que estão...",
       "url": "https://www.gazetadopovo.com.br/mundo/acoes-de-mamdani-politizam-11-de-setembro-na-semana-em-que-atentados-completam-25-anos/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-09T11:31:00+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_79215d69cc79",
@@ -269,6 +255,20 @@
       "sourceDomain": "rfi.fr",
       "publishedAt": "2026-09-11T08:01:00+00:00",
       "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_a0d92f7544d7",
+      "title": "A poeira que continuou matando depois das Torres Gêmeas",
+      "description": "Um desastre não termina quando os escombros são removidos. No atentado de 11 de setembro de 2001, o colapso do World Trade Center deixou...",
+      "url": "https://www.spacemoney.com.br/curiosidades/poeira-torres-gemeas-doencas/",
+      "source": "SpaceMoney",
+      "sourceCanonical": "SpaceMoney",
+      "sourceDomain": "spacemoney.com.br",
+      "publishedAt": "2026-09-11T22:35:18+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,24 +318,24 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 8,
-    "average": 5.57,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "max": 7,
+    "average": 5.2,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 4,
-      "centerRight": 2,
+      "center": 3,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 13
+      "unknown": 15
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 95
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
