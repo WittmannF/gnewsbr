@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 29,
-      "topic-5": 43
+      "topic-5": 46
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 29,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/07/Foto-Rosinei-CoutinhoSTF-mendonca2-1024x683-1.webp",
   "publishedAt": "2026-09-13T02:00:00+00:00",
-  "updatedAt": "2026-09-14T07:37:00.476925+00:00",
+  "updatedAt": "2026-09-14T08:37:30.787439+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -169,22 +169,22 @@
       "title": "Mendonça trocou mensagens com Cláudio Castro sobre Sérgio Cabral",
       "description": "247 – Mensagens de WhatsApp atribuídas ao ministro André Mendonça, do Supremo Tribunal Federal (STF), mostram conversas com o ex-governador...",
       "url": "https://www.brasil247.com/sudeste/mendonca-trocou-mensagens-com-claudio-castro-sobre-sergio-cabral/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-13T14:42:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_94d456947969",
       "title": "Mensagens mostram Castro acionando Mendonça sobre processo que terminou com soltura de Cabral",
       "description": "Uma mensagem enviada à noite, acompanhada de documentos judiciais e de um pedido para conversar com urgência, revela um contato de Cláudio...",
       "url": "https://agendadopoder.com.br/mensagens-mostram-castro-acionando-mendonca-sobre-processo-que-terminou-com-soltura-de-cabral/",
-      "source": "Agenda do Poder",
-      "sourceCanonical": "Agenda do Poder",
+      "source": "agendadopoder.com.br",
+      "sourceCanonical": "agendadopoder.com.br",
       "sourceDomain": "agendadopoder.com.br",
       "publishedAt": "2026-09-13T14:17:00+00:00",
       "postedLabel": "hoje",
@@ -225,8 +225,8 @@
       "title": "Cláudio Castro confirma contato com André Mendonça sobre prisão de Sérgio Cabral",
       "description": "O ex-governador do Rio de Janeiro Cláudio Castro (PL) confirmou que procurou o ministro André Mendonça, do Supremo Tribunal Federal (STF),...",
       "url": "https://fatoamazonico.com.br/claudio-castro-confirma-contato-com-andre-mendonca-sobre-prisao-de-sergio-cabral/",
-      "source": "Fato Amazônico",
-      "sourceCanonical": "Fato Amazônico",
+      "source": "fatoamazonico.com.br",
+      "sourceCanonical": "fatoamazonico.com.br",
       "sourceDomain": "fatoamazonico.com.br",
       "publishedAt": "2026-09-13T20:00:11+00:00",
       "postedLabel": "hoje",
@@ -291,20 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5f823b2b8fc8",
-      "title": "“Amigo, preciso falar”: o diálogo entre Cláudio Castro e Mendonça sobre Sérgio Cabral",
-      "description": "Mensagens obtidas pela Polícia Federal mostram que o ministro André Mendonça, do STF, conversou com o ex-governador do Rio de Janeiro...",
-      "url": "https://www.diariodocentrodomundo.com.br/amigo-preciso-falar-o-dialogo-entre-claudio-castro-e-mendonca-sobre-sergio-cabral/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
-      "sourceDomain": "diariodocentrodomundo.com.br",
-      "publishedAt": "2026-09-13T03:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_097ebac7575d",
       "title": "PF revela contato de Castro com Mendonça sobre Cabral",
       "description": "Uma troca de mensagens obtida pela Polícia Federal indica que Cláudio Castro (PL), à época governador do Rio de Janeiro, procurou o ministro...",
@@ -317,27 +303,41 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_5f823b2b8fc8",
+      "title": "“Amigo, preciso falar”: o diálogo entre Cláudio Castro e Mendonça sobre Sérgio Cabral",
+      "description": "Mensagens obtidas pela Polícia Federal mostram que o ministro André Mendonça, do STF, conversou com o ex-governador do Rio de Janeiro...",
+      "url": "https://www.diariodocentrodomundo.com.br/amigo-preciso-falar-o-dialogo-entre-claudio-castro-e-mendonca-sobre-sergio-cabral/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-09-13T03:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 9,
-    "average": 4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.33,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 4,
+      "left": 3,
       "centerLeft": 2,
       "center": 3,
       "centerRight": 0,
       "right": 1,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
