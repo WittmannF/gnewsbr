@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 36
+      "topic-7": 38
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 36,
-    "bestSeedRank": 36,
+    "firstSeenRank": 38,
+    "bestSeedRank": 38,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/ZLwwhW4Blf01YLfLeHy8KI6Mbxc=/5500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/W/IMwnGYQwAB7BF4feLOiA/2026-09-12t100200z-934450018-rc2lhnapllnd-rtrmadp-3-usa-trump-ireland.jpg",
   "publishedAt": "2026-09-12T11:22:39+00:00",
-  "updatedAt": "2026-09-14T20:39:30.066728+00:00",
+  "updatedAt": "2026-09-14T21:33:02.397294+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Em Dublin, Trump prevê Irlanda unificada e um “potencial desastre” nas Malvinas. Reino Unido discorda",
       "description": "Trump “adoraria” a unificação da Irlanda e da Irlanda do Norte e diz que pode ter de intervir na disputa das ilhas Malvinas.",
       "url": "https://www.publico.pt/2026/09/12/mundo/noticia/dublin-trump-preve-irlanda-unificada-potencial-desastre-malvinas-reino-unido-discorda-2187857",
-      "source": "publico.pt",
-      "sourceCanonical": "publico.pt",
+      "source": "Público",
+      "sourceCanonical": "Público",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-09-12T14:34:31+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_62ddd27a37d7",
@@ -101,7 +101,7 @@
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-13T23:51:47+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/Donald_Trump_Micheal_Martin_239ada77c8.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -114,7 +114,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-12T21:00:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -190,20 +190,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_afdad64a9b42",
-      "title": "Trump chega à Irlanda para torneio de golfe e reuniões de alto nível",
-      "description": "O presidente dos Estados Unidos, Donald Trump, chegou à Irlanda neste sábado (12), sob forte esquema de segurança, para dois dias de diplomacia e golfe, em...",
-      "url": "https://www.folhape.com.br/politica/trump-chega-a-irlanda-para-torneio-de-golfe-e-reunioes-de-alto-nivel/512179/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-09-12T15:03:24+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_76e25388cd9a",
       "title": "“Donald Trump é Donald Trump”: Reino Unido reafirma compromisso com Acordo de Belfast após comentários sobre Irlanda",
       "description": "A secretária de Estado da Habitação, Comunidades e Governo Local, Angela Rayner, garantiu, este domingo, que o Reino Unido continua...",
@@ -230,6 +216,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_afdad64a9b42",
+      "title": "Trump chega à Irlanda para torneio de golfe e reuniões de alto nível",
+      "description": "O presidente dos Estados Unidos, Donald Trump, chegou à Irlanda neste sábado (12), sob forte esquema de segurança, para dois dias de diplomacia e golfe, em...",
+      "url": "https://www.folhape.com.br/politica/trump-chega-a-irlanda-para-torneio-de-golfe-e-reunioes-de-alto-nivel/512179/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-09-12T15:03:24+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_9bf0fbfd83be",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 3,
     "max": 7,
-    "average": 5.56,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.3,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 2,
       "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
