@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 47,
-      "topic-5": 52
+      "topic-3": 44,
+      "topic-5": 55
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 47,
-    "bestSeedRank": 47,
+    "firstSeenRank": 44,
+    "bestSeedRank": 44,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/3t5xyxDmmsat0r48v-mKwhrxq38=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/L/UuJ5oXRNm9QdAZRsWTAA/arte-3-.png",
   "publishedAt": "2026-09-06T12:21:00+00:00",
-  "updatedAt": "2026-09-14T01:06:55.014755+00:00",
+  "updatedAt": "2026-09-14T01:42:05.047585+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -60,7 +60,7 @@
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-13T22:00:55+00:00",
+      "publishedAt": "2026-09-13T22:00:00+00:00",
       "postedLabel": "3 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-27-at-18.05.36.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
@@ -235,20 +235,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_5717fd0e88cc",
-      "title": "Cury diz que não fará ‘balcão de negócios’ e revela estar articulando alianças",
-      "description": "O candidato à Presidência da República Augusto Cury (Avante) afirmou nesta segunda-feira, 7, que não pretende montar um eventual governo por...",
-      "url": "https://jovempan.com.br/politica/cury-diz-que-nao-fara-balcao-de-negocios-e-revela-estar-articulando-aliancas/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-07T12:03:31+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_22efd18e1e38",
       "title": "‘Debate eleitoral sumiu do mapa’: Paulo Motoryn comenta ascensão de Augusto Cury e disputa no STF",
       "description": "Em terceiro lugar nas pesquisas de intenção de voto para presidente, o psiquiatra e escritor Augusto Cury (Avante) é o candidato outsider da...",
@@ -261,6 +247,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_5717fd0e88cc",
+      "title": "Cury diz que não fará ‘balcão de negócios’ e revela estar articulando alianças",
+      "description": "O candidato à Presidência da República Augusto Cury (Avante) afirmou nesta segunda-feira, 7, que não pretende montar um eventual governo por...",
+      "url": "https://jovempan.com.br/politica/cury-diz-que-nao-fara-balcao-de-negocios-e-revela-estar-articulando-aliancas/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-07T12:03:31+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_975b4a4f4aca",
@@ -321,29 +321,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 5.14,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "max": 9,
+    "average": 5.4,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 6
+      "right": 1,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
