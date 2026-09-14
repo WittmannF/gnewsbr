@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p3bXJMM0VSRm9XZXNJaFpZMG1DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p3bXJMM0VSRm9XZXNJaFpZMG1DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 4,
-      "topic-5": 7
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre STF",
   "summary": "Corte decidirá na terça-feira (15) se incluirá Moraes na investigação do caso Master; advogadas ouvidas pela CNN veem disputa interna por...",
@@ -27,15 +33,15 @@
   "topicKeywords": [
     "stf",
     "crise",
-    "julgamento",
     "supremo",
+    "julgamento",
     "moraes",
     "pode"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/edson-fachin-plenario-stf-2.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-08T08:00:00+00:00",
-  "updatedAt": "2026-09-14T04:31:09.828134+00:00",
-  "sourceCount": 16,
+  "updatedAt": "2026-09-14T05:25:15.784954+00:00",
+  "sourceCount": 17,
   "articleCount": 20,
   "articles": [
     {
@@ -53,16 +59,16 @@
       "bucket": "center"
     },
     {
-      "id": "article_a81a4a6f3aa9",
-      "title": "Às vésperas da sessão, STF vive disputa nos bastidores sobre votos, alcance do julgamento e pedido de vista",
-      "description": "Ministros do STF articulam estratégias para a sessão desta terça-feira sobre o caso Master e Alexandre de Moraes, em meio a divisões e risco...",
-      "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/09/13/stf-vive-disputa-nos-bastidores-sobre-votos-alcance-do-julgamento-e-pedido-de-vista.ghtml",
+      "id": "article_dc9f3fb59156",
+      "title": "Ministros do STF discutem se Moraes e Mendonça devem participar de julgamento na terça",
+      "description": "O Supremo Tribunal Federal chega às vésperas da sessão desta terça-feira (15) que pode decidir sobre a abertura de uma apuração contra o...",
+      "url": "https://g1.globo.com/politica/noticia/2026/09/14/ministros-do-stf-discutem-se-moraes-e-mendonca-devem-participar-de-julgamento-na-terca.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-13T20:53:16+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/ci9LC_7ksriz-QmWdwub9ofaZWM=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/0/WfpOWITASNxf7CXuvCzg/55518473396-4d838fd0ca-k.jpg",
+      "publishedAt": "2026-09-14T03:00:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/EdXKRe6ArbPgLy9d8wTqmaRC1jE=/5000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/h/BKmYvyQYK8nKAzhJPAcA/2026-09-02t192125z-1986484683-rc25bnaqynp2-rtrmadp-3-brazil-politics-court.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -75,7 +81,7 @@
       "sourceCanonical": "Nexo Jornal",
       "sourceDomain": "nexojornal.com.br",
       "publishedAt": "2026-09-14T04:05:41+00:00",
-      "postedLabel": "25 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2026/09/55518517431_0eeccb9703_k-640x399.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -89,7 +95,7 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-14T00:46:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/09/01/55112891882_18317f0f7c_o_42318410__1_-42321254.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -193,34 +199,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dc9f3fb59156",
-      "title": "Ministros do STF discutem se Moraes e Mendonça devem participar de julgamento na terça",
-      "description": "O Supremo Tribunal Federal chega às vésperas da sessão desta terça-feira (15) que pode decidir sobre a abertura de uma apuração contra o...",
-      "url": "https://g1.globo.com/politica/noticia/2026/09/14/ministros-do-stf-discutem-se-moraes-e-mendonca-devem-participar-de-julgamento-na-terca.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-14T03:00:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_f4c8706d368b",
-      "title": "A estratégia do grupo de Alexandre de Moraes para melar julgamento",
-      "description": "Aliados de ministro pretendem questionar tudo: formato de sessão, quórum, licitude das provas, participação de Fux e Nunes Marques, e ainda...",
-      "url": "https://oglobo.globo.com/blogs/malu-gaspar/post/2026/09/a-estrategia-do-grupo-de-alexandre-de-moraes-para-melar-julgamento.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-09-14T03:00:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_48a5f69783ee",
       "title": "Opinião - Elio Gaspari: Na crise do STF, são dez escorpiões numa garrafa",
       "description": "Isolados atritos de choques de ego e surtos de onipotência, sobra pouco; Supremo atravessou ditaduras sem maiores crises e, em 2026,...",
@@ -271,7 +249,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-13T05:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -317,18 +295,46 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_e705b2190304",
+      "title": "Tratar ministros do STF como personagens de novela no caso Master aprofunda crise institucional",
+      "description": "Sem regras claras e com magistrados seguindo agendas próprias, STF acelera corrosão de sua própria legitimidade.",
+      "url": "https://www.intercept.com.br/2026/09/10/ministros-stf-personagens-novela-crise-institucional/",
+      "source": "Intercept Brasil",
+      "sourceCanonical": "Intercept Brasil",
+      "sourceDomain": "intercept.com.br",
+      "publishedAt": "2026-09-10T17:00:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_3b4a9d1ce840",
+      "title": "Crise do judiciário e os efeitos sobre a sociedade (por Gaudêncio Torquato)",
+      "description": "O Judiciário não precisa disputar popularidade, mas não pode desprezar a confiança pública.",
+      "url": "https://www.metropoles.com/blog-do-noblat/artigos/crise-do-judiciario-e-os-efeitos-sobre-a-sociedade-por-gaudencio-torquato",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-13T13:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.78,
+    "average": 4.56,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 5,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
       "right": 0,
       "unknown": 2

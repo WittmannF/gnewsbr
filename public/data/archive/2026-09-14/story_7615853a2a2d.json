@@ -3,17 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJakpULUVSRU1icHd4cHVEWEFTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJakpULUVSRU1icHd4cHVEWEFTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-6"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-6"
     ],
     "seedRanks": {
+      "topic-5": 69,
       "topic-6": 27
     },
-    "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 27,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 69,
     "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-extra.glbimg.com/l90Yx8mhMxcPxQ8dxZwYxUFljrk=/380x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/q/I/TWKQwiQzO5QCOmKTrhlA/nunes.avif",
   "publishedAt": "2026-09-13T13:45:34+00:00",
-  "updatedAt": "2026-09-14T04:38:37.556200+00:00",
+  "updatedAt": "2026-09-14T05:32:40.702344+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +71,14 @@
       "title": "Federação Paranaense de Futebol",
       "description": "Esporte. Morre Antônio Carlos Nunes, ex-presidente da CBF e da Federação Paranaense, aos 87 anos. Antônio Carlos Nunes teve longa trajetória no futebol do...",
       "url": "https://www.cartacapital.com.br/tag/federacao-paranaense-de-futebol/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-13T23:03:29+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2020/12/Logos_Novos5.png",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_e09de53276db",
@@ -129,7 +132,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-13T14:41:01+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/TGYGAY3G6BGZDG4NQA3LFMD7TM.webp?quality=80&auth=262b0b460c71dded551e9976514d75adb33d57d7c36b78385532b7c4981cf2bd&width=1200&height=630&focal=474,250",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -198,7 +201,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-13T22:59:10+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -317,28 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.33,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
