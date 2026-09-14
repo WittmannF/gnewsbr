@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 43
+      "topic-7": 44
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 43,
-    "bestSeedRank": 43,
+    "firstSeenRank": 44,
+    "bestSeedRank": 44,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2026/09/teaser-site-640x399.webp",
   "publishedAt": "2026-09-04T07:00:00+00:00",
-  "updatedAt": "2026-09-14T18:41:22.698128+00:00",
+  "updatedAt": "2026-09-14T19:38:23.371031+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,20 +50,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_238dd51e2a9b",
-      "title": "Novo mapa da ONU: por que Brasil 'cresceu' com projeção Equal Earth",
-      "description": "Na Mercator, o Brasil parece ter dimensão semelhante ao Alasca, embora o país seja cinco vezes maior que o estado americano. No Equal Earth...",
-      "url": "https://www.bbc.com/portuguese/articles/cvgyv1v5xjno",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-09-05T07:00:00+00:00",
-      "postedLabel": "9 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_32cb9f64d5a9",
       "title": "Novo mapa-múndi reduz distorções da projeção de Mercator; entenda as mudanças",
       "description": "Quando você imagina o mapa-múndi, a área ocupada pela Groelândia, por exemplo, é maior ou menor que a do Brasil? E o continente africano?",
@@ -76,6 +62,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_238dd51e2a9b",
+      "title": "Novo mapa da ONU: por que Brasil 'cresceu' com projeção Equal Earth",
+      "description": "Na Mercator, o Brasil parece ter dimensão semelhante ao Alasca, embora o país seja cinco vezes maior que o estado americano. No Equal Earth...",
+      "url": "https://www.bbc.com/portuguese/articles/cvgyv1v5xjno",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-09-05T07:00:00+00:00",
+      "postedLabel": "9 dias atrás",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/d5d2/live/06a2d540-a918-11f1-b109-879e35c24276.png",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_9c9d48cc4410",
@@ -152,14 +152,14 @@
       "title": "IBGE disponibiliza na loja novo mapa-múndi \"inclusivo\" da ONU",
       "description": "O Instituto Brasileiro de Geografia e Estatística (IBGE) destacou em sua loja virtual a projeção Equal Earth, novo mapa-múndi considerado...",
       "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/ibge-disponibiliza-em-sua-loja-e-exalta-mapa-mundi-chamado-de-ideologico-pelos-eua/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-07T22:37:00+00:00",
       "postedLabel": "6 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e45e8ef237a8",
@@ -194,8 +194,8 @@
       "title": "ONU aprova resolução para corrigir representação do mundo nos mapas",
       "description": "Modelo amplamente utilizado remonta ao Século 16; ele contém distorção que amplia massas de terra mais distantes da linha do Equador e reduz...",
       "url": "https://news.un.org/pt/story/2026/09/1854269",
-      "source": "UN News",
-      "sourceCanonical": "UN News",
+      "source": "news.un.org",
+      "sourceCanonical": "news.un.org",
       "sourceDomain": "news.un.org",
       "publishedAt": "2026-09-04T07:00:00+00:00",
       "postedLabel": "10 dias atrás",
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 3,
-    "max": 7,
-    "average": 4.88,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 8,
+    "average": 5.1,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
-      "centerLeft": 4,
+      "centerLeft": 5,
       "center": 2,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 12
+      "unknown": 10
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
