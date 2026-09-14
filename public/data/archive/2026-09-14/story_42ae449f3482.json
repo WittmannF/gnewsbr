@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2libzd6NEVSSHJjWEpXYkxPM055Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2libzd6NEVSSHJjWEpXYkxPM055Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 6,
-      "topic-5": 5
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 6,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Ex-ministros assinam carta em apoio a Fachin e cobram transparência no STF",
   "summary": "Pedro Malan, Pedro Parente e José Eduardo Cardozo assinaram o documento; carta tem 199 assinaturas. Leia no Poder360.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/EdsonFachin-STF-2-1200x675.jpg",
   "publishedAt": "2026-09-09T10:59:15+00:00",
-  "updatedAt": "2026-09-14T05:26:20.132483+00:00",
+  "updatedAt": "2026-09-14T06:48:07.490873+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -53,20 +59,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_98d0e937f1e8",
-      "title": "Empresários, ex-ministros e sindicalistas divulgam carta de apoio a medidas de Fachin",
-      "description": "Entre nomes que assinam documento estão Arminio Fraga, José Eduardo Cardozo, Pérsio Arida, Josué Gomes e Maria Silvia Bastos Marques.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/empresarios-ex-ministros-e-economistas-divulgam-carta-de-apoio-a-medidas-de-fachin.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-13T19:31:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/09/17889646066aa16efe6362e_1788964606_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_ddae033d5ae4",
       "title": "STF não pode ser capturado por ‘interesses escusos’, dizem ex-ministros de FH, Lula e Dilma em carta de apoio a Fachin",
       "description": "Um grupo de ex-ministros dos governos Fernando Henrique, Lula e Dilma, além de juristas, empresários e líderes da sociedade civil,...",
@@ -79,6 +71,20 @@
       "imageUrl": "https://s2-oglobo.glbimg.com/l5f-eb_jik-mm_jT138efr6X-Fg=/4765x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/r/v/S9Be0BQOW9p7BUOXTU7Q/114328609-sessao-plenaria-do-stf-02-10-2025-fotosgustavo-moreno-stf.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_98d0e937f1e8",
+      "title": "Empresários, ex-ministros e sindicalistas divulgam carta de apoio a medidas de Fachin",
+      "description": "Entre nomes que assinam documento estão Arminio Fraga, José Eduardo Cardozo, Pérsio Arida, Josué Gomes e Maria Silvia Bastos Marques.",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/empresarios-ex-ministros-e-economistas-divulgam-carta-de-apoio-a-medidas-de-fachin.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-13T19:31:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/09/17889646066aa16efe6362e_1788964606_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_10940f344841",
@@ -117,7 +123,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-10T06:02:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -141,14 +147,14 @@
       "title": "Ex-ministros e economistas divulgam carta em apoio a Fachin",
       "description": "Entre os signatários estão Pedro Malan, Armínio Fraga, Miguel Reale Jr., José Eduardo Cardozo e Pérsio Arida.",
       "url": "https://www.cartacapital.com.br/justica/ex-ministros-e-economistas-divulgam-carta-em-apoio-a-fachin/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-13T22:24:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5176d1a3fff4",
@@ -197,14 +203,14 @@
       "title": "Comissão Arns pede a Fachin análise do STF sobre conduta de ministros",
       "description": "Entidade defende que ministros sejam avaliados em sessão aberta e presencial para garantir transparência e respeito ao devido processo...",
       "url": "https://www.cnnbrasil.com.br/politica/comissao-arns-pede-a-fachin-analise-do-stf-sobre-conduta-de-ministros/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-12T21:42:25+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_34a58248d869",
@@ -215,6 +221,20 @@
       "sourceCanonical": "Anamatra",
       "sourceDomain": "anamatra.org.br",
       "publishedAt": "2026-09-10T01:10:34+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_c8d1f6f288f4",
+      "title": "Manifesto à nação brasileira",
+      "description": "Supremo Tribunal Federal é o guardião da Constituição, mas guardião algum está dispensado de prestar contas.",
+      "url": "https://fecomercio.com.br/noticia/manifesto-a-nacao-brasileira",
+      "source": "FecomercioSP",
+      "sourceCanonical": "FecomercioSP",
+      "sourceDomain": "fecomercio.com.br",
+      "publishedAt": "2026-09-09T21:12:05+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -235,20 +255,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c8d1f6f288f4",
-      "title": "Manifesto à nação brasileira",
-      "description": "Supremo Tribunal Federal é o guardião da Constituição, mas guardião algum está dispensado de prestar contas.",
-      "url": "https://fecomercio.com.br/noticia/manifesto-a-nacao-brasileira",
-      "source": "FecomercioSP",
-      "sourceCanonical": "FecomercioSP",
-      "sourceDomain": "fecomercio.com.br",
-      "publishedAt": "2026-09-09T21:12:05+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_72418483b8e1",
       "title": "IAB reitera confiança em ministro Fachin e pede rapidez e transparência",
       "description": "Em carta, presidente Rita Cortez afirma que entidade confia na superação da crise do STF e coloca-se à disposição para fortalecer a Corte e...",
@@ -258,6 +264,20 @@
       "sourceDomain": "migalhas.com.br",
       "publishedAt": "2026-09-10T19:49:48+00:00",
       "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_33d813ff5d1f",
+      "title": "Associação de procuradores pede moderação diante de crise no STF",
+      "description": "A ANPR é a maior associação de membros do Ministério Público Federal, representando cerca de mil procuradores da República associados.",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/associacao-de-procuradores-pede-moderacao-diante-de-crise-no-stf",
+      "source": "Agencia Brasil",
+      "sourceCanonical": "Agencia Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-09-09T19:53:00+00:00",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -275,20 +295,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_33d813ff5d1f",
-      "title": "Associação de procuradores pede moderação diante de crise no STF",
-      "description": "A ANPR é a maior associação de membros do Ministério Público Federal, representando cerca de mil procuradores da República associados.",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/associacao-de-procuradores-pede-moderacao-diante-de-crise-no-stf",
-      "source": "Agencia Brasil",
-      "sourceCanonical": "Agencia Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-09-09T19:53:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_30482e943dd5",
@@ -320,24 +326,24 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 9,
-    "average": 5.54,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 3,
-      "center": 4,
+      "center": 3,
       "centerRight": 4,
       "right": 1,
-      "unknown": 7
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
