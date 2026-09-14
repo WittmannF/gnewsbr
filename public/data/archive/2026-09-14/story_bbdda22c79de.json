@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 27
+      "topic-7": 32
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 32,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/fShlJMoctqMYK7HNizQDKy8b3zg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/O/A/7TBQqBQ3CjM1R7pHguvA/ap26243695265324.jpg",
   "publishedAt": "2026-09-09T07:00:00+00:00",
-  "updatedAt": "2026-09-14T08:48:00.666073+00:00",
+  "updatedAt": "2026-09-14T09:43:22.624147+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Conflitos custosos com Canadá e Irã ameaçam Trump nas eleições de meio de mandato",
       "description": "Agravamento da guerra comercial e a alta dos preços do petróleo podem criar novos riscos econômicos, enquanto o presidente se prepara para...",
       "url": "https://www.estadao.com.br/internacional/conflitos-custosos-com-canada-e-ira-ameacam-trump-nas-eleicoes-de-meio-de-mandato/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-10T08:30:00+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/EENDI6TWSZGDFBZQLRUJC72QYA.jpg?quality=80&auth=385e7d0e479788df548e65aef3e10a1f206a5b74ed0a7606bee3828e2497c2f0&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_66eb43594196",
@@ -204,20 +204,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_f5fa1653df05",
-      "title": "Trump diz que EUA podem ocupar o Irã e controlar petróleo",
-      "description": "247 – O presidente dos Estados Unidos, Donald Trump, sugeriu manter a presença dos EUA no Irã para controlar parte do petróleo do país,...",
-      "url": "https://www.brasil247.com/mundo/trump-diz-que-eua-podem-ocupar-o-ira-e-controlar-petroleo/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-14T07:49:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_9b685061469d",
       "title": "Guerra contra o Irã pode se estender até o fim do mandato de Trump",
       "description": "Relatórios apresentados por ministros indicam que o Pentágono já projeta a presença militar no Oriente Médio até 2027.",
@@ -230,6 +216,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_f5fa1653df05",
+      "title": "Trump diz que EUA podem ocupar o Irã e controlar petróleo",
+      "description": "247 – O presidente dos Estados Unidos, Donald Trump, sugeriu manter a presença dos EUA no Irã para controlar parte do petróleo do país,...",
+      "url": "https://www.brasil247.com/mundo/trump-diz-que-eua-podem-ocupar-o-ira-e-controlar-petroleo/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-14T07:49:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_8d88c7efadfa",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 9,
-    "average": 5.9,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.58,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 8,
-      "centerRight": 1,
+      "centerRight": 2,
       "right": 1,
-      "unknown": 10
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

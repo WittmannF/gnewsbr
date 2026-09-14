@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 46
+      "topic-7": 44
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 46,
-    "bestSeedRank": 46,
+    "firstSeenRank": 44,
+    "bestSeedRank": 44,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +29,9 @@
     "prata",
     "homem"
   ],
-  "imageUrl": "https://s2-extra.glbimg.com/GNyV7YqYsMIQGPf6gIWyG3bPGB4=/676x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/c/H/suqnxYRnaYdmn836LP1w/blog-treasure.jpg",
+  "imageUrl": "https://www.estadao.com.br/resizer/v2/FJFVLOZH6FB3FGWVFWQKJ7NX6I.jpg?quality=80&auth=0e1fd0e00b2a6a237026d5336d39ba495f0533d8ffc5d9e9c47720409bc65cf4&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-05T18:51:13+00:00",
-  "updatedAt": "2026-09-14T08:48:54.030306+00:00",
+  "updatedAt": "2026-09-14T09:43:52.792348+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Como um arqueólogo amador descobriu um tesouro viking na Finlândia",
       "description": "Kalle Lappinen usava detector de metais portátil para buscar tesouros em floresta quando encontrou milhares de moedas e outros objetos de...",
       "url": "https://www.estadao.com.br/internacional/como-um-arqueologo-amador-descobriu-um-tesouro-viking-na-finlandia/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-13T21:30:08+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/FJFVLOZH6FB3FGWVFWQKJ7NX6I.jpg?quality=80&auth=0e1fd0e00b2a6a237026d5336d39ba495f0533d8ffc5d9e9c47720409bc65cf4&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_80fede1e031f",
@@ -142,7 +142,7 @@
       "sourceCanonical": "NSC Total",
       "sourceDomain": "nsctotal.com.br",
       "publishedAt": "2026-09-10T09:12:14+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -162,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b56ae9c64813",
-      "title": "Amador encontra maior tesouro de moedas vikings já achado na Finlândia",
-      "description": "O detectorista Kalle Lappinen encontrou milhares de moedas de prata e outros objetos da Era Viking em uma floresta de Sysma, no sul da...",
-      "url": "https://www.diariodocentrodomundo.com.br/essencial/tesouro-viking-encontrado-amador-finlandia/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
-      "sourceDomain": "diariodocentrodomundo.com.br",
-      "publishedAt": "2026-09-13T23:33:46+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_1a3aa989481e",
       "title": "Três detectoristas percorrem uma lavoura por um dia e meio, ouvem sucessivos sinais e encontram prata enterrada havia quase 1.000 anos, revelando cerca de 2.000 moedas e um dos achados vikings mais impressionantes de 2025 na Dinamarca",
       "description": "Tesouro viking com cerca de 2.000 moedas de prata é encontrado em lavoura na Dinamarca e entra entre os principais achados de 2025.",
@@ -188,6 +174,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_b56ae9c64813",
+      "title": "Amador encontra maior tesouro de moedas vikings já achado na Finlândia",
+      "description": "O detectorista Kalle Lappinen encontrou milhares de moedas de prata e outros objetos da Era Viking em uma floresta de Sysma, no sul da...",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/tesouro-viking-encontrado-amador-finlandia/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-09-13T23:33:46+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c1f38b9742f6",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 5,
-    "average": 4.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 7,
+    "average": 4.4,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
