@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 60
+      "topic-5": 64
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 64,
+    "bestSeedRank": 64,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/gonet-1200x675.jpg",
   "publishedAt": "2026-09-08T21:31:11+00:00",
-  "updatedAt": "2026-09-14T11:32:27.003969+00:00",
+  "updatedAt": "2026-09-14T12:44:59.703370+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -152,14 +152,14 @@
       "title": "Novo aponta conflito e pede que Gonet seja afastado das investigações",
       "description": "O Partido Novo apresentou nesta sexta-feira (11) ao Supremo Tribunal Federal (STF) uma arguição de suspeição contra o procurador-geral da...",
       "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/novo-aponta-conflito-e-pede-que-gonet-seja-afastado-das-investigacoes",
-      "source": "diariodopoder.com.br",
-      "sourceCanonical": "diariodopoder.com.br",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-11T15:35:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_2861ede54f80",
@@ -176,6 +176,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_6be04aa48d1c",
+      "title": "Caso Master: Gonet questiona competência de Mendonça no STF e busca esclarecimentos no MP",
+      "description": "Gonet participa da sessão do STF que avaliará a investigação do ministro Alexandre de Moraes.",
+      "url": "https://www.bnews.com.br/noticias/politica/caso-master-gonet-questiona-competencia-de-mendonca-no-stf-e-busca-esclarecimentos-no-mp.html",
+      "source": "Bnews",
+      "sourceCanonical": "BNews",
+      "sourceDomain": "bnews.com.br",
+      "publishedAt": "2026-09-14T10:50:11+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_95ad29775a75",
       "title": "CRISE NA PGR: Pressão de procuradores contra Paulo Gonet escancara racha interno",
       "description": "A insatisfação de procuradores com a gestão de Paulo Gonet à frente da Procuradoria-Geral da República (PGR) aprofundou o desgaste na cúpula...",
@@ -185,20 +199,6 @@
       "sourceDomain": "blogdobg.com.br",
       "publishedAt": "2026-09-13T13:06:25+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6be04aa48d1c",
-      "title": "Caso Master: Gonet questiona competência de Mendonça no STF e busca esclarecimentos no MP",
-      "description": "Gonet participa da sessão do STF que avaliará a investigação do ministro Alexandre de Moraes.",
-      "url": "https://www.bnews.com.br/noticias/politica/caso-master-gonet-questiona-competencia-de-mendonca-no-stf-e-busca-esclarecimentos-no-mp.html",
-      "source": "bnews.com.br",
-      "sourceCanonical": "bnews.com.br",
-      "sourceDomain": "bnews.com.br",
-      "publishedAt": "2026-09-14T10:50:11+00:00",
-      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +226,7 @@
       "sourceCanonical": "atlaspublico.com.br",
       "sourceDomain": "atlaspublico.com.br",
       "publishedAt": "2026-09-14T05:38:41+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.25,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 9,
+    "average": 5.6,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 6,
+      "center": 7,
       "centerRight": 1,
-      "right": 0,
-      "unknown": 12
+      "right": 1,
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
