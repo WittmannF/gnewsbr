@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 58
+      "topic-6": 53
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 58,
-    "bestSeedRank": 58,
+    "firstSeenRank": 53,
+    "bestSeedRank": 53,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-extra.glbimg.com/l90Yx8mhMxcPxQ8dxZwYxUFljrk=/380x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/q/I/TWKQwiQzO5QCOmKTrhlA/nunes.avif",
   "publishedAt": "2026-09-13T12:52:11+00:00",
-  "updatedAt": "2026-09-15T03:38:22.045866+00:00",
+  "updatedAt": "2026-09-15T04:37:52.361858+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Federação Paranaense de Futebol",
       "description": "Esporte. Morre Antônio Carlos Nunes, ex-presidente da CBF e da Federação Paranaense, aos 87 anos. Antônio Carlos Nunes teve longa trajetória no futebol do...",
       "url": "https://www.cartacapital.com.br/tag/federacao-paranaense-de-futebol/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-13T23:03:29+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2020/12/Logos_Novos5.png",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_617d0397c2a9",
@@ -129,7 +129,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-13T14:41:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/TGYGAY3G6BGZDG4NQA3LFMD7TM.webp?quality=80&auth=262b0b460c71dded551e9976514d75adb33d57d7c36b78385532b7c4981cf2bd&width=1200&height=630&focal=474,250",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -204,20 +204,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_64465d047b95",
-      "title": "Morre aos 87 anos ex-presidente da CBF; Entidade lamenta perda",
-      "description": "Antônio Carlos Nunes de Lima, conhecido como coronel Nunes, morreu na madrugada deste domingo (13), aos 87 anos, em Belém, no Pará.",
-      "url": "https://www.lance.com.br/futebol-nacional/morre-aos-87-anos-ex-presidente-da-cbf-entidade-lamenta-perda.html",
-      "source": "LANCE!",
-      "sourceCanonical": "LANCE!",
-      "sourceDomain": "lance.com.br",
-      "publishedAt": "2026-09-13T14:11:09+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_1b54f6ba1c3d",
       "title": "Coronel Nunes: relembre polêmica na escolha da Copa de 2026 | Esportes | O Liberal",
       "description": "Presidente da CBF votou no Marrocos, contrariando acordo da Conmebol para apoiar EUA, México e Canadá.",
@@ -226,6 +212,20 @@
       "sourceCanonical": "O Liberal",
       "sourceDomain": "oliberal.com",
       "publishedAt": "2026-09-13T12:52:11+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_64465d047b95",
+      "title": "Morre aos 87 anos ex-presidente da CBF; Entidade lamenta perda",
+      "description": "Antônio Carlos Nunes de Lima, conhecido como coronel Nunes, morreu na madrugada deste domingo (13), aos 87 anos, em Belém, no Pará.",
+      "url": "https://www.lance.com.br/futebol-nacional/morre-aos-87-anos-ex-presidente-da-cbf-entidade-lamenta-perda.html",
+      "source": "LANCE!",
+      "sourceCanonical": "LANCE!",
+      "sourceDomain": "lance.com.br",
+      "publishedAt": "2026-09-13T14:11:09+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.38,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

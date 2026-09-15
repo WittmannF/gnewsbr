@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/sQkqa6NlQQT5suFRQcqvCyjfaDs=/4160x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/6/H/zBSVV5QBik7450TGi6gw/whatsapp-image-2026-09-14-at-11.00.40.jpeg",
   "publishedAt": "2026-09-13T10:39:36+00:00",
-  "updatedAt": "2026-09-15T03:29:47.798365+00:00",
+  "updatedAt": "2026-09-15T04:29:13.319130+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -165,25 +165,11 @@
       "bucket": "center"
     },
     {
-      "id": "article_008421b0fb34",
-      "title": "Hospital atende 20 pessoas após risco de contaminação em escola no Rio",
-      "description": "Durante uma feira de ciências, uma aluna usou a mesma lanceta durante um teste de medição de glicose.",
-      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301923-hospital-atende-20-pessoas-apos-risco-de-contaminacao-em-escola-no-rio.html",
-      "source": "O Dia",
-      "sourceCanonical": "O Dia",
-      "sourceDomain": "odia.ig.com.br",
-      "publishedAt": "2026-09-14T21:01:44+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_6ab8a81cfc54",
       "title": "Aluna reutiliza agulha em testes de glicose e 23 buscam hospitais",
       "description": "Uma feira de ciências na unidade II do Colégio Tamandaré, no Recreio dos Bandeirantes, na Zona Sudoeste da cidade do Rio de Janeiro,...",
       "url": "https://pleno.news/brasil/cidades/aluna-reutiliza-agulha-em-testes-de-glicose-e-23-buscam-hospitais.html",
-      "source": "Pleno.News",
+      "source": "pleno.news",
       "sourceCanonical": "Pleno.News",
       "sourceDomain": "pleno.news",
       "publishedAt": "2026-09-14T14:46:00+00:00",
@@ -207,18 +193,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_008421b0fb34",
+      "title": "Hospital atende 20 pessoas após risco de contaminação em escola no Rio",
+      "description": "Durante uma feira de ciências, uma aluna usou a mesma lanceta durante um teste de medição de glicose.",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301923-hospital-atende-20-pessoas-apos-risco-de-contaminacao-em-escola-no-rio.html",
+      "source": "O Dia",
+      "sourceCanonical": "O Dia",
+      "sourceDomain": "odia.ig.com.br",
+      "publishedAt": "2026-09-14T21:01:44+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_bb63e5ce306d",
       "title": "20 procuram hospital após uso de agulha compartilhada no Rio",
       "description": "Exposição aconteceu durante atividade sobre diabetes em uma feira de ciências, realizada em uma unidade do Colégio Tamandaré.",
       "url": "https://sbtnews.sbt.com.br/noticia/brasil/20-procuram-hospital-apos-uso-de-agulha-compartilhada-no-rio",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-14T17:41:46+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7d612d6865b5",
@@ -313,7 +313,7 @@
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-09-14T21:48:46+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.6,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 9,
+      "center": 8,
       "centerRight": 3,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

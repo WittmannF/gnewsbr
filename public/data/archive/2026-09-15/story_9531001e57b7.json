@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 19,
-      "topic-5": 24
+      "topic-3": 20,
+      "topic-5": 25
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenRank": 20,
+    "bestSeedRank": 20,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/09/14114348/lula-foto-andre-coelho-efe-1.jpg",
   "publishedAt": "2026-09-10T10:34:07+00:00",
-  "updatedAt": "2026-09-15T03:30:01.456867+00:00",
+  "updatedAt": "2026-09-15T04:29:29.033219+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -211,14 +211,14 @@
       "title": "Aprovação de Lula chega a 47% e encosta na desaprovação, diz BTG/Nexus",
       "description": "A diferença entre aprovação e desaprovação passou de cinco para dois pontos percentuais em relação à rodada anterior do levantamento.",
       "url": "https://exame.com/brasil/aprovacao-de-lula-chega-a-47-e-encosta-na-desaprovacao-diz-btg-nexus/",
-      "source": "exame.com",
-      "sourceCanonical": "exame.com",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-09-14T09:38:47+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_cf024fdfce4f",
@@ -267,14 +267,14 @@
       "title": "De acordo com pesquisa Quaest, 50% desaprovam o governo Lula e 43% o aprovam",
       "description": "A aprovação do governo do presidente Luiz Inácio Lula da Silva (PT) permaneceu em 43%, segundo pesquisa Quaest divulgada nesta segunda-feira...",
       "url": "https://www.infomoney.com.br/politica/de-acordo-com-pesquisa-quaest-50-desaprovam-o-governo-lula-e-43-o-aprovam/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
+      "source": "infomoney.com.br",
+      "sourceCanonical": "infomoney.com.br",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-14T14:33:10+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0845556c9454",
@@ -291,6 +291,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_2266b90df080",
+      "title": "Aprovação do governo Lula fica estável, mesmo em meio à crise no STF",
+      "description": "Segundo a Quaest, 50% desaprovam o trabalho do presidente e 43% aprovam, percentuais idênticos aos da rodada anterior, de 7 de setembro.",
+      "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723843-aprovacao-do-governo-lula-fica-estavel-mesmo-em-meio-a-crise-no-stf.html",
+      "source": "diariodepernambuco.com.br",
+      "sourceCanonical": "diariodepernambuco.com.br",
+      "sourceDomain": "diariodepernambuco.com.br",
+      "publishedAt": "2026-09-14T14:54:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_1e36170e37d5",
       "title": "BTG/Nexus: aprovação do governo Lula vai a 47% e 49% o desaprovam",
       "description": "A pesquisa BTG/Nexus divulgada nesta segunda-feira (14/9) mostra que o governo do presidente Luiz Inácio Lula da Silva (PT) é aprovado por...",
@@ -303,39 +317,25 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_2266b90df080",
-      "title": "Aprovação do governo Lula fica estável, mesmo em meio à crise no STF",
-      "description": "Segundo a Quaest, 50% desaprovam o trabalho do presidente e 43% aprovam, percentuais idênticos aos da rodada anterior, de 7 de setembro.",
-      "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11723843-aprovacao-do-governo-lula-fica-estavel-mesmo-em-meio-a-crise-no-stf.html",
-      "source": "Diario de Pernambuco",
-      "sourceCanonical": "Diario de Pernambuco",
-      "sourceDomain": "diariodepernambuco.com.br",
-      "publishedAt": "2026-09-14T14:54:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.63,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 5.72,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 3,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 8,
       "centerRight": 4,
       "right": 3,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 97,
     "confidence": 95
