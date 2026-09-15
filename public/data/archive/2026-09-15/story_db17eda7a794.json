@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 24,
-      "topic-5": 25
+      "topic-3": 29,
+      "topic-5": 33
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 29,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,15 +28,15 @@
     "corregedoria",
     "intenção",
     "matar",
+    "conclui",
     "mulher",
-    "abordagem",
-    "conclui"
+    "abordagem"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/4ZQ3zEeofLiSA5MR-O2dkSCUwLc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/e/m0jcIrTZuOHiLXU3PZ3w/fotojet-52-.jpg",
   "publishedAt": "2026-09-15T01:51:05+00:00",
-  "updatedAt": "2026-09-15T16:28:14.441167+00:00",
-  "sourceCount": 6,
-  "articleCount": 6,
+  "updatedAt": "2026-09-15T17:24:34.278359+00:00",
+  "sourceCount": 8,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_3e69343c0e3e",
@@ -75,7 +75,7 @@
       "sourceCanonical": "Gazeta de São Paulo",
       "sourceDomain": "gazetasp.com.br",
       "publishedAt": "2026-09-15T10:53:36+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -89,7 +89,7 @@
       "sourceCanonical": "tmc.com.br",
       "sourceDomain": "tmc.com.br",
       "publishedAt": "2026-09-15T14:03:20+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -103,10 +103,24 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-15T12:56:52+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/operacao-zona-leste-1.webp",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_8e71dcf31879",
+      "title": "PM conclui que soldado teve intenção de matar mulher durante abordagem em Cidade Tiradentes",
+      "description": "Relatório conclui que soldado não agiu em legítima defesa e identifica indícios de homicídio doloso qualificado contra Thawanna Salmázio.",
+      "url": "https://spdiario.com.br/noticias/noticias-de-sp/pm-conclui-que-soldado-teve-intencao-de-matar-mulher-durante-abordagem-em-cidade-tiradentes.html",
+      "source": "Diário de São Paulo",
+      "sourceCanonical": "Diário de São Paulo",
+      "sourceDomain": "spdiario.com.br",
+      "publishedAt": "2026-09-15T11:35:01+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_621c8d420157",
@@ -121,6 +135,20 @@
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/04/06/177551402569d431a98d304_1775514025_3x2_lg.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_f7a4736c1642",
+      "title": "Caso Thawanna: Corregedoria conclui que PM atirou com intenção de matar",
+      "description": "Um relatório da Corregedoria da Polícia Militar apontou que a soldado Yasmin Cursino, 22, cometeu homicídio doloso contra Thawanna Salmázio,...",
+      "url": "https://www.bol.uol.com.br/noticias/2026/09/15/corregedoria-pm-morte-thawanna.ghtm",
+      "source": "BOL",
+      "sourceCanonical": "BOL",
+      "sourceDomain": "bol.uol.com.br",
+      "publishedAt": "2026-09-15T10:10:28+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
@@ -128,23 +156,24 @@
     "max": 5,
     "average": 4,
     "knownCount": 4,
-    "unknownCount": 2,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 69
+    "confidence": 73
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
