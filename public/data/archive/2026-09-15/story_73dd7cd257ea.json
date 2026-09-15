@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 23
+      "topic-7": 24
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://i.metroimg.com/6zZZPTVSglItWNx1MZXJ_slOLoQT5nyvfuR5dyYqDM8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/donald-trump.jpg",
   "publishedAt": "2026-09-10T05:45:59+00:00",
-  "updatedAt": "2026-09-15T14:38:58.115423+00:00",
+  "updatedAt": "2026-09-15T15:38:56.313229+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Trump diz que Irã quer acordo e cobra países por apoio em Ormuz",
       "description": "Segundo o presidente, outros países deverão “reembolsar” os Estados Unidos quando o conflito terminar.",
       "url": "https://valor.globo.com/mundo/noticia/2026/09/14/trump-diz-que-ir-quer-acordo-e-cobra-pases-por-apoio-em-ormuz.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
+      "source": "valor.globo.com",
+      "sourceCanonical": "valor.globo.com",
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-09-14T16:48:59+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-valor.glbimg.com/wZi1oerixYs0OWZv3DF7EKo9x1Q=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/K/8/aQprzgTEAAYBH6czqW8Q/2026-09-10t154514z-1567977924-rc22gnafd7us-rtrmadp-3-usa-trump-obamacare.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_270ab51c5790",
@@ -101,7 +101,7 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-14T18:47:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/trump-lisa-cook-fed.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -264,28 +264,14 @@
       "title": "Trump diz que países deverão reembolsar EUA por custos do conflito com Irã",
       "description": "O presidente Donald Trump afirmou nesta segunda-feira (14) que outros países deverão reembolsar os Estados Unidos pelos custos relacionados...",
       "url": "https://veronoticias.com/mundo/trump-diz-que-paises-deverao-reembolsar-eua-por-custos-do-conflito-com-ira/",
-      "source": "Vero Notícias",
-      "sourceCanonical": "Vero Notícias",
+      "source": "veronoticias.com",
+      "sourceCanonical": "veronoticias.com",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-09-14T20:53:39+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f9770ddbed6e",
-      "title": "Trump diz que EUA podem permanecer no Irã e ficar com petróleo",
-      "description": "Durante viagem à Irlanda, o norte-americano falou sobre um possível término da guerra no Oriente Médio ainda em 2026.",
-      "url": "https://noticias.r7.com/internacional/trump-diz-que-eua-podem-permanecer-no-ira-e-ficar-com-petroleo-13092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-13T18:39:46+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_b60562381d49",
@@ -300,6 +286,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_f9770ddbed6e",
+      "title": "Trump diz que EUA podem permanecer no Irã e ficar com petróleo",
+      "description": "Durante viagem à Irlanda, o norte-americano falou sobre um possível término da guerra no Oriente Médio ainda em 2026.",
+      "url": "https://noticias.r7.com/internacional/trump-diz-que-eua-podem-permanecer-no-ira-e-ficar-com-petroleo-13092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-13T18:39:46+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_7377a4fa6b2a",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.33,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.27,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
