@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 15
+      "topic-9": 16
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 15,
-    "bestSeedRank": 15,
+    "firstSeenRank": 16,
+    "bestSeedRank": 16,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/soda-caustica-oceano-1.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-11T17:15:00+00:00",
-  "updatedAt": "2026-09-15T07:49:58.907610+00:00",
+  "updatedAt": "2026-09-15T08:53:32.028856+00:00",
   "sourceCount": 5,
   "articleCount": 5,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Cientistas despejaram cerca de 62 mil litros de soda cáustica no mar e tingiram a água de vermelho em experimento científico",
       "description": "Pesquisadores liberaram uma solução de soda cáustica no oceano para testar se a técnica aumenta a absorção de dióxido de carbono.",
       "url": "https://www.folhavitoria.com.br/curiosidades/cientistas-despejaram-cerca-de-62-mil-litros-de-soda-caustica-no-mar-e-tingiram-a-agua-de-vermelho-em-experimento-cientifico/",
-      "source": "Folha Vitória",
-      "sourceCanonical": "Folha Vitória",
+      "source": "folhavitoria.com.br",
+      "sourceCanonical": "folhavitoria.com.br",
       "sourceDomain": "folhavitoria.com.br",
       "publishedAt": "2026-09-14T20:04:58+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://uploads.folhavitoria.com.br/imagens/2026/09/soda-caustica-no-oceano.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_74105b70a85d",
@@ -72,8 +72,8 @@
       "sourceCanonical": "Portal UAI",
       "sourceDomain": "uai.com.br",
       "publishedAt": "2026-09-15T06:37:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://www.uai.com.br/wp-content/uploads/2026/09/Scientists_releasing_alkaline_so…_20260914135422-e1789406772615.jpeg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -82,14 +82,14 @@
       "title": "Pesquisadores despejaram cerca de sessenta e dois mil litros de solução de soda cáustica no Golfo do Maine em agosto de 2025, no primeiro teste em mar aberto licenciado nos Estados Unidos para fazer o oceano absorver mais carbono, e o resultado mai",
       "description": "No Golfo do Maine, 62 mil litros de solução de soda cáustica e 50 toneladas de hidróxido renderam de 2 a 10 toneladas de CO2 em quatro dias.",
       "url": "https://www.correiobraziliense.com.br/cbradar/pesquisadores-despejaram-cerca-de-sessenta-e-dois-mil-litros-de-solucao-de-soda-caustica-no-golfo-do-maine-em-agosto-de-2025-no-primeiro-teste-em-mar-aberto-licenciado-nos-estados-unidos-para-fazer-o/",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-11T17:15:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": "https://www.correiobraziliense.com.br/cbradar/wp-content/uploads/2026/09/x-08-capa.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_16acfe8b3d59",
@@ -107,27 +107,28 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 5,
     "max": 8,
-    "average": 5.5,
-    "knownCount": 4,
-    "unknownCount": 1,
+    "average": 6.5,
+    "knownCount": 2,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
-      "center": 2,
+      "centerLeft": 0,
+      "center": 1,
       "centerRight": 1,
       "right": 0,
-      "unknown": 1
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 67
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
+    "confidence": 61
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
