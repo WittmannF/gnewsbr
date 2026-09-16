@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/PVRJAN6A3RBADK7Y2QYMMEBZTQ.jpg?quality=80&auth=674b269bf132140f27f6faba717099e8e0bdf52ec1dffa3e970fc2991c88abcb&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-14T11:22:00+00:00",
-  "updatedAt": "2026-09-16T07:45:15.812985+00:00",
+  "updatedAt": "2026-09-16T08:47:05.445243+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Filho de Trump admite que teve festas de casamento bancadas por oligarca russo",
       "description": "Um empresário russo com vínculos com o governo da Rússia pagou pelas festas realizadas após o casamento do filho mais velho do presidente...",
       "url": "https://g1.globo.com/mundo/noticia/2026/09/14/filho-de-trump-admite-que-teve-festas-de-casamento-bancadas-por-oligarca-russo.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-15T01:56:13+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://s2-g1.glbimg.com/z2cxMD8Y79nu76ii5b8M62BXNwg=/3022x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/q/OKQT52REeI2CpQJhE1qA/2026-09-12t105307z-1507278825-rc2mhnad7prs-rtrmadp-3-usa-trump-ireland.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_db2a30fa37ca",
@@ -96,14 +96,14 @@
       "title": "Democratas prometem investigar 'mercado' de perdões feitos por Trump",
       "description": "Democratas dos EUA prometem investigar um suposto mercado de intermediários para perdões de Donald Trump caso retomem o controle do...",
       "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/15/democratas-prometem-investigar-mercado-de-perdoes-de-trump.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-15T07:31:01+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8ef71ebad576",
@@ -115,7 +115,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-15T11:24:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/15082353/trump.casamento.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -190,20 +190,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_6d9a8b569426",
-      "title": "Oligarca russo financia \"amplamente\" casamento de luxo de filho de Trump",
-      "description": "A luxuosa festa de casamento do filho mais velho do presidente dos Estados Unidos, Donald Trump, foi \"amplamente\" financiada por Umar...",
-      "url": "https://www.cmjornal.pt/mundo/detalhe/oligarca-russo-financia-amplamente-casamento-de-luxo-de-filho-de-trump",
-      "source": "Correio da Manhã",
-      "sourceCanonical": "Correio da Manhã",
-      "sourceDomain": "cmjornal.pt",
-      "publishedAt": "2026-09-15T11:56:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_a5735759a4ed",
       "title": "Empresário russo ligado a Putin pagou festa do casamento de Trump Jr. | EUA",
       "description": "Umar Kremlev, que dirige a Associação Internacional de Boxe e mantém relações comerciais com o Estado russo, organizou duas noites de festas...",
@@ -216,6 +202,20 @@
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_6d9a8b569426",
+      "title": "Oligarca russo financia \"amplamente\" casamento de luxo de filho de Trump",
+      "description": "A luxuosa festa de casamento do filho mais velho do presidente dos Estados Unidos, Donald Trump, foi \"amplamente\" financiada por Umar...",
+      "url": "https://www.cmjornal.pt/mundo/detalhe/oligarca-russo-financia-amplamente-casamento-de-luxo-de-filho-de-trump",
+      "source": "Correio da Manhã",
+      "sourceCanonical": "Correio da Manhã",
+      "sourceDomain": "cmjornal.pt",
+      "publishedAt": "2026-09-15T11:56:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_76ae14e22a38",
@@ -320,15 +320,15 @@
     "min": 2,
     "max": 8,
     "average": 5,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 6,
+      "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 11
     }
   },
   "scores": {
