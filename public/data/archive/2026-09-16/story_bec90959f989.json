@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/rISeYwW9mW7htAEJcUD9dU4Bokk=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/2/X/CnfQLiR368ZXyc6x9FAw/novo-projeto-14-.jpg",
   "publishedAt": "2026-09-13T16:40:00+00:00",
-  "updatedAt": "2026-09-16T01:11:21.288187+00:00",
+  "updatedAt": "2026-09-16T01:49:44.848588+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -138,14 +138,14 @@
       "title": "Ucrânia propõe acordo para cessar ataques à infraestrutura crítica",
       "description": "Investing.com -- A Ucrânia propôs um acordo com a Rússia para encerrar os ataques à infraestrutura crítica, anunciou o presidente Volodymyr...",
       "url": "https://br.investing.com/news/economy-news/ucrania-propoe-acordo-para-cessar-ataques-a-infraestrutura-critica-93CH-2064782",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "sourceCanonical": "Investing.com Brasil",
+      "source": "br.investing.com",
+      "sourceCanonical": "br.investing.com",
       "sourceDomain": "br.investing.com",
       "publishedAt": "2026-09-14T16:13:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0d76b8d42c5f",
@@ -260,20 +260,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_7c9c26e4b9d5",
-      "title": "Zelensky tem de parar de atacar refinarias russas, diz Trump",
-      "description": "Segundo o presidente dos EUA, a ofensiva tem provocado escassez de combustível no mercado global.",
-      "url": "https://www.cartacapital.com.br/mundo/zelensky-tem-de-parar-de-atacar-refinarias-russas-diz-trump/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-13T16:40:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_3d289ffd8ae1",
       "title": "Ataques aéreos russos devastam poderio militar e reservas de combustível da Ucrânia, diz analista",
       "description": "Com suas defesas antiaéreas operando a apenas 5% de sua capacidade máxima, a Ucrânia pode fazer muito pouco para impedir a Rússia de...",
@@ -288,18 +274,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_7c9c26e4b9d5",
+      "title": "Zelensky tem de parar de atacar refinarias russas, diz Trump",
+      "description": "Segundo o presidente dos EUA, a ofensiva tem provocado escassez de combustível no mercado global.",
+      "url": "https://www.cartacapital.com.br/mundo/zelensky-tem-de-parar-de-atacar-refinarias-russas-diz-trump/",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-13T16:40:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_ece8a01017f2",
       "title": "Trump diz que Ucrânia e Rússia concordaram em não atacar alvos de energia",
       "description": "Declaração vem um dia depois de o presidente americano ter criticado Kiev por atacar refinarias de petróleo russas.",
       "url": "https://jovempan.com.br/mundo/trump-diz-que-ucrania-e-russia-concordaram-em-nao-atacar-alvos-de-energia/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-14T15:52:16+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_4f3d6e4feb5f",
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.88,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "max": 9,
+    "average": 5.33,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 1,
-      "center": 11,
+      "center": 10,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 4
+      "right": 1,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
