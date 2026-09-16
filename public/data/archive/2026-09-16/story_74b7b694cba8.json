@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 42
+      "topic-7": 41
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "firstSeenRank": 41,
+    "bestSeedRank": 41,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/94umxd2QOFY912XQ2QwgkWd0fxw=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/5/F/hiPsn3SnAdBwsDPWJEfA/hnio6gdxyaa-iw1.jpeg",
   "publishedAt": "2026-09-12T03:16:00+00:00",
-  "updatedAt": "2026-09-16T05:37:43.549279+00:00",
+  "updatedAt": "2026-09-16T06:54:57.864178+00:00",
   "sourceCount": 9,
   "articleCount": 15,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Trump diz que EUA também espionam a China após reportagem sobre ataque do Irã",
       "description": "Reportagem do Wall Street Journal afirma que entidades chinesas forneceram imagens de satélite de base americana na Jordânia antes e depois...",
       "url": "https://www.estadao.com.br/internacional/trump-diz-que-eua-tambem-espionam-a-china-apos-reportagem-sobre-ataque-do-ira-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-14T03:08:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/QQFLK7ZBI5HDRHIB3RMAOU5GPE.jpg?quality=80&auth=e4bf373bc07c1c1cebe645b2237e15aede9b115e919285d7b1cb73c3b59ca571&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3b15587d4fe6",
@@ -96,14 +96,14 @@
       "title": "Trump diz que EUA também espionam a China após reportagem sobre ataque do Irã",
       "description": "Entrevista | Vitória de Flávio Bolsonaro no 1º turno não seria uma surpresa, diz o economista Maurício Moura.",
       "url": "https://www.estadao.com.br/em-alta/internacional/trump-diz-que-eua-tambem-espionam-a-china-apos-reportagem-sobre-ataque-do-ira-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-14T08:25:41+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bdbd5fb885e1",
@@ -120,20 +120,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4f25168f63d1",
-      "title": "Trump minimiza reportagem sobre ataque do Irã contra base americana com inteligencia chinesa",
-      "description": "O presidente Donald Trump minimizou no domingo (13) uma reportagem da imprensa sobre entidades chinesas que forneceram a Teerã imagens de...",
-      "url": "https://www.folhape.com.br/noticias/trump-minimiza-reportagem-sobre-ataque-do-ira-contra-base-americana/512325/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-09-14T10:52:46+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e65c47e1ea88",
       "title": "EUA ligam imagens de satélite chinesas a ataque iraniano mortal",
       "description": "Investing.com - Autoridades americanas vincularam imagens de satélite de alta resolução fornecidas ao Irã por entidades chinesas a um ataque...",
@@ -146,6 +132,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_4f25168f63d1",
+      "title": "Trump minimiza reportagem sobre ataque do Irã contra base americana com inteligencia chinesa",
+      "description": "O presidente Donald Trump minimizou no domingo (13) uma reportagem da imprensa sobre entidades chinesas que forneceram a Teerã imagens de...",
+      "url": "https://www.folhape.com.br/noticias/trump-minimiza-reportagem-sobre-ataque-do-ira-contra-base-americana/512325/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-09-14T10:52:46+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_88a06d08d209",
@@ -248,23 +248,23 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.56,
-    "knownCount": 9,
-    "unknownCount": 6,
+    "max": 6,
+    "average": 5.14,
+    "knownCount": 7,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 2,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 6
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
