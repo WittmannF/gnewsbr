@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDd0lEOUVSSHNYZFhySXMyN3N5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDd0lEOUVSSHNYZFhySXMyN3N5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 1,
-      "topic-5": 1
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 1
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula culpa Flávio por Moraes no STF, mas ele não votou indicação",
   "summary": "O presidente Luiz Inácio Lula da Silva (PT) culpou o senador e candidato do PL à Presidência, Flávio Bolsonaro, pela aprovação do nome de...",
@@ -27,14 +30,14 @@
   "topicKeywords": [
     "lula",
     "stf",
-    "moraes",
     "flávio",
-    "bolsonaro",
-    "não"
+    "moraes",
+    "crise",
+    "tem"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/lula-flavio-erra-16set-1-1200x675.png",
   "publishedAt": "2026-09-14T13:11:00+00:00",
-  "updatedAt": "2026-09-16T22:23:16.942646+00:00",
+  "updatedAt": "2026-09-16T23:20:36.855619+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -67,18 +70,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_b740ec006739",
-      "title": "Lula e Flávio Bolsonaro tentam explorar sessão do STF sobre Moraes",
-      "description": "A sessão do STF que adiou a discussão sobre o relatório da PF com mensagens enviadas pelo ex-banqueiro Daniel Vorcaro (Banco Master) ao...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/09/16/lula-e-flavio-bolsonaro-tentam-explorar-sessao-do-stf-sobre-moraes.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-16T21:59:06+00:00",
-      "postedLabel": "24 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
+      "id": "article_3d194c940633",
+      "title": "Em comício no Recife, Flávio Bolsonaro diz que Lula 'deve seu mandato' a Alexandre de Moraes",
+      "description": "Candidato do PL explora crise no STF e tenta associar ministro a adversário.",
+      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/09/16/em-comicio-no-recife-flavio-bolsonaro-diz-que-lula-deve-seu-mandato-a-alexandre-de-moraes.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-09-16T22:23:53+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-valor.glbimg.com/0b4_UvSEGOFRYecc2gqoXROryAY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/9/X/WcY70nRiaxSZfUiPmcGw/flavio-bolsonaro-recife.jpeg",
+      "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_92831c64c9ae",
+      "title": "Lula diz que Fachin tem obrigação de evitar que crise no STF atrapalhe a eleição",
+      "description": "Em entrevista a canal do YouTube, presidente elogia Moraes pelo seu passado, mas ressalta que não o indicou ao Supremo; Com celular de...",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/lula-diz-que-flavio-tem-bronca-com-moraes-por-julgamento-do-81-e-que-ministro-prestou-servico-a-democracia.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-16T13:21:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/16/17895602046aaa858cf07b3_1789560204_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_7e806347c6d7",
@@ -89,21 +106,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-16T18:36:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/IAVVSF7PSBH6XLDC5BCW7IY4C4.jpg?quality=80&auth=e56521937a8c04cbeb2feccdb18519c81b993a2bf8a4bbe90d3c0d684476f655&width=1200&height=630&focal=4191,2477",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_80f5aa44ee8f",
-      "title": "A responsabilidade de Lula sobre a sessão que blindou Alexandre de Moraes no STF",
-      "description": "No atual mandato, o presidente Lula foi responsável por indicar ao STF dois ministros do seu círculo mais próximo de relacionamento. Em...",
-      "url": "https://veja.abril.com.br/brasil/a-responsabilidade-de-lula-sobre-a-sessao-que-blindou-alexandre-de-moraes-no-stf/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-16T12:44:28+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -137,32 +140,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_8315f22ef7f7",
-      "title": "Lula solta a mão de Moraes após sessão polêmica no STF",
-      "description": "Depois da sessão mais tensa da história do Supremo Tribunal Federal (STF), a Corte enfrenta uma ressaca inédita. O presidente Lula (PT)...",
-      "url": "https://www.gazetadopovo.com.br/ultima-analise/lula-solta-a-mao-de-moraes-apos-sessao-polemica-no-stf/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-16T21:52:00+00:00",
-      "postedLabel": "31 minutos atrás",
+      "id": "article_80f5aa44ee8f",
+      "title": "A responsabilidade de Lula sobre a sessão que blindou Alexandre de Moraes no STF",
+      "description": "No atual mandato, o presidente Lula foi responsável por indicar ao STF dois ministros do seu círculo mais próximo de relacionamento. Em...",
+      "url": "https://veja.abril.com.br/brasil/a-responsabilidade-de-lula-sobre-a-sessao-que-blindou-alexandre-de-moraes-no-stf/",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-16T12:44:28+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_9ff775040116",
-      "title": "Crise no STF: Time de Lula acende alerta e quer solução rápida",
-      "description": "Segundo apuração da analista de Política da CNN Clarissa Oliveira, ao Live CNN, equipe do presidente tenta desvinculá-lo de Alexandre de...",
-      "url": "https://www.cnnbrasil.com.br/politica/crise-no-stf-time-de-lula-acende-alerta-e-quer-solucao-rapida/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-16T17:21:04+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5b87b5aa6a5c",
@@ -177,6 +166,34 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_700e1922976d",
+      "title": "Presidenciáveis reagem à sessão do STF; veja o que disseram",
+      "description": "Os presidenciáveis Luiz Inácio Lula da Silva (PT), Flávio Bolsonaro (PL), Ronaldo Caiado (União Brasil), Romeu Zema (Novo) e Renan Santos...",
+      "url": "https://www.gazetadopovo.com.br/republica/presidenciaveis-reagem-a-sessao-do-stf-veja-o-que-disseram/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-16T02:39:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_d711b862d12b",
+      "title": "Lula diz não ter indicado Moraes, mas elogia \"serviços à democracia\"",
+      "description": "Presidente relembrou atuação do ministro à frente do TSE durante as eleições de 2022; em declaração petista defendeu julgamento de \"todos...",
+      "url": "https://www.cnnbrasil.com.br/politica/lula-diz-que-moraes-prestou-grandes-servicos-a-democracia/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-16T13:52:53+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_498a56df0af6",
@@ -201,38 +218,10 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-16T19:50:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_9f4772119440",
-      "title": "Campanha de Lula resgata histórico de Moraes para afastá-lo",
-      "description": "Aliados passaram a lembrar da atuação do ministro antes do STF e decisões contra o petista para desfazer vínculo entre os dois. Leia no...",
-      "url": "https://www.poder360.com.br/brasil/campanha-de-lula-resgata-historico-de-moraes-para-afasta-lo/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-16T12:22:30+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_23b612aa6b22",
-      "title": "Candidatos de direita falam em ‘pizza’ após pedido de vista de Dino no STF",
-      "description": "Candidatos e nomes ligados à direita recorreram à expressão “pizza” nesta terça-feira, 15, para reagir ao encerramento da sessão...",
-      "url": "https://www.infomoney.com.br/politica/candidatos-de-direita-falam-em-pizza-apos-pedido-de-vista-de-dino-no-stf/",
-      "source": "infomoney.com.br",
-      "sourceCanonical": "infomoney.com.br",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-09-16T11:32:57+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_3bc136e9a1c5",
@@ -243,6 +232,20 @@
       "sourceCanonical": "PlatôBR",
       "sourceDomain": "platobr.com.br",
       "publishedAt": "2026-09-16T09:01:02+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_23b612aa6b22",
+      "title": "Candidatos de direita falam em ‘pizza’ após pedido de vista de Dino no STF",
+      "description": "Candidatos e nomes ligados à direita recorreram à expressão “pizza” nesta terça-feira, 15, para reagir ao encerramento da sessão...",
+      "url": "https://www.infomoney.com.br/politica/candidatos-de-direita-falam-em-pizza-apos-pedido-de-vista-de-dino-no-stf/",
+      "source": "infomoney.com.br",
+      "sourceCanonical": "infomoney.com.br",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-16T11:32:57+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -267,28 +270,28 @@
       "title": "Flávio Bolsonaro e a \"outra tropa\" em ação no STF",
       "description": "Lembro aos esquecidos: Flávio, o Bolsonaro, sentou-se diante de Vorcaro e acertou com ele uma doação de R$ 130 milhões, aproximadamente,...",
       "url": "https://mais.opovo.com.br/colunistas/gualter-george/2026/09/16/flavio-bolsonaro-e-a-outra-tropa-em-acao-no-stf.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
+      "source": "mais.opovo.com.br",
+      "sourceCanonical": "mais.opovo.com.br",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-16T16:13:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
-      "id": "article_72275eaf5dae",
-      "title": "\"Eu não era presidente quando Moraes foi indicado para STF\", afirma Lula ao rebater críticas de Flávio Bolsonaro",
-      "description": "Presidente e candidato à reeleição participou do podcast \"Desce a Letra\" nesta quarta-feira.",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/eu-nao-era-presidente-quando-moraes-foi-indicado-para-stf-afirma-lula-ao-rebater-criticas-de-flavio-bolsonaro-cmu4711z600x00159xdwcwjy5.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-09-16T14:40:56+00:00",
-      "postedLabel": "hoje",
+      "id": "article_bd6fe6079e27",
+      "title": "Lula cobra Fachin para evitar que crise no STF atrapalhe eleições de 2026",
+      "description": "Lula cobra Fachin para evitar que a crise no STF atrapalhe as eleições de 2026 e defende investigação de denúncias contra ministros.",
+      "url": "https://iclnoticias.com.br/lula-defende-investigacao-de-ministros-do-stf/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-09-16T17:54:14+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_a62cc786fad9",
@@ -305,39 +308,39 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f7fe9604e43b",
-      "title": "Flávio Bolsonaro afirma que Alexandre de Moraes ‘não tem condições’ de continuar",
-      "description": "O senador Flávio Bolsonaro falou sobre a crise no Supremo Tribunal Federal e de como seriam as indicações dele para a Corte.",
-      "url": "https://noticias.r7.com/prisma/blog-do-nolasco/flavio-bolsonaro-afirma-que-alexandre-de-moraes-nao-tem-condicoes-de-continuar-16092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-16T21:32:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_02564a0f0e6a",
+      "title": "Depois de sessão do STF, Lula defende Moraes: ‘Flávio tem raiva dele’",
+      "description": "No dia seguinte à sessão do Supremo Tribunal Federal (STF) que analisaria o envolvimento do ministro Alexandre de Moraes com o empresário...",
+      "url": "https://revistaoeste.com/politica/depois-de-sessao-do-stf-lula-defende-moraes-flavio-tem-raiva-dele/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-09-16T14:15:25+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 10,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.41,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "max": 10,
+    "average": 5.4,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 3,
-      "center": 8,
-      "centerRight": 4,
-      "right": 1,
-      "unknown": 3
+      "center": 6,
+      "centerRight": 2,
+      "right": 2,
+      "unknown": 5
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
