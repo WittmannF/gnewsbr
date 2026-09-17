@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/8mtdS6JPNXAilTIeKWwkeoBL5AU=/1440x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/X/j5FNPdQfGnMckk8nze2Q/photo-collage.png-6-.png",
   "publishedAt": "2026-09-16T14:35:12+00:00",
-  "updatedAt": "2026-09-17T18:46:44.046241+00:00",
+  "updatedAt": "2026-09-17T19:37:13.467429+00:00",
   "sourceCount": 11,
   "articleCount": 13,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "Notícias ao Minuto Brasil",
       "sourceDomain": "noticiasaominuto.com.br",
       "publishedAt": "2026-09-17T14:00:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -120,20 +120,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_3e1b00692eba",
-      "title": "Homem rompe algemas, ataca policiais e tenta fugir de tribunal nos EUA",
-      "description": "Homem, de 20 anos, tentava deixar tribunal em Ohio após ser condenado a um ano de prisão.",
-      "url": "https://www.metropoles.com/brasil/homem-rompe-algemas-ataca-policiais-e-tenta-fugir-de-tribunal-nos-eua",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-16T23:23:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_c7a61d27b1e0",
       "title": "Criminoso condenado quebra algema, agride policial e tenta fugir nos EUA",
       "description": "Um criminoso condenado em Ohio, nos Estados Unidos, rompeu a algema, agrediu o policial que fazia a escolta do detento e tentou escapar do...",
@@ -143,6 +129,20 @@
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-09-17T15:41:12+00:00",
       "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_3e1b00692eba",
+      "title": "Homem rompe algemas, ataca policiais e tenta fugir de tribunal nos EUA",
+      "description": "Homem, de 20 anos, tentava deixar tribunal em Ohio após ser condenado a um ano de prisão.",
+      "url": "https://www.metropoles.com/brasil/homem-rompe-algemas-ataca-policiais-e-tenta-fugir-de-tribunal-nos-eua",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-16T23:23:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -180,14 +180,14 @@
       "title": "VÍDEO: Homem quebra algemas, agride policiais e tenta fugir de tribunal nos EUA",
       "description": "Timothy Reaggle quebrou as algemas, agrediu dois policiais e tentou fugir de um tribunal no condado de Columbiana, em Ohio.",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/video-homem-quebra-algemas-agride-policiais-foge-tribunal-eua/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-17T00:35:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_a68a348aea3d",
@@ -219,29 +219,28 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 5,
-    "average": 5,
-    "knownCount": 9,
-    "unknownCount": 4,
+    "average": 4.7,
+    "knownCount": 10,
+    "unknownCount": 3,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 9,
       "centerRight": 0,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
