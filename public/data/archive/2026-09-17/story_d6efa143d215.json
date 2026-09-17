@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 64
+      "topic-4": 31
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 64,
-    "bestSeedRank": 64,
+    "firstSeenRank": 31,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F09-16-2026%2Ft_aaa7a2ebd12a4ab8a2878e4f8562ad8d_name_file_960x540_1600_v4_.jpg?smart=true&auth=81283e3e31441376e21fb3a466491e94ad798c81c44f309ad3dbd4d21b0223f6&width=1200&height=630",
   "publishedAt": "2026-09-15T13:31:31+00:00",
-  "updatedAt": "2026-09-17T07:35:58.821119+00:00",
+  "updatedAt": "2026-09-17T08:40:31.253458+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Boni relembra dia em que impediu assassinato em sua sala",
       "description": "José Bonifácio de Oliveira Sobrinho, o Boni, relembrou uma situação inusitada e tensa que viveu nos bastidores da televisão.",
       "url": "https://www.metropoles.com/colunas/fabia-oliveira/boni-relembra-dia-em-que-impediu-assassinato-em-sua-sala",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-15T19:04:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://i.metroimg.com/1cfYiBwYRUT3k8Mqax2Rs3QQdw94cMtybq3nN9obYgk/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/boni-relembra-dia-em-que-impediu-assassinato-em-sua-sala.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bf80c64aedbb",
@@ -129,7 +129,7 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-15T23:23:09+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/imagem-principal-boni-relata-episodio-dorinha-duval-faca-daniel-filho-boni-relembra-dia-em-que-impediu-assassinato-em-sua-sala.webp",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -162,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_407f0275cbeb",
-      "title": "Boni revela que impediu atriz de matar diretor de novela dentro de sua sala: 'Estava com uma faca'",
-      "description": "Ex-executivo da Globo contou que Dorinha Duval entrou no local à procura do então marido e precisou ser distraída para que ele conseguisse...",
-      "url": "https://www.correio24horas.com.br/em-alta/boni-revela-que-impediu-atriz-de-matar-diretor-de-novela-dentro-de-sua-sala-estava-com-uma-faca-0926",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
-      "sourceDomain": "correio24horas.com.br",
-      "publishedAt": "2026-09-15T22:11:26+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_3887db168e8f",
       "title": "Boni diz que salvou o diretor Daniel Filho de ser esfaqueado",
       "description": "Ex-executivo da Globo relembrou episódio envolvendo Dorinha Duval e revelou detalhes da situação vivida nos bastidores da emissora.",
@@ -188,6 +174,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_407f0275cbeb",
+      "title": "Boni revela que impediu atriz de matar diretor de novela dentro de sua sala: 'Estava com uma faca'",
+      "description": "Ex-executivo da Globo contou que Dorinha Duval entrou no local à procura do então marido e precisou ser distraída para que ele conseguisse...",
+      "url": "https://www.correio24horas.com.br/em-alta/boni-revela-que-impediu-atriz-de-matar-diretor-de-novela-dentro-de-sua-sala-estava-com-uma-faca-0926",
+      "source": "Jornal Correio",
+      "sourceCanonical": "Jornal Correio",
+      "sourceDomain": "correio24horas.com.br",
+      "publishedAt": "2026-09-15T22:11:26+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_0ef5747c52bd",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.38,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.43,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 4,
+      "center": 3,
       "centerRight": 3,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
