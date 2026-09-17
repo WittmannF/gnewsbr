@@ -3,22 +3,25 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJNTRYOUVSRmt5M0k2aElOcmJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJNTRYOUVSRmt5M0k2aElOcmJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 57
+      "topic-3": 36,
+      "topic-5": 48
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 36,
+    "bestSeedRank": 36,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Chuvas aumentam nível de reservatórios em São Paulo",
+  "title": "Notícias sobre Cantareira • chuvas",
   "summary": "Volume útil do principal sistema de abastecimento da Grande São Paulo passou de 33,1% para 39,1%. Atualmente, Cantareira opera na Faixa 3,...",
   "topic": "Cantareira · Setembro",
   "topicKeywords": [
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/EEXHI4aIKcCcEysGltmLS_zvNtQ=/3543x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/t/V/ZYfTxUT5yCFAEDVIEBmg/wpp20240922010.jpg",
   "publishedAt": "2026-09-10T12:01:00+00:00",
-  "updatedAt": "2026-09-17T01:02:51.185549+00:00",
+  "updatedAt": "2026-09-17T01:36:38.242797+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +99,14 @@
       "title": "SP: chuvas aumentam nível de reservatórios que abastecem Região Metropolitana",
       "description": "Chuvas intensas nos últimos dias contribuíram para melhorar o nível dos reservatórios que abastecem a Região Metropolitana de São Paulo.",
       "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/14/chuvas-encheram-os-reservatorios-veja-a-situacao-dos-mananciais-em-sp.htm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-14T21:24:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_54e8a63c5ed9",
@@ -115,7 +118,7 @@
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-09-15T14:39:53+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://istoe.com.br/wp-content/uploads/2026/09/Represa-com-Sabesp-e-Skyline-de-Sao-Paulo-1-1200x630.png",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -134,20 +137,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0e39f9bd0513",
-      "title": "Cantareira: padrão de chuvas “evapora” e entrada de água muda em 15 anos",
-      "description": "A última semana até pode iludir quem espera por dias melhores no Sistema Cantareira, mas o fato é que o passado já não serve de bússola para...",
-      "url": "https://www.metropoles.com/sao-paulo/cantareira-padrao-de-chuvas-evapora-e-entrada-de-agua-muda-em-15-anos",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-14T05:45:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_1945374188c8",
       "title": "A mesma chuva que provocou alagamentos e transtornos também trouxe uma boa notícia para quem depende do abastecimento de água.",
       "description": "O sistema cantareira, que abastece cerca de 9 milhões de pessoas, chegou a 38,2% da capacidade. É um nível maior do que o registrado há 1...",
@@ -160,6 +149,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_0e39f9bd0513",
+      "title": "Cantareira: padrão de chuvas “evapora” e entrada de água muda em 15 anos",
+      "description": "A última semana até pode iludir quem espera por dias melhores no Sistema Cantareira, mas o fato é que o passado já não serve de bússola para...",
+      "url": "https://www.metropoles.com/sao-paulo/cantareira-padrao-de-chuvas-evapora-e-entrada-de-agua-muda-em-15-anos",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-14T05:45:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_562a82b1dd66",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 5,
     "max": 6,
-    "average": 5.25,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.22,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 8,
+      "center": 9,
       "centerRight": 0,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
