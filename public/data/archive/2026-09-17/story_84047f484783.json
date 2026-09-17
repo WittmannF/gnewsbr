@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3NzVyNkVSSERVdE9kc1NIWHRDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3NzVyNkVSSERVdE9kc1NIWHRDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-5",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 11,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre UE • Canadá",
   "summary": "Canadá foi convidado nesta semana para se tornar 1º 'membro associado' da UE. Mark Carney disse que movimento não se trata de formar um novo...",
@@ -24,14 +33,14 @@
   "topicKeywords": [
     "canadá",
     "trump",
-    "ameaça",
+    "associado",
+    "membro",
     "união",
-    "europeia",
-    "associado"
+    "europeia"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/XixmPFGXA7szSRr7ut7GyaQUhu4=/1872x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/D/9iwJmKShK4pDIgrjhA9g/2026-09-17t101641z-611358032-rc2yknaydg9c-rtrmadp-3-eu-canada.jpg",
-  "publishedAt": "2026-09-16T12:45:00+00:00",
-  "updatedAt": "2026-09-17T17:32:16.930508+00:00",
+  "publishedAt": "2026-09-16T13:29:54+00:00",
+  "updatedAt": "2026-09-17T18:29:17.171071+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,18 +59,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_1efffff62218",
-      "title": "União Europeia oferece vaga ao Canadá e acena para o Brasil e outros países",
-      "description": "Esta é a edição da Euro Radar, a newsletter da Folha sobre a Europa. Quer recebê-la todas as quintas no seu email? Inscreva-se abaixo:...",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/09/uniao-europeia-oferece-vaga-ao-canada-e-acena-para-o-brasil-e-outros-paises.shtml",
+      "id": "article_0819941f4de1",
+      "title": "Após críticas de Trump, Carney propõe 'próxima ordem mundial' no Parlamento Europeu",
+      "description": "Em discurso dedicado à adesão do Canadá à União Europeia, primeiro-ministro passa recados a vizinho sem o citar.",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/09/apos-criticas-de-trump-carney-propoe-proxima-ordem-mundial-no-parlamento-europeu.shtml",
       "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-17T16:41:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/16/17896073056aab3d890367c_1789607305_3x2_rt.jpg",
+      "publishedAt": "2026-09-17T14:21:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/17/17896535546aabf232b0ad0_1789653554_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_f7a8b230f449",
+      "title": "Canadá busca UE para pôr potências médias à mesa; Trump que mantê-las no cardápio",
+      "description": "Presidente americano diz que associação de Ottawa com europeus pode ser considerado 'ato hostil' pelos EUA.",
+      "url": "https://valor.globo.com/mundo/noticia/2026/09/17/canada-busca-ue-para-por-potencias-medias-a-mesa-trump-que-mante-las-no-cardapio.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-09-17T18:02:29+00:00",
+      "postedLabel": "26 minutos atrás",
+      "imageUrl": "https://s2-valor.glbimg.com/hIPZ_iPtaEwHqHExR16eEjt_hCk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/A/f/ygJik0TaqBOWxzgAejPw/2026-09-16t083628z-570247194-rc28knapx2zw-rtrmadp-3-eu-parliament-carney.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_6538ec4e6c53",
+      "title": "Canadá na União Europeia? O plano de tornar país associado ao bloco",
+      "description": "Trump, que tem estado em conflito constante com o primeiro-ministro do Canadá, ameaçou cortar o comércio com a União Europeia em resposta à...",
+      "url": "https://www.bbc.com/portuguese/articles/cr5ye46q6jxzo",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-09-17T11:00:37+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_51ad1f1b8f0e",
@@ -78,6 +115,48 @@
       "bucket": "center"
     },
     {
+      "id": "article_341908a21787",
+      "title": "Eurodeputado propõe que Brasil seja membro associado da UE",
+      "description": "O eurodeputado alemão Bernd Lange, presidente da Comissão de Comércio do Parlamento Europeu, sugeriu nesta quarta-feira (16) que o Brasil e...",
+      "url": "https://www.gazetadopovo.com.br/mundo/eurodeputado-propoe-brasil-seja-membro-associado-ue/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-17T17:34:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_f3e1915acda2",
+      "title": "Trump queria o Canadá como o 51º estado, mas acabou empurrando o país para a União Europeia",
+      "description": "Convite da UE para que o Canadá se torne um 'membro associado' é um sinal do estilo de diplomacia de Trump, que frequentemente envolve...",
+      "url": "https://www.estadao.com.br/internacional/trump-queria-o-canada-como-o-51-estado-mas-acabou-empurrando-o-pais-para-a-uniao-europeia/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-17T15:00:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_718f4b1d154b",
+      "title": "Trump chama aproximação da UE com Canadá de ‘piada’ e faz ameaça",
+      "description": "O presidente dos Estados Unidos, Donald Trump, ameaçou nesta quinta-feira, 17, impor novas tarifas contra a Europa caso considere “hostil” a...",
+      "url": "https://veja.abril.com.br/mundo/trump-chama-aproximacao-da-ue-com-canada-de-piada-e-ameaca-impor-novas-tarifas/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-17T11:48:36+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_95abbb311d02",
       "title": "Austrália e Nova Zelândia poderão juntar-se ao Canadá como membros associados da UE, afirma Metsola à Euronews",
       "description": "Metsola diz à Euronews que a proposta de “adesão associada” com o Canadá reforça a cooperação com países afins e pode atrair novos...",
@@ -90,48 +169,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f3e1915acda2",
-      "title": "Trump queria o Canadá como o 51º estado, mas acabou empurrando o país para a União Europeia",
-      "description": "Convite da UE para que o Canadá se torne um 'membro associado' é um sinal do estilo de diplomacia de Trump, que frequentemente envolve...",
-      "url": "https://www.estadao.com.br/internacional/trump-queria-o-canada-como-o-51-estado-mas-acabou-empurrando-o-pais-para-a-uniao-europeia/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-17T15:00:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_718f4b1d154b",
-      "title": "Trump chama aproximação da UE com Canadá de ‘piada’ e faz ameaça",
-      "description": "O presidente dos Estados Unidos, Donald Trump, ameaçou nesta quinta-feira, 17, impor novas tarifas contra a Europa caso considere “hostil” a...",
-      "url": "https://veja.abril.com.br/mundo/trump-chama-aproximacao-da-ue-com-canada-de-piada-e-ameaca-impor-novas-tarifas/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-17T11:48:36+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/AFP__20260817__C4VK6XQ__v1__HighRes__776547240.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_6538ec4e6c53",
-      "title": "Canadá na União Europeia? O plano de tornar país associado ao bloco",
-      "description": "Trump, que tem estado em conflito constante com o primeiro-ministro do Canadá, ameaçou cortar o comércio com a União Europeia em resposta à...",
-      "url": "https://www.bbc.com/portuguese/articles/cr5ye46q6jxzo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-09-17T11:00:37+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_3b1155d728a7",
@@ -232,32 +269,32 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_ea33c38c41d5",
-      "title": "Em recado a Trump, UE convida Canadá para ser membro associado do bloco",
-      "description": "A presidente da Comissão Europeia, Ursula von der Leyen, propôs que o Canadá se torne o primeiro membro associado da União Europeia (UE)",
-      "url": "https://www.gazetadopovo.com.br/mundo/recado-a-trump-ue-convida-canada-ser-membro-associado-bloco/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-16T12:45:00+00:00",
+      "id": "article_9425b5b05928",
+      "title": "Canadá na União Europeia? Entenda como possibilidade muda a geopolítica",
+      "description": "Convite da presidente da Comissão Europeia ocorre em meio aos desafios comerciais enfrentados pelo bloco e pelo Canadá diante de EUA e...",
+      "url": "https://exame.com/mundo/canada-na-uniao-europeia-entenda-como-possibilidade-muda-a-geopolitica/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-09-17T09:05:17+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_62eadebbc3e3",
+      "title": "União Europeia abre caminho para parceria com Canadá",
+      "description": "Presidente da Comissão Europeia, Ursula von der Leyen quer que Ottawa se torne o primeiro \"membro associado\" do bloco.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/uniao-europeia-abre-caminho-para-parceria-com-canada",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-16T17:01:46+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_14ac8e41154d",
-      "title": "Canadá acena à União Europeia mesmo sob ameaça de Trump",
-      "description": "Bloco busca fortalecer relação com país da América do Norte em meio a rusgas com os Estados Unidos; Trump classifica medida como \"ato...",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/canada-acena-a-uniao-europeia-mesmo-sob-ameaca-de-trump",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-09-17T14:38:41+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_d5f1d9874bcd",
@@ -274,72 +311,43 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_4e06c9458ec3",
-      "title": "No Parlamento Europeu, Carney apoia vínculo do Canadá com UE e rebate ameaça tarifária de Trump",
-      "description": "O primeiro-ministro do Canadá, Mark Carney, manifestou apoio à possibilidade de o país se tornar o primeiro membro associado da União Europeia (UE), em...",
-      "url": "https://tribunadepetropolis.com.br/noticias/no-parlamento-europeu-carney-apoia-vinculo-do-canada-com-ue-e-rebate-ameaca-tarifaria-de-trump/",
-      "source": "Tribuna de Petrópolis",
-      "sourceCanonical": "Tribuna de Petrópolis",
-      "sourceDomain": "tribunadepetropolis.com.br",
-      "publishedAt": "2026-09-17T12:34:49+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_7fd8b06af944",
+      "title": "Líder da UE propõe status de “membro associado” para o Canadá",
+      "description": "Von der Leyen quer ampliar cooperação com Ottawa em defesa, tecnologia e energia diante da hostilidade de Trump.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/lider-da-ue-propoe-status-de-membro-associado-para-o-canada-1.1748277",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-09-16T13:29:54+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_bf52168c4dfa",
-      "title": "Trump ameaça União Europeia por aproximação com Canadá",
-      "description": "Presidente dos EUA promete tarifas elevadas caso o bloco avance com associação inédita do Canadá e classifica a proposta como “ridícula”",
-      "url": "https://www.brasil247.com/mundo/trump-ameaca-uniao-europeia-por-aproximacao-com-canada/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-17T08:21:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
-      "id": "article_c03df733a5d9",
-      "title": "Aliança Canadá-UE: premiê defende laços mais fortes com bloco",
-      "description": "O primeiro-ministro do Canadá, Mark Carney, defendeu nesta quinta-feira (17), em discurso no Parlamento Europeu, em Estrasburgo,...",
-      "url": "https://istoe.com.br/canada-uniao-europeia-alianca-democracias-carney-trump",
-      "source": "IstoÉ",
-      "sourceCanonical": "ISTOÉ",
-      "sourceDomain": "istoe.com.br",
-      "publishedAt": "2026-09-17T12:01:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 5,
       "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 1,
-    "max": 7,
-    "average": 4.93,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "min": 4,
+    "max": 8,
+    "average": 5.56,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 1,
-      "centerLeft": 4,
-      "center": 8,
-      "centerRight": 2,
+      "left": 0,
+      "centerLeft": 3,
+      "center": 9,
+      "centerRight": 4,
       "right": 0,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
