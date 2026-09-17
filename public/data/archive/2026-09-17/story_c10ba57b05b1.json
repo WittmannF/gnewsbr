@@ -12,12 +12,12 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 40,
-      "topic-7": 13
+      "topic-5": 35,
+      "topic-7": 12
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 40,
-    "bestSeedRank": 13,
+    "firstSeenRank": 35,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/I41Cz-WR6dKvj4cPb-Jrc0lcLNM=/5500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/D/Y/pDXyMNReGI70H1fH7jqA/2026-09-16t061048z-102410872-rc24knafxboj-rtrmadp-3-israel-palestinians-gaza-building-collapse.jpg",
   "publishedAt": "2026-09-15T10:09:00+00:00",
-  "updatedAt": "2026-09-17T05:32:55.560520+00:00",
+  "updatedAt": "2026-09-17T06:46:51.454403+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -75,7 +75,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-16T06:30:02+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/HX36IALQJFCGTN36JW3H27XARA.jpg?quality=80&auth=835dd4ae20f58fd370a68b1e05cdda080a3c1377c7407c19ad2a717f6d37dc98&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -221,20 +221,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_f58805f88969",
-      "title": "Desabamento de prédio em Gaza deixa pelo menos 20 mortos",
-      "description": "Um prédio de sete andares desabou na região de Gaza, no Oriente Médio, causando a morte de pelo menos 20 pessoas. O edifício já havia...",
-      "url": "https://record.r7.com/fala-brasil/video/desabamento-de-predio-em-gaza-deixa-pelo-menos-20-mortos-16092026/",
-      "source": "record.r7.com",
-      "sourceCanonical": "record.r7.com",
-      "sourceDomain": "record.r7.com",
-      "publishedAt": "2026-09-16T12:43:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_18708febdb43",
       "title": "Gaza: Sob os escombros, a vida que um dia pulsou",
       "description": "Um corpo, alguns ossos ou as roupas que alguém vestiu. Um escritor palestino relata o drama das famílias que agora removem ruínas para...",
@@ -247,6 +233,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f58805f88969",
+      "title": "Desabamento de prédio em Gaza deixa pelo menos 20 mortos",
+      "description": "Um prédio de sete andares desabou na região de Gaza, no Oriente Médio, causando a morte de pelo menos 20 pessoas. O edifício já havia...",
+      "url": "https://record.r7.com/fala-brasil/video/desabamento-de-predio-em-gaza-deixa-pelo-menos-20-mortos-16092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "record.r7.com",
+      "publishedAt": "2026-09-16T12:43:38+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_241ee18a8025",
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.13,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
       "center": 8,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -343,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

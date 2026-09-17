@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/8ceb/live/379e3ff0-b056-11f1-9902-771b6dd8af6a.jpg",
   "publishedAt": "2026-09-14T16:26:00+00:00",
-  "updatedAt": "2026-09-17T05:38:10.290429+00:00",
+  "updatedAt": "2026-09-17T06:52:28.416338+00:00",
   "sourceCount": 15,
   "articleCount": 16,
   "articles": [
@@ -106,6 +106,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_c2cd67ebb80d",
+      "title": "Relatório sobre o ‘Alligator Alcatraz’ levanta alertas sobre outro centro de imigração na Flórida",
+      "description": "Centro conhecido como \"Deportation Depot\", instalado em uma antiga prisão no norte do estado, abriga mais de mil imigrantes e teria pouca ou...",
+      "url": "https://www.gazetanews.com/imigracao/2026/09/521935-relatorio-sobre-o-alligator-alcatraz-levanta-alertas-sobre-outro-centro-de-imigracao-na-florida.html",
+      "source": "Gazeta Brazilian News",
+      "sourceCanonical": "Gazeta Brazilian News",
+      "sourceDomain": "gazetanews.com",
+      "publishedAt": "2026-09-16T14:40:48+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_5c64e9ea5335",
       "title": "Inspeção federal confirma que imigrantes foram mantidos em jaulas de 1,7 m² no 'Alligator Alcatraz'",
       "description": "Fiscalização identificou 79 casos e indícios de que uma das estruturas também teria sido usada como punição. by Cintia Lima; 15/09/2026.",
@@ -132,20 +146,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_c2cd67ebb80d",
-      "title": "Relatório sobre o ‘Alligator Alcatraz’ levanta alertas sobre outro centro de imigração na Flórida",
-      "description": "Centro conhecido como \"Deportation Depot\", instalado em uma antiga prisão no norte do estado, abriga mais de mil imigrantes e teria pouca ou...",
-      "url": "https://www.gazetanews.com/imigracao/2026/09/521935-relatorio-sobre-o-alligator-alcatraz-levanta-alertas-sobre-outro-centro-de-imigracao-na-florida.html",
-      "source": "Gazeta Brazilian News",
-      "sourceCanonical": "Gazeta Brazilian News",
-      "sourceDomain": "gazetanews.com",
-      "publishedAt": "2026-09-16T14:40:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_aaf88ab942be",
@@ -194,14 +194,14 @@
       "title": "Relatório confirma gaiolas para migrantes em Alligator Alcatraz",
       "description": "Relatório do inspetor-geral do Departamento de Segurança Interna confirmou que 79 migrantes foram colocados em pequenas estruturas metálicas...",
       "url": "https://www.ocafezinho.com/2026/09/15/relatorio-confirma-gaiolas-para-migrantes-na-florida/",
-      "source": "ocafezinho.com",
-      "sourceCanonical": "ocafezinho.com",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
       "sourceDomain": "ocafezinho.com",
       "publishedAt": "2026-09-15T12:05:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_cd2ae34f2b18",
@@ -261,28 +261,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 7,
-    "average": 4.86,
-    "knownCount": 7,
-    "unknownCount": 9,
+    "average": 4.5,
+    "knownCount": 8,
+    "unknownCount": 8,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 3,
       "center": 3,
       "centerRight": 1,
       "right": 0,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
