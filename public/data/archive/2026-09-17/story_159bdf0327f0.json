@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2llb2R1QkVoRWtUNWQ3Ymw4ZGVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2llb2R1QkVoRWtUNWQ3Ymw4ZGVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 38
+      "topic-3": 36,
+      "topic-5": 37
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 38,
-    "bestSeedRank": 38,
+    "firstSeenRank": 36,
+    "bestSeedRank": 36,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +29,14 @@
     "aplaudido",
     "herói",
     "voo",
-    "nosso",
-    "chamado"
+    "chamado",
+    "nosso"
   ],
-  "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/andre-mendonca-terrivelmente-960x540-jpg.webp",
+  "imageUrl": "https://static.poder360.com.br/uploads/2024/06/AndreMendonca-STF-SupremoTribunalFederal-9-scaled.jpg",
   "publishedAt": "2026-09-17T15:29:00+00:00",
-  "updatedAt": "2026-09-17T19:23:39.521358+00:00",
-  "sourceCount": 4,
-  "articleCount": 4,
+  "updatedAt": "2026-09-17T20:29:14.491099+00:00",
+  "sourceCount": 5,
+  "articleCount": 5,
   "articles": [
     {
       "id": "article_7e7ec6f1baea",
@@ -44,8 +47,22 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-17T18:04:33+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_c87c85636dba",
+      "title": "Mendonça é aplaudido e chamado de “herói” em voo para SP",
+      "description": "Passageiros gritaram “nosso herói” ao reconhecer ministro do STF, alvo de críticas de Gilmar Mendes no caso Master. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-justica/mendonca-e-aplaudido-e-chamado-de-heroi-em-voo-para-sp/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-09-17T20:07:24+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": "https://static.poder360.com.br/uploads/2024/06/AndreMendonca-STF-SupremoTribunalFederal-9-scaled.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -54,14 +71,14 @@
       "title": "Mendonça é aplaudido e chamado de “herói” em voo",
       "description": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), recebeu aplausos e gritos de “nosso herói” durante um voo de Brasília para São...",
       "url": "https://www.diariodocentrodomundo.com.br/mendonca-e-aplaudido-e-chamado-de-heroi-em-voo/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-17T17:14:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/andre-mendonca-terrivelmente-960x540-jpg.webp",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ab21e89db3d9",
@@ -86,34 +103,35 @@
       "sourceCanonical": "midiajur.com.br",
       "sourceDomain": "midiajur.com.br",
       "publishedAt": "2026-09-17T15:29:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://cdn.midiajur.com.br/storage/webdisco/2026/09/17/1200x900/84847d15b267c6a76e3f075ee9100871-midiajur-com-br.jpg",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 5,
-    "average": 3.5,
+    "average": 5,
     "knownCount": 2,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
-      "center": 1,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
-    "confidence": 59
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
+    "headlineDivergence": 70,
+    "confidence": 61
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
