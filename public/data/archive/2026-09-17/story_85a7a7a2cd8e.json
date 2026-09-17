@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJME8zNUVSRzFQczgxbXNxcy15Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJME8zNUVSRzFQczgxbXNxcy15Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 70
+      "topic-3": 3,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 70,
-    "bestSeedRank": 70,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,11 +32,11 @@
     "campanha",
     "usou"
   ],
-  "imageUrl": "https://www.estadao.com.br/resizer/v2/7ZMTPS3FBRAVZO6G2OARCZY6GI.jpg?quality=80&auth=7af263dbc3cb7ce7b9ab45d6e8b310de1b30c5698a2f21e18fe8a98d80a84c0c&width=1200&height=630&smart=true",
+  "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/exec-c0902e52-3f00-4c04-bc3a-9355f0f10016.png",
   "publishedAt": "2026-09-08T07:00:00+00:00",
-  "updatedAt": "2026-09-17T08:45:02.728420+00:00",
+  "updatedAt": "2026-09-17T09:28:49.607202+00:00",
   "sourceCount": 10,
-  "articleCount": 11,
+  "articleCount": 12,
   "articles": [
     {
       "id": "article_ea50d7272f55",
@@ -54,14 +57,14 @@
       "title": "Flávio Bolsonaro usou em campanha imóvel de advogado alvo de buscas da PF no caso INSS, diz revista",
       "description": "Apartamento pertencente à empresa de Willer Tomaz foi anteriormente de Fabiano Zettel, cunhado e operador de Daniel Vorcaro; procurado,...",
       "url": "https://www.estadao.com.br/politica/eleicoes/flavio-bolsonaro-usou-em-campanha-imovel-de-advogado-alvo-de-buscas-da-pf-no-caso-inss-diz-revista/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-17T02:33:27+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/7ZMTPS3FBRAVZO6G2OARCZY6GI.jpg?quality=80&auth=7af263dbc3cb7ce7b9ab45d6e8b310de1b30c5698a2f21e18fe8a98d80a84c0c&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_377dbc3aa3a6",
@@ -115,7 +118,7 @@
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-16T23:50:39+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/07/flavio-bolsonaro-e-seu-irmao-daniel-vorcaro-1778727319153_v2_900x506-960x540-1.webp",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -162,6 +165,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_91c781ac2cfa",
+      "title": "Flávio Bolsonaro usou imóvel de operador de Vorcaro durante campanha em SP",
+      "description": "O senador e candidato do PL à Presidência, Flávio Bolsonaro, teria utilizado durante a campanha um apartamento em São Paulo que...",
+      "url": "https://iclnoticias.com.br/flavio-bolsonaro-usou-imovel-vorcaro/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-09-17T09:11:56+00:00",
+      "postedLabel": "16 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_35b815f43983",
       "title": "Flávio Bolsonaro celebrou aniversário da filha em mansão gerida por empresa ligada a Vorcaro",
       "description": "Imóvel de luxo em Angra dos Reis foi cedido ao senador pelo advogado Willer Tomaz, amigo de Flávio e dono de uma das cotas da propriedade;...",
@@ -192,24 +209,24 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 7,
-    "average": 2.88,
+    "max": 5,
+    "average": 2.25,
     "knownCount": 8,
-    "unknownCount": 3,
+    "unknownCount": 4,
     "buckets": {
-      "left": 6,
+      "left": 7,
       "centerLeft": 0,
       "center": 1,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
-    "confidence": 91
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",

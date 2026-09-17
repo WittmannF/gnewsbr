@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxNnBMN0VSRkYtSmZMdEpRYkhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxNnBMN0VSRkYtSmZMdEpRYkhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 14
+      "topic-3": 14,
+      "topic-5": 22
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 14,
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportEntertainmentNews/tagreuters.com2026binary_LYNXMPEM4E14Y-BASEIMAGE.jpg?w=800&h=533&crop=1",
   "publishedAt": "2026-09-08T16:45:59+00:00",
-  "updatedAt": "2026-09-17T08:35:04.114945+00:00",
+  "updatedAt": "2026-09-17T09:29:28.317879+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,14 +113,14 @@
       "title": "TSE proíbe Lucas Bove de usar santinhos com imagem de Jair Bolsonaro",
       "description": "Tribunal entende que material de campanha representa apoio político por parte do ex-presidente; 'Estadão' procurou o candidato mas não...",
       "url": "https://www.estadao.com.br/em-alta/politica/eleicoes/tse-proibe-candidato-de-usar-santinhos-com-imagem-de-jair-bolsonaro-nprp/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-17T01:05:03+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c7e3a04ea62e",
@@ -162,20 +165,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_3879ed6e23d1",
-      "title": "TSE proíbe candidato de utilizar imagem de Bolsonaro em santinhos",
-      "description": "A ministra Estela Aranha, do Tribunal Superior Eleitoral, proibiu que a campanha de Lucas Bove, do PL, para deputado estadual em São Paulo...",
-      "url": "https://www.poder360.com.br/poder-justica/tse-proibe-candidato-de-utilizar-imagem-de-bolsonaro-em-santinhos/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-16T23:56:30+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_b1abb8b8fdcb",
       "title": "TSE veta foto de Bolsonaro, mas não pune deepfake de Flávio",
       "description": "Tribunal de Nunes Marques retira Bolsonaro de santinho de candidato a deputado, enquanto campanha presidencial transformou sua imagem em...",
@@ -188,6 +177,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_3879ed6e23d1",
+      "title": "TSE proíbe candidato de utilizar imagem de Bolsonaro em santinhos",
+      "description": "A ministra Estela Aranha, do Tribunal Superior Eleitoral, proibiu que a campanha de Lucas Bove, do PL, para deputado estadual em São Paulo...",
+      "url": "https://www.poder360.com.br/poder-justica/tse-proibe-candidato-de-utilizar-imagem-de-bolsonaro-em-santinhos/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-09-16T23:56:30+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_57da073ff67d",
@@ -222,14 +225,14 @@
       "title": "TSE proíbe uso da imagem de Bolsonaro em santinhos de candidatos",
       "description": "O Tribunal Superior Eleitoral (TSE) proibiu, em decisão liminar, o uso da imagem do ex-presidente Jair Bolsonaro (PL) em santinhos e outros...",
       "url": "https://www.metropoles.com/brasil/tse-proibe-uso-de-imagem-de-bolsonaro-em-santinhos-de-candidatos",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-16T22:17:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_61a3281030cd",
@@ -319,14 +322,14 @@
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.15,
+    "average": 5,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
       "left": 3,
       "centerLeft": 0,
-      "center": 6,
-      "centerRight": 2,
+      "center": 7,
+      "centerRight": 1,
       "right": 2,
       "unknown": 7
     }
