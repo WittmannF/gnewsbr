@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 5
+      "topic-2": 9
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
+    "firstSeenRank": 9,
+    "bestSeedRank": 9,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/3d40/live/fd679f40-ad33-11f1-9bc8-3509bd1a4ead.jpg",
   "publishedAt": "2026-09-14T09:48:28+00:00",
-  "updatedAt": "2026-09-17T06:39:34.064976+00:00",
+  "updatedAt": "2026-09-17T07:29:36.346712+00:00",
   "sourceCount": 17,
   "articleCount": 17,
   "articles": [
@@ -110,8 +110,8 @@
       "title": "Disseram-lhe que tinha um tumor terminal e ia morrer: 11 anos depois, descobre que nunca teve cancro",
       "description": "Becky Jones tinha apenas 21 anos quando recebeu a notícia de que sofria de um tumor cerebral terminal. O que se seguiu foram anos de...",
       "url": "https://www.flash.pt/celebridades/mundo/detalhe/disseram-lhe-que-tinha-um-tumor-terminal-e-ia-morrer-11-anos-depois-descobre-que-nunca-teve-cancro",
-      "source": "Flash.pt",
-      "sourceCanonical": "Flash.pt",
+      "source": "flash.pt",
+      "sourceCanonical": "flash.pt",
       "sourceDomain": "flash.pt",
       "publishedAt": "2026-09-15T13:04:00+00:00",
       "postedLabel": "ontem",
@@ -236,14 +236,14 @@
       "title": "Mulher fez quimioterapia por 11 anos após diagnóstico errado de câncer no cérebro",
       "description": "Becky Jones passou 11 anos em quimioterapia após diagnóstico errado de câncer cerebral no Reino Unido. Exames apontaram inflamação tratável.",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/mulher-quimioterapia-11-anos-diagnostico-errado-cancer-cerebral/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-14T11:22:52+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_e97460529255",
@@ -275,28 +275,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 9,
-    "average": 5.5,
-    "knownCount": 6,
-    "unknownCount": 11,
+    "average": 5,
+    "knownCount": 7,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 2,
       "center": 3,
       "centerRight": 0,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 93
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 21,
-      "topic-5": 25
+      "topic-5": 26
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 21,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/S4MWIZWXIZCNNPGASHJTK2GXVA.jpg?quality=80&auth=e583165f416cf584b0e22c3d0d6f681c9f6467a88cc52dffaa57b5d0ba319e14&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-16T13:05:46+00:00",
-  "updatedAt": "2026-09-17T06:40:56.641845+00:00",
+  "updatedAt": "2026-09-17T07:31:05.957780+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -99,8 +99,8 @@
       "title": "'Satisfeito sorri': Laranjeiras, na Zona Sul do Rio, é eleito um dos 20 bairros mais legais do mundo pela revista Time Out",
       "description": "Poucos meses depois de eleger a Rua do Senado, no Centro, como a mais legal do mundo e colocar o Rio na 12ª posição entre as melhores...",
       "url": "https://temporealrj.com/laranjeiras-eleito-um-dos-bairros-cool-time-out/",
-      "source": "temporealrj.com",
-      "sourceCanonical": "temporealrj.com",
+      "source": "Tempo Real",
+      "sourceCanonical": "Tempo Real",
       "sourceDomain": "temporealrj.com",
       "publishedAt": "2026-09-16T17:52:09+00:00",
       "postedLabel": "hoje",
@@ -197,8 +197,8 @@
       "title": "Bairro do Rio de Janeiro é eleito um dos 20 mais ‘cools’ do mundo",
       "description": "O Rio de Janeiro tem um dos 20 bairros mais \"cools\" do mundo, segundo ranking feito pela revista britânica Time Out, e divulgado nesta quarta-feira, ...",
       "url": "https://tribunadepetropolis.com.br/noticias/bairro-do-rio-de-janeiro-e-eleito-um-dos-20-mais-cools-do-mundo/",
-      "source": "tribunadepetropolis.com.br",
-      "sourceCanonical": "tribunadepetropolis.com.br",
+      "source": "Tribuna de Petrópolis",
+      "sourceCanonical": "Tribuna de Petrópolis",
       "sourceDomain": "tribunadepetropolis.com.br",
       "publishedAt": "2026-09-16T21:34:39+00:00",
       "postedLabel": "hoje",
@@ -211,14 +211,14 @@
       "title": "O bairro de São Paulo que entrou no ranking dos mais legais do mundo",
       "description": "República, em São Paulo, ficou em 25º lugar no ranking da Time Out dos bairros mais legais do mundo, que reúne 40 regiões.",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/republica-ranking-bairros-mais-legais-mundo-time-out/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-17T02:04:08+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_69eeedf73950",
@@ -239,8 +239,8 @@
       "title": "Do Rio a São Paulo: 2 bairros brasileiros entram para a lista dos mais descolados do mundo",
       "description": "Há lugares que não precisam de grandes atrações turísticas para entrar no radar. São bairros onde a experiência está nas pequenas...",
       "url": "https://gpsbrasilia.com.br/bairros-brasileiros-mais-descolados-do-mundo/",
-      "source": "GPS Brasília",
-      "sourceCanonical": "GPS Brasília",
+      "source": "gpsbrasilia.com.br",
+      "sourceCanonical": "gpsbrasilia.com.br",
       "sourceDomain": "gpsbrasilia.com.br",
       "publishedAt": "2026-09-16T21:10:37+00:00",
       "postedLabel": "hoje",
@@ -313,35 +313,36 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-17T03:00:01+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.43,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

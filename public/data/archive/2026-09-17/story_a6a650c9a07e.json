@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 31
+      "topic-6": 33
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 33,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/LIAW46YTG5ERDKV2VI3TGGCL2Y.jpg?quality=80&auth=509be54b5d66533bc3ebcfd860810998c4863176bcf053bee5bbf5e8326da2f1&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-15T11:56:00+00:00",
-  "updatedAt": "2026-09-17T06:48:59.956926+00:00",
+  "updatedAt": "2026-09-17T07:39:17.607116+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -138,14 +138,14 @@
       "title": "Remo anuncia demissão de Léo Condé após derrota para o Bahia no Brasileirão",
       "description": "Treinador não resistiu à derrota para o Bahia, pelo Campeonato Brasileiro, e foi demitido após 30 partidas; Remo segue na zona de...",
       "url": "https://www.cartacapital.com.br/esporte/remo-anuncia-demissao-de-leo-conde-apos-derrota-para-o-bahia-no-brasileirao/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-15T11:56:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/santos-v-remo-brasileirao-2026-1024x683-1.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_80e14b24017b",
@@ -185,7 +185,7 @@
       "sourceDomain": "oliberal.com",
       "publishedAt": "2026-09-15T18:27:36+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://www.oliberal.com/image/contentid/policy:1.1168705:1789430624/image.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=e3c1d56",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -198,20 +198,6 @@
       "sourceCanonical": "O Dia",
       "sourceDomain": "odia.ig.com.br",
       "publishedAt": "2026-09-16T15:40:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_02ba42919389",
-      "title": "Remo confirma Thiago Carpini para a reta final do Brasileirão",
-      "description": "Novo treinador tem a missão de reverter a má fase do clube na vice-lanterna da competição.",
-      "url": "https://www.correiodopovo.com.br/esportes/remo-confirma-thiago-carpini-para-a-reta-final-do-brasileirao-1.1748436",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-09-16T22:34:58+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -302,6 +288,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_848280cdd97b",
+      "title": "Próximo adversário do Santos toma decisão antes do confronto",
+      "description": "O Remo anunciou Thiago Carpini como novo técnico até o fim da temporada. Próximo adversário do Santos no Campeonato Brasileiro, o clube...",
+      "url": "https://santistas.net/noticias-do-santos/proximo-adversario-toma/",
+      "source": "Santistas",
+      "sourceCanonical": "Santistas",
+      "sourceDomain": "santistas.net",
+      "publishedAt": "2026-09-17T00:17:37+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_ad06190ff576",
       "title": "‘Muito difícil’, admite Vitor Bueno sobre situação do Remo",
       "description": "Após nova derrota do Remo no Brasileirão, desta vez para o Bahia, na Arena Fonte Nova, o meio-campista Vitor Bueno fez um desabafo sobre a...",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 10,
-    "average": 5.4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.88,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
-      "center": 7,
+      "center": 6,
       "centerRight": 1,
       "right": 1,
-      "unknown": 10
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 4,
-      "topic-5": 4
+      "topic-5": 5
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 4,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/STF-julga-no-plenario-se-Alexandre-de-Moraes-e-investigado-no-caso-Banco-Master-15set2026-flavio-dino-1200x675.jpg",
   "publishedAt": "2026-09-15T19:05:25+00:00",
-  "updatedAt": "2026-09-17T06:40:19.379967+00:00",
+  "updatedAt": "2026-09-17T07:30:25.964484+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -85,8 +85,8 @@
       "title": "Nota Pública - OAB não aceita a criminalização da advocacia",
       "description": "O Conselho Federal da OAB e suas 27 seccionais manifestam total contrariedade à generalização feita pelo ministro Flávio Dino, do Supremo...",
       "url": "https://www.oab.org.br/noticia/64600/nota-publica-oab-nao-aceita-a-criminalizacao-da-advocacia",
-      "source": "OAB | Ordem dos Advogados do Brasil | Conselho Federal",
-      "sourceCanonical": "OAB | Ordem dos Advogados do Brasil | Conselho Federal",
+      "source": "OAB Federal",
+      "sourceCanonical": "OAB Federal",
       "sourceDomain": "oab.org.br",
       "publishedAt": "2026-09-16T16:03:00+00:00",
       "postedLabel": "hoje",
@@ -239,28 +239,28 @@
       "title": "Flávio Dino e Luiz Fux discutem rito do julgamento",
       "description": "Corte debate se investiga Moraes por suposta troca de mensagens com Vorcaro.",
       "url": "https://noticias.r7.com/record-news/link-record-news/video/flavio-dino-e-luiz-fux-discutem-rito-do-julgamento-15092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-15T20:31:24+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0922c4aa990c",
       "title": "OAB critica declaração de Dino em sessão do STF sobre Moraes",
       "description": "O Conselho Federal da Ordem dos Advogados do Brasil e suas 27 seccionais repudiaram uma declaração do ministro Flávio Dino, do Supremo...",
       "url": "https://www.cartacapital.com.br/cartaexpressa/oab-critica-declaracao-de-dino-em-sessao-do-stf-sobre-moraes/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-16T18:57:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0b45939b9122",
@@ -320,29 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 10,
-    "average": 5.73,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.92,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 10,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 1,
-      "unknown": 5
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
