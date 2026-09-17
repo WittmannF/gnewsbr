@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 54
+      "topic-4": 55
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 54,
-    "bestSeedRank": 54,
+    "firstSeenRank": 55,
+    "bestSeedRank": 55,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/16/17895726676aaab63b4d5b7_1789572667_3x2_xl.jpg",
   "publishedAt": "2026-09-15T16:15:00+00:00",
-  "updatedAt": "2026-09-17T12:40:53.943147+00:00",
+  "updatedAt": "2026-09-17T13:30:28.476560+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Alice Carvalho desabafa por série ‘Cangaço Novo’ ser cancelada",
       "description": "Protagonista de Cangaço Novo, Alice Carvalho fez um desabafo após a decisão da plataforma Prime Video de não renovar a série brasileira após...",
       "url": "https://veja.abril.com.br/cultura/alice-carvalho-desabafa-por-serie-cangaco-novo-ser-cancelada/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-16T13:34:52+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/alicecarvalho.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_bc059ff762eb",
@@ -283,23 +283,9 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-16T17:43:40+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/2026916112128.jpg",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_35d869b3fa7f",
-      "title": "Prime Video cancela ‘Cangaço Novo’, gravada na Paraíba, após duas temporadas e deixa fãs sem continuação",
-      "description": "A plataforma Prime Video confirmou o cancelamento de Cangaço Novo após duas temporadas. Produção fez sucesso no Brasil e no exterior.",
-      "url": "https://wscom.com.br/noticias/2026/09/15/prime-video-cancela-cangaco-novo-gravada-na-paraiba-apos-duas-temporadas-e-deixa-fas-sem-continuacao/",
-      "source": "WSCOM",
-      "sourceCanonical": "WSCOM",
-      "sourceDomain": "wscom.com.br",
-      "publishedAt": "2026-09-15T20:55:24+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_2f7a9abc8da3",
@@ -314,28 +300,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_35d869b3fa7f",
+      "title": "Prime Video cancela ‘Cangaço Novo’, gravada na Paraíba, após duas temporadas e deixa fãs sem continuação",
+      "description": "A plataforma Prime Video confirmou o cancelamento de Cangaço Novo após duas temporadas. Produção fez sucesso no Brasil e no exterior.",
+      "url": "https://wscom.com.br/noticias/2026/09/15/prime-video-cancela-cangaco-novo-gravada-na-paraiba-apos-duas-temporadas-e-deixa-fas-sem-continuacao/",
+      "source": "WSCOM",
+      "sourceCanonical": "WSCOM",
+      "sourceDomain": "wscom.com.br",
+      "publishedAt": "2026-09-15T20:55:24+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 5,
-    "average": 4.25,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "max": 7,
+    "average": 4.8,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 3,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 16
+      "unknown": 15
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
-    "confidence": 87
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",

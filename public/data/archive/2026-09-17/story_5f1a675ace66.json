@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/4n0Q-1EOkqCfSDr6zVvkjSzwTj0=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/2/TtuTH2RVeKoh59o08WEg/trump-delcy.jpg",
   "publishedAt": "2026-09-16T11:18:23+00:00",
-  "updatedAt": "2026-09-17T12:46:59.155267+00:00",
+  "updatedAt": "2026-09-17T13:36:48.582085+00:00",
   "sourceCount": 10,
   "articleCount": 10,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Missão da ONU sobre Venezuela diz que \"aparato repressivo\" não mudou",
       "description": "Relatório do grupo cita abusos cometidos por milícias pró-governo, prisões em condições precárias, mas houve também redução de detenções por...",
       "url": "https://noticias.uol.com.br/ultimas-noticias/onu-news/2026/09/17/missao-da-onu-sobre-venezuela-diz-que-aparato-repressivo-nao-mudou.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-17T12:00:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_36575cf24ee6",
@@ -100,7 +100,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-16T13:01:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -115,7 +115,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-16T13:50:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/16104937/venezuela.onu_.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -124,14 +124,14 @@
       "title": "EUA deixaram intacto sistema repressivo na Venezuela, alerta ONU",
       "description": "Nunca foi pelos direitos humanos. Um informe publicado nesta quarta-feira por uma comissão da ONU revela que, mesmo depois do sequestro de...",
       "url": "https://iclnoticias.com.br/eua-deixaram-intacto-sistema-repressivo-na-venezuela-alerta-onu/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
+      "source": "iclnoticias.com.br",
+      "sourceCanonical": "iclnoticias.com.br",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-09-16T11:18:23+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4274d82bcd8f",
@@ -177,28 +177,29 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 8,
-    "average": 5.25,
-    "knownCount": 8,
-    "unknownCount": 2,
+    "average": 5.83,
+    "knownCount": 6,
+    "unknownCount": 4,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
-      "center": 6,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 2
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
-    "confidence": 89
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
+    "confidence": 83
   },
   "flags": [
     "Alta cobertura",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
