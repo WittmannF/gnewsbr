@@ -4,20 +4,26 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p3a2FXQkVoSFM4UjBEYjI4NGdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-3",
+    "topic-5",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
       "home": 2,
-      "topstories": 2
+      "topstories": 2,
+      "topic-3": 1,
+      "topic-5": 1
     },
     "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "bestSeedRank": 1,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -27,15 +33,15 @@
   "topicKeywords": [
     "lula",
     "flávio",
-    "datafolha",
     "turno",
+    "datafolha",
     "pesquisa",
-    "bolsonaro"
+    "tem"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/aXDLEVAcrfDmJYTHzfTXOp_v1B0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/r/YHYxqBTZ6L5TdqQMCQPA/260917-info-intencao-de-voto-1-turno-identificacao-politica.jpg",
   "publishedAt": "2026-09-16T14:15:19+00:00",
-  "updatedAt": "2026-09-18T09:25:36.828400+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-09-18T11:21:11.965272+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -53,46 +59,60 @@
       "bucket": "center"
     },
     {
-      "id": "article_a8098810543a",
-      "title": "Tatiana Farah: Lula amplia ataques na campanha e ações eleitoreiras ante subida de Flávio",
-      "description": "Pressionado pelo crescimento — ou resiliência — de Flávio Bolsonaro na corrida eleitoral, o presidente Lula adotou duas medidas: ações de...",
-      "url": "https://noticias.uol.com.br/colunas/tatiana-farah/2026/09/18/lula-amplia-ataques-na-campanha-e-acoes-eleitoreiras-ante-subida-de-flavio.htm",
+      "id": "article_b7365d013cb6",
+      "title": "A disputa entre Lula e Flávio Bolsonaro no Ceará, segundo o Real Time Big Data",
+      "description": "O presidente Lula (PT) é, de longe, o favorito dos cearenses na disputa presidencial, segundo pesquisa publicada nesta sexta-feira 18 pelo...",
+      "url": "https://www.cartacapital.com.br/politica/real-time-big-data-lula-tem-quase-40-pontos-de-vantagem-sobre-flavio-bolsonaro-no-ceara/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-18T10:25:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2024/06/Lula2-1.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_6a788f2ab8b9",
+      "title": "Pesquisa Datafolha atualiza cenário da disputa eleitoral para presidência da República",
+      "description": "Levantamento entrevistou 2.002 mil eleitores entre os dias 15 e 16 de setembro.",
+      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/09/pesquisa-datafolha-atualiza-cenario-da-disputa-eleitoral-para-presidencia-da-republica-cmu62z23v01nx01594gpnmbta.html",
+      "source": "gauchazh.clicrbs.com.br",
+      "sourceCanonical": "gauchazh.clicrbs.com.br",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-09-17T22:08:25+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_a0ac280551c9",
+      "title": "Letícia Casado: Campanha de Flávio vê Lula errático e com promessas sem credibilidade",
+      "description": "A equipe de Flávio Bolsonaro (PL) está vendo crescimento consistente do presidenciável nas pesquisas de primeiro turno enquanto Lula (PT)...",
+      "url": "https://noticias.uol.com.br/colunas/leticia-casado/2026/09/18/flavio-datafolha-lula.htm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-18T08:33:41+00:00",
+      "publishedAt": "2026-09-18T10:02:23+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_e1aa3f5cdf9d",
-      "title": "Lula x Flávio: a nova pesquisa Quaest no maior colégio eleitoral do Brasil",
-      "description": "O levantamento será divulgado em 23 de setembro, com 1.800 entrevistas, e avaliará as disputas pela Presidência, pelo governo estadual e...",
-      "url": "https://veja.abril.com.br/politica/lula-x-flavio-a-nova-pesquisa-quaest-no-maior-colegio-eleitoral-do-brasil/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-18T01:20:00+00:00",
+      "id": "article_dbcfe10c8711",
+      "title": "Datafolha: Lula tem 39% e Flávio Bolsonaro, 29% entre jovens; veja pesquisa por segmentos",
+      "description": "Situação é de empate técnico dentro da margem de erro nessa faixa; Renan Santos aparece com 9%, e Augusto Cury tem 7%",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-39-e-flavio-bolsonaro-29-entre-jovens-veja-pesquisa-por-segmentos.shtml",
+      "source": "folha.uol.com.br",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-18T01:54:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/lula-flavio-bolsonaro-13.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_35d261bdb614",
-      "title": "A nova pesquisa Quaest sobre Lula x Flávio Bolsonaro, a menos de duas semanas do 1º turno",
-      "description": "A Quaest deve publicar na próxima segunda-feira 21 sua nova pesquisa de intenção de voto para presidente da República. O levantamento se...",
-      "url": "https://www.cartacapital.com.br/cartaexpressa/a-nova-pesquisa-quaest-sobre-lula-x-flavio-bolsonaro-a-menos-de-duas-semanas-do-1o-turno/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-16T14:20:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/05/LF-1.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/15/17815210026a2fda6ab514c_1781521002_3x2_xl.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_0607afce4e9a",
@@ -109,20 +129,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_18bf4ced5843",
-      "title": "Datafolha: Lula e Flávio Bolsonaro empatam em 1º e 2º turnos",
-      "description": "O novo levantamento do Datafolha sobre a corrida presidencial, feito em meio à crise no STF (Supremo Tribunal Federal), traz Lula (PT) e...",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-e-flavio-bolsonaro-empatam-em-1o-e-2o-turnos.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-17T22:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e99dd5ae2a58",
       "title": "Flávio tem 48,1% contra 43,7% de Lula no 2º turno, diz pesquisa",
       "description": "Segundo Futura/100% Cidades, ambos os candidatos estão tecnicamente empatados; margem de erro é de 2,2 pontos percentuais. Leia no Poder360.",
@@ -137,15 +143,43 @@
       "bucket": "center"
     },
     {
-      "id": "article_a0ac280551c9",
-      "title": "Letícia Casado: Campanha de Flávio vê Lula errático e com promessas sem credibilidade",
-      "description": "A equipe de Flávio Bolsonaro (PL) está vendo crescimento consistente do presidenciável nas pesquisas de primeiro turno enquanto Lula (PT)...",
-      "url": "https://noticias.uol.com.br/colunas/leticia-casado/2026/09/18/flavio-datafolha-lula.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-18T08:45:17+00:00",
-      "postedLabel": "40 minutos atrás",
+      "id": "article_0852cfafb12b",
+      "title": "Lula x Flávio Bolsonaro: pesquisas mostram 5 grupos de eleitores que podem definir a eleição",
+      "description": "A quase duas semanas do primeiro turno da eleição presidencial e em meio à maior crise que já se instaurou sobre o Supremo Tribunal Federal...",
+      "url": "https://www.bbc.com/portuguese/articles/cm2mxy1pz4zo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-09-17T07:42:02+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_e1aa3f5cdf9d",
+      "title": "Lula x Flávio: a nova pesquisa Quaest no maior colégio eleitoral do Brasil",
+      "description": "O levantamento será divulgado em 23 de setembro, com 1.800 entrevistas, e avaliará as disputas pela Presidência, pelo governo estadual e...",
+      "url": "https://veja.abril.com.br/politica/lula-x-flavio-a-nova-pesquisa-quaest-no-maior-colegio-eleitoral-do-brasil/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-18T01:20:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_6e7aaf5c3820",
+      "title": "\"Bobagem\", diz Valdemar sobre aposta de que Flávio pode ganhar no 1º turno",
+      "description": "À coluna, presidente nacional do PL, Valdemar Costa Neto, previu que o 2º turno entre Flávio Bolsonaro e Lula (PT) é \"inevitável\"",
+      "url": "https://www.metropoles.com/colunas/igor-gadelha/bobagem-diz-valdemar-sobre-aposta-de-que-flavio-pode-ganhar-no-1o-turno",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-18T05:00:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -165,6 +199,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_3992f4aee910",
+      "title": "Não se deve descartar a possibilidade de vitória de Lula no primeiro turno – Leonardo Attuch",
+      "description": "A perda de espaço das candidaturas alternativas e os números do Datafolha e da CNT/MDA colocam o primeiro turno entre os cenários que...",
+      "url": "https://www.brasil247.com/blog/nao-se-deve-descartar-a-possibilidade-de-vitoria-de-lula-no-primeiro-turno/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-18T09:07:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_a84cf05c7b32",
       "title": "Gerp divulga nova pesquisa para presidente",
       "description": "Pesquisa divulgada pela Gerp mostra como está a corrida para presidente da República em 2026. Leia na Gazeta do Povo.",
@@ -173,24 +221,10 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-17T11:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_0852cfafb12b",
-      "title": "Lula x Flávio Bolsonaro: pesquisas mostram 5 grupos de eleitores que podem definir a eleição",
-      "description": "A quase duas semanas do primeiro turno da eleição presidencial e em meio à maior crise que já se instaurou sobre o Supremo Tribunal Federal...",
-      "url": "https://www.bbc.com/portuguese/articles/cm2mxy1pz4zo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-09-17T07:42:02+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_91664662a121",
@@ -205,6 +239,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_fe1fb1f478c8",
+      "title": "Datafolha: Lula tem 39% e Flávio chega a 36% no primeiro turno",
+      "description": "A pouco mais de duas semanas do primeiro turno, a disputa entre Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) segue apertada.",
+      "url": "https://www.infomoney.com.br/politica/datafolha-lula-tem-39-e-flavio-chega-a-36-no-primeiro-turno/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-17T22:32:50+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_4312bf3fe658",
@@ -235,34 +283,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_c163f5c72178",
-      "title": "Flávio ganha 8 pontos em 17 dias e encosta em Lula na Atlas; de onde veio o avanço?",
-      "description": "O senador Flávio Bolsonaro (PL) avançou oito pontos percentuais em pouco mais de duas semanas e reduziu de forma expressiva a distância para...",
-      "url": "https://www.infomoney.com.br/politica/flavio-ganha-8-pontos-em-17-dias-e-encosta-em-lula-na-atlas-de-onde-veio-o-avanco/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-09-17T10:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_ea1b83befa4d",
-      "title": "Datafolha divulga nova pesquisa para presidente da República",
-      "description": "Levantamento foi realizado a cerca de duas semanas do primeiro turno das Eleições 2026, marcado para o dia 4 de outubro.",
-      "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/09/17/datafolha-divulga-nova-pesquisa-para-presidente-da-republica.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "opovo.com.br",
-      "publishedAt": "2026-09-17T14:12:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e092f88d730f",
       "title": "Flávio: Faço apelo a quem não me tem como primeira opção: considere votar em Flávio no 1º turno",
       "description": "O candidato do PL à Presidência, Flávio Bolsonaro, fez nesta quinta-feira, 17, um apelo pelo voto útil e pediu que o eleitor indeciso opte...",
@@ -285,7 +305,7 @@
       "sourceCanonical": "Nexo Jornal",
       "sourceDomain": "nexojornal.com.br",
       "publishedAt": "2026-09-18T03:57:30+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -303,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_7d6273e0539f",
-      "title": "Datafolha: Lula lidera com 39% ante 36% de Flávio Bolsonaro",
-      "description": "O candidato Augusto Cury (Avante) ficou em terceiro lugar, com 6% dos votos. Ele é seguido por Ronaldo Caiado (PSD), Renan Santos (Missão) e...",
-      "url": "https://www.brasil247.com/poder/lula-segue-lider-e-vai-a-39-no-primeiro-turno-mostra-datafolha/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-17T22:07:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.85,
-    "knownCount": 20,
-    "unknownCount": 0,
+    "average": 4.89,
+    "knownCount": 19,
+    "unknownCount": 1,
     "buckets": {
       "left": 3,
-      "centerLeft": 5,
+      "centerLeft": 4,
       "center": 8,
       "centerRight": 3,
       "right": 1,
-      "unknown": 0
+      "unknown": 1
     }
   },
   "scores": {

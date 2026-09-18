@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIaXBPQkVoR21lNHVoU3RRSEhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIaXBPQkVoR21lNHVoU3RRSEhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 19
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Governo dos EUA enviou documento com demandas ao Brasil",
+  "title": "Notícias sobre eleições • Trump • Brasil",
   "summary": "Segundo o \"Estadão\", EUA condicionaram acordo sobre tarifas à não detenção de opositores nas eleições. Leia no Poder360.",
   "topic": "Eua · Trump",
   "topicKeywords": [
     "eua",
     "trump",
     "tarifaço",
-    "dissidentes",
     "eleições",
-    "políticos"
+    "exigências",
+    "dissidentes"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/lula-trump-1200x675.jpg",
   "publishedAt": "2026-09-17T08:59:00+00:00",
-  "updatedAt": "2026-09-18T09:34:34.775798+00:00",
+  "updatedAt": "2026-09-18T11:21:14.455609+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,18 +56,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_5bb7ea3e9ff4",
-      "title": "Em rascunho, governo Trump exigiu que Brasil permitisse 'dissidentes políticos' a concorrer em 2026",
-      "description": "O governo de Donald Trump exigiu, no rascunho de um documento enviado ao Itamaraty, que o Brasil permitisse que \"dissidentes políticos\"...",
-      "url": "https://g1.globo.com/mundo/noticia/2026/09/17/trump-pediu-que-brasil-permitisse-que-dissidentes-politicos-concorressem-em-2026.ghtml",
+      "id": "article_5a4f64dcfab4",
+      "title": "A interferência (cada vez mais explícita) dos EUA na eleição brasileira - O Assunto #1807",
+      "description": "Durante as negociações entre os governos do Brasil e dos Estados Unidos, a gestão de Donald Trump enviou à diplomacia brasileira um...",
+      "url": "https://g1.globo.com/podcast/o-assunto/noticia/2026/09/18/a-interferencia-cada-vez-mais-explicita-dos-eua-na-eleicao-brasileira-o-assunto-1807.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-17T11:41:27+00:00",
+      "publishedAt": "2026-09-18T03:30:01+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/rxo8zSqWmWKdSg0FGrutjebve6w=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/S/wQa3apTqCHHAfCQCy5Mw/afp-20260909-c7ua9hl-v1-midres-republicannationalcommitteemidtermconvention.jpg",
+      "imageUrl": "https://s2-g1.glbimg.com/L8TA4O_zj1NGjRnz8-8XtmxsKYU=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s03.video.glbimg.com/deo/vi/90/20/14972090",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_fa9d92a46191",
+      "title": "Governo Trump exigiu que 'dissidentes políticos' fossem autorizados a participar de eleição no Brasil",
+      "description": "Mensagem enviada em 2025, durante negociação sobre primeiro tarifaço, propõe declaração conjunta com o Brasil; Lula chama documento dos EUA...",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/governo-trump-exigiu-que-dissidentes-politicos-fossem-autorizados-a-participar-de-eleicao-no-brasil.shtml",
+      "source": "folha.uol.com.br",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-17T13:48:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/13/17893299156aa701fb67587_1789329915_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_557a7c0bdcb1",
+      "title": "Brasil rechaçou exigências dos EUA e isolou pressão eleitoral em negociações sobre o tarifaço",
+      "description": "A proposta apresentada em 2025 incluía um pedido para o Brasil garantir a participação de 'dissidentes políticos' no pleito.",
+      "url": "https://www.cartacapital.com.br/politica/brasil-rechacou-as-21-exigencias-dos-eua-e-isolou-tema-eleitoral-das-negociacoes-sobre-tarifaco/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-17T19:06:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/Lula-e-Mauro-Vieira-foto-Andrew-Harnik-GETTY-IMAGES-NORTH-AMERICA-Getty-Images-via-AFP.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_b86c0af3b756",
@@ -72,52 +106,38 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-18T06:55:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/17/675x450/1_55255559494-1b6b0b4961-o-67724018.jpg",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
+      "id": "article_ab2d9e34199f",
+      "title": "Exigências dos EUA não condizem com relação com Brasil, diz especialista",
+      "description": "Ao WW, o sócio da Arko Advice International, avalia que lista enviada pelos EUA ao Brasil não condiz com a realidade da parceria comercial...",
+      "url": "https://www.cnnbrasil.com.br/internacional/exigencias-dos-eua-nao-condizem-com-relacao-com-brasil-diz-especialista/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-18T05:32:54+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_e6c22cf46c6d",
       "title": "Governo Trump fez 21 exigências ao Brasil para negociar tarifaço em 2025; veja cada uma",
-      "description": "Proposta continha demanda explícita sobre condições de realização das eleições neste ano, vantagens no setor de minerais críticos e em...",
+      "description": "BRASÍLIA – Para aliviar o tarifaço de 50% imposto ao Brasil, o governo Donald Trump propôs ao governo Lula, em 2025, um acordo político e...",
       "url": "https://www.estadao.com.br/politica/governo-trump-impos-21-exigencias-brasil-negociar-tarifaco/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-17T14:35:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/4UZB5XXJ65CXZDI7BYUDET2HRY.jpg?quality=80&auth=db45daecf81c2feae14bf42bf8be120af4022166b7200346de41f610d00ec86f&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_5509ddbaa8f1",
-      "title": "EUA queriam \"dissidentes\" em eleição no Brasil para negociar tarifaço",
-      "description": "Em documento de outubro de 2025, governo Trump também fez exigências sobre compras de aviões da Boeing e minerais críticos; Itamaraty viu...",
-      "url": "https://www.cnnbrasil.com.br/internacional/eua-queriam-dissidentes-em-eleicao-no-brasil-para-negociar-tarifaco/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-17T13:33:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_fa9d92a46191",
-      "title": "Governo Trump exigiu que 'dissidentes políticos' fossem autorizados a participar de eleição no Brasil",
-      "description": "Mensagem enviada em 2025, durante negociação sobre primeiro tarifaço, propõe declaração conjunta com o Brasil; Lula chama documento dos EUA...",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/governo-trump-exigiu-que-dissidentes-politicos-fossem-autorizados-a-participar-de-eleicao-no-brasil.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-17T13:48:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_4215ec124aa3",
@@ -156,7 +176,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-09-18T05:00:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -184,38 +204,24 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-18T05:00:01+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_557a7c0bdcb1",
-      "title": "Brasil rechaçou exigências dos EUA e isolou pressão eleitoral em negociações sobre o tarifaço",
-      "description": "A proposta apresentada em 2025 incluía um pedido para o Brasil garantir a participação de 'dissidentes políticos' no pleito.",
-      "url": "https://www.cartacapital.com.br/politica/brasil-rechacou-as-21-exigencias-dos-eua-e-isolou-tema-eleitoral-das-negociacoes-sobre-tarifaco/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-17T19:06:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_a000b1411b78",
       "title": "Lula diz que governo recusou exigências dos EUA sobre eleições e terras raras: \"Nem discutimos, porque era inaceitável\"",
       "description": "O presidente Luiz Inácio Lula da Silva disse, em entrevista nesta quinta-feira (17) à Rádio Itatiaia, em Montes Claros (MG), que o governo...",
       "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/lula-diz-que-governo-recusou-exigencias-dos-eua-sobre-eleicoes-e-terras-raras-nem-discutimos-porque-era-inaceitavel-cmu607a0i01mc0159uczpxsyr.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
+      "source": "gauchazh.clicrbs.com.br",
+      "sourceCanonical": "gauchazh.clicrbs.com.br",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-18T07:30:53+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a7f6b2a3965a",
@@ -246,6 +252,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_aacfeef90c58",
+      "title": "Itamaraty minimiza pedido de Trump sobre “dissidentes políticos” no Brasil",
+      "description": "Segundo membros do Itamaraty, pedido do governo Trump sobre “dissidentes brasileiros” foi rechaçado de pronto pelo chanceler Mauro Vieira.",
+      "url": "https://www.metropoles.com/colunas/igor-gadelha/pedido-de-trump-sobre-dissidentes-politicos-circulou-so-em-nivel-tecnico",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-17T12:58:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_85e03239cd65",
+      "title": "Trump queria que companhias aéreas brasileiras comprassem jatos da Boeing para retirar o tarifaço",
+      "description": "O governo dos Estados Unidos incluiu a compra de aeronaves comerciais fabricadas no país entre os compromissos previstos em uma proposta de...",
+      "url": "https://aeroin.net/trump-queria-que-companhias-aereas-brasileiras-comprassem-jatos-da-boeing-para-retirar-o-tarifaco/",
+      "source": "AEROIN",
+      "sourceCanonical": "AEROIN",
+      "sourceDomain": "aeroin.net",
+      "publishedAt": "2026-09-17T18:20:08+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_09c7d37da8d2",
       "title": "Trump exigiu 21 medidas do Brasil para aliviar o tarifaço",
       "description": "Documentos revelam que a oferta americana foi rejeitada pelo governo Lula por misturar comércio, política e pressões sobre setores...",
@@ -254,7 +288,7 @@
       "sourceCanonical": "Jornal do Brasil",
       "sourceDomain": "jb.com.br",
       "publishedAt": "2026-09-17T10:08:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -274,20 +308,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_aacfeef90c58",
-      "title": "Itamaraty minimiza pedido de Trump sobre “dissidentes políticos” no Brasil",
-      "description": "Segundo membros do Itamaraty, pedido do governo Trump sobre “dissidentes brasileiros” foi rechaçado de pronto pelo chanceler Mauro Vieira.",
-      "url": "https://www.metropoles.com/colunas/igor-gadelha/pedido-de-trump-sobre-dissidentes-politicos-circulou-so-em-nivel-tecnico",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-17T12:58:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_9c5fa02ddaf5",
       "title": "EUA cobraram eleições livres em rascunho de negociação do tarifaço",
       "description": "Documento apresentado pelo governo Trump ao Brasil tinha 21 exigências para negociar a revisão da sobretaxa de 50% sobre produtos...",
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
-    },
-    {
-      "id": "article_862e303abdda",
-      "title": "Em negociação sobre 1º tarifaço, EUA exigiram que Brasil não prendesse 'dissidentes políticos'",
-      "description": "O Escritório do Representante Comercial dos Estados Unidos (USTR, na sigla em inglês) apresentou ao governo Lula, durante as negociações...",
-      "url": "https://exame.com/brasil/em-negociacao-sobre-1o-tarifaco-eua-exigiram-que-brasil-nao-prendesse-dissidentes-politicos/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-09-17T16:18:26+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.29,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.25,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 9,
+      "center": 8,
       "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
