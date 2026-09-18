@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 57
+      "topic-3": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/fKIYP6opsUhzAsMqPiBFTgVnPKM=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/I/OlRocqR56RCSuAA7SUtw/g1-bg-01-6-.png",
   "publishedAt": "2026-09-10T23:44:28+00:00",
-  "updatedAt": "2026-09-18T02:38:30.640737+00:00",
+  "updatedAt": "2026-09-18T03:30:24.037437+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Datafolha divulga pesquisa para governo e Senado no Piauí",
       "description": "O Datafolha divulgou nesta quinta-feira (17) uma pesquisa de intenções de voto para governador do Piauí nas eleições de 2026.",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-piaui-setembro-2026/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-17T19:14:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/16140030/pesquisa-piaui-1.png",
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_fa07edf5a5e9",
@@ -100,8 +100,8 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-17T21:40:30+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Lula_5adafe.jpg?w=1200&h=630&crop=1",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 5,
-    "average": 3.78,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 8,
+    "average": 4.2,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
       "center": 5,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
