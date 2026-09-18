@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 29
+      "topic-7": 28
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 28,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/09/17889794696aa1a90d207a3_1788979469_3x2_rt.jpg",
   "publishedAt": "2026-09-10T13:01:04+00:00",
-  "updatedAt": "2026-09-18T15:37:09.332186+00:00",
+  "updatedAt": "2026-09-18T16:39:17.521598+00:00",
   "sourceCount": 13,
   "articleCount": 16,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-18T10:12:36+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM1A1EW-BASEIMAGE.jpg?w=800&h=544&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +72,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-18T12:11:06+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -134,20 +134,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_024bc99cd8f2",
-      "title": "A tríade destruidora",
-      "description": "Trump e Netanyah jogam o tudo ou nada, o primeiro com eleições intercalares em novembro, que poderão mudar o curso da política republicana e...",
-      "url": "https://www.ruadireita.pt/opiniao/a-triade-destruidora-62339.html",
-      "source": "Rua Direita",
-      "sourceCanonical": "Rua Direita",
-      "sourceDomain": "ruadireita.pt",
-      "publishedAt": "2026-09-18T11:50:57+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_7511524e1711",
       "title": "Likud busca impedir duas listas árabes de disputar as próximas eleições para o Knesset",
       "description": "O partido Likud, liderado pelo primeiro-ministro Benjamin Netanyahu, afirmou no domingo que pretende apresentar pedidos para impedir que a...",
@@ -162,18 +148,32 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_024bc99cd8f2",
+      "title": "A tríade destruidora",
+      "description": "Trump e Netanyah jogam o tudo ou nada, o primeiro com eleições intercalares em novembro, que poderão mudar o curso da política republicana e...",
+      "url": "https://www.ruadireita.pt/opiniao/a-triade-destruidora-62339.html",
+      "source": "Rua Direita",
+      "sourceCanonical": "Rua Direita",
+      "sourceDomain": "ruadireita.pt",
+      "publishedAt": "2026-09-18T11:50:57+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_a1963dd58221",
       "title": "A democracia vai às urnas nos EUA e em Israel; veja o que está em jogo",
       "description": "Os dias 27 de outubro e 3 de novembro de 2026 se configuram como duas das datas mais importantes na história de duas das democracias mais...",
       "url": "https://www.estadao.com.br/internacional/a-democracia-vai-as-urnas-nos-eua-e-em-israel-veja-o-que-esta-em-jogo/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-10T21:00:00+00:00",
       "postedLabel": "7 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_3a83a984ee77",
@@ -254,7 +254,7 @@
       "sourceCanonical": "SWI swissinfo.ch",
       "sourceDomain": "swissinfo.ch",
       "publishedAt": "2026-09-18T12:11:06+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -263,20 +263,20 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.12,
-    "knownCount": 8,
-    "unknownCount": 8,
+    "average": 5.33,
+    "knownCount": 9,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 5,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 1,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
     "headlineDivergence": 94,
     "confidence": 95
