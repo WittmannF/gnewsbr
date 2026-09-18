@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pUbU9DQkVoRk5YVnR5VWQ3SmZ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pUbU9DQkVoRk5YVnR5VWQ3SmZ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 8
+      "topic-3": 10,
+      "topic-5": 15
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +32,9 @@
     "gato",
     "século"
   ],
-  "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/02_NGS2026EXPL_Paola-Nogales_cr_Fernando-Faciole_1382.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+  "imageUrl": "https://s2-g1.glbimg.com/5XQc4AoQ_ZTk-P1Yi52ln3uZy_U=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/x/y9o0RIT2S8yklwRf26kA/g1-43-.jpg",
   "publishedAt": "2026-09-17T15:00:00+00:00",
-  "updatedAt": "2026-09-18T01:34:43.770117+00:00",
+  "updatedAt": "2026-09-18T02:35:45.760564+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +43,14 @@
       "title": "Professor brasileiro descobre que 'tigrinho' boliviano que já tinha até apelido era espécie inédita de felino selvagem",
       "description": "Animal vive nas florestas da Bolívia e é descrito pela primeira vez em um estudo publicado na revista científica Current Biology.",
       "url": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/09/17/professor-brasileiro-felino-selvagem-inedito-bolivia.ghtml",
-      "source": "g1.globo.com",
-      "sourceCanonical": "g1.globo.com",
+      "source": "G1",
+      "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-17T15:05:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://s2-g1.glbimg.com/5XQc4AoQ_ZTk-P1Yi52ln3uZy_U=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/x/y9o0RIT2S8yklwRf26kA/g1-43-.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_e5e5e5dd637a",
@@ -58,7 +61,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-17T21:38:48+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/02_NGS2026EXPL_Paola-Nogales_cr_Fernando-Faciole_1382.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -86,7 +89,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-17T23:05:47+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.rbsdirect.com.br/filestore/4/9/7/0/9/1/6_ea66d4ba8940f73/6190794_7ec2377284dbf5d.jpg?w=1200&h=675&a=c&version=1575255600",
       "spectrumScore": 5,
       "bucket": "center"
@@ -101,7 +104,7 @@
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-17T15:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/17/17896551166aabf84cd9026_1789655116_3x2_lg.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -124,14 +127,28 @@
       "title": "Onça em miniatura: Conheça o tilcayo, primeira espécie de felino descrita em mais de 100 anos que de pet nada tem",
       "description": "Estudo liderado por cientistas brasileiros identifica nas Yungas da Bolívia, florestas de altitude onde a Amazônia se encontra com os Andes,...",
       "url": "https://oglobo.globo.com/mundo/clima-e-ciencia/noticia/2026/09/17/onca-em-miniatura-conheca-o-tilcayo-primeira-especie-de-felino-descrita-em-mais-de-100-anos-que-de-pet-nada-tem.ghtml",
-      "source": "oglobo.globo.com",
-      "sourceCanonical": "oglobo.globo.com",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-17T15:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_300d69d9eb45",
+      "title": "Professor brasileiro descobre nova espécie de felino selvagem na Bolívia após mais de 100 anos",
+      "description": "Uma nova espécie de felino selvagem foi identificada nas florestas montanhosas da Bolívia por uma equipe liderada pelo professor brasileiro...",
+      "url": "https://tribunadonorte.com.br/brasil/professor-brasileiro-descobre-nova-especie-de-felino-selvagem-na-bolivia-apos-mais-de-100-anos/",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
+      "sourceDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-09-17T23:22:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_0ff6a223dfdd",
@@ -148,20 +165,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_300d69d9eb45",
-      "title": "Professor brasileiro descobre nova espécie de felino selvagem na Bolívia após mais de 100 anos",
-      "description": "Uma nova espécie de felino selvagem foi identificada nas florestas montanhosas da Bolívia por uma equipe liderada pelo professor brasileiro...",
-      "url": "https://tribunadonorte.com.br/brasil/professor-brasileiro-descobre-nova-especie-de-felino-selvagem-na-bolivia-apos-mais-de-100-anos/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-09-17T23:22:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_9b7fbf785dd6",
       "title": "Nova espécie de felino é descoberta nas montanhas da Bolívia após um século",
       "description": "Pesquisa publicada hoje aponta que animal foi batizado como Leopardus tilcayo e grupo teve participação de brasileiro.",
@@ -170,7 +173,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-09-17T21:12:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -184,7 +187,7 @@
       "sourceCanonical": "Leouve",
       "sourceDomain": "leouve.com.br",
       "publishedAt": "2026-09-17T21:07:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +201,7 @@
       "sourceCanonical": "ACidade ON",
       "sourceDomain": "acidadeon.com",
       "publishedAt": "2026-09-17T22:11:20+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -222,11 +225,11 @@
       "title": "Pesquisador brasileiro identifica ‘tigrinho’ na Bolívia, primeiro felino categorizado no mundo em 100 anos",
       "description": "Um estudo liderado por um geneticista brasileiro identificou uma nova espécie de felino selvagem na Bolívia, a primeira descrição de um gato...",
       "url": "https://bhaz.com.br/primeiramao/pesquisador-brasileiro-identifica-tigrinho-na-bolivia-primeiro-felino-categorizado-no-mundo-em-100-anos/",
-      "source": "BHAZ",
-      "sourceCanonical": "BHAZ",
+      "source": "bhaz.com.br",
+      "sourceCanonical": "bhaz.com.br",
       "sourceDomain": "bhaz.com.br",
       "publishedAt": "2026-09-17T21:47:45+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -264,11 +267,11 @@
       "title": "Exploradores descobriram nova espécie de gato selvagem pela primeira vez em mais de um século",
       "description": "Grupo de investigadores identificou uma nova espécie de felino na Bolívia. Conhecido como 'tilcayo', vive nas florestas montanhosas de...",
       "url": "https://www.sabado.pt/vida/detalhe/investigadores-descobriram-nova-especie-de-gato-selvagem-pela-primeira-vez-em-mais-de-um-seculo",
-      "source": "SÁBADO",
-      "sourceCanonical": "SÁBADO",
+      "source": "sabado.pt",
+      "sourceCanonical": "sabado.pt",
       "sourceDomain": "sabado.pt",
       "publishedAt": "2026-09-17T22:02:55+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -310,7 +313,7 @@
       "sourceCanonical": "Portal 98 FM Natal",
       "sourceDomain": "98fmnatal.com.br",
       "publishedAt": "2026-09-17T21:23:42+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.78,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 6,
+      "center": 8,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 9
     }
   },
   "scores": {
