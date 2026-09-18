@@ -12,11 +12,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 42,
-      "topic-5": 41
+      "topic-3": 41,
+      "topic-5": 47
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 42,
+    "firstSeenRank": 41,
     "bestSeedRank": 41,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/janja-da-silva-ato-do-pt-ceilandia-1200x675.png",
   "publishedAt": "2026-09-10T01:04:11+00:00",
-  "updatedAt": "2026-09-18T03:30:42.053166+00:00",
+  "updatedAt": "2026-09-18T04:30:48.767636+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -225,14 +225,14 @@
       "title": "Janja chama Lula de 'ungido de Deus' em comício no Piauí",
       "description": "Primeira-dama também criticou a família Bolsonaro e afirmou que nordestinos 'estariam comendo capim' caso dependessem do grupo.",
       "url": "https://www.correiobraziliense.com.br/politica/2026/09/7497641-janja-chama-lula-de-ungido-de-deus-em-comicio-no-piaui.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-10T14:12:00+00:00",
       "postedLabel": "7 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_fe225afe5c7f",
@@ -277,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1b04de24e70a",
-      "title": "Janja ataca bolsonarismo e faz referência a Michelle em discurso no DF",
-      "description": "Janja critica a família Bolsonaro e pede mobilização nas eleições. Descubra o que foi dito sobre Michelle e suas ideias conservadoras.",
-      "url": "https://atarde.com.br/politica/janja-ataca-bolsonarismo-e-faz-referencia-a-michelle-em-discurso-no-df-1402376",
-      "source": "atarde.com.br",
-      "sourceCanonical": "atarde.com.br",
-      "sourceDomain": "atarde.com.br",
-      "publishedAt": "2026-09-17T01:31:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_70bb8d3c70a1",
       "title": "Janja faz campanha contra Michelle Bolsonaro",
       "description": "A primeira-dama, Janja da Silva, pediu nesta quarta-feira, 16, para que os eleitores não votem em “ninguém” com o sobrenome Bolsonaro.",
@@ -305,37 +291,51 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_64e50951e34c",
-      "title": "Lula pede que eleitores do Distrito Federal não votem em Michelle Bolsonaro para o Senado",
-      "description": "O presidente Luiz Inácio Lula da Silva aproveitou um comício em Ceilândia–DF para pedir aos eleitores que não votem nas duas candidatas da...",
-      "url": "https://www.radiopampa.com.br/lula-pede-que-eleitores-do-distrito-federal-nao-votem-em-michelle-bolsonaro-para-o-senado-2/",
-      "source": "Rádio Pampa",
-      "sourceCanonical": "Rádio Pampa",
-      "sourceDomain": "radiopampa.com.br",
-      "publishedAt": "2026-09-18T02:32:20+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_1b04de24e70a",
+      "title": "Janja ataca bolsonarismo e faz referência a Michelle em discurso no DF",
+      "description": "Janja critica a família Bolsonaro e pede mobilização nas eleições. Descubra o que foi dito sobre Michelle e suas ideias conservadoras.",
+      "url": "https://atarde.com.br/politica/janja-ataca-bolsonarismo-e-faz-referencia-a-michelle-em-discurso-no-df-1402376",
+      "source": "A TARDE",
+      "sourceCanonical": "A TARDE",
+      "sourceDomain": "atarde.com.br",
+      "publishedAt": "2026-09-17T01:31:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_57ba90c7106e",
+      "title": "Lula pede que eleitores do Distrito Federal não votem em Michelle Bolsonaro para o Senado",
+      "description": "O presidente Luiz Inácio Lula da Silva aproveitou um comício em Ceilândia–DF para pedir aos eleitores que não votem nas duas candidatas da...",
+      "url": "https://www.osul.com.br/lula-pede-que-eleitores-do-distrito-federal-nao-votem-em-michelle-bolsonaro-para-o-senado/",
+      "source": "Jornal O Sul",
+      "sourceCanonical": "Jornal O Sul",
+      "sourceDomain": "osul.com.br",
+      "publishedAt": "2026-09-18T02:42:28+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.9,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.67,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 6,
+      "centerLeft": 1,
+      "center": 7,
       "centerRight": 2,
       "right": 1,
-      "unknown": 10
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
