@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psZ2NXQkVoRzRkNHRReUhuNzhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psZ2NXQkVoRzRkNHRReUhuNzhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 43
+      "topic-3": 20,
+      "topic-5": 44
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 43,
-    "bestSeedRank": 43,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 20,
+    "bestSeedRank": 20,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "acm",
     "neto",
-    "overclean",
     "operação",
+    "overclean",
     "nunes",
     "marques"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/tCKcMnqTOHZb04sFFh7gxU9vdO4=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/f/jEsnSyRBa18jhAoCkMrg/55530218973-99bf05e4c6-k.jpg",
   "publishedAt": "2026-09-17T11:12:00+00:00",
-  "updatedAt": "2026-09-18T17:27:13.503381+00:00",
+  "updatedAt": "2026-09-18T18:30:02.492971+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,20 +53,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_b8da5c79c93e",
-      "title": "Nunes Marques negou pedido da PF de buscas contra ACM Neto",
-      "description": "Foram cumpridos 24 mandados de buscas em Minas, Bahia, São Paulo, Tocantins, Paraná e Espírito Santo para investigar suspeitas de fraudes em...",
-      "url": "https://valor.globo.com/politica/noticia/2026/09/17/nunes-marques-negou-pedido-da-pf-de-buscas-contra-acm-neto-em-desvios-de-emendas-parlamentares.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-09-17T11:50:59+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://s2-valor.glbimg.com/ZFG1qhrrE59j26EzE2K_nRtHIfI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/C/o/rMbijXRg2iUp7xOpMw5g/301117acmneto76.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_2fbbb253ee39",
       "title": "PF acha mensagens que citam ACM Neto e Rueda em articulações do Rei do Lixo",
       "description": "Ex-prefeito e presidente do União Brasil são suspeitos de indicar secretários para prefeitura de Belo Horizonte.",
@@ -76,6 +65,20 @@
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/raf05196_0.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_b8da5c79c93e",
+      "title": "Nunes Marques negou pedido da PF de buscas contra ACM Neto",
+      "description": "Foram cumpridos 24 mandados de buscas em Minas, Bahia, São Paulo, Tocantins, Paraná e Espírito Santo para investigar suspeitas de fraudes em...",
+      "url": "https://valor.globo.com/politica/noticia/2026/09/17/nunes-marques-negou-pedido-da-pf-de-buscas-contra-acm-neto-em-desvios-de-emendas-parlamentares.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-09-17T11:50:59+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://s2-valor.glbimg.com/ZFG1qhrrE59j26EzE2K_nRtHIfI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2024/C/o/rMbijXRg2iUp7xOpMw5g/301117acmneto76.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_38d77eb9edd3",
@@ -138,14 +141,28 @@
       "title": "ACM Neto vê interferência eleitoral na divulgação de pedido de busca na Overclean",
       "description": "O candidato ao governo da Bahia ACM Neto (União Brasil) afirmou nesta quinta-feira, 17, que a divulgação do pedido de busca e apreensão...",
       "url": "https://www.terra.com.br/noticias/brasil/politica/acm-neto-ve-interferencia-eleitoral-na-divulgacao-de-pedido-de-busca-na-overclean,619a7f829083f570c8671c9c357aa2274u5dmnt7.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-17T15:54:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_a68b8d4bbd83",
+      "title": "ACM Neto é considerado pela PF principal elo em fraudes na Overclean",
+      "description": "247 – A Polícia Federal aponta o ex-prefeito de Salvador e candidato ao governo da Bahia ACM Neto (União Brasil) como o principal...",
+      "url": "https://www.brasil247.com/nordeste/acm-neto-e-considerado-pela-pf-principal-elo-em-fraudes-na-overclean/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-18T12:10:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_1262f4facc1b",
@@ -162,43 +179,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_a68b8d4bbd83",
-      "title": "ACM Neto é considerado pela PF principal elo em fraudes na Overclean",
-      "description": "247 – A Polícia Federal aponta o ex-prefeito de Salvador e candidato ao governo da Bahia ACM Neto (União Brasil) como o principal...",
-      "url": "https://www.brasil247.com/nordeste/acm-neto-e-considerado-pela-pf-principal-elo-em-fraudes-na-overclean/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-18T12:10:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_241b893c6eaf",
       "title": "PF investiga suspeitas de fraude em contratações públicas em BH",
       "description": "A Polícia Federal deflagrou nesta 5ª feira (17.set.2026) a 10ª fase da operação Overclean para investigar a possível atuação de uma...",
       "url": "https://www.poder360.com.br/poder-seguranca-publica/pf-investiga-suspeitas-de-fraude-em-contratacoes-publicas-em-bh/",
-      "source": "poder360.com.br",
-      "sourceCanonical": "poder360.com.br",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-17T11:26:27+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_bfd448aae87b",
-      "title": "Overclean: foragido é preso após polícia abordar ônibus que seguia para SP",
-      "description": "O homem de 21 anos foi preso por volta das 18h40, quando o ônibus de viagem foi interceptado na BR-153, em Hidrolândia (GO)",
-      "url": "https://www.metropoles.com/colunas/mirelle-pinheiro/overclean-foragido-e-preso-apos-policia-abordar-onibus-que-seguia-para-sp",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-18T15:26:00+00:00",
-      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -218,6 +207,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_bfd448aae87b",
+      "title": "Overclean: foragido é preso após polícia abordar ônibus que seguia para SP",
+      "description": "O homem de 21 anos foi preso por volta das 18h40, quando o ônibus de viagem foi interceptado na BR-153, em Hidrolândia (GO)",
+      "url": "https://www.metropoles.com/colunas/mirelle-pinheiro/overclean-foragido-e-preso-apos-policia-abordar-onibus-que-seguia-para-sp",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-18T15:26:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_deb9551f2ac4",
       "title": "PF pede em fevereiro, e Nunes Marques libera em setembro operação que mirava ACM Neto",
       "description": "Político baiano era alvo da PF hoje, mas o ministro não autorizou buscas em operação que apura fraudes na prefeitura de BH.",
@@ -230,20 +233,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_c174e3e4e9b2",
-      "title": "Rei do Lixo: Ministro Nunes Marques negou busca e apreensão para ACM Neto",
-      "description": "A Polícia Federal cumpre buscas e apreensões nesta quinta-feira (17) contra o empresário José Marcos de Moura, conhecido como o “Rei do...",
-      "url": "https://blog.tribunadonorte.com.br/territoriolivre/rei-do-lixo-ministro-nunes-marques-negou-busca-e-apreensao-para-acm-neto/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "blog.tribunadonorte.com.br",
-      "publishedAt": "2026-09-17T13:58:27+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_cd9fa5393b6f",
@@ -314,32 +303,45 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_cfa0339c5ec0",
+      "title": "Gabriel cita operação da PF na PBH e ataca: 'Entregou Educação por tempo de TV'",
+      "description": "Sabatinado no MG1, candidato do MDB usou investigação sobre contratos da Educação para defender disputa sem alianças e afirmou ter recusado...",
+      "url": "https://www.itatiaia.com.br/politica/eleicoes/gabriel-cita-operacao-da-pf-na-pbh-e-ataca-entregou-educacao-por-tempo-de-tv/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-09-17T16:57:52+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 8,
-    "average": 5.62,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.25,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
-      "center": 8,
+      "center": 10,
       "centerRight": 4,
       "right": 0,
-      "unknown": 7
+      "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

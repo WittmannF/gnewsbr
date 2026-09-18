@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 20
+      "topic-3": 26
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +26,14 @@
     "vidro",
     "gangues",
     "gangue",
-    "celulares",
-    "região"
+    "vidros",
+    "celulares"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/HRXSYPKHNBBLHENIFX647QAD3E.jpg?quality=80&auth=7b67780ac5850112e0c4f7cfe1d7b3f430babb18228006b1af40ecaa944a1f92&width=1200&height=630&focal=635,258",
   "publishedAt": "2026-09-11T13:00:00+00:00",
-  "updatedAt": "2026-09-18T17:21:26.365802+00:00",
-  "sourceCount": 6,
-  "articleCount": 10,
+  "updatedAt": "2026-09-18T18:30:17.536078+00:00",
+  "sourceCount": 7,
+  "articleCount": 11,
   "articles": [
     {
       "id": "article_d98fc0e9b1a3",
@@ -46,6 +46,20 @@
       "publishedAt": "2026-09-18T08:38:36+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/HRXSYPKHNBBLHENIFX647QAD3E.jpg?quality=80&auth=7b67780ac5850112e0c4f7cfe1d7b3f430babb18228006b1af40ecaa944a1f92&width=1200&height=630&focal=635,258",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_439deaf8bdd7",
+      "title": "Gangues quebra-vidro de SP mudaram de tática - e você deve prestar atenção",
+      "description": "Novo método de abordagem facilita fuga dos criminosos; secretário da Segurança Pública diz que patrulhamento será reforçado com dezenas de...",
+      "url": "https://www.estadao.com.br/sao-paulo/gangues-quebra-vidro-de-sp-mudaram-de-tatica-e-voce-deve-prestar-atencao/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-15T13:01:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/HRXSYPKHNBBLHENIFX647QAD3E.jpg?quality=80&auth=7b67780ac5850112e0c4f7cfe1d7b3f430babb18228006b1af40ecaa944a1f92&width=1200&height=630&focal=619,231",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -82,14 +96,14 @@
       "title": "Gangue do quebra-vidro: motoristas passam a usar \"rede de proteção\" contra furto de celulares em SP",
       "description": "Diante da onda de ataques rápidos no trânsito paulistano, condutores recorrem a telas nas janelas e películas antivandalismo para proteger...",
       "url": "https://www.terra.com.br/noticias/gangue-do-quebra-vidro-motoristas-passam-a-usar-rede-de-protecao-contra-furto-de-celulares-em-sp,ecdf2c82a79dcf67111717cc33f553b89tht5ybf.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-15T19:50:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_bbeea97f77b5",
@@ -100,24 +114,10 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-18T16:03:37+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/imagem-principal-gangues-quebra-vidro-motos-ataques-ipiranga-sacoma-sao-paulo-oc5hudmrebd3la5wxjrdmwrtiq.jpeg",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_439deaf8bdd7",
-      "title": "Gangues quebra-vidro de SP mudaram de tática - e você deve prestar atenção",
-      "description": "Novo método de abordagem facilita fuga dos criminosos; secretário da Segurança Pública diz que patrulhamento será reforçado com dezenas de...",
-      "url": "https://www.estadao.com.br/sao-paulo/gangues-quebra-vidro-de-sp-mudaram-de-tatica-e-voce-deve-prestar-atencao/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-15T13:01:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_03c9e282b95b",
@@ -174,31 +174,46 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_166f58ba696a",
+      "title": "Gangues quebra-vidros chegam a todas as regiões de SP; 'Parar em semáforo me dá desespero', diz vítima",
+      "description": "As ações de gangues de ladrões conhecidos como quebra-vidros, que depredam janelas de automóveis para roubar aparelhos celulares.",
+      "url": "https://santaportal.com.br/geral/gangues-quebra-vidros-chegam-a-todas-as-regioes-de-sp-parar-em-semaforo-me-da-desespero-diz-vitima/",
+      "source": "Santa Portal",
+      "sourceCanonical": "Santa Portal",
+      "sourceDomain": "santaportal.com.br",
+      "publishedAt": "2026-09-11T16:09:55+00:00",
+      "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.62,
-    "knownCount": 8,
+    "average": 5.56,
+    "knownCount": 9,
     "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 0,
+      "center": 1,
       "centerRight": 5,
       "right": 0,
       "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
-    "confidence": 89
+    "confidence": 94
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
