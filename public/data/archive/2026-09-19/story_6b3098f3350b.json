@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 53
+      "topic-3": 58
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 53,
-    "bestSeedRank": 53,
+    "firstSeenRank": 58,
+    "bestSeedRank": 58,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/image-2026-08-24-081712.jpg.webp",
   "publishedAt": "2026-09-17T19:10:15+00:00",
-  "updatedAt": "2026-09-19T12:35:25.214985+00:00",
+  "updatedAt": "2026-09-19T13:26:27.538123+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -184,7 +184,7 @@
       "sourceCanonical": "Rdnews",
       "sourceDomain": "rdnews.com.br",
       "publishedAt": "2026-09-19T12:05:00+00:00",
-      "postedLabel": "30 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -212,7 +212,7 @@
       "sourceCanonical": "JBNEWS",
       "sourceDomain": "jbnews.com.br",
       "publishedAt": "2026-09-18T12:41:32+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -222,14 +222,14 @@
       "title": "Pivetta amplia vantagem sobre Wellington Fagundes e chega a 42,4% em Mato Grosso",
       "description": "Paraná Pesquisas mostra governador com 12,8 pontos de vantagem; Mauro Mendes lidera disputa ao Senado com 52,3%",
       "url": "https://www.brasil247.com/geral/pivetta-amplia-vantagem-sobre-wellington-fagundes-e-chega-a-424-em-mato-grosso/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-18T10:20:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_fe7b1d4bc896",
@@ -241,20 +241,6 @@
       "sourceDomain": "infoverus.com.br",
       "publishedAt": "2026-09-18T16:38:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_7dd545a6c9fb",
-      "title": "Pivetta amplia vantagem e pode ser reeleito no primeiro turno em MT",
-      "description": "Levantamento realizado pelo instituto Paraná Pesquisas entre terça-feira e ontem revela que o governador de Mato Grosso, Otaviano Pivetta...",
-      "url": "https://www.folhamax.com/politica/pivetta-amplia-vantagem-e-pode-ser-reeleito-no-primeiro-turno-em-mt/572977",
-      "source": "FOLHAMAX",
-      "sourceCanonical": "FOLHAMAX",
-      "sourceDomain": "folhamax.com",
-      "publishedAt": "2026-09-18T10:20:00+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -272,6 +258,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_7dd545a6c9fb",
+      "title": "Pivetta amplia vantagem e pode ser reeleito no primeiro turno em MT",
+      "description": "Levantamento realizado pelo instituto Paraná Pesquisas entre terça-feira e ontem revela que o governador de Mato Grosso, Otaviano Pivetta...",
+      "url": "https://www.folhamax.com/politica/pivetta-amplia-vantagem-e-pode-ser-reeleito-no-primeiro-turno-em-mt/572977",
+      "source": "FOLHAMAX",
+      "sourceCanonical": "FOLHAMAX",
+      "sourceDomain": "folhamax.com",
+      "publishedAt": "2026-09-18T10:20:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fc61f17190b2",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 10,
-    "average": 6.89,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 6.3,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
       "center": 3,
       "centerRight": 1,
       "right": 4,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
