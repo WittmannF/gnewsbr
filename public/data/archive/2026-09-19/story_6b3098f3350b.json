@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 57
+      "topic-3": 52
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 52,
+    "bestSeedRank": 52,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/image-2026-08-24-081712.jpg.webp",
   "publishedAt": "2026-09-17T11:08:00+00:00",
-  "updatedAt": "2026-09-19T05:26:37.906493+00:00",
+  "updatedAt": "2026-09-19T06:39:48.643757+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Governador é favorito à reeleição no Mato Grosso, indica Paraná Pesquisas",
       "description": "A dezessete dias das eleições estaduais de 2026, o governador do Mato Grosso, Otaviano Pivetta (Republicanos), é favorito à reeleição e...",
       "url": "https://veja.abril.com.br/brasil/governador-e-favorito-a-reeleicao-no-mato-grosso-indica-parana-pesquisas/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-18T12:14:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/otaviano-pivetta-wellington-fagundes.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ce4f40b66544",
@@ -115,7 +115,7 @@
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-18T17:33:50+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/08/fagundes-pivetta.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 9,
       "bucket": "right"
     },
@@ -288,20 +288,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_fc61f17190b2",
-      "title": "Aprovação do governo de Otaviano Pivetta cresce e atinge 71,7%, diz Paraná Pesquisas",
-      "description": "A gestão do governador Otaviano Pivetta (Republicanos) alcançou 71,7% de aprovação, segundo dados do instituto Paraná Pesquisas divulgados...",
-      "url": "https://olivre.com.br/aprovacao-do-governo-de-otaviano-pivetta-cresce-e-atinge-717-diz-parana-pesquisas/",
-      "source": "O Livre",
-      "sourceCanonical": "O Livre",
-      "sourceDomain": "olivre.com.br",
-      "publishedAt": "2026-09-18T13:45:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_fe7b1d4bc896",
       "title": "Wellington Fagundes tem maior rejeição entre candidatos ao governo de MT, aponta Paraná Pesquisas",
       "description": "Senador é citado por 26,8% dos entrevistados; Natasha Slhessarenko aparece com 23,3% e Otaviano Pivetta, com 19,6%",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_fc61f17190b2",
+      "title": "Aprovação do governo de Otaviano Pivetta cresce e atinge 71,7%, diz Paraná Pesquisas",
+      "description": "A gestão do governador Otaviano Pivetta (Republicanos) alcançou 71,7% de aprovação, segundo dados do instituto Paraná Pesquisas divulgados...",
+      "url": "https://olivre.com.br/aprovacao-do-governo-de-otaviano-pivetta-cresce-e-atinge-717-diz-parana-pesquisas/",
+      "source": "O Livre",
+      "sourceCanonical": "O Livre",
+      "sourceDomain": "olivre.com.br",
+      "publishedAt": "2026-09-18T13:45:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.91,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 3,
       "centerLeft": 0,
       "center": 3,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 4,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 60,
     "spectrumBalance": 100,
     "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
