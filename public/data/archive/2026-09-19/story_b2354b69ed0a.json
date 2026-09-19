@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 17,
-      "topic-5": 17
+      "topic-3": 20,
+      "topic-5": 22
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
+    "firstSeenRank": 20,
+    "bestSeedRank": 20,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,13 +28,13 @@
     "pesquisa",
     "senado",
     "zucco",
-    "paraná",
     "disputa",
-    "pesquisas"
+    "paraná",
+    "brizola"
   ],
-  "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/08/1755861901119993.jpg",
+  "imageUrl": "https://static.poder360.com.br/uploads/2026/03/rbr2526-scaled-1.jpg",
   "publishedAt": "2026-09-15T13:34:44+00:00",
-  "updatedAt": "2026-09-19T18:27:22.311223+00:00",
+  "updatedAt": "2026-09-19T19:19:15.141830+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,14 +43,14 @@
       "title": "Zucco e Juliana Brizola empatam em 1º turno no RS, mostra pesquisa",
       "description": "O levantamento da Paraná Pesquisas também aferiu entre os eleitores as preferências ao Senado.",
       "url": "https://www.cartacapital.com.br/politica/zucco-e-juliana-brizola-empatam-em-1o-turno-no-rs-mostra-pesquisa/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-19T12:52:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/08/1755861901119993.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a0e5153f9ba5",
@@ -104,7 +104,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-19T11:48:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/17233323/pesquisa-eleitoral-parana-pesquisas-setembro-rio-grande-do-sul.png",
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -277,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d1e93d2fa24f",
-      "title": "Nova pesquisa indica empate entre candidatos ao governo do Rio Grande do Sul",
-      "description": "Zucco e Juliana Brizola lideram a corrida pelo governo; pesquisa também revela intenções para o Senado.",
-      "url": "https://boca.com.br/politica/pesquisa-empate-candidatos-governo-rio-grande-do-sul",
-      "source": "boca.com.br",
-      "sourceCanonical": "boca.com.br",
-      "sourceDomain": "boca.com.br",
-      "publishedAt": "2026-09-18T07:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_a41b5ce90c17",
       "title": "Pesquisa Senado RS 2026: Pimenta e Manuela lideram com folga",
       "description": "Manuela d'Ávila (PSOL) e Paulo Pimenta (PT) aparecem na frente na disputa pelas duas vagas do Rio Grande do Sul no Senado, em cenário...",
@@ -317,32 +303,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_546e7edc62de",
+      "title": "Pesquisa aponta disputa acirrada entre Zucco e Juliana Brizola pelo governo do RS",
+      "description": "A disputa pelo governo do Rio Grande do Sul apresenta proximidade entre Luciano Zucco (PL) e Juliana Brizola (PDT), segundo pesquisa Paraná...",
+      "url": "https://jornalforcadovale.com.br/politica/pesquisa-aponta-disputa-acirrada-entre-zucco-e-juliana-brizola-pelo-governo-do-rs/",
+      "source": "força do vale",
+      "sourceCanonical": "força do vale",
+      "sourceDomain": "jornalforcadovale.com.br",
+      "publishedAt": "2026-09-19T15:12:27+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 9,
-    "average": 5.78,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 6.25,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 2,
       "right": 1,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
