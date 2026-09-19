@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2prc1lqOUVSR0s1RWRQZlVHd2tpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2prc1lqOUVSR0s1RWRQZlVHd2tpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 4,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 5,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Flávio diz que Lula está “gagá” após fala sobre milicianos",
   "summary": "Presidente não citou Flávio, mas mencionou em seguida a família Bolsonaro ao falar de possível elo de 1 candidato à Presidência com milícias...",
@@ -32,9 +38,9 @@
     "rio",
     "milicianos"
   ],
-  "imageUrl": "https://static.poder360.com.br/uploads/2026/04/prismada-flavio-lula.jpg",
+  "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/lula-temor-reeleicao-marcelo-camargo-agencia-brasil.jpg.webp",
   "publishedAt": "2026-09-16T13:54:00+00:00",
-  "updatedAt": "2026-09-19T02:32:43.149489+00:00",
+  "updatedAt": "2026-09-19T03:26:22.856330+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,14 +49,14 @@
       "title": "Flávio diz que Lula está “gagá” após fala sobre milicianos",
       "description": "Presidente não citou Flávio, mas mencionou em seguida a família Bolsonaro ao falar de possível elo de 1 candidato à Presidência com milícias...",
       "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-lula-esta-gaga-apos-fala-sobre-milicianos/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
+      "source": "poder360.com.br",
+      "sourceCanonical": "poder360.com.br",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-18T23:20:30+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/04/prismada-flavio-lula.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_dfd764c6f12c",
@@ -71,14 +77,14 @@
       "title": "Lula diz que 5 ministros do STF estão ligados ao caso Master",
       "description": "presidente não citou os nomes, mas defendeu mudanças no funcionamento do Supremo em meio às investigações sobre o banco.",
       "url": "https://revistaoeste.com/politica/lula-diz-que-5-ministros-do-stf-estao-ligados-ao-caso-master/",
-      "source": "revistaoeste.com",
-      "sourceCanonical": "revistaoeste.com",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-18T21:17:59+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "postedLabel": "hoje",
+      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/lula-temor-reeleicao-marcelo-camargo-agencia-brasil.jpg.webp",
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_1772f785f3c1",
@@ -113,8 +119,8 @@
       "title": "‘Tem um candidato à presidência ligado a milicianos no Rio’, diz Lula",
       "description": "Presidente lembra biografia do adversário e detalha propostas para segurança pública e combate à violência contra a mulher.",
       "url": "https://pt.org.br/tem-um-candidato-a-presidencia-ligado-a-milicianos-no-rio-diz-lula/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
+      "source": "pt.org.br",
+      "sourceCanonical": "pt.org.br",
       "sourceDomain": "pt.org.br",
       "publishedAt": "2026-09-18T16:44:00+00:00",
       "postedLabel": "hoje",
@@ -127,70 +133,56 @@
       "title": "\"Quem legalizou o Master foi o Bolsonaro\", diz Lula em ato de campanha",
       "description": "O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, dedicou parte de seu discurso no ato de campanha que realizou em...",
       "url": "https://www.metropoles.com/sao-paulo/master-bolsonaro-diz-lula-campanha",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-18T23:36:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "postedLabel": "3 horas atrás",
+      "imageUrl": "https://i.metroimg.com/Rna1erqItJvb7_34IXq1ZuQBWqcWcNwQPy6Xk_t-zYI/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/lula-guarulhos-2.jpeg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8c243327feac",
       "title": "Lula diz foi procurado por Vorcaro e banqueiro que dizia estava sendo “perseguido”",
       "description": "O presidente Luiz Inácio Lula da Silva (PT) confirmou, nesta sexta-feira (18) que conversou com o ex-banqueiro Daniel Vorcaro.",
       "url": "https://www.infomoney.com.br/politica/lula-diz-foi-procurado-por-vorcaro-e-banqueiro-que-dizia-estava-sendo-perseguido/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
+      "source": "infomoney.com.br",
+      "sourceCanonical": "infomoney.com.br",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-18T18:15:26+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/08/2026-08-11T235125Z_1336740669_RC2MWMAE7PFV_RTRMADP_3_BRAZIL-ELECTION-LULA.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7b79155b9a90",
       "title": "O que está em jogo nessa eleição é escolha entre barbárie e democracia, diz Lula",
       "description": "O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta sexta-feira, 18, que a eleição ...",
       "url": "https://www.terra.com.br/noticias/brasil/politica/o-que-esta-em-jogo-nessa-eleicao-e-escolha-entre-barbarie-e-democracia-diz-lula,08bfc5945cc66111b1018b7a33388f6636o71mq2.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-18T23:51:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "publishedAt": "2026-09-18T23:51:42+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_880394611fc8",
       "title": "‘Eles criaram um banqueiro e eu o tornei prisioneiro’, diz Lula sobre Vorcaro",
       "description": "O presidente voltou a associar família Bolsonaro ao caso do Banco Master e afirmou que Flávio tem ligação com milicianos no Rio.",
       "url": "https://www.cartacapital.com.br/politica/eles-criaram-um-banqueiro-e-eu-o-tornei-prisioneiro-diz-lula-sobre-vorcaro/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-18T15:17:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_00808fd11e17",
-      "title": "Ligações de Flávio Bolsonaro com organização criminosa do Rio – Ricardo Mezavila",
-      "description": "O vídeo que registra o senador Flávio Bolsonaro (PL-RJ) ao lado do deputado Rodrigo Bacellar — então governador em exercício e presidente da...",
-      "url": "https://www.brasil247.com/blog/ligacoes-de-flavio-bolsonaro-com-organizacao-criminosa-do-rio/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-18T14:11:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c0fc9ff52e0a",
@@ -207,6 +199,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_00808fd11e17",
+      "title": "Ligações de Flávio Bolsonaro com organização criminosa do Rio – Ricardo Mezavila",
+      "description": "O vídeo que registra o senador Flávio Bolsonaro (PL-RJ) ao lado do deputado Rodrigo Bacellar — então governador em exercício e presidente da...",
+      "url": "https://www.brasil247.com/blog/ligacoes-de-flavio-bolsonaro-com-organizacao-criminosa-do-rio/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-18T14:11:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_7e00f6e09dee",
       "title": "Lula: celular de Vorcaro mostrará o que precisa ser vazado",
       "description": "Presidente disse que conversas antes mantidas em sigilo com Mendonça agora serão tornadas públicas na mão de outros ministros.",
@@ -221,20 +227,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_496dc3b56272",
-      "title": "Lula conta ter negado ajuda a Vorcaro: \"aqui ninguém é perseguido\"",
-      "description": "Lula afirmou nesta sexta-feira (18) que Daniel Vorcaro o procurou quando o Banco Master enfrentava dificuldades e alegou estar sendo...",
-      "url": "https://www.congressoemfoco.com.br/noticia/122399/lula-conta-ter-negado-ajuda-a-vorcaro--aqui-ninguem-e-perseguido",
-      "source": "Congresso em Foco",
-      "sourceCanonical": "Congresso em Foco",
-      "sourceDomain": "congressoemfoco.com.br",
-      "publishedAt": "2026-09-18T14:53:57+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_f4d28c26ea55",
       "title": "“Tem candidato a presidente ligado aos milicianos no Rio de Janeiro”, diz Lula",
       "description": "Em entrevista à Super Rádio Tupi, o presidente afirma que “é preciso limpar a política e a polícia”. por Iram Alfaia.",
@@ -243,6 +235,20 @@
       "sourceCanonical": "vermelho.org.br",
       "sourceDomain": "vermelho.org.br",
       "publishedAt": "2026-09-18T20:07:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_496dc3b56272",
+      "title": "Lula conta ter negado ajuda a Vorcaro: \"aqui ninguém é perseguido\"",
+      "description": "Lula afirmou nesta sexta-feira (18) que Daniel Vorcaro o procurou quando o Banco Master enfrentava dificuldades e alegou estar sendo...",
+      "url": "https://www.congressoemfoco.com.br/noticia/122399/lula-conta-ter-negado-ajuda-a-vorcaro--aqui-ninguem-e-perseguido",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-09-18T14:53:57+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -281,14 +287,14 @@
       "title": "Lula ataca Flávio e chama filme sobre Bolsonaro de “mequetrefe”",
       "description": "Presidente ainda acusou a família Bolsonaro de \"quadrilha\" e alegou que dinheiro de \"Dark Horse\" foi usado para manter Eduardo nos EUA.",
       "url": "https://www.gazetadopovo.com.br/republica/lula-ataca-flavio-chama-filme-sobre-bolsonaro-mequetrefe/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-16T17:57:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_26383aa9fe45",
@@ -321,23 +327,23 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 8,
-    "average": 5.08,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "max": 10,
+    "average": 5.5,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 1,
-      "center": 8,
-      "centerRight": 2,
-      "right": 0,
-      "unknown": 7
+      "center": 6,
+      "centerRight": 1,
+      "right": 1,
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
