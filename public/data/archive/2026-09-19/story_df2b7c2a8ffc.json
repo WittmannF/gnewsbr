@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0dFlTQ0VoR1RmNldlejJ4eDdTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0dFlTQ0VoR1RmNldlejJ4eDdTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Guerra no Iêmen e ataques na Arábia Saudita",
   "summary": "Este é o primeiro disparo do tipo em Riade desde o início da escalada de conflitos com o Houthis, grupo rebelde do vizinho Iêmen.",
@@ -31,8 +37,8 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/Olb2U3-sC9LpANmF5CCsecHpzSQ=/3500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/i/S/HqIuxATCe1JeM1RX34ug/116158429-topshot-this-handout-image-release-by-the-iran-backed-houthi-forces-on-september-7-2026.jpg",
   "publishedAt": "2026-09-16T12:52:00+00:00",
-  "updatedAt": "2026-09-19T11:30:32.648223+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-09-19T12:30:39.489173+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -58,7 +64,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-19T11:05:31+00:00",
-      "postedLabel": "24 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-g1.glbimg.com/-RIf-xcIAuSJSqjbMxT96S2Km_w=/3579x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/t/LZ8f2rSjiz24Q7Sz7bhg/2026-09-19t101857z-406619983-rc28mnafhpnk-rtrmadp-3-iran-crisis-saudi-yemen.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +78,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-19T11:13:32+00:00",
-      "postedLabel": "16 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -106,6 +112,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_72c9584e19eb",
+      "title": "Imensa coluna de fumaça preta é registrada perto de aeroporto na Arábia Saudita",
+      "description": "Imensa coluna de fumaça preta é registrada perto de aeroporto na Arábia Saudita. Expandir ou colapsar descrição.",
+      "url": "https://g1.globo.com/mundo/video/imensa-coluna-de-fumaca-preta-e-registrada-perto-de-aeroporto-na-arabia-saudita-14975863.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-09-19T11:15:46+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_be3ab9e37c76",
+      "title": "O dilema saudita diante do avanço dos houthis no Iêmen",
+      "description": "Sob pressão econômica e de segurança, Riad tenta equilibrar dissuasão e diplomacia no conflito com os rebeldes apoiados pelo Irã. Sauditas acusam o grupo de...",
+      "url": "https://www.dw.com/pt-br/o-dilema-da-ar%C3%A1bia-saudita-diante-do-avan%C3%A7o-dos-houthis-no-i%C3%AAmen/a-79315364",
+      "source": "dw.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-09-17T18:58:19+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_ba7c0e828c6f",
       "title": "Rebeldes hutis divulgam imagens de suposto caça saudita abatido no Iêmen",
       "description": "Segundo o grupo apoiado pelo Irã, a aeronave da Arábia Saudita realizava 'operações hostis' quando foi atingida por um míssil terra-ar.",
@@ -120,32 +154,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_be3ab9e37c76",
-      "title": "O dilema saudita diante do avanço dos houthis no Iêmen",
-      "description": "Sob pressão econômica e de segurança, Riad tenta equilibrar dissuasão e diplomacia no conflito com os rebeldes apoiados pelo Irã. Sauditas acusam o grupo de...",
-      "url": "https://www.dw.com/pt-br/o-dilema-da-ar%C3%A1bia-saudita-diante-do-avan%C3%A7o-dos-houthis-no-i%C3%AAmen/a-79315364",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-09-17T18:58:19+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_6e76cb9a722f",
       "title": "Pepe Escobar: “O Iêmen colocou a Arábia Saudita contra a parede”",
       "description": "247 – O avanço das forças do Ansar Allah pela costa ocidental do Iêmen mudou a correlação de forças entre o movimento sediado em Sana e a...",
       "url": "https://www.brasil247.com/entrevistas/pepe-escobar-o-iemen-colocou-a-arabia-saudita-contra-a-parede/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-18T16:04:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_08083cf96454",
@@ -170,7 +190,7 @@
       "sourceCanonical": "Investing.com Brasil",
       "sourceDomain": "br.investing.com",
       "publishedAt": "2026-09-19T05:41:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -226,7 +246,7 @@
       "sourceCanonical": "Tribuna de Petrópolis",
       "sourceDomain": "tribunadepetropolis.com.br",
       "publishedAt": "2026-09-19T11:02:49+00:00",
-      "postedLabel": "27 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -236,28 +256,14 @@
       "title": "Protestos no Iémen agravam tensões com a Arábia Saudita",
       "description": "Milhares de pessoas manifestaram-se em Sanaa, no Iémen, e noutras zonas controladas pelos Houthis, em protesto contra a Arábia Saudita. Os...",
       "url": "https://www.sabado.pt/video/detalhe/protestos-no-iemen-agravam-tensoes-com-a-arabia-saudita",
-      "source": "sabado.pt",
-      "sourceCanonical": "sabado.pt",
+      "source": "SÁBADO",
+      "sourceCanonical": "SÁBADO",
       "sourceDomain": "sabado.pt",
       "publishedAt": "2026-09-18T22:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_bf69cb103e90",
-      "title": "Arábia Saudita acusa houthis de ataque contra Meca",
-      "description": "A coalizão militar liderada pela Arábia Saudita afirmou nesta quarta-feira 16 ter destruído um drone lançado em direção à cidade sagrada de...",
-      "url": "https://www.cartacapital.com.br/mundo/arabia-saudita-acusa-houthis-de-ataque-contra-meca/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-16T12:52:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_47bc57fee994",
@@ -269,6 +275,20 @@
       "sourceDomain": "nowcanal.pt",
       "publishedAt": "2026-09-18T11:05:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_bf69cb103e90",
+      "title": "Arábia Saudita acusa houthis de ataque contra Meca",
+      "description": "A coalizão militar liderada pela Arábia Saudita afirmou nesta quarta-feira 16 ter destruído um drone lançado em direção à cidade sagrada de...",
+      "url": "https://www.cartacapital.com.br/mundo/arabia-saudita-acusa-houthis-de-ataque-contra-meca/",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-16T12:52:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -292,54 +312,39 @@
       "title": "Trump não quer outra guerra. Os hutis acabam de colocar o seu maior aliado árabe (e a economia) numa posição impossível",
       "description": "De uma forma indireta, o Irão está exercer pressão em ambas as extremidades da Península Arábica, utilizando as suas próprias capacidades em...",
       "url": "https://expresso.pt/medio-oriente/conflito/2026-09-17-trump-nao-quer-outra-guerra.-os-hutis-acabam-de-colocar-o-seu-maior-aliado-arabe--e-a-economia--numa-posicao-impossivel-12b4377e",
-      "source": "expresso.pt",
-      "sourceCanonical": "expresso.pt",
+      "source": "Expresso",
+      "sourceCanonical": "Expresso",
       "sourceDomain": "expresso.pt",
       "publishedAt": "2026-09-17T13:44:03+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_b1b9666b7787",
-      "title": "Tráfego de navios perturbado em Bab el-Mandeb",
-      "description": "Tráfego situa-se em níveis muito baixos desde a semana de 24 de julho, quando foram registados 11 barcos.",
-      "url": "https://www.cmjornal.pt/mais-cm/especiais/conflito-no-medio-oriente/detalhe/trafego-de-navios-perturbado-em-bab-el-mandeb",
-      "source": "Correio da Manhã",
-      "sourceCanonical": "Correio da Manhã",
-      "sourceDomain": "cmjornal.pt",
-      "publishedAt": "2026-09-18T23:04:02+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 7,
-    "average": 4.92,
+    "average": 5.5,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
-      "left": 2,
+      "left": 0,
       "centerLeft": 1,
-      "center": 6,
+      "center": 8,
       "centerRight": 3,
       "right": 0,
       "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
