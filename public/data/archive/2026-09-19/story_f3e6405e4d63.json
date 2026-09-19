@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPLW91REVoRUdPZ05haXJRX1dpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPLW91REVoRUdPZ05haXJRX1dpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5
+      "topic-3": 4,
+      "topic-5": 4
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +32,9 @@
     "caso",
     "bolsonaro"
   ],
-  "imageUrl": "https://static.poder360.com.br/uploads/2026/09/lula-super-radio-tupi-2-1200x675.png",
+  "imageUrl": "https://media.gazetadopovo.com.br/2026/09/16115401/lula-foto-andre-borges-efe-24.jpg",
   "publishedAt": "2026-09-17T08:53:00+00:00",
-  "updatedAt": "2026-09-19T06:36:54.882580+00:00",
+  "updatedAt": "2026-09-19T07:24:36.572193+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +43,14 @@
       "title": "Lula diz que muitos temem vazamentos do Master: \"Orgia atrás de orgia\"",
       "description": "O presidente Luiz Inácio Lula da Silva (PT) disse que há “muita gente com medo” de que detalhes sobre o caso Master sejam divulgados. Em...",
       "url": "https://www.poder360.com.br/poder-governo/lula-diz-que-muitos-temem-vazamentos-do-master-orgia-atras-de-orgia/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
+      "source": "poder360.com.br",
+      "sourceCanonical": "poder360.com.br",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-18T16:57:35+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/09/lula-super-radio-tupi-2-1200x675.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1b841a49e648",
@@ -110,28 +113,28 @@
       "title": "Por que Lula disse que Flávio está 'nervosinho'",
       "description": "Numa entrevista ontem, Lula fez várias insinuações a respeito de Flávio Bolsonaro. Lá pelas tantas, disse: — Ele (Flávio Bolsonaro) está...",
       "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/09/por-que-lula-disse-que-flavio-esta-nervosinho.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
+      "source": "oglobo.globo.com",
+      "sourceCanonical": "oglobo.globo.com",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-17T08:53:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_417951be809e",
       "title": "A nova orientação da campanha de Lula sobre a crise no STF",
       "description": "A campanha do presidente Luiz Inácio Lula da Silva (PT) se rendeu ao debate sobre a crise que abate o Supremo Tribunal Federal (STF). Em um...",
       "url": "https://veja.abril.com.br/politica/a-nova-orientacao-da-campanha-de-lula-sobre-a-crise-no-stf/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-18T17:52:43+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/0d7a8575-1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8c243327feac",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.47,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 8,
-      "centerRight": 3,
+      "center": 6,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
