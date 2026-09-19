@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 50
+      "topic-8": 59
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 50,
-    "bestSeedRank": 50,
+    "firstSeenRank": 59,
+    "bestSeedRank": 59,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportTechnologyNews/tagreuters.com2026binary_LYNXMPEM8H1D6-BASEIMAGE.jpg?w=800&h=526&crop=1",
   "publishedAt": "2026-09-16T12:10:00+00:00",
-  "updatedAt": "2026-09-19T20:39:42.524256+00:00",
+  "updatedAt": "2026-09-19T21:40:29.193765+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Anthropic cria laboratório de biologia e prepara Claude para comandar experimentos com robôs",
       "description": "Empresa de inteligência artificial avança para experimentos físicos no Vale do Silício e pretende usar o Claude para orientar equipamentos...",
       "url": "https://www.brasil247.com/tecnologia/anthropic-cria-laboratorio-de-biologia-e-prepara-claude-para-comandar-experimentos-com-robos/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-19T02:27:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/09/Captura-de-Tela-2026-09-18-as-23.24.22.png?w=1200&quality=88&strip=all",
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_71a258b524c6",
@@ -101,7 +101,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-18T22:05:46+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/AWCDEVW57JPOROM6B3IIJIB35Y.jpg?quality=80&auth=691c1b160b49aa63c4399c88e69af138c26b2f8682fae3d1bb4f14f7077d7039&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -190,20 +190,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_5def5fc0f844",
-      "title": "Anthropic monta laboratório de biologia e amplia uso de IA em pesquisas médicas e científicas",
-      "description": "A Anthropic montou em segredo um laboratório biológico na Califórnia para testar medicamentos com IA e uso de robôs em pesquisas.",
-      "url": "https://olhardigital.com.br/2026/09/18/inteligencia-artificial/anthropic-monta-laboratorio-de-biologia-e-amplia-uso-de-ia-em-pesquisas-medicas-e-cientificas/",
-      "source": "Olhar Digital",
-      "sourceCanonical": "Olhar Digital",
-      "sourceDomain": "olhardigital.com.br",
-      "publishedAt": "2026-09-18T12:22:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_3f77dc4101b9",
       "title": "Novo aposta em IA para acelerar busca por sucessores de Ozempic e Wegovy - Portal IN - Pompeu Vasconcelos",
       "description": "A farmacêutica dinamarquesa enfrenta uma disputa crescente com a Eli Lilly no mercado de medicamentos para perda de peso FOTO: Magnific.",
@@ -213,6 +199,20 @@
       "sourceDomain": "portalin.com.br",
       "publishedAt": "2026-09-17T12:49:00+00:00",
       "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_5def5fc0f844",
+      "title": "Anthropic monta laboratório de biologia e amplia uso de IA em pesquisas médicas e científicas",
+      "description": "A Anthropic montou em segredo um laboratório biológico na Califórnia para testar medicamentos com IA e uso de robôs em pesquisas.",
+      "url": "https://olhardigital.com.br/2026/09/18/inteligencia-artificial/anthropic-monta-laboratorio-de-biologia-e-amplia-uso-de-ia-em-pesquisas-medicas-e-cientificas/",
+      "source": "Olhar Digital",
+      "sourceCanonical": "Olhar Digital",
+      "sourceDomain": "olhardigital.com.br",
+      "publishedAt": "2026-09-18T12:22:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 7,
-    "average": 5.71,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5.12,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
