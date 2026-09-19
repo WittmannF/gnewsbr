@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 36
+      "topic-7": 40
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 36,
-    "bestSeedRank": 36,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/QytGJTGzr4E-gS_qCIqhR9qSqO8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/z/W/7MQA0tThKt60IS6Di5Kw/2026-07-07t053528z-493802951-rc2p8mai5k69-rtrmadp-3-cuba-crisis-grid-collapse.jpg",
   "publishedAt": "2026-09-18T18:29:00+00:00",
-  "updatedAt": "2026-09-19T22:36:17.023733+00:00",
+  "updatedAt": "2026-09-19T23:32:39.468998+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-18T22:43:06+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,7 +86,7 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-18T23:27:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/ju3alznz2bn5dkzyggj7usdgwm.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -96,28 +96,28 @@
       "title": "Cuba sofre novo apagão, o sétimo generalizado registrado neste ano",
       "description": "Ministério de Energia e Minas informou que ocorreu uma desconexão total do Sistema Elétrico.",
       "url": "https://www.estadao.com.br/internacional/cuba-sofre-novo-apagao-o-setimo-generalizado-registrado-neste-ano-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-18T18:50:38+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c13ff372e404",
       "title": "Cuba sofre sétimo apagão geral do ano",
       "description": "A ilha, de 9,4 milhões de habitantes, sofre apagões constantes devido ao estado obsoleto de suas usinas termelétricas.",
       "url": "https://www.cartacapital.com.br/mundo/cuba-sofre-setimo-apagao-geral-do-ano/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-19T01:33:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_5d4170cfdf89",
@@ -198,7 +198,7 @@
       "sourceCanonical": "Portal Tela",
       "sourceDomain": "portaltela.com",
       "publishedAt": "2026-09-19T19:16:13+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.42,
+    "average": 5,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
       "center": 9,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 1,
       "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 60,
     "spectrumBalance": 100,
     "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
