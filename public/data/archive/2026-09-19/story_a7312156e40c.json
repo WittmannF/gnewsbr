@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 57
+      "topic-3": 61
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 61,
+    "bestSeedRank": 61,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/gP3wsEesTWbCOfri1AoOURUuxjg=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/a/g/vBclqSTTaWHzP71ydCYQ/candidatos-a-senador.png",
   "publishedAt": "2026-09-11T07:00:00+00:00",
-  "updatedAt": "2026-09-19T19:21:08.652854+00:00",
+  "updatedAt": "2026-09-19T20:25:58.008988+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -110,8 +110,8 @@
       "title": "Pesquisa para senador em São Paulo traz novos números em setembro e revela como está a disputa pelas duas vagas ao Senado em 2026",
       "description": "Confira os percentuais registrados pelos institutos, as margens de erro, datas das entrevistas e detalhes dos levantamentos divulgados.",
       "url": "https://www.gazetasp.com.br/politica/pesquisa-para-senador-em-sao-paulo-traz-novos-numeros-em-setembro-e-revela-como-esta-a-disputa-pelas-duas-vagas-ao-senado-em-2026/",
-      "source": "Gazeta de São Paulo",
-      "sourceCanonical": "Gazeta de São Paulo",
+      "source": "gazetasp.com.br",
+      "sourceCanonical": "gazetasp.com.br",
       "sourceDomain": "gazetasp.com.br",
       "publishedAt": "2026-09-19T12:07:43+00:00",
       "postedLabel": "hoje",
@@ -170,7 +170,7 @@
       "sourceCanonical": "O Fator",
       "sourceDomain": "ofator.com.br",
       "publishedAt": "2026-09-15T20:01:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -180,14 +180,14 @@
       "title": "Datafolha: saiba as intenções de voto para o Senado em SP, MG, RJ, PE e DF",
       "description": "O levantamento atualiza a disputa pela Casa Alta a 23 dias da eleição.",
       "url": "https://www.cartacapital.com.br/politica/datafolha-saiba-as-intencoes-de-voto-para-o-senado-em-sp-rj-mg-pe-e-df/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-11T07:00:00+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_2e32cc2f1fa4",
@@ -260,15 +260,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_932f98151801",
-      "title": "A nova pesquisa do Real Time Big Data para o Senado em São Paulo",
-      "description": "Sondagem da Real Time Big Data mostra como está a disputa pelo Senado em São Paulo nas eleições de 2026. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senador-sao-paulo-setembro-2026/",
+      "id": "article_3e1046ba50ff",
+      "title": "Datafolha divulga intenção de voto para o Senado em São Paulo",
+      "description": "O Datafolha divulgou nesta sexta-feira (11) uma nova pesquisa que mostra como está a intenção de voto para as duas vagas em disputa para o...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-senado-sao-paulo-setembro-2026/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-14T10:02:00+00:00",
-      "postedLabel": "5 dias atrás",
+      "publishedAt": "2026-09-11T21:30:00+00:00",
+      "postedLabel": "7 dias atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 10,
-    "average": 6.18,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.83,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 7,
       "centerRight": 3,
       "right": 1,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

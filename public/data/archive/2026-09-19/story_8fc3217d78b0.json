@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 46
+      "topic-4": 40
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 46,
-    "bestSeedRank": 46,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,21 +26,21 @@
     "fala",
     "homofóbica",
     "inquérito",
-    "pede",
-    "considerada"
+    "sbt",
+    "pede"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/06/17860334086a74b500c93bc_1786033408_3x2_xl.jpg",
   "publishedAt": "2026-09-18T20:45:00+00:00",
-  "updatedAt": "2026-09-19T19:24:19.751971+00:00",
-  "sourceCount": 6,
-  "articleCount": 6,
+  "updatedAt": "2026-09-19T20:28:13.188308+00:00",
+  "sourceCount": 7,
+  "articleCount": 7,
   "articles": [
     {
       "id": "article_16185117e40f",
       "title": "Mônica Bergamo: Ministério Público requisita inquérito policial contra Ratinho por fala homofóbica",
       "description": "Apresentador disse que em seu programa no SBT que cantor Tiago Piquilo estava com 'cara de viado'",
       "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/09/ministerio-publico-pede-inquerito-policial-contra-ratinho-por-fala-homofobica.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-18T20:45:00+00:00",
@@ -54,14 +54,14 @@
       "title": "MP de São Paulo pede inquérito contra Ratinho por fala considerada homofóbica feita no SBT",
       "description": "Medida foi solicitada após denúncia sobre comentário dirigido ao cantor Tiago Piquilo durante programa exibido em agosto.",
       "url": "https://www.brasil247.com/midia/mp-de-sao-paulo-pede-inquerito-contra-ratinho-por-fala-considerada-homofobica-feita-no-sbt/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-18T21:57:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.brasil247.com/wp-content/uploads/2022/08/20220829190852_50ad32a6473e045b2009ef1cf1c714fe8f10ff9b1c29be9593e8d98cff3ba6c5.jpg?w=1200&quality=88&strip=all",
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fa65253cef7a",
@@ -72,7 +72,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "tvprime.correiobraziliense.com.br",
       "publishedAt": "2026-09-19T18:11:35+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://cdn.i7.network/articles/2026/05/qcsipVQoLSkNgkIo9vxNdOfyJEM3ZDcaWwyri22u.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -92,6 +92,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_9b37eb902263",
+      "title": "MP requisita inquérito contra Ratinho por fala homofóbica no SBT",
+      "description": "Ministério Público de São Paulo requisitou inquérito contra Ratinho após fala sobre o cantor Tiago Piquilo no programa do SBT.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/mp-requisita-inquerito-ratinho-fala-homofobica-sbt/",
+      "source": "diariodocentrodomundo.com.br",
+      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-09-19T19:22:13+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_9278f959b501",
       "title": "MPSP pede inquérito contra Ratinho por fala homofóbica no SBT",
       "description": "Denúncia partiu do ativista Agripino Magalhães após apresentador comentar o visual do sertanejo Tiago Piquilo durante atração ao vivo.",
@@ -100,7 +114,7 @@
       "sourceCanonical": "Agora Litoral",
       "sourceDomain": "agoralitoral.com.br",
       "publishedAt": "2026-09-19T13:36:24+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -121,27 +135,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 5,
-    "average": 3.5,
-    "knownCount": 4,
-    "unknownCount": 2,
+    "average": 4.33,
+    "knownCount": 3,
+    "unknownCount": 4,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 69
+    "coverageDiversity": 40,
+    "spectrumBalance": 27,
+    "headlineDivergence": 73,
+    "confidence": 68
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

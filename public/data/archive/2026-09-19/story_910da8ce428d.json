@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 46
+      "topic-7": 45
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 46,
-    "bestSeedRank": 46,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://i.metroimg.com/RM5ADBHqK0Qo3_PSEE4lm7RCtMn-_w_ZMnKy131rrGQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/foto-javier-milei-metropoles.jpg",
   "publishedAt": "2026-09-18T12:51:33+00:00",
-  "updatedAt": "2026-09-19T19:33:35.232447+00:00",
+  "updatedAt": "2026-09-19T20:36:56.051270+00:00",
   "sourceCount": 13,
   "articleCount": 14,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Milei demite funcionários da Quinta de Olivos e transfere gestão a militares",
       "description": "O presidente da Argentina, Javier Milei, demitiu cerca de 12 funcionários da Quinta de Olivos, residência oficial da Presidência nos...",
       "url": "https://www.diariodocentrodomundo.com.br/milei-demite-12-funcionarios-e-entrega-gestao-da-residencia-a-casa-militar/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-18T21:19:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/imagem-principal-milei-demite-funcionarios-quinta-de-olivos-militares-gettyimages-2287038406.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_1c9a56054935",
@@ -114,24 +114,10 @@
       "sourceCanonical": "ISTOÉ",
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-09-18T20:19:35+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://istoe.com.br/wp-content/uploads/2026/09/Retrato-politico-na-Quinta-1-1200x630.png",
+      "postedLabel": "ontem",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_19afc0e0f33c",
-      "title": "Milei demite 12 funcionários e coloca residência presidencial sob controle militar após suposto vazamento de informações íntimas",
-      "description": "Governo argentino cita razões de segurança ao justificar mudanças na administração da residência decididas por Milei.",
-      "url": "https://ndmais.com.br/politica/milei-demite-12-funcionarios-e-coloca-residencia-presidencial-sob-controle-militar-apos-suposto-vazamento-de-informacoes-intimas/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-09-18T20:51:19+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_1766a34888a6",
@@ -142,6 +128,20 @@
       "sourceCanonical": "Vero Notícias",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-09-19T01:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_19afc0e0f33c",
+      "title": "Milei demite 12 funcionários e coloca residência presidencial sob controle militar após suposto vazamento de informações íntimas",
+      "description": "Governo argentino cita razões de segurança ao justificar mudanças na administração da residência decididas por Milei.",
+      "url": "https://ndmais.com.br/politica/milei-demite-12-funcionarios-e-coloca-residencia-presidencial-sob-controle-militar-apos-suposto-vazamento-de-informacoes-intimas/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-09-18T20:51:19+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -226,32 +226,32 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-18T20:10:01+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 6,
-    "average": 5.33,
-    "knownCount": 6,
-    "unknownCount": 8,
+    "average": 4.86,
+    "knownCount": 7,
+    "unknownCount": 7,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 0,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 19,
-    "headlineDivergence": 73,
-    "confidence": 91
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
+    "confidence": 94
   },
   "flags": [
     "Alta cobertura",
