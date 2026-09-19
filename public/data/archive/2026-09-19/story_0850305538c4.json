@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 19
+      "topic-7": 18
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 19,
-    "bestSeedRank": 19,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/17/17896495356aabe27f5912c_1789649535_3x2_rt.jpg",
   "publishedAt": "2026-09-16T23:16:00+00:00",
-  "updatedAt": "2026-09-19T08:42:29.048660+00:00",
+  "updatedAt": "2026-09-19T09:37:31.244810+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -180,14 +180,14 @@
       "title": "Congresso dos EUA aprova novo pacote de sanções contra a Rússia",
       "description": "Foi a primeira ação de grande porte do Congresso americano contra Moscou desde o retorno de Trump ao poder em 2025.",
       "url": "https://www.estadao.com.br/internacional/congresso-eua-aprova-novo-pacote-sancoes-russia-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-16T23:16:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d3eb1b7137eb",
@@ -198,20 +198,6 @@
       "sourceCanonical": "Midiamax",
       "sourceDomain": "midiamax.com.br",
       "publishedAt": "2026-09-17T10:50:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_a6ae28041685",
-      "title": "Governo Putin pressiona governo Trump a não aprovar novas sanções",
-      "description": "Diante da possibilidade de novas sanções por parte do governo dos Estados Unidos, o governo de Vladimir Putin disse, nesta quinta-feira (17)...",
-      "url": "https://www.bemparana.com.br/noticias/mundo/governo-putin-pressiona-governo-trump-a-nao-aprovar-novas-sancoes/",
-      "source": "Bem Paraná",
-      "sourceCanonical": "Bem Paraná",
-      "sourceDomain": "bemparana.com.br",
-      "publishedAt": "2026-09-17T13:25:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -230,6 +216,20 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_a6ae28041685",
+      "title": "Governo Putin pressiona governo Trump a não aprovar novas sanções",
+      "description": "Diante da possibilidade de novas sanções por parte do governo dos Estados Unidos, o governo de Vladimir Putin disse, nesta quinta-feira (17)...",
+      "url": "https://www.bemparana.com.br/noticias/mundo/governo-putin-pressiona-governo-trump-a-nao-aprovar-novas-sancoes/",
+      "source": "Bem Paraná",
+      "sourceCanonical": "Bem Paraná",
+      "sourceDomain": "bemparana.com.br",
+      "publishedAt": "2026-09-17T13:25:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7721b23e45a1",
@@ -310,7 +310,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-17T08:49:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.27,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.07,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 5,
       "centerLeft": 2,
       "center": 5,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

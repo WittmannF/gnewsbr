@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 9
+      "topic-7": 10
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/3VV6u5pCRWNtcqz80r2YTRuY0ss=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/8/AZbdIWQBGuELetvliiMA/globo-canal-5-20260918-2000-frame-115322.jpeg",
   "publishedAt": "2026-09-18T12:28:04+00:00",
-  "updatedAt": "2026-09-19T08:41:51.691784+00:00",
+  "updatedAt": "2026-09-19T09:36:56.957320+00:00",
   "sourceCount": 15,
   "articleCount": 20,
   "articles": [
@@ -138,8 +138,8 @@
       "title": "Geopolítica mundial dominou reunião entre Macron e candidatos presidenciais",
       "description": "O Presidente francês Emmanuel Macron recebeu, esta sexta-feira, no Palácio do Eliseu, em Paris, os principais candidatos à presidência ou os...",
       "url": "https://www.rfi.fr/pt/fran%C3%A7a/20260918-geopol%C3%ADtica-e-pre%C3%A7os-dos-combust%C3%ADveis-dominaram-reuni%C3%A3o-entre-macron-e-candidatos-presidenciais-2",
-      "source": "rfi.fr",
-      "sourceCanonical": "rfi.fr",
+      "source": "RFI",
+      "sourceCanonical": "RFI",
       "sourceDomain": "rfi.fr",
       "publishedAt": "2026-09-18T13:03:36+00:00",
       "postedLabel": "hoje",
@@ -152,28 +152,28 @@
       "title": "Macron ordena plano para proteger infraestruturas críticas francesas de ataques híbridos russos",
       "description": "O presidente francês, Emmanuel Macron, anunciou nesta sexta-feira (18) que ordenou um plano para proteger infraestruturas críticas contra...",
       "url": "https://www.folhape.com.br/noticias/macron-ordena-plano-para-proteger-infraestruturas-criticas-francesas/513416/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
+      "source": "folhape.com.br",
+      "sourceCanonical": "folhape.com.br",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-18T13:11:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_131be6fcddaf",
       "title": "Macron põe França em alerta em meio ao aumento da tensão com a Rússia",
       "description": "Macron reuniu presidenciáveis e dirigentes no Eliseu para tratar de drones, ciberataques e riscos à segurança francesa.",
       "url": "https://revistaforum.com.br/global/macron-franca-tensao-russia/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
+      "source": "revistaforum.com.br",
+      "sourceCanonical": "revistaforum.com.br",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-19T01:50:07+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_57fc80691697",
@@ -198,7 +198,7 @@
       "sourceCanonical": "Valor Econômico",
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-09-19T03:45:31+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 8,
-    "average": 5.33,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 1,
-      "centerLeft": 1,
+      "left": 0,
+      "centerLeft": 0,
       "center": 8,
       "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
