@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 32
+      "topic-4": 40
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 32,
-    "bestSeedRank": 32,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/06/17860334086a74b500c93bc_1786033408_3x2_xl.jpg",
   "publishedAt": "2026-09-18T20:45:00+00:00",
-  "updatedAt": "2026-09-19T15:28:10.150590+00:00",
+  "updatedAt": "2026-09-19T16:28:33.768774+00:00",
   "sourceCount": 5,
   "articleCount": 5,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "MP de São Paulo pede inquérito contra Ratinho por fala considerada homofóbica feita no SBT",
       "description": "Medida foi solicitada após denúncia sobre comentário dirigido ao cantor Tiago Piquilo durante programa exibido em agosto.",
       "url": "https://www.brasil247.com/midia/mp-de-sao-paulo-pede-inquerito-contra-ratinho-por-fala-considerada-homofobica-feita-no-sbt/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-18T21:57:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.brasil247.com/wp-content/uploads/2022/08/20220829190852_50ad32a6473e045b2009ef1cf1c714fe8f10ff9b1c29be9593e8d98cff3ba6c5.jpg?w=1200&quality=88&strip=all",
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5b6e93ff7e21",
@@ -72,7 +72,7 @@
       "sourceCanonical": "BNews",
       "sourceDomain": "bnews.com.br",
       "publishedAt": "2026-09-19T12:20:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.bnews.com.br/media/uploads/2026/08/ratinho-2.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,8 +86,8 @@
       "sourceCanonical": "Agora Litoral",
       "sourceDomain": "agoralitoral.com.br",
       "publishedAt": "2026-09-19T13:36:24+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://agoralitoral.com.br/wp-content/uploads/2026/09/ministerio-publico-pede-investigacao-contra-ratinho-por-fala-considerada-homofobica-saiba-detalhes-policia-civil-de-sp-abre-inquerito-para-investigar-ratinho-por-suposta-lgbtfobia-apos-falas-no-sbt-1789824972.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -107,27 +107,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 5,
-    "average": 3.33,
-    "knownCount": 3,
-    "unknownCount": 2,
+    "average": 4.5,
+    "knownCount": 2,
+    "unknownCount": 3,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 64
+    "coverageDiversity": 40,
+    "spectrumBalance": 27,
+    "headlineDivergence": 73,
+    "confidence": 61
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
