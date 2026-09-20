@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 23
+      "topic-8": 26
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/A0rzD6KRNQ3K0XY0Rx8EuVPh8AE=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/H/OMcdAAQj21JRBrgrY1bQ/globo-canal-4-20260326-2000-frame-98521.jpeg",
   "publishedAt": "2026-09-16T20:00:29+00:00",
-  "updatedAt": "2026-09-20T14:37:07.509715+00:00",
+  "updatedAt": "2026-09-20T15:37:38.127944+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -166,14 +166,14 @@
       "title": "Preço do diesel no Brasil encerrou semana no maior valor desde maio",
       "description": "RIO DE JANEIRO, 18 Set (Reuters) – O preço médio do diesel S-10 nos postos do Brasil subiu 2,3% nesta semana ante a anterior, para R$ 7,13...",
       "url": "https://www.brasil247.com/economia/preco-do-diesel-no-brasil-encerrou-semana-no-maior-valor-desde-maio/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-19T08:46:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_d6fe8ad2a3f9",
@@ -226,7 +226,7 @@
       "sourceCanonical": "mundial.fm.br",
       "sourceDomain": "mundial.fm.br",
       "publishedAt": "2026-09-20T10:12:05+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,6 +246,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_da66ab25b1fd",
+      "title": "Sindicato alerta: escassez do Diesel pode atingir Goiás em outubro",
+      "description": "Presidente do sindicato afirma que postos estão recebendo até 20% menos combustível do que o solicitado e relata dificuldades de reposição.",
+      "url": "https://www.maisgoias.com.br/cidades/goiania/vai-faltar-diesel-em-goias-sindiposto-alerta-para-reducao-nas-entregas-e-risco-de-escassez-em-outubro/",
+      "source": "Mais Goiás",
+      "sourceCanonical": "Mais Goiás",
+      "sourceDomain": "maisgoias.com.br",
+      "publishedAt": "2026-09-19T14:26:20+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_94b488b894a0",
       "title": "Preço do diesel no Brasil encerra semana no maior valor desde maio, diz ANP",
       "description": "RIO DE JANEIRO, 18 Set (Reuters) - O preço médio do diesel S-10 nos postos do Brasil subiu 2,3% nesta semana ante a anterior, para R$7,13...",
@@ -260,26 +274,12 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_da66ab25b1fd",
-      "title": "Sindicato alerta: escassez do Diesel pode atingir Goiás em outubro",
-      "description": "Presidente do sindicato afirma que postos estão recebendo até 20% menos combustível do que o solicitado e relata dificuldades de reposição.",
-      "url": "https://www.maisgoias.com.br/cidades/goiania/vai-faltar-diesel-em-goias-sindiposto-alerta-para-reducao-nas-entregas-e-risco-de-escassez-em-outubro/",
-      "source": "maisgoias.com.br",
-      "sourceCanonical": "maisgoias.com.br",
-      "sourceDomain": "maisgoias.com.br",
-      "publishedAt": "2026-09-19T14:26:20+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_fc8f2d42e7ec",
       "title": "Aprobio: Uso voluntário de biodiesel pode ser resposta à falta de diesel",
       "description": "As novas turbulências no mercado internacional de diesel com altas significativas nos preços e medo de falta do produto justamente quando o...",
       "url": "https://www.biodieselbr.com/noticias/usinas/info/aprobio-uso-voluntario-de-biodiesel-pode-ser-resposta-a-falta-de-diesel",
-      "source": "biodieselbr.com",
-      "sourceCanonical": "biodieselbr.com",
+      "source": "BiodieselBR",
+      "sourceCanonical": "BiodieselBR",
       "sourceDomain": "biodieselbr.com",
       "publishedAt": "2026-09-18T22:14:54+00:00",
       "postedLabel": "ontem",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 7,
-    "average": 5.67,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.2,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
