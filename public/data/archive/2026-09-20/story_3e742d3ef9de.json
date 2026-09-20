@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 44
+      "topic-5": 48
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 44,
-    "bestSeedRank": 44,
+    "firstSeenRank": 48,
+    "bestSeedRank": 48,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/qovTj1G_IURpMUSlzapg9T9yUGs=/1300x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/g/tQemBNQayD98djCxnQjQ/41f0dcea90a343457df54d34204e67b8.jpg",
   "publishedAt": "2026-09-18T19:23:44+00:00",
-  "updatedAt": "2026-09-20T08:38:28.015964+00:00",
+  "updatedAt": "2026-09-20T09:33:34.098452+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Candidatos não poderão ser presos a partir deste sábado, 19",
       "description": "Durante o período de vigência da regra, prisões ou detenções só poderão ocorrer em casos de flagrante delito.",
       "url": "https://mais.opovo.com.br/jornal/politica/2026/09/19/candidatos-nao-poderao-ser-presos-a-partir-deste-sabado-19.html",
-      "source": "mais.opovo.com.br",
-      "sourceCanonical": "mais.opovo.com.br",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-09-19T04:15:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_7e41b239c92e",
@@ -128,7 +128,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-19T09:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -264,8 +264,8 @@
       "title": "Candidatos não poderão ser presos a partir deste sábado",
       "description": "Candidatas e candidatos que disputam as eleições 2026 não poderão ser presos ou detidos a partir deste sábado (19). A medida é prevista pelo...",
       "url": "https://diarionline.com.br/?s=noticia&id=159109",
-      "source": "Diário Corumbaense",
-      "sourceCanonical": "Diário Corumbaense",
+      "source": "diarionline.com.br",
+      "sourceCanonical": "diarionline.com.br",
       "sourceDomain": "diarionline.com.br",
       "publishedAt": "2026-09-18T20:48:10+00:00",
       "postedLabel": "ontem",
@@ -310,7 +310,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-19T09:08:02+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.83,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.77,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 2,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 9,
       "centerRight": 1,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

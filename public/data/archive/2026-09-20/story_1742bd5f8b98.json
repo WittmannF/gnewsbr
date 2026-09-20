@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 37
+      "topic-7": 35
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/3VV6u5pCRWNtcqz80r2YTRuY0ss=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/8/AZbdIWQBGuELetvliiMA/globo-canal-5-20260918-2000-frame-115322.jpeg",
   "publishedAt": "2026-09-18T12:28:04+00:00",
-  "updatedAt": "2026-09-20T08:43:55.106694+00:00",
+  "updatedAt": "2026-09-20T09:39:22.753142+00:00",
   "sourceCount": 16,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Presidente diz que França foi ameaçada por ataques híbridos da Rússia nas últimas semanas",
       "description": "Macron se reuniu em Paris com líderes de partidos políticos para discutir os recentes desdobramentos da situação internacional.",
       "url": "https://noticias.r7.com/reuters/presidente-diz-que-franca-foi-ameacada-por-ataques-hibridos-da-russia-nas-ultimas-semanas-18092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-18T14:04:41+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fccead95bb6c",
@@ -166,14 +166,14 @@
       "title": "Macron põe França em alerta em meio ao aumento da tensão com a Rússia",
       "description": "Macron reuniu presidenciáveis e dirigentes no Eliseu para tratar de drones, ciberataques e riscos à segurança francesa.",
       "url": "https://revistaforum.com.br/global/macron-franca-tensao-russia/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-19T01:50:07+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_f4ef891f2c60",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 8,
-    "average": 5.82,
+    "average": 5.36,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 7,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 0,
       "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
