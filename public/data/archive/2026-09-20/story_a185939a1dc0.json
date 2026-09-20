@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKNzYzLUVSSGxELU5aZGNkRU95Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKNzYzLUVSSGxELU5aZGNkRU95Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 7
+      "topic-3": 9,
+      "topic-5": 16
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
+    "firstSeenRank": 9,
+    "bestSeedRank": 9,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/09/Cidades-podem-ser-atingidas-por-granizo-durante-a-semana-Foto-Banco-de-imagens.jpg",
   "publishedAt": "2026-09-17T13:45:16+00:00",
-  "updatedAt": "2026-09-20T06:36:55.449362+00:00",
+  "updatedAt": "2026-09-20T07:25:50.420724+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +71,14 @@
       "title": "Formação de ciclone e frente fria trazem chuva intensa e temporais com risco de alagamentos no fim de semana em SC",
       "description": "Acumulado pode chegar a 150 milímetros no sábado e domingo, o que equivale a média esperada para todo o mês de setembro em algumas áreas.",
       "url": "https://g1.globo.com/sc/santa-catarina/noticia/2026/09/18/formacciclone-frente-fria-chuva-intensa-temporais-fim-de-semana-sc.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-18T22:15:47+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://s2-g1.glbimg.com/zExETr5SUyEd3taX6bDMeqjbhWg=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/R/k/CEOTfARRuPV0Zr2jCazg/chuva-florianopolis.jpeg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f41321c1a037",
@@ -194,8 +197,8 @@
       "title": "Defesa Civil alerta para ventos de até 80 km/h e mar agitado no litoral de SC",
       "description": "Rajadas podem chegar a 80 km/h e ondas devem atingir de dois a três metros, com picos maiores em alto-mar entre a noite deste sábado (19) e...",
       "url": "https://horahiper.com.br/geral/defesa-civil-alerta-para-ventos-de-ate-80-km-h-e-mar-agitado-no-litoral-de-sc-129735",
-      "source": "horahiper.com.br",
-      "sourceCanonical": "horahiper.com.br",
+      "source": "Hora Hiper",
+      "sourceCanonical": "Hora Hiper",
       "sourceDomain": "horahiper.com.br",
       "publishedAt": "2026-09-19T20:10:00+00:00",
       "postedLabel": "hoje",
@@ -306,8 +309,8 @@
       "title": "Defesa Civil alerta para temporais e chuva intensa neste fim de semana em BC",
       "description": "Município está em alerta laranja para este sábado e domingo. A Prefeitura de Balneário Camboriú, por meio da Defesa Civil, informa que o...",
       "url": "https://www.blogdoprisco.com.br/defesa-civil-alerta-para-temporais-e-chuva-intensa-neste-fim-de-semana-em-bc/",
-      "source": "Blog do Prisco",
-      "sourceCanonical": "Blog do Prisco",
+      "source": "blogdoprisco.com.br",
+      "sourceCanonical": "blogdoprisco.com.br",
       "sourceDomain": "blogdoprisco.com.br",
       "publishedAt": "2026-09-18T17:56:57+00:00",
       "postedLabel": "ontem",
@@ -319,23 +322,23 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 5.67,
+    "knownCount": 3,
+    "unknownCount": 17,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 16
+      "unknown": 17
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 87
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
