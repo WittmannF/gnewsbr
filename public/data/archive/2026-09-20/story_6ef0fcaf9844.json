@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 30
+      "topic-4": 32
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenRank": 32,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/18/17897671296aadadd99d907_1789767129_3x2_rt.jpg",
   "publishedAt": "2026-09-13T12:48:33+00:00",
-  "updatedAt": "2026-09-20T01:08:18.381425+00:00",
+  "updatedAt": "2026-09-20T01:41:44.459066+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,20 +78,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_019e61cb506e",
-      "title": "Com Caetano e Gil, artistas lançam campanha em apoio a Lula",
-      "description": "Em gravação que também inclui Xamã e Paulinho da Viola, artistas repetem a frase 'bora Lula'",
-      "url": "https://veja.abril.com.br/cultura/com-caetano-e-gil-artistas-lancam-campanha-em-apoio-a-lula/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-18T13:49:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/Design-sem-nome-6-1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_6f1b543e6584",
       "title": "Malu Mader, Xamã e mais: famosos se unem em campanha pró-Lula",
       "description": "Um vídeo que circula nas redes sociais reúne artistas de diferentes áreas em uma manifestação pública de apoio à reeleição do presidente...",
@@ -101,9 +87,23 @@
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-18T10:40:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/18/675x450/1_malu-mader--xama-e-mais--famosos-se-unem-em-campanha-pro-lula-67725026.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_019e61cb506e",
+      "title": "Com Caetano e Gil, artistas lançam campanha em apoio a Lula",
+      "description": "Em gravação que também inclui Xamã e Paulinho da Viola, artistas repetem a frase 'bora Lula'",
+      "url": "https://veja.abril.com.br/cultura/com-caetano-e-gil-artistas-lancam-campanha-em-apoio-a-lula/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-18T13:49:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_d7ed26782a75",
@@ -118,6 +118,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_69d7b41ef102",
+      "title": "Manifesto de mais de 300 artistas apoia Lula e cobra mudanças na política cultural do país",
+      "description": "Documento elogia a volta do Ministério da Cultura, critica resultados do terceiro mandato e pede mudanças de orçamento e gestão.",
+      "url": "https://www.brasil247.com/cultura/manifesto-de-mais-de-300-artistas-apoia-lula-e-cobra-mudancas-na-politica-cultural-do-pais/",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-18T17:29:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_25f4da0c61c5",
@@ -146,20 +160,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_69d7b41ef102",
-      "title": "Manifesto de mais de 300 artistas apoia Lula e cobra mudanças na política cultural do país",
-      "description": "Documento elogia a volta do Ministério da Cultura, critica resultados do terceiro mandato e pede mudanças de orçamento e gestão.",
-      "url": "https://www.brasil247.com/cultura/manifesto-de-mais-de-300-artistas-apoia-lula-e-cobra-mudancas-na-politica-cultural-do-pais/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-18T17:29:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     },
     {
       "id": "article_bcbfe4e9a672",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 9,
-    "average": 5.5,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 6,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 2,
       "right": 1,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
