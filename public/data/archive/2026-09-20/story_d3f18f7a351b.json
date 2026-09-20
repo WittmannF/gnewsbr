@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/ZCmICQT3wch3TAyQTDd8TgJgI24=/1422x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/z/m/H7xn4HSKWiQ0ZWSpePHw/barco.png",
   "publishedAt": "2026-09-14T10:00:28+00:00",
-  "updatedAt": "2026-09-20T20:34:17.491074+00:00",
+  "updatedAt": "2026-09-20T21:35:45.294295+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -114,7 +114,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-20T15:33:09+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -138,14 +138,14 @@
       "title": "Ataque dos EUA contra embarcação nas Caraíbas faz quatro mortos",
       "description": "As forças armadas norte-americanas alegam que a embarcação levava a cabo operações de narcotráfico. Garantem ainda que as quatro vítimas...",
       "url": "https://www.publico.pt/2026/09/20/mundo/noticia/ataque-eua-embarcacao-caraibas-faz-quatro-mortos-2188689",
-      "source": "publico.pt",
-      "sourceCanonical": "publico.pt",
+      "source": "Público",
+      "sourceCanonical": "Público",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-09-20T07:30:55+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_c609f6558023",
@@ -166,8 +166,8 @@
       "title": "Equador e EUA atacam logística marítima de Los Choneros no Pacífico Oriental",
       "description": "Seis interdições marítimas em menos de duas semanas no Pacífico Oriental estão colocando em evidência uma parte crítica da infraestrutura do...",
       "url": "https://dialogo-americas.com/pt-br/articles/equador-e-eua-atacam-logistica-maritima-de-los-choneros-no-pacifico-oriental/",
-      "source": "dialogo-americas.com",
-      "sourceCanonical": "dialogo-americas.com",
+      "source": "Diálogo Americas",
+      "sourceCanonical": "Diálogo Americas",
       "sourceDomain": "dialogo-americas.com",
       "publishedAt": "2026-09-14T10:00:28+00:00",
       "postedLabel": "6 dias atrás",
@@ -194,8 +194,8 @@
       "title": "Ataque dos EUA contra embarcação suspeita de tráfico de droga nas Caraíbas faz quatro mortos",
       "description": "Este último ataque elevou para pelo menos 231 o número de pessoas mortas em 69 ataques contra embarcações realizados pelas forças...",
       "url": "https://www.rtp.pt/noticias/mundo/ataque-dos-eua-contra-embarcacao-suspeita-de-trafico-de-droga-nas-caraibas-faz-quatro-mortos_n1766569",
-      "source": "rtp.pt",
-      "sourceCanonical": "rtp.pt",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
       "sourceDomain": "rtp.pt",
       "publishedAt": "2026-09-20T13:32:50+00:00",
       "postedLabel": "hoje",
@@ -268,7 +268,7 @@
       "sourceCanonical": "BPMoney",
       "sourceDomain": "bpmoney.com.br",
       "publishedAt": "2026-09-20T16:28:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 3,
     "max": 9,
-    "average": 5.75,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.44,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 6,
       "centerRight": 1,
       "right": 1,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
