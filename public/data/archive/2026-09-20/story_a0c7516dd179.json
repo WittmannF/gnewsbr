@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/7SUEXWRAYJGTRBFAC3NXV2F5JY.jpg?quality=80&auth=ef165d1cc75a5e48147a8ca1c4ec3bdd462282d26c2ec2e1f31a713b5725ab07&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-16T00:01:06+00:00",
-  "updatedAt": "2026-09-20T02:37:21.310193+00:00",
+  "updatedAt": "2026-09-20T03:31:46.266173+00:00",
   "sourceCount": 12,
   "articleCount": 13,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Dirigente de ONG com recursos federais lidera movimento pró-Lula",
       "description": "João Paulo Mehl, filiado ao Partido dos Trabalhadores no Paraná e dirigente da organização não governamental Coletivo Soylocoporti, lidera o...",
       "url": "https://www.poder360.com.br/poder-eleicoes-2026/dirigente-de-ong-com-recursos-federais-lidera-movimento-pro-lula/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
+      "source": "poder360.com.br",
+      "sourceCanonical": "poder360.com.br",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-19T15:38:42+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/09/janja-marcio-tavares-evento-virtual-1200x675.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_eda765a050e9",
@@ -110,14 +110,14 @@
       "title": "Maria Marighella é recebida por Seu Jorge em encontro com artistas, empresários e articuladores da cultura e economia criativa",
       "description": "Artistas, empresários e gestores culturais se reuniram em São Paulo em apoio à candidatura da ex-presidente da Funarte a deputada federal...",
       "url": "https://www.brasil247.com/nordeste/maria-marighella-e-recebida-por-seu-jorge-em-encontro-com-artistas-empresarios-e-articuladores-da-cultura-e-economia-criativa/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-16T18:14:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-16-at-14.48.18.jpeg?w=1200&quality=88&strip=all",
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_f0cdb03f7ebf",
@@ -142,7 +142,7 @@
       "sourceCanonical": "Diário 360",
       "sourceDomain": "diario360.com.br",
       "publishedAt": "2026-09-19T21:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -152,8 +152,8 @@
       "title": "ONG ligada a Lula coordena campanha de reeleição com apoio governamental",
       "description": "Movimento Cultura com Lula movimenta ações em todo o Brasil com a participação de servidores do Ministério da Cultura.",
       "url": "https://www.tribunadoagreste.com.br/politica/2026/09/19/981841-ong-ligada-a-lula-coordena-campanha-de-reeleicao-com-apoio-governamental",
-      "source": "tribunadoagreste.com.br",
-      "sourceCanonical": "tribunadoagreste.com.br",
+      "source": "Tribuna do Agreste",
+      "sourceCanonical": "Tribuna do Agreste",
       "sourceDomain": "tribunadoagreste.com.br",
       "publishedAt": "2026-09-19T13:13:00+00:00",
       "postedLabel": "hoje",
@@ -219,28 +219,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 10,
-    "average": 6.75,
+    "average": 5.75,
     "knownCount": 4,
     "unknownCount": 9,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
-      "center": 2,
+      "center": 1,
       "centerRight": 1,
       "right": 1,
       "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 97,
     "confidence": 83
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

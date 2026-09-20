@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKbHVYLUVSRVdCbEdaRXp6emxDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKbHVYLUVSRVdCbEdaRXp6emxDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 2
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Ministros do STF relatam problemas para acessar celular de Daniel Vorcaro",
   "summary": "Os ministros André Mendonça e Luiz Fux, do Supremo Tribunal Federal, enviaram neste sábado (19.set.2026) ofícios ao diretor-geral da Polícia...",
@@ -29,9 +35,9 @@
     "acessar",
     "não"
   ],
-  "imageUrl": "https://static.poder360.com.br/uploads/2026/09/mendonca-fux-stf-1200x675.png",
+  "imageUrl": "https://s2-oglobo.glbimg.com/_Y3Vnpbd2pOam4-LcwC-iiJFAyI=/1100x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/x/s/HIDBe2SFioVJ6YWP1nYA/montagem-fux-mendonca.jpg",
   "publishedAt": "2026-09-17T16:15:00+00:00",
-  "updatedAt": "2026-09-20T02:41:30.288247+00:00",
+  "updatedAt": "2026-09-20T03:28:13.455535+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +46,14 @@
       "title": "Mendonça e Fux pedem ajuda à PF para acessar dados de Vorcaro",
       "description": "Os ministros André Mendonça e Luiz Fux, do Supremo Tribunal Federal, enviaram neste sábado (19.set.2026) ofícios ao diretor-geral da Polícia...",
       "url": "https://www.poder360.com.br/poder-justica/mendonca-e-fux-pedem-ajuda-a-pf-para-acessar-dados-de-vorcaro/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
+      "source": "poder360.com.br",
+      "sourceCanonical": "poder360.com.br",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-19T20:34:02+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/09/mendonca-fux-stf-1200x675.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_edc8ae7265cb",
@@ -64,32 +70,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_0dcd9771f7c3",
-      "title": "Mendonça e Fux pedem auxílio da PF para acessar cópia de celular de Vorcaro",
-      "description": "Os ministros do Supremo Tribunal Federal (STF) André Mendonça e Luiz Fux pediram à Polícia Federal (PF) auxílio técnico para conseguir abrir...",
-      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/19/mendonca-e-fux-pedem-ajuda-a-pf-para-acessar-copia-de-celular-de-vorcaro.ghtm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-20T01:22:41+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_535cf517fabe",
-      "title": "Mendonça diz que não consegue acessar íntegra de celular de Vorcaro e pede ajuda à PF",
-      "description": "Ministro diz que gabinete não conseguiu abrir dados entregues pela corporação e pede auxílio técnico para acessar material.",
-      "url": "https://jovempan.com.br/politica/mendonca-diz-que-nao-consegue-acessar-integra-de-celular-de-vorcaro-e-pede-ajuda-a-pf/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-19T17:09:18+00:00",
+      "id": "article_eec57a417f53",
+      "title": "Mendonça e Fux dizem que não conseguiram acessar conteúdo de celular de Vorcaro e pedem ajuda à PF",
+      "description": "Ministros do STF solicitaram que polícia adote providências para acesso a material de um dos aparelhos de banqueiro apreendidos em novembro.",
+      "url": "https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/09/mendonca-diz-que-gabinete-nao-conseguiu-acessar-conteudo-de-celular-de-vorcaro-e-pede-ajuda-a-pf.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-19T19:29:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/54040462396_5660a180a2_k.jpg?w=1000&h=630&crop=1",
-      "spectrumScore": 9,
-      "bucket": "right"
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/16/17896001686aab21a8a995c_1789600168_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_a266433a4f2f",
@@ -106,31 +98,17 @@
       "bucket": "right"
     },
     {
-      "id": "article_f6bcbce9f902",
-      "title": "Mendonça e Fux dizem à PF que ainda não acessaram celular de Vorcaro",
-      "description": "Ministros do STF afirmam que seus gabinetes não estão conseguindo ver as informações do aparelho e questionaram a corporação se o motivo é...",
-      "url": "https://www.cnnbrasil.com.br/politica/mendonca-e-fux-dizem-a-pf-que-ainda-nao-acessaram-celular-de-vorcaro/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-19T19:50:06+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
+      "id": "article_fc94108236a4",
+      "title": "Fux e Mendonça pedem à PF acesso à integra das mensagens de Vorcaro",
+      "description": "Os ministros Luiz Fux e André Mendonça, do Supremo Tribunal Federal (STF), pediram à Polícia ...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/fux-e-mendonca-pedem-a-pf-acesso-a-integra-das-mensagens-de-vorcaro,4fefbf9749fb253fb17a1a76075b595feq2bc35p.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-17T16:15:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
       "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_06c01d3e4490",
-      "title": "Desconfiada, PF enviará perito para Mendonça e Fux",
-      "description": "Para integrantes da PF, reclamação não faz sentido porque outros ministros da corte não enfrentaram problemas para acessar os dados de...",
-      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/desconfiada-pf-enviara-perito-para-mendonca-e-fux",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-09-19T20:36:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -148,6 +126,62 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_06c01d3e4490",
+      "title": "Desconfiada, PF enviará perito para Mendonça e Fux",
+      "description": "Para integrantes da PF, reclamação não faz sentido porque outros ministros da corte não enfrentaram problemas para acessar os dados de...",
+      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/desconfiada-pf-enviara-perito-para-mendonca-e-fux",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-19T20:36:07+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_535cf517fabe",
+      "title": "Mendonça diz que não consegue acessar íntegra de celular de Vorcaro e pede ajuda à PF",
+      "description": "Ministro diz que gabinete não conseguiu abrir dados entregues pela corporação e pede auxílio técnico para acessar material.",
+      "url": "https://jovempan.com.br/politica/mendonca-diz-que-nao-consegue-acessar-integra-de-celular-de-vorcaro-e-pede-ajuda-a-pf/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-19T17:09:18+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_f6bcbce9f902",
+      "title": "Mendonça e Fux dizem à PF que ainda não acessaram celular de Vorcaro",
+      "description": "Ministros do STF afirmam que seus gabinetes não estão conseguindo ver as informações do aparelho e questionaram a corporação se o motivo é...",
+      "url": "https://www.cnnbrasil.com.br/politica/mendonca-e-fux-dizem-a-pf-que-ainda-nao-acessaram-celular-de-vorcaro/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-19T19:50:06+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_fad180c677d1",
+      "title": "Após Mendonça, Fux também pede ajuda à PF para acessar celular de Vorcaro",
+      "description": "O ministro Luiz Fux do Supremo Tribunal Federal (STF), também pediu auxílio técnico à Polícia Federal (PF) para conseguir acessar os dados...",
+      "url": "https://www.metropoles.com/colunas/manoela-alcantara/apos-mendonca-fux-tambem-pede-ajuda-a-pf-para-acessar-celular-de-vorcaro",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-19T19:42:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_46b60b6ff760",
       "title": "Mendonça e Fux afirmam à PF que não conseguiram acessar celular de Vorcaro",
       "description": "Ministros do STF encaminharam ofício neste sábado, 19, para informar diretor-geral da Polícia Federal, Andrei Rodrigues, que não conseguiram...",
@@ -162,18 +196,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_48e234d7c1bb",
-      "title": "PF entrega íntegra do celular de Daniel Vorcaro a Fux e Mendonça",
-      "description": "Ministros Mendonça e Fux pediram acesso após sessão do STF que discutiu investigação sobre supostas mensagens entre Moraes e Vorcaro.",
-      "url": "https://www.metropoles.com/brasil/pf-entrega-integra-do-celular-de-daniel-vorcaro-a-fux-e-mendonca",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-17T20:51:00+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_d662e1c1c25f",
+      "title": "Mendonça e Fux acionam PF após não conseguirem acessar dados do celular de Vorcaro",
+      "description": "André Mendonça e Luiz Fux aciona a PF após falha técnica no acesso a dados do celular de Daniel Vorcaro. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-e-fux-acionam-pf-sem-acesso-ao-dados-de-vorcaro/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-19T23:34:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c6e70b2c7f24",
@@ -190,18 +224,32 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dd15a8f943ed",
-      "title": "Mendonça não consegue telefone de Vorcaro e pede suporte à PF",
-      "description": "Os ministros André Mendonça e Luiz Fux, do Supremo Tribunal Federal (STF), solicitaram apoio técnico à Polícia Federal (PF) após suas...",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-e-fux-acionam-pf-apos-nao-conseguirem-acessar-dados-do-celular-de-vorcaro/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-19T23:34:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_6c5d6e55fd9c",
+      "title": "Mendonça e Fux dizem à PF que não tiveram acesso ao celular de Vorcaro",
+      "description": "19/09/2026 19:46 • Atualizado há 4 horas. Da redação. 19/09/2026 19:46 • Atualizado há 4 horas. 4 min. Os ministros do Supremo Tribunal Federal (STF) André...",
+      "url": "https://www.band.com.br/politica/mendonca-e-fux-dizem-a-pf-que-nao-tiveram-acesso-ao-celular-de-vorcaro",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-09-19T22:46:28+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_7eaeb3489a72",
+      "title": "Polícia Federal entrega dados do celular de Vorcaro a Mendonça e Fux",
+      "description": "Ministros haviam solicitado acesso ao material após informações do aparelho chegarem a gabinetes de outros integrantes da Corte.",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/policia-federal-entrega-dados-do-celular-de-vorcaro-a-mendonca-e-fux-cmu5zoz2101lm014xc18bogui.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-09-18T00:10:49+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_bbae0b414ef1",
@@ -218,6 +266,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_ca6ce52c87f8",
+      "title": "Mendonça diz que não consegue acessar celular de Vorcaro e pede ajuta à PF",
+      "description": "247 – O ministro André Mendonça, do Supremo Tribunal Federal (STF), informou à Polícia Federal que seu gabinete ainda não conseguiu acessar...",
+      "url": "https://www.brasil247.com/brasil/mendonca-diz-que-nao-consegue-acessar-celular-de-vorcaro-e-pede-ajuta-a-pf/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-19T18:06:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_7d1cdba17401",
       "title": "Mendonça diz que gabinete não conseguiu acessar conteúdo de celular de Vorcaro e pede ajuda à PF",
       "description": "O ministro do Supremo Tribunal Federal (STF) André Mendonça afirmou ao diretor-geral da Polícia Federal (PF), Andrei Rodrigues, que não...",
@@ -226,24 +288,10 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-09-19T20:46:49+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_ca6ce52c87f8",
-      "title": "Mendonça diz que não consegue acessar celular de Vorcaro e pede ajuta à PF",
-      "description": "247 – O ministro André Mendonça, do Supremo Tribunal Federal (STF), informou à Polícia Federal que seu gabinete ainda não conseguiu acessar...",
-      "url": "https://www.brasil247.com/brasil/mendonca-diz-que-nao-consegue-acessar-celular-de-vorcaro-e-pede-ajuta-a-pf/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-19T18:06:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_ae2c62ed201a",
@@ -264,81 +312,40 @@
       "title": "Aos Fatos: PF entrega dados do celular de Vorcaro ao STF e esquema de fraudes no IPTU de Salvador",
       "description": "Podcast Aos Fatos está disponível nas principais plataformas de áudio; ouça a edição de 17 de setembro de 2026.",
       "url": "https://www.metro1.com.br/noticias/radio-metropole/188512,aos-fatos-pf-entrega-dados-do-celular-de-vorcaro-ao-stf-e-esquema-de-fraudes-no-iptu-de-salvador",
-      "source": "Rádio Metrópole",
-      "sourceCanonical": "Rádio Metrópole",
+      "source": "metro1.com.br",
+      "sourceCanonical": "metro1.com.br",
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-09-17T21:37:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_6c5d6e55fd9c",
-      "title": "Mendonça e Fux dizem à PF que não tiveram acesso ao celular de Vorcaro",
-      "description": "Os ministros do Supremo Tribunal Federal (STF) André Mendonça e Luiz Fux enviaram neste sábado (19) ofícios à Polícia Federal afirmando que...",
-      "url": "https://www.band.com.br/politica/mendonca-e-fux-dizem-a-pf-que-nao-tiveram-acesso-ao-celular-de-vorcaro",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-09-19T22:46:28+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_fc94108236a4",
-      "title": "Fux e Mendonça pedem à PF acesso à integra das mensagens de Vorcaro",
-      "description": "Os ministros Luiz Fux e André Mendonça, do Supremo Tribunal Federal (STF), pediram à Polícia ...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/fux-e-mendonca-pedem-a-pf-acesso-a-integra-das-mensagens-de-vorcaro,4fefbf9749fb253fb17a1a76075b595feq2bc35p.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-17T16:15:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6802be5b1cab",
-      "title": "Mendonça e Fux não conseguem acessar celular de Vorcaro e pedem ajuda à PF",
-      "description": "Os ministros André Mendonça e Luiz Fux, do Supremo Tribunal Federal (STF), pediram auxílio técnico à Polícia Federal (PF) após relatarem...",
-      "url": "https://iclnoticias.com.br/mendonca-e-fux-celular-de-vorcaro/",
-      "source": "iclnoticias.com.br",
-      "sourceCanonical": "iclnoticias.com.br",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-09-19T21:11:26+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 1,
     "max": 10,
-    "average": 6.64,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.93,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
-      "centerLeft": 0,
-      "center": 6,
+      "left": 1,
+      "centerLeft": 1,
+      "center": 7,
       "centerRight": 3,
       "right": 2,
-      "unknown": 9
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
