@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 29
+      "topic-7": 30
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 30,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2270693037.jpg?quality=70&strip=info&resize=1200,630&crop=1",
   "publishedAt": "2026-09-09T22:42:00+00:00",
-  "updatedAt": "2026-09-20T07:39:00.402782+00:00",
+  "updatedAt": "2026-09-20T08:43:36.308284+00:00",
   "sourceCount": 15,
   "articleCount": 20,
   "articles": [
@@ -57,8 +57,8 @@
       "source": "Vatican News",
       "sourceCanonical": "Vatican News",
       "sourceDomain": "vaticannews.va",
-      "publishedAt": "2026-09-20T01:56:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "publishedAt": "2026-09-18T13:32:54+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -87,20 +87,6 @@
       "sourceDomain": "acidigital.com",
       "publishedAt": "2026-09-18T11:03:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_4d94707ae521",
-      "title": "Leão XIV vai à França: eutanásia, abusos e IA. Os jornalistas já se perguntam o que o Papa poderá dizer",
-      "description": "A viagem do Papa Leão XIV à França, de 25 a 28 de setembro, gera enorme interesse na mídia. Cerca de 2.500 pedidos de credenciamento foram...",
-      "url": "https://pt.aleteia.org/2026/09/17/fe-leigos-e-ia-a-viagem-do-papa-a-franca-desperta-a-curiosidade-dos-vaticanistas/",
-      "source": "Aleteia: vida plena com valor",
-      "sourceCanonical": "Aleteia: vida plena com valor",
-      "sourceDomain": "pt.aleteia.org",
-      "publishedAt": "2026-09-17T08:51:45+00:00",
-      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -166,14 +152,28 @@
       "title": "Como se planejar para viajar à França durante a visita do Papa Leão XIV",
       "description": "Saiba como acompanhar a agenda oficial do Papa Leão XIV e confira dicas de transporte, hospedagem e documentos exigidos.",
       "url": "https://www.correiobraziliense.com.br/aqui/2026/09/09/como-se-planejar-para-viajar-a-franca-durante-a-visita-do-papa-leao-xiv/",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-09T22:42:00+00:00",
       "postedLabel": "10 dias atrás",
-      "imageUrl": "https://www.correiobraziliense.com.br/aqui/wp-content/uploads/2026/09/Papa-Leao-XIV_1788980594167.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4d94707ae521",
+      "title": "Leão XIV vai à França: eutanásia, abusos e IA. Os jornalistas já se perguntam o que o Papa poderá dizer",
+      "description": "A viagem do Papa Leão XIV à França, de 25 a 28 de setembro, gera enorme interesse na mídia. Cerca de 2.500 pedidos de credenciamento foram...",
+      "url": "https://pt.aleteia.org/2026/09/17/fe-leigos-e-ia-a-viagem-do-papa-a-franca-desperta-a-curiosidade-dos-vaticanistas/",
+      "source": "Aleteia: vida plena com valor",
+      "sourceCanonical": "Aleteia: vida plena com valor",
+      "sourceDomain": "pt.aleteia.org",
+      "publishedAt": "2026-09-17T08:51:45+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_245aefd83ec4",
@@ -227,7 +227,7 @@
       "sourceDomain": "istoe.com.br",
       "publishedAt": "2026-09-15T18:01:00+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://istoe.com.br/wp-content/uploads/2026/09/Encontro-Rejeitado-Entre-Macron-e-o-Papa-1-1200x630.png",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.33,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 5.6,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 2,
       "centerRight": 2,
       "right": 0,
-      "unknown": 14
+      "unknown": 15
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
-    "confidence": 93
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
