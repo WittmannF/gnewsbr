@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 1
+      "topic-2": 3
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +29,9 @@
     "morre",
     "combate"
   ],
-  "imageUrl": "https://midias.correio24horas.com.br/2026/09/19/paulo-roberto-teixeira-morreu-na-tarde-deste-sabado-19-em-sao-paulo-aos-77-anos-3421628.jpg",
+  "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/paulo-roberto-teixeira.jpg",
   "publishedAt": "2026-09-19T18:27:56+00:00",
-  "updatedAt": "2026-09-20T09:23:22.967273+00:00",
+  "updatedAt": "2026-09-20T11:19:43.544076+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Morre Paulo Roberto Teixeira, médico que ajudou a criar resposta do Brasil à aids",
       "description": "O médico Paulo Roberto Teixeira morreu neste sábado (19), aos 77 anos. Referência em saúde pública, ele teve papel central na construção da...",
       "url": "https://www.correio24horas.com.br/brasil/morre-paulo-roberto-teixeira-medico-que-ajudou-a-criar-resposta-do-brasil-a-aids-0926",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
+      "source": "correio24horas.com.br",
+      "sourceCanonical": "correio24horas.com.br",
       "sourceDomain": "correio24horas.com.br",
       "publishedAt": "2026-09-19T22:02:27+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://midias.correio24horas.com.br/2026/09/19/paulo-roberto-teixeira-morreu-na-tarde-deste-sabado-19-em-sao-paulo-aos-77-anos-3421628.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b028294de756",
@@ -92,20 +92,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d2ad562db061",
-      "title": "Paulo Roberto Teixeira, uma das referências em saúde pública no Brasil. Ele faleceu aos 77 anos em São Paulo/Emi Shima/Divugação",
-      "description": "Compartilhe sua opinião sobre este assunto. As participações passam por análise editorial antes de qualquer utilização no site. Website.",
-      "url": "https://mistobrasil.com/2026/09/19/paulo-roberto-teixeira-uma-das-referencias-em-saude-publica-no-brasil-ele-faleceu-aos-77-anos-em-sao-paulo-emi-shima-divugacao/",
-      "source": "- Misto Brasil",
-      "sourceCanonical": "- Misto Brasil",
-      "sourceDomain": "mistobrasil.com",
-      "publishedAt": "2026-09-20T01:23:25+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_4f6d04b5d2ee",
       "title": "Morre Paulo Roberto Teixeira, líder no combate à aids",
       "description": "BRASIL - Aos 77 anos, morre neste sábado (19) o médico Paulo Roberto Teixeira, pilar central da resposta brasileira à aids e referência em...",
@@ -120,6 +106,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_d2ad562db061",
+      "title": "Paulo Roberto Teixeira, uma das referências em saúde pública no Brasil. Ele faleceu aos 77 anos em São Paulo/Emi Shima/Divugação",
+      "description": "Compartilhe sua opinião sobre este assunto. As participações passam por análise editorial antes de qualquer utilização no site. Website.",
+      "url": "https://mistobrasil.com/2026/09/19/paulo-roberto-teixeira-uma-das-referencias-em-saude-publica-no-brasil-ele-faleceu-aos-77-anos-em-sao-paulo-emi-shima-divugacao/",
+      "source": "- Misto Brasil",
+      "sourceCanonical": "- Misto Brasil",
+      "sourceDomain": "mistobrasil.com",
+      "publishedAt": "2026-09-20T01:23:25+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_331a496481e4",
       "title": "Ministério da Saúde lamenta falecimento de Paulo Roberto Teixeira",
       "description": "O Ministério da Saúde lamenta o falecimento do médico sanitarista Paulo Roberto Teixeira, nome fundamental para a saúde pública brasileira e...",
@@ -128,7 +128,7 @@
       "sourceCanonical": "MINUTO MT",
       "sourceDomain": "minutomt.com.br",
       "publishedAt": "2026-09-20T05:58:01+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 2,
     "max": 6,
-    "average": 3.75,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 3.33,
+    "knownCount": 3,
+    "unknownCount": 17,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 2,
+      "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 16
+      "unknown": 17
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 60,
     "headlineDivergence": 82,
-    "confidence": 87
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
