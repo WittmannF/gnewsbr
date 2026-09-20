@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 9
+      "topic-4": 8
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenRank": 8,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/UpEMYw4PeTd19U-VlnRECx2zN18=/2240x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/S/1tF1qHTw2YAETKA2ZFVA/capa-36.jpg",
   "publishedAt": "2026-09-12T07:00:00+00:00",
-  "updatedAt": "2026-09-20T18:31:22.141666+00:00",
+  "updatedAt": "2026-09-20T19:21:41.520643+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Brasília 2026: 'Se eu Fosse Vivo...Vivia' é o grande vencedor da maratona candanga",
       "description": "Brasília 2026: 'Se eu Fosse Vivo...Vivia' é o grande vencedor da maratona candanga. BRASÍLIA - Numa mostra de longas de boa qualidade,...",
       "url": "https://www.estadao.com.br/cultura/luiz-zanin/brasilia-2026-se-eu-fosse-vivo-vivia-e-o-grande-vencedor-da-maratona-candanga/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-20T14:19:28+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/GUFXZM6AMJNSHFUXQSTPHZCRHM.png?quality=80&auth=d07e9a4abcf23eb6a5282261a86c64ef11f2bc3ee915e89700811c1fade5bcf2&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d756c6f22e02",
@@ -101,7 +101,7 @@
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-20T08:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/09/11/675x450/1_mj1109-15-67672583.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -260,6 +260,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_49a6a8d442b1",
+      "title": "'Se eu fosse vivo…vivia': filme mineiro ganha Festival de Brasília",
+      "description": "Dirigido por André Novais, longa teve estreia de escritora Evaristo Conceição como artista de cinema. Do HOJE EM DIA. portal@hojeemdia.com.",
+      "url": "https://www.hojeemdia.com.br/entretenimento/se-eu-fosse-vivo-vivia-filme-mineiro-ganha-festival-de-brasilia-1.1133792",
+      "source": "Hoje em Dia",
+      "sourceCanonical": "Hoje em Dia",
+      "sourceDomain": "hojeemdia.com.br",
+      "publishedAt": "2026-09-20T13:55:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_6523b5ccf8c6",
       "title": "“Se eu fosse vivo, vivia!” aborda luto, memória e passagem do tempo no Festival de Brasília",
       "description": "Longa de André Novais, exibido na mostra competitiva, reúne no elenco o pai do diretor, Norberto Novais, Jean Paulo Campos, Tainá Evaristo e...",
@@ -272,20 +286,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_49a6a8d442b1",
-      "title": "'Se eu fosse vivo…vivia': filme mineiro ganha Festival de Brasília",
-      "description": "Dirigido por André Novais, longa teve estreia de escritora Evaristo Conceição como artista de cinema. Do HOJE EM DIA. portal@hojeemdia.com.",
-      "url": "https://www.hojeemdia.com.br/entretenimento/se-eu-fosse-vivo-vivia-filme-mineiro-ganha-festival-de-brasilia-1.1133792",
-      "source": "Hoje em Dia",
-      "sourceCanonical": "Hoje em Dia",
-      "sourceDomain": "hojeemdia.com.br",
-      "publishedAt": "2026-09-20T13:55:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_56d02fba5a5e",
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.64,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 5,
+    "average": 4.4,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
       "center": 6,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
