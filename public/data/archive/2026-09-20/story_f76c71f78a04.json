@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 48
+      "topic-3": 52
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 48,
-    "bestSeedRank": 48,
+    "firstSeenRank": 52,
+    "bestSeedRank": 52,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.folhavitoria.com.br/wp-content/uploads/2025/11/Ronaldo-Caiado.jpeg",
   "publishedAt": "2026-09-13T19:03:00+00:00",
-  "updatedAt": "2026-09-20T22:25:13.567723+00:00",
+  "updatedAt": "2026-09-20T23:23:19.694248+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-19T23:21:25+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -250,14 +250,14 @@
       "title": "Caiado afirma que o senador Flávio Bolsonaro não tem condição de ser “pacificador” do País",
       "description": "Presidenciável do PSD afirma que a situação atinge a credibilidade do Judiciário e cobra do Planalto uma saída institucional.",
       "url": "https://www.brasil247.com/brasil/caiado-afirma-que-o-senador-flavio-bolsonaro-nao-tem-condicao-de-ser-pacificador-do-pais/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-16T21:02:00+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f8de3fdc7e1c",
@@ -282,21 +282,7 @@
       "sourceCanonical": "A Redação",
       "sourceDomain": "aredacao.com.br",
       "publishedAt": "2026-09-15T22:55:37+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c11a3c0c2f18",
-      "title": "Caiado: Lula e Flávio não têm moral para botar regra no STF",
-      "description": "O candidato do PSD à Presidência da República, Ronaldo Caiado, criticou nesta sexta-feira (18) o presidente Luiz Inácio Lula da Silva (PT) e...",
-      "url": "https://pontanegranews.com.br/2026/09/18/caiado-lula-e-flavio-nao-tem-moral-para-botar-regra-no-stf/",
-      "source": "Ponta Negra News",
-      "sourceCanonical": "Ponta Negra News",
-      "sourceDomain": "pontanegranews.com.br",
-      "publishedAt": "2026-09-18T18:18:43+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_c11a3c0c2f18",
+      "title": "Caiado: Lula e Flávio não têm moral para botar regra no STF",
+      "description": "O candidato do PSD à Presidência da República, Ronaldo Caiado, criticou nesta sexta-feira (18) o presidente Luiz Inácio Lula da Silva (PT) e...",
+      "url": "https://pontanegranews.com.br/2026/09/18/caiado-lula-e-flavio-nao-tem-moral-para-botar-regra-no-stf/",
+      "source": "Ponta Negra News",
+      "sourceCanonical": "Ponta Negra News",
+      "sourceDomain": "pontanegranews.com.br",
+      "publishedAt": "2026-09-18T18:18:43+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 5,
     "max": 9,
-    "average": 5.71,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 6.08,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 9,
       "centerRight": 3,
       "right": 1,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
