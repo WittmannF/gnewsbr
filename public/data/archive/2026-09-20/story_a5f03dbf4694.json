@@ -18,7 +18,7 @@
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Notícias sobre ataque de tubarão • praia • Austrália",
+  "title": "Notícias sobre praia • Austrália",
   "summary": "Testemunhas relataram ver sangue na água após o ataque; corpo da vítima ainda não foi encontrado pelas equipes de resgate.",
   "topic": "Tubarão · Ataque",
   "topicKeywords": [
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/XZT418ZFYvqCbWwsCBuVwWvyP_w=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/c/3/DM9ABxSii6jdS8pSpo4Q/white-shark.jpg",
   "publishedAt": "2026-09-14T17:03:37+00:00",
-  "updatedAt": "2026-09-20T16:35:58.415514+00:00",
+  "updatedAt": "2026-09-20T17:31:03.187948+00:00",
   "sourceCount": 7,
   "articleCount": 9,
   "articles": [
@@ -64,20 +64,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_ec3357a26cda",
-      "title": "Homem morreu em ataque de tubarão em praia na Austrália",
-      "description": "O incidente é o mais recente numa série de ataques com tubarões a ocorrer na Austrália nos últimos meses. Praias da região onde aconteceu o...",
-      "url": "https://www.publico.pt/2026/09/19/mundo/noticia/homem-morreu-ataque-tubarao-praia-australia-2188611",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-09-19T08:12:42+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_b8bdcb4eb2ed",
       "title": "Série de ataques faz governo australiano iniciar caça a tubarão branco",
       "description": "Cinco pessoas morreram por ataques de tubarões neste ano na Austrália, duas na região da cidade de Perth.",
@@ -92,6 +78,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_ec3357a26cda",
+      "title": "Homem morreu em ataque de tubarão em praia na Austrália",
+      "description": "O incidente é o mais recente numa série de ataques com tubarões a ocorrer na Austrália nos últimos meses. Praias da região onde aconteceu o...",
+      "url": "https://www.publico.pt/2026/09/19/mundo/noticia/homem-morreu-ataque-tubarao-praia-australia-2188611",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-09-19T08:12:42+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_7585930879d1",
       "title": "Surfista fica em estado grave após ser mordido por tubarão na Austrália",
       "description": "Um surfista foi socorrido em estado grave na manhã de hoje após ser atacado por um tubarão em uma praia da Austrália.O que aconteceuMel...",
@@ -100,7 +100,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-14T17:03:37+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -110,14 +110,14 @@
       "title": "Homem morre após ataque de tubarão em praia na Austrália; é a 4ª morte do tipo no país em 2026",
       "description": "Vítima foi mordida enquanto nadava a cerca de 50 metros da costa; praias da região de Sorrento foram fechadas após o ataque.",
       "url": "https://www.itatiaia.com.br/mundo/homem-morre-apos-ataque-de-tubarao-em-praia-na-australia-e-a-4a-morte-do-tipo-no-pais-em-2026/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
+      "source": "itatiaia.com.br",
+      "sourceCanonical": "itatiaia.com.br",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-09-18T18:46:04+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_cee531e08118",
@@ -165,23 +165,23 @@
   "spectrum": {
     "min": 3,
     "max": 6,
-    "average": 4.83,
-    "knownCount": 6,
-    "unknownCount": 3,
+    "average": 4.8,
+    "knownCount": 5,
+    "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 4,
+      "center": 3,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 81
+    "confidence": 78
   },
   "flags": [
     "Muitas fontes não classificadas",
