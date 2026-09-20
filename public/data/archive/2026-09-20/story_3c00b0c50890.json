@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 12
+      "topic-2": 4
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,28 +26,28 @@
     "cafeína",
     "pessoas",
     "alerta",
-    "excesso",
-    "não"
+    "não",
+    "excesso"
   ],
-  "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/18/889287449-cafe-farknot-evanto.jpg",
+  "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/eda0/live/8c2f59a0-ac5f-11f1-be57-03729df1d736.jpg",
   "publishedAt": "2026-09-13T23:50:00+00:00",
-  "updatedAt": "2026-09-20T21:21:26.586247+00:00",
-  "sourceCount": 13,
-  "articleCount": 14,
+  "updatedAt": "2026-09-20T22:21:30.781721+00:00",
+  "sourceCount": 14,
+  "articleCount": 15,
   "articles": [
     {
       "id": "article_811fa82bcd16",
       "title": "Por que a cafeína deixa algumas pessoas em alerta e outras não sentem nada?",
       "description": "Os cientistas dizem que tudo depende dos hábitos de consumo de cafeína, do estilo de vida e de um fator sobre o qual não temos controle:...",
       "url": "https://www.bbc.com/portuguese/articles/cq770eymn34no",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-19T18:59:46+00:00",
       "postedLabel": "ontem",
       "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/eda0/live/8c2f59a0-ac5f-11f1-be57-03729df1d736.jpg",
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_26c2518f45e5",
@@ -87,7 +87,7 @@
       "sourceDomain": "diarinho.net",
       "publishedAt": "2026-09-20T13:54:16+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://diarinho.net/fotos_blogs/202609/700_6aafe5888203c3.79025975.jpeg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -128,7 +128,7 @@
       "sourceCanonical": "redeutv.com.br",
       "sourceDomain": "redeutv.com.br",
       "publishedAt": "2026-09-19T21:40:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -230,28 +230,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_aafe8c65a986",
+      "title": "Por que a cafeína deixa algumas pessoas em alerta e outras não sentem nada?",
+      "description": "Cientistas dizem que tudo depende dos hábitos de consumo, do estilo de vida e também dos nossos genes.",
+      "url": "https://www1.folha.uol.com.br/equilibrio/2026/09/por-que-a-cafeina-deixa-algumas-pessoas-em-alerta-e-outras-nao-sentem-nada.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-19T20:47:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/19/17898480456aaee9edf1e97_1789848045_3x2_lg.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 3.5,
-    "knownCount": 2,
-    "unknownCount": 12,
+    "average": 3.75,
+    "knownCount": 4,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 2,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 79
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",
