@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lacUw2QkVoR3gtWGdEQjEySkhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lacUw2QkVoR3gtWGdEQjEySkhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5
+      "topic-3": 5,
+      "topic-5": 10
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 5,
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/Ih8CBEkke-AbevcFYrmdNCNlFS0=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s03.video.glbimg.com/deo/vi/90/57/14975790",
   "publishedAt": "2026-09-17T13:28:11+00:00",
-  "updatedAt": "2026-09-20T05:23:43.163823+00:00",
+  "updatedAt": "2026-09-20T06:36:47.623748+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +75,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-19T06:01:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -96,14 +99,14 @@
       "title": "‘Passagem secreta’ e mais de R$ 700 mil: o que a polícia encontrou na casa de Milton Leite",
       "description": "A polícia apura a possibilidade de ter ocorrido um vazamento da operação, uma vez que Leite ficou mais de 24 horas foragido.",
       "url": "https://jovempan.com.br/politica/passagem-secreta-e-mais-de-r-700-mil-o-que-a-policia-encontrou-na-casa-de-milton-leite/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-18T21:48:42+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_1ffd92d758b9",
@@ -176,20 +179,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f7ed07dec069",
-      "title": "Ex-vereador de SP acusado de ligação com o PCC se entrega à polícia",
-      "description": "Durante as buscas pelo ex-vereador Milton Leite em Sorocaba, os agentes encontraram uma passagem que ligava dois imóveis.",
-      "url": "https://www.gazetadopovo.com.br/brasil/ex-vereador-de-sp-acusado-de-ligacao-com-o-pcc-se-entrega-a-policia/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-18T22:02:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_9ad4610c94dd",
       "title": "Milton Leite diz ser inocente ao se entregar: 'Só se arrepende quem comete crime'",
       "description": "Ex-vereador e ex-presidente da Câmara Municipal de São Paulo é suspeito de ligações com o PCC em contrato do transporte público na capital.",
@@ -204,18 +193,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_f7ed07dec069",
+      "title": "Ex-vereador de SP acusado de ligação com o PCC se entrega à polícia",
+      "description": "Durante as buscas pelo ex-vereador Milton Leite em Sorocaba, os agentes encontraram uma passagem que ligava dois imóveis.",
+      "url": "https://www.gazetadopovo.com.br/brasil/ex-vereador-de-sp-acusado-de-ligacao-com-o-pcc-se-entrega-a-policia/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-18T22:02:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_e999c1606cf1",
       "title": "Assista à íntegra da 2ª edição do JR 24 Horas desta sexta (18)",
       "description": "Confira nesta edição do JR 24 Horas: Está preso o ex-vereador Milton Leite, suspeito de envolvimento em um esquema de lavagem de dinheiro do...",
       "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/assista-a-integra-da-2-edicao-do-jr-24-horas-desta-sexta-18-18092026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-18T20:19:04+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_5402d31164ad",
@@ -240,7 +243,7 @@
       "sourceCanonical": "Diário do Grande ABC",
       "sourceDomain": "dgabc.com.br",
       "publishedAt": "2026-09-20T01:40:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -268,7 +271,7 @@
       "sourceCanonical": "Tribuna de Petrópolis",
       "sourceDomain": "tribunadepetropolis.com.br",
       "publishedAt": "2026-09-19T23:32:39+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,28 +321,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 8,
-    "average": 4.85,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "max": 9,
+    "average": 5.27,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 3,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 3,
-      "right": 0,
-      "unknown": 7
+      "centerRight": 4,
+      "right": 1,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }

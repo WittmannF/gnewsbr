@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIa0xPREVoRW5rUDJvNDJUUGppZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lIa0xPREVoRW5rUDJvNDJUUGppZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 14,
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 17,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 14,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Prefeitura do Rio desapropriará imóvel após desabamento no Cosme Velho",
   "summary": "Casarão desaba no Cosme Velho e atinge mãe e filha de 2 anos, que foram socorridas em estado estável após o acidente registrado por câmeras...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/yH42J8p1wfcf3vnRa8mauFVDivY=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/k/eWbLI7RtuJrFTd4Gi7PQ/mae2.jpeg",
   "publishedAt": "2026-09-19T13:26:00+00:00",
-  "updatedAt": "2026-09-20T05:24:02.650466+00:00",
+  "updatedAt": "2026-09-20T06:35:00.133322+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -99,14 +105,14 @@
       "title": "Imóvel abandonado desaba e deixa mulher e criança feridas no Cosme Velho, na zona sul do Rio",
       "description": "Um imóvel abandonado desabou no bairro Cosme Velho, na zona sul do Rio de Janeiro, na manhã deste sábado (19), e deixou duas pessoas...",
       "url": "https://noticias.r7.com/rio-de-janeiro/imovel-abandonado-desaba-e-deixa-mulher-e-crianca-feridas-no-cosme-velho-na-zona-sul-do-rio-19092026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
+      "source": "R7",
+      "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-19T14:15:11+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/JMKQ7ELOLBDW5IRNZZCCVOONRQ.jpg?smart=true&auth=b6c01e96a4e30daeb6bd2b6bc89e5828093d52908b10c6538b2a41ca26b4bbf4&width=1200&height=630",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c8d3d5e25fbf",
@@ -118,7 +124,7 @@
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-19T17:54:41+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/Casarao_desaba_no_Cosme_Velho_e_deixa_mae_e_filha_feridas_200a158c6c.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -127,8 +133,8 @@
       "title": "Desabamento de casarão interdita trecho da Rua Cosme Velho",
       "description": "Imóvel fica na altura do número 315; via tem interdição parcial no sentido Laranjeiras e trânsito apresenta retenção nos dois sentidos.",
       "url": "https://diariodorio.com/rio-de-janeiro/2026/09/19/desabamento-de-casarao-interdita-trecho-da-rua-cosme-velho.html",
-      "source": "Diário do Rio",
-      "sourceCanonical": "Diário do Rio",
+      "source": "diariodorio.com",
+      "sourceCanonical": "diariodorio.com",
       "sourceDomain": "diariodorio.com",
       "publishedAt": "2026-09-19T14:48:59+00:00",
       "postedLabel": "hoje",
@@ -253,8 +259,8 @@
       "title": "Susto no Cosme Velho: casarão desaba e deixa duas pessoas feridas",
       "description": "Um casarão desabou na Rua Cosme Velho, na Zona Sul do Rio de Janeiro, na manhã deste sábado (19). Equipes do Corpo de Bombeiros foram...",
       "url": "https://www.tupi.fm/sentinelas/susto-no-cosme-velho-casarao-desaba-e-deixa-duas-pessoas-feridas/",
-      "source": "Super Rádio Tupi",
-      "sourceCanonical": "Super Rádio Tupi",
+      "source": "tupi.fm",
+      "sourceCanonical": "tupi.fm",
       "sourceDomain": "tupi.fm",
       "publishedAt": "2026-09-19T14:14:30+00:00",
       "postedLabel": "hoje",
@@ -321,23 +327,23 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.78,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 7,
+    "average": 5,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 8,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 60,
-    "headlineDivergence": 82,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
