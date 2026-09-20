@@ -3,21 +3,18 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ptdHYyQkVoRW9TYkhrbW1DaW9TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ptdHYyQkVoRW9TYkhrbW1DaW9TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 29,
-      "topic-5": 48
+      "topic-3": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/O4MT_KgSP64RUxIPzyId3J6LSKg=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/z/htcRZ1Qr2tPMUV7GVL6g/globo-canal-4-20260817-2000-frame-65549.jpeg",
   "publishedAt": "2026-08-12T07:00:00+00:00",
-  "updatedAt": "2026-09-20T19:19:52.620128+00:00",
+  "updatedAt": "2026-09-20T20:25:10.709643+00:00",
   "sourceCount": 14,
   "articleCount": 14,
   "articles": [
@@ -141,14 +138,14 @@
       "title": "Governo determina suspensão de transmissões no Discord",
       "description": "Medida preventiva expedida pela ANPD nesta quarta-feira (12) determina a suspensão de lives no Discord em um prazo de três dias úteis.",
       "url": "https://www.estadao.com.br/tecmundo/big-techs/415226-governo-determina-suspensao-de-transmissoes-no-discord/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-08-12T07:00:00+00:00",
       "postedLabel": "mês passado",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/IQAFZO7SCFLUBL4ZAQ36N3NVIY.jpg?quality=80&auth=586f2007c80bb75ccc673184ca84d50447a7bca4fbba30394d8c7591f4605f73&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_7f8d1b35ba56",
@@ -202,7 +199,7 @@
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-19T11:59:35+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/09/chatgpt-image-19-de-set-de-2026-08_56_06.png",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -225,7 +222,7 @@
       "title": "Após morte de jovem, Discord classifica como baixo risco de suicídio e automutilação entre adolescentes",
       "description": "O Discord classificou como baixo o risco de suicídio e automutilação entre adolescentes em seu primeiro relatório de transparência do ECA...",
       "url": "https://www1.folha.uol.com.br/cotidiano/2026/09/apos-morte-de-jovem-discord-classifica-como-baixo-risco-de-suicidio-e-automutilacao-entre-adolescentes.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-18T00:45:00+00:00",
@@ -237,27 +234,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.4,
-    "knownCount": 5,
-    "unknownCount": 9,
+    "max": 7,
+    "average": 4.83,
+    "knownCount": 6,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 3,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 88
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
+    "confidence": 91
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
