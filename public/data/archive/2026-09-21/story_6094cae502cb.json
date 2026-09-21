@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 69
+      "topic-3": 64
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 69,
-    "bestSeedRank": 69,
+    "firstSeenRank": 64,
+    "bestSeedRank": 64,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/bjU4uW6W5VqwJt1BJTNkUh2zf7U=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/a/q/s1fWtHRWAFRxTQpWSpLg/bdrj-professor2-1-.jpeg",
   "publishedAt": "2026-09-16T12:14:00+00:00",
-  "updatedAt": "2026-09-21T04:35:00.958631+00:00",
+  "updatedAt": "2026-09-21T05:29:24.577014+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Alunos agridem professor durante campeonato e são expulsos de escola no RJ",
       "description": "Um grupo de alunos foi expulso após cercar e agredir com socos um professor que atuava como árbitro em um torneio escolar no Rio de Janeiro.",
       "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/09/18/alunos-cercam-e-agridem-professor-em-torneio-escolar-e-sao-expulsos-no-rj.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-18T20:28:58+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8608e45730d8",
@@ -115,7 +115,7 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-18T18:36:06+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://s2-oglobo.glbimg.com/QnPEjVqSPS9ygNGGjcQTsBb6XnA=/984x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/N/2/UvpHdzQfyaUBX1VkXmsg/bdrj-professor2-1-.avif",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -218,20 +218,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_87e71dd2bc3b",
-      "title": "Professor é agredido por alunos após marcar falta durante partida de futebol em colégio; envolvidos foram exp…",
-      "description": "Após marcar uma falta, o professor foi cercado e agredido com chutes e socos; estudantes foram suspensos e o torneio suspenso.",
-      "url": "https://www.bnews.com.br/noticias/esporte/professor-e-agredido-por-alunos-apos-marcar-falta-durante-partida-de-futebol-em-colegio-envolvidos-foram-expulsos.html",
-      "source": "Bnews",
-      "sourceCanonical": "BNews",
-      "sourceDomain": "bnews.com.br",
-      "publishedAt": "2026-09-19T22:15:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_48c2dcb11362",
       "title": "Alunos são expulsos após agressão a professor",
       "description": "Uma agressão a professor durante um evento de interclasse levou o Ícone Colégio e Curso a decidir pela não permanência dos alunos...",
@@ -240,6 +226,20 @@
       "sourceCanonical": "Ponta Negra News",
       "sourceDomain": "pontanegranews.com.br",
       "publishedAt": "2026-09-19T21:09:33+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_87e71dd2bc3b",
+      "title": "Professor é agredido por alunos após marcar falta durante partida de futebol em colégio; envolvidos foram exp…",
+      "description": "Após marcar uma falta, o professor foi cercado e agredido com chutes e socos; estudantes foram suspensos e o torneio suspenso.",
+      "url": "https://www.bnews.com.br/noticias/esporte/professor-e-agredido-por-alunos-apos-marcar-falta-durante-partida-de-futebol-em-colegio-envolvidos-foram-expulsos.html",
+      "source": "bnews.com.br",
+      "sourceCanonical": "bnews.com.br",
+      "sourceDomain": "bnews.com.br",
+      "publishedAt": "2026-09-19T22:15:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.73,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.89,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 8,
+      "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 9
+      "unknown": 11
     }
   },
   "scores": {

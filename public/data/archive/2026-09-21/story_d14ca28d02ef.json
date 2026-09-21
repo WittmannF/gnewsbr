@@ -16,14 +16,14 @@
       "topic-5"
     ],
     "seedRanks": {
-      "home": 3,
-      "topstories": 3,
+      "home": 1,
+      "topstories": 1,
       "topic-3": 3,
-      "topic-5": 2
+      "topic-5": 1
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 3,
-    "bestSeedRank": 2,
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -40,7 +40,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/1_2c5f2f.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-17T19:08:00+00:00",
-  "updatedAt": "2026-09-21T04:30:14.242575+00:00",
+  "updatedAt": "2026-09-21T05:25:50.241787+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,7 +67,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-21T00:24:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/18/17897626576aad9c61da452_1789762657_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -123,7 +123,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-21T02:00:58+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -199,6 +199,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_adc71c9ccef0",
+      "title": "Lula deve se encontrar hoje com prefeito de NY; presidente prepara discurso na ONU com soberania, clima e IA",
+      "description": "Mandatário foi ontem para os EUA e falará amanhã pela décima vez na abertura da Assembleia Geral.",
+      "url": "https://noticias.r7.com/brasilia/na-onu-lula-deve-cobrar-conselho-de-seguranca-e-defender-multilateralismo-20092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-21T05:00:01+00:00",
+      "postedLabel": "25 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_4f665ce2c11f",
       "title": "Lula abre a Assembleia Geral da ONU, em Nova York, pela 10ª vez",
       "description": "Presidente embarcou para os EUA. Ele discursa na terça-feira (22) e reforçará o multilateralismo, o respeito ao direito internacional e a...",
@@ -211,20 +225,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f9c50d5bcfbf",
-      "title": "Lula vai à ONU acenar ao eleitor antes da eleição e pode encontrar Trump",
-      "description": "O presidente Lula (PT) desembarca em Nova York neste domingo (20) para participar da Assembleia-Geral da ONU em uma passagem curta pelos...",
-      "url": "https://www.jornaldocomercio.com/politica/2026/09/1263933-lula-vai-a-onu-acenar-ao-eleitor-antes-da-eleicao-e-pode-encontrar-trump.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-09-20T22:16:49+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_2bd4efa0b9eb",
@@ -273,14 +273,14 @@
       "title": "Lula vai se encontrar com prefeito socialista de Nova York antes de discurso na ONU",
       "description": "O presidente Luiz Inácio Lula da Silva (PT) vai se encontrar com o prefeito de Nova York, Zohran Mamdani, da ala socialista do Partido...",
       "url": "https://www.gazetadopovo.com.br/mundo/lula-vai-se-encontrar-prefeito-socialista-nova-york-antes-discurso-onu/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-18T12:58:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8ebc0f72efd3",
@@ -328,16 +328,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.33,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.29,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -349,6 +349,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
