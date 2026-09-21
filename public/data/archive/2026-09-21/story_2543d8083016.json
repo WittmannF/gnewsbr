@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZcGU2Q0VoRVl2VmN1cWNFOEp5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZcGU2Q0VoRVl2VmN1cWNFOEp5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 2
+      "home": 1,
+      "topstories": 1,
+      "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Casa Branca • Trump",
   "summary": "Presidente dos EUA baniu CNN, MS NOW e Politico, que produzem jornalismo consolidado e têm cobertura crítica a seu governo, de entrar na...",
@@ -27,11 +33,11 @@
     "branca",
     "cnn",
     "cobertura",
-    "politico"
+    "suspendem"
   ],
-  "imageUrl": "https://s2-g1.glbimg.com/rxo8zSqWmWKdSg0FGrutjebve6w=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/S/wQa3apTqCHHAfCQCy5Mw/afp-20260909-c7ua9hl-v1-midres-republicannationalcommitteemidtermconvention.jpg",
-  "publishedAt": "2026-09-19T00:38:00+00:00",
-  "updatedAt": "2026-09-21T15:35:56.270350+00:00",
+  "imageUrl": "https://s2-g1.glbimg.com/Xm7ankZ-79n5wWPql9XqL52mzkk=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/F/1NpbcXRWO9YYd278VL5A/2026-09-19t165753z-862517729-rc2gmnaauhp9-rtrmadp-3-usa-trump-media.jpg",
+  "publishedAt": "2026-09-19T18:32:00+00:00",
+  "updatedAt": "2026-09-21T16:27:00.302868+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,8 +50,8 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-21T14:07:55+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/rxo8zSqWmWKdSg0FGrutjebve6w=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/S/wQa3apTqCHHAfCQCy5Mw/afp-20260909-c7ua9hl-v1-midres-republicannationalcommitteemidtermconvention.jpg",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/Xm7ankZ-79n5wWPql9XqL52mzkk=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/F/1NpbcXRWO9YYd278VL5A/2026-09-19t165753z-862517729-rc2gmnaauhp9-rtrmadp-3-usa-trump-media.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -58,8 +64,22 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-21T15:09:09+00:00",
-      "postedLabel": "26 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b2da7daa62f8",
+      "title": "Principais redes de TV dos EUA suspendem cobertura da Casa Branca",
+      "description": "Ação é em apoio a CNN, MSNBC e Politico, que estão entrando com uma ação judicial após o governo Trump banir o acesso à Casa Branca.",
+      "url": "https://www.cnnbrasil.com.br/internacional/principais-redes-de-tv-dos-eua-suspendem-cobertura-da-casa-branca/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-21T15:40:08+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/trump-ormuz.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -78,20 +98,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_803a8ef34326",
-      "title": "CNN, MS NOW e Politico vão entrar com ação judicial contra veto da Casa Branca",
-      "description": "Presidente Donald Trump anunciou na sexta que iria proibi-los de entrar ​nas dependências da Casa Branca.",
-      "url": "https://www.infomoney.com.br/mundo/cnn-ms-now-e-politico-vao-entrar-com-acao-judicial-contra-veto-da-casa-branca/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-09-21T11:21:23+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/09/Donald-Trump.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_aab35590e66a",
       "title": "Veículos de imprensa dizem que vão processar Trump após serem proibidos de acessar Casa Branca",
       "description": "As emissoras americanas CNN e MSNow, assim como o site jornalístico Politico, anunciaram nesta segunda-feira, 21, que estão entrando com uma...",
@@ -100,10 +106,24 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-21T13:12:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_07f038d2c2eb",
+      "title": "Emissoras abandonam cobertura de Trump após CNN ser barrada da Casa Branca",
+      "description": "Trump disse que veto foi anunciado para combater 'fake news'",
+      "url": "https://www.terra.com.br/noticias/mundo/emissoras-abandonam-cobertura-de-trump-apos-cnn-ser-barrada-da-casa-branca,2ef52e9e90837b57b07a432ca08ddd72qovthhu6.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-21T14:50:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d7cc85fac161",
@@ -114,23 +134,23 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-21T13:25:28+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_9a126b4f7c30",
-      "title": "Após banir veículos da Casa Branca, Trump diz que \"fake news\" são um câncer",
-      "description": "Presidente negou estar atacando a liberdade de imprensa e alegou ameaça à segurança nacional dos EUA.",
-      "url": "https://www.cnnbrasil.com.br/internacional/apos-banir-veiculos-da-casa-branca-trump-diz-que-fake-news-sao-um-cancer/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-21T13:26:30+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_803a8ef34326",
+      "title": "CNN, MS NOW e Politico vão entrar com ação judicial contra veto da Casa Branca",
+      "description": "Presidente Donald Trump anunciou na sexta que iria proibi-los de entrar ​nas dependências da Casa Branca.",
+      "url": "https://www.infomoney.com.br/mundo/cnn-ms-now-e-politico-vao-entrar-com-acao-judicial-contra-veto-da-casa-branca/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-21T11:21:23+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -156,7 +176,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-21T13:45:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -176,6 +196,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_72bb2c668baf",
+      "title": "Redes de TV suspendem cobertura de eventos de Trump",
+      "description": "Decisão ocorre após Casa Branca impedir CNN de atuar no pool de TV; emissoras afirmam que não haverá equipe para substituí-la.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/redes-de-tv-suspendem-cobertura-de-eventos-de-trump",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-21T16:17:09+00:00",
+      "postedLabel": "9 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_a642966ad9d2",
       "title": "MSNBC, CNN e Politico processam Trump por veto à Casa Branca",
       "description": "Investing.com -- Três veículos de comunicação entraram com uma ação judicial contra o governo Trump na segunda-feira, após o presidente...",
@@ -184,24 +218,24 @@
       "sourceCanonical": "Investing.com Brasil",
       "sourceDomain": "br.investing.com",
       "publishedAt": "2026-09-21T10:44:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_07f038d2c2eb",
-      "title": "Emissoras abandonam cobertura de Trump após CNN ser barrada da Casa Branca",
-      "description": "O grupo de emissoras de televisão que se reveza na cobertura dos eventos do presidente dos Estados Unidos, Donald Trump, em nome da Casa...",
-      "url": "https://www.terra.com.br/noticias/mundo/emissoras-abandonam-cobertura-de-trump-apos-cnn-ser-barrada-da-casa-branca,2ef52e9e90837b57b07a432ca08ddd72qovthhu6.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-21T14:50:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_302e0ee30ac4",
+      "title": "Redes de TV dos EUA suspendem cobertura em conjunto da Casa Branca em protesto contra Trump",
+      "description": "Cinco maiores emissoras do país, incluindo a aliada Fox News, boicotam o pool de imprensa após presidente banir veículos jornalísticos.",
+      "url": "https://www.brasil247.com/mundo/redes-de-tv-dos-eua-suspendem-cobertura-em-conjunto-da-casa-branca-em-protesto-contra-trump/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-21T16:01:00+00:00",
+      "postedLabel": "25 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_c1b3f34718a7",
@@ -212,7 +246,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-09-20T15:55:08+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -240,20 +274,6 @@
       "sourceCanonical": "RTP",
       "sourceDomain": "rtp.pt",
       "publishedAt": "2026-09-21T15:11:49+00:00",
-      "postedLabel": "24 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_5c8d7dd1a54f",
-      "title": "Redes de TV anunciam que vão parar de fazer cobertura conjunta da Casa Branca após proibição de Trump a veículos",
-      "description": "Entre os veículos estão ABC, CBS, CNN, Fox News e NBC. A Fox, por exemplo, é reconhecidamente uma emissora que apoia o governo Trump e os...",
-      "url": "https://cbn.globo.com/mundo/noticia/2026/09/21/redes-de-tv-anunciam-que-vao-parar-de-fazer-cobertura-conjunta-da-casa-branca-apos-proibicao-de-trump-a-veiculos.ghtml",
-      "source": "CBN",
-      "sourceCanonical": "CBN",
-      "sourceDomain": "cbn.globo.com",
-      "publishedAt": "2026-09-21T14:47:15+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -268,71 +288,57 @@
       "sourceCanonical": "Rádio Metrópole",
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-09-21T12:51:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6a07f5407aa7",
-      "title": "Trump tira acesso à Casa Branca de três veículos de imprensa",
-      "description": "Nas redes sociais, Trump acusou os veículos de divulgar notícias falsas e afirmou que não deveriam escrever mentiras e ficção.",
-      "url": "https://noticias.r7.com/jr-na-tv/video/trump-tira-acesso-a-casa-branca-de-tres-veiculos-de-imprensa-19092026/",
-      "source": "noticias.r7.com",
-      "sourceCanonical": "noticias.r7.com",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-19T00:38:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6290258bef36",
-      "title": "CNN, MS NOW e Politico vão processar governo Trump por impedi-los de entrar na Casa Branca",
-      "description": "CNN, MS NOW e Politico vão processar o governo dos Estados Unidos por negar-lhes acesso à Casa Branca, anunciaram em um comunicado conjunto...",
-      "url": "https://www.folhape.com.br/noticias/cnn-ms-now-e-politico-vao-processar-governo-trump-por-impedi-los-de/513784/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-09-21T12:22:00+00:00",
       "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
-      "id": "article_18080d1c4588",
-      "title": "Trump cumpre aviso e jornalistas da CNN e MSNOW têm acesso negado à casa Branca",
-      "description": "As duas emissoras denunciaram a medida como uma violação da Constituição dos Estados Unidos e prometeram continuar informando sobre o...",
-      "url": "https://jovempan.com.br/mundo/trump-cumpre-aviso-e-jornalistas-da-cnn-e-msnow-tem-acesso-negado-a-casa-branca/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-19T17:04:12+00:00",
-      "postedLabel": "ontem",
+      "id": "article_59f1df4dd250",
+      "title": "Quando a Casa Branca decide quais são os jornalistas que podem cobrir o presidente",
+      "description": "Pedro do Coutto. A decisão de Donald Trump de impedir o acesso de jornalistas da CNN, da MS NOW e do Politico à Casa Branca abriu uma nova...",
+      "url": "https://tribunadainternet.com.br/2026/09/21/quando-a-casa-branca-decide-quais-sao-os-jornalistas-que-podem-cobrir-o-presidente/",
+      "source": "Tribuna da Internet",
+      "sourceCanonical": "Tribuna da Internet",
+      "sourceDomain": "tribunadainternet.com.br",
+      "publishedAt": "2026-09-21T13:03:29+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_09e69fb58c0b",
+      "title": "Cadeias de televisão CBS, NBC, ABC e Fox deixam de cobrir Trump em solidariedade com CNN",
+      "description": "Washington, 21 set 2026 (Lusa) — As cadeias de televisão norte-americanas CBS, NBC, ABC e Fox solidarizaram-se hoje com a congénere CNN,...",
+      "url": "https://www.correiodamanhacanada.com/cadeias-de-televisao-cbs-nbc-abc-e-fox-deixam-de-cobrir-trump-em-solidariedade-com-cnn/",
+      "source": "correiodamanhacanada.com",
+      "sourceCanonical": "correiodamanhacanada.com",
+      "sourceDomain": "correiodamanhacanada.com",
+      "publishedAt": "2026-09-21T15:38:15+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
-    "max": 9,
-    "average": 5.27,
+    "min": 1,
+    "max": 8,
+    "average": 4.87,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
-      "left": 2,
-      "centerLeft": 2,
-      "center": 7,
+      "left": 3,
+      "centerLeft": 1,
+      "center": 8,
       "centerRight": 3,
-      "right": 1,
+      "right": 0,
       "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
