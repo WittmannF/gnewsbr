@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l5NXFQX0VSRXJaVHRQM3ZwbWJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l5NXFQX0VSRXJaVHRQM3ZwbWJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 6
+      "home": 2,
+      "topstories": 2,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Extrema direita • Merz • Alemanha",
   "summary": "O partido de direita AfD (Alternativa para a Alemanha), liderado Alice Weidel, por venceu a eleição estadual em Mecklemburgo-Pomerânia...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "eleições",
     "alemanha",
-    "extrema",
     "merz",
-    "direita",
-    "estaduais"
+    "afd",
+    "extrema",
+    "direita"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/alice-weidel-alemanha-1200x675.png",
   "publishedAt": "2026-09-19T07:00:00+00:00",
-  "updatedAt": "2026-09-21T02:44:36.626537+00:00",
+  "updatedAt": "2026-09-21T03:30:44.697598+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-20T21:29:49+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/09/alice-weidel-alemanha-1200x675.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,16 +70,16 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_c917c820ce05",
-      "title": "Projeções indicam vitórias da extrema-direita e da extrema-esquerda em eleições estaduais na Alemanha",
-      "description": "Chanceler classificou provável resultado como desastre.",
-      "url": "https://g1.globo.com/fantastico/video/projecoes-indicam-vitorias-da-extrema-direita-e-da-extrema-esquerda-em-eleicoes-estaduais-na-alemanha-14978857.ghtml",
+      "id": "article_55bab5269ecf",
+      "title": "Partido de extrema esquerda na Alemanha vence eleições em Berlim",
+      "description": "A vitória do Partido da Esquerda nas eleições estaduais de Berlim neste domingo (20) foi ofuscada pelo avanço contínuo da extrema direita no...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/09/20/partido-de-extrema-esquerda-na-alemanha-vence-eleicoes-em-berlim.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-21T02:17:40+00:00",
-      "postedLabel": "26 minutos atrás",
-      "imageUrl": "https://s02.video.glbimg.com/x720/14978857.jpg",
+      "publishedAt": "2026-09-20T21:31:09+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/rBCtgO7NYBeBFTd8_eIHQ87vMqc=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/5/FCPd3BT6AaPFjkndVmDQ/fotojet-6-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -134,20 +140,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_f4dcb511f9ca",
-      "title": "Esquerda e AfD lideram em eleições estaduais na Alemanha",
-      "description": "Resultados indicam votação recorde na sigla A Esquerda em Berlim, com a candidata carismática Elif Eralp. Em Mecklemburgo-Pomerânia Ocidental, AfD aparece...",
-      "url": "https://www.dw.com/pt-br/esquerda-e-ultradireita-lideram-em-elei%C3%A7%C3%B5es-estaduais-na-alemanha/a-79348267",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-09-19T07:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_7ad00df6c053",
       "title": "Eleições na Alemanha testam chanceler, em meio ao avanço de partido de inspirações nazistas",
       "description": "Votação em Berlim e no interior desafia o governo de Friedrich Merz, pressionado por queda na popularidade e crises internas.",
@@ -160,6 +152,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_f4dcb511f9ca",
+      "title": "Esquerda e AfD lideram em eleições estaduais na Alemanha",
+      "description": "Resultados indicam votação recorde na sigla A Esquerda em Berlim, com a candidata carismática Elif Eralp. Em Mecklemburgo-Pomerânia Ocidental, AfD aparece...",
+      "url": "https://www.dw.com/pt-br/esquerda-e-ultradireita-lideram-em-elei%C3%A7%C3%B5es-estaduais-na-alemanha/a-79348267",
+      "source": "dw.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-09-19T07:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_01006a7e1439",
@@ -212,7 +218,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-20T21:11:41+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -282,7 +288,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-20T23:07:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -292,43 +298,43 @@
       "title": "Extrema direita lidera em mais um estado alemão: 'Desastre'",
       "description": "A Alternativa para a Alemanha (AfD) ficou em primeiro lugar nas eleições estaduais no nordeste da Alemanha neste domingo (20),...",
       "url": "https://sbtnews.sbt.com.br/noticia/mundo/extrema-direita-lidera-em-mais-um-estado-alemao-desastre",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-20T18:00:05+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
-      "id": "article_ac4f9e0096be",
-      "title": "Eleição em Berlim: Esquerda vence e supera partidos tradicionais, diz boca de urna",
-      "description": "O partido de esquerda radical alemão Die Linke derrotou a CDU, de centro-direita, do chanceler Friedrich Merz, em uma eleição realizada na...",
-      "url": "https://revistaforum.com.br/global/die-linke-vitoria-berlim/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-09-20T16:35:10+00:00",
+      "id": "article_2abf39793de3",
+      "title": "Vídeo. Eleições regionais alemãs: projeções apontam vitória da AfD e do partido de esquerda Die Linke",
+      "description": "Vídeo. O partido Alternativa para a Alemanha deverá obter a maioria dos votos no estado de Mecklemburgo-Pomerânia Ocidental, enquanto o Die...",
+      "url": "https://pt.euronews.com/video/2026/09/20/alemanha-vota-em-eleicoes-regionais-que-deixam-chanceler-alemao-sob-pressao",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-09-20T14:42:15+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.5,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "average": 4.56,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 4,
+      "left": 3,
       "centerLeft": 4,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 2
+      "unknown": 4
     }
   },
   "scores": {
