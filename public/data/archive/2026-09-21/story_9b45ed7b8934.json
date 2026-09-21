@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 11
+      "topic-7": 12
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 11,
-    "bestSeedRank": 11,
+    "firstSeenRank": 12,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/20/302206821-000-c8tb6yp.jpg",
   "publishedAt": "2026-09-18T16:03:00+00:00",
-  "updatedAt": "2026-09-21T03:45:00.280657+00:00",
+  "updatedAt": "2026-09-21T04:43:59.798019+00:00",
   "sourceCount": 8,
   "articleCount": 10,
   "articles": [
@@ -124,14 +124,14 @@
       "title": "Macron e Carney desafiam Trump numa ilha francesa da América do Norte",
       "description": "Presidente francês está em São Pedro e Miquelão, único território ultramarino francês na América do Norte, e recebe este domingo o...",
       "url": "https://www.publico.pt/2026/09/19/mundo/noticia/macron-carney-desafiam-trump-ilha-francesa-america-norte-2188666",
-      "source": "Público",
-      "sourceCanonical": "Público",
+      "source": "publico.pt",
+      "sourceCanonical": "publico.pt",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-09-19T19:02:06+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d72628991548",
@@ -177,28 +177,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 5,
     "max": 7,
-    "average": 5,
-    "knownCount": 8,
-    "unknownCount": 2,
+    "average": 5.29,
+    "knownCount": 7,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 89
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
+    "confidence": 86
   },
   "flags": [
     "Alta cobertura",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
