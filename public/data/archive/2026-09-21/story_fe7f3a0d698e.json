@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/gaza_desabamento_054a4cc552.png",
   "publishedAt": "2026-09-15T13:50:00+00:00",
-  "updatedAt": "2026-09-21T21:33:07.021375+00:00",
+  "updatedAt": "2026-09-21T22:33:31.716499+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -87,20 +87,6 @@
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-09-20T15:11:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_0ed8fc91c98d",
-      "title": "5 crianças entre 20 palestinos mortos após desabamento de prédio danificado pela guerra na Cidade de Gaza",
-      "description": "Pelo menos 20 palestinos, incluindo cinco crianças, foram mortos na quarta-feira quando um edifício residencial que abrigava pessoas deslo.",
-      "url": "https://www.monitordooriente.com/20260917-5-criancas-entre-20-palestinos-mortos-apos-desabamento-de-predio-danificado-pela-guerra-na-cidade-de-gaza/",
-      "source": "Monitor do Oriente",
-      "sourceCanonical": "Monitor do Oriente",
-      "sourceDomain": "monitordooriente.com",
-      "publishedAt": "2026-09-17T06:14:43+00:00",
-      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -166,14 +152,14 @@
       "title": "Prefeito da Cidade de Gaza:",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
       "url": "https://www.ihu.unisinos.br/categorias/671065-prefeito-da-cidade-de-gaza-a-guerra-acabou-mas-vivemos-em-meio-a-escombros-e-destrocos-entrevista-com-yahya-al-sarraj",
-      "source": "ihu.unisinos.br",
-      "sourceCanonical": "ihu.unisinos.br",
+      "source": "Instituto Humanitas Unisinos - IHU",
+      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-09-18T11:47:53+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_18708febdb43",
@@ -208,8 +194,8 @@
       "title": "Desabamento de prédio em Gaza deixa mais de 40 vítimas.",
       "description": "Segundo as autoridades de saúde da Faixa de Gaza, o prédio que desabou abrigava seis famílias de refugiados. Entre os 16 mortos,...",
       "url": "https://www.vietnam.vn/pt/sap-nha-tai-gaza-hon-40-nguoi-thuong-vong",
-      "source": "vietnam.vn",
-      "sourceCanonical": "vietnam.vn",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-09-16T13:45:47+00:00",
       "postedLabel": "5 dias atrás",
@@ -250,7 +236,7 @@
       "title": "ONU pede acesso a Gaza para apurar se houve crimes de guerra",
       "description": "Organização quer que Israel permita a entrada de investigadores internacionais para preservar provas e identificar vítimas encontradas sob...",
       "url": "https://www.dw.com/pt-br/onu-pede-acesso-a-gaza-para-apurar-se-houve-crimes-de-guerra/a-79282461",
-      "source": "DW.com",
+      "source": "dw.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-09-15T17:47:47+00:00",
@@ -272,6 +258,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_0ed8fc91c98d",
+      "title": "5 crianças entre 20 palestinos mortos após desabamento de prédio danificado pela guerra na Cidade de Gaza",
+      "description": "Pelo menos 20 palestinos, incluindo cinco crianças, foram mortos na quarta-feira quando um edifício residencial que abrigava pessoas deslo.",
+      "url": "https://www.monitordooriente.com/20260917-5-criancas-entre-20-palestinos-mortos-apos-desabamento-de-predio-danificado-pela-guerra-na-cidade-de-gaza/",
+      "source": "Monitor do Oriente",
+      "sourceCanonical": "Monitor do Oriente",
+      "sourceDomain": "monitordooriente.com",
+      "publishedAt": "2026-09-17T06:14:43+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f58805f88969",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 3,
     "max": 7,
-    "average": 5.25,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
-      "centerLeft": 3,
+      "centerLeft": 4,
       "center": 4,
       "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
