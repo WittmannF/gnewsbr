@@ -3,22 +3,25 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPMTlyX0VSR2lSOUdjMTNKWGhpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPMTlyX0VSR2lSOUdjMTNKWGhpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-6"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 30
+      "topic-5": 70,
+      "topic-6": 13
     },
-    "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 70,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Goleiro Rafael comenta dificuldades financeiras do São Paulo",
+  "title": "Goleiro Rafael comenta dificuldades financeiras e políticas do São Paulo",
   "summary": "De ressaca depois da eliminação para o Boca Juniors, nas quartas de final da CONMEBOL Sul-Americana, o São Paulo bateu o Internacional, no...",
   "topic": "Paulo · Boca",
   "topicKeywords": [
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/esporte/f3/2026/04/30/rafael-goleiro-do-sao-paulo-antes-de-partida-pelo-brasileirao-1777589272862_v2_615x300.jpg",
   "publishedAt": "2026-09-08T07:00:00+00:00",
-  "updatedAt": "2026-09-21T08:47:26.580544+00:00",
+  "updatedAt": "2026-09-21T09:43:05.472147+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +61,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
       "publishedAt": "2026-09-20T08:56:17+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://conteudo.imguol.com.br/c/esporte/f3/2026/04/30/rafael-goleiro-do-sao-paulo-antes-de-partida-pelo-brasileirao-1777589272862_v2_615x300.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -148,20 +151,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f9c3a31f34d6",
-      "title": "Veja quanto o São Paulo deixou de ganhar após queda para o Boca Juniors",
-      "description": "O São Paulo foi eliminado pelo Boca Juniors, da Argentina, e caiu nas quartas de final da Copa Sul-Americana. Com o resultado, o clube...",
-      "url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/sulamericana/veja-quanto-o-sao-paulo-deixou-de-ganhar-apos-queda-para-o-boca-juniors/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-16T03:11:19+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/dorival-sao-paulo-chapecoense-e1787564460569.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_b00928fa93b1",
       "title": "Jogadores de gigante do Brasileirão planejam deixar o clube em 2027",
       "description": "Com pendências financeiras e desafios dentro de campo, o São Paulo enfrenta incertezas para 2027 enquanto busca recuperação no Brasileirão e...",
@@ -171,9 +160,23 @@
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-18T03:36:00+00:00",
       "postedLabel": "3 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/18/758964182-taca-brasileirao-aspect-ratio-512-320-2.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_f9c3a31f34d6",
+      "title": "Veja quanto o São Paulo deixou de ganhar após queda para o Boca Juniors",
+      "description": "O São Paulo foi eliminado pelo Boca Juniors, da Argentina, e caiu nas quartas de final da Copa Sul-Americana. Com o resultado, o clube...",
+      "url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/sulamericana/veja-quanto-o-sao-paulo-deixou-de-ganhar-apos-queda-para-o-boca-juniors/",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-16T03:11:19+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_55f83c301b49",
@@ -236,8 +239,8 @@
       "title": "São Paulo quebra recorde de público do Morumbis em 2026 em empate com o Boca",
       "description": "O São Paulo quebrou o recorde de público do Morumbis em 2026, mas não correspondeu em campo e frustrou a festa da torcida.",
       "url": "https://www.gazetaesportiva.com/times/sao-paulo/sao-paulo-recorde-publico-morumbis-2026/",
-      "source": "Gazeta Esportiva",
-      "sourceCanonical": "Gazeta Esportiva",
+      "source": "gazetaesportiva.com",
+      "sourceCanonical": "gazetaesportiva.com",
       "sourceDomain": "gazetaesportiva.com",
       "publishedAt": "2026-09-16T02:47:00+00:00",
       "postedLabel": "5 dias atrás",
@@ -254,7 +257,7 @@
       "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-16T09:03:42+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.82,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 4.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 7,
+      "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
