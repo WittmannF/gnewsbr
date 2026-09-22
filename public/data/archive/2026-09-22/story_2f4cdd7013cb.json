@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 24
+      "topic-5": 22
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 22,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/15c3/live/41153930-b4bb-11f1-b1d1-571ed4d7ff2c.jpg",
   "publishedAt": "2026-09-20T04:47:40+00:00",
-  "updatedAt": "2026-09-22T06:43:50.456016+00:00",
+  "updatedAt": "2026-09-22T07:33:32.337453+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -124,14 +124,14 @@
       "title": "Ucrânia faz grande ataque contra a Rússia com uso inédito de mísseis balísticos",
       "description": "Drones atingiram a refinaria de Moscou no último dia de eleições parlamentares no país.",
       "url": "https://veja.abril.com.br/mundo/ucrania-faz-grande-ataque-contra-a-russia-com-uso-inedito-de-misseis-balisticos/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-20T12:52:43+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_59f2dac9612e",
@@ -211,25 +211,11 @@
       "source": "vermelho.org.br",
       "sourceCanonical": "vermelho.org.br",
       "sourceDomain": "vermelho.org.br",
-      "publishedAt": "2026-09-21T18:56:00+00:00",
+      "publishedAt": "2026-09-21T19:11:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_c8cfd0bd1744",
-      "title": "Eleição na Rússia chega ao último dia e testa apoio à guerra da Ucrânia",
-      "description": "As eleições parlamentares, que o presidente Vladimir Putin classificou como um teste de apoio à guerra da Rússia na Ucrânia, entraram em seu...",
-      "url": "https://www.cnnbrasil.com.br/internacional/eleicao-na-russia-chega-ao-ultimo-dia-e-testa-apoio-a-guerra-da-ucrania/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-20T04:47:40+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_5b6bd1d5e2a2",
@@ -244,6 +230,20 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_c8cfd0bd1744",
+      "title": "Eleição na Rússia chega ao último dia e testa apoio à guerra da Ucrânia",
+      "description": "As eleições parlamentares, que o presidente Vladimir Putin classificou como um teste de apoio à guerra da Rússia na Ucrânia, entraram em seu...",
+      "url": "https://www.cnnbrasil.com.br/internacional/eleicao-na-russia-chega-ao-ultimo-dia-e-testa-apoio-a-guerra-da-ucrania/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-20T04:47:40+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8fb2f441d75c",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.06,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 4.94,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 3,
       "centerLeft": 5,
       "center": 4,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 2,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
