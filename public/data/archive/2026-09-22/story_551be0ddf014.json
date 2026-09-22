@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 31
+      "topic-7": 32
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 32,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.dw.com/image/78409050_6.jpg",
   "publishedAt": "2026-09-20T13:51:44+00:00",
-  "updatedAt": "2026-09-22T11:35:16.889353+00:00",
+  "updatedAt": "2026-09-22T12:49:19.352655+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Giorgia Meloni anuncia projeto para proibir burcas e niqabs e limitar estrangeiros em escolas da Itália",
       "description": "A primeira-ministra da Itália, Giorgia Meloni, anunciou no último domingo (20) que levará ao gabinete uma medida para proibir o uso de...",
       "url": "https://www.brasildefato.com.br/2026/09/21/giorgia-meloni-anuncia-projeto-para-proibir-burcas-e-niqabs-e-limitar-estrangeiros-em-escolas-da-italia/",
-      "source": "brasildefato.com.br",
-      "sourceCanonical": "brasildefato.com.br",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-21T20:40:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/09/afp-20260109-926v8fm-v1-midres-italypoliticsgovernmentwishes-f609c63e.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_4c1210fe2755",
@@ -101,7 +101,7 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-20T16:26:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/08/31144208/giorgia-meloni-g7.jpg",
+      "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
@@ -120,20 +120,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d56ea082bb01",
-      "title": "Giorgia Meloni diz que Itália proibirá véus em escolas e limitará número de alunos estrangeiros",
-      "description": "Declarações foram dadas pela primeira-ministra em evento de seu partido, Irmãos da Itália, para jovens.",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/09/giorgia-meloni-diz-que-italia-proibira-veus-em-escolas-e-limitara-numero-de-alunos-estrangeiros.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-20T16:46:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_70b2cf95c155",
       "title": "Presidente da Itália diz que escolas devem estar 'abertas a todos'",
       "description": "Após a primeira-ministra da Itália, Giorgia Meloni, revelar que o governo pretende limitar a quantidade de alunos estrangeiros nas escolas,...",
@@ -146,6 +132,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_d56ea082bb01",
+      "title": "Giorgia Meloni diz que Itália proibirá véus em escolas e limitará número de alunos estrangeiros",
+      "description": "Declarações foram dadas pela primeira-ministra em evento de seu partido, Irmãos da Itália, para jovens.",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/09/giorgia-meloni-diz-que-italia-proibira-veus-em-escolas-e-limitara-numero-de-alunos-estrangeiros.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-20T16:46:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_ecca89ae10c8",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 8,
-    "average": 5.31,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.07,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 4,
       "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
