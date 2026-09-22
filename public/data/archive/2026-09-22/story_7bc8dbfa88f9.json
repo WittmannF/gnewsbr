@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLaC1pREVoSDRkR2R4dFFMODJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lLaC1pREVoSDRkR2R4dFFMODJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 20
+      "topic-3": 20,
+      "topic-5": 24
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 20,
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/CAPA-para-materia-1064-×-614-px-1200-x-630-px-3.png",
   "publishedAt": "2026-09-21T10:00:00+00:00",
-  "updatedAt": "2026-09-22T02:34:30.749854+00:00",
+  "updatedAt": "2026-09-22T03:31:18.973169+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +57,14 @@
       "title": "Debate UOL/Folha: Salles mira Prado e cola em Derrite contra Tebet e Marina",
       "description": "O debate UOL/Folha com candidatos ao Senado por São Paulo, realizado na manhã de hoje, foi marcado por embates entre Ricardo Salles (Novo) e...",
       "url": "https://noticias.uol.com.br/eleicoes/2026/09/21/debate-folha-uol-senado-sp.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-21T14:54:17+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5e2aef21048c",
@@ -82,14 +85,14 @@
       "title": "A acirrada disputa pelo Senado Federal em São Paulo, segundo nova pesquisa",
       "description": "Levantamento do Real Time Big Data mostra quatro candidatos muito competitivos, mas liderança numérica está no campo do governador Tarcísio...",
       "url": "https://veja.abril.com.br/politica/a-acirrada-disputa-pelo-senado-federal-em-sao-paulo-segundo-nova-pesquisa/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-21T12:53:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/marina-tebet-andre-derrite.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_96111344e513",
@@ -110,14 +113,14 @@
       "title": "Derrite e Do Prado aparecem numericamente à frente ao Senado em SP",
       "description": "Real Time Big Data mostra o deputado federal com 20% das intenções de voto; o deputado estadual tem 18%. Leia no Poder360.",
       "url": "https://www.poder360.com.br/poder-eleicoes-2026/quatro-candidatos-ao-senado-empatam-em-sao-paulo-diz-pesquisa/",
-      "source": "poder360.com.br",
-      "sourceCanonical": "poder360.com.br",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-21T11:29:55+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_11e74e9c1c57",
@@ -310,7 +313,7 @@
       "sourceCanonical": "A Crítica de Campo Grande",
       "sourceDomain": "acritica.net",
       "publishedAt": "2026-09-21T21:07:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.57,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.67,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 3,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 2,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

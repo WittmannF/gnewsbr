@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 2
+      "topic-9": 3
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/mcgetchinobligueviewlrocnac-e1790015305975.webp?w=860&h=519&crop=1",
   "publishedAt": "2026-09-15T13:40:00+00:00",
-  "updatedAt": "2026-09-22T02:47:12.093283+00:00",
+  "updatedAt": "2026-09-22T03:48:39.982990+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "NASA anuncia a descoberta na Lua da maior cratera recente do Sistema Solar",
       "description": "Formada pelo impacto de um asteroide ou cometa, a cratera McGetchin tem 222 metros de largura e 43 metros de profundidade.",
       "url": "https://www.estadao.com.br/tecmundo/stem/nasa-anuncia-a-descoberta-na-lua-da-maior-cratera-recente-do-sistema-solar/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-20T15:00:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_2652f9ead847",
@@ -194,8 +194,8 @@
       "title": "Impacto raro na Lua cria cratera gigante e intriga astrônomos",
       "description": "Cientistas identificam nova cratera gigante na Lua após impacto raro. Evento oferece dados inéditos sobre a geologia e segurança lunar.",
       "url": "https://fatopaulista.com.br/impacto-raro-lua-cratera-gigante/",
-      "source": "Fato Paulista",
-      "sourceCanonical": "Fato Paulista",
+      "source": "fatopaulista.com.br",
+      "sourceCanonical": "fatopaulista.com.br",
       "sourceDomain": "fatopaulista.com.br",
       "publishedAt": "2026-09-21T18:38:44+00:00",
       "postedLabel": "hoje",
@@ -232,10 +232,10 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5e4947703281",
+      "id": "article_2014c3b68474",
       "title": "Fenômeno que acontece apenas uma vez a cada 100 anos na Lua acaba de ser descoberto pela NASA",
       "description": "A NASA identificou na Lua uma cratera formada por um impacto ocorrido recentemente em termos astronômicos e que, segundo os modelos...",
-      "url": "https://diariodocomercio.com.br/mix/fenomeno-que-acontece-apenas-uma-vez-a-cada-100-anos-na-lua-acaba-de-ser-descoberto-pela-nasa/?utm_source=al_leiamais",
+      "url": "https://diariodocomercio.com.br/mix/fenomeno-que-acontece-apenas-uma-vez-a-cada-100-anos-na-lua-acaba-de-ser-descoberto-pela-nasa/",
       "source": "Diário do Comércio",
       "sourceCanonical": "Diário do Comércio",
       "sourceDomain": "diariodocomercio.com.br",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 5,
-    "average": 4.6,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 7,
+    "average": 4.82,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 8,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
