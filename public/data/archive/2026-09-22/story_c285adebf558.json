@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZcGU2Q0VoR3R1NzhWMWpmMHJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZcGU2Q0VoR3R1NzhWMWpmMHJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 15,
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 14,
       "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 15,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Emissoras de TV dos EUA suspendem cobertura conjunta de Donald Trump",
   "summary": "Trump anunciou que proibiria o acesso de veículos à Casa Branca como punição por divulgar o que ele considera 'notícias falsas'",
@@ -28,13 +34,13 @@
     "trump",
     "casa",
     "branca",
+    "eua",
     "cobertura",
-    "suspendem",
-    "eua"
+    "imprensa"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/06/AFP__20260624__B88C6DU__v1__MidRes__UsPoliticsDefenseNato.jpg",
-  "publishedAt": "2026-09-21T10:44:00+00:00",
-  "updatedAt": "2026-09-22T08:38:19.446522+00:00",
+  "publishedAt": "2026-09-19T22:47:50+00:00",
+  "updatedAt": "2026-09-22T09:25:44.660591+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,6 +59,34 @@
       "bucket": "left"
     },
     {
+      "id": "article_f5f7a504ca8d",
+      "title": "Por que a Fox News, conhecida pelo apoio a Trump, decidiu boicotar o presidente?",
+      "description": "Fox News se une a ABC, CBS, CNN e NBC em reação ao banimento de jornalistas da Casa Branca.",
+      "url": "https://g1.globo.com/mundo/noticia/2026/09/22/por-que-a-fox-news-conhecida-pelo-apoio-a-trump-decidiu-boicotar-o-presidente.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-09-22T03:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/rxo8zSqWmWKdSg0FGrutjebve6w=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/S/wQa3apTqCHHAfCQCy5Mw/afp-20260909-c7ua9hl-v1-midres-republicannationalcommitteemidtermconvention.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_62a34ebc1cfd",
+      "title": "TV desmonta pool para cobrir Donald Trump",
+      "description": "Cinco emissoras - ABC, CBS, CNN, Fox News e NBC - encerraram a cobertura conjunta dos eventos do presidente, que na sexta-feira baniu da...",
+      "url": "https://valor.globo.com/empresas/noticia/2026/09/22/tv-desmonta-pool-para-cobrir-donald-trump.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-09-22T08:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_897ae7e76748",
       "title": "Leonardo Sakamoto: Trump repete nos EUA roteiro de ataques à imprensa visto com Bolsonaro",
       "description": "Em rara demonstração de autodefesa democrática em Washington, as principais redes de televisão dos Estados Unidos ABC, CBS, NBC, Fox e CNN,...",
@@ -67,18 +101,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_62a34ebc1cfd",
-      "title": "TV desmonta pool para cobrir Donald Trump",
-      "description": "Cinco emissoras - ABC, CBS, CNN, Fox News e NBC - encerraram a cobertura conjunta dos eventos do presidente, que na sexta-feira baniu da...",
-      "url": "https://valor.globo.com/empresas/noticia/2026/09/22/tv-desmonta-pool-para-cobrir-donald-trump.ghtml",
-      "source": "valor.globo.com",
-      "sourceCanonical": "valor.globo.com",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-09-22T08:00:00+00:00",
-      "postedLabel": "38 minutos atrás",
+      "id": "article_b2da7daa62f8",
+      "title": "Principais redes de TV dos EUA suspendem cobertura da Casa Branca",
+      "description": "Ação é em apoio a CNN, MSNBC e Politico, que estão entrando com uma ação judicial após o governo Trump banir o acesso à Casa Branca.",
+      "url": "https://www.cnnbrasil.com.br/internacional/principais-redes-de-tv-dos-eua-suspendem-cobertura-da-casa-branca/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-21T15:40:08+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_38d7c0d8c988",
@@ -90,23 +124,9 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-21T14:47:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/7YRAOYLHNRCJDMTWFV4EPURKGY.jpg?quality=80&auth=a95f859738355edf6b9d5f9df76839effa90fe489884c02980cad360296ebcdc&width=1200&height=630&focal=1215,367",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_e516817ab73b",
-      "title": "Discriminação por ponto de vista é um veneno, dizem canais banidos por Trump",
-      "description": "Processo foi iniciado após Donald Trump proibir jornalistas dos canais de TV e do site de acessarem a Casa Branca.",
-      "url": "https://www.infomoney.com.br/mundo/discriminacao-por-ponto-de-vista-e-um-veneno-dizem-canais-banidos-por-trump/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-09-21T21:54:37+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/09/2026-09-02T190526Z_1_LYNXMPEM811T9_RTROPTP_4_USA-TRUMP.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_05f02a0cc3f3",
@@ -123,17 +143,31 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9a126b4f7c30",
-      "title": "Após banir veículos da Casa Branca, Trump diz que \"fake news\" são um câncer",
-      "description": "Presidente negou estar atacando a liberdade de imprensa e alegou ameaça à segurança nacional dos EUA.",
-      "url": "https://www.cnnbrasil.com.br/internacional/apos-banir-veiculos-da-casa-branca-trump-diz-que-fake-news-sao-um-cancer/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-21T13:26:30+00:00",
+      "id": "article_aab35590e66a",
+      "title": "Veículos de imprensa dizem que vão processar Trump após serem proibidos de acessar Casa Branca",
+      "description": "As emissoras americanas CNN e MSNow, assim como o site jornalístico Politico, anunciaram nesta segunda-feira, 21, que estão entrando com uma...",
+      "url": "https://veja.abril.com.br/mundo/veiculos-de-imprensa-dizem-que-vao-processar-trump-apos-serem-proibidos-de-acessar-casa-branca/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-21T13:12:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_e516817ab73b",
+      "title": "Discriminação por ponto de vista é um veneno, dizem canais banidos por Trump",
+      "description": "Processo foi iniciado após Donald Trump proibir jornalistas dos canais de TV e do site de acessarem a Casa Branca.",
+      "url": "https://www.infomoney.com.br/mundo/discriminacao-por-ponto-de-vista-e-um-veneno-dizem-canais-banidos-por-trump/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-21T21:54:37+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -151,43 +185,15 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_de738fe46f70",
-      "title": "Emissoras boicotam cobertura da Casa Branca após Trump barrar jornalistas",
-      "description": "Principais redes de televisão dos Estados Unidos decidiram não substituir a equipe da CNN, impedida de acessar a sede do governo, no 'pool'...",
-      "url": "https://veja.abril.com.br/mundo/emissoras-boicotam-cobertura-da-casa-branca-apos-trump-barrar-jornalistas/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-21T16:31:01+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_a4b3046d2427",
-      "title": "Órgãos de imprensa vetados na Casa Branca processam governo Trump, que alega “ameaça à segurança nacional”",
-      "description": "As emissoras CNN e MS NOW e o site Politico, cujos jornalistas foram impedidos de entrar na Casa Branca por ordem do presidente americano,...",
-      "url": "https://www.gazetadopovo.com.br/mundo/orgaos-imprensa-vetados-casa-branca-processam-governo-trump/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-21T13:45:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_5c4c90dbc89e",
-      "title": "Grandes TVs deixam de transmitir evento de Trump na Casa Branca",
-      "description": "Redes de TV dos EUA boicotaram cobertura depois de presidente proibir \"CNN\", \"MS Now\" e \"Politico\" de acessarem complexo. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-midia/grandes-tvs-deixam-de-transmitir-evento-de-trump-na-casa-branca/",
+      "id": "article_3edd4817aed5",
+      "title": "Após banir veículos de imprensa, Casa Branca lança a “Trump TV”",
+      "description": "O governo dos Estados Unidos lançou, na 2ª feira (21.set.2026), o canal “Trump TV”, uma transmissão 24 horas por dia no YouTube com vídeos,...",
+      "url": "https://www.poder360.com.br/poder-midia/apos-banir-veiculos-de-imprensa-casa-branca-lanca-a-trump-tv/",
       "source": "Poder360",
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-22T02:28:46+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-09-22T07:07:59+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -221,6 +227,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_98c49585142a",
+      "title": "Televisões boicotam cobertura de Trump após expulsão de três órgãos da Casa Branca",
+      "description": "CNN, MS NOW e Politico querem levar Trump a tribunal. ABC, CBS, NBC e até a Fox recusam-se a substituir CNN na cobertura televisiva do...",
+      "url": "https://www.publico.pt/2026/09/21/mundo/noticia/televisoes-boicotam-cobertura-trump-apos-expulsao-tres-orgaos-casa-branca-2188822",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-09-21T17:21:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_df57aa986ff6",
       "title": "Trump ironiza boicote da imprensa durante reunião com prefeito de Nova York",
       "description": "Donald Trump afirmou que veículos têm obrigação de serem “justos” e chamou CNN e MS NOW de “fake news”",
@@ -233,6 +253,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8a784f84bf8b",
+      "title": "Por que Trump barrou jornalistas da Casa Branca",
+      "description": "Jornalistas do Politico, da CNN e da MS NOW tiveram o acesso à Casa Branca negado depois que o presidente dos Estados Unidos, Donald Trump,...",
+      "url": "https://www.bbc.com/portuguese/articles/cm2dw881e21xo",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-09-19T22:47:50+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a642966ad9d2",
@@ -249,14 +283,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_121a62279c9e",
-      "title": "TVs americanas suspendem cobertura da Casa Branca após Trump banir acesso de jornalistas",
-      "description": "Fox News, ABC, CBS, CNN e NBC assinaram comunicado afirmando que público tem interesse em informações precisas e indpendentes.",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/09/1264045-tvs-americanas-suspendem-cobertura-da-casa-branca-apos-trump-banir-acesso-de-jornalistas.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-09-21T20:55:50+00:00",
+      "id": "article_260be20388df",
+      "title": "CNN, MS NOW e Politico processam governo Trump por barrar acesso à Casa Branca",
+      "description": "Os veículos de comunicação CNN, MS NOW e Politico anunciaram nesta segunda-feira, 21, em comunicado conjunto, que vão processar o governo...",
+      "url": "https://www.terra.com.br/noticias/mundo/cnn-ms-now-e-politico-processam-governo-trump-por-barrar-acesso-a-casa-branca,380e4444a223d44d427f48d2b84a7eeb0k467mlg.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-21T12:13:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -277,61 +311,33 @@
       "bucket": "left"
     },
     {
-      "id": "article_67708450e582",
-      "title": "Principais emissoras de TV dos EUA suspendem cobertura conjunta de Trump em apoio à CNN",
-      "description": "As principais redes de televisão americanas anunciaram, nesta segunda-feira (21), a suspensão da cobertura compartilhada das atividades do...",
-      "url": "https://www.folhape.com.br/noticias/principais-emissoras-de-tv-dos-eua-suspendem-cobertura-conjunta-de/513821/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-09-21T15:19:00+00:00",
+      "id": "article_a4b3046d2427",
+      "title": "Órgãos de imprensa vetados na Casa Branca processam governo Trump, que alega “ameaça à segurança nacional”",
+      "description": "As emissoras CNN e MS NOW e o site Politico, cujos jornalistas foram impedidos de entrar na Casa Branca por ordem do presidente americano,...",
+      "url": "https://www.gazetadopovo.com.br/mundo/orgaos-imprensa-vetados-casa-branca-processam-governo-trump/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-21T13:45:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_2e6f6ba58b02",
-      "title": "Redes de TV suspendem cobertura de imprensa da Casa Branca",
-      "description": "ABC, CBS, CNN, Fox News e NBC boicotam cobertura conjunta do governo norte-americano em retaliação à veículos banidos pelo presidente.",
-      "url": "https://www.meioemensagem.com.br/midia/redes-de-tv-suspendem-cobertura-de-imprensa-da-casa-branca",
-      "source": "Meio e Mensagem",
-      "sourceCanonical": "Meio e Mensagem",
-      "sourceDomain": "meioemensagem.com.br",
-      "publishedAt": "2026-09-21T19:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_260be20388df",
-      "title": "CNN, MS NOW e Politico processam governo Trump por barrar acesso à Casa Branca",
-      "description": "Os veículos de comunicação CNN, MS NOW e Politico anunciaram nesta segunda-feira, 21, em comunicado conjunto, que vão processar o governo...",
-      "url": "https://www.terra.com.br/noticias/mundo/cnn-ms-now-e-politico-processam-governo-trump-por-barrar-acesso-a-casa-branca,380e4444a223d44d427f48d2b84a7eeb0k467mlg.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-21T12:13:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.24,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.22,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 10,
+      "center": 11,
       "centerRight": 4,
       "right": 0,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {

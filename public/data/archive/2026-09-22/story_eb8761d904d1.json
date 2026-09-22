@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.cdn.pleno.news/2026/09/d798d3bf193217ff507a9e26c21822d4_1722663.png",
   "publishedAt": "2026-09-14T11:22:52+00:00",
-  "updatedAt": "2026-09-22T08:33:11.314124+00:00",
+  "updatedAt": "2026-09-22T09:26:36.475488+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -166,7 +166,7 @@
       "title": "Fiz quimioterapia por 11 anos para tratar um câncer que eu não tinha",
       "description": "Becky Jones estava apenas com 21 anos quando foi informada de que tinha um tumor cerebral terminal e apenas alguns meses de vida.",
       "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/09/fiz-quimioterapia-por-11-anos-para-tratar-um-cancer-que-eu-nao-tinha.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-16T12:18:00+00:00",
@@ -174,6 +174,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_984ea60ed212",
+      "title": "Britânica passa 11 anos em quimioterapia após diagnóstico de câncer cerebral que não existia - São Carlos no",
+      "description": "O que começou como um diagnóstico de câncer cerebral aos 21 anos se transformou, mais de uma década depois, em uma descoberta que mudou...",
+      "url": "https://saocarlosnotoque.com/britanica-passa-11-anos-em-quimioterapia-apos-diagnostico-de-cancer-cerebral-que-nao-existia/",
+      "source": "saocarlosnotoque.com",
+      "sourceCanonical": "saocarlosnotoque.com",
+      "sourceDomain": "saocarlosnotoque.com",
+      "publishedAt": "2026-09-18T04:05:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_261d405421c3",
@@ -185,20 +199,6 @@
       "sourceDomain": "pordentrodetudo.com.br",
       "publishedAt": "2026-09-15T19:15:00+00:00",
       "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_984ea60ed212",
-      "title": "Britânica passa 11 anos em quimioterapia após diagnóstico de câncer cerebral que não existia - São Carlos no",
-      "description": "O que começou como um diagnóstico de câncer cerebral aos 21 anos se transformou, mais de uma década depois, em uma descoberta que mudou...",
-      "url": "https://saocarlosnotoque.com/britanica-passa-11-anos-em-quimioterapia-apos-diagnostico-de-cancer-cerebral-que-nao-existia/",
-      "source": "São Carlos no Toque",
-      "sourceCanonical": "São Carlos no Toque",
-      "sourceDomain": "saocarlosnotoque.com",
-      "publishedAt": "2026-09-18T04:05:00+00:00",
-      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -250,14 +250,14 @@
       "title": "Mulher fez quimioterapia por 11 anos após diagnóstico errado de câncer no cérebro",
       "description": "Becky Jones passou 11 anos em quimioterapia após diagnóstico errado de câncer cerebral no Reino Unido. Exames apontaram inflamação tratável.",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/mulher-quimioterapia-11-anos-diagnostico-errado-cancer-cerebral/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-14T11:22:52+00:00",
       "postedLabel": "7 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_d3e7e249f9bd",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 9,
-    "average": 5.8,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 5.17,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 3,
       "centerRight": 0,
       "right": 1,
-      "unknown": 15
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 90
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
