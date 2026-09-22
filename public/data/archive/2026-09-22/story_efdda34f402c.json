@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvdlBLQ0VoSFZFT25wRDFLaWJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvdlBLQ0VoSFZFT25wRDFLaWJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 3,
-      "topic-5": 6
+      "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Polícia investiga morte da estudante Isabelle Caracristi em Fortaleza",
   "summary": "João Munhoz Neto, namorado da universitária Isabelle Caracristi, de 22 anos, encontrada morta no pátio do condomínio onde morava com ele, em...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "isabelle",
     "morta",
+    "namorado",
     "condomínio",
-    "fortaleza",
-    "jovem",
-    "namorado"
+    "encontrada",
+    "polícia"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/MkTEwfG5C8G1-w42_ietPy1vyvg=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/e/WFjnLbRlq0DdX6kTmxsg/universitaria-e-achada-morta-no-ce.jpeg",
-  "publishedAt": "2026-09-20T14:51:04+00:00",
-  "updatedAt": "2026-09-22T18:31:43.668740+00:00",
+  "publishedAt": "2026-09-20T15:42:51+00:00",
+  "updatedAt": "2026-09-22T19:20:42.612376+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,10 +53,52 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-22T15:57:27+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/MkTEwfG5C8G1-w42_ietPy1vyvg=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/e/WFjnLbRlq0DdX6kTmxsg/universitaria-e-achada-morta-no-ce.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_2a280925ce48",
+      "title": "Polícia prende namorado de estudante de Direito encontrada morta em condomínio em Fortaleza",
+      "description": "João Munhoz Neto teve prisão preventiva cumprida nesta terça-feira (22). Defesa afirma que morte de Isabelle Caracristi foi suicídio.",
+      "url": "https://cbn.globo.com/brasil/noticia/2026/09/22/policia-prende-namorado-de-estudante-de-direito-encontrada-morta-em-condominio-em-fortaleza.ghtml",
+      "source": "cbn.globo.com",
+      "sourceCanonical": "cbn.globo.com",
+      "sourceDomain": "cbn.globo.com",
+      "publishedAt": "2026-09-22T18:59:24+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_0fe6ae38c7a6",
+      "title": "Carlos Madeiro: Sumiço e bloqueio: quem é o namorado de Isabelle, jovem morta em Fortaleza",
+      "description": "A Polícia Civil do Ceará tenta há três dias localizar, sem sucesso, o bacharel em direito João Munhoz Neto, 34, namorado da universitária...",
+      "url": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/22/sumico-e-bloquio-quem-era-o-namorado-de-isabelle-jovem-morta-em-fortaleza.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-09-22T12:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_a3c5cc753ed7",
+      "title": "Caso Isabelle: como foi o depoimento de João Munhoz Neto",
+      "description": "Bacharel em Direito, João chegou à sede da DHPP, na avenida Aguanambi, em Fortaleza, por volta das 19 horas, depois de uma mudança do local...",
+      "url": "https://mais.opovo.com.br/colunistas/henrique-araujo/2026/09/22/caso-isabelle-como-foi-o-depoimento-de-joao-munhoz-neto.html",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-09-22T16:07:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/09/22/joao_munhoz_neto_suspeito_morte_isabelle-42580990.jpeg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_4e8b63418f11",
@@ -67,46 +115,32 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0fe6ae38c7a6",
-      "title": "Carlos Madeiro: Sumiço e bloqueio: quem é o namorado de Isabelle, jovem morta em Fortaleza",
-      "description": "A Polícia Civil do Ceará tenta há três dias localizar, sem sucesso, o bacharel em direito João Munhoz Neto, 34, namorado da universitária...",
-      "url": "https://noticias.uol.com.br/colunas/carlos-madeiro/2026/09/22/sumico-e-bloquio-quem-era-o-namorado-de-isabelle-jovem-morta-em-fortaleza.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-22T08:30:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_f7ef0b17c7f1",
+      "title": "Caso Isabelle: namorado de estudante é preso preventivamente após morte em prédio",
+      "description": "A Polícia Civil do Ceará prendeu preventivamente João Munhoz Neto, namorado da estudante de direito Isabelle Caracristi, que foi encontrada...",
+      "url": "https://record.r7.com/balanco-geral/video/caso-isabelle-namorado-de-estudante-e-preso-preventivamente-apos-morte-em-predio-22092026/",
+      "source": "record.r7.com",
+      "sourceCanonical": "record.r7.com",
+      "sourceDomain": "record.r7.com",
+      "publishedAt": "2026-09-22T18:36:38+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
-      "id": "article_a3c5cc753ed7",
-      "title": "Caso Isabelle: como foi o depoimento de João Munhoz Neto",
-      "description": "Bacharel em Direito, João chegou à sede da DHPP, na avenida Aguanambi, em Fortaleza, por volta das 19 horas, depois de uma mudança do local...",
-      "url": "https://mais.opovo.com.br/colunistas/henrique-araujo/2026/09/22/caso-isabelle-como-foi-o-depoimento-de-joao-munhoz-neto.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-09-22T16:07:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/09/22/joao_munhoz_neto_suspeito_morte_isabelle-42580990.jpeg",
+      "id": "article_d74e5ccc4785",
+      "title": "Isabelle Caracristi descobriu durante o namoro que João Munhoz Neto era casado",
+      "description": "Ele se separou em agosto deste ano, durante o relacionamento com a universitária. Ex-esposa morava no condomínio La Piazza.",
+      "url": "https://diariodonordeste.verdesmares.com.br/seguranca/isabelle-caracristi-descobriu-durante-o-namoro-que-joao-munhoz-neto-era-casado-1.3793166",
+      "source": "Diário do Nordeste",
+      "sourceCanonical": "Diário do Nordeste",
+      "sourceDomain": "diariodonordeste.verdesmares.com.br",
+      "publishedAt": "2026-09-22T18:57:18+00:00",
+      "postedLabel": "23 minutos atrás",
+      "imageUrl": "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3793204:1790089091/casamento-joao-munhoz-neto.webp?f=16x9&h=720&w=1280&$p$f$h$w=c39d893",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_41edd733563a",
-      "title": "Caso Isabelle: mãe da jovem questiona falta de comunicação após morte da filha",
-      "description": "Isorlanda Caracristi afirmou que não foi comunicada sobre a morte e precisou buscar informações por conta própria.",
-      "url": "https://record.r7.com/cidade-alerta/video/caso-isabelle-mae-da-jovem-questiona-falta-de-comunicacao-apos-morte-da-filha-21092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "record.r7.com",
-      "publishedAt": "2026-09-21T21:39:30+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F09-21-2026%2Ft_ca4c9e8cb3464d3abeb3c3d1138cfa91_name_file_960x540_1600_v4_.jpg?smart=true&auth=e7ccac295b331367b41db676d0e53720c7ae51575ae5a02b34bfd63dd4ea21ce&width=1200&height=630",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_ef9abf626f22",
@@ -123,18 +157,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_bab589074c78",
-      "title": "Perícia descartou gravidez da universitária Isabelle Caracristi, dizem advogadas da família",
-      "description": "A universitária Isabelle Caracristi, de 22 anos, não estava grávida quando morreu. Perícias foram feitas no corpo da jovem e a gestação foi...",
-      "url": "https://diariodonordeste.verdesmares.com.br/seguranca/pericia-descartou-gravidez-da-universitaria-isabelle-caracristi-dizem-advogadas-da-familia-1.3793107",
-      "source": "Diário do Nordeste",
-      "sourceCanonical": "Diário do Nordeste",
-      "sourceDomain": "diariodonordeste.verdesmares.com.br",
-      "publishedAt": "2026-09-21T23:36:09+00:00",
-      "postedLabel": "hoje",
+      "id": "article_989c0cf7a387",
+      "title": "Caso Isabelle: os passos da polícia do Ceará para esclarecer morte da jovem",
+      "description": "O namorado, João Munhoz Neto, é procurado pela polícia; sogra da estudante foi alvo de busca e apreensão.",
+      "url": "https://veja.abril.com.br/brasil/caso-isabelle-os-passos-da-policia-do-ceara-para-esclarecer-morte-da-jovem/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-21T15:03:50+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_aaa4c88d4285",
@@ -151,20 +185,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_e1c65dea10af",
-      "title": "No Ceará, a luta de uma mãe por esclarecer a morte da filha",
-      "description": "A professora Isorlanda Caracristi cobra respostas para a morte de Isabelle, de 22 anos, no endereço onde vivia com o namorado, João Munhoz.",
-      "url": "https://veja.abril.com.br/brasil/no-ceara-a-luta-de-uma-mae-por-esclarecer-a-morte-da-filha/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-20T14:51:04+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_957984f181ee",
       "title": "Câmeras registram últimos momentos de jovem antes de ser encontrada morta em Fortaleza #shorts",
       "description": "Isabelle Caracristi, de 22 anos, foi encontrada morta no domingo (13), na área externa do condomínio onde morava. Imagens de câmeras de...",
@@ -179,32 +199,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_adcc3675e74c",
+      "title": "Isabelle Caracristi: Polícia prende namorado de jovem encontrada morta em condomínio",
+      "description": "João Munhoz Neto foi detido no bairro Aldeota, na capital cearense.",
+      "url": "https://www.cartacapital.com.br/sociedade/isabelle-caracristi-policia-prende-namorado-de-jovem-encontrada-morta-em-condominio/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-22T18:49:00+00:00",
+      "postedLabel": "31 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_0a1531d88724",
       "title": "Polícia prende namorado de jovem encontrada morta em condomínio de Fortaleza",
       "description": "João Munhoz Neto, 33 anos, foi detido por suspeita de ameaça e indução ao suicídio ou automutilação.",
       "url": "https://gauchazh.clicrbs.com.br/viral/noticia/2026/09/policia-prende-namorado-de-jovem-encontrada-morta-em-condominio-de-fortaleza-cmucxwr3300kh014xtzcn3dhz.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
+      "source": "gauchazh.clicrbs.com.br",
+      "sourceCanonical": "gauchazh.clicrbs.com.br",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-22T17:37:30+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_1b1dde8893ee",
-      "title": "Isabelle Caracristi: polícia pede quebra de sigilo telefônico de namorado",
-      "description": "Enquanto perícia analisa celulares apreendidos e busca paradeiro do namorado, mãe da estudante desabafa e cobra sobre a morte da filha.",
-      "url": "https://www.metropoles.com/distrito-federal/na-mira/isabelle-caracristi-policia-pede-quebra-de-sigilo-telefonico-de-namorado",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-22T06:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_46e2bc5c06ba",
@@ -218,6 +238,20 @@
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_1b1dde8893ee",
+      "title": "Isabelle Caracristi: polícia pede quebra de sigilo telefônico de namorado",
+      "description": "Em uma corrida contra o tempo para esclarecer as circunstâncias da morte da estudante de direito Isabelle Caracristi, aos 22 anos, a Polícia...",
+      "url": "https://www.metropoles.com/distrito-federal/na-mira/isabelle-caracristi-policia-pede-quebra-de-sigilo-telefonico-de-namorado",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-22T06:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -235,32 +269,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_b02abb92f3f0",
-      "title": "Isabelle Caracristi: o que se sabe sobre a morte da jovem no condomínio onde morava com o namorado em Fortaleza",
-      "description": "A Polícia do Ceará investiga a morte da estudante de direito Isabelle Caracristi, de 22 anos, encontrada morta no prédio onde morava com o...",
-      "url": "https://www.cartacapital.com.br/sociedade/isabelle-caracristi-o-que-se-sabe-sobre-a-morte-da-jovem-no-condominio-onde-morava-com-o-namorado-em-fortaleza/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-21T14:42:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_eed6d9b32ee8",
+      "title": "Caso Isabelle Caracristi: namorado é preso após morte de estudante",
+      "description": "Isabelle foi encontrada sem vida no pátio do condomínio onde morava com João e familiares dele.",
+      "url": "https://www.correiobraziliense.com.br/brasil/2026/09/7505874-caso-isabelle-caracristi-namorado-e-preso-apos-morte-de-estudante.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-22T17:26:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_515dd7decea7",
       "title": "Estudante é encontrada morta em condomínio onde morava com namorado em Fortaleza; irmão diz que ela estava grávida",
       "description": "A estudante universitária Isabelle Caracristi, de 22 anos, foi encontrada morta no condomínio onde morava com o namorado em Fortaleza,...",
       "url": "https://tribunadonorte.com.br/policia/estudante-e-encontrada-morta-em-condominio-onde-morava-com-namorado-ela-estava-gravida-segundo-irmao/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
+      "source": "tribunadonorte.com.br",
+      "sourceCanonical": "tribunadonorte.com.br",
       "sourceDomain": "tribunadonorte.com.br",
       "publishedAt": "2026-09-21T19:33:55+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5b2fb933beba",
@@ -289,49 +323,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_bf0071b23479",
-      "title": "Advogada da família de estudante de Direito morta em condomínio nega gravidez: “Descartada”",
-      "description": "Namorado da jovem ainda é procurado para prestar esclarecimentos.",
-      "url": "https://www.correio24horas.com.br/brasil/advogada-da-familia-de-estudante-de-direito-morta-em-condominio-nega-gravidez-descartada-0926",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
-      "sourceDomain": "correio24horas.com.br",
-      "publishedAt": "2026-09-22T13:08:44+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_faa129058f6f",
-      "title": "De Grazi a Gil, famosos repercutem morte de jovem no prédio do namorado em Fortaleza: 'Que essa mãe tenha respostas'",
-      "description": "Famosos como Grazi Massafera, Gil do Vigor, Fernanda Lima, Camila Pitanga e Glória Pires comentaram nas redes a morte de Isabelle Caracristi...",
-      "url": "https://oglobo.globo.com/brasil/noticia/2026/09/22/de-grazi-a-gil-famosos-repercutem-morte-de-jovem-no-predio-do-namorado-em-fortaleza-que-essa-mae-tenha-respostas.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-09-22T06:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.18,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 4.92,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
-      "centerLeft": 2,
-      "center": 11,
-      "centerRight": 3,
+      "centerLeft": 3,
+      "center": 7,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 3
+      "unknown": 7
     }
   },
   "scores": {
@@ -343,6 +349,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
