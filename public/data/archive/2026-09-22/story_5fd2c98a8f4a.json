@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 27
+      "topic-5": 24
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/zmWXHFdsEvlMxDZ3eeJMemuEaXs=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/s/B/z6efTURGWjZi05wm9V0Q/montagemlula-flavio.jpg",
   "publishedAt": "2026-09-19T16:48:00+00:00",
-  "updatedAt": "2026-09-22T03:36:09.837704+00:00",
+  "updatedAt": "2026-09-22T04:33:46.791947+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -106,20 +106,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_b2f678a52583",
-      "title": "PT pede 20 direitos de resposta no TSE contra Flávio e PL no Instagram",
-      "description": "A chapa do presidente Luiz Inácio Lula da Silva (PT) acionou o Tribunal Superior Eleitoral com 20 pedidos de direito de resposta para conter...",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/pt-pede-20-direitos-de-resposta-no-tse-contra-flavio-e-pl-no-instagram/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-21T07:15:12+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_94a955f0f414",
       "title": "Lula pede cassação de Flávio Bolsonaro por posts colaborativos e vendas de produtos",
       "description": "A coligação de Lula (PT) acionou o Tribunal Superior Eleitoral (TSE) para pedir a cassação da chapa de Flávio Bolsonaro (PL).",
@@ -132,6 +118,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_b2f678a52583",
+      "title": "PT pede 20 direitos de resposta no TSE contra Flávio e PL no Instagram",
+      "description": "A chapa do presidente Luiz Inácio Lula da Silva (PT) acionou o Tribunal Superior Eleitoral com 20 pedidos de direito de resposta para conter...",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/pt-pede-20-direitos-de-resposta-no-tse-contra-flavio-e-pl-no-instagram/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-09-21T07:15:12+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_fa4067580886",
@@ -166,14 +166,14 @@
       "title": "Campanha de Lula aciona TSE contra rede de desinformação do PL e Flávio Bolsonaro",
       "description": "247 – A Coligação “Brasil Pronto Pra Mais”, responsável pela candidatura da chapa composta pelo presidente Lula (PT) e Geraldo Alckmin (PSB)...",
       "url": "https://www.brasil247.com/brasil/campanha-de-lula-aciona-tse-contra-rede-de-desinformacao-do-pl-e-flavio-bolsonaro/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-21T09:58:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_af4f1ccd2a5e",
@@ -208,14 +208,14 @@
       "title": "Caiu com Mendonça",
       "description": "O ministro André Mendonça, vice-presidente do Tribunal Superior Eleitoral, foi sorteado relator de uma representação da coligação Brasil...",
       "url": "https://obastidor.com.br/politica/de-novo-mendonca/",
-      "source": "O Bastidor",
-      "sourceCanonical": "O Bastidor",
+      "source": "obastidor.com.br",
+      "sourceCanonical": "obastidor.com.br",
       "sourceDomain": "obastidor.com.br",
       "publishedAt": "2026-09-21T16:54:43+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8d9cff047bda",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 10,
-    "average": 4.93,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.25,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 4,
+      "left": 3,
       "centerLeft": 0,
-      "center": 8,
+      "center": 7,
       "centerRight": 1,
       "right": 1,
-      "unknown": 6
+      "unknown": 8
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [

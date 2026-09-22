@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p3XzlxQUVoRWxEVmNsUVQxejZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p3XzlxQUVoRWxEVmNsUVQxejZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 3,
+      "topic-5": 9
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "‘Você tem sido uma luz’, diz prefeito de Nova York a Lula",
   "summary": "Nova York — Zohran Mamdani quis se encontrar com Lula. O dado, por si só, ajuda a explicar o peso simbólico da reunião desta segunda-feira...",
@@ -24,15 +33,15 @@
   "topicKeywords": [
     "lula",
     "onu",
+    "assembleia",
     "prefeito",
     "york",
-    "assembleia",
-    "trump"
+    "geral"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/LM.jpg",
   "publishedAt": "2026-09-21T09:02:50+00:00",
-  "updatedAt": "2026-09-22T03:30:23.401343+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-09-22T04:27:46.371329+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -50,31 +59,31 @@
       "bucket": "left"
     },
     {
-      "id": "article_34a2df6ae1e0",
-      "title": "Guerras, soberania e democracia: Lula quer fazer contraponto a Trump em abertura de assembleia da ONU",
-      "description": "Auxiliares de Lula tentam estabelecer oposição entre os dois ao antecipar fala do americano, que discursa logo depois de presidente...",
-      "url": "https://g1.globo.com/politica/noticia/2026/09/22/guerras-soberania-e-democracia-lula-quer-fazer-contraponto-a-trump-em-abertura-de-assembleia-da-onu.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-22T03:00:00+00:00",
-      "postedLabel": "30 minutos atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/icf-NBYm7us07fkeQmqfTIsq97w=/3391x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/t/J/ahBvWoTIAaGwGeXVj4Ag/2025-09-23t135720z-1204269605-rc2pxgax1d7e-rtrmadp-3-un-assembly.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_ae64a0828d60",
       "title": "'Encolham a ONU': organização fará apelo por sua própria sobrevivência na Assembleia Geral que começa hoje",
       "description": "Organização tem sido alvo de ataques e cortes de financiamento, principalmente pelos EUA. Assembleia Geral começa nesta terça (22).",
       "url": "https://g1.globo.com/mundo/noticia/2026/09/22/encolham-a-onu-organizacao-fara-apelo-por-sua-propria-sobrevivencia-na-assembleia-geral-que-comeca-hoje.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-22T03:00:00+00:00",
-      "postedLabel": "30 minutos atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/YOwq9JCZBZxi0sEzx2XhfbPnVEk=/5000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/i/TYhKHWRYeEeoDWFmNJbQ/2026-09-21t161753z-580613756-rc2rnnacfvu1-rtrmadp-3-un-assembly-security.jpg",
-      "spectrumScore": 5,
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_094f35cc86b7",
+      "title": "UPDATE 1: Antes da Assembleia da ONU, Lula se reúne com líderes de esquerda e debate extremismo",
+      "description": "Na véspera da abertura da Assembleia Geral da ONU, o presidente Luiz Inácio Lula da Silva passou o primeiro dia de sua agenda em Nova York...",
+      "url": "https://valor.globo.com/brasil/noticia/2026/09/22/update-1-antes-da-assembleia-da-onu-lula-se-rene-com-lderes-de-esquerda-e-debate-extremismo.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-09-22T03:56:26+00:00",
+      "postedLabel": "31 minutos atrás",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -96,28 +105,28 @@
       "title": "Mamdani diz que Lula é sua ‘inspiração’, e presidente o convida a visitar o Brasil",
       "description": "Petista se reuniu com o prefeito de Nova York antes de participar da Assembleia-Geral da ONU na terça.",
       "url": "https://www.estadao.com.br/internacional/mamdani-diz-que-lula-e-sua-inspiracao-e-presidente-o-convida-a-visitar-o-brasil/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-21T17:47:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/TAPGNUCPVBBJ7OU27DVC3MCDJI.jpg?quality=80&auth=58402a08fb83bc54d97eafa038377248dcb1c461ab598011b89d9f4a6a950aa4&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
-      "id": "article_3ad8392320a4",
-      "title": "Relembre a 'química' entre Lula e Trump na Assembleia Geral da ONU em 2025 e como ela desandou desde então",
-      "description": "Encontro dos presidentes em Nova York durou pouco, mas foi um ponto de virada na relação entre os dois chefes de Estado.",
-      "url": "https://g1.globo.com/mundo/noticia/2026/09/22/relembre-a-quimica-entre-lula-e-trump-na-assembleia-geral-da-onu-em-2025-e-como-ela-desandou-desde-entao.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
+      "id": "article_18443d130603",
+      "title": "Em NY, Lula abre Assembleia da ONU com foco em soberania e de olho nas eleições",
+      "description": "Em meio a tentativa de interferência de Donald Trump, presidente brasileiro deve cobrar respeito à não interferência e abordar temas como...",
+      "url": "https://g1.globo.com/jornal-da-globo/video/em-ny-lula-abre-assembleia-da-onu-com-foco-em-soberania-e-de-olho-nas-eleicoes-14982409.ghtml",
+      "source": "g1.globo.com",
+      "sourceCanonical": "g1.globo.com",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-22T03:00:00+00:00",
-      "postedLabel": "30 minutos atrás",
+      "publishedAt": "2026-09-22T03:36:25+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_06de5058c5b3",
@@ -129,7 +138,7 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-21T09:02:50+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/06/janja-lula-brasil-1.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -143,7 +152,7 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-21T20:15:46+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/LULA-MAMDANI.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -162,6 +171,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_1e9fdee8422e",
+      "title": "O que esperar da Assembleia Geral da ONU, que terá discursos de Lula e Trump",
+      "description": "Chefes de Estado, ministros, diplomatas e autoridades de diversos países estarão reunidos em Nova York a partir da próxima terça-feira.",
+      "url": "https://veja.abril.com.br/mundo/o-que-esperar-da-assembleia-geral-da-onu-que-tera-discursos-de-lula-e-trump/",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-21T18:55:47+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_1d23e13e1823",
+      "title": "Enquanto Lula falará de “soberania”, Trump deve abordar Irã e críticas à ONU na Assembleia Geral",
+      "description": "Com Brasil e Estados Unidos por tradição abrindo os discursos do debate de líderes de governo e Estado da Assembleia Geral da ONU,...",
+      "url": "https://www.gazetadopovo.com.br/mundo/que-esperar-discursos-lula-trump-onu/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-22T00:36:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_127651ebd2bc",
       "title": "Líderes se reúnem na ONU em meio a guerras, IA questionada e choques climáticos",
       "description": "Na pauta da Assembleia Geral também estão aquecimento global, avanço das desigualdades dentro e entre países e choques na economia mundial;...",
@@ -176,32 +213,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_1e9fdee8422e",
-      "title": "O que esperar da Assembleia Geral da ONU, que terá discursos de Lula e Trump",
-      "description": "Chefes de Estado, ministros, diplomatas e autoridades de diversos países estarão reunidos em Nova York a partir da próxima terça-feira.",
-      "url": "https://veja.abril.com.br/mundo/o-que-esperar-da-assembleia-geral-da-onu-que-tera-discursos-de-lula-e-trump/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-21T18:55:47+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_1453f047e99a",
       "title": "Um dia antes de discursar na ONU, Lula conversa com prefeito de Nova York sobre fim da escala 6x1",
       "description": "No jornal digital GZH, você encontra as últimas notícias do RS e do mundo, tudo sobre o seu time e muitos outros conteúdos exclusivos.",
       "url": "https://gauchazh.clicrbs.com.br/colunistas/rodrigo-lopes/noticia/2026/09/um-dia-antes-de-discursar-na-onu-lula-conversa-com-prefeito-de-nova-york-sobre-fim-da-escala-6x1-cmubrnkhe00bw013ewzmzvtlx.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
+      "source": "gauchazh.clicrbs.com.br",
+      "sourceCanonical": "gauchazh.clicrbs.com.br",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-21T21:42:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_347034e4831c",
+      "title": "O que presidentes em busca da reeleição disseram na ONU",
+      "description": "Luiz Inácio Lula da Silva abre os discursos da Assembleia-Geral das Nações Unidas, em Nova York. Pronunciamento ocorre a duas semanas do...",
+      "url": "https://www.nexojornal.com.br/expresso/2026/09/21/reeleicao-lula-na-onu-discursos-fhc-dilma-bolsonaro",
+      "source": "Nexo Jornal",
+      "sourceCanonical": "Nexo Jornal",
+      "sourceDomain": "nexojornal.com.br",
+      "publishedAt": "2026-09-21T22:56:43+00:00",
       "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_e2846ff10d0f",
@@ -218,18 +255,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_347034e4831c",
-      "title": "O que presidentes em busca da reeleição disseram na ONU",
-      "description": "Luiz Inácio Lula da Silva abre os discursos da Assembleia-Geral das Nações Unidas, em Nova York. Pronunciamento ocorre a duas semanas do...",
-      "url": "https://www.nexojornal.com.br/expresso/2026/09/21/reeleicao-lula-na-onu-discursos-fhc-dilma-bolsonaro",
-      "source": "Nexo Jornal",
-      "sourceCanonical": "Nexo Jornal",
-      "sourceDomain": "nexojornal.com.br",
-      "publishedAt": "2026-09-21T22:56:43+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_cd10ee71286e",
+      "title": "Discurso de Lula na ONU não garante mudanças práticas frente a pressões dos EUA, avalia especialista",
+      "description": "Ricardo Leães minimiza importância de fala de Lula e defende que é mais importante uma ação direta do que discurso…",
+      "url": "https://www.brasildefato.com.br/2026/09/21/discurso-de-lula-na-onu-nao-garante-mudancas-praticas-frente-a-pressoes-dos-eua-avalia-especialista/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-09-22T00:52:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_175f03bf1335",
@@ -246,60 +283,18 @@
       "bucket": "right"
     },
     {
-      "id": "article_7c200d84da67",
-      "title": "‘Políticas sociais, comércio e democracia’, diz Lula sobre reuniões com Mamdani, Orsi e Sanders",
-      "description": "A agenda antecede o discurso do presidente na abertura do debate geral da Assembleia Geral da ONU.",
-      "url": "https://www.brasil247.com/poder/politicas-sociais-comercio-e-democracia-diz-lula-sobre-reunioes-com-mamdani-orsi-e-sanders/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-22T01:33:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
-      "id": "article_ecb76824c2c9",
-      "title": "Lula encontra senador e prefeito de Nova York socialistas em viagem aos EUA",
-      "description": "Presidente petista tem encontros marcados com Bernie Sanders, Zohran Mamdani e novo presidente do Uruguai antes de discurso na ONU.",
-      "url": "https://www.gazetadopovo.com.br/republica/lula-encontra-senador-prefeito-nova-york-socialistas-viagem-eua/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-21T12:31:00+00:00",
+      "id": "article_e0fc64c3c058",
+      "title": "Assembleia Geral da ONU e os desafios da diplomacia",
+      "description": "Com 193 Estados-membros, a ONU é um dos poucos espaços em que adversários continuam dividindo o mesmo plenário.",
+      "url": "https://www.jornaldocomercio.com/editorial/2026/09/1263998-assembleia-geral-da-onu-e-os-desafios-da-diplomacia.html",
+      "source": "jornaldocomercio.com",
+      "sourceCanonical": "jornaldocomercio.com",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-09-21T21:30:50+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_cd10ee71286e",
-      "title": "Discurso de Lula na ONU não garante mudanças práticas frente a pressões dos EUA, avalia especialista",
-      "description": "Ricardo Leães minimiza importância de fala de Lula e defende que é mais importante uma ação direta do que discurso…",
-      "url": "https://www.brasildefato.com.br/2026/09/21/discurso-de-lula-na-onu-nao-garante-mudancas-praticas-frente-a-pressoes-dos-eua-avalia-especialista/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-09-22T00:52:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_4700eeda828d",
-      "title": "Governo leva mais de 70 pessoas com Lula para a Assembleia da ONU",
-      "description": "A comitiva do presidente Luiz Inácio Lula da Silva e a estrutura mobilizada pelo governo federal para a passagem do presidente por Nova York...",
-      "url": "https://revistaoeste.com/no-ponto/comitiva-de-lula-nova-york-onu/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-09-22T00:36:50+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e9172b58d357",
@@ -314,32 +309,47 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_14aa2f7d9ef6",
+      "title": "Nos EUA, Lula se reúne com prefeito de Nova York e presidente uruguaio",
+      "description": "Lula está em Nova York para participar da 81º Assembleia Geral da ONU.",
+      "url": "https://sul21.com.br/noticias/politica/2026/09/nos-eua-lula-se-reune-com-prefeito-de-nova-york-e-presidente-uruguaio/",
+      "source": "Sul 21",
+      "sourceCanonical": "Sul 21",
+      "sourceDomain": "sul21.com.br",
+      "publishedAt": "2026-09-21T20:20:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
-    "max": 10,
-    "average": 5.38,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "min": 2,
+    "max": 9,
+    "average": 5.22,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 3,
+      "left": 2,
       "centerLeft": 1,
-      "center": 7,
-      "centerRight": 3,
-      "right": 2,
-      "unknown": 4
+      "center": 4,
+      "centerRight": 1,
+      "right": 1,
+      "unknown": 11
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
