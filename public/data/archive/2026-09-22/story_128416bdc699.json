@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 14
+      "topic-7": 17
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenRank": 17,
+    "bestSeedRank": 17,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/7RKW35BOINFWPI6F2HYRVDLKQM.jpeg?quality=80&auth=4c26d4b203be206c7099c815831fda2348c8cc947f06fa9b804c13ab6b6a2768&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-20T21:50:28+00:00",
-  "updatedAt": "2026-09-22T04:39:25.623625+00:00",
+  "updatedAt": "2026-09-22T05:33:34.869180+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Venezuelano ferido pelo ICE no Texas está detido com bala no corpo, diz advogada",
       "description": "Venezuelano baleado por agente de imigração americano no Texas permanece detido, com bala alojada no corpo e sem atendimento médico adequado...",
       "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/09/21/venezuelano-ferido-pelo-ice-no-texas-esta-detido-com-bala-no-corpo-denuncia-advogada.htm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-21T19:27:20+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_36255c55a1c8",
@@ -96,14 +96,14 @@
       "title": "Ainda estou com a bala aqui dentro, relata imigrante detido pelo ICE nos EUA",
       "description": "O venezuelano Wilber Garcés percorria as ruas de Austin, no Texas, para fazer uma entrega. Trabalhava como entregador usando seu próprio...",
       "url": "https://www.folhape.com.br/noticias/ainda-estou-com-a-bala-aqui-dentro-relata-imigrante-detido-pelo-ice/513950/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-22T00:00:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "postedLabel": "5 horas atrás",
+      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/09/1790035042.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_2745e02e8139",
@@ -129,7 +129,7 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-21T19:45:54+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/09/homem-venezuelano-ice-austin-texas-1200x675.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -222,8 +222,8 @@
       "title": "Agente do ICE baleia homem durante operação no Texas",
       "description": "Um agente do ICE baleou um homem em Austin. Descubra detalhes sobre o incidente e as investigações em andamento.",
       "url": "https://www.plataformamedia.com/2026/09/21/agente-do-ice-baleia-homem-durante-operacao-no-texas/",
-      "source": "plataformamedia.com",
-      "sourceCanonical": "plataformamedia.com",
+      "source": "Plataforma Media",
+      "sourceCanonical": "Plataforma Media",
       "sourceDomain": "plataformamedia.com",
       "publishedAt": "2026-09-21T14:26:06+00:00",
       "postedLabel": "hoje",
@@ -264,8 +264,8 @@
       "title": "Agente do ICE atira e fere homem em Austin, no Texas, e autoridades pedem investigação",
       "description": "Venezuelano de 28 anos foi baleado durante uma ação de agentes de imigração; autoridades locais cobram transparência e investigação...",
       "url": "https://www.gazetanews.com/imigracao/2026/09/522162-agente-do-ice-atira-e-fere-homem-em-austin-no-texas-e-autoridades-pedem-investigacao.html",
-      "source": "Gazeta Brazilian News",
-      "sourceCanonical": "Gazeta Brazilian News",
+      "source": "gazetanews.com",
+      "sourceCanonical": "gazetanews.com",
       "sourceDomain": "gazetanews.com",
       "publishedAt": "2026-09-21T10:39:22+00:00",
       "postedLabel": "hoje",
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.83,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 4.75,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 4,
+      "centerLeft": 1,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 14
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
-    "confidence": 93
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
