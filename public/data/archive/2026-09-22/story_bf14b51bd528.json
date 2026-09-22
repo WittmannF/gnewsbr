@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 15
+      "topic-7": 21
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 15,
-    "bestSeedRank": 15,
+    "firstSeenRank": 21,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +27,11 @@
     "ataques",
     "russos",
     "ataque",
-    "drones"
+    "kiev"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/29a1/live/446ff8b0-a1fe-11f1-a97e-999c5aae08bf.jpg",
   "publishedAt": "2026-09-19T19:19:04+00:00",
-  "updatedAt": "2026-09-22T15:36:14.055783+00:00",
+  "updatedAt": "2026-09-22T16:42:13.223067+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-22T10:46:42+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -142,7 +142,7 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-22T10:26:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -152,14 +152,14 @@
       "title": "Rússia mata quatro pessoas em ataques à Ucrânia antes de reunião entre Trump e Zelenskiy",
       "description": "A Rússia matou quatro pessoas em ataques ao coração industrial da ‌Ucrânia durante a madrugada, ...",
       "url": "https://www.terra.com.br/noticias/mundo/russia-mata-quatro-pessoas-em-ataques-a-ucrania-antes-de-reuniao-entre-trump-e-zelenskiy,a6debd7efa799238b708b7809e237dcezudwy6r0.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-22T13:43:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ac020b0490a0",
@@ -180,14 +180,14 @@
       "title": "Ataque de drone russo mata mãe e seus dois filhos na região de Kiev",
       "description": "Rússia tem atacado continuamente capital da Ucrânia e arredores nas últimas semanas.",
       "url": "https://www.cnnbrasil.com.br/internacional/ataque-de-drone-russo-mata-mae-e-seus-dois-filhos-na-regiao-de-kiev/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-20T06:09:46+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ce4ba6590bad",
@@ -199,6 +199,20 @@
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-09-20T22:59:18+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_95ea07604dd1",
+      "title": "Pelo menos quatro mortos em ataque russo em Dnipro",
+      "description": "Entre segunda e terça-feira, as forças ucranianas atingiram duas refinarias russas, em Ufa e Samara. O ataque fez um morto e quatro feridos.",
+      "url": "https://www.nowcanal.pt/mundo/detalhe/pelo-menos-quatro-mortos-em-ataque-russo-em-dnipro",
+      "source": "Now Canal",
+      "sourceCanonical": "Now Canal",
+      "sourceDomain": "nowcanal.pt",
+      "publishedAt": "2026-09-22T10:56:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -218,20 +232,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_95ea07604dd1",
-      "title": "Pelo menos quatro mortos em ataque russo em Dnipro",
-      "description": "Entre segunda e terça-feira, as forças ucranianas atingiram duas refinarias russas, em Ufa e Samara. O ataque fez um morto e quatro feridos.",
-      "url": "https://www.nowcanal.pt/mundo/detalhe/pelo-menos-quatro-mortos-em-ataque-russo-em-dnipro",
-      "source": "Now Canal",
-      "sourceCanonical": "Now Canal",
-      "sourceDomain": "nowcanal.pt",
-      "publishedAt": "2026-09-22T10:56:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_018b6ab1ae1d",
       "title": "Centro logístico e estação de gás da indústria militar ucraniana são atingidos na região de Kiev",
       "description": "Ataques russos miram infraestrutura militar em Kiev e no Porto de Odessa.",
@@ -240,6 +240,20 @@
       "sourceCanonical": "Tribuna do Sertão",
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-09-21T07:03:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_1eb911f1ef3d",
+      "title": "Putin intensifica ataques à Ucrânia após reforçar controlo parlamentar",
+      "description": "Para o núcleo duro do Presidente russo, eleições legitimam uma guerra sem tréguas. O Ministério da Defesa diz que os ucranianos lançaram...",
+      "url": "https://sicnoticias.pt/especiais/guerra-russia-ucrania/2026-09-21-video-putin-intensifica-ataques-a-ucrania-apos-reforcar-controlo-parlamentar-63ca8ccd",
+      "source": "SIC Notícias",
+      "sourceCanonical": "SIC Notícias",
+      "sourceDomain": "sicnoticias.pt",
+      "publishedAt": "2026-09-21T12:59:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -260,20 +274,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_1eb911f1ef3d",
-      "title": "Putin intensifica ataques à Ucrânia após reforçar controlo parlamentar",
-      "description": "Para o núcleo duro do Presidente russo, eleições legitimam uma guerra sem tréguas. O Ministério da Defesa diz que os ucranianos lançaram...",
-      "url": "https://sicnoticias.pt/especiais/guerra-russia-ucrania/2026-09-21-video-putin-intensifica-ataques-a-ucrania-apos-reforcar-controlo-parlamentar-63ca8ccd",
-      "source": "SIC Notícias",
-      "sourceCanonical": "SIC Notícias",
-      "sourceDomain": "sicnoticias.pt",
-      "publishedAt": "2026-09-21T12:59:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_1c644e06f240",
       "title": "Pelo menos cinco pessoas morreram após ataques russos em Dnipro e Mykolaiv",
       "description": "Pelo menos cinco pessoas morreram em ataques noturnos russos a Dnipro, uma grande cidade no centro-leste da Ucrânia, e em Mykolaiv,...",
@@ -282,7 +282,7 @@
       "sourceCanonical": "Jornal de Notícias",
       "sourceDomain": "jn.pt",
       "publishedAt": "2026-09-22T11:34:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -302,14 +302,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_bf3346ce43c2",
-      "title": "Rússia atinge com drones um navio cargueiro e armazéns de armas na Ucrânia, relata Defesa russa",
-      "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
-      "url": "https://www.tribunadoagreste.com.br/geral/2026/09/20/982110-russia-atinge-com-drones-um-navio-cargueiro-e-armazens-de-armas-na-ucrania-relata-defesa-russa",
-      "source": "Tribuna do Agreste",
-      "sourceCanonical": "Tribuna do Agreste",
-      "sourceDomain": "tribunadoagreste.com.br",
-      "publishedAt": "2026-09-20T08:35:00+00:00",
+      "id": "article_ee40a4890b4a",
+      "title": "Ucrânia: bombas russas sobre várias cidades. Atacado navio mercante no Mar Negro",
+      "description": "Mais de 10 mortos e dezenas de feridos nos ataques russos contra o interior da Ucrânia, enquanto um drone de Moscou atinge um navio mercante...",
+      "url": "https://www.vaticannews.va/pt/mundo/news/2026-09/ucrania-russia-guerra-navio-mercante-mar-negro-ataque-vitimas.html",
+      "source": "vaticannews.va",
+      "sourceCanonical": "vaticannews.va",
+      "sourceDomain": "vaticannews.va",
+      "publishedAt": "2026-09-19T20:30:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
