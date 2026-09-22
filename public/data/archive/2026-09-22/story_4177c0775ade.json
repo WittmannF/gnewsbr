@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 40
+      "topic-8": 42
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/iDnKFD8mNRMctC1_M2jJkPr4xwc=/6000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/O/6MlCqWSJWNfk7eOIbPJg/dia-livre-de-impostos-mcamgo-abr-06062024-10.jpg",
   "publishedAt": "2026-09-21T00:00:00+00:00",
-  "updatedAt": "2026-09-22T21:37:14.700457+00:00",
+  "updatedAt": "2026-09-22T22:41:57.346441+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -86,7 +86,7 @@
       "sourceCanonical": "Jornal O Fluminense",
       "sourceDomain": "ofluminense.com.br",
       "publishedAt": "2026-09-22T19:14:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -96,14 +96,14 @@
       "title": "Governo investiga 12 empresas de combustíveis por suspeita de aumento abusivo de preços",
       "description": "Senacon abriu 70 processos após identificar indícios de alta sem justa causa em sete estados. Leia na Gazeta do Povo.",
       "url": "https://www.gazetadopovo.com.br/economia/governo-investiga-12-empresas-combustiveis-suspeita-aumento-abusivo/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-21T18:14:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/21151357/posto-combustiveis-foto-marcello-casal-jr-agencia-brasil-1.jpg",
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c3bb5fafa09e",
@@ -129,7 +129,7 @@
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-21T14:58:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/21/1421992608-e6b0e9db-19f6-477e-8e6a-e4db6ad16a8f.jpg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -166,8 +166,8 @@
       "title": "Senacon instaura 70 processos contra postos por suspeita de aumento abusivo de combustíveis",
       "description": "A Secretaria Nacional do Consumidor (Senacon) instaurou nesta segunda-feira, 21, 70 processos administrativos contra postos de combustíveis...",
       "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/21/senacon-instaura-70-processos-contra-postos-por-suspeita-de-aumento-abusivo-de-combustiveis.htm",
-      "source": "UOL Economia",
-      "sourceCanonical": "UOL Economia",
+      "source": "economia.uol.com.br",
+      "sourceCanonical": "economia.uol.com.br",
       "sourceDomain": "economia.uol.com.br",
       "publishedAt": "2026-09-21T21:35:00+00:00",
       "postedLabel": "ontem",
@@ -198,7 +198,7 @@
       "sourceCanonical": "jornalcruzeiro.com.br",
       "sourceDomain": "jornalcruzeiro.com.br",
       "publishedAt": "2026-09-21T22:31:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -278,8 +278,8 @@
       "title": "70 postos de combustíveis são investigados por preço abusivo",
       "description": "Senacon apura alta em sete estados após receber denúncias da ANP; estabelecimentos que aplicaram aumentos vão pagar multas de até R$ 14...",
       "url": "https://economia.ig.com.br/2026-09-21/70-postos-de-combustiveis-sao-investigados-por-preco-abusivo.html",
-      "source": "economia.ig.com.br",
-      "sourceCanonical": "economia.ig.com.br",
+      "source": "iG Economia",
+      "sourceCanonical": "iG Economia",
       "sourceDomain": "economia.ig.com.br",
       "publishedAt": "2026-09-21T14:06:00+00:00",
       "postedLabel": "ontem",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.55,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 8,
+    "average": 4.83,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 8,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
