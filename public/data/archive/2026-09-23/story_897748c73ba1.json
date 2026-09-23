@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 57
+      "topic-8": 59
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 59,
+    "bestSeedRank": 59,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/7iRcPqmYFPfkDDKz1saypkRV27A=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2025/m/r/8XTrAITw2LsxkzkR55uA/397586396.jpg",
   "publishedAt": "2026-09-21T12:34:00+00:00",
-  "updatedAt": "2026-09-23T11:44:03.847170+00:00",
+  "updatedAt": "2026-09-23T12:52:13.413113+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Amazon bloqueia Muse, agente de IA da Meta, em disputa sobre compras automatizadas",
       "description": "Varejista diz que assistente acessava contas e realizava transações sem se identificar; Meta afirma que ferramenta foi desenvolvida com...",
       "url": "https://www.cartacapital.com.br/toquetec/amazon-bloqueia-muse-agente-de-ia-da-meta-em-disputa-sobre-compras-automatizadas/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-22T13:01:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/Desde-2023-produtos-da-Amazon-podem-ser-comprados-por-meio-do-Facebook-e-do-Instagram-em-integracoes-entre-as-empresas.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c4cb61c6efd1",
@@ -110,8 +110,8 @@
       "title": "Amazon bloqueia agente de IA da Meta",
       "description": "Do Ad Age, por Matt Day e Spencer Soper, da Bloomberg News A Amazon bloqueou o novo agente de inteligência artificial (IA) da Meta em seu...",
       "url": "https://www.meioemensagem.com.br/midia/amazon-bloqueia-agente-de-ia-da-meta",
-      "source": "meioemensagem.com.br",
-      "sourceCanonical": "meioemensagem.com.br",
+      "source": "Meio e Mensagem",
+      "sourceCanonical": "Meio e Mensagem",
       "sourceDomain": "meioemensagem.com.br",
       "publishedAt": "2026-09-22T12:58:00+00:00",
       "postedLabel": "hoje",
@@ -128,7 +128,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-21T12:34:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/AVOUV7FR6JISFAQQKC7W6Y6DNQ.png?quality=80&auth=6afcb7022636b0585c3d1c6883315d7abaaffcf65773e3ce88cfbd7f10cc7c55&width=1200&height=630&focal=274,229",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -176,20 +176,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5152240239e1",
-      "title": "Amazon bloqueia agente de IA da Meta que faz compras sozinho",
-      "description": "Meta Muse foi impedido de acessar a loja após realizar compras e consultar dados sem se identificar. Amazon alega violação dos termos de...",
-      "url": "https://tecnoblog.net/noticias/amazon-bloqueia-agente-de-ia-da-meta-que-faz-compras-sozinho/",
-      "source": "Tecnoblog",
-      "sourceCanonical": "Tecnoblog",
-      "sourceDomain": "tecnoblog.net",
-      "publishedAt": "2026-09-21T18:50:39+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_e06cbd5ac3be",
       "title": "Amazon bloqueia agente de IA da Meta por fazer compras sem autorização",
       "description": "O caso faz parte de um debate mais amplo sobre quem controla a experiência de vendas online e a relação com o cliente quando agentes de IA...",
@@ -202,6 +188,20 @@
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_5152240239e1",
+      "title": "Amazon bloqueia agente de IA da Meta que faz compras sozinho",
+      "description": "Meta Muse foi impedido de acessar a loja após realizar compras e consultar dados sem se identificar. Amazon alega violação dos termos de...",
+      "url": "https://tecnoblog.net/noticias/amazon-bloqueia-agente-de-ia-da-meta-que-faz-compras-sozinho/",
+      "source": "Tecnoblog",
+      "sourceCanonical": "Tecnoblog",
+      "sourceDomain": "tecnoblog.net",
+      "publishedAt": "2026-09-21T18:50:39+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2d493f61e1e8",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 7,
-    "average": 5.25,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 4.6,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 16
+      "unknown": 15
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 87
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
