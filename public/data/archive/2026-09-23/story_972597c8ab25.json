@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/P65epuXQ9MYfM_gyvsVumTOylc0=/5894x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/f/kcpQIORZCCUYNYzlAn6Q/ap26256322469578.jpg",
   "publishedAt": "2026-09-13T07:00:00+00:00",
-  "updatedAt": "2026-09-23T08:47:29.087844+00:00",
+  "updatedAt": "2026-09-23T09:44:01.385109+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Sociais-democratas vencem eleições na Suécia e estão disponíveis para coligações à esquerda ou centro",
       "description": "Projecções iniciais davam os partidos de esquerda confortavelmente à frente do bloco de direita, mas a evolução da contagem aponta para uma...",
       "url": "https://www.publico.pt/2026/09/13/mundo/noticia/projeccoes-apontam-vitoria-esquerda-suecia-2187908",
-      "source": "publico.pt",
-      "sourceCanonical": "publico.pt",
+      "source": "Público",
+      "sourceCanonical": "Público",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-09-13T07:00:00+00:00",
       "postedLabel": "10 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_9334359c42bd",
@@ -115,7 +115,7 @@
       "sourceDomain": "exame.com",
       "publishedAt": "2026-09-13T07:00:00+00:00",
       "postedLabel": "10 dias atrás",
-      "imageUrl": "https://classic.exame.com/wp-content/uploads/2026/09/808285069_18189001528399563_3746732984824453869_n.jpg.jpeg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -208,8 +208,8 @@
       "title": "Eleições parlamentares suecas: Quem vai conduzir o velho navio?",
       "description": "As eleições parlamentares suecas deram ao partido de esquerda da ex-primeira-ministra Magdalena Andersson uma pequena vantagem,...",
       "url": "https://www.vietnam.vn/pt/bau-cu-quoc-hoi-thuy-dien-ai-se-cam-lai-con-tau-cu",
-      "source": "vietnam.vn",
-      "sourceCanonical": "vietnam.vn",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-09-18T04:13:19+00:00",
       "postedLabel": "5 dias atrás",
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.4,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.18,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

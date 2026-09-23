@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 27,
-      "topic-5": 29
+      "topic-3": 31,
+      "topic-5": 30
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 31,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/7UmF887n7lKERvkOix_nkTc6rlA=/1800x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/5/qCzgNLR068tzgGw8ZwCQ/g1-16-.png",
   "publishedAt": "2026-09-18T18:07:00+00:00",
-  "updatedAt": "2026-09-23T08:35:01.168379+00:00",
+  "updatedAt": "2026-09-23T09:30:18.293511+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -137,20 +137,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_a2c7d989bc24",
-      "title": "Frente fria se afasta do RS e avança para Santa Catarina e Paraná",
-      "description": "Sistema que provocou chuva excessiva no Estado perde força e traz risco de tempo severo para Santa Catarina e Paraná.",
-      "url": "https://www.correiodopovo.com.br/tempo/frente-fria-se-afasta-do-rs-e-avanca-para-santa-catarina-e-parana-1.1749708",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-09-21T19:15:40+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1746988:1789152743/WhatsApp%20Image%202026-09-11%20at%2012.36.09.jpeg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=c2a9a65",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_65ce6f9f123c",
       "title": "Paraná mantém risco de temporais",
       "description": "A chuva deve continuar no Paraná nesta terça-feira (22). Segundo o Sistema de Tecnologia e Monitoramento Ambiental do Paraná (Simepar),...",
@@ -160,9 +146,23 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-22T10:26:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/22070618/Chuvas.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_a2c7d989bc24",
+      "title": "Frente fria se afasta do RS e avança para Santa Catarina e Paraná",
+      "description": "Sistema que provocou chuva excessiva no Estado perde força e traz risco de tempo severo para Santa Catarina e Paraná.",
+      "url": "https://www.correiodopovo.com.br/tempo/frente-fria-se-afasta-do-rs-e-avanca-para-santa-catarina-e-parana-1.1749708",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-09-21T19:15:40+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3d3d65ed59a6",
@@ -183,14 +183,14 @@
       "title": "Segunda começa com temporais no Sul e chuva forte no Sudeste",
       "description": "Segunda começa com temporais no Sul e chuva forte no Sudeste. Segunda começa com temporais no Sul e chuva forte no Sudeste. Publicado em...",
       "url": "https://www.noticiasagricolas.com.br/videos/tempo-e-clima/428310-segunda-comeca-com-temporais-no-sul-e-chuva-forte-no-sudeste.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
+      "source": "noticiasagricolas.com.br",
+      "sourceCanonical": "noticiasagricolas.com.br",
       "sourceDomain": "noticiasagricolas.com.br",
       "publishedAt": "2026-09-21T15:40:49+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_67fe90f74744",
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.23,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.08,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 4,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {

@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5c3RuekVSSEJqWFFuWHJQX2dTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5c3RuekVSSEJqWFFuWHJQX2dTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 12
+      "topic-3": 12,
+      "topic-5": 17
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 12,
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/05/FotoJet-2026-05-28T151131.466.jpg",
   "publishedAt": "2026-09-18T13:40:00+00:00",
-  "updatedAt": "2026-09-23T08:34:01.765638+00:00",
+  "updatedAt": "2026-09-23T09:29:09.327861+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -264,14 +267,14 @@
       "title": "Pesquisa Atlas: Raquel Lyra e João Campos em empate técnico em PE",
       "description": "Governadora tem 48,6% contra 47,4% do ex-prefeito do Recife; margem de erro é de dois pontos e cenário de empate técnico se repete no 2º...",
       "url": "https://www.correiobraziliense.com.br/politica/2026/09/7506159-pesquisa-atlas-raquel-lyra-e-joao-campos-em-empate-tecnico-em-pe.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-22T21:15:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_53d9359816d6",
@@ -296,7 +299,7 @@
       "sourceCanonical": "Blog do Alberes Xavier",
       "sourceDomain": "blogdoalberesxavier.com",
       "publishedAt": "2026-09-23T03:05:24+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.87,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.93,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 3,
-      "centerLeft": 3,
+      "centerLeft": 2,
       "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
