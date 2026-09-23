@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 5
+      "topic-7": 6
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/1b20/live/cb59d5e0-b62a-11f1-a91d-5f9b71cfa225.jpg",
   "publishedAt": "2026-09-20T18:59:00+00:00",
-  "updatedAt": "2026-09-23T03:44:55.353206+00:00",
+  "updatedAt": "2026-09-23T04:43:42.728420+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -240,7 +240,7 @@
       "sourceCanonical": "Observador",
       "sourceDomain": "observador.pt",
       "publishedAt": "2026-09-22T23:24:31+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -250,25 +250,39 @@
       "title": "Novo avanço da AfD em eleições regionais alemãs abala governo, mas chanceler rejeita renunciar",
       "description": "Friedrich Merz reconheceu que resultado foi um \"desastre\" para o seu partido, a CDU, que obteve pouco mais de 5% dos votos.",
       "url": "https://www.cartacapital.com.br/mundo/novo-avanco-da-afd-em-eleicoes-regionais-alemas-abala-governo-mas-chanceler-rejeita-renunciar/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-20T18:59:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_333076e49df9",
       "title": "Extrema-esquerda e extrema-direita alimentam-se mutuamente ou competem pelo mesmo eleitorado?",
       "description": "Extrema-direita e extrema-esquerda venceram na Alemanha. Será que os radicais populistas de um lado e do outro se alimentam mutuamente? No...",
       "url": "https://expresso.pt/podcasts/expresso-da-manha/2026-09-22-extrema-esquerda-e-extrema-direita-alimentam-se-mutuamente-ou-competem-pelo-mesmo-eleitorado--ab7e6d2c",
-      "source": "expresso.pt",
-      "sourceCanonical": "expresso.pt",
+      "source": "Expresso",
+      "sourceCanonical": "Expresso",
       "sourceDomain": "expresso.pt",
       "publishedAt": "2026-09-22T05:30:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_09bb238898e1",
+      "title": "Festa do Livro. Presidente da República ouviu queixas sobre educação",
+      "description": "Centenas de pessoas aproveitaram as últimas horas da Festa do Livro, em Belém.",
+      "url": "https://www.rtp.pt/noticias/cultura/festa-do-livro-presidente-da-republica-ouviu-queixas-sobre-educacao_v1766693",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
+      "sourceDomain": "rtp.pt",
+      "publishedAt": "2026-09-20T20:51:03+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,20 +302,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_09bb238898e1",
-      "title": "Festa do Livro. Presidente da República ouviu queixas sobre educação",
-      "description": "Centenas de pessoas aproveitaram as últimas horas da Festa do Livro, em Belém.",
-      "url": "https://www.rtp.pt/noticias/cultura/festa-do-livro-presidente-da-republica-ouviu-queixas-sobre-educacao_v1766693",
-      "source": "rtp.pt",
-      "sourceCanonical": "rtp.pt",
-      "sourceDomain": "rtp.pt",
-      "publishedAt": "2026-09-20T20:51:03+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_a0be386e9554",
       "title": "Esquerda vence em Berlim defendendo preço de aluguel baixo",
       "description": "Henrique Acker – Ter um teto para morar ficou difícil em todo o Planeta, depois que o sistema habitacional deixou de ser apenas uma...",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 4.81,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 3,
-      "center": 6,
+      "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 4
     }
   },
   "scores": {
@@ -340,7 +340,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

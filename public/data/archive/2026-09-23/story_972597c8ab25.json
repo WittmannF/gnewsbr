@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/P65epuXQ9MYfM_gyvsVumTOylc0=/5894x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/f/kcpQIORZCCUYNYzlAn6Q/ap26256322469578.jpg",
   "publishedAt": "2026-09-13T07:00:00+00:00",
-  "updatedAt": "2026-09-23T03:46:48.313291+00:00",
+  "updatedAt": "2026-09-23T04:45:14.127417+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Com direito a apoio de músico do ABBA, candidata de esquerda lidera eleição na Suécia",
       "description": "Magdalena Andersson tenta voltar ao governo após quatro anos, em disputa acirrada.",
       "url": "https://exame.com/mundo/com-direito-a-apoio-de-musico-do-abba-candidata-de-esquerda-lidera-eleicao-na-suecia/",
-      "source": "exame.com",
-      "sourceCanonical": "exame.com",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-09-13T07:00:00+00:00",
       "postedLabel": "9 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_ae998a205a19",
@@ -180,14 +180,14 @@
       "title": "Social-democratas da Suécia dizem estar prontos para governar, apesar de resultados eleitorais apertados",
       "description": "Segundo a 'SVT', os partidos de esquerda somam 49,4% dos votos, contra 49,1% da aliança entre a direita e a extrema-direita.",
       "url": "https://www.cartacapital.com.br/mundo/esquerda-lidera-eleicao-na-suecia-e-extrema-direita-perde-forca/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-13T07:00:00+00:00",
       "postedLabel": "9 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_3bb8417cc9a9",
@@ -212,7 +212,7 @@
       "sourceCanonical": "vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-09-18T04:13:19+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 7,
-    "average": 5.44,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.18,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 6,
+      "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
