@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pqaDhTRUVoRlJqSGpQX0lJZ1JTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pqaDhTRUVoRlJqSGpQX0lJZ1JTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 4,
-      "topic-5": 3
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Atlas/Estadão: Tarcísio tem 55% contra 41% de Haddad no primeiro turno para governador de São Paulo",
   "summary": "Na disputa ao Planalto, Flávio lidera entre os eleitores paulistas tanto no primeiro turno quanto no segundo contra Lula.",
@@ -28,13 +31,13 @@
     "tarcísio",
     "haddad",
     "quaest",
-    "turno",
     "tem",
+    "turno",
     "paulo"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/HKV4DCOAPVFK3LYNCLLNVDMOSE.JPG?quality=80&auth=71db4e9694b89644fc92f6561483f2994c5fc8b7088235bd839cf7bb17d6f88e&width=1200&height=630&smart=true",
-  "publishedAt": "2026-09-22T07:00:00+00:00",
-  "updatedAt": "2026-09-24T00:58:44.858245+00:00",
+  "publishedAt": "2026-09-22T10:03:10+00:00",
+  "updatedAt": "2026-09-24T01:33:47.706794+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,18 +70,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_034960093398",
-      "title": "Quaest simula segundo turno em SP com Tarcísio de Freitas e Fernando Haddad",
-      "description": "O levantamento mais recente da Quaest testou o cenário de um eventual confronto direto no segundo turno das eleições paulistas.",
-      "url": "https://g1.globo.com/sp/bauru-marilia/videos-tem-noticias-2-edicao/video/quaest-simula-segundo-turno-em-sp-com-tarcisio-de-freitas-e-fernando-haddad-14988719.ghtml",
+      "id": "article_f5b0822ba715",
+      "title": "Pesquisa Quaest aponta intenções de voto para governo de SP e Senado",
+      "description": "Uma nova pesquisa Quaest, contratada pela Globo, mostra o cenário da disputa eleitoral para o governo de São Paulo e para o Senado. O levantamento detalha a...",
+      "url": "https://g1.globo.com/sp/santos-regiao/videos-jornal-tribuna-2-edicao/video/pesquisa-quaest-aponta-intencoes-de-voto-para-governo-de-sp-e-senado-14988766.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-24T00:36:18+00:00",
-      "postedLabel": "22 minutos atrás",
-      "imageUrl": "https://s04.video.glbimg.com/x720/14988719.jpg",
+      "publishedAt": "2026-09-24T01:14:46+00:00",
+      "postedLabel": "18 minutos atrás",
+      "imageUrl": "https://s03.video.glbimg.com/x720/14988766.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_ea5c28f03635",
+      "title": "Novas pesquisas eleitorais, Lula na ONU, chuvas em SP, ata do Copom e mais destaques desta terça-feira",
+      "description": "A terça-feira, 22, começa com novas informações sobre a corrida eleitoral em São Paulo. Levantamento do Paraná Pesquisas mostra Tarcísio de...",
+      "url": "https://veja.abril.com.br/brasil/novas-pesquisas-eleitorais-lula-na-onu-chuvas-em-sp-ata-do-copom-e-mais-destaques-desta-terca-feira/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-22T10:25:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/AFP__20260904__C7BC6KE__v1__HighRes__ComboBrazilElectionCandidates.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_64315af8e029",
@@ -89,52 +106,52 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-23T20:20:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/21180659/pesquisa-governador-sao-paulo-4.png",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c908ffd6b412",
+      "title": "Quaest: Tarcísio tem 49% no 2º turno em SP; Haddad, 30%",
+      "description": "Foram ouvidas 1.800 pessoas entre os dias 19 e 22 de setembro; margem de erro é de dois pontos percentuais, para mais ou para menos. Da CNN...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-tarcisio-tem-49-no-2o-turno-em-sp-haddad-30/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-23T20:33:39+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_93d7a75ca93a",
       "title": "Quaest atualiza seis estados e aquece expectativa pelo Paraná",
       "description": "Quaest divulga rodada em seis unidades da Federação e aquece a expectativa pela pesquisa de governo e Senado no Paraná nesta quinta-feira.",
       "url": "https://www.esmaelmorais.com.br/quaest-seis-estados-parana-23-setembro-2026/",
-      "source": "esmaelmorais.com.br",
-      "sourceCanonical": "esmaelmorais.com.br",
+      "source": "Blog do Esmael",
+      "sourceCanonical": "Blog do Esmael",
       "sourceDomain": "esmaelmorais.com.br",
       "publishedAt": "2026-09-23T22:17:54+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
-      "id": "article_a11602dde979",
-      "title": "Tarcísio x Haddad: os novos números da disputa, segundo pesquisa Quaest",
-      "description": "Uma nova pesquisa Quaest para o governo do estado de São Paulo nesta quarta-feira, 23, mostra um cenário de estabilidade.",
-      "url": "https://veja.abril.com.br/politica/tarcisio-x-haddad-os-novos-numeros-da-disputa-segundo-a-quaest/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-23T20:16:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_40580ab7e3bb",
+      "title": "Quaest SP: Tarcísio lidera com 44%; Haddad tem 27%",
+      "description": "Governador oscilou dois pontos para cima em relação ao levantamento anterior; petista permaneceu com 27%",
+      "url": "https://jovempan.com.br/politica/quaest-sp-tarcisio-lidera-com-44-haddad-tem-27/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-23T20:21:45+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_c908ffd6b412",
-      "title": "Quaest: Tarcísio tem 49% no 2º turno em SP; Haddad, 30%",
-      "description": "Foram ouvidas 1.800 pessoas entre os dias 19 e 22 de setembro; margem de erro é de dois pontos percentuais, para mais ou para menos. Da CNN Brasil 23/09/26...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-tarcisio-tem-49-no-2o-turno-em-sp-haddad-30/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-22T07:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_affb786c335d",
@@ -155,14 +172,14 @@
       "title": "Atlas: Tarcísio abre 14 pontos sobre Haddad e abre caminho para vitória em 1º turno",
       "description": "O governador Tarcísio de Freitas (Republicanos) ampliou a vantagem sobre Fernando Haddad (PT) na disputa pelo governo de São Paulo e aparece...",
       "url": "https://www.infomoney.com.br/politica/atlas-tarcisio-abre-14-pontos-sobre-haddad-e-abre-caminho-para-vitoria-em-1o-turno/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
+      "source": "infomoney.com.br",
+      "sourceCanonical": "infomoney.com.br",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-23T15:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4af6e79938b1",
@@ -173,38 +190,24 @@
       "sourceCanonical": "Esquerda Diário",
       "sourceDomain": "esquerdadiario.com.br",
       "publishedAt": "2026-09-23T21:03:28+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_40580ab7e3bb",
-      "title": "Quaest SP: Tarcísio lidera com 44%; Haddad tem 27%",
-      "description": "Governador oscilou dois pontos para cima em relação ao levantamento anterior; petista permaneceu com 27%",
-      "url": "https://jovempan.com.br/politica/quaest-sp-tarcisio-lidera-com-44-haddad-tem-27/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-23T20:21:45+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_b4745034bd31",
       "title": "A disputa entre Tarcísio e Haddad pelo governo de SP, segundo Quaest",
       "description": "O instituto Quaest divulgou, nesta quarta-feira 23, a nova rodada da pesquisa sobre a disputa pelo governo de São Paulo.",
       "url": "https://www.cartacapital.com.br/politica/quaest-tarcisio-tem-44-no-primeiro-turno-em-sp-haddad-27/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-23T20:12:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f4e70bf1a61f",
@@ -221,20 +224,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d556b0874189",
-      "title": "Em SP, Tarcísio tem 44%, e Haddad, 27% no 1º turno, segundo Quaest",
-      "description": "Governador oscilou 2 p.p. para cima, na comparação com pesquisa anterior; Haddad manteve mesmo percentual.",
-      "url": "https://noticias.r7.com/eleicoes/2026/em-sp-tarcisio-tem-44-e-haddad-27-no-1-turno-segundo-quaest-23092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-23T21:26:34+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_897d42c1f957",
       "title": "Tarcísio deve vencer Haddad já no 1° turno, aponta AtlasIntel",
       "description": "O governador de São Paulo e candidato à reeleição, Tarcísio de Freitas (Republicanos), tem uma larga vantagem sobre o ex-ministro da Fazenda...",
@@ -247,6 +236,20 @@
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
+    },
+    {
+      "id": "article_d556b0874189",
+      "title": "Em SP, Tarcísio tem 44%, e Haddad, 27% no 1º turno, segundo Quaest",
+      "description": "Governador oscilou 2 p.p. para cima, na comparação com pesquisa anterior; Haddad manteve mesmo percentual.",
+      "url": "https://noticias.r7.com/eleicoes/2026/em-sp-tarcisio-tem-44-e-haddad-27-no-1-turno-segundo-quaest-23092026/",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-23T21:26:34+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_08d4811c1543",
@@ -291,20 +294,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_67cc334d6cea",
-      "title": "Quaest em SP: Tarcísio tem 44% das intenções de voto; Haddad, 27%",
-      "description": "Na nova pesquisa Quaest para o governo de São Paulo, Tarcísio de Freitas (Republicanos) aparece com 44% das intenções de voto,...",
-      "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/quaest-em-sp-tarcisio-tem-44-das-intencoes-de-voto-haddad-27,9ec39bc8b0feed91720d1a1a64e382c55gffd0w7.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-23T20:44:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_eb1ce93929fb",
       "title": "Tarcísio chega a 50,7% para seguir governando SP, e Haddad ‘lidera’ rejeição",
       "description": "Pesquisa do Instituto Paraná Pesquisas realizada entre 19 e 21 de setembro de 2026 no Estado de São Paulo aponta o governador Tarcísio de...",
@@ -317,21 +306,35 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_67cc334d6cea",
+      "title": "Quaest em SP: Tarcísio tem 44% das intenções de voto; Haddad, 27%",
+      "description": "Na nova pesquisa Quaest para o governo de São Paulo, Tarcísio de Freitas (Republicanos) aparece com 44% das intenções de voto,...",
+      "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/quaest-em-sp-tarcisio-tem-44-das-intencoes-de-voto-haddad-27,9ec39bc8b0feed91720d1a1a64e382c55gffd0w7.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-23T20:44:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 6.06,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 6,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 7,
-      "centerRight": 4,
+      "center": 6,
+      "centerRight": 3,
       "right": 3,
-      "unknown": 4
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +346,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
