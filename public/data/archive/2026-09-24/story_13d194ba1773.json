@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1200&q=80",
   "publishedAt": "2026-09-21T14:33:00+00:00",
-  "updatedAt": "2026-09-24T06:50:28.941342+00:00",
+  "updatedAt": "2026-09-24T07:41:57.246562+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "UE cede à pressão francesa e retira dois oligarcas russos da lista das sanções",
       "description": "Sanções contra indivíduos e entidades passam a vigorar por três anos e não seis meses. Paris alegou razões de segurança nacional para pedir...",
       "url": "https://www.publico.pt/2026/09/22/mundo/noticia/ue-cede-pressao-francesa-retira-dois-oligarcas-russos-lista-sancoes-2188948",
-      "source": "Público",
-      "sourceCanonical": "Público",
+      "source": "publico.pt",
+      "sourceCanonical": "publico.pt",
       "sourceDomain": "publico.pt",
       "publishedAt": "2026-09-22T15:52:39+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_216ff6dd4079",
@@ -92,20 +92,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_754ef42afa02",
-      "title": "Kiev considera \"vergonhosa e injustificável\" retirada de sanções a oligarcas russos",
-      "description": "\"Moscovo está a celebrar porque conseguiu o que queria: um sentimento de impunidade, a humilhação da UE e a divisão entre os europeus\",...",
-      "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/kiev-considera-vergonhosa-e-injustificavel-retirada-de-sancoes-a-oligarcas-russos_n1767088",
-      "source": "RTP",
-      "sourceCanonical": "RTP",
-      "sourceDomain": "rtp.pt",
-      "publishedAt": "2026-09-22T21:15:11+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_0ca84ab0b5c6",
       "title": "Europe Today: Trump prevê fim próximo da guerra na Ucrânia e UE levanta sanções a oligarcas russos",
       "description": "Donald Trump prevê fim rápido da guerra. Em Bruxelas, dois oligarcas russos saem da lista negra da UE após negociações.",
@@ -129,6 +115,20 @@
       "sourceDomain": "cnnportugal.iol.pt",
       "publishedAt": "2026-09-23T09:30:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_754ef42afa02",
+      "title": "Kiev considera \"vergonhosa e injustificável\" retirada de sanções a oligarcas russos",
+      "description": "\"Moscovo está a celebrar porque conseguiu o que queria: um sentimento de impunidade, a humilhação da UE e a divisão entre os europeus\",...",
+      "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/kiev-considera-vergonhosa-e-injustificavel-retirada-de-sancoes-a-oligarcas-russos_n1767088",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
+      "sourceDomain": "rtp.pt",
+      "publishedAt": "2026-09-22T21:15:11+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -194,8 +194,8 @@
       "title": "Azerbaijão perdoa francês na origem de retirada de sanções a oligarca",
       "description": "Martin Ryan, nascido em 1988, está entre os 20 indivíduos hoje perdoados e é o único cidadão francês nesta lista, após a sua detenção em...",
       "url": "https://www.noticiasaominuto.com/mundo/3056293/azerbaijao-perdoa-frances-na-origem-de-retirada-de-sancoes-a-oligarca",
-      "source": "Notícias ao Minuto",
-      "sourceCanonical": "Notícias ao Minuto",
+      "source": "noticiasaominuto.com",
+      "sourceCanonical": "noticiasaominuto.com",
       "sourceDomain": "noticiasaominuto.com",
       "publishedAt": "2026-09-23T22:33:09+00:00",
       "postedLabel": "hoje",
@@ -236,8 +236,8 @@
       "title": "UE retira dois multimilionários russos da lista de sanções após pressão de França",
       "description": "O entendimento foi alcançado esta terça-feira numa reunião à porta fechada entre os embaixadores dos Estados-membros.",
       "url": "https://executivedigest.sapo.pt/ue-retira-dois-multimilionarios-russos-da-lista-de-sancoes-apos-pressao-de-franca/",
-      "source": "executivedigest.sapo.pt",
-      "sourceCanonical": "executivedigest.sapo.pt",
+      "source": "Executive Digest",
+      "sourceCanonical": "Executive Digest",
       "sourceDomain": "executivedigest.sapo.pt",
       "publishedAt": "2026-09-22T15:52:49+00:00",
       "postedLabel": "ontem",
@@ -317,25 +317,25 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 5,
     "max": 5,
-    "average": 4.6,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 5,
+    "knownCount": 4,
+    "unknownCount": 16,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 15
+      "unknown": 16
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
-    "confidence": 90
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
+    "headlineDivergence": 70,
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",

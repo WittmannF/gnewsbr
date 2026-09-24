@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 41
+      "topic-4": 38
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 41,
-    "bestSeedRank": 41,
+    "firstSeenRank": 38,
+    "bestSeedRank": 38,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/3d93/live/2a6e15c0-b435-11f1-bc1f-3f186ca4140c.jpg",
   "publishedAt": "2026-09-20T23:45:31+00:00",
-  "updatedAt": "2026-09-24T06:44:02.893889+00:00",
+  "updatedAt": "2026-09-24T07:34:42.824278+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-24T00:50:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://media.gazetadopovo.com.br/2026/09/23214937/converse-all-star.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -142,7 +142,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-09-22T06:47:28+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -166,14 +166,14 @@
       "title": "Converse retira anúncio do All Star após críticas por associação à Ku Klux Klan",
       "description": "A Converse retirou de suas redes sociais uma campanha do tênis All Star após usuários apontarem elementos visuais que poderiam remeter à...",
       "url": "https://iclnoticias.com.br/converse-retira-anuncio-do-all-star-apos/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
+      "source": "iclnoticias.com.br",
+      "sourceCanonical": "iclnoticias.com.br",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-09-22T17:38:20+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4f3f77b67a51",
@@ -232,20 +232,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f917ada21fbb",
-      "title": "Converse remove anúncio acusado de fazer referência a grupo supremacista",
-      "description": "A Converse, fabricante dos tênis All Star, removeu das redes sociais uma peça publicitária que foi alvo de críticas durante o fim de semana.",
-      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/21/converse-remove-anuncio-acusado-de-fazer-referencia-a-grupo-supremacista.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-21T21:36:06+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_40ab68cbd1e1",
       "title": "CEO da Converse promete revisão após anúncio que, segundo críticos, remeteu à Ku Klux Klan",
       "description": "Notícias campagnes : O presidente-executivo da Converse prometeu revisar os processos internos e disse aos funcionários que fará todas as...",
@@ -258,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f917ada21fbb",
+      "title": "Converse remove anúncio acusado de fazer referência a grupo supremacista",
+      "description": "A Converse, fabricante dos tênis All Star, removeu das redes sociais uma peça publicitária que foi alvo de críticas durante o fim de semana.",
+      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/09/21/converse-remove-anuncio-acusado-de-fazer-referencia-a-grupo-supremacista.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-09-21T21:36:06+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_32bf6866e9ce",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 8,
-    "average": 5.33,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.75,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

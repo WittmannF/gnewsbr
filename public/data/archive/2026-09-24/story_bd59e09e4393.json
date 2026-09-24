@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6M1l1RkVoR2Q0aTN4TS1iV01TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l6M1l1RkVoR2Q0aTN4TS1iV01TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 27
+      "topic-3": 29,
+      "topic-5": 32
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 29,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "frio",
     "feira",
     "quarta",
+    "primavera",
     "temperaturas",
-    "previsão",
-    "primavera"
+    "sul"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/lohYSG8LuSYl7CZxAbID150PAJ4=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/i/J/E4UcwDTCqz2r9Lhn9ZZQ/ato20251010013.jpg",
-  "publishedAt": "2026-09-22T08:02:00+00:00",
-  "updatedAt": "2026-09-24T06:41:13.875742+00:00",
+  "publishedAt": "2026-09-22T11:54:32+00:00",
+  "updatedAt": "2026-09-24T07:31:39.557479+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +99,14 @@
       "title": "Calor ganha força após dias de frio no RS",
       "description": "Massa de ar frio perde força nesta quinta-feira e temperaturas podem chegar a 34ºC no fim de semana.",
       "url": "https://www.correiodopovo.com.br/tempo/calor-ganha-forca-apos-dias-de-frio-no-rs-1.1750351",
-      "source": "correiodopovo.com.br",
-      "sourceCanonical": "correiodopovo.com.br",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-09-23T22:35:06+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1732074:1790202673/Calor-FA09.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=0c20182",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3547441f23a7",
@@ -129,23 +132,9 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-23T15:30:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/mg_9675.jpg",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_18e41654d121",
-      "title": "Segunda onda de frio da primavera já tem data para chegar ao Brasil; veja quando as temperaturas devem cair",
-      "description": "Onda de frio deve retornar ao Sul, Sudeste e Centro-Oeste durante a primavera, após calor dos próximos dias.",
-      "url": "https://ndmais.com.br/tempo/segunda-onda-de-frio-da-primavera-ja-tem-data-para-chegar-ao-brasil-veja-quando-as-temperaturas-devem-cair/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-09-23T21:07:12+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_997c23854c26",
@@ -160,6 +149,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_18e41654d121",
+      "title": "Segunda onda de frio da primavera já tem data para chegar ao Brasil; veja quando as temperaturas devem cair",
+      "description": "Onda de frio deve retornar ao Sul, Sudeste e Centro-Oeste durante a primavera, após calor dos próximos dias.",
+      "url": "https://ndmais.com.br/tempo/segunda-onda-de-frio-da-primavera-ja-tem-data-para-chegar-ao-brasil-veja-quando-as-temperaturas-devem-cair/",
+      "source": "ndmais.com.br",
+      "sourceCanonical": "ndmais.com.br",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-09-23T21:07:12+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_54b515c30c52",
@@ -180,8 +183,8 @@
       "title": "Frio dará uma breve trégua com temperaturas de mais de 30°C no Sul e no Sudeste; confira",
       "description": "Nos próximos dias o tempo ficará firme e o calor retornará em boa parte das regiões Sul e Sudeste do Brasil, com máximas em torno dos 30°C...",
       "url": "https://www.tempo.com/noticias/previsao/frio-dara-uma-breve-tregua-com-temperaturas-de-mais-de-30-c-no-sul-e-no-sudeste-confira.html",
-      "source": "Meteored Brasil",
-      "sourceCanonical": "Meteored Brasil",
+      "source": "tempo.com",
+      "sourceCanonical": "tempo.com",
       "sourceDomain": "tempo.com",
       "publishedAt": "2026-09-23T20:50:11+00:00",
       "postedLabel": "hoje",
@@ -202,20 +205,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_f61d1c76bf67",
-      "title": "Ciclone e massa de ar frio derrubam temperaturas; veja a previsão de hoje",
-      "description": "A frente fria impacta o clima no Sul, Sudeste e Centro-Oeste do país. No Rio Grande do Sul e em Santa Catarina, um ciclone extratropical e a...",
-      "url": "https://www.canalrural.com.br/previsao-do-tempo/ciclone-e-massa-de-ar-frio-derrubam-temperaturas-veja-a-previsao-de-hoje/",
-      "source": "Canal Rural",
-      "sourceCanonical": "Canal Rural",
-      "sourceDomain": "canalrural.com.br",
-      "publishedAt": "2026-09-22T08:02:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_d019543878f5",
@@ -302,6 +291,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_46cf7cbc9b26",
+      "title": "Primavera inicia com frio intenso e risco de geada no Sul do Brasil",
+      "description": "A primavera começou com temperaturas negativas e risco de geada em algumas regiões do Sul do Brasil. Confira os detalhes.",
+      "url": "https://www.canalrural.com.br/videos/primavera-inicia-com-frio-intenso-e-risco-de-geada-no-sul-do-brasil/",
+      "source": "Canal Rural",
+      "sourceCanonical": "Canal Rural",
+      "sourceDomain": "canalrural.com.br",
+      "publishedAt": "2026-09-24T03:05:27+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_b065d9771de0",
       "title": "Notícias - Rio Grande do Sul - Frio avança e derruba temperaturas; veja a previsão para esta terça-feira",
       "description": "A frente fria que provocou fortes chuvas em diversas regiões do estado está se afastando do Rio Grande do Sul. No entanto, ainda há previsão...",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.11,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.1,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 5,
+      "center": 6,
       "centerRight": 1,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
