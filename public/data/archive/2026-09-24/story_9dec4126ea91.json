@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 49
+      "topic-3": 54
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 49,
-    "bestSeedRank": 49,
+    "firstSeenRank": 54,
+    "bestSeedRank": 54,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/trump-4.jpg.webp",
   "publishedAt": "2026-09-19T15:00:31+00:00",
-  "updatedAt": "2026-09-24T16:32:14.688087+00:00",
+  "updatedAt": "2026-09-24T17:35:13.144345+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -166,14 +166,14 @@
       "title": "EUA barram China de consulta com Brasil na OMC sobre tarifaço de Trump",
       "description": "247 – O governo dos Estados Unidos rejeitou um pedido da China para participar das consultas entre Brasil e EUA na Organização Mundial do...",
       "url": "https://www.brasil247.com/economia/eua-barram-china-de-consulta-com-brasil-na-omc-sobre-tarifaco-de-trump/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-23T02:06:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_183d7397f08a",
@@ -226,7 +226,7 @@
       "sourceCanonical": "Diário da Amazônia",
       "sourceDomain": "diariodaamazonia.com.br",
       "publishedAt": "2026-09-21T16:33:02+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,6 +246,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_dbd4626c84fd",
+      "title": "Durigan diz que debate tarifário com os EUA deve ser resolvido após as eleições",
+      "description": "Ministro da Fazenda afirmou que as tarifas são injustas e citou superávit dos Estados Unidos na balança comercial com o Brasil.",
+      "url": "https://www.canalrural.com.br/economia/durigan-diz-que-debate-tarifario-com-os-eua-deve-ser-resolvido-apos-as-eleicoes/",
+      "source": "Canal Rural",
+      "sourceCanonical": "Canal Rural",
+      "sourceDomain": "canalrural.com.br",
+      "publishedAt": "2026-09-19T16:42:54+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_10f16189cf99",
       "title": "Sem China, Brasil e EUA iniciam rodada na OMC na sexta e começa prazo para negociar novo tarifaço",
       "description": "BRASÍLIA - O Brasil e os Estados Unidos darão início, na próxima sexta-feira, 25, às consultas formais perante a Organização Mundial do...",
@@ -257,20 +271,6 @@
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_dbd4626c84fd",
-      "title": "Durigan diz que debate tarifário com os EUA deve ser resolvido após as eleições",
-      "description": "Ministro da Fazenda afirmou que as tarifas são injustas e citou superávit dos Estados Unidos na balança comercial com o Brasil.",
-      "url": "https://www.canalrural.com.br/economia/durigan-diz-que-debate-tarifario-com-os-eua-deve-ser-resolvido-apos-as-eleicoes/",
-      "source": "Canal Rural",
-      "sourceCanonical": "Canal Rural",
-      "sourceDomain": "canalrural.com.br",
-      "publishedAt": "2026-09-19T16:42:54+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 10,
-    "average": 5.15,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 4.86,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 1,
       "right": 1,
-      "unknown": 7
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [

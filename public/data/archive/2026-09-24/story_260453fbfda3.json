@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 52
+      "topic-3": 61
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 52,
-    "bestSeedRank": 52,
+    "firstSeenRank": 61,
+    "bestSeedRank": 61,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/Antonio-Carlos-Freixo-Junior-Mineiro-casoDarkHorse-1200x675.jpeg",
   "publishedAt": "2026-09-17T18:20:28+00:00",
-  "updatedAt": "2026-09-24T16:32:25.399268+00:00",
+  "updatedAt": "2026-09-24T17:35:37.357202+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -86,7 +86,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-23T16:43:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/3RD5EQLEPBAV3P3FGX4VRWTNY4.jpg?quality=80&auth=adfdd29fdfdb32dc6ddbe9905bdcf137f3965dd0b5077c7c91162c7d8868a93c&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -124,14 +124,14 @@
       "title": "Bilhões em ações judiciais do setor sucroalcooleiro expõem a rede de influência de Vorcaro no Judiciário",
       "description": "Com disputas de R$ 14,3 bilhões, ex-banqueiro do Master montou teia de relações com ministros e parentes de magistrados de cortes...",
       "url": "https://www.brasil247.com/poder/bilhoes-em-acoes-judiciais-do-setor-sucroalcooleiro-expoem-a-rede-de-influencia-de-vorcaro-no-judiciario/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-23T09:45:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_a467168bba02",
@@ -260,20 +260,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c9ae067c45fc",
-      "title": "Master teria pagado R$ 33 milhões a ex-diretora de Gilmar, diz PF",
-      "description": "Advogada atuou em cargo de chefia em instituto fundado pelo ministro.",
-      "url": "https://pleno.news/brasil/politica-nacional/master-teria-pagado-r-33-milhoes-a-ex-diretora-de-gilmar-diz-pf.html",
-      "source": "Pleno.News",
-      "sourceCanonical": "Pleno.News",
-      "sourceDomain": "pleno.news",
-      "publishedAt": "2026-09-17T20:16:00+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_e18163a91e7e",
       "title": "Ações que somam R$ 14,3 bi estão na raiz da influência de Vorcaro no Judiciário",
       "description": "O dono do Banco Master, Daniel Vorcaro, tinha pelo menos R$ 14,3 bilhões investidos em 16 ações judiciais que dependiam de decisões dos...",
@@ -286,6 +272,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c9ae067c45fc",
+      "title": "Master teria pagado R$ 33 milhões a ex-diretora de Gilmar, diz PF",
+      "description": "Advogada atuou em cargo de chefia em instituto fundado pelo ministro.",
+      "url": "https://pleno.news/brasil/politica-nacional/master-teria-pagado-r-33-milhoes-a-ex-diretora-de-gilmar-diz-pf.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-09-17T20:16:00+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_2aa16c86918a",
@@ -310,31 +310,31 @@
       "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-09-19T17:09:03+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 10,
-    "average": 6.6,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 6.09,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 4,
       "centerRight": 3,
       "right": 2,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
