@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmZ2NXRUVoSDFVOFdCa3h2VVF5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmZ2NXRUVoSDFVOFdCa3h2VVF5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 5,
-      "topic-5": 7
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 51
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Datafolha em MG, 2º turno: Cleitinho lidera em todos os cenários da disputa ao governo",
   "summary": "Pesquisa divulgada nesta quinta-feira (24) foi contratada pela Globo e pelo jornal Folha de S.Paulo. Margem de erro é de três pontos...",
@@ -29,12 +32,12 @@
     "patrus",
     "pesquisa",
     "datafolha",
-    "turno",
-    "minas"
+    "tem",
+    "turno"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/w2BArewMiWJK7RW0SCUgsEFmePY=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/F/9szd8yQfOiE9HteXqjsA/178915804238243-1-.jpg",
   "publishedAt": "2026-09-11T07:00:00+00:00",
-  "updatedAt": "2026-09-24T22:24:55.279540+00:00",
+  "updatedAt": "2026-09-24T23:21:47.609174+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +50,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-24T21:13:36+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/w2BArewMiWJK7RW0SCUgsEFmePY=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/F/9szd8yQfOiE9HteXqjsA/178915804238243-1-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,7 +64,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-24T21:11:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/11/17891674056aa4872dca611_1789167405_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -74,7 +77,7 @@
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-24T21:40:35+00:00",
+      "publishedAt": "2026-09-24T21:40:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/Cleitinho-Patrus-Kalil-Mateus-Simoes.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
@@ -95,12 +98,40 @@
       "bucket": "center"
     },
     {
+      "id": "article_34e80316c710",
+      "title": "Datafolha: pesquisa para governo e Senado em Minas Gerais",
+      "description": "*O ex-governador Romeu Zema (Novo) é candidato à Presidência da República. Cleitinho lidera cenário estimulado.",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-minas-gerais-setembro-2026-2/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-24T22:31:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_57d086d1782c",
+      "title": "Cleitinho tem 60% ante 23% de Patrus no 2º turno em MG, diz pesquisa",
+      "description": "O Datafolha entrevistou 1.204 eleitores de MG de 22 a 24 de setembro de 2026; a margem de erro é de 3 p.p. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/cleitinho-tem-60-ante-23-de-patrus-no-2o-turno-em-mg-diz-pesquisa/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-09-24T22:23:06+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_b757cda74fec",
       "title": "A frustração gerada por pesquisa na campanha de Kalil",
       "description": "Levantamento mostra crescimento do desempenho do deputado federal Patrus Ananias (PT)",
       "url": "https://ofator.com.br/informacao/a-frustracao-gerada-por-pesquisa-na-campanha-de-kalil/",
-      "source": "ofator.com.br",
-      "sourceCanonical": "ofator.com.br",
+      "source": "O Fator",
+      "sourceCanonical": "O Fator",
       "sourceDomain": "ofator.com.br",
       "publishedAt": "2026-09-23T18:47:00+00:00",
       "postedLabel": "ontem",
@@ -109,32 +140,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b82b58f0dfbf",
-      "title": "Datafolha: Cleitinho chega a 40% em MG. Patrus e Kalil aparecem na sequência",
-      "description": "Levantamento também mostrou o candidato do Republicanos com 49% dos votos válidos e queda de indecisos na pesquisa espontânea.",
-      "url": "https://www.brasil247.com/sudeste/datafolha-cleitinho-chega-a-40-em-mg-patrus-e-kalil-aparecem-na-sequencia/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-24T21:28:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_e9294d18904e",
+      "title": "'Vai ser um desastre', diz Patrus sobre possível governo Cleitinho",
+      "description": "Últimas pesquisas de intenção de voto indicam segundo turno entre os candidatos do Republicanos e do PT em Minas Gerais.",
+      "url": "https://www.em.com.br/politica/2026/09/7507728-vai-ser-um-desastre-diz-patrus-sobre-possivel-governo-cleitinho.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-09-24T17:27:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
-      "id": "article_12e4277139da",
-      "title": "Os números da AtlasIntel para o governo de Minas Gerais",
-      "description": "Pesquisa da AtlasIntel mostra como está a disputa para governador de Minas Gerais nas eleições 2026. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-minas-gerais-setembro-2026-2/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-23T15:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_bb1068796d99",
@@ -179,20 +196,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c2a5aa1534f8",
-      "title": "Eleição mineira se move para Cleitinho e Patrus",
-      "description": "Igual crescimento de Cleitinho entre os dois levantamentos de campo teve Patrus Ananias: saiu de 11% e agora tem 16% das intenções de voto.",
-      "url": "https://www.em.com.br/colunistas/bertha-maakaroun/2026/09/7507269-eleicao-mineira-se-move-para-cleitinho-e-patrus.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-24T05:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_397b0f5e7667",
       "title": "No 1º turno de MG, Cleitinho tem 37%, Patrus Ananias, 16%, e Kalil, 8%, aponta Quaest",
       "description": "A Quaest ouviu 1.506 eleitores de Minas Gerais com 16 anos ou mais entre os dias 19 e 22 de setembro.",
@@ -207,32 +210,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_b82b58f0dfbf",
+      "title": "Datafolha: Cleitinho chega a 40% em MG. Patrus e Kalil aparecem na sequência",
+      "description": "Levantamento também mostrou o candidato do Republicanos com 49% dos votos válidos e queda de indecisos na pesquisa espontânea.",
+      "url": "https://www.brasil247.com/sudeste/datafolha-cleitinho-chega-a-40-em-mg-patrus-e-kalil-aparecem-na-sequencia/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-24T21:28:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_4bd02b645ace",
       "title": "Pesquisa aponta empate entre Patrus e Cleitinho; o que eles dizem nos planos de governo?",
       "description": "O senador Cleitinho Azevedo (Republicanos) aparece na liderança da disputa pelo governo de Minas Gerais, mas o deputado federal Patrus...",
       "url": "https://www.brasildefato.com.br/2026/09/22/pesquisa-aponta-empate-entre-patrus-e-cleitinho-o-que-eles-dizem-nos-planos-de-governo/",
-      "source": "brasildefato.com.br",
-      "sourceCanonical": "brasildefato.com.br",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-22T20:47:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_7c363592e41d",
-      "title": "Cleitinho tem 53,1% contra 41,1% de Patrus no 2º turno em MG",
-      "description": "Pesquisa da AtlasIntel/Estadão, divulgada nesta 4ª feira (23.set.2026), mostra o senador Cleitinho Azevedo (Republicanos) com 53,1% das...",
-      "url": "https://www.poder360.com.br/poder-eleicoes/cleitinho-tem-531-contra-411-de-patrus-no-2o-turno-em-mg/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-23T15:05:42+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_43efa8a47f2e",
@@ -257,38 +260,38 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-24T21:52:00+00:00",
-      "postedLabel": "32 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_b1da2b235fc9",
-      "title": "Datafolha em MG: Cleitinho tem 60% contra 23% de Patrus no 2º turno",
-      "description": "Belo Horizonte – O senador Cleitinho Azevedo (Republicanos) lidera com folga os cenários de 1º e 2º turno em pesquisa para o governo de...",
-      "url": "https://www.metropoles.com/minas-gerais/datafolha-em-mg-cleitinho-tem-60-contra-23-de-patrus-no-2o-turno",
+      "id": "article_5820d93ce36a",
+      "title": "MG: Atlas diverge da Real Time e põe Cleitinho 12 pontos à frente de Patrus",
+      "description": "Levantamentos divulgados com dois dias de diferença mostram cenários distintos para eventual segundo turno pelo governo de Minas.",
+      "url": "https://www.metropoles.com/minas-gerais/mg-atlas-diverge-da-real-time-e-poe-cleitinho-12-pontos-a-frente-de-patrus",
       "source": "Metrópoles",
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-24T21:29:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-09-23T15:00:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_cd5ac4932d88",
-      "title": "Cleitinho chega a 40% e Patrus se consolida com 15% no primeiro turno, mostra pesquisa",
-      "description": "Saiba sobre a última pesquisa eleitoral em Minas Gerais, que mostra Cleitinho liderando com 40%, Patrus consolidado com 15%, e a expectativa...",
-      "url": "https://www.otempo.com.br/eleicoes/2026/pesquisas/2026/9/24/cleitinho-chega-a-40-e-patrus-se-consolida-com-15-no-primeiro-turno-mostra-pesquisa",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-09-24T21:32:31+00:00",
+      "id": "article_befa05e3c288",
+      "title": "A apertada disputa pelo Governo de MG, segundo nova pesquisa Datafolha",
+      "description": "Pesquisa atualiza o cenário eleitoral no estado e mostra a posição dos principais candidatos na corrida.",
+      "url": "https://revistaforum.com.br/politica/governo-mg-datafolha/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-09-24T21:27:23+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_249c84c39e0f",
@@ -305,33 +308,33 @@
       "bucket": "center"
     },
     {
-      "id": "article_46d2c7e08103",
-      "title": "Pesquisa Quaest Minas mostra Cleitinho com 37% e Patrus Ananias com 16%",
-      "description": "Na comparação com o levantamento de 8 de setembro, Cleitinho passou de 32% para 37%, enquanto Patrus foi de 11% para 16%",
-      "url": "https://www.opovo.com.br/noticias/politica/2026/09/23/no-1-turno-de-minas-cleitinho-tem-37-patrus-ananias-16-e-kalil-8-aponta-quaest.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "opovo.com.br",
-      "publishedAt": "2026-09-23T20:59:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_8113d5b5ddeb",
+      "title": "Datafolha, 2º turno: Lula tem 47% contra 45% de Flávio",
+      "description": "Pesquisa Datafolha divulgada nesta quinta-feira (24) mostra Lula (PT) com 47% das intenções de voto e Flávio Bolsonaro (PL) com 45% em um eventual segundo...",
+      "url": "https://blogdomagno.com.br/datafolha-2o-turno-lula-tem-47-contra-45-de-flavio/",
+      "source": "Blog do Magno",
+      "sourceCanonical": "Blog do Magno",
+      "sourceDomain": "blogdomagno.com.br",
+      "publishedAt": "2026-09-24T22:11:12+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.06,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 4.94,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
-      "left": 2,
-      "centerLeft": 2,
-      "center": 10,
-      "centerRight": 2,
+      "left": 4,
+      "centerLeft": 1,
+      "center": 9,
+      "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
