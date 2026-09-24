@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3bmJLRkVoR2dXbWoxdmM4am1pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3bmJLRkVoR2dXbWoxdmM4am1pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 41
+      "topic-3": 42,
+      "topic-5": 47
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 41,
-    "bestSeedRank": 41,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/02/Flavio-e-Lula-1.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-18T04:06:00+00:00",
-  "updatedAt": "2026-09-24T08:36:57.897978+00:00",
+  "updatedAt": "2026-09-24T09:30:55.796919+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -110,14 +113,14 @@
       "title": "O que Lula pode falar sobre o Supremo para garantir a eleição no primeiro turno",
       "description": "Com a confiança no STF na lona depois do caso Banco Master, o presidente tem nas mãos uma pauta capaz de decidir a disputa antes mesmo do...",
       "url": "https://revistaforum.com.br/blogs/blog-do-rovai/lula-supremo-eleicao/",
-      "source": "revistaforum.com.br",
-      "sourceCanonical": "revistaforum.com.br",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-23T14:01:28+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_0f8e84bcc933",
@@ -176,20 +179,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_be0b1bda9d52",
-      "title": "Bateu o desespero: ascensão de Flávio Bolsonaro assombra Moraes e seus aliados no STF",
-      "description": "Com Flávio Bolsonaro na Presidência e a direita no comando do Senado, o impeachment de Alexandre de Moraes torna-se uma certeza em 2027.",
-      "url": "https://www.gazetadopovo.com.br/vozes/renan-ramalho/bateu-o-desespero-ascensao-de-flavio-bolsonaro-assombra-moraes-e-seus-aliados-no-stf/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-22T20:50:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_423bf99d2e90",
       "title": "Crise do STF e disputa eleitoral: “antipetismo funciona como aglutinador de diferentes grupos em torno da família Bolsonaro”. Entrevista especial com Mayra Goulart",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
@@ -202,6 +191,20 @@
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_be0b1bda9d52",
+      "title": "Bateu o desespero: ascensão de Flávio Bolsonaro assombra Moraes e seus aliados no STF",
+      "description": "Com Flávio Bolsonaro na Presidência e a direita no comando do Senado, o impeachment de Alexandre de Moraes torna-se uma certeza em 2027.",
+      "url": "https://www.gazetadopovo.com.br/vozes/renan-ramalho/bateu-o-desespero-ascensao-de-flavio-bolsonaro-assombra-moraes-e-seus-aliados-no-stf/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-22T20:50:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_62bcdb6e439b",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.82,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.61,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 1,
       "center": 9,
       "centerRight": 4,
       "right": 2,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
