@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pSMU52N0VSSHVhc0xSVnVOcEtpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pSMU52N0VSSHVhc0xSVnVOcEtpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 40
+      "topic-3": 38,
+      "topic-5": 42
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 38,
+    "bestSeedRank": 38,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,9 +32,9 @@
     "voltar",
     "mãe"
   ],
-  "imageUrl": "https://static.poder360.com.br/uploads/2025/07/Carla-Zambelli-1080.png",
+  "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/IH2WP3XERBCMJDRZOQRK7YVQQY.webp?smart=true&auth=7f453bfc1ca2c47f4bd420c1e3e9d21f5dd5900d9b42a3885b85fa50abb5d961&width=1200&height=630",
   "publishedAt": "2026-09-19T00:57:56+00:00",
-  "updatedAt": "2026-09-24T04:31:14.672608+00:00",
+  "updatedAt": "2026-09-24T05:27:04.330701+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +43,14 @@
       "title": "Zambelli pede salvo-conduto para voltar ao Brasil e votar na mãe",
       "description": "A defesa da ex-deputada federal Carla Zambelli (PL-SP) ingressou na 2ª feira (21.set.2026) no Supremo Tribunal Federal com pedido de...",
       "url": "https://www.poder360.com.br/poder-justica/zambelli-pede-salvo-conduto-para-voltar-ao-brasil-e-votar-na-mae/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
+      "source": "poder360.com.br",
+      "sourceCanonical": "poder360.com.br",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-23T01:43:07+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://static.poder360.com.br/uploads/2025/07/Carla-Zambelli-1080.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1c32c80f7cb9",
@@ -115,7 +118,7 @@
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-22T19:31:55+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/Carla_Zambelli_834635fe0e.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -292,14 +295,14 @@
       "title": "Zambelli contrata novo advogado para contestar extradição e condenações no STF",
       "description": "Em nota, Eduardo Maurício afirmou que pretende adotar medidas processuais para tentar anular as duas condenações.",
       "url": "https://jovempan.com.br/politica/zambelli-contrata-novo-advogado-para-contestar-extradicao-e-condenacoes-no-stf/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
+      "source": "jovempan.com.br",
+      "sourceCanonical": "jovempan.com.br",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-19T00:57:56+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_35dade43be0f",
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 6.33,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 6.23,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 6,
+      "center": 5,
       "centerRight": 4,
-      "right": 3,
-      "unknown": 5
+      "right": 2,
+      "unknown": 7
     }
   },
   "scores": {
@@ -340,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 32
+      "topic-3": 27
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 32,
-    "bestSeedRank": 32,
+    "firstSeenRank": 27,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/4HVAEYXFSJEF3CSA6HYUQ7WJMQ.jpg?quality=80&auth=cd3e5c808f01184a05374473f2cc89a70904d931ad35d50385a4ae08ff80d5ed&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-21T10:36:40+00:00",
-  "updatedAt": "2026-09-24T04:30:53.406683+00:00",
+  "updatedAt": "2026-09-24T05:26:39.355427+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "STJ nega habeas corpus a candidato de SP preso suspeito de vínculo com PCC",
       "description": "Defesa diz que houve “equívoco” na apreciação do texto e informou já ter adotado medida cabível para submetê-lo à revisão do próprio STJ.",
       "url": "https://www.metropoles.com/sao-paulo/stj-habeas-corpus-danilo-morgado",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-23T20:51:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b146ccdad60c",
@@ -260,20 +260,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_8ab14cf0ce7f",
-      "title": "Escritório de Milton Leite é invadido e polícia apura ligação com inquérito",
-      "description": "Criminosos entraram no imóvel, levaram o HD com imagens das câmeras de segurança e deixaram documentos e um celular para trás.",
-      "url": "https://jovempan.com.br/colunistas/david-de-tarso/escritorio-de-milton-leite-e-invadido-e-policia-apura-ligacao-com-inquerito/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-21T10:36:40+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_0d275308e522",
       "title": "STJ nega habeas corpus e mantém prisão de Milton Leite",
       "description": "Ex-vereador é investigado por suposto envolvimento com esquema do PCC no transporte coletivo de São Paulo; ele nega as acusações.",
@@ -286,6 +272,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_8ab14cf0ce7f",
+      "title": "Escritório de Milton Leite é invadido e polícia apura ligação com inquérito",
+      "description": "Criminosos entraram no imóvel, levaram o HD com imagens das câmeras de segurança e deixaram documentos e um celular para trás.",
+      "url": "https://jovempan.com.br/colunistas/david-de-tarso/escritorio-de-milton-leite-e-invadido-e-policia-apura-ligacao-com-inquerito/",
+      "source": "jovempan.com.br",
+      "sourceCanonical": "jovempan.com.br",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-21T10:36:40+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_becb1cf90eb5",
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "max": 8,
+    "average": 5.25,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
-      "right": 1,
-      "unknown": 6
+      "right": 0,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
