@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 25
+      "topic-8": 26
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/maaWqwjio7BNT0J-j9DB-89QMZU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/A/k/I5X6iPQPScVARvrEw4zw/arte23bra-121-receita-a8.jpg",
   "publishedAt": "2026-09-14T07:00:00+00:00",
-  "updatedAt": "2026-09-24T01:51:06.689355+00:00",
+  "updatedAt": "2026-09-24T02:51:54.075974+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Imposto sobre lucros e dividendos deve render menos; Receita corta projeção em R$ 6,5 bilhões",
       "description": "Receita afirma que buscará outras fontes de arrecadação para compensar a isenção do IR para quem ganha até R$ 5 mil.",
       "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/imposto-sobre-lucros-e-dividendos-deve-render-menos-receita-corta-projecao-em-r-65-bilhoes/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-22T19:49:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/G2XO7XBOCZPCNMLUUPRTXZUE2U.jpg?quality=80&auth=7c715805ee764634df7f63c3b8d5e5e0b542087af249591deb425991921643c6&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b32e78c4061d",
@@ -101,7 +101,7 @@
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-23T09:38:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/02/mcam20022020-6.webp",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -152,14 +152,14 @@
       "title": "Receita reduz projeção de arrecadar com taxação de dividendos para R$ 10,5 bi em 2026",
       "description": "Em entrevista à imprensa, Malaquias disse que os novos dados devem ser incorporados às projeções fiscais do governo que serão apresentadas...",
       "url": "https://www.infomoney.com.br/economia/receita-reduz-projecao-de-arrecadar-com-taxacao-de-dividendos-para-r-105-bi-em-2026/",
-      "source": "infomoney.com.br",
-      "sourceCanonical": "infomoney.com.br",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-22T14:43:16+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_b5c1915cfb03",
@@ -194,14 +194,14 @@
       "title": "Receita reduz para R$ 10,5 bi previsão de arrecadação com taxação de dividendos",
       "description": "Nova estimativa fica abaixo dos R$ 29 bilhões calculados inicialmente e será considerada na atualização das projeções fiscais do governo.",
       "url": "https://www.brasil247.com/economia/receita-reduz-para-r-105-bi-previsao-de-arrecadacao-com-taxacao-de-dividendos/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-22T19:48:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e062bbce10d9",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
-    "max": 7,
-    "average": 4.92,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "min": 4,
+    "max": 6,
+    "average": 5.18,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
-      "center": 8,
-      "centerRight": 1,
+      "center": 9,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
