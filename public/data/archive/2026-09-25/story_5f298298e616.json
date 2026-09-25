@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxODRLQ0VoRkhLSi1qdUdFTU5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxODRLQ0VoRkhLSi1qdUdFTU5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 2,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Polícia Federal encontra mensagens em celular do banqueiro Daniel Vorcaro",
   "summary": "Mensagens obtidas pela Polícia Federal mostram que o ex-banqueiro Daniel Vorcaro, do Banco Master, mostram sua relação de proximidade com o...",
-  "topic": "Vorcaro · Mensagens",
+  "topic": "Mensagens · Vorcaro",
   "topicKeywords": [
-    "vorcaro",
     "mensagens",
+    "vorcaro",
     "alcolumbre",
+    "proximidade",
     "fala",
-    "meu",
-    "amor"
+    "meu"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/CAPA-para-materia-1064-×-614-px-1200-x-630-px-4.jpg",
   "publishedAt": "2026-09-18T13:08:28+00:00",
-  "updatedAt": "2026-09-25T05:26:13.946342+00:00",
+  "updatedAt": "2026-09-25T06:39:58.600998+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,10 +53,24 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-25T01:47:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/CAPA-para-materia-1064-×-614-px-1200-x-630-px-4.jpg",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_7423d7668420",
+      "title": "Mensagens apontam relação de proximidade entre Alcolumbre e Vorcaro",
+      "description": "OUTRO LADO: Presidente do Senado fala em 'falsas acusações' e diz que as 'supostas mensagens' têm teor pessoal e não indicam ilegalidade.",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/mensagens-apontam-relacao-de-proximidade-entre-alcolumbre-e-vorcaro.shtml",
+      "source": "folha.uol.com.br",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-24T23:42:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/01/17883067756a976557cb655_1788306775_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_dce66eb00096",
@@ -67,20 +87,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_7423d7668420",
-      "title": "Mensagens apontam relação de proximidade entre Alcolumbre e Vorcaro",
-      "description": "OUTRO LADO: Presidente do Senado fala em 'falsas acusações' e diz que as 'supostas mensagens' têm teor pessoal e não indicam ilegalidade.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/mensagens-apontam-relacao-de-proximidade-entre-alcolumbre-e-vorcaro.shtml",
-      "source": "folha.uol.com.br",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-24T23:42:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/01/17883067756a976557cb655_1788306775_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_9bade6ffee28",
       "title": "Amec e IBGC pedem esclarecimentos e defendem independência da CVM",
       "description": "Após recentes informações de que Daniel Vorcaro teria apoiado a manutenção de Otto Lobo à frente da Comissão de Valores Mobiliários.",
@@ -95,17 +101,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_8f35bb2ee475",
-      "title": "\"Fala meu amor\" e \"irmão pra vida toda\": mensagens apontam relação próxima entre Davi Alcolumbre e Vorcaro",
-      "description": "A Polícia Federal (PF) encontrou mensagens no celular do ex-banqueiro Daniel Vorcaro que mostram a relação dele com Davi Alcolumbre (União...",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/fala-meu-amor-e-irmao-pra-vida-toda-mensagens-apontam-relacao-proxima-entre-davi-alcolumbre-e-vorcaro-cmug73k5q01la014xitwvjosd.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-09-25T03:22:30+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_ea007627641b",
+      "title": "Mensagens encontradas pela PF indicam proximidade entre Alcolumbre e Vorcaro, diz revista",
+      "description": "Mensagens encontradas no celular do ex-banqueiro Daniel Vorcaro pela Polícia Federal (PF) mostram uma relação de proximidade entre o ex-dono...",
+      "url": "https://valor.globo.com/politica/noticia/2026/09/25/mensagens-encontradas-pela-pf-indicam-proximidade-entre-alcolumbre-e-vorcaro-diz-revista.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-09-25T03:11:01+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -117,23 +123,37 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-25T03:44:02+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_6f6232ea249c",
-      "title": "Mensagens indicam relação de proximidade entre Alcolumbre e Vorcaro, diz revista",
-      "description": "Presidente do Senado diz que 'supostas mensagens' não indicam 'ilegalidade alguma'; defesa de banqueiro não comentou.",
-      "url": "https://oglobo.globo.com/politica/noticia/2026/09/24/mensagens-indicam-relacao-de-proximidade-entre-alcolumbre-e-vorcaro-diz-revista.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-09-25T01:05:19+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_500b229b610e",
+      "title": "Alcolumbre nega crimes em mensagens com dono do Banco Master",
+      "description": "Davi Alcolumbre nega ilegalidades em mensagens com Daniel Vorcaro, dono do Banco Master. Senador alega ser alvo de intimidação. Confira os...",
+      "url": "https://www.gazetadopovo.com.br/republica/davi-alcolumbre-nega-irregularidades-apos-revelacao-de-mensagens-com-banqueiro/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-25T05:42:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_8f35bb2ee475",
+      "title": "\"Fala meu amor\" e \"irmão pra vida toda\": mensagens apontam relação próxima entre Davi Alcolumbre e Vorcaro",
+      "description": "A Polícia Federal (PF) encontrou mensagens no celular do ex-banqueiro Daniel Vorcaro que mostram a relação dele com Davi Alcolumbre (União...",
+      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/09/fala-meu-amor-e-irmao-pra-vida-toda-mensagens-apontam-relacao-proxima-entre-davi-alcolumbre-e-vorcaro-cmug73k5q01la014xitwvjosd.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-09-25T03:30:56+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -145,7 +165,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-25T00:56:31+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -159,10 +179,24 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-25T00:34:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_dabfd5a7d7b1",
+      "title": "‘Fala, meu amor’: mensagens revelam intimidade entre ex-banqueiro Vorcaro e Alcolumbre. Veja prints.",
+      "description": "A relação entre o presidente do Senado, Davi Alcolumbre (União-AP), e o dono do já liquidado Banco Master, Daniel Vorcaro, aparece marcada...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/fala-meu-amor-mensagens-revelam-intimidade-entre-ex-banqueiro-vorcaro-e-alcolumbre-veja-prints",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-09-25T03:04:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_2353dd67c48c",
@@ -187,7 +221,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T00:34:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -201,7 +235,7 @@
       "sourceCanonical": "ParaibaOnline",
       "sourceDomain": "paraibaonline.com.br",
       "publishedAt": "2026-09-25T01:31:44+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -235,20 +269,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dabfd5a7d7b1",
-      "title": "‘Fala, meu amor’: mensagens revelam intimidade entre ex-banqueiro Vorcaro e Alcolumbre. Veja prints.",
-      "description": "A relação entre o presidente do Senado, Davi Alcolumbre (União-AP), e o dono do já liquidado Banco Master, Daniel Vorcaro, aparece marcada...",
-      "url": "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/fala-meu-amor-mensagens-revelam-intimidade-entre-ex-banqueiro-vorcaro-e-alcolumbre-veja-prints",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-09-25T03:04:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_c0e0b5e5c98d",
       "title": "“Fala meu amor!”, diz Davi Alcolumbre à Vorcaro em mensagens reveladas pela Revista Veja",
       "description": "Apesar dos rumores, nunca foi devidamente explicada a postura omissa do presidente do Congresso em relação ao escândalo do Master.",
@@ -271,67 +291,53 @@
       "sourceCanonical": "O Antagonista",
       "sourceDomain": "oantagonista.com.br",
       "publishedAt": "2026-09-25T01:07:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_12ec3f823ba1",
+      "title": "Mensagens de proximidade entre Alcolumbre e Vorcaro reacendem debate no Senado",
+      "description": "Senador nega ilegalidades, acusa mídia de sensacionalismo barato em meio a ofensiva política.",
+      "url": "https://portalvv8.com.br/noticia/75175/mensagens-de-proximidade-entre-alcolumbre-e-vorcaro-reacendem-debate-no-senado",
+      "source": "Portal VV8",
+      "sourceCanonical": "Portal VV8",
+      "sourceDomain": "portalvv8.com.br",
+      "publishedAt": "2026-09-25T02:01:23+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_6f04e55b38c4",
       "title": "Elo entre Vorcaro e Otto, advogado atuou em processos do PSD",
       "description": "Apontado pela Polícia Federal como intermediário entre o ex-dono do Banco Master, Daniel Vorcaro, e o senador Otto Alencar (PSD), o advogado...",
       "url": "https://seliguebahia.com.br/justica/elo-entre-vorcaro-e-otto-advogado-atuou-em-processos-do-psd/",
-      "source": "Se Ligue Bahia",
-      "sourceCanonical": "Se Ligue Bahia",
+      "source": "seliguebahia.com.br",
+      "sourceCanonical": "seliguebahia.com.br",
       "sourceDomain": "seliguebahia.com.br",
       "publishedAt": "2026-09-21T13:57:58+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_79dade00ab73",
-      "title": "Ao vivo: Reinaldo Azevedo analisa as novas revelações em celular de Vorcaro",
-      "description": "Program também passa pela crise no STF, as pesquisas eleitorais e a suspensão da campanha de Deltan Dallagnol.",
-      "url": "https://www.band.com.br/politica/ao-vivo-reinaldo-azevedo-analisa-novas-revelacoes-do-celular-de-vorcaro",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-09-21T20:11:32+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7358fbbdcb90",
-      "title": "“Fala, meu amor”: conversas mostram Alcolumbre e Vorcaro em relação de intimidade",
-      "description": "Mensagens encontradas pela Polícia Federal no celular de Daniel Vorcaro, ex-dono do Banco Master, revelam uma relação próxima com o...",
-      "url": "https://revistaforum.com.br/politica/amor-conversas-alcolumbre-e-vorcaro/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-09-25T00:43:36+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.29,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.77,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 3,
+      "left": 2,
       "centerLeft": 1,
-      "center": 6,
-      "centerRight": 2,
+      "center": 5,
+      "centerRight": 3,
       "right": 2,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {

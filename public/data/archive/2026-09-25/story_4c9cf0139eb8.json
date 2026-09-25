@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k4eVpfLUVSRlh6cDFiZzJBYTZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k4eVpfLUVSRlh6cDFiZzJBYTZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 26
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 17
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 26,
-    "bestSeedRank": 26,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Represadas até agora, as novas revelações sobre Flávio Bolsonaro e a ‘turma do KN’ são de arrepiar",
   "summary": "Mais que um banco, o Master era fábrica de dinheiro, produtora de filmes e de festas com 'moças novinhas' e companhia de aviação.",
@@ -25,13 +31,13 @@
     "flávio",
     "vorcaro",
     "bolsonaro",
-    "mensagens",
     "prisão",
-    "banqueiro"
+    "banqueiro",
+    "celular"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/PQXPCV63AZEPXAMVPDFWW6WK4U.jpg?quality=80&auth=acfcc8a397787450e1b0d3abe9ce7b2cc7aababc9fa4ed67a4ae797230d88e80&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-21T17:06:00+00:00",
-  "updatedAt": "2026-09-25T05:31:12.491323+00:00",
+  "updatedAt": "2026-09-25T06:40:04.898427+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-24T23:56:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/PQXPCV63AZEPXAMVPDFWW6WK4U.jpg?quality=80&auth=acfcc8a397787450e1b0d3abe9ce7b2cc7aababc9fa4ed67a4ae797230d88e80&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -96,8 +102,8 @@
       "title": "Flávio mentiu ao menos 43 vezes sobre elo com Vorcaro",
       "description": "O político foi do desconhecimento, passou para negação do relacionamento com o ex-banqueiro e agora tenta desviar o foco.",
       "url": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/",
-      "source": "aosfatos.org",
-      "sourceCanonical": "aosfatos.org",
+      "source": "Aos Fatos",
+      "sourceCanonical": "Aos Fatos",
       "sourceDomain": "aosfatos.org",
       "publishedAt": "2026-09-24T23:14:51+00:00",
       "postedLabel": "hoje",
@@ -124,14 +130,14 @@
       "title": "Seis encontros, ajuda em Dubai e jantar com equipe do ‘Dark House’: o que revelam os três meses de conversas de Flávio Bolsonaro com Vorcaro",
       "description": "Foram pelo menos três meses de conversas pelo WhatsApp entre o senador e candidato à Presidência Flávio Bolsonaro (PL-RJ) e o ex-banqueiro...",
       "url": "https://www.brasildefato.com.br/2026/09/24/seis-encontros-ajuda-em-dubai-e-jantar-com-equipe-do-dark-house-o-que-revelam-os-tres-meses-de-conversas-de-flavio-bolsonaro-com-vorcaro/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
+      "source": "brasildefato.com.br",
+      "sourceCanonical": "brasildefato.com.br",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-24T23:52:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_5fc58a6f493a",
@@ -156,7 +162,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-09-25T02:16:25+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -176,32 +182,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_4dd3dee3dd5a",
-      "title": "Flávio ofereceu 'ajuda' a Vorcaro dias antes do banqueiro ser preso",
-      "description": "Registros obtidos pela PF mostram contatos do senador com o dono do Banco Master entre 13 e 16 de novembro de 2025.",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/09/7507900-flavio-ofereceu-ajuda-a-vorcaro-dias-antes-do-banqueiro-ser-preso.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-09-24T19:11:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_3965ff8daaf6",
-      "title": "Mensagens da PF mostram Neymar Pai e Flávio Bolsonaro cobrando recursos de Vorcaro",
-      "description": "Mensagens apreendidas pela PF registram cobranças de Flávio Bolsonaro e Neymar Pai por recursos ligados a negociações com Daniel Vorcaro;...",
-      "url": "https://www.terra.com.br/esportes/futebol/mensagens-da-pf-mostram-neymar-pai-e-flavio-bolsonaro-cobrando-recursos-de-vorcaro,3ed13d36a7bbdc87bc931f36aefa5517y1klqv3i.html",
-      "source": "terra.com.br",
-      "sourceCanonical": "terra.com.br",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-09-21T17:06:00+00:00",
+      "id": "article_fb6dd53669b1",
+      "title": "Vorcaro pediu sigilo sobre suposto jantar com Bolsonaro e Flávio em 2024",
+      "description": "Mensagens obtidas pela PF mostram ex-banqueiro cobrando discrição sobre possibilidade de “reunião bolso”; candidato do PL ainda não se...",
+      "url": "https://www.cnnbrasil.com.br/politica/vorcaro-pediu-sigilo-sobre-suposto-jantar-com-bolsonaro-e-flavio-em-2024/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-21T19:36:12+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8bcc5b251f22",
@@ -218,6 +210,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_3965ff8daaf6",
+      "title": "Mensagens da PF mostram Neymar Pai e Flávio Bolsonaro cobrando recursos de Vorcaro",
+      "description": "Mensagens apreendidas pela PF registram cobranças de Flávio Bolsonaro e Neymar Pai por recursos ligados a negociações com Daniel Vorcaro;...",
+      "url": "https://www.terra.com.br/esportes/futebol/mensagens-da-pf-mostram-neymar-pai-e-flavio-bolsonaro-cobrando-recursos-de-vorcaro,3ed13d36a7bbdc87bc931f36aefa5517y1klqv3i.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-21T17:06:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_3d95bdce898e",
       "title": "Flávio Bolsonaro se antecipa a possível reportagem e nega que Luciano Hang tenha investido em Dark Horse: 'sinto frustrar vocês'",
       "description": "Flávio Bolsonaro nega investimento de Luciano Hang no filme 'Dark Horse' e refuta rumores sobre uso de paraísos fiscais.",
@@ -232,18 +238,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_dd9cd4fc731f",
-      "title": "Mensagens apontam que Vorcaro temia vazamento de jantar com ‘Flávio’ e ‘Bolso’",
-      "description": "Troca aconteceu em dezembro de 2024; empresário Flávio Carneiro marcou encontro entre o banqueiro, \"xará\" e \"o pai dele\"",
-      "url": "https://jovempan.com.br/politica/mensagens-apontam-que-vorcaro-temia-vazamento-de-jantar-com-flavio-e-bolso/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-22T19:43:30+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_4dd3dee3dd5a",
+      "title": "Flávio ofereceu 'ajuda' a Vorcaro dias antes do banqueiro ser preso",
+      "description": "Registros obtidos pela PF mostram contatos do senador com o dono do Banco Master entre 13 e 16 de novembro de 2025.",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/09/7507900-flavio-ofereceu-ajuda-a-vorcaro-dias-antes-do-banqueiro-ser-preso.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-24T19:11:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_d00f32fc9f52",
@@ -260,20 +266,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_dfec335ccf8e",
-      "title": "Celular de Vorcaro revela menções a 6 encontros com Flávio Bolsonaro; mensagens antigas foram apagadas",
-      "description": "Mensagens recuperadas em aparelho apreendido pela Polícia Federal revelam contatos entre o candidato à Presidência e o antigo controlador do...",
-      "url": "https://ndmais.com.br/politica/conversa-de-vorcaro-com-flavio-revela-tres-meses-de-mensagens-e-mencoes-a-seis-encontros/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-09-24T18:13:35+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_09c9dedb9862",
       "title": "Flávio fez quatro tentativas de contato com Vorcaro antes da prisão do banqueiro",
       "description": "Registros encontrados pela PF no celular do dono do Master mostram mensagens e ligações feitas pelo senador entre 13 e 16 de novembro de...",
@@ -286,6 +278,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_dfec335ccf8e",
+      "title": "Celular de Vorcaro revela menções a 6 encontros com Flávio Bolsonaro; mensagens antigas foram apagadas",
+      "description": "Mensagens recuperadas em aparelho apreendido pela Polícia Federal revelam contatos entre o candidato à Presidência e o antigo controlador do...",
+      "url": "https://ndmais.com.br/politica/conversa-de-vorcaro-com-flavio-revela-tres-meses-de-mensagens-e-mencoes-a-seis-encontros/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-09-24T18:13:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_30d3f0c168de",
@@ -302,33 +308,33 @@
       "bucket": "left"
     },
     {
-      "id": "article_90103606baa1",
-      "title": "Cai outra mentira de Flávio. Houve sim contrapartida dele para a propina de R$ 134 milhões de Vorcaro",
-      "description": "Flávio negociou um suborno de R$ 134 milhões do Master em troca da apresentação pelo deputado Felipe Bastos (PL-PR) da proposta de elevar o...",
-      "url": "https://horadopovo.com.br/cai-outra-mentira-de-flavio-houve-sim-contrapartida-dele-para-a-propina-de-r-134-milhoes-de-vorcaro/",
-      "source": "Hora do Povo",
-      "sourceCanonical": "Hora do Povo",
-      "sourceDomain": "horadopovo.com.br",
-      "publishedAt": "2026-09-22T18:24:44+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_dcbefa3e50c0",
+      "title": "Flávio e o canto dos galos",
+      "description": "Pelo jeito, Flávio Bolsonaro confiou demais que os dados mais comprometedores continuariam a ser protegidos pelo mesmo sigilo que sonegou à...",
+      "url": "https://www.correiodamanha.com.br/colunistas/fernando-molica/2026/09/321955-flavio-e-o-canto-dos-galos.html",
+      "source": "correiodamanha.com.br",
+      "sourceCanonical": "correiodamanha.com.br",
+      "sourceDomain": "correiodamanha.com.br",
+      "publishedAt": "2026-09-25T03:01:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.94,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.13,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 5,
+      "left": 3,
       "centerLeft": 1,
-      "center": 5,
+      "center": 7,
       "centerRight": 3,
-      "right": 2,
-      "unknown": 4
+      "right": 1,
+      "unknown": 5
     }
   },
   "scores": {

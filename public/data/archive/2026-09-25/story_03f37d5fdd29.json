@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2025/10/1761495728.jpg",
   "publishedAt": "2026-09-17T20:04:56+00:00",
-  "updatedAt": "2026-09-25T05:38:03.766787+00:00",
+  "updatedAt": "2026-09-25T06:55:47.574555+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -194,14 +194,14 @@
       "title": "Economia da Argentina encolhe, com consumo e investimento em queda",
       "description": "A economia argentina encolheu 0,6% no segundo trimestre de 2026 em relação aos três meses anteriores, na primeira contração trimestral desde...",
       "url": "https://veja.abril.com.br/economia/economia-da-argentina-encolhe-com-consumo-e-investimento-em-queda/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-17T20:57:38+00:00",
       "postedLabel": "7 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_87b7decf005f",
@@ -264,28 +264,14 @@
       "title": "Argentina fecha 31,3 mil empresas durante governo Milei, aponta levantamento | Mundo | O Liberal",
       "description": "Levantamento aponta ainda perda de 245,6 mil empregos formais desde o início da gestão; inflação anual, por outro lado, caiu de 289% para 33...",
       "url": "https://www.oliberal.com/mundo/argentina-fecha-31-3-mil-empresas-durante-governo-milei-aponta-levantamento-1.1172300",
-      "source": "O Liberal",
-      "sourceCanonical": "O Liberal",
+      "source": "oliberal.com",
+      "sourceCanonical": "OLiberal.com",
       "sourceDomain": "oliberal.com",
       "publishedAt": "2026-09-23T19:06:52+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_2d0a1a40112c",
-      "title": "Desindustrialização na Argentina apaga 31 mil empresas",
-      "description": "O programa de ajuste conduzido por Javier Milei já produziu um passivo produtivo mensurável em números fechados: 31,3 mil companhias...",
-      "url": "https://www.spacemoney.com.br/economia/macroeconomia/desindustrializacao-argentina-milei-empresas-fechadas/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-09-23T18:13:40+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_313e08d26178",
@@ -302,12 +288,26 @@
       "bucket": "left"
     },
     {
+      "id": "article_2d0a1a40112c",
+      "title": "Desindustrialização na Argentina apaga 31 mil empresas",
+      "description": "O programa de ajuste conduzido por Javier Milei já produziu um passivo produtivo mensurável em números fechados: 31,3 mil companhias...",
+      "url": "https://www.spacemoney.com.br/economia/macroeconomia/desindustrializacao-argentina-milei-empresas-fechadas/",
+      "source": "spacemoney.com.br",
+      "sourceCanonical": "spacemoney.com.br",
+      "sourceDomain": "spacemoney.com.br",
+      "publishedAt": "2026-09-23T18:13:40+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_d9d59cbcd021",
       "title": "Crise social desafia resultados econômicos de Milei na Argentina",
       "description": "Inflação desacelera, mas desemprego, fechamento de empresas, perda salarial e endividamento ampliam debate sobre política econômica...",
       "url": "https://radiopeaobrasil.com.br/crise-social-desafia-resultados-economicos-de-milei-na-argentina/",
-      "source": "radiopeaobrasil.com.br",
-      "sourceCanonical": "radiopeaobrasil.com.br",
+      "source": "Rádio Peão Brasil",
+      "sourceCanonical": "Rádio Peão Brasil",
       "sourceDomain": "radiopeaobrasil.com.br",
       "publishedAt": "2026-09-18T14:09:59+00:00",
       "postedLabel": "6 dias atrás",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.5,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "max": 7,
+    "average": 4.88,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 4,
-      "centerRight": 0,
+      "center": 5,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 14
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 93
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
