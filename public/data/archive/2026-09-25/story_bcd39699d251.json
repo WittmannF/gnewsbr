@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 13
+      "topic-4": 15
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 13,
-    "bestSeedRank": 13,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/sv05SEwzth4uiPKxD9nMZZR4a5w=/3898x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/5/3UixlxTMOKBJO4WE5tLQ/photo-u2-photo-credit-viviane-sassen.jpg",
   "publishedAt": "2026-09-23T12:35:38+00:00",
-  "updatedAt": "2026-09-25T07:35:10.961882+00:00",
+  "updatedAt": "2026-09-25T08:36:45.604803+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "U2 revela o nome de novo álbum, em comemoração ao 50º aniversário da banda",
       "description": "Bono, vocalista do U2, faz show em metrô de Kiev. 1:16. Thumbnail do video:Bono, vocalista do U2, faz show em metrô de Kiev. O cantor...",
       "url": "https://www.estadao.com.br/cultura/musica/u2-revela-o-nome-do-seu-novo-album-carnaval-de-luz-para-o-seu-50-aniversario-nprec/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-23T21:51:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_bcbda1f9d8dc",
@@ -141,8 +141,8 @@
       "source": "Público",
       "sourceCanonical": "Público",
       "sourceDomain": "publico.pt",
-      "publishedAt": "2026-09-25T06:08:19+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-09-25T08:19:37+00:00",
+      "postedLabel": "17 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
@@ -246,6 +246,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_f412e486bbf8",
+      "title": "U2 completa 50 anos: entenda a história por trás do nome da banda",
+      "description": "Integrantes, que seguem juntos desde o primeiro dia, serão nomeados como as Personalidades do Ano em 2027.",
+      "url": "https://www.cnnbrasil.com.br/pop/musica/u2-completa-50-anos-entenda-a-historia-por-tras-do-nome-da-banda/",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-25T07:00:06+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_10bb6635322a",
       "title": "U2 anuncia álbum ‘Carnaval De Luz’ com Rosalía, Dolly Parton e Brian Eno",
       "description": "O U2 celebrará seu 50º ano como banda ainda este ano com seu 16º álbum de estúdio, \"Carnaval De Luz\".",
@@ -264,28 +278,14 @@
       "title": "“Carnaval de luz”: Tem disco do U2 vindo aí, com homenagem a Rosalía (mas sem ela!)",
       "description": "Carnaval de luz, primeiro álbum de inéditas do U2 em nove anos, tem faixa inspirada em Rosalía, guitarras em alta e a última gravação vocal...",
       "url": "https://popfantasma.com.br/carnaval-de-luz-u2-rosalia/",
-      "source": "popfantasma.com.br",
-      "sourceCanonical": "popfantasma.com.br",
+      "source": "Pop Fantasma",
+      "sourceCanonical": "Pop Fantasma",
       "sourceDomain": "popfantasma.com.br",
       "publishedAt": "2026-09-25T00:43:46+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f412e486bbf8",
-      "title": "U2 completa 50 anos: entenda a história por trás do nome da banda",
-      "description": "Integrantes, que seguem juntos desde o primeiro dia, serão nomeados como as Personalidades do Ano em 2027.",
-      "url": "https://www.cnnbrasil.com.br/pop/musica/u2-completa-50-anos-entenda-a-historia-por-tras-do-nome-da-banda/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-25T07:00:06+00:00",
-      "postedLabel": "35 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_230f67a12cc6",
@@ -319,14 +319,14 @@
   "spectrum": {
     "min": 3,
     "max": 7,
-    "average": 4.88,
+    "average": 5.12,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 3,
-      "center": 4,
-      "centerRight": 1,
+      "center": 3,
+      "centerRight": 2,
       "right": 0,
       "unknown": 12
     }
