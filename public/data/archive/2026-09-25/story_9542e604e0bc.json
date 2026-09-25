@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loaU9DRkVoRWJsS0pRUW5LMnhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loaU9DRkVoRWJsS0pRUW5LMnhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 60
+      "topic-3": 50,
+      "topic-5": 61
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/a9DjmeO9zP-RdE1_mz8Ln-n8HOQ=/1100x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/Q/W/7vj3jXSouEJsTHgDF7NQ/arte-12-.png",
   "publishedAt": "2026-09-23T04:22:00+00:00",
-  "updatedAt": "2026-09-25T06:49:11.918673+00:00",
+  "updatedAt": "2026-09-25T07:33:59.590752+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +57,7 @@
       "title": "Procuradoria francesa pede prorrogação de prisão de ex-namorado de modelo paulista encontrada morta",
       "description": "OUTRO LADO: suspeito negou o crime durante interrogatório e foi apresentado à Justiça; defesa não foi identificada pela reportagem.",
       "url": "https://www1.folha.uol.com.br/cotidiano/2026/09/procuradoria-francesa-pede-prorrogacao-de-prisao-de-ex-namorado-de-modelo-paulista-encontrada-morta.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-24T13:37:00+00:00",
@@ -292,14 +295,14 @@
       "title": "Brasileira é encontrada morta no carro do ex-namorado na França",
       "description": "A modelo brasileira Larissa Brito, de 25 anos, foi encontrada morta no carro do ex-namorado, em Brignoles, na França, na tarde da última...",
       "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/mundo/brasileira-e-encontrada-morta-no-carro-do-ex-namorado-na-franca-1.3793423",
-      "source": "diariodonordeste.verdesmares.com.br",
-      "sourceCanonical": "diariodonordeste.verdesmares.com.br",
+      "source": "Diário do Nordeste",
+      "sourceCanonical": "Diário do Nordeste",
       "sourceDomain": "diariodonordeste.verdesmares.com.br",
       "publishedAt": "2026-09-23T10:53:22+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_448ab7509126",
@@ -310,7 +313,7 @@
       "sourceCanonical": "grupo sepé",
       "sourceDomain": "gruposepe.com.br",
       "publishedAt": "2026-09-25T01:33:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 6,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
+      "centerLeft": 2,
       "center": 5,
       "centerRight": 2,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
