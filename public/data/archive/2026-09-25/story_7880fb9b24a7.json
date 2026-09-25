@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pENWFXSEVoRlU5cFlBSkxYMnp5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pENWFXSEVoRlU5cFlBSkxYMnp5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 10,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 10,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Justiça do Rio de Janeiro determina prisão de Verônica Costa",
   "summary": "A empresária e ex-vereadora do Veronica Costa (PL), conhecida como Mãe Loira do Funk, foi presa na noite desta quinta-feira (24), após ser...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/LPJwX0B1e5bfiPI05nsMkkruiJA=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/V/K8Z3LoQDymBsUU1RxxAw/fotojet-2-.jpg",
   "publishedAt": "2026-09-24T11:48:00+00:00",
-  "updatedAt": "2026-09-25T04:30:44.064972+00:00",
+  "updatedAt": "2026-09-25T05:25:07.318965+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-24T22:59:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/LPJwX0B1e5bfiPI05nsMkkruiJA=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/V/K8Z3LoQDymBsUU1RxxAw/fotojet-2-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,7 +67,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-25T03:16:13+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -169,22 +175,22 @@
       "title": "Quem é Veronica Costa, a 'Mãe Loira do Funk', que foi condenada por torturar o marido",
       "description": "Ela ganhou notoriedade por defender o funk e por sua carreira como vereadora do PL; saiba mais.",
       "url": "https://www.terra.com.br/diversao/musica/meu-sonora/quem-e-veronica-costa-a-mae-loira-do-funk-que-foi-condenada-por-torturar-o-marido,5c319b0942194084674927cc617c9598xezl9nv3.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-24T13:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c0ed62a1f4e2",
       "title": "De afogamentos a queimaduras químicas: o caso de tortura que levou Verônica Costa a mais de 10 anos de prisão",
       "description": "Ex-marido relatou ter passado cerca de 20 horas amarrado, vendado e sob ameaças; laudos apontaram queimaduras de 1º e 2º graus em diferentes...",
       "url": "https://diariodorio.com/seguranca/2026/09/24/de-afogamentos-a-queimaduras-quimicas-o-caso-de-tortura-que-levou-veronica-costa-a-mais-de-10-anos-de-prisao.html",
-      "source": "Diário do Rio",
-      "sourceCanonical": "Diário do Rio",
+      "source": "diariodorio.com",
+      "sourceCanonical": "diariodorio.com",
       "sourceDomain": "diariodorio.com",
       "publishedAt": "2026-09-24T16:06:54+00:00",
       "postedLabel": "hoje",
@@ -229,7 +235,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-24T23:47:53+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -243,7 +249,7 @@
       "sourceCanonical": "Pleno.News",
       "sourceDomain": "pleno.news",
       "publishedAt": "2026-09-25T00:04:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -322,16 +328,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.71,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.77,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 7,
+      "center": 6,
       "centerRight": 2,
       "right": 2,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
