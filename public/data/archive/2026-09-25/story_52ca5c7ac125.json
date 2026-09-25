@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 16
+      "topic-7": 15
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 16,
-    "bestSeedRank": 16,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/23/17901835046ab4085002ae1_1790183504_3x2_xl.jpg",
   "publishedAt": "2026-09-20T13:18:08+00:00",
-  "updatedAt": "2026-09-25T01:12:49.288770+00:00",
+  "updatedAt": "2026-09-25T01:45:00.551125+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +54,7 @@
       "title": "Voto jovem faz diferença para a esquerda em Berlim",
       "description": "Mais de 40% dos eleitores de 16 a 24 anos votaram no partido A Esquerda em Berlim.",
       "url": "https://www1.folha.uol.com.br/tv/2026/09/voto-jovem-faz-diferenca-para-a-esquerda-em-berlim.shtml",
-      "source": "folha.uol.com.br",
+      "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-23T17:14:00+00:00",
@@ -110,14 +110,14 @@
       "title": "Esquerda venceu em Berlim por falar de preocupações diárias dos trabalhadores, aponta analista alemão",
       "description": "Em meio a um cenário político alemão marcado pelo desgaste dos partidos tradicionais e pelo avanço da extrema direita em estados do Leste,...",
       "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/09/23/esquerda-venceu-em-berlim-por-falar-de-preocupacoes-diarias-dos-trabalhadores-aponta-analista-alemao/",
-      "source": "brasildefato.com.br",
-      "sourceCanonical": "brasildefato.com.br",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-23T15:53:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_3a2f80624d23",
@@ -166,7 +166,7 @@
       "title": "Conservadores sofrem derrota histórica na Alemanha",
       "description": "Pela primeira vez em 81 anos de história, a CDU, o tradicional partido de Konrad Adenauer, Helmut Kohl e Angela Merkel, não consegue superar...",
       "url": "https://www.dw.com/pt-br/conservadores-sofrem-derrota-hist%C3%B3rica-na-alemanha/a-79360101",
-      "source": "DW.com",
+      "source": "dw.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-09-21T15:24:40+00:00",
@@ -264,14 +264,14 @@
       "title": "Extrema-esquerda e extrema-direita alimentam-se mutuamente ou competem pelo mesmo eleitorado?",
       "description": "Extrema-direita e extrema-esquerda venceram na Alemanha. Será que os radicais populistas de um lado e do outro se alimentam mutuamente? No...",
       "url": "https://expresso.pt/podcasts/expresso-da-manha/2026-09-22-extrema-esquerda-e-extrema-direita-alimentam-se-mutuamente-ou-competem-pelo-mesmo-eleitorado--ab7e6d2c",
-      "source": "expresso.pt",
-      "sourceCanonical": "expresso.pt",
+      "source": "Expresso",
+      "sourceCanonical": "Expresso",
       "sourceDomain": "expresso.pt",
       "publishedAt": "2026-09-22T05:30:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f11d8f254b62",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 8,
-    "average": 5,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.75,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 4,
-      "center": 5,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 10
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

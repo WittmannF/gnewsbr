@@ -3,44 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pENWFXSEVoRlU5cFlBSkxYMnp5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pENWFXSEVoRlU5cFlBSkxYMnp5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 1,
-      "topstories": 1,
-      "topic-3": 10,
-      "topic-5": 3
+      "topic-3": 8,
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 8,
+    "bestSeedRank": 5,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Justiça do Rio de Janeiro determina prisão de Verônica Costa",
   "summary": "A empresária e ex-vereadora do Veronica Costa (PL), conhecida como Mãe Loira do Funk, foi presa na noite desta quinta-feira (24), após ser...",
-  "topic": "Costa · Mãe",
+  "topic": "Costa · Verônica",
   "topicKeywords": [
     "costa",
+    "verônica",
+    "funk",
     "mãe",
     "loira",
-    "funk",
-    "verônica",
     "vereadora"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/LPJwX0B1e5bfiPI05nsMkkruiJA=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/V/K8Z3LoQDymBsUU1RxxAw/fotojet-2-.jpg",
   "publishedAt": "2026-09-24T12:55:21+00:00",
-  "updatedAt": "2026-09-25T00:57:43.607591+00:00",
+  "updatedAt": "2026-09-25T01:34:52.908359+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,7 +47,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-24T22:59:45+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/LPJwX0B1e5bfiPI05nsMkkruiJA=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/V/K8Z3LoQDymBsUU1RxxAw/fotojet-2-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -81,22 +75,8 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-09-24T21:01:02+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/OLG5L73HAJDAZBKBHN4LEBLCEY.jpg?smart=true&auth=20de11a083f2c706dd8cf60ea196670983101cbacedb8db3d9a1ae674bd411b8&width=1200&height=630",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_8e22bd366950",
-      "title": "‘Mãe Loira do Funk’: condenada por tortura, ex-vereadora do PL é considerada foragida",
-      "description": "Veronica Costa foi condenada a 10 anos e 8 meses em regime fechado.",
-      "url": "https://veja.abril.com.br/brasil/mae-loira-do-funk-condenada-por-tortura-ex-vereadora-do-pl-e-considerada-foragida/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-24T13:28:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/Captura-de-tela-2026-09-24-102635.png?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -115,6 +95,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_8e22bd366950",
+      "title": "‘Mãe Loira do Funk’: condenada por tortura, ex-vereadora do PL é considerada foragida",
+      "description": "Veronica Costa foi condenada a 10 anos e 8 meses em regime fechado.",
+      "url": "https://veja.abril.com.br/brasil/mae-loira-do-funk-condenada-por-tortura-ex-vereadora-do-pl-e-considerada-foragida/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-24T13:28:34+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/Captura-de-tela-2026-09-24-102635.png?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_0e3d8df29a9e",
       "title": "Justiça manda prender ex-vereadora do Rio Verônica Costa, a ‘Mãe Loira do Funk’",
       "description": "A empresária foi condenada por torturar o ex-marido Márcio Costa e é considerada foragida.",
@@ -129,32 +123,46 @@
       "bucket": "left"
     },
     {
-      "id": "article_6a1f40ecb7d5",
-      "title": "Mãe Loira do Funk, Veronica Costa é presa em Petrópolis",
-      "description": "Ex-vereadora era procurada desde quarta-feira (23/9), quando não foi localizada em endereço na Barra da Tijuca.",
-      "url": "https://www.metropoles.com/colunas/fabia-oliveira/mae-loira-do-funk-veronica-costa-e-presa-em-petropolis",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
+      "id": "article_4d6fd57658f1",
+      "title": "Ex-marido se manifesta após pedido de prisão de Veronica Costa: \"Alívio\"",
+      "description": "Márcio Costa, ex-marido de Veronica Costa comentou a decisão da Justiça e afirmou que aguardou por anos pelo momento.",
+      "url": "https://www.metropoles.com/colunas/fabia-oliveira/ex-marido-se-manifesta-apos-pedido-de-prisao-de-veronica-costa-alivio",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-24T23:54:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-09-24T22:06:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_7f4d619a61ef",
+      "title": "Verônica Costa e as musas do funk que marcaram a TV nos anos 2000",
+      "description": "Relembre a consolidação de apresentadoras e artistas que transformaram o ritmo periférico em fenômeno de audiência na televisão aberta...",
+      "url": "https://www.correiobraziliense.com.br/diversao-e-arte/2026/09/7508009-veronica-costa-e-as-musas-do-funk-que-marcaram-a-tv-nos-anos-2000.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-24T20:56:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_2e8a5494bb03",
       "title": "Justiça do RJ manda prender Verônica Costa, condenada por torturar ex-marido",
       "description": "A 16ª Vara Criminal da Capital expediu na última segunda-feira, 22, o mandado de prisão contra a ex-vereadora Verônica Costa,...",
       "url": "https://revistaoeste.com/politica/justica-do-rj-manda-prender-veronica-costa-condenada-por-torturar-ex-marido/",
-      "source": "revistaoeste.com",
-      "sourceCanonical": "revistaoeste.com",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-24T19:50:38+00:00",
       "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_5a7526bf4cbc",
@@ -166,20 +174,6 @@
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-24T13:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e7443450753a",
-      "title": "Ex-vereadora Veronica Costa é presa por tortura contra o ex-marido",
-      "description": "A 'Mãe Loira do Funk' estava escondido em uma casa em Petrópolis, na Região Serrana.",
-      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7305575-ex-vereadora-veronica-costa-e-presa-por-tortura-contra-o-ex-marido.html",
-      "source": "O Dia",
-      "sourceCanonical": "O Dia",
-      "sourceDomain": "odia.ig.com.br",
-      "publishedAt": "2026-09-25T00:04:00+00:00",
-      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -213,18 +207,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_b41aaabddaa6",
-      "title": "Justiça decreta prisão de ex-vereadora conhecida como 'Mãe Loira do Funk'",
-      "description": "Pena fixada em mais de 10 anos de reclusão refere-se a agressões contra o ex-marido denunciadas em 2011.",
-      "url": "https://www.correiobraziliense.com.br/brasil/2026/09/7507488-justica-decreta-prisao-de-ex-vereadora-conhecida-como-mae-loira-do-funk.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-09-24T14:29:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_dce97c36ac12",
+      "title": "'Dor que não passa', diz ex de Verônica Costa ao relembrar tortura",
+      "description": "A Justiça do Rio determinou a prisão da 'Mãe Loira do Funk' pelo crime cometido contra Márcio Costa. Ela já é considerada foragida.",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7305459-dor-que-nao-passa-diz-ex-de-veronica-costa-ao-relembrar-tortura.html",
+      "source": "O Dia",
+      "sourceCanonical": "O Dia",
+      "sourceDomain": "odia.ig.com.br",
+      "publishedAt": "2026-09-24T19:51:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3f269b9bf906",
@@ -269,6 +263,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_2c19c7e0974a",
+      "title": "Após 24 horas foragida, Verônica Costa é presa por tortura no Rio",
+      "description": "A ex-vereadora e uma das principais embaixadoras do funk carioca, Verônica Costa, foi presa no município de Petrópolis, na Região Serrana do...",
+      "url": "https://pleno.news/brasil/cidades/apos-24-horas-foragida-veronica-costa-e-presa-por-tortura-no-rio.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-09-25T00:04:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_824a509a834e",
       "title": "Justiça manda prender ex-vereadora Verônica Costa, a ‘Mãe Loira’ do funk, por tortura",
       "description": "Condenada a mais de 10 anos de prisão por tortura, Verônica Costa não foi localizada pela polícia e é considerada foragida no Rio de...",
@@ -283,20 +291,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_9e3516ade3ff",
-      "title": "Condenada por tortura, Verônica Costa é considerada foragida",
-      "description": "Considerada foragida, ex-vereadora teve mandado expedido pela 16ª Vara Criminal do Rio após STF esgotar recursos de condenação definitiva.",
-      "url": "https://correiodobrasil.com.br/a/condenada-tortura-veronica-costa-considerada-foragida",
-      "source": "correiodobrasil.com.br",
-      "sourceCanonical": "correiodobrasil.com.br",
-      "sourceDomain": "correiodobrasil.com.br",
-      "publishedAt": "2026-09-24T17:16:28+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_c5df90b7daa9",
       "title": "Quem é Verônica Costa, 'Mãe Loira do Funk' condenada por torturar marido",
       "description": "A empresária e ex-vereadora carioca Verônica Costa (PL), mais conhecida como \"Mãe Loira do Funk\", é procurada pela Justiça do Rio de Janeiro...",
@@ -305,45 +299,45 @@
       "sourceCanonical": "Diário do Nordeste",
       "sourceDomain": "diariodonordeste.verdesmares.com.br",
       "publishedAt": "2026-09-24T21:31:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_2c19c7e0974a",
-      "title": "Após 24 horas foragida, Verônica Costa é presa por tortura no Rio",
-      "description": "A ex-vereadora e uma das principais embaixadoras do funk carioca, Verônica Costa, foi presa no município de Petrópolis, na Região Serrana do...",
-      "url": "https://pleno.news/brasil/cidades/apos-24-horas-foragida-veronica-costa-e-presa-por-tortura-no-rio.html",
-      "source": "Pleno.News",
-      "sourceCanonical": "Pleno.News",
-      "sourceDomain": "pleno.news",
-      "publishedAt": "2026-09-25T00:04:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_1dc8f6fa9639",
+      "title": "Ex-vereadora Veronica Costa é considerada foragida; polícia encontra apartamento vazio e cães aba...",
+      "description": "Veronica Costa é considerada foragida Divulgação A Polícia Civil do RJ tentou localizar e cumprir, nesta quarta-feira (24), o mandado de...",
+      "url": "https://www.condorcontabilidade.com.br/nb2/rj/rio-de-janeiro/noticia/2026/09/24/mae-loira-foragida.ghtml",
+      "source": "condorcontabilidade.com.br",
+      "sourceCanonical": "condorcontabilidade.com.br",
+      "sourceDomain": "condorcontabilidade.com.br",
+      "publishedAt": "2026-09-24T13:23:39+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.29,
+    "max": 10,
+    "average": 5.64,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
-      "center": 7,
+      "center": 6,
       "centerRight": 2,
-      "right": 1,
+      "right": 2,
       "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
