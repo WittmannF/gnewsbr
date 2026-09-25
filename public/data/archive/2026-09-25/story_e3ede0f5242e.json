@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 22,
-      "topic-5": 23
+      "topic-3": 21,
+      "topic-5": 19
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 21,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,15 +28,15 @@
     "stf",
     "flávio",
     "lula",
-    "quatro",
     "indicar",
-    "bolsonaro"
+    "bolsonaro",
+    "quatro"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Flavio-Bolsonaro_Av_Paulista.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-16T07:00:00+00:00",
-  "updatedAt": "2026-09-25T18:30:40.886988+00:00",
-  "sourceCount": 13,
-  "articleCount": 17,
+  "updatedAt": "2026-09-25T19:22:14.521517+00:00",
+  "sourceCount": 14,
+  "articleCount": 18,
   "articles": [
     {
       "id": "article_85f368c40172",
@@ -47,7 +47,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-25T15:35:44+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Flavio-Bolsonaro_Av_Paulista.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -207,6 +207,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_f03523ee6f7c",
+      "title": "Tarcísio poderá indicar dois ministros ao STF se Flávio Bolsonaro vencer",
+      "description": "Tarcísio de Freitas teria espaço para indicar dois ministros do STF em eventual governo de Flávio Bolsonaro, segundo interlocutores.",
+      "url": "https://www.diariodocentrodomundo.com.br/tarcisio-podera-indicar-dois-ministros-ao-stf-se-flavio-bolsonaro-vencer/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-09-25T18:40:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_2bd5a7fbdcd0",
       "title": "Zema diz que vitória de Lula pode levar à indicação de \"mais quatro Flávio Dinos\" ao STF",
       "description": "O candidato à Presidência Romeu Zema (Novo) afirmou que uma eventual vitória de Lula (PT) poderia resultar na indicação de “mais quatro...",
@@ -278,13 +292,13 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 9,
-    "average": 6.5,
-    "knownCount": 10,
+    "average": 6.09,
+    "knownCount": 11,
     "unknownCount": 7,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 3,
@@ -293,13 +307,14 @@
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
