@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 49
+      "topic-8": 51
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 49,
-    "bestSeedRank": 49,
+    "firstSeenRank": 51,
+    "bestSeedRank": 51,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/P9fZp1Ydtpmg_SKdyHMMWCqmELo=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/a/p/nPwoiaQNOaMckAe0lVcg/foto25emp-101-ambipar-b7.jpg",
   "publishedAt": "2026-03-04T08:00:00+00:00",
-  "updatedAt": "2026-09-26T13:39:47.286082+00:00",
+  "updatedAt": "2026-09-26T14:40:24.458214+00:00",
   "sourceCount": 5,
   "articleCount": 5,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Caso Master: Grande imprensa repete erros da Lava Jato e aposta em vazamentos seletivos",
       "description": "Em 16 de março de 2016, por volta das 17h, o então juiz Sergio Moro levantou o sigilo de interceptações telefônicas e liberou à imprensa o...",
       "url": "https://www.intercept.com.br/2026/09/21/imprensa-caso-master-escolhe-sombra/",
-      "source": "intercept.com.br",
-      "sourceCanonical": "intercept.com.br",
+      "source": "Intercept Brasil",
+      "sourceCanonical": "Intercept Brasil",
       "sourceDomain": "intercept.com.br",
       "publishedAt": "2026-09-21T10:00:00+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_67ad3cf1ec1d",
@@ -87,7 +87,7 @@
       "sourceDomain": "obrasilianista.com.br",
       "publishedAt": "2026-09-25T17:45:44+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://obrasilianista.com.br/media/894e70cd00e4715d8d5cf1771777a26a210a7003-og.webp",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -96,39 +96,38 @@
       "title": "Miriam Leitão: Operação desvenda elo de facções com Master",
       "description": "Conexão era empresário ligado a Vorcaro e a Dark Horse.",
       "url": "https://g1.globo.com/bom-dia-brasil/video/miriam-leitao-operacao-desvenda-elo-de-faccoes-com-master-14989489.ghtml",
-      "source": "g1.globo.com",
-      "sourceCanonical": "g1.globo.com",
+      "source": "G1",
+      "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-24T12:29:15+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://s02.video.glbimg.com/x720/14989489.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 6,
-    "average": 5.5,
-    "knownCount": 2,
-    "unknownCount": 3,
+    "average": 4.5,
+    "knownCount": 4,
+    "unknownCount": 1,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
-      "center": 2,
+      "center": 3,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 1
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 19,
-    "headlineDivergence": 73,
-    "confidence": 61
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
+    "confidence": 67
   },
   "flags": [
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
