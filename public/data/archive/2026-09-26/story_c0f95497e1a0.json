@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 24
+      "topic-6": 23
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 24,
-    "bestSeedRank": 24,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/NUQTHKNTSBB5ZAQ7LZRW4TMPZM.JPG?quality=80&auth=b1e5d8302a1b12931180a45ddbafe1b37ea07e0e882095d34ff2eb3334975048&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-20T03:10:44+00:00",
-  "updatedAt": "2026-09-26T06:44:31.226408+00:00",
+  "updatedAt": "2026-09-26T07:35:10.561842+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,14 +96,14 @@
       "title": "Eleições no São Paulo: Marcelinho Portugal anuncia candidatura",
       "description": "Candidato encabeça chapa de oposição ao lado de Eduardo Alfano e Fábio Mariz para a eleição de dezembro.",
       "url": "https://www.terra.com.br/esportes/sao-paulo/eleicoes-no-sao-paulo-marcelinho-portugal-anuncia-candidatura,650136fbae3848f475cbb4e2b57a343bpazs1fwz.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
+      "source": "terra.com.br",
+      "sourceCanonical": "terra.com.br",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-25T17:04:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/09/25/2076364201-sampa02-610x400.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a23adc34b95d",
@@ -115,7 +115,7 @@
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-24T21:07:06+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/adilsonalves_09b753f080.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -124,8 +124,8 @@
       "title": "Conselheiro recua em candidatura, e situação do São Paulo vive indefinição",
       "description": "A eleição presidencial do São Paulo deve passar por uma mudança no cenário da situação. Adilson Alves Martins, que estava próximo de...",
       "url": "https://www.gazetaesportiva.com/times/sao-paulo/conselheiro-recua-candidatura-eleicao-sao-paulo/",
-      "source": "gazetaesportiva.com",
-      "sourceCanonical": "gazetaesportiva.com",
+      "source": "Gazeta Esportiva",
+      "sourceCanonical": "Gazeta Esportiva",
       "sourceDomain": "gazetaesportiva.com",
       "publishedAt": "2026-09-24T18:29:00+00:00",
       "postedLabel": "ontem",
@@ -218,20 +218,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5388771bca27",
-      "title": "Marcelo Portugal Gouvêa lança candidatura à presidência do São Paulo",
-      "description": "Advogado lidera chapa de oposição e terá Eduardo Alfano como candidato a vice-presidente.",
-      "url": "https://www.band.com.br/esportes/futebol/times/sao-paulo/marcelo-portugal-gouvea-lanca-candidatura-a-presidencia-do-sao-paulo",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-09-25T14:29:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7ce63d8fb356",
       "title": "Adilson Alves volta atrás, e Massis volta a ser opção no São Paulo",
       "description": "Uma nova reviravolta movimentou os bastidores do São Paulo. Adilson Alves Martins, desistiu de disputar a presidência do São Paulo pela...",
@@ -244,6 +230,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_5388771bca27",
+      "title": "Marcelo Portugal Gouvêa lança candidatura à presidência do São Paulo",
+      "description": "Advogado lidera chapa de oposição e terá Eduardo Alfano como candidato a vice-presidente.",
+      "url": "https://www.band.com.br/esportes/futebol/times/sao-paulo/marcelo-portugal-gouvea-lanca-candidatura-a-presidencia-do-sao-paulo",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-09-25T14:29:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f8b170f97c04",
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.43,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5.5,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 6,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 95
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
