@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 22,
+      "topic-3": 20,
       "topic-5": 40
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 20,
+    "bestSeedRank": 20,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/06/pix_0411202553.webp",
   "publishedAt": "2026-07-24T07:00:00+00:00",
-  "updatedAt": "2026-09-26T16:26:29.667939+00:00",
+  "updatedAt": "2026-09-26T17:21:58.076190+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -103,7 +103,7 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-09-26T16:17:58+00:00",
-      "postedLabel": "8 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -155,14 +155,14 @@
       "title": "EUA vetam presença da China em negociações com Brasil",
       "description": "A tentativa da China de acompanhar as discussões entre Brasil e Estados Unidos na Organização Mundial do Comércio (OMC) não recebeu a...",
       "url": "https://revistaoeste.com/economia/eua-vetam-presenca-da-china-em-negociacoes-com-brasil/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-23T19:45:44+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_18b10f49e67b",
@@ -183,14 +183,14 @@
       "title": "Representantes de Lula e Trump têm primeira reunião na OMC para discutir tarifaço",
       "description": "Representantes dos governos Lula e Donald Trump fizeram nesta sexta-feira a primeira reunião, em Genebra, na Suíça, para discutir as tarifas...",
       "url": "https://www.folhape.com.br/economia/representantes-de-lula-e-trump-tem-primeira-reuniao-na-omc-para/514893/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
+      "source": "folhape.com.br",
+      "sourceCanonical": "folhape.com.br",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-25T21:13:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_888e6e3ba3f5",
@@ -271,7 +271,7 @@
       "sourceCanonical": "Portal Goiás em Dia",
       "sourceDomain": "goiasemdia.com.br",
       "publishedAt": "2026-09-26T16:02:54+00:00",
-      "postedLabel": "23 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -295,8 +295,8 @@
       "title": "Tarifaço aumenta demanda por armazenagem no Brasil",
       "description": "Empresas reduzem contratos com clientes norte-americanos e buscam estruturas flexíveis para reorganizar estoques diante das novas condições...",
       "url": "https://portalbenews.com.br/tarifaco-aumenta-demanda-por-armazenagem-no-brasil/",
-      "source": "Portal BE News",
-      "sourceCanonical": "Portal BE News",
+      "source": "portalbenews.com.br",
+      "sourceCanonical": "portalbenews.com.br",
       "sourceDomain": "portalbenews.com.br",
       "publishedAt": "2026-09-24T19:15:00+00:00",
       "postedLabel": "ontem",
@@ -321,28 +321,27 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 10,
-    "average": 5.14,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "max": 7,
+    "average": 4.83,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 9,
       "centerRight": 1,
-      "right": 1,
-      "unknown": 6
+      "right": 0,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
