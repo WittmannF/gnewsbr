@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 12
+      "topic-7": 11
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 11,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/wR0W9z1-rjfw15JWUvJmNouUlz4=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/S/t/kUykKPSsWeN4FBBASfyg/foto18esp-101-houthis-a22.jpg",
   "publishedAt": "2026-09-20T17:34:57+00:00",
-  "updatedAt": "2026-09-26T19:29:47.431740+00:00",
+  "updatedAt": "2026-09-26T20:33:56.058497+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -194,14 +194,14 @@
       "title": "Arábia Saudita, Turquia e Paquistão planejam reunião militar sobre o Iêmen",
       "description": "Chefes militares discutirão apoio a Riade após ataques houthis; pacto de defesa entre os três países prevê resposta conjunta a agressões.",
       "url": "https://www.brasil247.com/mundo/arabia-saudita-turquia-e-paquistao-planejam-reuniao-militar-sobre-o-iemen/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T07:39:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7d25a81823bb",
@@ -232,20 +232,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d254b9fc5bf2",
-      "title": "Arábia Saudita emite breve alerta de risco de ataque em Meca",
-      "description": "A Arábia Saudita emitiu nesta quinta-feira (24) um alerta de \"perigo potencial\" para várias regiões do reino, entre elas Meca, a cidade mais...",
-      "url": "https://www.em.com.br/internacional/2026/09/7507372-arabia-saudita-emite-breve-alerta-de-risco-de-ataque-em-meca.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-24T11:11:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_2ff943648b49",
       "title": "Revolucionários lançam novos ataques a forças sauditas no Iêmen",
       "description": "Ansar Alá atacou posições militares em Jizan com dezenas de mísseis e drones enquanto combates se intensificam em Taiz e na costa do mar...",
@@ -258,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_d254b9fc5bf2",
+      "title": "Arábia Saudita emite breve alerta de risco de ataque em Meca",
+      "description": "A Arábia Saudita emitiu nesta quinta-feira (24) um alerta de \"perigo potencial\" para várias regiões do reino, entre elas Meca, a cidade mais...",
+      "url": "https://www.em.com.br/internacional/2026/09/7507372-arabia-saudita-emite-breve-alerta-de-risco-de-ataque-em-meca.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-09-24T11:11:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_b55df66e3588",
@@ -296,7 +296,7 @@
       "sourceCanonical": "Petronotícias",
       "sourceDomain": "petronoticias.com.br",
       "publishedAt": "2026-09-24T20:00:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 3,
     "max": 6,
-    "average": 4.67,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.93,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 3,
       "center": 11,
       "centerRight": 0,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

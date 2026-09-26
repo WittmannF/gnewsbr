@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 60
+      "topic-5": 61
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 61,
+    "bestSeedRank": 61,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/22/17901230896ab31c51a3ece_1790123089_3x2_rt.jpg",
   "publishedAt": "2026-09-19T01:31:00+00:00",
-  "updatedAt": "2026-09-26T19:26:49.986934+00:00",
+  "updatedAt": "2026-09-26T20:30:44.597630+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-25T20:17:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/22/17901230896ab31c51a3ece_1790123089_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -166,14 +166,14 @@
       "title": "Lula avalia ir ao debate da Globo na reta final do primeiro turno",
       "description": "Campanha petista vê encontro como estratégico para alcançar indecisos; Flávio Bolsonaro diz que comparece se o presidente confirmar...",
       "url": "https://www.brasil247.com/brasil/lula-avalia-ir-ao-debate-da-globo-na-reta-final-do-primeiro-turno/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T11:45:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_85e1e542b40b",
@@ -198,7 +198,7 @@
       "sourceCanonical": "Money Times",
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-09-24T19:55:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -226,7 +226,7 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-24T20:30:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -260,20 +260,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_13d7f9c96fd3",
-      "title": "Quando será o próximo debate para presidente nas eleições 2026? Veja data",
-      "description": "Com o cancelamento do debate da Record, que aconteceria no dia 27 de setembro, próximo debate será na Globo em outubro.",
-      "url": "https://exame.com/brasil/quando-sera-o-proximo-debate-para-presidente-nas-eleicoes-2026-veja-data/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-09-23T19:07:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_a8a0d41bc6ae",
       "title": "O próximo debate com os presidenciáveis está marcado para o dia primeiro de outubro, com apenas quatro candidatos ao palácio do planalto",
       "description": "Renan Santos e Romeu Zema contestam a decisão.",
@@ -286,6 +272,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_13d7f9c96fd3",
+      "title": "Quando será o próximo debate para presidente nas eleições 2026? Veja data",
+      "description": "Com o cancelamento do debate da Record, que aconteceria no dia 27 de setembro, próximo debate será na Globo em outubro.",
+      "url": "https://exame.com/brasil/quando-sera-o-proximo-debate-para-presidente-nas-eleicoes-2026-veja-data/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-09-23T19:07:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_3827dde92400",
@@ -317,24 +317,24 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 9,
-    "average": 5.5,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.8,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 3,
       "right": 2,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
