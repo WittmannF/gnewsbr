@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 26
+      "topic-6": 25
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 26,
-    "bestSeedRank": 26,
+    "firstSeenRank": 25,
+    "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/16/17895651206aaa98c0c5a7b_1789565120_3x2_rt.jpg",
   "publishedAt": "2026-09-22T18:48:00+00:00",
-  "updatedAt": "2026-09-26T21:32:41.848437+00:00",
+  "updatedAt": "2026-09-26T22:31:52.699719+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,8 +96,8 @@
       "title": "Grandes ligas da Europa fazem comunicado conjunto para pedir reforma da Fifa e cobrar Infantino",
       "description": "Quatro das maiores ligas europeias — Premier League, LALIGA, Bundesliga e a Série A — pediram reformas na Fifa após o fracasso do plano de...",
       "url": "https://www.espn.com.br/futebol/artigo/_/id/17301391/grandes-ligas-da-europa-fazem-comunicado-conjunto-para-pedir-reforma-da-fifa-e-cobrar-infantino",
-      "source": "ESPN Brasil",
-      "sourceCanonical": "ESPN Brasil",
+      "source": "espn.com.br",
+      "sourceCanonical": "espn.com.br",
       "sourceDomain": "espn.com.br",
       "publishedAt": "2026-09-25T15:20:00+00:00",
       "postedLabel": "ontem",
@@ -236,14 +236,14 @@
       "title": "Ligas europeias cobram reforma ampla na FIFA e criticam gestão de Infantino",
       "description": "247 – Quatro das principais ligas nacionais do futebol europeu cobraram, nesta sexta-feira (25), uma reforma ampla na governança da Fifa e...",
       "url": "https://www.brasil247.com/esporte/ligas-europeias-cobram-reforma-ampla-na-fifa-e-criticam-gestao-de-infantino/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T13:50:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_93973366ee7a",
@@ -274,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_08104500a0fb",
-      "title": "Maiores ligas da Europa exigem reformas profundas na Fifa Por Reuters",
-      "description": "Por Lori Ewing. MANCHESTER, Inglaterra, 25 Set (Reuters) - Quatro das ligas de futebol mais poderosas da Europa pediram, nesta sexta-feira,...",
-      "url": "https://br.investing.com/news/world-news/maiores-ligas-da-europa-exigem-reformas-profundas-na-fifa-2075383",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "sourceCanonical": "Investing.com Brasil",
-      "sourceDomain": "br.investing.com",
-      "publishedAt": "2026-09-25T11:51:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_fbee23e532da",
       "title": "Premier League, La Liga, Serie A e Bundesliga exigem “mudanças na FIFA”",
       "description": "Principais ligas europeias emitiram um comunicado no qual explicitam que pretendem “uma nova governação transparente, objetiva,...",
@@ -300,6 +286,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_08104500a0fb",
+      "title": "Maiores ligas da Europa exigem reformas profundas na Fifa Por Reuters",
+      "description": "Por Lori Ewing. MANCHESTER, Inglaterra, 25 Set (Reuters) - Quatro das ligas de futebol mais poderosas da Europa pediram, nesta sexta-feira,...",
+      "url": "https://br.investing.com/news/world-news/maiores-ligas-da-europa-exigem-reformas-profundas-na-fifa-2075383",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-09-25T11:51:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_4ab2278b061b",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 3,
     "max": 7,
-    "average": 4.38,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 4.86,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 4,
       "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
