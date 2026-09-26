@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 15,
-      "topic-5": 17
+      "topic-5": 16
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 15,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/uOYpcxBuPu7reLFaJX-vatCtyjU=/4819x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/A/E/akESKqQqCyDuqedJ333Q/55528930192-6863c0b0aa-o.jpg",
   "publishedAt": "2026-09-15T14:48:40+00:00",
-  "updatedAt": "2026-09-26T08:31:34.945928+00:00",
+  "updatedAt": "2026-09-26T09:25:03.645230+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -113,14 +113,14 @@
       "title": "Zanin e Moraes votam para multar advogado em primeiro caso de prompt injection no STF",
       "description": "Os ministros do Supremo Tribunal Federal (STF) Cristiano Zanin e Alexandre de Moraes votaram para multar o advogado Ramon Oliveira Dias por...",
       "url": "https://www.gazetadopovo.com.br/republica/zanin-e-moraes-votam-para-multar-advogado-em-primeiro-caso-de-prompt-injection-no-stf/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-25T22:57:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/25195616/ASPA-GRANDE-2026-09-25T194716.470.jpg",
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_b614293984e5",
@@ -146,7 +146,7 @@
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-25T19:44:37+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/HH2ADNKMYFGRDOZHHHS65PY7T4.webp?smart=true&auth=f4ca4cb5ad734fc5e03574c013f679686976e0cfff7f373d9bc3094ee6963d1c&width=1200&height=630",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -155,28 +155,28 @@
       "title": "STF descobre tentativa inédita de manipulação processual por inteligência artificial em ação relatada por Zanin",
       "description": "Comandos ocultos em texto tentavam influenciar decisão do ministro, que aplicou multa e acionou a OAB e o MPF.",
       "url": "https://www.brasil247.com/midia/stf-descobre-tentativa-inedita-de-manipulacao-processual-por-inteligencia-artificial-em-acao-relatada-por-zanin/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T11:47:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_618fe1fb2494",
       "title": "STF identifica primeira tentativa de fraude processual com IA",
       "description": "O Supremo Tribunal Federal (STF) identificou a primeira tentativa de fraude processual com uso de inteligência artificial em um processo da...",
       "url": "https://www.correiobraziliense.com.br/politica/2026/09/7508674-stf-identifica-primeira-tentativa-de-fraude-processual-com-ia.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-25T18:37:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_23805f4c236f",
@@ -197,8 +197,8 @@
       "title": "STF identifica caso de comando oculto para IA",
       "description": "O Supremo Tribunal Federal (STF) identificou o uso do Prompt Injection, também chamada de comando oculto, em uma petição judicial para...",
       "url": "https://www.mobiletime.com.br/noticias/25/09/2026/stf-identifica-primeiro/",
-      "source": "Mobile Time",
-      "sourceCanonical": "Mobile Time",
+      "source": "mobiletime.com.br",
+      "sourceCanonical": "mobiletime.com.br",
       "sourceDomain": "mobiletime.com.br",
       "publishedAt": "2026-09-25T21:12:09+00:00",
       "postedLabel": "hoje",
@@ -320,29 +320,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
-    "max": 7,
-    "average": 5,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "min": 5,
+    "max": 8,
+    "average": 6.6,
+    "knownCount": 5,
+    "unknownCount": 15,
     "buckets": {
-      "left": 1,
-      "centerLeft": 1,
+      "left": 0,
+      "centerLeft": 0,
       "center": 2,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 14
+      "unknown": 15
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
-    "confidence": 93
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

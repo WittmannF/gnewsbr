@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 12
+      "topic-6": 13
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 13,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/16/17895651206aaa98c0c5a7b_1789565120_3x2_rt.jpg",
   "publishedAt": "2026-09-22T18:48:00+00:00",
-  "updatedAt": "2026-09-26T08:41:08.133041+00:00",
+  "updatedAt": "2026-09-26T09:33:40.384814+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -124,8 +124,8 @@
       "title": "Principais ligas europeias aumentam pressão sobre Infantino e pedem reformas na FIFA",
       "description": "Trata-se de mais um choque entre as ligas de futebol e Infantino, cujos grandes projetos, vistos como ataques às competições nacionais,...",
       "url": "https://pt.euronews.com/2026/09/25/principais-ligas-europeias-aumentam-pressao-sobre-infantino-e-pedem-reformas-na-fifa",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
+      "source": "Euronews",
+      "sourceCanonical": "Euronews",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-09-25T12:36:03+00:00",
       "postedLabel": "hoje",
@@ -208,14 +208,14 @@
       "title": "Ligas europeias cobram reforma ampla na FIFA e criticam gestão de Infantino",
       "description": "247 – Quatro das principais ligas nacionais do futebol europeu cobraram, nesta sexta-feira (25), uma reforma ampla na governança da Fifa e...",
       "url": "https://www.brasil247.com/esporte/ligas-europeias-cobram-reforma-ampla-na-fifa-e-criticam-gestao-de-infantino/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T13:50:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_36968a46699d",
@@ -274,6 +274,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_4ab2278b061b",
+      "title": "Quatro das cinco maiores ligas da Europa viram-se contra Infantino: “O expansionismo implacável da FIFA afeta toda a gente“",
+      "description": "A Premier League, La Liga, Bundesliga e Serie A uniram-se na crítica à FIFA e Gianni Infantino. Após “um dos maiores abusos de poder da...",
+      "url": "https://tribuna.expresso.pt/futebol-internacional/2026-09-25-quatro-das-cinco-maiores-ligas-da-europa-viram-se-contra-infantino-o-expansionismo-implacavel-da-fifa-afeta-toda-a-gente-6d48f346",
+      "source": "tribuna.expresso.pt",
+      "sourceCanonical": "tribuna.expresso.pt",
+      "sourceDomain": "tribuna.expresso.pt",
+      "publishedAt": "2026-09-25T11:19:45+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_cb9fcf259cd6",
       "title": "Aleksander Čeferin: “O futebol não está à venda”",
       "description": "Na cerimónia de abertura do Portugal Football Summit 2026, esta quarta-feira, Aleksander Čeferin, presidente da UEFA, enviou uma mensagem a...",
@@ -283,20 +297,6 @@
       "sourceDomain": "diariocoimbra.pt",
       "publishedAt": "2026-09-23T12:30:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_4ab2278b061b",
-      "title": "Quatro das cinco maiores ligas da Europa viram-se contra Infantino: “O expansionismo implacável da FIFA afeta toda a gente“",
-      "description": "A Premier League, La Liga, Bundesliga e Serie A uniram-se na crítica à FIFA e Gianni Infantino. Após “um dos maiores abusos de poder da...",
-      "url": "https://tribuna.expresso.pt/futebol-internacional/2026-09-25-quatro-das-cinco-maiores-ligas-da-europa-viram-se-contra-infantino-o-expansionismo-implacavel-da-fifa-afeta-toda-a-gente-6d48f346",
-      "source": "Tribuna Expresso",
-      "sourceCanonical": "Tribuna Expresso",
-      "sourceDomain": "tribuna.expresso.pt",
-      "publishedAt": "2026-09-25T11:19:45+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 7,
-    "average": 4.57,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5.17,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 4,
       "centerRight": 1,
       "right": 0,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
-    "confidence": 95
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

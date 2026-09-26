@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 17,
-      "topic-5": 19
+      "topic-5": 18
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 17,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/ve-renan-filho-jhc-prismada-1200x675.jpg",
   "publishedAt": "2026-09-24T14:08:00+00:00",
-  "updatedAt": "2026-09-26T08:31:40.649950+00:00",
+  "updatedAt": "2026-09-26T09:25:08.684639+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -127,14 +127,14 @@
       "title": "Real Time Big Data divulga pesquisa para governo e Senado em Alagoas",
       "description": "Pesquisa divulgada pelo Real Time Big Data mostra como está o cenário eleitoral em Alagoas para 2026. Leia na Gazeta do Povo.",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-alagoas-setembro-2026-2/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-25T10:01:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_b57bf98bd6d8",
@@ -225,14 +225,14 @@
       "title": "Pesquisa indica empate técnico entre Renan Filho e JHC no governo de Alagoas e triplo empate ao Senado",
       "description": "Real Time Big Data mostra cenário acirrado no primeiro e segundo turnos para o Executivo alagoano, além de disputa acirrada entre Marina JHC...",
       "url": "https://www.brasil247.com/nordeste/pesquisa-indica-empate-tecnico-entre-renan-filho-e-jhc-no-governo-de-alagoas-e-triplo-empate-ao-senado/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T11:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_8651ff171435",
@@ -267,14 +267,14 @@
       "title": "Renan Filho e JHC empatam em primeiro e segundo turnos em Alagoas",
       "description": "Levantamento do instituto Real Time Big Data, divulgado nesta sexta-feira (25), mostra Renan Filho (MDB) e JHC (PSDB) tecnicamente empatados...",
       "url": "https://diariodopoder.com.br/politica/e02-politica/renan-filho-e-jhc-empatam-em-primeiro-e-segundo-turnos-em-alagoas",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
+      "source": "diariodopoder.com.br",
+      "sourceCanonical": "diariodopoder.com.br",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-09-25T19:08:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_685e4a30b474",
@@ -320,29 +320,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
-    "max": 9,
-    "average": 5.29,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "min": 2,
+    "max": 8,
+    "average": 5.54,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 0,
       "center": 8,
-      "centerRight": 3,
-      "right": 1,
-      "unknown": 6
+      "centerRight": 4,
+      "right": 0,
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

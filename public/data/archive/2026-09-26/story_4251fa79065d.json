@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 28,
+      "topic-3": 31,
       "topic-5": 31
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 31,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,13 +28,13 @@
     "marinha",
     "morta",
     "engenheira",
-    "usp",
     "encontrada",
-    "alojamento"
+    "alojamento",
+    "polícia"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/tAC-xXm4HIlyvjIP7ixGWFIheEA=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/s/Q/VYTBwySniXx1sYnCJgIg/fotojet-79-.jpg",
   "publishedAt": "2026-09-25T10:39:52+00:00",
-  "updatedAt": "2026-09-26T08:32:21.129235+00:00",
+  "updatedAt": "2026-09-26T09:25:59.933568+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -183,14 +183,14 @@
       "title": "Oficial da Marinha morre em base; caso é registrado como suspeito",
       "description": "A Segundo-Tenente Beatriz Fickert Santoro, de 33 anos, morreu na quinta-feira (24/9). Ela foi encontrada no alojamento do Centro Tecnológico...",
       "url": "https://www.correiobraziliense.com.br/brasil/2026/09/7508545-oficial-da-marinha-morre-em-base-caso-e-registrado-como-suspeito.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-25T16:39:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a34c8e5859b2",
@@ -305,44 +305,43 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b0a59d655cd2",
-      "title": "Misério na USP: Médica do HU se recusou a atestar óbito de oficial da Marinha",
-      "description": "O caso ocorreu na noite de quinta-feira (24) e passou a ser investigado como morte suspeita.",
-      "url": "https://www.brasil247.com/geral/miserio-na-usp-medica-do-hu-se-recusou-a-atestar-obito-de-oficial-da-marinha/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-25T15:05:00+00:00",
+      "id": "article_4b4bac51811e",
+      "title": "LUTO | A engenheira e Segundo-Tenente da Marinha Beatriz Fickert Santoro, de 33 anos, foi encontrada m0rta na tarde de quinta-feira (24) em um alojamento do Centro Tecnológico da Marinha, localizado nas dependências da Universidade de São Paulo (",
+      "description": "",
+      "url": "https://www.facebook.com/G7Newsgru/posts/luto-a-engenheira-e-segundo-tenente-da-marinha-beatriz-fickert-santoro-de-33-ano/1555625906609335/",
+      "source": "facebook.com",
+      "sourceCanonical": "facebook.com",
+      "sourceDomain": "facebook.com",
+      "publishedAt": "2026-09-26T02:52:08+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 5,
     "max": 7,
-    "average": 4.93,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.33,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 1,
-      "centerLeft": 1,
+      "left": 0,
+      "centerLeft": 0,
       "center": 10,
       "centerRight": 2,
       "right": 0,
-      "unknown": 6
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

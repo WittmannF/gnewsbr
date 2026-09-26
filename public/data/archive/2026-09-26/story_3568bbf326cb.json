@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 25,
-      "topic-5": 28
+      "topic-3": 26,
+      "topic-5": 27
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/08/tarcisio-x-lula-900x568.jpeg.webp",
   "publishedAt": "2026-09-22T10:03:49+00:00",
-  "updatedAt": "2026-09-26T08:32:08.302966+00:00",
+  "updatedAt": "2026-09-26T09:25:38.966362+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -89,7 +89,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-25T09:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/03/tarcisio-de-freitas-fernando-haddad.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -99,14 +99,14 @@
       "title": "Pesquisa Vox Brasil aponta Tarcísio à frente de Haddad no 1º turno em São Paulo; disputa pelo Senado tem quadro acirrado",
       "description": "Levantamento mostra o atual governador com 56,5% das intenções de voto no estado, enquanto corrida pelas duas vagas ao Senado apresenta...",
       "url": "https://www.brasil247.com/sudeste/pesquisa-vox-brasil-aponta-tarcisio-a-frente-de-haddad-no-1o-turno-em-sao-paulo-disputa-pelo-senado-tem-quadro-acirrado/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T10:02:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e60d4d573915",
@@ -141,14 +141,14 @@
       "title": "Datafolha divulga pesquisa para governador de São Paulo; veja os números",
       "description": "Pesquisa divulgada pelo Datafolha mostra como está a corrida ao governo de São Paulo em 2026. Leia na Gazeta do Povo.",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-sao-paulo-setembro-2026-2/",
-      "source": "gazetadopovo.com.br",
-      "sourceCanonical": "gazetadopovo.com.br",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-24T21:22:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e616da40dc20",
@@ -267,14 +267,14 @@
       "title": "Quaest em SP: Tarcísio tem 44%, contra 27% de Haddad; disputa no Senado mantém empate técnico",
       "description": "O governador de São Paulo e candidato à reeleição, Tarcísio de Freitas (Republicanos), tem 44% das intenções de votos no estado, contra 27%",
       "url": "https://www.brasildefato.com.br/2026/09/23/quaest-em-sp-tarcisio-tem-44-contra-27-de-haddad-disputa-no-senado-mantem-empate-tecnico/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
+      "source": "brasildefato.com.br",
+      "sourceCanonical": "brasildefato.com.br",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-23T21:34:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9a38a6cf32bc",
@@ -320,29 +320,30 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 10,
-    "average": 5.67,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 6.43,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 4,
+      "left": 2,
       "centerLeft": 0,
       "center": 5,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 4,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
