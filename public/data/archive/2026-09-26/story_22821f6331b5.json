@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lqNkoySUVoRWE2Yk5JTjA1ODJpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lqNkoySUVoRWE2Yk5JTjA1ODJpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-4"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 9
+      "topic-3": 25,
+      "topic-4": 13
     },
-    "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 25,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/6GNXRLOQIRHNXC6U5IENZOWZFI.jpeg?quality=80&auth=5847654f2688947ca75d58f4b1ccfd86d40dc5b581b59be53ac68ddcfe03f9de&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-11T07:00:00+00:00",
-  "updatedAt": "2026-09-26T20:26:33.811193+00:00",
+  "updatedAt": "2026-09-26T21:23:48.244782+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +47,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-26T15:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/6GNXRLOQIRHNXC6U5IENZOWZFI.jpeg?quality=80&auth=5847654f2688947ca75d58f4b1ccfd86d40dc5b581b59be53ac68ddcfe03f9de&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -78,20 +81,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_baa7e508ebbf",
-      "title": "A cortina de fumaça do ‘Dark Horse’",
-      "description": "Em nove dias, Daniel Vorcaro mudou de papel no noticiário político. Em 1º de setembro, os arquivos do ex-dono do Banco Master chegavam ao...",
-      "url": "https://revistaoeste.com/revista/edicao-342/a-cortina-de-fumaca-do-dark-horse/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-09-25T13:29:52+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/01a_ed342-910x568.jpg.webp",
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_57cf7004cda1",
       "title": "PF investiga nova rota de dinheiro até produtora de Dark Horse",
       "description": "PF apura novos fluxos entre ICB, GO 7 e Go Up no caso Dark Horse; documento cita R$ 2614 milhões à produtora. Leia no Blog do Esmael.",
@@ -101,7 +90,7 @@
       "sourceDomain": "esmaelmorais.com.br",
       "publishedAt": "2026-09-25T11:44:55+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://i1.wp.com/www.esmaelmorais.com.br/wp-content/uploads/2024/06/policia-federal-viaturas.jpg?resize=1200%2C675&ssl=1",
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -120,6 +109,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_baa7e508ebbf",
+      "title": "A cortina de fumaça do ‘Dark Horse’",
+      "description": "Em nove dias, Daniel Vorcaro mudou de papel no noticiário político. Em 1º de setembro, os arquivos do ex-dono do Banco Master chegavam ao...",
+      "url": "https://revistaoeste.com/revista/edicao-342/a-cortina-de-fumaca-do-dark-horse/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-09-25T13:29:52+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
       "id": "article_e592af5f46ab",
       "title": "Quanto custa financiar uma cinebiografia no Brasil hoje",
       "description": "Filme sobre Bolsonaro envolve valores milionários e grandes investidores; conheça o mercado de biopics políticos e seus custos de produção.",
@@ -134,14 +137,28 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_14ceed108ba3",
-      "title": "Mario Frias enviou R$ 645 mil para 'Dark Horse' em menos de 2 meses, e PF questiona como deputado bancou as transferências",
-      "description": "Mario Frias é investigado pela PF por transferências à produtora de “Dark Horse”; documento aponta que valor não seria compatível com renda...",
-      "url": "https://ndmais.com.br/politica/mario-frias-r-645-mil-dark-horse-pf/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-09-25T14:12:42+00:00",
+      "id": "article_0fc8dbc04621",
+      "title": "Vorcaro mudou forma de pagar Dark Horse após operação falhar",
+      "description": "Mensagens mostram que, após dificuldades para enviar dinheiro, ex-banqueiro sugeriu usar outra empresa; dias depois, US$ 2 mi chegaram a...",
+      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-carla/vorcaro-mudou-forma-de-pagar-dark-horse-apos-operacao-falhar",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-22T19:07:05+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_947a9c42e4a9",
+      "title": "Justiça de Catanduva autoriza buscas contra máfia dos combustíveis; grupo ligado ao filme 'Dark Horse' é alvo",
+      "description": "Entre os alvos estão o ex-sócio-proprietário do Banco Genial, um delator no caso Master e o Grupo Entre, usado por Daniel Vorcaro para...",
+      "url": "https://www.diariodaregiao.com.br/artigo/justica-de-catanduva-autoriza-buscas-contra-mafia-dos-combustiveis-grupo-ligado-ao-filme-dark-horse-e-alvo.1790335255340",
+      "source": "Diário da Região",
+      "sourceCanonical": "Diário da Região",
+      "sourceDomain": "diariodaregiao.com.br",
+      "publishedAt": "2026-09-25T11:20:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -162,48 +179,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0fc8dbc04621",
-      "title": "Vorcaro mudou forma de pagar Dark Horse após operação falhar",
-      "description": "Mensagens mostram que, após dificuldades para enviar dinheiro, ex-banqueiro sugeriu usar outra empresa; dias depois, US$ 2 mi chegaram a...",
-      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-carla/vorcaro-mudou-forma-de-pagar-dark-horse-apos-operacao-falhar",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-09-22T19:07:05+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_f2b7bd733b82",
-      "title": "Justiça de Catanduva autoriza buscas contra máfia dos combustíveis; grupo ligado ao filme 'Dark Horse' é alvo",
-      "description": "Entre os alvos estão o ex-sócio-proprietário do Banco Genial, um delator no caso Master e o Grupo Entre, usado por Daniel Vorcaro para enviar US$ 12,3...",
-      "url": "https://www.diariodaregiao.com.br/politica/justica-de-catanduva-autoriza-buscas-contra-mafia-dos-combustiveis-grupo-ligado-ao-filme-dark-horse-e-alvo.1790335255340",
-      "source": "Diário da Região",
-      "sourceCanonical": "Diário da Região",
-      "sourceDomain": "diariodaregiao.com.br",
-      "publishedAt": "2026-09-25T11:23:16+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_1669984d36a5",
-      "title": "Projeção de arrecadação com filme de Bolsonaro superava os R$ 500 milhões, mais que mega-sucessos",
-      "description": "Assine para ter acesso ilimitado a todo o conteúdo do portal O POVO e também do streaming O POVO+. Reportagens, filmes, séries, clube de...",
-      "url": "https://www.opovo.com.br/noticias/politica/2026/09/11/projecao-de-arrecadacao-com-filme-de-bolsonaro-superava-os-rs-500-milhoes-mais-que-mega-sucessos.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "opovo.com.br",
-      "publishedAt": "2026-09-11T07:00:00+00:00",
-      "postedLabel": "15 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_343adb180530",
       "title": "Vorcaro não investiu",
       "description": "Não foi investimento. Não foi. Flávio Bolsonaro gosta de dizer que não tem nada de errado num patrocínio privado para um filme sobre o pai.",
@@ -218,14 +193,28 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a12685a815d8",
-      "title": "Como criar um blockbuster – Ediel Ribeiro",
-      "description": "Filme para mostrar que Jair Bolsonaro não é corrupto, foi feito com o dinheiro da corrupção.” (Le Monde)",
-      "url": "https://www.brasil247.com/blog/como-criar-um-blockbuster/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-18T14:38:00+00:00",
+      "id": "article_14ceed108ba3",
+      "title": "Mario Frias enviou R$ 645 mil para 'Dark Horse' em menos de 2 meses, e PF questiona como deputado bancou as transferências",
+      "description": "Mario Frias é investigado pela PF por transferências à produtora de “Dark Horse”; documento aponta que valor não seria compatível com renda...",
+      "url": "https://ndmais.com.br/politica/mario-frias-r-645-mil-dark-horse-pf/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-09-25T14:12:42+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_81da77d8812f",
+      "title": "Candidato em MT contrata produtora de filme alvo da PF",
+      "description": "A empresa responsável por um documentário sobre o ex-presidente Jair Bolsonaro (PL) que estreou neste ano também recebeu recursos de uma...",
+      "url": "https://www.folhamax.com/politica/candidato-em-mt-contrata-produtora-de-filme-alvo-da-pf/572927",
+      "source": "FOLHAMAX",
+      "sourceCanonical": "FOLHAMAX",
+      "sourceDomain": "folhamax.com",
+      "publishedAt": "2026-09-18T00:05:49+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -246,6 +235,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_1669984d36a5",
+      "title": "Projeção de arrecadação com filme de Bolsonaro superava os R$ 500 milhões, mais que mega-sucessos",
+      "description": "Assine para ter acesso ilimitado a todo o conteúdo do portal O POVO e também do streaming O POVO+. Reportagens, filmes, séries, clube de...",
+      "url": "https://www.opovo.com.br/noticias/politica/2026/09/11/projecao-de-arrecadacao-com-filme-de-bolsonaro-superava-os-rs-500-milhoes-mais-que-mega-sucessos.html",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
+      "sourceDomain": "opovo.com.br",
+      "publishedAt": "2026-09-11T07:00:00+00:00",
+      "postedLabel": "15 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_a12685a815d8",
+      "title": "Como criar um blockbuster – Ediel Ribeiro",
+      "description": "Filme para mostrar que Jair Bolsonaro não é corrupto, foi feito com o dinheiro da corrupção.” (Le Monde)",
+      "url": "https://www.brasil247.com/blog/como-criar-um-blockbuster/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-18T14:38:00+00:00",
+      "postedLabel": "8 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_a90637808573",
       "title": "Documentário sobre Bolsonaro também teria recebido dinheiro de Dark Horse, diz jornal",
       "description": "Documentário \"Colisão dos Destinos\" teria recebido verbas de uma entidade também dirigida pela produtora Karina da Gama.",
@@ -260,20 +277,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_6a2caff36ae7",
-      "title": "PF vê possível elo entre emendas de Mario Frias e recursos enviados ao filme “Dark Horse”",
-      "description": "Investigação aponta caminhos de cerca de R$ 2 milhões destinados a projetos do deputado e analisa repasses que chegaram à produtora do filme...",
-      "url": "https://www.metro1.com.br/noticias/politica/188875,pf-ve-possivel-elo-entre-emendas-de-mario-frias-e-recursos-enviados-ao-filme-dark-horse",
-      "source": "Rádio Metrópole",
-      "sourceCanonical": "Rádio Metrópole",
-      "sourceDomain": "metro1.com.br",
-      "publishedAt": "2026-09-25T13:42:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_4f374e2cff29",
       "title": "Operação investiga Mario Frias por desvio de recursos públicos em cinebiografia",
       "description": "Ação apura possíveis irregularidades envolvendo emendas e armamento clandestino.",
@@ -282,6 +285,20 @@
       "sourceCanonical": "boca.com.br",
       "sourceDomain": "boca.com.br",
       "publishedAt": "2026-09-25T00:34:33+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_6a2caff36ae7",
+      "title": "PF vê possível elo entre emendas de Mario Frias e recursos enviados ao filme “Dark Horse”",
+      "description": "Investigação aponta caminhos de cerca de R$ 2 milhões destinados a projetos do deputado e analisa repasses que chegaram à produtora do filme...",
+      "url": "https://www.metro1.com.br/noticias/politica/188875,pf-ve-possivel-elo-entre-emendas-de-mario-frias-e-recursos-enviados-ao-filme-dark-horse",
+      "source": "Rádio Metrópole",
+      "sourceCanonical": "Rádio Metrópole",
+      "sourceDomain": "metro1.com.br",
+      "publishedAt": "2026-09-25T13:42:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -300,41 +317,27 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_81da77d8812f",
-      "title": "Candidato em MT contrata produtora de filme alvo da PF",
-      "description": "A empresa responsável por um documentário sobre o ex-presidente Jair Bolsonaro (PL) que estreou neste ano também recebeu recursos de uma...",
-      "url": "https://www.folhamax.com/politica/candidato-em-mt-contrata-produtora-de-filme-alvo-da-pf/572927",
-      "source": "FOLHAMAX",
-      "sourceCanonical": "FOLHAMAX",
-      "sourceDomain": "folhamax.com",
-      "publishedAt": "2026-09-18T00:05:49+00:00",
-      "postedLabel": "8 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 10,
-    "average": 5,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.64,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 3,
       "center": 3,
       "centerRight": 1,
       "right": 1,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [

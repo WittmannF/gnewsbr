@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 36,
-      "topic-5": 38
+      "topic-3": 50,
+      "topic-5": 63
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 36,
-    "bestSeedRank": 36,
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/24/17902624666ab53cc27fd77_1790262466_3x2_xl.jpg",
   "publishedAt": "2026-09-18T03:00:00+00:00",
-  "updatedAt": "2026-09-26T20:25:02.389466+00:00",
+  "updatedAt": "2026-09-26T21:25:06.427862+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -69,7 +69,7 @@
     {
       "id": "article_35b6af173c89",
       "title": "Os números da pesquisa Quaest para governador e senadores no Rio Grande do Norte",
-      "description": "A Quaest divulgou nesta sexta-feira (25) uma pesquisa com as intenções de voto para governador do Rio Grande do Norte nas eleições de 2026.",
+      "description": "Nova pesquisa da Quaest mostra como está a disputa para governador e senadores no Rio Grande do Norte nas eleições de 2026.",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-rio-grande-do-norte-setembro-2026/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
@@ -145,7 +145,7 @@
       "sourceCanonical": "Agora RN",
       "sourceDomain": "agorarn.com.br",
       "publishedAt": "2026-09-26T20:04:16+00:00",
-      "postedLabel": "20 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -155,14 +155,14 @@
       "title": "Quaest: Allyson lidera no RN, seguido por Cadu de Lula e Álvaro Dias",
       "description": "247 – O ex-prefeito de Mossoró Allyson Bezerra (União Brasil) registra 39% das intenções de voto para o Governo do Rio Grande do Norte,...",
       "url": "https://www.brasil247.com/nordeste/quaest-allyson-lidera-no-rn-seguido-por-cadu-de-lula-e-alvaro-dias/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-26T00:33:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_de016301a870",
@@ -215,7 +215,7 @@
       "sourceCanonical": "Portal da Abelhinha",
       "sourceDomain": "bznoticias.com.br",
       "publishedAt": "2026-09-24T20:42:11+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -253,14 +253,14 @@
       "title": "Urna nas mãos dos indecisos: decidirá quem duvida",
       "description": "Este artigo se propõe a fazer uma análise da realidade política, econômica e social, nesta véspera de eleições gerais. O debate nacional...",
       "url": "https://tribunadonorte.com.br/colunas/artigos/urna-nas-maos-dos-indecisos-decidira-quem-duvida/",
-      "source": "tribunadonorte.com.br",
-      "sourceCanonical": "tribunadonorte.com.br",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
       "sourceDomain": "tribunadonorte.com.br",
       "publishedAt": "2026-09-18T03:00:00+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_4e85c1dcab14",
@@ -309,8 +309,8 @@
       "title": "Governo do RN: Allyson tem 29%, Álvaro Dias 26,1% e Cadu de Lula 22,9%",
       "description": "Pesquisa IP Sensus, divulgada hoje, sobre a disputa pelo Governo do Rio Grande do Norte mostra Allyson Bezerra (União Brasil) com 29% das...",
       "url": "https://blogdomagno.com.br/governo-do-rn-allyson-tem-29-alvaro-dias-261-e-cadu-de-lula-229/",
-      "source": "Blog do Magno",
-      "sourceCanonical": "Blog do Magno",
+      "source": "blogdomagno.com.br",
+      "sourceCanonical": "blogdomagno.com.br",
       "sourceDomain": "blogdomagno.com.br",
       "publishedAt": "2026-09-24T18:15:00+00:00",
       "postedLabel": "2 dias atrás",
@@ -320,28 +320,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 8,
-    "average": 5.5,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 4.67,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 2,
+      "center": 3,
       "centerRight": 1,
       "right": 0,
-      "unknown": 16
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 87
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
