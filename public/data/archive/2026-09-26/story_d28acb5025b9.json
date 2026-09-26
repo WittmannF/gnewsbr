@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.bnews.com.br/media/uploads/2026/09/ronaldoefilhos.jpg",
   "publishedAt": "2026-09-18T09:32:00+00:00",
-  "updatedAt": "2026-09-26T04:38:17.476375+00:00",
+  "updatedAt": "2026-09-26T05:32:14.325320+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -138,14 +138,14 @@
       "title": "São Cristóvão e Cruzeiro brigam nas redes por Ronaldo Fenômeno: “Não formaram ele”",
       "description": "O aniversário de 50 anos de Ronaldo Fenômeno novamente virou polêmica nas redes sociais protagonizada entre São Cristóvão, do Rio de Janeiro...",
       "url": "https://www.cartacapital.com.br/esporte/sao-cristovao-e-cruzeiro-brigam-nas-redes-por-ronaldo-fenomeno-nao-formaram-ele/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-22T22:36:00+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_8759f9d1d643",
@@ -194,8 +194,8 @@
       "title": "Ronaldo se desculpa após festa de 50 anos: 'Era para ser uma coisa pequena'",
       "description": "Ronaldo Nazário fez um agradecimento pelas mensagens carinhosas que recebeu por seu aniversário e aproveitou para se desculpar caso tenha...",
       "url": "https://entretenimento.r7.com/bang-showbiz/ronaldo-se-desculpa-apos-festa-de-50-anos-era-para-ser-uma-coisa-pequena-24092026/",
-      "source": "entretenimento.r7.com",
-      "sourceCanonical": "entretenimento.r7.com",
+      "source": "R7 Entretenimento",
+      "sourceCanonical": "R7 Entretenimento",
       "sourceDomain": "entretenimento.r7.com",
       "publishedAt": "2026-09-24T10:35:32+00:00",
       "postedLabel": "ontem",
@@ -218,20 +218,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_819f89c17014",
-      "title": "Filhas de Ronaldo Fenômeno surgem em foto rara com os dois irmãos durante festa de cinquenta anos do ex-jogador",
-      "description": "As filhas de Ronaldo Fenômeno, Maria Sophia, de 18 anos, e Maria Alice, de 16, apareceram em uma rara foto ao lado dos dois irmãos, Ronald,...",
-      "url": "https://www.diariodolitoral.com.br/esportes/filhas-de-ronaldo-fenomeno-surgem-em-foto-rara-com-os-dois-irmaos-durante-festa-de-cinquenta-anos-do-ex-jogador/",
-      "source": "diariodolitoral.com.br",
-      "sourceCanonical": "diariodolitoral.com.br",
-      "sourceDomain": "diariodolitoral.com.br",
-      "publishedAt": "2026-09-23T12:30:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_58e4796cc670",
       "title": "Mina de ouro: a 1ª capa de Ronaldo na PLACAR",
       "description": "Lenda do futebol mundial que completa 50 anos nesta sexta foi tratado como \"O Garoto de 20 milhões de Dólares\" em edição de 1996.",
@@ -241,6 +227,20 @@
       "sourceDomain": "placar.com.br",
       "publishedAt": "2026-09-18T14:39:38+00:00",
       "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_819f89c17014",
+      "title": "Filhas de Ronaldo Fenômeno surgem em foto rara com os dois irmãos durante festa de cinquenta anos do ex-jogador",
+      "description": "As filhas de Ronaldo Fenômeno, Maria Sophia, de 18 anos, e Maria Alice, de 16, apareceram em uma rara foto ao lado dos dois irmãos, Ronald,...",
+      "url": "https://www.diariodolitoral.com.br/esportes/filhas-de-ronaldo-fenomeno-surgem-em-foto-rara-com-os-dois-irmaos-durante-festa-de-cinquenta-anos-do-ex-jogador/",
+      "source": "Diário do Litoral",
+      "sourceCanonical": "Diário do Litoral",
+      "sourceDomain": "diariodolitoral.com.br",
+      "publishedAt": "2026-09-23T12:30:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.12,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 4.78,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
