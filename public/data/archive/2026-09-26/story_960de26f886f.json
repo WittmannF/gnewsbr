@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 56
+      "topic-3": 53
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 56,
-    "bestSeedRank": 56,
+    "firstSeenRank": 53,
+    "bestSeedRank": 53,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/OFT20260907038-e1788812054568.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-22T11:10:00+00:00",
-  "updatedAt": "2026-09-26T02:36:14.049716+00:00",
+  "updatedAt": "2026-09-26T03:31:28.701823+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,7 +43,7 @@
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-25T12:30:00+00:00",
+      "publishedAt": "2026-09-25T08:30:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -124,14 +124,14 @@
       "title": "Flávio encerrará campanha do 1º turno com motociata em São Paulo, diz Nunes",
       "description": "Prefeito da capital paulista afirmou nesta quarta-feira (23) que candidato também terá uma agenda de um dia inteiro na capital paulista na...",
       "url": "https://jovempan.com.br/politica/flavio-encerrara-campanha-do-1o-turno-com-motociata-em-sao-paulo-diz-nunes/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-23T14:34:16+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_0188c0e9d8f3",
@@ -260,20 +260,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b60471924b09",
-      "title": "Bets, \"Dark Horse\" e voto útil: as estratégias de Lula e Flávio a 11 dias da eleição",
-      "description": "O presidente Lula (PT) e o senador Flávio Bolsonaro (PL-RJ) ajustaram suas estratégias a 11 dias do primeiro turno, marcado para 4 de...",
-      "url": "https://www.diariodocentrodomundo.com.br/bets-dark-horse-e-voto-util-as-estrategias-de-lula-e-flavio-a-11-dias-da-eleicao/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
-      "sourceDomain": "diariodocentrodomundo.com.br",
-      "publishedAt": "2026-09-23T14:52:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_e6803e9fa8ab",
       "title": "Eleitores de Cury sinalizam migração para Flávio Bolsonaro na reta final do 1º turno",
       "description": "A reta final da corrida presidencial de 2026 começa a intensificar a disputa pelo chamado voto útil. Nas redes sociais, há relatos de apoiadores que...",
@@ -286,6 +272,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_b60471924b09",
+      "title": "Bets, \"Dark Horse\" e voto útil: as estratégias de Lula e Flávio a 11 dias da eleição",
+      "description": "O presidente Lula (PT) e o senador Flávio Bolsonaro (PL-RJ) ajustaram suas estratégias a 11 dias do primeiro turno, marcado para 4 de...",
+      "url": "https://www.diariodocentrodomundo.com.br/bets-dark-horse-e-voto-util-as-estrategias-de-lula-e-flavio-a-11-dias-da-eleicao/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-09-23T14:52:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_a32582340551",
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 7,
-    "average": 5.09,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 9,
+    "average": 5.42,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 9
+      "right": 1,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

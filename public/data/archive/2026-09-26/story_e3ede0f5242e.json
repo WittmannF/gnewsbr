@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 22,
+      "topic-3": 23,
       "topic-5": 25
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Flavio-Bolsonaro_Av_Paulista.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-16T07:00:00+00:00",
-  "updatedAt": "2026-09-26T02:34:10.041174+00:00",
+  "updatedAt": "2026-09-26T03:29:49.380532+00:00",
   "sourceCount": 15,
   "articleCount": 19,
   "articles": [
@@ -85,14 +85,14 @@
       "title": "Zema sobre indicações de Lula ao STF: 'O risco é ele ganhar e indicar mais quatro Flávio Dinos'",
       "description": "O candidato à Presidência Romeu Zema (Novo) afirmou nesta segunda-feira (21) que uma eventual vitória de Luiz Inácio Lula da Silva (PT)...",
       "url": "https://jovempan.com.br/politica/zema-sobre-indicacoes-de-lula-ao-stf-o-risco-e-ele-ganhar-e-indicar-mais-quatro-flavio-dinos/",
-      "source": "jovempan.com.br",
-      "sourceCanonical": "jovempan.com.br",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-09-22T00:27:04+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/03/fta20240216232.jpg?w=1000&h=630&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_5e947ffc2e15",
@@ -160,7 +160,7 @@
       "sourceDomain": "pleno.news",
       "publishedAt": "2026-09-16T07:00:00+00:00",
       "postedLabel": "9 dias atrás",
-      "imageUrl": "https://static.cdn.pleno.news/2026/09/10438ca56a3c757eb0dc2ae2e50ebf51_1722832.png",
+      "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
     },
@@ -187,7 +187,7 @@
       "sourceCanonical": "correiodamanha.com.br",
       "sourceDomain": "correiodamanha.com.br",
       "publishedAt": "2026-09-22T03:03:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -207,6 +207,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b88ebc21f733",
+      "title": "Tarcísio poderá indicar dois nomes ao STF em eventual governo de Flávio Bolsonaro",
+      "description": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), poderá indicar dois nomes para o Supremo Tribunal Federal (STF) caso Flávio...",
+      "url": "https://www.gp1.com.br/politica/noticia/2026/9/25/tarcisio-podera-indicar-dois-nomes-ao-stf-em-eventual-governo-de-flavio-bolsonaro-632407.html",
+      "source": "GP1",
+      "sourceCanonical": "GP1",
+      "sourceDomain": "gp1.com.br",
+      "publishedAt": "2026-09-25T22:08:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_f03523ee6f7c",
       "title": "Tarcísio poderá indicar dois ministros ao STF se Flávio Bolsonaro vencer",
       "description": "Tarcísio de Freitas teria espaço para indicar dois ministros do STF em eventual governo de Flávio Bolsonaro, segundo interlocutores.",
@@ -219,20 +233,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_b88ebc21f733",
-      "title": "Tarcísio poderá indicar dois nomes ao STF em eventual governo de Flávio Bolsonaro",
-      "description": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), poderá indicar dois nomes para o Supremo Tribunal Federal (STF) caso Flávio...",
-      "url": "https://www.gp1.com.br/politica/noticia/2026/9/25/tarcisio-podera-indicar-dois-nomes-ao-stf-em-eventual-governo-de-flavio-bolsonaro-632407.html",
-      "source": "GP1",
-      "sourceCanonical": "GP1",
-      "sourceDomain": "gp1.com.br",
-      "publishedAt": "2026-09-25T22:08:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_2bd5a7fbdcd0",
@@ -308,16 +308,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.8,
-    "knownCount": 10,
-    "unknownCount": 9,
+    "average": 6.09,
+    "knownCount": 11,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 3,
-      "right": 1,
-      "unknown": 9
+      "right": 2,
+      "unknown": 8
     }
   },
   "scores": {
