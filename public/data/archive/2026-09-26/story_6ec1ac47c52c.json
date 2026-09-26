@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZc1pfLUVSRzhwZjYzWllzVjVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZc1pfLUVSRzhwZjYzWllzVjVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 6
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Datafolha mostra empate técnico entre Elmano e Ciro Gomes no Ceará",
   "summary": "O instituto Datafolha atualizou, nesta sexta-feira 25, as intenções de voto para o governo do Ceará. Segundo o levantamento, Ciro Gomes...",
-  "topic": "Elmano · Ciro",
+  "topic": "Ciro · Elmano",
   "topicKeywords": [
-    "elmano",
     "ciro",
+    "elmano",
     "ceará",
+    "pesquisa",
     "datafolha",
-    "gomes",
-    "disputa"
+    "gomes"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/05/1748200565476172.jpg",
   "publishedAt": "2026-09-18T07:00:00+00:00",
-  "updatedAt": "2026-09-26T11:21:40.252359+00:00",
+  "updatedAt": "2026-09-26T12:31:10.009029+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-26T10:52:11+00:00",
-      "postedLabel": "29 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/04/ciro-gomes-1.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -166,14 +172,28 @@
       "title": "Pesquisa Governo Ceará 2026: veja números mais recentes da disputa",
       "description": "Pesquisas divulgadas entre 18 e 25 de setembro mediram a disputa pelo Governo do Ceará em 2026 e apontaram um cenário de disputa apertada...",
       "url": "https://noticias.uol.com.br/eleicoes/2026/09/25/pesquisa-governo-ceara-2026-veja-numeros-mais-recentes-da-disputa.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-25T21:20:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_60d8b406a9cf",
+      "title": "Ciro e Elmano empatam na disputa pelo governo do Ceará",
+      "description": "Datafolha registra 44% para o tucano e 43% para o petista, levantamento também mostra cenário para o Senado.",
+      "url": "https://revistaoeste.com/politica/ciro-e-elmano-empatam-na-disputa-pelo-governo-do-ceara/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-09-25T22:51:03+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_24ce45501cbc",
@@ -190,46 +210,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_dcd09cb9b169",
-      "title": "Elmano reduz distância para Ciro e chega a empate técnico na reta final da disputa pelo Governo do Ceará",
-      "description": "Há pouco mais de uma semana para o primeiro turno das Eleições 2026, a disputa pelo Governo do Ceará se acirrou ainda mais entre os dois...",
-      "url": "https://www.brasildefato.com.br/2026/09/24/elmano-reduz-distancia-para-ciro-e-chega-a-empate-tecnico-na-reta-final-da-disputa-pelo-governo-do-ceara/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-09-24T19:00:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_a413f876e73a",
+      "title": "Pesquisa mostra empate técnico entre Ciro e Elmano no Ceará; Cid e Wagner lideram para o Senado",
+      "description": "247 – O ex-governador Ciro Gomes (PSDB) e o atual governador do Ceará, Elmano de Freitas (PT), aparecem em situação de empate técnico tanto...",
+      "url": "https://www.brasil247.com/nordeste/pesquisa-mostra-empate-tecnico-entre-ciro-e-elmano-no-ceara-cid-e-wagner-lideram-para-o-senado/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-09-26T12:19:00+00:00",
+      "postedLabel": "12 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
+      "spectrumScore": 1,
       "bucket": "left"
-    },
-    {
-      "id": "article_48c9f5618c7e",
-      "title": "Disputas estaduais acirradas na BA, CE e PE se polarizam entre bolsonarismo e Lula",
-      "description": "Emanuel Freitas avalia que cenário de Pernambuco é mais delicado pois exigirá decisão de Lula em eventual segundo turno.",
-      "url": "https://iclnoticias.com.br/disputas-estaduais-polarizam-bolsonarismo-lula/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-09-25T08:00:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_60d8b406a9cf",
-      "title": "Ciro e Elmano empatam na disputa pelo governo do Ceará",
-      "description": "Datafolha registra 44% para o tucano e 43% para o petista, levantamento também mostra cenário para o Senado.",
-      "url": "https://revistaoeste.com/politica/ciro-e-elmano-empatam-na-disputa-pelo-governo-do-ceara/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-09-25T22:51:03+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
     },
     {
       "id": "article_ae55c8abe7b3",
@@ -254,15 +246,43 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-09-26T10:30:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
+      "id": "article_4d25586cc1d7",
+      "title": "Paraná Pesquisas: Ciro Gomes tem 48,7% e Elmano, 44,3%, ao governo do Ceará",
+      "description": "O ex-governador Ciro Gomes (PSDB) tem 48,7% de intenções de voto no Ceará em simulação de segundo turno contra o governador Elmano de...",
+      "url": "https://www.metropoles.com/brasil/parana-pesquisas-ciro-gomes-tem-487-e-elmano-443-ao-governo-do-ceara",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-26T10:30:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_48c9f5618c7e",
+      "title": "Disputas estaduais acirradas na BA, CE e PE se polarizam entre bolsonarismo e Lula",
+      "description": "Emanuel Freitas avalia que cenário de Pernambuco é mais delicado pois exigirá decisão de Lula em eventual segundo turno.",
+      "url": "https://iclnoticias.com.br/disputas-estaduais-polarizam-bolsonarismo-lula/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-09-25T08:00:12+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_de2ca74c75d7",
       "title": "Datafolha: Ciro e Elmano empatam no 1º e 2º turnos ao governo do Ceará",
-      "description": "Levantamento ouviu 1.204 eleitores entre 22 e 24 de setembro com margem de erro de três pontos.",
+      "description": "Pesquisa Datafolha divulgada nesta sexta-feira (25) aponta um cenário de empate técnico na disputa pelo governo do Ceará. O ex-governador...",
       "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-ciro-e-elmano-empatam-no-1o-e-2o-turnos-ao-governo-do-ceara/",
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
@@ -272,6 +292,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_dcd09cb9b169",
+      "title": "Elmano reduz distância para Ciro e chega a empate técnico na reta final da disputa pelo Governo do Ceará",
+      "description": "Há pouco mais de uma semana para o primeiro turno das Eleições 2026, a disputa pelo Governo do Ceará se acirrou ainda mais entre os dois...",
+      "url": "https://www.brasildefato.com.br/2026/09/24/elmano-reduz-distancia-para-ciro-e-chega-a-empate-tecnico-na-reta-final-da-disputa-pelo-governo-do-ceara/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-09-24T19:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_89162945dfdf",
@@ -286,46 +320,18 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_4d25586cc1d7",
-      "title": "Paraná Pesquisas: Ciro Gomes tem 48,7% e Elmano, 44,3%, ao governo do Ceará",
-      "description": "O ex-governador Ciro Gomes (PSDB) tem 48,7% de intenções de voto no Ceará em simulação de segundo turno contra o governador Elmano de...",
-      "url": "https://www.metropoles.com/brasil/parana-pesquisas-ciro-gomes-tem-487-e-elmano-443-ao-governo-do-ceara",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-26T10:30:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_c21aac5408c4",
-      "title": "Instituto Paraná: aprovação do governo Elmano cresce e atinge 57,7%",
-      "description": "O grau de confiança é de 95,0%. O Instituto Paraná, em parceria com o portal CN7, Rede Plus FM e Jornal do Cariri, divulgou, neste sábado...",
-      "url": "https://cn7.com.br/instituto-parana-aprovacao-do-governo-elmano-cresce-e-atinge-577/",
-      "source": "CN7",
-      "sourceCanonical": "CN7",
-      "sourceDomain": "cn7.com.br",
-      "publishedAt": "2026-09-26T03:03:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 10,
-    "average": 4.94,
+    "average": 4.71,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 3,
+      "left": 4,
       "centerLeft": 3,
-      "center": 8,
+      "center": 7,
       "centerRight": 2,
       "right": 1,
       "unknown": 3
@@ -334,7 +340,7 @@
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
