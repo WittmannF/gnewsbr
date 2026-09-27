@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 31,
-      "topic-5": 30
+      "topic-3": 27,
+      "topic-5": 31
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 31,
-    "bestSeedRank": 30,
+    "firstSeenRank": 27,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/09/25195616/ASPA-GRANDE-2026-09-25T194716.470.jpg",
   "publishedAt": "2026-09-25T11:47:00+00:00",
-  "updatedAt": "2026-09-27T01:08:47.509555+00:00",
+  "updatedAt": "2026-09-27T01:43:12.210276+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -155,8 +155,8 @@
       "title": "STF manda investigar tentativa de usar IA para burlar sistema",
       "description": "Há mais de 148 anos, nossa missão é informar com seriedade, defender o interesse público e acompanhar o desenvolvimento da nossa terra e da...",
       "url": "https://ofluminense.com.br/stf-investiga-ia-burlar-sistema/",
-      "source": "O Fluminense",
-      "sourceCanonical": "O Fluminense",
+      "source": "ofluminense.com.br",
+      "sourceCanonical": "ofluminense.com.br",
       "sourceDomain": "ofluminense.com.br",
       "publishedAt": "2026-09-26T13:29:00+00:00",
       "postedLabel": "hoje",
@@ -197,14 +197,14 @@
       "title": "STF identifica primeira tentativa de fraude processual com IA",
       "description": "O Supremo Tribunal Federal (STF) identificou a primeira tentativa de fraude processual com uso de inteligência artificial em um processo da...",
       "url": "https://www.correiobraziliense.com.br/politica/2026/09/7508674-stf-identifica-primeira-tentativa-de-fraude-processual-com-ia.html",
-      "source": "correiobraziliense.com.br",
-      "sourceCanonical": "correiobraziliense.com.br",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-25T18:37:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_a6e87f86e1d9",
@@ -299,7 +299,7 @@
       "sourceCanonical": "Bem Paraná",
       "sourceDomain": "bemparana.com.br",
       "publishedAt": "2026-09-26T01:28:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -322,26 +322,27 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.5,
-    "knownCount": 6,
-    "unknownCount": 14,
+    "average": 5.29,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 2,
       "centerRight": 3,
       "right": 0,
-      "unknown": 14
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
-    "confidence": 93
+    "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
