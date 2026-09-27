@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/15/1765824245694056f56c0c8_1765824245_3x2_rt.jpg",
   "publishedAt": "2026-09-15T07:00:00+00:00",
-  "updatedAt": "2026-09-27T16:34:28.343530+00:00",
+  "updatedAt": "2026-09-27T17:29:42.726596+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -142,7 +142,7 @@
       "sourceCanonical": "Jornal do Brasil",
       "sourceDomain": "jb.com.br",
       "publishedAt": "2026-09-27T14:13:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -222,22 +222,22 @@
       "title": "O que diz Nunes Marques sobre as suspeitas envolvendo sua relação com o Banco Master",
       "description": "Mensagens no celular de Vorcaro mostram que 'turma do KN' teria contrato de R$ 427 milhões com banqueiro; ministro classifica suposições de...",
       "url": "https://veja.abril.com.br/politica/o-que-diz-nunes-marques-sobre-as-suspeitas-envolvendo-sua-relacao-com-o-banco-master/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-22T20:56:35+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d3055273f21c",
       "title": "Sujeira suprema",
       "description": "O ministro Kassio Nunes Marques preferiu ficar de fora da sessão em que os ministros do Supremo Tribunal Federal (STF) deveriam ter...",
       "url": "https://crusoe.com.br/noticias/sujeira-suprema/",
-      "source": "crusoe.com.br",
-      "sourceCanonical": "crusoe.com.br",
+      "source": "Crusoé",
+      "sourceCanonical": "Crusoé",
       "sourceDomain": "crusoe.com.br",
       "publishedAt": "2026-09-25T06:30:00+00:00",
       "postedLabel": "2 dias atrás",
@@ -260,6 +260,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_6718259ef1d6",
+      "title": "Sem material contra Mendonça, ministros devem mirar Nunes Marques",
+      "description": "Dados dos celulares de Vorcaro enfraquecem ofensiva contra o relator do caso Master e aumentam interesse sobre outro integrante da Corte.",
+      "url": "https://revistaoeste.com/no-ponto/sem-material-contra-mendonca-ministros-devem-mirar-nunes-marques/",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-09-22T16:43:18+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_37928be12686",
       "title": "Caso Master: Nunes Marques vira alvo de pedido de impeachment",
       "description": "Para senador Alessandro Vieira, autor do requerimento, ministro cometeu crime de responsabilidade ao atuar em processos de interesse do...",
@@ -272,20 +286,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_6718259ef1d6",
-      "title": "Sem material contra Mendonça, ministros devem mirar Nunes Marques",
-      "description": "Dados dos celulares de Vorcaro enfraquecem ofensiva contra o relator do caso Master e aumentam interesse sobre outro integrante da Corte.",
-      "url": "https://revistaoeste.com/no-ponto/sem-material-contra-mendonca-ministros-devem-mirar-nunes-marques/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-09-22T16:43:18+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
     },
     {
       "id": "article_4122e71069e2",
@@ -318,28 +318,29 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 10,
-    "average": 4.87,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 7,
+    "average": 4.31,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 3,
       "centerLeft": 2,
       "center": 7,
-      "centerRight": 2,
-      "right": 1,
-      "unknown": 5
+      "centerRight": 1,
+      "right": 0,
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
