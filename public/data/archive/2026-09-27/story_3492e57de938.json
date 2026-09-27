@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s01.video.glbimg.com/x720/14995460.jpg",
   "publishedAt": "2026-09-25T12:01:23+00:00",
-  "updatedAt": "2026-09-27T06:53:35.723666+00:00",
+  "updatedAt": "2026-09-27T07:38:50.381472+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Prévia da inflação oficial de setembro fica em 0,70%, mostra IBGE",
       "description": "A prévia da inflação oficial de setembro ficou em 0,70%, a maior desde abril (0,89%). O resultado é uma inversão da deflação (inflação...",
       "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/previa-da-inflacao-oficial-de-setembro-fica-em-070-mostra-ibge",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
+      "source": "agenciabrasil.ebc.com.br",
+      "sourceCanonical": "agenciabrasil.ebc.com.br",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-09-25T16:19:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0f797592f3ef",
@@ -152,14 +152,14 @@
       "title": "Prévia da inflação oficial, IPCA-15 fica em 0,70% em setembro",
       "description": "O Índice Nacional de Preços ao Consumidor Amplo 15 (IPCA-15) ficou em 0,70% em setembro, após registrar deflação de 0,40% no mês anterior,...",
       "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-09/previa-da-inflacao-oficial-ipca-15-fica-em-070-em-setembro",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
+      "source": "agenciabrasil.ebc.com.br",
+      "sourceCanonical": "agenciabrasil.ebc.com.br",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-09-25T18:24:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_229d07d07e3e",
@@ -236,8 +236,8 @@
       "title": "IPCA-15 de 0,70% em setembro surpreende o mercado",
       "description": "Em setembro, o IPCA-15 teve alta de 0,7%, surpreendendo a estimativa do mercado. A variação em 12 meses ficou em 4,47%, em trajetória de...",
       "url": "https://www.jb.com.br/colunistas/o-outro-lado-da-moeda/2026/09/1061028-ipca-15-de-070-em-setembro-surpreende-o-mercado.html",
-      "source": "jb.com.br",
-      "sourceCanonical": "jb.com.br",
+      "source": "Jornal do Brasil",
+      "sourceCanonical": "Jornal do Brasil",
       "sourceDomain": "jb.com.br",
       "publishedAt": "2026-09-25T20:07:00+00:00",
       "postedLabel": "ontem",
@@ -288,20 +288,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_29c6b1884970",
-      "title": "IPCA-15 dispara em Brasília com alta da gasolina e conta de luz",
-      "description": "Saiba quais foram os vilões da inflação em setembro: energia elétrica subiu 8,78% e combustíveis tiveram alta de 3,20% na capital federal.",
-      "url": "https://www.correiobraziliense.com.br/cidades-df/2026/09/7508453-ipca-15-dispara-em-brasilia-com-alta-da-gasolina-e-conta-de-luz.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-09-25T14:31:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_5da96b16c75d",
       "title": "Preços de alimentos voltam a subir antes das eleições, segundo dados do IPCA-15",
       "description": "Alimentação no domicílio teve alta de 0,38% neste mês; aumento no valor do tomate foi de 20% e se destacou na lista.",
@@ -314,21 +300,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_29c6b1884970",
+      "title": "IPCA-15 dispara em Brasília com alta da gasolina e conta de luz",
+      "description": "Saiba quais foram os vilões da inflação em setembro: energia elétrica subiu 8,78% e combustíveis tiveram alta de 3,20% na capital federal.",
+      "url": "https://www.correiobraziliense.com.br/cidades-df/2026/09/7508453-ipca-15-dispara-em-brasilia-com-alta-da-gasolina-e-conta-de-luz.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-25T14:31:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.59,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.67,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 9,
+      "center": 7,
       "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 5
     }
   },
   "scores": {
