@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/2NWPNQRIANG7RE76NTQZOK22II.jpeg?quality=80&auth=428403f1b748f1f0f910bebb2b77c275ddeec314e8ad203e561158174a280c25&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-18T09:35:40+00:00",
-  "updatedAt": "2026-09-27T17:21:08.913229+00:00",
+  "updatedAt": "2026-09-27T18:28:04.879741+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Em 30 anos, obesidade triplica e atinge 1/4 da população adulta",
       "description": "Somando-se todos os casos de excesso de peso, que incluem sobrepeso e obesidade, a prevalência no país subiu de 40,3%, em 1990, para 66,8%,...",
       "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/em-30-anos-obesidade-triplica-no-pais-e-atinge-14-da-populacao",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
+      "source": "agenciabrasil.ebc.com.br",
+      "sourceCanonical": "agenciabrasil.ebc.com.br",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-09-23T19:01:00+00:00",
       "postedLabel": "3 dias atrás",
       "imageUrl": "https://imagens.ebc.com.br/vWJo4QoBH_hqoEpZ7Y8K7eJqjF0=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/04/30/_mg_2949_0.jpg?itok=gdl-ATgt",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1c16da5b1811",
@@ -120,20 +120,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d6670a2d8c18",
-      "title": "Quiz: Você sabe interpretar os dados de obesidade na América Latina?",
-      "description": "Teste seus conhecimentos sobre prevalência da obesidade e carga associada ao IMC elevado com dados do GBD 2023.",
-      "url": "https://portal.afya.com.br/quiz/endocrinologia/quiz-obesidade-na-america-latina-voce-consegue-interpretar-os-numeros",
-      "source": "Afya | Home",
-      "sourceCanonical": "Afya | Home",
-      "sourceDomain": "portal.afya.com.br",
-      "publishedAt": "2026-09-24T21:27:59+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_609355f29825",
       "title": "SAÚDE - Obesidade triplica em 30 anos no Brasil",
       "description": "Conforme levantamentos apresentados no estudo Carga Global de Doenças (GBD, do inglês Global Burden Disease), o índice de obesidade no...",
@@ -143,6 +129,20 @@
       "sourceDomain": "folhapovoitauna.com.br",
       "publishedAt": "2026-09-26T10:33:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d6670a2d8c18",
+      "title": "Quiz: Você sabe interpretar os dados de obesidade na América Latina?",
+      "description": "Teste seus conhecimentos sobre prevalência da obesidade e carga associada ao IMC elevado com dados do GBD 2023.",
+      "url": "https://portal.afya.com.br/quiz/endocrinologia/quiz-obesidade-na-america-latina-voce-consegue-interpretar-os-numeros",
+      "source": "Afya | Home",
+      "sourceCanonical": "Afya | Home",
+      "sourceDomain": "portal.afya.com.br",
+      "publishedAt": "2026-09-24T21:27:59+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +198,7 @@
       "sourceCanonical": "A Notícia do Ceará",
       "sourceDomain": "anoticiadoceara.com.br",
       "publishedAt": "2026-09-27T13:03:54+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -212,7 +212,7 @@
       "sourceCanonical": "Francês News",
       "sourceDomain": "francesnews.com.br",
       "publishedAt": "2026-09-23T17:30:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,7 +296,7 @@
       "sourceCanonical": "Araraquara News",
       "sourceDomain": "araraquaranews.com.br",
       "publishedAt": "2026-09-23T17:25:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 5.67,
+    "knownCount": 3,
+    "unknownCount": 17,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 16
+      "unknown": 17
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 87
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
