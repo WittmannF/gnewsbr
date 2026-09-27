@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 33
+      "topic-3": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 33,
-    "bestSeedRank": 33,
+    "firstSeenRank": 35,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/09/25195616/ASPA-GRANDE-2026-09-25T194716.470.jpg",
   "publishedAt": "2026-09-25T11:47:00+00:00",
-  "updatedAt": "2026-09-27T19:21:50.223935+00:00",
+  "updatedAt": "2026-09-27T20:26:24.279350+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -40,14 +40,14 @@
       "title": "Zanin manda investigar uso de IA para burlar sistema do STF",
       "description": "O ministro Cristiano Zanin, do STF ,determinou investigação para apurar o uso de inteligência artificial (IA) para direcionar o sistema...",
       "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-brasil/2026/09/26/zanin-manda-investigar-uso-de-ia-para-burlar-sistema-do-stf.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-26T13:55:13+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_87ee3faa5449",
@@ -180,14 +180,14 @@
       "title": "STF descobre tentativa inédita de manipulação processual por inteligência artificial em ação relatada por Zanin",
       "description": "Comandos ocultos em texto tentavam influenciar decisão do ministro, que aplicou multa e acionou a OAB e o MPF.",
       "url": "https://www.brasil247.com/midia/stf-descobre-tentativa-inedita-de-manipulacao-processual-por-inteligencia-artificial-em-acao-relatada-por-zanin/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-25T11:47:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/09/55506280876_7114cf4187_k-2560x1440-1.jpg?w=1200&quality=88&strip=all",
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_d1cb1cbf928e",
@@ -254,7 +254,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-25T19:39:40+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -268,7 +268,7 @@
       "sourceCanonical": "Grupo Lomes de Comunicação",
       "sourceDomain": "glomes.com.br",
       "publishedAt": "2026-09-26T19:47:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 8,
-    "average": 6,
+    "average": 5.33,
     "knownCount": 6,
     "unknownCount": 14,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 2,
+      "center": 1,
       "centerRight": 3,
       "right": 0,
       "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 93
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
