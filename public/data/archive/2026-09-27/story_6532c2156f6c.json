@@ -3,17 +3,14 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2OEltQ0VoSFFLYXF1a3Q1SmtpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o2OEltQ0VoSFFLYXF1a3Q1SmtpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 61,
-      "topic-5": 62
+      "topic-3": 61
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 61,
@@ -34,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/acoes-flavio-lula-tse-25-set-2026-2-1200x675.png",
   "publishedAt": "2026-09-19T22:00:00+00:00",
-  "updatedAt": "2026-09-27T01:44:54.569925+00:00",
+  "updatedAt": "2026-09-27T02:40:43.693390+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -113,14 +110,14 @@
       "title": "Ação de Flávio no TSE ameça Lula com cassação e inelegibilidade",
       "description": "Ação no TSE ameaça inelegibilidade de Lula e pede cassação da chapa do presidente por desfile de carnaval. Leia na Gazeta do Povo.",
       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/quais-punicoes-o-desfile-de-carnaval-da-academicos-de-niteroi-pode-render-a-lula/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-23T00:15:00+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a7d8a33bad03",
@@ -183,14 +180,14 @@
       "title": "Campanha de Lula questiona ‘alvos seletivos’ em ação de Flávio no TSE sobre carnaval do Rio",
       "description": "Petistas criticam ausência de ex-governador Cláudio Castro, do PL da família Bolsonaro, na ação apresentada por Flávio e admitida pela...",
       "url": "https://www.estadao.com.br/politica/coluna-do-estadao/campanha-de-lula-questiona-alvos-seletivos-em-acao-de-flavio-no-tse-sobre-carnaval-do-rio/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-21T19:55:37+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_f6b3b7a851b7",
@@ -267,14 +264,14 @@
       "title": "Lula e Flávio ampliam disputa no TSE com novas ações eleitorais",
       "description": "A disputa jurídica entre as campanhas de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) ganhou novos capítulos no TSE. Clique aqui.",
       "url": "https://revistaoeste.com/politica/lula-e-flavio-ampliam-disputa-no-tse-com-novas-acoes/",
-      "source": "revistaoeste.com",
-      "sourceCanonical": "revistaoeste.com",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-21T13:23:41+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_14d391037729",
@@ -321,27 +318,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 8,
-    "average": 5.7,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "max": 10,
+    "average": 6,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 7,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 10
+      "right": 1,
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
