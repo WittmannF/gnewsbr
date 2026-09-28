@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 10,
+      "topic-3": 11,
       "topic-5": 11
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
+    "firstSeenRank": 11,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/FUP20220210083.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-24T13:53:56+00:00",
-  "updatedAt": "2026-09-28T01:07:31.788736+00:00",
+  "updatedAt": "2026-09-28T01:46:34.326036+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -57,14 +57,14 @@
       "title": "Até quando vai o calor? Veja quando as temperaturas devem cair em SP e no Brasil",
       "description": "O calor deve continuar forte nos próximos dias, mas uma mudança no tempo já está prevista para o início de outubro. Segundo a empresa de...",
       "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/27/ate-quando-vai-o-calor-veja-quando-as-temperaturas-devem-cair-em-sp-e-no-brasil.htm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-27T15:33:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_7d042ac0052f",
@@ -173,7 +173,7 @@
       "sourceCanonical": "correiodamanha.com.br",
       "sourceDomain": "correiodamanha.com.br",
       "publishedAt": "2026-09-27T19:26:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -263,20 +263,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_60a8597adb19",
-      "title": "Frio dará trégua em São Paulo? Veja quando as temperaturas voltam a subir",
-      "description": "A partir de sexta-feira, 25, os termômetros voltam a subir na cidade de São Paulo; no entanto, nova queda de temperatura deve atingir a...",
-      "url": "https://www.estadao.com.br/sao-paulo/frio-dara-tregua-em-sao-paulo-veja-quando-as-temperaturas-voltam-a-subir-npr/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-24T13:53:56+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_6fd10832c134",
       "title": "Folha da Região: Noroeste paulista pode enfrentar calor de 40°C nos próximos dias",
       "description": "TEMPO:Primeira onda de calor da primavera ganha força a partir deste sábado; Defesa Civil alerta para risco elevado de queimadas e baixa...",
@@ -286,9 +272,23 @@
       "sourceDomain": "sampi.net.br",
       "publishedAt": "2026-09-27T00:57:41+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://sampi.net.br/dir-arquivo-imagem/2026/09/d1870d6a03ed54a56f4d75a928e15342.jpeg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_60a8597adb19",
+      "title": "Frio dará trégua em São Paulo? Veja quando as temperaturas voltam a subir",
+      "description": "A partir de sexta-feira, 25, os termômetros voltam a subir na cidade de São Paulo; no entanto, nova queda de temperatura deve atingir a...",
+      "url": "https://www.estadao.com.br/sao-paulo/frio-dara-tregua-em-sao-paulo-veja-quando-as-temperaturas-voltam-a-subir-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-24T13:53:56+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e8f584023d38",
@@ -309,8 +309,8 @@
       "title": "Previsão mantém calor e tempo seco em cidades do interior de São Paulo neste fim de semana",
       "description": "Massa de ar seco mantém temperaturas elevadas até segunda-feira, com mudança no tempo e previsão de chuva a partir de terça-feira.",
       "url": "https://www.tvsmais.com.br/previsao-mantem-calor-e-tempo-seco-em-cidades-do-interior-de-sao-paulo-neste-fim-de-semana/",
-      "source": "tvsmais.com.br",
-      "sourceCanonical": "tvsmais.com.br",
+      "source": "TVS+ SBT",
+      "sourceCanonical": "TVS+ SBT",
       "sourceDomain": "tvsmais.com.br",
       "publishedAt": "2026-09-26T17:45:51+00:00",
       "postedLabel": "ontem",
@@ -322,23 +322,23 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 5.67,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
-      "centerRight": 1,
+      "center": 4,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 16
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 87
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
