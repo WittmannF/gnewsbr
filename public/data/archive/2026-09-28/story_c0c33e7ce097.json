@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGOE9pRUVoRy1Ma0poOEc3S0NTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pGOE9pRUVoRy1Ma0poOEc3S0NTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-3": 2,
-      "topic-5": 5
+      "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Flávio Bolsonaro confirma ida ao debate da Globo e desafia Lula",
   "summary": "O candidato à Presidência pelo PL, Flávio Bolsonaro, confirmou neste domingo (27.set.2026) que irá ao debate da TV Globo, em 1º de outubro.",
@@ -34,8 +40,8 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/photo_2026-09-27-19.05.28-1200x675.jpeg",
   "publishedAt": "2026-09-23T19:07:00+00:00",
-  "updatedAt": "2026-09-28T06:54:20.844468+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-09-28T07:42:56.786540+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -71,28 +77,28 @@
       "title": "Pra começar a semana: Debate presidencial marca a semana do primeiro turno",
       "description": "A última semana antes do primeiro turno das eleições será marcada pelo último debate presidencial previsto antes da votação.",
       "url": "https://noticias.uol.com.br/colunas/pra-comecar-a-semana/2026/09/27/debate-presidencial-marca-a-semana-do-primeiro-turno.htm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-27T16:33:37+00:00",
+      "publishedAt": "2026-09-27T20:33:37+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_bccfcc3788c4",
       "title": "Flávio decide participar de debate mesmo sem a presença de Lula",
       "description": "Campanha avalia que participação será oportinidade de candidato do PL rebater fake news sobre Nossa Senhora Aparecida e repercutir MP das...",
       "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-decide-participar-de-debate-mesmo-sem-a-presenca-de-lula/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-27T18:03:52+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/DSC08200.JPG.jpeg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_13d7f9c96fd3",
@@ -106,6 +112,20 @@
       "postedLabel": "4 dias atrás",
       "imageUrl": "https://classic.exame.com/wp-content/uploads/2022/09/20220929-Eleicoes-2022-fr-200.jpg",
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_fa29bd95b6be",
+      "title": "Letícia Casado: Flávio Bolsonaro diz que vai a debate da TV Globo mesmo sem Lula",
+      "description": "O candidato à Presidência Flávio Bolsonaro (PL) disse hoje que vai ao debate da TV Globo na próxima quinta-feira mesmo se o presidente Lula...",
+      "url": "https://noticias.uol.com.br/colunas/leticia-casado/2026/09/27/flavio-debate-tv-globo.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-09-28T01:26:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -165,6 +185,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_2c424e496403",
+      "title": "Último debate do 1º turno vira cálculo de Lula e Flávio em eleição acirrada",
+      "description": "O último debate presidencial antes do 1º turno, marcado para 1º de outubro (quinta-feira) na Rede Globo, três dias antes da primeira etapa...",
+      "url": "https://www.metropoles.com/brasil/ultimo-debate-do-1o-turno-vira-calculo-de-lula-e-flavio-em-eleicao-acirrada",
+      "source": "metropoles.com",
+      "sourceCanonical": "metropoles.com",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-28T07:30:00+00:00",
+      "postedLabel": "12 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_8e4120be819c",
       "title": "Qual o dia e horário do debate presidencial da TV Globo? Veja detalhes",
       "description": "A TV Globo marcou o debate presidencial em alusão às eleições de 2026 para a próxima quinta-feira (1°/10), apenas três dias antes da ida dos...",
@@ -207,6 +241,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_00020d260d0b",
+      "title": "Na última semana, Lula e Flávio vão às ruas e admitem participar de debate na TV",
+      "description": "Lula deixou dois dias livres na agenda considerando a possibilidade de ir à Globo. Flávio havia dito que só participaria se o petista...",
+      "url": "https://www.em.com.br/politica/platobr/2026/09/7509557-na-ultima-semana-lula-e-flavio-vao-as-ruas-e-admitem-participar-de-debate-na-tv.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-09-28T05:02:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_ebc1ab5ebd62",
       "title": "Flávio confirma presença em último debate antes das eleições",
       "description": "Flávio Bolsonaro (PL-RJ) afirmou neste domingo (27) que participará do debate presidencial da TV Globo, marcado para quinta-feira (1º de...",
@@ -221,43 +269,29 @@
       "bucket": "center"
     },
     {
-      "id": "article_bce79917ba07",
-      "title": "Flávio Bolsonaro diz que vai ao debate na Globo mesmo que Lula não vá",
-      "description": "Flávio cobrou participação de Lula, mas campanha do petista ainda não confirmou presença no debate de 1º de outubro.",
-      "url": "https://www.metropoles.com/brasil/flavio-bolsonaro-diz-que-vai-ao-debate-na-globo-mesmo-que-lula-nao-va",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-27T22:17:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_9fe63abf035a",
+      "title": "Flávio Bolsonaro desafia Lula para debate na Globo. Presidente ainda não confirmou presença",
+      "description": "Flávio Bolsonaro, principal candidato da oposição, desafiou o Presidente do Brasil, Luiz Inácio Lula da Silva, a enfrentá-lo no debate...",
+      "url": "https://www.plataformamedia.com/2026/09/28/flavio-bolsonaro-desafia-lula-para-debate-na-globo-presidente-ainda-nao-confirmou-presenca/",
+      "source": "Plataforma Media",
+      "sourceCanonical": "Plataforma Media",
+      "sourceDomain": "plataformamedia.com",
+      "publishedAt": "2026-09-28T07:30:47+00:00",
+      "postedLabel": "12 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_00020d260d0b",
-      "title": "Na última semana, Lula e Flávio vão às ruas e admitem participar de debate na TV",
-      "description": "Lula deixou dois dias livres na agenda considerando a possibilidade de ir à Globo. Flávio havia dito que só participaria se o petista...",
-      "url": "https://www.em.com.br/politica/platobr/2026/09/7509557-na-ultima-semana-lula-e-flavio-vao-as-ruas-e-admitem-participar-de-debate-na-tv.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-09-28T05:02:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d040bc92a647",
-      "title": "Flávio Bolsonaro deve ir a debate da Globo após Lula indicar presença",
-      "description": "O senador Flávio Bolsonaro (PL), candidato à Presidência, deve ir ao debate da TV Globo marcado para quinta-feira (1º), a três dias do...",
-      "url": "https://www.jornaldocomercio.com/politica/2026/09/1264716-flavio-bolsonaro-deve-ir-a-debate-da-globo-apos-lula-indicar-presenca.html",
-      "source": "jornaldocomercio.com",
-      "sourceCanonical": "jornaldocomercio.com",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-09-25T21:15:32+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_58c0a762453b",
+      "title": "Semana de grandes debates para presidente e governador",
+      "description": "A agenda política e eleitoral para as famílias brasileiras escolherem seus candidatos a presidente e governador está com dia e horário...",
+      "url": "https://www.opiniaoce.com.br/colunas/semana-de-grandes-debates-para-presidente-e-governador/",
+      "source": "OpiniãoCE",
+      "sourceCanonical": "OpiniãoCE",
+      "sourceDomain": "opiniaoce.com.br",
+      "publishedAt": "2026-09-26T09:12:12+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -285,53 +319,25 @@
       "sourceCanonical": "Portal iG",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-09-28T01:41:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_58c0a762453b",
-      "title": "Semana de grandes debates para presidente e governador",
-      "description": "A agenda política e eleitoral para as famílias brasileiras escolherem seus candidatos a presidente e governador está com dia e horário...",
-      "url": "https://www.opiniaoce.com.br/colunas/semana-de-grandes-debates-para-presidente-e-governador/",
-      "source": "OpiniãoCE",
-      "sourceCanonical": "OpiniãoCE",
-      "sourceDomain": "opiniaoce.com.br",
-      "publishedAt": "2026-09-26T09:12:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_ce3f716bf506",
-      "title": "Flávio Bolsonaro confirma que vai ao debate da Globo e desafia Lula a fazer o mesmo",
-      "description": "Flávio Bolsonaro participará do debate da TV Globo entre os candidatos à presidência, marcado para a próxima quinta-feira. E quem disse isso...",
-      "url": "https://www.bemparana.com.br/eleicoes-2026/flavio-bolsonaro-confirma-que-vai-ao-debate-da-globo-e-desafia-lula-a-fazer-o-mesmo/",
-      "source": "Bem Paraná",
-      "sourceCanonical": "Bem Paraná",
-      "sourceDomain": "bemparana.com.br",
-      "publishedAt": "2026-09-27T22:37:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.53,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.5,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 9,
+      "center": 10,
       "centerRight": 3,
       "right": 1,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
