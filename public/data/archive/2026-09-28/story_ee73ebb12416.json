@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 50
+      "topic-6": 49
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 50,
-    "bestSeedRank": 50,
+    "firstSeenRank": 49,
+    "bestSeedRank": 49,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/SjwbOLzBbC2w0wFizpKuhF0fek0=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/z/H/Ww7KkDTAC0YZeT58qYig/b-oywwcieae-v8e.jpg",
   "publishedAt": "2026-09-24T19:35:00+00:00",
-  "updatedAt": "2026-09-28T09:47:54.436992+00:00",
+  "updatedAt": "2026-09-28T11:35:15.153565+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -73,7 +73,7 @@
       "sourceDomain": "abola.pt",
       "publishedAt": "2026-09-27T12:55:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://sportal365images.com/process/smp-images-production/abola.pt/27092026/a0a7ab95-23d2-40b4-8350-3b82a0ade52a.jpg?operations=autocrop(1200:630)",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -124,14 +124,14 @@
       "title": "Ex-seleção da Itália está na UTI em estado grave após problema pulmonar",
       "description": "Dani Osvaldo foi hospitalizado às pressas na Argentina e perdeu pedaços de cada pulmão por conta do derrame sofrido.",
       "url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/ex-selecao-da-italia-esta-na-uti-em-estado-grave-apos-problema-pulmonar/",
-      "source": "cnnbrasil.com.br",
-      "sourceCanonical": "cnnbrasil.com.br",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-26T17:53:36+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/balotelli-dani-osvaldo.jpg?w=819&h=490&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_deb31cffb2ad",
@@ -190,20 +190,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dc04dbb8c0f1",
-      "title": "Ex-atacante de Juventus e Southampton, Dani Osvaldo é levado às pressas à UTI com grave problema pulmonar",
-      "description": "O ex-atacante de Juventus, Southampton e Itália Dani Osvaldo foi internado na UTI na Argentina após desenvolver um grave quadro pulmonar.",
-      "url": "https://www.goal.com/br/listas/ex-atacante-de-juventus-e-southampton-dani-osvaldo-e-levado-as-pressas-a-uti-com-grave-problema-pulmonar/blteb14b43326dfe1e7",
-      "source": "Goal.com",
-      "sourceCanonical": "Goal.com",
-      "sourceDomain": "goal.com",
-      "publishedAt": "2026-09-26T07:42:47+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_f2e9663e07a9",
       "title": "Dani Osvaldo (ex-FC Porto) hospitalizado após sofrer derrame no pulmão",
       "description": "Daniel Osvaldo, antigo futebolista argentino que representou o FC Porto em 2015/16, foi hospitalizado de urgência na sexta-feira,...",
@@ -213,6 +199,20 @@
       "sourceDomain": "tvi.iol.pt",
       "publishedAt": "2026-09-24T19:35:00+00:00",
       "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_dc04dbb8c0f1",
+      "title": "Ex-atacante de Juventus e Southampton, Dani Osvaldo é levado às pressas à UTI com grave problema pulmonar",
+      "description": "O ex-atacante de Juventus, Southampton e Itália Dani Osvaldo foi internado na UTI na Argentina após desenvolver um grave quadro pulmonar.",
+      "url": "https://www.goal.com/br/listas/ex-atacante-de-juventus-e-southampton-dani-osvaldo-e-levado-as-pressas-a-uti-com-grave-problema-pulmonar/blteb14b43326dfe1e7",
+      "source": "Goal.com",
+      "sourceCanonical": "Goal.com",
+      "sourceDomain": "goal.com",
+      "publishedAt": "2026-09-26T07:42:47+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 5,
     "max": 6,
-    "average": 5.33,
-    "knownCount": 3,
-    "unknownCount": 17,
+    "average": 5.25,
+    "knownCount": 4,
+    "unknownCount": 16,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 17
+      "unknown": 16
     }
   },
   "scores": {
     "coverageDiversity": 20,
     "spectrumBalance": 19,
     "headlineDivergence": 73,
-    "confidence": 84
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",
