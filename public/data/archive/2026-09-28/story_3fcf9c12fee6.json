@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 35
+      "topic-7": 36
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 35,
-    "bestSeedRank": 35,
+    "firstSeenRank": 36,
+    "bestSeedRank": 36,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/KMSI7UGCYBLTBCEI27KALGBCXE.jpg?quality=80&auth=00d893358e85f34567bf1a2e260b782390b3a71cb8e5d0f3fbad5bc1b616cd5f&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-25T23:35:49+00:00",
-  "updatedAt": "2026-09-28T07:56:08.525667+00:00",
+  "updatedAt": "2026-09-28T08:53:28.233358+00:00",
   "sourceCount": 14,
   "articleCount": 15,
   "articles": [
@@ -100,7 +100,7 @@
       "sourceCanonical": "Demócrata",
       "sourceDomain": "democrata.es",
       "publishedAt": "2026-09-27T08:44:44+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -110,14 +110,14 @@
       "title": "Queda de avião mata 17 pessoas na República Democrática do Congo",
       "description": "Avião caiu na cidade de Kenge, no sudoeste do país. Entre as vítimas estão dois generais das Forças Armadas congolesas.",
       "url": "https://www.metropoles.com/mundo/queda-de-aviao-mata-17-pessoas-na-republica-democratica-do-congo",
-      "source": "metropoles.com",
-      "sourceCanonical": "metropoles.com",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-26T20:28:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://i.metroimg.com/FPVAnCK2vR8As-muLsoBp87X5ixMySwsgtddehn2wdY/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/queda-aviao-congo.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6aa3fd959998",
@@ -166,14 +166,14 @@
       "title": "Queda de avião mata 17 pessoas na República Democrática do Congo",
       "description": "Uma queda de avião matou 17 pessoas em Kenge, na República Democrática do Congo, em 25 de setembro. Entre as vítimas estão 13 militares e...",
       "url": "https://www.diariodocentrodomundo.com.br/essencial/queda-aviao-17-mortos-republica-democratica-congo/",
-      "source": "diariodocentrodomundo.com.br",
-      "sourceCanonical": "diariodocentrodomundo.com.br",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-09-27T13:30:29+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_9dea9ee1bcaf",
@@ -222,8 +222,8 @@
       "title": "Avião cai e mata 17 pessoas na República Democrática do Congo",
       "description": "Um avião da companhia Tracep Congo Aviation (TCA) caiu na última sexta-feira (25) na cidade de Kenge, na República Democrática do Congo,...",
       "url": "https://www.romanews.com.br/mundo/aviao-cai-e-mata-17-pessoas-na-republica-democratica-do-congo-0926",
-      "source": "RomaNews.com.br",
-      "sourceCanonical": "RomaNews.com.br",
+      "source": "romanews.com.br",
+      "sourceCanonical": "romanews.com.br",
       "sourceDomain": "romanews.com.br",
       "publishedAt": "2026-09-26T21:10:10+00:00",
       "postedLabel": "ontem",
@@ -247,28 +247,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.33,
-    "knownCount": 3,
-    "unknownCount": 12,
+    "average": 4.6,
+    "knownCount": 5,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 1,
+      "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
-    "confidence": 84
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
+    "confidence": 90
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
