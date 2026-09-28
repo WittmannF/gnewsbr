@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 57
+      "topic-8": 60
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 60,
+    "bestSeedRank": 60,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/44/2026/09/24/leapmotor-b03-a05-1790281768318_v2_615x300.jpg",
   "publishedAt": "2026-09-24T07:00:00+00:00",
-  "updatedAt": "2026-09-28T04:53:19.606812+00:00",
+  "updatedAt": "2026-09-28T05:47:33.742073+00:00",
   "sourceCount": 19,
   "articleCount": 19,
   "articles": [
@@ -73,7 +73,7 @@
       "sourceDomain": "automaistv.com.br",
       "publishedAt": "2026-09-25T18:04:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.automaistv.com.br/wp-content/uploads/2026/04/Leapmotor-B10-21.webp",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -96,14 +96,14 @@
       "title": "Leapmotor quer acabar com a bateria de 12 volts nos carros elétricos",
       "description": "A Leapmotor apresentou, durante o Tech Day 2026, a nova arquitetura Leap 5.0 e o sistema de baterias Cell-to-Chassis 3.0,...",
       "url": "https://www.cartacapital.com.br/cartalab/leapmotor-quer-acabar-com-a-bateria-de-12-volts-nos-carros-eletricos/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
+      "source": "cartacapital.com.br",
+      "sourceCanonical": "cartacapital.com.br",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-09-25T18:55:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/1789031360116Leapmotor-B05-mobile-860x1000-3.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e6f4bd4e11e9",
@@ -162,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4e4b285f95cd",
-      "title": "Na China, Leapmotor cria tecnologia que elimina a bateria de 12V nos carros",
-      "description": "Bateria de 12V com dias contados? A fabricante chinesa Leapmotor apresentou uma nova geração de baterias que permite eliminar o componente...",
-      "url": "https://www.cnnbrasil.com.br/blogs/jorge-moraes/auto/na-china-leapmotor-cria-tecnologia-que-elimina-a-bateria-de-12v-nos-carros/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-25T10:49:53+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Stellantis-tech-day.jpeg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e65f4d072b9d",
       "title": "Leapmotor revela tecnologias Leap 5.0 e baterias CTC 3.0 no Tech Day 2026",
       "description": "A Leapmotor apresentou durante o Tech Day 2026 a nova arquitetura Leap 5.0 e o sistema de baterias Cell-to-Chassis 3.0. As inovações têm previsão de estreia...",
@@ -188,6 +174,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_4e4b285f95cd",
+      "title": "Na China, Leapmotor cria tecnologia que elimina a bateria de 12V nos carros",
+      "description": "Bateria de 12V com dias contados? A fabricante chinesa Leapmotor apresentou uma nova geração de baterias que permite eliminar o componente...",
+      "url": "https://www.cnnbrasil.com.br/blogs/jorge-moraes/auto/na-china-leapmotor-cria-tecnologia-que-elimina-a-bateria-de-12v-nos-carros/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-25T10:49:53+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Stellantis-tech-day.jpeg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_060537081066",
@@ -303,25 +303,25 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 5,
-    "average": 4,
-    "knownCount": 4,
-    "unknownCount": 15,
+    "average": 4.67,
+    "knownCount": 3,
+    "unknownCount": 16,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 15
+      "unknown": 16
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
-    "confidence": 87
+    "coverageDiversity": 40,
+    "spectrumBalance": 27,
+    "headlineDivergence": 73,
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
