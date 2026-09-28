@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 63,
-      "topic-5": 30
+      "topic-3": 68,
+      "topic-5": 61
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 63,
-    "bestSeedRank": 30,
+    "firstSeenRank": 68,
+    "bestSeedRank": 61,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/Presidente-Lula-1080-1200x675.png",
   "publishedAt": "2026-09-18T07:00:00+00:00",
-  "updatedAt": "2026-09-28T12:43:48.643539+00:00",
+  "updatedAt": "2026-09-28T13:34:34.875464+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -53,20 +53,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_0e5752ed589b",
-      "title": "Lula quer polícia nas comunidades e jovens do Exército contra o crime",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) afirmou no domingo (27.set.2026) que pretende manter policiais de forma permanente em...",
-      "url": "https://www.poder360.com.br/poder-governo/lula-quer-policia-nas-comunidades-e-jovens-do-exercito-contra-o-crime/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-28T06:55:01+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/09/lula-canal-livre-27-set-20265-1200x675.png",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7a2b291a0ead",
       "title": "Em entrevista, Lula diz que quer 'polícia especial' contra crime organizado",
       "description": "O presidente da República e candidato à reeleição, Luiz Inácio Lula da Silva (PT), afirmou que quer criar uma \"polícia especial\" para agir...",
@@ -77,6 +63,20 @@
       "publishedAt": "2026-09-27T19:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0e5752ed589b",
+      "title": "Lula quer polícia nas comunidades e jovens do Exército contra o crime",
+      "description": "O presidente Luiz Inácio Lula da Silva (PT) afirmou no domingo (27.set.2026) que pretende manter policiais de forma permanente em...",
+      "url": "https://www.poder360.com.br/poder-governo/lula-quer-policia-nas-comunidades-e-jovens-do-exercito-contra-o-crime/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-09-28T06:55:01+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/09/lula-canal-livre-27-set-20265-1200x675.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -113,14 +113,14 @@
       "title": "Lula defende ‘polícia especial’ contra o crime organizado e fim do Fundo Eleitoral",
       "description": "Na avaliação do petista, intervenções federais com uso das Forças Armadas não trouxeram o resultado esperado.",
       "url": "https://www.estadao.com.br/em-alta/politica/eleicoes/lula-defende-policia-especial-contra-o-crime-organizado-e-fim-do-fundo-eleitoral/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-27T20:16:17+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1d2034304ee1",
@@ -201,7 +201,7 @@
       "sourceCanonical": "- Bahia Economica",
       "sourceDomain": "bahiaeconomica.com.br",
       "publishedAt": "2026-09-28T09:52:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -267,8 +267,8 @@
       "title": "Lula promete ministério e polícia especial contra facções",
       "description": "O presidente Luiz Inácio Lula da Silva, candidato à reeleição, defendeu a criação de uma força policial de perfil especializado no...",
       "url": "https://www.spacemoney.com.br/politica/lula-policia-especial-ministerio-seguranca-publica/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
+      "source": "spacemoney.com.br",
+      "sourceCanonical": "spacemoney.com.br",
       "sourceDomain": "spacemoney.com.br",
       "publishedAt": "2026-09-27T21:19:22+00:00",
       "postedLabel": "hoje",
@@ -322,27 +322,26 @@
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.38,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 4.17,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 4,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 1,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 60,
     "spectrumBalance": 100,
     "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
