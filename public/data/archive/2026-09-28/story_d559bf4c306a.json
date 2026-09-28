@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 18,
+      "topic-3": 19,
       "topic-5": 22
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 18,
-    "bestSeedRank": 18,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/qRvB82fYv_eHYPqu1Q1Hov0GJDM=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/B/a/yXuV5aT1e8X7fe6Ry5Aw/29211044370-15511955f9-k.jpg",
   "publishedAt": "2026-09-21T01:00:00+00:00",
-  "updatedAt": "2026-09-28T01:46:58.483301+00:00",
+  "updatedAt": "2026-09-28T02:42:14.524908+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +47,7 @@
       "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-27T21:53:52+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -85,14 +85,14 @@
       "title": "Opinião | A falta que faz uma causa comum",
       "description": "A oito dias das eleições, o quadro da disputa está congelado. A eleição será, mais uma vez, decidida no photochart, com Lula e Flávio...",
       "url": "https://www.estadao.com.br/opiniao/marco-aurelio-nogueira/a-falta-que-faz-uma-causa-comum/",
-      "source": "estadao.com.br",
-      "sourceCanonical": "estadao.com.br",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-26T06:00:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/MEXCC2GR4NGFZORL23U4G6QQQA.png?quality=80&auth=cd21c70faa09c15d623466b3d86fbe305c1b53ac15b84672b00068f3c5093a35&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c08a4c35726f",
@@ -113,12 +113,12 @@
       "title": "Opinião - Silvana Krause e Thiago da Silva Sampaio: O Brasil aprendeu a rejeitar e a temer em dobro",
       "description": "Repulsa nas alturas aos dois principais candidatos indica percepção política que canaliza frustrações e expectativas.",
       "url": "https://www1.folha.uol.com.br/opiniao/2026/09/o-brasil-aprendeu-a-rejeitar-e-a-temer-em-dobro.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-21T01:00:00+00:00",
       "postedLabel": "7 dias atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/04/11/177593971869dab08673bf5_1775939718_3x2_xl.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -141,14 +141,14 @@
       "title": "As eleições e as dores do parto",
       "description": "Lula é um democrata convicto. Defensor sincero da soberania nacional. Em seus governos, o salário mínimo e o Bolsa Família cresceram mais...",
       "url": "https://horadopovo.com.br/as-eleicoes-e-as-dores-do-parto/",
-      "source": "horadopovo.com.br",
-      "sourceCanonical": "horadopovo.com.br",
+      "source": "Hora do Povo",
+      "sourceCanonical": "Hora do Povo",
       "sourceDomain": "horadopovo.com.br",
       "publishedAt": "2026-09-25T14:42:54+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_7d8d14203681",
@@ -321,27 +321,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.22,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 7,
+    "average": 4.18,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
