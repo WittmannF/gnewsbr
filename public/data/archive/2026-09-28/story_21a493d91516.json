@@ -29,12 +29,12 @@
     "paulo",
     "tempo",
     "temperaturas",
-    "feira",
-    "pode"
+    "pode",
+    "feira"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/FUP20220210083.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-24T13:53:56+00:00",
-  "updatedAt": "2026-09-28T03:35:28.909541+00:00",
+  "updatedAt": "2026-09-28T04:34:19.240972+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -57,14 +57,14 @@
       "title": "Até quando vai o calor? Veja quando as temperaturas devem cair em SP e no Brasil",
       "description": "O calor deve continuar forte nos próximos dias, mas uma mudança no tempo já está prevista para o início de outubro. Segundo a empresa de...",
       "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/27/ate-quando-vai-o-calor-veja-quando-as-temperaturas-devem-cair-em-sp-e-no-brasil.htm",
-      "source": "noticias.uol.com.br",
-      "sourceCanonical": "noticias.uol.com.br",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-27T15:33:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_7d042ac0052f",
@@ -103,7 +103,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-27T04:07:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-g1.glbimg.com/ojDr8wOQexo-WrrCYFXgmrejWq8=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Y/O/HQXIrLRBAjJYPPT2kzMg/previsao-tempo-s-o-paulo-20260927-130710.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -258,7 +258,7 @@
       "sourceDomain": "sampi.net.br",
       "publishedAt": "2026-09-27T00:57:41+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://sampi.net.br/dir-arquivo-imagem/2026/09/d1870d6a03ed54a56f4d75a928e15342.jpeg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -291,20 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e797fac144bb",
-      "title": "Previsão do tempo para sexta-feira (25), em SP: massa de ar seco volta a predominar",
-      "description": "Durante a manhã, as temperaturas permanecerão amenas, com possibilidade de formação de nevoeiros e neblinas, principalmente no leste...",
-      "url": "https://www.diariodesuzano.com.br/cidades/previsao-do-tempo-para-sexta-feira-25-em-sp-massa-de-ar-seco-volta/95979/",
-      "source": "Diário de Suzano",
-      "sourceCanonical": "Diário de Suzano",
-      "sourceDomain": "diariodesuzano.com.br",
-      "publishedAt": "2026-09-25T11:00:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_53af5168295b",
       "title": "Previsão mantém calor e tempo seco em cidades do interior de São Paulo neste fim de semana",
       "description": "Massa de ar seco mantém temperaturas elevadas até segunda-feira, com mudança no tempo e previsão de chuva a partir de terça-feira.",
@@ -317,28 +303,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_48e3f64cf278",
+      "title": "Temperaturas disparam antes da chegada de nova frente fria; veja as cidades atingidas",
+      "description": "Após massa de ar quente elevar as temperaturas em São Paulo, nova frente fria deve trazer a chuva de volta ao estado.",
+      "url": "https://www.acidadeon.com/campinas/cotidiano/temperaturas-disparam-antes-da-chegada-de-nova-frente-fria-veja-as-cidades-atingidas/",
+      "source": "ACidade ON",
+      "sourceCanonical": "ACidade ON",
+      "sourceDomain": "acidadeon.com",
+      "publishedAt": "2026-09-25T19:20:57+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.8,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 5.67,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 15
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 90
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
