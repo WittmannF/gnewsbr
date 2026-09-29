@@ -30,8 +30,8 @@
     "caneta"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/06/18/17818235436a347837f384a_1781823543_3x2_rt.jpg",
-  "publishedAt": "2026-09-28T08:19:00+00:00",
-  "updatedAt": "2026-09-29T16:30:40.381866+00:00",
+  "publishedAt": "2026-09-28T12:00:00+00:00",
+  "updatedAt": "2026-09-29T17:24:37.081038+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -110,14 +110,14 @@
       "title": "Ozempic mais insulina numa caneta só: o que muda no tratamento do diabetes",
       "description": "Em pleno século XXI, muitos pacientes com diabetes ainda se assustam quando se fala a palavra “insulina”. Ela vem acompanhada de dois...",
       "url": "https://veja.abril.com.br/saude/ozempic-mais-insulina-numa-caneta-so-o-que-muda-no-tratamento-do-diabetes/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-28T16:00:14+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ab83b75eeb7f",
@@ -184,7 +184,7 @@
       "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-09-29T14:58:59+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -194,10 +194,10 @@
       "title": "Anvisa registra caneta para diabetes que combina insulina e semaglutida",
       "description": "Produto é o primeiro a associar dose fixa de insulina basal e agonista do receptor de GLP-1 em administração semanal.",
       "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-registra-caneta-para-diabetes-que-combina-insulina-e-semaglutida",
-      "source": "www.gov.br",
+      "source": "GOV.BR",
       "sourceCanonical": "GOV.BR",
       "sourceDomain": "gov.br",
-      "publishedAt": "2026-09-28T08:19:00+00:00",
+      "publishedAt": "2026-09-28T12:19:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -264,14 +264,14 @@
       "title": "Anvisa libera caneta semanal que reúne insulina e semaglutida contra diabetes",
       "description": "Kyinsu combina insulina icodeca e semaglutida em uma única aplicação para adultos com diabetes tipo 2 sem controle adequado da glicemia.",
       "url": "https://www.brasil247.com/saude/anvisa-libera-caneta-semanal-que-reune-insulina-e-semaglutida-contra-diabetes/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
+      "source": "brasil247.com",
+      "sourceCanonical": "brasil247.com",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-28T19:56:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7d6f59c79175",
@@ -317,29 +317,30 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 9,
-    "average": 5.13,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.31,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 3,
       "center": 8,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 1,
-      "unknown": 5
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
