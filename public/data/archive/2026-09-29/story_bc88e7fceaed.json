@@ -3,29 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDNjVxR0VoRmt5ZGJLdWFRZXR5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDNjVxR0VoRmt5ZGJLdWFRZXR5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topic-7",
-    "topstories"
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
-      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-5": 4,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-7",
+    "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Notícias sobre despejo • Espanha",
   "summary": "Milhares de manifestantes em Madri e outras províncias exigem maior proteção a inquilinos e fim das retiradas forçadas; após pressão popular...",
@@ -34,13 +25,13 @@
     "idosa",
     "espanha",
     "protestos",
-    "despejo",
     "crise",
-    "casa"
+    "casa",
+    "despejo"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Maricarmen-idosa-despejada-de-casa-em-Madri-por-imobiliaria.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-28T00:14:04+00:00",
-  "updatedAt": "2026-09-29T18:31:42.753960+00:00",
+  "updatedAt": "2026-09-29T19:37:28.186198+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,15 +44,15 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-29T13:18:03+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Maricarmen-idosa-despejada-de-casa-em-Madri-por-imobiliaria.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
       "id": "article_b12f69eca97d",
-      "title": "Após protestos, idosa de 87 anos despejada na Espanha recebe oferta para voltar para casa",
-      "description": "A idosa espanhola Maricarmen Abascal, que foi despejada na semana passada do apartamento onde morava de aluguel havia sete décadas,...",
+      "title": "Após protestos, idosa de 87 anos despejada na Espanha aceita oferta para voltar para casa",
+      "description": "A advogada Maricarmen Abascal aceitou uma proposta do fundo proprietário do apartamento, a UrbaGestión, para que ela volte a alugar a...",
       "url": "https://g1.globo.com/mundo/noticia/2026/09/29/apos-protestos-idosa-de-87-anos-despejada-na-espanha-recebe-oferta-para-voltar-para-casa.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
@@ -77,11 +68,11 @@
       "title": "Palco de protestos por crise de habitação, Espanha quer proibir despejos até 2030",
       "description": "O governo da Espanha anunciou, nesta terça-feira (29), uma proposta para a proibição dos despejos até 2030 e a renovação automática de...",
       "url": "https://www1.folha.uol.com.br/mundo/2026/09/palco-de-protestos-por-crise-de-habitacao-espanha-quer-proibir-despejos-ate-2030.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-29T18:08:00+00:00",
-      "postedLabel": "23 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/29/17906869086abbb6bc30962_1790686908_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -91,7 +82,7 @@
       "title": "Final feliz: Idosa de 87 anos despejada em Madri poderá voltar para a casa",
       "description": "Empresa dona do imóvel chega a acordo com advogados de idosa após comoção causada pelo caso. Maricarmen Abascal voltará para casa quando...",
       "url": "https://www.dw.com/pt-br/final-feliz-idosa-de-87-anos-despejada-em-madri-poder%C3%A1-voltar-para-a-casa/a-79468845",
-      "source": "DW.com",
+      "source": "dw.com",
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-09-29T07:20:21+00:00",
@@ -99,20 +90,6 @@
       "imageUrl": "https://static.dw.com/image/79397805_6.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_9aa98a58b461",
-      "title": "Despejo de idosa de 87 anos provoca protestos na Espanha",
-      "description": "O despejo de Maricarmen Abascal, de 87 anos, de um apartamento onde viveu por mais de 70 anos provocou protestos em Madri e reacendeu o...",
-      "url": "https://cultura.uol.com.br/programas/jornaldatarde/videos/23481_despejo-de-idosa-de-87-anos-provoca-protestos-na-espanha.html",
-      "source": "TV Cultura",
-      "sourceCanonical": "TV Cultura",
-      "sourceDomain": "cultura.uol.com.br",
-      "publishedAt": "2026-09-29T17:35:05+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_f2da320b314e",
@@ -123,7 +100,7 @@
       "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-09-29T13:08:18+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 3,
       "bucket": "centerLeft"
@@ -137,7 +114,7 @@
       "sourceCanonical": "Diário de Notícias",
       "sourceDomain": "dn.pt",
       "publishedAt": "2026-09-29T13:49:29+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -207,7 +184,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-29T14:37:59+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -235,7 +212,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-29T13:58:44+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -255,6 +232,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_afda6ca9d91d",
+      "title": "Despejo de idosa em maca faz Espanha rever lei; entenda",
+      "description": "Governo propõe renovar contratos de aluguel e restringir despejos em meio à crise habitacional e aos protestos após retirada de Maricarmen...",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/despejo-de-idosa-em-maca-faz-espanha-rever-lei-entenda",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-29T16:23:39+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_e928c128d680",
       "title": "Maricarmen em casa: acordo com imobiliária permite regresso da idosa de 87 anos | Espanha",
       "description": "Acordo foi alcançado após várias horas de reuniões entre os proprietários da habitação e os advogados e familiares de Maricarmen.",
@@ -269,32 +260,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_afda6ca9d91d",
-      "title": "Despejo de idosa em maca faz Espanha rever lei; entenda",
-      "description": "Governo propõe renovar contratos de aluguel e restringir despejos em meio à crise habitacional e aos protestos após retirada de Maricarmen...",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/despejo-de-idosa-em-maca-faz-espanha-rever-lei-entenda",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-09-29T16:23:39+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_9cdb1ba93764",
       "title": "Após protestos, Espanha anuncia medidas para combater crise habitacional",
       "description": "O governo da Espanha anunciou, nesta terça-feira, 29, a paralisação de despejos até 2030 e a renovação automática de contratos de aluguel,...",
       "url": "https://veja.abril.com.br/mundo/apos-protestos-espanha-anuncia-medidas-para-combater-crise-habitacional/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-29T12:57:16+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_bad421176274",
@@ -319,7 +296,21 @@
       "sourceCanonical": "RTP",
       "sourceDomain": "rtp.pt",
       "publishedAt": "2026-09-29T15:32:07+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d1fec95bfb35",
+      "title": "O Sindicato de Inquilinas insta os sindicatos a convocar uma greve geral: \"Agora há caminho\"",
+      "description": "O Sindicato de Inquilinas urge os sindicatos a convocar uma greve geral pela crise de habitação e chama a encher as ruas nas próximas...",
+      "url": "https://www.democrata.es/pt/politica/o-sindicato-de-inquilinas-insta-os-sindicatos-a-convocar-uma-greve-geral-agora-ha-caminho/",
+      "source": "Demócrata",
+      "sourceCanonical": "Demócrata",
+      "sourceDomain": "democrata.es",
+      "publishedAt": "2026-09-29T18:42:42+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -328,14 +319,14 @@
   "spectrum": {
     "min": 3,
     "max": 7,
-    "average": 4.93,
+    "average": 5,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 5,
-      "center": 7,
-      "centerRight": 2,
+      "center": 6,
+      "centerRight": 3,
       "right": 0,
       "unknown": 6
     }

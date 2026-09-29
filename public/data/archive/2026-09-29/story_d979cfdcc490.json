@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 6
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://imagens.ebc.com.br/l3UHFcuk-FUujsdct4wr1RFdvfQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/31/canetas_copy.jpg?itok=pGy_B3Xc",
   "publishedAt": "2026-09-26T07:00:00+00:00",
-  "updatedAt": "2026-09-29T18:31:53.032573+00:00",
+  "updatedAt": "2026-09-29T19:25:01.210326+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +54,7 @@
       "title": "Anvisa apura relação entre canetas emagrecedoras e 13 casos de cegueira",
       "description": "São cinco notificações envolvendo Ozempic, três Wegovy, duas Wegovy FlexTouch e uma Mounjaro; Neuropatia óptica isquêmica anterior não...",
       "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/09/anvisa-investiga-13-casos-de-cegueira-ligados-ao-uso-de-canetas-emagrecedoras.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-28T16:20:00+00:00",
@@ -114,7 +114,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-28T19:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -134,18 +134,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_46410d3989fa",
+      "title": "Caneta emagrecedora gera cegueira? Presidente da SBO comenta casos investigados",
+      "description": "Anvisa apura 13 casos de perda repentina de visão provocados por possível ligação com o uso do medicamento.",
+      "url": "https://noticias.r7.com/saude/caneta-emagrecedora-gera-cegueira-presidente-da-sbo-comenta-casos-investigados-29092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-29T16:57:40+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_487b428688ab",
       "title": "Anvisa apura suspeitas de doença ocular após uso de canetas",
       "description": "Ozempic, Wegovy e Mounjaro aparecem nas notificações de neuropatia óptica; agência ressalta que os registros não comprovam relação com os...",
       "url": "https://sbtnews.sbt.com.br/noticia/saude/anvisa-apura-suspeitas-de-doenca-ocular-apos-uso-de-canetas",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-28T17:54:07+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fde55af56873",
@@ -160,20 +174,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_46410d3989fa",
-      "title": "Caneta emagrecedora gera cegueira? Presidente da SBO comenta casos investigados",
-      "description": "Anvisa apura 13 casos de perda repentina de visão provocados por possível ligação com o uso do medicamento.",
-      "url": "https://noticias.r7.com/saude/caneta-emagrecedora-gera-cegueira-presidente-da-sbo-comenta-casos-investigados-29092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-29T16:57:40+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_75693234aae5",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.6,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 10,
+      "center": 9,
       "centerRight": 2,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

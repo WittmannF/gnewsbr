@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 44
+      "topic-3": 47
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 44,
-    "bestSeedRank": 44,
+    "firstSeenRank": 47,
+    "bestSeedRank": 47,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/J5INHAHLDBBCBEV2F2OIZZ2J4A.png?quality=80&auth=f643823b4d21e575b5ce9b662108623223d164c903e4ca18d0b75a4e6d7d4ad3&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-27T13:45:00+00:00",
-  "updatedAt": "2026-09-29T18:35:15.612388+00:00",
+  "updatedAt": "2026-09-29T19:28:20.977289+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-29T16:20:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/OB7JWHO7KFHXTITTRHO6UD4SGU.jpg?quality=80&auth=441553fb7ce6dd33e7b3dff5e6a1e2fe281864feda740e6e69dd9084c603f826&width=1200&height=630&focal=346,229",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -82,7 +82,7 @@
       "title": "Morre empresário baleado na frente dos filhos durante assalto no Brooklin, em SP",
       "description": "Família saía de um casamento e seguia para uma festa de aniversário.",
       "url": "https://www1.folha.uol.com.br/cotidiano/2026/09/morre-empresario-baleado-na-frente-dos-filhos-durante-assalto-no-brooklin-em-sp.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-28T12:37:00+00:00",
@@ -138,14 +138,14 @@
       "title": "Homem é morto após assalto na frente dos filhos em SP",
       "description": "Vítima estava com a família quando foi abordada por criminosos na Zona Sul da capital; até o momento, ninguém foi preso.",
       "url": "https://sbtnews.sbt.com.br/noticia/policia/homem-e-morto-apos-assalto-na-frente-dos-filhos-em-sp",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
+      "source": "sbtnews.sbt.com.br",
+      "sourceCanonical": "sbtnews.sbt.com.br",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-09-28T13:37:10+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_587eecda3eb9",
@@ -190,6 +190,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_b3222f693cfe",
+      "title": "Morre homem baleado na frente dos filhos durante assalto na zona sul de SP",
+      "description": "Crime aconteceu na noite de sábado (26), na Rua Texas, no Brooklin.",
+      "url": "https://jovempan.com.br/brasil/morre-homem-baleado-na-frente-dos-filhos-durante-assalto-na-zona-sul-de-sp/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-28T12:14:10+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_e16b08243937",
       "title": "Divinopolitano Renato Schittini é assassinado em São Paulo",
       "description": "O trabalhador divinopolitano Renato Schittini, de 39 anos, foi assassinado ontem (27) na cidade de São Paulo. O homem estava seu veículo num...",
@@ -216,20 +230,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_b3222f693cfe",
-      "title": "Morre homem baleado na frente dos filhos durante assalto na zona sul de SP",
-      "description": "Crime aconteceu na noite de sábado (26), na Rua Texas, no Brooklin.",
-      "url": "https://jovempan.com.br/brasil/morre-homem-baleado-na-frente-dos-filhos-durante-assalto-na-zona-sul-de-sp/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-28T12:14:10+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_d11730e42f63",
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.92,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
       "right": 1,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
