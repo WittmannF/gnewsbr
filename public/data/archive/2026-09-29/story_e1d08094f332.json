@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 21
+      "topic-7": 19
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/bTQToepTzWf_iF7V1ysuKmKFKUs=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/w/a/1vRdjrTA2mLn6abL4oQw/afp-20260927-c9gh8we-v1-midres-filesfrancepoliticssenatevote.jpg",
   "publishedAt": "2026-09-27T19:30:00+00:00",
-  "updatedAt": "2026-09-29T05:40:19.776181+00:00",
+  "updatedAt": "2026-09-29T06:54:25.548305+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -124,14 +124,14 @@
       "title": "Extrema direita conquista grupo no Senado da França pela primeira vez na história",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
       "url": "https://www.ihu.unisinos.br/671427-extrema-direita-conquista-grupo-no-senado-da-franca-pela-primeira-vez-na-historia",
-      "source": "ihu.unisinos.br",
-      "sourceCanonical": "ihu.unisinos.br",
+      "source": "Instituto Humanitas Unisinos - IHU",
+      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-09-28T11:19:44+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_b107f8c4bc4f",
@@ -142,7 +142,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-09-28T06:12:04+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -166,14 +166,14 @@
       "title": "Avanço da direita nacionalista muda cenário no Senado francês às vésperas da eleição presidencial",
       "description": "A política francesa ganhou um novo ingrediente a poucos meses da eleição presidencial de 2027. O Rassemblement National (RN), de Marine Le...",
       "url": "https://noticias.r7.com/prisma/diplomacia-e-embaixadas/avanco-da-direita-nacionalista-muda-cenario-no-senado-frances-as-vesperas-da-eleicao-presidencial-28092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-28T11:46:15+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_baf6a96536d5",
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.6,
+    "average": 5.2,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 5,
-      "centerRight": 4,
+      "centerRight": 3,
       "right": 0,
       "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
