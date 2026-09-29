@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPbzVMX0VSR2tLaDhkbG1JQmhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPbzVMX0VSR2tLaDhkbG1JQmhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 60
+      "topic-3": 20,
+      "topic-5": 16
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 20,
+    "bestSeedRank": 16,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,8 +33,8 @@
     "alvorada"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/08/Lula-e-Roberta-Luchsinger.png",
-  "publishedAt": "2026-09-21T13:47:00+00:00",
-  "updatedAt": "2026-09-29T15:30:26.873389+00:00",
+  "publishedAt": "2026-09-21T07:00:00+00:00",
+  "updatedAt": "2026-09-29T16:32:31.487518+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -71,8 +74,8 @@
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-29T14:34:53+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-09-28T20:01:32+00:00",
+      "postedLabel": "hoje",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/roberta-luchsinger-lula.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -96,14 +99,14 @@
       "title": "Lobista organizou viagem de R$ 1,8 milhão a Lulinha em 2025, diz jornal",
       "description": "A lobista Roberta Luchsinger teria bancado uma viagem de R$ 1,868 milhão para Fábio Luís Lula da Silva, o Lulinha (filho do presidente Lula)...",
       "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/29/lobista-organizou-viagem-de-r-18-milhao-a-lulinha-em-2025-diz-jornal.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
+      "source": "noticias.uol.com.br",
+      "sourceCanonical": "noticias.uol.com.br",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-29T13:04:37+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bc5739539eb7",
@@ -114,7 +117,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-09-29T14:07:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -134,20 +137,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_aabc5ce04906",
-      "title": "Lobista, Lulinha e Marcola teriam atuado por contrato na Petrobras",
-      "description": "Mensagens obtidas pela PF indicam pagamentos envolvendo fabricante de fertilizantes que buscava negócio com a empresa.",
-      "url": "https://www.cnnbrasil.com.br/blogs/elijonasmaia/politica/lobista-lulinha-e-marcola-teriam-atuado-por-contrato-na-petrobras/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-25T16:42:34+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_9986eee946a6",
       "title": "Governo Lula mantém em sigilo acessos de lobista amiga de Lulinha ao Alvorada",
       "description": "Roberta Luchsinger é investigada pela PF e aparece em apurações que envolvem Fábio Luís Lula da Silva, filho do petista.",
@@ -162,6 +151,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_aabc5ce04906",
+      "title": "Lobista, Lulinha e Marcola teriam atuado por contrato na Petrobras",
+      "description": "Mensagens obtidas pela PF indicam pagamentos envolvendo fabricante de fertilizantes que buscava negócio com a empresa.",
+      "url": "https://www.cnnbrasil.com.br/blogs/elijonasmaia/politica/lobista-lulinha-e-marcola-teriam-atuado-por-contrato-na-petrobras/",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-25T16:42:34+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_40f897207aed",
       "title": "POLÍTICA Amiga de Lulinha recebe R$ 5,9 milhões após mediar verbas federais para o Maranhão",
       "description": "POLÍTICA Amiga de Lulinha recebe R$ 5,9 milhões após mediar verbas federais para o Maranhão. Pagamentos identificados ocorreram em cerca de...",
@@ -170,7 +173,7 @@
       "sourceCanonical": "NOVO Notícias",
       "sourceDomain": "novonoticias.com.br",
       "publishedAt": "2026-09-27T16:04:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +201,7 @@
       "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-09-29T13:37:39+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -236,8 +239,8 @@
       "title": "PF aponta pagamentos de Roberta Luchsinger a servidores do MDS",
       "description": "A PF identificou mensagens em que Roberta Luchsinger teria ordenado depósitos de R$ 20 mil para dois servidores do MDS e uma parente de um...",
       "url": "https://veronoticias.com/politica/pf-aponta-pagamentos-de-roberta-luchsinger-a-servidores-do-mds/",
-      "source": "veronoticias.com",
-      "sourceCanonical": "veronoticias.com",
+      "source": "Vero Notícias",
+      "sourceCanonical": "Vero Notícias",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-09-23T21:58:04+00:00",
       "postedLabel": "5 dias atrás",
@@ -250,8 +253,8 @@
       "title": "Assessores diretos de Lula ganharam relógio, joias e festa de Roberta Luchsinger",
       "description": "Assessores diretos de Lula ganharam relógio, joias e festa de Roberta Luchsinger Mensagens obtidas pelo Metrópoles mostram presentes e...",
       "url": "https://positivafm.com.br/noticias/43599/assessores-diretos-de-lula-ganharam-relogio-joias-e-festa-de-roberta-luchsinger",
-      "source": "positivafm.com.br",
-      "sourceCanonical": "positivafm.com.br",
+      "source": "POSITIVA FM",
+      "sourceCanonical": "POSITIVA FM",
       "sourceDomain": "positivafm.com.br",
       "publishedAt": "2026-09-24T12:07:00+00:00",
       "postedLabel": "5 dias atrás",
@@ -274,20 +277,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_ec8be0f8f7a4",
-      "title": "Aliado de lobista foi preso 15 dias após suposto depósito para Lulinha",
-      "description": "Ex-secretário de Saúde de Goiânia, Quesede Ayres foi preso duas vezes por supostos desvios na pasta que passariam dos R$ 10 milhões.",
-      "url": "https://www.alagoas24horas.com.br/1764079/aliado-de-lobista-foi-preso-15-dias-apos-suposto-deposito-para-lulinha/",
-      "source": "Alagoas 24 Horas",
-      "sourceCanonical": "Alagoas 24 Horas",
-      "sourceDomain": "alagoas24horas.com.br",
-      "publishedAt": "2026-09-26T16:09:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_6fb341cb50a2",
       "title": "Mensagens de Luchsinger sobre FAB e Planalto contradizem versão de Lula sobre lobista",
       "description": "Conversas atribuídas à lobista citam \"aero Lula\", viagens com Lulinha e passagens pelo Planalto e residência presidencial;...",
@@ -295,8 +284,22 @@
       "source": "correiodamanha.com.br",
       "sourceCanonical": "correiodamanha.com.br",
       "sourceDomain": "correiodamanha.com.br",
-      "publishedAt": "2026-09-21T14:28:00+00:00",
+      "publishedAt": "2026-09-21T07:00:00+00:00",
       "postedLabel": "8 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ec8be0f8f7a4",
+      "title": "Aliado de lobista foi preso 15 dias após suposto depósito para Lulinha",
+      "description": "Ex-secretário de Saúde de Goiânia, Quesede Ayres foi preso duas vezes por supostos desvios na pasta que passariam dos R$ 10 milhões.",
+      "url": "https://www.alagoas24horas.com.br/1764079/aliado-de-lobista-foi-preso-15-dias-apos-suposto-deposito-para-lulinha/",
+      "source": "alagoas24horas.com.br",
+      "sourceCanonical": "alagoas24horas.com.br",
+      "sourceDomain": "alagoas24horas.com.br",
+      "publishedAt": "2026-09-26T16:09:00+00:00",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 4,
     "max": 10,
-    "average": 6.67,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 7,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 5,
+      "center": 3,
       "centerRight": 3,
       "right": 3,
-      "unknown": 8
+      "unknown": 10
     }
   },
   "scores": {

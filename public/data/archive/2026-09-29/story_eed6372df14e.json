@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 52
+      "topic-7": 53
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 52,
-    "bestSeedRank": 52,
+    "firstSeenRank": 53,
+    "bestSeedRank": 53,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "ilha",
     "bebê",
-    "remota",
     "registra",
     "primeiro",
-    "nascimento"
+    "nascimento",
+    "nasce"
   ],
   "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/DX6WQPKUOBHAFOHFGPUQA5VRQY.JPG?smart=true&auth=1f0e679747610f8307eb7a293d7d916f535dffb179ba8739265de589d2476f1b&width=1200&height=630",
   "publishedAt": "2026-09-24T21:05:55+00:00",
-  "updatedAt": "2026-09-29T15:40:15.665097+00:00",
+  "updatedAt": "2026-09-29T16:46:54.557362+00:00",
   "sourceCount": 12,
   "articleCount": 12,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Casal viajou para uma ilha com apenas 51 moradores e acabou protagonizando o \"milagre da vida\" esperado há mais de 30 anos no local",
       "description": "Segundo dados do governo escocês de 2024, a população da ilha era de 72 habitantes e este bebê foi o primeiro nascimento nas últimas três...",
       "url": "https://www.cnnbrasil.com.br/curiosidades/casal-viajou-para-uma-ilha-com-apenas-51-moradores-e-acabou-protagonizando-o-milagre-da-vida-esperado-ha-mais-de-30-anos-no-local/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-25T14:09:55+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/bebe-nasce-em-ilha-remota-na-escocia.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_cb53ca7c4bbd",
@@ -152,8 +152,8 @@
       "title": "Ilha escocesa de 59 habitantes registra primeiro nascimento em 34 anos",
       "description": "Duncan nasceu em 15 de setembro em North Ronaldsay, feito inédito no local desde 1992.",
       "url": "https://vanitybrasil.com.br/ilha-escocesa-de-59-habitantes-registra-primeiro-nascimento-em-34-anos/",
-      "source": "vanitybrasil.com.br",
-      "sourceCanonical": "vanitybrasil.com.br",
+      "source": "Vanity Brasil",
+      "sourceCanonical": "Vanity Brasil",
       "sourceDomain": "vanitybrasil.com.br",
       "publishedAt": "2026-09-28T01:29:37+00:00",
       "postedLabel": "ontem",
@@ -176,6 +176,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_88c8d946909f",
+      "title": "Duncan nasceu numa ilha escocesa onde nenhum bebé nascia há 34 anos",
+      "description": "Com apenas 51 habitantes e sem médico ou hospital, North Ronaldsay, no arquipélago das Órcades, recebeu um novo habitante esta semana.",
+      "url": "https://24noticias.sapo.pt/atualidade/artigos/duncan-nasceu-numa-ilha-escocesa-onde-nenhum-bebe-nascia-ha-34-anos",
+      "source": "24 Notícias",
+      "sourceCanonical": "24 Notícias",
+      "sourceDomain": "24noticias.sapo.pt",
+      "publishedAt": "2026-09-25T10:17:09+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_f6db7d4df78f",
       "title": "Ilha na Escócia dá boas-vindas a bebê após 34 anos",
       "description": "Duncan nasceu na casa dos familiares maternos, em uma comunidade com cerca de 70 moradores e que não tem nem hospital nem equipe médica...",
@@ -188,42 +202,28 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_e448052b7b16",
-      "title": "Uma novidade surpreendente numa ilha remota da Escócia, após 34 anos.",
-      "description": "Após mais de três décadas, um bebê nasceu na Ilha de North Ronaldsay (uma ilha remota da Escócia).",
-      "url": "https://www.vietnam.vn/pt/dieu-bat-ngo-tren-hon-dao-xa-xoi-cua-scotland-sau-34-nam",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-09-25T04:30:17+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 4,
-    "unknownCount": 8,
+    "average": 5.67,
+    "knownCount": 3,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 3,
+      "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 81
+    "confidence": 78
   },
   "flags": [
     "Alta cobertura",
