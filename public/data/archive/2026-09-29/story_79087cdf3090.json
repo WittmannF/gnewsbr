@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 28
+      "topic-8": 27
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 27,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
   "publishedAt": "2026-09-28T11:45:00+00:00",
-  "updatedAt": "2026-09-29T06:57:18.529000+00:00",
+  "updatedAt": "2026-09-29T07:50:49.036878+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "WEG (WEGE3) anuncia dois investimentos milionários em grandes avenidas de crescimento da próxima década",
       "description": "WEG amplia capacidade em baterias e geradores para data centers, mirando o crescimento da demanda no Brasil e nos EUA nos próximos anos.",
       "url": "https://www.seudinheiro.com/2026/empresas/weg-anuncia-investimento-de-us-165-mi-para-ampliar-producao-de-geradores-na-america-do-norte-kaes/",
-      "source": "Seu Dinheiro",
-      "sourceCanonical": "Seu Dinheiro",
+      "source": "seudinheiro.com",
+      "sourceCanonical": "seudinheiro.com",
       "sourceDomain": "seudinheiro.com",
       "publishedAt": "2026-09-28T18:20:32+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.seudinheiro.com/uploads/2026/07/WEG.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_22a43da64f51",
@@ -115,7 +115,7 @@
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-09-28T12:15:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/weg-wege3.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -194,14 +194,14 @@
       "title": "Weg investirá R$ 840 milhões para ampliar capacidade de produção na América do Norte",
       "description": "A multinacional brasileira Weg, fabricante de motores elétricos e equipamentos eletroeletrônicos, anunciou nesta segunda-feira um plano de...",
       "url": "https://www.folhape.com.br/economia/weg-investira-r-840-milhoes-para-ampliar-capacidade-de-producao-na/515279/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-28T19:30:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_0b765a958bad",
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 5.5,
+    "average": 5.25,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 5,
+      "centerLeft": 1,
+      "center": 4,
       "centerRight": 2,
       "right": 0,
       "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
