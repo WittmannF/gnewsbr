@@ -3,36 +3,42 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lCcklXRkVoRkNTWjJIODU0dGZ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lCcklXRkVoRkNTWjJIODU0dGZ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 10
+      "home": 4,
+      "topstories": 4,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Furacão Polo atinge a costa do México",
+  "title": "Furacão Polo atinge o México com ventos fortes",
   "summary": "Ciclone atingiu a costa do Pacífico mexicano na madrugada desta terça (29), na região central da Baixa Califórnia Sul.",
-  "topic": "Furacão · Polo",
+  "topic": "Furacão · México",
   "topicKeywords": [
     "furacão",
-    "polo",
     "méxico",
-    "categoria",
+    "polo",
     "ventos",
-    "inundações"
+    "inundações",
+    "categoria"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/MnznVqqEiqE62Fdiub1dTDa3d5s=/5174x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/W/yMv13TT82bWb0Rx47jNg/2026-09-28t194404z-144702399-rc2bsnawm75e-rtrmadp-3-usa-weather-california.jpg",
-  "publishedAt": "2026-09-25T18:15:54+00:00",
-  "updatedAt": "2026-09-29T11:36:18.705280+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-09-27T14:07:38+00:00",
+  "updatedAt": "2026-09-29T12:39:12.417028+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -44,24 +50,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-09-29T06:03:41+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/MnznVqqEiqE62Fdiub1dTDa3d5s=/5174x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/W/yMv13TT82bWb0Rx47jNg/2026-09-28t194404z-144702399-rc2bsnawm75e-rtrmadp-3-usa-weather-california.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_4137f8db5d46",
-      "title": "Furacão Polo atinge o México",
-      "description": "Fenômeno causa ventos intensos, cortes de energia e risco de inundações em áreas costeiras do país, em alerta devido ao El Niño.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/furacao-polo-atinge-o-mexico-1.1751585",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-09-29T11:07:51+00:00",
-      "postedLabel": "28 minutos atrás",
-      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1751584:1790679198/AFP__20260926__C9FQ366__v1__MidRes__MexicoClimateHurricanePolo.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=30363bf",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_69c37f6089ef",
+      "title": "Furacão Polo atinge o México com ventos acima de 170 quilômetros por hora e provoca inundações",
+      "description": "Fenômeno é o primeiro da temporada a tocar o solo em uma área habituada com ciclones tropicais, que neste ano devem ser mais intensos devido...",
+      "url": "https://www.estadao.com.br/internacional/furacao-polo-mexico-ventos-inundacoes-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-29T11:50:39+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/JQH7ZWR27VHKHADNFTABF555J4.jpg?quality=80&auth=718bda312ae14c2c43076bf0c7a9866298b8a71b48733aa3e2e49e7616bd6574&width=1200&height=630&focal=3699,1709",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_b2cd0aa1b13c",
@@ -78,30 +84,16 @@
       "bucket": "center"
     },
     {
-      "id": "article_c62ed8d7725c",
-      "title": "México se prepara para chegada do furacão Polo e alerta para enchentes",
-      "description": "Donos de restaurantes e lojas reforçaram portas e janelas com tábuas para proteger estabelecimentos das rajadas de vento.",
-      "url": "https://www.cnnbrasil.com.br/internacional/mexico-se-prepara-para-chegada-do-furacao-polo-e-alerta-para-enchentes/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-28T16:36:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Mexico-se-prepara-para-chegada-do-furacao-Polo-e-alerta-para-enchentes.png?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_fa106bc09e03",
-      "title": "Satélite registra furacão Polo se aproximando da costa da Baixa Califórnia, no México",
-      "description": "Satélite registra furacão Polo se aproximando da costa da Baixa Califórnia, no México. Expandir ou colapsar descrição.",
-      "url": "https://g1.globo.com/mundo/video/satelite-registra-furacao-polo-se-aproximando-da-costa-da-baixa-california-no-mexico-15002831.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-09-29T11:12:26+00:00",
-      "postedLabel": "23 minutos atrás",
-      "imageUrl": null,
+      "id": "article_cdeb1c28d5de",
+      "title": "Furacão Polo atinge categoria máxima três vezes e bate recorde",
+      "description": "A presença do El Niño também aparece entre os fatores que contribuíram para as condições favoráveis à intensificação do Polo.",
+      "url": "https://ultimosegundo.ig.com.br/mundo/2026-09-27/furacao-polo-atinge-categoria-maxima-tres-vezes-e-bate-recorde.html",
+      "source": "Portal iG",
+      "sourceCanonical": "Portal iG",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-09-27T20:42:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://i0.statig.com.br/bancodeimagens/21/cg/tm/21cgtm4im9evtc83t86v8yges.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -120,18 +112,46 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_cdeb1c28d5de",
-      "title": "Furacão Polo atinge categoria máxima três vezes e bate recorde",
-      "description": "A presença do El Niño também aparece entre os fatores que contribuíram para as condições favoráveis à intensificação do Polo.",
-      "url": "https://ultimosegundo.ig.com.br/mundo/2026-09-27/furacao-polo-atinge-categoria-maxima-tres-vezes-e-bate-recorde.html",
-      "source": "Portal iG",
-      "sourceCanonical": "Portal iG",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-09-27T20:42:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_1e0d0a2387a3",
+      "title": "Furacão Polo toca o solo no México com ventos de 177 km/h",
+      "description": "Tempestade atingiu a península de Baja California Sur como furacão de categoria 2 e deve chegar ao continente mexicano nesta terça-feira...",
+      "url": "https://www.cnnbrasil.com.br/internacional/furacao-polo-toca-o-solo-no-mexico-com-ventos-de-177-km-h/",
+      "source": "cnnbrasil.com.br",
+      "sourceCanonical": "cnnbrasil.com.br",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-09-29T08:52:06+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_535a4546838a",
+      "title": "Vídeo. México prepara-se para o furacão Polo e evacua casas no estado de Baixa Califórnia do Sul",
+      "description": "Vídeo. Ciclones e tempestades tropicais sucedem-se na região do Pacífico, provocando inundações perigosas. O fenómeno El Niño está este ano...",
+      "url": "https://pt.euronews.com/video/2026/09/29/mexico-prepara-se-para-o-furacao-polo-e-evacua-casas-em-baja-california-sur",
+      "source": "pt.euronews.com",
+      "sourceCanonical": "pt.euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-09-29T06:36:32+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ad255d6e9521",
+      "title": "Furacão Polo atinge o México",
+      "description": "Ventos intensos, cortes de energia elétrica e risco de inundações: Polo tocou o solo no México na madrugada de terça-feira (29) como um...",
+      "url": "https://www.folhape.com.br/noticias/furacao-polo-atinge-o-mexico/515380/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-09-29T10:17:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_dd28790481cc",
@@ -145,34 +165,6 @@
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_535a4546838a",
-      "title": "Vídeo. México prepara-se para o furacão Polo e evacua casas no estado de Baixa Califórnia do Sul",
-      "description": "Vídeo. Ciclones e tempestades tropicais sucedem-se na região do Pacífico, provocando inundações perigosas. O fenómeno El Niño está este ano...",
-      "url": "https://pt.euronews.com/video/2026/09/29/mexico-prepara-se-para-o-furacao-polo-e-evacua-casas-em-baja-california-sur",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-09-29T06:36:32+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_2e7b6ccc8b95",
-      "title": "México é atingido por furacão Polo com ventos de até 175 km/h",
-      "description": "Fenômeno levou fortes chuvas e ventos intensos para o estado da Baja California Sur.",
-      "url": "https://www.metropoles.com/mundo/mexico-e-atingido-por-furacao-polo-com-ventos-de-ate-175-km-h",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-29T06:42:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -204,6 +196,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_2e7b6ccc8b95",
+      "title": "México é atingido por furacão Polo com ventos de até 175 km/h",
+      "description": "Fenômeno levou fortes chuvas e ventos intensos para o estado da Baja California Sur.",
+      "url": "https://www.metropoles.com/mundo/mexico-e-atingido-por-furacao-polo-com-ventos-de-ate-175-km-h",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-29T06:42:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_73b7c34a55dc",
       "title": "Havaí se prepara para inundações com risco de morte novamente, enquanto o El Niño intensifica a temporada de",
       "description": "O Havaí enfrentará mais uma vez inundações e deslizamentos de terra com potencial risco de morte à medida que a tempestade tropical Nolo...",
@@ -222,28 +228,14 @@
       "title": "Furacão Polo, de Categoria 4, Ameaça Costa do México",
       "description": "O furacão deve atingir a costa da Baixa Califórnia do Sul na segunda-feira, segundo os meteorologista.",
       "url": "https://forbes.com.br/forbes-esg/2026/09/furacao-polo-de-categoria-4-ameaca-costa-do-mexico/",
-      "source": "forbes.com.br",
-      "sourceCanonical": "forbes.com.br",
+      "source": "Forbes Brasil",
+      "sourceCanonical": "Forbes Brasil",
       "sourceDomain": "forbes.com.br",
       "publishedAt": "2026-09-27T14:07:38+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_b821f4a7bc95",
-      "title": "Furacão Polo se aproxima do México e ameaça causar danos severos",
-      "description": "O furacão Polo deve atingir a costa do Pacífico do México nesta segunda-feira (28), onde as autoridades preveem chuvas torrenciais,...",
-      "url": "https://www.folhape.com.br/noticias/furacao-polo-se-aproxima-do-mexico-e-ameaca-causar-danos-severos/515250/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-09-28T17:47:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_44aec63a1d9b",
@@ -254,10 +246,24 @@
       "sourceCanonical": "boca.com.br",
       "sourceDomain": "boca.com.br",
       "publishedAt": "2026-09-29T08:04:37+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_72a973e6470b",
+      "title": "Furacão Polo é registrado por satélite antes de tocar o solo no México",
+      "description": "Fenômeno tocou o solo na noite de segunda-feira (28), no horário local, com ventos sustentados de até 177 km/h.",
+      "url": "https://www.band.com.br/internacional/furacao-polo-e-registrado-por-satelite-antes-de-tocar-o-solo-no-mexico",
+      "source": "band.com.br",
+      "sourceCanonical": "band.com.br",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-09-29T11:55:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ec8fae091a2e",
@@ -288,47 +294,47 @@
       "bucket": "center"
     },
     {
-      "id": "article_fe42d4d1559c",
-      "title": "Furacão Polo volta a ganhar força e pode atingir novamente a Categoria 5 no Pacífico",
-      "description": "NASA classificou o processo como uma intensificação explosiva e destacou que o fenômeno está entre os mais rápidos já registrados no...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/tempo-e-clima/428632-furacao-polo-volta-a-ganhar-forca-e-pode-atingir-novamente-a-categoria-5-no-pacifico.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-09-25T18:15:54+00:00",
-      "postedLabel": "3 dias atrás",
+      "id": "article_5b040e3215dd",
+      "title": "Chegada do furacão Polo ao México alerta autoridades para chuvas torrenciais com danos severos",
+      "description": "Espera-se que Polo chegue à costa, inicialmente como um furacão de categoria 3, por volta das 16h00, horário local (20h00 no horário de...",
+      "url": "https://www.itatiaia.com.br/mundo/chegada-do-furacao-polo-ao-mexico-alerta-autoridades-para-chuvas-torrenciais-com-danos-severos/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-09-28T18:40:42+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
-      "id": "article_37725ccf1ade",
-      "title": "Furacões Nolo e Polo ameaçam Havaí e México no Pacífico #shorts #JR24H",
-      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR. comscoreComplete...",
-      "url": "https://noticias.r7.com/jr-na-tv/furacoes-nolo-e-polo-ameacam-havai-e-mexico-no-pacifico-shorts-jr24h-26092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-26T02:40:10+00:00",
-      "postedLabel": "3 dias atrás",
+      "id": "article_c3238d128f1c",
+      "title": "Furacão com ventos de até 185 km/h preocupa autoridades no México",
+      "description": "Funcionário de restaurante em Loreto, no México, protege fachada do local com fita e tapumes para a chegada do furacão Polo REUTERS/Raquel...",
+      "url": "https://www.radioviramundo.com/news-furacao-com-ventos-de-ate-185-kmh-preocupa-autoridades-no-mexico",
+      "source": "radioviramundo.com",
+      "sourceCanonical": "radioviramundo.com",
+      "sourceDomain": "radioviramundo.com",
+      "publishedAt": "2026-09-28T14:57:34+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.46,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.36,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 9,
-      "centerRight": 3,
+      "center": 8,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 7
+      "unknown": 9
     }
   },
   "scores": {
