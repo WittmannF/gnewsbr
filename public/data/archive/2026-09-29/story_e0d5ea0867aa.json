@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lCcklXRkVoRkNTWjJIODU0dGZ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lCcklXRkVoRkNTWjJIODU0dGZ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-7": 4
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Furacão Polo atinge a costa do México",
   "summary": "Ciclone atingiu a costa do Pacífico mexicano na madrugada desta terça (29), na região central da Baixa Califórnia Sul.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/MnznVqqEiqE62Fdiub1dTDa3d5s=/5174x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/W/yMv13TT82bWb0Rx47jNg/2026-09-28t194404z-144702399-rc2bsnawm75e-rtrmadp-3-usa-weather-california.jpg",
   "publishedAt": "2026-09-27T14:07:38+00:00",
-  "updatedAt": "2026-09-29T13:46:02.402759+00:00",
+  "updatedAt": "2026-09-29T14:26:51.289735+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "cnnbrasil.com.br",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-29T08:52:06+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -82,14 +88,14 @@
       "title": "Furacão Polo atinge categoria máxima três vezes e bate recorde",
       "description": "A presença do El Niño também aparece entre os fatores que contribuíram para as condições favoráveis à intensificação do Polo.",
       "url": "https://ultimosegundo.ig.com.br/mundo/2026-09-27/furacao-polo-atinge-categoria-maxima-tres-vezes-e-bate-recorde.html",
-      "source": "ultimosegundo.ig.com.br",
-      "sourceCanonical": "ultimosegundo.ig.com.br",
+      "source": "Portal iG",
+      "sourceCanonical": "Portal iG",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-09-27T20:42:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://i0.statig.com.br/bancodeimagens/21/cg/tm/21cgtm4im9evtc83t86v8yges.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_34d7468c8fb3",
@@ -128,8 +134,8 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-29T11:50:39+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/JQH7ZWR27VHKHADNFTABF555J4.jpg?quality=80&auth=718bda312ae14c2c43076bf0c7a9866298b8a71b48733aa3e2e49e7616bd6574&width=1200&height=630&focal=3699,1709",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -142,7 +148,7 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-29T10:17:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -226,7 +232,7 @@
       "sourceCanonical": "Forbes Brasil",
       "sourceDomain": "forbes.com.br",
       "publishedAt": "2026-09-27T14:07:38+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -240,7 +246,7 @@
       "sourceCanonical": "boca.com.br",
       "sourceDomain": "boca.com.br",
       "publishedAt": "2026-09-29T08:04:37+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,7 +260,7 @@
       "sourceCanonical": "band.com.br",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-09-29T11:55:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -292,14 +298,14 @@
       "title": "Chegada do furacão Polo ao México alerta autoridades para chuvas torrenciais com danos severos",
       "description": "Espera-se que Polo chegue à costa, inicialmente como um furacão de categoria 3, por volta das 16h00, horário local (20h00 no horário de...",
       "url": "https://www.itatiaia.com.br/mundo/chegada-do-furacao-polo-ao-mexico-alerta-autoridades-para-chuvas-torrenciais-com-danos-severos/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
+      "source": "itatiaia.com.br",
+      "sourceCanonical": "itatiaia.com.br",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-09-28T18:40:42+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_c3238d128f1c",
