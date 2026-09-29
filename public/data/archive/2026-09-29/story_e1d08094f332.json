@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 20
+      "topic-7": 21
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 21,
+    "bestSeedRank": 21,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/bTQToepTzWf_iF7V1ysuKmKFKUs=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/w/a/1vRdjrTA2mLn6abL4oQw/afp-20260927-c9gh8we-v1-midres-filesfrancepoliticssenatevote.jpg",
   "publishedAt": "2026-09-27T19:30:00+00:00",
-  "updatedAt": "2026-09-29T04:44:04.565348+00:00",
+  "updatedAt": "2026-09-29T05:40:19.776181+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -54,14 +54,14 @@
       "title": "Extrema direita tem recorde de eleitos no Senado da França, e partido quadruplica bancada",
       "description": "Para próximas eleições, pesquisas apontam Marine Le Pen favorita para suceder o presidente francês, Emmanuel Macron, que terá cumprido...",
       "url": "https://oglobo.globo.com/mundo/noticia/2026/09/28/extrema-direita-tem-recorde-de-eleitos-no-senado-da-franca-e-partido-quadruplica-bancada.ghtml",
-      "source": "oglobo.globo.com",
-      "sourceCanonical": "oglobo.globo.com",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-28T03:16:34+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://s2-oglobo.glbimg.com/A2E4ucqoZ23910lOHosjjXDESYc=/7600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/p/e/niZZHIRtSFGFMKXoPOtA/116367184-far-right-party-rassemblement-national-rn-candidate-in-frances-2027-presidential-election.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_fc41fc9bfc92",
@@ -101,7 +101,7 @@
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-28T08:48:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2025/06/20250612200632_b2e5dd61a03432f462d29a8d13413e9a3a48181e7e7fc32e9f7adb96d7ead6bd.png?w=1200&quality=88&strip=all",
+      "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
     },
@@ -124,14 +124,14 @@
       "title": "Extrema direita conquista grupo no Senado da França pela primeira vez na história",
       "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
       "url": "https://www.ihu.unisinos.br/671427-extrema-direita-conquista-grupo-no-senado-da-franca-pela-primeira-vez-na-historia",
-      "source": "Instituto Humanitas Unisinos - IHU",
-      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
+      "source": "ihu.unisinos.br",
+      "sourceCanonical": "ihu.unisinos.br",
       "sourceDomain": "ihu.unisinos.br",
       "publishedAt": "2026-09-28T11:19:44+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b107f8c4bc4f",
@@ -319,27 +319,26 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.3,
+    "average": 5.6,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
-      "center": 4,
+      "centerLeft": 0,
+      "center": 5,
       "centerRight": 4,
       "right": 0,
       "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 60,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
