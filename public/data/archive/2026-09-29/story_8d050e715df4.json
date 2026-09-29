@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owaTVxR0VoSC1SeGNQMUpDRVZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owaTVxR0VoSC1SeGNQMUpDRVZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2,
       "topic-3": 3,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "A disputa entre Lula e Flávio Bolsonaro no 2º turno, segundo a AtlasIntel",
   "summary": "O filho de Jair Bolsonaro aparece com vantagem numérica de 0,1 ponto percentual, segundo o levantamento.",
@@ -35,12 +29,12 @@
     "flávio",
     "turno",
     "bolsonaro",
-    "tem",
-    "pesquisa"
+    "pesquisa",
+    "tem"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/Lula-e-Flávio-Bolsonaro-Foto-1_-Saulo-Cruz_Agência-Senado-_-Foto-2_-Ricardo-Stuckert_PR.png",
   "publishedAt": "2026-09-27T11:40:00+00:00",
-  "updatedAt": "2026-09-29T17:24:14.608714+00:00",
+  "updatedAt": "2026-09-29T18:33:03.984750+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -73,6 +67,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_ac877edf21af",
+      "title": "Atlas mantém Lula à frente e vê empate no 2º turno",
+      "description": "A pesquisa AtlasIntel/Bloomberg divulgada em 29 de setembro ouviu 5.005 pessoas entre 23 e 28 de setembro e mostra Luiz Inácio Lula da Silva...",
+      "url": "https://www.esmaelmorais.com.br/atlas-lula-flavio-bolsonaro-empate-segundo-turno-setembro-2026/",
+      "source": "Blog do Esmael",
+      "sourceCanonical": "Blog do Esmael",
+      "sourceDomain": "esmaelmorais.com.br",
+      "publishedAt": "2026-09-29T18:11:56+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": "https://i1.wp.com/www.esmaelmorais.com.br/wp-content/uploads/2026/07/Governo-Lula-repudia-fala-de-Flavio-em-audiencia-nos-EUA.jpg?resize=1200%2C800&ssl=1",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_94c3a7e52f28",
       "title": "Pesquisa Palver para presidente: veja números do último levantamento",
       "description": "Palver divulgou pesquisa sobre a eleição de 2026 com cenários de 1º turno e simulações de 2º. No estimulado, Lula e Flávio empataram com...",
@@ -81,7 +89,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-09-29T15:30:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -96,23 +104,9 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-09-29T03:01:17+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/Candidatos-1.png?w=605&h=341&crop=1",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_4054d9fc4176",
-      "title": "A nova pesquisa Datafolha sobre Lula x Flávio Bolsonaro, a 3 dias da eleição",
-      "description": "A última sondagem do instituto projetou empate no segundo turno, com o presidente na liderança numérica.",
-      "url": "https://www.cartacapital.com.br/cartaexpressa/a-nova-pesquisa-datafolha-sobre-lula-x-flavio-bolsonaro-a-3-dias-da-eleicao/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-27T11:40:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_1ef2bde71d40",
@@ -147,39 +141,11 @@
       "title": "Lula abre 4 pontos sobre Flávio Bolsonaro na espontânea da pesquisa eleitoral da Palver",
       "description": "Pesquisa mostra avanço gradual do presidente, rejeição em queda e empate numérico entre os dois no cenário estimulado.",
       "url": "https://www.jota.info/eleicoes/eleicoes-2026/lula-abre-4-pontos-sobre-flavio-bolsonaro-na-espontanea-da-pesquisa-eleitoral-da-palver",
-      "source": "jota.info",
-      "sourceCanonical": "jota.info",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-09-29T10:41:38+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_4f7fa41a609b",
-      "title": "Os motivos que emperram o crescimento de Lula e Flávio nas últimas pesquisas da reta final",
-      "description": "Levantamento da AtlasIntel mostra o presidente à frente por 3,1 pontos no primeiro turno e empate técnico no segundo.",
-      "url": "https://veja.abril.com.br/politica/os-motivos-que-emperram-o-crescimento-de-lula-e-flavio-nas-ultimas-pesquisas-da-reta-final/",
-      "source": "veja.abril.com.br",
-      "sourceCanonical": "veja.abril.com.br",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-29T16:40:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_777b62f17ada",
-      "title": "Real Time: Flávio Bolsonaro com 45% dos votos no 1º turno no RS, Lula 42%",
-      "description": "Pesquisa eleitoral divulgada nesta terça-feira (29) pelo instituto Real Time Big Data sobre as intenções de voto para a Presidência da...",
-      "url": "https://guaiba.com.br/real-time-flavio-bolsonaro-com-45-dos-votos-no-1o-turno-no-rs-lula-42/",
-      "source": "Rádio Guaíba",
-      "sourceCanonical": "Rádio Guaíba",
-      "sourceDomain": "guaiba.com.br",
-      "publishedAt": "2026-09-29T16:23:00+00:00",
-      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -199,28 +165,42 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_9c25d0d66dbb",
-      "title": "Eleição pode acabar domingo? A conta para Lula ou Flávio vencer no 1º turno",
-      "description": "Queda dos candidatos menores, voto útil, brancos e nulos e abstenção entram na matemática que define se haverá segundo turno.",
-      "url": "https://www.infomoney.com.br/politica/eleicao-pode-acabar-domingo-a-conta-para-lula-ou-flavio-vencer-no-1o-turno/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-09-29T14:50:23+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_4054d9fc4176",
+      "title": "A nova pesquisa Datafolha sobre Lula x Flávio Bolsonaro, a 3 dias da eleição",
+      "description": "A última sondagem do instituto projetou empate no segundo turno, com o presidente na liderança numérica.",
+      "url": "https://www.cartacapital.com.br/cartaexpressa/a-nova-pesquisa-datafolha-sobre-lula-x-flavio-bolsonaro-a-3-dias-da-eleicao/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-27T11:40:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
-      "id": "article_712a825163b3",
-      "title": "Flávio tem 47,7% e Lula, 47,6% no 2º turno, diz AtlasIntel",
-      "description": "Levantamento AtlasIntel ouviu 5.005 eleitores em todo o território nacional, de 23 a 28 de setembro; margem de erro é de 1 ponto percentual.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-477-e-lula-476-no-2o-turno-diz-atlasintel/",
+      "id": "article_1232a8ab710a",
+      "title": "O estado em que Flávio Bolsonaro amplia vantagem de 3 para 10 pontos sobre Lula, segundo pesquisa",
+      "description": "No Rio Grande do Sul, o senador Flávio Bolsonaro (PL-RJ) lidera as intenções de voto em todos os cenários para a Presidência da República,...",
+      "url": "https://veja.abril.com.br/politica/o-estado-em-que-flavio-bolsonaro-amplia-vantagem-de-3-para-10-pontos-segundo-pesquisa/",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-29T13:32:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_208441dcfdf5",
+      "title": "Saiba como estão Lula e Flávio nas pesquisas a 5 dias do 1º turno",
+      "description": "Senador fica numericamente à frente em 5 estudos e Lula em outros 4 sobre eventual 2º turno entre os 2; o Poder360 compila os resultados dos...",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-5-dias-do-1o-turno/",
       "source": "Poder360",
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-09-29T10:34:37+00:00",
+      "publishedAt": "2026-09-29T11:04:57+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -239,6 +219,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_9c25d0d66dbb",
+      "title": "Eleição pode acabar domingo? A conta para Lula ou Flávio vencer no 1º turno",
+      "description": "Queda dos candidatos menores, voto útil, brancos e nulos e abstenção entram na matemática que define se haverá segundo turno.",
+      "url": "https://www.infomoney.com.br/politica/eleicao-pode-acabar-domingo-a-conta-para-lula-ou-flavio-vencer-no-1o-turno/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-09-29T14:50:23+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_4d06e2bde457",
@@ -263,24 +257,10 @@
       "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-29T11:52:43+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
-    },
-    {
-      "id": "article_3f10313e600c",
-      "title": "Polêmicas entre Lula e Flávio têm limites nos votos consolidados",
-      "description": "Até domingo, a tendência mais consistente é a de Lula preservar a dianteira no primeiro turno, com Flávio buscando reduzi-la pelo voto útil.",
-      "url": "https://blogs.correiobraziliense.com.br/azedo/polemicas-entre-lula-e-flavio-tem-limites-nos-votos-consolidados/",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "blogs.correiobraziliense.com.br",
-      "publishedAt": "2026-09-29T11:14:08+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_d1281142cde4",
@@ -297,6 +277,34 @@
       "bucket": "right"
     },
     {
+      "id": "article_c3a5c6c6ad63",
+      "title": "Flávio Bolsonaro lidera em MS com 51% dos votos válidos",
+      "description": "Pesquisa Campo Grande News/Novo Ibrape mostra Flávio Bolsonaro com 51% dos votos válidos em MS para presidente. Lula tem 33,1% e Cury, 6,4%.",
+      "url": "https://www.campograndenews.com.br/politica/em-ms-flavio-bolsonaro-tem-51-dos-votos-validos-e-lula-alcanca-33-1",
+      "source": "Campo Grande News",
+      "sourceCanonical": "Campo Grande News",
+      "sourceDomain": "campograndenews.com.br",
+      "publishedAt": "2026-09-29T13:52:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_3f10313e600c",
+      "title": "Polêmicas entre Lula e Flávio têm limites nos votos consolidados",
+      "description": "Até domingo, a tendência mais consistente é a de Lula preservar a dianteira no primeiro turno, com Flávio buscando reduzi-la pelo voto útil.",
+      "url": "https://blogs.correiobraziliense.com.br/azedo/polemicas-entre-lula-e-flavio-tem-limites-nos-votos-consolidados/",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "blogs.correiobraziliense.com.br",
+      "publishedAt": "2026-09-29T11:14:08+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_440882a7dc06",
       "title": "Real Time: um terço dos eleitores de Lula em Pernambuco se dizem indecisos na pesquisa espontânea",
       "description": "Potenciais eleitores sinalizam falta de engajamento; veja também quem são os pernambucanos indecisos sobre a presidência…",
@@ -305,37 +313,23 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-09-29T11:55:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_98cae0d0fad3",
-      "title": "Quaest: Lula tem 39% contra 34% de Flávio Bolsonaro no 1º turno; os dois empatam no 2º turno",
-      "description": "Pesquisa realizou 2.004 entrevistas entre os dias 24 e 27 de setembro e tem margem de erro de dois pontos porcentuais.",
-      "url": "https://www.estadao.com.br/politica/eleicoes/pesquisa-quaest-28-setembro-luiz-inacio-lula-silva-flavio-bolsonaro/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-28T14:01:48+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.24,
+    "average": 4.94,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 3,
+      "left": 4,
       "centerLeft": 2,
       "center": 8,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 2,
       "unknown": 3
     }
