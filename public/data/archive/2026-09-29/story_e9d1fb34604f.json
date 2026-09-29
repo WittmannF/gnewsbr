@@ -10,11 +10,11 @@
       "topic-6"
     ],
     "seedRanks": {
-      "topic-6": 55
+      "topic-6": 57
     },
     "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 55,
-    "bestSeedRank": 55,
+    "firstSeenRank": 57,
+    "bestSeedRank": 57,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/NEAOJPOCXVHXRD2EZJXCSOKX2A.jpeg?quality=80&auth=5f64a40dc06ad2012c1b47eec991414522ff8358bbc116561e274b854961ec44&width=1200&height=630&focal=1134,401",
   "publishedAt": "2026-09-25T12:04:22+00:00",
-  "updatedAt": "2026-09-29T08:47:53.634290+00:00",
+  "updatedAt": "2026-09-29T09:42:32.058173+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,8 +96,8 @@
       "title": "Explicação de Hugo Souza por falha repercute: 'Era melhor ter ficado quieto'",
       "description": "A explicação de Hugo Souza para o gol sofrido no empate da Seleção Brasileira com a Austrália, na última sexta-feira (25), repercutiu nas...",
       "url": "https://www.lance.com.br/fora-de-campo/explicacao-de-hugo-souza-por-falha-repercute-era-melhor-ter-ficado-quieto.html",
-      "source": "LANCE!",
-      "sourceCanonical": "LANCE!",
+      "source": "lance.com.br",
+      "sourceCanonical": "lance.com.br",
       "sourceDomain": "lance.com.br",
       "publishedAt": "2026-09-27T20:01:38+00:00",
       "postedLabel": "ontem",
@@ -232,20 +232,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_fd86f2b6f73d",
-      "title": "Hugo Souza analisa gol sofrido pela Seleção: “Quando pensei em saltar, a bola já tinha passado”",
-      "description": "A cobrança de falta de Irankunda, que terminou em gol para a Austrália no amistoso da Seleção Brasileira na última sexta-feira (25),...",
-      "url": "https://www.cartacapital.com.br/esporte/hugo-souza-analisa-gol-sofrido-pela-selecao-quando-pensei-em-saltar-a-bola-ja-tinha-passado/",
-      "source": "cartacapital.com.br",
-      "sourceCanonical": "cartacapital.com.br",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-27T20:09:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_330d320de019",
       "title": "Luís Roberto, Jorge Iggor e Sgarbi criticam Hugo em falta, mas Djalminha, Denílson e Formiga rebatem",
       "description": "O narrador Luís Roberto, da TV Globo, Jorge Iggor, da GE TV, e o comentarista João Pedro Sgarbi, da GE TV, criticam o goleiro Hugo Souza...",
@@ -272,6 +258,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_fd86f2b6f73d",
+      "title": "Hugo Souza analisa gol sofrido pela Seleção: “Quando pensei em saltar, a bola já tinha passado”",
+      "description": "A cobrança de falta de Irankunda, que terminou em gol para a Austrália no amistoso da Seleção Brasileira na última sexta-feira (25),...",
+      "url": "https://www.cartacapital.com.br/esporte/hugo-souza-analisa-gol-sofrido-pela-selecao-quando-pensei-em-saltar-a-bola-ja-tinha-passado/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-27T20:09:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_058e0168239e",
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 10,
-    "average": 5.88,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.44,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
       "right": 1,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
