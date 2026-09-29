@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owaTVxR0VoSHZtZ1M1RDBnSUdTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2owaTVxR0VoSHZtZ1M1RDBnSUdTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Nexus/BTG Pactual divulga nova pesquisa para presidente; veja o resultado",
   "summary": "O instituto Nexus, em parceria com o Banco BTG Pactual, divulgou nesta segunda-feira (28) uma nova pesquisa com as intenções de voto para...",
@@ -25,13 +31,13 @@
     "lula",
     "flávio",
     "turno",
+    "eleição",
     "quaest",
-    "bolsonaro",
-    "eleição"
+    "tem"
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/09/28055325/pesquisa-presidente-12-1.jpg",
-  "publishedAt": "2026-09-26T14:58:20+00:00",
-  "updatedAt": "2026-09-29T01:47:07.387011+00:00",
+  "publishedAt": "2026-09-24T20:27:28+00:00",
+  "updatedAt": "2026-09-29T02:34:28.889637+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -50,18 +56,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_4054d9fc4176",
-      "title": "A nova pesquisa Datafolha sobre Lula x Flávio Bolsonaro, a 3 dias da eleição",
-      "description": "A última sondagem do instituto projetou empate no segundo turno, com o presidente na liderança numérica.",
-      "url": "https://www.cartacapital.com.br/cartaexpressa/a-nova-pesquisa-datafolha-sobre-lula-x-flavio-bolsonaro-a-3-dias-da-eleicao/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-27T11:40:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/09/AFP__20260904__C7BC6KE__v1__MidRes__ComboBrazilElectionCandidates.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "id": "article_4c3be0fa3204",
+      "title": "Quaest: Lula tem 39% contra 34% de Flávio no 1º turno; no 2º, há empate",
+      "description": "Pesquisa Quaest para as eleições presidenciais divulgada hoje mostra o presidente Lula (PT) com 39% das intenções de voto no primeiro turno,...",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/09/28/quaest-pesquisa-presidencial.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-09-28T13:21:23+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_489bf9677f9b",
@@ -78,32 +84,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_f274b8122e7a",
-      "title": "BTG/Nexus: Lula tem 5 pontos a mais que Flávio no 1º turno; há empate no 2º",
-      "description": "Pesquisa BTG/Nexus divulgada hoje mostra o presidente Lula (PT) na liderança no primeiro turno, com 42% das intenções de voto, enquanto o...",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/09/28/btgnexus-pesquisa-presidencial.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-09-28T09:22:38+00:00",
+      "id": "article_10c2b071bb71",
+      "title": "CEO da Quaest: \"Lula volta a ter probabilidade de reeleição acima de 50%\"",
+      "description": "Analista Felipe Nunes, CEO da Quaest, atribui recuperação do petista a mulheres, eleitores de baixa renda e beneficiários do Bolsa Família.",
+      "url": "https://www.metropoles.com/brasil/ceo-da-quaest-lula-volta-a-ter-probabilidade-de-reeleicao-acima-de-50",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-28T14:32:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://i.metroimg.com/XTWO-fNXKDyUZChtRi7UIdC-eXHz3Tv_F2B7tqpTM2k/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/09/lula-sao-miguel3.jpg",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_08776ce11be5",
-      "title": "Quaest divulga nova pesquisa para presidente; veja os números",
-      "description": "A pesquisa da Quaest com as intenções de votos para presidente foi realizada com 2.004 eleitores. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026-5/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-09-28T14:01:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
     },
     {
       "id": "article_1ee8e7e78e29",
@@ -138,14 +130,14 @@
       "title": "Quaest: a uma semana da eleição, Lula tem 39% no primeiro turno, enquanto Flávio Bolsonaro marca 34%",
       "description": "Pesquisa mostra que Cury recua para 4%; soma dos demais candidatos ao Planalto também caiu com relação a resultados anteriores ao longo do...",
       "url": "https://oglobo.globo.com/blogs/pulso/post/2026/09/quaest-a-uma-semana-da-eleicao-lula-tem-39percent-no-primeiro-turno-enquanto-flavio-bolsonaro-marca-34percent.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
+      "source": "oglobo.globo.com",
+      "sourceCanonical": "oglobo.globo.com",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-28T13:15:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1ef2bde71d40",
@@ -162,32 +154,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_27375107d049",
-      "title": "Pesquisas mostram a distância entre Lula e Flávio nos cinco maiores colégios eleitorais do país",
-      "description": "Levantamentos da Quaest mostram cenários diferentes entre os dois candidatos nas duas etapas da disputa.",
-      "url": "https://veja.abril.com.br/politica/pesquisas-mostram-a-distancia-entre-lula-e-flavio-nos-cinco-maiores-colegios-eleitorais-do-pais/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "id": "article_5bea5cffd2a9",
+      "title": "A nova pesquisa BTG/Nexus sobre a disputa entre Lula e Flávio a uma semana da eleição",
+      "description": "A nova pesquisa BTG/Nexus, divulgada nesta segunda-feira, 28, mostra o presidente Luiz Inácio Lula da Silva com 42% das intenções de voto no...",
+      "url": "https://veja.abril.com.br/politica/a-nova-pesquisa-btg-nexus-sobre-a-disputa-entre-lula-e-flavio-a-uma-semana-da-eleicao/",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-29T01:23:00+00:00",
-      "postedLabel": "24 minutos atrás",
+      "publishedAt": "2026-09-28T09:33:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_5666cc00bc20",
+      "title": "O que mostra a movimentação de Lula e Flávio nas últimas duas pesquisas presidenciais",
+      "description": "Para cientista político, o baixo número de indecisos ganha peso, enquanto rejeição alta dos dois candidatos dificulta movimentos mais...",
+      "url": "https://veja.abril.com.br/politica/o-que-mostra-a-movimentacao-de-lula-e-flavio-nas-ultimas-duas-pesquisas-presidenciais/",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-29T01:41:59+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4075d23014b5",
       "title": "Pesquisas mostram a distância entre Lula e Flávio nos três estados da região Sul",
       "description": "Pesquisas recentes da Quaest, divulgadas no dia 24 de setembro, mostram diferenças importantes na disputa entre Lula (PT) e Flávio Bolsonaro...",
       "url": "https://veja.abril.com.br/politica/pesquisas-mostram-a-distancia-entre-lula-e-flavio-nos-tres-estados-da-regiao-sul/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-29T00:37:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d494556fe2c6",
@@ -202,6 +208,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_4054d9fc4176",
+      "title": "A nova pesquisa Datafolha sobre Lula x Flávio Bolsonaro, a 3 dias da eleição",
+      "description": "A última sondagem do instituto projetou empate no segundo turno, com o presidente na liderança numérica.",
+      "url": "https://www.cartacapital.com.br/cartaexpressa/a-nova-pesquisa-datafolha-sobre-lula-x-flavio-bolsonaro-a-3-dias-da-eleicao/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-27T11:40:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_de5bfc57878c",
@@ -232,46 +252,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_10c2b071bb71",
-      "title": "CEO da Quaest: \"Lula volta a ter probabilidade de reeleição acima de 50%\"",
-      "description": "Analista Felipe Nunes, CEO da Quaest, atribui recuperação do petista a mulheres, eleitores de baixa renda e beneficiários do Bolsa Família.",
-      "url": "https://www.metropoles.com/brasil/ceo-da-quaest-lula-volta-a-ter-probabilidade-de-reeleicao-acima-de-50",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-09-28T14:32:00+00:00",
+      "id": "article_4023b0397417",
+      "title": "Lula chega a 42% e amplia distância sobre Flávio, que tem 37%, diz última BTG/Nexus",
+      "description": "A 16ª rodada da BTG/Nexus, a última antes do primeiro turno, mostra uma mudança no cenário eleitoral a uma semana do primeiro turno: Lula...",
+      "url": "https://www.jota.info/eleicoes/eleicoes-2026/lula-chega-a-42-e-amplia-distancia-sobre-flavio-que-tem-37-diz-ultima-btg-nexus",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-09-28T13:53:11+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_a902aaf30866",
-      "title": "Quaest: rejeição a Lula diminui 1% e a de Flávio se mantém",
-      "description": "A rejeição ao presidente Luiz Inácio Lula da Silva (PT) oscilou de 55% para 54% em uma semana, enquanto o senador Flávio Bolsonaro (PL) se...",
-      "url": "https://jovempan.com.br/politica/quaest-rejeicao-a-lula-diminui-1-e-a-de-flavio-se-mantem/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-09-28T15:36:24+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_aa19cc9d83f7",
-      "title": "Lula acelera na reta final, abre cinco pontos sobre bolsonarista em duas pesquisas e aumenta chance de vencer em 1º turno – Marco Damiani",
-      "description": "BTG/Nexus e Quaest trazem ótimas notícias para o candidato à reeleição: índice de indecisos cai e maioria do voto útil migra para o...",
-      "url": "https://www.brasil247.com/blog/lula-acelera-na-reta-final-abre-cinco-pontos-sobre-bolsonarista-em-duas-pesquisas-e-aumenta-chance-de-vencer-em-1o-turno/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-09-28T14:51:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b8c65457e387",
@@ -288,58 +280,73 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_4023b0397417",
-      "title": "Lula chega a 42% e amplia distância sobre Flávio, que tem 37%, diz última BTG/Nexus",
-      "description": "A 16ª rodada da BTG/Nexus, a última antes do primeiro turno, mostra uma mudança no cenário eleitoral a uma semana do primeiro turno: Lula...",
-      "url": "https://www.jota.info/eleicoes/eleicoes-2026/lula-chega-a-42-e-amplia-distancia-sobre-flavio-que-tem-37-diz-ultima-btg-nexus",
-      "source": "JOTA Info",
-      "sourceCanonical": "JOTA Info",
-      "sourceDomain": "jota.info",
-      "publishedAt": "2026-09-28T13:53:11+00:00",
+      "id": "article_0be86e64edb3",
+      "title": "Campanha Lula deve ir para o confronto",
+      "description": "A oportunidade do discurso na abertura da Assembleia Geral da Nações Unidas foi um grande momento de Lula em defesa da soberania.",
+      "url": "https://www.brasildefato.com.br/colunista/valerio-arcary/2026/09/28/campanha-lula-deve-ir-para-o-confronto/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-09-28T18:15:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
-      "id": "article_e21ffff35c08",
-      "title": "Lula e Flávio estão empatados no 2° turno, diz Quaest",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, e o senador Flávio Bolsonaro (PL) estão numericamente empatados em um...",
-      "url": "https://revistaoeste.com/politica/lula-e-flavio-estao-empatados-no-2-turno-diz-quaest/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-09-28T13:24:58+00:00",
+      "id": "article_a902aaf30866",
+      "title": "Quaest: rejeição a Lula diminui 1% e a de Flávio se mantém",
+      "description": "A rejeição ao presidente Luiz Inácio Lula da Silva (PT) oscilou de 55% para 54% em uma semana, enquanto o senador Flávio Bolsonaro (PL) se...",
+      "url": "https://jovempan.com.br/politica/quaest-rejeicao-a-lula-diminui-1-e-a-de-flavio-se-mantem/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-09-28T15:36:24+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 10,
+      "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_e40dcb251965",
+      "title": "Eleição presidencial pode terminar no 1º turno? Confira o novo episódio do Chamada Eleitoral",
+      "description": "Gabriel Jacobsen e Matheus Schuch discutem como o voto silencioso pode ser uma surpresa para o resultado do primeiro turno.",
+      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/09/eleicao-presidencial-pode-terminar-no-1o-turno-confira-o-novo-episodio-do-chamada-eleitoral-cmufr82b001cy013ewqbwugh8.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-09-24T20:27:28+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 1,
-    "max": 10,
-    "average": 5.61,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "min": 2,
+    "max": 9,
+    "average": 4.93,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 8,
-      "centerRight": 4,
-      "right": 2,
-      "unknown": 2
+      "centerRight": 1,
+      "right": 1,
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

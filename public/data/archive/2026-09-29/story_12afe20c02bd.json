@@ -13,7 +13,7 @@
     ],
     "seedRanks": {
       "topic-3": 27,
-      "topic-5": 27
+      "topic-5": 30
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 27,
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/02/jeronimo-neto.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-20T07:00:00+00:00",
-  "updatedAt": "2026-09-29T01:42:51.124038+00:00",
+  "updatedAt": "2026-09-29T02:37:17.434058+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -57,14 +57,14 @@
       "title": "Como está a disputa entre ACM Neto e Jerônimo pelo governo da Bahia, segundo nova pesquisa",
       "description": "A uma semana das eleições estaduais de 2026, o governador Jerônimo Rodrigues (PT) e o ex-prefeito ACM Neto (União Brasil) empatam em...",
       "url": "https://veja.abril.com.br/brasil/como-esta-a-disputa-entre-acm-neto-e-jeronimo-pelo-governo-da-bahia-segundo-nova-pesquisa/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-28T11:27:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/03/acm-neto-jeronimo-rodrigues.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a28867bf56cc",
@@ -131,7 +131,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-28T21:13:59+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -169,28 +169,14 @@
       "title": "ROWENNA DESTACA LIDERANÇA DE JERÔNIMO EM PESQUISA E PROJETA VITÓRIA NO PRIMEIRO TURNO",
       "description": "O maior portal de Economia da Bahia MUNICÍPIOS, Política Bahia Economica A candidata a deputada estadual Rowenna Brito (PT) destacou a...",
       "url": "https://bahiaeconomica.com.br/wp/2026/09/28/rowenna-destaca-lideranca-de-jeronimo-em-pesquisa-e-projeta-vitoria-no-primeiro-turno/",
-      "source": "bahiaeconomica.com.br",
-      "sourceCanonical": "bahiaeconomica.com.br",
+      "source": "- Bahia Economica",
+      "sourceCanonical": "- Bahia Economica",
       "sourceDomain": "bahiaeconomica.com.br",
       "publishedAt": "2026-09-28T15:37:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_3f995b9f4646",
-      "title": "Real Time: Jerônimo tem 47% das intenções de voto no 1° turno na Bahia; ACM Neto soma 43%",
-      "description": "Pesquisa simulou também um segundo turno, no qual o petista aparece com 48%, e o candidato do União Brasil tem 44%",
-      "url": "https://noticias.r7.com/eleicoes/2026/real-time-jeronimo-rodrigues-tem-47-das-intencoes-de-voto-no-1-turno-na-bahia-acm-neto-soma-43-28092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-09-28T11:01:05+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_d96e3eb244a0",
@@ -205,6 +191,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_3f995b9f4646",
+      "title": "Real Time: Jerônimo tem 47% das intenções de voto no 1° turno na Bahia; ACM Neto soma 43%",
+      "description": "Pesquisa simulou também um segundo turno, no qual o petista aparece com 48%, e o candidato do União Brasil tem 44%",
+      "url": "https://noticias.r7.com/eleicoes/2026/real-time-jeronimo-rodrigues-tem-47-das-intencoes-de-voto-no-1-turno-na-bahia-acm-neto-soma-43-28092026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-09-28T11:01:05+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_395b23b3f06f",
@@ -299,7 +299,7 @@
       "sourceCanonical": "Notícia Livre",
       "sourceDomain": "noticialivre.com.br",
       "publishedAt": "2026-09-28T20:02:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.17,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 6,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
