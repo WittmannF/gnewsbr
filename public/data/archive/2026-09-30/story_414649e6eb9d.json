@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 9
+      "topic-2": 10
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/0003/live/abdba4f0-b7dd-11f1-bc1f-3f186ca4140c.jpg",
   "publishedAt": "2026-09-26T13:25:41+00:00",
-  "updatedAt": "2026-09-30T11:23:50.013261+00:00",
+  "updatedAt": "2026-09-30T12:41:47.802220+00:00",
   "sourceCount": 14,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Surto de sarampo em Estado dos EUA chega a quase 900 casos",
       "description": "\"Trump é o auge da desconstrução do modelo da Revolução Americana\", diz Cristina Pecequilo. 3:48. Thumbnail do video:\"Trump é o auge da...",
       "url": "https://www.estadao.com.br/internacional/surto-de-sarampo-na-pensilvania-chega-a-quase-900-casos-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
+      "source": "estadao.com.br",
+      "sourceCanonical": "estadao.com.br",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-09-28T19:14:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/66723Y4WONA7HD6YH4NE5ASZXE.jpeg?quality=80&auth=3d76c451a88f527e5b1b70639b5d3fa8b2d457848b1392c630690c5094993789&width=1200&height=630&focal=749,322",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_484efa831861",
@@ -101,7 +101,7 @@
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-09-28T18:54:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -120,6 +120,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_41c13a8b11fb",
+      "title": "Casos de sarampo na Pensilvânia ultrapassam 900 conforme surto cresce",
+      "description": "O surto de sarampo na Pensilvânia continuou a se agravar, com 68 novos casos registrados desde a quarta-feira da semana passada, elevando o...",
+      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45K11X:0/",
+      "source": "br.tradingview.com",
+      "sourceCanonical": "br.tradingview.com",
+      "sourceDomain": "br.tradingview.com",
+      "publishedAt": "2026-09-28T18:51:01+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_9d2d77ff2325",
       "title": "Casos de sarampo na Pensilvânia passam de 900",
       "description": "Surto da doença é o pior em décadas; condado de Lancaster, no centro-sul do estado, continua sendo o mais afetado.",
@@ -132,20 +146,6 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_41c13a8b11fb",
-      "title": "Casos de sarampo na Pensilvânia ultrapassam 900 conforme surto cresce",
-      "description": "O surto de sarampo na Pensilvânia continuou a se agravar, com 68 novos casos registrados desde a quarta-feira da semana passada, elevando o...",
-      "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L6N45K11X:0/",
-      "source": "TradingView",
-      "sourceCanonical": "TradingView",
-      "sourceDomain": "br.tradingview.com",
-      "publishedAt": "2026-09-28T18:51:01+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_2eaea1bc8fdd",
@@ -264,8 +264,8 @@
       "title": "O CDC dos EUA confirma duas mortes relacionadas ao sarampo em 2026",
       "description": "Por Siddhi MahatoleOs Centros de Controle e Prevenção de Doenças (CDC) dos EUA confirmaram nesta terça-feira uma segunda morte relacionada...",
       "url": "https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45L0GH:0/",
-      "source": "TradingView",
-      "sourceCanonical": "TradingView",
+      "source": "br.tradingview.com",
+      "sourceCanonical": "br.tradingview.com",
       "sourceDomain": "br.tradingview.com",
       "publishedAt": "2026-09-29T12:51:19+00:00",
       "postedLabel": "hoje",
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 4.64,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 6,
+    "average": 4.4,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 4,
       "center": 5,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
