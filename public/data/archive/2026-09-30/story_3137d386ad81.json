@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 34
+      "topic-8": 39
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 34,
-    "bestSeedRank": 34,
+    "firstSeenRank": 39,
+    "bestSeedRank": 39,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://imagens.ebc.com.br/83wD4Lz6kTKj3TkZZQFC78wR2R8=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/17344276879_f877ac0313_o.jpg?itok=4GB_iB6X",
   "publishedAt": "2026-09-29T16:34:27+00:00",
-  "updatedAt": "2026-09-30T22:44:50.302416+00:00",
+  "updatedAt": "2026-09-30T23:38:21.589912+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -54,11 +54,11 @@
       "title": "CAGED (Ago/26): Criação de vagas ganha força e preserva cenário de arrefecimento gradual",
       "description": "Em agosto, o Caged registrou criação líquida de 165,8 mil postos formais de trabalho, valor este que veio significativamente melhor do que o...",
       "url": "https://analisa.genialinvestimentos.com.br/macroeconomia-brasil/CAGED-Ago26-Criacao-de-vagas-ganha-forca-e-preserva-cenario-de-arrefecimento-gradual",
-      "source": "Genial Analisa",
-      "sourceCanonical": "Genial Analisa",
+      "source": "analisa.genialinvestimentos.com.br",
+      "sourceCanonical": "analisa.genialinvestimentos.com.br",
       "sourceDomain": "analisa.genialinvestimentos.com.br",
       "publishedAt": "2026-09-30T18:28:03+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -138,14 +138,14 @@
       "title": "Lula se consolida como o presidente da geração de empregos, com mais de 1 milhão de vagas em 2026",
       "description": "Brasil criou 1,13 milhão de postos formais entre janeiro e agosto; serviços lideram contratações e estoque de trabalhadores com carteira...",
       "url": "https://www.brasil247.com/economia/lula-se-consolida-como-o-presidente-da-geracao-de-empregos-com-mais-de-1-milhao-de-vagas-em-2026/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-30T03:15:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_711af6994a1a",
@@ -198,7 +198,7 @@
       "sourceCanonical": "O Fluminense",
       "sourceDomain": "ofluminense.com.br",
       "publishedAt": "2026-09-30T16:56:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -250,14 +250,14 @@
       "title": "Efeito Lula: Brasil cria 165,8 mil empregos formais em agosto e acumula 1,14 milhão de novos postos de trabalho",
       "description": "247 – O mercado de trabalho brasileiro registrou saldo positivo de 165,8 mil empregos com carteira assinada em agosto de 2026,...",
       "url": "https://www.brasil247.com/brasil/efeito-lula-brasil-cria-1658-mil-empregos-formais-em-agosto-e-acumula-114-milhao-de-novos-postos-de-trabalho/",
-      "source": "brasil247.com",
-      "sourceCanonical": "brasil247.com",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-09-29T18:05:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_20ce352f9112",
@@ -268,7 +268,7 @@
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-09-30T21:11:12+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 7,
-    "average": 5.17,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
-      "left": 0,
+      "left": 2,
       "centerLeft": 1,
       "center": 10,
       "centerRight": 1,
       "right": 0,
-      "unknown": 8
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
