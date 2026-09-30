@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 41,
-      "topic-5": 35
+      "topic-3": 36,
+      "topic-5": 37
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 41,
-    "bestSeedRank": 35,
+    "firstSeenRank": 36,
+    "bestSeedRank": 36,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -28,13 +28,13 @@
     "lula",
     "hospitais",
     "dino",
+    "liga",
     "qualidade",
-    "lei",
-    "liga"
+    "lei"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/OTT5GGXQSZDHDGKCVV2PNITW44.JPG?quality=80&auth=446368f34f672933205dd1e576e83545c3073c523e68758711d483428664f741&width=1200&height=630&smart=true",
   "publishedAt": "2026-09-28T22:53:23+00:00",
-  "updatedAt": "2026-09-30T13:32:10.686173+00:00",
+  "updatedAt": "2026-09-30T14:32:32.948423+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -197,14 +197,14 @@
       "title": "Flávio critica telefonema entre Lula e Dino e questiona se ministro é subordinado",
       "description": "Presidente ligou para ministro durante agenda em Belém na segunda-feira (28) para comentar sobre projeto voltado a serviços de saúde.",
       "url": "https://www.infomoney.com.br/politica/flavio-critica-telefonema-entre-lula-e-dino-e-questiona-se-ministro-e-subordinado/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
+      "source": "infomoney.com.br",
+      "sourceCanonical": "infomoney.com.br",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-29T19:11:11+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3e8af816197e",
@@ -215,7 +215,7 @@
       "sourceCanonical": "Rádio Metrópole",
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-09-29T14:01:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -233,6 +233,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_fde63844a919",
+      "title": "No Pará, Lula liga ao vivo para Dino e Flávio Bolsonaro ataca gesto",
+      "description": "Durante evento do governo federal em Belém (PA) nessa terça-feira (29/9), o presidente Luiz Inácio Lula da Silva (PT) ligou ao vivo para o...",
+      "url": "https://www.metropoles.com/brasil/no-para-lula-liga-ao-vivo-para-dino-e-flavio-bolsonaro-ataca-gesto",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-09-30T10:32:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ab52e64591eb",
@@ -271,7 +285,7 @@
       "sourceCanonical": "Fatos de Mato Grosso",
       "sourceDomain": "fatosdematogrosso.com.br",
       "publishedAt": "2026-09-29T13:43:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -295,39 +309,25 @@
       "title": "Lei define padrões de qualidade a hospitais particulares",
       "description": "O presidente Luiz Inácio Lula da Silva sancionou, nesta segunda-feira (28), uma lei que visa aprimora a qualidade e fiscalização dos...",
       "url": "https://www.folhape.com.br/noticias/lei-define-padroes-de-qualidade-a-hospitais-particulares/515361/",
-      "source": "folhape.com.br",
-      "sourceCanonical": "folhape.com.br",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-09-29T01:23:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_9b12e39b8278",
-      "title": "Em Belém, Lula sanciona lei criada por Dino após morte do filho",
-      "description": "O presidente Luiz Inácio Lula da Silva sancionou, no início da noite desta segunda-feira, em Belém (PA), o Projeto de Lei 287/2024,...",
-      "url": "https://revistaforum.com.br/politica/belem-lula-lei-dino/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-09-29T01:00:45+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 8,
-    "average": 5.5,
+    "average": 5.57,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
-      "left": 1,
-      "centerLeft": 1,
+      "left": 0,
+      "centerLeft": 2,
       "center": 8,
       "centerRight": 4,
       "right": 0,
@@ -335,14 +335,13 @@
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

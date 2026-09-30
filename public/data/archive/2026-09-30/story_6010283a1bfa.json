@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 37
+      "topic-7": 32
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 32,
+    "bestSeedRank": 32,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Papa-Leao-XIV-aviao.jpg?w=960&h=540&crop=1",
   "publishedAt": "2026-09-24T13:50:24+00:00",
-  "updatedAt": "2026-09-30T13:41:08.848346+00:00",
+  "updatedAt": "2026-09-30T14:43:30.456333+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -156,7 +156,7 @@
       "sourceCanonical": "vermelho.org.br",
       "sourceDomain": "vermelho.org.br",
       "publishedAt": "2026-09-30T11:42:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -194,14 +194,14 @@
       "title": "Vaticano divulga mensagem aos brasileiros em meio às orientações da Igreja Católica sobre eleições no Brasil",
       "description": "Mensagem publicada pelo Vaticano destaca defesa da dignidade humana e promoção das condições de vida do próximo; no Brasil, dioceses e...",
       "url": "https://revistaforum.com.br/politica/vaticano-mensagem-igreja-catolica-eleicoes/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
+      "source": "revistaforum.com.br",
+      "sourceCanonical": "revistaforum.com.br",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-09-24T13:50:24+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f31c8fdf2c54",
@@ -216,20 +216,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_eddcb538c1cf",
-      "title": "Leão XIV: a extrema-direita “não constitui uma expressão autêntica do cristianismo”. X-Tuitadas",
-      "description": "O Instituto Humanitas Unisinos - IHU - um órgão transdisciplinar da Unisinos, que visa apontar novas questões e buscar respostas para os...",
-      "url": "https://www.ihu.unisinos.br/671523-x-tuitadas-29-09-2026",
-      "source": "Instituto Humanitas Unisinos - IHU",
-      "sourceCanonical": "Instituto Humanitas Unisinos - IHU",
-      "sourceDomain": "ihu.unisinos.br",
-      "publishedAt": "2026-09-29T15:09:43+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_75d050ddd66b",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c7f976ee77fb",
+      "title": "Leão XIV critica associação entre extrema direita e cristianismo e pede retorno aos valores do Evangelho",
+      "description": "Durante voo de volta a Roma, pontífice relacionou avanço de grupos extremistas na Alemanha à queda no número de fiéis e defendeu compreensão...",
+      "url": "https://spdiario.com.br/noticias/politica/leao-xiv-critica-associacao-entre-extrema-direita-e-cristianismo-e-pede-retorno-aos-valores-do-evangelho.html",
+      "source": "Diário de São Paulo",
+      "sourceCanonical": "Diário de São Paulo",
+      "sourceDomain": "spdiario.com.br",
+      "publishedAt": "2026-09-29T14:10:27+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 4.75,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.5,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
-      "left": 1,
-      "centerLeft": 2,
+      "left": 0,
+      "centerLeft": 1,
       "center": 3,
       "centerRight": 2,
       "right": 0,
-      "unknown": 12
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
-    "confidence": 95
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
