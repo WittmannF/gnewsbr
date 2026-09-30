@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 44
+      "topic-5": 48
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 44,
-    "bestSeedRank": 44,
+    "firstSeenRank": 48,
+    "bestSeedRank": 48,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Marcal-e-Flavio.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-09-28T16:00:00+00:00",
-  "updatedAt": "2026-09-30T08:45:09.911592+00:00",
+  "updatedAt": "2026-09-30T09:37:43.332554+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -148,20 +148,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_2c975942b833",
-      "title": "Flávio Bolsonaro convida Marçal para possível governo",
-      "description": "O candidato do PL à Presidência, Flávio Bolsonaro, convidou o influenciador Pablo Marçal para integrar um eventual governo bolsonarista,...",
-      "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/marcal-se-pronunciara-sobre-convite-de-flavio-bolsonaro",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-09-29T21:00:23+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_df9115fb1041",
       "title": "Flávio Bolsonaro apresenta Pablo Marçal como colaborador de campanha",
       "description": "Segundo o candidato Flávio Bolsonaro (PL), o influenciador chega à campanha para ajudar nas áreas de empreendedorismo e mobilidade social.",
@@ -176,18 +162,32 @@
       "bucket": "center"
     },
     {
+      "id": "article_2c975942b833",
+      "title": "Flávio Bolsonaro convida Marçal para possível governo",
+      "description": "O candidato do PL à Presidência, Flávio Bolsonaro, convidou o influenciador Pablo Marçal para integrar um eventual governo bolsonarista,...",
+      "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/marcal-se-pronunciara-sobre-convite-de-flavio-bolsonaro",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-09-29T21:00:23+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_1d87d8a323b2",
       "title": "Pablo Marçal anuncia apoio a Flávio Bolsonaro",
       "description": "O empresário Pablo Marçal anunciou, nesta terça-feira, 29, apoio à candidatura de Flávio Bolsonaro (PL) à Presidência da República.",
       "url": "https://revistaoeste.com/politica/pablo-marcal-anuncia-apoio-a-flavio/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
+      "source": "revistaoeste.com",
+      "sourceCanonical": "revistaoeste.com",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-09-30T00:11:58+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_fc3adc40e721",
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 10,
-    "average": 6.18,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 9,
+    "average": 5.8,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
-      "right": 3,
-      "unknown": 9
+      "right": 2,
+      "unknown": 10
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [

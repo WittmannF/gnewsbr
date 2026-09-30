@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/10/17890450546aa2a93e6127b_1789045054_3x2_rt.jpg",
   "publishedAt": "2026-09-27T16:35:26+00:00",
-  "updatedAt": "2026-09-30T08:36:26.421150+00:00",
+  "updatedAt": "2026-09-30T09:29:24.362023+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -166,14 +166,14 @@
       "title": "Caneta emagrecedora gera cegueira? Presidente da SBO comenta casos investigados",
       "description": "Anvisa apura 13 casos de perda repentina de visão provocados por possível ligação com o uso do medicamento.",
       "url": "https://noticias.r7.com/saude/caneta-emagrecedora-gera-cegueira-presidente-da-sbo-comenta-casos-investigados-29092026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
+      "source": "noticias.r7.com",
+      "sourceCanonical": "noticias.r7.com",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-09-29T16:57:40+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_08db4e4edca0",
@@ -254,7 +254,7 @@
       "sourceCanonical": "imparcial.com.br",
       "sourceDomain": "imparcial.com.br",
       "publishedAt": "2026-09-29T08:45:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,20 +288,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_7d386b0462bb",
-      "title": "Anvisa investiga suspeitas de doença ocular ligada a canetas emagrecedoras",
-      "description": "A Anvisa recebeu 13 notificações de Noia envolvendo medicamentos como Ozempic, Wegovy, Rybelsus e Mounjaro.",
-      "url": "https://revistaoeste.com/brasil/anvisa-investiga-suspeitas-de-doenca-ocular-ligada-a-canetas-emagrecedoras/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-09-29T01:55:19+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_2bbd73876c18",
       "title": "Homem perde a visão em duas semanas após tomar remédio popular para emagrecer",
       "description": "Ed Gillen, de 58 anos, ficou completamente cego após tomar Ozempic, medicamento prescrito para controle da diabetes e emagrecimento....",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_4cb42656f9d6",
+      "title": "Noia: Anvisa investiga doença e uso de canetas emagrecedoras",
+      "description": "A Anvisa acompanha 14 notificações de suspeita de neuropatia óptica isquêmica anterior não arterítica, conhecida pela sigla Noia, em pessoas...",
+      "url": "https://www.bonsfluidos.com.br/saude/noia-anvisa-investiga-doenca-rara-canetas-emagrecedoras.phtml",
+      "source": "Bons Fluidos",
+      "sourceCanonical": "Bons Fluidos",
+      "sourceDomain": "bonsfluidos.com.br",
+      "publishedAt": "2026-09-28T19:37:21+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 10,
-    "average": 5.38,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "max": 6,
+    "average": 4.82,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
       "center": 8,
-      "centerRight": 1,
-      "right": 1,
-      "unknown": 7
+      "centerRight": 0,
+      "right": 0,
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
