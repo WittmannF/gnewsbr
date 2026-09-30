@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 17
+      "topic-9": 16
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
+    "firstSeenRank": 16,
+    "bestSeedRank": 16,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s02.video.glbimg.com/x720/14999265.jpg",
   "publishedAt": "2026-09-28T06:48:57+00:00",
-  "updatedAt": "2026-09-30T03:51:20.104804+00:00",
+  "updatedAt": "2026-09-30T04:52:13.476250+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -82,14 +82,14 @@
       "title": "Nasa revela novas imagens de vulcão que despertou após 500 anos adormecido",
       "description": "Vulcão adormecido há 500 anos voltou a expelir lava após terremoto na Rússia e passou a ser monitorado pelo satélite NISAR.",
       "url": "https://www.gazetadopovo.com.br/mundo/vulcao-adormecido-500-anos-desperta-russia/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-09-28T17:37:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/28110212/Krasheninnikov_Nasa_01.jpg",
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_67dc505b4533",
@@ -101,7 +101,7 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-28T18:25:46+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/Captura-de-tela-2026-09-28-152158.png?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -190,6 +190,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_548fdbbd9a4e",
+      "title": "Vulcão adormecido desde o século XVI desperta na Rússia e é monitorado por satélite da NASA",
+      "description": "Imagem: NASA Após passar quase 500 anos inativo, o vulcão Krasheninnikov, localizado na costa da Rússia, voltou a entrar em erupção após ser...",
+      "url": "https://rrmais.com.br/noticia/noticias/vulcao-adormecido-desde-o-seculo-xvi-desperta-na-russia-e-e-monitorado-por-satelite-da-nasa",
+      "source": "RRMAIS",
+      "sourceCanonical": "RRMAIS",
+      "sourceDomain": "rrmais.com.br",
+      "publishedAt": "2026-09-28T18:15:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_4723fe6d24bf",
       "title": "Vídeo: satélite da Nasa registra erupção em vulcão 'adormecido' há mais de 500 anos",
       "description": "Radar do NISAR, desenvolvido em parceria com agência espacial indiana, acompanhou erupção do Krasheninnikov, na Rússia, após terremoto de...",
@@ -202,20 +216,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_ef5b255d402d",
-      "title": "Vulcão adormecido desde o século XVI desperta na Rússia e é monitorado por satélite da NASA",
-      "description": "Imagem: NASA Após passar quase 500 anos inativo, o vulcão Krasheninnikov, localizado na costa da Rússia, voltou a entrar em erupção após ser...",
-      "url": "https://rrmais.com.br/noticia/noticias/internacional/vulcao-adormecido-desde-o-seculo-xvi-desperta-na-russia-e-e-monitorado-por-satelite-da-nasa",
-      "source": "rrmais.com.br",
-      "sourceCanonical": "rrmais.com.br",
-      "sourceDomain": "rrmais.com.br",
-      "publishedAt": "2026-09-28T18:15:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_0ef147c9022b",
@@ -268,7 +268,7 @@
       "sourceCanonical": "Correio do Estado",
       "sourceDomain": "correiodoestado.com.br",
       "publishedAt": "2026-09-29T23:01:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 5,
-    "max": 8,
-    "average": 5.62,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 7,
+    "average": 5.29,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 6,
-      "centerRight": 2,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
     "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
