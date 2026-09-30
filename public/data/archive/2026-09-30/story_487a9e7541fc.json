@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 31
+      "topic-8": 30
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
+    "firstSeenRank": 30,
+    "bestSeedRank": 30,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/5fGb2Q1Ad-ajgJsPqtCdxI1Q0-E=/3000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/y/x/VyAUmvQ0m8PJO7AmtOsQ/2025-09-22t162256z-1969760364-rc2kegai8jsf-rtrmadp-3-nvidia-openai.jpg",
   "publishedAt": "2026-09-21T07:00:00+00:00",
-  "updatedAt": "2026-09-30T01:59:02.093690+00:00",
+  "updatedAt": "2026-09-30T02:56:38.160163+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -68,14 +68,14 @@
       "title": "Nvidia supera Apple com recompra recorde de US$ 150 bilhões",
       "description": "A Nvidia anunciou nesta segunda-feira, 28, um aumento de US$ 150 bilhões em seu programa de recompra de ações, estabelecendo o maior...",
       "url": "https://veja.abril.com.br/coluna/faria-lima-news/nvidia-supera-apple-com-recompra-recorde-de-us-150-bilhoes/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "veja.abril.com.br",
+      "sourceCanonical": "veja.abril.com.br",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-09-29T15:54:05+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/08/GettyImages-2291592388.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_df5bcb5195ca",
@@ -129,7 +129,7 @@
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-09-28T14:49:20+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/07/2026-07-27T134722Z_1_LYNXMPEM6Q12L_RTROPTP_4_NVIDIA-ASIA-CHIPS.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f79937a652ef",
-      "title": "Nvidia supera a Apple mais uma vez. Agora, com recompra de ações recorde de US$ 150 bilhões",
-      "description": "A Nvidia alcança a marca de maior programa de recompra da história dos EUA, superando o recorde anterior da Apple, de US$ 110 bilhões, em...",
-      "url": "https://neofeed.com.br/inovacao/nvidia-supera-a-apple-mais-uma-vez-agora-com-recompra-de-acoes-recorde-de-us-150-bilhoes/",
-      "source": "NeoFeed",
-      "sourceCanonical": "NeoFeed",
-      "sourceDomain": "neofeed.com.br",
-      "publishedAt": "2026-09-28T14:36:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_1255db2cf840",
       "title": "Ações da Nvidia entram em autorização recorde que supera Apple",
       "description": "Ações da Nvidia ganham autorização recorde de recompra, acima da marca da Apple, enquanto empresa amplia desembolsos com seus próprios...",
@@ -227,6 +213,20 @@
       "sourceDomain": "economicnewsbrasil.com.br",
       "publishedAt": "2026-09-29T16:38:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f79937a652ef",
+      "title": "Nvidia supera a Apple mais uma vez. Agora, com recompra de ações recorde de US$ 150 bilhões",
+      "description": "A Nvidia alcança a marca de maior programa de recompra da história dos EUA, superando o recorde anterior da Apple, de US$ 110 bilhões, em...",
+      "url": "https://neofeed.com.br/inovacao/nvidia-supera-a-apple-mais-uma-vez-agora-com-recompra-de-acoes-recorde-de-us-150-bilhoes/",
+      "source": "NeoFeed",
+      "sourceCanonical": "NeoFeed",
+      "sourceDomain": "neofeed.com.br",
+      "publishedAt": "2026-09-28T14:36:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 5,
-    "max": 7,
-    "average": 5.75,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 6,
+    "average": 5.57,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 20,
+    "spectrumBalance": 19,
+    "headlineDivergence": 73,
     "confidence": 95
   },
   "flags": [
