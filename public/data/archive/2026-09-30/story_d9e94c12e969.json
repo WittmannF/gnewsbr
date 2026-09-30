@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMeS11SEVoRllFbDNjc2dlV0ZDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMeS11SEVoRllFbDNjc2dlV0ZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 6,
-      "topic-5": 2
+      "home": 1,
+      "topstories": 1,
+      "topic-3": 1,
+      "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 6,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Mendonça libera post de Erika Hilton sobre Nossa Senhora Aparecida",
   "summary": "Ministro André Mendonça entendeu que postagem da deputada do PSOL não reproduzia o conteúdo considerado \"notoriamente inverídico\" em decisão...",
@@ -28,13 +34,13 @@
     "nossa",
     "senhora",
     "aparecida",
-    "flávio",
     "stf",
-    "caso"
+    "tse",
+    "eleitoral"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/IvqWWBc7zoUJumCgUzbcnNZVd60=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/i/NbOJP2QySdi1wc9oY4Ig/55530621830-f769a54c90-k.jpg",
   "publishedAt": "2026-09-27T23:47:01+00:00",
-  "updatedAt": "2026-09-30T01:06:21.937160+00:00",
+  "updatedAt": "2026-09-30T01:43:46.589532+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -67,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_d8b8003a893c",
+      "title": "Caso Nossa Senhora: a interferência direta no resultado da eleição, segundo advogado eleitoral",
+      "description": "O embate entre o Supremo Tribunal Federal (STF) e o Tribunal Superior Eleitoral (TSE) em torno do caso envolvendo Nossa Senhora Aparecida...",
+      "url": "https://veja.abril.com.br/politica/caso-nossa-senhora-a-interferencia-direta-no-resultado-da-eleicao-segundo-advogado-eleitoral/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-30T01:34:00+00:00",
+      "postedLabel": "9 minutos atrás",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/55530791759_ac72c7a555_c.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_cc9bd2c2b15f",
       "title": "Mônica Bergamo: Mendonça recua e libera post de Erika Hilton associando Flávio Bolsonaro a Nossa Senhora",
       "description": "O ministro André Mendonça, do TSE (Tribunal Superior Eleitoral), determinou nesta terça-feira (29) que uma publicação da deputada federal...",
@@ -85,28 +105,14 @@
       "title": "Por que Maria, mãe de Jesus, é tratada de forma diferente por católicos e evangélicos",
       "description": "O marco da divergência é o episódio em que o então monge Martinho Lutero afixou na porta de uma igreja teses contra o que ele via como...",
       "url": "https://www.bbc.com/portuguese/articles/c64g7nrx3nx1o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
+      "source": "bbc.com",
+      "sourceCanonical": "bbc.com",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-09-29T17:46:36+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/450e/live/45f860c0-bc05-11f1-90b9-913e4354ed35.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_2c5124b0af58",
-      "title": "Só falta os ministros irem de vermelho ou enrolados nas bandeiras do Brasil, EUA e Israel para o STF",
-      "description": "André Mendonça, na qualidade de ministro do TSE, usou a repulsa a uma clara fake news para mandar retirar das redes sociais tudo a respeito...",
-      "url": "https://www.estadao.com.br/politica/eliane-cantanhede/so-falta-os-ministros-irem-de-vermelho-ou-enrolados-nas-bandeiras-do-brasil-eua-e-israel-para-o-stf/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-29T00:12:00+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ae3f48be1eb5",
@@ -179,18 +185,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_b2e0aa0e709d",
-      "title": "Após Fachin adiar análise no STF, Kassio Nunes marca julgamento do caso Nossa Senhora no TSE",
-      "description": "O ministro Kassio Nunes Marques, presidente do Superior Tribunal Federal, marcou para esta quarta-feira 30 o julgamento na Corte sobre o...",
-      "url": "https://www.cartacapital.com.br/politica/apos-fachin-adiar-analise-no-stf-kassio-nunes-marca-julgamento-do-caso-nossa-senhora-no-tse/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-30T00:15:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_2c5124b0af58",
+      "title": "Só falta os ministros irem de vermelho ou enrolados nas bandeiras do Brasil, EUA e Israel para o STF",
+      "description": "André Mendonça, na qualidade de ministro do TSE, usou a repulsa a uma clara fake news para mandar retirar das redes sociais tudo a respeito...",
+      "url": "https://www.estadao.com.br/politica/eliane-cantanhede/so-falta-os-ministros-irem-de-vermelho-ou-enrolados-nas-bandeiras-do-brasil-eua-e-israel-para-o-stf/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-09-29T00:12:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_064e955ef9e6",
@@ -207,20 +213,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_fe3726b5e402",
-      "title": "Caso Nossa Senhora Aparecida: entenda polêmica com Flávio Bolsonaro e projeto de lei",
-      "description": "A disputa política e jurídica envolvendo o senador e candidato à presidência Flávio Bolsonaro (PL) e a indicação de Nossa Senhora Aparecida...",
-      "url": "https://www.brasildefato.com.br/2026/09/28/caso-nossa-senhora-aparecida-entenda-polemica-com-flavio-bolsonaro-e-projeto-de-lei/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-09-28T14:16:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_31afbb1c143a",
       "title": "Assessoria de Comunicação da CNBB publica “Nota de Esclarecimento” sobre informações falsas envolvendo o nome da instituição",
       "description": "A Assessoria de Comunicação da Conferência Nacional dos Bispos do Brasil (CNBB) divulgou no domingo, 27 de setembro, uma Nota de...",
@@ -230,20 +222,6 @@
       "sourceDomain": "cnbb.org.br",
       "publishedAt": "2026-09-27T23:47:01+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_49cd0eb01a81",
-      "title": "Dino leva caso de posts sobre Nossa Senhora Aparecida ao plenário do STF",
-      "description": "Ministro Flávio Dino derrubou ordem de André Mendonça, no TSE, que havia determinado a remoção de publicações ligadas à polêmica sobre o...",
-      "url": "https://www.migalhas.com.br/quentes/465402/dino-leva-caso-de-posts-sobre-nossa-senhora-ao-plenario-do-stf",
-      "source": "migalhas.com.br",
-      "sourceCanonical": "migalhas.com.br",
-      "sourceDomain": "migalhas.com.br",
-      "publishedAt": "2026-09-28T15:17:46+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -263,18 +241,32 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_894073222607",
-      "title": "Lula: ‘Igreja mentirosa é aquela da Lagoinha’",
-      "description": "Em comício em Belém, Lula defendeu Nossa Senhora Aparecida; colunista de VEJA analisou episódio no contexto da disputa entre ministros do...",
-      "url": "https://veja.abril.com.br/politica/lula-igreja-mentirosa-e-aquela-da-lagoinha/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-29T17:48:00+00:00",
+      "id": "article_3a2290b7be82",
+      "title": "Crise no STF chega ao TSE e amplia tensão na reta final da campanha eleitoral",
+      "description": "A crise que há quase um mês expõe divisões internas no Supremo Tribunal Federal (STF) passou a alcançar diretamente o Tribunal Superior...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/09/7510465-crise-no-stf-chega-ao-tse-na-reta-final-da-eleicao.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-09-29T13:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_2fd54cb9001c",
+      "title": "Justiça dá prazo para MPE avaliar pedido de prisão de funcionário do Planalto",
+      "description": "O juiz Wagner Pessoa Vieira, do Juízo das Garantias da Justiça Eleitoral, concedeu um prazo de 24 horas para o Ministério Público Eleitoral...",
+      "url": "https://www.cartacapital.com.br/politica/justica-da-prazo-para-mpe-avaliar-pedido-de-prisao-de-funcionario-do-planalto/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-09-28T21:13:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_563ab5c677a0",
@@ -286,6 +278,34 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-09-29T02:49:02+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_cef2c4542716",
+      "title": "Nunes Marques pede ao STF filtro de petições contra decisões do TSE",
+      "description": "O ministro Nunes Marques, presidente do Tribunal Superior Eleitoral, solicitou ao Supremo Tribunal Federal a adoção de um filtro na...",
+      "url": "https://conjur.com.br/2026-set-29/nunes-marques-pede-ao-stf-filtro-de-peticoes-contra-decisoes-do-tse/",
+      "source": "conjur.com.br",
+      "sourceCanonical": "conjur.com.br",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-09-29T13:25:10+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_e232bf6a4033",
+      "title": "Nunes Marques marca votação sobre derrubada de posts falsos sobre N.S. Aparecida",
+      "description": "BRASÍLIA - O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, marcou para esta quarta-feira, 30,...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/nunes-marques-marca-votacao-sobre-derrubada-de-posts-falsos-sobre-ns-aparecida,4e26dad1b2c1184ce8c1d5a09ce226b3janzy4d1.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-09-30T00:21:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -303,32 +323,18 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_8eeb78a39988",
-      "title": "OPINIÃO. O vale-tudo de Dino para eleger Lula",
-      "description": "Há algo profundamente errado quando as regras que existem para limitar o poder passam a ser tratadas como obstáculos que podem ser...",
-      "url": "https://braziljournal.com/opiniao-o-vale-tudo-de-dino-para-eleger-lula/",
-      "source": "Brazil Journal",
-      "sourceCanonical": "Brazil Journal",
-      "sourceDomain": "braziljournal.com",
-      "publishedAt": "2026-09-28T16:52:30+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.87,
+    "average": 5.07,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
-      "left": 3,
+      "left": 2,
       "centerLeft": 3,
-      "center": 5,
+      "center": 6,
       "centerRight": 4,
       "right": 0,
       "unknown": 5
