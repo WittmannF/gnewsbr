@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 35
+      "topic-3": 33
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 35,
-    "bestSeedRank": 35,
+    "firstSeenRank": 33,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/auKQ_PbCjvlsLDr5SXzKQwJC3p0=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/z/xvjFNYSpeByZ57OgT3mQ/videos-g1-2026-09-29t100033.008.jpg",
   "publishedAt": "2026-09-27T15:27:35+00:00",
-  "updatedAt": "2026-09-30T06:44:54.604176+00:00",
+  "updatedAt": "2026-09-30T07:37:40.046676+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -152,14 +152,14 @@
       "title": "O tempo vai virar: semana começa com calor de até 43°C e termina com chuva e ventos de 100 km/h",
       "description": "Frente fria avança pelo país a partir de quarta-feira (30), trazendo queda nas temperaturas, chuva e alagamentos em diferentes regiões.",
       "url": "https://www.canalrural.com.br/previsao-do-tempo/o-tempo-vai-virar-semana-comeca-com-calor-de-ate-43c-e-termina-com-chuva-e-ventos-de-100-km-h/",
-      "source": "canalrural.com.br",
-      "sourceCanonical": "canalrural.com.br",
+      "source": "Canal Rural",
+      "sourceCanonical": "Canal Rural",
       "sourceDomain": "canalrural.com.br",
       "publishedAt": "2026-09-27T15:27:35+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_94858d9b06f0",
@@ -274,20 +274,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f54c82fa431e",
-      "title": "1ª onda de calor da primavera vem com alerta de perigo",
-      "description": "INMET emite alerta vermelho de calor para 6 estados do Centro-Sul. NO mundo, \"Super El Niño\" pode matar cerca de meio milhão de pessoas.",
-      "url": "https://ciclovivo.com.br/planeta/meio-ambiente/1a-onda-de-calor-da-primavera-vem-com-alerta-de-perigo/",
-      "source": "ciclovivo.com.br",
-      "sourceCanonical": "ciclovivo.com.br",
-      "sourceDomain": "ciclovivo.com.br",
-      "publishedAt": "2026-09-28T18:32:36+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_4fbfadc43649",
       "title": "Inmet emite alerta vermelho de onda de calor com temperaturas acima de 40°C para Bahia e outros sete estados",
       "description": "O Instituto Nacional de Meteorologia (Inmet) emitiu alerta vermelho, considerado o nível máximo de perigo, para uma onda de calor que pode...",
@@ -310,25 +296,39 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-28T07:00:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_f54c82fa431e",
+      "title": "1ª onda de calor da primavera vem com alerta de perigo",
+      "description": "INMET emite alerta vermelho de calor para 6 estados do Centro-Sul. NO mundo, \"Super El Niño\" pode matar cerca de meio milhão de pessoas.",
+      "url": "https://ciclovivo.com.br/planeta/meio-ambiente/1a-onda-de-calor-da-primavera-vem-com-alerta-de-perigo/",
+      "source": "CicloVivo",
+      "sourceCanonical": "CicloVivo",
+      "sourceDomain": "ciclovivo.com.br",
+      "publishedAt": "2026-09-28T18:32:36+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.33,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.5,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
-      "center": 4,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
