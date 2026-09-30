@@ -4,20 +4,23 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMeS11SEVoRllFbDNjc2dlV0ZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-5",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2
+      "home": 1,
+      "topstories": 1,
+      "topic-5": 1
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -29,12 +32,12 @@
     "senhora",
     "aparecida",
     "tse",
-    "fake",
-    "news"
+    "stf",
+    "cnbb"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/IvqWWBc7zoUJumCgUzbcnNZVd60=/2047x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/i/NbOJP2QySdi1wc9oY4Ig/55530621830-f769a54c90-k.jpg",
   "publishedAt": "2026-09-27T23:47:01+00:00",
-  "updatedAt": "2026-09-30T07:34:12.493108+00:00",
+  "updatedAt": "2026-09-30T08:35:56.252095+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -53,20 +56,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_471dfeb38ace",
-      "title": "Caso Nossa Senhora faz Lula levar santa ao palanque após criticar mistura de política com religião",
-      "description": "Com o comício em Belém prestes a acabar, na segunda-feira (28), o ex-governador e candidato a senador Helder Barbalho (MDB-PA) levou até o...",
-      "url": "https://www1.folha.uol.com.br/poder/2026/09/caso-nossa-senhora-faz-lula-levar-santa-ao-palanque-apos-criticar-mistura-de-politica-com-religiao.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-09-30T07:00:00+00:00",
-      "postedLabel": "34 minutos atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/29/17907182936abc31556d63a_1790718293_3x2_xl.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_811deb218b04",
       "title": "'Valei-nos, Mãe Aparecida' x 'Que Nossa Senhora nos livre do comunismo': tragada por crise, CNBB vê política opor bispos",
       "description": "Antes mesmo de controvérsia estourar, bispos já haviam falado sobre soberania ou da crise no STF.",
@@ -75,35 +64,49 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-09-30T06:30:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/aDIcwnrq508BnNyOZJ5vcNtMSzE=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/i/J/viwYPfRJAiNuAIAG0FeQ/fotojet-6-.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
     {
-      "id": "article_958a8dc56354",
-      "title": "Fux suspende decisão de Dino sobre fake news de Nossa Senhora Aparecida",
-      "description": "Ministro restabeleceu determinação do TSE cassada pelo colega no domingo, 27. X, Meta, TikTok e Google têm 24 horas para cumprir a nova...",
-      "url": "https://www.estadao.com.br/politica/fux-suspende-decisao-de-dino-sobre-fake-news-de-nossa-senhora-aparecida-npr/",
+      "id": "article_471dfeb38ace",
+      "title": "Caso Nossa Senhora faz Lula levar santa ao palanque após criticar mistura de política com religião",
+      "description": "Com o comício em Belém prestes a acabar, na segunda-feira (28), o ex-governador e candidato a senador Helder Barbalho (MDB-PA) levou até o...",
+      "url": "https://www1.folha.uol.com.br/poder/2026/09/caso-nossa-senhora-faz-lula-levar-santa-ao-palanque-apos-criticar-mistura-de-politica-com-religiao.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-09-30T07:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/29/17907182936abc31556d63a_1790718293_3x2_xl.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_6350ae0c773b",
+      "title": "Por que Maria, mãe de Jesus, é tratada de forma diferente por católicos e evangélicos",
+      "description": "Com direito a fake news e gatilhos que evocam grupos religiosos conservadores, a reta final do primeiro turno da campanha para a eleição...",
+      "url": "https://www.bbc.com/portuguese/articles/c64g7nrx3nx1o",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-09-29T17:46:36+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/450e/live/45f860c0-bc05-11f1-90b9-913e4354ed35.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_2c5124b0af58",
+      "title": "Só falta os ministros irem de vermelho ou enrolados nas bandeiras do Brasil, EUA e Israel para o STF",
+      "description": "André Mendonça, na qualidade de ministro do TSE, usou a repulsa a uma clara fake news para mandar retirar das redes sociais tudo a respeito...",
+      "url": "https://www.estadao.com.br/politica/eliane-cantanhede/so-falta-os-ministros-irem-de-vermelho-ou-enrolados-nas-bandeiras-do-brasil-eua-e-israel-para-o-stf/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-09-29T03:07:00+00:00",
+      "publishedAt": "2026-09-29T00:12:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/KDNKDZZEH5BRTDPIVSS43T5IYI.jpg?quality=80&auth=5d0e5222e713ec3550bbadc2d9208dc7dfba9659e99eeef2b6e7cca851cfbba6&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_c8d830b8a3cf",
-      "title": "A decisão de Nunes Marques sobre julgamento do TSE de posts sobre Nossa Senhora Aparecida",
-      "description": "O presidente do Tribunal Superior Eleitoral (TSE), Nunes Marques, agendou para esta quarta-feira, 30, o julgamento no plenário virtual sobre...",
-      "url": "https://veja.abril.com.br/politica/a-decisao-de-nunes-marques-sobre-julgamento-do-tse-envolvendo-posts-sobe-nossa-senhora-aparecida/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-09-30T00:03:00+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -165,43 +168,15 @@
       "bucket": "left"
     },
     {
-      "id": "article_cf0ba99f5f86",
-      "title": "TSE julga nesta quarta decisão sobre posts que ligam Flávio a projeto sobre Nossa Senhora; veja o que está em jogo",
-      "description": "O Tribunal Superior Eleitoral (TSE) realiza nesta quarta-feira (30) sessão virtual para analisar a decisão do ministro André Mendonça que...",
-      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/09/tse-julga-nesta-quarta-decisao-sobre-posts-que-ligam-flavio-a-projeto-sobre-nossa-senhora-veja-o-que-esta-em-jogo-cmungoj0100x9013btp5rq39d.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-09-30T07:04:50+00:00",
-      "postedLabel": "29 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7c4c5de204e9",
-      "title": "'Disputa religiosa' em torno de Nossa Senhora Aparecida leva fake news de volta ao centro da eleição presidencial, destaca imprensa internacional",
-      "description": "Jornal espanhol El País destacou como 'controvérsia alimentada pela esquerda' envolveu até mesmo líderes da Igreja Católica no país e a...",
-      "url": "https://www.bbc.com/portuguese/articles/cjn5d0x2kd2ko",
-      "source": "bbc.com",
-      "sourceCanonical": "bbc.com",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-09-29T13:57:37+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6fb27cdb6911",
-      "title": "Fake news de Nossa Senhora Aparecida foi como facada em mim, diz Flávio",
-      "description": "Candidato à Presidência comparou a polêmica provocada pela notícia falsa relacionando seu nome e a figura da padroeira à facada levada por...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/fake-news-de-nossa-senhora-aparecida-foi-como-facada-em-mim-diz-flavio/",
+      "id": "article_ba308092dc70",
+      "title": "Nossa Senhora: Nunes Marques marcou sessão no TSE após conversa com Fachin",
+      "description": "O ministro Nunes Marques, presidente do TSE (Tribunal Superior Eleitoral), marcou o julgamento sobre as notícias falsas sobre Nossa Senhora...",
+      "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/nossa-senhora-nunes-marques-marcou-sessao-no-tse-apos-conversa-com-fachin/",
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-09-29T03:03:48+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-09-30T06:58:46+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -221,32 +196,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d2b92e8b6079",
-      "title": "Mendonça libera postagem de Erika Hilton sobre Nossa Senhora Aparecida",
-      "description": "O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), decidiu nesta terça-feira (29) liberar uma postagem da deputada federal...",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-libera-postagem-de-erika-hilton-sobre-nossa-senhora-aparecida",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-09-30T00:25:00+00:00",
+      "id": "article_066953f972d4",
+      "title": "André Mendonça libera post de Erika Hilton sobre Nossa Senhora Aparecida",
+      "description": "O ministro André Mendonça, do TSE, aceitou um pedido da deputada federal Erika Hilton (PSOL-SP) e liberou uma publicação sobre a possível...",
+      "url": "https://veja.abril.com.br/brasil/andre-mendonca-libera-post-de-erika-hilton-sobre-nossa-senhora-aparecida/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-09-29T21:06:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_1e470286f509",
-      "title": "Presidente do TSE defende competências da Justiça Eleitoral em ofício enviado ao STF",
-      "description": "Documento solicita medidas para prevenir sobreposição de competências e assegurar a regularidade da jurisdição eleitoral. 28/09/2026 19:16 - Atualizado em...",
-      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/presidente-do-tse-defende-competencias-da-justica-eleitoral-em-oficio-enviado-ao-stf",
-      "source": "Tribunal Superior Eleitoral",
-      "sourceCanonical": "Tribunal Superior Eleitoral",
-      "sourceDomain": "tse.jus.br",
-      "publishedAt": "2026-09-28T22:16:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_31afbb1c143a",
@@ -263,32 +224,88 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b2e0aa0e709d",
-      "title": "Após Fachin adiar análise no STF, Kassio Nunes marca julgamento do caso Nossa Senhora no TSE",
-      "description": "O ministro Kassio Nunes Marques, presidente do Superior Tribunal Federal, marcou para esta quarta-feira 30 o julgamento na Corte sobre o...",
-      "url": "https://www.cartacapital.com.br/politica/apos-fachin-adiar-analise-no-stf-kassio-nunes-marca-julgamento-do-caso-nossa-senhora-no-tse/",
+      "id": "article_1e470286f509",
+      "title": "Presidente do TSE defende competências da Justiça Eleitoral em ofício enviado ao STF",
+      "description": "Documento solicita medidas para prevenir sobreposição de competências e assegurar a regularidade da jurisdição eleitoral. 28/09/2026 19:16 - Atualizado em...",
+      "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/presidente-do-tse-defende-competencias-da-justica-eleitoral-em-oficio-enviado-ao-stf",
+      "source": "Tribunal Superior Eleitoral",
+      "sourceCanonical": "Tribunal Superior Eleitoral",
+      "sourceDomain": "tse.jus.br",
+      "publishedAt": "2026-09-28T22:16:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4a0f2df44b15",
+      "title": "Flávio sobre polêmica com Nossa Senhora: \"espécie de facada\"",
+      "description": "Em podcast católico, candidato negou intenção de retirar o título de padroeira de Aparecida e defendeu a liberdade religiosa.",
+      "url": "https://www.congressoemfoco.com.br/noticia/122667/flavio-sobre-polemica-com-nossa-senhora--especie-de-facada",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-09-29T13:15:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2fd54cb9001c",
+      "title": "Justiça dá prazo para MPE avaliar pedido de prisão de funcionário do Planalto",
+      "description": "O juiz Wagner Pessoa Vieira, do Juízo das Garantias da Justiça Eleitoral, concedeu um prazo de 24 horas para o Ministério Público Eleitoral...",
+      "url": "https://www.cartacapital.com.br/politica/justica-da-prazo-para-mpe-avaliar-pedido-de-prisao-de-funcionario-do-planalto/",
       "source": "CartaCapital",
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-09-30T00:15:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-09-28T21:13:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_778a15660ffe",
+      "title": "Decisão de Fux sobre Aparecida expõe abusos seletivos de Dino e Moraes",
+      "description": "Decisão de Fux sobre caso de Nossa Senhora Aparecida expõe seletividade do STF em ações sobre liberdade de expressão.",
+      "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/decisao-fux-aparecida-abusos-seletivos-dino-moraes/",
+      "source": "gazetadopovo.com.br",
+      "sourceCanonical": "gazetadopovo.com.br",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-09-29T15:07:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_9a46aecd7ec7",
+      "title": "TSE irá julgar decisão que barrou postagens sobre Nossa Senhora",
+      "description": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, marcou para esta quarta-feira (30) o julgamento virtual da...",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/tse-ira-julgar-decisao-que-barrou-postagens-sobre-nossa-senhora",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-09-30T00:37:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_3a2290b7be82",
       "title": "Crise no STF chega ao TSE e amplia tensão na reta final da campanha eleitoral",
       "description": "A crise que há quase um mês expõe divisões internas no Supremo Tribunal Federal (STF) passou a alcançar diretamente o Tribunal Superior...",
       "url": "https://www.correiobraziliense.com.br/politica/2026/09/7510465-crise-no-stf-chega-ao-tse-na-reta-final-da-eleicao.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
+      "source": "correiobraziliense.com.br",
+      "sourceCanonical": "correiobraziliense.com.br",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-09-29T13:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_61c4f678cb22",
@@ -303,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_e222509f8c38",
-      "title": "Por que a ultradireita não tolera Nossa Senhora Aparecida",
-      "description": "Chegou em chegança, como a Folia de Reis e as Festas do Divino, as mais generosas e utópicas. Confunde-se com a própria identidade nacional.",
-      "url": "https://outraspalavras.net/descolonizacoes/por-que-a-ultradireita-nao-tolera-nossa-senhora-aparecida/",
-      "source": "Outras Palavras",
-      "sourceCanonical": "Outras Palavras",
-      "sourceDomain": "outraspalavras.net",
-      "publishedAt": "2026-09-28T21:00:15+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.6,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 3,
       "centerLeft": 3,
-      "center": 6,
+      "center": 5,
       "centerRight": 3,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +346,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
