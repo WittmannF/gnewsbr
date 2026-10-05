@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 7
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 7,
+    "bestSeedRank": 7,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/02/17909610776abfe5b5833c4_1790961077_3x2_rt.jpg",
   "publishedAt": "2026-09-28T11:00:00+00:00",
-  "updatedAt": "2026-10-05T15:59:01.391560+00:00",
+  "updatedAt": "2026-10-05T22:37:37.855344+00:00",
   "sourceCount": 6,
   "articleCount": 8,
   "articles": [
@@ -40,7 +40,7 @@
       "title": "Como o consumo de álcool aumenta o risco de desenvolver demência",
       "description": "Estudos recentes desmentem a tese de que doses diárias moderadas protegem a saúde cerebral; Além dos danos diretos aos neurônios pelo uso...",
       "url": "https://www1.folha.uol.com.br/equilibrio/2026/10/como-o-consumo-de-alcool-aumenta-o-risco-de-desenvolver-demencia.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-04T07:00:00+00:00",
@@ -82,14 +82,28 @@
       "title": "O que o álcool na adolescência faz com o cérebro? Estudo aponta efeito até a vida adulta",
       "description": "O consumo excessivo de álcool durante a adolescência pode interferir no amadurecimento do cérebro e provocar alterações comportamentais que...",
       "url": "https://exame.com/ciencia/o-que-o-alcool-na-adolescencia-faz-com-o-cerebro-estudo-aponta-efeito-ate-a-vida-adulta/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
+      "source": "exame.com",
+      "sourceCanonical": "exame.com",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-09-28T15:11:13+00:00",
       "postedLabel": "7 dias atrás",
-      "imageUrl": "https://classic.exame.com/wp-content/uploads/2026/09/glass-bottles-beer-with-glass-ice-dark-background.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_de173df67c8c",
+      "title": "Como o consumo de álcool afeta o risco de demência",
+      "description": "Os pesquisadores ainda investigam o que o álcool faz ao cérebro e qual quantidade, se é que existe alguma, pode ser considerada segura.",
+      "url": "https://www.estadao.com.br/pulsa/mente-e-cerebro/como-o-consumo-de-alcool-afeta-o-risco-de-demencia/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-01T16:05:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/AZ6ZW7ZHV5F3BLUD7BYTMT2YNQ.jpeg?quality=80&auth=12462ca526b4a9de0a71a7e5bd2e3855d233c6c5f3fcd88f28276328e85eab23&width=1200&height=630&focal=3491,1097",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_cc68814ed45e",
@@ -110,7 +124,7 @@
       "title": "Consumo de álcool na adolescência afeta maturação do cérebro e deixa marcas até a vida adulta",
       "description": "Estudo com camundongos sugere que episódios de bebedeira precoce prejudicam o sistema de controle de impulsos.",
       "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/09/consumo-de-alcool-na-adolescencia-afeta-maturacao-do-cerebro-e-deixa-marcas-ate-a-vida-adulta.shtml",
-      "source": "Folha de S.Paulo",
+      "source": "folha.uol.com.br",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-09-28T11:00:00+00:00",
@@ -118,20 +132,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_a332c398fa48",
-      "title": "Como o consumo de álcool afeta o risco de demência",
-      "description": "Os pesquisadores ainda investigam o que o álcool faz ao cérebro e qual quantidade, se é que existe alguma, pode ser considerada segura.",
-      "url": "https://www.estadao.com.br/em-alta/pulsa/mente-e-cerebro/como-o-consumo-de-alcool-afeta-o-risco-de-demencia/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-01T16:11:27+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_e140eb05efc4",
@@ -151,26 +151,25 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.29,
-    "knownCount": 7,
-    "unknownCount": 1,
+    "average": 5.17,
+    "knownCount": 6,
+    "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 1,
+      "center": 0,
       "centerRight": 3,
       "right": 0,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
     "headlineDivergence": 85,
-    "confidence": 82
+    "confidence": 79
   },
   "flags": [
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
