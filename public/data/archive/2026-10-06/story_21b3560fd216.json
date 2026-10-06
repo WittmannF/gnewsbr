@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lfb09PRkVoRlJLM1V1UklRWU9TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lfb09PRkVoRlJLM1V1UklRWU9TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Protestos estudantis se espalham por escolas de toda a França",
   "summary": "Outro estudante de 14 anos ficou gravemente após ter sido atingido por disparo à queima roupa de lançador de granadas de gás lacrimogêneo;...",
@@ -25,13 +31,13 @@
     "frança",
     "protestos",
     "estudantis",
+    "ruas",
     "estudantes",
-    "mil",
-    "mobilização"
+    "mil"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/A-policia-de-choque-entrou-em-confronto-com-jovens-em-Toulouse-enquanto-os-protestos-estudantis-na-Franca-continuam.jpg?w=960&h=540&crop=1",
   "publishedAt": "2026-10-02T17:48:58+00:00",
-  "updatedAt": "2026-10-06T18:43:46.956505+00:00",
+  "updatedAt": "2026-10-06T19:22:52.586252+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-06T16:59:02+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/A-policia-de-choque-entrou-em-confronto-com-jovens-em-Toulouse-enquanto-os-protestos-estudantis-na-Franca-continuam.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,18 +70,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_92bb55b763e9",
-      "title": "Estudantes protestam na França há mais de duas semanas; Mais de 250 mil se reuniram nesta terça (6)",
-      "description": "Movimento teve início em uma escola na periferia de Paris e se estendeu depois para o resto da França; Esta terça foi o terceiro ato no...",
-      "url": "https://cbn.globo.com/mundo/rfi/noticia/2026/10/06/estudantes-protestam-na-franca-ha-mais-de-duas-semanas-mais-de-250-mil-se-reuniram-nesta-terca-6.ghtml",
-      "source": "CBN",
-      "sourceCanonical": "CBN",
-      "sourceDomain": "cbn.globo.com",
-      "publishedAt": "2026-10-06T18:07:01+00:00",
-      "postedLabel": "36 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "id": "article_e5b365a19c66",
+      "title": "Caos nas ruas escancara crise do bem-estar social francês",
+      "description": "A onda de protestos que atinge a França, com escolas bloqueadas e paralisações de servidores públicos, é fruto de uma dificuldade de...",
+      "url": "https://veja.abril.com.br/coluna/diogo-schelp/caos-nas-ruas-escancara-crise-do-bem-estar-social-frances/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-06T19:15:40+00:00",
+      "postedLabel": "7 minutos atrás",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/10/AFP__20261006__D2CW8ZG__v1__HighRes__FrancePoliticsEducationDemoLyon.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_424903fe8a5d",
+      "title": "Primeiro-ministro da França condena violência em protestos estudantis; 250 mil estão nas ruas",
+      "description": "O primeiro-ministro da França, Sébastien Lecornu, afirmou nesta terça-feira (6) que \"não pode haver espaço para tolerância à violência\" ao...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/10/06/primeiro-ministro-franca-tolerancia-violencia-protestos-estudantis.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-10-06T13:42:59+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/pt1YWBh52ooCPudzAa0oVO0Fo3Q=/6000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/h/tg0FsPTy6SvUUShLYLgQ/2026-10-01t122810z-2020480420-rc2bunawwhbo-rtrmadp-3-france-protest.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2ddf52dbe98f",
@@ -87,34 +107,20 @@
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-06T13:34:00+00:00",
       "postedLabel": "5 horas atrás",
-      "imageUrl": "https://imagens.ebc.com.br/iYCHNDTxsfaCAqHd5oT2rWCIgSo=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/06/2026-10-06t115306z_502443080_rc2nxnadgzpx_rtrmadp_3_france-protest.jpg?itok=nZxrxm7f",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_ee08bea1599b",
-      "title": "Greves, protestos e turbulência fiscal: “outono de insatisfação” toma conta da França",
-      "description": "O caos nas escolas, nas ruas e nos mercados tem origem nas dificuldades da França para financiar seu Estado de bem-estar social,...",
-      "url": "https://www.infomoney.com.br/mercados/greves-protestos-e-turbulencia-fiscal-outono-de-insatisfacao-toma-conta-da-franca/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-06T18:30:11+00:00",
-      "postedLabel": "13 minutos atrás",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-06T095614Z_740726022_RC2LXNAE6PM8_RTRMADP_3_FRANCE-PROTEST.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_fa8b22897eda",
-      "title": "Protestos estudantis na França têm confronto com a polícia e prisões em massa",
-      "description": "Governo respondeu com envio de tropas antimotim; revolta teve início nos subúrbios carentes de Paris antes de se espalhar por todo o país.",
+      "title": "Protestos estudantis contra Macron crescem e acabam em violência na França",
+      "description": "Ao longo do dia, 215 adolescentes e 85 professores e funcionários ficaram feridos em confronto com o batalhão de choque.",
       "url": "https://www.estadao.com.br/internacional/protestos-estudantis-na-franca-tem-confronto-com-a-policia-e-prisoes-em-massa-npr/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-06T14:20:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -142,10 +148,24 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-06T16:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_ee08bea1599b",
+      "title": "Greves, protestos e turbulência fiscal: “outono de insatisfação” toma conta da França",
+      "description": "O caos nas escolas, nas ruas e nos mercados tem origem nas dificuldades da França para financiar seu Estado de bem-estar social,...",
+      "url": "https://www.infomoney.com.br/mercados/greves-protestos-e-turbulencia-fiscal-outono-de-insatisfacao-toma-conta-da-franca/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-06T18:30:11+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_41e4b68a1e3a",
@@ -156,10 +176,24 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-10-06T14:11:09+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_483e79424e3a",
+      "title": "Sob forte vigilância policial, estudantes voltam a protestar na França",
+      "description": "Dezenas de milhares de estudantes do ensino médio, acompanhados de pais, professores e sindicatos, protestaram nesta terça-feira 6 na França...",
+      "url": "https://www.cartacapital.com.br/mundo/sob-forte-vigilancia-policial-estudantes-voltam-a-protestar-na-franca/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-06T12:51:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_af93e4484dc0",
@@ -176,20 +210,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_483e79424e3a",
-      "title": "Sob forte vigilância policial, estudantes voltam a protestar na França",
-      "description": "Dezenas de milhares de estudantes do ensino médio, acompanhados de pais, professores e sindicatos, protestaram nesta terça-feira 6 na França...",
-      "url": "https://www.cartacapital.com.br/mundo/sob-forte-vigilancia-policial-estudantes-voltam-a-protestar-na-franca/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-06T12:51:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_06fbeeaa856b",
       "title": "Milhares de estudantes tomam as ruas em defesa da educação na França",
       "description": "Cerca de 90 mil pessoas participam, nesta terça-feira (6), dos protestos dos estudantes secundaristas e universitários em diferentes regiões...",
@@ -204,32 +224,18 @@
       "bucket": "left"
     },
     {
-      "id": "article_4ab6d5094ac6",
-      "title": "Polícia lança gás lacrimogêneo contra manifestantes no dia de maior mobilização estudantil na França",
-      "description": "A polícia lançou gás lacrimogêneo contra manifestantes que ‌bloqueavam escolas de ensino médio francesas nesta terça-feira, enquanto alunos,...",
-      "url": "https://www.terra.com.br/noticias/mundo/policia-lanca-gas-lacrimogeneo-contra-manifestantes-no-dia-de-maior-mobilizacao-estudantil-na-franca,d3affe3cd6442a4a9aa9a2a1eea1bd7cnvkuobu2.html",
+      "id": "article_8ebdb8fe0a5c",
+      "title": "Movimento estudantil da França se prepara para 'terceiro ato' de mobilização nacional",
+      "description": "Após duas jornadas nacionais de mobilização, realizadas em 29 de setembro e 1º de outubro, o movimento estudantil do ensino médio e das...",
+      "url": "https://www.terra.com.br/noticias/mundo/europa/movimento-estudantil-da-franca-se-prepara-para-terceiro-ato-de-mobilizacao-nacional,3bd7be70e973047da1f85d1fb1925ebfnwcy139z.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-10-06T12:55:32+00:00",
-      "postedLabel": "5 horas atrás",
+      "publishedAt": "2026-10-05T19:03:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_10365355562e",
-      "title": "Protestos estudantis se espalham pela França e fecham até 1.800 escolas",
-      "description": "Até o momento, 6.100 pessoas foram presas, a grande maioria menores de idade, de acordo com o Ministério do Interior.",
-      "url": "https://veja.abril.com.br/mundo/protestos-estudantis-se-espalham-pela-franca-e-fecham-ate-1-800-escolas/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-06T11:45:33+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_95da500195cb",
@@ -254,7 +260,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-10-06T17:02:09+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -268,7 +274,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-10-05T18:55:04+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -282,7 +288,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-10-06T16:53:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -320,15 +326,15 @@
     "min": 1,
     "max": 8,
     "average": 4.94,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
-      "center": 8,
+      "center": 9,
       "centerRight": 4,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
