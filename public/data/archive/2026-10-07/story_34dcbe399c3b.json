@@ -3,44 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJemRLUUVoSGNGUHBkSlpUZGx5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJemRLUUVoSGNGUHBkSlpUZGx5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-3": 17,
-      "topic-5": 7
+      "topic-3": 15,
+      "topic-5": 22
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "PT conversa com Republicanos e mira líderes do PSD no 2º turno",
   "summary": "O presidente nacional do PT, Edinho Silva, afirmou nesta 3ª feira (6.out.2026) que o partido busca apoio de líderes do Republicanos e do PSD...",
-  "topic": "Lula · Edinho",
+  "topic": "Edinho · Lula",
   "topicKeywords": [
-    "lula",
     "edinho",
+    "lula",
     "turno",
     "presidente",
     "flávio",
     "psd"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/edinho-silva-1200x675.jpg",
-  "publishedAt": "2026-10-02T17:49:33+00:00",
-  "updatedAt": "2026-10-07T06:41:00.929426+00:00",
+  "publishedAt": "2026-10-02T14:07:00+00:00",
+  "updatedAt": "2026-10-07T07:35:47.963688+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -193,7 +187,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-10-07T02:35:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -249,24 +243,10 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-10-07T02:25:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_3cc6aac04ce1",
-      "title": "PT convoca Alckmin para buscar apoios a Lula junto ao empresariado",
-      "description": "A campanha petista considera que o segundo turno abre uma nova etapa da disputa, na qual Lula e Alckmin procurarão evidenciar as diferenças...",
-      "url": "https://correiodobrasil.com.br/a/pt-convoca-alckmin-buscar-apoios-lula-junto-empresariado",
-      "source": "Jornal Correio do Brasil",
-      "sourceCanonical": "Jornal Correio do Brasil",
-      "sourceDomain": "correiodobrasil.com.br",
-      "publishedAt": "2026-10-06T20:55:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_a0b0cad09af0",
@@ -323,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_659b11861789",
+      "title": "Edinho projeta PT com mais de 80 deputados e maioria do ‘campo democrático’ no Senado",
+      "description": "O presidente do PT, Edinho Silva, afirmou, nesta sexta-feira (2), que acredita que o partido pode eleger mais de 80 deputados federais nas...",
+      "url": "https://www.brasildefato.com.br/2026/10/02/edinho-projeta-pt-com-mais-de-80-deputados-e-maioria-do-campo-democratico-no-senado/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-10-02T14:07:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.56,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 4.41,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
-      "left": 4,
+      "left": 5,
       "centerLeft": 1,
       "center": 9,
       "centerRight": 2,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
