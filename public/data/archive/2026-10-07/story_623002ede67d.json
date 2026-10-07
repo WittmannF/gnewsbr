@@ -27,11 +27,11 @@
     "turno",
     "bolsonaro",
     "pesquisas",
-    "pesquisa"
+    "candidatos"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/3f64/live/922519d0-c177-11f1-bc2e-018d645d8d21.jpg",
   "publishedAt": "2026-10-04T07:00:00+00:00",
-  "updatedAt": "2026-10-07T01:05:26.991687+00:00",
+  "updatedAt": "2026-10-07T01:46:51.636299+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-07T00:33:00+00:00",
-      "postedLabel": "32 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -128,7 +128,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-10-05T01:15:29+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -142,6 +142,20 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-10-06T09:18:54+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_fd6fed54c235",
+      "title": "Lula ou Flávio?",
+      "description": "E você? Acredita que Lula possa derrotar Flávio no segundo turno? Respostas de 6.082 leitores: Não – 64% Sim – 36. CONTINUA DEPOIS DA...",
+      "url": "https://www.metropoles.com/blog-do-noblat/enquetes/lula-ou-flavio",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-06T09:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -184,24 +198,10 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-07T00:39:00+00:00",
-      "postedLabel": "26 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_41a7b3ced0b4",
-      "title": "Datafolha anuncia pesquisa de Lula e Flávio Bolsonaro",
-      "description": "Datafolha prevê divulgar em 8 de outubro pesquisa presidencial com entrevistas feitas após o primeiro turno. Leia no Blog do Esmael.",
-      "url": "https://www.esmaelmorais.com.br/datafolha-pesquisa-segundo-turno-8-outubro/",
-      "source": "Blog do Esmael",
-      "sourceCanonical": "Blog do Esmael",
-      "sourceDomain": "esmaelmorais.com.br",
-      "publishedAt": "2026-10-06T23:35:47+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_853fee757377",
@@ -274,20 +274,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_0fccc38362b7",
-      "title": "Institutos erram com larga margem em pesquisas para presidente, governos e Senado",
-      "description": "247 – Os resultados do primeiro turno das eleições de 2026 expuseram diferenças relevantes entre as últimas pesquisas de intenção de voto e...",
-      "url": "https://www.brasil247.com/brasil/institutos-erram-com-larga-margem-em-pesquisas-para-presidente-governos-e-senado/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-10-06T09:32:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_799e3473d7bb",
       "title": "Flávio Bolsonaro na frente de Lula: o que isso diz de um povo?",
       "description": "O previsto aconteceu: um Congresso ainda mais predatório que o atual. Um imprevisto aconteceu: Flávio Bolsonaro foi para o segundo turno com...",
@@ -300,6 +286,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_0fccc38362b7",
+      "title": "Institutos erram com larga margem em pesquisas para presidente, governos e Senado",
+      "description": "247 – Os resultados do primeiro turno das eleições de 2026 expuseram diferenças relevantes entre as últimas pesquisas de intenção de voto e...",
+      "url": "https://www.brasil247.com/brasil/institutos-erram-com-larga-margem-em-pesquisas-para-presidente-governos-e-senado/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-06T09:32:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_44c39935cbec",
@@ -319,13 +319,13 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.53,
+    "average": 4.71,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 4,
+      "left": 3,
       "centerLeft": 4,
-      "center": 5,
+      "center": 6,
       "centerRight": 4,
       "right": 0,
       "unknown": 3
