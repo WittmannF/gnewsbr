@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2paNDl5T0VoRjFpeGhHU1YtTWVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2paNDl5T0VoRjFpeGhHU1YtTWVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 59
+      "topic-5": 67,
+      "topic-7": 29
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 59,
-    "bestSeedRank": 59,
+    "firstSeenRank": 67,
+    "bestSeedRank": 29,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +30,11 @@
     "ucrânia",
     "ataque",
     "moscou",
-    "ucraniano"
+    "ucranianos"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Destruicao-deixada-por-ataque-na-Russia.jpeg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-09-24T07:00:00+00:00",
-  "updatedAt": "2026-10-07T02:49:05.092154+00:00",
+  "publishedAt": "2026-10-02T19:28:00+00:00",
+  "updatedAt": "2026-10-07T03:44:49.584293+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -170,7 +173,7 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-10-06T22:56:34+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -213,20 +216,6 @@
       "sourceDomain": "correiodamanhacanada.com",
       "publishedAt": "2026-10-05T15:07:53+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_e7d07771551d",
-      "title": "Defesas antiaéreas russas derrubam 40 drones e atacam fábricas e centro logístico em Kiev | Vídeo | 55021496047",
-      "description": "Kiev, 24 set (EFE).- As defesas antiaéreas russas derrubaram hoje 40 drones em seis regiões do país e na anexada península da Crimeia,...",
-      "url": "https://efs.efeservicios.com/video/defesas-antiaereas-russas-derrubam-drones-atacam-fabricas-centro-logistico-kiev/55021496047",
-      "source": "EFE Servicios",
-      "sourceCanonical": "EFE Servicios",
-      "sourceDomain": "efs.efeservicios.com",
-      "publishedAt": "2026-09-24T07:00:00+00:00",
-      "postedLabel": "12 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -314,31 +303,46 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ac035f3fd51a",
+      "title": "Drones ucranianos atingem refinaria e grande depósito de petróleo na Rússia",
+      "description": "Ataque provoca explosões e incêndios em instalações de Samara que incluem parque de tanques com capacidade superior a 1,6 milhão de metros...",
+      "url": "https://www.brasil247.com/mundo/drones-ucranianos-atingem-refinaria-e-grande-deposito-de-petroleo-na-russia/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-02T19:28:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 7,
-    "average": 5.5,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.15,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 3,
       "center": 5,
       "centerRight": 4,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
