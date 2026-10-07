@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJemRLUUVoSGNGUHBkSlpUZGx5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJemRLUUVoSGNGUHBkSlpUZGx5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 17,
       "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 17,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "PT conversa com Republicanos e mira líderes do PSD no 2º turno",
   "summary": "O presidente nacional do PT, Edinho Silva, afirmou nesta 3ª feira (6.out.2026) que o partido busca apoio de líderes do Republicanos e do PSD...",
@@ -29,12 +35,12 @@
     "edinho",
     "turno",
     "presidente",
-    "campanha",
-    "flávio"
+    "flávio",
+    "psd"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/edinho-silva-1200x675.jpg",
-  "publishedAt": "2026-10-02T14:07:00+00:00",
-  "updatedAt": "2026-10-07T05:30:01.000065+00:00",
+  "publishedAt": "2026-10-02T17:49:33+00:00",
+  "updatedAt": "2026-10-07T06:41:00.929426+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,34 +53,48 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-10-07T00:09:42+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/10/edinho-silva-1200x675.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_640142fa8dfe",
-      "title": "Presidente do PT diz que campanha de Lula procura outros partidos e terá apoio de lideranças regionais",
-      "description": "Serão procuradas lideranças do PSD vitoriosas no primeiro turno como a governadora reeleita Raquel Lyra em Pernambuco e Eduardo Braide,...",
-      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/06/presidente-do-pt-diz-que-campanha-de-lula-procura-outros-partidos-e-tera-apoio-de-liderancas-regionais.ghtml",
-      "source": "Valor Econômico",
-      "sourceCanonical": "Valor Econômico",
-      "sourceDomain": "valor.globo.com",
-      "publishedAt": "2026-10-06T22:49:42+00:00",
+      "id": "article_906136e67860",
+      "title": "Presidente do PT procura PSD, Republicanos e quadros do PP em busca de apoio a Lula",
+      "description": "O presidente do PT, Edinho Silva, afirmou que conversou por telefone nesta terça-feira com os presidentes do PSD, Gilberto Kassab, e do...",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/06/presidente-do-pt-procura-psd-republicanos-e-quadros-do-pp-em-busca-de-apoio-a-lula.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-06T23:42:28+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-valor.glbimg.com/bA9xE9FZ3qUHBfyQbfHyc8LrGqM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/r/t/AJDP1pQACcWQrO65rGCA/080326edinhosilva02.jpg",
+      "imageUrl": "https://s2-oglobo.glbimg.com/MI44URvfhKht0BOL4f1CZMvgu7E=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/T/3/wGn77jTQecosn3eR98jg/edinho-3.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
     {
-      "id": "article_8aeaac029438",
-      "title": "Edinho diz ter conversado com Kassab e Marcos Pereira sobre 2º turno",
-      "description": "O presidente do PT, Edinho Silva, disse nesta terça-feira, 6, que conversou com o presidente do PSD, Gilberto Kassab, e com o presidente do...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/06/edinho-diz-ter-conversado-com-kassab-e-marcos-pereira-sobre-2-turno.htm",
+      "id": "article_5ee761d8cd8d",
+      "title": "Campanha de Lula se reúne hoje para definir estratégias do segundo turno",
+      "description": "A coordenação de campanha do presidente Luiz Inácio Lula da Silva (PT) agendou uma reunião para o fim da tarde desta sexta-feira (2).",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/campanha-de-lula-se-reune-hoje-para-definir-estrategias-do-segundo-turno/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-02T17:49:33+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/LULA.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_cff73bb04d19",
+      "title": "Edinho Silva nega que campanha de Lula avalia troca de ministros até o segundo turno",
+      "description": "O presidente do PT, Edinho Silva, negou que a campanha à reeleição do presidente Luiz Inácio Lula da Silva (PT) discuta a troca de ministros...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/06/edinho-silva-nega-que-campanha-de-lula-avalia-troca-de-ministros-ate-o-segundo-turno.htm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-06T21:54:00+00:00",
+      "publishedAt": "2026-10-06T10:33:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -89,20 +109,6 @@
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-10-05T11:55:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/10/Captura-de-tela-2026-10-05-080738.webp",
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_4e3f8dd6a703",
-      "title": "Edinho diz que Lula foi prejudicado por crise no STF",
-      "description": "O presidente do PT, Edinho Silva, afirmou nesta segunda-feira 5 que a campanha de Lula vai mudar o “enfoque” para o segundo turno e que o...",
-      "url": "https://www.cartacapital.com.br/politica/edinho-diz-que-lula-foi-prejudicado-por-crise-no-stf/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-05T20:44:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 2,
@@ -123,32 +129,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_2a299b67a281",
-      "title": "Edinho Silva nega que campanha de Lula avalia troca de ministros até o segundo turno",
-      "description": "Presidente do PT, no entanto, voltou a sinalizar que Lula pretende fazer trocas no Supremo.",
-      "url": "https://www.infomoney.com.br/politica/edinho-silva-nega-que-campanha-de-lula-avalia-troca-de-ministros-ate-o-segundo-turno/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-06T12:03:36+00:00",
-      "postedLabel": "hoje",
+      "id": "article_4e3f8dd6a703",
+      "title": "Edinho diz que Lula foi prejudicado por crise no STF",
+      "description": "O presidente do PT, Edinho Silva, afirmou nesta segunda-feira 5 que a campanha de Lula vai mudar o “enfoque” para o segundo turno e que o...",
+      "url": "https://www.cartacapital.com.br/politica/edinho-diz-que-lula-foi-prejudicado-por-crise-no-stf/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-05T20:44:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_5ee761d8cd8d",
-      "title": "Campanha de Lula se reúne hoje para definir estratégias do segundo turno",
-      "description": "A coordenação de campanha do presidente Luiz Inácio Lula da Silva (PT) agendou uma reunião para o fim da tarde desta sexta-feira (2).",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/campanha-de-lula-se-reune-hoje-para-definir-estrategias-do-segundo-turno/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-02T17:49:33+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_d54018d36186",
@@ -159,7 +151,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-10-06T23:55:38+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -179,6 +171,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b79690ac73c7",
+      "title": "Edinho diz ter conversado com Kassab e Marcos Pereira sobre 2º turno",
+      "description": "Presidente do PT dialoga com PSD e Republicanos sobre a posição dos partidos no pleito.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/elei%C3%A7%C3%B5es/edinho-diz-ter-conversado-com-kassab-e-marcos-pereira-sobre-2-turno-1.1753998",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-10-06T22:22:09+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_3a9c38c0685d",
       "title": "Edinho obtém neutralidade do PSD e adesões em outros partidos de centro e direita",
       "description": "Presidente do PT conversa com Kassab e intensifica articulação por apoios a Lula no segundo turno; Fufuca e Teresa Surita estão entre as...",
@@ -187,7 +193,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-10-07T02:35:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -233,6 +239,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_0e41454b3b47",
+      "title": "Edinho busca apoio a Lula no Centrão e mira dissidentes de partidos pró-Flávio",
+      "description": "O presidente do PT, Edinho Silva, procura lideranças do centrão para ampliar o apoio à reeleição de Luiz Inácio Lula da Silva no segundo...",
+      "url": "https://www.diariodocentrodomundo.com.br/edinho-busca-apoio-a-lula-no-centrao-e-mira-dissidentes-de-partidos-pro-flavio/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-10-07T02:25:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_3cc6aac04ce1",
@@ -303,26 +323,12 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_659b11861789",
-      "title": "Edinho projeta PT com mais de 80 deputados e maioria do ‘campo democrático’ no Senado",
-      "description": "O presidente do PT, Edinho Silva, afirmou, nesta sexta-feira (2), que acredita que o partido pode eleger mais de 80 deputados federais nas...",
-      "url": "https://www.brasildefato.com.br/2026/10/02/edinho-projeta-pt-com-mais-de-80-deputados-e-maioria-do-campo-democratico-no-senado/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-10-02T14:07:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.62,
+    "average": 4.56,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
