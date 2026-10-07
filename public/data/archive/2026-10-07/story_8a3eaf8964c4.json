@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pNMi15SUVoRl9SSVp2ZHNGVHhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pNMi15SUVoRl9SSVp2ZHNGVHhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 20
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 17
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Edinho diz que Lula 'considera' mudança na legislação para tirar indicações ao STF 'da mão do presidente'",
   "summary": "Pressionado pela crise na Corte, petista também afirma levar em conta um modelo que tenha participação direta da sociedade civil.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/MqlJJ7Ipwdb4WjZwi5n6HdSoeZ8=/1915x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/k/Q/yFqR5MRnyLxvSF90EcYQ/106098661-edinho-silva-com-lula-foto-ricardo-stuckert-pr.jpg",
   "publishedAt": "2026-10-05T22:52:58+00:00",
-  "updatedAt": "2026-10-07T03:42:45.628020+00:00",
+  "updatedAt": "2026-10-07T04:32:14.744526+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-10-06T21:48:27+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/MqlJJ7Ipwdb4WjZwi5n6HdSoeZ8=/1915x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/k/Q/yFqR5MRnyLxvSF90EcYQ/106098661-edinho-silva-com-lula-foto-ricardo-stuckert-pr.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -86,7 +92,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-06T23:13:21+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/DXJTN3IGE5BXZCM7LF2TUN2IO4.jpeg?quality=80&auth=21e6e355582d7cde9a3ea1add60c7b8a70226ac316b6140696277d44e64d1b6f&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -260,20 +266,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_0e6f6a6a606b",
-      "title": "Lula avalia propor que presidente não possa mais indicar ministros do STF, diz Edinho Silva",
-      "description": "Ao longo de seus mandatos, o petista indicou 11 ministros da Suprema Corte; dez foram aprovados e quatro deles ainda estão no Tribunal.",
-      "url": "https://exame.com/brasil/lula-avalia-propor-que-presidente-nao-possa-mais-indicar-ministros-do-stf-diz-edinho-silva/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-06T17:10:12+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_4d57a821f3f2",
       "title": "Após 1º turno, Lula diz que carregou “nas costas” a “promiscuidade” no STF",
       "description": "Presidente também disse que Supremo Tribunal Federal está sob “desconfiança da sociedade” e defendeu nova reforma do Judiciário.",
@@ -285,6 +277,20 @@
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0e6f6a6a606b",
+      "title": "Lula avalia propor que presidente não possa mais indicar ministros do STF, diz Edinho Silva",
+      "description": "Ao longo de seus mandatos, o petista indicou 11 ministros da Suprema Corte; dez foram aprovados e quatro deles ainda estão no Tribunal.",
+      "url": "https://exame.com/brasil/lula-avalia-propor-que-presidente-nao-possa-mais-indicar-ministros-do-stf-diz-edinho-silva/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-10-06T17:10:12+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
