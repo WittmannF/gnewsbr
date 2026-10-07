@@ -12,12 +12,12 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 66,
-      "topic-7": 28
+      "topic-5": 69,
+      "topic-7": 27
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 66,
-    "bestSeedRank": 28,
+    "firstSeenRank": 69,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,11 +30,11 @@
     "ucrânia",
     "ataque",
     "moscou",
-    "ucraniano"
+    "ucranianos"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Destruicao-deixada-por-ataque-na-Russia.jpeg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-10-03T00:30:00+00:00",
-  "updatedAt": "2026-10-07T04:42:31.954563+00:00",
+  "publishedAt": "2026-10-02T19:28:00+00:00",
+  "updatedAt": "2026-10-07T05:38:18.522260+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -173,7 +173,7 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-10-06T22:56:34+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -205,20 +205,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_16f9d26c4e24",
-      "title": "Dois mortos num dos maiores ataques da Ucrânia contra a Rússia",
-      "description": "Ucrânia lançou cerca de 650 drones sobre Moscovo, um dos maiores ataques de sempre.",
-      "url": "https://www.publico.pt/2026/10/06/mundo/noticia/dois-mortos-maiores-ataques-ucrania-russia-2190397",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-10-06T09:55:45+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_e81da5bd0b5c",
@@ -317,17 +303,31 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ac035f3fd51a",
+      "title": "Drones ucranianos atingem refinaria e grande depósito de petróleo na Rússia",
+      "description": "Ataque provoca explosões e incêndios em instalações de Samara que incluem parque de tanques com capacidade superior a 1,6 milhão de metros...",
+      "url": "https://www.brasil247.com/mundo/drones-ucranianos-atingem-refinaria-e-grande-deposito-de-petroleo-na-russia/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-02T19:28:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 1,
     "max": 7,
-    "average": 5.31,
+    "average": 5.15,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
-      "left": 0,
-      "centerLeft": 4,
+      "left": 1,
+      "centerLeft": 3,
       "center": 5,
       "centerRight": 4,
       "right": 0,
@@ -335,13 +335,14 @@
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
