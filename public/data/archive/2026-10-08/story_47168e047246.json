@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxMnR1UUVoRVR1bEJMMGFYcU5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pxMnR1UUVoRVR1bEJMMGFYcU5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre Ucrânia • Rússia",
+  "title": "Notícias sobre Ucrânia",
   "summary": "Veículo foi atingido em Kramatorsk, região no leste ucraniano que fica próxima à linha de frente da guerra.",
-  "topic": "Ucrânia · Ataque",
+  "topic": "Ucrânia · Rússia",
   "topicKeywords": [
     "ucrânia",
-    "ataque",
     "rússia",
+    "ataque",
+    "mísseis",
     "mortos",
-    "russo",
-    "deixa"
+    "mata"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/b3Fyn56aNGNS8NYf1eJp_j3ZlnA=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/W/3UmnMjQ6eIyVpLxbugsw/design-sem-nome-2026-10-08t070334.009.jpg",
-  "publishedAt": "2026-10-06T13:41:00+00:00",
-  "updatedAt": "2026-10-08T14:42:02.847711+00:00",
+  "publishedAt": "2026-10-06T14:00:00+00:00",
+  "updatedAt": "2026-10-08T15:26:50.913694+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,24 +50,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-08T09:05:09+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/b3Fyn56aNGNS8NYf1eJp_j3ZlnA=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/W/3UmnMjQ6eIyVpLxbugsw/design-sem-nome-2026-10-08t070334.009.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_d2ad2db1d540",
-      "title": "Rússia bombardeia 2 ônibus e deixa ao menos 30 mortos na Ucrânia",
-      "description": "Um bombardeio russo atingiu dois ônibus nesta quinta-feira 8 em Kramatorsk, na linha de frente do leste da Ucrânia, deixando pelo menos 30...",
-      "url": "https://www.cartacapital.com.br/mundo/russia-bombardeia-2-onibus-e-deixa-ao-menos-30-mortos-na-ucrania/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-08T14:14:00+00:00",
-      "postedLabel": "28 minutos atrás",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Ukraine.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "id": "article_faf4c85ae727",
+      "title": "Ataque a ônibus com civis mata dezenas em \"fortaleza\" da Ucrânia",
+      "description": "Transporte público foi suspenso em Kramatorsk, perto da linha de frente em Donetsk. Na mira das forças russas, cidade serve de centro de...",
+      "url": "https://www.dw.com/pt-br/ataque-a-%C3%B4nibus-com-civis-mata-dezenas-em-fortaleza-da-ucr%C3%A2nia/a-79598959",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-10-08T14:48:45+00:00",
+      "postedLabel": "38 minutos atrás",
+      "imageUrl": "https://static.dw.com/image/79593940_6.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_9e64a73e4cdb",
@@ -86,7 +92,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-08T10:21:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/3QWY7RHCRRF5ZDQE7VVJFFZISQ.jpg?quality=80&auth=70ef8bf020c52613871c50284cab759385a3feb03f51522ab7c579629c0f5031&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -120,20 +126,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9a01e1f00148",
-      "title": "Ataque russo a ônibus deixa ao menos 30 mortos no leste da Ucrânia",
-      "description": "Pelo menos 30 pessoas morreram e outras 18 ficaram feridas em um ataque russo contra um ônibus de transporte público no leste da Ucrânia...",
-      "url": "https://www.cnnbrasil.com.br/internacional/ataque-russo-a-onibus-deixa-ao-menos-30-mortos-no-leste-da-ucrania/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-08T10:25:05+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_ee3eec98232e",
       "title": "Ucrânia diz que Rússia dá ataques de ‘presente de aniversário para Putin’; ao menos 24 morrem",
       "description": "Presidente Volodymyr Zelensky denuncia 'um dos bombardeios mais vis' de toda a guerra, que destruiu prédio residencial de 5 andares e outras...",
@@ -148,6 +140,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_17f52a5a309d",
+      "title": "Zelensky diz que a Rússia planeja \"ataque massivo\" contra a Ucrânia",
+      "description": "Presidente ucraniano afirmou que forças armadas estão prontas para responder na medida em que os meios de defesa disponíveis permitirem.",
+      "url": "https://www.cnnbrasil.com.br/internacional/zelensky-diz-que-a-russia-planeja-ataque-massivo-contra-a-ucrania/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-06T19:10:44+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_c52d1418236b",
       "title": "Bomba russa deixa 33 mortos em reduto importante do leste da Ucrânia",
       "description": "Um ataque russo com bomba contra a cidade de Kramatorsk, no leste da Ucrânia, matou pelo menos 33 pessoas, informaram autoridades nesta...",
@@ -156,7 +162,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-08T13:08:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -176,18 +182,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_f3cd902dfaec",
-      "title": "Onda de ataques de mísseis e drones russos mata dezenas na Ucrânia",
-      "description": "Zelenski condena \"um dos ataques mais vis\" da guerra. Bombardeios matam ao menos 28 e deixam mais de 100 feridos em todo o país.",
-      "url": "https://www.dw.com/pt-br/onda-de-ataques-de-m%C3%ADsseis-e-drones-russos-mata-dezenas-na-ucr%C3%A2nia/a-79586486",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-10-07T21:52:51+00:00",
-      "postedLabel": "hoje",
+      "id": "article_d2ad2db1d540",
+      "title": "Rússia bombardeia 2 ônibus e deixa ao menos 30 mortos na Ucrânia",
+      "description": "Um bombardeio russo atingiu dois ônibus nesta quinta-feira 8 em Kramatorsk, na linha de frente do leste da Ucrânia, deixando pelo menos 30...",
+      "url": "https://www.cartacapital.com.br/mundo/russia-bombardeia-2-onibus-e-deixa-ao-menos-30-mortos-na-ucrania/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-08T14:14:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_bd19b6c1abc5",
+      "title": "Rússia realiza novos ataques de mísseis à Ucrânia",
+      "description": "Pelo menos 33 pessoas morreram e outras 18 ficaram feridas em um ataque russo que atingiu dois ônibus no leste da Ucrânia.",
+      "url": "https://noticias.r7.com/jr-24h/conteudo-exclusivo/video/russia-realiza-novos-ataques-de-misseis-a-ucrania-08102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-08T14:47:45+00:00",
+      "postedLabel": "39 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_644715f4da96",
@@ -204,34 +224,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_80ea875fb1f5",
-      "title": "Rússia x Ucrânia ‘flerta’ com situação que lembra a 2ª Guerra Mundial, alerta pesquisador",
-      "description": "Zelensky afirmou que a Ucrânia vai continuar intensificando os ataques contra refinarias de petróleo russas em retaliação às investidas...",
-      "url": "https://noticias.r7.com/internacional/russia-x-ucrania-flerta-com-situacao-que-lembra-a-2-guerra-mundial-alerta-pesquisador-06102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-06T20:35:24+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_0825712ff1c0",
-      "title": "Zelenskiy diz que informações indicam que Rússia prepara ataque em grande escala",
-      "description": "6 Out (Reuters) - O presidente ucraniano, Volodymyr Zelenskiy, afirmou nesta terça-feira que as informações mais recentes dos serviços de...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/agronegocio/429250-zelenskiy-diz-que-informacoes-indicam-que-russia-prepara-ataque-em-grande-escala.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-10-06T19:37:32+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_7fc6c9403073",
       "title": "Vídeo. Forças russas matam 12 pessoas no norte da Ucrânia: é “presente” de aniversário para Putin, diz Zelenskyy",
       "description": "Vídeo. O presidente da Ucrânia afirmou que as infraestruturas energéticas eram um alvo prioritário e voltou a apelar para mais defesas...",
@@ -244,6 +236,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_d42a071244b1",
+      "title": "Onda de ataques de mísseis e drones russos mata dezenas na Ucrânia",
+      "description": "Zelenski condena \"um dos ataques mais vis\" da guerra. Bombardeios matam ao menos 28 e deixam mais de 100 feridos em todo o país.",
+      "url": "https://www.terra.com.br/noticias/onda-de-ataques-de-misseis-e-drones-russos-mata-dezenas-na-ucrania,5b1131ba01f430e908ba9fd9095ea33323jq2wsy.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-07T22:27:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8939d092b363",
@@ -274,18 +280,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_e963de87f3a3",
+      "id": "article_3165291ddf73",
       "title": "Rússia ataca servidores e coloca internet na Ucrânia em risco",
-      "description": "Danos a centros de dados afetam uma ampla gama de serviços utilizados no cotidiano. Isso os tornam um alvo estratégico importante.Antes da...",
-      "url": "https://www.terra.com.br/noticias/russia-ataca-servidores-e-coloca-internet-na-ucrania-em-risco,09acfbb3060c17ef691affd5718c6290aumbkvyk.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-10-06T13:41:00+00:00",
+      "description": "Antes da guerra, hackers e apagões eram as maiores ameaças aos centros de dados da Ucrânia. Hoje, porém, os próprios edifícios que abrigam...",
+      "url": "https://ultimosegundo.ig.com.br/agencias/dw/2026-10-06/russia-ataca-servidores-e-coloca-internet-na-ucrania-em-risco.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-10-06T14:00:00+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_98ab3fdcbe91",
@@ -302,31 +308,31 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9ddc805d46cd",
-      "title": "Atualização sobre o conflito na Ucrânia em 10/08: A Rússia invade Dobropillia, a Ucrânia lança um ataque de flanco contra Komar.",
-      "description": "(Jornal Dan Tri) - A situação em Dnipropetrovsk permanece desfavorável para o exército russo, enquanto a Ucrânia lança um contra-ataque em...",
-      "url": "https://www.vietnam.vn/pt/chien-su-ukraine-8-10-nga-tran-vao-dobropillia-ukraine-danh-vu-hoi-komar",
-      "source": "Vietnam.vn",
-      "sourceCanonical": "Vietnam.vn",
-      "sourceDomain": "vietnam.vn",
-      "publishedAt": "2026-10-08T05:01:32+00:00",
+      "id": "article_38cc17831c58",
+      "title": "Rússia neutraliza mísseis Flamingo da Ucrânia ao interromper cadeia de produção, diz especialista",
+      "description": "Para combater a ameaça contra alvos civis, a Rússia realizou ataques contra toda a cadeia de produção dos mísseis Flamingo, em várias...",
+      "url": "https://www.tribunadosertao.com.br/geral/2026/10/07/992585-russia-neutraliza-misseis-flamingo-da-ucrania-ao-interromper-cadeia-de-producao-diz-especialista",
+      "source": "Tribuna do Sertão",
+      "sourceCanonical": "Tribuna do Sertão",
+      "sourceDomain": "tribunadosertao.com.br",
+      "publishedAt": "2026-10-08T00:02:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.38,
+    "average": 5.25,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 4,
-      "center": 6,
-      "centerRight": 4,
+      "center": 7,
+      "centerRight": 3,
       "right": 1,
       "unknown": 4
     }
