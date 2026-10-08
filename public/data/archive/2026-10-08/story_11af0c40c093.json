@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 2
+      "topic-2": 3
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://imagens.ebc.com.br/ScbqCw_ocaKYqranpR8tsx4jywI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/11/feature-2026-08-08t094922.831z.jpg?itok=gZPpZg0q",
   "publishedAt": "2026-07-06T07:00:00+00:00",
-  "updatedAt": "2026-10-08T18:32:30.460673+00:00",
+  "updatedAt": "2026-10-08T19:24:37.879596+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -101,7 +101,7 @@
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-08T11:47:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://imagens.ebc.com.br/lEn6b63_3OaTwIkjAHjrDpfCTYQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/18/_int1156.jpg?itok=a3yj3jfK",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -114,7 +114,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-07T18:35:15+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -184,24 +184,10 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-10-08T16:15:58+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_0ba763cafba9",
-      "title": "Mais um caso de sarampo é confirmado em SP; total chega a 41",
-      "description": "Dos 41 casos confirmados, 31 são de pessoas sem registro de vacinação ou com esquema incompleto.",
-      "url": "https://sbtnews.sbt.com.br/noticia/saude/mais-um-caso-de-sarampo-e-confirmado-em-sp-total-chega-a-41",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-07T09:20:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_4ff2a54daaaf",
@@ -212,7 +198,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-10-07T18:43:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -232,6 +218,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_0455353befd4",
+      "title": "São Paulo confirma 41° caso de sarampo",
+      "description": "São Paulo confirma um novo caso de sarampo e o total de infectados chega a 41 neste ano. Os registros estão divididos entre as cidades de...",
+      "url": "https://www.band.com.br/saude/sao-paulo-confirma-41-caso-de-sarampo",
+      "source": "Band",
+      "sourceCanonical": "Band",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-10-07T12:57:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_51cdbf965573",
       "title": "JP1: Avanço do sarampo aumenta alerta para vacinação no Brasil",
       "description": "Com o avanço do sarampo nos Estados Unidos e em outros países das Américas, o Ministério da Saúde reforçou o alerta para o risco de...",
@@ -240,7 +240,7 @@
       "sourceCanonical": "sampi.net.br",
       "sourceDomain": "sampi.net.br",
       "publishedAt": "2026-10-08T12:33:33+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,7 +254,7 @@
       "sourceCanonical": "Midiamax",
       "sourceDomain": "midiamax.com.br",
       "publishedAt": "2026-10-07T18:43:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,16 +319,16 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.25,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.18,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 8,
+      "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 9
     }
   },
   "scores": {
