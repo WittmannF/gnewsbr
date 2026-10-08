@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0ME1XREVoRUFuSjhSOW05QXhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0ME1XREVoRUFuSjhSOW05QXhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Jurisprudência do TSE indica que votos de Garotinho devem ser computados",
   "summary": "Os votos dados a candidato sub judice que participou de todo o processo eleitoral devem ser contabilizados.",
@@ -30,8 +36,8 @@
     "paes"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/c4ysrexx1RkdaPSGiMfwK0e8ApE=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/6/r/ZYq0AQQSejqMS12wZnjA/garotinho5.jpeg",
-  "publishedAt": "2026-10-05T22:05:00+00:00",
-  "updatedAt": "2026-10-08T06:51:48.265024+00:00",
+  "publishedAt": "2026-10-05T17:42:31+00:00",
+  "updatedAt": "2026-10-08T07:35:44.018878+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -148,48 +154,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_95721592d6dd",
-      "title": "Grupo de Paes pede que TSE negue pedido de Garotinho sobre eleição",
-      "description": "Ex-governador do RJ acionou o TSE para desistir de recurso que tornariam válidos seus votos nas eleições de 2026. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/paes-pede-a-tse-que-negue-pedido-de-garotinho-para-retirar-recurso/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-07T02:33:52+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_0f98de06d194",
-      "title": "MP Eleitoral é favorável à desistência do recurso de Anthony Garotinho e defende inelegibilidade",
-      "description": "Para o vice-PGE, a candidatura era inválida desde o início, o que leva à anulação definitiva dos votos, mesmo efeito obtido com a...",
-      "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mp-eleitoral-e-favoravel-a-desistencia-do-recurso-de-anthony-garotinho-e-defende-inelegibilidade",
-      "source": "Ministério Público Federal",
-      "sourceCanonical": "Ministério Público Federal",
-      "sourceDomain": "mpf.mp.br",
-      "publishedAt": "2026-10-06T22:13:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6cda2190a300",
-      "title": "PSOL aciona TSE para barrar manobra de Garotinho que pode definir eleição no Rio",
-      "description": "Diretório estadual do partido defende que ato unilateral da candidatura após a abertura das urnas não pode alterar resultado do primeiro...",
-      "url": "https://veja.abril.com.br/politica/psol-aciona-tse-para-barrar-manobra-de-garotinho-que-pode-definir-eleicao-no-rio/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-06T15:02:29+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_bd1bcc822065",
       "title": "TSE julga casos de Deltan Dallagnol e Anthony Garotinho para definir eleições no PR e RJ",
       "description": "O plenário do Tribunal Superior Eleitoral (TSE) se reúne nesta quinta-feira (8) para julgar os registros de candidatura do candidato eleito...",
@@ -201,6 +165,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_33e16d789f9a",
+      "title": "‘O povo que arque com as consequências’, diz Garotinho sobre decisão",
+      "description": "O ex-governador Anthony Garotinho (Republicanos) desistiu do recurso no Tribunal Superior Eleitoral (TSE) contra o indeferimento da sua...",
+      "url": "https://veja.abril.com.br/politica/o-povo-que-arque-com-as-conseqencias-diz-garotinho-sobre-decisao/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-05T17:42:31+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -218,18 +196,32 @@
       "bucket": "left"
     },
     {
-      "id": "article_d181c5c844c6",
-      "title": "TSE pode decretar vitória de Douglas Ruas (PL) para governo do RJ nesta quinta-feira (8)",
-      "description": "O Jornal da Record apurou que o TSE vai se reunir amanhã (8) e poderá decretar a vitória de Douglas Ruas em primeiro turno na eleição para...",
-      "url": "https://noticias.r7.com/jr-na-tv/video/tse-pode-decretar-vitoria-de-douglas-ruas-pl-para-governo-do-rj-nesta-quinta-feira-8-07102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-07T22:46:23+00:00",
+      "id": "article_53512f36a503",
+      "title": "Paes pede que TSE negue desistência de Garotinho e garanta 2º turno do Rio",
+      "description": "O ex-prefeito Eduardo Paes (PSD) entrou com um pedido no Tribunal Superior solicitando que o segundo turno nas eleições do Rio de Janeiro...",
+      "url": "https://www.infomoney.com.br/politica/coligacao-de-paes-pede-que-tse-negue-desistencia-de-garotinho/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-07T12:11:09+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_0f98de06d194",
+      "title": "MP Eleitoral é favorável à desistência do recurso de Anthony Garotinho e defende inelegibilidade",
+      "description": "Para o vice-PGE, a candidatura era inválida desde o início, o que leva à anulação definitiva dos votos, mesmo efeito obtido com a...",
+      "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mp-eleitoral-e-favoravel-a-desistencia-do-recurso-de-anthony-garotinho-e-defende-inelegibilidade",
+      "source": "Ministério Público Federal",
+      "sourceCanonical": "Ministério Público Federal",
+      "sourceDomain": "mpf.mp.br",
+      "publishedAt": "2026-10-06T22:13:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_1350c7c983c0",
@@ -246,17 +238,31 @@
       "bucket": "left"
     },
     {
-      "id": "article_53512f36a503",
-      "title": "Paes pede que TSE negue desistência de Garotinho e garanta 2º turno do Rio",
-      "description": "O ex-prefeito Eduardo Paes (PSD) entrou com um pedido no Tribunal Superior solicitando que o segundo turno nas eleições do Rio de Janeiro...",
-      "url": "https://www.infomoney.com.br/politica/coligacao-de-paes-pede-que-tse-negue-desistencia-de-garotinho/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-07T12:11:09+00:00",
+      "id": "article_d181c5c844c6",
+      "title": "TSE pode decretar vitória de Douglas Ruas (PL) para governo do RJ nesta quinta-feira (8)",
+      "description": "O Jornal da Record apurou que o TSE vai se reunir amanhã (8) e poderá decretar a vitória de Douglas Ruas em primeiro turno na eleição para...",
+      "url": "https://noticias.r7.com/jr-na-tv/video/tse-pode-decretar-vitoria-de-douglas-ruas-pl-para-governo-do-rj-nesta-quinta-feira-8-07102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-07T22:46:23+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_0cb50cba046d",
+      "title": "Após embate entre ministros, TSE julga candidatura de Deltan ao Senado",
+      "description": "Deltan recebeu 25,14% dos votos no Paraná. Relator barrou a candidatura, mas Kassio suspendeu a decisão até o julgamento pelo plenário.",
+      "url": "https://www.metropoles.com/colunas/manoela-alcantara/apos-embate-entre-ministros-tse-julga-candidatura-de-deltan-ao-senado",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-08T07:00:00+00:00",
+      "postedLabel": "35 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -274,20 +280,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_292678ba8084",
-      "title": "Especialistas analisam imbróglio nas eleições para Governo do Rio",
-      "description": "Resultado no primeiro ou no segundo turno depende da anulação dos votos feitos ao candidato Anthony Garotinho (Republicanos)",
-      "url": "https://odia.ig.com.br/eleicoes/2026/10/7309927-especialistas-analisam-imbroglio-nas-eleicoes-para-governo-do-rio.html",
-      "source": "O Dia",
-      "sourceCanonical": "O Dia",
-      "sourceDomain": "odia.ig.com.br",
-      "publishedAt": "2026-10-07T16:27:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_04a5a8490635",
       "title": "RJ: Psol recorre ao TSE contra desistência de Garotinho",
       "description": "Partido afirma que decisão sobre os votos do candidato deve caber à Justiça Eleitoral e pode afetar definição do governo do Rio.",
@@ -302,37 +294,51 @@
       "bucket": "right"
     },
     {
-      "id": "article_380c34ae23a1",
-      "title": "MPE dá parecer favorável à desistência de recurso de Garotinho no TSE",
-      "description": "O Ministério Público Eleitoral (MPE) enviou nesta terça-feira (6) ao Tribunal Superior Eleitoral (TSE) parecer favorável ao pedido do...",
-      "url": "https://mais.opovo.com.br/jornal/farol/2026/10/07/mpe-da-parecer-favoravel-a-desistencia-de-recurso-de-garotinho-no-tse.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-10-07T04:15:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_cc8f0bc26f93",
+      "title": "Com desistência de Garotinho, Douglas Ruas será declarado novo governador do RJ? Advogados explicam",
+      "description": "Após cadidato do Republicanos retirar recurso no TSE, cálculo dos votos válidos muda e pode definir eleição.",
+      "url": "https://www.terra.com.br/noticias/eleicoes/com-desistencia-de-garotinho-douglas-ruas-sera-declarado-novo-governador-do-rj-advogados-explicam,56ff933c282b0194c2b61d7b187783e709ux9fb3.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-05T23:06:00+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_292678ba8084",
+      "title": "Especialistas analisam imbróglio nas eleições para Governo do Rio",
+      "description": "Resultado no primeiro ou no segundo turno depende da anulação dos votos feitos ao candidato Anthony Garotinho (Republicanos)",
+      "url": "https://odia.ig.com.br/eleicoes/2026/10/7309927-especialistas-analisam-imbroglio-nas-eleicoes-para-governo-do-rio.html",
+      "source": "O Dia",
+      "sourceCanonical": "O Dia",
+      "sourceDomain": "odia.ig.com.br",
+      "publishedAt": "2026-10-07T16:27:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.36,
+    "average": 5.43,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
-      "center": 7,
+      "centerLeft": 0,
+      "center": 8,
       "centerRight": 3,
       "right": 1,
       "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 97,
     "confidence": 95
