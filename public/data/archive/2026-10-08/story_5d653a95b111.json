@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lQaS1lRUVoR0Y1Tmk5bzIyU3dTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lQaS1lRUVoR0Y1Tmk5bzIyU3dTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 31
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 12
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 31,
-    "bestSeedRank": 31,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Christa Pike sobrevive a tentativa de execução por injeção letal",
   "summary": "Duas décadas atrás, Helen Roberts conheceu Christa Pike, uma detenta do corredor da morte no Tennessee, para tentar entender a mulher por...",
@@ -31,8 +37,8 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/3f5c/live/962e6a20-be63-11f1-b36c-81ad410b221e.jpg",
   "publishedAt": "2026-10-06T20:06:00+00:00",
-  "updatedAt": "2026-10-08T04:40:20.644472+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-10-08T05:29:08.001809+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -50,6 +56,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_d9bb4b5ed5c1",
+      "title": "Christa Pike, que sobreviveu à injeção letal, não se lembra de tentativa de execução, diz médico da sua equipe",
+      "description": "Especialista contratado pela equipe jurídica da condenada afirma que ela está consciente e conversando, mas ainda apresenta fraqueza...",
+      "url": "https://oglobo.globo.com/mundo/noticia/2026/10/07/christa-pike-que-sobreviveu-a-injecao-letal-nao-se-lembra-de-tentativa-de-execucao-diz-medico-da-sua-equipe.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-07T15:35:12+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-oglobo.glbimg.com/UjDUPPkd9IjTljvVUwzQ9SOKlRA=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/i/e/eiMqrMRSuQ9BBqAJ04Hg/ristina.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_b779611023ab",
       "title": "Sobrevivente de tentativa de execução nos EUA quase teve aparelhos desligados",
       "description": "Na noite desta quarta, Texas realizou primeira execução por injeção letal desde o caso Christa; Jamaal Howard foi condenado à morte por...",
@@ -61,20 +81,6 @@
       "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/r6ypKnhXybv2o-BxpOCo5al9hk0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/1/r/zbYAVaRlCW4bAO07GZsw/116423871-this-handout-picture-dated-january-12-2023-provided-by-the-tennessee-department-of-correct.jpg",
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_359d4cc3fd73",
-      "title": "Mulher que sobreviveu à injeção letal está \"irritada e confusa\", diz defesa",
-      "description": "Advogados de Christa Pike, mulher que sobreviveu à tentativa de injeção letal na última quarta-feira (30), buscam preservar provas...",
-      "url": "https://www.cnnbrasil.com.br/internacional/mulher-que-sobreviveu-a-injecao-letal-esta-irritada-e-confusa-diz-defesa/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-07T21:10:08+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Christa-Pike-mulher-que-sobreviveu-a-duas-injecoes-letais-no-Tenneessee.png?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -100,6 +106,20 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-07T18:20:14+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_359d4cc3fd73",
+      "title": "Mulher que sobreviveu à injeção letal está \"irritada e confusa\", diz defesa",
+      "description": "Advogados de Christa Pike, mulher que sobreviveu à tentativa de injeção letal na última quarta-feira (30), buscam preservar provas...",
+      "url": "https://www.cnnbrasil.com.br/internacional/mulher-que-sobreviveu-a-injecao-letal-esta-irritada-e-confusa-diz-defesa/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-07T21:10:08+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -148,20 +168,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_05a967d75292",
-      "title": "Bomba no caso Christa Pike: saiba se a condenada irá para a execução novamente após injeção letal falhar",
-      "description": "Procurador-geral adjunto do Tennessee afirmou que não existe atualmente uma ordem de execução contra a condenada, mas evitou dizer se a pena...",
-      "url": "https://www.terra.com.br/diversao/gente/bomba-no-caso-christa-pike-saiba-se-a-condenada-ira-para-a-execucao-novamente-apos-injecao-letal-falhar,ab8ba692a3b8b2d63fb8a8ddad5a9e34jn9o8ynv.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-10-08T01:09:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_17274558b4aa",
       "title": "O estado de saúde de mulher que recebeu duas injeções letais nos EUA",
       "description": "Christa Pike, de 50 anos, está consciente e consegue falar enquanto permanece internada em um hospital do Tennessee, nos Estados Unidos,...",
@@ -174,6 +180,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_05a967d75292",
+      "title": "Bomba no caso Christa Pike: saiba se a condenada irá para a execução novamente após injeção letal falhar",
+      "description": "Procurador-geral adjunto do Tennessee afirmou que não existe atualmente uma ordem de execução contra a condenada, mas evitou dizer se a pena...",
+      "url": "https://www.terra.com.br/diversao/gente/bomba-no-caso-christa-pike-saiba-se-a-condenada-ira-para-a-execucao-novamente-apos-injecao-letal-falhar,ab8ba692a3b8b2d63fb8a8ddad5a9e34jn9o8ynv.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-08T01:09:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_72666ef23b1b",
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_ef56af31eab4",
-      "title": "Christa Pike está consciente e voltou a falar após sobreviver a uma tentativa malsucedida de execução, realizada em 30 de setembro. Nesta quarta-feira (7), os advogados da condenada revelaram ao @tmztv as primeiras palavras ditas por ela. A fala aconte",
-      "description": "",
-      "url": "https://www.instagram.com/p/DeNiU7MIFcw/",
-      "source": "Instagram",
-      "sourceCanonical": "Instagram",
-      "sourceDomain": "instagram.com",
-      "publishedAt": "2026-10-07T23:26:36+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.47,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.5,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 9,
+      "center": 10,
       "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
