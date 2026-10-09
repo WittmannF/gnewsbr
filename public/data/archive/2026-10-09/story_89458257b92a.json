@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lTbV9LUEVoSDlBYmtqUFM4M2h5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lTbV9LUEVoSDlBYmtqUFM4M2h5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 13
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Nidal Hasan será executado por fuzilamento em dezembro nos EUA",
   "summary": "O secretário de Defesa dos Estados Unidos, Pete Hegseth, afirmou nesta quinta-feira (08/10) que a execução de um ex-major do Exército por um...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/a016/live/4c228b00-c3c2-11f1-8fc5-335d62f6730b.jpg",
   "publishedAt": "2026-10-08T16:26:29+00:00",
-  "updatedAt": "2026-10-09T13:38:34.569189+00:00",
+  "updatedAt": "2026-10-09T14:30:44.849857+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,20 +70,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_2ceaef5492eb",
-      "title": "Secretário de Trump quer transmitir fuzilamento ao vivo; Isso é permitido?",
-      "description": "Ex-psiquiatra militar Nidal Hasan foi condenado pela morte de 13 pessoas na base de Fort Hood em 2009. Tom Rowe e Phil Stewart, da Reuters...",
-      "url": "https://www.cnnbrasil.com.br/internacional/secretario-de-trump-quer-transmitir-fuzilamento-ao-vivo-isso-e-permitido/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-09T11:27:58+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Nidal-Hasan.jpg?w=637&h=424&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7e0b1946ff92",
       "title": "Estados Unidos terão primeira execução pública em 90 anos",
       "description": "Ex-major do Exército americano, Nidal Hasan foi condenado por matar 13 pessoas na base militar de Fort Hood, no Texas, em 2009.",
@@ -92,6 +84,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_2ceaef5492eb",
+      "title": "Secretário de Trump quer transmitir fuzilamento ao vivo; Isso é permitido?",
+      "description": "Ex-psiquiatra militar Nidal Hasan foi condenado pela morte de 13 pessoas na base de Fort Hood em 2009. Tom Rowe e Phil Stewart, da Reuters...",
+      "url": "https://www.cnnbrasil.com.br/internacional/secretario-de-trump-quer-transmitir-fuzilamento-ao-vivo-isso-e-permitido/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-09T11:27:58+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Nidal-Hasan.jpg?w=637&h=424&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_a5a04a9852be",
       "title": "EUA transmitirá ao vivo execução de condenado por ataque militar",
       "description": "O fuzilamento de um condenado à morte por um massacre em uma base militar dos Estados Unidos será transmitido ao vivo, anunciou o Pentágono,...",
@@ -100,10 +106,24 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-09T13:15:20+00:00",
-      "postedLabel": "23 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_45c9bff645d0",
+      "title": "EUA, o arcebispo Coakley: execução ao vivo é “cultura da morte”",
+      "description": "O presidente da Conferência Episcopal dos Estados Unidos comenta à mídia do Vaticano a decisão do Pentágono de transmitir ao vivo a execução...",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/eua-arcebispo-coakley-execucao-vivo-cultura-morte.html",
+      "source": "Vatican News",
+      "sourceCanonical": "Vatican News",
+      "sourceDomain": "vaticannews.va",
+      "publishedAt": "2026-10-09T12:39:39+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9aaba4d338de",
@@ -120,18 +140,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_45c9bff645d0",
-      "title": "EUA, o arcebispo Coakley: execução ao vivo é “cultura da morte”",
-      "description": "O presidente da Conferência Episcopal dos Estados Unidos comenta à mídia do Vaticano a decisão do Pentágono de transmitir ao vivo a execução...",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/eua-arcebispo-coakley-execucao-vivo-cultura-morte.html",
-      "source": "Vatican News",
-      "sourceCanonical": "Vatican News",
-      "sourceDomain": "vaticannews.va",
-      "publishedAt": "2026-10-09T12:39:39+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_a40763a35535",
+      "title": "EUA vão exibir ao vivo execução de autor de massacre",
+      "description": "Nidal Hasan matou 13 pessoas em uma base militar em 2009 e será executado por fuzilamento em dezembro.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/eua-vao-exibir-ao-vivo-execucao-de-autor-de-massacre",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-10-09T09:48:13+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_bbaf24e48e15",
@@ -170,24 +190,10 @@
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-10-09T11:04:16+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_12cc4bff3f14",
-      "title": "ONU denuncia como \"tortura\" a execução ao vivo anunciada nos EUA",
-      "description": "O Alto Comissariado da ONU para os Direitos Humanos denunciou, nesta sexta-feira (9), a decisão dos Estados Unidos de transmitir ao vivo a...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/onu-denuncia-como-tortura-a-execucao-ao-vivo-anunciada-nos-eua-1.1754739",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-10-09T12:23:36+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_985f695632d7",
@@ -204,6 +210,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_12cc4bff3f14",
+      "title": "ONU denuncia como \"tortura\" a execução ao vivo anunciada nos EUA",
+      "description": "O Alto Comissariado da ONU para os Direitos Humanos denunciou, nesta sexta-feira (9), a decisão dos Estados Unidos de transmitir ao vivo a...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/onu-denuncia-como-tortura-a-execucao-ao-vivo-anunciada-nos-eua-1.1754739",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-10-09T12:23:36+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_09858c90a9da",
       "title": "Hegseth quer execução de prisioneiro transmitida em direto",
       "description": "A execução de Nidal Hasan, condenado pelo tiroteio na base de Fort Hood, está marcada para 3 de dezembro. Será a primeira execução militar...",
@@ -212,7 +232,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-10-09T10:59:12+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,24 +246,38 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-09T11:04:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_a40763a35535",
-      "title": "EUA vão exibir ao vivo execução de autor de massacre",
-      "description": "Nidal Hasan matou 13 pessoas em uma base militar em 2009 e será executado por fuzilamento em dezembro.",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/eua-vao-exibir-ao-vivo-execucao-de-autor-de-massacre",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-09T09:48:13+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_e8a2bb181a15",
+      "title": "Estados Unidos confirmam primeira execução pública em 90 anos",
+      "description": "Nidal Malik Hasan foi condenado após um atentado a uma base americana no Texas; 13 pessoas morreram e 32 ficaram feridas.",
+      "url": "https://ultimosegundo.ig.com.br/2026-10-09/estados-unidos-confirmam-primeira-execucao-publica-em-90-anos.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-10-09T12:02:00+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_5641a0e80d34",
+      "title": "EUA vão transmitir em directo execução por fuzilamento do autor do massacre de Fort Hood",
+      "description": "Condenado à morte em 2013, o antigo psiquiatra do Exército ficou paralisado depois de ser baleado pela polícia.",
+      "url": "https://www.publico.pt/2026/10/09/mundo/noticia/eua-vao-transmitir-directo-execucao-fuzilamento-autor-massacre-fort-hood-2190769",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-10-08T22:39:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_0a8384779e76",
@@ -274,20 +308,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_e8a2bb181a15",
-      "title": "Estados Unidos confirmam primeira execução pública em 90 anos",
-      "description": "Nidal Malik Hasan foi condenado após um atentado a uma base americana no Texas; 13 pessoas morreram e 32 ficaram feridas.",
-      "url": "https://ultimosegundo.ig.com.br/2026-10-09/estados-unidos-confirmam-primeira-execucao-publica-em-90-anos.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-10-09T12:02:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_77793b017e5d",
       "title": "EUA anunciam que primeira execução por fuzilamento desde 1961 vai ser pública",
       "description": "'Vai ser fuzilado por soldados, como deve ser, e faremos com que o público possa assistir', anunciou Pete Hegseth.",
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_71656de9ab26",
-      "title": "EUA vão transmitir execução por fuzilamento em dezembro",
-      "description": "O Departamento de Defesa dos Estados Unidos anunciou que a execução por fuzilamento de Nidal Hasan, antigo major do Exército condenado pela...",
-      "url": "https://www.plataformamedia.com/2026/10/09/eua-vao-transmitir-execucao-por-fuzilamento-em-dezembro/",
-      "source": "Plataforma Media",
-      "sourceCanonical": "Plataforma Media",
-      "sourceDomain": "plataformamedia.com",
-      "publishedAt": "2026-10-09T10:29:38+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.27,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.12,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 1,
-      "centerLeft": 3,
+      "centerLeft": 4,
       "center": 7,
       "centerRight": 4,
       "right": 0,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
