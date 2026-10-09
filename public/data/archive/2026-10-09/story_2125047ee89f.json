@@ -3,23 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0ME1XREVoRXRfcHlGaTNKdG95Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0ME1XREVoRXRfcHlGaTNKdG95Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories"
+      "topic-5"
     ],
     "seedRanks": {
-      "home": 3,
-      "topstories": 3
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Douglas Ruas: por que candidato deve se tornar governador do Rio dias depois do 1º turno",
   "summary": "TSE formou maioria para declarar nulos os votos de Anthony Garotinho, o que daria ao candidato do PL mais de 50% dos votos válidos.",
@@ -28,13 +25,13 @@
     "tse",
     "ruas",
     "rio",
+    "douglas",
     "votos",
-    "paes",
-    "garotinho"
+    "paes"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/4837/live/2be3dc50-c31c-11f1-bd97-fbe5a3482cde.jpg",
   "publishedAt": "2026-10-07T23:40:23+00:00",
-  "updatedAt": "2026-10-09T11:24:32.423412+00:00",
+  "updatedAt": "2026-10-09T12:41:34.975192+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -75,7 +72,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-09T10:27:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://imagens.ebc.com.br/ef6HDMEEkvIgTB22ZbqbSpJW_hg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/10/04/eduardopaes_0.jpg?itok=S9QwEAaQ",
       "spectrumScore": 5,
       "bucket": "center"
@@ -117,7 +114,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-09T11:05:00+00:00",
-      "postedLabel": "19 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -131,10 +128,24 @@
       "sourceCanonical": "Blog do Esmael",
       "sourceDomain": "esmaelmorais.com.br",
       "publishedAt": "2026-10-09T11:06:27+00:00",
-      "postedLabel": "18 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_d0f4317e8963",
+      "title": "Zanin nega recurso contra anulação de votos de Garotinho ao governo do RJ",
+      "description": "O TSE decidiu nesta quinta-feira (8) pela retotalização da votação ao Executivo fluminense e abre caminho para eleição de Douglas Ruas no 1º...",
+      "url": "https://jovempan.com.br/politica/zanin-nega-recurso-contra-anulacao-de-votos-de-garotinho-ao-governo-do-rj/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-09T00:34:34+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_cc2790f36c91",
@@ -165,6 +176,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_1cb9a09e878f",
+      "title": "Eduardo Paes reconhece derrota para Douglas Ruas no Rio",
+      "description": "O ex-prefeito do Rio de Janeiro Eduardo Paes (PSD) reconheceu na noite desta quinta-feira, 8, a derrota para Douglas Ruas (PL) na disputa...",
+      "url": "https://veja.abril.com.br/politica/eduardo-paes-reconhece-derrota-para-douglas-ruas-no-rio/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-09T00:59:44+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_048ae6bdd21f",
       "title": "Jurisprudência do TSE indica que votos de Garotinho devem ser computados",
       "description": "Os votos dados a candidato sub judice que participou de todo o processo eleitoral devem ser contabilizados.",
@@ -193,32 +218,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_d0f4317e8963",
-      "title": "Zanin nega recurso contra anulação de votos de Garotinho ao governo do RJ",
-      "description": "O TSE decidiu nesta quinta-feira (8) pela retotalização da votação ao Executivo fluminense e abre caminho para eleição de Douglas Ruas no 1º...",
-      "url": "https://jovempan.com.br/politica/zanin-nega-recurso-contra-anulacao-de-votos-de-garotinho-ao-governo-do-rj/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-09T00:34:34+00:00",
-      "postedLabel": "hoje",
+      "id": "article_380e6a8e4ad5",
+      "title": "Eleição de Douglas Ruas mexe no tabuleiro político de Petrópolis, que já pensa em 2028",
+      "description": "O Tribunal Superior Eleitoral confirmou ontem a inelegibilidade de Anthony Garotinho e, com isso, Douglas Ruas chegou à maioria absoluta dos votos ...",
+      "url": "https://tribunadepetropolis.com.br/noticias/eleicao-de-douglas-ruas-mexe-no-tabuleiro-politico-de-petropolis-que-ja-pensa-em-2028/",
+      "source": "Tribuna de Petrópolis",
+      "sourceCanonical": "Tribuna de Petrópolis",
+      "sourceDomain": "tribunadepetropolis.com.br",
+      "publishedAt": "2026-10-09T07:33:55+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_f4d96264156f",
-      "title": "TRE marca data para retotalização dos votos a governador no Rio",
-      "description": "O Tribunal Regional Eleitoral do Rio (TRE-RJ) marcou para o próximo sábado, 10, às 15h, a retotalização dos votos a governador.",
-      "url": "https://veja.abril.com.br/politica/tre-marca-data-para-retotalizacao-dos-votos-a-governador-no-rio/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-08T19:48:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e7acac8eea76",
@@ -271,20 +282,20 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-08T11:46:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_2a86e30e60e4",
-      "title": "Após Zanin enterrar recurso, Paes reconhece derrota para Ruas",
-      "description": "A divulgação oficial da retotalização dos votos ocorrerá no sábado, porém a expectativa é que o candidato do PL seja decretado vencedor da...",
-      "url": "https://www.cartacapital.com.br/politica/apos-zanin-enterrar-recurso-paes-reconhece-derrota-contra-ruas/",
+      "id": "article_ac44b5e2b300",
+      "title": "TRE fará retotalização de votos para governador do RJ neste sábado",
+      "description": "A expectativa é que a Justiça Eleitoral declare eleito o atual presidente da Assembleia Legislativa Douglas Ruas (PL), que recebeu 4.271.199...",
+      "url": "https://www.cartacapital.com.br/politica/tre-fara-retotalizacao-de-votos-para-governador-do-rj-neste-sabado/",
       "source": "CartaCapital",
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-09T01:00:00+00:00",
+      "publishedAt": "2026-10-08T20:37:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
@@ -299,20 +310,6 @@
       "sourceCanonical": "JOTA Jornalismo",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-10-08T20:20:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_cbbb06a496ad",
-      "title": "TSE anula votos de Garotinho e Ruas deve ser eleito em 1º turno no RJ",
-      "description": "Apesar da unanimidade, dois ministros divergiram quanto à reconsideração dos votos que dá a vitória a Douglas Ruas.",
-      "url": "https://www.congressoemfoco.com.br/noticia/123088/tse-anula-votos-de-garotinho-e-ruas-deve-ser-eleito-em-1-turno-no-rj",
-      "source": "Congresso em Foco",
-      "sourceCanonical": "Congresso em Foco",
-      "sourceDomain": "congressoemfoco.com.br",
-      "publishedAt": "2026-10-08T17:05:17+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
