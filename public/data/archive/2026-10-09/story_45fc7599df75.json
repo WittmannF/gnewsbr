@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 57
+      "topic-8": 58
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 58,
+    "bestSeedRank": 58,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/GINczd3MRQPlMO0aZFP44X1Ko6U=/4000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/r/jLptk7TVeGwIA1OPH2fA/2026-10-06t142830z-1400402375-rc229faavkce-rtrmadp-3-britain-court-google.jpg",
   "publishedAt": "2026-09-30T07:00:00+00:00",
-  "updatedAt": "2026-10-09T12:51:00.774803+00:00",
+  "updatedAt": "2026-10-09T13:49:45.629196+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "Investing.com Brasil",
       "sourceDomain": "br.investing.com",
       "publishedAt": "2026-10-09T10:20:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -100,7 +100,7 @@
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-10-08T13:36:45+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -204,20 +204,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d1adcb05635c",
-      "title": "Bradesco usa Gemini Enterprise do Google e corta revisão de 1h para 5 min",
-      "description": "O Google lançou o Gemini Agent, assistente de IA para tarefas de trabalho, e amplia a disputa com OpenAI e Meta. O agente segue em teste...",
-      "url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/10/08/bradesco-agente-gemini-google-corta-revisao-1h-5-min",
-      "source": "TV Sim Brasil",
-      "sourceCanonical": "TV Sim Brasil",
-      "sourceDomain": "tvsimbrasil.com.br",
-      "publishedAt": "2026-10-08T19:12:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_c4c4e7f0a230",
       "title": "Gemini Agent roda modelos Claude e escolhe sozinho qual usar",
       "description": "Gemini Agent foi anunciado pelo Google em 8 de outubro, durante o evento Gemini at Work 2026. A proposta trata de um agente único e...",
@@ -226,7 +212,7 @@
       "sourceCanonical": "iMasters",
       "sourceDomain": "imasters.com.br",
       "publishedAt": "2026-10-09T11:00:40+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -314,27 +300,41 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_dcf8bce6f8dd",
+      "title": "Google lança Gemini mais potente, mas restringe o acesso por razões de segurança",
+      "description": "Por enquanto, o Gemini Argon está apenas disponível para um “grupo de especialistas em cibersegurança de confiança” devido às crescentes...",
+      "url": "https://www.publico.pt/2026/10/01/enter/noticia/google-lanca-gemini-potente-restringe-acesso-razoes-seguranca-2190020",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-10-01T19:38:11+00:00",
+      "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 3,
     "max": 7,
-    "average": 5.67,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.4,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 8,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
