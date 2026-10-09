@@ -3,36 +3,42 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZcW9XUUVoR0ZSeVE2ckd6dUtDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZcW9XUUVoR0ZSeVE2ckd6dUtDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 32
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 32,
-    "bestSeedRank": 32,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "PoderData/Aya: 48% dos eleitores de Renan vão para Flávio; 25%, para Lula",
   "summary": "Pesquisa entrevistou 3 mil eleitores entre os dias 5 e 7 de outubro; a margem de erro é de 1,8 p.p. com um intervalo de confiança de 95%",
-  "topic": "Lula · Flávio",
+  "topic": "Lula · Datafolha",
   "topicKeywords": [
     "lula",
-    "flávio",
     "datafolha",
+    "flávio",
     "eleitores",
     "aya",
     "renan"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Captura-de-tela-2026-10-04-213811.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-10-08T10:31:00+00:00",
-  "updatedAt": "2026-10-09T06:45:46.914610+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-10-09T07:34:50.718045+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -58,7 +64,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-09T03:51:41+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -162,6 +168,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_1aed55d0cdeb",
+      "title": "Lula diz que não trabalha com pesquisas e foca em votos",
+      "description": "Presidente afirma ter 17 dias para superar Flávio Bolsonaro; Datafolha mostra senador com 52% das intenções de voto, ante 48% do petista.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-diz-que-nao-trabalha-com-pesquisas-e-foca-em-votos/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-08T22:44:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_8009e52fab8b",
       "title": "\"Eu não avalio pesquisa\", diz Lula após Datafolha mostrar Flávio na frente",
       "description": "Após Datafolha divulgada nesta quinta apontar Flávio à frente, Lula disse que não avalia pesquisas e que vai trabalhar para conquistar...",
@@ -260,20 +280,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_51eacf77b4c5",
-      "title": "77% dos eleitores de Renan Santos já definiram voto no 2° turno, aponta pesquisa",
-      "description": "A maior parte dos eleitores que escolheram Renan Santos (Missão) no primeiro turno das eleições presidenciais de 2026 já decidiu como...",
-      "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/77-dos-eleitores-de-renan-santos-ja-definiram-voto-no-2-turno-aponta-pesquisa",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-10-08T16:23:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_f64cc1067efd",
       "title": "Datafolha: 46% dos eleitores rejeitam Lula e Flávio, 43%",
       "description": "Pesquisa Datafolha divulgada nesta quinta-feira (8) aponta que o presidente Luiz Inácio Lula da Silva (PT) é rejeitado por 46% dos eleitores...",
@@ -288,6 +294,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_51eacf77b4c5",
+      "title": "77% dos eleitores de Renan Santos já definiram voto no 2° turno, aponta pesquisa",
+      "description": "A maior parte dos eleitores que escolheram Renan Santos (Missão) no primeiro turno das eleições presidenciais de 2026 já decidiu como...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/77-dos-eleitores-de-renan-santos-ja-definiram-voto-no-2-turno-aponta-pesquisa",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-10-08T16:23:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_a66b793ce908",
       "title": "Datafolha: 46% dos eleitores de candidatos derrotados no 1º turno migram para Flávio Bolsonaro",
       "description": "Pesquisa reforça o movimento de aliados da direita em torno do senador, enquanto Renan Santos é o único que não declarou apoio.",
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_d60749642d17",
-      "title": "Flávio ‘herda’ 46% dos eleitores de presidenciáveis derrotados; Lula ganha 32%",
-      "description": "Levantamento Datafolha mostra migração de eleitores de Cury, Renan, Caiado e Zema no segundo turno presidencial.",
-      "url": "https://www.band.com.br/politica/eleicoes/flavio-herda-46-dos-eleitores-de-presidenciaveis-derrotados-lula-ganha-32",
-      "source": "Band",
-      "sourceCanonical": "Band",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-10-08T22:29:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.74,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 4.75,
+    "knownCount": 20,
+    "unknownCount": 0,
     "buckets": {
       "left": 4,
       "centerLeft": 3,
-      "center": 10,
+      "center": 11,
       "centerRight": 0,
       "right": 2,
-      "unknown": 1
+      "unknown": 0
     }
   },
   "scores": {
