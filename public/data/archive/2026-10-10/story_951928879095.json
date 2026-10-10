@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lsM3YyTEVoSFJTSEl6c1FzU2RpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lsM3YyTEVoSFJTSEl6c1FzU2RpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 42,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 40,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 42,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "PT vai ao TSE para cassar a chapa de Flávio Bolsonaro por esquema com Pablo Marçal",
   "summary": "A campanha à reeleição do presidente Lula (PT) protocolou no Tribunal Superior Eleitoral, nesta quinta-feira 8, uma ação de investigação que...",
@@ -34,8 +40,8 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/1766020419694355431f94f_1766020419_3x2_md.jpg",
   "publishedAt": "2026-10-08T17:11:00+00:00",
-  "updatedAt": "2026-10-10T04:34:16.295908+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-10-10T05:25:45.385010+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -67,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_7c3b9a0dfb4f",
+      "title": "TSE: ministros ordenam que Lula e Janja removam vídeos contra Flávio",
+      "description": "Os ministros Nunes Marques e André Mendonça, respectivamente presidente e vice-presidente do Tribunal Superior Eleitoral (STF),...",
+      "url": "https://mais.opovo.com.br/jornal/politica/2026/10/10/tse-ministros-ordenam-que-lula-e-janja-removam-videos-contra-flavio.html",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-10-10T04:15:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/08/06/crime_eleitoral_denuncia_eleicoes_2026_como_fazer-41955878.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_14e37895b700",
       "title": "PT pede cassação de chapa de Flávio por uso de perfil de Marçal para disseminar fake news e propaganda",
       "description": "PL afirma que Marçal não faz parte da equipe; ele diz ser um 'brasileiro livre'; Ex-candidato à prefeitura de SP anunciou entrada na...",
@@ -90,7 +110,7 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-09T03:19:57+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/05/ministro-andre-mendonca-plenario-stf.jpg?w=1200&h=630&crop=1",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -103,7 +123,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-09T23:55:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -131,20 +151,6 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-10-09T13:49:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_b916193c61c5",
-      "title": "TSE determina que Lula e Janja removam vídeos contra Flávio",
-      "description": "Os ministros Nunes Marques e André Mendonça, respectivamente presidente e vice-presidente do Tribunal Superior Eleitoral (STF),...",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-ministros-ordenam-que-lula-e-janja-removam-videos-contra-flavio",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-10-09T14:04:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -193,20 +199,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_7a90f2a551f3",
-      "title": "Campanha de Lula pede cassação de Flávio por esquema de criptomoedas e fake news",
-      "description": "Coligação denuncia propaganda remunerada e vídeos manipulados contra o presidente; ação também requer suspensão do Instagram de Pablo...",
-      "url": "https://pt.org.br/campanha-de-lula-pede-cassacao-de-flavio-por-esquema-de-criptomoedas-e-fake-news/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-10-09T20:53:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_fc0d5fb5e35e",
       "title": "Flávio Bolsonaro ataca a liberdade de expressão, busca impor a censura no Brasil e tenta derrubar crítica legítima de Laís Gouveia, editora do 247, nas redes sociais",
       "description": "Ação apresentada ao TSE inclui publicação da jornalista do Brasil 247 e pede restrições a conteúdos de veículos de comunicação como Mídia...",
@@ -215,7 +207,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-10-09T23:51:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -249,6 +241,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_afd85a693382",
+      "title": "Mendonça derruba posts de Janones e Lindbergh contra Flávio Bolsonaro",
+      "description": "O ministro André Mendonça, vice-presidente do Tribunal Superior Eleitoral, determinou a remoção de postagens nas redes sociais dos deputados...",
+      "url": "https://www.cartacapital.com.br/politica/mendonca-derruba-posts-de-janones-e-lindbergh-contra-flavio-bolsonaro/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-09T14:15:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_7a32c2a65f0f",
       "title": "PT aciona TSE e pede cassação da chapa de Flávio por uso irregular das redes sociais de Pablo Marçal",
       "description": "",
@@ -263,18 +269,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_691c888db0ff",
-      "title": "Ação de Flávio Bolsonaro pede derrubada de perfil de Liana Cirne e outras páginas",
-      "description": "Uma ação de investigação judicial eleitoral apresentada pela campanha do candidato à Presidência Flávio Bolsonaro (PL) ao Tribunal Superior...",
-      "url": "https://www.folhape.com.br/colunistas/blogdafolha/acao-de-flavio-bolsonaro-pede-derrubada-de-perfil-de-liana-cirne-e-outras-paginas/60395/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-10-09T13:08:00+00:00",
+      "id": "article_7a90f2a551f3",
+      "title": "Campanha de Lula pede cassação de Flávio por esquema de criptomoedas e fake news",
+      "description": "Coligação denuncia propaganda remunerada e vídeos manipulados contra o presidente; ação também requer suspensão do Instagram de Pablo...",
+      "url": "https://pt.org.br/campanha-de-lula-pede-cassacao-de-flavio-por-esquema-de-criptomoedas-e-fake-news/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-10-09T20:53:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_33234a2cdb4c",
@@ -291,20 +297,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_0b2b3bc3eeb5",
-      "title": "Mendonça determina remoção de vídeos de Janones e Lindbergh contra Flávio",
-      "description": "Os conteúdos associavam o senador Flávio Bolsonaro (PL-RJ) a possíveis cortes em programas sociais, mudanças nas aposentadorias e à...",
-      "url": "https://www.correiobraziliense.com.br/politica/2026/10/7517845-mendonca-determina-remocao-de-videos-de-janones-e-lindbergh-contra-flavio.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-10-09T13:06:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e4853c459fd7",
       "title": "Flávio Bolsonaro ganha direito de resposta contra Lula com multa de R$ 10 mil por vídeo após decisão da Justiça Eleitoral",
       "description": "O TSE concedeu direito de resposta a Flávio Bolsonaro e fixou multa de R$ 10 mil para o perfil de Lula por vídeo sobre programas sociais.",
@@ -317,18 +309,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_0b2b3bc3eeb5",
+      "title": "Mendonça determina remoção de vídeos de Janones e Lindbergh contra Flávio",
+      "description": "Os conteúdos associavam o senador Flávio Bolsonaro (PL-RJ) a possíveis cortes em programas sociais, mudanças nas aposentadorias e à...",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/10/7517845-mendonca-determina-remocao-de-videos-de-janones-e-lindbergh-contra-flavio.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-10-09T13:06:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.24,
+    "average": 5.06,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 3,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
       "right": 1,
       "unknown": 3
