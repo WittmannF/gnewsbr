@@ -3,37 +3,40 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPdXR5UkVoR2FDYW8xT1B3MnNpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPdXR5UkVoR2FDYW8xT1B3MnNpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 30
+      "topic-3": 28,
+      "topic-5": 39
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenRank": 28,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "“CHARUTO ENGORDA?”",
+  "title": "Notícias sobre Daniel Vorcaro",
   "summary": "Com o celular apreendido de um investigado, e aqui o caso é o de alguém preso preventivamente por ter aplicado um dos maiores rombos...",
-  "topic": "Celular · Charuto",
+  "topic": "Vorcaro · Charuto",
   "topicKeywords": [
-    "celular",
+    "vorcaro",
     "charuto",
+    "chatgpt",
+    "celular",
     "engorda",
-    "fachin",
-    "cobra",
-    "informações"
+    "preso"
   ],
-  "imageUrl": "https://piaui.uol.com.br/media/_versions/2026/10/daniel-vorcaro-25_85social.jpg",
+  "imageUrl": "https://www.bnews.com.br/media/_versions/2026/10/vorcaro_widexl.jpg",
   "publishedAt": "2026-09-12T07:00:00+00:00",
-  "updatedAt": "2026-10-10T01:06:56.922080+00:00",
-  "sourceCount": 3,
-  "articleCount": 3,
+  "updatedAt": "2026-10-10T01:46:30.775675+00:00",
+  "sourceCount": 5,
+  "articleCount": 5,
   "articles": [
     {
       "id": "article_efde8bd6b56f",
@@ -44,8 +47,22 @@
       "sourceCanonical": "revista piauí",
       "sourceDomain": "piaui.uol.com.br",
       "publishedAt": "2026-10-09T20:26:41+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://piaui.uol.com.br/media/_versions/2026/10/daniel-vorcaro-25_85social.jpg",
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2df1238792dd",
+      "title": "Antes de ser preso, Vorcaro pesquisou no ChatGPT como afastar diretores do Banco Central",
+      "description": "Daniel Vorcaro fez 151 consultas ao ChatGPT entre maio e novembro de 2025, incluindo perguntas sobre o BC, banqueiros presos e processos.",
+      "url": "https://timesbrasil.com.br/brasil/o-que-vorcaro-perguntou-ao-chatgpt-antes-de-ser-preso/",
+      "source": "Times Brasil | CNBC",
+      "sourceCanonical": "Times Brasil | CNBC",
+      "sourceDomain": "timesbrasil.com.br",
+      "publishedAt": "2026-10-10T00:24:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/10/d2203651-vorcaro-banco-central.webp",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -64,6 +81,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_a0093ffbdaf4",
+      "title": "Charuto, mounjaro e prisão: As perguntas inusitadas de Daniel Vorcaro no ChatGPT",
+      "description": "Histórico de pesquisas de Daniel Vorcaro revela suas preocupações com a crise bancária e a possibilidade de prisão.",
+      "url": "https://www.bnews.com.br/noticias/politica/charuto-mounjaro-e-prisao-as-perguntas-inusitadas-de-daniel-vorcaro-no-chatgpt.html",
+      "source": "Bnews",
+      "sourceCanonical": "BNews",
+      "sourceDomain": "bnews.com.br",
+      "publishedAt": "2026-10-10T01:20:00+00:00",
+      "postedLabel": "26 minutos atrás",
+      "imageUrl": "https://www.bnews.com.br/media/_versions/2026/10/vorcaro_widexl.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_c3ff607803f7",
       "title": "O CELULAR QUE SABE DEMAIS",
       "description": "",
@@ -73,31 +104,31 @@
       "sourceDomain": "opergaminho.com.br",
       "publishedAt": "2026-10-05T19:39:00+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": "https://arquivos.opergaminho.com.br/uploads/images/202506/image_750x500_6849cf80f0193.jpg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": null,
-    "max": null,
-    "average": null,
-    "knownCount": 0,
-    "unknownCount": 3,
+    "min": 5,
+    "max": 5,
+    "average": 5,
+    "knownCount": 1,
+    "unknownCount": 4,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 0,
+      "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 0,
-    "spectrumBalance": 0,
+    "coverageDiversity": 20,
+    "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 51
+    "confidence": 58
   },
   "flags": [
     "Muitas fontes não classificadas",
