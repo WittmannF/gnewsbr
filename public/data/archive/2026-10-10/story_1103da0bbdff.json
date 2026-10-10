@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 21
+      "topic-4": 23
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +25,15 @@
     "vorcaro",
     "chatgpt",
     "charuto",
-    "engorda",
     "preso",
+    "engorda",
     "mounjaro"
   ],
   "imageUrl": "https://www.bnews.com.br/media/_versions/2026/10/vorcaro_widexl.jpg",
   "publishedAt": "2026-09-12T07:00:00+00:00",
-  "updatedAt": "2026-10-10T19:24:57.920756+00:00",
-  "sourceCount": 8,
-  "articleCount": 8,
+  "updatedAt": "2026-10-10T20:30:40.825160+00:00",
+  "sourceCount": 9,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_efde8bd6b56f",
@@ -44,8 +44,8 @@
       "sourceCanonical": "revista piauí",
       "sourceDomain": "piaui.uol.com.br",
       "publishedAt": "2026-10-09T20:26:41+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://piaui.uol.com.br/media/_versions/2026/10/daniel-vorcaro-25_85social.jpg",
+      "postedLabel": "ontem",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -86,7 +86,7 @@
       "sourceCanonical": "Jornal O Pergaminho",
       "sourceDomain": "opergaminho.com.br",
       "publishedAt": "2026-10-05T19:39:00+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -134,6 +134,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_d16e3e917fd5",
+      "title": "Vorcaro consultou ChatGPT sobre diretores do BC e juízes antes de ser preso",
+      "description": "Histórico encontrado pela PF no celular do ex-banqueiro reúne 151 perguntas feitas à inteligência artificial sobre BC e juízes.",
+      "url": "https://revistaoeste.com/politica/vorcaro-consultou-chatgpt-sobre-diretores-do-bc-e-juizes-antes-de-ser-preso/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-10-10T19:49:35+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/daniel-vorcaro.jpg.webp",
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
       "id": "article_5e877b763a15",
       "title": "'Charuto engorda?', 'Ozempic ou Mounjaro?' e 'pessoas muito altas morrem com que idade?': Daniel Vorcaro fez 151 perguntas ao ChatGPT antes de ser preso ao tentar deixar o Brasil",
       "description": "Histórico encontrado no celular apreendido pela Polícia Federal reúne dúvidas sobre saúde, viagens e lazer, mas também consultas sobre o...",
@@ -150,24 +164,24 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 5,
-    "average": 4,
-    "knownCount": 3,
+    "max": 10,
+    "average": 5.5,
+    "knownCount": 4,
     "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 2,
       "centerRight": 0,
-      "right": 0,
+      "right": 1,
       "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
-    "confidence": 70
+    "coverageDiversity": 60,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
+    "confidence": 75
   },
   "flags": [
     "Muitas fontes não classificadas",
