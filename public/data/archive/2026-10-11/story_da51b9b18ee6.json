@@ -3,35 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lTbV9LUEVoSDVZdHAwbEkxd095Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lTbV9LUEVoSDVZdHAwbEkxd095Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 12
+      "topic-5": 16,
+      "topic-7": 7
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 16,
+    "bestSeedRank": 7,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Notícias sobre fuzilamento • EUA",
   "summary": "Nidal Hasan foi condenado a morte por massacre em base de Fort Hood; anúncio de que execução será exibida publicamente gera dúvidas.",
-  "topic": "Eua · Execução",
+  "topic": "Execução · Eua",
   "topicKeywords": [
-    "eua",
     "execução",
-    "transmitir",
+    "eua",
     "vivo",
+    "transmitir",
     "fuzilamento",
-    "morte"
+    "trump"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Nidal-Hasan.jpg?w=637&h=424&crop=1",
   "publishedAt": "2026-10-08T22:42:00+00:00",
-  "updatedAt": "2026-10-11T01:17:06.784582+00:00",
+  "updatedAt": "2026-10-11T02:49:01.864066+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,9 +46,23 @@
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-10T14:08:56+00:00",
+      "publishedAt": "2026-10-10T11:08:56+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Nidal-Hasan.jpg?w=637&h=424&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_bf8cdbc9a8b7",
+      "title": "Em comício, apoiadores de Trump defendem execução ao vivo",
+      "description": "A transmissão ao vivo da execução de Nidal Hasan, marcada para 3 de dezembro, foi defendida por apoiadores de Donald Trump em um comício em...",
+      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/10/em-comicio-apoiadores-de-trump-defendem-execucao-ao-vivo.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-10-11T01:35:50+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -78,34 +95,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_1598e323e4ce",
-      "title": "Anistia Internacional repudia transmissão ao vivo de execução de psiquiatra militar nos EUA",
-      "description": "Nidal Hasan matou 13 pessoas durante um tiroteio na base militar norte-americana de Fort Hood em 2009.",
-      "url": "https://jovempan.com.br/mundo/anistia-internacional-repudia-transmissao-ao-vivo-de-execucao-de-psiquiatra-militar-nos-eua/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-09T20:11:51+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/Design-sem-nome-19.png?w=1000&h=600&crop=1",
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_178f0009fcab",
-      "title": "O que a Folha pensa: Pena de morte nos EUA é atraso civilizatório",
-      "description": "Trump expande protocolos e métodos de execução em prisões federais, incluindo fuzilamento.",
-      "url": "https://www1.folha.uol.com.br/opiniao/2026/10/pena-de-morte-nos-eua-e-atraso-civilizatorio.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-10-10T01:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_2eeddefbb49e",
       "title": "Execução pública nos EUA, Parolin: não é aceitável transformar a morte em espetáculo",
       "description": "À margem de um evento em Roma sobre John Henry Newman, o secretário de Estado comenta a decisão do Pentágono de transmitir por streaming o...",
@@ -120,20 +109,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f0b814a5a603",
-      "title": "EUA recuam e Trump diz que não sabe se vai transmitir execução de condenado por massacre",
-      "description": "Presidente americano afirmou que Nidal Hasan será executado em 3 de dezembro, mas que governo ainda não decidiu sobre transmissão ao vivo.",
-      "url": "https://www.estadao.com.br/internacional/eua-recuam-e-trump-diz-que-nao-sabe-se-vai-transmitir-execucao-de-condenado-por-massacre-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-09T22:32:10+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_f2df6f90ec31",
       "title": "ONU chama de “repugnante” plano dos EUA de transmitir execução ao vivo",
       "description": "Fuzilamento de Nidal Hasan está marcado para 3 de dezembro. Ele foi condenado por matar 13 pessoas, ao abrir fogo em um centro médico da...",
@@ -146,6 +121,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_f0b814a5a603",
+      "title": "EUA recuam e Trump diz que não sabe se vai transmitir execução de condenado por massacre",
+      "description": "Presidente americano afirmou que Nidal Hasan será executado em 3 de dezembro, mas que governo ainda não decidiu sobre transmissão ao vivo.",
+      "url": "https://www.estadao.com.br/internacional/eua-recuam-e-trump-diz-que-nao-sabe-se-vai-transmitir-execucao-de-condenado-por-massacre-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-09T22:32:10+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_bbaf24e48e15",
@@ -260,6 +249,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_1598e323e4ce",
+      "title": "Anistia Internacional repudia transmissão ao vivo de execução de psiquiatra militar nos EUA",
+      "description": "Nidal Hasan matou 13 pessoas durante um tiroteio na base militar norte-americana de Fort Hood em 2009.",
+      "url": "https://jovempan.com.br/mundo/anistia-internacional-repudia-transmissao-ao-vivo-de-execucao-de-psiquiatra-militar-nos-eua/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-09T20:11:51+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_22886d2b1c3c",
       "title": "Trump diz que atirador é ‘maníaco’ e ‘merece’ fuzilamento; EUA devem transmitir execução",
       "description": "O presidente dos EUA, Donald Trump, afirmou que Nidal Malik Hasan, condenado pelo assassinato de 13 pessoas em uma base militar americana em...",
@@ -319,13 +322,13 @@
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.82,
+    "average": 4.88,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 3,
-      "centerLeft": 4,
-      "center": 6,
+      "centerLeft": 3,
+      "center": 7,
       "centerRight": 3,
       "right": 1,
       "unknown": 3
