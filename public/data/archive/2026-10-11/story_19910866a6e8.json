@@ -4,19 +4,25 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0ME1XREVoRl9kcTMxY2stLVlpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-3",
+    "topic-5",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "home": 1,
-      "topstories": 1
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 4,
+      "topic-5": 1
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 1,
+    "firstSeenRank": 2,
     "bestSeedRank": 1,
     "isHomeTop": true,
     "isTopStoriesTop": true
@@ -33,8 +39,8 @@
     "eleito"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/douglas-ruas-votando-rio-1200x675.jpg",
-  "publishedAt": "2026-10-08T18:49:00+00:00",
-  "updatedAt": "2026-10-11T02:41:22.792671+00:00",
+  "publishedAt": "2026-10-08T17:24:39+00:00",
+  "updatedAt": "2026-10-11T03:34:34.250253+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-10-10T21:05:26+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/10/douglas-ruas-votando-rio-1200x675.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,7 +67,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-10T22:11:56+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/3jYxhVzy2f-oAZbkSyXvU9eA7eY=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/R/G9RThWSci8vzPopHscBg/douglas1.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -75,7 +81,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-10T22:15:19+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -111,44 +117,16 @@
     {
       "id": "article_3c560d383950",
       "title": "TRE retotaliza votos para cargo de governador no RJ neste sábado",
-      "description": "Medida vem após decisão do TSE de anular os votos de Anthony Garotinho (Republicanos) e abrir espaço para a eleição de Douglas Ruas (PL) em...",
+      "description": "Medida vem após decisão do TSE de anular os votos de Anthony Garotinho (Republicanos) e abrir espaço para a eleição de Douglas Ruas (PL) em primeiro turno.",
       "url": "https://www.cnnbrasil.com.br/eleicoes/tre-retotaliza-votos-para-cargo-de-governador-no-rio-de-janeiro-hoje/",
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-10T01:18:42+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_b700b37f4770",
-      "title": "Entenda o que acontece com investigação sobre Douglas Ruas após eleição",
-      "description": "Deputado estadual Douglas Ruas (PL-RJ) venceu a eleição ao governo do RJ em 1° turno, após a retotalização dos votos neste sábado (10/10)",
-      "url": "https://www.metropoles.com/brasil/investigacao-douglas-ruas-eleicao",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-10T07:30:00+00:00",
+      "publishedAt": "2026-10-10T16:41:36+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_63386a9d4ab0",
-      "title": "Por que os votos de Garotinho foram anulados? Entenda a decisão do TSE",
-      "description": "Ex-governador teve 274 mil votos invalidados por estar com os direitos políticos suspensos e não ter filiação partidária válida;...",
-      "url": "https://jovempan.com.br/politica/por-que-os-votos-de-garotinho-foram-anulados-entenda-a-decisao-do-tse/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-10T14:54:13+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_cc2790f36c91",
@@ -165,6 +143,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_b700b37f4770",
+      "title": "Entenda o que acontece com investigação sobre Douglas Ruas após eleição",
+      "description": "Deputado estadual Douglas Ruas (PL-RJ) venceu a eleição ao governo do RJ em 1° turno, após a retotalização dos votos neste sábado (10/10)",
+      "url": "https://www.metropoles.com/brasil/investigacao-douglas-ruas-eleicao",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-10T07:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b3abfb043a82",
+      "title": "Após anulação de votos de Garotinho, TRE oficializa Douglas Ruas como governador eleito do Rio",
+      "description": "Retotalização dos votos após decisão do TSE que anulou votação de Anthony Garotinho garantiu vitória do candidato do PL no primeiro turno.",
+      "url": "https://jovempan.com.br/politica/apos-anulacao-de-votos-de-garotinho-tre-oficializa-douglas-ruas-como-governador-eleito-do-rio/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-10T18:11:16+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_e13548ba46e2",
       "title": "Retotalização de votos aponta Douglas Ruas como vencedor no primeiro turno para o governo do RJ",
       "description": "Com a anulação dos votos de Garotinho, candidato do PL alcança mais da metade dos votos válidos, resultado que dispensa segundo turno.",
@@ -177,20 +183,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_c1a78a53a9c9",
-      "title": "Douglas Ruas: por que candidato deve se tornar governador do Rio dias depois do 1º turno",
-      "description": "TSE formou maioria para declarar nulos os votos de Anthony Garotinho, o que daria ao candidato do PL mais de 50% dos votos válidos.",
-      "url": "https://www.bbc.com/portuguese/articles/c8zxl5365315o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-10-09T02:26:12+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_16183f87e1bc",
@@ -207,6 +199,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_c1a78a53a9c9",
+      "title": "Douglas Ruas: por que candidato deve se tornar governador do Rio dias depois do 1º turno",
+      "description": "TSE formou maioria para declarar nulos os votos de Anthony Garotinho, o que daria ao candidato do PL mais de 50% dos votos válidos.",
+      "url": "https://www.bbc.com/portuguese/articles/c8zxl5365315o",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-10-09T02:26:12+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_b1042efdf07c",
       "title": "Vitória de Ruas é ataque à soberania popular, diz professor",
       "description": "O cientista político e professor Aldo Fornazieri criticou a atuação da Justiça Eleitoral após a retotalização dos votos que confirmou a...",
@@ -215,21 +221,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-10-10T23:54:51+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_bce996ec5c86",
-      "title": "Quem é Douglas Ruas, eleito governador do RJ após TSE anular votos de Garotinho",
-      "description": "A disputa pelo governo do Rio de Janeiro foi encerrada sem que os eleitores fossem às urnas em 25 de outubro para a votação no segundo turno...",
-      "url": "https://www.infomoney.com.br/politica/quem-e-douglas-ruas-o-candidato-que-pode-ser-declarado-eleito-governador-do-rj/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-10T18:59:22+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -249,6 +241,48 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_50ef7fa08d8f",
+      "title": "Entenda o que TSE decidiu sobre Garotinho e como fica a eleição no RJ",
+      "description": "Novo cálculo sem os votos de Garotinho eleva Douglas Ruas a cerca de 50,88% dos votos válidos, assegurando vitória em primeiro turno.",
+      "url": "https://www.congressoemfoco.com.br/noticia/123102/entenda-o-que-tse-decidiu-sobre-garotinho-e-como-fica-a-eleicao-no-rj",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-10-08T17:24:39+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_bce996ec5c86",
+      "title": "Quem é Douglas Ruas, eleito governador do RJ após TSE anular votos de Garotinho",
+      "description": "A disputa pelo governo do Rio de Janeiro foi encerrada sem que os eleitores fossem às urnas em 25 de outubro para a votação no segundo turno...",
+      "url": "https://www.infomoney.com.br/politica/quem-e-douglas-ruas-o-candidato-que-pode-ser-declarado-eleito-governador-do-rj/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-10T18:59:22+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_61f7705a4310",
+      "title": "Douglas Ruas é confirmado como governador eleito do RJ, o mais jovem do estado em 5 décadas",
+      "description": "O presidente da Alerj (Assembleia Legislativa do Rio de Janeiro), Douglas Ruas (PL), 37, foi confirmado neste sábado (10) como governador.",
+      "url": "https://iclnoticias.com.br/douglas-ruas-e-confirmado-como-governador/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-10-10T20:31:17+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_d1eebd123100",
       "title": "TRE-RJ confirma vitória de Douglas Ruas ao governo do Rio no 1º turno",
       "description": "O Tribunal Regional Eleitoral do Rio de Janeiro realizou neste sábado 10 a retotalização dos votos do primeiro turno das eleições para o...",
@@ -261,20 +295,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_2c924606b37d",
-      "title": "TRE-RJ recalcula resultado da eleição para governador neste sábado; veja os próximos passos",
-      "description": "O TRE-RJ (Tribunal Regional Eleitoral do Rio de Janeiro) recalcula o resultado do 1º turno da eleição para governador do Rio na tarde deste...",
-      "url": "https://noticias.r7.com/rio-de-janeiro/tre-rj-recalcula-resultado-da-eleicao-para-governador-neste-sabado-veja-os-proximos-passos-10102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-10T05:00:01+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_cdc9b1c289d2",
@@ -303,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_61f7705a4310",
-      "title": "Douglas Ruas é confirmado como governador eleito do RJ, o mais jovem do estado em 5 décadas",
-      "description": "O presidente da Alerj (Assembleia Legislativa do Rio de Janeiro), Douglas Ruas (PL), 37, foi confirmado neste sábado (10) como governador.",
-      "url": "https://iclnoticias.com.br/douglas-ruas-e-confirmado-como-governador/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-10-10T20:31:17+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.47,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.38,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 9,
-      "centerRight": 4,
+      "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
