@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3MllPVEVoR2UzaGNBSFQwS2VTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3MllPVEVoR2UzaGNBSFQwS2VTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 13
+      "topic-3": 12,
+      "topic-5": 8
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 13,
-    "bestSeedRank": 13,
+    "firstSeenRank": 12,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,14 +28,14 @@
     "vorcaro",
     "flávio",
     "bolsonaro",
-    "master",
     "casa",
-    "daniel"
+    "encontro",
+    "master"
   ],
   "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/09/orebn.jpg?w=1200&quality=88&strip=all",
   "publishedAt": "2026-09-30T07:00:00+00:00",
-  "updatedAt": "2026-10-11T14:25:56.830621+00:00",
-  "sourceCount": 17,
+  "updatedAt": "2026-10-11T15:24:28.989650+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -44,7 +47,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-10-11T09:30:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/09/orebn.jpg?w=1200&quality=88&strip=all",
       "spectrumScore": 1,
       "bucket": "left"
@@ -58,10 +61,24 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-10-11T08:44:28+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/ZSIJ6z4b6NrA9sEjSclF1JgKqSY=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/f/f/vQmYX4TFAOjE6aBizhbw/arte.png",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_c5d5f421474d",
+      "title": "O aliado incômodo de Flávio Bolsonaro e a associação com Vorcaro que ele quer evitar",
+      "description": "Investigado pela relação com Daniel Vorcaro, o senador Ciro Nogueira é visto como um aliado que pode trazer desgaste para o presidenciável...",
+      "url": "https://www.estadao.com.br/politica/coluna-do-estadao/o-aliado-incomodo-de-flavio-bolsonaro-e-a-associacao-com-vorcaro-que-ele-quer-evitar/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-11T15:00:00+00:00",
+      "postedLabel": "24 minutos atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/IRO557YO5NF35DKGCEU3QBHCB4.jpg?quality=80&auth=aa4c1620178271b02a6212e727649059cecce56a10d4a6ec38379a1322b3c075&width=1200&height=630&focal=2695,1438",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_71265f5cff00",
@@ -92,20 +109,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_04416f92b85d",
-      "title": "Flávio Bolsonaro ligou para Vorcaro logo após banqueiro deixar a prisão",
-      "description": "Informação foi revelada pela jornalista Juliana Dal Piva, do ICL Notícias; reportagem recuperar mensagens antigas de candidato do PL a...",
-      "url": "https://www.metro1.com.br/noticias/eleicoes-2026/189602,flavio-bolsonaro-ligou-para-vorcaro-logo-apos-banqueiro-deixar-a-prisao",
-      "source": "Rádio Metrópole",
-      "sourceCanonical": "Rádio Metrópole",
-      "sourceDomain": "metro1.com.br",
-      "publishedAt": "2026-10-09T19:26:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_bd8950281335",
       "title": "Logo após ser solto, Daniel Vorcaro recebeu ligação de Flávio Bolsonaro",
       "description": "Uma das primeiras pessoas que telefonou para o dono do Banco Master, Daniel Vorcaro, logo após ele deixar a prisão, no sábado, 29 de...",
@@ -115,7 +118,7 @@
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-10-09T17:00:07+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/09/vorcaroflaviobolsonaro-1.webp",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
@@ -162,6 +165,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_04416f92b85d",
+      "title": "Flávio Bolsonaro ligou para Vorcaro logo após banqueiro deixar a prisão",
+      "description": "Informação foi revelada pela jornalista Juliana Dal Piva, do ICL Notícias; reportagem recuperar mensagens antigas de candidato do PL a...",
+      "url": "https://www.metro1.com.br/noticias/eleicoes-2026/189602,flavio-bolsonaro-ligou-para-vorcaro-logo-apos-banqueiro-deixar-a-prisao",
+      "source": "Rádio Metrópole",
+      "sourceCanonical": "Rádio Metrópole",
+      "sourceDomain": "metro1.com.br",
+      "publishedAt": "2026-10-09T19:26:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_ba016ed1cf6a",
+      "title": "Mensagens da PF apontam visita de Flávio Bolsonaro à casa de Vorcaro em dia decisivo para o Banco Master",
+      "description": "O senador Flávio Bolsonaro (PL), candidato à Presidência da República, esteve na casa de Daniel Vorcaro, ex-dono do Banco Master, em...",
+      "url": "https://redemrio.com.br/mensagens-da-pf-apontam-visita-de-flavio-bolsonaro-a-casa-de-vorcaro-em-dia-decisivo-para-o-banco-master/",
+      "source": "redemrio.com.br",
+      "sourceCanonical": "redemrio.com.br",
+      "sourceDomain": "redemrio.com.br",
+      "publishedAt": "2026-10-11T15:12:00+00:00",
+      "postedLabel": "12 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_4fcbafd27e50",
       "title": "Mensagens ligam Flávio Bolsonaro a encontro na casa de Daniel Vorcaro com Ciro Nogueira",
       "description": "Mensagens recuperadas pela PF indicam encontro de Flávio Bolsonaro e Ciro Nogueira na casa de Daniel Vorcaro, em Brasília.",
@@ -170,21 +201,21 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-10-11T11:56:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
     {
-      "id": "article_8868ad7b38a6",
-      "title": "Flávio Bolsonaro foi à casa de Vorcaro no dia decisivo para o Banco Master",
-      "description": "Flávio Bolsonaro esteve na casa de Vorcaro com Ciro Nogueira. Mensagens da PF revelam bastidores do encontro no dia de decisão sobre Master.",
-      "url": "https://agendadopoder.com.br/flavio-bolsonaro-foi-a-casa-de-vorcaro-no-dia-decisivo-para-o-banco-master/",
-      "source": "Agenda do Poder",
-      "sourceCanonical": "Agenda do Poder",
-      "sourceDomain": "agendadopoder.com.br",
-      "publishedAt": "2026-10-11T13:15:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_2238080975e9",
+      "title": "O encontro de Flávio Bolsonaro na casa de Vorcaro em Brasília com Ciro Nogueira",
+      "description": "Candidato do PL a presidente é pego na mentira mais uma vez. De Lauro Jardim, em O Globo: Daniel Vorcaro fez questão de ficar em Brasília no...",
+      "url": "https://angelorigon.com.br/2026/10/11/o-encontro-de-flavio-bolsonaro-na-casa-de-vorcaro-em-brasilia-com-ciro-nogueira/",
+      "source": "Angelo Rigon",
+      "sourceCanonical": "Angelo Rigon",
+      "sourceDomain": "angelorigon.com.br",
+      "publishedAt": "2026-10-11T11:51:37+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +229,7 @@
       "sourceCanonical": "O Antagonista",
       "sourceDomain": "oantagonista.com.br",
       "publishedAt": "2026-10-11T10:36:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -226,7 +257,7 @@
       "sourceCanonical": "Farol da Bahia",
       "sourceDomain": "faroldabahia.com.br",
       "publishedAt": "2026-10-09T14:59:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,7 +285,7 @@
       "sourceCanonical": "BNews",
       "sourceDomain": "bnews.com.br",
       "publishedAt": "2026-10-11T11:17:14+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -286,49 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_a29aca5ab9fa",
-      "title": "Flávio Bolsonaro se reuniu com Vorcaro na noite em que foi selada a compra do Master pelo BRB, aponta PF",
-      "description": "O senador Flávio Bolsonaro (PL) e o ex-ministro Ciro Nogueira (PP) estiveram na casa de Daniel Vorcaro, ex-dono do Banco Master, no Lago Sul...",
-      "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-vorcaro-compra-master/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-10-11T14:07:53+00:00",
-      "postedLabel": "18 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_bcfe622fd79c",
-      "title": "Flávio Bolsonaro ligou para Daniel Vorcaro logo após saída da prisão, diz reportagem",
-      "description": "Flávio Bolsonaro telefonou para Daniel Vorcaro após o banqueiro deixar a prisão em Guarulhos, sob monitoramento por tornozeleira eletrônica.",
-      "url": "https://www.diariodocentrodomundo.com.br/flavio-bolsonaro-ligou-vorcaro-apos-saidaprisao/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
-      "sourceDomain": "diariodocentrodomundo.com.br",
-      "publishedAt": "2026-10-09T09:28:33+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 3.55,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 4.2,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 6,
+      "left": 4,
       "centerLeft": 1,
       "center": 3,
-      "centerRight": 1,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {

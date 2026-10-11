@@ -24,14 +24,14 @@
   "topicKeywords": [
     "sarampo",
     "vacinação",
-    "surto",
     "casos",
-    "intensifica",
-    "estado"
+    "surto",
+    "estado",
+    "ações"
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/10/06/675x450/1_55564750181-9c77b98ab4-c-67885951.jpg",
   "publishedAt": "2026-10-05T21:45:00+00:00",
-  "updatedAt": "2026-10-11T14:24:52.777471+00:00",
+  "updatedAt": "2026-10-11T15:23:31.113356+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -184,7 +184,7 @@
       "sourceCanonical": "Capital News",
       "sourceDomain": "capitalnews.com.br",
       "publishedAt": "2026-10-09T15:09:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1a07474d8bef",
-      "title": "Amazonas tem 10 casos confirmados de sarampo desde setembro; 9 pacientes não eram vacinados",
-      "description": "O Amazonas já confirmou 10 casos de sarampo desde setembro, todos na região da tríplice fronteira entre Brasil, Peru e Colômbia.",
-      "url": "https://noticias.r7.com/amazonas/amazonas-tem-10-casos-confirmados-de-sarampo-desde-setembro-9-pacientes-nao-eram-vacinados-08102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-08T16:15:58+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_407cdab1273c",
       "title": "Uberaba não registra casos de sarampo há três anos, mas cobertura vacinal preocupa",
       "description": "Município tem 36 notificações da doença, com um caso ainda em investigação; dados acumulados desde 1997 mostram que apenas 33,48% receberam...",
@@ -226,7 +212,7 @@
       "sourceCanonical": "JM Online",
       "sourceDomain": "jmonline.com.br",
       "publishedAt": "2026-10-11T11:57:48+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -244,6 +230,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_895fcd5f26c5",
+      "title": "Saúde do Amazonas alerta para vacinação contra o sarampo após registro de dez casos",
+      "description": "A Secretaria de Estado de Saúde reforça a importância da vacinação contra o sarampo. No Amazonas, dez casos da doença foram confirmados,...",
+      "url": "https://radioriomarfm.com.br/saude-do-amazonas-alerta-para-vacinacao-contra-o-sarampo-apos-registro-de-dez-casos/",
+      "source": "Rádio Rio Mar",
+      "sourceCanonical": "Rádio Rio Mar",
+      "sourceDomain": "radioriomarfm.com.br",
+      "publishedAt": "2026-10-09T09:08:20+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_26cd2fe20cf5",
@@ -302,15 +302,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3ed19fe22801",
-      "title": "Marituba intensifica vacinação contra o sarampo",
-      "description": "A Prefeitura de Marituba, por meio da Secretaria Municipal de Saúde (Sesau), intensifica as ações de vacinação contra o sarampo até esta...",
-      "url": "https://marituba.pa.gov.br/site/marituba-intensifica-vacinacao-contra-o-sarampo/",
-      "source": "Prefeitura Municipal de Marituba - PA",
-      "sourceCanonical": "Prefeitura Municipal de Marituba - PA",
-      "sourceDomain": "marituba.pa.gov.br",
-      "publishedAt": "2026-10-07T15:25:15+00:00",
-      "postedLabel": "3 dias atrás",
+      "id": "article_908662c318e7",
+      "title": "Sarampo: Brasil registra 52 casos em 2026, todos importados",
+      "description": "O Ministério da Saúde registrou 52 casos de sarampo no Brasil em 2026, sendo 41 em São Paulo, dez no Amazonas e um no Rio de Janeiro.",
+      "url": "https://ojornalextra.com.br/noticias/brasil/2026/10/132256-sarampo-brasil-registra-52-casos-em-2026-todos-importados",
+      "source": "Jornal Extra Alagoas",
+      "sourceCanonical": "Jornal Extra Alagoas",
+      "sourceDomain": "ojornalextra.com.br",
+      "publishedAt": "2026-10-10T14:20:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,23 +318,23 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 5,
+    "average": 4.75,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
       "center": 6,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 40,
+    "spectrumBalance": 27,
+    "headlineDivergence": 73,
     "confidence": 95
   },
   "flags": [
