@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 16
+      "topic-7": 18
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 16,
-    "bestSeedRank": 16,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "rússia",
     "ataques",
     "ataque",
-    "mortos",
-    "mata"
+    "mata",
+    "trump"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/ataque-russia-ucrania-sancoes-diesel.jpg?w=960&h=540&crop=1",
-  "publishedAt": "2026-10-09T07:00:52+00:00",
-  "updatedAt": "2026-10-11T15:32:06.136496+00:00",
+  "publishedAt": "2026-10-04T18:35:15+00:00",
+  "updatedAt": "2026-10-11T16:35:56.166009+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-10T16:15:35+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/ataque-russia-ucrania-sancoes-diesel.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -142,7 +142,7 @@
       "sourceCanonical": "Euronews.com",
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-10-11T11:30:35+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_598ef207b121",
-      "title": "Ataques russos no sul da Ucrânia deixam 15 mortos, incluindo três crianças",
-      "description": "A capital Kiev registrou neste sábado 'cortes de eletricidade em larga escala' em consequência da ação.",
-      "url": "https://jovempan.com.br/mundo/ataques-russos-no-sul-da-ucrania-deixam-15-mortos-incluindo-tres-criancas/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-10T14:51:27+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_566fbd60a3f0",
       "title": "Rússia ataca residências na Ucrânia um dia após acordo com Trump para venda de diesel",
       "description": "Trump havia concordado em ajudar a liberar o diesel russo para os mercados globais após uma ligação com Putin; pelo menos 17 pessoas...",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_5052f079f5b1",
+      "title": "Rússia volta a atacar uma das principais pontes de Kiev durante visita de Merz | Guerra na Ucrânia",
+      "description": "A visita-surpresa do chanceler alemão à capital ucraniana serviu para anunciar um novo pacote de apoios e garantir que a Alemanha não será...",
+      "url": "https://www.publico.pt/2026/10/04/mundo/noticia/russia-volta-atacar-principais-pontes-kiev-durante-visita-merz-2190278",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-10-04T18:35:15+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 4,
-    "max": 9,
-    "average": 5.56,
+    "min": 3,
+    "max": 7,
+    "average": 5.19,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 0,
-      "centerLeft": 3,
+      "centerLeft": 4,
       "center": 9,
       "centerRight": 3,
-      "right": 1,
+      "right": 0,
       "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
