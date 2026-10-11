@@ -25,13 +25,13 @@
     "dólar",
     "semana",
     "ibovespa",
-    "recorde",
     "bolsa",
-    "fecha"
+    "fecha",
+    "recorde"
   ],
   "imageUrl": "https://www.moneytimes.com.br/uploads/2025/10/small-caps-carteira-recomendada-1-1-1-1.jpg",
   "publishedAt": "2026-10-05T14:13:34+00:00",
-  "updatedAt": "2026-10-11T06:49:55.435759+00:00",
+  "updatedAt": "2026-10-11T07:44:22.202389+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -162,20 +162,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_4511fb15dad2",
-      "title": "Mercado olha juro longo, estrangeiro e compromisso fiscal para seguir voo",
-      "description": "Após primeiro turno, Ibovespa subiu mais de 8% na semana, registrando o melhor desempenho desde março de 2020 e batendo novo recorde aos 209...",
-      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-olha-juro-longo-estrangeiro-e-compromisso-fiscal-para-seguir-voo/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-10T08:00:08+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_2dccd4587b91",
       "title": "Eleições, Ibovespa supera 200 mil pontos e macroeconomia; veja os destaques da semana",
       "description": "Os desdobramentos das eleições no primeiro turno impulsionaram os ativos locais, refletindo o otimismo dos investidores quanto ao avanço de...",
@@ -187,6 +173,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_4511fb15dad2",
+      "title": "Mercado olha juro longo, estrangeiro e compromisso fiscal para seguir voo",
+      "description": "Após primeiro turno, Ibovespa subiu mais de 8% na semana, registrando o melhor desempenho desde março de 2020 e batendo novo recorde aos 209...",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-olha-juro-longo-estrangeiro-e-compromisso-fiscal-para-seguir-voo/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-10T08:00:08+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -246,6 +246,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_6c9a0c504386",
+      "title": "Ibovespa supera 209 mil pontos e encerra semana com alta de 11,17%",
+      "description": "Bolsa brasileira registra recordes de fechamento e intradiário, com avanço de bancos, varejistas e construtoras. Giro financeiro chega a R$...",
+      "url": "https://www.brasil247.com/economia/ibovespa-supera-209-mil-pontos-e-encerra-semana-com-alta-de-1117/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-10T01:18:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_28c9ba749712",
       "title": "Ibovespa bate novo recorde com Flávio à frente de Lula em pesquisas",
       "description": "Por Igor Sodre SÃO PAULO, 9 Out (Reuters) - O Ibovespa encerrou a sexta-feira em alta, com o índice batendo novos recordes históricos...",
@@ -268,20 +282,6 @@
       "sourceCanonical": "Istoé Dinheiro",
       "sourceDomain": "istoedinheiro.com.br",
       "publishedAt": "2026-10-09T17:53:36+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d6a7efd6caeb",
-      "title": "Ibovespa tem maior alta semanal em 6 anos e bate recorde",
-      "description": "O dólar fechou em queda de 0,79% nesta sexta-feira, cotado a R$ 4985, acumulando queda de 4,43% frente ao real.",
-      "url": "https://sbtnews.sbt.com.br/noticia/economia/ibovespa-tem-maior-alta-semanal-em-6-anos-e-bate-recorde",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-09T22:13:32+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
@@ -317,28 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 7,
-    "average": 5.76,
+    "average": 5.47,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 12,
+      "center": 11,
       "centerRight": 4,
       "right": 0,
       "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
