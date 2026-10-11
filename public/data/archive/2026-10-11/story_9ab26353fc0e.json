@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZeHRxVEVoR0c4Z2pfcWNOam5pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZeHRxVEVoR0c4Z2pfcWNOam5pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-3": 1,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "TSE questiona Meta, dona do Instagram, após campanha de Lula acusar empresa de favorecer Flávio Bolsonaro",
   "summary": "O ministro do Tribunal Superior Eleitoral (TSE) Marco Aurélio Bellizze determinou neste sábado que a Meta, dona das redes Instagram e...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/Kfg5xX9sU4AmTJr2zc7TT211SoU=/1368x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/x/C/hvDjVlTWi1dtMTnnACnA/whatsapp-image-2026-10-09-at-13.09.47.jpeg",
   "publishedAt": "2026-10-09T13:53:00+00:00",
-  "updatedAt": "2026-10-11T08:33:22.706026+00:00",
+  "updatedAt": "2026-10-11T09:26:24.595590+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -95,20 +101,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_ef441413af90",
-      "title": "Campanha do presidente Lula denuncia interferência da Meta: democracia em xeque",
-      "description": "Coligação aponta uma série de problemas, como retirada de perfis e engajamento baixo, nunca explicados, e vai acionar o TSE e apresentar...",
-      "url": "https://pt.org.br/campanha-do-presidente-lula-denuncia-interferencia-da-meta-democracia-em-xeque/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-10-10T15:42:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_5d094fb5b932",
       "title": "Alegações da campanha de Lula são falsas e não encontram respaldo, diz Meta",
       "description": "Campanha do petista acusou empresa de tentativa de interferência no processo eleitoral.",
@@ -121,6 +113,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_49b01bcbf3b5",
+      "title": "TSE questiona Meta depois de campanha de Lula apontar ‘interferência’ nas eleições",
+      "description": "O Tribunal Superior Eleitoral (TSE) solicitou neste sábado, 10, explicações à Meta após a campanha do presidente Luiz Inácio Lula da Silva...",
+      "url": "https://veja.abril.com.br/brasil/tse-questiona-meta-depois-de-campanha-de-lula-apontar-interferencia-nas-eleicoes/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-11T00:57:06+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_64ba5030729d",
@@ -151,6 +157,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_ef441413af90",
+      "title": "Campanha do presidente Lula denuncia interferência da Meta: democracia em xeque",
+      "description": "Coligação aponta uma série de problemas, como retirada de perfis e engajamento baixo, nunca explicados, e vai acionar o TSE e apresentar...",
+      "url": "https://pt.org.br/campanha-do-presidente-lula-denuncia-interferencia-da-meta-democracia-em-xeque/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-10-10T15:42:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_fbe7dbe54ca9",
       "title": "Campanha de Lula acusa dona do Instagram e Facebook de interferir em favor de Flávio Bolsonaro",
       "description": "A campanha de reeleição do presidente Lula (PT) acusou neste sábado (10) a Meta, empresa de tecnologia americana dona do Facebook.",
@@ -163,20 +183,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_49b01bcbf3b5",
-      "title": "TSE questiona Meta depois de campanha de Lula apontar ‘interferência’ nas eleições",
-      "description": "O Tribunal Superior Eleitoral (TSE) solicitou neste sábado, 10, explicações à Meta após a campanha do presidente Luiz Inácio Lula da Silva...",
-      "url": "https://veja.abril.com.br/brasil/tse-questiona-meta-depois-de-campanha-de-lula-apontar-interferencia-nas-eleicoes/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-11T00:57:06+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_674879d6d580",
@@ -193,20 +199,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c2c758168c91",
-      "title": "TSE dá 48h para dona do Instagram explicar suposta redução de alcance de posts de Lula e aliados",
-      "description": "Meta nega acusação da campanha petista e diz se comprometer com a isonomia entre os candidatos.",
-      "url": "https://exame.com/brasil/tse-da-48h-para-dona-do-instagram-explicar-suposta-reducao-de-alcance-de-posts-de-lula-e-aliados/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-10T20:20:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_ea3d1ae37aeb",
       "title": "Prerrogativas critica favorecimento da Meta a Flávio Bolsonaro e pede investigação sobre interferência estrangeira na eleição",
       "description": "247 – O coletivo de juristas Grupo Prerrogativas manifestou neste sábado (10) preocupação com os fortes indícios de manipulação pela Meta,...",
@@ -219,6 +211,20 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_c2c758168c91",
+      "title": "TSE dá 48h para dona do Instagram explicar suposta redução de alcance de posts de Lula e aliados",
+      "description": "Meta nega acusação da campanha petista e diz se comprometer com a isonomia entre os candidatos.",
+      "url": "https://exame.com/brasil/tse-da-48h-para-dona-do-instagram-explicar-suposta-reducao-de-alcance-de-posts-de-lula-e-aliados/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-10-10T20:20:07+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_0d3f31b646c9",
