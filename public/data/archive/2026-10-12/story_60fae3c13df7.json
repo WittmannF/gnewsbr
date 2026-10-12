@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laaVpTTUVoR0JWd1NrbndKaVZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laaVpTTUVoR0JWd1NrbndKaVZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Conflito entre Arábia Saudita e Houthis ganha nova escalada",
+  "title": "Aeroportos na Arábia Saudita são alvos de mísseis dos Houthis",
   "summary": "Aeroporto Rei Khalid, 2º mais importante da Arábia Saudita, foi atacado três vezes desde quinta (8). Houthis reivindicaram responsabilidade...",
   "topic": "Saudita · Arábia",
   "topicKeywords": [
     "saudita",
     "arábia",
-    "aeroporto",
     "ataques",
+    "aeroporto",
     "houthis",
     "ataque"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/fIawYZEh4htD1oTmcxhwb3U7yuw=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/d/aA0aW6RkSgzPx8VTvdLw/design-sem-nome-2026-10-12t073039.135.jpg",
   "publishedAt": "2026-10-11T02:54:01+00:00",
-  "updatedAt": "2026-10-12T21:31:06.714610+00:00",
+  "updatedAt": "2026-10-12T22:25:28.879035+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,6 +56,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_57c8390e5315",
+      "title": "Ataques mantêm aeroporto de capital saudita fechado esta semana",
+      "description": "Os houthis afirmaram em um comunicado que atacaram uma base aérea em Khamis Mushait, no sudoeste do reino, com um drone.",
+      "url": "https://www.infomoney.com.br/mundo/ataques-mantem-aeroporto-de-capital-saudita-fechado-esta-semana/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-12T21:40:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/10/2026-10-11T120924Z_28260468_RC201OAWU6LY_RTRMADP_3_IRAN-CRISIS-SAUDI-AIRPORT.jpg?fit=2482%2C1629&quality=70&strip=all",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_df96087f722a",
       "title": "Explosões abalam capital da Arábia Saudita após alerta enviado por celular",
       "description": "Diversas explosões foram ouvidas em Riade, capital da Arábia Saudita, na noite desta segunda-feira (12), por volta das 15h no horário de...",
@@ -58,7 +78,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-12T19:22:28+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -78,20 +98,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_8c48516977c7",
-      "title": "Como uma série de erros de cálculo reiniciou a guerra da Arábia Saudita no Iêmen",
-      "description": "Rompimento com os Emirados Árabes Unidos e investimentos falhos complicaram a posição do governo saudita no Oriente Médio.",
-      "url": "https://noticias.r7.com/internacional/como-uma-serie-de-erros-de-calculo-reiniciou-a-guerra-da-arabia-saudita-no-iemen-12102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-12T05:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/OTBU6E5LFNEKHGC6PTSLXB6FSE.JPG?smart=true&auth=4fc2b5b03ec9dc20f5c3fc6cead2cb7d78fbd871e04f3b1c071d74a2345e8ac0&width=1200&height=630",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_eaf5847e015e",
       "title": "Arábia Saudita promete resposta \"igualmente séria\" a ataques dos houthis",
       "description": "Ministro da Energia afirmou que os ataques recentes testaram a infraestrutura e a capacidade de reação do reino; principais executivos do...",
@@ -104,6 +110,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8c48516977c7",
+      "title": "Como uma série de erros de cálculo reiniciou a guerra da Arábia Saudita no Iêmen",
+      "description": "Rompimento com os Emirados Árabes Unidos e investimentos falhos complicaram a posição do governo saudita no Oriente Médio.",
+      "url": "https://noticias.r7.com/internacional/como-uma-serie-de-erros-de-calculo-reiniciou-a-guerra-da-arabia-saudita-no-iemen-12102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-12T05:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_f63417c239e1",
@@ -120,45 +140,31 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_3a6df2e73728",
-      "title": "Nova onda de ataques de houthis sobre capital saudita",
-      "description": "O ataque dos houthis do Iêmen fechou um dos principais aeroportos da Arábia Saudita nesta semana no momento em que Riad mais precisa da...",
-      "url": "https://www.gazetadopovo.com.br/mundo/arabia-saudita-houthis-rebeldes-ataques/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-12T19:05:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_e787db7fab68",
+      "title": "Arábia Saudita enfrenta novos ataques com mísseis e drones",
+      "description": "Aeroporto de Riade foi fechado após ataque com mísseis ocorrido no sábado contra um terminal de embarque, cuja autoria foi reivindicada...",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/arabia-saudita-enfrenta-novos-ataques-com-misseis-e-drones",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-10-12T16:29:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_a2dc513ffe55",
-      "title": "Reino Unido amplia alerta para Arábia Saudita e recomenda evitar aeroportos",
-      "description": "Governo britânico elevou alerta de segurança após incidente em aeroporto de Riad e citou risco de novos ataques com mísseis e drones contra...",
-      "url": "https://www.infomoney.com.br/mundo/reino-unido-amplia-alerta-para-arabia-saudita-e-recomenda-evitar-aeroportos/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-11T22:06:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_e1c8920a8b61",
-      "title": "Ataques mantêm aeroporto de capital saudita fechado esta semana",
-      "description": "Por Gianluca Lo Nostro e Menna AlaaElDin e Joanna Plucinska 12 Out (Reuters) - Autoridades sauditas prorrogaram o fechamento do aeroporto...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/429527-ataques-mantem-aeroporto-de-capital-saudita-fechado-esta-semana.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-10-12T19:51:08+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_9a752c2e0e5c",
+      "title": "Houthis ameaçam Arábia Saudita com novos ataques aéreos",
+      "description": "Houthis ameaçam a Arábia Saudita após ataques ao aeroporto de Riyadh com 12 mortos e 309 feridos. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/mundo/houthis-ameacam-arabia-saudita-novos-ataques/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-10-11T18:43:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
+      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
@@ -171,34 +177,6 @@
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-10-12T18:30:44+00:00",
       "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_439bf592789d",
-      "title": "Houthis ameaçam novos ataques após atentado em Riad",
-      "description": "Grupo iemenita apoiado pelo Irã diz que aeroportos sauditas são alvos \"legítimos\". Trump avalia participação dos EUA em ações contra a...",
-      "url": "https://www.dw.com/pt-br/houthis-amea%C3%A7am-novos-ataques-ap%C3%B3s-atentado-no-aeroporto-de-riad/a-79634592",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-10-11T15:33:45+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_e787db7fab68",
-      "title": "Arábia Saudita enfrenta novos ataques com mísseis e drones",
-      "description": "Aeroporto de Riade foi fechado após ataque com mísseis ocorrido no sábado contra um terminal de embarque, cuja autoria foi reivindicada...",
-      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/arabia-saudita-enfrenta-novos-ataques-com-misseis-e-drones",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-10-12T16:29:00+00:00",
-      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -232,6 +210,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_439bf592789d",
+      "title": "Houthis ameaçam novos ataques após atentado em Riad",
+      "description": "Grupo iemenita apoiado pelo Irã diz que aeroportos sauditas são alvos \"legítimos\". Trump avalia participação dos EUA em ações contra a...",
+      "url": "https://www.dw.com/pt-br/houthis-amea%C3%A7am-novos-ataques-ap%C3%B3s-atentado-no-aeroporto-de-riad/a-79634592",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-10-11T15:33:45+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_195f02d4ffe9",
       "title": "Arábia Saudita investiga possível falha de defesa ao impedir ataque dos Houthis em aeroporto",
       "description": "A Arábia Saudita iniciou uma investigação para determinar como suas defesas aéreas falharam em interceptar uma série de mísseis e drones...",
@@ -240,7 +232,7 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-10-12T19:56:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -260,15 +252,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_4ac5402bb5ab",
-      "title": "Vídeo mostra ataque houthi contra aeroporto saudita",
-      "description": "Imagens gravadas por câmeras de segurança mostram o interior do Aeroporto Internacional Rei Khalid, em Riad, capital da Arábia Saudita, no...",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/video-mostra-ataque-houthi-contra-aeroporto-saudita",
+      "id": "article_ff1afd76de84",
+      "title": "Após ataque, aeroporto de Riad ficará fechado esta semana",
+      "description": "A Arábia Saudita prorrogou para toda esta semana, até o próximo sábado (17), o fechamento do aeroporto internacional de Riad.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/apos-ataque-aeroporto-de-riad-ficara-fechado-toda-a-semana-1",
       "source": "SBT News",
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-12T15:41:20+00:00",
-      "postedLabel": "5 horas atrás",
+      "publishedAt": "2026-10-12T20:18:28+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -302,6 +294,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_c0daa4040eab",
+      "title": "Céu sobre Riad fica vazio após ataques de houthis a aeroportos Por Reuters",
+      "description": "Por Gianluca Lo Nostro e Menna AlaaElDin. 12 Out (Reuters) - O céu sobre a capital saudita, Riad, estava praticamente vazio nesta...",
+      "url": "https://br.investing.com/news/stock-market-news/ceu-sobre-riad-fica-vazio-apos-ataques-dehouthis-a-aeroportos-2089158",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-10-12T12:35:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_099549541ebb",
       "title": "Ataque a aeroporto em Riad, na Arábia Saudita, deixa 1 morto e 41 feridos",
       "description": "A Autoridade Geral de Aviação Civil da Arábia Saudita (Gaca) informou que o ataque ao Aeroporto Internacional Rei Khalid, em Riad,...",
@@ -319,14 +325,14 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.63,
+    "average": 5.53,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
       "left": 1,
       "centerLeft": 3,
-      "center": 9,
-      "centerRight": 5,
+      "center": 10,
+      "centerRight": 4,
       "right": 1,
       "unknown": 1
     }
