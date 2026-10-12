@@ -12,11 +12,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 34,
+      "topic-3": 28,
       "topic-5": 5
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 34,
+    "firstSeenRank": 28,
     "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/1018_C7ABF42F087E3391-2.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-10-01T07:00:00+00:00",
-  "updatedAt": "2026-10-12T04:40:46.105763+00:00",
+  "updatedAt": "2026-10-12T05:36:07.221513+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -61,7 +61,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-12T01:17:24+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -117,7 +117,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-10-11T22:55:52+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -179,20 +179,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_100fb2dd0dd3",
-      "title": "Flávio pede investigação contra o diretor-geral da PF",
-      "description": "A equipe jurídica do senador e candidato do Partido Liberal (PL) à Presidência da República, Flávio Bolsonaro, apresentou uma notícia-crime...",
-      "url": "https://revistaoeste.com/politica/flavio-pede-investigacao-contra-o-diretor-geral-da-pf/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-10-11T23:30:11+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_3e176a292ac6",
       "title": "Governo Lula pede investigação após denúncia de financiamento de Trump a ações contra o STF",
       "description": "PF e PGR são acionadas para apurar possível destinação de US$ 1 mi a grupos contrários ao Supremo; revelação do The Guardian acende alerta...",
@@ -229,7 +215,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-10-11T22:46:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -271,7 +257,7 @@
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-10-11T23:04:21+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -305,6 +291,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_67049540387a",
+      "title": "Revogação de visto de embaixadora nos EUA não teve a ver com eleições",
+      "description": "Posts alegam que embaixadora do Brasil nos EUA teve visto revogado agora por risco de fraude eleitoral;; Medida foi aplicada pelo governo...",
+      "url": "https://www.aosfatos.org/noticias/revogacao-visto-embaixadora-eua-eleicoes/",
+      "source": "Aos Fatos",
+      "sourceCanonical": "Aos Fatos",
+      "sourceDomain": "aosfatos.org",
+      "publishedAt": "2026-10-03T07:00:00+00:00",
+      "postedLabel": "8 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_e98c4bb01a35",
       "title": "PF investiga se governo Trump interfere nas eleições do Brasil",
       "description": "No dia 1º deste mês, a Advocacia-Geral da União (AGU) havia acionado a PF e a Procuradoria-Geral da República (PGR) para investigar suposto...",
@@ -321,28 +321,29 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 10,
-    "average": 5.8,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 9,
+    "average": 5.5,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
       "center": 8,
       "centerRight": 3,
-      "right": 2,
-      "unknown": 5
+      "right": 1,
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
