@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pkaGVHUEVoSENjYU5GaVJFMWRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pkaGVHUEVoSENjYU5GaVJFMWRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Por que Alexandre de Moraes decidiu autorizar visitas de Flávio a Jair Bolsonaro após 3 meses de proibição",
   "summary": "Prazo de suspensão, gerada após Jair Bolsonaro escrever carta de apoio à candidatura de Flávio à Presidência, expirou no domingo (11/10).",
-  "topic": "Bolsonaro · Flávio",
+  "topic": "Flávio · Bolsonaro",
   "topicKeywords": [
-    "bolsonaro",
     "flávio",
+    "bolsonaro",
     "moraes",
-    "visitas",
     "jair",
+    "visitas",
     "terça"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/7b52/live/ed783cd0-c641-11f1-abff-0d918239b2e3.jpg",
   "publishedAt": "2026-09-17T07:00:00+00:00",
-  "updatedAt": "2026-10-12T22:32:47.986326+00:00",
+  "updatedAt": "2026-10-12T23:25:37.921369+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-10-12T17:17:40+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.rbsdirect.com.br/filestore/3/6/7/4/0/2/6_d25fb0ecb3ba9cd/6204763_9183d782f4681cb.png?w=1200&h=675&a=c&version=1575255600",
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,7 +92,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-12T19:48:52+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -170,7 +176,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-12T17:20:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -190,6 +196,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_1a93bde8edd2",
+      "title": "Após Moraes liberar, Flávio afirma que visitará Jair na 3ª feira",
+      "description": "Candidato a presidente disse estar \"ansioso\" para ver o pai e não comentou os temas que quer tratar. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-justica/apos-moraes-liberar-flavio-afirma-que-visitara-jair-na-3a-feira/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-12T17:01:43+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_4a32b5c03f72",
       "title": "Flávio participa de missa de Nossa Senhora e diz que vai visitar Bolsonaro nesta terça",
       "description": "Será o primeiro encontro de Flávio com o pai em 90 dias, desde quando as visitas foram suspensas pelo ministro Alexandre de Moraes.",
@@ -198,7 +218,7 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-10-12T18:55:50+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -212,24 +232,10 @@
       "sourceCanonical": "Notícias Agrícolas",
       "sourceDomain": "noticiasagricolas.com.br",
       "publishedAt": "2026-10-12T20:25:06+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_fa7153fee00c",
-      "title": "Moraes autoriza retomada das visitas de Flávio a Jair Bolsonaro",
-      "description": "Visitas do filho ao ex-presidente, que está em prisão domiciliar, estavam suspensas por descumprimento de medida cautelar. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/moraes-autoriza-retomada-das-visitas-de-flavio-a-jair-bolsonaro/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-12T14:36:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_648fb020532b",
@@ -282,24 +288,10 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-10-12T19:42:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_6c87714cb3ad",
-      "title": "Flávio vai visitar Jair Bolsonaro nesta terça-feira (13)",
-      "description": "Candidato à Presidência comemorou decisão de Moraes que retomou visitas e afirmou que encontro será com seu pai e não com o “líder político”",
-      "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-vai-visitar-jair-bolsonaro-nesta-terca-feira-13",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-12T16:10:13+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_f15cd51f604f",
@@ -314,6 +306,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_6c87714cb3ad",
+      "title": "Flávio vai visitar Jair Bolsonaro nesta terça-feira (13)",
+      "description": "Candidato à Presidência comemorou decisão de Moraes que retomou visitas e afirmou que encontro será com seu pai e não com o “líder político”",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/flavio-vai-visitar-jair-bolsonaro-nesta-terca-feira-13",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-10-12T16:10:13+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
