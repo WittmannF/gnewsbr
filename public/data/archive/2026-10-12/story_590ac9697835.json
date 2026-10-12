@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0ME1XREVoRi05eF9fMHp3RUFpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o0ME1XREVoRi05eF9fMHp3RUFpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 5,
-      "topic-5": 5
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Entenda o que acontece com investigação sobre Douglas Ruas após eleição",
   "summary": "Eleito governador do Rio, Douglas Ruas é alvo de uma investigação do Ministério Público por suposto peculato, lavagem de dinheiro e...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "ruas",
     "douglas",
-    "votos",
     "governador",
+    "votos",
     "eleito",
     "turno"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/Uog7yHIEGdLN3jMDT1bdbmS1hh4=/1296x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/0/B/2BHqM6QBSWm9cyvywrtg/116511006-ri-rio-de-janeiro-r-j-08-10-2026-governador-eleito-douglas-ruas-local-cen.jpg",
   "publishedAt": "2026-10-08T18:49:00+00:00",
-  "updatedAt": "2026-10-12T07:54:55.761375+00:00",
+  "updatedAt": "2026-10-12T08:48:27.181273+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -61,7 +67,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-10-11T08:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-oglobo.glbimg.com/BCZUkOLAgiBcKyYv-Uq3iBOhRhA=/1019x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/V/H/CoxANKRyyKsmLu57yyWg/captura-de-tela-2026-05-30-201357.png",
       "spectrumScore": 6,
       "bucket": "center"
@@ -207,20 +213,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_0de6f69e1a74",
-      "title": "Douglas Ruas é eleito governador do RJ, após retotalização de votos",
-      "description": "Movimento ocorre depois que o TSE declarou nulos os votos de Anthony Garotinho (Republicanos)",
-      "url": "https://www.estadao.com.br/em-alta/politica/eleicoes/douglas-ruas-e-eleito-governador-do-rj-apos-retotalizacao-de-votos/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-10T18:29:58+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_404d8e185ead",
       "title": "TRE-RJ confirma vitória de Douglas Ruas, do PL, com 50,88% dos votos válidos. #JR24H #Shorts",
       "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade.",
@@ -249,6 +241,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_79cccdbc6349",
+      "title": "TRE-RJ faz retotalização de votos que pode declarar Ruas governador do RJ; acompanhe",
+      "description": "Movimento ocorre depois que o TSE declarou nulos os votos de Anthony Garotinho (Republicanos)",
+      "url": "https://www.estadao.com.br/politica/eleicoes/tre-rj-faz-retotalizacao-de-votos-que-pode-declarar-ruas-governador-do-rj-acompanhe/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-10T18:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_d1eebd123100",
       "title": "TRE-RJ confirma vitória de Douglas Ruas ao governo do Rio no 1º turno",
       "description": "O Tribunal Regional Eleitoral do Rio de Janeiro realizou neste sábado 10 a retotalização dos votos do primeiro turno das eleições para o...",
@@ -261,20 +267,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_b700b37f4770",
-      "title": "Entenda o que acontece com investigação sobre Douglas Ruas após eleição",
-      "description": "Deputado estadual Douglas Ruas (PL-RJ) venceu a eleição ao governo do RJ em 1° turno, após a retotalização dos votos neste sábado (10/10)",
-      "url": "https://www.metropoles.com/brasil/investigacao-douglas-ruas-eleicao",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-10T07:30:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_a3eaf8b747dd",
@@ -291,6 +283,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_dc2fb8573d52",
+      "title": "TRE-RJ: Douglas Ruas (PL) teve 50,88% dos votos e é eleito governador do RJ",
+      "description": "O resultado passará por etapas formais de análise antes da proclamação definitiva, prevista para 15 de outubro.",
+      "url": "https://www.jornaldocomercio.com/politica/2026/10/1266511-tre-rj-douglas-ruas-pl-teve-5088-dos-votos-e-e-eleito-governador-do-rj.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-10-10T20:16:25+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_bdc2b19e5788",
+      "title": "Governador eleito, Douglas Ruas diz que vai rever orçamento do Rio com déficit de R$ 14 bilhões",
+      "description": "Pouco depois de o Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) concluir a retotalização dos votos que oficializou sua vitória,...",
+      "url": "https://www.folhape.com.br/politica/governador-eleito-douglas-ruas-diz-que-vai-rever-orcamento-do-rio-com/517760/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-10-10T23:54:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_8b6026af5e2e",
       "title": "Entenda por que Douglas Ruas venceu no 1º turno no Rio mesmo com 49,27% dos votos",
       "description": "A eleição para o governo do Rio de Janeiro foi decidida nos tribunais, e não nas urnas de um segundo turno. O Tribunal Regional Eleitoral do...",
@@ -303,32 +323,18 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_cdc9b1c289d2",
-      "title": "Ruas é declarado eleito governador do Rio após recontagem de votos",
-      "description": "Ação foi motivada por uma decisão do Tribunal Superior Eleitoral, que manteve o indeferimento do registro de candidatura de Anthony...",
-      "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/10/ruas-e-declarado-eleito-governador-do-rio-apos-recontagem-de-votos-cmv2n391n02eq015u4rzljg5k.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-10-10T18:44:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.35,
+    "average": 5.29,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
-      "center": 9,
+      "centerLeft": 3,
+      "center": 8,
       "centerRight": 3,
       "right": 1,
       "unknown": 3
