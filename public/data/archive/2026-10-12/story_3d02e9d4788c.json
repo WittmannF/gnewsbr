@@ -3,36 +3,39 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2poOTlxUEVoRmE3SFBwVi1tZ1BDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2poOTlxUEVoRmE3SFBwVi1tZ1BDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 36
+      "topic-3": 41,
+      "topic-5": 48
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 36,
-    "bestSeedRank": 36,
+    "firstSeenRank": 41,
+    "bestSeedRank": 41,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Centrão fica em alerta e direita otimista para eleição interna do Congresso",
   "summary": "Esquerda não deve ter candidato próprio e deve seguir postura das últimas eleições: apoiar Hugo Motta (Republicanos-PB) na reeleição à...",
-  "topic": "Alcolumbre · Câmara",
+  "topic": "Câmara · Alcolumbre",
   "topicKeywords": [
-    "alcolumbre",
     "câmara",
-    "senado",
+    "alcolumbre",
     "motta",
+    "senado",
     "flávio",
-    "comando"
+    "reeleição"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/ROGERIO-MARINHO-E-DAVI-ALCOLUMBRE-17-12-25.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-10-04T23:26:53+00:00",
-  "updatedAt": "2026-10-12T13:49:03.713951+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-10-12T14:37:51.095512+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -288,6 +291,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_39199435411c",
+      "title": "Republicanos apoiará reeleição de Hugo mesmo com eventual vitória de Flávio",
+      "description": "Presidente nacional do partido, Marcos Pereira, disse à CNN que buscará endosso de outras siglas para a recondução de Hugo Motta no comando...",
+      "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/republicanos-apoiara-reeleicao-de-hugo-mesmo-com-eventual-vitoria-de-flavio/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-12T13:19:18+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_4dc95db685f1",
       "title": "Esquerda deve apoiar Hugo Motta e Davi Alcolumbre nas próximas eleições",
       "description": "A federação governista não terá candidato próprio e se une ao centrão nas votações.",
@@ -300,33 +317,19 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_79f3ccaaae9c",
-      "title": "Nova composição do Senado é teste de força para Alcolumbre",
-      "description": "Senado mais conservador enfraquece pretensões políticas de Davi Alcolumbre, que quer se reeleger para a presidência da Casa em 2027, e...",
-      "url": "https://www.estadao.com.br/politica/coluna-do-estadao/nova-composicao-do-senado-e-teste-de-forca-para-alcolumbre/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-05T08:30:00+00:00",
-      "postedLabel": "7 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 6,
+    "average": 5.82,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 5,
-      "centerRight": 3,
+      "center": 6,
+      "centerRight": 2,
       "right": 1,
       "unknown": 9
     }
