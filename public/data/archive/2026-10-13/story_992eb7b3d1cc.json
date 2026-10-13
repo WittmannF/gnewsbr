@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pkaGVHUEVoSENjYU5GaVJFMWRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pkaGVHUEVoSENjYU5GaVJFMWRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Por que Alexandre de Moraes decidiu autorizar visitas de Flávio a Jair Bolsonaro após 3 meses de proibição",
   "summary": "Prazo de suspensão, gerada após Jair Bolsonaro escrever carta de apoio à candidatura de Flávio à Presidência, expirou no domingo (11/10).",
@@ -30,8 +36,8 @@
     "pai"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/7b52/live/ed783cd0-c641-11f1-abff-0d918239b2e3.jpg",
-  "publishedAt": "2026-09-17T07:00:00+00:00",
-  "updatedAt": "2026-10-13T03:41:48.048465+00:00",
+  "publishedAt": "2026-10-12T12:30:04+00:00",
+  "updatedAt": "2026-10-13T04:34:52.184448+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,20 +70,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_57a6e07f99af",
-      "title": "Flávio diz que vai encontrar Bolsonaro amanhã e se esquiva de falar da 6x1",
-      "description": "O candidato do PL à Presidência, Flávio Bolsonaro, disse hoje, após participar da cerimônia em homenagem ao Dia da Padroeira, na Catedral de...",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/10/12/flavio-diz-que-vai-encontrar-bolsonaro-amanha-e-se-esquiva-de-falar-da-6x1.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-12T19:48:52+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_b034ea6d3239",
       "title": "Alexandre de Moraes autoriza Flávio Bolsonaro a retomar visitas a Jair Bolsonaro | Chamada Geral 1",
       "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), autorizou nesta segunda-feira (12) a retomada do regime de visitas do...",
@@ -88,6 +80,34 @@
       "publishedAt": "2026-10-12T17:17:40+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://www.rbsdirect.com.br/filestore/3/6/7/4/0/2/6_d25fb0ecb3ba9cd/6204763_9183d782f4681cb.png?w=1200&h=675&a=c&version=1575255600",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_4a32b5c03f72",
+      "title": "Flávio participa de missa de Nossa Senhora e diz que vai visitar Bolsonaro nesta terça",
+      "description": "Será o primeiro encontro de Flávio com o pai em 90 dias, desde quando as visitas foram suspensas pelo ministro Alexandre de Moraes.",
+      "url": "https://www.jornaldocomercio.com/politica/2026/10/1266579-flavio-participa-de-missa-de-nossa-senhora-e-diz-que-vai-visitar-bolsonaro-nesta-terca.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-10-12T18:55:50+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2026/10/12/600x800/1_afp__20261012__d32k6yl__v1__highres__brazilelectionrunoffreligion-12070591.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_57a6e07f99af",
+      "title": "Flávio diz que vai encontrar Bolsonaro amanhã e se esquiva de falar da 6x1",
+      "description": "O candidato do PL à Presidência, Flávio Bolsonaro, disse hoje, após participar da cerimônia em homenagem ao Dia da Padroeira, na Catedral de...",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/10/12/flavio-diz-que-vai-encontrar-bolsonaro-amanha-e-se-esquiva-de-falar-da-6x1.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-10-12T19:48:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -114,7 +134,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-13T00:46:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -142,7 +162,7 @@
       "sourceCanonical": "PlatôBR",
       "sourceDomain": "platobr.com.br",
       "publishedAt": "2026-10-12T22:19:31+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -162,20 +182,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_ce537b28d0ea",
-      "title": "Defesa de Bolsonaro informa Moraes sobre retomada das visitas de Flávio",
-      "description": "A defesa do ex-presidente Jair Bolsonaro (PL) informou ao Supremo Tribunal Federal (STF) que os agendamentos de visitas do senador Flávio...",
-      "url": "https://www.metropoles.com/colunas/manoela-alcantara/defesa-de-bolsonaro-informa-moraes-sobre-retomada-das-visitas-de-flavio",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-11T22:31:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_4fe8eae0cb54",
       "title": "Flávio volta a visitar Bolsonaro após 90 dias de proibição",
       "description": "Moraes libera as visitas, mas veta encontros com fins eleitorais e a divulgação de declarações do ex-presidente sobre a disputa.",
@@ -188,20 +194,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f15e2b75613e",
-      "title": "Moraes libera visitas de Flávio ao pai, Jair Bolsonaro",
-      "description": "Visitas foram suspensas em julho após descumprimentos de medidas cautelares impostas contra o ex-presidente.",
-      "url": "https://www.dw.com/pt-br/moraes-libera-visitas-de-fl%C3%A1vio-ao-pai-jair-bolsonaro/live-78393402",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-09-17T07:00:00+00:00",
-      "postedLabel": "25 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_1a93bde8edd2",
@@ -232,20 +224,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_4a32b5c03f72",
-      "title": "Flávio participa de missa de Nossa Senhora e diz que vai visitar Bolsonaro nesta terça",
-      "description": "Será o primeiro encontro de Flávio com o pai em 90 dias, desde quando as visitas foram suspensas pelo ministro Alexandre de Moraes.",
-      "url": "https://www.jornaldocomercio.com/politica/2026/10/1266579-flavio-participa-de-missa-de-nossa-senhora-e-diz-que-vai-visitar-bolsonaro-nesta-terca.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-10-12T18:55:50+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_c4579e532683",
       "title": "Moraes autoriza Flávio Bolsonaro a retomar visitas ao pai após suspensão de 90 dias. #JR24H #Shorts",
       "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade.",
@@ -274,6 +252,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_97b277689e77",
+      "title": "Defesa de Bolsonaro comunica retomada de visitas de Flávio",
+      "description": "A defesa de Bolsonaro comunicou ao STF que as visitas de Flávio ao pai serão retomadas. Clique aqui e saiba mais.",
+      "url": "https://revistaoeste.com/politica/defesa-de-bolsonaro-comunica-retomada-de-visitas-de-flavio/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-10-12T12:30:04+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
       "id": "article_b2a710b16487",
       "title": "Moraes autoriza Flávio Bolsonaro a visitar o pai, preso em casa",
       "description": "Candidato à presidência continua proibido de usar visita com caráter político-eleitoral e divulgar qualquer manifesto ou declaração do...",
@@ -288,14 +280,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_d60b608c1112",
-      "title": "Flávio comemora decisão de Moraes e diz que vai visitar Jair Bolsonaro nesta terça-feira",
-      "description": "Candidato do PL à Presidência foi proibido de ver o pai, que cumpre prisão domiciliar, após ter divulgado uma carta de cunho político...",
-      "url": "https://www.estadao.com.br/politica/eleicoes/flavio-comemora-decisao-de-moraes-e-diz-que-vai-visitar-jair-bolsonaro-nesta-terca-feira/",
+      "id": "article_f92b6eef360a",
+      "title": "Moraes libera visitas de Flávio a Jair Bolsonaro após 90 dias de proibição",
+      "description": "Ministro havia proibido visitas por descumprimento de ordem, em julho, que proibia manifestações políticas de Bolsonaro durante prisão...",
+      "url": "https://www.estadao.com.br/politica/moraes-libera-visitas-de-flavio-a-jair-bolsonaro-apos-90-dias-de-proibicao/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-12T17:20:00+00:00",
+      "publishedAt": "2026-10-12T13:01:33+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -314,27 +306,41 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_d2461f518ed7",
+      "title": "Após STF liberar visitas a Jair Bolsonaro, Flávio diz que restrição foi 'sem critério'",
+      "description": "Senador afirma que ficou mais de três meses sem ver Jair Bolsonaro após o ministro Alexandre de Moraes suspender visitas.",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/10/7519232-apos-stf-liberar-visitas-a-jair-bolsonaro-flavio-diz-que-restricao-foi-sem-criterio.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-10-12T19:42:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 9,
-    "average": 5.28,
+    "max": 10,
+    "average": 5.56,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 9,
+      "center": 8,
       "centerRight": 4,
-      "right": 1,
+      "right": 2,
       "unknown": 2
     }
   },
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 97,
     "confidence": 95
   },
   "flags": [
