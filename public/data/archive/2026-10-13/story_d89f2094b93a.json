@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnal91VUVoSHF3aVh2RDF1dDRDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnal91VUVoSHF3aVh2RDF1dDRDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 30
+      "topic-3": 23,
+      "topic-5": 38
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +27,16 @@
   "topicKeywords": [
     "puc",
     "rio",
-    "cancela",
-    "estudantes",
     "lula",
-    "autoritarismo"
+    "ato",
+    "cancela",
+    "estudantes"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/WZRRT4KSNBAI7C5BHOEMKZJUQ4.jpg?quality=80&auth=a1d59dc1c7baf81698085306f3e9f4ca1f70e1c94cb474dd06d403d48d0fad15&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-12T13:56:00+00:00",
-  "updatedAt": "2026-10-13T09:40:30.652497+00:00",
-  "sourceCount": 3,
-  "articleCount": 6,
+  "updatedAt": "2026-10-13T11:28:36.120055+00:00",
+  "sourceCount": 5,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_e129c3bc4132",
@@ -47,6 +50,20 @@
       "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/WZRRT4KSNBAI7C5BHOEMKZJUQ4.jpg?quality=80&auth=a1d59dc1c7baf81698085306f3e9f4ca1f70e1c94cb474dd06d403d48d0fad15&width=1200&height=630&smart=true",
       "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_222a5db38cad",
+      "title": "PUC-Rio veta ato contra o governo Lula e decisões do STF",
+      "description": "Estudantes planejavam manifestação para reivindicar maior pluralidade política no campus da universidade. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/puc-rio-veta-ato-de-estudantes-contra-o-governo-do-pt/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-10-13T10:56:00+00:00",
+      "postedLabel": "32 minutos atrás",
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/10/13075328/Gemini_Generated_Image_6zkw3w6zkw3w6zkw.jpg",
+      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
@@ -78,6 +95,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_3f404177da3b",
+      "title": "PUC-Rio veta atos de campanha de Flávio e Lula no campus",
+      "description": "A direção da A Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) cancelou todas as atividades político-partidárias em suas...",
+      "url": "https://revistaoeste.com/politica/puc-rio-veta-atos-de-campanha-de-flavio-e-lula-no-campus/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-10-13T11:13:29+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
       "id": "article_1cdbb3b7e6c3",
       "title": "Grupo de bolsonaristas da PUC-Rio realiza ato contra Lula nesta terça",
       "description": "Flávio Bolsonaro gravou vídeo de apoio ao grupo, que fará manifestação dentro do campus da Gávea.",
@@ -87,7 +118,7 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-10-12T15:11:48+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-oglobo.glbimg.com/IHoHc2PeiRu1RUtkJ3nbmHll1to=/594x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/I/W/ohujzDSxSbZtdBOn1MYQ/whatsapp-image-2026-10-12-at-12.09.35.jpeg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -122,26 +153,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 5.83,
-    "knownCount": 6,
+    "max": 10,
+    "average": 6.62,
+    "knownCount": 8,
     "unknownCount": 0,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 2,
-      "centerRight": 3,
-      "right": 0,
+      "centerRight": 4,
+      "right": 1,
       "unknown": 0
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 75
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
+    "confidence": 85
   },
   "flags": [
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }

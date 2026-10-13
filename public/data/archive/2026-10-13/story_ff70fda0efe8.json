@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 38
+      "topic-7": 15
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 38,
-    "bestSeedRank": 38,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +24,16 @@
   "topicKeywords": [
     "cocaína",
     "europa",
-    "dinâmica",
     "pcc",
-    "alerta",
-    "narcotráfico"
+    "dinâmica",
+    "rota",
+    "amapá"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/IhEeTWlcyEBg4tcRW_pjZh3yzjw=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/9/kYwPf7RDysAKfnYhDzNw/whatsapp-image-2026-10-09-at-15.45.09.jpeg",
   "publishedAt": "2026-10-09T18:45:08+00:00",
-  "updatedAt": "2026-10-13T09:45:38.623591+00:00",
-  "sourceCount": 4,
-  "articleCount": 5,
+  "updatedAt": "2026-10-13T11:37:21.808171+00:00",
+  "sourceCount": 6,
+  "articleCount": 7,
   "articles": [
     {
       "id": "article_6a28a568089e",
@@ -43,8 +43,8 @@
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-13T09:31:16+00:00",
-      "postedLabel": "14 minutos atrás",
+      "publishedAt": "2026-10-13T10:02:37+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,6 +64,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_8a807ce236ff",
+      "title": "Crime organizado latino-americano está a mudar a Europa",
+      "description": "Uma investigação do jornal The Guardian que durou quatro meses conclui que os cartéis estão cada vez mais presentes no Velho Continente e...",
+      "url": "https://www.rtp.pt/noticias/mundo/crime-organizado-latino-americano-esta-a-mudar-a-europa_n1771360",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
+      "sourceDomain": "rtp.pt",
+      "publishedAt": "2026-10-13T10:22:28+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_9a2625258a3e",
+      "title": "PCC e CV ampliam rota de cocaína pelo Amapá rumo à Europa",
+      "description": "Estudo aponta que PCC e CV ampliaram o uso do Amapá, especialmente do Porto de Santana, para enviar cocaína à Europa.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/pcc-cv-rota-cocaina-amapa-europa/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-10-13T10:02:37+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/10/uma-rota-emergente-da-cocaina-conecta-colombia-suriname-guiana-francesa-e-o-estado-do-amapa-no-brasil-1791478552855_v2_900x506-png.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_054c2e339dc6",
       "title": "Nova Dinâmica Do Narcotráfico Alerta Agentes Brasileiros",
       "description": "Drogas em pasta-base ou adulteradas saem do Brasil com destino a Europa e viram um fenômeno; Nova forma do narcotráfico é investigada.",
@@ -73,7 +101,7 @@
       "sourceDomain": "inmagazine.ig.com.br",
       "publishedAt": "2026-10-11T18:15:57+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://inmagazine.ig.com.br/wp-content/uploads/2026/10/Foto-destaque-2026-10-11T144820.892.png",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -107,27 +135,28 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 5,
-    "average": 5,
-    "knownCount": 3,
-    "unknownCount": 2,
+    "average": 4.25,
+    "knownCount": 4,
+    "unknownCount": 3,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 3,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 64
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
+    "confidence": 71
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
