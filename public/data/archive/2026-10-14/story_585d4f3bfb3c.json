@@ -3,35 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p4a1ppVkVoRXdHblQzREtnWlNTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p4a1ppVkVoRXdHblQzREtnWlNTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 18
+      "topic-3": 45,
+      "topic-5": 56
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 18,
-    "bestSeedRank": 18,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Falsos policiais sequestram e matam duas irmãs no Ceará",
+  "title": "Corpos de irmãs sequestradas em Arneiroz são localizados em Tauá",
   "summary": "Corpos das vítimas, de 15 e 18 anos, estavam em uma área de mata, na cidade de Tauá.",
   "topic": "Irmãs · Policiais",
   "topicKeywords": [
     "irmãs",
     "policiais",
-    "falsos",
     "mortas",
+    "falsos",
     "ceará",
-    "sequestradas"
+    "suspeito"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/Uh1eAHQFToCx08fQqezWk5Vc3Y0=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/2/G/SkBURWQA6HVs8QmFADDw/irmas-mortas-2.jpg",
   "publishedAt": "2026-10-13T12:29:54+00:00",
-  "updatedAt": "2026-10-14T09:29:32.893738+00:00",
+  "updatedAt": "2026-10-14T11:27:47.475885+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -302,43 +305,44 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_8e66c1e39bf7",
-      "title": "Irmãs sequestradas por falsos policiais são encontradas mortas na beira da estrada de Angicos - CE",
-      "description": "As irmãs Clarisse, de 15 anos, e Letícia, de 18, foram encontradas mortas na manhã desta terça-feira (13), às margens de uma estrada que dá...",
-      "url": "https://www.portalr10.com/blogs-e-colunas/181748/irmas-sequestradas-por-falsos-policiais-sao-encontradas-mortas-na-beira-da-estrada-de-angicos-ce/",
-      "source": "Portal R10",
-      "sourceCanonical": "Portal R10",
-      "sourceDomain": "portalr10.com",
-      "publishedAt": "2026-10-13T21:25:47+00:00",
-      "postedLabel": "hoje",
+      "id": "article_106b6f84307b",
+      "title": "Irmãs adolescentes são sequestradas e mortas no interior do Ceará; suspeito é preso",
+      "description": "Irmãs de 15 e 17 anos foram sequestradas em Arneiroz e encontradas mortas em Tauá. Polícia prendeu um suspeito por homicídio.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/irmas-adolescentes-sequestradas-mortas-ceara-suspeito-preso/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-10-14T11:15:14+00:00",
+      "postedLabel": "12 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 9,
-    "average": 5.22,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 4.9,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 2,
       "center": 6,
       "centerRight": 0,
       "right": 1,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
