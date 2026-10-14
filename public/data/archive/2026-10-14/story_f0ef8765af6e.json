@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pUejVlVUVoRktyZU5ycGNCOC1DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pUejVlVUVoRktyZU5ycGNCOC1DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 26
+      "topic-3": 48,
+      "topic-5": 39
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 26,
-    "bestSeedRank": 26,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 48,
+    "bestSeedRank": 39,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +29,14 @@
     "eleição",
     "medidas",
     "abuso",
-    "fiscal",
-    "eleitoral"
+    "poder",
+    "fiscal"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/27/17905460946ab990aebece9_1790546094_3x2_xl.jpg",
   "publishedAt": "2026-10-09T20:52:00+00:00",
-  "updatedAt": "2026-10-14T11:32:27.788152+00:00",
-  "sourceCount": 9,
-  "articleCount": 10,
+  "updatedAt": "2026-10-14T12:38:38.020018+00:00",
+  "sourceCount": 13,
+  "articleCount": 14,
   "articles": [
     {
       "id": "article_e9c4440863a1",
@@ -58,10 +61,24 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-10-14T07:00:01+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/757HELr6u7fy6_o_TU47dYWObdI=/1383x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/M/8/BYGwABQZed5vk509VMGw/116116967-combo-this-combination-of-file-pictures-created-on-setember-3-2026-shows-brazils-presiden.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_de276c6ad124",
+      "title": "Farra fiscal de Lula atinge R$ 354 bilhões em ano eleitoral",
+      "description": "O levantamento do Estadão revelou que o governo Lula autorizou R$ 354 bilhões em despesas e benesses fiscais. Leia mais.",
+      "url": "https://revistaoeste.com/politica/farra-fiscal-de-lula-atinge-r-354-bilhoes-em-ano-eleitoral/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-10-14T11:17:37+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/55514627775_ce2750f779_k-910x568.jpg.webp",
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_92a793b5c3e8",
@@ -78,31 +95,17 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e68df0225cb9",
-      "title": "Medidas do governo são abuso de poder",
-      "description": "Deveria ser proibido fazer novas medidas em cima da campanha eleitoral.",
-      "url": "https://oglobo.globo.com/blogs/merval-pereira/coluna/2026/10/medidas-do-governo-sao-abuso-de-poder.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-13T18:30:29+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-oglobo.glbimg.com/CZnmyIpUi7By2ILs7OWvWzq_wg4=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/d/EbdIYbR1yXddqJsYrkJA/whatsapp-image-2026-10-13-at-14.39.26-1-.jpeg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_de276c6ad124",
-      "title": "Farra fiscal de Lula atinge R$ 354 bilhões em ano eleitoral",
-      "description": "O levantamento do Estadão revelou que o governo Lula autorizou R$ 354 bilhões em despesas e benesses fiscais. Leia mais.",
-      "url": "https://revistaoeste.com/politica/farra-fiscal-de-lula-atinge-r-354-bilhoes-em-ano-eleitoral/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-10-14T11:17:37+00:00",
-      "postedLabel": "14 minutos atrás",
-      "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/10/55514627775_ce2750f779_k-910x568.jpg.webp",
-      "spectrumScore": 10,
+      "id": "article_6fc108fb6f6d",
+      "title": "O governo Lula descobriu os problemas do país a menos de duas semanas da eleição",
+      "description": "Em cinco semanas, choveram anúncios. O eleitor recebe a notícia agora. A conta chega depois, e chega no bolso dele.",
+      "url": "https://jovempan.com.br/colunistas/ricardo-motta/o-governo-lula-descobriu-os-problemas-do-pais-a-menos-de-duas-semanas-daeleicao/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-14T11:27:58+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/AGE20261007011.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 9,
       "bucket": "right"
     },
     {
@@ -114,7 +117,21 @@
       "sourceCanonical": "jornaltribuna.com.br",
       "sourceDomain": "jornaltribuna.com.br",
       "publishedAt": "2026-10-14T10:53:28+00:00",
-      "postedLabel": "38 minutos atrás",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_8ff7b2c06e71",
+      "title": "“Nunca vivemos tantas medidas eleitoreiras para se manter no poder”",
+      "description": "Diretor da Dale Carnegie Vale do Taquari, Gabriel Garcia critica medidas do governo Lula e alerta para os efeitos sobre o consumo,...",
+      "url": "https://grupoahora.net.br/conteudos/2026/10/14/nunca-vivemos-tantas-medidas-eleitoreiras-para-se-manter-no-poder/",
+      "source": "Grupo A Hora",
+      "sourceCanonical": "Grupo A Hora",
+      "sourceDomain": "grupoahora.net.br",
+      "publishedAt": "2026-10-14T12:13:00+00:00",
+      "postedLabel": "25 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,7 +145,7 @@
       "sourceCanonical": "Blog Edmar Lyra",
       "sourceDomain": "edmarlyra.com",
       "publishedAt": "2026-10-14T11:13:21+00:00",
-      "postedLabel": "19 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -142,7 +159,21 @@
       "sourceCanonical": "tmc.com.br",
       "sourceDomain": "tmc.com.br",
       "publishedAt": "2026-10-14T09:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d0cda5b46c4c",
+      "title": "É hora de mostrar quem é mais inteligente",
+      "description": "Lula passou anos enganando o povo brasileiro e, agora, na reta final da campanha, faz de tudo para tentar reverter a eleição. Reajuste do...",
+      "url": "https://lerunica.com.br/blogs-e-colunas/fabiano-bordignon/e-hora-de-mostrar-quem-e-mais-inteligente-1420",
+      "source": "lerunica.com.br",
+      "sourceCanonical": "lerunica.com.br",
+      "sourceDomain": "lerunica.com.br",
+      "publishedAt": "2026-10-14T12:24:00+00:00",
+      "postedLabel": "14 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -174,28 +205,56 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_e68df0225cb9",
+      "title": "Medidas do governo são abuso de poder",
+      "description": "Deveria ser proibido fazer novas medidas em cima da campanha eleitoral.",
+      "url": "https://oglobo.globo.com/blogs/merval-pereira/coluna/2026/10/medidas-do-governo-sao-abuso-de-poder.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-13T18:30:29+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_af1fdd137a6b",
+      "title": "Economia e Negócios: Promessas de fim de mandato pressionam juros e inflação",
+      "description": "Anúncios de pacotes fiscais e perdão de dívidas às vésperas da votação alimentam o ciclo político dos negócios e elevam o risco fiscal.",
+      "url": "https://jc.uol.com.br/radio-jornal/noticias/2026/10/14/economia-e-negocios-promessas-de-fim-de-mandato-pressionam-juros-e-inflacao.html",
+      "source": "JC",
+      "sourceCanonical": "JC",
+      "sourceDomain": "jc.uol.com.br",
+      "publishedAt": "2026-10-14T11:47:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 10,
-    "average": 6.67,
-    "knownCount": 6,
-    "unknownCount": 4,
+    "average": 7,
+    "knownCount": 7,
+    "unknownCount": 7,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 3,
       "centerRight": 0,
-      "right": 2,
-      "unknown": 4
+      "right": 3,
+      "unknown": 7
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 91,
     "headlineDivergence": 88,
-    "confidence": 83
+    "confidence": 94
   },
   "flags": [
     "Alta cobertura",
