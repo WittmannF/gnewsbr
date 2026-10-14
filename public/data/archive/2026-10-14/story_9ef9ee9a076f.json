@@ -3,36 +3,42 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p1eUxPUkVoSG02UE92OVRqZHVDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p1eUxPUkVoSG02UE92OVRqZHVDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 5
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Com perdão para dívidas de MEIs, Lula completa R$ 248,7 bi de bondades",
   "summary": "A 12 dias do 2º turno, governo anunciou medidas para microempreendedores com impacto estimado em R$ 16,7 bilhões. Leia no Poder360.",
-  "topic": "Lula · Dívidas",
+  "topic": "Lula · Mei",
   "topicKeywords": [
     "lula",
-    "dívidas",
-    "meis",
     "mei",
     "perdão",
-    "mil"
+    "dívidas",
+    "meis",
+    "até"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/capa-pacote-bondade-lula-13-out-2026-1200x675.png",
-  "publishedAt": "2026-10-13T14:17:00+00:00",
-  "updatedAt": "2026-10-14T17:31:34.162555+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-10-13T12:59:24+00:00",
+  "updatedAt": "2026-10-14T18:30:34.743914+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -64,18 +70,102 @@
       "bucket": "center"
     },
     {
-      "id": "article_907d372c860e",
-      "title": "'Pacote de bondades' do governo Lula cresce em R$ 25,8 bi após 1º turno",
-      "description": "Passado o primeiro turno da eleição presidencial, a equipe econômica do governo Lula (PT) ampliou o anúncio de medidas que representam...",
-      "url": "https://economia.uol.com.br/noticias/redacao/2026/10/14/bondades-apos-1-turno.ghtm",
+      "id": "article_0f76a59d7291",
+      "title": "Lula quer votar aumento do teto do MEI na Câmara ainda hoje",
+      "description": "Embalado pela votação do fim da escala 6x1 no Senado, o presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) quer votar ainda...",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/14/lula-quer-votar-aumento-do-teto-do-mei-na-camara-ainda-hoje.htm",
       "source": "UOL Economia",
       "sourceCanonical": "UOL Economia",
       "sourceDomain": "economia.uol.com.br",
-      "publishedAt": "2026-10-14T16:47:03+00:00",
+      "publishedAt": "2026-10-14T17:35:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a6236a941bb5",
+      "title": "Prospera MEI prevê perdão de dívidas e Pix de até R$ 5 mil",
+      "description": "Pacote voltado para microempreendedores inclui renegociação bancária, aumento do teto de faturamento para R$ 140 mil e criação do PixMEI;...",
+      "url": "https://www.contabeis.com.br/noticias/80057/prospera-mei-preve-perdao-de-dividas-e-pix-de-ate-r-5-mil/",
+      "source": "Portal Contabeis",
+      "sourceCanonical": "Portal Contabeis",
+      "sourceDomain": "contabeis.com.br",
+      "publishedAt": "2026-10-14T12:30:02+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d1091c936638",
+      "title": "Pacote para microempreendedores: Governo anuncia perdão de dividas tributárias e apoio",
+      "description": "Veja mais detalhes no vídeo.",
+      "url": "https://g1.globo.com/pa/santarem-regiao/videos-jornal-tapajos-1-edicao/video/pacote-para-microempreendedores-governo-anuncia-perdao-de-dividas-tributarias-e-apoio-15057963.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-10-14T17:28:06+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s04.video.glbimg.com/x720/15057963.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e68df0225cb9",
+      "title": "Medidas do governo são abuso de poder",
+      "description": "Deveria ser proibido fazer novas medidas em cima da campanha eleitoral.",
+      "url": "https://oglobo.globo.com/blogs/merval-pereira/coluna/2026/10/medidas-do-governo-sao-abuso-de-poder.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-13T18:30:29+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://s2-oglobo.glbimg.com/CZnmyIpUi7By2ILs7OWvWzq_wg4=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/d/EbdIYbR1yXddqJsYrkJA/whatsapp-image-2026-10-13-at-14.39.26-1-.jpeg",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_3c5d0f0b1417",
+      "title": "Pequenos negócios merecem uma segunda chance, não um cheque em branco – André Vieira",
+      "description": "É difícil dissociar o pacote de socorro aos microempreendedores individuais de seu calendário eleitoral. Anunciadas pelo governo Lula a...",
+      "url": "https://www.brasil247.com/blog/pequenos-negocios-merecem-uma-segunda-chance-nao-um-cheque-em-branco/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-14T10:59:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
+      "id": "article_494814c5feb3",
+      "title": "PROSPERA MEI: entenda mudanças propostas pelo governo federal para empreendedores | Atualidade",
+      "description": "O governo federal anunciou nesta terça-feira (13) um pacote com cinco medidas voltadas a microempreendedores individuais (MEIs).",
+      "url": "https://gauchazh.clicrbs.com.br/video/prospera-mei-entenda-mudancas-propostas-pelo-governo-federal-para-empreendedores-atualidade-cmv8eh5ow000p01dnfyauxcfr.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-10-14T17:45:07+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_32401d6c92f5",
+      "title": "Medidas e promessas de Lula vão exigir até R$ 49,8 bilhões em ajustes no Orçamento de 2027",
+      "description": "Ações dependerão de aprovação do Congresso Nacional após as eleições já que apenas o aumento do faturamento do MEI está previsto no...",
+      "url": "https://www.estadao.com.br/economia/medidas-e-promessas-de-lula-vao-exigir-r-498-bilhoes-em-ajustes-no-orcamento-de-2027/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-14T16:53:14+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_67faa16c7c2c",
@@ -92,76 +182,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a6236a941bb5",
-      "title": "Prospera MEI prevê perdão de dívidas e Pix de até R$ 5 mil",
-      "description": "Pacote voltado para microempreendedores inclui renegociação bancária, aumento do teto de faturamento para R$ 140 mil e criação do PixMEI;...",
-      "url": "https://www.contabeis.com.br/noticias/80057/prospera-mei-preve-perdao-de-dividas-e-pix-de-ate-r-5-mil/",
-      "source": "Portal Contabeis",
-      "sourceCanonical": "Portal Contabeis",
-      "sourceDomain": "contabeis.com.br",
-      "publishedAt": "2026-10-14T12:30:02+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_e68df0225cb9",
-      "title": "Medidas do governo são abuso de poder",
-      "description": "Deveria ser proibido fazer novas medidas em cima da campanha eleitoral.",
-      "url": "https://oglobo.globo.com/blogs/merval-pereira/coluna/2026/10/medidas-do-governo-sao-abuso-de-poder.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-13T18:30:29+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-oglobo.glbimg.com/CZnmyIpUi7By2ILs7OWvWzq_wg4=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/d/EbdIYbR1yXddqJsYrkJA/whatsapp-image-2026-10-13-at-14.39.26-1-.jpeg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_3c5d0f0b1417",
-      "title": "Pequenos negócios merecem uma segunda chance, não um cheque em branco – André Vieira",
-      "description": "É difícil dissociar o pacote de socorro aos microempreendedores individuais de seu calendário eleitoral. Anunciadas pelo governo Lula a...",
-      "url": "https://www.brasil247.com/blog/pequenos-negocios-merecem-uma-segunda-chance-nao-um-cheque-em-branco/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-10-14T10:59:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/10/55587412474_7a6065e2f6_o-1.jpg?w=1200&quality=88&strip=all",
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
-      "id": "article_03dc98b28af6",
-      "title": "Lula quer votar aumento do teto do MEI na Câmara ainda hoje",
-      "description": "BRASÍLIA — Embalado pela votação do fim da escala 6X1 no Senado, o presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) quer...",
-      "url": "https://www.estadao.com.br/economia/lula-quer-votar-aumento-do-teto-do-mei-na-camara-ainda-hoje/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-14T16:02:39+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_5bb22c450575",
-      "title": "Com MEIs, pacote de benefícios do governo Lula chega a R$ 260 bilhões",
-      "description": "Reajuste no Bolsa Família e medidas para combustíveis têm paralelo com eleição passada, mas diferem no financiamento.",
-      "url": "https://oglobo.globo.com/economia/noticia/2026/10/14/com-meis-pacote-de-beneficios-do-governo-lula.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-14T15:08:25+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_bd8d0d9c7a46",
       "title": "Prospera MEI: conheça as ações anunciadas pelo governo federal para fortalecer o empreendedorismo",
       "description": "Cinco iniciativas foram lançadas nesta terça-feira (13), em Brasília. Medidas visam reduzir preocupações em relação às dívidas públicas e privadas dos MEI.",
@@ -174,6 +194,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_67b21f710f80",
+      "title": "Análise WW: Flávio mira jovem; Lula quer reverter desgaste com “CEO de MEI”",
+      "description": "Thais Herédia, âncora do Hora H, da CNN, destaca receio da campanha do filho de Bolsonaro com a juventude e as medidas econômicas anunciadas...",
+      "url": "https://www.cnnbrasil.com.br/politica/analise-ww-flavio-mira-jovem-lula-quer-reverter-desgaste-com-ceo-de-mei/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-13T23:30:49+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a274bb65f874",
@@ -204,20 +238,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_de276c6ad124",
-      "title": "Farra fiscal de Lula atinge R$ 354 bilhões em ano eleitoral",
-      "description": "O levantamento do Estadão revelou que o governo Lula autorizou R$ 354 bilhões em despesas e benesses fiscais. Leia mais.",
-      "url": "https://revistaoeste.com/politica/farra-fiscal-de-lula-atinge-r-354-bilhoes-em-ano-eleitoral/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-10-14T11:17:37+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_3b9c5c27a934",
       "title": "Líder do PT defende votação de aumento do faturamento do MEI nesta semana",
       "description": "Projeto já passou pelo Senado e aguarda votação na Câmara dos Deputados; texto pode ser alterado para incluir medidas anunciadas nesta...",
@@ -240,7 +260,7 @@
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-10-13T18:24:18+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,7 +274,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-10-14T16:53:00+00:00",
-      "postedLabel": "38 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -268,10 +288,24 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-10-13T17:57:40+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_7c07b915df55",
+      "title": "Lula lança pacote econômico para MEIs a 12 dias do 2º turno",
+      "description": "O presidente Luiz Inácio Lula da Silva anunciou um pacote de crédito para microempreendedores para conter a rejeição. Leia mais.",
+      "url": "https://revistaoeste.com/politica/lula-lanca-pacote-eleitoral-para-meis-a-12-dias-do-2o-turno/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-10-13T12:59:24+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_ef966456176c",
@@ -286,47 +320,19 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_24fe747c6a48",
-      "title": "Medidas tomadas pelo governo Lula em ano eleitoral somam R$ 350 bi em impacto fiscal",
-      "description": "Iniciativas incluem linhas de crédito, subsídios, benefícios sociais e renúncias tributárias; pacote para MEIs entra no bolo de medidas.",
-      "url": "https://veja.abril.com.br/economia/medidas-tomadas-pelo-governo-lula-em-ano-eleitoral-somam-r-350-bi-em-impacto-fiscal/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-13T21:52:26+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_ef32a00d6bb2",
-      "title": "A 12 dias do 2º turno, governo propõe perdoar R$ 12 bi de dívidas de MEIs",
-      "description": "Pacote de medidas beneficia microempreendedores individuais e cria novo \"Desenrola\" para a renegociação de débitos da categoria.",
-      "url": "https://www.cnnbrasil.com.br/politica/governo-propoe-perdoar-r-12-bi-de-dividas-e-lanca-desenrola-para-meis/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-13T14:23:45+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.69,
+    "average": 5.46,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 7,
-      "centerRight": 2,
+      "center": 8,
+      "centerRight": 1,
       "right": 2,
       "unknown": 7
     }
