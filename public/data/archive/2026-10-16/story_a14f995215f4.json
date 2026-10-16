@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/10/Ciclone-se-aproxima-do-Brasil-e-ameaca-sete-estados-com-temporais-severos-e-ventania-.jpg",
   "publishedAt": "2026-10-14T12:31:31+00:00",
-  "updatedAt": "2026-10-16T07:33:47.806690+00:00",
+  "updatedAt": "2026-10-16T08:39:06.484392+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -128,7 +128,7 @@
       "sourceCanonical": "Canal Rural",
       "sourceDomain": "canalrural.com.br",
       "publishedAt": "2026-10-15T08:05:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -232,6 +232,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_ba69928c2789",
+      "title": "Inmet emite alerta laranja de perigo de tempestade; confira quais estados são afetados",
+      "description": "O Instituto Nacional de Meteorologia (Inmet) emitiu alerta laranja (perigo) para tempestade em oito estados brasileiros, nesta quarta-feira...",
+      "url": "https://www.correiobraziliense.com.br/brasil/2026/10/7520597-inmet-emite-alerta-laranja-de-perigo-de-tempestade-confira-quais-estados-sao-afetados.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-10-14T18:32:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_595e40f69ae0",
       "title": "Inmet alerta para risco de tempestades, rajadas de vento e granizo no DF",
       "description": "O instituto emitiu 2 alertas sobre o o risco potencial de chuva, ventos de até 100 km/h e queda de granizo; população deve redobrar...",
@@ -243,20 +257,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_c2199f874890",
-      "title": "Inmet emite alerta laranja para tempestades no Brasil; confira estados afetados",
-      "description": "O Instituto Nacional de Meteorologia (Inmet) emitiu um alerta laranja para o riso de tempestades em São Paulo e outros Estados do País ao...",
-      "url": "https://www.infomoney.com.br/brasil/inmet-emite-alerta-laranja-para-tempestades-no-brasil-confira-estados-afetados/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-14T16:23:11+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -282,21 +282,7 @@
       "sourceCanonical": "iG Último Segundo",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-10-15T08:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_510e15f5443e",
-      "title": "Frente fria chega amanhã e máxima não passa de 16°C; veja cidades com mais frio",
-      "description": "Ciclone extratropical e frente fria associada devem provocam temporais antes de derrubar as temperaturas no estado de São Paulo.",
-      "url": "https://www.acidadeon.com/campinas/cotidiano/frente-fria-chega-amanha-e-maxima-nao-passa-de-16c-veja-cidades-com-mais-frio/",
-      "source": "ACidade ON",
-      "sourceCanonical": "ACidade ON",
-      "sourceDomain": "acidadeon.com",
-      "publishedAt": "2026-10-15T18:37:35+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_510e15f5443e",
+      "title": "Frente fria chega amanhã e máxima não passa de 16°C; veja cidades com mais frio",
+      "description": "Ciclone extratropical e frente fria associada devem provocam temporais antes de derrubar as temperaturas no estado de São Paulo.",
+      "url": "https://www.acidadeon.com/campinas/cotidiano/frente-fria-chega-amanha-e-maxima-nao-passa-de-16c-veja-cidades-com-mais-frio/",
+      "source": "ACidade ON",
+      "sourceCanonical": "ACidade ON",
+      "sourceDomain": "acidadeon.com",
+      "publishedAt": "2026-10-15T18:37:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.54,
+    "average": 5.38,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
-      "center": 8,
+      "centerLeft": 1,
+      "center": 7,
       "centerRight": 4,
       "right": 0,
       "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
