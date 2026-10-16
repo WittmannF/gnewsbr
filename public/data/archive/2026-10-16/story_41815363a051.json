@@ -25,13 +25,13 @@
     "sarampo",
     "casos",
     "vacinação",
+    "risco",
     "opas",
-    "acende",
-    "alerta"
+    "alto"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/gRJGi_XjwEnK0D9Kzcp6hfedaw0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/O/r/TD3XDBShWgL0CzW0hdlw/foto-png.png",
   "publishedAt": "2026-10-09T07:00:00+00:00",
-  "updatedAt": "2026-10-16T21:21:22.589326+00:00",
+  "updatedAt": "2026-10-16T22:22:41.510210+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -176,20 +176,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_02c5e4e44505",
-      "title": "Baixa cobertura da segunda dose contra sarampo acende alerta em Três Lagoas",
-      "description": "Com 86% de cobertura no reforço, município fica abaixo da meta de 95% do Ministério da Saúde; Mato Grosso do Sul investiga três casos...",
-      "url": "https://www.rcn67.com.br/tres-lagoas/jpnews/baixa-cobertura-da-segunda-dose-contra-sarampo-acende-alerta-em-tres-lagoas/",
-      "source": "RCN 67",
-      "sourceCanonical": "RCN 67",
-      "sourceDomain": "rcn67.com.br",
-      "publishedAt": "2026-10-14T18:35:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_600b12037c37",
       "title": "Sarampo: 65% das cidades brasileiras estão abaixo da meta para segunda dose",
       "description": "Dados do Ministério da Saúde mostram os contrastes entre os 5.570 municípios brasileiros quanto à vacina tríplice viral, usada na proteção...",
@@ -199,6 +185,20 @@
       "sourceDomain": "br.bossanews.com",
       "publishedAt": "2026-10-16T09:44:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d7e3db1a8d6e",
+      "title": "Vácuo vacinal e surto nas Américas deixam Campo Grande sob risco de retorno do sarampo",
+      "description": "Capital não tem infecções locais desde 2020, mas índice de 78% em crianças abre brecha para o vírus em meio a casos importados no Brasil.",
+      "url": "https://www.rcn67.com.br/campo-grande/vacuo-vacinal-e-surto-nas-americas-deixam-campo-grande-sob-risco-de-retorno-do-sarampo/",
+      "source": "RCN 67",
+      "sourceCanonical": "RCN 67",
+      "sourceDomain": "rcn67.com.br",
+      "publishedAt": "2026-10-16T19:23:25+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +226,7 @@
       "sourceCanonical": "Folha MS",
       "sourceDomain": "folhams.com.br",
       "publishedAt": "2026-10-16T19:20:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,18 +288,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e86d5abccb02",
-      "title": "Brasil reforça ações contra sarampo após avanço nas Américas",
-      "description": "Diante do avanço do sarampo nos Estados Unidos e em outros países das Américas, o Ministério da Saúde reforçou o alerta de monitoramento do...",
-      "url": "https://www.poder360.com.br/poder-saude/brasil-reforca-acoes-contra-sarampo-apos-avanco-nas-americas/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-11T13:39:15+00:00",
+      "id": "article_7ab86233b56a",
+      "title": "Brasil tem 52 casos importados de sarampo em 2026, diz governo",
+      "description": "O Ministério da Saúde reforçou o monitoramento do risco de sarampo no Brasil diante do avanço da doença nos Estados Unidos e nas Américas.",
+      "url": "https://tvsimbrasil.com.br/brasil/saude/noticia/2026/10/11/brasil-tem-52-casos-importados-sarampo",
+      "source": "TV Sim Brasil",
+      "sourceCanonical": "TV Sim Brasil",
+      "sourceDomain": "tvsimbrasil.com.br",
+      "publishedAt": "2026-10-11T14:05:27+00:00",
       "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4e5947cca2de",
@@ -319,23 +319,23 @@
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.29,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5.33,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 6,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 13
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 38,
     "headlineDivergence": 76,
-    "confidence": 95
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
