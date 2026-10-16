@@ -26,12 +26,12 @@
     "desmatamento",
     "menor",
     "agropecuária",
-    "áreas",
-    "registra"
+    "registra",
+    "mapbiomas"
   ],
   "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/10/5b07ea98-floresta-amazonica-1024x682-1-75272b85.webp",
   "publishedAt": "2026-10-09T11:36:00+00:00",
-  "updatedAt": "2026-10-16T01:01:38.135199+00:00",
+  "updatedAt": "2026-10-16T01:35:58.058339+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -148,6 +148,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_2aee082d5a31",
+      "title": "Governo Federal apresenta dados de redução do desmatamento na Amazônia e no Cerrado",
+      "description": "O Governo Federal realiza, nesta sexta-feira (16/10), às 14h, coletiva de imprensa para apresentar os dados do Projeto de Monitoramento do...",
+      "url": "https://www.gov.br/mma/pt-br/noticias-defeso-eleitoral/governo-federal-apresenta-dados-de-reducao-do-desmatamento-na-amazonia-e-no-cerrado",
+      "source": "www.gov.br",
+      "sourceCanonical": "GOV.BR",
+      "sourceDomain": "gov.br",
+      "publishedAt": "2026-10-15T23:09:59+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_dff83878b5f7",
       "title": "Desmatamento na Amazônia cai ao menor patamar histórico em 2025",
       "description": "As áreas protegidas –como territórios indígenas, unidades de conservação e terras quilombolas– mantêm 98% de cobertura vegetal nativa.",
@@ -198,7 +212,7 @@
       "sourceCanonical": "CicloVivo",
       "sourceDomain": "ciclovivo.com.br",
       "publishedAt": "2026-10-15T20:11:35+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,21 +240,7 @@
       "sourceCanonical": "Portal Você Online",
       "sourceDomain": "portalvoce.com",
       "publishedAt": "2026-10-15T19:30:37+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_6d82ff7ed839",
-      "title": "Em 40 anos, agropecuária cresce 561% perto de áreas protegidas da Amazônia",
-      "description": "Atividade ocupa 31% do entorno desses territórios e 40,2% das áreas localizadas a até 5 km das estradas, segundo levantamento do MapBiomas.",
-      "url": "https://www.folhabv.com.br/cotidiano/em-40-anos-agropecuaria-cresce-561-perto-de-areas-protegidas-da-amazonia/",
-      "source": "Folha BV",
-      "sourceCanonical": "Folha BV",
-      "sourceDomain": "folhabv.com.br",
-      "publishedAt": "2026-10-14T10:00:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,6 +254,20 @@
       "sourceCanonical": "o rio branco",
       "sourceDomain": "oriobranco.net",
       "publishedAt": "2026-10-14T10:30:31+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_6d82ff7ed839",
+      "title": "Em 40 anos, agropecuária cresce 561% perto de áreas protegidas da Amazônia",
+      "description": "Atividade ocupa 31% do entorno desses territórios e 40,2% das áreas localizadas a até 5 km das estradas, segundo levantamento do MapBiomas.",
+      "url": "https://www.folhabv.com.br/cotidiano/em-40-anos-agropecuaria-cresce-561-perto-de-areas-protegidas-da-amazonia/",
+      "source": "Folha BV",
+      "sourceCanonical": "Folha BV",
+      "sourceDomain": "folhabv.com.br",
+      "publishedAt": "2026-10-14T10:00:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -300,32 +314,18 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_d08e7f030c9c",
-      "title": "Agro-pecuária cresce mais de 500% em torno das áreas protegidas da Amazónia",
-      "description": "A indústria agro-pecuária cresceu 561% no envolvente de áreas protegidas da Amazónia nos últimos 41 anos, revelam dados divulgados pela...",
-      "url": "https://www.publico.pt/2026/10/14/azul/noticia/agropecuaria-cresce-500-torno-areas-protegidas-amazonia-2191324",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-10-14T11:28:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 3.64,
+    "average": 3.82,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
       "left": 4,
-      "centerLeft": 3,
-      "center": 3,
+      "centerLeft": 2,
+      "center": 4,
       "centerRight": 1,
       "right": 0,
       "unknown": 9
