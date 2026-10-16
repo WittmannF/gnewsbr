@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 50
+      "topic-5": 55
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 50,
-    "bestSeedRank": 50,
+    "firstSeenRank": 55,
+    "bestSeedRank": 55,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/15/17920877336ad116b59bd32_1792087733_3x2_rt.jpg",
   "publishedAt": "2026-10-14T21:33:46+00:00",
-  "updatedAt": "2026-10-16T17:29:11.017003+00:00",
+  "updatedAt": "2026-10-16T18:38:15.672212+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -114,7 +114,7 @@
       "sourceCanonical": "Rede Estação Democracia",
       "sourceDomain": "red.org.br",
       "publishedAt": "2026-10-16T15:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,7 +128,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-10-16T13:31:51+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -254,24 +254,10 @@
       "sourceCanonical": "Tribuna Feirense",
       "sourceDomain": "tribunafeirense.com.br",
       "publishedAt": "2026-10-16T12:30:19+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_12c84b7e0cbc",
-      "title": "EUA planejam enviar soldados à América Latina, diz jornal",
-      "description": "O governo do presidente dos Estados Unidos, Donald Trump, está enviando centenas de soldados à América Latina para ampliar as operações de...",
-      "url": "https://revistaoeste.com/mundo/eua-planejam-enviar-soldados-a-america-latina-diz-jornal/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-10-15T16:55:24+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
     },
     {
       "id": "article_5e7215abec40",
@@ -282,7 +268,7 @@
       "sourceCanonical": "DefesaNet",
       "sourceDomain": "defesanet.com.br",
       "publishedAt": "2026-10-16T16:05:55+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -314,32 +300,47 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_b685123a13ca",
+      "title": "Jamil Chade: Chegada de tropas dos EUA na América Latina acende alerta sobre segurança",
+      "description": "Aumento na presença militar americana no Panamá evoca reflexões sobre a influência de Washington na região.",
+      "url": "https://tmc.com.br/mundo/chegada-tropas-eua-america-latina-seguranca/",
+      "source": "tmc.com.br",
+      "sourceCanonical": "tmc.com.br",
+      "sourceDomain": "tmc.com.br",
+      "publishedAt": "2026-10-15T15:20:32+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 10,
-    "average": 5.4,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "max": 8,
+    "average": 5.07,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 6,
       "centerRight": 4,
-      "right": 1,
-      "unknown": 5
+      "right": 0,
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
