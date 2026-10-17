@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZaFpTVUVoSGc5WnYtZTN4UXpDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZaFpTVUVoSGc5WnYtZTN4UXpDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 26
+      "topic-3": 41,
+      "topic-5": 44
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 26,
-    "bestSeedRank": 26,
+    "firstSeenRank": 41,
+    "bestSeedRank": 41,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,15 +27,15 @@
   "topicKeywords": [
     "turno",
     "datafolha",
-    "pretendem",
     "votar",
+    "pretendem",
     "pesquisa",
-    "intenção"
+    "não"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/29211044130_864ffce858_o.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-09-14T07:00:00+00:00",
-  "updatedAt": "2026-10-17T12:32:29.652016+00:00",
-  "sourceCount": 14,
+  "publishedAt": "2026-10-09T23:00:00+00:00",
+  "updatedAt": "2026-10-17T13:23:26.239128+00:00",
+  "sourceCount": 16,
   "articleCount": 20,
   "articles": [
     {
@@ -58,7 +61,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-10-17T11:11:02+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/DoZr1AeWxKXD-Fmy-5X6N82RXvQ=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/S/E/vfWCBBRzGYvM4Fc2NcUg/montagem-1792195860854.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -90,6 +93,20 @@
       "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/05/12/818x460/1_agregador_de_pesquisas_o_povo_14-40637523.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_8f42f068d834",
+      "title": "Eleições 2026 - Datafolha divulga nova pesquisa para presidente no 2º turno ainda hoje. Confira as novidades para o seu Papo da Noite",
+      "description": "O Datafolha divulga hoje, quinta-feira, 15/10, a partir das 18h30, uma nova pesquisa de intenção de voto para o segundo turno da eleição...",
+      "url": "https://www.opoder.com.br/noticias/34506/eleicoes-2026-datafolha-divulga-nova-pesquisa-para-presidente-no-2o-turno-ainda-hoje-confira-as-novidades-para-o-seu-papo-da-noite",
+      "source": "Jornal O PODER",
+      "sourceCanonical": "Jornal O PODER",
+      "sourceDomain": "opoder.com.br",
+      "publishedAt": "2026-10-15T21:15:47+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_dbcede151a20",
@@ -134,6 +151,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_6b12a09523f9",
+      "title": "Desejo de votar",
+      "description": "Desejo de votar. Publicado em 17/10/2026. Novo recorte de pesquisa Datafolha divulgado ontem mostra que 96% do eleitorado brasileiro pretende ir votar no...",
+      "url": "https://acaopopular.net/jornal/desejo-de-votar/",
+      "source": "Jornal Ação Popular",
+      "sourceCanonical": "Jornal Ação Popular",
+      "sourceDomain": "acaopopular.net",
+      "publishedAt": "2026-10-17T10:48:03+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b3e3ed2aecad",
       "title": "Datafolha: Pesquisa aponta que 96% dos eleitores pretendem ir às urnas no segundo turno",
       "description": "Apenas 2% de quem vota em Lula ou Flávio Bolsonaro afirmam que não vão votar.",
@@ -156,24 +187,10 @@
       "sourceCanonical": "O Antagonista",
       "sourceDomain": "oantagonista.com.br",
       "publishedAt": "2026-10-17T09:47:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_09dd3e673264",
-      "title": "96% pretendem ir votar no 2º turno; 1% diz não ter intenção de comparecer, mostra Datafolha",
-      "description": "Indecisão sobre candidatos aparece como motivo entre quem não decidiu ou não pretende votar. Abstenção no 1º turno superou 33 milhões,...",
-      "url": "https://redeutv.com.br/96-pretendem-ir-votar-no-2o-turno-1-diz-nao-ter-intencao-de-comparecer-mostra-datafolha",
-      "source": "redeutv.com.br",
-      "sourceCanonical": "redeutv.com.br",
-      "sourceDomain": "redeutv.com.br",
-      "publishedAt": "2026-10-17T00:50:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_f4bdcbc75249",
@@ -184,6 +201,20 @@
       "sourceCanonical": "Francês News",
       "sourceDomain": "francesnews.com.br",
       "publishedAt": "2026-10-16T23:40:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_09dd3e673264",
+      "title": "96% pretendem ir votar no 2º turno; 1% diz não ter intenção de comparecer, mostra Datafolha",
+      "description": "Indecisão sobre candidatos aparece como motivo entre quem não decidiu ou não pretende votar. Abstenção no 1º turno superou 33 milhões,...",
+      "url": "https://redeutv.com.br/96-pretendem-ir-votar-no-2o-turno-1-diz-nao-ter-intencao-de-comparecer-mostra-datafolha",
+      "source": "redeutv.com.br",
+      "sourceCanonical": "redeutv.com.br",
+      "sourceDomain": "redeutv.com.br",
+      "publishedAt": "2026-10-17T00:50:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -218,20 +249,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_74608bcb2830",
-      "title": "Datafolha: colunistas do GLOBO analisam a segunda pesquisa do instituto para o segundo turno entre Lula e Flávio Bolsonaro",
-      "description": "No primeiro levantamento, candidato do PL teve 52% das intenções de votos contra 48% do petista.",
-      "url": "https://oglobo.globo.com/politica/eleicoes-2026/ao-vivo/datafolha-colunistas-do-globo-analisam-a-segunda-pesquisa-do-instituto-para-o-segundo-turno-entre-lula-e-flavio-bolsonaro.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-15T23:25:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_e7e967f2b3ba",
       "title": "Datafolha aponta 96% dispostos a votar no segundo turno",
       "description": "O Datafolha divulgou nesta sexta-feira (16), segundo o g1, que 96% dos entrevistados pretendem votar no segundo turno, previsto para 25 de...",
@@ -260,6 +277,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_74608bcb2830",
+      "title": "Datafolha: colunistas do GLOBO analisam a segunda pesquisa do instituto para o segundo turno entre Lula e Flávio Bolsonaro",
+      "description": "No primeiro levantamento, candidato do PL teve 52% das intenções de votos contra 48% do petista.",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/ao-vivo/datafolha-colunistas-do-globo-analisam-a-segunda-pesquisa-do-instituto-para-o-segundo-turno-entre-lula-e-flavio-bolsonaro.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-15T23:25:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_8d77bad1e6ac",
       "title": "Datafolha divulga nova pesquisa de intenção de voto para presidente",
       "description": "Flávio Bolsonaro (PL) está tecnicamente empatado com Lula (PT) dentro da margem de erro.",
@@ -282,35 +313,7 @@
       "sourceCanonical": "Folha de Curitiba",
       "sourceDomain": "folhadecuritiba.com.br",
       "publishedAt": "2026-10-17T06:50:12+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_a3ebecee2cdc",
-      "title": "Análise da Quaest revela preferências eleitorais por regiões e perfis demográficos",
-      "description": "A pesquisa realizada pela Quaest trouxe à tona dados significativos sobre as intenções de voto para o segundo turno das eleições de 2026. Os...",
-      "url": "https://folhadecuritiba.com.br/analise-da-quaest-revela-preferencias-eleitorais-por-regioes-e-perfis-demograficos/",
-      "source": "Folha de Curitiba",
-      "sourceCanonical": "Folha de Curitiba",
-      "sourceDomain": "folhadecuritiba.com.br",
-      "publishedAt": "2026-09-14T07:00:00+00:00",
-      "postedLabel": "mês passado",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_40476c147716",
-      "title": "Pesquisa Datafolha revela intenção de voto no 2º turno por diferentes perfis",
-      "description": "Dados do Datafolha mostram a intenção de voto para o 2º turno das eleições de 2026, com recortes por região, gênero e faixa etária,...",
-      "url": "https://folhadecuritiba.com.br/pesquisa-datafolha-revela-intencao-de-voto-no-2o-turno-por-diferentes-perfis/",
-      "source": "Folha de Curitiba",
-      "sourceCanonical": "Folha de Curitiba",
-      "sourceDomain": "folhadecuritiba.com.br",
-      "publishedAt": "2026-10-09T06:40:24+00:00",
-      "postedLabel": "8 dias atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
