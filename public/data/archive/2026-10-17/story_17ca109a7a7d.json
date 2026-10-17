@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 40
+      "topic-3": 41
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 41,
+    "bestSeedRank": 41,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/10/15/675x450/1_55592001933-22ccfa2ec7-o-67980888.jpg",
   "publishedAt": "2026-10-13T13:47:38+00:00",
-  "updatedAt": "2026-10-17T09:25:42.482963+00:00",
+  "updatedAt": "2026-10-17T11:24:16.983500+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -142,7 +142,7 @@
       "sourceCanonical": "tmc.com.br",
       "sourceDomain": "tmc.com.br",
       "publishedAt": "2026-10-16T10:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +198,7 @@
       "sourceCanonical": "Goiás 246",
       "sourceDomain": "goias246.com.br",
       "publishedAt": "2026-10-16T10:51:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -232,6 +232,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_07e1b31d332b",
+      "title": "Alcolumbre busca apoio de senadores eleitos para manter presidência da Casa",
+      "description": "O presidente do Senado, Davi Alcolumbre (União-AP), tem procurado senadores eleitos pela primeira vez para a Casa em uma tentativa de...",
+      "url": "https://www.infomoney.com.br/politica/alcolumbre-busca-apoio-de-senadores-eleitos-para-manter-presidencia-da-casa/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-13T19:08:04+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_cdab8b2256f5",
       "title": "Davi Alcolumbre articula pautas pró-Lula e busca voto até do partido de Bolsonaro para continuar presidente do Senado",
       "description": "O presidente do Senado, Davi Alcolumbre (União Brasil-AP), articula apoio de parlamentares de diferentes partidos para permanecer no comando...",
@@ -260,10 +274,10 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ea6852dfaa9b",
-      "title": "Alcolumbre negocia gabinetes por votos pelo fim da escala 6×1",
-      "description": "O presidente do Senado, Davi Alcolumbre (União Brasil-AP), tem negociado a distribuição de gabinetes e apartamentos funcionais para a...",
-      "url": "https://ncnews.com.br/2026/10/14/alcolumbre-negocia-gabinetes-escala-6x1/",
+      "id": "article_6fc663fe3257",
+      "title": "Alcolumbre negocia gabinetes por votos para PEC do fim do 6×1",
+      "description": "Davi Alcolumbre mandato envolve negociações estratégicas para aprovação da PEC que acaba com a escala 6x1, movimentando o cenário político...",
+      "url": "https://ncnews.com.br/2026/10/14/alcolumbre-negocia-gabinetes-votos-pec-fim-6x1/",
       "source": "ncnews.com.br",
       "sourceCanonical": "ncnews.com.br",
       "sourceDomain": "ncnews.com.br",
@@ -272,20 +286,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_49f53a22d2e2",
-      "title": "Alcolumbre articula reeleição no Senado em meio à pressão por impeachment no STF",
-      "description": "247 – O presidente do Senado, Davi Alcolumbre (União-AP), tem procurado senadores eleitos pela primeira vez e parlamentares reeleitos para...",
-      "url": "https://www.brasil247.com/brasil/alcolumbre-articula-reeleicao-no-senado-em-meio-a-pressao-por-impeachment-no-stf/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-10-13T19:03:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     },
     {
       "id": "article_5ca2c05db686",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 8,
-    "average": 5.38,
+    "average": 6,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
-      "center": 4,
+      "center": 5,
       "centerRight": 2,
       "right": 0,
       "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
