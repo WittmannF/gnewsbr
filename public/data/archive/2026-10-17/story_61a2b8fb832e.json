@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnaUltVEVoRVZVRWNFMGl3MWZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnaUltVEVoRVZVRWNFMGl3MWZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre porta-voz • Casa Branca • Trump",
+  "title": "Katie Zacharia deixa cargo de secretária de imprensa da Casa Branca",
   "summary": "Katie Zacharia deixou cargo após admitir que nunca passou no exame da ordem dos advogados; sua saída ocorre a três semanas das eleições...",
   "topic": "Trump · Porta",
   "topicKeywords": [
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/wCWAd027lddfLfS6Kv1gnrxn7YY=/4000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/i/X/tL9TC4SWyAY0rQyvni8A/470748056.jpg",
   "publishedAt": "2026-10-15T06:20:00+00:00",
-  "updatedAt": "2026-10-17T21:26:57.124881+00:00",
+  "updatedAt": "2026-10-17T22:20:08.769674+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -106,20 +112,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_51ea53493f26",
-      "title": "Casa Branca despede Katie Zacharia ao quinto dia como porta-voz de Trump | EUA",
-      "description": "Estreia penosa e dúvidas sobre as qualificações profissionais da secretária de imprensa derrubam Zacharia ao final da primeira semana no...",
-      "url": "https://www.publico.pt/2026/10/16/mundo/noticia/casa-branca-despede-katie-zacharia-quinto-dia-portavoz-trump-2191674",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-10-16T18:23:11+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_8b5ccbd8fae0",
       "title": "Em meio a gafes, porta-voz da Casa Branca deixa cargo após cinco dias",
       "description": "A porta-voz da Casa Branca, Katie Zacharia, deixou o cargo nesta sexta-feira (16) após o presidente Donald Trump ter sugerido que ela se...",
@@ -131,20 +123,6 @@
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_0f15730669c0",
-      "title": "‘Alguém investigou o histórico dela?’: Como Trump perdeu a confiança em Katie Zacharia como secretária de imprensa em apenas cinco dias",
-      "description": "Instalado para um voo de sete horas pelo país nesta semana, o presidente dos Estados Unidos, Donald Trump, não deu muitos sinais de que...",
-      "url": "https://noticias.r7.com/internacional/alguem-investigou-o-historico-dela-como-trump-perdeu-a-confianca-em-katie-zacharia-como-secretaria-de-imprensa-em-apenas-cinco-dias-17102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-17T11:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -162,18 +140,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_c072633a9371",
-      "title": "Quem é Katie Zacharia, porta-voz de Trump demitida com menos de uma semana no cargo",
-      "description": "Escolhida por Donald Trump para substituir Karoline Leavitt, Katie Zacharia teve uma passagem meteórica pela Secretaria de Imprensa da Casa...",
-      "url": "https://veja.abril.com.br/mundo/quem-e-katie-zacharia-porta-voz-de-trump-demitida-com-menos-de-uma-semana-no-cargo/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-16T19:49:52+00:00",
-      "postedLabel": "ontem",
+      "id": "article_0f15730669c0",
+      "title": "‘Alguém investigou o histórico dela?’: Como Trump perdeu a confiança em Katie Zacharia como secretária de imprensa em apenas cinco dias",
+      "description": "Instalado para um voo de sete horas pelo país nesta semana, o presidente dos Estados Unidos, Donald Trump, não deu muitos sinais de que...",
+      "url": "https://noticias.r7.com/internacional/alguem-investigou-o-historico-dela-como-trump-perdeu-a-confianca-em-katie-zacharia-como-secretaria-de-imprensa-em-apenas-cinco-dias-17102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-17T11:00:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_51ea53493f26",
+      "title": "Casa Branca despede Katie Zacharia ao quinto dia como porta-voz de Trump | EUA",
+      "description": "Estreia penosa e dúvidas sobre as qualificações profissionais da secretária de imprensa derrubam Zacharia ao final da primeira semana no...",
+      "url": "https://www.publico.pt/2026/10/16/mundo/noticia/casa-branca-despede-katie-zacharia-quinto-dia-portavoz-trump-2191674",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-10-16T18:23:11+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_c49fb405b9db",
@@ -184,7 +176,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-10-16T21:33:26+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -202,6 +194,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c072633a9371",
+      "title": "Quem é Katie Zacharia, porta-voz de Trump demitida com menos de uma semana no cargo",
+      "description": "Escolhida por Donald Trump para substituir Karoline Leavitt, Katie Zacharia teve uma passagem meteórica pela Secretaria de Imprensa da Casa...",
+      "url": "https://veja.abril.com.br/mundo/quem-e-katie-zacharia-porta-voz-de-trump-demitida-com-menos-de-uma-semana-no-cargo/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-16T19:49:52+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_514b9d8821ca",
@@ -274,15 +280,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_f53c780e7785",
-      "title": "Alto cargo americano confirma demissão da porta-voz da Casa Branca, Katie Zacharia",
-      "description": "Saída de Katie Zacharia foi confirmada por um funcionário da Casa Branca após o presidente demonstrar dúvidas sobre sua permanência.",
-      "url": "https://jornaldebrasilia.com.br/noticias/mundo/alto-cargo-americano-confirma-demissao-da-porta-voz-da-casa-branca-katie-zacharia/",
+      "id": "article_6e91652bb34d",
+      "title": "Trump demite secretária de Imprensa 5 dias após posse",
+      "description": "Em uma rápida entrevista por telefone à rede Fox News, Trump afirmou que não estava com pressa para anunciar um novo nome ao cargo.",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/trump-demite-secretaria-de-imprensa-5-dias-apos-posse/",
       "source": "Jornal de Brasília",
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-10-16T18:42:45+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-10-16T23:35:01+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
