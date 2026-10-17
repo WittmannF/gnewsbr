@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pobk91T0VoSGFKdm1kYkd2anR5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pobk91T0VoSGFKdm1kYkd2anR5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 6,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 8,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 6,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Dark Horse: Delator relata fraude em pagamento a fundo ligado a Eduardo Bolsonaro nos EUA",
   "summary": "Antônio Freixo Júnior disse à PF que fez pagamentos acreditando comprar cotas de empreendimento imobiliário; filho do ex-presidente Jair...",
@@ -29,12 +35,12 @@
     "horse",
     "pede",
     "bolsonaro",
-    "delator",
-    "filme"
+    "filme",
+    "delator"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/TS4DGVNOU5I2JDQLCAAKHHJXWM.jpg?quality=80&auth=ac155317535b62379a2534c86557360a61965bdbff3bb5ffe28e1c9fb2a56667&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-14T16:40:00+00:00",
-  "updatedAt": "2026-10-17T07:25:00.402066+00:00",
+  "updatedAt": "2026-10-17T08:27:26.980144+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -75,7 +81,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-17T01:57:13+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -95,20 +101,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_f19e593fa0ec",
-      "title": "Caso Dark Horse: PF pede a Mendonça prorrogação do inquérito por 90 dias",
-      "description": "Inquérito da PF sobre Dark Horse foi instaurado no fim de julho deste ano e teve prazo de tramitação com vencimento em 10 de outubro deste...",
-      "url": "https://www.cnnbrasil.com.br/politica/caso-dark-horse-pf-pede-a-mendonca-prorrogacao-do-inquerito-por-90-dias/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-16T22:29:18+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_f08a65110323",
       "title": "PF aponta ‘divergência contábil severa’ em dados financeiros do filme Dark Horse",
       "description": "Documento enviado ao STF afirma que é 'indispensável submeter todo o acervo documental e bancário a um rigoroso exame pericial forense'",
@@ -121,6 +113,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_f19e593fa0ec",
+      "title": "Caso Dark Horse: PF pede a Mendonça prorrogação do inquérito por 90 dias",
+      "description": "Inquérito da PF sobre Dark Horse foi instaurado no fim de julho deste ano e teve prazo de tramitação com vencimento em 10 de outubro deste...",
+      "url": "https://www.cnnbrasil.com.br/politica/caso-dark-horse-pf-pede-a-mendonca-prorrogacao-do-inquerito-por-90-dias/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-16T22:29:18+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_8e9853140622",
@@ -159,7 +165,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-10-17T02:33:29+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -263,6 +269,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_37714c223f8e",
+      "title": "Dinheiro de “Dark Horse” é buraco negro na contabilidade de Vorcaro",
+      "description": "Banco Master não encontra registros dos R$ 62 milhões transferidos para financiar cinebiografia de Jair Bolsonaro.",
+      "url": "https://pipocamoderna.com.br/2026/10/dinheiro-dark-horse-buraco-negro-vorcaro/",
+      "source": "Pipoca Moderna",
+      "sourceCanonical": "Pipoca Moderna",
+      "sourceDomain": "pipocamoderna.com.br",
+      "publishedAt": "2026-10-17T07:32:39+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_bb90e043d7d6",
       "title": "PF avalia fatiar investigações sobre Flávio Bolsonaro no caso Dark Horse",
       "description": "Apuração sobre o financiamento do filme “Dark Horse” pode ser dividida, enquanto rastreamento de recursos enviados aos EUA enfrenta...",
@@ -299,39 +319,25 @@
       "sourceCanonical": "Blog do Magno",
       "sourceDomain": "blogdomagno.com.br",
       "publishedAt": "2026-10-17T02:01:24+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_397ab618697b",
-      "title": "Dark Horse: Delator entregou à PF planilha, contratos e mensagens com advogado de Eduardo Bolsonaro",
-      "description": "Informações foram incluídas em inquérito sobre financiamento do filme; deputado cassado e Flávio Bolsonaro são investigados.",
-      "url": "https://oglobo.globo.com/blogs/malu-gaspar/post/2026/10/dark-horse-delator-entregou-a-pf-planilha-contratos-e-mensagens-com-advogado-de-eduardo-bolsonaro.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-17T00:18:20+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.24,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.19,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 3,
       "centerLeft": 0,
-      "center": 10,
+      "center": 9,
       "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
