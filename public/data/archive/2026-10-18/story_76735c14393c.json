@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxa0tTV0VoSFFIREVrSzdGQnpDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxa0tTV0VoSFFIREVrSzdGQnpDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 1,
+      "topstories": 1,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Autoridades francesas detêm centenas de manifestantes em atos pelo país",
   "summary": "Protestos na França terminam com cerca de 1.200 detidos e 150 policiais feridos; atos contra o custo de vida também ocorreram em outros...",
@@ -27,11 +33,11 @@
     "presos",
     "custo",
     "vida",
-    "manifestantes"
+    "confrontos"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/rJe1Vys_ii26yV9nwB1ouA5b634=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/8/a/kFA7N6TBe0e1w4t0aEhQ/afp-20261017-d3lp3wg-v4-midres-francesocialdemo.jpg",
   "publishedAt": "2026-10-17T11:31:18+00:00",
-  "updatedAt": "2026-10-18T07:34:40.619319+00:00",
+  "updatedAt": "2026-10-18T08:27:59.921501+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -48,20 +54,6 @@
       "imageUrl": "https://s2-g1.glbimg.com/rJe1Vys_ii26yV9nwB1ouA5b634=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/8/a/kFA7N6TBe0e1w4t0aEhQ/afp-20261017-d3lp3wg-v4-midres-francesocialdemo.jpg",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_6c759655ed74",
-      "title": "Torre histórica da câmara municipal de Limoges desaba após incêndio provocado por manifestantes",
-      "description": "Protestos de grande dimensão em França no sábado degeneraram em violência em várias zonas, com confrontos entre manifestantes e a polícia;...",
-      "url": "https://pt.euronews.com/2026/10/18/torre-historica-da-camara-municipal-de-limoges-desaba-apos-incendio-provocado-por-manifest",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-10-18T06:43:45+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_c7072052afff",
@@ -92,6 +84,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_ae7ad1c79f05",
+      "title": "Confrontos e incêndios marcam protestos que reúnem manifestantes e estudantes por toda a França",
+      "description": "Pelo menos 272 pessoas foram detidas até a tarde deste sábado, 17; houve confrontos em Paris e episódios de depredação em Lyon e Marselha.",
+      "url": "https://www.estadao.com.br/em-alta/internacional/franca-manifestantes-protestam-contra-o-aumento-do-custo-de-vida-e-se-unem-aos-estudantes/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-17T13:18:08+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/CK7IF7QCTBDELJGMCWWJZJFBGE.jpg?quality=80&auth=e106b32e4835e1f6e51d9dfa25f3ec4469096f25d1d27ccce36f24ed1e944781&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_d60126f144a6",
       "title": "Manifestações na França: o que está por trás de dia de protestos com prédio incendiado e mais de mil presos",
       "description": "Legenda da foto, Um manifestante fica frente a frente com a tropa de choque francesa em meio a confrontos durante uma manifestação contra o...",
@@ -101,7 +107,7 @@
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-10-17T14:43:32+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/8196/live/a0be8040-ca36-11f1-9ab2-b325ce61f9d2.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -128,7 +134,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-18T02:22:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -162,20 +168,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ae7ad1c79f05",
-      "title": "Confrontos e incêndios marcam protestos que reúnem manifestantes e estudantes por toda a França",
-      "description": "Pelo menos 272 pessoas foram detidas até a tarde deste sábado, 17; houve confrontos em Paris e episódios de depredação em Lyon e Marselha.",
-      "url": "https://www.estadao.com.br/em-alta/internacional/franca-manifestantes-protestam-contra-o-aumento-do-custo-de-vida-e-se-unem-aos-estudantes/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-17T13:18:08+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_d05783f35f31",
       "title": "Protestos contra alto custo de vida provoca incêndios e vandalismo na França #CidadeAlerta #shorts",
       "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade.",
@@ -184,10 +176,24 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-10-18T02:04:25+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_06a04a1266ad",
+      "title": "Lojas de luxo são saqueadas durante protestos na França",
+      "description": "As ruas da França foram tomadas por uma série de protestos contra o alto custo de vida neste sábado (17/10). Em cidades como Paris, Lyon e...",
+      "url": "https://www.metropoles.com/colunas/ilca-maria-estevao/lojas-de-luxo-sao-saqueadas-durante-protestos-na-franca",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-17T21:20:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_5c4181a1d13f",
@@ -204,18 +210,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_06a04a1266ad",
-      "title": "Lojas de luxo são saqueadas durante protestos na França",
-      "description": "As ruas da França foram tomadas por uma série de protestos contra o alto custo de vida neste sábado (17/10). Em cidades como Paris, Lyon e...",
-      "url": "https://www.metropoles.com/colunas/ilca-maria-estevao/lojas-de-luxo-sao-saqueadas-durante-protestos-na-franca",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-17T21:20:00+00:00",
+      "id": "article_873af2d26c12",
+      "title": "Vídeo. França: histórico edifício dos Paços do Concelho de Limoges em chamas durante protestos",
+      "description": "Vídeo. O edifício da câmara de Limoges, com 143 anos, no centro de França, foi incendiado durante distúrbios após protestos nacionais contra...",
+      "url": "https://pt.euronews.com/video/2026/10/17/franca-historico-edificio-dos-pacos-do-concelho-de-limoges-em-chamas-durante-protestos",
+      "source": "Euronews",
+      "sourceCanonical": "Euronews",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-10-17T21:00:53+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a67edeec6fd7",
