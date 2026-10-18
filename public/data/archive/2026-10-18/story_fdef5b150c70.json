@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvMGZlWUVoRjlPdmRZc3ZoVDNpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvMGZlWUVoRjlPdmRZc3ZoVDNpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 18
+      "topic-3": 25,
+      "topic-5": 22
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 18,
-    "bestSeedRank": 18,
+    "firstSeenRank": 25,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "flávio",
     "aposentadoria",
     "idade",
-    "plano",
     "bolsonaro",
+    "plano",
     "empresários"
   ],
   "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/10/55208160975-fe27497b45-o.webp",
   "publishedAt": "2026-10-13T12:23:29+00:00",
-  "updatedAt": "2026-10-18T02:33:32.799234+00:00",
+  "updatedAt": "2026-10-18T03:29:58.475830+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -44,7 +47,7 @@
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-10-17T20:39:29+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/10/55208160975-fe27497b45-o.webp",
       "spectrumScore": 2,
       "bucket": "left"
@@ -116,6 +119,20 @@
       "publishedAt": "2026-10-17T19:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_a3a55d5a2440",
+      "title": "Flávio Bolsonaro recebeu pedidos de empresários sobre aposentadoria, salário mínimo e Bolsa Família",
+      "description": "Durante um encontro com representantes do setor empresarial, o candidato à presidência Flávio Bolsonaro recebeu um plano econômico que...",
+      "url": "https://www.terra.com.br/diversao/gente/flavio-bolsonaro-recebeu-pedidos-de-empresarios-sobre-aposentadoria-salario-minimo-e-bolsa-familia,debc7fb1a73edcd2324a28fa6a19a100te9141g5.html?mt=1",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-15T16:27:03+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/10/15/1451974683-flavio-bolsonaro.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -212,7 +229,7 @@
       "sourceCanonical": "www.correiodamanha.com.br",
       "sourceDomain": "correiodamanha.com.br",
       "publishedAt": "2026-10-16T03:01:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -268,20 +285,6 @@
       "sourceCanonical": "BNC Amazonas",
       "sourceDomain": "bncamazonas.com.br",
       "publishedAt": "2026-10-16T02:53:18+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_ede7c8b14ca0",
-      "title": "Acabou a aposentadoria? Vaza ‘plano secreto’ de Flávio Bolsonaro; mudança de idade choca internet",
-      "description": "Durante um encontro com representantes do setor empresarial, o candidato à presidência Flávio Bolsonaro recebeu um plano econômico que...",
-      "url": "https://contigo.com.br/noticias/famosos/acabou-a-aposentadoria-vaza-plano-secreto-de-flavio-bolsonaro-mudanca-de-idade-choca-internet.phtml",
-      "source": "contigo.com.br",
-      "sourceCanonical": "contigo.com.br",
-      "sourceDomain": "contigo.com.br",
-      "publishedAt": "2026-10-15T16:26:14+00:00",
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 1,
     "max": 5,
-    "average": 2.43,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 2.75,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 5,
       "centerLeft": 1,
-      "center": 1,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
