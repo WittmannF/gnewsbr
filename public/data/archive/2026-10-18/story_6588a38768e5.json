@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lSajllV0VoSE5TYkVkTmdmTWVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lSajllV0VoSE5TYkVkTmdmTWVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Locais de votação do segundo turno mantêm-se em regra",
   "summary": "A Justiça Eleitoral alterou o endereço de 4.352 seções eleitorais em todo o país para o segundo turno das Eleições 2026, marcado para o...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "turno",
     "votação",
-    "seções",
     "locais",
-    "consultar",
-    "eleitorais"
+    "seções",
+    "mil",
+    "local"
   ],
   "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/10/0d7a8468-d1b71aaa.webp",
   "publishedAt": "2026-10-16T15:47:00+00:00",
-  "updatedAt": "2026-10-18T05:27:47.335409+00:00",
+  "updatedAt": "2026-10-18T06:34:55.823336+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -204,20 +210,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_b4bd712cbfd9",
-      "title": "TSE muda locais de votação de 312 seções na Bahia; veja como consultar",
-      "description": "Alterações foram registradas em diferentes estados e exigem atenção dos eleitores antes da votação deste domingo (25)",
-      "url": "https://www.metro1.com.br/noticias/eleicoes-2026/189923,tse-muda-locais-de-votacao-de-312-secoes-na-bahia-veja-como-consultar",
-      "source": "Rádio Metrópole",
-      "sourceCanonical": "Rádio Metrópole",
-      "sourceDomain": "metro1.com.br",
-      "publishedAt": "2026-10-17T13:22:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_a8ed5d759e0a",
       "title": "Consulte com antecedência seu local de votação no 2º turno",
       "description": "Utilize o aplicativo gratuito e-Título, o WhatsApp e o Disque Eleições do TRE-PI , o Autoatendimento Eleitoral e o ChatVote no site do TSE.",
@@ -226,6 +218,20 @@
       "sourceCanonical": "Tribunal Regional Eleitoral do Piauí",
       "sourceDomain": "tre-pi.jus.br",
       "publishedAt": "2026-10-17T20:37:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_b4bd712cbfd9",
+      "title": "TSE muda locais de votação de 312 seções na Bahia; veja como consultar",
+      "description": "Alterações foram registradas em diferentes estados e exigem atenção dos eleitores antes da votação deste domingo (25)",
+      "url": "https://www.metro1.com.br/noticias/eleicoes-2026/189923,tse-muda-locais-de-votacao-de-312-secoes-na-bahia-veja-como-consultar",
+      "source": "Rádio Metrópole",
+      "sourceCanonical": "Rádio Metrópole",
+      "sourceDomain": "metro1.com.br",
+      "publishedAt": "2026-10-17T13:22:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -274,15 +280,15 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_af01dd9799ab",
-      "title": "Justiça Eleitoral muda locais de votação de 4.352 seções para o 2º turno; saiba como consultar",
-      "description": "Alterações atingem 0,87% das seções do país e foram motivadas por reformas, problemas de infraestrutura e riscos climáticos.",
-      "url": "https://noticias.r7.com/eleicoes/2026/justica-eleitoral-muda-locais-de-votacao-de-4352-secoes-para-o-2-turno-saiba-como-consultar-17102026/",
+      "id": "article_d5767d6db0a9",
+      "title": "Mais de 4 mil locais de votação mudaram de endereço entre primeiro e segundo turno",
+      "description": "A Justiça Eleitoral anunciou mudanças nos endereços de mais de 4 mil locais de votação entre o primeiro e o segundo turno das eleições.",
+      "url": "https://noticias.r7.com/jr-na-tv/video/mais-de-4-mil-locais-de-votacao-mudaram-de-endereco-entre-primeiro-e-segundo-turno-18102026/",
       "source": "R7",
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-17T18:09:28+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-10-18T02:18:50+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -302,33 +308,33 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_8dabfbf29d0b",
-      "title": "Mais de 4,3 mil seções eleitorais mudaram de endereço; veja",
-      "description": "A Justiça Eleitoral alterou o endereço de 4.352 seções eleitorais para o segundo turno das eleições de 2026, marcado para 25 de outubro.",
-      "url": "https://ultimosegundo.ig.com.br/2026-10-17/mais-de-4-3-mil-secoes-eleitorais-mudaram-de-endereco-para-o-2-turno--veja-como-consultar.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-10-17T17:01:00+00:00",
+      "id": "article_509d3aac85bc",
+      "title": "Mais de 4 mil seções mudam de endereço no 2º turno; veja onde votar",
+      "description": "A Justiça Eleitoral mudou o endereço de 4.352 seções para o segundo turno, equivalente a 0,87% do total nacional. Reformas, melhorias de...",
+      "url": "https://exame.com/brasil/mais-de-4-mil-secoes-mudam-de-endereco-no-2o-turno-veja-onde-votar/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-10-17T22:19:52+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.8,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.91,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 5,
+      "center": 6,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
