@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3cTVhWUVoRWI3cWoyc2RwNlBTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o3cTVhWUVoRWI3cWoyc2RwNlBTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 18
+      "topic-3": 20,
+      "topic-5": 5
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 18,
-    "bestSeedRank": 18,
+    "firstSeenRank": 20,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "flávio",
     "bolsonaro",
     "globo",
-    "sabatina",
+    "entrevista",
     "lula",
-    "entrevista"
+    "sabatina"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/Comunidade_Salvador-1200x675.jpg",
-  "publishedAt": "2026-10-16T21:26:54+00:00",
-  "updatedAt": "2026-10-18T08:30:20.283923+00:00",
+  "publishedAt": "2026-10-16T22:58:00+00:00",
+  "updatedAt": "2026-10-18T09:24:41.560181+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -134,14 +137,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_bb5842dac6aa",
-      "title": "Flávio usa sabatina como propaganda, enaltece bolsonarismo e deixa conta do ajuste em aberto",
-      "description": "Das certezas que se tem após a entrevista, uma é que Flávio não nega o sobrenome Bolsonaro.",
-      "url": "https://www.jota.info/eleicoes/eleicoes-2026/flavio-usa-sabatina-como-propaganda-enaltece-bolsonarismo-e-deixa-conta-do-ajuste-em-aberto",
-      "source": "JOTA Info",
-      "sourceCanonical": "JOTA Info",
-      "sourceDomain": "jota.info",
-      "publishedAt": "2026-10-17T10:34:50+00:00",
+      "id": "article_3e422b77773c",
+      "title": "Panelaço acompanha entrevista de Flávio Bolsonaro à TV Globo",
+      "description": "Mobilização convocada por André Janones ocorreu em capitais durante sabatina; candidato do PL disse que apoia o fim da escala 6x1.",
+      "url": "https://istoe.com.br/panelaco-entrevista-flavio-bolsonaro-tv-globo-janones",
+      "source": "ISTOÉ Independente",
+      "sourceCanonical": "ISTOÉ Independente",
+      "sourceDomain": "istoe.com.br",
+      "publishedAt": "2026-10-17T12:13:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -232,6 +235,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_bb5842dac6aa",
+      "title": "Flávio usa sabatina como propaganda, enaltece bolsonarismo e deixa conta do ajuste em aberto",
+      "description": "Das certezas que se tem após a entrevista, uma é que Flávio não nega o sobrenome Bolsonaro.",
+      "url": "https://www.jota.info/eleicoes/eleicoes-2026/flavio-usa-sabatina-como-propaganda-enaltece-bolsonarismo-e-deixa-conta-do-ajuste-em-aberto",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-10-17T10:34:50+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_450b9c81f24b",
       "title": "Lula questiona imparcialidade da Globo após encontro de Flávio com direção da emissora",
       "description": "Durante um ato de campanha em Ipatinga (MG), Lula afirmou que a emissora está sob “suspeição” e disse que não confia nela.",
@@ -300,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_a64a2d65dca3",
-      "title": "Flávio faz visita e almoça com cúpula da Globo antes de sabatina",
-      "description": "A TV Globo informou, nesta sexta-feira (16), que o candidato à Presidência Flávio Bolsonaro (PL) fez uma visita institucional à sede da...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-faz-visita-e-almoca-com-cupula-da-globo-antes-de-sabatina/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-16T21:26:54+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.84,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "average": 4.83,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 4,
       "centerLeft": 3,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
       "right": 1,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
