@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZcVB1VkVoSGlMczFsc2tsSUR5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZcVB1VkVoSGlMczFsc2tsSUR5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 1,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "TSE mantém atos pró-democracia deste domingo (18) e nega veto a shows",
   "summary": "Cueva afirma que não há provas suficientes de que eventos integrem campanha de Lula ou configurem showmícios e ressalva que eventuais irregularidades...",
@@ -29,12 +35,12 @@
     "atos",
     "lula",
     "democracia",
-    "ato",
-    "pela"
+    "pela",
+    "ato"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/LULA-29-10-26.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-10-16T04:30:33+00:00",
-  "updatedAt": "2026-10-18T06:35:47.998611+00:00",
+  "updatedAt": "2026-10-18T07:24:16.874272+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -96,13 +102,13 @@
     },
     {
       "id": "article_83563109deb7",
-      "title": "Novo diz que campanha de Lula faz ‘showmícios’ e pede produção de provas ao TSE",
+      "title": "Novo diz que campanha de Lula faz ‘showmícios’ e pede produção de provas ao TSE, mas relator nega",
       "description": "Partido diz que 'formato escolhido' para atos no Rio, Salvador e Porto Alegre é 'exatamente' o que se proíbe na Lei das Eleições e pede...",
       "url": "https://www.estadao.com.br/em-alta/politica/eleicoes/novo-diz-que-campanha-de-lula-faz-showmicios-e-pede-producao-de-provas-ao-tse/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-17T20:38:45+00:00",
+      "publishedAt": "2026-10-17T19:20:54+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -137,20 +143,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_1399e5e18f3c",
-      "title": "Novo vai ao TSE para tentar barrar shows de apoio a Lula",
-      "description": "Novo pede a suspensão de shows em três capitais e a investigação dos recursos usados para financiar atos em apoio ao presidente Lula.",
-      "url": "https://www.metropoles.com/colunas/grande-angular/novo-vai-ao-tse-para-tentar-barrar-shows-de-apoio-a-lula",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-17T17:21:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_a416cbdd1a1c",
       "title": "Atos pelo Brasil: manifestações pela democracia seguem até a véspera do segundo turno",
       "description": "Estudantes, artistas, trabalhadores e movimentos sociais convocam atos em todas as regiões do país. Caetano Veloso e Daniela Mercury estão...",
@@ -163,6 +155,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_1399e5e18f3c",
+      "title": "Novo vai ao TSE para tentar barrar shows de apoio a Lula",
+      "description": "Novo pede a suspensão de shows em três capitais e a investigação dos recursos usados para financiar atos em apoio ao presidente Lula.",
+      "url": "https://www.metropoles.com/colunas/grande-angular/novo-vai-ao-tse-para-tentar-barrar-shows-de-apoio-a-lula",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-17T17:21:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_0e2d9e3af317",
@@ -249,6 +255,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_0d4f31a94463",
+      "title": "ATO PELA DEMOCRACIA TERÁ DANIELA MERCURY E BAIANASYSTEM NESTE DOMINGO NA BARRA EM SALVADOR",
+      "description": "Neste domingo, Salvador sedia o Ato pela Democracia, com Daniela Mercury e BaianaSystem em apoio a Lula. Confira os detalhes do evento!",
+      "url": "https://bahiaeconomica.com.br/salvador/ato-pela-democracia-tera-daniela-mercury-e-baianasystem-neste-domingo-na-barra-em-salvador-208896",
+      "source": "Bahia Econômica",
+      "sourceCanonical": "Bahia Econômica",
+      "sourceDomain": "bahiaeconomica.com.br",
+      "publishedAt": "2026-10-16T22:10:55+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_6c2a0e07ba18",
       "title": "Novo aciona TSE para barrar atos pró-Lula com artistas",
       "description": "Partido pede suspensão de eventos previstos para domingo (18) e cobra esclarecimentos sobre financiamento de apresentações musicais.",
@@ -261,20 +281,6 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_c20182441e0b",
-      "title": "Gilberto Gil e BaianaSystem confirmam presença em ato no Farol da Barra",
-      "description": "Gilberto Gil, Daniela Mercury e BaianaSystem estão entre as atrações confirmadas para o “Ato Pela Democracia”, manifestação marcada para...",
-      "url": "https://atarde.com.br/eleicoes/gilberto-gil-e-baianasystem-confirmam-presenca-em-ato-no-farol-da-barra-1406031",
-      "source": "A TARDE",
-      "sourceCanonical": "A TARDE",
-      "sourceDomain": "atarde.com.br",
-      "publishedAt": "2026-10-16T23:23:25+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_f24fdedba746",
@@ -291,20 +297,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_451f64b6e0b4",
-      "title": "Ato Pela Democracia Reunirá Em Apresentação Artística Grandes Nomes Da MPB",
-      "description": "O ato pela democracia está marcado para este domingo (18), às 13h, e reunirá grandes nomes da música popular brasileira (MPB) e grupos...",
-      "url": "https://takta.com.br/entretenimento/ato-pela-democracia-reunira-em-apresentacao-artistica-grandes-nomes-da-mpb/",
-      "source": "Taktá No AR",
-      "sourceCanonical": "Taktá No AR",
-      "sourceDomain": "takta.com.br",
-      "publishedAt": "2026-10-17T00:25:53+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_8cc65f6c919a",
       "title": "TSE libera atos pela democracia convocados por Caetano e rejeita veto a shows",
       "description": "O corregedor-geral eleitoral do TSE, ministro Ricardo Villas Bôas Cueva, liberou os atos deste domingo (18) convocados sob a bandeira da...",
@@ -317,6 +309,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_451f64b6e0b4",
+      "title": "Ato Pela Democracia Reunirá Em Apresentação Artística Grandes Nomes Da MPB",
+      "description": "O ato pela democracia está marcado para este domingo (18), às 13h, e reunirá grandes nomes da música popular brasileira (MPB) e grupos...",
+      "url": "https://takta.com.br/entretenimento/ato-pela-democracia-reunira-em-apresentacao-artistica-grandes-nomes-da-mpb/",
+      "source": "Taktá No AR",
+      "sourceCanonical": "Taktá No AR",
+      "sourceDomain": "takta.com.br",
+      "publishedAt": "2026-10-17T00:25:53+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
