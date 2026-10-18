@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZOTRPV0VoRUxfdmZFRWl4ZWhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZOTRPV0VoRUxfdmZFRWl4ZWhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5,
-      "topic-5": 5
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 10,
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Pesquisa Vox Brasil aponta Lula à frente de Flávio Bolsonaro no 2º turno",
   "summary": "Pesquisa mostra empate técnico com o petista com 51% dos votos válidos, ante 49% do senador; 93,5% dos entrevistados dizem ter decisão de...",
@@ -28,14 +34,14 @@
     "lula",
     "flávio",
     "turno",
-    "pesquisa",
     "bolsonaro",
+    "pesquisa",
     "pesquisas"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Lula-PT-e-Flávio-Bolsonaro-PL-candidatos-à-presidência-da-República-Foto-1_-Ricardo-Stuckert_Campanha-_-Foto-2_-Vittor-Sales_Campanha.png",
   "publishedAt": "2026-10-15T13:35:49+00:00",
-  "updatedAt": "2026-10-18T16:25:17.029905+00:00",
-  "sourceCount": 16,
+  "updatedAt": "2026-10-18T17:19:38.103985+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -47,38 +53,10 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-10-18T13:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/Lula-PT-e-Flávio-Bolsonaro-PL-candidatos-à-presidência-da-República-Foto-1_-Ricardo-Stuckert_Campanha-_-Foto-2_-Vittor-Sales_Campanha.png",
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_d3d01b903f27",
-      "title": "Lula tem 51% contra 49% de Flávio em votos válidos, diz Vox",
-      "description": "Pesquisa Vox Brasil divulgada neste domingo (18.out.2026) mostra o presidente Luiz Inácio Lula da Silva (PT) numericamente à frente do...",
-      "url": "https://www.poder360.com.br/poder-eleicoes/lula-tem-51-contra-49-de-flavio-em-votos-validos-diz-vox/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-18T03:14:20+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/08/prismada-lula-flavio-bolsonaro-2026.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_f3e6015f73ef",
-      "title": "Quem está na frente para presidente no segundo turno? Veja resultado das últimas pesquisas com Lula e Flávio",
-      "description": "A uma semana do retorno dos brasileiros às urnas, o senador Flávio Bolsonaro (PL) aparece à frente na disputa de segundo turno contra o...",
-      "url": "https://oglobo.globo.com/blogs/pulso/post/2026/10/quem-esta-na-frente-para-presidente-no-segundo-turno-veja-resultado-das-ultimas-pesquisas-com-lula-e-flavio.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-18T15:51:37+00:00",
-      "postedLabel": "33 minutos atrás",
-      "imageUrl": "https://s2-oglobo.glbimg.com/_B5G8XEk4HuKVR69kcqVlc5FHZI=/888x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/T/1/ZvX7AYQFCWXMVQqxK0Zw/whatsapp-image-2026-10-09-at-14.35.49.jpeg",
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_0efc32788baf",
@@ -95,6 +73,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_f3e6015f73ef",
+      "title": "Quem está na frente para presidente no segundo turno? Veja resultado das últimas pesquisas com Lula e Flávio",
+      "description": "A uma semana do retorno dos brasileiros às urnas, o senador Flávio Bolsonaro (PL) aparece à frente na disputa de segundo turno contra o...",
+      "url": "https://oglobo.globo.com/blogs/pulso/post/2026/10/quem-esta-na-frente-para-presidente-no-segundo-turno-veja-resultado-das-ultimas-pesquisas-com-lula-e-flavio.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-18T15:51:37+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/_B5G8XEk4HuKVR69kcqVlc5FHZI=/888x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/T/1/ZvX7AYQFCWXMVQqxK0Zw/whatsapp-image-2026-10-09-at-14.35.49.jpeg",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_3c11f0722fdb",
+      "title": "Saiba como estão Lula e Flávio nas pesquisas a 7 dias do 2º turno",
+      "description": "O senador aparece numericamente à frente em 11 dos 13 estudos mais recentes compilados pelo Poder360; Lula tem vantagem numérica em 1.",
+      "url": "https://www.poder360.com.br/poder-eleicoes/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-7-dias-do-2o-turno/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-18T09:04:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/10/pesquisas-2-turno-nacionais-nesta-semana-lula-flavio-17-out-2026-_page-0002-1200x675.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_2db9b03a3837",
       "title": "A nova pesquisa Datafolha sobre Lula x Flávio Bolsonaro",
       "description": "Serão 2.250 entrevistas, realizadas entre os dias 20 e 22 de outubro.",
@@ -109,20 +115,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_3c11f0722fdb",
-      "title": "Saiba como estão Lula e Flávio nas pesquisas a 7 dias do 2º turno",
-      "description": "O senador aparece numericamente à frente em 11 dos 13 estudos mais recentes compilados pelo Poder360; Lula tem vantagem numérica em 1.",
-      "url": "https://www.poder360.com.br/poder-eleicoes/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-7-dias-do-2o-turno/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-18T09:04:52+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_1b6f99e650e3",
       "title": "Pesquisas eleitorais mostram a distância entre Flávio e Lula após números da última semana",
       "description": "A uma semana do segundo turno da eleição presidencial, as cinco pesquisas divulgadas nos últimos dias mostram Flávio Bolsonaro (PL) e Luiz...",
@@ -131,35 +123,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-18T12:58:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_28810b84d485",
-      "title": "Pesquisa que mais acertou no 1º turno mostra Flávio Bolsonaro com 51,1% e Lula, 48,9%, no 2º",
-      "description": "Como a margem de erro do levantamento da Veritá é de um ponto percentual, os números configuram uma liderança estreita do candidato do PL.",
-      "url": "https://exame.com/brasil/pesquisa-que-mais-acertou-no-1o-turno-mostra-flavio-bolsonaro-com-511-e-lula-489-no-2o/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-17T14:22:55+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6a384b0077e0",
-      "title": "As novas pesquisas sobre a disputa Flávio e Lula na semana do segundo turno",
-      "description": "A semana que antecede o segundo turno das eleições presidenciais tem a agenda cheia de novas sondagens sobre a intenção de votos dos...",
-      "url": "https://veja.abril.com.br/brasil/as-novas-pesquisas-sobre-a-disputa-flavio-e-lula-na-ultima-semana-antes-das-eleicoes/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-18T14:36:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -172,11 +136,25 @@
       "source": "Exame",
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-18T15:37:55+00:00",
+      "publishedAt": "2026-10-18T16:12:59+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_370051b2af18",
+      "title": "Pesquisas para presidente a 10 dias do 2º turno — o que diziam em 2018 e 2022 e o que mostram agora",
+      "description": "Em 2026, Flávio lidera as intenções de voto. Em 2022, preferência do eleitorado era de Lula. Já em 2018, maioria dizia que votaria em Jair...",
+      "url": "https://www.bbc.com/portuguese/articles/cmx2dqy4jw91o",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-10-15T13:35:49+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_548ea00a7eb0",
@@ -191,6 +169,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_6a384b0077e0",
+      "title": "As novas pesquisas sobre a disputa Flávio e Lula na semana do segundo turno",
+      "description": "A semana que antecede o segundo turno das eleições presidenciais tem a agenda cheia de novas sondagens sobre a intenção de votos dos...",
+      "url": "https://veja.abril.com.br/brasil/as-novas-pesquisas-sobre-a-disputa-flavio-e-lula-na-ultima-semana-antes-das-eleicoes/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-18T14:36:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e1c224c3658c",
@@ -249,46 +241,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_370051b2af18",
-      "title": "Pesquisas para presidente a 10 dias do 2º turno — o que diziam em 2018 e 2022 e o que mostram agora",
-      "description": "Em 2026, Flávio lidera as intenções de voto. Em 2022, preferência do eleitorado era de Lula. Já em 2018, maioria dizia que votaria em Jair...",
-      "url": "https://www.bbc.com/portuguese/articles/cmx2dqy4jw91o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-10-15T13:35:49+00:00",
-      "postedLabel": "3 dias atrás",
+      "id": "article_34d93106d91b",
+      "title": "Ipespe: Vantagem de Flávio Bolsonaro para Lula cai 3 pontos",
+      "description": "Nova rodada da pesquisa Ipespe/Abrapel, divulgada neste sábado (17), aponta que o senador Flávio Bolsonaro (PL) tem 51,2% das intenções de...",
+      "url": "https://sul21.com.br/noticias/politica/2026/10/ipespe-vantagem-de-flavio-bolsonaro-para-lula-cai-3-pontos/",
+      "source": "Sul 21",
+      "sourceCanonical": "Sul 21",
+      "sourceDomain": "sul21.com.br",
+      "publishedAt": "2026-10-17T17:32:21+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_fe0c29de7cbf",
-      "title": "Pesquisa Ipespe: Flávio tem 51,2% e Lula 48,8%; vantagem de senador cai 3 pontos",
-      "description": "A vantagem do senador Flávio Bolsonaro contra o presidente Luiz Inácio Lula da Silva diminuiu três pontos porcentuais em uma semana,...",
-      "url": "https://jovempan.com.br/politica/pesquisa-ipespe-flavio-tem-512-e-lula-488-vantagem-de-senador-cai-3-pontos/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-17T14:38:26+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_1dd354b35911",
-      "title": "“Flávio é virtual presidente”, diz cientista; veja os números por trás da análise",
-      "description": "Cientista político aponta dificuldade de Lula para conquistar votos de candidatos eliminados e diz que monitoramento da Real Time Big Data...",
-      "url": "https://www.infomoney.com.br/politica/flavio-e-virtual-presidente-diz-analista-veja-os-numeros-por-tras-da-analise/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-16T14:36:10+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f79c763cfebe",
@@ -305,6 +269,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_1dd354b35911",
+      "title": "“Flávio é virtual presidente”, diz cientista; veja os números por trás da análise",
+      "description": "Cientista político aponta dificuldade de Lula para conquistar votos de candidatos eliminados e diz que monitoramento da Real Time Big Data...",
+      "url": "https://www.infomoney.com.br/politica/flavio-e-virtual-presidente-diz-analista-veja-os-numeros-por-tras-da-analise/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-16T14:36:10+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_d2319ecd8085",
+      "title": "Pesquisa Gerp: Flávio Bolsonaro tem 50% da intenções de voto; Lula marca 45%",
+      "description": "Levantamento divulgado nesta sexta-feira (16) mostra vantagem de cinco pontos percentuais do candidato do PL; diferença é estatisticamente...",
+      "url": "https://jovempan.com.br/politica/pesquisa-gerp-flavio-bolsonaro-tem-50-e-lula-45-na-estimulada-para-o-2o-turno/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-16T21:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_4d9435c95ff6",
       "title": "Veritá: Flávio Bolsonaro tem 51,1% das intenções de voto no segundo turno, contra 48,9% de Lula",
       "description": "Uma pesquisa realizada pelo Instituto Veritá entre os dias 12 e 16 de outubro revela um cenário de empate técnico entre os candidatos à...",
@@ -317,21 +309,35 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_4bef5dc52ee5",
+      "title": "Datafolha: Mudança move eleitores de Flávio, e pauta social atrai os de Lula",
+      "description": "Rejeição ao PT impulsiona Flávio Bolsonaro, enquanto programas e conquistas sociais alavancam Lula no 2º turno.",
+      "url": "https://www.correiobraziliense.com.br/politica/2026/10/7522688-datafolha-mudanca-atrai-flavio-pauta-social-guia-voto-em-lula.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-10-17T18:59:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.53,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.44,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
-      "center": 8,
+      "centerLeft": 3,
+      "center": 6,
       "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
