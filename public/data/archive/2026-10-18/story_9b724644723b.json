@@ -3,21 +3,18 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyLXB1WkVoRThXRXVkdkdYcTlDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyLXB1WkVoRThXRXVkdkdYcTlDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 36,
-      "topic-5": 43
+      "topic-5": 39
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 36,
-    "bestSeedRank": 36,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 39,
+    "bestSeedRank": 39,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,13 +27,13 @@
     "sequestrada",
     "pelo",
     "reencontra",
-    "socorro"
+    "vídeo"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/r8OBE3uo8qzW0-G9TRNVD3M23Wg=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/E/PKhX7XRHKDnBoNDaREOw/sequestrada.jpg",
   "publishedAt": "2026-10-17T18:10:44+00:00",
-  "updatedAt": "2026-10-18T17:22:40.334165+00:00",
-  "sourceCount": 6,
-  "articleCount": 9,
+  "updatedAt": "2026-10-18T18:33:07.609189+00:00",
+  "sourceCount": 7,
+  "articleCount": 10,
   "articles": [
     {
       "id": "article_d1421cb2d380",
@@ -47,7 +44,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-17T18:10:44+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-g1.glbimg.com/r8OBE3uo8qzW0-G9TRNVD3M23Wg=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/E/PKhX7XRHKDnBoNDaREOw/sequestrada.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -89,7 +86,7 @@
       "sourceCanonical": "Costa Norte",
       "sourceDomain": "costanorte.com.br",
       "publishedAt": "2026-10-18T11:50:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -163,16 +160,30 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_0b8aa92c80b8",
+      "title": "Vídeo mostra PM resgatando menina sequestrada pelo pai após piscada",
+      "description": "Câmeras de segurança registraram o resgate de uma menina de 10 anos sequestrada pelo pai em Praia Grande, no litoral de São Paulo.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/video-pm-resgata-menina-sequestrada-pelo-proprio-pai-apos-sinal-saiba-qual/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-10-18T17:35:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 5,
-    "average": 5,
-    "knownCount": 5,
+    "average": 4.5,
+    "knownCount": 6,
     "unknownCount": 4,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 0,
@@ -181,12 +192,13 @@
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 78
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
+    "confidence": 83
   },
   "flags": [
+    "Alta cobertura",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
