@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loZ2JxVEVoRmJiWW9kSVJaTS15Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loZ2JxVEVoRmJiWW9kSVJaTS15Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5,
-      "topic-5": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 6,
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Flávio Bolsonaro é investigado em 2º inquérito no STF para apurar suspeitas de lavagem com advogado",
   "summary": "Moraes foi sorteado como relator do inquérito que envolve a relação do candidato à Presidência com o advogado Willer Tomaz; assessoria do...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "flávio",
     "bolsonaro",
+    "investigado",
     "inquérito",
     "stf",
-    "lavagem",
-    "investigado"
+    "lavagem"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/7ZMTPS3FBRAVZO6G2OARCZY6GI.jpg?quality=80&auth=7af263dbc3cb7ce7b9ab45d6e8b310de1b30c5698a2f21e18fe8a98d80a84c0c&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-10T07:00:00+00:00",
-  "updatedAt": "2026-10-19T04:31:20.116901+00:00",
+  "updatedAt": "2026-10-19T05:26:03.227864+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -55,7 +61,7 @@
     {
       "id": "article_1b6d7106a515",
       "title": "Flávio Bolsonaro é investigado pela PF por suspeita de lavagem de dinheiro com advogado Willer Tomaz",
-      "description": "Ministro Alexandre de Moraes foi sorteado relator; presidenciável não comenta, e defensor nega irregularidades.",
+      "description": "Ministro Alexandre de Moraes foi sorteado relator; presidenciável e defensor negam irregularidades.",
       "url": "https://oglobo.globo.com/politica/noticia/2026/10/18/flavio-bolsonaro-e-investigado-pela-pf-por-suspeita-de-lavagem-de-dinheiro-com-advogado-willer-tomaz.ghtml",
       "source": "O GLOBO",
       "sourceCanonical": "O Globo",
@@ -130,8 +136,8 @@
       "source": "ICL Notícias",
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-10-19T00:55:29+00:00",
-      "postedLabel": "3 horas atrás",
+      "publishedAt": "2026-10-18T22:07:52+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -145,7 +151,7 @@
       "sourceCanonical": "Congresso em Foco",
       "sourceDomain": "congressoemfoco.com.br",
       "publishedAt": "2026-10-18T22:33:08+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -159,7 +165,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-10-18T22:33:27+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -179,6 +185,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_0f0a3280f881",
+      "title": "PF liga alerta após viagem ao exterior de amigo investigado de Flávio",
+      "description": "Amigo de Flávio Bolsonaro (PL), advogado Willer Tomaz viajou para o exterior em meio à investigação da PF contra ele na \"Farra do INSS\"",
+      "url": "https://www.metropoles.com/colunas/igor-gadelha/pf-liga-alerta-apos-viagem-ao-exterior-de-amigo-investigado-de-flavio",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-19T05:00:00+00:00",
+      "postedLabel": "26 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_0e57f5c0e11e",
       "title": "Caso de conta conjunta de Flávio Bolsonaro com suspeito de fraudar INSS chega no STF",
       "description": "A Polícia Federal passou a investigar a relação entre o senador Flávio Bolsonaro (PL-RJ) e o advogado Willer Tomaz após reunir documentos e...",
@@ -187,7 +207,7 @@
       "sourceCanonical": "Jornal do Brasil",
       "sourceDomain": "jb.com.br",
       "publishedAt": "2026-10-18T22:46:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -207,20 +227,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_32f12b7a7b3c",
-      "title": "Flávio Bolsonaro é investigado em 2º inquérito no STF por suspeitas de lavagem com advogado",
-      "description": "Inquérito chegou ao STF há pelo menos uma semana e foi distribuído por meio de sorteio. Relator sorteado foi o ministro Alexandre de Moraes.",
-      "url": "https://www.opovo.com.br/noticias/politica/2026/10/18/flavio-e-investigado-em-2-inquerito-no-stf-para-apurar-suspeitas-de-lavagem-com-advogado.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "opovo.com.br",
-      "publishedAt": "2026-10-18T21:12:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_fd4b39935499",
       "title": "Flávio Bolsonaro é alvo de segundo inquérito no STF por suspeita de lavagem de dinheiro",
       "description": "Investigação da Polícia Federal apura a relação do senador com o advogado Willer Tomaz, suspeito de movimentações financeiras irregulares;...",
@@ -233,6 +239,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_32f12b7a7b3c",
+      "title": "Flávio Bolsonaro é investigado em 2º inquérito no STF por suspeitas de lavagem com advogado",
+      "description": "Inquérito chegou ao STF há pelo menos uma semana e foi distribuído por meio de sorteio. Relator sorteado foi o ministro Alexandre de Moraes.",
+      "url": "https://www.opovo.com.br/noticias/politica/2026/10/18/flavio-e-investigado-em-2-inquerito-no-stf-para-apurar-suspeitas-de-lavagem-com-advogado.html",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
+      "sourceDomain": "opovo.com.br",
+      "publishedAt": "2026-10-18T21:12:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_20d9a7c444b6",
@@ -249,29 +269,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_782b9b680939",
-      "title": "PF abre inquérito para apurar relação de Flávio Bolsonaro com alvo da Operação Sem Desconto",
-      "description": "Investigação foi distribuída ao STF e apura suspeita de conta bancária conjunta entre o senador e o advogado Willer Tomaz.",
-      "url": "https://www.brasil247.com/brasil/pf-abre-inquerito-para-apurar-relacao-de-flavio-bolsonaro-com-alvo-da-operacao-sem-desconto/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-10-18T22:50:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
-      "id": "article_52e5bc1967b8",
-      "title": "STF abre inquérito para apurar suposta lavagem de dinheiro envolvendo Flávio Bolsonaro e o advogado Willer Tomaz",
-      "description": "A apuração do STF é sobre suposta lavagem de dinheiro e uso de casas de apostas em esquema envolvendo o advogado Willer Tomaz e o senador e...",
-      "url": "https://g1.globo.com/politica/noticia/2026/10/18/stf-abre-inquerito-para-apurar-suposta-lavagem-de-dinheiro-envolvendo-flavio-bolsonaro-e-o-advogado-willer-tomaz.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-10-18T22:36:36+00:00",
-      "postedLabel": "5 horas atrás",
+      "id": "article_20258459bb2d",
+      "title": "Flávio Bolsonaro (PL) passa a ser investigado em novo inquérito do STF por suspeita de lavagem de dinheiro",
+      "description": "Um inquérito foi aberto pelo Supremo Tribunal Federal (STF), para apurar suspeitas de lavagem de dinheiro envolvendo o Senador e candidato à...",
+      "url": "https://www.nsctotal.com.br/politica/flavio-bolsonaro-pl-passa-a-ser-investigado-em-novo-inquerito-do-stf-por-suspeita-de-lavagem-de-dinheiro",
+      "source": "NSC Total",
+      "sourceCanonical": "NSC Total",
+      "sourceDomain": "nsctotal.com.br",
+      "publishedAt": "2026-10-19T00:36:37+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -291,18 +297,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_b1be29647151",
-      "title": "Flávio Bolsonaro é alvo de 2º inquérito no STF por suspeita de lavagem",
-      "description": "Investigação apura relação do senador com o advogado Willer Tomaz e movimentações financeiras; caso foi distribuído a Alexandre de Moraes.",
-      "url": "https://www.metropoles.com/brasil/flavio-bolsonaro-e-alvo-de-2o-inquerito-no-stf-por-suspeita-de-lavagem",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-18T23:54:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_782b9b680939",
+      "title": "PF abre inquérito para apurar relação de Flávio Bolsonaro com alvo da Operação Sem Desconto",
+      "description": "Investigação foi distribuída ao STF e apura suspeita de conta bancária conjunta entre o senador e o advogado Willer Tomaz.",
+      "url": "https://www.brasil247.com/brasil/pf-abre-inquerito-para-apurar-relacao-de-flavio-bolsonaro-com-alvo-da-operacao-sem-desconto/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-18T22:50:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_b89bc1ccadba",
