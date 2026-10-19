@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 7
+      "topic-7": 6
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1756994:1792325370/AFP__20261018__D3M74UR__v4__MidRes__TopshotRussiaUkraineConflict.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=8813878",
   "publishedAt": "2026-10-15T15:00:00+00:00",
-  "updatedAt": "2026-10-19T01:11:28.257296+00:00",
+  "updatedAt": "2026-10-19T01:51:48.107956+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-19T00:35:07+00:00",
-      "postedLabel": "36 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s03.video.glbimg.com/x720/15100462.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -120,20 +120,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_25dda0867c98",
-      "title": "Ataque ucraniano atinge São Petersburgo | Guerra na Ucrânia",
-      "description": "Alvos foram instalações petrolíferas, um centro de dados e uma ponte. A Rússia diz que abateu mais de mil drones ucranianos.",
-      "url": "https://www.publico.pt/2026/10/18/mundo/noticia/ataque-ucraniano-atinge-sao-petersburgo-2191761",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-10-18T11:44:21+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_fc13bd318aae",
       "title": "Uma pessoa morre e 15 ficam feridas em ataque com drones ucranianos a São Petersburgo e região de Leningrado",
       "description": "18 Out (Reuters) - Uma pessoa morreu e 15 ficaram feridas em um ataque com drones ucranianos contra instalações petrolíferas, centros de...",
@@ -146,6 +132,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_25dda0867c98",
+      "title": "Ataque ucraniano atinge São Petersburgo | Guerra na Ucrânia",
+      "description": "Alvos foram instalações petrolíferas, um centro de dados e uma ponte. A Rússia diz que abateu mais de mil drones ucranianos.",
+      "url": "https://www.publico.pt/2026/10/18/mundo/noticia/ataque-ucraniano-atinge-sao-petersburgo-2191761",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-10-18T11:44:21+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_73df251afbe9",
@@ -302,43 +302,44 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d42740a891f8",
-      "title": "Drone russo de asa anular expõe novas experiências na guerra aérea não tripulada",
-      "description": "Interceptação divulgada pela Ucrânia coloca em evidência o KVS, projeto que combina decolagem vertical e voo sustentado por uma asa em anel.",
-      "url": "https://www.defesanet.com.br/aviacao/drone-russo-de-asa-anular-expoe-novas-experiencias-na-guerra-aerea-nao-tripulada/",
-      "source": "DefesaNet",
-      "sourceCanonical": "DefesaNet",
-      "sourceDomain": "defesanet.com.br",
-      "publishedAt": "2026-10-16T02:52:38+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_78b38ecf6bac",
+      "title": "Kremlin afirma que ‘agonia’ de Kiev não mudará curso da guerra",
+      "description": "Porta-voz Dmitri Peskov disse no domingo que resistência ucraniana não alterará os acontecimentos, após ataque de drones a São Petersburgo.",
+      "url": "https://www.ocafezinho.com/2026-10-18/kremlin-afirma-que-agonia-de-kiev-nao-mudara-curso-da-guerra/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-10-18T16:58:56+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 2,
     "max": 8,
-    "average": 5.33,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.08,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 9,
       "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
