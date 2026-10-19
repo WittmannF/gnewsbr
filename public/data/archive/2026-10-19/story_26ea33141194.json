@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 9
+      "topic-9": 10
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "gemini",
     "argon",
     "google",
-    "spark",
     "preço",
-    "respostas"
+    "respostas",
+    "modelos"
   ],
   "imageUrl": "https://classic.exame.com/wp-content/uploads/2025/09/gemini-cinema.jpg",
   "publishedAt": "2026-09-09T07:00:00+00:00",
-  "updatedAt": "2026-10-19T13:50:01.076108+00:00",
+  "updatedAt": "2026-10-19T14:44:26.952413+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,6 +64,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_2cd699ed53ab",
+      "title": "Anthropic, Google e OpenAI preparam novos modelos de IA",
+      "description": "Anthropic, Google e OpenAI estão desenvolvendo novos modelos de inteligência artificial em meio à crescente competição em raciocínio,...",
+      "url": "https://br.investing.com/news/stock-market-news/anthropic-google-e-openai-preparam-novos-modelos-de-ia-2095340",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-10-19T14:10:00+00:00",
+      "postedLabel": "34 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_53b4f3604e01",
       "title": "Gemini 4 Argon: a nova Fronteira IA do Google",
       "description": "O Gemini 4 Argon é o novo top IA do Google, focado em raciocínio contínuo, fluxos complexos e redução de alucinações.",
@@ -73,20 +87,6 @@
       "sourceDomain": "updateordie.com",
       "publishedAt": "2026-10-14T22:19:47+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": "https://updateordie.com/wp-content/uploads/2026/10/gemini_4_argon_poster-kMEoklyJuI.webp",
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_dab1df89d27b",
-      "title": "Google Gemini atualiza interface e integra o Gemini Spark",
-      "description": "O Gemini Spark está no centro de uma reformulação que busca tornar o assistente de inteligência artificial do Google mais útil para quem...",
-      "url": "https://sempreupdate.com.br/google-gemini-atualizacao-tarefas-spark/",
-      "source": "SempreUpdate",
-      "sourceCanonical": "SempreUpdate",
-      "sourceDomain": "sempreupdate.com.br",
-      "publishedAt": "2026-10-13T17:30:00+00:00",
-      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +198,7 @@
       "sourceCanonical": "MacMagazine",
       "sourceDomain": "macmagazine.com.br",
       "publishedAt": "2026-10-14T14:18:41+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,25 +317,25 @@
     }
   ],
   "spectrum": {
-    "min": 6,
+    "min": 5,
     "max": 6,
-    "average": 6,
-    "knownCount": 1,
-    "unknownCount": 19,
+    "average": 5.5,
+    "knownCount": 2,
+    "unknownCount": 18,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 1,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 19
+      "unknown": 18
     }
   },
   "scores": {
     "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 78
+    "spectrumBalance": 19,
+    "headlineDivergence": 73,
+    "confidence": 81
   },
   "flags": [
     "Alta cobertura",
