@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 3
+      "topic-8": 2
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +24,16 @@
   "topicKeywords": [
     "cosan",
     "rumo",
-    "aprova",
-    "transferência",
-    "fundo",
-    "venda"
+    "venda",
+    "fatia",
+    "compass",
+    "aprova"
   ],
   "imageUrl": "https://www.moneytimes.com.br/uploads/2025/05/cosan-vale.jpg",
   "publishedAt": "2026-10-17T00:33:39+00:00",
-  "updatedAt": "2026-10-20T14:41:11.661565+00:00",
-  "sourceCount": 4,
-  "articleCount": 5,
+  "updatedAt": "2026-10-20T15:40:37.941916+00:00",
+  "sourceCount": 5,
+  "articleCount": 6,
   "articles": [
     {
       "id": "article_9e85e95d8332",
@@ -44,7 +44,7 @@
       "sourceCanonical": "UOL Economia",
       "sourceDomain": "economia.uol.com.br",
       "publishedAt": "2026-10-20T14:02:02+00:00",
-      "postedLabel": "39 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -58,7 +58,7 @@
       "sourceCanonical": "AgFeed",
       "sourceDomain": "agfeed.com.br",
       "publishedAt": "2026-10-19T15:27:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -78,18 +78,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_52016f86601c",
-      "title": "Cosan (CSAN3) muda estratégia e prioriza venda de fatia da Compass (PASS3) em vez da Rumo (RAIL3), diz site",
-      "description": "A Compass é considerada um dos ativos mais estratégicos do grupo de Ometto e tem valor de mercado estimado em aproximadamente R$ 20,37...",
-      "url": "https://www.moneytimes.com.br/cosan-csan3-muda-estrategia-e-prioriza-venda-de-fatia-da-compass-pass3-em-vez-da-rumo-rail3-diz-site/",
-      "source": "Money Times",
-      "sourceCanonical": "Money Times",
-      "sourceDomain": "moneytimes.com.br",
-      "publishedAt": "2026-10-20T14:15:00+00:00",
-      "postedLabel": "26 minutos atrás",
-      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/cosan.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "id": "article_d2b63c7967c5",
+      "title": "Cosan muda estratégia e prioriza venda de fatia da Compass em vez da Rumo, diz site",
+      "description": "A Cosan, conglomerado controlado pelo empresário Rubens Ometto, decidiu concentrar esforços na venda de uma participação minoritária na...",
+      "url": "https://www.novacana.com/noticias/cosan-muda-estrategia-e-prioriza-venda-de-fatia-da-compass-em-vez-da-rumo-diz-site",
+      "source": "NovaCana",
+      "sourceCanonical": "NovaCana",
+      "sourceDomain": "novacana.com",
+      "publishedAt": "2026-10-20T15:17:50+00:00",
+      "postedLabel": "22 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7b6c40596967",
@@ -104,6 +104,20 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/B37Q6RNKBFIVHLIEKN6XOWQLTM.png?quality=80&auth=ed97141b94f1a3c0c0aa4a2eeb1f2b99fd0f95038064794f72466c2f33656461&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_52016f86601c",
+      "title": "Cosan (CSAN3) muda estratégia e prioriza venda de fatia da Compass (PASS3) em vez da Rumo (RAIL3), diz site",
+      "description": "A Compass é considerada um dos ativos mais estratégicos do grupo de Ometto e tem valor de mercado estimado em aproximadamente R$ 20,37...",
+      "url": "https://www.moneytimes.com.br/cosan-csan3-muda-estrategia-e-prioriza-venda-de-fatia-da-compass-pass3-em-vez-da-rumo-rail3-diz-site/",
+      "source": "Money Times",
+      "sourceCanonical": "Money Times",
+      "sourceDomain": "moneytimes.com.br",
+      "publishedAt": "2026-10-20T14:15:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.moneytimes.com.br/uploads/2026/07/cosan.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
@@ -111,23 +125,24 @@
     "max": 7,
     "average": 6.33,
     "knownCount": 3,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 64
+    "confidence": 66
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
