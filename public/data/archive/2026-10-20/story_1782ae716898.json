@@ -4,16 +4,19 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k4bW8yUkVoR3Vmei1QRzNkTTRDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-5",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-5"
     ],
     "seedRanks": {
       "home": 3,
-      "topstories": 3
+      "topstories": 3,
+      "topic-5": 9
     },
     "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
@@ -21,7 +24,7 @@
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
-  "title": "Notícias sobre Moraes • André Mendonça • PGR",
+  "title": "Notícias sobre Moraes • PGR",
   "summary": "Parecer rebate pedido de Moraes, afirma que relatórios da PF não têm valor probatório e deixa decisão para o STF. Leia no Poder360.",
   "topic": "Pgr · Mendonça",
   "topicKeywords": [
@@ -30,11 +33,11 @@
     "moraes",
     "abuso",
     "autoridade",
-    "pedido"
+    "não"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/prismada-stf-moraes-mendonca-1200x675.jpg",
   "publishedAt": "2026-10-19T19:41:06+00:00",
-  "updatedAt": "2026-10-20T06:38:02.308968+00:00",
+  "updatedAt": "2026-10-20T07:29:59.756182+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -137,20 +140,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_84ebfc5b6c5f",
-      "title": "PGR diz a Fachin que não vê improbidade de Mendonça apontada por Moraes",
-      "description": "A Procuradoria-Geral da República (PGR), em parecer encaminhado ao ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF),...",
-      "url": "https://www.metropoles.com/colunas/manoela-alcantara/pgr-diz-a-fachin-que-nao-ve-improbidade-de-mendonca-apontada-por-moraes",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-19T20:47:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_41f21966144e",
       "title": "PGR se posiciona contra investigação de André Mendonça por abuso de autoridade",
       "description": "A PGR afirmou ao STF que um conjunto de relatórios de inteligência da PF não é suficiente para concluir que o ministro André Mendonça...",
@@ -165,32 +154,32 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c951c155bb6a",
-      "title": "PGR é contra pedido de Moraes para investigar Mendonça",
-      "description": "A Procuradoria-Geral da República (PGR) se manifestou contra o pedido do ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes para...",
-      "url": "https://www.gazetadopovo.com.br/republica/pgr-e-contra-pedido-de-moraes-para-investigar-mendonca/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-19T20:27:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_86f711372a88",
-      "title": "PGR não vê abuso de André Mendonça em investigação contra Moraes",
-      "description": "A Procuradoria-Geral da República (PGR) enviou nesta segunda-feira (19) ao Supremo Tribunal Federal (STF) um parecer contrário ao pedido...",
-      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pgr-nao-ve-abuso-de-andre-mendonca-em-investigacao-contra-moraes",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-10-19T23:54:00+00:00",
+      "id": "article_84ebfc5b6c5f",
+      "title": "PGR diz a Fachin que não vê improbidade de Mendonça apontada por Moraes",
+      "description": "A Procuradoria-Geral da República (PGR), em parecer encaminhado ao ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF),...",
+      "url": "https://www.metropoles.com/colunas/manoela-alcantara/pgr-diz-a-fachin-que-nao-ve-improbidade-de-mendonca-apontada-por-moraes",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-19T20:47:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_4e45cedde01c",
+      "title": "PGR já não diz “amém” a tudo o que Alexandre de Moraes pede",
+      "description": "Alexandre Garcia comenta parecer negativo da PGR sobre investigação de André Mendonça, situação de famílias produtoras no Pará, e novas...",
+      "url": "https://www.gazetadopovo.com.br/vozes/alexandre-garcia/pgr-alexandre-de-moraes-investigacao-andre-mendonca/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-10-19T23:58:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_0f5fbe675408",
@@ -205,6 +194,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_86f711372a88",
+      "title": "PGR não vê abuso de André Mendonça em investigação contra Moraes",
+      "description": "A Procuradoria-Geral da República (PGR) enviou nesta segunda-feira (19) ao Supremo Tribunal Federal (STF) um parecer contrário ao pedido...",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pgr-nao-ve-abuso-de-andre-mendonca-em-investigacao-contra-moraes",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-10-19T23:54:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a377cd8044b4",
@@ -249,20 +252,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_c5cc1d6dd6fc",
-      "title": "PGR se manifesta contra pedido de Moraes para investigar André Mendonça",
-      "description": "Paulo Gonet afirmou que não há elementos suficientes para abrir investigação contra o ministro do STF por abuso de autoridade; decisão final...",
-      "url": "https://jovempan.com.br/politica/pgr-se-manifesta-contra-pedido-de-moraes-para-investigar-andre-mendonca/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-19T21:39:27+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_da46db61620d",
       "title": "PGR se opõe à investigação de André Mendonça por abuso de autoridade na condução do caso Master",
       "description": "A Procuradoria-Geral da República se manifestou contra a possibilidade de investigar o ministro do Supremo André Mendonça por abuso de...",
@@ -275,6 +264,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c5cc1d6dd6fc",
+      "title": "PGR se manifesta contra pedido de Moraes para investigar André Mendonça",
+      "description": "Paulo Gonet afirmou que não há elementos suficientes para abrir investigação contra o ministro do STF por abuso de autoridade; decisão final...",
+      "url": "https://jovempan.com.br/politica/pgr-se-manifesta-contra-pedido-de-moraes-para-investigar-andre-mendonca/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-19T21:39:27+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_7fed57b0c4a9",
@@ -299,7 +302,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-10-20T01:28:30+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
