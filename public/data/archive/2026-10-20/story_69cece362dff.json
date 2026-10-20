@@ -26,12 +26,12 @@
     "sistema",
     "eua",
     "ucrânia",
-    "poder",
-    "musk"
+    "zelensky",
+    "usado"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/iBk9yQUWyNJvNu8ZRb26O2iBLQ4=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/v/AYWg4MS0y8aKJpF2Ju7Q/globo-canal-4-20261019-2000-frame-121484.jpeg",
   "publishedAt": "2026-10-14T17:13:18+00:00",
-  "updatedAt": "2026-10-20T18:42:46.494825+00:00",
+  "updatedAt": "2026-10-20T19:35:31.363222+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_860cd576b457",
-      "title": "O poder de Elon Musk sobre comunicação em regiões de guerra",
-      "description": "Starlink leva internet a áreas remotas e zonas de guerra, mas o controle da SpaceX sobre o serviço amplia o poder de Elon Musk.",
-      "url": "https://www.diariodocentrodomundo.com.br/starlink-musk-podercomunicacoes-guerras-areas-isoladas/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
-      "sourceDomain": "diariodocentrodomundo.com.br",
-      "publishedAt": "2026-10-19T11:26:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_101942564632",
       "title": "Zelensky afirma contar com a ‘colaboração’ dos EUA após ‘algumas dificuldades’",
       "description": "Presidente ucraniano fez declaração em Londres antes de reunião com o primeiro-ministro britânico, Andy Burnham.",
@@ -314,27 +300,41 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_35746e859021",
+      "title": "Zelenski se diz traído por acordo Trump-Putin",
+      "description": "Um dia após denunciar a falta de alerta antecipado dos Estados Unidos sobre ataques com mísseis balísticos da Rússia, a Ucrânia afirmou...",
+      "url": "https://www.correiodamanha.com.br/mundo/internacional/2026/10/327093-zelenski-se-diz-traido-por-acordo-trump-putin.html",
+      "source": "www.correiodamanha.com.br",
+      "sourceCanonical": "www.correiodamanha.com.br",
+      "sourceDomain": "correiodamanha.com.br",
+      "publishedAt": "2026-10-15T03:01:00+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 8,
-    "average": 5.31,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.58,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 9,
       "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
