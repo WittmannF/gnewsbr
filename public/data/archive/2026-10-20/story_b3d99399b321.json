@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 11,
-      "topic-5": 14
+      "topic-3": 12,
+      "topic-5": 17
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 11,
-    "bestSeedRank": 11,
+    "firstSeenRank": 12,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,12 +29,12 @@
     "newcastle",
     "foco",
     "confirma",
-    "santa",
-    "catarina"
+    "perus",
+    "comercial"
   ],
   "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/06/brf-marfrig-divulgacao-01.jpg",
   "publishedAt": "2026-10-19T16:12:00+00:00",
-  "updatedAt": "2026-10-20T05:27:09.913878+00:00",
+  "updatedAt": "2026-10-20T06:39:49.961440+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,6 +53,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_4b75a8b20b39",
+      "title": "México suspende importação de frango do Brasil após surto de doença aviária",
+      "description": "O México suspendeu, nesta segunda-feira (19), a importação de carne de frango proveniente do Brasil, devido a um surto da doença de...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/19/mexico-suspende-importacao-de-frango-brasileiro-apos-surto-de-doenca-aviaria.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-10-20T02:46:37+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_58e27c7d01bc",
       "title": "É seguro comer carne de peru? Veja o que se sabe sobre foco da doença de Newcastle",
       "description": "O foco foi confirmado nesta segunda-feira em uma criação comercial de perus em Nova Itaberaba (SC)",
@@ -65,20 +79,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_4b75a8b20b39",
-      "title": "México suspende importação de frango do Brasil após surto de doença aviária",
-      "description": "O México suspendeu, nesta segunda-feira (19), a importação de carne de frango proveniente do Brasil, devido a um surto da doença de...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/19/mexico-suspende-importacao-de-frango-brasileiro-apos-surto-de-doenca-aviaria.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-20T02:46:37+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_876d7ccebeda",
@@ -221,6 +221,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_5cadb720e5ba",
+      "title": "Brasil deve suspender exportações de frango à China após doença de Newcastle em SC",
+      "description": "O Brasil deve suspender as exportações de carne de frango para a China após confirmar, nesta segunda-feira, 19, um caso da doença de...",
+      "url": "https://exame.com/agro/brasil-deve-suspender-exportacoes-de-frango-a-china-apos-doenca-de-newcastle-em-sc/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-10-20T05:01:24+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_58de942b6287",
       "title": "Mapa confirma foco de doença de Newcastle em granja comercial de perus em SC",
       "description": "Entidades do setor informam que não hás riscos no consumo do produto, já que a ocorrência está restrita ao âmbito da produção, e não de...",
@@ -303,41 +317,27 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_9e4d3373b7e1",
-      "title": "O que é a doença de Newcastle, que teve foco identificado em Santa Catarina",
-      "description": "A transmissão ocorre principalmente por via aérea, por meio de aerossóis e gotículas expelidas por aves infectadas.",
-      "url": "https://jovempan.com.br/brasil/o-que-e-a-doenca-de-newcastle-que-teve-foco-identificado-em-santa-catarina/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-19T19:46:58+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 5,
-    "max": 9,
-    "average": 5.73,
+    "max": 7,
+    "average": 5.53,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 12,
+      "center": 13,
       "centerRight": 2,
-      "right": 1,
+      "right": 0,
       "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
