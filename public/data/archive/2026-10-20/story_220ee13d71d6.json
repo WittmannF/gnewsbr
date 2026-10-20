@@ -14,13 +14,13 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 18,
-      "topic-4": 10,
-      "topic-5": 19
+      "topic-3": 19,
+      "topic-4": 11,
+      "topic-5": 46
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 18,
-    "bestSeedRank": 10,
+    "firstSeenRank": 19,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -37,7 +37,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/TS4DGVNOU5I2JDQLCAAKHHJXWM.jpg?quality=80&auth=ac155317535b62379a2534c86557360a61965bdbff3bb5ffe28e1c9fb2a56667&width=1200&height=630&focal=964,438",
   "publishedAt": "2026-10-14T22:07:00+00:00",
-  "updatedAt": "2026-10-20T00:57:59.523486+00:00",
+  "updatedAt": "2026-10-20T01:35:04.235128+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -140,20 +140,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_2eb6e9f0aa54",
-      "title": "'Dark Horse': PF aponta divergência 'severa' entre recursos enviados ao exterior",
-      "description": "Polícia Federal afirma que saíram do país mais de US$ 12 milhões, tendo sido registrada a entrada no Brasil de apenas US$ 2,8 milhões.",
-      "url": "https://www.terra.com.br/noticias/brasil/policia/dark-horse-pf-aponta-divergencia-severa-entre-recursos-enviados-ao-exterior,f3adfe45f7e571df50cf4aceab637798tsmr2tey.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-10-17T13:32:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_f88cf0d96fad",
       "title": "PF pede mais 90 dias a Mendonça para investigar caso Dark Horse",
       "description": "PF pede a Mendonça mais 90 dias para investigar suspeitas de irregularidades no financiamento do filme sobre Bolsonaro.",
@@ -166,6 +152,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_2484e0761635",
+      "title": "\"Dark Horse\": PF aponta divergência \"severa\" entre recursos enviados ao exterior",
+      "description": "Polícia Federal afirma que saíram do país mais de US$ 12 milhões, tendo sido registrada a entrada no Brasil de apenas US$ 2,8 milhões.",
+      "url": "https://www.dw.com/pt-br/dark-horse-pf-aponta-diverg%C3%AAncia-severa-entre-recursos-enviados-ao-exterior/a-79687781",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-10-17T13:32:40+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_352c6d26e0a3",
@@ -325,20 +325,20 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.86,
+    "average": 5.79,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 2,
-      "centerLeft": 0,
-      "center": 7,
+      "centerLeft": 1,
+      "center": 6,
       "centerRight": 3,
       "right": 2,
       "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
     "headlineDivergence": 94,
     "confidence": 95

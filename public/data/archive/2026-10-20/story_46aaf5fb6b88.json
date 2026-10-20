@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxa0tTV0VoSGQ2Ym1WMGlWUFhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxa0tTV0VoSGQ2Ym1WMGlWUFhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 12
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 14
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "França decreta toque de recolher após caos em protestos",
+  "title": "Crise e protestos na França impactam cenário político local",
   "summary": "Imagens registraram o homem e a mulher em um bar perto do Arco do Triunfo, na região de Paris onde vêm ocorrendo os principais distúrbios.",
   "topic": "França · Protestos",
   "topicKeywords": [
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/9mpY7TSNipw3KEOfIgsH8CckCgM=/5792x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/5/W8BXksRP2WQRq8dCA96A/2026-10-19t064535z-866165662-rc2u5oar66q8-rtrmadp-3-france-protest.jpg",
   "publishedAt": "2026-10-17T07:00:00+00:00",
-  "updatedAt": "2026-10-20T01:03:03.524491+00:00",
+  "updatedAt": "2026-10-20T01:32:22.276722+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -48,6 +54,20 @@
       "imageUrl": "https://s2-g1.glbimg.com/9mpY7TSNipw3KEOfIgsH8CckCgM=/5792x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/5/W8BXksRP2WQRq8dCA96A/2026-10-19t064535z-866165662-rc2u5oar66q8-rtrmadp-3-france-protest.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_d49c51c72e8c",
+      "title": "Protestos em ebulição na Europa expõem a falência do Estado de bem-estar social",
+      "description": "Manifestações na França, Espanha, Portugal e Itália revelam a exaustão de um modelo que já não consegue responder ao custo de vida...",
+      "url": "https://neofeed.com.br/economia/protestos-em-ebulicao-na-europa-expoem-a-falencia-do-estado-de-bem-estar-social/",
+      "source": "NeoFeed",
+      "sourceCanonical": "NeoFeed",
+      "sourceDomain": "neofeed.com.br",
+      "publishedAt": "2026-10-19T22:15:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_43a10f445e82",
@@ -114,7 +134,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-19T19:27:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -128,24 +148,10 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-20T00:33:04+00:00",
-      "postedLabel": "29 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_d49c51c72e8c",
-      "title": "Protestos em ebulição na Europa expõem a falência do Estado de bem-estar social",
-      "description": "Manifestações na França, Espanha, Portugal e Itália revelam a exaustão de um modelo que já não consegue responder ao custo de vida...",
-      "url": "https://neofeed.com.br/economia/protestos-em-ebulicao-na-europa-expoem-a-falencia-do-estado-de-bem-estar-social/",
-      "source": "NeoFeed",
-      "sourceCanonical": "NeoFeed",
-      "sourceDomain": "neofeed.com.br",
-      "publishedAt": "2026-10-19T22:15:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_1182c0f1ec7e",
@@ -288,20 +294,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d1af43fe2fd5",
-      "title": "Rebelião.. A juventude se levanta na Europa e no mundo: conheça as principais lutas",
-      "description": "Da Índia ao Chile, passando pela explosão na França, os últimos meses e, particularmente, o último fim de semana, uma enorme onda de...",
-      "url": "https://www.esquerdadiario.com.br/A-juventude-se-levanta-na-Europa-e-no-mundo-conheca-as-principais-lutas",
-      "source": "Esquerda Diário",
-      "sourceCanonical": "Esquerda Diário",
-      "sourceDomain": "esquerdadiario.com.br",
-      "publishedAt": "2026-10-19T21:42:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_74b523162d00",
       "title": "Cardeal Aveline pede fim da violência e volta da paz na França",
       "description": "O arcebispo de Marselha pede um retorno à paz após os distúrbios que abalaram a França nos últimos dias, condenando a violência como...",
@@ -311,6 +303,20 @@
       "sourceDomain": "noticias.cancaonova.com",
       "publishedAt": "2026-10-19T17:57:19+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d1af43fe2fd5",
+      "title": "Rebelião.. A juventude se levanta na Europa e no mundo: conheça as principais lutas",
+      "description": "Da Índia ao Chile, passando pela explosão na França, os últimos meses e, particularmente, o último fim de semana, uma enorme onda de...",
+      "url": "https://www.esquerdadiario.com.br/A-juventude-se-levanta-na-Europa-e-no-mundo-conheca-as-principais-lutas",
+      "source": "Esquerda Diário",
+      "sourceCanonical": "Esquerda Diário",
+      "sourceDomain": "esquerdadiario.com.br",
+      "publishedAt": "2026-10-19T21:42:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"

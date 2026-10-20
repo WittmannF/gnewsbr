@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lWdEx1YUVoRjdCeHBxY3g5VEdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lWdEx1YUVoRjdCeHBxY3g5VEdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-4"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 25
+      "topic-3": 37,
+      "topic-4": 26
     },
-    "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 37,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/u2XlpN6l-osfqu9lF90TBnjGZY0=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/F/wb6sc4QCAcDHViQPKlKQ/novo-projeto.png",
   "publishedAt": "2026-10-19T17:24:22+00:00",
-  "updatedAt": "2026-10-20T01:00:51.043145+00:00",
-  "sourceCount": 7,
-  "articleCount": 7,
+  "updatedAt": "2026-10-20T01:36:04.210021+00:00",
+  "sourceCount": 8,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_1d3a2ddf6071",
@@ -58,7 +61,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-19T22:23:51+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/u2XlpN6l-osfqu9lF90TBnjGZY0=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/F/wb6sc4QCAcDHViQPKlKQ/novo-projeto.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,7 +89,7 @@
       "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-10-19T19:12:06+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -114,7 +117,7 @@
       "sourceCanonical": "Polêmica Paraíba",
       "sourceDomain": "polemicaparaiba.com.br",
       "publishedAt": "2026-10-19T22:34:53+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,10 +131,24 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-10-19T22:11:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_97ffe9e95377",
+      "title": "MP pede anulação de contratos de shows de Gusttavo Lima e Maiara e Maraisa pagos com verbas da saúde e educação",
+      "description": "O Ministério Público pediu à Justiça a anulação dos contratos para shows de Gusttavo Lima e da dupla Maiara e Maraisa durante a 1ª AgroFood...",
+      "url": "https://blogdovalente.com.br/brasil/2026/10/mp-pede-anulacao-de-contratos-de-shows-de-gusttavo-lima-e-maiara-e-maraisa-pagos-com-verbas-da-saude-e-educacao/",
+      "source": "Blog do Valente",
+      "sourceCanonical": "Blog do Valente",
+      "sourceDomain": "blogdovalente.com.br",
+      "publishedAt": "2026-10-19T23:42:20+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
@@ -139,23 +156,24 @@
     "max": 5,
     "average": 3.8,
     "knownCount": 5,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
       "center": 3,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 74
+    "confidence": 76
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
