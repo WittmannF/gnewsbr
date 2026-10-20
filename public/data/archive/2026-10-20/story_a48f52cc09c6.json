@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvNTdpYUVoRk0ybVR2RzBLeXJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvNTdpYUVoRk0ybVR2RzBLeXJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 4,
-      "topic-5": 12
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 3,
+      "topic-5": 13
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Caso Ana Clara: PM que matou menina de 5 anos foi defendido por Flávio Bolsonaro",
   "summary": "O episódio foi citado no debate da 'Band' por Lula, que questionou o senador sobre atuação para tentar barrar júri popular do policial...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/flavio-bolsonaro-foto-vittor-sales-campanha-e-ana-clara-machado-foto-ong-rio-de-paz.jpg",
   "publishedAt": "2026-10-19T00:29:00+00:00",
-  "updatedAt": "2026-10-20T08:33:54.041665+00:00",
+  "updatedAt": "2026-10-20T09:27:09.400866+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -53,6 +59,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_01ee0bf13951",
+      "title": "Na TV, Flávio Bolsonaro pede 'mobilização total' e Lula aborda o assassinato de Ana Clara, de 5 anos",
+      "description": "A seis dias do segundo turno da eleição presidencial, Flávio Bolsonaro (PL) deu destaque à mobilização de eleitores e Lula(PT) à segurança...",
+      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/19/horario-eleitoral-2-turno-flavio-bolsonaro-e-lula.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-10-19T20:11:16+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/ChMXKtC0Sp-h-ryPXMpgWy8tKaY=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/D/No8UvgTfSGzgY30WdrGg/montagem-horizontal-1280x720px.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_e3585ce6ed20",
       "title": "Silêncio de Flávio sobre Ana Clara “foi desesperador”, diz a mãe da menina",
       "description": "Há mais de 5 anos, Cristiane aguarda justiça para a filha Ana Clara, morta pelo PM defendido por Flávio Bolsonaro.",
@@ -67,18 +87,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_827f679da5ed",
-      "title": "Caso Ana Clara: entenda menção de Lula durante debate da Band sobre PM para quem Flávio Bolsonaro advogou",
-      "description": "Senador atuou na Justiça como advogado do PM suspeito de efetuar o disparo que matou a menina em fevereiro de 2021.",
-      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/18/caso-ana-clara-entenda-mencao-de-lula-durante-debate-da-band-sobre-pm-para-quem-flavio-bolsonaro-advogou.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-19T01:24:35+00:00",
+      "id": "article_c8b66c73b4a0",
+      "title": "A história de Ana Clara, menina de 5 anos morta por PM defendido por Flávio Bolsonaro",
+      "description": "Caso foi lembrado por Lula no debate da Band e ao cobrar apoio de Flávio à PEC da Segurança Pública; candidato do PL tem histórico de...",
+      "url": "https://pt.org.br/a-historia-de-ana-clara-menina-de-5-anos-morta-por-pm-defendido-por-flavio-bolsonaro/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-10-19T00:29:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://s2-oglobo.glbimg.com/1OyvwAQohC-gcMEMhgfoSrkqRh0=/4160x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/n/E/LXsDNhSiq2hY9EPlnuyQ/whatsapp-image-2026-10-18-at-21.24.07.jpeg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_277d29d4da64",
@@ -109,20 +129,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c8b66c73b4a0",
-      "title": "A história de Ana Clara, menina de 5 anos morta por PM defendido por Flávio Bolsonaro",
-      "description": "Caso foi lembrado por Lula no debate da Band e ao cobrar apoio de Flávio à PEC da Segurança Pública; candidato do PL tem histórico de...",
-      "url": "https://pt.org.br/a-historia-de-ana-clara-menina-de-5-anos-morta-por-pm-defendido-por-flavio-bolsonaro/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-10-19T00:29:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_0f72fb283a4c",
       "title": "Presidente da OAB diz que Lula tentou criminalizar advocacia em debate",
       "description": "Durante debate presidencial, Lula questionou Flávio Bolsonaro sobre sua atuação na defesa do policial acusado de matar uma menina de 5 anos.",
@@ -133,20 +139,6 @@
       "publishedAt": "2026-10-19T17:18:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://i.metroimg.com/4sofKtUYjs96w_PG-5D8BZbWINJHCWxb6R5whbdutg8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/whatsapp-image-2026-10-19-at-14-09-22-3x2-1.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e9c90eff91b0",
-      "title": "Lula cobra Flávio por atuação em caso de criança morta por policial",
-      "description": "Presidente questionou defesa de PM acusado de matar menina de 5 anos; senador disse que advocacia não pode ser criminalizada. Leia no...",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-cobra-flavio-por-atuacao-em-caso-de-crianca-morta-por-policial/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-19T00:38:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -165,18 +157,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_85dbb543a5a7",
-      "title": "ELEIÇÕES 2026 🗳️ O primeiro debate entre Flávio Bolsonaro (PL) e o presidente Luiz Inácio Lula da Silva (PT) na eleição de 2026, realizado pela Band em parceria com o Estadão, foi marcado por um clima tenso e trocas de acusações de corrupção. O sen",
-      "description": "",
-      "url": "https://www.instagram.com/p/DeqS8AwgcOD/",
-      "source": "Instagram",
-      "sourceCanonical": "Instagram",
-      "sourceDomain": "instagram.com",
-      "publishedAt": "2026-10-19T03:30:09+00:00",
-      "postedLabel": "ontem",
+      "id": "article_308bd0276dd6",
+      "title": "O que foi o caso Ana Clara? Citado por Lula contra Flávio",
+      "description": "Senador defendeu policial acusado de disparo que causou morte de menina durante operação em favela de Niterói.",
+      "url": "https://www.brasilparalelo.com.br/noticias/o-que-foi-o-caso-ana-clara-citado-por-lula-contra-flavio",
+      "source": "Brasil Paralelo",
+      "sourceCanonical": "Brasil Paralelo",
+      "sourceDomain": "brasilparalelo.com.br",
+      "publishedAt": "2026-10-19T20:00:49+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_e9c90eff91b0",
+      "title": "Lula cobra Flávio por atuação em caso de criança morta por policial",
+      "description": "Presidente questionou defesa de PM acusado de matar menina de 5 anos; senador disse que advocacia não pode ser criminalizada. Leia no...",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-cobra-flavio-por-atuacao-em-caso-de-crianca-morta-por-policial/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-19T00:38:12+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_ccb621c93bc3",
@@ -193,20 +199,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_308bd0276dd6",
-      "title": "O que foi o caso Ana Clara? Citado por Lula contra Flávio",
-      "description": "Senador defendeu policial acusado de disparo que causou morte de menina durante operação em favela de Niterói.",
-      "url": "https://www.brasilparalelo.com.br/noticias/o-que-foi-o-caso-ana-clara-citado-por-lula-contra-flavio",
-      "source": "Brasil Paralelo",
-      "sourceCanonical": "Brasil Paralelo",
-      "sourceDomain": "brasilparalelo.com.br",
-      "publishedAt": "2026-10-19T20:00:49+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_cd58360c2cb9",
       "title": "Após quase 6 anos, Justiça ainda não foi feita para Ana Clara",
       "description": "Em debate Lula questiona Flávio por ter defendido PM acusado de fuzilar menina de 5 anos e atuado para impedir que ele fosse julgado em júri...",
@@ -215,7 +207,7 @@
       "sourceCanonical": "iG Último Segundo",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-10-20T02:45:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -249,20 +241,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9f884b388b85",
-      "title": "Entenda o caso Ana Clara, menina morta por policial defendido por Flávio",
-      "description": "Senador integrou a defesa do policial militar acusado de matar a menina de cinco anos em Niterói; processo ainda aguardava julgamento em...",
-      "url": "https://tvtnews.com.br/entenda-caso-ana-clara-menina-morta-policial-flavio/",
-      "source": "TVT News",
-      "sourceCanonical": "TVT News",
-      "sourceDomain": "tvtnews.com.br",
-      "publishedAt": "2026-10-19T13:24:31+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_f02b18dff7c6",
       "title": "Lula cobra de Flávio Bolsonaro o motivo de defender o assassino de Ana Clara, uma criança de 5 anos",
       "description": "(imagem divulgação) Durante o debate eleitoral na Band, realizado neste domingo, o presidente Lula (PT) cobrou de Flávio Bolsonaro (PL) uma explicação sobre...",
@@ -271,6 +249,20 @@
       "sourceCanonical": "Carta Campinas",
       "sourceDomain": "cartacampinas.com.br",
       "publishedAt": "2026-10-19T13:04:07+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_9f884b388b85",
+      "title": "Entenda o caso Ana Clara, menina morta por policial defendido por Flávio",
+      "description": "Senador integrou a defesa do policial militar acusado de matar a menina de cinco anos em Niterói; processo ainda aguardava julgamento em...",
+      "url": "https://tvtnews.com.br/entenda-caso-ana-clara-menina-morta-policial-flavio/",
+      "source": "TVT News",
+      "sourceCanonical": "TVT News",
+      "sourceDomain": "tvtnews.com.br",
+      "publishedAt": "2026-10-19T13:24:31+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -317,12 +309,26 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_7db9c317d452",
+      "title": "As simples respostas que Flávio deixou de dar o levaram a perder o debate",
+      "description": "Lula: \"Por que você advogou para o (policial militar Bruno Dias Delaroli, acusado de ter atirado em Ana Clara Gomes Machado), assassino de...",
+      "url": "https://tribunafeirense.com.br/noticias/67477/as-simples-respostas-que-flavio-deixou-de-dar-o-levaram-a-perder-o-debate",
+      "source": "Tribuna Feirense",
+      "sourceCanonical": "Tribuna Feirense",
+      "sourceDomain": "tribunafeirense.com.br",
+      "publishedAt": "2026-10-19T19:06:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.2,
+    "average": 4.1,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
