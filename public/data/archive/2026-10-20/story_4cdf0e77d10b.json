@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loZ2JxVEVoRk9mWEtzNUw0SkJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loZ2JxVEVoRk9mWEtzNUw0SkJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 6,
-      "topic-5": 3
+      "home": 1,
+      "topstories": 1,
+      "topic-3": 7,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 6,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Advogado amigo de Flávio movimentou R$ 5 bi em bets em 2025, diz Fazenda",
   "summary": "Ministério afirma que Willer Thomaz foi o maior apostador do país e sacou mais de R$ 200 milhões.",
@@ -27,15 +33,15 @@
   "topicKeywords": [
     "flávio",
     "bolsonaro",
+    "willer",
+    "tomaz",
     "advogado",
-    "inquérito",
-    "lavagem",
     "moraes"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/willer-tomaz-divulgacao.jpg?w=888&h=630&crop=1",
-  "publishedAt": "2026-10-18T20:27:20+00:00",
-  "updatedAt": "2026-10-20T22:24:55.815420+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-10-18T22:27:00+00:00",
+  "updatedAt": "2026-10-20T23:21:45.914825+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -47,7 +53,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-20T20:06:13+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/willer-tomaz-divulgacao.jpg?w=888&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,24 +67,24 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-20T20:51:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/29/17907234266abc4562d7470_1790723426_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_4213fd84195c",
-      "title": "Advogado amigo de Flávio Bolsonaro foi o maior apostador do país em 2025",
-      "description": "Um parecer técnico da Secretaria de Prêmios e Apostas do Ministério da Fazenda encaminhado à Polícia Federal mostra que o advogado Willer...",
-      "url": "https://cbn.globo.com/politica/noticia/2026/10/20/advogado-amigo-de-flavio-bolsonaro-foi-o-maior-apostador-do-pais-em-2025.ghtml",
-      "source": "CBN",
-      "sourceCanonical": "CBN",
-      "sourceDomain": "cbn.globo.com",
-      "publishedAt": "2026-10-20T21:40:44+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "id": "article_3218ac9479d4",
+      "title": "Rede de empresas, aplicativo que destrói mensagens e viagens em jatinho: PF aponta vínculos entre Flávio e Willer Tomaz",
+      "description": "A Polícia Federal detalhou em relatório os vínculos entre o candidato do PL à Presidência, Flávio Bolsonaro, e o advogado Willer Tomaz.",
+      "url": "https://extra.globo.com/politica/noticia/2026/10/rede-de-empresas-aplicativo-que-destroi-mensagens-e-viagens-em-jatinho-pf-aponta-vinculos-entre-flavio-e-willer-tomaz.ghtml",
+      "source": "Extra online",
+      "sourceCanonical": "Extra",
+      "sourceDomain": "extra.globo.com",
+      "publishedAt": "2026-10-20T22:57:31+00:00",
+      "postedLabel": "24 minutos atrás",
+      "imageUrl": "https://s2-extra.glbimg.com/t1VdoNFPoJD1Qz8Kb_QQ_TirwN0=/888x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/X/C/9JhUBGTiSme264IAak6Q/flavio-willer.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_28b939a5359e",
@@ -104,37 +110,65 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-20T15:10:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://media.gazetadopovo.com.br/2026/09/20164324/video-moraes-jatinho-ligado-vorcaro.jpg",
+      "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_16d03de0cfaf",
-      "title": "Lindbergh pede proteção para suposta 'laranja' de advogado ligado a Flávio",
-      "description": "O deputado federal Lindbergh Farias (PT-RJ) pediu à Polícia Federal, nesta terça-feira (20), que localize e ofereça proteção a Lídia Maria...",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/10/20/lindbergh-pede-protecao-para-suposta-laranja-de-advogado-ligado-a-flavio.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-20T22:02:08+00:00",
-      "postedLabel": "22 minutos atrás",
+      "id": "article_d46efa507973",
+      "title": "Painel S.A.: Escritório de Willer Tomaz, amigo de Flávio Bolsonaro, deve R$ 100 mil à Receita",
+      "description": "O escritório do advogado Willer Tomaz, amigo do senador e candidato a presidente Flávio Bolsonaro (PL), está com débitos tributários...",
+      "url": "https://www1.folha.uol.com.br/colunas/painelsa/2026/10/escritorio-de-willer-tomaz-amigo-de-flavio-bolsonaro-deve-r-100-mil-a-receita.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-10-20T23:02:00+00:00",
+      "postedLabel": "19 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
-      "id": "article_1fefbd6a1de5",
-      "title": "Alvo da PF ao lado de Flávio Bolsonaro, Willer Tomaz movimentou R$ 5 bi em bet e sacou R$ 200 mi, aponta Fazenda",
-      "description": "Advogado foi o que mais depositou recursos em bet no Brasil, o dobro do segundo colocado; Fazenda vê falha em comunicação de suspeita de...",
-      "url": "https://www.jota.info/executivo/alvo-da-pf-ao-lado-de-flavio-bolsonaro-willer-tomaz-movimentou-r-5-bi-em-bet-e-sacou-r-200-mi-aponta-fazenda",
+      "id": "article_b68666b16e7c",
+      "title": "PF aponta que Willer Tomaz pagou para ocultar links que o ligavam a Flávio Bolsonaro",
+      "description": "Relatório da Polícia Federal identifica negociação de R$ 9 mil para retirar 12 links; advogado nega esconder amizade com senador.",
+      "url": "https://www.brasil247.com/brasil/pf-aponta-que-willer-tomaz-pagou-para-ocultar-links-que-o-ligavam-a-flavio-bolsonaro/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-20T22:43:00+00:00",
+      "postedLabel": "38 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
+      "id": "article_873380552f0d",
+      "title": "Nova investigação contra Flávio pode ser estratégica para sobrevivência de Moraes no STF",
+      "description": "O comando da nova investigação contra o senador Flávio Bolsonaro (PL) tem o condão de renovar o fôlego do ministro Alexandre de Moraes na...",
+      "url": "https://www.jota.info/opiniao-e-analise/colunas/coluna-flavia-maia/nova-investigacao-contra-flavio-pode-ser-estrategica-para-sobrevivencia-de-moraes-no-stf",
       "source": "JOTA Info",
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
-      "publishedAt": "2026-10-20T22:00:14+00:00",
-      "postedLabel": "24 minutos atrás",
+      "publishedAt": "2026-10-20T14:45:13+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_87adc54fac77",
+      "title": "Advogado amigo de Flávio Bolsonaro movimentou R$ 5 bilhões com bet em 2025",
+      "description": "Investigado por suposto envolvimento no esquema do INSS, Willer Tomaz depositou R$ 258 milhões na Blaze, que será investigada pela Fazenda...",
+      "url": "https://www.estadao.com.br/politica/advogado-amigo-de-flavio-movimentou-r-5-bilhoes-com-bet-em-2025/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-20T21:16:07+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e8551b22d0ad",
@@ -165,17 +199,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_9bc3becd3754",
-      "title": "‘Flávio Bolsonaro tem receio de produzir prova contra si mesmo’, diz Correia ao citar dois inquéritos contra o senador",
-      "description": "Uma das investigações em andamento no STF que envolvem o presidenciável da extrema direita apura o financiamento do filme Dark Horse.",
-      "url": "https://www.brasil247.com/brasilia/flavio-bolsonaro-tem-receio-de-produzir-prova-contra-si-mesmo-diz-correia-ao-citar-dois-inqueritos-contra-o-senador/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-10-20T18:55:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_96287d224316",
+      "title": "Inquérito sobre suspeita de lavagem de Flávio também investiga Cláudio Castro e Ramagem",
+      "description": "(Folhapress) - O inquérito da Polícia Federal sobre suspeita de lavagem de dinheiro envolvendo o advogado Willer Tomaz e o candidato à...",
+      "url": "https://iclnoticias.com.br/inquerito-sobre-flavio-investiga-castro-ramagem/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-10-20T09:49:52+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
+      "spectrumScore": 2,
       "bucket": "left"
     },
     {
@@ -191,20 +225,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_96287d224316",
-      "title": "Inquérito sobre suspeita de lavagem de Flávio também investiga Cláudio Castro e Ramagem",
-      "description": "(Folhapress) - O inquérito da Polícia Federal sobre suspeita de lavagem de dinheiro envolvendo o advogado Willer Tomaz e o candidato à...",
-      "url": "https://iclnoticias.com.br/inquerito-sobre-flavio-investiga-castro-ramagem/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-10-20T09:49:52+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_3c16f62b960b",
@@ -235,20 +255,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_669859ce7e8d",
-      "title": "Flávio Bolsonaro é investigado em 2º inquérito no STF para apurar suspeitas de lavagem com advogado",
-      "description": "Moraes foi sorteado como relator do inquérito que envolve a relação do candidato à Presidência com o advogado Willer Tomaz; assessoria do...",
-      "url": "https://www.estadao.com.br/politica/flavio-bolsonaro-e-investigado-em-2-inquerito-no-stf-para-apurar-suspeitas-de-lavagem-com-advogado/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-18T20:27:20+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_aa2da677c310",
       "title": "Investigação da PF sobre o advogado Willer Tomaz cita Cláudio Castro e contrato da Loterj com RioPag",
       "description": "A investigação da Polícia Federal que apura suspeitas de lavagem de dinheiro envolvendo o advogado Willer Tomaz — e a relação dele com o...",
@@ -261,6 +267,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_fd4b39935499",
+      "title": "Flávio Bolsonaro é alvo de segundo inquérito no STF por suspeita de lavagem de dinheiro",
+      "description": "Investigação da Polícia Federal apura a relação do senador com o advogado Willer Tomaz, suspeito de movimentações financeiras irregulares;...",
+      "url": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-e-alvo-de-segundo-inquerito-no-stf-por-suspeita-de-lavagem-de-dinheiro/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-18T22:27:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_16473a6dd2b8",
@@ -299,39 +319,25 @@
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-10-20T19:27:54+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_289f1b6536d8",
-      "title": "PF pede investigação de Flávio Bolsonaro por suspeita de lavagem",
-      "description": "PF pede ao STF investigação sobre suspeita de lavagem envolvendo Flávio Bolsonaro e Willer Tomaz. Pedido não significa denúncia ou. Leia no...",
-      "url": "https://www.esmaelmorais.com.br/pf-pede-investigacao-flavio-bolsonaro-lavagem-dinheiro-willer-tomaz/",
-      "source": "Blog do Esmael",
-      "sourceCanonical": "Blog do Esmael",
-      "sourceDomain": "esmaelmorais.com.br",
-      "publishedAt": "2026-10-19T16:57:24+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.19,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.12,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 3,
-      "centerLeft": 2,
+      "centerLeft": 3,
       "center": 6,
       "centerRight": 3,
       "right": 2,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
