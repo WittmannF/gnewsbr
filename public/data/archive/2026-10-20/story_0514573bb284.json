@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 4
+      "topic-7": 6
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,8 +30,8 @@
     "pesquisa"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Donald-Trump-2.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-10-14T11:03:45+00:00",
-  "updatedAt": "2026-10-20T03:41:34.717563+00:00",
+  "publishedAt": "2026-10-17T21:00:00+00:00",
+  "updatedAt": "2026-10-20T04:40:13.343553+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-19T22:36:10+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Donald-Trump-2.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -184,7 +184,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-10-19T21:51:41+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -198,7 +198,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-19T23:43:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -212,7 +212,7 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-10-20T00:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -254,7 +254,7 @@
       "sourceCanonical": "Portal ABC do ABC",
       "sourceDomain": "abcdoabc.com.br",
       "publishedAt": "2026-10-20T00:03:36+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1bb781ded5d9",
-      "title": "Como conflitos globais viraram dor de cabeça para Trump em eleições de meio de mandato nos EUA",
-      "description": "Com a aproximação das eleições que renovarão boa parte do Congresso, o presidente volta seus olhos para o exterior em busca de ajuda para um...",
-      "url": "https://www.bbc.com/portuguese/articles/c6gm083z7gj9o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-10-14T11:03:45+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_13d3523df681",
       "title": "Trump exalta poder e faz promessas em comício republicano",
       "description": "O presidente dos Estados Unidos, Donald Trump, exaltou neste sábado (17) seu poder no segundo mandato durante um comício republicano no...",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_3f2c1dbb673b",
+      "title": "Visão geral das eleições de meio de mandato nos EUA: um teste difícil para o presidente Donald Trump.",
+      "description": "TPO - Realizadas no meio de um mandato presidencial de quatro anos, essas eleições não estão diretamente relacionadas à presidência em si.",
+      "url": "https://www.vietnam.vn/pt/toan-canh-bau-cu-giua-nhiem-ky-my-phep-thu-cam-go-voi-tong-thong-donald-trump",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-10-19T13:56:55+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.12,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.2,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
+      "centerLeft": 0,
       "center": 11,
       "centerRight": 2,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 60,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
