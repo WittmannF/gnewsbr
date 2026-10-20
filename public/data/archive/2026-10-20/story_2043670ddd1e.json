@@ -3,27 +3,33 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxa0tTV0VoRmNwRldKS0xtR3BpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxa0tTV0VoRmNwRldKS0xtR3BpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 12
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 11
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Onda de protestos atinge a França em meio a dificuldades econômicas",
   "summary": "Cenas apocalípticas de prédios públicos incendiados e saques em cidades por toda a França podem levar o país a uma divisão ainda maior e...",
-  "topic": "França · Protestos",
+  "topic": "Protestos · França",
   "topicKeywords": [
-    "frança",
     "protestos",
+    "frança",
     "europa",
     "onda",
     "vão",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/MKHWG5WAYFFQXCWIFYC3WUVKRI.jpg?quality=80&auth=1080091e96ea2877fda6a3129940af33a756bc13b5ad6d71c573c33f39d97cfd&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-19T07:00:00+00:00",
-  "updatedAt": "2026-10-20T21:33:24.502559+00:00",
+  "updatedAt": "2026-10-20T22:23:16.763578+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -64,6 +70,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_40419fc5a7a1",
+      "title": "França vai mobilizar forças militares para protestos de sábado",
+      "description": "A França disse hoje que vai mobilizar forças militares para reforçar a polícia durante os protestos previstos para o próximo sábado (24) no...",
+      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/internacional/audio/2026-10/franca-vai-mobilizar-forcas-militares-para-protestos-de-sabado",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-10-20T21:49:00+00:00",
+      "postedLabel": "34 minutos atrás",
+      "imageUrl": "https://imagens.ebc.com.br/SPTnvJjmxvqQhE8Yo-P6paH69bU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/09/2026-10-09t150347z_1_lynxmpem981cp_rtroptp_4_france-protest-schools.jpg?itok=SEHE1ify",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_d5a2fbba63f6",
       "title": "França amplia toques de recolher após pior onda de distúrbios em anos",
       "description": "O governo francês vai decretar novos toques de recolher nesta terça-feira (20) nas cidades onde a situação exigir, anunciou o...",
@@ -72,7 +92,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-20T17:01:19+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -87,7 +107,7 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-20T09:33:07+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/10/GettyImages-2300672177.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -148,32 +168,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_d55fdbc162fa",
-      "title": "Vencedora da eleição parlamentar de 2024, esquerda da França implode com protestos violentos",
-      "description": "A Nova Frente Popular (NFP), ampla aliança de partidos de esquerda, foi o grupo que obteve mais cadeiras na Assembleia Nacional da França na...",
-      "url": "https://www.gazetadopovo.com.br/mundo/esquerda-da-franca-implode-com-protestos-violentos/",
+      "id": "article_43a10f445e82",
+      "title": "Como protestos de estudantes descambaram para violência e saques na França",
+      "description": "Protestos de estudantes na França evoluíram para saques, incêndios e confrontos. Entenda a origem da crise e a reação do governo Macron.",
+      "url": "https://www.gazetadopovo.com.br/mundo/como-protestos-de-estudantes-descambaram-para-violencia-e-saques-na-franca/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-20T13:33:00+00:00",
+      "publishedAt": "2026-10-19T23:59:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_68226a55982b",
-      "title": "Entenda a onda de manifestações que se espalha pela Europa",
-      "description": "Mobilização contra condições em escolas escalou após repressão policial e hoje reúne multidões contra a inflação, a crise de moradia e o...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/entenda-a-onda-de-manifestacoes-que-se-espalha-pela-europa-1.1757252",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-10-20T10:18:41+00:00",
-      "postedLabel": "hoje",
+      "id": "article_bbcf662b7f6b",
+      "title": "O que está por trás da onda de protestos que varre a Europa",
+      "description": "Custo de vida, piora dos serviços públicos e crise habitacional impulsionam manifestações em vários países, como França, Itália, Espanha e...",
+      "url": "https://www.dw.com/pt-br/por-que-os-protestos-est%C3%A3o-se-espalhando-pela-europa/a-79715919",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-10-20T19:43:46+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_0e3b9ffbe458",
+      "title": "Igreja na França: responder à violência com o diálogo e a busca por sentido",
+      "description": "Diante da crise social e dos episódios de violência, a Igreja francesa convida a dar uma resposta à angústia expressa pelos jovens e por...",
+      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/franca-apelo-igreja-resposta-violencia-dialoco-buscar-sentido-26.html",
+      "source": "Vatican News",
+      "sourceCanonical": "Vatican News",
+      "sourceDomain": "vaticannews.va",
+      "publishedAt": "2026-10-19T07:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d733c2ac63bb",
@@ -204,34 +238,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_bc767fcb7653",
-      "title": "França reforçará policiamento em manifestações previstas para sábado",
-      "description": "Toque de recolher em várias cidades trouxe calma ao país nesta segunda-feira à noite, após um fim de semana violento.",
-      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/franca-reforcara-policiamento-em-manifestacoes-previstas-para-sabado",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-10-20T15:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d49c51c72e8c",
-      "title": "Protestos em ebulição na Europa expõem a falência do Estado de bem-estar social",
-      "description": "Manifestações na França, Espanha, Portugal e Itália revelam a exaustão de um modelo que já não consegue responder ao custo de vida...",
-      "url": "https://neofeed.com.br/economia/protestos-em-ebulicao-na-europa-expoem-a-falencia-do-estado-de-bem-estar-social/",
-      "source": "NeoFeed",
-      "sourceCanonical": "NeoFeed",
-      "sourceDomain": "neofeed.com.br",
-      "publishedAt": "2026-10-19T22:15:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_5ac1eead4992",
       "title": "Medo, reivindicações e expectativa: o que dizem estudantes brasileiras em meio a protestos na França",
       "description": "Com aulas suspensas há duas semanas, universitários organizam cursos livres, enquanto o custo de vida e as restrições a estrangeiros ampliam...",
@@ -260,18 +266,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_0e3b9ffbe458",
-      "title": "Igreja na França: responder à violência com o diálogo e a busca por sentido",
-      "description": "Diante da crise social e dos episódios de violência, a Igreja francesa convida a dar uma resposta à angústia expressa pelos jovens e por...",
-      "url": "https://www.vaticannews.va/pt/igreja/news/2026-10/franca-apelo-igreja-resposta-violencia-dialoco-buscar-sentido-26.html",
-      "source": "Vatican News",
-      "sourceCanonical": "Vatican News",
-      "sourceDomain": "vaticannews.va",
-      "publishedAt": "2026-10-19T07:00:00+00:00",
+      "id": "article_d49c51c72e8c",
+      "title": "Protestos em ebulição na Europa expõem a falência do Estado de bem-estar social",
+      "description": "Manifestações na França, Espanha, Portugal e Itália revelam a exaustão de um modelo que já não consegue responder ao custo de vida...",
+      "url": "https://neofeed.com.br/economia/protestos-em-ebulicao-na-europa-expoem-a-falencia-do-estado-de-bem-estar-social/",
+      "source": "NeoFeed",
+      "sourceCanonical": "NeoFeed",
+      "sourceDomain": "neofeed.com.br",
+      "publishedAt": "2026-10-19T22:15:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_68226a55982b",
+      "title": "Entenda a onda de manifestações que se espalha pela Europa",
+      "description": "Mobilização contra condições em escolas escalou após repressão policial e hoje reúne multidões contra a inflação, a crise de moradia e o...",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/entenda-a-onda-de-manifestacoes-que-se-espalha-pela-europa-1.1757252",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-10-20T10:18:41+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_0d246882dd58",
@@ -296,39 +316,25 @@
       "sourceCanonical": "Seu Dinheiro",
       "sourceDomain": "seudinheiro.com",
       "publishedAt": "2026-10-20T17:40:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_177105c4764f",
-      "title": "França. Sobre a \"destruição\", a greve geral e os desafios estratégicos após o 17 de outubro",
-      "description": "Enquanto o poder e a mídia instrumentalizam os saques para tentar dividir o movimento e criminalizar a mobilização de 17 de outubro, Anasse Kazib retoma as...",
-      "url": "https://www.esquerdadiario.com.br/Sobre-a-destruicao-a-greve-geral-e-os-desafios-estrategicos-apos-o-17-de-outubro",
-      "source": "Esquerda Diário",
-      "sourceCanonical": "Esquerda Diário",
-      "sourceDomain": "esquerdadiario.com.br",
-      "publishedAt": "2026-10-20T15:41:55+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.53,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.44,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 0,
-      "centerLeft": 3,
+      "centerLeft": 4,
       "center": 10,
       "centerRight": 4,
       "right": 0,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
