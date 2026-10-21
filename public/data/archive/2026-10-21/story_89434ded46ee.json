@@ -3,37 +3,43 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lfdE8yYkVoRVV5dzhvUEFtMTNDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lfdE8yYkVoRVV5dzhvUEFtMTNDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 2
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "18 integrantes da gestão Bolsonaro respondem na Justiça ou são investigados; governo Lula tem 6 casos",
   "summary": "Parte do alto escalão do último governo foi condenada por tentativa de golpe de Estado, outras investigações e processos tratam ainda de...",
-  "topic": "Integrantes · Bolsonaro",
+  "topic": "Gestão · Bolsonaro",
   "topicKeywords": [
-    "integrantes",
+    "gestão",
     "bolsonaro",
     "justiça",
     "lula",
-    "tem",
-    "gestão"
+    "integrantes",
+    "tem"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2022/10/13/166568309563484e975ac0d_1665683095_3x2_rt.jpg",
   "publishedAt": "2026-10-21T07:00:00+00:00",
-  "updatedAt": "2026-10-21T11:25:53.958945+00:00",
-  "sourceCount": 5,
-  "articleCount": 5,
+  "updatedAt": "2026-10-21T12:35:12.870230+00:00",
+  "sourceCount": 6,
+  "articleCount": 6,
   "articles": [
     {
       "id": "article_07ef091a91a9",
@@ -44,10 +50,24 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-21T07:00:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2022/10/13/166568309563484e975ac0d_1665683095_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_b41b9a77a859",
+      "title": "18 nomes da gestão Bolsonaro e 6 da gestão Lula enfrentam ações na Justiça",
+      "description": "As principais notícias para começar o dia bem informado:Justiça: 18 nomes de Bolsonaro e 6 de Lula são alvos de açõesMaster: Vorcaro relata...",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/redacao/2026/10/21/18-nomes-da-gestao-bolsonaro-e-6-da-gestao-lula-enfrentam-acoes-na-justica.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-10-21T11:53:02+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_90c115348312",
@@ -58,8 +78,8 @@
       "sourceCanonical": "Goiás 246",
       "sourceDomain": "goias246.com.br",
       "publishedAt": "2026-10-21T10:49:00+00:00",
-      "postedLabel": "36 minutos atrás",
-      "imageUrl": "https://www.goias246.com.br/arquivos/noticias/34896/thumb/seis-integrantes-da-gestao-lula-enfrentam-investigacoes-ou-processos-na-justica.png",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -72,7 +92,7 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-10-21T09:32:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/10/imagem_2026-10-21_062838242.png",
       "spectrumScore": 2,
       "bucket": "left"
@@ -86,7 +106,7 @@
       "sourceCanonical": "BNews",
       "sourceDomain": "bnews.com.br",
       "publishedAt": "2026-10-21T09:49:55+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://www.bnews.com.br/media/_versions/2026/10/lula-ou-bolsonaro-qual-governo-tem-mais-integrantes-investigados-ou-condenados-pela-justica_widexl.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -100,7 +120,7 @@
       "sourceCanonical": "ncnews.com.br",
       "sourceDomain": "ncnews.com.br",
       "publishedAt": "2026-10-21T10:21:59+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -109,13 +129,13 @@
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 3.67,
-    "knownCount": 3,
+    "average": 4,
+    "knownCount": 4,
     "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 1,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
       "unknown": 2
@@ -125,7 +145,7 @@
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 64
+    "confidence": 69
   },
   "flags": [
     "Manchetes divergentes"

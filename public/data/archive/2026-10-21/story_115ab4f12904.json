@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p6eGJTYUVoRmN1ZW9KQ2VIZzZDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p6eGJTYUVoRmN1ZW9KQ2VIZzZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9
+      "topic-3": 15,
+      "topic-5": 20
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +30,11 @@
     "alta",
     "hospital",
     "exército",
-    "arritmia"
+    "andré"
   ],
   "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/10/20/janones-1jetsoql6ltnl.jpg",
   "publishedAt": "2026-10-19T14:46:00+00:00",
-  "updatedAt": "2026-10-21T11:26:17.941415+00:00",
+  "updatedAt": "2026-10-21T12:37:05.498110+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +61,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-20T12:29:18+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-g1.glbimg.com/rBfC5P6r-X8ERYsAdxEY22cran0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/s/dDkCSHRFS0kbvywnsAQw/fotojet-2026-10-19t112947.740.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -92,18 +95,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_e7534032a120",
-      "title": "Janones é recebido por apoiadores após ter alta hospitalar e compara Lula a Messi",
-      "description": "Deputado estava internado no Hospital Vila Nova Star, em SP. Na saída, defendeu que papel do presidente é 'seguir como maior líder popular...",
-      "url": "https://www.estadao.com.br/politica/janones-e-recebido-por-apoiadores-apos-alta-hospitalar-em-sp-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-20T17:17:07+00:00",
-      "postedLabel": "hoje",
+      "id": "article_b8ce97d57a52",
+      "title": "Análise: Afastamento de Janones causa certa apreensão em campanha do PT",
+      "description": "Deputado segue na UTI com quadro estável após arritmia cardíaca; de acordo com o analista Pedro Venceslau, afastamento preocupa estratégia...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/analise-afastamento-de-janones-causa-certa-apreensao-em-campanha-do-pt/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-19T23:02:44+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_573a00afb048",
@@ -114,20 +117,6 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-19T20:25:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_b8ce97d57a52",
-      "title": "Análise: Afastamento de Janones causa certa apreensão em campanha do PT",
-      "description": "Deputado segue na UTI com quadro estável após arritmia cardíaca; de acordo com o analista Pedro Venceslau, afastamento preocupa estratégia...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/analise-afastamento-de-janones-causa-certa-apreensao-em-campanha-do-pt/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-19T23:02:44+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -160,6 +149,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_e7534032a120",
+      "title": "Janones é recebido por apoiadores após ter alta hospitalar e compara Lula a Messi",
+      "description": "Deputado estava internado no Hospital Vila Nova Star, em SP. Na saída, defendeu que papel do presidente é 'seguir como maior líder popular...",
+      "url": "https://www.estadao.com.br/politica/janones-e-recebido-por-apoiadores-apos-alta-hospitalar-em-sp-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-20T17:17:07+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8e91add5c80a",
@@ -288,20 +291,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_79310f3f728e",
-      "title": "Janones tem previsão de alta nas próximas 48 horas; veja o que se sabe sobre a internação",
-      "description": "Deputado federal se encontra clinicamente estável, sob monitorização cardíaca contínua, segundo o boletim médico.",
-      "url": "https://jovempan.com.br/politica/janones-tem-previsao-de-alta-nas-proximas-48-horas-veja-o-que-se-sabe-sobre-a-internacao/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-19T19:28:17+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_effd8291da32",
       "title": "Janones diz que terá alta nesta terça: Comandar o maior exército",
       "description": "Confira Também: ✓ Nexxus - Plano de Atendimento Médico; Sem Mensalidade e Sem Carência. Pergunte-me como... Notícias Indicadas. WhatsApp.",
@@ -314,27 +303,41 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_5ca0448768f1",
+      "title": "André Janones, criador do canal Exército do Lula, diz que deixará hospital nesta terça",
+      "description": "Boletim, publicado nesta ainda segunda, apontava que Janones estava clinicamente estável e sem novos episódios de arritmia desde a...",
+      "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/19/apos-sofrer-arritmia-janones-diz-data-que-deixara-hospital.html",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
+      "sourceDomain": "opovo.com.br",
+      "publishedAt": "2026-10-20T02:28:02+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.35,
+    "max": 8,
+    "average": 5.06,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
+      "centerLeft": 2,
       "center": 10,
       "centerRight": 3,
-      "right": 1,
+      "right": 0,
       "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [

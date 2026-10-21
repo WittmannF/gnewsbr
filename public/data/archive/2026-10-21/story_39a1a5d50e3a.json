@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loZ2JxVEVoR3E2SmJPb3h4UW9TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2loZ2JxVEVoR3E2SmJPb3h4UW9TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 3
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 2,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "PF diz que amigo de Flávio Bolsonaro tinha sala secreta para dinheiro vivo em hangar de aviação",
   "summary": "Investigadores apreenderam lista de passageiros das aeronaves de Willer Tomaz e vídeos das câmeras de fazenda dele; advogado afirmou que...",
@@ -24,15 +33,15 @@
   "topicKeywords": [
     "flávio",
     "bolsonaro",
-    "amigo",
-    "bet",
     "willer",
-    "tomaz"
+    "tomaz",
+    "amigo",
+    "moraes"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/P3K2PPY7END3XLP3AEIKG2WYZI.jpg?quality=80&auth=7b95e778a96e0e05410e6abad7391abedfa23d78d43ded5d667e6e1f44e92ec0&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-18T07:00:00+00:00",
-  "updatedAt": "2026-10-21T11:25:57.381162+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-10-21T12:35:07.318800+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -44,7 +53,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-21T08:30:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/P3K2PPY7END3XLP3AEIKG2WYZI.jpg?quality=80&auth=7b95e778a96e0e05410e6abad7391abedfa23d78d43ded5d667e6e1f44e92ec0&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -64,18 +73,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_250705d453bf",
-      "title": "Leonardo Sakamoto: Sigilo de Flávio pode revelar se usou bet para lucrar com povo endividado",
-      "description": "Se a investigação da Polícia Federal confirmar que o senador e candidato à Presidência da República Flávio Bolsonaro (PL-RJ) atuou como...",
-      "url": "https://noticias.uol.com.br/colunas/leonardo-sakamoto/2026/10/21/sigilo-de-flavio-pode-revelar-se-usou-bet-para-lucrar-com-povo-endividado.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-21T10:51:31+00:00",
-      "postedLabel": "34 minutos atrás",
-      "imageUrl": null,
+      "id": "article_99a495edd37c",
+      "title": "Willer Tomaz foi o maior apostador do Brasil em 2025",
+      "description": "Relatório produzido aponta que o amigo de Flávio Bolsonaro apostou R$ 5 bilhões no ano.",
+      "url": "https://g1.globo.com/globonews/jornal-globonews/video/willer-tomaz-foi-o-maior-apostador-do-brasil-em-2025-15108127.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-10-21T11:59:50+00:00",
+      "postedLabel": "35 minutos atrás",
+      "imageUrl": "https://s04.video.glbimg.com/x720/15108127.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_9060be7ad2c2",
+      "title": "A BET DE FLÁVIO BOLSONARO",
+      "description": "Tudo começou em janeiro de 2023. Terminava o governo de Jair Bolsonaro, e as bets, que funcionavam no Brasil desde 2018, ainda não haviam...",
+      "url": "https://piaui.uol.com.br/web/best-bet-flavio-bolsonaro-willer-tomaz/",
+      "source": "revista piauí",
+      "sourceCanonical": "revista piauí",
+      "sourceDomain": "piaui.uol.com.br",
+      "publishedAt": "2026-10-20T23:02:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_28b939a5359e",
@@ -92,34 +115,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_c34e601e5a14",
-      "title": "Advogado amigo de Flávio Bolsonaro operou R$ 5 bilhões com bets em 2025",
-      "description": "O advogado Willer Tomaz, investigado por fraudes no Instituto Nacional do Seguro Social (INSS), foi a pessoa que fez o maior aporte em bets...",
-      "url": "https://gauchazh.clicrbs.com.br/politica/noticia/2026/10/advogado-amigo-de-flavio-bolsonaro-operou-r-5-bilhoes-com-bets-em-2025-cmvi00jog00ce01ev8j21ok78.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-10-21T10:58:36+00:00",
-      "postedLabel": "27 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_3ab32b87cbdd",
-      "title": "PF investiga repasse de US$ 180 mil de Willer Tomaz, amigo de Flávio Bolsonaro, a ex-diretor da Abin",
-      "description": "Anotação achada em celular do advogado liga pagamentos em dólares a servidor indiciado por participação na 'Abin paralela' do governo Jair...",
-      "url": "https://www.brasil247.com/brasil/pf-investiga-repasse-de-us-180-mil-de-willer-tomaz-amigo-de-flavio-bolsonaro-a-ex-diretor-da-abin/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-10-21T10:30:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_d9687e5316b2",
       "title": "Flávio Bolsonaro é suspeito de ser sócio oculto de casa de apostas, diz revista",
       "description": "O senador Flávio Bolsonaro (PL-RJ) é alvo de suspeitas de manter uma sociedade oculta com a casa de apostas Best Bet, segundo a revista...",
@@ -134,18 +129,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_c27c05b6d88b",
-      "title": "Bets, jatinhos e suspeitas: os negócios de Willer Tomaz e sua relação com Flávio Bolsonaro",
-      "description": "Amigo do candidato do PL movimentou R$ 5 bilhões em apostas e é alvo de apurações sobre lavagem de dinheiro. Documentos da PF apontam...",
-      "url": "https://www.cartacapital.com.br/politica/bets-jatinhos-e-suspeitas-os-negocios-de-willer-tomaz-e-sua-relacao-com-flavio-bolsonaro/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-18T07:00:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "id": "article_f37628ce8cd3",
+      "title": "Advogado amigo de Flávio Bolsonaro operou R$ 5 bilhões com bets em 2025",
+      "description": "Willer Tomaz, investigado por fraudes, movimentou cifra bilionária com casas de apostas e é suspeito de lavar dinheiro.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADcia/advogado-amigo-de-flavio-bolsonaro-operou-r-5-bilhoes-com-bets-em-2025-1.1757738",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-10-21T10:21:09+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_873380552f0d",
@@ -176,6 +171,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_c27c05b6d88b",
+      "title": "Bets, jatinhos e suspeitas: os negócios de Willer Tomaz e sua relação com Flávio Bolsonaro",
+      "description": "Amigo do candidato do PL movimentou R$ 5 bilhões em apostas e é alvo de apurações sobre lavagem de dinheiro. Documentos da PF apontam...",
+      "url": "https://www.cartacapital.com.br/politica/bets-jatinhos-e-suspeitas-os-negocios-de-willer-tomaz-e-sua-relacao-com-flavio-bolsonaro/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-18T07:00:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_8c02fb044f29",
+      "title": "Bet ligada a Flávio Bolsonaro obteve licença de dirigente indicado por ele",
+      "description": "Autorização foi assinada pelo então presidente da Loterj, Hazenclever Cançado, enquanto a PF investiga suspeita de sociedade oculta do...",
+      "url": "https://www.brasil247.com/brasil/bet-ligada-a-flavio-bolsonaro-obteve-licenca-de-dirigente-indicado-por-ele/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-10-21T08:31:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_bf3a306698f6",
       "title": "Flávio Bolsonaro é investigado em segundo inquérito no STF",
       "description": "O senador Flávio Bolsonaro é investigado em um inquérito no STF por sua relação com o advogado Willer Tomaz. Esse é o segundo inquérito na...",
@@ -184,7 +207,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-19T11:34:50+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -204,20 +227,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_e8551b22d0ad",
-      "title": "PF envia ao STF nova investigação sobre Flávio, segundo jornal",
-      "description": "Investigação envolve também o advogado Willer Tomaz; o ministro Alexandre de Moraes foi sorteado relator. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-19T11:36:16+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_955b5feb0fbd",
       "title": "Empresa ligada a Flávio pela PF lançou 3 bets e optou por não divulgá-las",
       "description": "Rede Loto está no centro de investigação da PF que envolve o senador Flávio Bolsonaro e o advogado Willer Tomaz.",
@@ -227,6 +236,20 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-10-20T05:00:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e8551b22d0ad",
+      "title": "PF envia ao STF nova investigação sobre Flávio, segundo jornal",
+      "description": "Investigação envolve também o advogado Willer Tomaz; o ministro Alexandre de Moraes foi sorteado relator. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-justica/pf-envia-ao-stf-nova-investigacao-sobre-flavio-segundo-jornal/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-19T11:36:16+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -246,60 +269,18 @@
       "bucket": "right"
     },
     {
-      "id": "article_0049c728cb98",
-      "title": "URGENTE - A BET DE FLÁVIO BOLSONARO - Revista Piauí revela que Flávio Bolsonaro era sócio indireto da Best Bet",
-      "description": "Blog O Potiguar, por Daniel Menezes. Análises políticas, notícias do Rio Grande do Norte e bastidores do poder em Natal e no RN.",
-      "url": "https://www.opotiguar.com.br/urgente-a-bet-de-flavio-bolsonaro-revista-piaui-revela-que-flavio-bolsonaro-era-socio-indireto-da-best-bet",
-      "source": "O Potiguar",
-      "sourceCanonical": "O Potiguar",
-      "sourceDomain": "opotiguar.com.br",
-      "publishedAt": "2026-10-20T23:45:38+00:00",
+      "id": "article_2198275ee279",
+      "title": "Rede de empresas e aplicativo que destrói mensagens: PF aponta vínculos entre Flávio e Willer Tomaz",
+      "description": "A Polícia Federal detalhou em relatório os vínculos entre o candidato do PL à Presidência, Flávio Bolsonaro, e o advogado Willer Tomaz.",
+      "url": "https://www.folhape.com.br/politica/rede-de-empresas-e-aplicativo-que-destroi-mensagens-pf-aponta/519543/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-10-20T23:21:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_aab940406516",
-      "title": "Piauí aponta indícios de sócio oculto de Flávio na Best Bet",
-      "description": "Reportagem com documentos da PF cruza contas de empresas de Willer Tomaz em Portugal.",
-      "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/piaui-aponta-indicios-de-socio-oculto-de-flavio-na-best-bet/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-10-21T01:52:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_84539737f10f",
-      "title": "Amigo de Flávio Bolsonaro abriu bet em paraíso fiscal e recebeu licença de indicado do senador",
-      "description": "O advogado Willer Tomaz, amigo próximo do senador e candidato à Presidência Flávio Bolsonaro (PL), criou uma holding na Ilha da Madeira, em...",
-      "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-bet-paraiso-fiscal/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-10-21T00:35:59+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_89d1eaeb0089",
-      "title": "A cartada de Moraes que pode tirar Flávio da Presidência",
-      "description": "Willer Tomaz e Flávio Bolsonaro são investigados por suspeita de lavagem de dinheiro em inquérito relatado pelo ministro do STF.",
-      "url": "https://oantagonista.com.br/brasil/a-cartada-de-moraes-que-pode-tirar-flavio-da-presidencia/",
-      "source": "O Antagonista",
-      "sourceCanonical": "O Antagonista",
-      "sourceDomain": "oantagonista.com.br",
-      "publishedAt": "2026-10-21T10:00:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_3c16f62b960b",
@@ -314,18 +295,46 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_ee8cbda625da",
+      "title": "Flávio apoiou amigo investigado por lavagem de dinheiro para fiscalizar juízes no CNJ",
+      "description": "O senador Flávio Bolsonaro (PL) apoiou, em 2023, a indicação do advogado Willer Tomaz de Souza, atualmente investigado pela Polícia Federal,...",
+      "url": "https://revistaforum.com.br/politica/flavio-amigo-lavagem-de-dinheiro-cnj/",
+      "source": "Revista Fórum",
+      "sourceCanonical": "Revista Fórum",
+      "sourceDomain": "revistaforum.com.br",
+      "publishedAt": "2026-10-20T21:32:51+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_89d1eaeb0089",
+      "title": "A cartada de Moraes que pode tirar Flávio da Presidência",
+      "description": "Willer Tomaz e Flávio Bolsonaro são investigados por suspeita de lavagem de dinheiro em inquérito relatado pelo ministro do STF.",
+      "url": "https://oantagonista.com.br/brasil/a-cartada-de-moraes-que-pode-tirar-flavio-da-presidencia/",
+      "source": "O Antagonista",
+      "sourceCanonical": "O Antagonista",
+      "sourceDomain": "oantagonista.com.br",
+      "publishedAt": "2026-10-21T10:00:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5,
+    "average": 4.94,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 4,
-      "centerLeft": 1,
-      "center": 8,
+      "centerLeft": 2,
+      "center": 7,
       "centerRight": 4,
       "right": 1,
       "unknown": 2
