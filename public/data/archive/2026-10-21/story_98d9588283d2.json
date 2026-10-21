@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFN3E2WkVoRXdBeVlkY1dwdEJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFN3E2WkVoRXdBeVlkY1dwdEJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 7,
-      "topic-5": 8
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 8,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Em posts apagados, Flávio Bolsonaro critica Bolsa Família e diz que 'PT perpetua pobreza com bolsa-farelo'",
   "summary": "Em posts apagados do X (antigo Twitter), o candidato do PL à Presidência, senador Flávio Bolsonaro, criticava o Bolsa Família e dizia que \"o...",
@@ -29,13 +35,13 @@
     "flávio",
     "família",
     "bolsonaro",
-    "coordenadora",
-    "campanha"
+    "campanha",
+    "lula"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/HHZrAytOas9SOWZM29sKIzXTGOw=/6500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/p/ZPDw3yQTCrs7vgeRluRA/2026-10-14t194745z-1904909709-rc273oahqumj-rtrmadp-3-brazil-election-bolsonaro.jpg",
-  "publishedAt": "2026-10-19T13:48:07+00:00",
-  "updatedAt": "2026-10-21T06:41:16.606062+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-10-19T16:57:58+00:00",
+  "updatedAt": "2026-10-21T07:31:29.308308+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -53,32 +59,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_db67287acd29",
-      "title": "Bolsa Família vai ter regra de transição de dois anos, diz coordenadora de campanha de Flávio Bolsonaro",
-      "description": "Principal vitrine na área social do presidente Lula, o Bolsa Família foi relançado pelo petista em março de 2023, primeiro ano de seu novo...",
-      "url": "https://g1.globo.com/economia/noticia/2026/10/19/bolsa-familia-vai-ter-regra-de-transicao-de-dois-anos-diz-coordenadora-de-campanha-de-flavio-bolsonaro.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-10-19T13:48:07+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://s2-g1.glbimg.com/cdx-DQQIE-TYx9yTKgjWjNVSxfg=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/X/WGDRThRAu2sjzuBVBUxA/bolsafamilia.jpg",
-      "spectrumScore": 5,
+      "id": "article_e58e50e02668",
+      "title": "Flávio vai excluir beneficiários do Bolsa Família em 2 anos, diz coordenadora da campanha",
+      "description": "A coordenadora do núcleo econômico da campanha presidencial de Flávio Bolsonaro (PL), Daniella Marques, afirmou nesta segunda-feira (19)...",
+      "url": "https://iclnoticias.com.br/economia/equipe-de-flavio-bolsonaro-propoe/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-10-20T08:30:22+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://iclnoticias.com.br/app/uploads/2022/06/Daniella-Marques-Valter-Campanato-Agencia-Brasil-1.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_5d361ddbda60",
+      "title": "Bolsa Família volta a pautar campanha após falas de Flávio e cotada a ministra abastecerem ataques de Lula",
+      "description": "Propostas da equipe de Flávio Bolsonaro (PL) para o Bolsa Família distorcidas nas redes sociais, somadas a publicações antigas em que o...",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/21/bolsa-familia-volta-a-pautar-campanha-apos-falas-de-flavio-e-cotada-a-ministra-abastecerem-ataques-de-lula.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-21T06:30:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/vpkPBuyAgkK2ykja51bTYzY-qqQ=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/R/g/3NFIjcRiOmyNcziZms6A/design-sem-nome.jpg",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
-      "id": "article_453c43a40a68",
-      "title": "Flávio apaga posts em que criticava Bolsa Família e chamava benefício de \"bolsa-farelo\"",
-      "description": "A exclusão ocorre enquanto sua campanha propõe uma regra de transição de dois anos para o benefício.",
-      "url": "https://mais.opovo.com.br/jornal/politica/2026/10/21/flavio-apaga-posts-em-que-criticava-bolsa-familia-e-chamava-beneficio-de-bolsa-farelo.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-10-21T04:15:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/10/13/1320x990/1_flavio_bolsonaro_foto_evaristo_sa_afp-42872130.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "id": "article_1f8f0b6e3da6",
+      "title": "Flávio Bolsonaro apaga posts em que criticava Bolsa Família e chamava benefício de ‘bolsa-farelo’",
+      "description": "Publicações excluídas incluíam ataques ao programa social e acusações de que o PT mantinha beneficiários dependentes do auxílio para obter...",
+      "url": "https://www.estadao.com.br/politica/eleicoes/flavio-bolsonaro-apaga-posts-em-que-criticava-bolsa-familia-e-chamava-beneficio-de-bolsa-farelo/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-20T00:22:21+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/DIXOQ4ADA5DW5JGO4AB7FKAS6I.jpg?quality=80&auth=7215069e29ec66534f5ac159b2997cbd37ce1be39d4fa3e9222d276c4f0a5386&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_ebd2543cccca",
@@ -90,7 +110,7 @@
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-10-20T17:22:15+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.rbsdirect.com.br/filestore/5/5/6/0/0/2/6_dc11aeda2109d10/6200655_c23c1f82e16bb63.jpg?w=1200&h=675&a=c&version=1575255600",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -109,34 +129,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_dc6bf2956e24",
-      "title": "Flávio vai às redes reforçar que, se eleito, não acabará com Bolsa Família",
-      "description": "Declaração de auxiliar do presidenciável sobre período de transição começou a ser explorada pela campanha de Lula e culminou no vídeo de...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-vai-as-redes-reforcar-que-se-eleito-nao-acabara-com-bolsa-familia/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-19T23:30:34+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_aa31b597044b",
-      "title": "Campanha de Flávio Bolsonaro promete excluir beneficiários do Bolsa Família em 2 anos",
-      "description": "A coordenadora da campanha de Flávio Bolsonaro (PL), Daniella Marques, afirmou que o programa Bolsa Família terá um período de transição de...",
-      "url": "https://www.cartacapital.com.br/politica/campanha-de-flavio-bolsonaro-promete-excluir-beneficiarios-do-bolsa-familia-em-2-anos/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-19T19:19:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_f5693b4103e9",
       "title": "‘Flávio Bolsonaro quer favorecer os poderosos e prejudicar o povo’, diz Camilo Santana",
       "description": "Senador que integra coordenação política da campanha de Lula alerta que declaração da coordenadora econômica do bolsonarista sobre o Bolsa...",
@@ -149,6 +141,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_dc6bf2956e24",
+      "title": "Flávio vai às redes reforçar que, se eleito, não acabará com Bolsa Família",
+      "description": "Declaração de auxiliar do presidenciável sobre período de transição começou a ser explorada pela campanha de Lula e culminou no vídeo de...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-vai-as-redes-reforcar-que-se-eleito-nao-acabara-com-bolsa-familia/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-19T23:30:34+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_23e800870427",
@@ -165,34 +171,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_82020e8d4fb5",
-      "title": "Ouça áudio em que Daniella Marques cita nova regra no Bolsa Família",
-      "description": "Coordenadora de Flávio fala em transição de 2 anos no programa social e gera críticas de aliados do PT no 2º turno. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/ouca-audio-em-que-daniella-marques-cita-nova-regra-no-bolsa-familia/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-19T23:57:16+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e58e50e02668",
-      "title": "Flávio vai excluir beneficiários do Bolsa Família em 2 anos, diz coordenadora da campanha",
-      "description": "A coordenadora do núcleo econômico da campanha presidencial de Flávio Bolsonaro (PL), Daniella Marques, afirmou nesta segunda-feira (19)...",
-      "url": "https://iclnoticias.com.br/economia/equipe-de-flavio-bolsonaro-propoe/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-10-20T08:30:22+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_bd677cbe7463",
       "title": "Quem ataca o Bolsa Família desconhece a realidade, diz sociólogo sobre proposta de Flávio Bolsonaro",
       "description": "Apontada como futura ministra da Fazenda de Flávio Bolsonaro (PL) caso ele venha a vencer o segundo turno, a economista Daniella Marques...",
@@ -207,18 +185,32 @@
       "bucket": "left"
     },
     {
-      "id": "article_b74a51cdd7e1",
-      "title": "Flávio mobiliza aliados para conter desgaste com episódio do Bolsa Família",
-      "description": "A campanha de Flávio Bolsonaro (PL) tenta afastar o temor de cortes no Bolsa Família depois que declaração da coordenadora econômica,...",
-      "url": "https://www.metropoles.com/brasil/flavio-mobiliza-aliados-para-conter-desgaste-com-episodio-do-bolsa-familia",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-20T07:30:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_82020e8d4fb5",
+      "title": "Ouça áudio em que Daniella Marques cita nova regra no Bolsa Família",
+      "description": "Coordenadora de Flávio fala em transição de 2 anos no programa social e gera críticas de aliados do PT no 2º turno. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/ouca-audio-em-que-daniella-marques-cita-nova-regra-no-bolsa-familia/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-19T23:57:16+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_5630ad10680a",
+      "title": "Campanha de Lula resgata publicações de Flávio Bolsonaro contra o Bolsa Família",
+      "description": "A campanha de Lula (PT) tem usado as redes sociais para relembrar publicações do senador e candidato à Presidência Flávio Bolsonaro (PL)...",
+      "url": "https://www.cartacapital.com.br/politica/campanha-de-lula-resgata-publicacoes-de-flavio-bolsonaro-contra-o-bolsa-familia/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-19T23:01:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_b2ae76efbdc1",
@@ -232,6 +224,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b74a51cdd7e1",
+      "title": "Flávio mobiliza aliados para conter desgaste com episódio do Bolsa Família",
+      "description": "A campanha de Flávio Bolsonaro (PL) tenta afastar o temor de cortes no Bolsa Família depois que declaração da coordenadora econômica,...",
+      "url": "https://www.metropoles.com/brasil/flavio-mobiliza-aliados-para-conter-desgaste-com-episodio-do-bolsa-familia",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-20T07:30:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -291,20 +297,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_de2b962c6119",
-      "title": "Flávio Bolsonaro nega que acabará com Bolsa Família e explica sua proposta para o programa #shorts",
-      "description": "Flávio Bolsonaro nega que acabará com Bolsa Família e explica sua proposta para o programa social. O candidato do PL à Presidência (PL) usou...",
-      "url": "https://www.terra.com.br/noticias/brasil/videos/flavio-bolsonaro-nega-que-acabara-com-bolsa-familia-e-explica-sua-proposta-para-o-programa-shorts,1cae374f79ea5cc79316587668bb24fctgcqw0ar.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-10-20T14:24:10+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_6c3ff32d28da",
       "title": "Coordenadora econômica de Flávio promete regra de transição para Bolsa Família",
       "description": "Segundo Daniella Marques, o objetivo é que beneficiários abram seus negócios ou aceitem empregos de carteira assinada.",
@@ -317,19 +309,33 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_de2b962c6119",
+      "title": "Flávio Bolsonaro nega que acabará com Bolsa Família e explica sua proposta para o programa #shorts",
+      "description": "Flávio Bolsonaro nega que acabará com Bolsa Família e explica sua proposta para o programa social. O candidato do PL à Presidência (PL) usou...",
+      "url": "https://www.terra.com.br/noticias/brasil/videos/flavio-bolsonaro-nega-que-acabara-com-bolsa-familia-e-explica-sua-proposta-para-o-programa-shorts,1cae374f79ea5cc79316587668bb24fctgcqw0ar.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-20T14:24:10+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.94,
+    "average": 5.17,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 4,
-      "centerLeft": 2,
+      "centerLeft": 1,
       "center": 8,
-      "centerRight": 2,
+      "centerRight": 3,
       "right": 2,
       "unknown": 2
     }
