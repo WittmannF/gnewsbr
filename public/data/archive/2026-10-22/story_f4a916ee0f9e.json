@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 28
+      "topic-7": 23
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +24,16 @@
   "topicKeywords": [
     "afd",
     "vazamento",
+    "alemanha",
     "expõe",
     "dados",
-    "alemanha",
     "mil"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/21/17926156776ad924fdbc08e_1792615677_3x2_rt.jpg",
   "publishedAt": "2026-10-20T13:31:00+00:00",
-  "updatedAt": "2026-10-22T17:38:12.994818+00:00",
-  "sourceCount": 7,
-  "articleCount": 7,
+  "updatedAt": "2026-10-22T18:42:54.145902+00:00",
+  "sourceCount": 8,
+  "articleCount": 8,
   "articles": [
     {
       "id": "article_9c04ffaf4501",
@@ -50,6 +50,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_1dd5bfd26bb2",
+      "title": "AfD diz investigar vazamento de e-mails após ataque hacker na Alemanha",
+      "description": "Partido de extrema-direita afirma que dados foram copiados de provedor de hospedagem em setembro; jornal Bild fala em mais de 420 mil...",
+      "url": "https://www.estadao.com.br/internacional/afd-diz-investigar-vazamento-de-e-mails-apos-ataque-hacker-na-alemanha-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-22T17:49:18+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/O3K3RLO72NGA5ICB7V4RCUSQW4.jpg?quality=80&auth=9f4f504ff074afb25bdf20ea14ccf6d9dd9a1fcf948e933d99ab15c0fd3ee199&width=1200&height=630&focal=2642,1494",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_2964c5213a40",
       "title": "Hackers vazam dados do partido de extrema direita AfD",
       "description": "Um grupo de hackers invadiu os sistemas do partido de extrema direita Alternativa para a Alemanha (AfD) e publicou 281 gigabytes de arquivos...",
@@ -58,7 +72,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-10-22T13:48:13+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://sbt-news-assets-prod.s3.sa-east-1.amazonaws.com/Af_D_Siegmund_Chrupalla_Weidel_53ddb3d749.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -100,7 +114,7 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-10-22T13:57:17+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -128,7 +142,7 @@
       "sourceCanonical": "Santa Portal",
       "sourceDomain": "santaportal.com.br",
       "publishedAt": "2026-10-22T13:08:52+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -136,26 +150,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 6,
-    "average": 4.2,
-    "knownCount": 5,
+    "max": 7,
+    "average": 4.67,
+    "knownCount": 6,
     "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
       "center": 2,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
       "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 74
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
+    "confidence": 79
   },
   "flags": [
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }

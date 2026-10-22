@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 8
+      "topic-2": 5
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +25,15 @@
     "risco",
     "cochilo",
     "poluição",
+    "alzheimer",
     "estudo",
-    "demência",
-    "alzheimer"
+    "demência"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/06/eutanasia.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-10-19T07:00:00+00:00",
-  "updatedAt": "2026-10-22T17:22:56.745886+00:00",
-  "sourceCount": 5,
-  "articleCount": 6,
+  "updatedAt": "2026-10-22T18:29:19.802345+00:00",
+  "sourceCount": 6,
+  "articleCount": 7,
   "articles": [
     {
       "id": "article_af1c0a38f0b5",
@@ -48,6 +48,20 @@
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/06/eutanasia.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_b90ba4de27ab",
+      "title": "Mudança de hábitos ajuda a diminuir probabilidade de Alzheimer, mesmo com risco genético",
+      "description": "Apoe4 é a variante genética mais comum associada à doença de Alzheimer. Pessoas com uma cópia de Apoe4 têm um risco aproximadamente três...",
+      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/mudanca-de-habitos-ajuda-a-diminuir-probabilidade-de-alzheimer-mesmo-com-risco-genetico.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-10-22T18:00:00+00:00",
+      "postedLabel": "29 minutos atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2024/06/20/1718899903667454bfab39d_1718899903_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_74aaacab03d9",
@@ -115,20 +129,20 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-21T10:13:35+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/GRFTPWYRHFGRHEDIJDR4VICVYM.jpeg?quality=80&auth=d8957986f6b87d9f9c22ee03489e45c6edc1a7848ba241e11f8ce9267f4f0a0f&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 7,
-    "average": 6,
-    "knownCount": 4,
+    "average": 5.6,
+    "knownCount": 5,
     "unknownCount": 2,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 2,
       "centerRight": 2,
       "right": 0,
@@ -136,10 +150,10 @@
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
-    "confidence": 69
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 74
   },
   "flags": [
     "Manchetes divergentes"
