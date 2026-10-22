@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZMS1lVEVoRjlPWDNISHpqWFd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lZMS1lVEVoRjlPWDNISHpqWFd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 17
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Supertufão Champi se torna a tempestade mais forte de 2026",
   "summary": "Sistema se tornou o ciclone tropical mais forte de 2026 e, mesmo após começar a perder intensidade nesta quarta (21), segue em direção a...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/D0GJ-vlpgNZ0MKhJ1j0YbCRv8q4=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/B/aHH5iSRQWBZvMs3rMZKw/20261016210000-20261019165000-h9-ahi-fd-geocolor-champi-becomes-a-sty-nolabels0.png",
   "publishedAt": "2026-10-20T18:12:57+00:00",
-  "updatedAt": "2026-10-22T04:38:14.933064+00:00",
+  "updatedAt": "2026-10-22T05:25:27.650606+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-21T22:49:35+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/F6C27H3AZRB3VHRIKO5CXSJDBM.jpg?quality=80&auth=7469fcee3261cdf989c9dbeb1426c69630848fd9cfe32a75a0d6ded572d81efb&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -128,10 +134,24 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-10-22T03:02:10+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_7f1d62b5413d",
+      "title": "Supertufão Champi se torna a maior tempestade do ano e ameaça regiões da Ásia",
+      "description": "Com ventos de quase 300 km/h e rajadas estimadas em 360 km/h, o ciclone de categoria 5 avança pelo Pacífico Ocidental.",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/10/1267636-supertufao-champi-se-torna-a-maior-tempestade-do-ano-e-ameaca-regioes-da-asia.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-10-21T12:07:34+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d3ef92f0c228",
@@ -160,20 +180,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_7f1d62b5413d",
-      "title": "Supertufão Champi se torna a maior tempestade do ano e ameaça regiões da Ásia",
-      "description": "Com ventos de quase 300 km/h e rajadas estimadas em 360 km/h, o ciclone de categoria 5 avança pelo Pacífico Ocidental.",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/10/1267636-supertufao-champi-se-torna-a-maior-tempestade-do-ano-e-ameaca-regioes-da-asia.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-10-21T12:07:34+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_0c96a0545759",
@@ -232,10 +238,10 @@
       "bucket": "center"
     },
     {
-      "id": "article_5efca9e1a359",
+      "id": "article_d483e83ff4a6",
       "title": "Brasil vai ser afetado pelo maior tufão do mundo com ventos de 360 km/h?",
       "description": "O supertufão Champi consolidou-se como a tempestade tropical mais potente do planeta em 2026. A força gerada por seus ventos atinge rajadas...",
-      "url": "https://www.jornalcruzeiro.com.br/tendencias/brasil-vai-ser-afetado-pelo-maior-tufao-do-mundo-com-ventos-de-360-km-h/?utm_source=al_leiamais",
+      "url": "https://www.jornalcruzeiro.com.br/tendencias/brasil-vai-ser-afetado-pelo-maior-tufao-do-mundo-com-ventos-de-360-km-h/",
       "source": "www.jornalcruzeiro.com.br",
       "sourceCanonical": "www.jornalcruzeiro.com.br",
       "sourceDomain": "jornalcruzeiro.com.br",
@@ -288,20 +294,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_fdd1cca55f02",
-      "title": "Supertufão Champi acende alerta para a agricultura asiática em meio a El Niño intenso",
-      "description": "O norte de Luzon concentra importantes áreas de cultivo de arroz e milho, especialmente no vale de Cagayan e na província de Isabela.",
-      "url": "https://www.milkpoint.com.br/noticias-e-mercado/giro-noticias/supertufao-champi-acende-alerta-para-a-agricultura-asiatica-em-meio-a-el-nio-intenso-242592/",
-      "source": "MilkPoint",
-      "sourceCanonical": "MilkPoint",
-      "sourceDomain": "milkpoint.com.br",
-      "publishedAt": "2026-10-21T14:59:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_5c36596168ef",
       "title": "\"Ciclone Monstro\": supertufão ameaça quatro países com ventos de até 361 km/h",
       "description": "O ciclone monstro Champi avança pelo Pacífico com rajadas de até 361 km/h e pode se aproximar de Taiwan entre sexta (23) e sábado (24).",
@@ -314,27 +306,41 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_1b0ad6620e8b",
+      "title": "Supertufão Champi se aproxima de Taiwan com ventos de cerca de 245 km por hora",
+      "description": "O supertufão Jangpi, conhecido internacionalmente como Champi, se aproxima com força de Taiwan, ilha democrática localizada no Leste...",
+      "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/mundo/supertufao-champi-se-aproxima-de-taiwan-com-ventos-de-cerca-de-245-km-por-hora-1.3800227",
+      "source": "Diário do Nordeste",
+      "sourceCanonical": "Diário do Nordeste",
+      "sourceDomain": "diariodonordeste.verdesmares.com.br",
+      "publishedAt": "2026-10-21T20:46:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 7,
-    "average": 5.75,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 8,
       "centerRight": 4,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [

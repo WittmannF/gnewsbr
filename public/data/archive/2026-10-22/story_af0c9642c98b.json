@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 65,
-      "topic-5": 39
+      "topic-3": 39,
+      "topic-5": 31
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 65,
-    "bestSeedRank": 39,
+    "firstSeenRank": 39,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,14 +27,14 @@
   "topicKeywords": [
     "lula",
     "quaest",
-    "pesquisa",
     "desaprovam",
+    "pesquisa",
     "aprovação",
     "eleitores"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/jwUI6GTtrqfK3T4Qvjjs_OtEFUI=/5451x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/z/MAtBvTRMCeNwpfxEu8ow/2026-10-19t205006z-1997559598-rc2k6oafwj8d-rtrmadp-3-brazil-election-lula.jpg",
   "publishedAt": "2026-10-15T21:44:52+00:00",
-  "updatedAt": "2026-10-22T04:33:37.682856+00:00",
+  "updatedAt": "2026-10-22T05:28:33.507295+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -221,20 +221,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_d0263f78f064",
-      "title": "Pesquisa Quaest: rejeição a Lula cai para 47% e fica abaixo dos 52% de Flávio Bolsonaro",
-      "description": "Levantamento mostra queda de seis pontos na rejeição ao presidente; em simulação de segundo turno, Flávio Bolsonaro tem 45% das intenções de...",
-      "url": "https://exame.com/brasil/pesquisa-quaest-rejeicao-a-lula-cai-para-47-e-fica-abaixo-dos-52-de-flavio-bolsonaro/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-21T22:54:39+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_a38478424155",
       "title": "Governo Lula é reprovado por 50% dos eleitores, diz pesquisa",
       "description": "Um levantamento feito pela Alfa Inteligência, divulgado nesta terça-feira (20), mostra que 50% do eleitorado brasileiro reprova o governo da...",
@@ -317,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_640c22c93336",
+      "title": "Lula edita MP com R$ 6,494 bi em crédito extra para Plano Brasil Soberano",
+      "description": "O presidente da República, Luiz Inácio Lula da Silva, editou a medida provisória 1.397 com mais R$ 6,494 bilhões em crédito extraordinário...",
+      "url": "https://www.jornale.com.br/post/lula-edita-mp-com-r-6-494-bi-em-cr%C3%A9dito-extra-para-plano-brasil-soberano-1",
+      "source": "Jornale",
+      "sourceCanonical": "Jornale",
+      "sourceDomain": "jornale.com.br",
+      "publishedAt": "2026-10-21T18:48:17+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.93,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.86,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 4,
       "centerLeft": 0,
-      "center": 8,
+      "center": 7,
       "centerRight": 1,
       "right": 2,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
