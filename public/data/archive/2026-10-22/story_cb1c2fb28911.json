@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZeHRxVEVoRzV3OFBUbk1hZnlTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZeHRxVEVoRzV3OFBUbk1hZnlTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 4,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Estadão tem postagens sobre eleições censuradas pela Meta e recorre ao TSE",
   "summary": "O jornal O Estado de S. Paulo ingressou nesta quarta-feira, 20, com uma ação no Tribunal Superior Eleitoral (TSE) solicitando que a Justiça...",
@@ -26,12 +35,12 @@
     "eleições",
     "onu",
     "tse",
-    "aponta",
+    "pede",
     "especialistas"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/CSJFICTBNNAHBCE5PJSTCB6IWI.jpg?quality=80&auth=209c7e0e6a9670b08585b36079b36278cf6c9e6fca4d4767696a06dc68f50683&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-20T01:56:00+00:00",
-  "updatedAt": "2026-10-22T05:33:01.761148+00:00",
+  "updatedAt": "2026-10-22T06:43:30.390727+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +53,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-21T23:40:36+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/CSJFICTBNNAHBCE5PJSTCB6IWI.jpg?quality=80&auth=209c7e0e6a9670b08585b36079b36278cf6c9e6fca4d4767696a06dc68f50683&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -58,7 +67,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-22T01:51:33+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/0jbLi3YtYxmrKKM8ErUeLUulMvo=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/A/UR3lpLR5mqiG3yzQadkQ/globo-canal-4-20261020-2000-frame-139975.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -106,14 +115,28 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_ce0e5ff3a63b",
-      "title": "MPF recomenda à Meta ações para garantir liberdade de expressão na eleição",
-      "description": "A Procuradoria Federal dos Direitos do Cidadão, do Ministério Público Federal, recomendou que a Meta adote uma série de medidas para...",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/10/21/mpf-recomenda-a-meta-acoes-para-garantir-liberdade-de-expressao-na-eleicao.ghtm",
+      "id": "article_bea3fcae684c",
+      "title": "MPF vê resposta genérica da Meta e endurece cobrança sobre bloqueios",
+      "description": "Ministério Público Federal pediu para que plataforma deixe de remover publicações e de suspender contas sem fundamento jurídico ou...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/mpf-recomenda-a-meta-acoes-para-garantir-liberdade-de-expressao-na-eleicao/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-21T20:34:42+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2026binary_LYNXMPEM9K1TW-BASEIMAGE.jpg?w=800&h=534&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_07387d2d2795",
+      "title": "Josias de Souza: Meta chama de 'falhas técnicas' indícios dignos de investigação",
+      "description": "Começou como esquisitice. Virou falha técnica. Acabou pegando mal. Não foi nenhum inimigo. Foi o Conselho de Supervisão de Conteúdo da...",
+      "url": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/10/21/meta-chama-de-falhas-tecnicas-indicios-dignos-de-investigacao.htm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-21T22:15:46+00:00",
+      "publishedAt": "2026-10-21T14:42:04+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -132,20 +155,6 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_bea3fcae684c",
-      "title": "MPF vê resposta genérica da Meta e endurece cobrança sobre bloqueios",
-      "description": "Ministério Público Federal pediu para que plataforma deixe de remover publicações e de suspender contas sem fundamento jurídico ou...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/mpf-recomenda-a-meta-acoes-para-garantir-liberdade-de-expressao-na-eleicao/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-21T20:34:42+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_a09b5313cccb",
@@ -198,7 +207,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-21T23:40:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,7 +263,7 @@
       "sourceCanonical": "Agência Pública",
       "sourceDomain": "apublica.org",
       "publishedAt": "2026-10-22T00:04:04+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -302,15 +311,15 @@
       "bucket": "left"
     },
     {
-      "id": "article_48d7a3de1bbd",
-      "title": "Conselho da Meta aponta falhas recorrentes em moderação eleitoral no Brasil",
-      "description": "Empresa já havia admitido falha técnica que retirou a conta de anúncios da campanha de Lula.",
-      "url": "https://www.infomoney.com.br/politica/conselho-da-meta-aponta-falhas-recorrentes-em-moderacao-eleitoral-no-brasil/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-21T00:27:27+00:00",
-      "postedLabel": "ontem",
+      "id": "article_793947029339",
+      "title": "Lula pede cassação de chapa de Flávio por ações da Meta",
+      "description": "Ação no TSE aponta suposto favorecimento ao candidato do PL por algoritmos, inteligência artificial e distribuição de anúncios nas redes.",
+      "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-pede-cassacao-de-chapa-de-flavio-por-acoes-da-meta",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-10-21T20:29:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
