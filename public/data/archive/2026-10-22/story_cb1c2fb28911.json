@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZeHRxVEVoRzV3OFBUbk1hZnlTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZeHRxVEVoRzV3OFBUbk1hZnlTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2,
-      "topic-3": 4,
+      "topic-3": 5,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 5,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Estadão tem postagens sobre eleições censuradas pela Meta e recorre ao TSE",
   "summary": "O jornal O Estado de S. Paulo ingressou nesta quarta-feira, 20, com uma ação no Tribunal Superior Eleitoral (TSE) solicitando que a Justiça...",
@@ -39,8 +33,8 @@
     "tse"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/CSJFICTBNNAHBCE5PJSTCB6IWI.jpg?quality=80&auth=209c7e0e6a9670b08585b36079b36278cf6c9e6fca4d4767696a06dc68f50683&width=1200&height=630&smart=true",
-  "publishedAt": "2026-10-19T20:03:57+00:00",
-  "updatedAt": "2026-10-22T07:31:11.439527+00:00",
+  "publishedAt": "2026-10-20T21:28:15+00:00",
+  "updatedAt": "2026-10-22T08:35:50.979531+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,10 +61,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-22T01:51:33+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/0jbLi3YtYxmrKKM8ErUeLUulMvo=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/t/A/UR3lpLR5mqiG3yzQadkQ/globo-canal-4-20261020-2000-frame-139975.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_6844b3ce1990",
+      "title": "Eleições no Brasil: Meta debaixo de fogo por alegado tratamento desigual dos candidatos",
+      "description": "A Meta está a ser acusada de interferência nas eleições presidenciais brasileiras, após denúncias de tratamento desigual dos candidatos.",
+      "url": "https://pt.euronews.com/2026/10/22/eleicoes-no-brasil-meta-debaixo-de-fogo-por-alegado-tratamento-desigual-dos-candidatos",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-10-22T07:25:40+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_e92dae4fe6fc",
@@ -85,20 +93,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_a6ef8615ae6d",
-      "title": "MPF pede à Justiça que Meta restaure contas suspensas durante período eleitoral",
-      "description": "O Ministério Público Federal (MPF) acionou a Justiça nesta quarta-feira, 21, para tentar impedir bloqueios de contas, suspensões de perfis e...",
-      "url": "https://veja.abril.com.br/politica/mpf-pede-a-justica-que-meta-restaure-contas-suspensas-durante-periodo-eleitoral/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-21T22:46:59+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/GettyImages-2254396439.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_160ca0260fe9",
@@ -138,7 +132,7 @@
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-21T16:40:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/16/17921593596ad22e7f6aa45_1792159359_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -157,34 +151,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_cfc4e9b6b08d",
-      "title": "Especialistas da ONU alertam para desequilíbrio digital nas eleições brasileiras",
-      "description": "Peritos apontam restrições de contas, quedas de visibilidade e assimetria algorítmica em plataformas da Meta; medidas teriam impacto...",
-      "url": "https://news.un.org/pt/story/2026/10/1854708",
-      "source": "UN News",
-      "sourceCanonical": "UN News",
-      "sourceDomain": "news.un.org",
-      "publishedAt": "2026-10-21T16:30:18+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_b56747fccb95",
-      "title": "Comitê da Meta vê falhas da empresa sobre atuação eleitoral no Brasil; siga as notícias do 2º turno",
-      "description": "Em evento na Bahia, Lula condicionou o debate com Flávio na Globo nessa sexta-feira (23/10) à abertura de sigilo bancário, fiscal e...",
-      "url": "https://www.bbc.com/portuguese/live/c98rzv56p3g0t",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-10-21T00:52:20+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_a09b5313cccb",
       "title": "Especialistas da ONU veem restrições da Meta em eleições no Brasil",
       "description": "Informações sugerem queda de alcance nas contas de um lado da disputa; PT diz que a big tech quer favorecer Flávio Bolsonaro.",
@@ -197,6 +163,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_a6ef8615ae6d",
+      "title": "MPF pede à Justiça que Meta restaure contas suspensas durante período eleitoral",
+      "description": "O Ministério Público Federal (MPF) acionou a Justiça nesta quarta-feira, 21, para tentar impedir bloqueios de contas, suspensões de perfis e...",
+      "url": "https://veja.abril.com.br/politica/mpf-pede-a-justica-que-meta-restaure-contas-suspensas-durante-periodo-eleitoral/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-21T22:46:59+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_10f4c8f0c84b",
@@ -227,6 +207,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_32ef2d7a4067",
+      "title": "JOTA Principal | PT busca reforçar acusação de interferência dos EUA com ação contra a Meta",
+      "description": "“Construímos plataformas para compartilhar ideias, e debates importantes acontecem em nossos serviços”, disse o CEO e cofundador da Meta,...",
+      "url": "https://www.jota.info/newsletters/jota-principal/pt-acusacao-interferencia-eua-meta",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-10-21T12:29:02+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_bc6368a0a10e",
       "title": "Especial Eleições #33: Especialista diz “indústria da desinformação” floresce em meio às plataformas de redes sociais",
       "description": "Nas eleições deste ano, as redes sociais consolidaram-se definitivamente, não apenas como ferramenta de apoio, mas como o coração das...",
@@ -255,6 +249,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b7b3fb6c3054",
+      "title": "Ministério Público encurrala Meta para barrar bloqueios e restrições nas eleições",
+      "description": "Ação quer impedir que algoritmos da Meta barrem conteúdos nas eleições; Pública mostrou que grupos pró-Lula foram acusados de terrorismo.",
+      "url": "https://apublica.org/2026/10/meta-eleicoes-ministerio-publico-quer-barrar-bloqueios-nas-redes/",
+      "source": "Agência Pública",
+      "sourceCanonical": "Agência Pública",
+      "sourceDomain": "apublica.org",
+      "publishedAt": "2026-10-22T00:04:04+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b8d363301fb4",
       "title": "Comitê de supervisão da Meta aponta falhas no Brasil e EUA",
       "description": "Conselho manifestou preocupação em cenário de disputa norte-americana ao Congresso.",
@@ -269,20 +277,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_e25404e56537",
-      "title": "Por que o algoritmo parece colocar o eleitor dentro de uma bolha política",
-      "description": "Plataformas digitais tendem a reforçar conteúdos alinhados às preferências dos usuários, criando percepções distintas da realidade política...",
-      "url": "https://www.dw.com/pt-br/por-que-o-algoritmo-parece-colocar-o-eleitor-dentro-de-uma-bolha-pol%C3%ADtica/a-79677202",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-10-19T20:03:57+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_ef8b1ac7f6ac",
       "title": "ONU cobra da Meta tratamento igual a candidatos no Brasil",
       "description": "Comunicado aponta relatos de restrições desproporcionais nas plataformas e pede respostas a reclamações ainda durante o período eleitoral.",
@@ -291,20 +285,6 @@
       "sourceCanonical": "Consultor Jurídico",
       "sourceDomain": "conjur.com.br",
       "publishedAt": "2026-10-21T19:52:55+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_b3dfb7d0194a",
-      "title": "MPF aciona a Justiça para barrar bloqueios e restrições arbitrárias praticados pela Meta em redes sociais",
-      "description": "O Ministério Público Federal (MPF) ingressou, nesta quarta-feira (21), com uma ação, com pedido de urgência, para barrar bloqueios,...",
-      "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-rs/noticias/mpf-aciona-a-justica-para-barrar-bloqueios-e-restricoes-arbitrarias-praticados-pela-meta-em-redes-sociais",
-      "source": "Ministério Público Federal",
-      "sourceCanonical": "Ministério Público Federal",
-      "sourceDomain": "mpf.mp.br",
-      "publishedAt": "2026-10-21T21:18:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -323,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_71771c48d901",
+      "title": "Especialistas da ONU dizem que atuação da Meta pode comprometer eleição e pedem reparações",
+      "description": "Observadores pediram à Meta que avalie se os sistemas de moderação, recomendação e inteligência artificial acabaram restringindo de forma...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/especialistas-da-onu-dizem-que-atuacao-da-meta-pode-comprometer-eleicao-e-pedem-reparacoes,753f3df1be524a842b0f814fdf3b2bd9ctq5nlqu.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-21T17:59:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.62,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.83,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
-      "centerLeft": 3,
-      "center": 6,
+      "centerLeft": 1,
+      "center": 7,
       "centerRight": 3,
       "right": 1,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
