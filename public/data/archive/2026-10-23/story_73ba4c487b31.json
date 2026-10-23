@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 14
+      "topic-4": 15
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenRank": 15,
+    "bestSeedRank": 15,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/9iKbMVIKjyBwW2Cgdg2VZrfwDpU=/1772x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/A/sMH896RBmtdTeBARQYlQ/952194ae-5a21-4f37-8470-7557c20b72e0.png",
   "publishedAt": "2026-10-22T14:07:51+00:00",
-  "updatedAt": "2026-10-23T20:30:33.703424+00:00",
+  "updatedAt": "2026-10-23T21:27:31.107314+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -114,7 +114,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-10-23T15:56:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -128,7 +128,7 @@
       "sourceCanonical": "Brasil Paralelo",
       "sourceDomain": "brasilparalelo.com.br",
       "publishedAt": "2026-10-22T20:56:25+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -146,20 +146,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_bca8a0961500",
-      "title": "MC Cabelinho e outros artistas cobram Meta após vídeo sobre Flávio Bolsonaro sair do ar",
-      "description": "Publicação no Instagram anunciava divulgação de novo episódio da série de reportagens Revelando, intitulado 'Flavinho do papai'",
-      "url": "https://noticias.r7.com/brasilia/mc-cabelinho-acusa-meta-de-derrubar-do-instagram-video-em-que-artista-critica-flavio-bolsonaro-22102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-22T16:04:53+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_ad6ee47f2838",
@@ -212,7 +198,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-10-22T20:55:28+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -227,6 +213,20 @@
       "sourceDomain": "portalpopline.com.br",
       "publishedAt": "2026-10-22T16:35:07+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_41f46a2d5aaf",
+      "title": "Quem é MC Cabelinho, que teve vídeo com críticas a Flávio Bolsonaro derrubado pela Meta",
+      "description": "Considerado uma das vozes mais influentes da música urbana nacional, MC tem milhões de ouvintes nas plataformas digitais.",
+      "url": "https://entretenimento.r7.com/musica/quem-e-mc-cabelinho-que-teve-video-com-criticas-a-flavio-bolsonaro-derrubado-pela-meta-22102026/",
+      "source": "R7 Entretenimento",
+      "sourceCanonical": "R7 Entretenimento",
+      "sourceDomain": "entretenimento.r7.com",
+      "publishedAt": "2026-10-22T22:16:30+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,20 +319,20 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 4.92,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 4.75,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
       "center": 7,
-      "centerRight": 1,
+      "centerRight": 0,
       "right": 1,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95

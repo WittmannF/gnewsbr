@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pLb3NxY0VoRVhNRTMwZC1lcC1pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pLb3NxY0VoRVhNRTMwZC1lcC1pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 65
+      "topic-3": 60,
+      "topic-5": 66
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 65,
-    "bestSeedRank": 65,
+    "firstSeenRank": 60,
+    "bestSeedRank": 60,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/Nip30Zpjj2PN1xuED7NgE0AsMds=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/S/X/qRX1pHSUS3ylQSP0cGPg/arte-2-.png",
   "publishedAt": "2026-10-20T17:56:39+00:00",
-  "updatedAt": "2026-10-23T20:29:48.434267+00:00",
+  "updatedAt": "2026-10-23T21:26:46.978646+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -100,7 +103,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-10-23T16:00:07+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/08/prismada-lula-flavio-bolsonaro-2026.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -156,7 +159,7 @@
       "sourceCanonical": "GAZ",
       "sourceDomain": "gaz.com.br",
       "publishedAt": "2026-10-23T16:16:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +229,7 @@
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-10-22T20:36:52+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -274,20 +277,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_d0ce8048dda2",
-      "title": "Lula e Flávio focam no Rio de Janeiro no último dia de campanha",
-      "description": "Presidenciáveis escolheram a capital fluminense para mobilizações no sábado (24); Minas Gerais e São Paulo também estão nas agendas.",
-      "url": "https://www.itatiaia.com.br/colunas/edilene-lopes/politica/eleicoes/lula-e-flavio-focam-no-rio-de-janeiro-no-ultimo-dia-de-campanha/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-10-22T20:30:09+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_28d83f0a88ad",
       "title": "Segundo turno: como foram as agendas de Flávio Bolsonaro e Lula no Rio Grande do Sul",
       "description": "O segundo turno da corrida presidencial intensificou a disputa no Rio Grande do Sul com passagens de ambos os candidatos pelo Estado.",
@@ -314,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_467c6edd3444",
+      "title": "Agenda dos presidenciáveis | Quarta-feira (21/10)",
+      "description": "Guarulhos (SP). 11h - Evento com Flávio Bolsonaro e o governador Tarcísio de Freitas - Espaço Inter - Avenida João Cavalari, 83.",
+      "url": "https://dcomercio.com.br/publicacao/s/agenda-dos-presidenciaveis-quarta-feira-21-10",
+      "source": "DComercio",
+      "sourceCanonical": "DComercio",
+      "sourceDomain": "dcomercio.com.br",
+      "publishedAt": "2026-10-21T11:44:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
     "average": 5.07,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 10,
+      "center": 9,
       "centerRight": 2,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
