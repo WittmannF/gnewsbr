@@ -3,17 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lVMFBXZEVoSHd0N1o5X2c5Q1pTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lVMFBXZEVoSHd0N1o5X2c5Q1pTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 33
+      "topic-3": 41,
+      "topic-5": 33
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 33,
+    "firstSeenRank": 41,
     "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/ricardo-cueva-tse-antonio-augusto-15out2026-1200x675.jpeg",
   "publishedAt": "2026-10-15T07:00:00+00:00",
-  "updatedAt": "2026-10-23T22:25:14.322584+00:00",
+  "updatedAt": "2026-10-23T23:25:11.756196+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -148,20 +151,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_8b2f7d625e4d",
-      "title": "TSE dá 12h para Meta explicar alcance de Nikolas sob risco de multa de R$ 100 mil por hora",
-      "description": "O corregedor-geral da Justiça Eleitoral, ministro Ricardo Villas Bôas Cueva, determinou nesta quinta-feira (22) que a Meta apresente, no...",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/tse-da-12h-para-meta-explicar-alcance-de-nikolas-sob-risco-de-multa-de-r-100-mil-por-hora/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-23T03:27:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_7f299dc73d5d",
       "title": "Big Techs Vídeo de Nikolas Ferreira ultrapassa 160 milhões de visualizações mesmo sem som, aumentando suspeitas de favorecimento da Meta",
       "description": "O vídeo sobre o Nordeste, publicado por Níkolas Ferreira, nesta quinta, ultrapassou 160 milhões de visualizações mesmo sem áudio,...",
@@ -174,6 +163,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_8b2f7d625e4d",
+      "title": "TSE dá 12h para Meta explicar alcance de Nikolas sob risco de multa de R$ 100 mil por hora",
+      "description": "O corregedor-geral da Justiça Eleitoral, ministro Ricardo Villas Bôas Cueva, determinou nesta quinta-feira (22) que a Meta apresente, no...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/tse-da-12h-para-meta-explicar-alcance-de-nikolas-sob-risco-de-multa-de-r-100-mil-por-hora/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-10-23T03:27:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_a7a1782882d4",
@@ -268,7 +271,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-10-22T22:35:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
