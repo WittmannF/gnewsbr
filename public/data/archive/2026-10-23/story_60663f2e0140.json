@@ -3,23 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pMaDhlY0VoSGZqMEJsX0g1Y0tTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pMaDhlY0VoSGZqMEJsX0g1Y0tTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topstories"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories"
+      "topic-3"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2
+      "topic-3": 1
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Saiba como estão Lula e Flávio nas pesquisas a 2 dias da eleição",
   "summary": "Levantamentos realizados de 12 a 22 de outubro mostram vantagem numérica do senador em 15 estudos; presidente lidera em 1 e há 1 empate.",
@@ -29,13 +26,13 @@
     "lula",
     "turno",
     "bolsonaro",
-    "datafolha",
-    "pesquisa"
+    "pesquisa",
+    "votos"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/capa-lula-flavio-2oturno-pesquisas-22.out_.2026-1200x675.jpg",
-  "publishedAt": "2026-09-17T07:00:00+00:00",
-  "updatedAt": "2026-10-23T16:29:21.726029+00:00",
-  "sourceCount": 17,
+  "publishedAt": "2026-10-21T16:24:00+00:00",
+  "updatedAt": "2026-10-23T17:24:31.275193+00:00",
+  "sourceCount": 16,
   "articleCount": 20,
   "articles": [
     {
@@ -67,15 +64,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_1732c172aca1",
-      "title": "Pesquisa RealTime Big Data hoje: veja números para presidente no segundo turno",
-      "description": "O RealTime Big Data divulgou hoje uma pesquisa com os números do segundo turno para presidente nas Eleições 2026, incluindo votos válidos,...",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/pesquisa-realtime-big-data-hoje-veja-numeros-para-presidente-no-segundo-turno.ghtm",
+      "id": "article_e59f4ba82951",
+      "title": "Pesquisa hoje para presidente 2026: veja resultado do levantamento RealTime Big Data",
+      "description": "Pesquisa RealTime Big Data divulgada em 23/10/2026 traz disputa Flávio Bolsonaro x Lula no 2º turno: votos válidos, totais e rejeição;...",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/pesquisa-hoje-para-presidente-2026-veja-resultado-do-levantamento-realtime-big-data.ghtm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-23T15:57:51+00:00",
-      "postedLabel": "31 minutos atrás",
+      "publishedAt": "2026-10-23T16:28:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -93,20 +90,6 @@
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Lula-e-Flavio-2.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_d194a7fbc247",
-      "title": "Nova pesquisa Real Time Big Data mostra a disputa Flávio x Lula a dois dias do segundo turno",
-      "description": "Senador da direita tem vantagem numérica sobre o petista, mas ambos continuam empatados dentro da margem de erro do Real Time Big Data.",
-      "url": "https://veja.abril.com.br/politica/a-disputa-lula-x-flavio-a-dois-dias-do-segundo-turno-de-acordo-com-pesquisa/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-23T10:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_74c9ca8d11ea",
@@ -131,7 +114,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-23T14:19:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -151,42 +134,70 @@
       "bucket": "center"
     },
     {
-      "id": "article_7b59bed3d7ab",
-      "title": "Pesquisa Ipespe: Flávio Bolsonaro tem 50,5% e Lula, 49,5%, dos votos válidos",
-      "description": "Empate técnico se repete em todos os indicadores e marca a reta final da disputa presidencial, com má avaliação de governo e percepção...",
-      "url": "https://exame.com/brasil/pesquisa-ipespe-flavio-bolsonaro-tem-505-e-lula-495-dos-votos-validos/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-23T15:44:23+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_333e7cef527c",
-      "title": "Nova pesquisa RealTime Big Data para presidente 2026: veja resultados do 2º turno",
-      "description": "Levantamento RealTime Big Data divulgado em 23/10/2026 mostra Flávio Bolsonaro e Lula tecnicamente empatados; veja.",
-      "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/nova-pesquisa-realtime-big-data-para-presidente-2026-veja-resultados-do-2-turno.ghtm",
+      "id": "article_cc311ce4072d",
+      "title": "Últimas pesquisas para presidente em 2026: veja números recentes do 2º turno",
+      "description": "Pesquisas divulgadas entre 21 e 23 de outubro trazem diferentes recortes sobre o segundo turno presidencial entre Flávio Bolsonaro (PL) e...",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/ultimas-pesquisas-para-presidente-em-2026-veja-numeros-recentes-do-2-turno.ghtm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-23T16:13:00+00:00",
-      "postedLabel": "16 minutos atrás",
+      "publishedAt": "2026-10-23T16:59:00+00:00",
+      "postedLabel": "25 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_1ad4b4e53459",
-      "title": "Os números da pesquisa Datafolha para presidente a 3 dias do 2º turno",
-      "description": "Nova pesquisa Datafolha mostra como está a disputa de segundo turno para presidente da República nas eleições de 2026. Leia na Gazeta do...",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-outubro-2026-segundo-turno-3/",
+      "id": "article_ccc137e28d31",
+      "title": "Pesquisa presidente 2026 segundo turno: veja números do RealTime Big Data",
+      "description": "RealTime Big Data divulga pesquisa do 2º turno para presidente em 2026; veja resultados de Flávio Bolsonaro e Lula.",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/pesquisa-presidente-2026-segundo-turno-veja-numeros-do-realtime-big-data.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-10-23T16:46:00+00:00",
+      "postedLabel": "38 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_d194a7fbc247",
+      "title": "Nova pesquisa Real Time Big Data mostra a disputa Flávio x Lula a dois dias do segundo turno",
+      "description": "Senador da direita tem vantagem numérica sobre o petista, mas ambos continuam empatados dentro da margem de erro do Real Time Big Data.",
+      "url": "https://veja.abril.com.br/politica/a-disputa-lula-x-flavio-a-dois-dias-do-segundo-turno-de-acordo-com-pesquisa/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-23T10:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_15ba960d99c3",
+      "title": "Como 47% a 46% no Datafolha pode virar empate de 50% a 50% entre Lula e Flávio",
+      "description": "Como uma vantagem de 1 ponto percentual nos votos totais do Datafolha pode desaparecer e virar um empate nos votos válidos?",
+      "url": "https://www.jota.info/eleicoes/eleicoes-2026/como-47-a-46-no-datafolha-pode-virar-empate-de-50-a-50-entre-lula-e-flavio",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-10-23T00:58:27+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_32ca10b26efd",
+      "title": "Pesquisa Real Time Big Data mostra intenção de voto para presidente a 2 dias do segundo turno",
+      "description": "O instituto Real Time Big Data divulgou nesta sexta-feira (23) uma nova pesquisa para a disputa de presidente da República no segundo turno...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-outubro-2026-segundo-turno-2/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-22T22:12:00+00:00",
+      "publishedAt": "2026-10-23T10:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
@@ -207,34 +218,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_e250be42f0a4",
-      "title": "Ipespe/Abrapel mostra Lula em alta e Flávio Bolsonaro em queda",
-      "description": "Senador tem 50,5% dos votos válidos, ante 49,5% do presidente; diferença caiu de 2,4 para 1 ponto percentual em uma semana.",
-      "url": "https://www.jota.info/eleicoes/eleicoes-2026/ipespe-abrapel-mostra-lula-em-alta-e-flavio-bolsonaro-em-queda",
-      "source": "JOTA Info",
-      "sourceCanonical": "JOTA Info",
-      "sourceDomain": "jota.info",
-      "publishedAt": "2026-10-23T13:57:18+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_f80282a741bf",
-      "title": "Pesquisa Real Time Big Data: Flávio Bolsonaro tem 52% em votos válidos; Lula, 48%",
-      "description": "Levantamento ouviu 2.000 eleitores entre os dias 19 e 22 de outubro; margem de erro é de dois pontos percentuais para mais ou para menos.",
-      "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/pesquisa-real-time-big-data-flavio-bolsonaro-tem-52-em-votos-validos-lula-48,51089c4ec38928ffd83c7b390fd2ba67n44irqmi.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-10-23T10:04:52+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_6ecfb90a5be6",
       "title": "Abstenção pode decidir disputa, mas Flávio segue favorito, diz CEO da Indexa",
       "description": "Para Arilton Freres, há poucos votos disponíveis, e as oscilações ocorrem 'no detalhe', dentro da margem de erro; ele avalia que Lula...",
@@ -247,6 +230,34 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_422ead12a441",
+      "title": "Pesquisa Alfa: A dois dias do 2º turno, Flávio Bolsonaro tem 52% e Lula, 48% dos votos válidos",
+      "description": "A disputa está tecnicamente empatada pela margem de erro do levantamento. A diferença entre os candidatos aumentou, dentro da margem de erro...",
+      "url": "https://exame.com/brasil/pesquisa-alfa-a-dois-dias-do-2o-turno-flavio-bolsonaro-tem-52-e-lula-48/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-10-23T10:46:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_c9f9ea1da28e",
+      "title": "48% rejeitam Lula e Flávio Bolsonaro, mostra Datafolha",
+      "description": "Por Igor Gielow. (Folhapress) – A três dias do segundo turno, a rejeição dos candidatos a presidente se mantém em nível alto,...",
+      "url": "https://iclnoticias.com.br/48-lula-flavio-bolsonaro-datafolha/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-10-22T23:48:42+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_3ca091ba4803",
@@ -263,18 +274,32 @@
       "bucket": "left"
     },
     {
-      "id": "article_2b1ae3ce7cb6",
-      "title": "PT vê onda pró-Lula após Datafolha",
-      "description": "247 – O presidente Luiz Inácio Lula da Silva (PT) e o senador Flávio Bolsonaro (PL) chegam à reta final do segundo turno empatados...",
-      "url": "https://www.brasil247.com/brasil/pt-ve-onda-pro-lula-apos-datafolha/",
+      "id": "article_41c91df240dd",
+      "title": "Pesquisa Ipespe/Abrapel aponta alta de Lula, queda de Flávio e empate técnico",
+      "description": "247 – O cenário para a disputa presidencial do segundo turno, marcado para este domingo (25), mostra um empate técnico entre os candidatos,...",
+      "url": "https://www.brasil247.com/brasil/pesquisa-ipespe-abrapel-aponta-alta-de-lula-queda-de-flavio-e-empate-tecnico/",
       "source": "Brasil 247",
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-10-23T07:50:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-10-23T13:17:00+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_f80282a741bf",
+      "title": "Pesquisa Real Time Big Data: Flávio Bolsonaro tem 52% em votos válidos; Lula, 48%",
+      "description": "Levantamento ouviu 2.000 eleitores entre os dias 19 e 22 de outubro; margem de erro é de dois pontos percentuais para mais ou para menos.",
+      "url": "https://www.terra.com.br/noticias/eleicoes/pesquisas/pesquisa-real-time-big-data-flavio-bolsonaro-tem-52-em-votos-validos-lula-48,51089c4ec38928ffd83c7b390fd2ba67n44irqmi.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-23T10:04:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_9d59dd8fed55",
@@ -289,45 +314,17 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_f561de2fb5b4",
-      "title": "Flávio mantém vantagem ou Lula encurta distância? Datafolha sai nesta quinta",
-      "description": "Penúltima pesquisa do instituto será divulgada a três dias da eleição, após Quaest mostrar diferença de apenas um ponto entre os candidatos.",
-      "url": "https://www.infomoney.com.br/politica/flavio-mantem-vantagem-ou-lula-encurta-distancia-datafolha-sai-nesta-quinta/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-22T12:58:50+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_c76a977d705f",
-      "title": "Datafolha: Lula e Flávio Bolsonaro aparecem empatados com 50%",
-      "description": "Nova pesquisa mostra cenário acirrado entre os dois rivais a três dias do segundo turno presidencial. Acompanhe notícias sobre as eleições.",
-      "url": "https://www.dw.com/pt-br/datafolha-lula-e-fl%C3%A1vio-bolsonaro-aparecem-empatados-com-50/live-78393402",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-09-17T07:00:00+00:00",
-      "postedLabel": "mês passado",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.37,
+    "average": 5.21,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
-      "left": 2,
-      "centerLeft": 2,
+      "left": 3,
+      "centerLeft": 1,
       "center": 10,
       "centerRight": 4,
       "right": 1,
