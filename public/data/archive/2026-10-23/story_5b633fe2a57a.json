@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pLMmQ2WkVoR0dsWU1NaGNWNmRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pLMmQ2WkVoR0dsWU1NaGNWNmRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 17,
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 15,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 17,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Vorcaro escolheu whisky de R$ 500 mil para presentear Lula",
   "summary": "Mensagens apreendidas pela PF mostram que o fundador do Banco Master pediu garrafa rara de Macallan 1945. Leia no Poder360.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/Walfrido-bebida-alcoolica-Lula-786x675.png",
   "publishedAt": "2026-10-18T11:38:53+00:00",
-  "updatedAt": "2026-10-23T04:30:28.152968+00:00",
+  "updatedAt": "2026-10-23T05:24:43.101778+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-10-22T23:35:20+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/10/Walfrido-bebida-alcoolica-Lula-786x675.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,7 +67,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-10-22T22:37:55+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -103,7 +109,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-10-22T22:58:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -117,7 +123,7 @@
       "sourceCanonical": "Brasil Paralelo",
       "sourceDomain": "brasilparalelo.com.br",
       "publishedAt": "2026-10-22T22:51:25+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -145,7 +151,7 @@
       "sourceCanonical": "Transmissão Política",
       "sourceDomain": "transmissaopolitica.com.br",
       "publishedAt": "2026-10-23T01:04:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -159,7 +165,7 @@
       "sourceCanonical": "Fan F1",
       "sourceDomain": "fanf1.com.br",
       "publishedAt": "2026-10-23T00:11:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -193,20 +199,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_c1170a7c0660",
-      "title": "Vorcaro teria encomendado uísque de R$ 500 mil como presente a Lula, diz revista",
-      "description": "Mensagens trocadas entre o advogado Walfrido Warde e o banqueiro Daniel Vorcaro sugerem que o presidente Lula (PT) teria recebido um uísque...",
-      "url": "https://www.otempo.com.br/politica/congresso/2026/10/22/vorcaro-teria-encomendado-uisque-de-r-500-mil-como-presente-a-lula-diz-revista",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-10-22T23:57:11+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_c67bdc425dfe",
       "title": "Uísque de R$ 500 mil para Lula? Mensagens de Vorcaro revelam plano de presente",
       "description": "Mensagens extraídas do celular de Daniel Vorcaro, ex-controlador do Banco Master, e apreendido pela Polícia Federal indicam que o banqueiro...",
@@ -215,10 +207,24 @@
       "sourceCanonical": "OCP News",
       "sourceDomain": "ocp.news",
       "publishedAt": "2026-10-22T23:31:04+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_c1170a7c0660",
+      "title": "Vorcaro teria encomendado uísque de R$ 500 mil como presente a Lula, diz revista",
+      "description": "Mensagens trocadas entre o advogado Walfrido Warde e o banqueiro Daniel Vorcaro sugerem que o presidente Lula (PT) teria recebido um uísque...",
+      "url": "https://www.otempo.com.br/politica/congresso/2026/10/22/vorcaro-teria-encomendado-uisque-de-r-500-mil-como-presente-a-lula-diz-revista",
+      "source": "O TEMPO",
+      "sourceCanonical": "O Tempo",
+      "sourceDomain": "otempo.com.br",
+      "publishedAt": "2026-10-22T23:57:11+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2647087e034e",
@@ -230,6 +236,20 @@
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-10-18T12:04:35+00:00",
       "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_daae1a6a9297",
+      "title": "Uísque dado a Lula por Vorcaro custou R$ 500 mil, diz revista",
+      "description": "Mensagens presentes no celular do banqueiro Daniel Vorcaro apontam que o dono do Master comprou uma garrafa de uísque com valor aproximado...",
+      "url": "https://pleno.news/brasil/eleicoes-2026/uisque-dado-a-lula-por-vorcaro-custou-r-500-mil-diz-revista.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-10-22T23:37:00+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -247,6 +267,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_754563477f95",
+      "title": "Urgente: Mensagens apontam presente de uísque de meio milhão de Vorcaro a Lula",
+      "description": "Mensagens atribuídas ao ex-banqueiro Daniel Vorcaro mostram que ele autorizou a compra de uma garrafa de uísque Macallan 1945.",
+      "url": "https://claudiodantas.com.br/mensagens-uisque-meio-milhao-vorcaro-a-lula/",
+      "source": "Claudio Dantas",
+      "sourceCanonical": "Claudio Dantas",
+      "sourceDomain": "claudiodantas.com.br",
+      "publishedAt": "2026-10-22T22:29:28+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_beb0603a87fd",
@@ -289,48 +323,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_4c2846f8de1b",
-      "title": "Daniel Vorcaro desejou morte de Lula em mensagem: \"Na traaaveeeee\"",
-      "description": "Tratado por Flávio Bolsonaro (PL) como \"irmão\", Daniel Vorcaro, dono do Banco Master, desejou a morte de Lula uma semana após ser recebido...",
-      "url": "https://revistaforum.com.br/politica/daniel-vorcaro-desejou-morte-lula/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-10-18T14:29:09+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_5c843180d025",
-      "title": "Uísque de R$ 500 mil: mensagens de Vorcaro mostram busca por Macallan 1945 \"pra dar pro Lula\", diz Veja",
-      "description": "Reportagem da Veja revela mensagens do celular de Daniel Vorcaro em que o ex-dono do Banco Master encomenda uma garrafa rara de Macallan...",
-      "url": "https://radiocorredor.com.br/posts/vorcaro-uisque-macallan-1945-presente-lula-500-mil",
-      "source": "Rádio Corredor",
-      "sourceCanonical": "Rádio Corredor",
-      "sourceDomain": "radiocorredor.com.br",
-      "publishedAt": "2026-10-22T21:50:43+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.6,
+    "average": 6.3,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 1,
-      "right": 2,
+      "right": 3,
       "unknown": 10
     }
   },
