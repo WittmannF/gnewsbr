@@ -10,28 +10,28 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 8
+      "topic-4": 12
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
+    "firstSeenRank": 12,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Quadro Íris de Claude Monet bate recorde em leilão na França",
+  "title": "Tela Íris de Claude Monet é arrematada em leilão francês",
   "summary": "Tela foi vendida durante leilão em Paris nesta quinta-feira.",
   "topic": "Monet · Obra",
   "topicKeywords": [
     "monet",
     "obra",
+    "quadro",
     "vendida",
     "frança",
-    "quadro",
     "torna"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/krndHimIcO-MeIgvnLTce6ouoSE=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/8/6/qb2AFaTWAKSdZIOdEOzw/afp-20261022-d46a99f-v1-midres-filesfranceartauctionimpressionism.jpg",
   "publishedAt": "2026-10-22T19:27:45+00:00",
-  "updatedAt": "2026-10-23T13:31:34.998622+00:00",
+  "updatedAt": "2026-10-23T14:34:40.555218+00:00",
   "sourceCount": 9,
   "articleCount": 10,
   "articles": [
@@ -72,24 +72,10 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-23T13:08:33+00:00",
-      "postedLabel": "22 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/10/AFP__20261022__D46D4T3__v1__HighRes__FilesFranceArtAuctionImpressionism.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_089322cc991c",
-      "title": "Pintura de Monet vendida por 50 milhões estabelece recorde num leilão em França",
-      "description": "Pertence ao período tardio do impressionista e foi comprada por um coleccionador asiático. É pouco conhecida, mas isso não impediu que fosse...",
-      "url": "https://www.publico.pt/2026/10/23/culturaipsilon/noticia/pintura-monet-vendida-50-milhoes-estabelece-recorde-leilao-franca-2192357",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-10-23T10:02:50+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_672945e5b6f3",
@@ -101,9 +87,23 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-22T19:27:45+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/claude-monet.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_f270facd1956",
+      "title": "Quadro de Monet vendido em leilão por 50 milhões de euros",
+      "description": "A estimativa de venda do quadro 'Iris' era de 22 a 30 milhões de euros, a avaliação mais elevada alguma vez atribuída a uma pintura colocada...",
+      "url": "https://mag.sapo.pt/artigo/quadro-de-monet-vendido-em-leilao-por-50-milhoes-de-euros-6adb6410b89f6b4d32ae9f97",
+      "source": "SAPO",
+      "sourceCanonical": "SAPO",
+      "sourceDomain": "mag.sapo.pt",
+      "publishedAt": "2026-10-23T13:40:18+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3ea7341fc166",
@@ -177,28 +177,29 @@
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 4,
     "max": 7,
-    "average": 5.38,
-    "knownCount": 8,
-    "unknownCount": 2,
+    "average": 5.71,
+    "knownCount": 7,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
-      "centerLeft": 2,
+      "centerLeft": 1,
       "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
-    "confidence": 89
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
+    "confidence": 86
   },
   "flags": [
     "Alta cobertura",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
