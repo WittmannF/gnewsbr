@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 5
+      "topic-2": 4
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "crianças",
     "vacinação",
     "apenas",
-    "desinformação",
-    "protegidas"
+    "vacinas",
+    "desinformação"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/boYlN_0PbSCa7o1ioPYgAR1SGWI=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/L/b/s0EZeuSXuD0qMINMQUEg/globo-canal-5-20261017-2000-frame-77923.jpeg",
-  "publishedAt": "2026-10-16T07:00:00+00:00",
-  "updatedAt": "2026-10-24T19:18:56.484873+00:00",
+  "publishedAt": "2023-01-08T08:00:00+00:00",
+  "updatedAt": "2026-10-24T20:23:05.255378+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,8 +58,22 @@
       "sourceCanonical": "O Liberal",
       "sourceDomain": "oliberal.com",
       "publishedAt": "2026-10-23T19:55:45+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.oliberal.com/image/policy:1.424865:1629495415/ivan%20II.jpg?f=187:100",
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_fa8732a2d653",
+      "title": "Covid-19: Saúde renegocia prazos de entrega de vacinas pediátricas",
+      "description": "O Ministério da Saúde assinou esta semana um aditivo para a compra de mais 750 mil doses da vacina contra Covid-19, a CoronaVac,...",
+      "url": "https://engeplus.com.br/noticia/covid-19-saude-renegocia-prazos-de-entrega-de-vacinas-pediatricas-184039",
+      "source": "Portal Engeplus",
+      "sourceCanonical": "Portal Engeplus",
+      "sourceDomain": "engeplus.com.br",
+      "publishedAt": "2023-01-08T08:00:00+00:00",
+      "postedLabel": "",
+      "imageUrl": "https://engeplus.com.br/img?src=2026%2F10%2F95c9032d-e86e-4ff4-a8c3-3242c2a7672f.jpg&w=1200&q=75",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -73,20 +87,6 @@
       "sourceDomain": "hojemais.com.br",
       "publishedAt": "2026-10-23T18:31:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_e4875e437b80",
-      "title": "Apenas 5% das crianças de até cinco anos estão totalmente vacinadas contra a covid-19 no Brasil",
-      "description": "Hesitação vacinal impulsionada por desinformação mantém registros de internações e mortes infantis em 2026, alerta Ministério da Saúde.",
-      "url": "https://newsrondonia.com.br/saude/2026/10/23/apenas-5-das-criancas-de-ate-cinco-anos-estao-totalmente-vacinadas-contra-a-covid-19-no-brasil/",
-      "source": "News Rondônia",
-      "sourceCanonical": "News Rondônia",
-      "sourceDomain": "newsrondonia.com.br",
-      "publishedAt": "2026-10-23T20:33:58+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,7 +114,7 @@
       "sourceCanonical": "Portal 98 FM Natal",
       "sourceDomain": "98fmnatal.com.br",
       "publishedAt": "2026-10-23T19:41:03+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -204,6 +204,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_7bddad2b6f5d",
+      "title": "Desinformação reduz para 5% a imunização infantil contra a covid",
+      "description": "Programa Nacional de Imunizações aponta que ataques ao imunizante durante a pandemia explicam a baixa adesão atual no país.",
+      "url": "https://www.sertaodaparaiba.com.br/noticia/desinformacao-reduz-para-5-a-imunizacao-infantil-contra-a-covid",
+      "source": "Portal Sertão da Paraíba",
+      "sourceCanonical": "Portal Sertão da Paraíba",
+      "sourceDomain": "sertaodaparaiba.com.br",
+      "publishedAt": "2026-10-23T18:20:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_68f2993332d7",
       "title": "Baixa vacinação contra covid mantém crianças vulneráveis no Brasil",
       "description": "Mais de 1,1 mil crianças menores de 14 anos foram hospitalizadas e 25 morreram pela doença em 2026; apenas 5% das crianças pequenas...",
@@ -218,20 +232,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f26ee0cb4b52",
-      "title": "Só 5% das crianças pequenas estão protegidas contra a covid, aponta Ministério da Saúde",
-      "description": "Apenas 5% das crianças pequenas receberam as três doses da vacina contra a covid-19, segundo dados do Programa Nacional de Imunizações (PNI)...",
-      "url": "https://folhanobre.com.br/2026/10/24/so-5-por-cento-criancas-protegidas-covid-desinformacao-vacina/466748/",
-      "source": "Folha Nobre",
-      "sourceCanonical": "Folha Nobre",
-      "sourceDomain": "folhanobre.com.br",
-      "publishedAt": "2026-10-24T13:34:43+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ca2203c435c9",
       "title": "Brasil não atinge meta de cobertura para 14 das 16 principais vacinas infantis",
       "description": "O Brasil não alcançou a cobertura vacinal recomendada para a maioria dos imunizantes oferecidos pelo Sistema Único de Saúde (SUS).",
@@ -241,6 +241,34 @@
       "sourceDomain": "odemocrata.com.br",
       "publishedAt": "2026-10-19T11:09:22+00:00",
       "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f26ee0cb4b52",
+      "title": "Só 5% das crianças pequenas estão protegidas contra a covid, aponta Ministério da Saúde",
+      "description": "Apenas 5% das crianças pequenas receberam as três doses da vacina contra a covid-19, segundo dados do Programa Nacional de Imunizações (PNI)...",
+      "url": "https://folhanobre.com.br/2026/10/24/so-5-por-cento-criancas-protegidas-covid-desinformacao-vacina/466748/",
+      "source": "Folha Nobre",
+      "sourceCanonical": "Folha Nobre",
+      "sourceDomain": "folhanobre.com.br",
+      "publishedAt": "2026-10-24T17:48:45+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_eb972c1b67a8",
+      "title": "Apenas fração do público infantil completou esquema vacinal em meio a mortes por complicações respiratórias",
+      "description": "O diretor do Programa Nacional de Imunizações (PNI), Eder Gatti, informou nesta sexta-feira (23/Out) que apenas 5% das crianças pequenas do...",
+      "url": "https://www.politicadistrital.com.br/apenas-5-das-criancas-estao-protegidas-contra-a-covid-em-decorrencia-de-desinformacao/",
+      "source": "PDNews",
+      "sourceCanonical": "PDNews",
+      "sourceDomain": "politicadistrital.com.br",
+      "publishedAt": "2026-10-24T17:43:20+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -282,34 +310,6 @@
       "sourceCanonical": "THMais",
       "sourceDomain": "thmais.com.br",
       "publishedAt": "2026-10-23T19:01:08+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_7278b0ce201c",
-      "title": "Desinformação reduz adesão e deixa apenas 5% das crianças protegidas com vacina contra a covid",
-      "description": "A covid-19 provocou mais de mil internações e dezenas de óbitos entre o público infantil no Brasil em 2026. Mesmo diante desse cenário,...",
-      "url": "https://www.rcwtv.com.br/noticia/desinformacao-reduz-adesao-e-deixa-apenas-5-das-criancas-protegidas-com-vacina-contra-a-covid",
-      "source": "RCWTV",
-      "sourceCanonical": "RCWTV",
-      "sourceDomain": "rcwtv.com.br",
-      "publishedAt": "2026-10-23T18:29:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_935805ce79de",
-      "title": "Avanço da desinformação reduz a vacinação infantil contra a covid-19",
-      "description": "Segundo o PNI, fake news e discursos antivacina fazem com que apenas 5% das crianças estejam totalmente imunizadas contra a doença.",
-      "url": "https://www.pagina1.com.br/noticia/avanco-da-desinformacao-reduz-a-vacinacao-infantil-contra-a-covid-19",
-      "source": "PÁGINA 1",
-      "sourceCanonical": "PÁGINA 1",
-      "sourceDomain": "pagina1.com.br",
-      "publishedAt": "2026-10-23T18:31:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
