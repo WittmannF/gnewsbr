@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnaXFpYkVoRlJfdXo3UXJVMnpTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lnaXFpYkVoRlJfdXo3UXJVMnpTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Ministro do TSE impede Nunes Marques de suspender canal ‘Exército do Lula’ sem aval do plenário",
   "summary": "Floriano de Azevedo Marques aponta risco de abuso de poder e determina que Meta desconsidere eventuais ordens administrativas contrárias à...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "lula",
     "exército",
-    "canal",
     "tse",
+    "canal",
     "nunes",
     "marques"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/WYlZLwo7JjEzNqz2ut0-XKr9Jmw=/696x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/j/c/IwxrdBQd24xTn01uwRTQ/floriano.jpg",
-  "publishedAt": "2026-10-21T22:20:00+00:00",
-  "updatedAt": "2026-10-24T06:41:17.392417+00:00",
+  "publishedAt": "2026-10-22T19:51:00+00:00",
+  "updatedAt": "2026-10-24T07:25:02.924537+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,20 +84,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9db7151a6d63",
-      "title": "X vê ação coordenada e Google descarta uso de robôs no \"Exército do Lula\"",
-      "description": "Em resposta ao presidente do TSE, Kassio Nunes Marques, X disse que ação coordenada partiu sobretudo de contas autênticas, enquanto Google...",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/x-ve-acao-coordenada-e-google-descarta-uso-de-robos-no-exercito-do-lula/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-23T22:38:28+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/andre-janones-presidente-lula.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_be410dd33c3f",
       "title": "Meta diz a Kassio não ter encontrado indício de atuação irregular de canal 'Exército do Lula'",
       "description": "Google e X deram respostas com esse mesmo entendimento ao presidente do TSE; grupo de Janones passa de 10 milhões de participantes.",
@@ -104,6 +96,20 @@
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/05/11/17785259026a0226ce11cf8_1778525902_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_553a9dbda070",
+      "title": "AMEAÇA DE CENSURA",
+      "description": "Por Cleber Lourenço. O presidente do Tribunal Superior Eleitoral (TSE), Nunes Marques, atendeu nesta quinta-feira (22) a um pedido de Flávio...",
+      "url": "https://iclnoticias.com.br/nunes-marques-atende-flavio-analisem-pro-lula/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-10-22T20:28:56+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/09/ministro-nunes-marques-stf-scaled.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_2987798a4ce5",
@@ -134,6 +140,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_9f27a28d7c41",
+      "title": "Lula pede ao TSE retirada do “Exército do Lula” de registro da campanha",
+      "description": "Defesa afirma que canal administrado pelo deputado André Janones não atende aos critérios do TSE para ser considerado vinculado à...",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-pede-ao-tse-retirada-do-exercito-do-lula-de-registro-da-campanha/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-22T23:21:49+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_3dc1d1b77a1a",
+      "title": "TSE nega ter mandado tirar canais do ar no WhatsApp, Flávio e Lula na Globo; as últimas notícias antes do 2º turno",
+      "description": "Siga as últimas notícias da disputa do segundo turno da eleição à Presidência entre Lula e Flávio Bolsonaro. Debate na Globo acontece hoje.",
+      "url": "https://www.bbc.com/portuguese/live/cqly3dejgzplt",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-10-23T11:39:14+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_60e50bc06741",
       "title": "Nunes Marques determina pente-fino em canal ‘Exército do Lula’",
       "description": "O presidente do TSE deu o prazo de 24 horas para a elaboração de um relatório sobre comportamento 'potencialmente irregular'",
@@ -146,20 +180,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_864bae13de82",
-      "title": "TSE informa que não determinou a retirada de nenhum canal de WhatsApp do ar",
-      "description": "A Corte também informou que ministros se reuniram mais uma vez com representantes da Meta nesta sexta-feira, 23.",
-      "url": "https://www.infomoney.com.br/politica/tse-informa-que-nao-determinou-a-retirada-de-nenhum-canal-de-whatsapp-do-ar/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-23T18:46:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_8631c3ce0f1a",
@@ -176,18 +196,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_553a9dbda070",
-      "title": "AMEAÇA DE CENSURA",
-      "description": "Por Cleber Lourenço. O presidente do Tribunal Superior Eleitoral (TSE), Nunes Marques, atendeu nesta quinta-feira (22) a um pedido de Flávio...",
-      "url": "https://iclnoticias.com.br/nunes-marques-atende-flavio-analisem-pro-lula/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-10-22T20:28:56+00:00",
-      "postedLabel": "ontem",
+      "id": "article_864bae13de82",
+      "title": "TSE informa que não determinou a retirada de nenhum canal de WhatsApp do ar",
+      "description": "A Corte também informou que ministros se reuniram mais uma vez com representantes da Meta nesta sexta-feira, 23.",
+      "url": "https://www.infomoney.com.br/politica/tse-informa-que-nao-determinou-a-retirada-de-nenhum-canal-de-whatsapp-do-ar/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-23T18:46:39+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_5db791bcac53",
@@ -212,7 +232,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "r7.com",
       "publishedAt": "2026-10-24T01:45:28+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -230,20 +250,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_fca31d6dda4f",
-      "title": "O que a ameaça aos exércitos digitais diz de Kassio e Mendonça",
-      "description": "Ministros articularam minuta para vetar canais políticos no WhatsApp dois dias antes da eleição, diz jornal. Presidente do TSE nega.",
-      "url": "https://www.nexojornal.com.br/expresso/2026/10/21/kassio-nunes-marques-exercito-do-lula-andre-mendonca-tse-redes-sociais",
-      "source": "Nexo Jornal",
-      "sourceCanonical": "Nexo Jornal",
-      "sourceDomain": "nexojornal.com.br",
-      "publishedAt": "2026-10-21T22:20:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_276212b19491",
@@ -282,7 +288,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-10-24T01:42:25+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
