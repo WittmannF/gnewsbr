@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEZzctWkVoRjhWLU9PSTNPTTJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEZzctWkVoRjhWLU9PSTNPTTJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "topic-3": 27,
       "topic-5": 34
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 34,
-    "bestSeedRank": 34,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 27,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "lula",
     "abstenção",
     "flávio",
-    "eleitor",
     "urnas",
-    "turno"
+    "turno",
+    "eleitor"
   ],
   "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/09/FotoJet-2026-09-27T174055.228.jpg",
   "publishedAt": "2026-10-20T13:41:00+00:00",
-  "updatedAt": "2026-10-25T04:33:22.988844+00:00",
+  "updatedAt": "2026-10-25T05:27:01.347951+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +47,7 @@
       "sourceCanonical": "Revista Fórum",
       "sourceDomain": "revistaforum.com.br",
       "publishedAt": "2026-10-24T23:53:02+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/09/FotoJet-2026-09-27T174055.228.jpg",
       "spectrumScore": 2,
       "bucket": "left"
@@ -86,7 +89,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-25T01:05:45+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/TIZDVD3V4BF7DIIEZU6EGCJGHU.jpg?quality=80&auth=e41a8384074e85f05e1762225cf292543731f5bbbd79a13ccac9e07b0197ba32&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -232,6 +235,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_64ee6d73012a",
+      "title": "Em dia decisivo, reduzir abstenção vira grande aposta de Flávio e Lula para definir eleição",
+      "description": "Estratégias de última hora focam em convencer o eleitor a comparecer às urnas neste domingo.",
+      "url": "https://noticias.r7.com/eleicoes/2026/em-dia-decisivo-abstencao-vira-a-grande-aposta-de-flavio-e-lula-para-definir-a-eleicao-25102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-25T05:00:01+00:00",
+      "postedLabel": "26 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_e0b7e45ea07a",
       "title": "Abstenção em fluxos normais aproxima a disputa, mas não a inverte",
       "description": "A redução da abstenção no 2º turno, por si só, pode diminuir a vantagem do senador Flávio Bolsonaro (PL) sobre o presidente Luiz Inácio Lula...",
@@ -300,33 +317,19 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_6ac97d9716a8",
-      "title": "O que realmente determina a escolha do eleitor na hora do voto?",
-      "description": "Estudos de universidades de referência mostram a importância das perguntas que o eleitor deve responder antes de decidir o voto.",
-      "url": "https://www.itatiaia.com.br/colunas/edilene-lopes/politica/eleicoes/o-que-realmente-determina-a-escolha-do-eleitor-na-hora-do-voto/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-10-23T16:39:02+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.76,
+    "average": 4.88,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 4,
       "centerLeft": 1,
-      "center": 9,
-      "centerRight": 3,
+      "center": 8,
+      "centerRight": 4,
       "right": 0,
       "unknown": 3
     }
