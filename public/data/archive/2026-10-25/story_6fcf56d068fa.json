@@ -3,44 +3,38 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ptNDh1YUVoSC1JdjhubjEzSG1TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ptNDh1YUVoSC1JdjhubjEzSG1TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 3,
-      "topstories": 3,
-      "topic-3": 2,
-      "topic-5": 7
+      "topic-3": 6,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 3,
-    "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
-  "title": "Inmet prevê chuva no centro-sul no domingo de eleição",
+  "title": "Notícias sobre eleições • ventos",
   "summary": "Previsão para este domingo (25) é de precipitação de 60 mm/h ou 100 mm ao longo do dia, tempestade e queda de granizo; áreas de SP, RJ, MG,...",
-  "topic": "Eleições · Previsão",
+  "topic": "Eleições · Domingo",
   "topicKeywords": [
     "eleições",
-    "previsão",
-    "chuva",
     "domingo",
+    "chuva",
     "turno",
-    "eleição"
+    "previsão",
+    "sul"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/ALERTA-INMET-DOMINGO-1.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-10-23T00:29:00+00:00",
-  "updatedAt": "2026-10-25T02:34:16.497260+00:00",
+  "updatedAt": "2026-10-25T03:30:12.784393+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -73,20 +67,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_fd41cfe24ec4",
-      "title": "Fim de semana do segundo turno terá risco de temporais e ventos de 90 km/h no Centro-Sul; veja previsão do tempo",
-      "description": "Frente fria deve provocar chuva forte em São Paulo, Rio de Janeiro e Paraná no domingo (25), dia da votação.",
-      "url": "https://g1.globo.com/meio-ambiente/noticia/2026/10/23/fim-de-semana-temporais-previsao-do-tempo.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-10-23T03:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://s2-g1.glbimg.com/xJfVt4mV37R_WMoXQHJSx768dm4=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/B/iHuSbQTH2xZ5f0gacJvA/g1-cop1.jpeg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_0b08b5676062",
       "title": "Cinco estados têm alerta de perigo para tempestades durante eleições",
       "description": "Previsão indica chuvas volumosas, queda de granizo e risco de alagamentos em seis estados afetados dos sudeste, sul e centro-oeste...",
@@ -97,6 +77,20 @@
       "publishedAt": "2026-10-24T20:11:02+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/APURACAO-CNN-1-2.png?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_fd41cfe24ec4",
+      "title": "Fim de semana do segundo turno terá risco de temporais e ventos de 90 km/h no Centro-Sul; veja previsão do tempo",
+      "description": "Frente fria deve provocar chuva forte em São Paulo, Rio de Janeiro e Paraná no domingo (25), dia da votação.",
+      "url": "https://g1.globo.com/meio-ambiente/noticia/2026/10/23/fim-de-semana-temporais-previsao-do-tempo.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-10-23T03:00:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/xJfVt4mV37R_WMoXQHJSx768dm4=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/B/iHuSbQTH2xZ5f0gacJvA/g1-cop1.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -151,7 +145,7 @@
       "sourceCanonical": "Canal Rural",
       "sourceDomain": "canalrural.com.br",
       "publishedAt": "2026-10-24T20:42:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -161,8 +155,8 @@
       "title": "Previsão de chuva intensa no fim de semana mobiliza secretarias em reunião conjunta",
       "description": "Objetivo é articular ações para alinhar medidas eficazes em situações emergenciais.",
       "url": "https://www2.praiagrande.sp.gov.br/noticia/previsao-de-chuva-intensa-no-fim-de-semana-mobiliza-secretarias-em-reuniao-conjunta",
-      "source": "Município de Praia Grande",
-      "sourceCanonical": "Município de Praia Grande",
+      "source": "Prefeitura de Praia Grande",
+      "sourceCanonical": "Prefeitura de Praia Grande",
       "sourceDomain": "www2.praiagrande.sp.gov.br",
       "publishedAt": "2026-10-23T21:28:27+00:00",
       "postedLabel": "ontem",
@@ -207,7 +201,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-10-25T00:15:18+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -255,20 +249,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_c71b630a66a9",
-      "title": "Previsão do Tempo: Chuva forte pode atrapalhar segundo turno das eleições em quatro estados",
-      "description": "O domingo (25) será de tempo instável em boa parte do Brasil, com previsão de chuva forte em várias regiões. O alerta é maior para Santa...",
-      "url": "https://noticias.r7.com/jr-na-tv/video/previsao-do-tempo-chuva-forte-pode-atrapalhar-segundo-turno-das-eleicoes-em-quatro-estados-25102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-25T00:42:37+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_1550fd8e46c2",
       "title": "Domingo de eleições terá temporais em três regiões do país",
       "description": "Fique bem informado com as notícias do Brasil e do mundo e também da Igreja com o jornal da Rádio Aparecida, Notícias em 30, 1ª Edição.",
@@ -277,20 +257,6 @@
       "sourceCanonical": "Portal A12",
       "sourceDomain": "a12.com",
       "publishedAt": "2026-10-24T10:36:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_48e0884d9e36",
-      "title": "Temporais ameaçam estados no fim de semana das eleições, com chuva de até 100 mm",
-      "description": "Temporais ameaçam 9 estados no fim de semana das eleições, com chuva de até 100 mm, ventos fortes e granizo; veja onde. O fim de semana do...",
-      "url": "https://ndmais.com.br/tempo/temporais-ameacam-estados-no-fim-de-semana-das-eleicoes-chuva-ventos-granizo/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-10-24T14:36:06+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -311,33 +277,61 @@
       "bucket": "center"
     },
     {
-      "id": "article_7cdf75156eed",
-      "title": "Previsão: Rio deve ter céu nublado no fim de semana e eleição sob chuva",
-      "description": "Alerta Rio prevê pancadas a qualquer momento no domingo (25), dia do segundo turno; máxima cai de 33°C no sábado para 26°C no dia da...",
-      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/10/7315377-previsao-rio-deve-ter-ceu-nublado-no-fim-de-semana-e-eleicao-sob-chuva.html",
-      "source": "O Dia",
-      "sourceCanonical": "O Dia",
-      "sourceDomain": "odia.ig.com.br",
-      "publishedAt": "2026-10-23T18:19:29+00:00",
-      "postedLabel": "ontem",
+      "id": "article_c71b630a66a9",
+      "title": "Previsão do Tempo: Chuva forte pode atrapalhar segundo turno das eleições em quatro estados",
+      "description": "O domingo (25) será de tempo instável em boa parte do Brasil, com previsão de chuva forte em várias regiões. O alerta é maior para Santa...",
+      "url": "https://noticias.r7.com/jr-na-tv/video/previsao-do-tempo-chuva-forte-pode-atrapalhar-segundo-turno-das-eleicoes-em-quatro-estados-25102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-25T00:42:37+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_48e0884d9e36",
+      "title": "Temporais ameaçam estados no fim de semana das eleições, com chuva de até 100 mm",
+      "description": "Temporais ameaçam 9 estados no fim de semana das eleições, com chuva de até 100 mm, ventos fortes e granizo; veja onde. O fim de semana do...",
+      "url": "https://ndmais.com.br/tempo/temporais-ameacam-estados-no-fim-de-semana-das-eleicoes-chuva-ventos-granizo/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-10-24T14:36:06+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_41e32a95ccae",
+      "title": "Domingo de eleições terá chuva forte e risco de temporais em Americana e região",
+      "description": "Previsão indica precipitações desde a madrugada, com possibilidade de raios, rajadas de vento e granizo; temperaturas devem cair.",
+      "url": "https://liberal.com.br/cidades/regiao/domingo-de-eleicoes-tera-chuva-forte-e-risco-de-temporais-em-americana-e-regiao",
+      "source": "O Liberal",
+      "sourceCanonical": "O Liberal",
+      "sourceDomain": "liberal.com.br",
+      "publishedAt": "2026-10-24T10:58:32+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.77,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.83,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 9,
+      "center": 8,
       "centerRight": 4,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
