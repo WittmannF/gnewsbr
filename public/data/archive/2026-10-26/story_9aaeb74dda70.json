@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 38,
-      "topic-5": 38
+      "topic-3": 36,
+      "topic-5": 19
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 38,
-    "bestSeedRank": 38,
+    "firstSeenRank": 36,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,12 +29,12 @@
     "flávio",
     "vota",
     "freitas",
-    "paulo",
-    "pacificação"
+    "pacificação",
+    "turno"
   ],
   "imageUrl": "https://i.metroimg.com/wILeUWccpzJql0Gq6Unio_lz-LZMM56Vjh2N9NgrkTo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/design-sem-nome-2026-10-21t152929-112.png",
   "publishedAt": "2026-10-23T23:29:00+00:00",
-  "updatedAt": "2026-10-26T05:31:22.688733+00:00",
+  "updatedAt": "2026-10-26T06:53:40.638117+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +47,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-10-26T01:21:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://i.metroimg.com/wILeUWccpzJql0Gq6Unio_lz-LZMM56Vjh2N9NgrkTo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/10/design-sem-nome-2026-10-21t152929-112.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -68,31 +68,17 @@
     },
     {
       "id": "article_e243cb9ad500",
-      "title": "Análise: Tarcísio vira nome natural da direita, e Haddad desponta no PT para 2030",
+      "title": "Análise: Tarcísio vira nome natural da direita, e governadores do Nordeste despontam no PT para 2030",
       "description": "Presidente comandará sucessão, com ala nordestina do PT disputando espaço; Governador de SP se torna favorito para próxima eleição,...",
       "url": "https://www1.folha.uol.com.br/poder/2026/10/tarcisio-vira-nome-natural-da-direita-e-haddad-desponta-no-pt-para-2030.shtml",
       "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-26T03:50:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/25/17929612566ade6ae85bca7_1792961256_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f968a3e95d0f",
-      "title": "Tarcísio cita otimismo com possível gestão Flávio e voto de indignação com governo sem coragem",
-      "description": "Para ele, resultado nas urnas expõe insatisfação com entregas do PT; aliado do senador do PL, governador de São Paulo foi reeleito no 1º...",
-      "url": "https://www.estadao.com.br/politica/eleicoes/tarcisio-cita-otimismo-com-possivel-gestao-flavio-bolsonaro/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-25T14:41:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/4D7UC3VFLVDITBBWBCCHEE7ZDU.jpeg?quality=80&auth=ee383eab0d4afedb36d8bc3de26b0a14d675b9e6bc6882d29cbf87a47ffe1ba2&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_daf03ce15f25",
@@ -104,9 +90,23 @@
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-25T15:42:40+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://s02.video.glbimg.com/x720/15121193.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_f968a3e95d0f",
+      "title": "Tarcísio cita otimismo com possível gestão Flávio e voto de indignação com governo sem coragem",
+      "description": "Para ele, resultado nas urnas expõe insatisfação com entregas do PT; aliado do senador do PL, governador de São Paulo foi reeleito no 1º...",
+      "url": "https://www.estadao.com.br/politica/eleicoes/tarcisio-cita-otimismo-com-possivel-gestao-flavio-bolsonaro/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-25T14:41:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_22f852bf0322",
@@ -193,18 +193,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_da07ff546ef6",
-      "title": "Tarcísio de Freitas, governador reeleito de São Paulo, vota no 2º turno na capital paulista",
-      "description": "Freitas foi reeleito em 1º turno para governar o estado de São Paulo.",
-      "url": "https://www.itatiaia.com.br/politica/eleicoes/tarcisio-de-freitas-governador-reeleito-de-sao-paulo-vota-no-2o-turno-na-capital-paulista/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-10-25T14:03:19+00:00",
+      "id": "article_35cd26648b31",
+      "title": "Reeleito em SP, Tarcísio de Freitas vota no 2° turno",
+      "description": "Governador votou no Colégio Miguel de Cervantes, na Zona Oeste da capital paulista; ele deve encontrar com Flávio Bolsonaro para acompanhar...",
+      "url": "https://ultimosegundo.ig.com.br/2026-10-25/reeleito-em-sp--tarcisio-de-freitas-vota-no-2-turno.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-10-25T14:15:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b19c26a94d85",
@@ -233,6 +233,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a7c65ecf51d6",
+      "title": "Eleições 2026: durante coletiva, Tarcísio de Freitas fala sobre corrupção e descaso; veja vídeo",
+      "description": "Governador de São Paulo votou na manhã deste domingo (25) em colégio na Zona Sul da capital paulista; Tarcísio de Freitas afirma que...",
+      "url": "https://www.itatiaia.com.br/politica/eleicoes/eleicoes-2026-durante-coletiva-tarcisio-de-freitas-fala-sobre-corrupcao-e-descaso-veja-video/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-10-25T15:50:42+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d8f20170c23a",
@@ -291,20 +305,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_c747522e2b71",
-      "title": "Tarcísio de Freitas vota em escola do Morumbi, em São Paulo",
-      "description": "Governador de São Paulo votou no Colégio Miguel de Cervantes na manhã deste domingo e deve acompanhar a apuração junto a Flávio Bolsonaro.",
-      "url": "https://contilnetnoticias.com.br/politica/tarcisio-de-freitas-vota-em-escola-do-morumbi-em-sao-paulo/",
-      "source": "ContilNet Notícias",
-      "sourceCanonical": "ContilNet Notícias",
-      "sourceDomain": "contilnetnoticias.com.br",
-      "publishedAt": "2026-10-25T14:04:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e53dea09b9f3",
       "title": "Eleições 2026: Tarcísio de Freitas vota em São Paulo e prevê vitória de Flávio Bolsonaro",
       "description": "O governador reeleito de São Paulo, Tarcísio de Freitas (Republicanos), votou na manhã deste domingo (25), no Colégio Miguel de Cervantes,...",
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 6,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 6.07,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 10,
+      "center": 9,
       "centerRight": 3,
       "right": 2,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
