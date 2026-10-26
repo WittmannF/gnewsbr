@@ -27,11 +27,11 @@
     "manifestantes",
     "polícia",
     "albanês",
-    "parlamento"
+    "confrontos"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/YBPRIMYYUNDY3HICQZTEOJWT2U.jpg?quality=80&auth=994f06df303a597da8285ee05ed49360cec9e402e6db3c8475b670a50e74dbaf&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-20T10:46:15+00:00",
-  "updatedAt": "2026-10-26T03:43:58.883946+00:00",
+  "updatedAt": "2026-10-26T04:41:58.600056+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -101,6 +101,20 @@
       "sourceDomain": "pt.euronews.com",
       "publishedAt": "2026-10-23T08:06:49+00:00",
       "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4f4687753322",
+      "title": "Protestos na Albânia envolvem governo, projeto ligado à família Trump e notícias sobre Israel",
+      "description": "Os protestos na Albânia se intensificaram em outubro, com milhares de pessoas nas ruas da capital, Tirana, exigindo a renúncia do primeiro.",
+      "url": "https://www.monitordooriente.com/20261025-protestos-na-albania-envolvem-governo-projeto-ligado-a-familia-trump-e-noticias-sobre-israel/",
+      "source": "Monitor do Oriente",
+      "sourceCanonical": "Monitor do Oriente",
+      "sourceDomain": "monitordooriente.com",
+      "publishedAt": "2026-10-25T08:56:15+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,6 +260,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_1b3fc6e31c77",
+      "title": "Notícias de Israel e do mundo judaico em espanhol",
+      "description": "A revolução na Albânia coloca Edi Rama em uma posição difícil devido aos protestos, seus negócios com a família Trump e a crise social.",
+      "url": "https://www.aurora-israel.co.il/pt/revolucion-en-albania-edi-rama-protestas/",
+      "source": "Aurora Israel",
+      "sourceCanonical": "Aurora Israel",
+      "sourceDomain": "aurora-israel.co.il",
+      "publishedAt": "2026-10-20T18:32:49+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_bffdb6b16e5b",
       "title": "Vídeo: Deputados da Albânia trocam empurrões no Parlamento em meio a protestos estudantis contra o governo",
       "description": "Parlamentares da oposição acusam governo de reprimir violentamente os manifestantes; atos já deixaram mais de 300 feridos e dezenas de...",
@@ -286,60 +314,31 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_2d7896fff10b",
-      "title": "Parlamentares na Albânia se enfrentam em meio a protestos",
-      "description": "Confrontos físicos são registrados na sessão do Parlamento enquanto manifestantes pedem mais recursos para a educação e a renúncia do...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/parlamentares-na-albania-se-enfrentam-em-meio-a-protestos-1.1758084",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-10-22T14:49:19+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_dfaef751bc19",
-      "title": "Parlamento da Albânia termina sessão em briga entre deputados",
-      "description": "Confusão ocorreu no auge dos protestos estudantis contra o premiê Edi Rama, que acusa interferência estrangeira. Leia mais.",
-      "url": "https://revistaoeste.com/mundo/parlamento-da-albania-termina-sessao-em-briga-entre-deputados/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-10-23T15:28:11+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 4,
-    "max": 10,
-    "average": 6,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 7,
+    "average": 5.57,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 5,
+      "center": 4,
       "centerRight": 2,
-      "right": 1,
-      "unknown": 11
+      "right": 0,
+      "unknown": 13
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
