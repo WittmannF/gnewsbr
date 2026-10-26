@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 9
+      "topic-7": 7
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
+    "firstSeenRank": 7,
+    "bestSeedRank": 7,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,14 +26,14 @@
     "obama",
     "democratas",
     "critica",
-    "campanha",
-    "incompetente"
+    "democrata",
+    "campanha"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Trump.png?w=1200&h=630&crop=1",
-  "publishedAt": "2026-10-23T15:38:38+00:00",
-  "updatedAt": "2026-10-26T04:41:37.867741+00:00",
-  "sourceCount": 13,
-  "articleCount": 13,
+  "publishedAt": "2026-10-21T13:27:29+00:00",
+  "updatedAt": "2026-10-26T05:39:29.604561+00:00",
+  "sourceCount": 14,
+  "articleCount": 15,
   "articles": [
     {
       "id": "article_929ed291caad",
@@ -148,6 +148,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_e044cbb80a0e",
+      "title": "Candidato democrata ao Senado é suspeito de ter ligações com a Irmandade Muçulmana",
+      "description": "No Michigan, um dos campos de batalha mais difíceis para o Senado nas próximas eleições de meio de mandato dos EUA (em 3 de novembro),...",
+      "url": "https://www.gazetadopovo.com.br/ideias/candidato-democrata-ao-senado-e-suspeito-de-ter-ligacoes-com-a-irmandade-muculmana/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-10-22T11:47:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_92309dac168d",
       "title": "Trump faz campanha em Michigan um dia após Obama discursar para democratas",
       "description": "Por Bo EricksonO presidente dos EUA, Donald Trump, fará um comício a republicanos em Michigan neste domingo, um dia depois de o...",
@@ -216,31 +230,46 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_5e1e15fdfc61",
+      "title": "'É a luz que me guia': Confrontado sobre fé islâmica, democrata dá aula sobre a Constituição dos EUA; veja vídeo",
+      "description": "Líder nas pesquisas, Abdul El-Sayed pode se tornar o primeiro árabe no Senado americano; embate com jovem republicano viraliza e se torna...",
+      "url": "https://oglobo.globo.com/blogs/trump-20/coluna/2026/10/e-a-luz-que-me-guia-confrontado-sobre-fe-islamica-democrata-da-aula-sobre-a-constituicao-dos-eua-veja-video.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-21T13:27:29+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.3,
-    "knownCount": 10,
+    "max": 8,
+    "average": 4.75,
+    "knownCount": 12,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 7,
-      "centerRight": 0,
+      "center": 8,
+      "centerRight": 1,
       "right": 0,
       "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
