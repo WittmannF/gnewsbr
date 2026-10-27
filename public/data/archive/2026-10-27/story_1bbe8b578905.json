@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2liME1lYkVoR292NE81ZzNaTTV5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2liME1lYkVoR292NE81ZzNaTTV5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9,
-      "topic-5": 23
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 20,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 9,
-    "bestSeedRank": 9,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Governo Milei diz que não comentará vitória de Lula",
   "summary": "Javier Milei foi o único líder da América do Sul que não parabenizou Lula pela reeleição.",
-  "topic": "Milei · Lula",
+  "topic": "Lula · Milei",
   "topicKeywords": [
-    "milei",
     "lula",
+    "milei",
     "não",
     "vitória",
-    "argentina",
-    "javier"
+    "eleição",
+    "comentará"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/7p5cAS5v3CeWg_o7yJG0uw0woyo=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/u/IjgCZsQvmhQNWBRfOVjw/fotojet-4-.jpg",
-  "publishedAt": "2026-10-20T16:03:05+00:00",
-  "updatedAt": "2026-10-27T16:25:06.843881+00:00",
+  "publishedAt": "2026-10-20T21:45:02+00:00",
+  "updatedAt": "2026-10-27T17:19:16.845444+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-27T14:57:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/7p5cAS5v3CeWg_o7yJG0uw0woyo=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/u/IjgCZsQvmhQNWBRfOVjw/fotojet-4-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -55,7 +61,7 @@
     {
       "id": "article_812b913afaf6",
       "title": "Governo Milei diz que não vai parabenizar Lula e fala em reciprocidade",
-      "description": "O governo de Javier Milei afirmou hoje evitou parabenizar Luiz Inácio Lula da Silva pela vitória na eleição presidencial no Brasil.",
+      "description": "O governo de Javier Milei afirmou hoje que evitou parabenizar Lula (PT) pela vitória na eleição presidencial no Brasil.",
       "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/27/governo-milei-evita-parabenizar-lula-e-diz-que-so-tomou-nota-do-resultado.ghtm",
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
@@ -67,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_f93c12526cf3",
+      "title": "Governo Milei diz que eleição no Brasil ‘foi notada’ e revela por que não irá parabenizar Lula",
+      "description": "Segundo o Clarín, porta-voz argentino alegou que petista não cumprimentou Milei pela vitória em 2023. À época, entretanto, Lula postou uma...",
+      "url": "https://www.estadao.com.br/internacional/milei-descarta-pronunciamento-oficial-sobre-vitoria-de-lula-na-eleicao-presidencial-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-27T15:54:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/MTM4CAAC5ND4PBJC4RFLT7HEFI.jpg?quality=80&auth=baa2d41d015d76a6d000f58b1081367de6a3ecb818b21ca7bc6497fbf0aa81ff&width=1200&height=630&smart=true",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_c68a4afbb953",
       "title": "Governo Milei rejeita comentar vitória eleitoral de Lula",
       "description": "Casa Rosada argumenta que mandatário brasileiro não parabenizou o argentino em 2023, embora o petista tenha desejado 'sucesso' à sua gestão.",
@@ -75,38 +95,24 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-27T15:56:20+00:00",
-      "postedLabel": "28 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/07/gettyimages-2286968458-594x594-1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_ac5d8a3c393a",
-      "title": "Eleição: silêncio de Milei sobre Lula acirra crise entre Brasil e Argentina",
-      "description": "Milei apoiou Flávio Bolsonaro e não felicitou Lula após a reeleição. Impasse ocorre em meio ao rebaixamento das relações diplomáticas.",
-      "url": "https://www.metropoles.com/mundo/eleicao-silencio-de-milei-sobre-lula-acirra-crise-entre-brasil-e-argentina",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-27T07:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://i.metroimg.com/Fjf75iYoGoW9ZbuT5ZlBTe2MRbraHiSOisrUVbu6lQM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2024/11/18212808/Milei-e-Lula-1.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_2463ff248d08",
-      "title": "Milei silencia e Trump critica reeleição de Lula; veja reações de líderes mundiais",
-      "description": "Presidente dos Estados Unidos questionou resultado da eleição brasileira, enquanto Milei ainda não se manifestou sobre resultado.",
-      "url": "https://www.estadao.com.br/em-alta/internacional/trump-milei-vitoria-lula-eleicao-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-26T18:55:06+00:00",
-      "postedLabel": "hoje",
+      "id": "article_b7a5bf8fe5cc",
+      "title": "Quase 7 em cada 10 argentinos afirmam que Milei deveria reconhecer a vitória de Lula",
+      "description": "Segundo levantamento, 62% consideram que o ultraliberal deveria tomar a iniciativa para normalizar as relações com o Brasil.",
+      "url": "https://www.cartacapital.com.br/cartaexpressa/quase-7-em-cada-10-argentinos-afirmam-que-milei-deveria-reconhecer-a-vitoria-de-lula/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-27T16:56:00+00:00",
+      "postedLabel": "23 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_42b60915e33a",
@@ -117,7 +123,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-26T16:35:25+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -131,9 +137,23 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-10-27T12:56:27+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ac5d8a3c393a",
+      "title": "Eleição: silêncio de Milei sobre Lula acirra crise entre Brasil e Argentina",
+      "description": "Milei apoiou Flávio Bolsonaro e não felicitou Lula após a reeleição. Impasse ocorre em meio ao rebaixamento das relações diplomáticas.",
+      "url": "https://www.metropoles.com/mundo/eleicao-silencio-de-milei-sobre-lula-acirra-crise-entre-brasil-e-argentina",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-27T07:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -179,46 +199,74 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_37db6712ed8a",
-      "title": "Governo da Argentina não comentará resultado das eleições no Brasil, diz porta-voz",
-      "description": "Porta-voz da presidência afirmou que Lula não parabenizou Milei em 2023, mas presidente publicou uma mensagem no X desejando sorte ao novo...",
-      "url": "https://www.itatiaia.com.br/politica/governo-da-argentina-nao-comentara-resultado-das-eleicoes-no-brasil-diz-porta-voz/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-10-27T15:31:23+00:00",
+      "id": "article_f87326b2e3ef",
+      "title": "Governo Milei diz que não vai se manifestar sobre vitória de Lula",
+      "description": "O porta-voz do governo do presidente da Argentina, Javier Milei (La Libertad Avanza, direita), Adrian Ravier, declarou nesta 3ª feira...",
+      "url": "https://www.poder360.com.br/poder-internacional/governo-milei-diz-que-nao-vai-se-manifestar-sobre-vitoria-de-lula/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-27T16:24:38+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_c8f7141cc3a6",
-      "title": "Na reta final da campanha, Milei ataca Lula: \"Espero que sua manobra não inclua roubar a eleição\"",
+      "id": "article_4eb7b3a4401b",
+      "title": "Governo Milei não vai se manifestar sobre reeleição de Lula, diz porta-voz",
       "description": "No jornal digital GZH, você encontra as últimas notícias do RS e do mundo, tudo sobre o seu time e muitos outros conteúdos exclusivos.",
-      "url": "https://gauchazh.clicrbs.com.br/colunistas/rodrigo-lopes/noticia/2026/10/na-reta-final-da-campanha-milei-ataca-lula-espero-que-sua-manobra-nao-inclua-roubar-a-eleicao-cmvgvfqd800n10123cq5hd4g8.html",
+      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/10/governo-milei-nao-vai-se-manifestar-sobre-reeleicao-de-lula-diz-porta-voz-cmvqut8n400ji016gd2vq50zz.html",
       "source": "GZH",
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-10-20T16:03:05+00:00",
-      "postedLabel": "7 dias atrás",
+      "publishedAt": "2026-10-27T16:20:39+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_633cc5ac5a9c",
-      "title": "Milei chama Lula de “ladrão e mentiroso” após debate",
-      "description": "Argentino reagiu à fala do petista de que a população da Argentina estaria comendo carne de burro por causa da pobreza. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-eleicoes-2026/milei-chama-lula-de-ladrao-e-mentiroso-ao-comentar-fala-sobre-argentina/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-24T21:23:28+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_1889571bce7d",
+      "title": "Governo da Argentina se pronuncia sobre vitória de Lula nas eleições",
+      "description": "O Governo da Argentina se pronunciou pela primeira vez sobre o resultado das eleições brasileiras do último domingo (25).",
+      "url": "https://noticias.r7.com/eleicoes/2026/governo-da-argentina-se-pronuncia-sobre-vitoria-de-lula-nas-eleicoes-27102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-27T16:58:14+00:00",
+      "postedLabel": "21 minutos atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_4794f7cf028f",
+      "title": "Governo Milei diz que 'tomou nota' da vitória de Lula, mas não comentará resultado eleitoral",
+      "description": "Porta-voz do governo argentino diz que petista não cumprimentou o líder argentino por sua eleição em 2023, mas Itamaraty reconheceu sua...",
+      "url": "https://exame.com/mundo/governo-milei-diz-que-tomou-nota-da-vitoria-de-lula-mas-nao-comentara-resultado-eleitoral/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-10-27T15:45:13+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_599da7a554e0",
+      "title": "Prorrogação no Brasil reacende comparação com eleição venezuelana; entenda",
+      "description": "Prorrogação da votação no Brasil gera comparação com eleições na Venezuela. Entenda os dois casos e os questionamentos sobre os resultados...",
+      "url": "https://tmc.com.br/politica/prorrogacao-no-brasil-reacende-comparacao-com-eleicao-venezuelana-entenda/",
+      "source": "tmc.com.br",
+      "sourceCanonical": "tmc.com.br",
+      "sourceDomain": "tmc.com.br",
+      "publishedAt": "2026-10-26T00:10:57+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_418b68323eb6",
@@ -249,18 +297,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_87fbdbc2e39f",
-      "title": "Javier Milei, presidente da Argentina, toma decisão surpreendente logo após reeleição de Lula",
-      "description": "O presidente da Argentina, Javier Milei, decidiu não parabenizar Luiz Inácio Lula da Silva após a vitória do brasileiro nas eleições de...",
-      "url": "https://www.jornalcruzeiro.com.br/tendencias/javier-milei-presidente-da-argentina-toma-decisao-surpreendente-logo-apos-reeleicao-de-lula/",
-      "source": "www.jornalcruzeiro.com.br",
-      "sourceCanonical": "www.jornalcruzeiro.com.br",
-      "sourceDomain": "jornalcruzeiro.com.br",
-      "publishedAt": "2026-10-26T14:53:03+00:00",
-      "postedLabel": "ontem",
+      "id": "article_37db6712ed8a",
+      "title": "Governo da Argentina não comentará resultado das eleições no Brasil, diz porta-voz",
+      "description": "Porta-voz da presidência afirmou que Lula não parabenizou Milei em 2023, mas presidente publicou uma mensagem no X desejando sorte ao novo...",
+      "url": "https://www.itatiaia.com.br/politica/governo-da-argentina-nao-comentara-resultado-das-eleicoes-no-brasil-diz-porta-voz/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-10-27T15:31:23+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_184081d81094",
@@ -275,74 +323,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_7a626d361262",
-      "title": "Presidente da Argentina, Javier Milei compartilha publicação que compara Lula a Maduro",
-      "description": "Após decisão do ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), de estender o horário de votação até as 19h em todo o Brasil,...",
-      "url": "https://vtvnews.com.br/noticias/mundo/javier-milei-compartilha-publicacao-que-compara-lula-a-maduro-b/",
-      "source": "vtvnews.com.br",
-      "sourceCanonical": "vtvnews.com.br",
-      "sourceDomain": "vtvnews.com.br",
-      "publishedAt": "2026-10-27T00:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c5fa985d2ce8",
-      "title": "Sem reconhecer a vitória de Lula, Milei 'farma aura' e Casa Rosada; ex-presidente Macri parabeniza petista - Times Brasil",
-      "description": "O presidente da Argentina, Javier Milei, ainda não anunciou a reeleição de Luiz Inácio Lula da Silva para a Presidência do Brasil.",
-      "url": "https://jornalimpressobrasil.com.br/sem-reconhecer-a-vitoria-de-lula-milei-farma-aura-e-casa-rosada-ex-presidente-macri-parabeniza-petista-times-brasil/",
-      "source": "Jornal Impresso Brasil",
-      "sourceCanonical": "Jornal Impresso Brasil",
-      "sourceDomain": "jornalimpressobrasil.com.br",
-      "publishedAt": "2026-10-26T18:35:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_fda39c05cedc",
-      "title": "Advogado de Trump defende Javier Milei e acusa governo Lula de cerceamento à oposição",
-      "description": "O cenário político sul-americano e global ganhou um novo capítulo de tensão com as declarações de Martin De Luca, advogado ligado ao...",
-      "url": "https://capitalpolitica.com.br/advogado-de-trump-defende-javier-milei-e-acusa-governo-lula-de-cerceamento-a-oposicao/",
-      "source": "Capital Política",
-      "sourceCanonical": "Capital Política",
-      "sourceDomain": "capitalpolitica.com.br",
-      "publishedAt": "2026-10-22T23:49:06+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.31,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.25,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
-      "center": 10,
-      "centerRight": 2,
+      "center": 11,
+      "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
