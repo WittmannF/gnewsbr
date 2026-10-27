@@ -3,20 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l5b01TZkVoRTRpWm9CR0p0N2l5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l5b01TZkVoRTRpWm9CR0p0N2l5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "home",
+      "topstories"
     ],
     "seedRanks": {
-      "topic-5": 1
+      "home": 1,
+      "topstories": 1
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "PL, partido de Flávio Bolsonaro, reconhece resultado da eleição, mas cobra esclarecimentos",
   "summary": "Derrotado nas urnas, Flávio Bolsonaro (PL) não reconheceu o resultado da votação. Lula teve 51,79% dos votos e foi reeleito para quarto...",
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "flávio",
     "bolsonaro",
-    "eleição",
-    "resultado",
     "lula",
-    "urnas"
+    "eleição",
+    "vitória",
+    "reconhece"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/USB2W4VPNgNnU_8tg8IGGesihFg=/3342x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/O/4KdC9YRVSRg1jTfLkyGQ/2026-10-26t021129z-274404486-rc2paoad09nf-rtrmadp-3-brazil-election.jpg",
-  "publishedAt": "2026-10-26T06:08:46+00:00",
-  "updatedAt": "2026-10-27T04:36:16.672531+00:00",
+  "publishedAt": "2026-10-26T01:34:00+00:00",
+  "updatedAt": "2026-10-27T05:26:30.796452+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -50,20 +53,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_962e8f93784a",
-      "title": "A má resposta de Flávio ao recado das urnas",
-      "description": "Lamente-se que, mais uma vez, o processo eleitoral que leva à escolha do presidente da República não esteja encerrado na noite de domingo em...",
-      "url": "https://mais.opovo.com.br/colunistas/editorial/2026/10/27/a-ma-resposta-de-flavio-ao-recado-das-urnas.html",
-      "source": "O POVO+",
-      "sourceCanonical": "O POVO+",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-10-27T04:15:00+00:00",
-      "postedLabel": "21 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_df47b8a197ba",
       "title": "Flávio desiste de questionar vitória de Lula nas urnas",
       "description": "À CNN, integrantes da campanha de Flávio afirmaram, sob reserva, que não haverá pedido de anulação da votação.",
@@ -78,18 +67,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_eba898279173",
-      "title": "Toledo: EUA analisam dados para não reconhecer resultado da eleição",
-      "description": "José Roberto de Toledo diz que EUA buscam justificativas para não reconhecer imediatamente resultado da eleição no Brasil e avalia impactos...",
-      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/26/toledo-eua-amaciam-dados-para-nao-reconhecer-resultado-da-eleicao.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-10-26T17:32:47+00:00",
+      "id": "article_962e8f93784a",
+      "title": "A má resposta de Flávio ao recado das urnas",
+      "description": "Lamente-se que, mais uma vez, o processo eleitoral que leva à escolha do presidente da República não esteja encerrado na noite de domingo em...",
+      "url": "https://mais.opovo.com.br/colunistas/editorial/2026/10/27/a-ma-resposta-de-flavio-ao-recado-das-urnas.html",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-10-27T04:15:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_6c0375400ffe",
+      "title": "Judicialização para anulação de resultado geral do segundo turno é inviável",
+      "description": "Um eventual pedido judicial para a anulação do resultado geral do segundo turno da eleição presidencial, vencido por Luiz Inácio Lula da...",
+      "url": "https://conjur.com.br/2026-out-26/judicializacao-para-anulacao-de-resultado-geral-do-segundo-turno-e-inviavel/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-10-26T09:21:22+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_85f275eda391",
@@ -134,60 +137,32 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6c0375400ffe",
-      "title": "Judicialização para anulação de resultado geral do segundo turno é inviável",
-      "description": "Um eventual pedido judicial para a anulação do resultado geral do segundo turno da eleição presidencial, vencido por Luiz Inácio Lula da...",
-      "url": "https://conjur.com.br/2026-out-26/judicializacao-para-anulacao-de-resultado-geral-do-segundo-turno-e-inviavel/",
-      "source": "Consultor Jurídico",
-      "sourceCanonical": "Consultor Jurídico",
-      "sourceDomain": "conjur.com.br",
-      "publishedAt": "2026-10-26T09:21:22+00:00",
+      "id": "article_d2490598a7f4",
+      "title": "O que acontecerá com investigações contra Flávio, sem mandato após 20 anos?",
+      "description": "Derrotado no segundo turno das eleições, o senador Flávio Bolsonaro (PL-RJ) pode ver avançarem as investigações que pesam contra ele.",
+      "url": "https://noticias.uol.com.br/eleicoes/2026/10/26/flavio-investigacoes-o-que-acontece.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-10-26T21:16:33+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
-      "id": "article_759240f30567",
-      "title": "Virada de Lula aponta caminho para a esquerda voltar a vencer, diz pesquisador americano",
-      "description": "Para pesquisador da Chatham House, vitória sobre a direita expõe lições para progressistas na região, mas futuro do movimento ainda depende...",
-      "url": "https://www.bbc.com/portuguese/articles/ckg5jg59dn27o",
+      "id": "article_74bff99c6e2e",
+      "title": "Os argumentos de Flávio para pedir anulação da eleição — e o que dizem especialistas",
+      "description": "Advogados de Flávio teriam de provar que a quantidade de votos depositada após prorrogação faria diferença no resultado final.",
+      "url": "https://www.bbc.com/portuguese/articles/crkg7ywjj8l0o",
       "source": "BBC",
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
-      "publishedAt": "2026-10-26T21:27:12+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-10-26T04:33:41+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_51a13f3f0e0a",
-      "title": "Um terceiro turno é possível? Professor avalia as chances de anulação da eleição entre Lula e Flávio",
-      "description": "Elival Ramos critica prorrogação da votação, mas avalia que reconhecimento do resultado enfraquece tentativa de anular a eleição.",
-      "url": "https://veja.abril.com.br/politica/um-terceiro-turno-e-possivel-professor-avalia-as-chances-de-anulacao-da-eleicao-entre-lula-e-flavio/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-26T15:02:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_c7027778f449",
-      "title": "Flávio Bolsonaro ficará sem mandato e perderá foro privilegiado em 2027",
-      "description": "Derrota para Lula encerra sequência de 24 anos em cargos eletivos; investigações sobre 'Dark Horse' e suspeitas envolvendo Willer Tomaz...",
-      "url": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-ficara-sem-mandato-e-perdera-foro-privilegiado-em-2027/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-26T11:41:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_3191d3295bcc",
@@ -204,6 +179,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_e097b0caf6fd",
+      "title": "Flávio Bolsonaro repete o golpismo do pai e não reconhece vitória de Lula",
+      "description": "O senador Flávio Bolsonaro (PL) afirmou na noite deste domingo 25 que não reconhece a vitória do presidente Lula (PT) no segundo turno da...",
+      "url": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-repete-o-golpismo-do-pai-e-nao-reconhece-vitoria-de-lula/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-26T01:51:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_05c965785d5a",
       "title": "Aliados de Flávio rechaçam rótulo de aliado dado a Nunes Marques",
       "description": "A reação ocorreu após Flávio questionar publicamente o resultado da eleição e anunciar que recorreria à Justiça Eleitoral.",
@@ -218,43 +207,15 @@
       "bucket": "right"
     },
     {
-      "id": "article_2a6af6160d83",
-      "title": "Flávio abandonou discurso de fraude após reunião com Tarcísio e aliados",
-      "description": "A mudança de discurso de Flávio Bolsonaro (PL) sobre o resultado das eleições de 2026 foi definida pelo senador em uma reunião com o...",
-      "url": "https://www.metropoles.com/colunas/igor-gadelha/flavio-abandonou-discurso-de-fraude-apos-reuniao-com-tarcisio-e-aliados",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-26T22:22:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_fd493aace28e",
-      "title": "Ministros do STF e do TSE não veem chance de Flávio Bolsonaro conseguir anular eleições",
-      "description": "Integrantes dos dois tribunais reconhecem o resultado das urnas e lembram que o candidato do PL também pediu prorrogação no horário de...",
-      "url": "https://www.estadao.com.br/politica/eleicoes/ministros-do-stf-e-do-tse-nao-veem-chance-de-flavio-bolsonaro-conseguir-anular-eleicoes/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-26T14:53:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_6026881e5945",
-      "title": "Contestações legítimas apontam que eleição não acabou em 25 de outubro",
-      "description": "O pedido de anulação do segundo turno da eleição prometido pelo candidato Flávio Bolsonaro (PL) deve fazer o pleito se prolongar para além...",
-      "url": "https://www.gazetadopovo.com.br/republica/contestacoes-legitimas-apontam-que-eleicao-nao-acabou-em-25-de-outubro/",
+      "id": "article_0cccd9b716fb",
+      "title": "“Parece um pesadelo”: direita reage à vitória de Lula",
+      "description": "As primeiras manifestações de lideranças da direita após o anúncio da vitória de Luiz Inácio Lula da Silva (PT) nas eleições presidenciais...",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/parece-um-pesadelo-liderancas-da-direita-lamentam-vitoria-de-lula-mas-veem-chances-no-congresso/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-26T16:02:00+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-10-26T01:34:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -274,18 +235,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_b0decace8a1f",
-      "title": "O que motivou Flávio Bolsonaro a desistir do pedido para anular a eleição",
-      "description": "Cúpula do PL marcou posição contra tentativa de mudança eleitoral; aposta agora é por pedido de cassação da chapa Lula-Alckmin.",
-      "url": "https://noticias.r7.com/prisma/r7-planalto/o-que-motivou-flavio-bolsonaro-a-desistir-do-pedido-para-anular-a-eleicao-26102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-26T21:19:22+00:00",
-      "postedLabel": "hoje",
+      "id": "article_e64b49baec4d",
+      "title": "Como fica o bolsonarismo após a derrota de Flávio",
+      "description": "Senador leva a virada e fica a uma distância de 4,4 milhões de Lula. Cientistas políticos falam ao 'Nexo' sobre os direcionamentos da...",
+      "url": "https://www.nexojornal.com.br/expresso/2026/10/25/flavio-bolsonaro-perde-derrota-bolsonarismo-lula-reeleito-presidente",
+      "source": "Nexo Jornal",
+      "sourceCanonical": "Nexo Jornal",
+      "sourceDomain": "nexojornal.com.br",
+      "publishedAt": "2026-10-26T03:05:05+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_5e16efa0ba62",
@@ -302,33 +263,75 @@
       "bucket": "left"
     },
     {
-      "id": "article_5e68ae6dbf01",
-      "title": "Flávio Bolsonaro desiste de pedir anulação das eleições depois de ser convencido por aliados",
-      "description": "Aliados apontaram 'fragilidade jurídica' na reivindicação de Flávio e 'configuração desfavorável' no Tribunal Superior Eleitoral e no STF.",
-      "url": "https://iclnoticias.com.br/flavio-bolsonaro-desiste-anulacao-eleicoes/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-10-26T23:15:08+00:00",
-      "postedLabel": "5 horas atrás",
+      "id": "article_fd493aace28e",
+      "title": "Ministros do STF e do TSE não veem chance de Flávio Bolsonaro conseguir anular eleições",
+      "description": "Integrantes dos dois tribunais reconhecem o resultado das urnas e lembram que o candidato do PL também pediu prorrogação no horário de...",
+      "url": "https://www.estadao.com.br/politica/eleicoes/ministros-do-stf-e-do-tse-nao-veem-chance-de-flavio-bolsonaro-conseguir-anular-eleicoes/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-26T14:53:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_1b1589a2d02a",
+      "title": "O discurso de Flávio Bolsonaro após perder a eleição presidencial para Lula",
+      "description": "Senador do PL não reconheceu a derrota e disse que tentará judicializar o processo para anular o resultado.",
+      "url": "https://veja.abril.com.br/politica/o-discurso-de-flavio-bolsonaro-apos-perder-a-eleicao-presidencial-para-lula/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-26T01:59:07+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_2a6af6160d83",
+      "title": "Flávio abandonou discurso de fraude após reunião com Tarcísio e aliados",
+      "description": "A mudança de discurso de Flávio Bolsonaro (PL) sobre o resultado das eleições de 2026 foi definida pelo senador em uma reunião com o...",
+      "url": "https://www.metropoles.com/colunas/igor-gadelha/flavio-abandonou-discurso-de-fraude-apos-reuniao-com-tarcisio-e-aliados",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-26T22:22:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e0965b374b44",
+      "title": "PL reconhece vitória de Lula, mas cobra esclarecimentos",
+      "description": "Valdemar Costa Neto questionou gastos sociais na reta final da campanha e cobrou esclarecimentos sobre o pleito.",
+      "url": "https://www.congressoemfoco.com.br/noticia/129234/pl-reconhece-vitoria-de-lula-mas-cobra-esclarecimentos",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-10-26T23:23:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.19,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.2,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 3,
-      "centerLeft": 1,
+      "left": 2,
+      "centerLeft": 2,
       "center": 7,
-      "centerRight": 4,
+      "centerRight": 3,
       "right": 1,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {

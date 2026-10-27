@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3emRHZkVoRnVnei1TZEtKMHpDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k3emRHZkVoRnVnei1TZEtKMHpDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-3": 1,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Moraes proíbe Flávio Bolsonaro de se comunicar com Willer Tomaz",
   "summary": "Ministro do Supremo também determinou a apreensão dos passaportes do senador, que foi proibido de deixar o país. Leia no Poder360.",
-  "topic": "Flávio · Bolsonaro",
+  "topic": "Flávio · Entregar",
   "topicKeywords": [
     "flávio",
-    "bolsonaro",
     "entregar",
+    "bolsonaro",
     "passaporte",
     "moraes",
     "passaportes"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/STF-julga-no-plenario-se-Alexandre-de-Moraes-e-investigado-no-caso-Banco-Master-15set2026-moraes-1200x675.jpg",
   "publishedAt": "2026-09-17T07:00:00+00:00",
-  "updatedAt": "2026-10-27T04:29:43.931273+00:00",
+  "updatedAt": "2026-10-27T05:26:34.691683+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -131,7 +137,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-26T22:49:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -145,21 +151,7 @@
       "sourceCanonical": "Consultor Jurídico",
       "sourceDomain": "conjur.com.br",
       "publishedAt": "2026-10-26T23:42:31+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_68b39a394d7b",
-      "title": "Deputados pedem apreensão do passaporte de Flávio após derrota",
-      "description": "Duda Salabert, Otoni de Paula e Rogério Correia alegam risco de fuga após derrota do senador para Lula.",
-      "url": "https://www.congressoemfoco.com.br/noticia/128189/deputados-pedem-apreensao-do-passaporte-de-flavio-apos-derrota",
-      "source": "Congresso em Foco",
-      "sourceCanonical": "Congresso em Foco",
-      "sourceDomain": "congressoemfoco.com.br",
-      "publishedAt": "2026-10-26T12:13:03+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -179,18 +171,18 @@
       "bucket": "left"
     },
     {
-      "id": "article_1a76400efd93",
-      "title": "Aliados temem prisão de Flávio Bolsonaro por ordem do STF",
-      "description": "Aliados de Flávio Bolsonaro (PL-RJ) temem, nos bastidores, que ele seja “perseguido” pelo Judiciário e acabe tendo a prisão decretada pelo...",
-      "url": "https://www.metropoles.com/colunas/igor-gadelha/aliados-temem-prisao-de-flavio-bolsonaro-por-ordem-do-stf",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-26T20:32:00+00:00",
+      "id": "article_68b39a394d7b",
+      "title": "Deputados pedem apreensão do passaporte de Flávio após derrota",
+      "description": "Duda Salabert, Otoni de Paula e Rogério Correia alegam risco de fuga após derrota do senador para Lula.",
+      "url": "https://www.congressoemfoco.com.br/noticia/128189/deputados-pedem-apreensao-do-passaporte-de-flavio-apos-derrota",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-10-26T12:13:03+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_52d24da709b3",
@@ -207,6 +199,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_1a76400efd93",
+      "title": "Aliados temem prisão de Flávio Bolsonaro por ordem do STF",
+      "description": "Aliados de Flávio Bolsonaro (PL-RJ) temem, nos bastidores, que ele seja “perseguido” pelo Judiciário e acabe tendo a prisão decretada pelo...",
+      "url": "https://www.metropoles.com/colunas/igor-gadelha/aliados-temem-prisao-de-flavio-bolsonaro-por-ordem-do-stf",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-26T20:32:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_27dd6ce2d8a0",
       "title": "PF apreende passaporte de Flávio Bolsonaro, que volta a questionar resultado das urnas",
       "description": "O candidato derrotado nas urnas, Flávio Bolsonaro (PL), voltou a dizer que pedirá a anulação das eleições ao divulgar que teve seu...",
@@ -219,6 +225,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_d87fb220c0ee",
+      "title": "Flávio desiste de pedir anulação da eleição e é intimado pela PF | #SBTBrasil",
+      "description": "Flávio desiste de pedir anulação da eleição e é intimado pela PF | #SBTBrasil.",
+      "url": "https://sbtnews.sbt.com.br/videos/6RY9pNdZpNY",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-10-27T00:52:06+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_c59e90a420c0",
@@ -243,24 +263,10 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-10-26T23:35:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_53374e3f88c7",
-      "title": "PF intima Flávio a entregar passaporte",
-      "description": "Derrotado nas urnas, senador está impedido de deixar o Brasil por determinação do ministro do STF Alexandre de Moraes.",
-      "url": "https://www.dw.com/pt-br/pf-intima-fl%C3%A1vio-bolsonaro-a-entregar-passaporte/live-78393402",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-09-17T07:00:00+00:00",
-      "postedLabel": "mês passado",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_1e77a783ef17",
@@ -291,6 +297,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_53374e3f88c7",
+      "title": "PF intima Flávio a entregar passaporte",
+      "description": "Derrotado nas urnas, senador está impedido de deixar o Brasil por determinação do ministro do STF Alexandre de Moraes.",
+      "url": "https://www.dw.com/pt-br/pf-intima-fl%C3%A1vio-bolsonaro-a-entregar-passaporte/live-78393402",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-09-17T07:00:00+00:00",
+      "postedLabel": "mês passado",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_0eb326ec6357",
       "title": "Flávio Bolsonaro diz que pedirá cassação da chapa de Lula e se apresenta como novo líder da oposição",
       "description": "BRASÍLIA, 26 Out (Reuters) - O senador Flávio Bolsonaro (PL-RJ), derrotado na disputa presidencial em segundo turno,...",
@@ -303,26 +323,12 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_bd75926eef22",
-      "title": "Flávio Bolsonaro recuou na contestação eleitoral e está impedido pela Justiça de sair do Brasil",
-      "description": "Flávio Bolsonaro acusa Alexandre de Moraes de o tentar intimidar e anuncia que vai pedir a cassação da candidatura de Lula da Silva, em vez...",
-      "url": "https://expresso.pt/internacional/brasil/eleicoes/2026-10-26-flavio-bolsonaro-recuou-na-contestacao-eleitoral-e-esta-impedido-pela-justica-de-sair-do-brasil-4c154992",
-      "source": "Expresso",
-      "sourceCanonical": "Expresso",
-      "sourceDomain": "expresso.pt",
-      "publishedAt": "2026-10-26T22:00:25+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.39,
+    "average": 5.44,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
