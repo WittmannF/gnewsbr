@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXMjVxWkVoR2RmazBENEMxWjlTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXMjVxWkVoR2RmazBENEMxWjlTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Trump questiona eleição brasileira e Alckmin rebate: “equivocado”",
   "summary": "O presidente dos Estados Unidos, Donald Trump, questionou o processo eleitoral brasileiro, nesta segunda-feira (26). Em conversa com...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "trump",
     "lula",
-    "eleição",
     "vitória",
-    "eua",
-    "não"
+    "eleição",
+    "flávio",
+    "eua"
   ],
   "imageUrl": "https://imagens.ebc.com.br/u8VnpgnhyS-mBRJbik9Ffs7lOCw=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/26/2026-10-26t221053z_2_lynxnpem9p1rv_rtroptp_4_usa-trump.jpg?itok=ZQrRAZC_",
   "publishedAt": "2026-10-26T01:07:12+00:00",
-  "updatedAt": "2026-10-27T06:45:54.647629+00:00",
+  "updatedAt": "2026-10-27T07:32:02.021661+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,18 +70,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_c98edeed99a8",
-      "title": "Governo Trump mandou segurar comunicado reconhecendo resultado da eleição após alegações de Flávio Bolsonaro",
-      "description": "Departamento de Estado tinha rascunho pronto, mas resolveu adiar publicação após candidato do PL pedir anulação do pleito.",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/10/governo-trump-mandou-segurar-comunicado-reconhecendo-resultado-da-eleicao-apos-alegacoes-de-flavio.shtml",
+      "id": "article_da192c7d79a5",
+      "title": "Steve Bannon insiste em vitória de Flávio e diz que Trump deve isolar 'regime marxista' de Lula",
+      "description": "Apesar de recuo do PL, ex-assessor da Casa Branca repete acusações sem evidências sobre o resultado da eleição.",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/10/steve-bannon-insiste-em-vitoria-de-flavio-e-diz-que-trump-deve-isolar-regime-marxista-de-lula.shtml",
       "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-10-26T14:39:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/22/17926968346ada62027f153_1792696834_3x2_rt.jpg",
+      "publishedAt": "2026-10-27T07:00:00+00:00",
+      "postedLabel": "32 minutos atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/26/17930377476adf95b34de31_1793037747_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_050e2c738812",
+      "title": "Senador dos EUA diz que eleição foi ‘roubada’ e chama Flávio de ‘legítimo presidente’",
+      "description": "Republicano Shane Jett, de Oklahoma, acusa STF de interferência e compara situação brasileira ao governo de Nicolás Maduro.",
+      "url": "https://jovempan.com.br/colunistas/eliseu-caetano/senador-dos-eua-diz-que-eleicao-foi-roubada-e-chama-flavio-de-legitimo-presidente/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-26T02:12:49+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/10/ATO20261025091.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_1da0f639f16c",
@@ -87,7 +107,7 @@
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-10-26T22:30:57+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/d327/live/f5b95f80-d188-11f1-8d7e-c9ff4ede405b.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -100,6 +120,20 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-26T01:24:34+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_79f33ec33c6b",
+      "title": "“New York Times” diz que Trump deve ficar fora da política brasileira",
+      "description": "Em editorial, jornal norte-americano critica ações de Washington contra o país e aponta risco à democracia no 2º turno das eleições.",
+      "url": "https://www.poder360.com.br/poder-eleicoes/new-york-times-diz-que-trump-deve-ficar-fora-da-politica-brasileira/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-26T01:07:12+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -120,20 +154,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_79f33ec33c6b",
-      "title": "“New York Times” diz que Trump deve ficar fora da política brasileira",
-      "description": "Em editorial, jornal norte-americano critica ações de Washington contra o país e aponta risco à democracia no 2º turno das eleições.",
-      "url": "https://www.poder360.com.br/poder-eleicoes/new-york-times-diz-que-trump-deve-ficar-fora-da-politica-brasileira/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-26T01:07:12+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_77624c87e5d8",
       "title": "Ator e influenciadora brasileiros pedem ajuda a Trump após vitória de Lula",
       "description": "Alguns influenciadores brasileiros recorreram ao presidente dos Estados Unidos, Donald Trump, após a vitória de Lula (PT) no segundo turno...",
@@ -146,6 +166,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_0cf38773bd80",
+      "title": "Governo Trump adia comunicado sobre vitória de Lula após contestação de Flávio Bolsonaro",
+      "description": "O governo do presidente dos Estados Unidos, Donald Trump, decidiu adiar a divulgação de um comunicado oficial sobre o resultado da eleição...",
+      "url": "https://tribunadonorte.com.br/tn-nas-eleicoes-2026/governo-trump-adia-comunicado-sobre-vitoria-de-lula-apos-contestacao-de-flavio-bolsonaro/",
+      "source": "Tribuna do Norte",
+      "sourceCanonical": "Tribuna do Norte",
+      "sourceDomain": "tribunadonorte.com.br",
+      "publishedAt": "2026-10-26T18:10:31+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_d8492e65b34e",
@@ -176,20 +210,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_050e2c738812",
-      "title": "Senador dos EUA diz que eleição foi ‘roubada’ e chama Flávio de ‘legítimo presidente’",
-      "description": "Republicano Shane Jett, de Oklahoma, acusa STF de interferência e compara situação brasileira ao governo de Nicolás Maduro.",
-      "url": "https://jovempan.com.br/colunistas/eliseu-caetano/senador-dos-eua-diz-que-eleicao-foi-roubada-e-chama-flavio-de-legitimo-presidente/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-26T02:12:49+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_7f909df9ea28",
       "title": "Musk questiona vitória de Lula e Casa Branca mantém silêncio",
       "description": "O bilionário Elon Musk foi às redes sociais para colocar em dúvida o resultado eleitoral no Brasil. Em uma postagem para seus 241 milhões de...",
@@ -212,7 +232,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-10-27T00:59:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -232,20 +252,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_660335e8f8f4",
-      "title": "O que acontece se Donald Trump não reconhecer a vitória de Lula na eleição",
-      "description": "Donald Trump rompeu o silêncio sobre a vitória de Lula (PT), mas deixou em aberto se reconhece o resultado. Antes de embarcar no avião...",
-      "url": "https://noticias.r7.com/prisma/encurtando-distancias/o-que-acontece-se-donald-trump-nao-reconhecer-a-vitoria-de-lula-na-eleicao-26102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-26T22:39:28+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_5d13d003da28",
       "title": "Silêncio de Trump sobre vitória de Lula traduz tensões que vão continuar, dizem analistas",
       "description": "Trump ainda não se manifestou sobre resultado do segundo turno no Brasil. Analistas avaliam o que está por trás dessa atitude.",
@@ -257,6 +263,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_660335e8f8f4",
+      "title": "O que acontece se Donald Trump não reconhecer a vitória de Lula na eleição",
+      "description": "Donald Trump rompeu o silêncio sobre a vitória de Lula (PT), mas deixou em aberto se reconhece o resultado. Antes de embarcar no avião...",
+      "url": "https://noticias.r7.com/prisma/encurtando-distancias/o-que-acontece-se-donald-trump-nao-reconhecer-a-vitoria-de-lula-na-eleicao-26102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-26T22:39:28+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -300,26 +320,12 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f220f0ec1fd5",
-      "title": "Planalto não vai reagir à fala de Trump",
-      "description": "O governo do presidente Luiz Inácio Lula da Silva (PT) afirmou não estar preocupado com a declaração do presidente dos Estados Unidos,...",
-      "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/planalto-nao-vai-reagir-a-fala-de-trump-2",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-26T20:27:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.16,
+    "average": 5.11,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {

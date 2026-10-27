@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 8
+      "topic-7": 9
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
+    "firstSeenRank": 9,
+    "bestSeedRank": 9,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/LSjXtEPRPhF3RnQmDn_uMHr91EI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2023/w/l/p5u3aXQ1KQBrYOtLTFAQ/foto09opin-201-col-op1-a10.jpg",
   "publishedAt": "2026-10-26T11:55:24+00:00",
-  "updatedAt": "2026-10-27T06:49:21.735059+00:00",
+  "updatedAt": "2026-10-27T07:40:48.389061+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -106,18 +106,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_30d52df5cc83",
+      "id": "article_c9af97f69076",
       "title": "Holanda pretende injetar R$ 2,7 bilhões em fundo criado pelo Brasil",
-      "description": "O governo da Holanda anunciou nesta segunda-feira 26 ao Parlamento do país a intenção de repassar 500 milhões de dólares (R$ 2,7 bilhões)...",
-      "url": "https://www.cartacapital.com.br/economia/holanda-pretende-injetar-r-27-bilhoes-em-fundo-criado-pelo-brasil/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-26T21:56:00+00:00",
+      "description": "Medida foi apresentada pelo governo ao Parlamento do país europeu um dia após a vitória de Lula no segundo turno da eleição brasileira.",
+      "url": "https://www.dw.com/pt-br/holanda-pretende-injetar-r-27-bilh%C3%B5es-em-fundo-criado-pelo-brasil/a-79770132",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-10-26T19:42:41+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/04/floresta_tropical_brasil.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
+      "imageUrl": "https://static.dw.com/image/74654026_6.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_61619125f548",
@@ -190,20 +190,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b1e4ea30a9a7",
-      "title": "Um dia após reeleição de Lula, Holanda anuncia R$ 2,5 bilhões para proteger florestas tropicais",
-      "description": "Uma notícia boa para o meio ambiente chegou da Europa um dia após a reeleição do presidente Lula. Nesta segunda-feira, 26 de outubro,...",
-      "url": "https://www.sonoticiaboa.com.br/2026/10/26/holanda-anuncia-2-bilhoes-florestas-reeleicao-lula",
-      "source": "Só Notícia Boa",
-      "sourceCanonical": "Só Notícia Boa",
-      "sourceDomain": "sonoticiaboa.com.br",
-      "publishedAt": "2026-10-26T18:45:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_9b768f953f84",
       "title": "Após reeleição de Lula, Holanda promete US$ 500 milhões para preservar florestas tropicais brasileiras",
       "description": "O aporte será distribuído ao longo de dez anos e integra uma iniciativa internacional lançada na COP30, em Belém, para financiar a...",
@@ -212,6 +198,20 @@
       "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-10-26T21:52:09+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_b1e4ea30a9a7",
+      "title": "Um dia após reeleição de Lula, Holanda anuncia R$ 2,5 bilhões para proteger florestas tropicais",
+      "description": "Uma notícia boa para o meio ambiente chegou da Europa um dia após a reeleição do presidente Lula. Nesta segunda-feira, 26 de outubro,...",
+      "url": "https://www.sonoticiaboa.com.br/2026/10/26/holanda-anuncia-2-bilhoes-florestas-reeleicao-lula",
+      "source": "Só Notícia Boa",
+      "sourceCanonical": "Só Notícia Boa",
+      "sourceDomain": "sonoticiaboa.com.br",
+      "publishedAt": "2026-10-26T18:45:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -317,14 +317,14 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 5.27,
+    "average": 5.45,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
-      "left": 1,
-      "centerLeft": 1,
+      "left": 0,
+      "centerLeft": 2,
       "center": 8,
       "centerRight": 1,
       "right": 0,
@@ -332,14 +332,13 @@
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
