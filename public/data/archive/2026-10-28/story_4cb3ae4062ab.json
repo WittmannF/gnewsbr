@@ -20,18 +20,18 @@
   },
   "title": "Notícias sobre superendividamento • BC",
   "summary": "Brasil tem 20,3 mi de devedores de risco. Órgão prepara novas medidas para conter ofertas agressivas de crédito ainda este ano.",
-  "topic": "Medidas · Banco",
+  "topic": "Medidas · Risco",
   "topicKeywords": [
     "medidas",
+    "risco",
     "banco",
     "central",
     "crédito",
-    "risco",
     "dívidas"
   ],
   "imageUrl": "https://imagens.ebc.com.br/qv1-RBHp0M3IaFURJMkSMNEHorA=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223667.jpg?itok=orCy-svv",
   "publishedAt": "2026-10-26T20:55:00+00:00",
-  "updatedAt": "2026-10-28T04:36:56.336463+00:00",
+  "updatedAt": "2026-10-28T05:35:08.946277+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -118,6 +118,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_5163f1a97355",
+      "title": "Banco Central diz que estabilidade financeira não está em risco",
+      "description": "Segundo o BC, o sistema financeiro continua com níveis confortáveis de capitalização e liquidez, além de capacidade de resistir a cenários...",
+      "url": "https://www.cartacapital.com.br/economia/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-27T17:48:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_2836729e06f0",
@@ -218,20 +232,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6a9e2b1fdd4f",
-      "title": "Sistema Financeiro Nacional segue resiliente, apesar da maior materialização de riscos, diz BC",
-      "description": "O Sistema Financeiro Nacional (SFN) segue resiliente, apesar da maior materialização de riscos, enquanto avança na implementação de adaptaçõesregulat...",
-      "url": "https://tribunadepetropolis.com.br/noticias/sistema-financeiro-nacional-segue-resiliente-apesar-da-maior-materializacao-de-riscos-diz-bc/",
-      "source": "Tribuna de Petrópolis",
-      "sourceCanonical": "Tribuna de Petrópolis",
-      "sourceDomain": "tribunadepetropolis.com.br",
-      "publishedAt": "2026-10-27T14:35:20+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_126e1e58bac0",
       "title": "BC: endividamento de risco avança 75% em cinco anos",
       "description": "Número de pessoas em situação financeira preocupante cresceu de 11,6 mi para 20,3 mi desde a pandemia e já representa 17% da população com...",
@@ -244,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_6a9e2b1fdd4f",
+      "title": "Sistema Financeiro Nacional segue resiliente, apesar da maior materialização de riscos, diz BC",
+      "description": "O Sistema Financeiro Nacional (SFN) segue resiliente, apesar da maior materialização de riscos, enquanto avança na implementação de adaptaçõesregulat...",
+      "url": "https://tribunadepetropolis.com.br/noticias/sistema-financeiro-nacional-segue-resiliente-apesar-da-maior-materializacao-de-riscos-diz-bc/",
+      "source": "Tribuna de Petrópolis",
+      "sourceCanonical": "Tribuna de Petrópolis",
+      "sourceDomain": "tribunadepetropolis.com.br",
+      "publishedAt": "2026-10-27T14:35:20+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_2d50bf446e6f",
@@ -300,41 +314,27 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_80f52d836663",
-      "title": "Banco Central cria regras para Pix no crédito e dívidas",
-      "description": "O Banco Central aprovou três resoluções para aumentar a transparência na oferta de empréstimos e reduzir o risco de endividamento excessivo.",
-      "url": "https://maringapost.com.br/2026/10/27/banco-central-cria-regras-para-pix-no-credito-e-dividas/",
-      "source": "Maringá Post",
-      "sourceCanonical": "Maringá Post",
-      "sourceDomain": "maringapost.com.br",
-      "publishedAt": "2026-10-27T07:41:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 9,
-    "average": 5.67,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.44,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 11,
       "centerRight": 2,
       "right": 1,
-      "unknown": 5
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
