@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyeElHZ0VoRWUxWWN6anFkcmZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oyeElHZ0VoRWUxWWN6anFkcmZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2
+      "topic-3": 5,
+      "topic-5": 10
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,14 +28,14 @@
     "boicote",
     "listas",
     "lista",
+    "petistas",
     "empresas",
-    "política",
     "comerciantes"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/rio-1.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-10-27T17:49:37+00:00",
-  "updatedAt": "2026-10-28T21:18:59.638642+00:00",
-  "sourceCount": 20,
+  "publishedAt": "2026-10-27T17:39:34+00:00",
+  "updatedAt": "2026-10-28T22:19:53.865150+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -78,20 +81,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_e1ce0dc157f0",
-      "title": "Listas de boicote a comerciantes podem configurar crime",
-      "description": "Após eleições, estabelecimentos são expostos por posicionamento político. Em caso semelhante, STJ manteve ação penal por perseguição, e...",
-      "url": "https://www.migalhas.com.br/quentes/467452/listas-de-boicote-a-comerciantes-podem-configurar-crime",
-      "source": "Migalhas",
-      "sourceCanonical": "Migalhas",
-      "sourceDomain": "migalhas.com.br",
-      "publishedAt": "2026-10-28T20:38:00+00:00",
-      "postedLabel": "40 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_cdbd1a297e72",
       "title": "Bolsonaristas divulgam boicote a empresas e falam em demitir petistas; o que diz a lei sobre a prática",
       "description": "Após a reeleição do presidente Luiz Inácio Lula da Silva (PT), apoiadores do campo bolsonarista passaram a compartilhar nas redes sociais e...",
@@ -100,10 +89,38 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-28T18:21:59+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-15.22.59.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_dbfb8c32e819",
+      "title": "Liberdade, sim, desde que seja a minha",
+      "description": "Listas de boicote com mais de 50 nomes em Porto Alegre tentam desfazer o que o voto secreto garante, que é ninguém saber em quem o vizinho...",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/gabriel-wainer/noticia/2026/10/liberdade-sim-desde-que-seja-a-minha-cmvqyr21x00lr016guvhp9ug9.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-10-27T17:39:34+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_3ce5cda1c0c2",
+      "title": "EDITORIAL | Ao apoiar listas de boicote a comerciantes de Lavras, você pode vir a prejudicar a si mesmo",
+      "description": "Circulam em Lavras listas de posicionamentos políticos de comerciantes. Elas foram construídas de modo a dar margem a uma dupla...",
+      "url": "https://www.jornaldelavras.com.br/index.php?p=10&tc=4&c=39596&catn=1",
+      "source": "Jornal de Lavras",
+      "sourceCanonical": "Jornal de Lavras",
+      "sourceDomain": "jornaldelavras.com.br",
+      "publishedAt": "2026-10-27T21:06:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ddb3863b48b5",
@@ -114,10 +131,24 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-28T19:10:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_e1ce0dc157f0",
+      "title": "Listas de boicote a comerciantes podem configurar crime",
+      "description": "Após eleições, estabelecimentos são expostos por posicionamento político. Em caso semelhante, STJ manteve ação penal por perseguição, e...",
+      "url": "https://www.migalhas.com.br/quentes/467452/listas-de-boicote-a-comerciantes-podem-configurar-crime",
+      "source": "Migalhas",
+      "sourceCanonical": "Migalhas",
+      "sourceDomain": "migalhas.com.br",
+      "publishedAt": "2026-10-28T20:38:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_57246d256502",
@@ -204,20 +235,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_db5554d1dc85",
-      "title": "Direita cria listas de boicote a empresas acusadas de apoiar Lula em MG",
-      "description": "Belo Horizonte — A vitória do presidente Luiz Inácio Lula da Silva (PT) sobre Flávio Bolsonaro (PL), no segundo turno das eleições...",
-      "url": "https://www.metropoles.com/minas-gerais/direita-cria-listas-de-boicote-a-empresas-acusadas-de-apoiar-lula-em-mg",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-28T12:26:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_cf7d7ddb0732",
       "title": "Em nota, Ordem dos Advogados condena exposição de profissionais e empresas nas redes por preferência política",
       "description": "A seccional tocantinense da Ordem dos Advogados do Brasil (OAB-TO) divulgou nota de repúdio contra a circulação, em redes sociais e...",
@@ -226,7 +243,7 @@
       "sourceCanonical": "Cleber Toledo",
       "sourceDomain": "clebertoledo.com.br",
       "publishedAt": "2026-10-28T17:08:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -260,29 +277,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_a9329993a328",
-      "title": "Sindilojas-VRP repudia exposição de empresários e manifestações de intolerância política",
-      "description": "Entidade considera inadmissível que posicionamentos políticos, reais ou supostos, sejam utilizados para expor empresários, estimular ataques...",
-      "url": "https://portalarauto.com.br/28-10-2026/sindilojas-vrp-repudia-exposicao-de-empresarios-e-manifestacoes-de-intolerancia-politica/",
-      "source": "Portal Arauto",
-      "sourceCanonical": "Portal Arauto",
-      "sourceDomain": "portalarauto.com.br",
-      "publishedAt": "2026-10-28T17:03:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_425c3d160151",
-      "title": "Comerciantes denunciam boicote político e clima de perseguição em várias cidades de MS",
-      "description": "Edson Vargas Benites, de 52 anos, dono de uma loja de venda e reparo de bicicletas em Jardim, levou um susto quando recebeu uma mensagem...",
-      "url": "https://www.diarionline.com.br/index.php?s=noticia&id=159781",
-      "source": "Diário Corumbaense",
-      "sourceCanonical": "Diário Corumbaense",
-      "sourceDomain": "diarionline.com.br",
-      "publishedAt": "2026-10-27T17:49:37+00:00",
-      "postedLabel": "ontem",
+      "id": "article_927a4ae4c727",
+      "title": "Criadores de grupos e listas de boicote em Gramado e Canela são identificados e começam a ser investigados",
+      "description": "Estão identificados os criadores e fundadores de grupos e listas de boicote a empresários e eleitores de Gramado e Canela. Desde o resultado da eleição de...",
+      "url": "https://acontecegramado.com.br/criadores-de-grupos-e-listas-de-boicote-em-gramado-e-canela-sao-dentificados-e-comecam-a-ser-investigados/",
+      "source": "Acontece Gramado",
+      "sourceCanonical": "Acontece Gramado",
+      "sourceDomain": "acontecegramado.com.br",
+      "publishedAt": "2026-10-28T12:03:03+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -302,15 +305,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_927a4ae4c727",
-      "title": "Criadores de grupos e listas de boicote em Gramado e Canela são identificados e começam a ser investigados",
-      "description": "Estão identificados os criadores e fundadores de grupos e listas de boicote a empresários e eleitores de Gramado e Canela. Desde o resultado da eleição de...",
-      "url": "https://acontecegramado.com.br/criadores-de-grupos-e-listas-de-boicote-em-gramado-e-canela-sao-dentificados-e-comecam-a-ser-investigados/",
-      "source": "Acontece Gramado",
-      "sourceCanonical": "Acontece Gramado",
-      "sourceDomain": "acontecegramado.com.br",
-      "publishedAt": "2026-10-28T12:03:03+00:00",
-      "postedLabel": "hoje",
+      "id": "article_3413a0ea792a",
+      "title": "Listas de boicote a 'petistas' podem levar a ações criminais - Folha de Londrina",
+      "description": "A reeleição do presidente Luiz Inácio Lula da Silva (PT), no domingo (25), levou a uma série de retaliações propostas por eleitores do...",
+      "url": "https://www.folhadelondrina.com.br/politica/listas-de-boicote-a-petistas-podem-levar-a-acoes-criminais-3328969e.html",
+      "source": "Folha de Londrina",
+      "sourceCanonical": "Folha de Londrina",
+      "sourceDomain": "folhadelondrina.com.br",
+      "publishedAt": "2026-10-28T20:48:29+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
