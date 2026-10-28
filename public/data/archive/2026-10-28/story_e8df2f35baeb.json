@@ -3,36 +3,45 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lGOVoyZkVoR3cwS1BSVWQ4LXFTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lGOVoyZkVoR3cwS1BSVWQ4LXFTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-3",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 15
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 14,
+      "topic-5": 14
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 15,
-    "bestSeedRank": 15,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "'Eleição passou': em primeiro pronunciamento após resultado, Tarcísio pede 'pacificação'",
   "summary": "Governador de São Paulo publicou vídeo no qual agradeceu a eleitores pelos votos em Flávio Bolsonaro, critica 'interferência do Judiciário'...",
-  "topic": "Tarcísio · Eleição",
+  "topic": "Tarcísio · Flávio",
   "topicKeywords": [
     "tarcísio",
-    "eleição",
     "flávio",
-    "lula",
+    "eleição",
     "passou",
-    "resultado"
+    "resultado",
+    "derrota"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/_8Cn09hCnea8cojCK-MnCqqoO08=/3228x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/B/w/c5FcRITZAYC1SeKg72OA/whatsapp-image-2026-09-07-at-16.15.45.jpeg",
   "publishedAt": "2026-10-23T09:00:00+00:00",
-  "updatedAt": "2026-10-28T05:27:45.145423+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-10-28T06:29:29.832071+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -64,20 +73,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_7bb6aa6cc196",
-      "title": "Aliados de Flávio Bolsonaro reconhecem derrota para Lula",
-      "description": "Governador Tarcísio de Freitas e Alfredo Gaspar, candidato a vice na chapa de Flávio, ...",
-      "url": "https://www.terra.com.br/noticias/brasil/aliados-de-flavio-bolsonaro-reconhecem-derrota-para-lula,42fa38150abd2ae061ac536026fc1d90qpubfjxc.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-10-28T03:56:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/10/28/16868753-79752494354.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_12cc7f0de8e2",
       "title": "Com Flávio a caminho dos EUA, Tarcísio diz que eleição passou e que país precisa de projeto",
       "description": "Governador diz que reconhecer resultado das eleições não significa se calar sobre excessos e diz seis vezes que eleição passou.",
@@ -104,6 +99,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_d819233161de",
+      "title": "A declaração de Tarcísio de Freitas sobre a eleição presidencial",
+      "description": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), gravou vídeo para agradecer o apoio de quase 60 milhões de eleitores que...",
+      "url": "https://veja.abril.com.br/brasil/eleicao-passou-mas-nao-o-desejo-diz-tarcisio-de-freitas-sobre-a-disputa-presidencial/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-27T18:39:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/05/TARCISIO-DE-FREITAS-55210965917.jpg.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e8d2e6147c06",
@@ -162,18 +171,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_d819233161de",
-      "title": "A declaração de Tarcísio de Freitas sobre a eleição presidencial",
-      "description": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), gravou vídeo para agradecer o apoio de quase 60 milhões de eleitores que...",
-      "url": "https://veja.abril.com.br/brasil/eleicao-passou-mas-nao-o-desejo-diz-tarcisio-de-freitas-sobre-a-disputa-presidencial/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-27T18:39:19+00:00",
-      "postedLabel": "hoje",
+      "id": "article_e88c88b03979",
+      "title": "Aliados de Flávio Bolsonaro reconhecem derrota para Lula",
+      "description": "",
+      "url": "https://www.dw.com/pt-br/aliados-de-fl%C3%A1vio-bolsonaro-reconhecem-derrota-para-lula/a-79782287",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-10-28T02:32:44+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_fffab44bcdfd",
@@ -234,13 +243,13 @@
     {
       "id": "article_0845b22b3d60",
       "title": "Tarcísio reconhece resultado da eleição, mas critica atuação do governo federal #shorts #JR24H",
-      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR. comscoreComplete...",
+      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade.",
       "url": "https://noticias.r7.com/jr-na-tv/tarcisio-reconhece-resultado-da-eleicao-mas-critica-atuacao-do-governo-federal-shorts-jr24h-28102026/",
       "source": "R7",
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-10-28T03:38:30+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -274,18 +283,32 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b2b7fc1c13e4",
-      "title": "Vice de Tarcísio diz confiar no sistema eleitoral após vitória de Lula",
-      "description": "Felicio Ramuth critica questionamentos sobre horário de votação e diz confiar plenamente no processo eleitoral. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/vice-governador-de-sao-paulo-diz-confiar-nas-urnas-e-critica-questionamento-apos-apuracao-dos-votos/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-26T15:13:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_9261d273710e",
+      "title": "A fuga de Flávio e a aposta de Tarcísio",
+      "description": "Com a fuga aos Estados Unidos, em acerto com o governo Donald Trump, Flávio perde ainda mais protagonismo.",
+      "url": "https://www.em.com.br/colunistas/bertha-maakaroun/2026/10/7529121-a-fuga-de-flavio-e-a-aposta-de-tarcisio.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-10-28T05:00:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e074e5afc505",
+      "title": "Derrota de Flávio vai além da política para o bolsonarismo? Especialistas opinam",
+      "description": "A derrota de Flávio Bolsonaro (PL) para Luiz Inácio Lula da Silva (PT) na eleição presidencial vai além de um revés nas urnas e pode mudar...",
+      "url": "https://www.terra.com.br/noticias/eleicoes/derrota-de-flavio-vai-alem-da-politica-para-o-bolsonarismo-especialistas-opinam,15d315a8c2c3dcfa438c7ee2852a0829qijzh1fq.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-10-27T08:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_493c84def411",
@@ -300,33 +323,19 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_11f57609cfc4",
-      "title": "Tarcísio sinaliza a aliados que não contestará vitória de Lula, mas evitará contradizer Flávio",
-      "description": "Reconhecimento da vitória de Lula pelo vice-governador de SP, Felício Ramuth (MDB), porém, provocou incômodo em ala do governo paulista.",
-      "url": "https://exame.com/brasil/tarcisio-sinaliza-a-aliados-distancia-de-discurso-que-contesta-eleicao-de-lula-sem-romper-com-flavio/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-27T03:32:51+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.71,
+    "average": 5.41,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 1,
-      "centerLeft": 3,
+      "centerLeft": 4,
       "center": 7,
-      "centerRight": 5,
+      "centerRight": 4,
       "right": 1,
       "unknown": 3
     }
