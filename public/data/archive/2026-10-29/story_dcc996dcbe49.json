@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 10
+      "topic-9": 8
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
+    "firstSeenRank": 8,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +25,15 @@
     "poeira",
     "marte",
     "nasa",
-    "rover",
     "detecta",
-    "partículas"
+    "ultrafina",
+    "rover"
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/noticias/77/2026/10/13/rover-perseverance-da-nasa-em-selfie-em-cima-de-rocha-apelidada-de-rochette-10-de-setembro-de-2021-nasajpl-caltechmsssvia-reuters-1791900377079_v2_615x300.jpg",
   "publishedAt": "2026-10-23T00:15:00+00:00",
-  "updatedAt": "2026-10-29T09:38:56.600361+00:00",
-  "sourceCount": 6,
-  "articleCount": 6,
+  "updatedAt": "2026-10-29T11:34:37.935026+00:00",
+  "sourceCount": 9,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_2e3be66f06ee",
@@ -58,7 +58,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-29T09:00:00+00:00",
-      "postedLabel": "38 minutos atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/28/17932257066ae273ea7aa6e_1793225706_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -73,7 +73,7 @@
       "sourceDomain": "br.tradingview.com",
       "publishedAt": "2026-10-28T17:18:53+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://static.tradingview.com/static/images/logo-preview.png",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -106,6 +106,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_700785832e56",
+      "title": "Perseverance detecta a poeira mais fina já medida em Marte",
+      "description": "O rover da Nasa mediu partículas de poeira marciana de cerca de 100 nanômetros, as mais finas já registradas no planeta.",
+      "url": "https://tvsimbrasil.com.br/brasil/tecnologia/noticia/2026/10/29/perseverance-detecta-poeira-mais-fina-marte",
+      "source": "TV Sim Brasil",
+      "sourceCanonical": "TV Sim Brasil",
+      "sourceDomain": "tvsimbrasil.com.br",
+      "publishedAt": "2026-10-29T10:29:45+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_177c054a77e6",
+      "title": "Robô da Nasa descobre poeira ultrafina em Marte que pode criar grandes desafios para futuros astronautas",
+      "description": "Dados do rover Perseverance revelam partículas de poeira 500 vezes mais finas que um fio de cabelo, orientando a NASA no projeto de...",
+      "url": "https://www.cnnbrasil.com.br/ciencia/robo-da-nasa-descobre-poeira-ultrafina-em-marte-que-pode-criar-grandes-desafios-para-futuros-astronautas/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-10-29T11:19:12+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/NASA-MARTE.png?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_09b2c4fb0233",
       "title": "Poeira ultrafina em Marte preocupa planos da Nasa",
       "description": "Rover Perseverance encontra partículas de poeira marciana 500 vezes mais finas que fio de cabelo e acende alerta para missões tripuladas.",
@@ -118,28 +146,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_39d8e0471d4c",
+      "title": "Robô da Nasa encontra poeira ultrafina em Marte e revela riscos para futuros astronautas",
+      "description": "Robô Perseverance identifica partículas de poeira extremamente pequenas em Marte. Descoberta revela possíveis riscos à saúde dos astronautas...",
+      "url": "https://jornaldafronteira.com.br/robo-da-nasa-encontra-poeira-em-marte/",
+      "source": "Jornal da Fronteira",
+      "sourceCanonical": "Jornal da Fronteira",
+      "sourceDomain": "jornaldafronteira.com.br",
+      "publishedAt": "2026-10-29T11:10:06+00:00",
+      "postedLabel": "24 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 5,
-    "average": 3.33,
-    "knownCount": 3,
-    "unknownCount": 3,
+    "average": 3.75,
+    "knownCount": 4,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 1,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 5
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 68,
     "headlineDivergence": 82,
-    "confidence": 66
+    "confidence": 75
   },
   "flags": [
     "Muitas fontes não classificadas",
