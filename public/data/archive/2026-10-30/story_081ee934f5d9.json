@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lNX0xxakVoR0dMbGotMXN5THRTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lNX0xxakVoR0dMbGotMXN5THRTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 25
+      "topic-3": 23,
+      "topic-5": 27
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 23,
+    "bestSeedRank": 23,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "bolsonaro",
     "valdemar",
     "flávio",
-    "visita",
     "moraes",
-    "jair"
+    "visita",
+    "pede"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/28W-aChKHL1b9hMK6NLBx7eI2uY=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/7/T/6r9LdtSlWz6ZqK36uTLQ/whatsapp-image-2025-03-12-at-14.22.06.jpeg",
   "publishedAt": "2026-10-28T03:00:00+00:00",
-  "updatedAt": "2026-10-30T07:22:05.337792+00:00",
+  "updatedAt": "2026-10-30T08:26:01.908471+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,20 +81,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_155c85c4d22d",
-      "title": "Bolsonaro pede a Moraes para receber Valdemar em prisão domiciliar",
-      "description": "Advogados afirmam que se trata de um encontro 'pessoal específico'; pedido foi feito após o senador Flávio Bolsonaro, candidato do PL...",
-      "url": "https://www.estadao.com.br/politica/bolsonaro-pede-a-moraes-para-receber-valdemar-em-prisao-domiciliar-nprp/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-28T18:54:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/PZ3EPHWCGRACDBGUQTDJGL7W6M.jpg?quality=80&auth=f35a1a299633db77bc67465b343d5bb64aae31069cec4f9b450a014e7a376679&width=1200&height=630&smart=true",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_f0cc319cb7dc",
       "title": "Bancada do PL no Congresso manifesta \"total apoio\" a Flávio Bolsonaro",
       "description": "Em nota, líderes do partido no Parlamento pregaram união \"em defesa da democracia, da liberdade e dos princípios\" do grupo.",
@@ -101,7 +90,7 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-28T20:20:34+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/Flavio-Bolsonaro-em-coletiva-do-PL.jpg?w=1200&h=494&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -128,7 +117,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-10-30T02:02:06+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -148,6 +137,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_155c85c4d22d",
+      "title": "Bolsonaro pede a Moraes para receber Valdemar em prisão domiciliar",
+      "description": "Advogados afirmam que se trata de um encontro 'pessoal específico'; pedido foi feito após o senador Flávio Bolsonaro, candidato do PL...",
+      "url": "https://www.estadao.com.br/politica/bolsonaro-pede-a-moraes-para-receber-valdemar-em-prisao-domiciliar-nprp/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-10-28T18:54:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_07246170779b",
       "title": "O motivo do pedido de Jair Bolsonaro para receber visita de Valdemar, segundo aliados",
       "description": "O entorno de Flávio Bolsonaro (PL) está convencido de que a cúpula do partido rifou o senador. Para aliados da família Bolsonaro, o desgaste...",
@@ -160,20 +163,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_de8b5b8f3ccf",
-      "title": "Coluna da quarta: a celebração de dois aliados de Flávio Bolsonaro",
-      "description": "Nesta terça (27), dois dias após a reeleição do presidente Luiz Inácio Lula da Silva (PT) e em meio à notícia de que o senador Flávio...",
-      "url": "https://blogcenario.com.br/2026/10/28/coluna-da-quarta-a-celebracao-de-dois-aliados-de-flavio-bolsonaro",
-      "source": "Blog Cenário",
-      "sourceCanonical": "Blog Cenário",
-      "sourceDomain": "blogcenario.com.br",
-      "publishedAt": "2026-10-28T03:00:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_264ca09f8cd7",
@@ -190,6 +179,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_de8b5b8f3ccf",
+      "title": "Coluna da quarta: a celebração de dois aliados de Flávio Bolsonaro",
+      "description": "Nesta terça (27), dois dias após a reeleição do presidente Luiz Inácio Lula da Silva (PT) e em meio à notícia de que o senador Flávio...",
+      "url": "https://blogcenario.com.br/2026/10/28/coluna-da-quarta-a-celebracao-de-dois-aliados-de-flavio-bolsonaro",
+      "source": "Blog Cenário",
+      "sourceCanonical": "Blog Cenário",
+      "sourceDomain": "blogcenario.com.br",
+      "publishedAt": "2026-10-28T03:00:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_31de2afbb1a0",
       "title": "Moraes autoriza visita de Valdemar Costa Neto a Jair Bolsonaro",
       "description": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, autorizou o ex-presidente Jair Bolsonaro (PL) a receber a visita do presidente...",
@@ -204,14 +207,14 @@
       "bucket": "left"
     },
     {
-      "id": "article_6694e31608a0",
-      "title": "Valdemar visita Jair Bolsonaro e critica carta de Flávio: \"Não gostei\"",
-      "description": "O presidente do Partido Liberal (PL), Valdemar Costa Neto, disse nesta quinta-feira (29/10) que não gostou da carta em que o senador Flávio...",
-      "url": "https://www.metropoles.com/brasil/valdemar-visita-bolsonaro-e-critica-carta-de-flavio-nao-gostei",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-29T12:21:00+00:00",
+      "id": "article_3a38df540c44",
+      "title": "Michelle amplia espaço no PL, mas também desperta rivais",
+      "description": "senadora eleita amplia influência no partido em meio a incômodos internos, críticas à saída de Flávio e apelos de Damares por união.",
+      "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/do-alto-da-torre/michelle-amplia-espaco-no-pl-mas-tambem-desperta-rivais/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-10-29T22:37:45+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -230,20 +233,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_3a38df540c44",
-      "title": "Michelle amplia espaço no PL, mas também desperta rivais",
-      "description": "senadora eleita amplia influência no partido em meio a incômodos internos, críticas à saída de Flávio e apelos de Damares por união.",
-      "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/do-alto-da-torre/michelle-amplia-espaco-no-pl-mas-tambem-desperta-rivais/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-10-29T22:37:45+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_8ce9149e838f",
@@ -274,6 +263,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_789447994719",
+      "title": "Jair Bolsonaro pede a Moraes para encontrar Valdemar, presidente do PL",
+      "description": "Pedido ocorre após Flávio Bolsonaro perder eleições para Lula e viajar para os EUA, mesmo com proibição de deixar o país.",
+      "url": "https://www.metropoles.com/colunas/manoela-alcantara/jair-bolsonaro-pede-a-moraes-para-encontrar-valdemar-presidente-do-pl",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-10-28T15:18:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_8a03f8d8ab5c",
       "title": "Jornalista do PlatôBR aponta irritação no PL com saída de Flávio Bolsonaro para os EUA",
       "description": "Em entrevista à Rádio Metropole, jornalista Diego Amorim questionou se dirigentes do partido sabiam da viagem e analisou os possíveis...",
@@ -302,14 +305,14 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_15855c147b71",
-      "title": "ANÁLISE: O encontro de Valdemar da Costa Neto e Jair Bolsonaro em Brasília",
-      "description": "Valdemar da Costa Neto conversou por cerca de duas horas com Jair Bolsonaro em prisão domiciliar; saiba mais sobre o encontro e as...",
-      "url": "https://www.otempo.com.br/canal-o-tempo/programas/primeira-analise/2026/10/29/analise-o-encontro-de-valdemar-da-costa-neto-e-jair-bolsonaro-em-brasilia",
-      "source": "O TEMPO",
-      "sourceCanonical": "O Tempo",
-      "sourceDomain": "otempo.com.br",
-      "publishedAt": "2026-10-29T18:17:17+00:00",
+      "id": "article_73a4d871c154",
+      "title": "Valdemar diz que não gostou de carta de teor golpista publicada por Flávio Bolsonaro após derrota para Lula",
+      "description": "O presidente nacional do PL, Valdemar Costa Neto, disse nesta quinta-feira que não gostou da carta de teor golpista divulgada pelo senador...",
+      "url": "https://www.tribunadosertao.com.br/poder-e-governo/2026/10/29/1009061-valdemar-diz-que-nao-gostou-de-carta-de-teor-golpista-publicada-por-flavio-bolsonaro-apos-derrota-para-lula",
+      "source": "Tribuna do Sertão",
+      "sourceCanonical": "Tribuna do Sertão",
+      "sourceDomain": "tribunadosertao.com.br",
+      "publishedAt": "2026-10-29T14:53:37+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
