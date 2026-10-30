@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pnX2YtVkVoRTYwck9sbC1oSVB5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pnX2YtVkVoRTYwck9sbC1oSVB5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2,
       "topic-5": 1
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Netanyahu continua? O impasse em Israel após as eleições legislativas",
   "summary": "Pleito tem acusações de fraude eleitoral e efeitos ambíguos para os principais candidatos ao governo. Partidos árabes podem ser decisivos.",
@@ -31,13 +25,13 @@
     "israel",
     "netanyahu",
     "eleição",
-    "eleições",
     "maioria",
-    "partidos"
+    "não",
+    "eleições"
   ],
   "imageUrl": "https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2026/10/israel-640x399.webp",
   "publishedAt": "2026-10-27T19:43:48+00:00",
-  "updatedAt": "2026-10-30T13:19:47.188169+00:00",
+  "updatedAt": "2026-10-30T14:28:17.967591+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -56,30 +50,44 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_b996390fd988",
-      "title": "Eleições em Israel: coalizão de Netanyahu perde maioria no Parlamento, e partidos entram em corrida para formar novo governo",
-      "description": "Após divulgação dos resultados eleitorais, coalizão de Netanyahu ficou com 53 cadeiras no Parlamento israelense, enquanto oposição obteve 48...",
-      "url": "https://g1.globo.com/mundo/noticia/2026/10/30/eleicoes-israel-coalizao-de-netanyahu-perde-maioria-partidos-entram-em-corrida-novo-governo.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-10-30T10:07:25+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/rSOXSlV0LfhD1SlS9ZK8ioBi1eg=/1500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/u/DH47BNRACEjWexYWXRmQ/fotojet-1-.jpg",
+      "id": "article_b6ca5f0b2be1",
+      "title": "Oposição de Israel começa a articular formação de governo enquanto autoridades eleitorais descartam 'fraude sistêmica'",
+      "description": "Fim da contagem dos votos na noite de quinta confirmou bloco governista com 53 cadeiras, oposição com 48 e listas árabes com 19;...",
+      "url": "https://oglobo.globo.com/mundo/noticia/2026/10/30/oposicao-de-israel-comeca-a-articular-formacao-de-governo-enquanto-autoridades-eleitorais-descartam-fraude-sistemica.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-30T13:00:08+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/Mvue8ydof_Co61Zaf2PXkMmSdjM=/8864x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/C/2/03rLFWSHW8FWZK655a7g/116755211-israeli-left-wing-activists-hold-placards-during-a-demonstration-outside-the-home-of-gadi.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_80f8fcbd5947",
+      "title": "Eleições em Israel: bloco de Netanyahu lidera, mas não alcança maioria",
+      "description": "Coalizão do primeiro-ministro ficou com 53 cadeiras no parlamento, enquanto oposição obteve 48.",
+      "url": "https://gauchazh.clicrbs.com.br/mundo/noticia/2026/10/eleicoes-em-israel-bloco-de-netanyahu-lidera-mas-nao-alcanca-maioria-cmvv0nf9a01v5016gt0lr7sgd.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-10-30T14:06:22+00:00",
+      "postedLabel": "21 minutos atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_a20a3cc6929f",
-      "title": "Bloco de Netanyahu perde maioria no Parlamento em Israel",
-      "description": "Premiê tem 53 cadeiras; oposição, com 48 assentos, e partidos árabes, com 19, podem ser decisivos na formação do governo. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-internacional/bloco-de-netanyahu-perde-maioria-no-parlamento-em-israel/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-10-30T12:58:02+00:00",
-      "postedLabel": "21 minutos atrás",
-      "imageUrl": "https://static.poder360.com.br/uploads/2023/07/bibi-netanyahu.png",
+      "id": "article_9ab23e5d4b58",
+      "title": "Bloco de Netanyahu sai na frente, mas perde maioria do Parlamento em Israel; veja cadeiras",
+      "description": "As projeções de boca de urna foram concretizadas após o término das eleições em Israel e o bloco do premiê Benjamin Netanyahu perdeu a...",
+      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/30/contagem-cadeiras-knesset-israel-parlamento-pos-eleicoesl.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-10-30T09:54:43+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -93,51 +101,9 @@
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-10-29T14:36:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2020/07/palestina.jpg",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_465881d0af13",
-      "title": "Partido de Netanyahu conquista 53 cadeiras, mas fica sem controle do Parlamento de Israel",
-      "description": "O bloco do primeiro-ministro Benjamin Netanyahu superou o da oposição nas eleições em Israel, mas ficou longe da maioria necessária para...",
-      "url": "https://jovempan.com.br/mundo/partido-de-netanyahu-conquista-53-cadeiras-mas-fica-sem-controle-do-parlamento-de-israel/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-10-30T02:53:27+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_b6ca5f0b2be1",
-      "title": "Oposição de Israel começa a articular formação de governo enquanto autoridades eleitorais descartam 'fraude sistêmica'",
-      "description": "Fim da contagem dos votos na noite de quinta confirmou bloco governista com 53 cadeiras, oposição com 48 e listas árabes com 19;...",
-      "url": "https://oglobo.globo.com/mundo/noticia/2026/10/30/oposicao-de-israel-comeca-a-articular-formacao-de-governo-enquanto-autoridades-eleitorais-descartam-fraude-sistemica.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-30T13:00:08+00:00",
-      "postedLabel": "19 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_11d01e7f7ac1",
-      "title": "O que a Folha pensa: Eleições em Israel expõem as cicatrizes do 7 de Outubro",
-      "description": "Netanyahu sai com mais força que o esperado, mas incapaz de formar governo de maioria, assim como a oposição.",
-      "url": "https://www1.folha.uol.com.br/opiniao/2026/10/eleicoes-em-israel-expoem-as-cicatrizes-do-7-de-outubro.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-10-30T01:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_ee21627e4fb0",
@@ -148,10 +114,24 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-10-30T07:40:16+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_78c3bf970da4",
+      "title": "Sionismo em Israel não vai mudar, mas saída de Netanyahu pode desacelerar genocídio em Gaza",
+      "description": "Nenhum partido conseguiu formar maioria no Knesset, o parlamento israelense, após as eleições gerais que aconteceram no início da semana.",
+      "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/10/30/sionismo-em-israel-nao-vai-mudar-mas-saida-de-netanyahu-pode-desacelerar-genocidio-em-gaza/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-10-30T09:00:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c7cdaf0be09e",
@@ -190,7 +170,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-30T09:00:50+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -204,24 +184,24 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-10-29T13:45:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_78c3bf970da4",
-      "title": "Sionismo em Israel não vai mudar, mas saída de Netanyahu pode desacelerar genocídio em Gaza",
-      "description": "Nenhum partido conseguiu formar maioria no Knesset, o parlamento israelense, após as eleições gerais que aconteceram no início da semana.",
-      "url": "https://www.brasildefato.com.br/podcast/brasil-de-fato-entrevista/2026/10/30/sionismo-em-israel-nao-vai-mudar-mas-saida-de-netanyahu-pode-desacelerar-genocidio-em-gaza/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-10-30T09:00:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_465881d0af13",
+      "title": "Partido de Netanyahu conquista 53 cadeiras, mas fica sem controle do Parlamento de Israel",
+      "description": "O bloco do primeiro-ministro Benjamin Netanyahu superou o da oposição nas eleições em Israel, mas ficou longe da maioria necessária para...",
+      "url": "https://jovempan.com.br/mundo/partido-de-netanyahu-conquista-53-cadeiras-mas-fica-sem-controle-do-parlamento-de-israel/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-30T02:53:27+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_572460709523",
@@ -232,7 +212,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-10-30T08:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -252,6 +232,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_a44f64ce467b",
+      "title": "Netanyahu segue como primeiro-ministro interino após eleição sem maioria",
+      "description": "Bloco de direita obteve 53 cadeiras, e oposição, 48; premier fala em suspeita de financiamento estrangeiro. Leia mais no Poder360.",
+      "url": "https://www.poder360.com.br/poder-internacional/netanyahu-segue-como-primeiro-ministro-interino-apos-eleicao-sem-maioria/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-10-29T18:14:58+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_0e066c21eefa",
       "title": "Israel: sem vencedor declarado, partidos discutem coligações",
       "description": "Com a contagem de votos ainda em andamento, não há vencedor definido nas eleições em Israel. Nem o bloco do primeiro-ministro,...",
@@ -264,20 +258,6 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_e368ec68188e",
-      "title": "Israel: com apuração quase completa, Netanyahu não alcança maioria e alega fraude",
-      "description": "Com quase toda a apuração concluída, nenhum dos blocos que disputaram a eleição em Israel alcança a maioria de 61 cadeiras no Knesset, o...",
-      "url": "https://diariodopoder.com.br/exteriores/e02-internacional/israel-com-apuracao-quase-completa-netanyahu-nao-alcanca-maioria-e-alega-fraude",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-10-29T20:58:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_a13682366a4a",
@@ -308,6 +288,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_e368ec68188e",
+      "title": "Israel: com apuração quase completa, Netanyahu não alcança maioria e alega fraude",
+      "description": "Com quase toda a apuração concluída, nenhum dos blocos que disputaram a eleição em Israel alcança a maioria de 61 cadeiras no Knesset, o...",
+      "url": "https://diariodopoder.com.br/exteriores/e02-internacional/israel-com-apuracao-quase-completa-netanyahu-nao-alcanca-maioria-e-alega-fraude",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-10-29T20:58:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
       "id": "article_45c98dd62ad2",
       "title": "Israel: projeção aponta impasse na formação de novo governo",
       "description": "Como nenhum bloco conquistou maioria absoluta, Netanyahu permanece como primeiro-ministro interino até que se avance em alguma decisão.",
@@ -316,7 +310,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-10-29T14:09:49+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -325,13 +319,13 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.58,
+    "average": 5.63,
     "knownCount": 19,
     "unknownCount": 1,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
-      "center": 8,
+      "centerLeft": 2,
+      "center": 9,
       "centerRight": 4,
       "right": 2,
       "unknown": 1

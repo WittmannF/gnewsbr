@@ -4,20 +4,26 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pBeWVLZEVoSDRScTJkdWVpbU1TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-3",
+    "topic-5",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
       "home": 3,
-      "topstories": 3
+      "topstories": 3,
+      "topic-3": 2,
+      "topic-5": 2
     },
     "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "bestSeedRank": 2,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "lula",
     "fonteles",
-    "rafael",
     "fazenda",
+    "rafael",
     "nome",
     "vai"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/U5RPR7PFRBGQZOBMSOWZ5WGCUY.jpg?quality=80&auth=d95b8fe7b85cc4920e8da5e1d3baf6bd8ddb0ee42bee0e63a5b43b84e6521f7f&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-27T14:11:12+00:00",
-  "updatedAt": "2026-10-30T13:19:49.464625+00:00",
+  "updatedAt": "2026-10-30T14:20:25.061734+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -46,11 +52,53 @@
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-10-30T08:30:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "publishedAt": "2026-10-30T11:54:14+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/U5RPR7PFRBGQZOBMSOWZ5WGCUY.jpg?quality=80&auth=d95b8fe7b85cc4920e8da5e1d3baf6bd8ddb0ee42bee0e63a5b43b84e6521f7f&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_0dc7ef9e54bd",
+      "title": "Rafael Fonteles: Como 'petista mais liberal' entrou no radar de Lula para comandar a economia do Brasil",
+      "description": "Reeleito com aprovação recorde no Piauí, ele conduziu governo marcado por parcerias público-privadas e zelo por responsabilidade fiscal.",
+      "url": "https://www.bbc.com/portuguese/articles/cx1l37yrndmro",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-10-30T10:01:51+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/dae1/live/24db8c60-d22f-11f1-b8e4-17c9744a7f8e.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_f9f0fa15ca08",
+      "title": "Lula discute novos ministérios e enfrenta desafios internacionais",
+      "description": "O presidente Luiz Inácio Lula da Silva já iniciou as discussões sobre a composição dos ministérios para o próximo mandato. Entre os nomes...",
+      "url": "https://record.r7.com/fala-brasil/video/lula-discute-novos-ministerios-e-enfrenta-desafios-internacionais-30102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "record.r7.com",
+      "publishedAt": "2026-10-30T13:32:10+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F10-30-2026%2Ft_0331adeaf8ad4e2098097af116cffa7f_name_file_960x540_1600_v4_.jpg?smart=true&auth=58a03d822ff10a76de1fd2f71cde6382af05ee8a2f2a21acf805bc160a70a0c3&width=1200&height=630",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_deda2ce6e0c0",
+      "title": "Ala do PT resiste à indicação de Fonteles para a Fazenda",
+      "description": "Lideranças contrárias a medidas de ajuste fiscal avaliam que governador reeleito do Piauí teria perfil mais 'fiscalista' do que Haddad.",
+      "url": "https://valor.globo.com/politica/noticia/2026/10/30/ala-do-pt-resiste-a-indicacao-de-fonteles-para-a-fazenda.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-10-30T08:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-valor.glbimg.com/4008bvWO2jC95pvxXDdiqWzHS80=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/c/F/5Hm1THTgqrolBYsz1OXQ/foto30pol-101-fonteles-a11.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_20d34d893f20",
@@ -67,34 +115,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_26045b090972",
-      "title": "O ritmo de Lula para definir composição da Esplanada em novo mandato",
-      "description": "O presidente Luiz Inácio Lula da Silva já sinalizou que terá conversas com dirigentes partidários na próxima semana para tratar do desenho...",
-      "url": "https://veja.abril.com.br/politica/o-ritmo-de-lula-para-definir-composicao-de-esplanada-em-novo-mandato/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-30T11:01:25+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/10/AFP__20261027__D4M4627__v1__HighRes__BrazilElectionRunoffAftermathBirthday.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_09968923ea71",
-      "title": "Lula 4 vai conciliar equilíbrio fiscal com ampliação de políticas sociais",
-      "description": "Rafael Fonteles, governador reeleito do Piauí que atuou na coordenação da campanha, afirma que compromissos do presidente são compatíveis...",
-      "url": "https://pt.org.br/lula-4-vai-conciliar-equilibrio-fiscal-com-ampliacao-de-politicas-sociais/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-10-29T23:13:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_49813f8431f6",
       "title": "O que a Folha pensa: Fazenda precisa de Lula 1 e equipe com autonomia",
       "description": "Em seu 4º mandato, petista deveria seguir experiência virtuosa do 1º com Palocci, que conduziu ajustes.",
@@ -104,7 +124,7 @@
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-10-29T01:00:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/28/17932187666ae258ce19d28_1793218766_3x2_rt.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -123,32 +143,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_9e24f286a63c",
-      "title": "Rafael Fonteles e o risco de muita exposição antecipada",
-      "description": "Nome dado como possível ministro da Fazenda no Lula 4, Rafael Fonteles tem dado nos últimos dias diversas entrevistas sobre economia.",
-      "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/10/rafael-fonteles-e-o-risco-de-muita-exposicao-antecipada.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-30T11:23:36+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_09968923ea71",
+      "title": "Lula 4 vai conciliar equilíbrio fiscal com ampliação de políticas sociais",
+      "description": "Rafael Fonteles, governador reeleito do Piauí que atuou na coordenação da campanha, afirma que compromissos do presidente são compatíveis...",
+      "url": "https://pt.org.br/lula-4-vai-conciliar-equilibrio-fiscal-com-ampliacao-de-politicas-sociais/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-10-29T23:13:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_0dc7ef9e54bd",
-      "title": "Rafael Fonteles: Como 'petista mais liberal' entrou no radar de Lula para comandar a economia do Brasil",
-      "description": "Reeleito com aprovação recorde no Piauí, ele conduziu governo marcado por parcerias público-privadas e zelo por responsabilidade fiscal.",
-      "url": "https://www.bbc.com/portuguese/articles/cx1l37yrndmro",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-10-30T10:01:51+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_da8272b0111b",
@@ -163,6 +169,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_26045b090972",
+      "title": "O ritmo de Lula para definir composição da Esplanada em novo mandato",
+      "description": "O presidente Luiz Inácio Lula da Silva já sinalizou que terá conversas com dirigentes partidários na próxima semana para tratar do desenho...",
+      "url": "https://veja.abril.com.br/politica/o-ritmo-de-lula-para-definir-composicao-de-esplanada-em-novo-mandato/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-30T11:01:25+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_8a9fde8a636d",
@@ -193,20 +213,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_0bcb545bd9f6",
-      "title": "Quem pode ser o próximo ministro da Fazenda de Lula? Veja os nomes cotados e o que o mercado espera do escolhido",
-      "description": "Uma das decisões mais aguardadas pelo mercado financeiro, a escolha do próximo ministro da Fazenda ainda está em aberto. O presidente Luiz...",
-      "url": "https://gauchazh.clicrbs.com.br/economia/noticia/2026/10/quem-pode-ser-o-proximo-ministro-da-fazenda-de-lula-veja-os-nomes-cotados-e-o-que-o-mercado-espera-do-escolhido-cmvu11v4n01mo016nq5sj1bi8.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-10-30T00:14:04+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7d5c56924acc",
       "title": "Tropa de choque de Lula quer espaço no governo em 2027",
       "description": "Haddad disputou o governo de SP; Benedita, Gleisi, Pimenta, Randolfe, Tebet e Marina concorreram ao Senado, mas não se elegeram.",
@@ -221,18 +227,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_67f1f2e4dbd9",
-      "title": "Rafael Fonteles fundou colégio parceiro de grupo cearense",
-      "description": "Grupo Educacional CEV, de Teresina, é parceiro do Farias Brito na preparação para ITA e IME.",
-      "url": "https://mais.opovo.com.br/colunistas/erico-firmo/2026/10/29/rafael-fonteles-fundou-colegio-parceiro-de-grupo-cearense.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-10-29T13:36:00+00:00",
+      "id": "article_0bcb545bd9f6",
+      "title": "Quem pode ser o próximo ministro da Fazenda de Lula? Veja os nomes cotados e o que o mercado espera do escolhido",
+      "description": "Especialistas apontam que indicado precisará de capacidade de articulação com Congresso e setor empresarial, além de lidar com pressões...",
+      "url": "https://gauchazh.clicrbs.com.br/economia/noticia/2026/10/quem-pode-ser-o-proximo-ministro-da-fazenda-de-lula-veja-os-nomes-cotados-e-o-que-o-mercado-espera-do-escolhido-cmvu11v4n01mo016nq5sj1bi8.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-10-30T00:14:04+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2ad76d767fb5",
@@ -249,18 +255,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3199d0a03c49",
-      "title": "Lula começa quebra-cabeça dos ministérios: Boulos ganha força, e Janones enfrenta resistência",
-      "description": "A disputa por cargos no quarto governo de Lula já começou nos bastidores, mesmo antes de o presidente reeleito iniciar oficialmente a...",
-      "url": "https://noticias.r7.com/prisma/blog-da-farfan/lula-comeca-quebra-cabeca-dos-ministerios-boulos-ganha-forca-e-janones-enfrenta-resistencia-29102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-29T23:25:31+00:00",
-      "postedLabel": "hoje",
+      "id": "article_6f038220e3e8",
+      "title": "Composição dos ministérios",
+      "description": "Após a vitória, o presidente também já iniciou as articulações para a nova composição dos ministérios do Lula 4. Com as mudanças na campanha...",
+      "url": "https://mais.opovo.com.br/jornal/politica/2026/10/29/composicao-dos-ministerios.html",
+      "source": "O POVO",
+      "sourceCanonical": "O POVO",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-10-29T04:15:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_5ad7cde64efc",
@@ -272,6 +278,20 @@
       "sourceDomain": "moneytimes.com.br",
       "publishedAt": "2026-10-29T20:11:00+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_adc6b7946a9e",
+      "title": "Rafael Fonteles vira queridinho do PT para suceder Lula",
+      "description": "Reeleito no Piauí, governador ganha força como aposta nacional do partido e é cotado para a Fazenda; eventual ida ao governo federal...",
+      "url": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/rafael-fonteles-vira-queridinho-do-pt-para-suceder-lula",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-10-30T11:30:23+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -291,20 +311,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_adc6b7946a9e",
-      "title": "Rafael Fonteles vira queridinho do PT para suceder Lula",
-      "description": "Reeleito no Piauí, governador ganha força como aposta nacional do partido e é cotado para a Fazenda; eventual ida ao governo federal...",
-      "url": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/rafael-fonteles-vira-queridinho-do-pt-para-suceder-lula",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-30T11:30:23+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_4f81635e059a",
       "title": "Rafael Fonteles é excelente nome para Fazenda, diz Durigan",
       "description": "O ministro da Fazenda, Dario Durigan, afirmou nesta 3ª feira (27.out.2026) que o governador do Piauí, Rafael Fonteles (PT), é “um excelente...",
@@ -313,7 +319,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-10-27T14:11:12+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
