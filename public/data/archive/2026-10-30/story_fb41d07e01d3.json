@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXMjVxWkVoR003WWdCYjhNZ2VTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pXMjVxWkVoR003WWdCYjhNZ2VTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 7,
-      "topic-5": 1
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 8
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula mantém pragmatismo e decide ignorar Trump, Flávio e Milei",
   "summary": "O governo de Luiz Inácio Lula da Silva (PT) acompanha com cautela a fuga de Flávio Bolsonaro (PL) aos Estados Unidos e, por ora,...",
@@ -33,8 +36,8 @@
     "eua"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/Lula-Aniversario-81anos-Alvorada-33-1-1080x675.jpg",
-  "publishedAt": "2026-09-17T07:00:00+00:00",
-  "updatedAt": "2026-10-30T03:23:35.640915+00:00",
+  "publishedAt": "2026-10-27T13:40:18+00:00",
+  "updatedAt": "2026-10-30T04:21:47.030951+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -75,7 +78,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-10-30T03:00:00+00:00",
-      "postedLabel": "23 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-g1.glbimg.com/foAevXg-9LauEjx5-x3B1eQnbhU=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/N/T3VXYfSkG7xQdeE6QhGg/montagem-horizontal-1200px-5-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -95,20 +98,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_8208e2ec5695",
-      "title": "Os Estados Unidos e a eleição brasileira",
-      "description": "Seria descabido que a oposição brasileira colocasse toda a esperança de normalização democrática do Brasil na intervenção de uma potência...",
-      "url": "https://www.gazetadopovo.com.br/opiniao/editoriais/estados-unidos-donald-trump-flavio-bolsonaro/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-10-29T23:42:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_8cda783638cd",
       "title": "Trump diz que Lula pediu que ele não tomasse partido na eleição brasileira",
       "description": "Trump disse que achou a eleição \"uma grande vergonha para o povo do Brasil\", mas que falará com o petista em breve. Da CNN Brasil 29/10/26...",
@@ -123,6 +112,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_892b72e2ee0c",
+      "title": "Governo Lula descarta escalar crise com Trump por Flávio Bolsonaro",
+      "description": "Presidente americano voltou a questionar resultado da eleição sem provas. Vitória de Lula foi amplamente reconhecida pela Justiça e líderes...",
+      "url": "https://www.bbc.com/portuguese/live/c6x2v49yvrygt",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-10-27T13:40:18+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_73f3d3efad3c",
       "title": "Donald Trump diz que pretende conversar com presidente Lula",
       "description": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quinta-feira (29) que pretende conversar com o presidente Lula, reeleito no...",
@@ -131,7 +134,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-10-29T22:18:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -145,10 +148,24 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-10-29T23:38:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_88ca5d0eb459",
+      "title": "Trump compra briga com China por causa de Lula",
+      "description": "China reage às declarações do presidente dos EUA, Donald Trump, que questionou o resultado da eleição presidencial brasileira.",
+      "url": "https://www.gazetadopovo.com.br/sem-rodeios/trump-compra-briga-com-china-por-causa-de-lula/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-10-29T15:25:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_9f78a2fccaa9",
@@ -179,18 +196,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_10446ccc6974",
-      "title": "AO VIVO Governo Lula descarta escalar crise com Trump por Flávio Bolsonaro; siga",
-      "description": "Presidente do PL, Valdemar da Costa Neto disse que \"ninguém aprovou\" a carta em que Flávio Bolsonaro questiona a eleição e se diz \"líder do...",
-      "url": "https://www.bbc.com/portuguese/live/c6x2v49yvrygt?page=6",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-10-27T07:00:00+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_7ba9cdae8917",
+      "title": "Brasil quer preservar negociação comercial com EUA mesmo após chegada de Flávio",
+      "description": "Por Mariana Brasil. (Folhapress) – O governo brasileiro pretende preservar a relação comercial com os Estados Unidos e manter as negociações...",
+      "url": "https://iclnoticias.com.br/brasil-preserva-negociacao-comercial-eua/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-10-29T22:33:15+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_956df0afea58",
@@ -205,34 +222,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_5415b0a752a5",
-      "title": "Em busca de relação pragmática, governo brasileiro deve ignorar ida de Flávio Bolsonaro aos EUA",
-      "description": "A avaliação do governo brasileiro é de que a reeleição do presidente Luiz Inácio Lula da Silva é tão incontestável que não há necessidade de...",
-      "url": "https://noticias.r7.com/brasilia/em-busca-de-relacao-pragmatica-governo-brasileiro-deve-ignorar-ida-de-flavio-bolsonaro-aos-eua-29102026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-10-29T21:42:26+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_7ba9cdae8917",
-      "title": "Brasil quer preservar negociação comercial com EUA mesmo após chegada de Flávio",
-      "description": "Por Mariana Brasil. (Folhapress) – O governo brasileiro pretende preservar a relação comercial com os Estados Unidos e manter as negociações...",
-      "url": "https://iclnoticias.com.br/brasil-preserva-negociacao-comercial-eua/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-10-29T22:33:15+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_efcf2c4cc02a",
@@ -257,38 +246,10 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-10-29T23:05:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_ceb3a574441d",
-      "title": "Após carta golpista, Trump volta a questionar pleito no Brasil",
-      "description": "Falando a jornalistas, presidente americano não apresentou nenhum indício ou prova de uma suposta fraude. Lula venceu o segundo turno por...",
-      "url": "https://www.dw.com/pt-br/ap%C3%B3s-carta-golpista-trump-volta-a-questionar-pleito-no-brasil/live-78393402",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-09-17T07:00:00+00:00",
-      "postedLabel": "mês passado",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_0a5f5083cb5c",
-      "title": "Trump diz que conversará com Lula e que petista pediu para não interferir na disputa",
-      "description": "O presidente dos Estados Unidos, Donald Trump, pretende conversar com o presidente reeleito Luiz Inácio Lula da Silva (PT) após o resultado...",
-      "url": "https://www.infomoney.com.br/politica/trump-diz-que-conversara-com-lula-e-que-petista-pediu-para-nao-interferir-na-disputa/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-10-29T16:23:44+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_caa4e183c729",
@@ -299,6 +260,20 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-10-29T15:34:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_5415b0a752a5",
+      "title": "Em busca de relação pragmática, governo brasileiro deve ignorar ida de Flávio Bolsonaro aos EUA",
+      "description": "A avaliação do governo brasileiro é de que a reeleição do presidente Luiz Inácio Lula da Silva é tão incontestável que não há necessidade de...",
+      "url": "https://noticias.r7.com/brasilia/em-busca-de-relacao-pragmatica-governo-brasileiro-deve-ignorar-ida-de-flavio-bolsonaro-aos-eua-29102026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-10-29T21:42:26+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
@@ -317,27 +292,55 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_0a5f5083cb5c",
+      "title": "Trump diz que conversará com Lula e que petista pediu para não interferir na disputa",
+      "description": "O presidente dos Estados Unidos, Donald Trump, pretende conversar com o presidente reeleito Luiz Inácio Lula da Silva (PT) após o resultado...",
+      "url": "https://www.infomoney.com.br/politica/trump-diz-que-conversara-com-lula-e-que-petista-pediu-para-nao-interferir-na-disputa/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-10-29T16:23:44+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ddfa05a2646a",
+      "title": "Trump diz que não tomou partido na eleição do Brasil porque Lula pediu",
+      "description": "Presidente americano também disse que o pleito foi uma vergonha para o Brasil.",
+      "url": "https://jovempan.com.br/mundo/trump-diz-que-nao-tomou-partido-na-eleicao-do-brasil-porque-lula-pediu/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-10-29T15:27:53+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 8,
-    "average": 4.72,
+    "max": 9,
+    "average": 5,
     "knownCount": 18,
     "unknownCount": 2,
     "buckets": {
       "left": 4,
-      "centerLeft": 2,
+      "centerLeft": 1,
       "center": 8,
       "centerRight": 4,
-      "right": 0,
+      "right": 1,
       "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 80,
+    "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
