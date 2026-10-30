@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kwNXFDaEVoSFIwakptSjc0VHVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kwNXFDaEVoSFIwakptSjc0VHVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 23
+      "topic-3": 19,
+      "topic-5": 8
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 19,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "flávio",
     "eua",
     "lula",
+    "fuga",
     "embaixador",
-    "trump",
-    "fuga"
+    "trump"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/IV6JFF4Y2NHILNDAC7FEIRLSY4.jpg?quality=80&auth=0824a75463dc8ce14b17dedd8d6c927681871e167cdcc5c8e58f279e9ca50d24&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-27T19:07:18+00:00",
-  "updatedAt": "2026-10-30T00:46:54.939522+00:00",
+  "updatedAt": "2026-10-30T01:23:09.453606+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,10 +47,24 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-29T21:58:38+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/IV6JFF4Y2NHILNDAC7FEIRLSY4.jpg?quality=80&auth=0824a75463dc8ce14b17dedd8d6c927681871e167cdcc5c8e58f279e9ca50d24&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_5594f4cdc88d",
+      "title": "Governo Lula deve esperar temperatura política baixar após fuga de Flávio para dar aval a novo embaixador dos EUA",
+      "description": "O governo do presidente Luiz Inácio Lula da Silva (PT) deve aguardar a diminuição das tensões políticas provocadas pela fuga do senador...",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/10/29/governo-lula-deve-esperar-temperatura-politica-baixar-apos-fuga-de-flavio-para-dar-aval-a-novo-embaixador-dos-eua.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-29T19:14:44+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-oglobo.glbimg.com/N1Jo2S-RZlqb5FjrAmSCtlAs9_4=/491x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/W/J/jW3WrvRaqU1b1uMLBpIQ/daniel-perez12.png",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_ef43d862f33a",
@@ -64,20 +81,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_5594f4cdc88d",
-      "title": "Governo Lula deve esperar temperatura política baixar após fuga de Flávio para dar aval a novo embaixador dos EUA",
-      "description": "O governo do presidente Luiz Inácio Lula da Silva (PT) deve aguardar a diminuição das tensões políticas provocadas pela fuga do senador...",
-      "url": "https://oglobo.globo.com/politica/noticia/2026/10/29/governo-lula-deve-esperar-temperatura-politica-baixar-apos-fuga-de-flavio-para-dar-aval-a-novo-embaixador-dos-eua.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-10-29T19:14:44+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://s2-oglobo.glbimg.com/N1Jo2S-RZlqb5FjrAmSCtlAs9_4=/491x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/W/J/jW3WrvRaqU1b1uMLBpIQ/daniel-perez12.png",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_8682b2b7898e",
       "title": "Brasil avalia aguardar até dar aval para indicado de Trump à embaixada",
       "description": "Equipe diplomática de Lula entende não fazer sentido conceder o agrément ao republicano Daniel Perez enquanto Donald Trump questionar...",
@@ -89,6 +92,20 @@
       "postedLabel": "5 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/08/daniel-perez-embaixador-eua-brasil-e1786143616566.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_5aa0bf0a3cdd",
+      "title": "Em meio à crise, aval a embaixador dos EUA deve demorar",
+      "description": "Daniel Perez aguarda o “agrément” do governo brasileiro, mas ajuda da Casa Branca à fuga de Flávio tende a prolongar banho-maria do...",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/em-meio-a-crise-aval-a-embaixador-dos-eua-deve-demorar",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-10-29T19:14:22+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -114,6 +131,20 @@
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-10-29T19:58:24+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_8b2b19641527",
+      "title": "Brasil pode condicionar aval diplomático aos EUA à visto de embaixadora",
+      "description": "O governo brasileiro avalia retomar o processo de autorização para que Daniel Perez assuma o cargo de embaixador dos Estados Unidos no...",
+      "url": "https://www.band.com.br/politica/brasil-pode-condicionar-aval-diplomatico-aos-eua-a-visto-de-embaixadora",
+      "source": "Band",
+      "sourceCanonical": "Band",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-10-29T20:57:00+00:00",
       "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -128,24 +159,10 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-10-29T20:13:06+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_5aa0bf0a3cdd",
-      "title": "Em meio à crise, aval a embaixador dos EUA deve demorar",
-      "description": "Daniel Perez aguarda o “agrément” do governo brasileiro, mas ajuda da Casa Branca à fuga de Flávio tende a prolongar banho-maria do...",
-      "url": "https://sbtnews.sbt.com.br/noticia/politica/em-meio-a-crise-aval-a-embaixador-dos-eua-deve-demorar",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-10-29T19:14:22+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_37be2b4fa9cb",
@@ -156,24 +173,10 @@
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
       "publishedAt": "2026-10-29T21:08:58+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_8b2b19641527",
-      "title": "Brasil pode condicionar aval diplomático aos EUA à visto de embaixadora",
-      "description": "O governo brasileiro avalia retomar o processo de autorização para que Daniel Perez assuma o cargo de embaixador dos Estados Unidos no...",
-      "url": "https://www.band.com.br/politica/brasil-pode-condicionar-aval-diplomatico-aos-eua-a-visto-de-embaixadora",
-      "source": "Band",
-      "sourceCanonical": "Band",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-10-29T20:57:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_050b8f93a36a",
@@ -190,6 +193,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_420f08e397a8",
+      "title": "Governo Lula prega cautela em meio à crise com os EUA e fuga de Flávio",
+      "description": "Em meio à recente tensão entre Brasil e Estados Unidos causada pela fuga de Flávio Bolsonaro (PL) após perder as eleições para o presidente Luiz Inácio Lula...",
+      "url": "https://blogdomagno.com.br/governo-lula-prega-cautela-em-meio-a-crise-com-os-eua-e-fuga-de-flavio/",
+      "source": "Blog do Magno",
+      "sourceCanonical": "Blog do Magno",
+      "sourceDomain": "blogdomagno.com.br",
+      "publishedAt": "2026-10-29T12:14:58+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_18b7c94ba340",
       "title": "Lula é orientado por Itamaraty a não dar corda para Milei e Trump no episódio da saída de Flávio do Brasil",
       "description": "Governo brasileiro adota estratégia pragmática e foca em eleições de meio de mandato nos EUA, evitando dar palanque a provocações.",
@@ -197,36 +214,36 @@
       "source": "Correio do Povo",
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-10-30T00:33:45+00:00",
-      "postedLabel": "13 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_1dbba6c3e87f",
-      "title": "Direita brasileira já virou a página do fugitivo Flávio Bolsonaro",
-      "description": "Surpresa e indignação pairam no país após a fuga do candidato derrotado, com a ajuda de Trump e Milei.",
-      "url": "https://expresso.pt/internacional/brasil/2026-10-29-direita-brasileira-ja-virou-a-pagina-do-fugitivo-flavio-bolsonaro-918d00aa?utm_source=expresso&utm_medium=category&utm_campaign=WEB&utm_content=/internacional/brasil/2026-10-29-direita-brasileira-ja-virou-a-pagina-do-fugitivo-flavio-bolsonaro-918d00aa",
-      "source": "Expresso",
-      "sourceCanonical": "Expresso",
-      "sourceDomain": "expresso.pt",
-      "publishedAt": "2026-10-29T22:57:00+00:00",
+      "publishedAt": "2026-10-30T00:35:37+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_1360694570e7",
-      "title": "Governo não pretende reagir à saída de Flávio e mantém diálogo com EUA e Argentina",
-      "description": "Planalto evita reação oficial à saída de Flávio Bolsonaro para manter relações com Trump e Milei, focando no pragmatismo diplomático com EUA...",
-      "url": "https://imirante.com/noticias/brasil/2026/10/29/ipolitica-lula-mantem-pragmatismo-apos-saida-flavio-bolsonaro",
-      "source": "Imirante.com",
-      "sourceCanonical": "Imirante.com",
-      "sourceDomain": "imirante.com",
-      "publishedAt": "2026-10-29T19:52:28+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_23ac7b28c3fb",
+      "title": "Direita brasileira já virou a página do fugitivo Flávio Bolsonaro",
+      "description": "Surpresa e indignação pairam no país após a fuga do candidato derrotado, com a ajuda de Trump e Milei.",
+      "url": "https://expresso.pt/internacional/brasil/2026-10-29-direita-brasileira-ja-virou-a-pagina-do-fugitivo-flavio-bolsonaro-918d00aa?utm_source=expresso&utm_medium=content&utm_campaign=WEB&utm_content=/internacional/brasil/2026-10-29-direita-brasileira-ja-virou-a-pagina-do-fugitivo-flavio-bolsonaro-918d00aa",
+      "source": "Expresso",
+      "sourceCanonical": "Expresso",
+      "sourceDomain": "expresso.pt",
+      "publishedAt": "2026-10-29T22:57:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_f7576cc04c19",
+      "title": "Brasil quer preservar negociação comercial com EUA mesmo após chegada de Flávio Bolsonaro",
+      "description": "Governo Lula evita ampliar crise diplomática após senador derrotado desembarcar em Miami. Tratativas sobre o caso devem ficar a cargo do...",
+      "url": "https://redeutv.com.br/brasil-quer-preservar-negociacao-comercial-com-eua-mesmo-apos-chegada-de-flavio-bolsonaro",
+      "source": "redeutv.com.br",
+      "sourceCanonical": "redeutv.com.br",
+      "sourceDomain": "redeutv.com.br",
+      "publishedAt": "2026-10-29T22:10:00+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,15 +263,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f7576cc04c19",
-      "title": "Brasil quer preservar negociação comercial com EUA mesmo após chegada de Flávio Bolsonaro",
-      "description": "Governo Lula evita ampliar crise diplomática após senador derrotado desembarcar em Miami. Tratativas sobre o caso devem ficar a cargo do...",
-      "url": "https://redeutv.com.br/brasil-quer-preservar-negociacao-comercial-com-eua-mesmo-apos-chegada-de-flavio-bolsonaro",
-      "source": "redeutv.com.br",
-      "sourceCanonical": "redeutv.com.br",
-      "sourceDomain": "redeutv.com.br",
-      "publishedAt": "2026-10-29T22:10:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_6384bd5ba935",
+      "title": "Brasil apura ação da Argentina e dos EUA em fuga de Flávio Bolsonaro",
+      "description": "O governo brasileiro busca dimensionar a participação dos governos da Argentina e dos Estados Unidos na saída do senador Flávio Bolsonaro...",
+      "url": "https://www.opoder.com.br/noticias/34764/brasil-apura-acao-da-argentina-e-dos-eua-em-fuga-de-flavio-bolsonaro",
+      "source": "Jornal O PODER",
+      "sourceCanonical": "Jornal O PODER",
+      "sourceDomain": "opoder.com.br",
+      "publishedAt": "2026-10-29T19:56:25+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -268,35 +285,7 @@
       "sourceCanonical": "Vero Notícias",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-10-29T21:05:42+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_f32d08ec362b",
-      "title": "Lula vai ignorar Trump, Flávio e Milei até eleição nos EUA",
-      "description": "O governo avalia que a ida de Flávio Bolsonaro aos EUA constrange mais a oposição do que o Planalto, e só deve mudar de postura depois do...",
-      "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/10/29/lula-vai-ignorar-trump-flavio-milei-ate-eleicao-eua",
-      "source": "TV Sim Brasil",
-      "sourceCanonical": "TV Sim Brasil",
-      "sourceDomain": "tvsimbrasil.com.br",
-      "publishedAt": "2026-10-29T21:58:30+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_420f08e397a8",
-      "title": "Governo Lula prega cautela em meio à crise com os EUA e fuga de Flávio",
-      "description": "Em meio à recente tensão entre Brasil e Estados Unidos causada pela fuga de Flávio Bolsonaro (PL) após perder as eleições para o presidente Luiz Inácio Lula...",
-      "url": "https://blogdomagno.com.br/governo-lula-prega-cautela-em-meio-a-crise-com-os-eua-e-fuga-de-flavio/",
-      "source": "Blog do Magno",
-      "sourceCanonical": "Blog do Magno",
-      "sourceDomain": "blogdomagno.com.br",
-      "publishedAt": "2026-10-29T12:14:58+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -311,6 +300,20 @@
       "sourceDomain": "blogdobg.com.br",
       "publishedAt": "2026-10-29T22:33:14+00:00",
       "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f32d08ec362b",
+      "title": "Lula vai ignorar Trump, Flávio e Milei até eleição nos EUA",
+      "description": "O governo avalia que a ida de Flávio Bolsonaro aos EUA constrange mais a oposição do que o Planalto, e só deve mudar de postura depois do...",
+      "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/10/29/lula-vai-ignorar-trump-flavio-milei-ate-eleicao-eua",
+      "source": "TV Sim Brasil",
+      "sourceCanonical": "TV Sim Brasil",
+      "sourceDomain": "tvsimbrasil.com.br",
+      "publishedAt": "2026-10-29T21:58:30+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
