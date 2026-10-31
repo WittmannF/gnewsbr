@@ -59,7 +59,7 @@ A interface mantém os dados brutos de Google News como fallback. Quando um clus
 1. Gere uma chave em https://openrouter.ai/settings/keys.
 2. Cadastre `OPENROUTER_API_KEY` em **Repository Settings > Secrets and variables > Actions** (não em `VITE_*`, `public/` ou arquivo versionado).
 3. Opcionalmente configure `OPENROUTER_MODEL` em **Actions Variables**; padrão: `z-ai/glm-5.3-flash`.
-4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. O agendamento diário ocorrerá após a janela de arquivamento e pula a execução paga quando a chave estiver ausente.
+4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. O agendamento diário está **desabilitado para inferência paga por padrão**, mesmo com a chave presente, até concluirmos a validação de evidências. Para habilitá-lo futuramente, configure a Actions Variable `ENABLE_GNEWSBR_SYNTHESIS=true` em **Repository Settings > Secrets and variables > Actions > Variables**. O teste manual (`workflow_dispatch`) continua disponível. A chave sozinha não ativa a rotina diária.
 
 ### Uso local
 
