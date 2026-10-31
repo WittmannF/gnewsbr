@@ -1,12 +1,13 @@
 """Unit tests for grounded structured news synthesis. No network or API key."""
 import sys
+import tempfile
 import unittest
-from unittest.mock import patch
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from enrichment.schemas import NormalizedArticle, ArticleQuality
-from generate_news_synthesis import NewsClaim, NewsSection, CoverageAngle, NewsSynthesis, fingerprint, verify_news, synthesize_validated
+from select_articles_for_enrichment import select
+from generate_news_synthesis import NewsClaim, NewsSection, CoverageAngle, NewsSynthesis, fingerprint, verify_news
 
 
 def article(article_id: str, domain: str) -> NormalizedArticle:
@@ -30,9 +31,9 @@ def sample_news() -> NewsSynthesis:
                               claimIds=["c1", "c2"])],
         claims=[
             NewsClaim(claimId="c1", text="Primeira fonte relata reunião", kind="attributed_statement",
-                      articleId="a1", excerpt="A fonte confirmou que a reunião será na terça-feira."),
+                      articleId="a1"),
             NewsClaim(claimId="c2", text="Segunda fonte relata reunião", kind="attributed_statement",
-                      articleId="a2", excerpt="A fonte confirmou que a reunião será na terça-feira."),
+                      articleId="a2"),
         ],
         coverageAngles=[
             CoverageAngle(articleId="a1", focus="Enfatiza anúncio"),
@@ -50,16 +51,16 @@ class SynthesisTests(unittest.TestCase):
     def test_valid_two_source_synthesis(self):
         verify_news(sample_news(), self.articles)
 
-    def test_rejects_unverifiable_quote(self):
+    def test_article_link_is_sufficient_for_mvp(self):
+        # The model no longer has to copy exact source excerpts.
         news = sample_news()
-        news.claims[0].excerpt = "Não existe tal declaração no texto original."
-        with self.assertRaisesRegex(ValueError, "Unsupported excerpt"):
-            verify_news(news, self.articles)
+        verify_news(news, self.articles)
+        self.assertNotIn("excerpt", news.claims[0].model_dump())
 
     def test_rejects_unknown_article_id(self):
         news = sample_news()
         news.claims[0].articleId = "fictional"
-        with self.assertRaisesRegex(ValueError, "Invalid evidence"):
+        with self.assertRaisesRegex(ValueError, "Unknown article"):
             verify_news(news, self.articles)
 
     def test_rejects_missing_claim(self):
@@ -74,35 +75,28 @@ class SynthesisTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "at least 2"):
             verify_news(news, self.articles)
 
+    def test_frontpage_ids_go_first_in_synthesis_selection(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            normalized = Path(temporary) / "normalized"
+            clusters = Path(temporary) / "clusters"
+            normalized.mkdir()
+            clusters.mkdir()
+            for cid, number in [("top1", 1), ("top2", 1), ("other", 4)]:
+                for index in range(number):
+                    item = article(f"{cid}-{index}", f"{cid}-{index}.example")
+                    item.clusterId = cid
+                    (normalized / f"{item.archiveId}.json").write_text(
+                        item.model_dump_json(), encoding="utf-8"
+                    )
+            selected = select(
+                normalized, clusters, max_clusters=2, articles_per_cluster=5,
+                frontpage_ids=["top1", "top2"]
+            )
+            self.assertEqual([x["clusterId"] for x in selected["clusters"]], ["top1", "top2"])
+
     def test_cache_hash_is_independent_of_article_order(self):
         self.assertEqual(fingerprint(self.articles, "glm"), fingerprint(list(reversed(self.articles)), "glm"))
         self.assertNotEqual(fingerprint(self.articles, "glm"), fingerprint(self.articles, "other"))
-
-    def test_repairs_unsupported_excerpt_once(self):
-        bad = sample_news()
-        bad.claims[0].excerpt = "Texto inventado sobre as fontes."
-        repaired = sample_news()
-        with patch("generate_news_synthesis.chat_completion", side_effect=[
-            (bad, 0.001), (repaired, 0.0012)
-        ]) as completion:
-            news, cost = synthesize_validated("not-a-real-key", "glm", self.articles, "Test")
-        self.assertEqual(news, repaired)
-        self.assertAlmostEqual(cost, 0.0022)
-        self.assertEqual(completion.call_count, 2)
-        self.assertIsNotNone(completion.call_args.kwargs.get("correction"))
-
-    def test_invalid_repair_is_still_rejected(self):
-        bad = sample_news()
-        bad.claims[0].excerpt = "Texto inventado sobre as fontes."
-        with patch("generate_news_synthesis.chat_completion", return_value=(bad, 0.001)) as completion:
-            with self.assertRaisesRegex(ValueError, "Unsupported excerpt"):
-                synthesize_validated("not-a-real-key", "glm", self.articles, "Test")
-        self.assertEqual(completion.call_count, 2)
-
-    def test_valid_news_requires_no_repair(self):
-        with patch("generate_news_synthesis.chat_completion", return_value=(sample_news(), 0.001)) as completion:
-            synthesize_validated("not-a-real-key", "glm", self.articles, "Test")
-        completion.assert_called_once()
 
     def test_no_raw_article_text_in_published_schema(self):
         self.assertNotIn("cleanText", sample_news().model_dump_json())

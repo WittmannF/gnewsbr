@@ -56,6 +56,7 @@ jobs:
           python3 scripts/archive_article_content.py \
             $DATE_ARG \
             --max-clusters "$MAX_CLUSTERS" \
+            --frontpage-top 15 \
             --min-articles-per-cluster 5 \
             --max-articles-per-cluster 8 \
             --timeout 20 \

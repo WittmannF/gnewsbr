@@ -50,6 +50,12 @@ Formato de saída (particionado):
 ```
 
 
+## Leitura diária e ranking
+
+- **Hoje:** radar de cobertura, mantendo a ordem atual por quantidade de artigos e fontes classificadas; a síntese por IA não muda a posição.
+- **Edição:** notícias sintetizadas agrupadas por data de geração (horário de Brasília), com uma história em destaque e acesso a edições anteriores pelo seletor de datas. Não gera texto novo nem dispara LLM: reutiliza `public/data/enrichment/news/latest.json` e os JSONs de cada história. Ainda não é newsletter por e-mail.
+- **Top 15 da home:** o arquivamento diário agora prioriza as 15 primeiras histórias do snapshot utilizado; a síntese prioriza os mesmos IDs e, se houver espaço, inclui outros clusters. O ranking não é modificado. O número efetivamente sintetizado pode ser inferior a 15 quando o extrator não conseguir duas fontes úteis, houver falha de API ou orçamento esgotado; a home exibe a cobertura real. Como a coleta da home é horária e a síntese diária, a cobertura das *15 atuais* pode variar entre execuções.
+
 ## Síntese multifonte experimental (issue #16)
 
 A interface mantém os dados brutos de Google News como fallback. Quando um cluster tiver um resultado **válido** em `public/data/enrichment/news/{clusterId}.json`, a home apresenta uma manchete e um subtítulo próprios, e o detalhe mostra seções e links das fontes efetivamente consultadas. A síntese é assistida por IA, não substitui a leitura das matérias e não constitui verificação factual independente.
@@ -59,7 +65,7 @@ A interface mantém os dados brutos de Google News como fallback. Quando um clus
 1. Gere uma chave em https://openrouter.ai/settings/keys.
 2. Cadastre `OPENROUTER_API_KEY` em **Repository Settings > Secrets and variables > Actions** (não em `VITE_*`, `public/` ou arquivo versionado).
 3. Opcionalmente configure `OPENROUTER_MODEL` em **Actions Variables**; padrão: `z-ai/glm-5.3-flash`.
-4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. O agendamento diário está **desabilitado para inferência paga por padrão**, mesmo com a chave presente, até concluirmos a validação de evidências. Para habilitá-lo futuramente, configure a Actions Variable `ENABLE_GNEWSBR_SYNTHESIS=true` em **Repository Settings > Secrets and variables > Actions > Variables**. O teste manual (`workflow_dispatch`) continua disponível. A chave sozinha não ativa a rotina diária.
+4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. O agendamento diário foi reativado para uma seleção de até 20 clusters após o arquivamento, respeitando o limite diário de US$ 0,25 e mensal de US$ 5 em reservas estimadas. Para pausar a geração agendada sem remover a chave, defina a Actions Variable `ENABLE_GNEWSBR_SYNTHESIS=false`; a execução manual continuará disponível. A execução manual (`workflow_dispatch`) continua disponível.
 
 ### Uso local
 
@@ -72,9 +78,9 @@ python -m unittest discover -s tests -p 'test_news_synthesis.py'
 npm ci && npm run build
 ```
 
-A execução usa `public/data/article-content/{date}/articles/` como entrada, aplica normalização e seleciona até cinco matérias válidas de domínios distintos por cluster. Não gera síntese com menos de duas fontes. A API solicita JSON Schema estrito, valida o resultado com Pydantic e exige trechos curtos realmente presentes no artigo para sustentar as afirmações. Resultados inválidos não são publicados, e nenhuma resposta mock entra no novo índice. A fonte original e seu link são preservados.
+A execução usa `public/data/article-content/{date}/articles/` como entrada, aplica normalização e seleciona até cinco matérias válidas de domínios distintos por cluster. Não gera síntese com menos de duas fontes. A API solicita JSON Schema estrito e valida o resultado com Pydantic. Cada afirmação deve apontar para um artigo selecionado, com ID e URL válidos; o MVP não exige reproduzir excerpts literais. Resultados inválidos não são publicados, e nenhuma resposta mock entra no novo índice. A fonte original e seu link são preservados.
 
-O detector de mudanças Jev (`typesafe/jev-1.14`) está implementado, mas o workflow **desabilita atualizações automáticas via Jev durante a calibração**. O baseline inicial é uma única chamada multifonte GLM por história; a extração individual de alegações e o experimento comparativo em duas etapas continuam pendentes.
+O detector de mudanças Jev (`typesafe/jev-1.14`) existe, mas o workflow **desabilita atualizações automáticas via Jev** até haver necessidade real de atualizá-las durante o dia. O MVP usa uma única chamada do GLM por história, sem tentativa adicional apenas para corrigir uma citação literal.
 
 ### Limites de custo (conservadores)
 

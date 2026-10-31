@@ -62,3 +62,23 @@
 .synthesis-citations{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:#667085;margin-top:12px}
 .synthesis-citations a{display:inline-flex;align-items:center;gap:4px;padding:6px 9px;background:#f3f6ff;border-radius:10px;text-decoration:none}
 @media(max-width:640px){.synthesis-article{padding:19px;border-radius:22px}}
+
+
+/* The edition reuses existing synthesized articles; no duplicate content is generated. */
+.edition-note{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:13px;margin:0 0 16px;padding:0 4px}
+.edition-note button{border:0;background:none;padding:0;color:var(--brand);font-weight:700;cursor:pointer}
+.edition-page{max-width:940px}
+.edition-header{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.edition-header h1{margin:14px 0}
+.edition-date{display:flex;flex-direction:column;gap:7px;color:var(--muted);font-size:13px;font-weight:700}
+.edition-date select{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:145px;color:var(--ink)}
+.edition-count{color:var(--muted);font-size:13px;padding:18px 0}
+.edition-stack{display:grid;gap:16px}
+.edition-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px}
+.edition-card.featured{border-color:#d7ddff;background:linear-gradient(145deg,#f9faff,#fff)}
+.edition-card h2{font-size:clamp(21px,3vw,30px);line-height:1.2;letter-spacing:-.025em;margin:12px 0}
+.edition-card p{font-size:15px;line-height:1.7;color:var(--muted);max-width:80ch}
+.edition-card .edition-meta{display:flex;align-items:center;gap:7px;color:#345174;font-size:12px;font-weight:700}
+.edition-read{margin-top:14px;padding:11px 15px;background:#eff3ff;border:1px solid #e1e6fb;border-radius:13px;color:#2446a7;font-weight:750;cursor:pointer}
+.edition-card .synthesis-article{margin:22px 0 0;box-shadow:none;border-radius:16px;padding:18px}
+@media(max-width:640px){.edition-card{padding:18px}.edition-date{width:100%}.edition-date select{width:100%}}

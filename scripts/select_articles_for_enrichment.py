@@ -67,6 +67,7 @@ def select(
     clusters_dir: Path,
     max_clusters: int,
     articles_per_cluster: int,
+    frontpage_ids: list[str] | None = None,
 ) -> dict:
     # Load all normalized articles grouped by cluster
     cluster_map: dict[str, list[NormalizedArticle]] = {}
@@ -84,7 +85,15 @@ def select(
         key=lambda kv: _cluster_score(kv[1]),
         reverse=True,
     )
-    top = scored[:max_clusters]
+    # Keep the homepage ranking unchanged; only prioritize it for enrichment.
+    # Unknown/missing IDs are ignored, remaining slots follow existing scoring.
+    prioritized = [
+        (cluster_id, cluster_map[cluster_id])
+        for cluster_id in (frontpage_ids or [])[:15]
+        if cluster_id in cluster_map
+    ]
+    seen = {cluster_id for cluster_id, _ in prioritized}
+    top = (prioritized + [(cid, arts) for cid, arts in scored if cid not in seen])[:max_clusters]
 
     result: dict = {"clusters": []}
     for cluster_id, articles in top:
