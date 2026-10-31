@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: news-synthesis-${{ github.ref }}
@@ -46,6 +47,7 @@ jobs:
       - name: Validate schema and evidence tests
         run: python -m unittest discover -s tests -p 'test_news_synthesis.py'
       - name: Generate only when configured and archived
+        id: generate
         if: env.OPENROUTER_API_KEY != ''
         env:
           INPUT_DATE: ${{ inputs.date }}
@@ -68,6 +70,15 @@ jobs:
           echo "Smoke-test scope: date=$DATE, max_clusters=$MAX; key present (not printed)."
           python3 scripts/generate_news_synthesis.py --date "$DATE" --max-clusters "$MAX" --dry-run
           python3 scripts/generate_news_synthesis.py --date "$DATE" --max-clusters "$MAX" --disable-jev
+      - name: Report push smoke-test outcome to issue #16
+        if: always() && github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GENERATE_OUTCOME: ${{ steps.generate.outcome }}
+        run: |
+          RUN_URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          BODY="OpenRouter smoke test: synthesis step status=${GENERATE_OUTCOME}. Run: ${RUN_URL}. Details and token use must be inspected in the run logs. No secret values are included in this report."
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/issues/16/comments" -f body="${BODY}"
       - name: No key configured
         if: env.OPENROUTER_API_KEY == ''
         run: echo "OPENROUTER_API_KEY not configured. No paid requests."
