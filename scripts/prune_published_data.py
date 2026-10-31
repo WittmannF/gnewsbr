@@ -91,9 +91,17 @@ def prune_published_data(dist_dir: Path, days: int) -> dict[str, object]:
     if not data_dir.exists():
         return {"status": "skipped", "reason": "no dist/data directory", "removed": 0}
 
+    # Never deploy third-party full article bodies: this folder is an internal
+    # ingestion artifact, not a public API. Remove it even when no dates exist.
+    raw_articles = data_dir / "article-content"
+    raw_removed = raw_articles.exists()
+    if raw_removed:
+        shutil.rmtree(raw_articles)
+
     newest = discover_newest_date(data_dir)
     if newest is None:
-        return {"status": "skipped", "reason": "no dated published data found", "removed": 0}
+        return {"status": "ok", "reason": "no dated published data found",
+                "removed": int(raw_removed)}
 
     cutoff = newest - timedelta(days=days - 1)
     removed_dirs = prune_date_dirs(data_dir, cutoff)
@@ -104,7 +112,7 @@ def prune_published_data(dist_dir: Path, days: int) -> dict[str, object]:
         "newest_date": newest.isoformat(),
         "cutoff_date": cutoff.isoformat(),
         "retention_days": days,
-        "removed": len(removed_dirs) + len(removed_files),
+        "removed": len(removed_dirs) + len(removed_files) + int(raw_removed),
         "removed_dirs": [str(path.relative_to(dist_dir)) for path in removed_dirs],
         "removed_files": [str(path.relative_to(dist_dir)) for path in removed_files],
     }
