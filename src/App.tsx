@@ -7,7 +7,7 @@ import { bucketColors, bucketLabels, mockNewsData } from './data'
 import type { Cluster, ClusterDetail, NewsPayload, SpectrumBucket, NewsSynthesisPreview, NewsSynthesisDetail } from './types'
 
 const bucketOrder: SpectrumBucket[] = ['left', 'centerLeft', 'center', 'centerRight', 'right', 'unknown']
-const validViews = ['home', 'sources', 'methodology'] as const
+const validViews = ['home', 'edition', 'sources', 'methodology'] as const
 type AppView = (typeof validViews)[number]
 type BeforeInstallPromptEvent = Event & {
   prompt: () => Promise<void>
@@ -83,9 +83,9 @@ function Header({ current, onNavigate }: { current: string; onNavigate: (view: s
         <span><strong>GNewsBR</strong><small>Brasil em perspectiva</small></span>
       </button>
       <nav>
-        {['home', 'sources', 'methodology'].map((item) => (
+        {['home', 'edition', 'sources', 'methodology'].map((item) => (
           <button key={item} className={current === item ? 'active' : ''} onClick={() => onNavigate(item)}>
-            {item === 'home' ? 'Hoje' : item === 'sources' ? 'Fontes' : 'Metodologia'}
+            {item === 'home' ? 'Hoje' : item === 'edition' ? 'Edição' : item === 'sources' ? 'Fontes' : 'Metodologia'}
           </button>
         ))}
       </nav>
@@ -144,6 +144,7 @@ function HomePage({ data, onOpen, onNavigate, syntheses }: { data: NewsPayload; 
         <div className="topic-tabs"><Filter size={16} />{topics.map((t) => <button key={t} className={topic === t ? 'active' : ''} onClick={() => setTopic(t)}>{t}</button>)}{hiddenTopicCount > 0 ? <span className="topic-hint">+{hiddenTopicCount} temas via busca</span> : null}</div>
       </section>
 
+      <div className="edition-note">Sínteses IA disponíveis no top 15: {data.clusters.slice(0, 15).filter((cluster) => syntheses[cluster.id]).length}/15 · <button onClick={() => onNavigate('edition')}>Ler edição</button></div>
       <section className="cluster-grid">
         {filtered.map((cluster) => <ClusterCard key={cluster.id} cluster={cluster} onOpen={onOpen} synthesis={syntheses[cluster.id]} />)}
       </section>
@@ -151,42 +152,10 @@ function HomePage({ data, onOpen, onNavigate, syntheses }: { data: NewsPayload; 
   )
 }
 
-function ClusterDetail({ cluster, loading, error, onRetry, onBack, synthesis }: { cluster: ClusterDetail | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void; synthesis: NewsSynthesisDetail | null }) {
-  if (loading) {
-    return (
-      <main className="detail-page">
-        <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
-        <section className="plain-page"><h1>Carregando cobertura</h1><p>Buscando os artigos completos deste cluster.</p></section>
-      </main>
-    )
-  }
-
-  if (error || !cluster) {
-    return (
-      <main className="detail-page">
-        <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
-        <section className="plain-page"><h1>Falha ao carregar detalhe</h1><p>{error ?? 'Detalhe indisponivel no momento.'}</p><button onClick={onRetry}>Tentar novamente</button></section>
-      </main>
-    )
-  }
-
-  const byBucket = bucketOrder.map((bucket) => ({ bucket, articles: cluster.articles.filter((a) => a.bucket === bucket) })).filter((g) => g.articles.length)
-  const citationSources = new Map((synthesis?.sourceArticles ?? []).map((article) => [article.articleId, article]))
-  const citationClaims = new Map((synthesis?.news.claims ?? []).map((claim) => [claim.claimId, claim]))
+function SynthesisArticle({ synthesis }: { synthesis: NewsSynthesisDetail }) {
+  const citationSources = new Map(synthesis.sourceArticles.map((article) => [article.articleId, article]))
+  const citationClaims = new Map(synthesis.news.claims.map((claim) => [claim.claimId, claim]))
   return (
-    <main className="detail-page">
-      <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
-      <section className="detail-hero">
-        <div>
-          <span className="eyebrow">{cluster.topic}</span>
-          <h1>{synthesis?.news.headline ?? cluster.title}</h1>
-          <p>{synthesis?.news.subtitle ?? cluster.summary}</p>
-          {synthesis ? <div className="synthesis-label"><Sparkles size={15} /> Síntese por IA · {synthesis.sourceArticles.length} fontes · {new Date(synthesis.generatedAt).toLocaleString('pt-BR')}</div> : null}
-          <div className="flag-row large">{cluster.flags.map((flag) => <span key={flag}>{flag}</span>)}</div>
-        </div>
-        <img src={cluster.imageUrl || FALLBACK_CLUSTER_IMAGE} alt="" referrerPolicy="no-referrer" onError={onImageError} />
-      </section>
-      {synthesis ? (
         <section className="synthesis-article" aria-label="Notícia consolidada">
           <div className="synthesis-disclaimer"><Sparkles size={16} /> Síntese automatizada de fontes externas. Declarações e alegações são atribuídas aos veículos originais; consulte os links para verificar o contexto.</div>
           {synthesis.news.sections.map((section, index) => (
@@ -211,7 +180,113 @@ function ClusterDetail({ cluster, loading, error, onRetry, onBack, synthesis }: 
             <ul>{synthesis.news.openQuestions.map((question, i) => <li key={i}>{question}</li>)}</ul>
           </section> : null}
         </section>
-      ) : null}
+  )
+}
+
+// An edition is a reading view over already-generated syntheses. No extra LLM calls.
+function editionDate(iso: string): string {
+  return new Intl.DateTimeFormat('sv-SE', {
+    timeZone: 'America/Sao_Paulo', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(new Date(iso))
+}
+
+function EditionItem({ id, story, featured }: {
+  id: string; story: NewsSynthesisPreview; featured: boolean
+}) {
+  const [expanded, setExpanded] = useState(false)
+  const [detail, setDetail] = useState<NewsSynthesisDetail | null>(null)
+  const [error, setError] = useState(false)
+  useEffect(() => {
+    if (!expanded || detail) return
+    const controller = new AbortController()
+    fetch(`${import.meta.env.BASE_URL}data/enrichment/news/${encodeURIComponent(id)}.json`, { signal: controller.signal })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('Not found')))
+      .then((data: NewsSynthesisDetail) => {
+        if (data.clusterId === id && data.news?.sections?.length) setDetail(data)
+        else setError(true)
+      })
+      .catch(() => { if (!controller.signal.aborted) setError(true) })
+    return () => controller.abort()
+  }, [expanded, detail, id])
+  return <article className={featured ? 'edition-card featured' : 'edition-card'}>
+    {featured ? <span className="eyebrow">Em destaque</span> : null}
+    <h2>{story.headline}</h2>
+    <p>{story.subtitle}</p>
+    <div className="edition-meta"><Sparkles size={14} /> Síntese IA · {story.sourceCount} fontes</div>
+    <button className="edition-read" aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>
+      {expanded ? 'Fechar notícia' : 'Ler notícia consolidada'}
+    </button>
+    {expanded && (detail ? <SynthesisArticle synthesis={detail} /> : error
+      ? <p>Não foi possível abrir esta síntese.</p> : <p>Carregando notícia...</p>)}
+  </article>
+}
+
+function EditionPage({ syntheses, clusters }: {
+  syntheses: Record<string, NewsSynthesisPreview>; clusters: Cluster[]
+}) {
+  const [date, setDate] = useState('')
+  const dates = Array.from(new Set(Object.values(syntheses).map((s) => editionDate(s.generatedAt)))).sort().reverse()
+  const selected = dates.includes(date) ? date : dates[0]
+  const ranks = new Map(clusters.map((cluster, index) => [cluster.id, index]))
+  const entries = Object.entries(syntheses)
+    .filter(([, story]) => editionDate(story.generatedAt) === selected)
+    .sort(([a], [b]) => (ranks.get(a) ?? 9999) - (ranks.get(b) ?? 9999))
+  return <main className="plain-page edition-page">
+    <div className="edition-header">
+      <div>
+        <span className="eyebrow"><Newspaper size={16}/> Leitura diária</span>
+        <h1>Edição do Dia</h1>
+        <p>Histórias sintetizadas a partir de diferentes veículos. A seleção segue a cobertura monitorada, sem substituir a leitura das fontes originais.</p>
+      </div>
+      {dates.length ? <label className="edition-date">Data da edição
+        <select value={selected} onChange={(event) => setDate(event.target.value)}>
+          {dates.map((d) => <option key={d} value={d}>{d.split('-').reverse().join('/')}</option>)}
+        </select>
+      </label> : null}
+    </div>
+    {entries.length === 0 ? <p>Ainda não há sínteses publicadas para uma edição. O radar de notícias continua disponível na aba Hoje.</p> : <>
+      <div className="edition-count">{entries.length} {entries.length === 1 ? 'história' : 'histórias'} sintetizadas · edições anteriores disponíveis pelo seletor de data</div>
+      <div className="edition-stack">
+        {entries.map(([id, story], index) => <EditionItem key={id} id={id} story={story} featured={index === 0}/>)}
+      </div>
+    </>}
+  </main>
+}
+
+function ClusterDetail({ cluster, loading, error, onRetry, onBack, synthesis }: { cluster: ClusterDetail | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void; synthesis: NewsSynthesisDetail | null }) {
+  if (loading) {
+    return (
+      <main className="detail-page">
+        <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
+        <section className="plain-page"><h1>Carregando cobertura</h1><p>Buscando os artigos completos deste cluster.</p></section>
+      </main>
+    )
+  }
+
+  if (error || !cluster) {
+    return (
+      <main className="detail-page">
+        <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
+        <section className="plain-page"><h1>Falha ao carregar detalhe</h1><p>{error ?? 'Detalhe indisponivel no momento.'}</p><button onClick={onRetry}>Tentar novamente</button></section>
+      </main>
+    )
+  }
+
+  const byBucket = bucketOrder.map((bucket) => ({ bucket, articles: cluster.articles.filter((a) => a.bucket === bucket) })).filter((g) => g.articles.length)
+  return (
+    <main className="detail-page">
+      <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
+      <section className="detail-hero">
+        <div>
+          <span className="eyebrow">{cluster.topic}</span>
+          <h1>{synthesis?.news.headline ?? cluster.title}</h1>
+          <p>{synthesis?.news.subtitle ?? cluster.summary}</p>
+          {synthesis ? <div className="synthesis-label"><Sparkles size={15} /> Síntese por IA · {synthesis.sourceArticles.length} fontes · {new Date(synthesis.generatedAt).toLocaleString('pt-BR')}</div> : null}
+          <div className="flag-row large">{cluster.flags.map((flag) => <span key={flag}>{flag}</span>)}</div>
+        </div>
+        <img src={cluster.imageUrl || FALLBACK_CLUSTER_IMAGE} alt="" referrerPolicy="no-referrer" onError={onImageError} />
+      </section>
+      {synthesis ? <SynthesisArticle synthesis={synthesis} /> : null}
       <section className="analysis-grid">
         <div className="analysis-card wide"><h3>Distribuição editorial estimada</h3><SpectrumBar cluster={cluster} /><div className="metric-row"><ScorePill label="Média" value={cluster.spectrum.average?.toFixed(1) ?? '—'} icon={Gauge} /><ScorePill label="Amplitude" value={`${cluster.spectrum.min ?? '—'}–${cluster.spectrum.max ?? '—'}`} icon={BarChart3} /><ScorePill label="Divergência" value={`${cluster.scores.headlineDivergence}%`} icon={TrendingUp} /></div></div>
         <div className="analysis-card"><h3>Confiança do cluster</h3><div className="radial"><span>{cluster.scores.confidence}%</span></div><p>Baseado em fontes conhecidas, quantidade de artigos e completude de metadados.</p></div>
@@ -597,5 +672,5 @@ export function App() {
     }
   }
 
-  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} synthesis={selectedSynthesis} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} syntheses={syntheses} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
+  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} synthesis={selectedSynthesis} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'edition' ? <EditionPage syntheses={syntheses} clusters={data.clusters} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} syntheses={syntheses} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
 }
