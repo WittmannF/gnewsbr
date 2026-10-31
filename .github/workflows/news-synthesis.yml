@@ -29,9 +29,9 @@ concurrency:
 
 jobs:
   synthesize:
-    # Authorized by default for the MVP; set ENABLE_GNEWSBR_SYNTHESIS=false
-    # to pause scheduled paid runs without deleting the API key.
-    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'
+    # Paid scheduled/push inference is disabled by default. Only the exact
+    # Actions variable ENABLE_GNEWSBR_SYNTHESIS=true enables it.
+    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_GNEWSBR_SYNTHESIS == 'true'
     runs-on: ubuntu-latest
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}

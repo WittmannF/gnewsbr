@@ -92,9 +92,10 @@ jobs:
         if: github.event_name != 'push' || steps.integrity.outputs.missing == 'true'
         run: npm run collect
 
+      # Do not spend credits on a normal Pages push unless explicitly opted in.
       - name: Bootstrap today's top 15 source-linked syntheses
         id: bootstrap
-        if: github.event_name == 'push' && (steps.integrity.outputs.missing == 'true' || steps.integrity.outputs.top15_missing == 'true')
+        if: vars.ENABLE_GNEWSBR_SYNTHESIS == 'true' && github.event_name == 'push' && (steps.integrity.outputs.missing == 'true' || steps.integrity.outputs.top15_missing == 'true')
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
