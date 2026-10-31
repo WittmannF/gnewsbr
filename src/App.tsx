@@ -205,7 +205,9 @@ function EditionPage({ syntheses, clusters, onOpen }: {
 
   useEffect(() => {
     setArchived({})
-    if (!selected) return
+    if (!selected || !Object.values(syntheses).some((story) =>
+      editionDate(story.generatedAt) === selected && !story.clusterSnapshot
+    )) return
     const controller = new AbortController()
     fetch(`${import.meta.env.BASE_URL}data/archive/${selected}/index.json`, { signal: controller.signal })
       .then((response) => response.ok ? response.json() : Promise.reject(new Error('Edição arquivada indisponível')))
@@ -216,7 +218,7 @@ function EditionPage({ syntheses, clusters, onOpen }: {
       })
       .catch(() => { /* Current homepage data remains the fallback. */ })
     return () => controller.abort()
-  }, [selected])
+  }, [selected, syntheses])
 
   const current = new Map(clusters.map((cluster, index) => [cluster.id, { cluster, rank: index }]))
   const entries = Object.entries(syntheses)
