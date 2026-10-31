@@ -98,13 +98,16 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
-          # Default to the normal daily reservation cap.
+          # Defaults for ordinary operation; recovery overrides only on 2026-10-31.
           GNEWSBR_DAILY_BUDGET_USD: '0.25'
+          GNEWSBR_MAX_NEW_PER_DAY: '20'
         run: |
           DATE="$(date -u +%F)"
           # Explicitly authorized one-day recovery; never extend $0.45 to future days.
           if [ "$DATE" = '2026-10-31' ]; then
             export GNEWSBR_DAILY_BUDGET_USD='0.45'
+            # Seven stories already generated today; 15 more require a one-day cap of 22.
+            export GNEWSBR_MAX_NEW_PER_DAY='22'
           fi
           python3 scripts/archive_article_content.py \
             --date "$DATE" --max-clusters 15 --frontpage-top 15 \
