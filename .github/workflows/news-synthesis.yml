@@ -1,11 +1,6 @@
 name: Generate grounded news syntheses
 
 on:
-  # One bounded smoke test whenever this workflow changes on main.
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/news-synthesis.yml'
   workflow_dispatch:
     inputs:
       date:
@@ -23,7 +18,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency:
   group: news-synthesis-${{ github.ref }}
@@ -31,6 +25,9 @@ concurrency:
 
 jobs:
   synthesize:
+    # Do not spend LLM credits on recurring runs until evidence grounding is fixed.
+    # Explicit manual workflow_dispatch remains available with a configured API key.
+    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_GNEWSBR_SYNTHESIS == 'true'
     runs-on: ubuntu-latest
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -47,7 +44,6 @@ jobs:
       - name: Validate schema and evidence tests
         run: python -m unittest discover -s tests -p 'test_news_synthesis.py'
       - name: Generate only when configured and archived
-        id: generate
         if: env.OPENROUTER_API_KEY != ''
         env:
           INPUT_DATE: ${{ inputs.date }}
@@ -70,32 +66,6 @@ jobs:
           echo "Smoke-test scope: date=$DATE, max_clusters=$MAX; key present (not printed)."
           python3 scripts/generate_news_synthesis.py --date "$DATE" --max-clusters "$MAX" --dry-run
           python3 scripts/generate_news_synthesis.py --date "$DATE" --max-clusters "$MAX" --disable-jev
-      - name: Verify smoke test produced grounded news
-        id: smoke_validation
-        if: github.event_name == 'push' && env.OPENROUTER_API_KEY != ''
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          index = Path("public/data/enrichment/news/latest.json")
-          if not index.exists():
-              raise SystemExit("No synthesis index generated")
-          data = json.loads(index.read_text(encoding="utf-8"))
-          if not data.get("stories"):
-              raise SystemExit("No grounded news published; check validation errors in prior step")
-          print(f"Validated {len(data['stories'])} published story(s)")
-          PY
-      - name: Report push smoke-test outcome to issue #16
-        if: always() && github.event_name == 'push'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GENERATE_OUTCOME: ${{ steps.generate.outcome }}
-          SMOKE_VALIDATION_OUTCOME: ${{ steps.smoke_validation.outcome }}
-        run: |
-          RUN_URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          STORY_COUNT="$(python -c 'import json,pathlib; p=pathlib.Path("public/data/enrichment/news/latest.json"); print(len(json.loads(p.read_text()).get("stories", {})) if p.exists() else 0)' 2>/dev/null || echo unknown)"
-          BODY="OpenRouter smoke test: generation=${GENERATE_OUTCOME}, grounded_output_check=${SMOKE_VALIDATION_OUTCOME}, available_stories=${STORY_COUNT}. Run: ${RUN_URL}. No API key or article content logged in this report."
-          gh api --method POST "repos/${GITHUB_REPOSITORY}/issues/16/comments" -f body="${BODY}"
       - name: No key configured
         if: env.OPENROUTER_API_KEY == ''
         run: echo "OPENROUTER_API_KEY not configured. No paid requests."
