@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pnX2YtVkVoRTYwck9sbC1oSVB5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pnX2YtVkVoRTYwck9sbC1oSVB5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Netanyahu continua? O impasse em Israel após as eleições legislativas",
   "summary": "Pleito tem acusações de fraude eleitoral e efeitos ambíguos para os principais candidatos ao governo. Partidos árabes podem ser decisivos.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2026/10/israel.webp",
   "publishedAt": "2026-10-29T11:20:34+00:00",
-  "updatedAt": "2026-10-31T04:27:11.871437+00:00",
+  "updatedAt": "2026-10-31T05:16:09.661635+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,6 +84,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_ecaab09e81b7",
+      "title": "Palestinos têm poucas esperanças sobre mudanças após eleições israelenses",
+      "description": "Com 85% dos votos apurados, bloco de Netanyahu lidera, mas sem maioria; analista descarta mudança de curso sobre Estado palestino e processo...",
+      "url": "https://www.cartacapital.com.br/mundo/palestinos-tem-poucas-esperancas-sobre-mudancas-apos-eleicoes-israelenses/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-29T14:36:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2020/07/palestina.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_9ab23e5d4b58",
       "title": "Bloco de Netanyahu sai na frente, mas perde maioria do Parlamento em Israel; veja cadeiras",
       "description": "As projeções de boca de urna foram concretizadas após o término das eleições em Israel e o bloco do premiê Benjamin Netanyahu perdeu a...",
@@ -92,20 +112,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_ecaab09e81b7",
-      "title": "Palestinos têm poucas esperanças sobre mudanças após eleições israelenses",
-      "description": "Com 85% dos votos apurados, bloco de Netanyahu lidera, mas sem maioria; analista descarta mudança de curso sobre Estado palestino e processo...",
-      "url": "https://www.cartacapital.com.br/mundo/palestinos-tem-poucas-esperancas-sobre-mudancas-apos-eleicoes-israelenses/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-29T14:36:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_9a60359e5e1e",
       "title": "Eisenkot acusa Netanyahu de querer ‘deslegitimar’ as eleições em Israel",
       "description": "Líder do Yashar afirmou que premiê e Likud fazem 'campanha coordenada' para 'deslegitimar' as eleições porque 'perderam'",
@@ -115,6 +121,20 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-10-29T17:58:53+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_38788732aaab",
+      "title": "Netanyahu briga pela sobrevivência em uma eleição de ecos ainda incertos",
+      "description": "Em um ano recheado de eleições vitais pelo mundo, as que transcorreram em Israel, na terça-feira 27, ganharam os holofotes ao pôr à mesa em...",
+      "url": "https://veja.abril.com.br/mundo/netanyahu-briga-pela-sobrevivencia-em-uma-eleicao-de-ecos-ainda-incertos/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-30T09:00:50+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -132,20 +152,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_38788732aaab",
-      "title": "Netanyahu briga pela sobrevivência em uma eleição de ecos ainda incertos",
-      "description": "Em um ano recheado de eleições vitais pelo mundo, as que transcorreram em Israel, na terça-feira 27, ganharam os holofotes ao pôr à mesa em...",
-      "url": "https://veja.abril.com.br/mundo/netanyahu-briga-pela-sobrevivencia-em-uma-eleicao-de-ecos-ainda-incertos/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-30T09:00:50+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_1d52e295ef8c",
