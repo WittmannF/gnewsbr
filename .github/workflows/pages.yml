@@ -133,6 +133,12 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "chore(data): refresh Google News stories"
+            # The article archiver can change tracked full-text files that are
+            # intentionally excluded from the commit and Pages artifact.
+            # A dirty worktree prevents the recovery rebase after a concurrent
+            # PR merge. Discard only uncommitted tracked changes, never staged
+            # or committed news/ledger data. Do not publish raw article text.
+            git restore --worktree .
             for attempt in 1 2 3; do
               if git push; then
                 exit 0
@@ -172,21 +178,29 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           DEPLOY_RESULT: ${{ steps.deployment.outcome }}
         run: |
-          COVERAGE="$(python3 - <<'PY'
+          # Report what was actually committed to main, not a local JSON
+          # generated in a failed job (which might never have reached Pages).
+          if git fetch --quiet origin main; then
+            COVERAGE="$(python3 - <<'PY'
           import json
-          from pathlib import Path
-          root = Path('public/data')
-          home_file = root / 'latest.json'
-          synth_file = root / 'enrichment/news/latest.json'
+          import subprocess
+          def from_main(path):
+              content = subprocess.check_output(
+                  ["git", "show", f"origin/main:{path}"], text=True
+              )
+              return json.loads(content)
           try:
-              home = json.loads(home_file.read_text(encoding='utf-8'))
-              synth = json.loads(synth_file.read_text(encoding='utf-8'))
-              ids = [c['id'] for c in home['clusters'][:15]]
-              covered = [cid for cid in ids if cid in synth.get('stories', {})]
-              print(f'{len(covered)}/{len(ids)}')
-          except (OSError, KeyError, ValueError):
-              print('unavailable')
+              home = from_main("public/data/latest.json")
+              synth = from_main("public/data/enrichment/news/latest.json")
+              ids = [c["id"] for c in home["clusters"][:15]]
+              covered = [cid for cid in ids if cid in synth.get("stories", {})]
+              print(f"{len(covered)}/{len(ids)}")
+          except (KeyError, ValueError, subprocess.CalledProcessError):
+              print("unavailable")
           PY
-          )"
-          BODY="GNewsBR Pages bootstrap: deployment=${DEPLOY_RESULT}, top15_synthesized=${COVERAGE}. Workflow: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. This count is based on committed JSON, not model promises."
+            )"
+          else
+            COVERAGE="unavailable"
+          fi
+          BODY="GNewsBR Pages bootstrap: deployment=${DEPLOY_RESULT}, main_top15_synthesized=${COVERAGE}. Workflow: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Main coverage is not proof of deployment; only a successful Pages deploy confirms the artifact was published."
           gh api --method POST "repos/${GITHUB_REPOSITORY}/issues/16/comments" -f body="${BODY}"
