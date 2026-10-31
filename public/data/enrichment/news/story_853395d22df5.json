@@ -1,0 +1,162 @@
+{
+  "clusterId": "story_853395d22df5",
+  "generatedAt": "2026-10-31T13:48:54.756286+00:00",
+  "model": "z-ai/glm-5.3-flash",
+  "promptVersion": "multisource-v2-links",
+  "inputFingerprint": "b4de876063efb02401b51ef64ae101ba47d821c98ca2eb75ffe2dc5113af973e",
+  "sourceArticles": [
+    {
+      "articleId": "article_4c2163960730",
+      "source": "G1",
+      "url": "https://g1.globo.com/economia/noticia/2026/10/31/ibovespa-o-que-esperar-apos-o-tombo.ghtml",
+      "publishedAt": "2026-10-31T07:00:00+00:00"
+    },
+    {
+      "articleId": "article_e978e9e0adda",
+      "source": "Brazil Journal",
+      "url": "https://braziljournal.com/a-bolsa-caiu-16-com-lula-ate-agora-mas-o-estrago-e-maior-do-que-parece",
+      "publishedAt": "2026-10-29T00:21:24+00:00"
+    },
+    {
+      "articleId": "article_b50b1a9cdfdc",
+      "source": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/economia/investimentos/reacao-do-mercado-ao-2o-turno-pode-ter-sido-exagerada-analisa-economista/",
+      "publishedAt": "2026-10-30T17:10:17+00:00"
+    },
+    {
+      "articleId": "article_72c2288b74d8",
+      "source": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/o-estrangeiro-vendeu-bolsa-apos-eleicoes-e-o-investidor-individual-comprou/",
+      "publishedAt": "2026-10-30T13:59:35+00:00"
+    },
+    {
+      "articleId": "article_fabda61aeca9",
+      "source": "Poder360",
+      "url": "https://www.poder360.com.br/poder-economia/bolsa-tem-5a-maior-queda-desde-plano-real-apos-reeleicao-de-lula/",
+      "publishedAt": "2026-10-30T21:57:42+00:00"
+    }
+  ],
+  "news": {
+    "headline": "Ibovespa cai mais de 18% após 2º turno: mercado revisita expectativas com queda similar a crises passadas",
+    "subtitle": "O principal índice da bolsa brasileira registra uma das maiores quedas da história recente, comparável a picos de 2001 e 2008. Analistas apontam que o resultado eleitoral forçou o reajuste de apostas do mercado financeiro.",
+    "sections": [
+      {
+        "heading": "Queda acentuada do índice e do câmbio",
+        "paragraphs": [
+          "O Ibovespa, principal índice da bolsa brasileira, registrou uma forte retração após o resultado do segundo turno das eleições presidenciais. Em um período de uma semana, o índice acumularia perdas significativas, com oscilações que chegam a patamares semelhantes aos registrados em períodos de grande turbulência global.",
+          "De acordo com levantamentos, o Ibovespa sofreu quedas que o colocaram entre as piores semanas desde o Plano Real. Paralelamente, a moeda americana viu uma alta notável no câmbio."
+        ],
+        "claimIds": [
+          "claim_001",
+          "claim_002",
+          "claim_003"
+        ]
+      },
+      {
+        "heading": "Revisão de apostas e incerteza fiscal",
+        "paragraphs": [
+          "A reação do mercado é atribuída à revisão das apostas feitas por investidores ao longo da campanha, que precificavam uma mudança na política econômica e na condução das contas públicas. A derrota das expectativas relacionadas ao apoio a Flávio Bolsonaro causou um forte movimento de reajuste em ativos.",
+          "Tanto o mercado financeiro quanto analistas destacam que a trajetória de alta da dívida pública e a necessidade de estabilidade fiscal permanecem como os principais focos de preocupação dos investidores, que aguardam sinais concretos do governo sobre a economia."
+        ],
+        "claimIds": [
+          "claim_004",
+          "claim_005",
+          "claim_006"
+        ]
+      },
+      {
+        "heading": "Setores mais afetados e cenários futuros",
+        "paragraphs": [
+          "A retração não se limitou ao índice geral, afetando de forma severas setores como imobiliário, small caps e consumo, com perdas isoladas muito acima da média. Para uma recuperação mais consistente, especialistas alertam que será essencial um compromisso fiscal crível por parte do novo governo.",
+          "O cenário exige atenção a novos fatores, como a decisão sobre a taxa Selic e o desfecho de eleições de meio de mandato nos Estados Unidos, que podem influenciar a volatilidade doméstica."
+        ],
+        "claimIds": [
+          "claim_007",
+          "claim_008",
+          "claim_009"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claimId": "claim_001",
+        "text": "O Ibovespa acumulou quedas de 18% em uma semana, o que iguala perdas registradas na semana de 11 de setembro e se aproxima de níveis observados durante a pandemia de Covid-19.",
+        "kind": "documented_event",
+        "articleId": "article_4c2163960730"
+      },
+      {
+        "claimId": "claim_002",
+        "text": "O Ibovespa registrou queda de 18,12% na primeira semana após a reeleição de Lula, sendo esta a 5ª maior desvalorização semanal desde o início do Plano Real. No mesmo período, o dólar comercial acumulou alta de 9,03%.",
+        "kind": "documented_event",
+        "articleId": "article_fabda61aeca9"
+      },
+      {
+        "claimId": "claim_003",
+        "text": "O dólar comercial subiu 1,05% no último pregão, atingindo R$ 5,444, e o Ibovespa fechou com queda de 0,75% para 167.922 pontos.",
+        "kind": "documented_event",
+        "articleId": "article_4c2163960730"
+      },
+      {
+        "claimId": "claim_004",
+        "text": "A queda no mercado reflete a desmontagem de apostas feitas pelos investidores, que precificavam uma mudança na política econômica sob a liderança de Flávio Bolsonaro, o que não ocorreu após a vitória de Lula.",
+        "kind": "analysis",
+        "articleId": "article_4c2163960730"
+      },
+      {
+        "claimId": "claim_005",
+        "text": "Analistas e gestores afirmam que o risco fiscal e a capacidade do governo de estabilizar a dívida pública são pontos centrais que definirão a volatilidade e a recuperação do mercado.",
+        "kind": "attributed_statement",
+        "articleId": "article_4c2163960730"
+      },
+      {
+        "claimId": "claim_006",
+        "text": "O gestor Emerson Vieira De Farias Junior ressalta que o mercado exige dois sinais claros do governo: a definição do ministro da Fazenda e um plano fiscal crível para ancorar as expectativas da dívida.",
+        "kind": "attributed_statement",
+        "articleId": "article_4c2163960730"
+      },
+      {
+        "claimId": "claim_007",
+        "text": "Setores como o imobiliário (IMOB), small caps, consumo (ICON) e financeiro (IFNC) apresentaram as maiores baixas, enquanto ações individuais como Vamos e Magazine Luiza registraram perdas acima de 50%.",
+        "kind": "documented_event",
+        "articleId": "article_e978e9e0adda"
+      },
+      {
+        "claimId": "claim_008",
+        "text": "Os analistas indicam que, para uma recuperação consistente, será necessário um compromisso fiscal crível do governo e a previsibilidade da política econômica.",
+        "kind": "attributed_statement",
+        "articleId": "article_4c2163960730"
+      },
+      {
+        "claimId": "claim_009",
+        "text": "Próximos eventos que podem influenciar o mercado incluem a decisão do Comitê de Política Monetária (Copom) sobre a taxa básica de juros e as eleições de meio de mandato nos Estados Unidos.",
+        "kind": "analysis",
+        "articleId": "article_4c2163960730"
+      }
+    ],
+    "coverageAngles": [
+      {
+        "articleId": "article_4c2163960730",
+        "focus": "Análise macroeconômica sobre a queda do Ibovespa e perspectivas de recuperação."
+      },
+      {
+        "articleId": "article_fabda61aeca9",
+        "focus": "Impacto do resultado eleitoral na Bolsa e no dólar, classificando a queda como a 5ª maior desde o Plano Real."
+      },
+      {
+        "articleId": "article_e978e9e0adda",
+        "focus": "Diferenciação das perdas setoriais e individualmente, além da influência das projeções de inflação do BTG."
+      }
+    ],
+    "openQuestions": [
+      "Quais serão os primeiros sinais do governo, especificamente sobre a indicação do ministro da Fazenda e o plano fiscal, para ancorar a confiança do mercado?",
+      "Como a decisão do Copom sobre a taxa Selic influenciará o humor dos investidores após a forte correção da bolsa?",
+      "Quais consequências o cenário de instabilidade política e fiscal terá sobre o crescimento do PIB e o IPCA nos próximos anos?"
+    ],
+    "confidence": "high"
+  },
+  "lastEvaluated": {
+    "inputFingerprint": "b4de876063efb02401b51ef64ae101ba47d821c98ca2eb75ffe2dc5113af973e",
+    "evaluatedAt": "2026-10-31T13:48:54.756286+00:00",
+    "outcome": "published"
+  }
+}
