@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmaFptZkVoR2R0amdmYlBVUW5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmaFptZkVoR2R0amdmYlBVUW5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 41
+      "topic-3": 54,
+      "topic-5": 55
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 41,
-    "bestSeedRank": 41,
+    "firstSeenRank": 54,
+    "bestSeedRank": 54,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/pequenas-medias-grandes-cidades-lula-flavio-28-out-2026-02-1200x675.png",
   "publishedAt": "2026-10-26T00:05:00+00:00",
-  "updatedAt": "2026-10-31T00:39:02.460017+00:00",
+  "updatedAt": "2026-10-31T01:21:57.538835+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -72,7 +75,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-10-30T22:53:38+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F10-30-2026%2Ft_b2fd107d69624f1e9f3973a6e7a6117e_name_file_960x540_1600_v4_.jpg?smart=true&auth=1ef0a5137cc370c7399d289474802bf44ccf638077d326fd23591585ba36caef&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -226,7 +229,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-10-30T01:04:40+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -288,6 +291,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_2c845d525804",
+      "title": "Lula terá governo impopular mesmo após vitória histórica, diz analista",
+      "description": "Para Cila Schulman, presidente reeleito enfrentará resistência de parte do eleitorado, oposição fortalecida no Congresso e pressão por...",
+      "url": "https://exame.com/brasil/lula-tera-governo-impopular-mesmo-apos-vitoria-historica-diz-analista/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-10-30T19:43:43+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_d91d84013583",
       "title": "Cinco partidos políticos ainda não se manifestaram sobre resultado da eleição",
       "description": "PL de Flávio Bolsonaro reconheceu a vitória de Lula, Novo acusou o petista de instrumentalizar instituições para se manter no poder e PSDB...",
@@ -300,32 +317,18 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_47ad14940d05",
-      "title": "Veja todos os gráficos do ‘Nexo’ sobre a apuração do 2° turno",
-      "description": "Consulte mapas sobre o voto para presidente por municípios e locais de votação. Saiba o perfil dos governadores eleitos nos estados.",
-      "url": "https://www.nexojornal.com.br/serie/2026/10/26/graficos-nexo-eleicoes-2026-segundo-turno",
-      "source": "Nexo Jornal",
-      "sourceCanonical": "Nexo Jornal",
-      "sourceDomain": "nexojornal.com.br",
-      "publishedAt": "2026-10-27T01:47:57+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.94,
+    "average": 5.06,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 2,
-      "centerLeft": 5,
-      "center": 6,
+      "centerLeft": 4,
+      "center": 7,
       "centerRight": 3,
       "right": 1,
       "unknown": 3
