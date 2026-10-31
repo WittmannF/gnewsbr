@@ -100,7 +100,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           DATE="$(date -u +%F)"
           git add -A public/data/latest.json public/data/clusters/latest/ "public/data/archive/$DATE/" public/data/source-spectrum.json
-          git add -A public/data/enrichment/news/ data/enrichment/cost-ledger/ "public/data/article-content/$DATE/" 2>/dev/null || true
+          git add -A public/data/enrichment/news/ data/enrichment/cost-ledger/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
