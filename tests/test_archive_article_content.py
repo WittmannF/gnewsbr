@@ -96,6 +96,29 @@ class ArchiveArticleContentTest(unittest.TestCase):
         self.assertNotIn("alert(1)", extracted["text"])
         self.assertNotIn(".x{}", extracted["text"])
 
+    def test_same_url_in_different_clusters_keeps_both_cluster_records(self):
+        a = make_cluster("story_a", ["home"], 90, article_total=1)
+        b = make_cluster("story_b", ["home"], 90, article_total=1)
+        shared = a["articles"][0]["url"]
+        b["articles"][0]["url"] = shared
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp)
+            archive_article_content.write_article_archive(
+                out_dir=out, date_key="2026-10-31",
+                selected_clusters=[a, b],
+                selected_articles_by_cluster={"story_a": [a["articles"][0]], "story_b": [b["articles"][0]]},
+                extracted_by_url={shared: {
+                    "status": "ok", "text": "Texto compartilhado",
+                    "wordCount": 2, "fetchedAt": "2026-10-31T10:00:00+00:00",
+                }},
+                generated_at="2026-10-31T10:00:00+00:00",
+            )
+            index = json.loads((out / "2026-10-31/index.json").read_text())
+            ids = [cluster["articles"][0]["archiveId"] for cluster in index["clusters"]]
+            self.assertEqual(len(set(ids)), 2)
+            saved = [json.loads((out / "2026-10-31/articles" / aid / "content.json").read_text()) for aid in ids]
+            self.assertEqual([record["clusterId"] for record in saved], ["story_a", "story_b"])
+
     def test_write_archive_outputs_index_cluster_and_article_files_without_raw_html(self):
         cluster = make_cluster("story_1", ["home"], 90, article_total=1)
         article = cluster["articles"][0]
