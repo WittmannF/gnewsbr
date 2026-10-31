@@ -1,10 +1,12 @@
 """Unit tests for grounded structured news synthesis. No network or API key."""
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from enrichment.schemas import NormalizedArticle, ArticleQuality
+from select_articles_for_enrichment import select
 from generate_news_synthesis import NewsClaim, NewsSection, CoverageAngle, NewsSynthesis, fingerprint, verify_news
 
 
@@ -72,6 +74,25 @@ class SynthesisTests(unittest.TestCase):
         news.claims[1].articleId = "a1"
         with self.assertRaisesRegex(ValueError, "at least 2"):
             verify_news(news, self.articles)
+
+    def test_frontpage_ids_go_first_in_synthesis_selection(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            normalized = Path(temporary) / "normalized"
+            clusters = Path(temporary) / "clusters"
+            normalized.mkdir()
+            clusters.mkdir()
+            for cid, number in [("top1", 1), ("top2", 1), ("other", 4)]:
+                for index in range(number):
+                    item = article(f"{cid}-{index}", f"{cid}-{index}.example")
+                    item.clusterId = cid
+                    (normalized / f"{item.archiveId}.json").write_text(
+                        item.model_dump_json(), encoding="utf-8"
+                    )
+            selected = select(
+                normalized, clusters, max_clusters=2, articles_per_cluster=5,
+                frontpage_ids=["top1", "top2"]
+            )
+            self.assertEqual([x["clusterId"] for x in selected["clusters"]], ["top1", "top2"])
 
     def test_cache_hash_is_independent_of_article_order(self):
         self.assertEqual(fingerprint(self.articles, "glm"), fingerprint(list(reversed(self.articles)), "glm"))
