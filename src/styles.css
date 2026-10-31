@@ -48,3 +48,17 @@
 
 .pwa-toast{position:fixed;right:18px;bottom:18px;z-index:60;display:grid;gap:10px;width:min(420px,calc(100vw - 36px));pointer-events:none}.pwa-toast-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:13px 14px;border:1px solid #dbe5ff;border-radius:18px;background:rgba(255,255,255,.94);box-shadow:0 22px 54px rgba(22,34,70,.18);backdrop-filter:blur(14px);color:#25314a;pointer-events:auto}.pwa-toast-row svg{color:var(--brand);flex:0 0 auto}.pwa-toast-row.offline{border-color:#f7d896;background:linear-gradient(135deg,#fff8e8,#fff)}.pwa-toast-row span{flex:1 1 180px;font-size:13px;line-height:1.35}.pwa-toast-row small{flex-basis:100%;color:var(--muted);font-size:12px}.pwa-toast-row button{border:0;border-radius:999px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;padding:8px 12px;font-weight:800;cursor:pointer}.pwa-toast-row button.ghost{background:#eef2fb;color:#445066}@media (max-width:640px){.pwa-toast{right:12px;bottom:12px;width:calc(100vw - 24px)}.pwa-toast-row{align-items:flex-start}.pwa-toast-row button{width:100%}}
 
+
+
+/* Optional, source-grounded AI synthesis. Existing cards and detail remain unchanged without data. */
+.synthesis-label{display:inline-flex;align-items:center;gap:6px;margin:8px 0;color:#2853b6;font-size:12px;font-weight:700}
+.synthesis-article{background:#fff;border:1px solid var(--line);border-radius:28px;padding:clamp(22px,4vw,40px);box-shadow:var(--shadow);margin:18px 0;max-width:100%}
+.synthesis-disclaimer{display:flex;align-items:flex-start;gap:10px;background:#f1f5ff;border-radius:16px;color:#345174;font-size:13px;line-height:1.5;padding:15px}
+.synthesis-section{margin-top:26px}
+.synthesis-section h2{font-size:23px;letter-spacing:-.025em}
+.synthesis-section p{font-size:16px;line-height:1.8;max-width:78ch}
+.synthesis-section li{line-height:1.65;margin:8px 0}
+.synthesis-section a{color:#2446a7}
+.synthesis-citations{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:#667085;margin-top:12px}
+.synthesis-citations a{display:inline-flex;align-items:center;gap:4px;padding:6px 9px;background:#f3f6ff;border-radius:10px;text-decoration:none}
+@media(max-width:640px){.synthesis-article{padding:19px;border-radius:22px}}
