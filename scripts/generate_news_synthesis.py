@@ -278,8 +278,9 @@ def main() -> None:
     ingest(args.date, src, norm_dir)
     # The home is ordered by coverage, not by previous enrichment scoring.
     # Prioritize the archived snapshot of the 15 highest-ranked stories.
-    archive_index = ROOT / "public" / "data" / "archive" / args.date / "index.json"
-    archive_data = _load_json(archive_index, {})
+    # Use the exact snapshot that was extracted, not a newer hourly archive
+    # that may contain different front-page stories.
+    archive_data = _load_json(src.parent / "index.json", {})
     frontpage_ids = [c["id"] for c in archive_data.get("clusters", [])[:15]]
     selection = select(norm_dir, CLUSTERS_LATEST, args.max_clusters, 5, frontpage_ids=frontpage_ids)
     candidates = pick_articles(selection, norm_dir, args.max_clusters)
