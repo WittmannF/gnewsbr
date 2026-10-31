@@ -65,7 +65,7 @@ A interface mantém os dados brutos de Google News como fallback. Quando um clus
 1. Gere uma chave em https://openrouter.ai/settings/keys.
 2. Cadastre `OPENROUTER_API_KEY` em **Repository Settings > Secrets and variables > Actions** (não em `VITE_*`, `public/` ou arquivo versionado).
 3. Opcionalmente configure `OPENROUTER_MODEL` em **Actions Variables**; padrão: `z-ai/glm-5.3-flash`.
-4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. O agendamento diário foi reativado para uma seleção de até 20 clusters após o arquivamento, respeitando o limite diário de US$ 0,25 e mensal de US$ 5 em reservas estimadas. Para interromper o processamento pago, remova temporariamente o secret ou desabilite o workflow no GitHub Actions. A execução manual (`workflow_dispatch`) continua disponível.
+4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. O agendamento diário foi reativado para uma seleção de até 20 clusters após o arquivamento, respeitando o limite diário de US$ 0,25 e mensal de US$ 5 em reservas estimadas. Para pausar a geração agendada sem remover a chave, defina a Actions Variable `ENABLE_GNEWSBR_SYNTHESIS=false`; a execução manual continuará disponível. A execução manual (`workflow_dispatch`) continua disponível.
 
 ### Uso local
 
