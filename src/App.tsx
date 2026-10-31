@@ -190,53 +190,44 @@ function editionDate(iso: string): string {
   }).format(new Date(iso))
 }
 
-function EditionItem({ id, story, featured }: {
-  id: string; story: NewsSynthesisPreview; featured: boolean
-}) {
-  const [expanded, setExpanded] = useState(false)
-  const [detail, setDetail] = useState<NewsSynthesisDetail | null>(null)
-  const [error, setError] = useState(false)
-  useEffect(() => {
-    if (!expanded || detail) return
-    const controller = new AbortController()
-    fetch(`${import.meta.env.BASE_URL}data/enrichment/news/${encodeURIComponent(id)}.json`, { signal: controller.signal })
-      .then((response) => response.ok ? response.json() : Promise.reject(new Error('Not found')))
-      .then((data: NewsSynthesisDetail) => {
-        if (data.clusterId === id && data.news?.sections?.length) setDetail(data)
-        else setError(true)
-      })
-      .catch(() => { if (!controller.signal.aborted) setError(true) })
-    return () => controller.abort()
-  }, [expanded, detail, id])
-  return <article className={featured ? 'edition-card featured' : 'edition-card'}>
-    {featured ? <span className="eyebrow">Em destaque</span> : null}
-    <h2>{story.headline}</h2>
-    <p>{story.subtitle}</p>
-    <div className="edition-meta"><Sparkles size={14} /> Síntese IA · {story.sourceCount} fontes</div>
-    <button className="edition-read" aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>
-      {expanded ? 'Fechar notícia' : 'Ler notícia consolidada'}
-    </button>
-    {expanded && (detail ? <SynthesisArticle synthesis={detail} /> : error
-      ? <p>Não foi possível abrir esta síntese.</p> : <p>Carregando notícia...</p>)}
-  </article>
-}
-
-function EditionPage({ syntheses, clusters }: {
-  syntheses: Record<string, NewsSynthesisPreview>; clusters: Cluster[]
+// Edições reuse the exact same cluster cards and detail view as the homepage.
+// An archive index is loaded once per selected day; complete details remain lazy.
+function EditionPage({ syntheses, clusters, onOpen }: {
+  syntheses: Record<string, NewsSynthesisPreview>
+  clusters: Cluster[]
+  onOpen: (cluster: Cluster) => void
 }) {
   const [date, setDate] = useState('')
-  const dates = Array.from(new Set(Object.values(syntheses).map((s) => editionDate(s.generatedAt)))).sort().reverse()
+  const [archived, setArchived] = useState<Record<string, Cluster>>({})
+  const dates = Array.from(new Set(Object.values(syntheses).map((story) => editionDate(story.generatedAt)))).sort().reverse()
   const selected = dates.includes(date) ? date : dates[0]
-  const ranks = new Map(clusters.map((cluster, index) => [cluster.id, index]))
+
+  useEffect(() => {
+    setArchived({})
+    if (!selected) return
+    const controller = new AbortController()
+    fetch(`${import.meta.env.BASE_URL}data/archive/${selected}/index.json`, { signal: controller.signal })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('Edição arquivada indisponível')))
+      .then((payload: NewsPayload) => {
+        if (!controller.signal.aborted && Array.isArray(payload.clusters)) {
+          setArchived(Object.fromEntries(payload.clusters.map((cluster) => [cluster.id, cluster])))
+        }
+      })
+      .catch(() => { /* Current homepage data remains the fallback. */ })
+    return () => controller.abort()
+  }, [selected])
+
+  const current = new Map(clusters.map((cluster, index) => [cluster.id, { cluster, rank: index }]))
   const entries = Object.entries(syntheses)
     .filter(([, story]) => editionDate(story.generatedAt) === selected)
-    .sort(([a], [b]) => (ranks.get(a) ?? 9999) - (ranks.get(b) ?? 9999))
+    .sort(([a], [b]) => (current.get(a)?.rank ?? 9999) - (current.get(b)?.rank ?? 9999))
+
   return <main className="plain-page edition-page">
     <div className="edition-header">
       <div>
-        <span className="eyebrow"><Newspaper size={16}/> Leitura diária</span>
+        <span className="eyebrow"><Newspaper size={16} /> Leitura diária</span>
         <h1>Edição do Dia</h1>
-        <p>Histórias sintetizadas a partir de diferentes veículos. A seleção segue a cobertura monitorada, sem substituir a leitura das fontes originais.</p>
+        <p>Notícias sintetizadas com links às fontes, foto e comparação da cobertura de cada cluster.</p>
       </div>
       {dates.length ? <label className="edition-date">Data da edição
         <select value={selected} onChange={(event) => setDate(event.target.value)}>
@@ -244,10 +235,22 @@ function EditionPage({ syntheses, clusters }: {
         </select>
       </label> : null}
     </div>
-    {entries.length === 0 ? <p>Ainda não há sínteses publicadas para uma edição. O radar de notícias continua disponível na aba Hoje.</p> : <>
-      <div className="edition-count">{entries.length} {entries.length === 1 ? 'história' : 'histórias'} sintetizadas · edições anteriores disponíveis pelo seletor de data</div>
+    {entries.length === 0 ? <p>Ainda não há sínteses nesta edição. O radar de notícias continua disponível na aba Hoje.</p> : <>
+      <div className="edition-count">{entries.length} {entries.length === 1 ? 'história sintetizada' : 'histórias sintetizadas'} · Selecione um cluster para ler a notícia e comparar as fontes.</div>
       <div className="edition-stack">
-        {entries.map(([id, story], index) => <EditionItem key={id} id={id} story={story} featured={index === 0}/>)}
+        {entries.map(([id, story], index) => {
+          const cluster = archived[id] ?? current.get(id)?.cluster
+          return <div key={id} className={index === 0 ? 'edition-entry featured' : 'edition-entry'}>
+            {index === 0 ? <span className="eyebrow">Em destaque</span> : null}
+            {cluster
+              ? <ClusterCard cluster={cluster} synthesis={story} onOpen={onOpen} />
+              : <article className="edition-card">
+                  <h2>{story.headline}</h2>
+                  <p>{story.subtitle}</p>
+                  <p>Os dados de comparação deste cluster não estão disponíveis neste arquivo.</p>
+                </article>}
+          </div>
+        })}
       </div>
     </>}
   </main>
@@ -578,15 +581,15 @@ export function App() {
     return () => controller.abort()
   }, [selected?.id, syntheses])
 
-  const loadClusterDetail = useCallback((summary: Cluster, updateHistory = true) => {
-    setView('home')
+  const loadClusterDetail = useCallback((summary: Cluster, updateHistory = true, origin: AppView = 'home') => {
+    setView(origin)
     setSelected(summary)
     setDetailLoading(true)
     setDetailError(null)
     setSelectedDetail(null)
 
     if (updateHistory) {
-      updateUrl('home', summary.id, 'push')
+      updateUrl(origin, summary.id, 'push')
     }
 
     if (summary.articles?.length) {
@@ -629,7 +632,9 @@ export function App() {
         return
       }
 
+      // A cluster opened from an older edition may not be in the current live index.
       const summary = data.clusters.find((cluster) => cluster.id === clusterId)
+        ?? (selected?.id === clusterId ? selected : null)
       if (!summary) {
         clearDetailState()
         return
@@ -639,7 +644,7 @@ export function App() {
         return
       }
 
-      loadClusterDetail(summary, false)
+      loadClusterDetail(summary, false, routeView)
     }
 
     syncRouteFromUrl()
@@ -678,5 +683,5 @@ export function App() {
     }
   }
 
-  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} fallback={selected} synthesis={selectedSynthesis} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'edition' ? <EditionPage syntheses={syntheses} clusters={data.clusters} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} syntheses={syntheses} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
+  return <><Header current={view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} fallback={selected} synthesis={selectedSynthesis} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'edition' ? <EditionPage syntheses={syntheses} clusters={data.clusters} onOpen={(cluster) => loadClusterDetail(cluster, true, 'edition')} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} syntheses={syntheses} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
 }
