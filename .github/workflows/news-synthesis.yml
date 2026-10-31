@@ -70,14 +70,31 @@ jobs:
           echo "Smoke-test scope: date=$DATE, max_clusters=$MAX; key present (not printed)."
           python3 scripts/generate_news_synthesis.py --date "$DATE" --max-clusters "$MAX" --dry-run
           python3 scripts/generate_news_synthesis.py --date "$DATE" --max-clusters "$MAX" --disable-jev
+      - name: Verify smoke test produced grounded news
+        id: smoke_validation
+        if: github.event_name == 'push' && env.OPENROUTER_API_KEY != ''
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          index = Path("public/data/enrichment/news/latest.json")
+          if not index.exists():
+              raise SystemExit("No synthesis index generated")
+          data = json.loads(index.read_text(encoding="utf-8"))
+          if not data.get("stories"):
+              raise SystemExit("No grounded news published; check validation errors in prior step")
+          print(f"Validated {len(data['stories'])} published story(s)")
+          PY
       - name: Report push smoke-test outcome to issue #16
         if: always() && github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
           GENERATE_OUTCOME: ${{ steps.generate.outcome }}
+          SMOKE_VALIDATION_OUTCOME: ${{ steps.smoke_validation.outcome }}
         run: |
           RUN_URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          BODY="OpenRouter smoke test: synthesis step status=${GENERATE_OUTCOME}. Run: ${RUN_URL}. Details and token use must be inspected in the run logs. No secret values are included in this report."
+          STORY_COUNT="$(python -c 'import json,pathlib; p=pathlib.Path("public/data/enrichment/news/latest.json"); print(len(json.loads(p.read_text()).get("stories", {})) if p.exists() else 0)' 2>/dev/null || echo unknown)"
+          BODY="OpenRouter smoke test: generation=${GENERATE_OUTCOME}, grounded_output_check=${SMOKE_VALIDATION_OUTCOME}, available_stories=${STORY_COUNT}. Run: ${RUN_URL}. No API key or article content logged in this report."
           gh api --method POST "repos/${GITHUB_REPOSITORY}/issues/16/comments" -f body="${BODY}"
       - name: No key configured
         if: env.OPENROUTER_API_KEY == ''

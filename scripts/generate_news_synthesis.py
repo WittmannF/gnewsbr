@@ -157,19 +157,37 @@ def verify_news(news: NewsSynthesis, articles: list[NormalizedArticle]) -> None:
             raise ValueError("Unknown source in coverageAngles")
 
 
-def chat_completion(key: str, model: str, articles: list[NormalizedArticle], title: str) -> tuple[NewsSynthesis, float]:
+def chat_completion(
+    key: str,
+    model: str,
+    articles: list[NormalizedArticle],
+    title: str,
+    correction: tuple[NewsSynthesis, str] | None = None,
+) -> tuple[NewsSynthesis, float]:
+    user_input: dict = {
+        "clusterTitle": title,
+        "articles": [
+            {"articleId": a.articleId, "source": a.source, "url": a.url,
+             "publishedAt": a.publishedAt, "title": a.title, "text": a.cleanText[:12000]}
+            for a in articles
+        ],
+    }
+    if correction is not None:
+        draft, validation_error = correction
+        user_input["previousDraft"] = draft.model_dump()
+        user_input["validationError"] = validation_error
+        user_input["repairInstructions"] = (
+            "Corrija as evidências que não correspondem literalmente aos artigos. "
+            "Mantenha as afirmações e a estrutura sempre que forem sustentadas. "
+            "Copie cada excerpt exatamente de um artigo com o MESMO articleId; "
+            "se não houver trecho que sustente a afirmação, remova a claim e "
+            "suas referências. Devolva novamente o JSON completo."
+        )
     payload = {
         "model": model,
         "messages": [
             {"role": "system", "content": SYSTEM},
-            {"role": "user", "content": json.dumps({
-                "clusterTitle": title,
-                "articles": [
-                    {"articleId": a.articleId, "source": a.source, "url": a.url,
-                     "publishedAt": a.publishedAt, "title": a.title, "text": a.cleanText[:12000]}
-                    for a in articles
-                ],
-            }, ensure_ascii=False)},
+            {"role": "user", "content": json.dumps(user_input, ensure_ascii=False)},
         ],
         "response_format": {
             "type": "json_schema",
@@ -203,6 +221,27 @@ def chat_completion(key: str, model: str, articles: list[NormalizedArticle], tit
             if attempt == 2:
                 raise RuntimeError(f"OpenRouter synthesis failed: {type(exc).__name__}") from exc
     raise RuntimeError("OpenRouter unavailable")
+
+
+def synthesize_validated(
+    key: str, model: str, articles: list[NormalizedArticle], title: str
+) -> tuple[NewsSynthesis, float]:
+    """One bounded correction call for an inaccurate model quotation.
+
+    This never weakens the source-substring check or silently accepts unsupported claims.
+    """
+    news, cost = chat_completion(key, model, articles, title)
+    try:
+        verify_news(news, articles)
+        return news, cost
+    except ValueError as error:
+        if "Unsupported excerpt" not in str(error):
+            raise
+        repaired, repair_cost = chat_completion(
+            key, model, articles, title, correction=(news, str(error))
+        )
+        verify_news(repaired, articles)
+        return repaired, cost + repair_cost
 
 
 def jev_change(key: str, before: dict, articles: list[NormalizedArticle]) -> tuple[str, float]:
@@ -347,8 +386,9 @@ def main() -> None:
         ledger["events"].append({"clusterId": cid, "kind": "reserved", "at": now.isoformat(), "budgetReservedUsd": 0.01})
         budget_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2), encoding="utf-8")
         try:
-            news, measured_cost = chat_completion(key, args.model, articles, cluster.get("clusterTitle", ""))
-            verify_news(news, articles)
+            news, measured_cost = synthesize_validated(
+                key, args.model, articles, cluster.get("clusterTitle", "")
+            )
         except Exception as exc:
             print(f"SKIP {cid}: {exc}", file=sys.stderr)
             continue
