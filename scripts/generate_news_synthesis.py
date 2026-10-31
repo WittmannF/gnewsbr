@@ -285,11 +285,14 @@ def main() -> None:
 
     output_dir = ENRICHMENT_PUBLIC / "news"
     output_dir.mkdir(parents=True, exist_ok=True)
-    budget_path = ENRICHMENT_DATA / "cost-ledger" / f"{args.date}.json"
+    # Charge budgets by EXECUTION day, not the requested archive day. Otherwise a
+    # workflow_dispatch backfill could bypass the monthly safety limit.
+    billing_date = utc_now().strftime("%Y-%m-%d")
+    budget_path = ENRICHMENT_DATA / "cost-ledger" / f"{billing_date}.json"
     budget_path.parent.mkdir(parents=True, exist_ok=True)
     ledger = _load_json(budget_path, {"events": [], "estimatedCostUsd": 0.0})
     monthly_dir = budget_path.parent
-    month_cost = sum(float(_load_json(x, {}).get("estimatedCostUsd", 0)) for x in monthly_dir.glob(f"{args.date[:7]}-*.json"))
+    month_cost = sum(float(_load_json(x, {}).get("estimatedCostUsd", 0)) for x in monthly_dir.glob(f"{billing_date[:7]}-*.json"))
     daily_cost = float(ledger.get("estimatedCostUsd", 0))
     now = utc_now()
     new_count = sum(e.get("kind") == "new" for e in ledger["events"])
