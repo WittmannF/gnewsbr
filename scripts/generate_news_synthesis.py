@@ -142,8 +142,8 @@ def verify_news(news: NewsSynthesis, articles: list[NormalizedArticle]) -> None:
         if claim.articleId not in by_id or len(claim.excerpt.strip()) < 12 or len(claim.excerpt) > 300:
             raise ValueError(f"Invalid evidence for {claim.claimId}")
         # Compact whitespace to tolerate line wrapping, but require real quote in given input.
-        text = re.sub(r"\\s+", " ", by_id[claim.articleId].cleanText).casefold()
-        quote = re.sub(r"\\s+", " ", claim.excerpt).strip().casefold()
+        text = re.sub(r"\s+", " ", by_id[claim.articleId].cleanText).casefold()
+        quote = re.sub(r"\s+", " ", claim.excerpt).strip().casefold()
         if quote not in text[:12500]:
             raise ValueError(f"Unsupported excerpt for {claim.claimId}")
         support_sources.add(by_id[claim.articleId].sourceDomain or by_id[claim.articleId].source)
