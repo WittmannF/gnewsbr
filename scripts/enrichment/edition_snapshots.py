@@ -121,7 +121,7 @@ def index_story_entry(payload: dict, existing: dict | None = None, root: Path = 
     """Stable snapshot across index rebuilds, including later hourly refreshes."""
     news = payload["news"]
     cluster_id = payload["clusterId"]
-    date = payload["generatedAt"][:10]
+    date = payload.get("archiveDate") or payload["generatedAt"][:10]
     snapshot = (existing or {}).get("clusterSnapshot") or snapshot_for_story(cluster_id, {
         **news, "generatedAt": payload["generatedAt"],
     }, date, root)
