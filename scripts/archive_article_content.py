@@ -382,7 +382,9 @@ def write_article_archive(
         cluster_articles: list[dict[str, Any]] = []
         for article_rank, article in enumerate(selected_articles, start=1):
             url = str(article["url"])
-            archive_id = stable_id(url)
+            # One article URL can appear in multiple clusters; do not overwrite
+            # another cluster's raw record or misattribute its synthesis source.
+            archive_id = stable_id(f"{cluster_id}:{url}")
             extracted = extracted_by_url.get(url, {"status": "not_fetched", "text": "", "wordCount": 0, "fetchedAt": generated_at})
             record = article_archive_record(cluster, article, extracted, archive_id)
             record["articleRank"] = article_rank
