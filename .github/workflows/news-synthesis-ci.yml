@@ -1,0 +1,37 @@
+name: Validate news synthesis PR
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'src/**'
+      - 'requirements.txt'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: pip install -r requirements.txt
+      - name: Verify Python syntax
+        run: python -m compileall -q scripts tests
+      - name: Test generated news, page publication safety
+        run: python -m unittest discover -s tests -p 'test_news_synthesis.py' && python -m unittest discover -s tests -p 'test_prune_published_data.py'
+      - run: npm ci
+      - name: Build React
+        run: npm run build
