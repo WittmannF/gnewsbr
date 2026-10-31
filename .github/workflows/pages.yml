@@ -23,6 +23,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 jobs:
   update-build-deploy:
@@ -137,3 +138,28 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Report top-15 deployment to issue #16
+        if: always() && github.event_name == 'push' && steps.integrity.outputs.missing == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOY_RESULT: ${{ steps.deployment.outcome }}
+        run: |
+          COVERAGE="$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('public/data')
+          home_file = root / 'latest.json'
+          synth_file = root / 'enrichment/news/latest.json'
+          try:
+              home = json.loads(home_file.read_text(encoding='utf-8'))
+              synth = json.loads(synth_file.read_text(encoding='utf-8'))
+              ids = [c['id'] for c in home['clusters'][:15]]
+              covered = [cid for cid in ids if cid in synth.get('stories', {})]
+              print(f'{len(covered)}/{len(ids)}')
+          except (OSError, KeyError, ValueError):
+              print('unavailable')
+          PY
+          )"
+          BODY="GNewsBR Pages bootstrap: deployment=${DEPLOY_RESULT}, top15_synthesized=${COVERAGE}. Workflow: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. This count is based on committed JSON, not model promises."
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/issues/16/comments" -f body="${BODY}"
