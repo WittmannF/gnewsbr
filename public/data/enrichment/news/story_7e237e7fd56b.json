@@ -1,0 +1,216 @@
+{
+  "clusterId": "story_7e237e7fd56b",
+  "generatedAt": "2026-10-31T14:56:53.376038+00:00",
+  "model": "z-ai/glm-5.3-flash",
+  "promptVersion": "multisource-v2-links",
+  "inputFingerprint": "f3f7e025d76a6f8d423140c37bf992d74f8060478f12d486cf751fb1b5753e25",
+  "sourceArticles": [
+    {
+      "articleId": "article_55039834811e",
+      "source": "G1",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/10/30/resumao-diario-do-jn-hackers-roubam-mais-de-us-6-bilhoes-da-maior-corretora-de-criptomoedas-do-mundo-para-tem-o-maior-numero-de-focos-de-incendio-em-tres-decadas.ghtml",
+      "publishedAt": "2026-10-31T00:40:06+00:00"
+    },
+    {
+      "articleId": "article_12bf9e5e7605",
+      "source": "O GLOBO",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/10/30/roubo-do-seculo-especialistas-afastam-uso-de-ia-e-explicam-fator-humano-em-desvio-recorde-de-r-34-bi-na-binance.ghtml",
+      "publishedAt": "2026-10-30T16:41:17+00:00"
+    },
+    {
+      "articleId": "article_e9ac8a2fddb0",
+      "source": "Valor Econômico",
+      "url": "https://valor.globo.com/mundo/noticia/2026/10/31/de-hollywood-a-binance-como-a-coreia-do-norte-se-tornou-uma-superpotencia-em-ataques-hackers.ghtml",
+      "publishedAt": "2026-10-31T11:00:01+00:00"
+    },
+    {
+      "articleId": "article_aa98fc3ec881",
+      "source": "VEJA",
+      "url": "https://veja.abril.com.br/economia/os-erros-e-as-pessoas-que-permitiram-que-r-34-bilhoes-fossem-roubados-em-vinte-minutos/",
+      "publishedAt": "2026-10-31T01:45:12+00:00"
+    },
+    {
+      "articleId": "article_3893c7a9bca5",
+      "source": "Estadão",
+      "url": "https://www.estadao.com.br/einvestidor/cripto/trump-diz-que-os-eua-investigam-se-a-coreia-do-norte-esta-por-tras-do-ataque-a-binance-npr/",
+      "publishedAt": "2026-10-30T20:32:24+00:00"
+    }
+  ],
+  "news": {
+    "headline": "Binance sofre o maior roubo de criptomoedas da história: US$ 6,3 bilhões desviados em minutos, com suspeita de ligação com a Coreia do Norte",
+    "subtitle": "A corretora suspendeu saques, congelou cerca de metade do valor desviado e prometeu cobrir as perdas dos clientes. Especialistas descartam quebra da criptografia e apontam o fator humano — comprometimento do computador de um engenheiro — como origem provável do ataque.",
+    "sections": [
+      {
+        "heading": "Como foi o ataque",
+        "paragraphs": [
+          "A Binance, maior corretora de criptomoedas do mundo, suspendeu saques e depósitos após uma invasão que resultou no desvio de US$ 6,3 bilhões (cerca de R$ 34 bilhões), considerado o maior crime da história do mercado cripto.",
+          "O Globo",
+          "A corretora afirma ter congelado aproximadamente US$ 3 bilhões do valor movimentado e prometeu ressarcir os clientes por meio de um fundo de reserva.",
+          "Estadão",
+          "O Globo",
+          "Segundo o diretor de Relações Institucionais da TI Safe, Leonardo Cardoso, a remoção do dinheiro ocorreu entre 10 e 20 minutos: os invasores usaram logins legítimos comprometidos para realizar alavancagens e tomaram novos recursos em garantia pela rede Ethereum.",
+          "O Globo",
+          "A investigação inicial da própria Binance indica que o alvo foi o computador de um engenheiro de operações, cujos equipamentos têm acesso amplo a ambientes críticos. A empresa disse não ter encontrado evidências de vazamento das chaves privadas das carteiras.",
+          "O Globo",
+          "Estadão"
+        ],
+        "claimIds": [
+          "claim_oglobo_desvio",
+          "claim_oglobo_velocidade",
+          "claim_oglobo_laptop",
+          "claim_estadao_congelou",
+          "claim_estadao_sem_chaves"
+        ]
+      },
+      {
+        "heading": "Fator humano, não quebra da criptografia",
+        "paragraphs": [
+          "Especialistas ouvidos pela imprensa descartam que a criptografia ou a estrutura da blockchain tenha sido violada. \"Eu não acredito que a criptografia tenha sido quebrada, isso é praticamente impossível com a tecnologia atual. Na verdade, houve acesso por meio de credenciais válidas\", avaliou Leonardo Cardoso, da TI Safe.",
+          "O Globo",
+          "O especialista Dionisio Chiuratto, em entrevista à VEJA, classificou o ataque como uma operação de engenharia social que explorou vulnerabilidades humanas e destacou que, mesmo grandes empresas tecnológicas, podem ser comprometidas quando pessoas com acesso privilegiado são alvo. Ele também levantou a possibilidade de uso de inteligência artificial pelos criminosos.",
+          "VEJA",
+          "Marcus Bispo, da Vision Cybersecurity, também descarta uso avançado de IA para quebrar criptografia, embora a ferramenta possa ter sido empregada para tornar a engenharia social mais elaborada ou automatizar técnicas de ataque.",
+          "O Globo"
+        ],
+        "claimIds": [
+          "claim_oglobo_cardoso_citacao",
+          "claim_veja_chiuratto",
+          "claim_oglobo_bispo"
+        ]
+      },
+      {
+        "heading": "Suspeita recai sobre a Coreia do Norte",
+        "paragraphs": [
+          "A empresa de rastreamento TRM Labs afirmou ter \"alta confiança\" de que o ataque foi conduzido pelo grupo TraderTraitor, associado à Coreia do Norte e ligado ao grupo Lazarus. A Chainalysis apontou a mesma autoria provável, mas a Binance ainda não confirmou a identidade dos responsáveis.",
+          "Estadão",
+          "O presidente americano Donald Trump disse que os EUA investigam se hackers norte-coreanos estão por trás do ataque. \"Estamos investigando\", afirmou no Salão Oval, acrescentando: \"Foi um ataque hacker\".",
+          "Estadão",
+          "O caso remete a antecedentes atribuídos ao mesmo grupo: o roubo de US$ 1,5 bilhão da corretora Bybit em fevereiro de 2025 — então o maior da história — e a invasão da Sony Pictures em 2014.",
+          "Estadão",
+          "Valor",
+          "O Valor Econômico destaca que o montante subtraído é quase duas vezes maior que o total de criptomoedas roubadas no mundo no ano passado, e que hackers norte-coreanos são vistos como agentes estatais que geram moeda estrangeira para o regime de Kim Jong-un.",
+          "Valor"
+        ],
+        "claimIds": [
+          "claim_estadao_trm",
+          "claim_estadao_trump",
+          "claim_valor_comparacao"
+        ]
+      },
+      {
+        "heading": "Impacto no mercado",
+        "paragraphs": [
+          "A repercussão derrubou as cotações do setor digital: o Bitcoin recuou mais de 4% e caiu para menos de US$ 80 mil pela primeira vez em mais de um mês, segundo o O Globo. A corretora segue tentando restabelecer os saques, enquanto agências de inteligência rastreiam o destino do dinheiro.",
+          "O Globo"
+        ],
+        "claimIds": [
+          "claim_oglobo_bitcoin"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claimId": "claim_oglobo_desvio",
+        "text": "A Binance suspendeu todos os saques após invasão que resultou no desvio de US$ 6,3 bilhões (cerca de R$ 34 bilhões), considerado o maior crime da história do mercado de criptomoedas.",
+        "kind": "documented_event",
+        "articleId": "article_12bf9e5e7605"
+      },
+      {
+        "claimId": "claim_oglobo_velocidade",
+        "text": "Segundo Leonardo Cardoso, da TI Safe, toda a remoção do dinheiro virtual ocorreu entre 10 e 20 minutos, com uso de logins legítimos comprometidos para alavancagens e novas garantias pela rede Ethereum.",
+        "kind": "attributed_statement",
+        "articleId": "article_12bf9e5e7605"
+      },
+      {
+        "claimId": "claim_oglobo_laptop",
+        "text": "As investigações preliminares da Binance indicam que o alvo foi o computador de um engenheiro de operações, profissional com acesso amplo a ambientes críticos.",
+        "kind": "documented_event",
+        "articleId": "article_12bf9e5e7605"
+      },
+      {
+        "claimId": "claim_estadao_congelou",
+        "text": "A Binance informou ter congelado aproximadamente US$ 3 bilhões do montante desviado e disse que um fundo de reserva cobrirá o ressarcimento dos clientes.",
+        "kind": "documented_event",
+        "articleId": "article_3893c7a9bca5"
+      },
+      {
+        "claimId": "claim_estadao_sem_chaves",
+        "text": "A Binance declarou não ter encontrado evidências de vazamento das chaves privadas das carteiras; a origem exata e o método da invasão ainda são investigados.",
+        "kind": "documented_event",
+        "articleId": "article_3893c7a9bca5"
+      },
+      {
+        "claimId": "claim_oglobo_cardoso_citacao",
+        "text": "Leonardo Cardoso (TI Safe) descarta violação da criptografia: \"houve acesso por meio de credenciais válidas\" após invasão do computador de um funcionário.",
+        "kind": "attributed_statement",
+        "articleId": "article_12bf9e5e7605"
+      },
+      {
+        "claimId": "claim_veja_chiuratto",
+        "text": "Dionisio Chiuratto afirma que o ataque foi viabilizado por engenharia social e comprometimento das credenciais de um engenheiro, com possível auxílio de IA.",
+        "kind": "attributed_statement",
+        "articleId": "article_aa98fc3ec881"
+      },
+      {
+        "claimId": "claim_oglobo_bispo",
+        "text": "Marcus Bispo (Vision Cybersecurity) diz que quebrar a criptografia com IA é tecnicamente muito difícil, mas a IA pode ter sido usada para tornar a engenharia social mais elaborada.",
+        "kind": "attributed_statement",
+        "articleId": "article_12bf9e5e7605"
+      },
+      {
+        "claimId": "claim_estadao_trm",
+        "text": "TRM Labs e Chainalysis apontam, com alta confiança, o grupo TraderTraitor (associado à Coreia do Norte e ao Lazarus) como autor provável; a Binance ainda não confirmou a autoria.",
+        "kind": "attributed_statement",
+        "articleId": "article_3893c7a9bca5"
+      },
+      {
+        "claimId": "claim_estadao_trump",
+        "text": "Donald Trump afirmou que os EUA investigam se hackers norte-coreanos estão por trás do ataque, mas não atribuiu definitivamente a autoria.",
+        "kind": "attributed_statement",
+        "articleId": "article_3893c7a9bca5"
+      },
+      {
+        "claimId": "claim_valor_comparacao",
+        "text": "O Valor Econômico, citando analistas, nota que o prejuízo é quase duas vezes maior que o total de criptomoedas roubadas no mundo no ano passado (cerca de US$ 2 bilhões, segundo a Chainalysis).",
+        "kind": "attributed_statement",
+        "articleId": "article_e9ac8a2fddb0"
+      },
+      {
+        "claimId": "claim_oglobo_bitcoin",
+        "text": "Após o ataque, o Bitcoin recuou mais de 4% e caiu para menos de US$ 80 mil pela primeira vez em mais de um mês.",
+        "kind": "documented_event",
+        "articleId": "article_12bf9e5e7605"
+      }
+    ],
+    "coverageAngles": [
+      {
+        "articleId": "article_12bf9e5e7605",
+        "focus": "Detalhes técnicos do ataque, fator humano e reação do mercado, com especialistas em cibersegurança"
+      },
+      {
+        "articleId": "article_aa98fc3ec881",
+        "focus": "Análise de especialista sobre engenharia social e superfície de ataque em grandes empresas"
+      },
+      {
+        "articleId": "article_3893c7a9bca5",
+        "focus": "Resposta oficial da Binance, congelamento de recursos e tese de autoria norte-coreana"
+      },
+      {
+        "articleId": "article_e9ac8a2fddb0",
+        "focus": "Contexto histórico da guerra cibernética norte-coreana e estrutura de treinamento de hackers"
+      }
+    ],
+    "openQuestions": [
+      "A Binance ainda não confirmou oficialmente a identidade dos responsáveis pelo ataque.",
+      "A origem exata da invasão e o método utilizado pelos hackers permanecem sob investigação.",
+      "Não há confirmação de que as verdadeiras motivações incluíam manipular cotações para lucrar com a queda do mercado — hipótese levantada como especulação pelo O Globo.",
+      "A verba exata efetivamente perdida e a possibilidade de recuperação total dos valores desviados seguem incertas."
+    ],
+    "confidence": "high"
+  },
+  "lastEvaluated": {
+    "inputFingerprint": "f3f7e025d76a6f8d423140c37bf992d74f8060478f12d486cf751fb1b5753e25",
+    "evaluatedAt": "2026-10-31T14:56:53.376038+00:00",
+    "outcome": "published"
+  }
+}

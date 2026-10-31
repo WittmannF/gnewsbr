@@ -1,0 +1,173 @@
+{
+  "clusterId": "story_c9cc052537e6",
+  "generatedAt": "2026-10-31T14:56:53.376038+00:00",
+  "model": "z-ai/glm-5.3-flash",
+  "promptVersion": "multisource-v2-links",
+  "inputFingerprint": "55d7fb4ad97edbd12c03a7d3e3e0d6124be7174c654b4135d161d22addb1dc1e",
+  "sourceArticles": [
+    {
+      "articleId": "article_456f75836ef1",
+      "source": "ICL Notícias",
+      "url": "https://iclnoticias.com.br/vorcaro-tinha-pleno-conhecimento-e/",
+      "publishedAt": "2026-10-31T08:58:06+00:00"
+    },
+    {
+      "articleId": "article_f7bafb21d693",
+      "source": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/politica/ex-presidente-do-brb-poe-ibaneis-no-centro-do-master/",
+      "publishedAt": "2026-10-30T18:04:01+00:00"
+    },
+    {
+      "articleId": "article_d4ec4d9971d3",
+      "source": "Valor Econômico",
+      "url": "https://valor.globo.com/financas/noticia/2026/10/31/preso-por-suspeita-de-receber-propina-ex-ceo-do-brb-diz-a-pf-que-banco-nao-perdeu-dinheiro-em-operacoes-com-master.ghtml",
+      "publishedAt": "2026-10-31T13:20:37+00:00"
+    },
+    {
+      "articleId": "article_a412d6193567",
+      "source": "Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/republica/indiciamentos-do-master-nao-envolvem-politicos-e-novos-pedidos-vao-poupar-ministros-do-stf/",
+      "publishedAt": "2026-10-31T13:58:00+00:00"
+    },
+    {
+      "articleId": "article_c09f46581360",
+      "source": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/vorcaro-diz-que-nao-fez-nada-errado-e-pede-voto-de-confianca",
+      "publishedAt": "2026-10-29T21:18:00+00:00"
+    }
+  ],
+  "news": {
+    "headline": "Depoimentos à PF revelam versões divergentes no caso Banco Master, e Vorcaro nega fraudes",
+    "subtitle": "Em oitivas à Polícia Federal, Daniel Vorcaro negou fraude e pediu perícia, enquanto o ex-sócio Augusto Lima afirmou que ele comandava as operações de consignado. O ex-presidente do BRB, Paulo Henrique Costa, afirmou que o banco público não teve prejuízo, versão contestada pela própria delegada responsável.",
+    "sections": [
+      {
+        "heading": "Vorcaro nega fraudes e pede perícia",
+        "paragraphs": [
+          "Em depoimento à Polícia Federal no dia 15 de outubro, o ex-banqueiro Daniel Vorcaro negou ter cometido fraudes bancárias nas operações envolvendo o Banco Master e o BRB. Ele pediu o arquivamento da investigação, defendeu a realização de perícia externa sobre os ativos vendidos e solicitou a revogação de sua prisão preventiva, segundo a Agência Brasil. Segundo a CNN Brasil, Vorcaro confrontou a delegada responsável pelo inquérito e afirmou que \"não houve fraude\", atribuindo eventuais instabilidades no BRB à liquidação do Banco Master, e não às suas ações.",
+          "Já a PF, no relatório de indiciamento concluído em 28 de outubro, sustenta que Vorcaro teve \"participação pessoal, reiterada e diretiva\" nas operações com carteiras de créditos irregulares, com prejuízo apurado de aproximadamente R$ 2,7 bilhões. A defesa do ex-banqueiro afirma que os negócios geraram resultados positivos para o BRB e que nenhuma perícia oficial apurou prejuízo."
+        ],
+        "claimIds": [
+          "claim_vorcaro_depoimento_agenciabrasil",
+          "claim_pf_relatorio_prejuizo",
+          "claim_defesa_vorcaro_sem_prejuizo"
+        ]
+      },
+      {
+        "heading": "Ex-sócio diz que Vorcaro centralizava decisões sobre o consignado",
+        "paragraphs": [
+          "Augusto Ferreira Lima, dono do Banco Pleno e ex-sócio de Vorcaro, afirmou em depoimento à PF no dia 16 que o ex-banqueiro tinha \"pleno conhecimento\" e centralizava as decisões operacionais dos empréstimos consignados do Master, segundo a ICL Notícias. Segundo o relato, Vorcaro teria dado contraordem em dezembro de 2024 para processar contratos apontados por equipe interna como irregulares, além de orientar respostas evasivas a auditores do BRB e do Banco Central. A versão contrasta com a declaração anterior de Vorcaro, que disse conhecer apenas o funcionamento geral do negócio.",
+          "É importante ressaltar que se trata de uma alegação de um indiciado, cuja defesa declarou que não comentaria o caso."
+        ],
+        "claimIds": [
+          "claim_lima_vorcaro_consignado",
+          "claim_lima_contraordem"
+        ]
+      },
+      {
+        "heading": "Ex-presidente do BRB sustenta que banco teve lucro",
+        "paragraphs": [
+          "Paulo Henrique Costa, preso e suspeito de ter recebido seis imóveis como propina, disse em depoimento de mais de 4h30 à delegada Janaína Palazzo, no dia 15, que as operações com o Master teriam gerado receita superior a R$ 8 bilhões para o BRB, segundo o Valor Econômico. Ele alegou que as operações seguiram ritos de governança e que o Banco Central nunca avisou o banco de riscos. A delegada, no entanto, lembrou em oitiva que o BRB ficou com R$ 2,2 bilhões em créditos que não conseguiu trocar, registrados como prejuízo no BC, e questionou a mistura de efeitos contábeis e financeiros nas contas de Costa.",
+          "Em depoimento tornado público pelo STF, relatado pela CNN Brasil, Costa também afirmou que a negociação de venda de participação do BRB ao Master foi uma ordem direta do então governador Ibaneis Rocha, feita em jantar na casa de Vorcaro em 24 de setembro de 2024. Até a publicação, não havia manifestação da defesa do governador sobre essas acusações."
+        ],
+        "claimIds": [
+          "claim_costa_lucro_brb",
+          "claim_costa_ibaneis_jantar"
+        ]
+      },
+      {
+        "heading": "Indiciamentos não incluem políticos, aponta reportagem",
+        "paragraphs": [
+          "Segundo a Gazeta do Povo, o primeiro pedido de indiciamento no caso Master, apresentado ao ministro André Mendonça, não incluiu políticos ou autoridades dos três Poderes. A PF pediu mais 60 dias de diligências, e um segundo relatório, previsto para o início de novembro, deve tratar da investigação sobre a rede de sustentação às supostas fraudes. A reportagem também aponta que seis ministros do STF tiveram nomes associados, direta ou indiretamente, a Vorcaro, mas nenhum é alvo de investigação."
+        ],
+        "claimIds": [
+          "claim_gazeta_indiciamento_politicos"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claimId": "claim_vorcaro_depoimento_agenciabrasil",
+        "text": "Vorcaro negou fraudes em depoimento à PF no dia 15 de outubro, pediu perícia, arquivamento do inquérito e revogação da prisão preventiva.",
+        "kind": "attributed_statement",
+        "articleId": "article_c09f46581360"
+      },
+      {
+        "claimId": "claim_pf_relatorio_prejuizo",
+        "text": "O relatório da PF indica prejuízo já apurado de aproximadamente R$ 2,7 bilhões e descreve Vorcaro como centro decisório das operações; todos os indiciados foram acusados de gestão fraudulenta, organização criminosa e lavagem de dinheiro.",
+        "kind": "attributed_statement",
+        "articleId": "article_c09f46581360"
+      },
+      {
+        "claimId": "claim_defesa_vorcaro_sem_prejuizo",
+        "text": "A defesa de Vorcaro afirma que as carteiras da Tirreno foram substituídas e que os negócios geraram resultados positivos para o BRB.",
+        "kind": "attributed_statement",
+        "articleId": "article_c09f46581360"
+      },
+      {
+        "claimId": "claim_lima_vorcaro_consignado",
+        "text": "Augusto Lima afirmou em depoimento à PF no dia 16 que Vorcaro tinha pleno conhecimento e centralizava as decisões das operações de consignado no Master.",
+        "kind": "attributed_statement",
+        "articleId": "article_456f75836ef1"
+      },
+      {
+        "claimId": "claim_lima_contraordem",
+        "text": "Segundo Lima, Vorcaro teria dado contraordem em dezembro de 2024 para processar contratos apontados como irregulares e orientado respostas evasivas a auditores do BRB e do BC.",
+        "kind": "unverified",
+        "articleId": "article_456f75836ef1"
+      },
+      {
+        "claimId": "claim_costa_lucro_brb",
+        "text": "Paulo Henrique Costa disse à PF que as operações com o Master geraram receita superior a R$ 8 bilhões para o BRB; a delegada Palazzo contestou, citando R$ 2,2 bilhões em créditos não trocados e registrados como prejuízo.",
+        "kind": "attributed_statement",
+        "articleId": "article_d4ec4d9971d3"
+      },
+      {
+        "claimId": "claim_costa_ibaneis_jantar",
+        "text": "Costa relatou em depoimento que a venda de participação do BRB ao Master foi pedida por Ibaneis Rocha em jantar na casa de Vorcaro em 24 de setembro de 2024.",
+        "kind": "unverified",
+        "articleId": "article_f7bafb21d693"
+      },
+      {
+        "claimId": "claim_gazeta_indiciamento_politicos",
+        "text": "O primeiro pedido de indiciamento da PF não incluiu políticos; um segundo relatório é previsto para o início de novembro, e seis ministros do STF tiveram nomes associados a Vorcaro sem ser alvo de investigação.",
+        "kind": "unverified",
+        "articleId": "article_a412d6193567"
+      }
+    ],
+    "coverageAngles": [
+      {
+        "articleId": "article_c09f46581360",
+        "focus": "Versão de Vorcaro e relatório oficial da PF com prejuízo apurado"
+      },
+      {
+        "articleId": "article_456f75836ef1",
+        "focus": "Versão do ex-sócio Augusto Lima sobre o papel de Vorcaro no consignado"
+      },
+      {
+        "articleId": "article_d4ec4d9971d3",
+        "focus": "Defesa do ex-CEO do BRB sobre lucro nas operações, com contestação da delegada"
+      },
+      {
+        "articleId": "article_f7bafb21d693",
+        "focus": "Acusação de Costa contra o governador Ibaneis Rocha e postura de Vorcaro na oitiva"
+      },
+      {
+        "articleId": "article_a412d6193567",
+        "focus": "Alcance dos indiciamentos e frentes futuras da investigação"
+      }
+    ],
+    "openQuestions": [
+      "A perícia solicitada por Vorcaro será realizada, e quais resultados apontará sobre o resultado econômico das operações?",
+      "Haverá manifestação formal da defesa de Ibaneis Rocha sobre a acusação de Costa em relação ao jantar de setembro de 2024?",
+      "O segundo relatório da PF, previsto para o início de novembro, incluirá autoridades públicas?",
+      "Como será conciliada a diferença entre os valores de receita citados por Costa e o prejuízo apontado pela PF e pelo BC?",
+      "O STF definirá se autoriza investigação sobre a conduta dos ministros citados nos documentos?"
+    ],
+    "confidence": "medium"
+  },
+  "lastEvaluated": {
+    "inputFingerprint": "55d7fb4ad97edbd12c03a7d3e3e0d6124be7174c654b4135d161d22addb1dc1e",
+    "evaluatedAt": "2026-10-31T14:56:53.376038+00:00",
+    "outcome": "published"
+  }
+}

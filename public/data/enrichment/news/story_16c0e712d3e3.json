@@ -1,0 +1,156 @@
+{
+  "clusterId": "story_16c0e712d3e3",
+  "generatedAt": "2026-10-31T14:56:53.376038+00:00",
+  "model": "z-ai/glm-5.3-flash",
+  "promptVersion": "multisource-v2-links",
+  "inputFingerprint": "6fe40484eb9b16449f70864db228b2ed3ee9bc1824109c6786201ac5c2806ee2",
+  "sourceArticles": [
+    {
+      "articleId": "article_60aa6024287d",
+      "source": "R7",
+      "url": "https://noticias.r7.com/brasilia/lula-4-vai-enfrentar-cenario-internacional-mais-duro-e-pressao-por-resultados-31102026/",
+      "publishedAt": "2026-10-31T05:00:01+00:00"
+    },
+    {
+      "articleId": "article_b1b2ce01374c",
+      "source": "G1",
+      "url": "https://g1.globo.com/politica/noticia/2026/10/30/lula-4-aposta-em-pragmatismo-para-lidar-com-trump-contornar-atritos-com-milei-e-ampliar-aliancas-no-mundo.ghtml",
+      "publishedAt": "2026-10-30T03:00:00+00:00"
+    },
+    {
+      "articleId": "article_aeb45cd7a382",
+      "source": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mundo/como-as-midterms-podem-influenciar-a-relacao-entre-brasil-e-eua/",
+      "publishedAt": "2026-10-31T08:00:00+00:00"
+    },
+    {
+      "articleId": "article_40448de9a85e",
+      "source": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/ambiente/2026/10/lula-participara-da-cop31-da-turquia-diz-governo-federal.shtml",
+      "publishedAt": "2026-10-30T18:31:00+00:00"
+    },
+    {
+      "articleId": "article_892b72e2ee0c",
+      "source": "BBC",
+      "url": "https://www.bbc.com/portuguese/live/c6x2v49yvrygt",
+      "publishedAt": "2026-10-28T14:24:11+00:00"
+    }
+  ],
+  "news": {
+    "headline": "Quarto mandato de Lula começa com pressão internacional: caso Flávio Bolsonaro, tarifas dos EUA e agenda de cúpulas definem cenário",
+    "subtitle": "Especialistas apontam que o desafio será converter protagonismo diplomático em resultados econômicos concretos. O governo decidiu não escalar a crise com Trump após a saída de Flávio Bolsonaro do Brasil e aguarda as eleições legislativas americanas para calibrar a relação com Washington.",
+    "sections": [
+      {
+        "heading": "Governo evita escalada após saída de Flávio Bolsonaro",
+        "paragraphs": [
+          "O senador Flávio Bolsonaro (PL-RJ), derrotado no segundo turno, deixou o Brasil na terça-feira (27), cruzou a fronteira com a Argentina usando passaporte italiano e seguiu para os Estados Unidos, onde o governo Trump concedeu um visto humanitário, segundo o G1. A reportagem do New York Times citada pela BBC News Brasil afirma que o voo foi organizado por Jason Miller, assessor de Trump.",
+          "Auxiliares de Lula disseram à BBC News Brasil que a orientação é evitar manifestações públicas contra autoridades americanas e manter o foco nas negociações sobre o tarifaço. Segundo o InfoMoney, o Planalto avaliou que o resultado das midterms de 3 de novembro pode alterar a correlação de forças nos EUA e influenciar a relação bilateral, deixando as questões do senador sob responsabilidade da Justiça brasileira."
+        ],
+        "claimIds": [
+          "c_flavio_eua",
+          "c_orientacao_bbc",
+          "c_midterms_planalto"
+        ]
+      },
+      {
+        "heading": "Tarifas americanas seguem como principal atrito econômico",
+        "paragraphs": [
+          "Desde 22 de julho, produtos brasileiros estão sujeitos a tarifa de 25% com base na Seção 301, com exceções para café, carne bovina e suco de laranja; para 85,3% do volume atingido, a carga total sobe a 37,5%, informa o InfoMoney. A avaliação em Brasília é de que haveria pouca margem para reverter as tarifas no curto prazo, mesmo com eventual vitória democrata no Congresso.",
+          "O R7 destaca que a dívida pública atingiu R$ 11,1 trilhões em setembro, 82,9% do PIB, e que especialistas apontam que a política externa precisará sinalizar como conciliar compromissos de campanha com trajetória fiscal sustentável para atrair investimentos."
+        ],
+        "claimIds": [
+          "c_tarifas",
+          "c_divida_r7"
+        ]
+      },
+      {
+        "heading": "Agenda internacional intensa antes do novo mandato",
+        "paragraphs": [
+          "Antes de encerrar o terceiro mandato, Lula participará da COP31 em Antália, na Turquia, com chegada prevista para 10 de novembro, segundo a Folha de S.Paulo. Em 13 de novembro, viajará às Filipinas para a cúpula da Asean, e o G20, em dezembro, na Flórida, pode reunir Lula e Trump. O G1 aponta que a aproximação com a Ásia visa diversificar mercados e reduzir dependência da China."
+        ],
+        "claimIds": [
+          "c_cop31_folha",
+          "c_asean_g1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claimId": "c_flavio_eua",
+        "text": "Flávio Bolsonaro deixou o Brasil em 27/10, passou pela Argentina e entrou nos EUA, onde o governo Trump concedeu visto humanitário.",
+        "kind": "documented_event",
+        "articleId": "article_b1b2ce01374c"
+      },
+      {
+        "claimId": "c_orientacao_bbc",
+        "text": "Auxiliares de Lula disseram à BBC que a orientação é evitar escalada com Trump e focar nas negociações sobre o tarifaço.",
+        "kind": "attributed_statement",
+        "articleId": "article_892b72e2ee0c"
+      },
+      {
+        "claimId": "c_midterms_planalto",
+        "text": "Segundo o InfoMoney, o Planalto aguarda as midterms de 3 de novembro para calibrar a relação com Washington.",
+        "kind": "attributed_statement",
+        "articleId": "article_aeb45cd7a382"
+      },
+      {
+        "claimId": "c_tarifas",
+        "text": "Produtos brasileiros sofrem tarifa de 25% (Seção 301) desde 22 de julho, com carga total de 37,5% para 85,3% do volume atingido.",
+        "kind": "documented_event",
+        "articleId": "article_aeb45cd7a382"
+      },
+      {
+        "claimId": "c_divida_r7",
+        "text": "A dívida do governo federal atingiu R$ 11,1 trilhões em setembro, equivalente a 82,9% do PIB.",
+        "kind": "documented_event",
+        "articleId": "article_60aa6024287d"
+      },
+      {
+        "claimId": "c_cop31_folha",
+        "text": "Lula participará da COP31 em Antália, com chegada prevista para 10 de novembro, informou o governo federal.",
+        "kind": "documented_event",
+        "articleId": "article_40448de9a85e"
+      },
+      {
+        "claimId": "c_asean_g1",
+        "text": "O Brasil busca aproximação com países asiáticos para diversificar mercados e reduzir dependência comercial da China, segundo avaliação do governo.",
+        "kind": "attributed_statement",
+        "articleId": "article_b1b2ce01374c"
+      }
+    ],
+    "coverageAngles": [
+      {
+        "articleId": "article_60aa6024287d",
+        "focus": "Análise de especialistas sobre desafios da política externa e cenário econômico do quarto mandato"
+      },
+      {
+        "articleId": "article_b1b2ce01374c",
+        "focus": "Estratégia de pragmatismo com Trump e Milei e agenda asiática"
+      },
+      {
+        "articleId": "article_aeb45cd7a382",
+        "focus": "Impacto das midterms na relação Brasil-EUA e detalhes do tarifaço"
+      },
+      {
+        "articleId": "article_40448de9a85e",
+        "focus": "Participação confirmada de Lula na COP31"
+      },
+      {
+        "articleId": "article_892b72e2ee0c",
+        "focus": "Postura do governo Lula no caso Flávio Bolsonaro e reação de Trump"
+      }
+    ],
+    "openQuestions": [
+      "Quais circunstâncias da saída de Flávio Bolsonaro do Brasil a Polícia Federal apura, e se houve envolvimento de autoridades americanas ou argentinas?",
+      "Qual será o resultado das midterms de 3 de novembro e seu efeito sobre a política tarifária americana?",
+      "Quem ocupará o Ministério da Defesa e a equipe econômica no quarto mandato, decisões que afetam a relação com investidores?",
+      "O governo Trump apresentará a proposta prometida sobre as tarifas nas próximas semanas?"
+    ],
+    "confidence": "medium"
+  },
+  "lastEvaluated": {
+    "inputFingerprint": "6fe40484eb9b16449f70864db228b2ed3ee9bc1824109c6786201ac5c2806ee2",
+    "evaluatedAt": "2026-10-31T14:56:53.376038+00:00",
+    "outcome": "published"
+  }
+}
