@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ktOXFXaEVoR2RQeXEyVUlZTi1TZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ktOXFXaEVoR2RQeXEyVUlZTi1TZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 52
+      "topic-3": 42,
+      "topic-5": 65
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 52,
-    "bestSeedRank": 52,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +28,15 @@
     "césio",
     "título",
     "físico",
-    "acidente",
     "goiânia",
+    "acidente",
     "iniciativa"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/a2eb/live/2c7ff5d0-cd4f-11f1-8177-0f8bd59b54c4.jpg",
   "publishedAt": "2026-10-27T16:00:00+00:00",
-  "updatedAt": "2026-10-31T13:18:39.233379+00:00",
-  "sourceCount": 6,
-  "articleCount": 8,
+  "updatedAt": "2026-10-31T14:18:27.179509+00:00",
+  "sourceCount": 7,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_ebc0faafd477",
@@ -59,7 +62,7 @@
       "sourceDomain": "portal.al.go.leg.br",
       "publishedAt": "2026-10-28T20:00:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://spiderminio.al.go.leg.br:9000/portal-rails/uploads/portal/noticia/imagem/168145/thumb_grande_Carlos_Costa_-_393.jpg?X-Amz-Expires=600&X-Amz-Date=20261031T131837Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cKsFvhBCaOTfZIZE%2F20261031%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=e6057736b5a21501e0eea437df58c399db709ba6b3e9c95fbc7faa8b2c69d334",
+      "imageUrl": "https://spiderminio.al.go.leg.br:9000/portal-rails/uploads/portal/noticia/imagem/168145/thumb_grande_Carlos_Costa_-_393.jpg?X-Amz-Expires=600&X-Amz-Date=20261031T141825Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cKsFvhBCaOTfZIZE%2F20261031%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=e3e4e22b9631fa7a59785cd6985deeb54b450c0992c6e492faf12ca95170fcb4",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -72,7 +75,7 @@
       "sourceCanonical": "Tribuna do Planalto",
       "sourceDomain": "tribunadoplanalto.com.br",
       "publishedAt": "2026-10-30T14:07:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -92,15 +95,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_6e87926bec0c",
-      "title": "‘Brilho da morte’: sobrevivente do césio-137 relembra como cápsula radioativa contaminou famílias em Goiânia",
-      "description": "Cápsula com césio-137 encontrada em Goiânia provocou o maior acidente radiológico do Brasil; sobrevivente relembra a tragédia.",
-      "url": "https://ndmais.com.br/seguranca/brilho-da-morte-sobrevivente-do-cesio-137-relembra-como-capsula-radioativa-contaminou-familias-em-goiania/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-10-30T16:45:18+00:00",
-      "postedLabel": "hoje",
+      "id": "article_8d99bce29f41",
+      "title": "‘Brilho da morte’: sobrevivente relembra como césio-137 mudou sua vida em Goiânia",
+      "description": "Odesson Ferreira conta como a cápsula contaminou sua família, provocou mortes e mudou a forma como ele era tratado pela sociedade.",
+      "url": "https://www.maisgoias.com.br/cidades/goiania/brilho-da-morte-sobrevivente-relembra-como-cesio-137-mudou-sua-vida/",
+      "source": "Mais Goiás",
+      "sourceCanonical": "Mais Goiás",
+      "sourceDomain": "maisgoias.com.br",
+      "publishedAt": "2026-10-31T13:20:31+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -118,6 +121,20 @@
       "imageUrl": "https://cdn.jornalopcao.com.br/assets/2026/10/27195645/1793131001-imagens-g1-25.webp",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_6e87926bec0c",
+      "title": "‘Brilho da morte’: sobrevivente do césio-137 relembra como cápsula radioativa contaminou famílias em Goiânia",
+      "description": "Cápsula com césio-137 encontrada em Goiânia provocou o maior acidente radiológico do Brasil; sobrevivente relembra a tragédia.",
+      "url": "https://ndmais.com.br/seguranca/brilho-da-morte-sobrevivente-do-cesio-137-relembra-como-capsula-radioativa-contaminou-familias-em-goiania/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-10-30T16:45:18+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_3e25e0bbb964",
@@ -153,21 +170,21 @@
     "max": 5,
     "average": 4.67,
     "knownCount": 3,
-    "unknownCount": 5,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 70
+    "confidence": 72
   },
   "flags": [
     "Muitas fontes não classificadas",
