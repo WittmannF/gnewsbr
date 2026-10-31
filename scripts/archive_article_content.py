@@ -135,9 +135,18 @@ def cluster_score(cluster: dict[str, Any]) -> tuple[int, int, float, int]:
     return (primary_rank, rank_score, internal, article_count)
 
 
-def select_clusters_for_archive(clusters: list[dict[str, Any]], max_clusters: int = 20) -> list[dict[str, Any]]:
+def select_clusters_for_archive(
+    clusters: list[dict[str, Any]], max_clusters: int = 20, frontpage_top: int = 0
+) -> list[dict[str, Any]]:
     eligible = [cluster for cluster in clusters if cluster.get("articles")]
-    return sorted(eligible, key=cluster_score, reverse=True)[:max_clusters]
+    # The archive index already follows the homepage's coverage ranking.
+    priority = eligible[:frontpage_top]
+    seen = {cluster["id"] for cluster in priority}
+    remaining = sorted(
+        (c for c in eligible if c["id"] not in seen),
+        key=cluster_score, reverse=True,
+    )
+    return (priority + remaining)[:max_clusters]
 
 
 def select_articles_for_cluster(cluster: dict[str, Any], min_articles: int = 5, max_articles: int = 8) -> list[dict[str, Any]]:
@@ -449,6 +458,7 @@ def run_archive(
     archive_root: Path = DEFAULT_ARCHIVE_ROOT,
     out_dir: Path = DEFAULT_OUTPUT_ROOT,
     max_clusters: int = 20,
+    frontpage_top: int = 0,
     min_articles_per_cluster: int = 5,
     max_articles_per_cluster: int = 8,
     timeout: float = 15.0,
@@ -457,7 +467,9 @@ def run_archive(
     dry_run: bool = False,
 ) -> dict[str, Any]:
     clusters = load_archive_clusters(archive_root, date_key)
-    selected_clusters = select_clusters_for_archive(clusters, max_clusters=max_clusters)
+    selected_clusters = select_clusters_for_archive(
+        clusters, max_clusters=max_clusters, frontpage_top=frontpage_top
+    )
     selected_articles_by_cluster = {
         str(cluster["id"]): select_articles_for_cluster(cluster, min_articles=min_articles_per_cluster, max_articles=max_articles_per_cluster)
         for cluster in selected_clusters
@@ -497,6 +509,7 @@ def main() -> int:
     parser.add_argument("--archive-root", type=Path, default=DEFAULT_ARCHIVE_ROOT)
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--max-clusters", type=int, default=20)
+    parser.add_argument("--frontpage-top", type=int, default=0)
     parser.add_argument("--min-articles-per-cluster", type=int, default=5)
     parser.add_argument("--max-articles-per-cluster", type=int, default=8)
     parser.add_argument("--timeout", type=float, default=15.0)
@@ -510,6 +523,7 @@ def main() -> int:
         archive_root=args.archive_root,
         out_dir=args.output_root,
         max_clusters=args.max_clusters,
+        frontpage_top=args.frontpage_top,
         min_articles_per_cluster=args.min_articles_per_cluster,
         max_articles_per_cluster=args.max_articles_per_cluster,
         timeout=args.timeout,
