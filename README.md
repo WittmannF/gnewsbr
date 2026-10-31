@@ -53,7 +53,7 @@ Formato de saída (particionado):
 ## Leitura diária e ranking
 
 - **Hoje:** radar de cobertura, mantendo a ordem atual por quantidade de artigos e fontes classificadas; a síntese por IA não muda a posição.
-- **Edição:** clusters sintetizados agrupados por data (horário de Brasília), com foto, resumo e comparação de cobertura, como na aba Hoje. Ao abrir um cluster, a notícia consolidada por IA e a comparação editorial aparecem juntas na mesma página. Reutiliza os JSONs de síntese e o índice leve de arquivo da data selecionada, sem novas chamadas ao LLM; ainda não é newsletter por e-mail.
+- **Edição:** clusters sintetizados agrupados por data (horário de Brasília), com foto, resumo e comparação de cobertura quando os metadados originais estiverem disponíveis. O índice de notícias passa a guardar um snapshot do cluster e os links das fontes na publicação: uma coleta horária posterior não apaga a comparação. Quando apenas os metadados de extração sobreviveram, a comparação usa esses dados, sem inventar imagem nem métricas; quando nenhum snapshot existir, as fontes originais continuam clicáveis. A notícia IA e a comparação usam os JSONs existentes, sem outra chamada ao LLM nem banco de dados.
 - **Top 15 da home:** o arquivamento diário agora prioriza as 15 primeiras histórias do snapshot utilizado; a síntese prioriza os mesmos IDs e, se houver espaço, inclui outros clusters. O ranking não é modificado. O número efetivamente sintetizado pode ser inferior a 15 quando o extrator não conseguir duas fontes úteis, houver falha de API ou orçamento esgotado; a home exibe a cobertura real. Como a coleta da home é horária e a síntese diária, a cobertura das *15 atuais* pode variar entre execuções.
 
 ## Síntese multifonte experimental (issue #16)
