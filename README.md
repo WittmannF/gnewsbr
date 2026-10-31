@@ -48,3 +48,45 @@ Formato de saída (particionado):
 - `public/data/archive/{YYYY-MM-DD}/index.json`: índice leve diário.
 - `public/data/archive/{YYYY-MM-DD}/{clusterId}.json`: detalhe completo diário por cluster.
 ```
+
+
+## Síntese multifonte experimental (issue #16)
+
+A interface mantém os dados brutos de Google News como fallback. Quando um cluster tiver um resultado **válido** em `public/data/enrichment/news/{clusterId}.json`, a home apresenta uma manchete e um subtítulo próprios, e o detalhe mostra seções e links das fontes efetivamente consultadas. A síntese é assistida por IA, não substitui a leitura das matérias e não constitui verificação factual independente.
+
+### Configuração
+
+1. Gere uma chave em https://openrouter.ai/settings/keys.
+2. Cadastre `OPENROUTER_API_KEY` em **Repository Settings > Secrets and variables > Actions** (não em `VITE_*`, `public/` ou arquivo versionado).
+3. Opcionalmente configure `OPENROUTER_MODEL` em **Actions Variables**; padrão: `z-ai/glm-5.3-flash`.
+4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. O agendamento diário ocorrerá após a janela de arquivamento e pula a execução paga quando a chave estiver ausente.
+
+### Uso local
+
+```bash
+python -m pip install -r requirements.txt
+export OPENROUTER_API_KEY='...'  # apenas na sua sessão; nunca commitar
+python scripts/generate_news_synthesis.py --date YYYY-MM-DD --max-clusters 3 --dry-run
+python scripts/generate_news_synthesis.py --date YYYY-MM-DD --max-clusters 3 --disable-jev
+python -m unittest discover -s tests -p 'test_news_synthesis.py'
+npm ci && npm run build
+```
+
+A execução usa `public/data/article-content/{date}/articles/` como entrada, aplica normalização e seleciona até cinco matérias válidas de domínios distintos por cluster. Não gera síntese com menos de duas fontes. A API solicita JSON Schema estrito, valida o resultado com Pydantic e exige trechos curtos realmente presentes no artigo para sustentar as afirmações. Resultados inválidos não são publicados, e nenhuma resposta mock entra no novo índice. A fonte original e seu link são preservados.
+
+O detector de mudanças Jev (`typesafe/jev-1.14`) está implementado, mas o workflow **desabilita atualizações automáticas via Jev durante a calibração**. O baseline inicial é uma única chamada multifonte GLM por história; a extração individual de alegações e o experimento comparativo em duas etapas continuam pendentes.
+
+### Limites de custo (conservadores)
+
+- 20 histórias novas por dia;
+- 5 atualizações por dia e duas por história/dia;
+- 12 horas entre atualizações ordinárias e 6 horas entre verificações semânticas por história;
+- teto de reserva de US$ 0,25 por dia e US$ 5 por mês, registrados em `data/enrichment/cost-ledger/`.
+
+O teto controla **estimativas de custo reservadas por execução**, não limites financeiros garantidos pelo provedor. Configure também limites de gasto no OpenRouter. Falhas de rede, restrições do modelo, paywall ou insuficiência de evidências mantêm a UI original.
+
+### Segurança e limitações
+
+O pipeline não envia a chave ao navegador. O passo de limpeza do artefato do Pages remove `dist/data/article-content/` para não publicar os textos completos extraídos. **Os arquivos históricos ainda versionados em `public/data/article-content/` permanecem acessíveis no próprio repositório público**: migrar esse armazenamento para artefatos privados com retenção limitada continua necessário. Não contornar paywalls e não republicar conteúdos originais.
+
+Os artigos e a síntese são tratados como material potencialmente não confiável; validação de schema, citação e substring não garante que uma afirmação é factualmente verdadeira. É necessária revisão humana dos primeiros lotes antes de considerar o sistema apto à publicação regular.
