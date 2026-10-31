@@ -4,6 +4,7 @@ import { ArrowLeft, BarChart3, CalendarClock, CheckCircle2, Download, ExternalLi
 import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 import { bucketColors, bucketLabels, mockNewsData } from './data'
+import { cleanReaderText } from './editorialText'
 import type { Cluster, ClusterDetail, NewsPayload, SpectrumBucket, NewsSynthesisPreview, NewsSynthesisDetail } from './types'
 
 const bucketOrder: SpectrumBucket[] = ['left', 'centerLeft', 'center', 'centerRight', 'right', 'unknown']
@@ -61,8 +62,8 @@ function ClusterCard({ cluster, onOpen, synthesis }: { cluster: Cluster; onOpen:
       </div>
       <div className="cluster-body">
         <div className="cluster-meta"><span>{articleCount} artigos</span><span>{cluster.spectrum.knownCount} fontes classificadas</span></div>
-        <h2>{synthesis?.headline ?? cluster.title}</h2>
-        <p>{synthesis?.subtitle ?? cluster.summary}</p>
+        <h2>{synthesis ? cleanReaderText(synthesis.headline) : cluster.title}</h2>
+        <p>{synthesis ? cleanReaderText(synthesis.subtitle) : cluster.summary}</p>
         {synthesis ? <div className="synthesis-label"><Sparkles size={13} /> Síntese IA · {synthesis.sourceCount} fontes</div> : null}
         <SpectrumBar cluster={cluster} compact />
         <div className="flag-row">{cluster.flags.slice(0, 3).map((flag) => <span key={flag}>{flag}</span>)}</div>
@@ -160,8 +161,8 @@ function SynthesisArticle({ synthesis }: { synthesis: NewsSynthesisDetail }) {
           <div className="synthesis-disclaimer"><Sparkles size={16} /> Síntese automatizada de fontes externas. Declarações e alegações são atribuídas aos veículos originais; consulte os links para verificar o contexto.</div>
           {synthesis.news.sections.map((section, index) => (
             <section key={index} className="synthesis-section">
-              <h2>{section.heading}</h2>
-              {section.paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+              <h2>{cleanReaderText(section.heading)}</h2>
+              {section.paragraphs.map((paragraph, i) => <p key={i}>{cleanReaderText(paragraph)}</p>)}
               <div className="synthesis-citations">Fontes: {Array.from(new Set(section.claimIds.map((id) => citationClaims.get(id)?.articleId).filter((id): id is string => Boolean(id)))).map((id) => {
                 const article = citationSources.get(id)
                 return article ? <a key={id} href={article.url} target="_blank" rel="noreferrer">{article.source} <ExternalLink size={12} /></a> : null
@@ -172,12 +173,12 @@ function SynthesisArticle({ synthesis }: { synthesis: NewsSynthesisDetail }) {
             <h2>Diferenças na cobertura</h2>
             <ul>{synthesis.news.coverageAngles.map((angle, i) => {
               const article = citationSources.get(angle.articleId)
-              return article ? <li key={i}><a href={article.url} target="_blank" rel="noreferrer">{article.source}</a>: {angle.focus}</li> : null
+              return article ? <li key={i}><a href={article.url} target="_blank" rel="noreferrer">{article.source}</a>: {cleanReaderText(angle.focus)}</li> : null
             })}</ul>
           </section> : null}
           {synthesis.news.openQuestions.length ? <section className="synthesis-section">
             <h2>O que ainda não sabemos</h2>
-            <ul>{synthesis.news.openQuestions.map((question, i) => <li key={i}>{question}</li>)}</ul>
+            <ul>{synthesis.news.openQuestions.map((question, i) => <li key={i}>{cleanReaderText(question)}</li>)}</ul>
           </section> : null}
         </section>
   )
@@ -245,8 +246,8 @@ function EditionPage({ syntheses, clusters, onOpen }: {
             {cluster
               ? <ClusterCard cluster={cluster} synthesis={story} onOpen={onOpen} />
               : <article className="edition-card">
-                  <h2>{story.headline}</h2>
-                  <p>{story.subtitle}</p>
+                  <h2>{cleanReaderText(story.headline)}</h2>
+                  <p>{cleanReaderText(story.subtitle)}</p>
                   <p>Os dados de comparação deste cluster não estão disponíveis neste arquivo.</p>
                 </article>}
           </div>
@@ -288,8 +289,8 @@ function ClusterDetail({ cluster, fallback, loading, error, onRetry, onBack, syn
       <section className="detail-hero">
         <div>
           <span className="eyebrow">{cluster.topic}</span>
-          <h1>{synthesis?.news.headline ?? cluster.title}</h1>
-          <p>{synthesis?.news.subtitle ?? cluster.summary}</p>
+          <h1>{synthesis ? cleanReaderText(synthesis.news.headline) : cluster.title}</h1>
+          <p>{synthesis ? cleanReaderText(synthesis.news.subtitle) : cluster.summary}</p>
           {synthesis ? <div className="synthesis-label"><Sparkles size={15} /> Síntese por IA · {synthesis.sourceArticles.length} fontes · {new Date(synthesis.generatedAt).toLocaleString('pt-BR')}</div> : null}
           <div className="flag-row large">{cluster.flags.map((flag) => <span key={flag}>{flag}</span>)}</div>
         </div>
