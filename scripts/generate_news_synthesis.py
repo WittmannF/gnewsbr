@@ -136,11 +136,14 @@ def verify_news(news: NewsSynthesis, articles: list[NormalizedArticle]) -> None:
     if not ids or len(ids) != len(set(ids)):
         raise ValueError("Claims must have unique IDs")
     claim_ids = set(ids)
-    if len({a.sourceDomain or a.source for a in articles}) < 2:
-        raise ValueError("Synthesis requires at least 2 distinct source domains")
+    support_sources: set[str] = set()
     for claim in news.claims:
         if claim.articleId not in by_id:
             raise ValueError(f"Unknown article for {claim.claimId}")
+        article = by_id[claim.articleId]
+        support_sources.add(article.sourceDomain or article.source)
+    if len(support_sources) < 2:
+        raise ValueError("Synthesis must cite at least 2 distinct sources")
     for section in news.sections:
         if not section.paragraphs or not section.claimIds or not set(section.claimIds).issubset(claim_ids):
             raise ValueError(f"Unreferenced or empty section: {section.heading}")
