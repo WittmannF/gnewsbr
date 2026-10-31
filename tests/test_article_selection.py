@@ -1,4 +1,6 @@
 import sys
+import json
+import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -70,3 +72,23 @@ def test_cluster_score_increases_with_diversity():
         _make_article("a3", "d3.com", "center"),
     ]
     assert _cluster_score(many_diverse) > _cluster_score(few)
+
+def test_select_prioritizes_frontpage_ids_without_reordering_home():
+    from select_articles_for_enrichment import select
+    with tempfile.TemporaryDirectory() as td:
+        normalized = Path(td) / "normalized"
+        clusters = Path(td) / "clusters"
+        normalized.mkdir()
+        clusters.mkdir()
+        for name, count in [("home-first", 1), ("home-second", 1), ("other-high", 5)]:
+            for i in range(count):
+                article = _make_article(f"{name}-{i}", f"{name}-{i}.com", "center")
+                article.clusterId = name
+                (normalized / f"{article.archiveId}.json").write_text(
+                    article.model_dump_json(), encoding="utf-8"
+                )
+        result = select(
+            normalized, clusters, max_clusters=2, articles_per_cluster=5,
+            frontpage_ids=["home-first", "home-second"]
+        )
+        assert [c["clusterId"] for c in result["clusters"]] == ["home-first", "home-second"]
