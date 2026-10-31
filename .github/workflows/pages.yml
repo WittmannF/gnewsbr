@@ -80,6 +80,9 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
+          # One-time recovery of 15 top stories after prior test reservations.
+          # Normal daily workflow still uses the $0.25/day cap.
+          GNEWSBR_DAILY_BUDGET_USD: '0.45'
         run: |
           DATE="$(date -u +%F)"
           python3 scripts/archive_article_content.py \
