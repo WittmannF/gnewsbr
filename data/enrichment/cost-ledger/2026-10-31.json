@@ -311,7 +311,14 @@
       "kind": "new",
       "at": "2026-10-31T14:56:53.376038+00:00",
       "measuredCostUsd": 0.0018095249999999998
+    },
+    {
+      "kind": "reconciliation",
+      "at": "2026-10-31T15:12:12+00:00",
+      "budgetReservedUsd": 0.05,
+      "reason": "Reservations from failed Pages run 41213111801 (0.44 total reported vs 0.39 committed); syntheses not pushed; reserve budget conservatively without claiming publication.",
+      "workflowRun": "https://github.com/WittmannF/gnewsbr/actions/runs/41213111801"
     }
   ],
-  "estimatedCostUsd": 0.39
+  "estimatedCostUsd": 0.44
 }
