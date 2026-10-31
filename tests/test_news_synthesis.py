@@ -1,11 +1,12 @@
 """Unit tests for grounded structured news synthesis. No network or API key."""
 import sys
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from enrichment.schemas import NormalizedArticle, ArticleQuality
-from generate_news_synthesis import NewsClaim, NewsSection, CoverageAngle, NewsSynthesis, fingerprint, verify_news
+from generate_news_synthesis import NewsClaim, NewsSection, CoverageAngle, NewsSynthesis, fingerprint, verify_news, synthesize_validated
 
 
 def article(article_id: str, domain: str) -> NormalizedArticle:
@@ -76,6 +77,32 @@ class SynthesisTests(unittest.TestCase):
     def test_cache_hash_is_independent_of_article_order(self):
         self.assertEqual(fingerprint(self.articles, "glm"), fingerprint(list(reversed(self.articles)), "glm"))
         self.assertNotEqual(fingerprint(self.articles, "glm"), fingerprint(self.articles, "other"))
+
+    def test_repairs_unsupported_excerpt_once(self):
+        bad = sample_news()
+        bad.claims[0].excerpt = "Texto inventado sobre as fontes."
+        repaired = sample_news()
+        with patch("generate_news_synthesis.chat_completion", side_effect=[
+            (bad, 0.001), (repaired, 0.0012)
+        ]) as completion:
+            news, cost = synthesize_validated("not-a-real-key", "glm", self.articles, "Test")
+        self.assertEqual(news, repaired)
+        self.assertAlmostEqual(cost, 0.0022)
+        self.assertEqual(completion.call_count, 2)
+        self.assertIsNotNone(completion.call_args.kwargs.get("correction"))
+
+    def test_invalid_repair_is_still_rejected(self):
+        bad = sample_news()
+        bad.claims[0].excerpt = "Texto inventado sobre as fontes."
+        with patch("generate_news_synthesis.chat_completion", return_value=(bad, 0.001)) as completion:
+            with self.assertRaisesRegex(ValueError, "Unsupported excerpt"):
+                synthesize_validated("not-a-real-key", "glm", self.articles, "Test")
+        self.assertEqual(completion.call_count, 2)
+
+    def test_valid_news_requires_no_repair(self):
+        with patch("generate_news_synthesis.chat_completion", return_value=(sample_news(), 0.001)) as completion:
+            synthesize_validated("not-a-real-key", "glm", self.articles, "Test")
+        completion.assert_called_once()
 
     def test_no_raw_article_text_in_published_schema(self):
         self.assertNotIn("cleanText", sample_news().model_dump_json())
