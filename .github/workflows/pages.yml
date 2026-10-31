@@ -9,10 +9,10 @@ on:
   workflow_dispatch:
 
 concurrency:
-  # Keep only the newest Pages refresh/deploy for a given ref. This prevents the
-  # hourly schedule from building a backlog of pending runs.
+  # Queue refreshes rather than cancelling a one-time synthesis recovery when
+  # an hourly schedule fires. GitHub retains at most one pending run per group.
   group: pages-refresh-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 # Opt in early to the GitHub Actions Node.js 24 runtime so the workflow does not
 # depend on the deprecated Node.js 20 action runtime.
@@ -98,11 +98,14 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
-          # One-time recovery of 15 top stories after prior test reservations.
-          # Normal daily workflow still uses the $0.25/day cap.
-          GNEWSBR_DAILY_BUDGET_USD: '0.45'
+          # Default to the normal daily reservation cap.
+          GNEWSBR_DAILY_BUDGET_USD: '0.25'
         run: |
           DATE="$(date -u +%F)"
+          # Explicitly authorized one-day recovery; never extend $0.45 to future days.
+          if [ "$DATE" = '2026-10-31' ]; then
+            export GNEWSBR_DAILY_BUDGET_USD='0.45'
+          fi
           python3 scripts/archive_article_content.py \
             --date "$DATE" --max-clusters 15 --frontpage-top 15 \
             --min-articles-per-cluster 5 --max-articles-per-cluster 8 \
