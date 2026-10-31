@@ -80,8 +80,8 @@ Diferencie fatos documentados, declarações atribuídas, alegações, análise 
 Cada claim deve conter articleId válido de um dos artigos recebidos. Não gere excerpts nem invente URLs. Nunca atribua informação a artigo que não a sustenta.
 Cada seção factual deve citar pelo menos uma claimId existente. Não replique parágrafos inteiros do artigo.
 Datas e números precisam estar sustentados na fonte. Reconheça diferenças cronológicas entre reportagens, em vez de declarar divergência editorial artificial.
-Não procure fontes externas; não invente consenso. Se os artigos não sustentam uma narrativa, escreva com baixa confiança e identifique lacunas.
-Seja conciso (300-500 palavras no total)."""
+Se houver fontes com evidenceType=summary_only, elas contêm apenas manchete/snippet: NÃO invente detalhes ausentes e seja conciso, atribuindo informações aos veículos. Não procure fontes externas; não invente consenso. Se os artigos não sustentam uma narrativa, escreva com baixa confiança e identifique lacunas.
+Prefira 180-350 palavras no total; com poucas informações disponíveis use 90-160 palavras e explique as lacunas."""
 
 
 def utc_now() -> datetime:
@@ -117,7 +117,7 @@ def pick_articles(selection: dict, norm_dir: Path, limit: int) -> list[tuple[dic
                 continue
             a = NormalizedArticle.model_validate_json(path.read_text(encoding="utf-8"))
             domain = a.sourceDomain or a.source
-            if a.quality.status != "ok" or a.cleanWordCount < 250 or domain in domains:
+            if not ((a.quality.status == "ok" and a.cleanWordCount >= 250) or (a.quality.status == "summary_only" and a.cleanWordCount >= 8)) or domain in domains:
                 continue
             domains.add(domain)
             items.append(a)
@@ -162,7 +162,8 @@ def chat_completion(
         "clusterTitle": title,
         "articles": [
             {"articleId": a.articleId, "source": a.source, "url": a.url,
-             "publishedAt": a.publishedAt, "title": a.title, "text": a.cleanText[:12000]}
+             "publishedAt": a.publishedAt, "title": a.title, "text": a.cleanText[:12000],
+             "evidenceType": a.quality.status}
             for a in articles
         ],
     }

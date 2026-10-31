@@ -23,6 +23,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 jobs:
   update-build-deploy:
@@ -60,16 +61,47 @@ jobs:
           npm run sources:validate
           npm run sources:build
 
+      - name: Detect missing published cluster details
+        id: integrity
+        run: |
+          if python3 scripts/check_published_cluster_details.py --root public; then
+            echo "missing=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "missing=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Refresh Google News data
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        id: refresh
+        if: github.event_name != 'push' || steps.integrity.outputs.missing == 'true'
         run: npm run collect
 
-      - name: Commit refreshed data
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      - name: Bootstrap today's top 15 source-linked syntheses
+        if: github.event_name == 'push' && steps.integrity.outputs.missing == 'true'
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
+        run: |
+          DATE="$(date -u +%F)"
+          python3 scripts/archive_article_content.py \
+            --date "$DATE" --max-clusters 15 --frontpage-top 15 \
+            --min-articles-per-cluster 5 --max-articles-per-cluster 8 \
+            --timeout 15 --sleep 0.1
+          if [ -n "$OPENROUTER_API_KEY" ]; then
+            python3 scripts/generate_news_synthesis.py \
+              --date "$DATE" --max-clusters 15 --disable-jev
+          else
+            echo "Cannot generate AI news: OPENROUTER_API_KEY is absent"
+            exit 1
+          fi
+
+      - name: Commit refreshed data and linked detail files
+        if: steps.refresh.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/latest.json public/data/archive/*.json public/data/source-spectrum.json
+          DATE="$(date -u +%F)"
+          git add -A public/data/latest.json public/data/clusters/latest/ "public/data/archive/$DATE/" public/data/source-spectrum.json
+          git add -A public/data/enrichment/news/ data/enrichment/cost-ledger/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
@@ -92,6 +124,9 @@ jobs:
       - name: Limit published data to last 30 days
         run: npm run publish:prune
 
+      - name: Validate all detail links before deploying
+        run: python3 scripts/check_published_cluster_details.py --root dist
+
       - name: Setup Pages
         uses: actions/configure-pages@v6
 
@@ -103,3 +138,28 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Report top-15 deployment to issue #16
+        if: always() && github.event_name == 'push' && steps.integrity.outputs.missing == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOY_RESULT: ${{ steps.deployment.outcome }}
+        run: |
+          COVERAGE="$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('public/data')
+          home_file = root / 'latest.json'
+          synth_file = root / 'enrichment/news/latest.json'
+          try:
+              home = json.loads(home_file.read_text(encoding='utf-8'))
+              synth = json.loads(synth_file.read_text(encoding='utf-8'))
+              ids = [c['id'] for c in home['clusters'][:15]]
+              covered = [cid for cid in ids if cid in synth.get('stories', {})]
+              print(f'{len(covered)}/{len(ids)}')
+          except (OSError, KeyError, ValueError):
+              print('unavailable')
+          PY
+          )"
+          BODY="GNewsBR Pages bootstrap: deployment=${DEPLOY_RESULT}, top15_synthesized=${COVERAGE}. Workflow: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. This count is based on committed JSON, not model promises."
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/issues/16/comments" -f body="${BODY}"

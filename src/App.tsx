@@ -253,7 +253,7 @@ function EditionPage({ syntheses, clusters }: {
   </main>
 }
 
-function ClusterDetail({ cluster, loading, error, onRetry, onBack, synthesis }: { cluster: ClusterDetail | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void; synthesis: NewsSynthesisDetail | null }) {
+function ClusterDetail({ cluster, fallback, loading, error, onRetry, onBack, synthesis }: { cluster: ClusterDetail | null; fallback: Cluster | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void; synthesis: NewsSynthesisDetail | null }) {
   if (loading) {
     return (
       <main className="detail-page">
@@ -267,7 +267,13 @@ function ClusterDetail({ cluster, loading, error, onRetry, onBack, synthesis }: 
     return (
       <main className="detail-page">
         <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
-        <section className="plain-page"><h1>Falha ao carregar detalhe</h1><p>{error ?? 'Detalhe indisponivel no momento.'}</p><button onClick={onRetry}>Tentar novamente</button></section>
+        <section className="plain-page">
+          <h1>{fallback?.title ?? 'Detalhe indisponível'}</h1>
+          {fallback ? <p>{fallback.summary}</p> : null}
+          <p>Os detalhes deste cluster não estão disponíveis no momento. {error ?? ''}</p>
+          {fallback?.storyUrl ? <p><a href={fallback.storyUrl} target="_blank" rel="noreferrer">Ver a cobertura original no Google News <ExternalLink size={14}/></a></p> : null}
+          <button onClick={onRetry}>Tentar novamente</button>
+        </section>
       </main>
     )
   }
@@ -672,5 +678,5 @@ export function App() {
     }
   }
 
-  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} synthesis={selectedSynthesis} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'edition' ? <EditionPage syntheses={syntheses} clusters={data.clusters} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} syntheses={syntheses} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
+  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} fallback={selected} synthesis={selectedSynthesis} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'edition' ? <EditionPage syntheses={syntheses} clusters={data.clusters} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} syntheses={syntheses} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
 }

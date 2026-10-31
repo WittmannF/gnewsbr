@@ -19,8 +19,12 @@ from enrichment.schemas import NormalizedArticle
 MIN_WORD_COUNT = 250
 
 
+def is_usable(article: NormalizedArticle) -> bool:
+    return (article.quality.status == "ok" and article.cleanWordCount >= MIN_WORD_COUNT) or (article.quality.status == "summary_only" and article.cleanWordCount >= 8)
+
+
 def _cluster_score(articles: list[NormalizedArticle]) -> float:
-    valid = [a for a in articles if a.quality.status == "ok" and a.cleanWordCount >= MIN_WORD_COUNT]
+    valid = [a for a in articles if is_usable(a)]
     domains = {a.sourceDomain for a in valid if a.sourceDomain}
     buckets = {a.bucket for a in valid if a.bucket and a.bucket != "unknown"}
     known_buckets = len([a for a in valid if a.bucket and a.bucket != "unknown"])
