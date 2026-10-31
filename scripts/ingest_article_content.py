@@ -36,27 +36,22 @@ def ingest(date: str, source_dir: Path, output_dir: Path) -> list[NormalizedArti
             skipped += 1
             continue
 
-        if data.extraction.status != "ok":
-            skipped += 1
-            continue
-
+        # Headline + publisher snippet are legitimate, limited evidence for an
+        # MVP when a publisher blocks extraction. Never pretend they are full text.
+        metadata = " — ".join(filter(None, [data.article.title, data.article.description]))
         original_text = data.content.text.strip()
-        if not original_text or data.content.wordCount < MIN_WORD_COUNT:
-            skipped += 1
-            continue
-
-        # Encoding repair
-        repaired_text, repair_applied = repair_mojibake(original_text)
-
-        # Boilerplate cleaning
-        clean_text, removed_ratio = clean_boilerplate(repaired_text)
-        clean_word_count = len(clean_text.split())
-
+        enough_text = data.extraction.status == "ok" and data.content.wordCount >= MIN_WORD_COUNT
+        repaired_text, repair_applied = repair_mojibake(original_text) if enough_text else ("", False)
+        clean_text, removed_ratio = clean_boilerplate(repaired_text) if enough_text else ("", 0.0)
+        status = "ok" if len(clean_text.split()) >= MIN_WORD_COUNT else "summary_only"
         warnings: list[str] = []
-        status = "ok"
-        if clean_word_count < MIN_WORD_COUNT:
-            status = "low_quality_extraction"
-            warnings.append(f"cleanWordCount={clean_word_count} below threshold")
+        if status == "summary_only":
+            clean_text = metadata.strip()
+            if len(clean_text.split()) < 8:
+                skipped += 1
+                continue
+            warnings.append("Only the source headline/snippet is available; factual detail is limited")
+        clean_word_count = len(clean_text.split())
 
         article = NormalizedArticle(
             archiveId=data.archiveId,
