@@ -4,7 +4,7 @@ import { ArrowLeft, BarChart3, CalendarClock, CheckCircle2, Download, ExternalLi
 import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 import { bucketColors, bucketLabels, mockNewsData } from './data'
-import type { Cluster, ClusterDetail, NewsPayload, SpectrumBucket } from './types'
+import type { Cluster, ClusterDetail, NewsPayload, SpectrumBucket, NewsSynthesisPreview, NewsSynthesisDetail } from './types'
 
 const bucketOrder: SpectrumBucket[] = ['left', 'centerLeft', 'center', 'centerRight', 'right', 'unknown']
 const validViews = ['home', 'sources', 'methodology'] as const
@@ -49,7 +49,7 @@ function ScorePill({ label, value, icon: Icon }: { label: string; value: string 
   return <div className="score-pill"><Icon size={16} /><span>{label}</span><strong>{value}</strong></div>
 }
 
-function ClusterCard({ cluster, onOpen }: { cluster: Cluster; onOpen: (cluster: Cluster) => void }) {
+function ClusterCard({ cluster, onOpen, synthesis }: { cluster: Cluster; onOpen: (cluster: Cluster) => void; synthesis?: NewsSynthesisPreview }) {
   const sourceNames = cluster.topSources ?? Array.from(new Set((cluster.articles ?? []).map((a) => a.source))).slice(0, 5)
   const articleCount = cluster.articleCount ?? (cluster.articles?.length ?? 0)
   const imageSrc = cluster.imageUrl || FALLBACK_CLUSTER_IMAGE
@@ -61,8 +61,9 @@ function ClusterCard({ cluster, onOpen }: { cluster: Cluster; onOpen: (cluster: 
       </div>
       <div className="cluster-body">
         <div className="cluster-meta"><span>{articleCount} artigos</span><span>{cluster.spectrum.knownCount} fontes classificadas</span></div>
-        <h2>{cluster.title}</h2>
-        <p>{cluster.summary}</p>
+        <h2>{synthesis?.headline ?? cluster.title}</h2>
+        <p>{synthesis?.subtitle ?? cluster.summary}</p>
+        {synthesis ? <div className="synthesis-label"><Sparkles size={13} /> Síntese IA · {synthesis.sourceCount} fontes</div> : null}
         <SpectrumBar cluster={cluster} compact />
         <div className="flag-row">{cluster.flags.slice(0, 3).map((flag) => <span key={flag}>{flag}</span>)}</div>
         <div className="card-footer">
@@ -93,7 +94,7 @@ function Header({ current, onNavigate }: { current: string; onNavigate: (view: s
   )
 }
 
-function HomePage({ data, onOpen, onNavigate }: { data: NewsPayload; onOpen: (cluster: Cluster) => void; onNavigate: (view: string) => void }) {
+function HomePage({ data, onOpen, onNavigate, syntheses }: { data: NewsPayload; onOpen: (cluster: Cluster) => void; onNavigate: (view: string) => void; syntheses: Record<string, NewsSynthesisPreview> }) {
   const [query, setQuery] = useState('')
   const [topic, setTopic] = useState('Todos')
   const topics = useMemo(() => {
@@ -144,13 +145,13 @@ function HomePage({ data, onOpen, onNavigate }: { data: NewsPayload; onOpen: (cl
       </section>
 
       <section className="cluster-grid">
-        {filtered.map((cluster) => <ClusterCard key={cluster.id} cluster={cluster} onOpen={onOpen} />)}
+        {filtered.map((cluster) => <ClusterCard key={cluster.id} cluster={cluster} onOpen={onOpen} synthesis={syntheses[cluster.id]} />)}
       </section>
     </main>
   )
 }
 
-function ClusterDetail({ cluster, loading, error, onRetry, onBack }: { cluster: ClusterDetail | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void }) {
+function ClusterDetail({ cluster, loading, error, onRetry, onBack, synthesis }: { cluster: ClusterDetail | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void; synthesis: NewsSynthesisDetail | null }) {
   if (loading) {
     return (
       <main className="detail-page">
@@ -170,18 +171,47 @@ function ClusterDetail({ cluster, loading, error, onRetry, onBack }: { cluster: 
   }
 
   const byBucket = bucketOrder.map((bucket) => ({ bucket, articles: cluster.articles.filter((a) => a.bucket === bucket) })).filter((g) => g.articles.length)
+  const citationSources = new Map((synthesis?.sourceArticles ?? []).map((article) => [article.articleId, article]))
+  const citationClaims = new Map((synthesis?.news.claims ?? []).map((claim) => [claim.claimId, claim]))
   return (
     <main className="detail-page">
       <button className="back-button" onClick={onBack}><ArrowLeft size={16} /> Voltar</button>
       <section className="detail-hero">
         <div>
           <span className="eyebrow">{cluster.topic}</span>
-          <h1>{cluster.title}</h1>
-          <p>{cluster.summary}</p>
+          <h1>{synthesis?.news.headline ?? cluster.title}</h1>
+          <p>{synthesis?.news.subtitle ?? cluster.summary}</p>
+          {synthesis ? <div className="synthesis-label"><Sparkles size={15} /> Síntese por IA · {synthesis.sourceArticles.length} fontes · {new Date(synthesis.generatedAt).toLocaleString('pt-BR')}</div> : null}
           <div className="flag-row large">{cluster.flags.map((flag) => <span key={flag}>{flag}</span>)}</div>
         </div>
         <img src={cluster.imageUrl || FALLBACK_CLUSTER_IMAGE} alt="" referrerPolicy="no-referrer" onError={onImageError} />
       </section>
+      {synthesis ? (
+        <section className="synthesis-article" aria-label="Notícia consolidada">
+          <div className="synthesis-disclaimer"><Sparkles size={16} /> Síntese automatizada de fontes externas. Declarações e alegações são atribuídas aos veículos originais; consulte os links para verificar o contexto.</div>
+          {synthesis.news.sections.map((section, index) => (
+            <section key={index} className="synthesis-section">
+              <h2>{section.heading}</h2>
+              {section.paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+              <div className="synthesis-citations">Fontes: {Array.from(new Set(section.claimIds.map((id) => citationClaims.get(id)?.articleId).filter((id): id is string => Boolean(id)))).map((id) => {
+                const article = citationSources.get(id)
+                return article ? <a key={id} href={article.url} target="_blank" rel="noreferrer">{article.source} <ExternalLink size={12} /></a> : null
+              })}</div>
+            </section>
+          ))}
+          {synthesis.news.coverageAngles.length ? <section className="synthesis-section">
+            <h2>Diferenças na cobertura</h2>
+            <ul>{synthesis.news.coverageAngles.map((angle, i) => {
+              const article = citationSources.get(angle.articleId)
+              return article ? <li key={i}><a href={article.url} target="_blank" rel="noreferrer">{article.source}</a>: {angle.focus}</li> : null
+            })}</ul>
+          </section> : null}
+          {synthesis.news.openQuestions.length ? <section className="synthesis-section">
+            <h2>O que ainda não sabemos</h2>
+            <ul>{synthesis.news.openQuestions.map((question, i) => <li key={i}>{question}</li>)}</ul>
+          </section> : null}
+        </section>
+      ) : null}
       <section className="analysis-grid">
         <div className="analysis-card wide"><h3>Distribuição editorial estimada</h3><SpectrumBar cluster={cluster} /><div className="metric-row"><ScorePill label="Média" value={cluster.spectrum.average?.toFixed(1) ?? '—'} icon={Gauge} /><ScorePill label="Amplitude" value={`${cluster.spectrum.min ?? '—'}–${cluster.spectrum.max ?? '—'}`} icon={BarChart3} /><ScorePill label="Divergência" value={`${cluster.scores.headlineDivergence}%`} icon={TrendingUp} /></div></div>
         <div className="analysis-card"><h3>Confiança do cluster</h3><div className="radial"><span>{cluster.scores.confidence}%</span></div><p>Baseado em fontes conhecidas, quantidade de artigos e completude de metadados.</p></div>
@@ -354,6 +384,8 @@ export function App() {
   const [data, setData] = useState<NewsPayload>(mockNewsData)
   const [selected, setSelected] = useState<Cluster | null>(null)
   const [selectedDetail, setSelectedDetail] = useState<ClusterDetail | null>(null)
+  const [syntheses, setSyntheses] = useState<Record<string, NewsSynthesisPreview>>({})
+  const [selectedSynthesis, setSelectedSynthesis] = useState<NewsSynthesisDetail | null>(null)
   const [detailLoading, setDetailLoading] = useState(false)
   const [detailError, setDetailError] = useState<string | null>(null)
   const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null)
@@ -398,6 +430,7 @@ export function App() {
   const clearDetailState = useCallback(() => {
     setSelected(null)
     setSelectedDetail(null)
+    setSelectedSynthesis(null)
     setDetailError(null)
     setDetailLoading(false)
   }, [])
@@ -436,6 +469,33 @@ export function App() {
       .then((payload: NewsPayload) => setData(payload))
       .catch(() => setData(mockNewsData))
   }, [])
+
+  useEffect(() => {
+    const controller = new AbortController()
+    fetch(`${import.meta.env.BASE_URL}data/enrichment/news/latest.json`, { signal: controller.signal })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('No enriched news')))
+      .then((payload: { stories?: Record<string, NewsSynthesisPreview> }) => {
+        if (payload.stories) setSyntheses(payload.stories)
+      })
+      .catch(() => setSyntheses({}))
+    return () => controller.abort()
+  }, [])
+
+  useEffect(() => {
+    if (!selected?.id || !syntheses[selected.id]) {
+      setSelectedSynthesis(null)
+      return
+    }
+    const controller = new AbortController()
+    setSelectedSynthesis(null)
+    fetch(`${import.meta.env.BASE_URL}data/enrichment/news/${encodeURIComponent(selected.id)}.json`, { signal: controller.signal })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('Not found')))
+      .then((payload: NewsSynthesisDetail) => {
+        if (payload.clusterId === selected.id && payload.news?.sections?.length) setSelectedSynthesis(payload)
+      })
+      .catch(() => setSelectedSynthesis(null))
+    return () => controller.abort()
+  }, [selected?.id, syntheses])
 
   const loadClusterDetail = useCallback((summary: Cluster, updateHistory = true) => {
     setView('home')
@@ -537,5 +597,5 @@ export function App() {
     }
   }
 
-  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
+  return <><Header current={selected ? 'home' : view} onNavigate={navigate} /><PwaStatus isOffline={isOffline} canInstall={Boolean(installPrompt)} needRefresh={needRefresh} onInstall={installApp} onRefresh={() => updateServiceWorker(true)} onDismissUpdate={() => setNeedRefresh(false)} />{selected ? <ClusterDetail cluster={selectedDetail} synthesis={selectedSynthesis} loading={detailLoading} error={detailError} onRetry={retryDetail} onBack={closeDetail} /> : view === 'sources' ? <SourcesPage data={data} /> : view === 'methodology' ? <MethodologyPage /> : <HomePage data={data} syntheses={syntheses} onOpen={loadClusterDetail} onNavigate={navigate} />}</>
 }

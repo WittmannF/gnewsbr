@@ -1,0 +1,77 @@
+name: Generate grounded news syntheses
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Archive date, UTC (YYYY-MM-DD); empty for today'
+        required: false
+        type: string
+      max_clusters:
+        description: 'Max eligible clusters (1-20)'
+        required: false
+        default: '3'
+        type: string
+  schedule:
+    # Archive job runs at 10:23 UTC. Leave time for it to finish.
+    - cron: '10 12 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-synthesis-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Validate schema and evidence tests
+        run: python -m unittest discover -s tests -p 'test_news_synthesis.py'
+      - name: Generate only when configured and archived
+        if: env.OPENROUTER_API_KEY != ''
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+          INPUT_MAX_CLUSTERS: ${{ inputs.max_clusters }}
+        run: |
+          DATE="${INPUT_DATE:-$(date -u +%F)}"
+          MAX="${INPUT_MAX_CLUSTERS:-20}"
+          if ! [[ "$MAX" =~ ^[0-9]+$ ]] || [ "$MAX" -lt 1 ] || [ "$MAX" -gt 20 ]; then
+            echo "max_clusters must be between 1 and 20"; exit 1
+          fi
+          if [ ! -d "public/data/article-content/$DATE/articles" ]; then
+            echo "No article archive for $DATE; skip safely"
+            exit 0
+          fi
+          python3 scripts/generate_news_synthesis.py --date "$DATE" --max-clusters "$MAX" --disable-jev
+      - name: No key configured
+        if: env.OPENROUTER_API_KEY == ''
+        run: echo "OPENROUTER_API_KEY not configured. No paid requests."
+      - name: Commit validated JSON and budget ledger
+        if: env.OPENROUTER_API_KEY != ''
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/enrichment/news/ data/enrichment/cost-ledger/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No synthesis changes to publish"
+            exit 0
+          fi
+          git commit -m "chore(data): publish grounded news syntheses"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin "${GITHUB_REF_NAME:-main}"
+          done
+          exit 1

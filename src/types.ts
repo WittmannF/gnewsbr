@@ -93,3 +93,26 @@ export type NewsPayload = {
   clusters: Cluster[]
   sources: IndexedSourceMeta[]
 }
+
+export type NewsSynthesisPreview = {
+  headline: string
+  subtitle: string
+  generatedAt: string
+  sourceCount: number
+}
+
+export type NewsSynthesisDetail = {
+  clusterId: string
+  generatedAt: string
+  model: string
+  sourceArticles: { articleId: string; source: string; url: string; publishedAt?: string | null }[]
+  news: {
+    headline: string
+    subtitle: string
+    sections: { heading: string; paragraphs: string[]; claimIds: string[] }[]
+    claims: { claimId: string; text: string; kind: string; articleId: string; excerpt: string }[]
+    coverageAngles: { articleId: string; focus: string }[]
+    openQuestions: string[]
+    confidence: 'low' | 'medium' | 'high'
+  }
+}
