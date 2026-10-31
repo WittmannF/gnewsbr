@@ -99,6 +99,9 @@ export type NewsSynthesisPreview = {
   subtitle: string
   generatedAt: string
   sourceCount: number
+  sources?: { source: string; url: string; articleId: string }[]
+  // Stable publication-time metadata, not a lookup in the current live feed.
+  clusterSnapshot?: ClusterDetail
 }
 
 export type NewsSynthesisDetail = {

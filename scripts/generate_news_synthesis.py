@@ -23,6 +23,7 @@ from pydantic import BaseModel, ConfigDict, Field, ValidationError
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from enrichment.paths import CLUSTERS_LATEST, ENRICHMENT_DATA, ENRICHMENT_PUBLIC, article_content_dir, normalized_articles_dir
+from enrichment.edition_snapshots import index_story_entry
 from enrichment.editorial_text import clean_news_payload
 from enrichment.schemas import NormalizedArticle
 from ingest_article_content import ingest
@@ -370,7 +371,7 @@ def main() -> None:
             print(f"SKIP {cid}: {exc}", file=sys.stderr)
             continue
         payload = {
-            "clusterId": cid, "generatedAt": now.isoformat(), "model": args.model,
+            "clusterId": cid, "generatedAt": now.isoformat(), "archiveDate": args.date, "model": args.model,
             "promptVersion": PROMPT_VERSION, "inputFingerprint": current_fingerprint,
             "sourceArticles": [{"articleId": a.articleId, "source": a.source, "url": a.url,
                                 "publishedAt": a.publishedAt} for a in articles],
@@ -390,15 +391,18 @@ def main() -> None:
         print(f"Published {cid}, {kind}, {len(articles)} sources")
     budget_path.write_text(json.dumps(ledger, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # Index is derived only from non-mock, locally validated output files.
+    # Immutable editorial snapshot: do not discard a cluster just because the
+    # hourly home feed no longer contains its ID. Retain prior metadata.
+    previous_index = _load_json(output_dir / "latest.json", {})
+    previous_stories = previous_index.get("stories", {})
     index = {"generatedAt": now.isoformat(), "date": args.date, "stories": {}}
     for path in output_dir.glob("story_*.json"):
         item = _load_json(path, {})
         if item.get("news") and item.get("model") != "mock" and item.get("clusterId"):
-            index["stories"][item["clusterId"]] = {
-                "headline": item["news"]["headline"], "subtitle": item["news"]["subtitle"],
-                "generatedAt": item["generatedAt"], "sourceCount": len(item.get("sourceArticles", [])),
-            }
+            cid = item["clusterId"]
+            index["stories"][cid] = index_story_entry(
+                item, existing=previous_stories.get(cid)
+            )
     (output_dir / "latest.json").write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
     covered = [cluster_id for cluster_id in frontpage_ids if cluster_id in index["stories"]]
     print(json.dumps({

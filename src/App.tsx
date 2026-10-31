@@ -205,7 +205,9 @@ function EditionPage({ syntheses, clusters, onOpen }: {
 
   useEffect(() => {
     setArchived({})
-    if (!selected) return
+    if (!selected || !Object.values(syntheses).some((story) =>
+      editionDate(story.generatedAt) === selected && !story.clusterSnapshot
+    )) return
     const controller = new AbortController()
     fetch(`${import.meta.env.BASE_URL}data/archive/${selected}/index.json`, { signal: controller.signal })
       .then((response) => response.ok ? response.json() : Promise.reject(new Error('Edição arquivada indisponível')))
@@ -216,7 +218,7 @@ function EditionPage({ syntheses, clusters, onOpen }: {
       })
       .catch(() => { /* Current homepage data remains the fallback. */ })
     return () => controller.abort()
-  }, [selected])
+  }, [selected, syntheses])
 
   const current = new Map(clusters.map((cluster, index) => [cluster.id, { cluster, rank: index }]))
   const entries = Object.entries(syntheses)
@@ -240,7 +242,7 @@ function EditionPage({ syntheses, clusters, onOpen }: {
       <div className="edition-count">{entries.length} {entries.length === 1 ? 'história sintetizada' : 'histórias sintetizadas'} · Selecione um cluster para ler a notícia e comparar as fontes.</div>
       <div className="edition-stack">
         {entries.map(([id, story], index) => {
-          const cluster = archived[id] ?? current.get(id)?.cluster
+          const cluster = story.clusterSnapshot ?? archived[id] ?? current.get(id)?.cluster
           return <div key={id} className={index === 0 ? 'edition-entry featured' : 'edition-entry'}>
             {index === 0 ? <span className="eyebrow">Em destaque</span> : null}
             {cluster
@@ -272,7 +274,7 @@ function EditionFallbackCard({ id, story }: { id: string; story: NewsSynthesisPr
     return () => controller.abort()
   }, [id])
 
-  const sources = synthesis?.sourceArticles.filter((article) => /^https?:\/\//i.test(article.url)) ?? []
+  const sources = story.sources?.filter((article) => /^https?:\/\//i.test(article.url)) ?? synthesis?.sourceArticles.filter((article) => /^https?:\/\//i.test(article.url)) ?? []
   return <article className="edition-card">
     <h2>{cleanReaderText(story.headline)}</h2>
     <p>{cleanReaderText(story.subtitle)}</p>
