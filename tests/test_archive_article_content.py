@@ -53,6 +53,17 @@ class ArchiveArticleContentTest(unittest.TestCase):
 
         self.assertEqual([cluster["id"] for cluster in selected], ["home-high", "top-high", "home-low"])
 
+    def test_archive_prioritizes_homepage_top_15_without_altering_default_ranking(self):
+        clusters = [
+            make_cluster("frontpage-1", ["topic-1"], 40),
+            make_cluster("frontpage-2", ["topic-2"], 40),
+            make_cluster("other-home", ["home"], 99),
+        ]
+        selected = archive_article_content.select_clusters_for_archive(
+            clusters, max_clusters=2, frontpage_top=2
+        )
+        self.assertEqual([c["id"] for c in selected], ["frontpage-1", "frontpage-2"])
+
     def test_select_articles_keeps_at_least_five_when_available_and_diversifies_domains(self):
         cluster = make_cluster("story_1", ["home"], 90, article_total=9)
 
