@@ -69,6 +69,23 @@ jobs:
           else
             echo "missing=true" >> "$GITHUB_OUTPUT"
           fi
+          UNCOVERED="$(python3 - <<'PY'
+          import json
+          from pathlib import Path
+          try:
+              root = Path("public/data")
+              home = json.loads((root / "latest.json").read_text(encoding="utf-8"))
+              news = json.loads((root / "enrichment/news/latest.json").read_text(encoding="utf-8"))
+              print(sum(c["id"] not in news.get("stories", {}) for c in home["clusters"][:15]))
+          except (OSError, KeyError, ValueError):
+              print(15)
+          PY
+          )"
+          if [ "$UNCOVERED" -gt 0 ]; then
+            echo "top15_missing=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "top15_missing=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Refresh Google News data
         id: refresh
@@ -76,10 +93,14 @@ jobs:
         run: npm run collect
 
       - name: Bootstrap today's top 15 source-linked syntheses
-        if: github.event_name == 'push' && steps.integrity.outputs.missing == 'true'
+        id: bootstrap
+        if: github.event_name == 'push' && (steps.integrity.outputs.missing == 'true' || steps.integrity.outputs.top15_missing == 'true')
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
+          # One-time recovery of 15 top stories after prior test reservations.
+          # Normal daily workflow still uses the $0.25/day cap.
+          GNEWSBR_DAILY_BUDGET_USD: '0.45'
         run: |
           DATE="$(date -u +%F)"
           python3 scripts/archive_article_content.py \
@@ -95,7 +116,7 @@ jobs:
           fi
 
       - name: Commit refreshed data and linked detail files
-        if: steps.refresh.outcome == 'success'
+        if: steps.refresh.outcome == 'success' || steps.bootstrap.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -140,7 +161,7 @@ jobs:
         uses: actions/deploy-pages@v5
 
       - name: Report top-15 deployment to issue #16
-        if: always() && github.event_name == 'push' && steps.integrity.outputs.missing == 'true'
+        if: always() && github.event_name == 'push' && (steps.integrity.outputs.missing == 'true' || steps.integrity.outputs.top15_missing == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
           DEPLOY_RESULT: ${{ steps.deployment.outcome }}
