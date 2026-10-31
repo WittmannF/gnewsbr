@@ -388,7 +388,16 @@ def main() -> None:
                 "generatedAt": item["generatedAt"], "sourceCount": len(item.get("sourceArticles", [])),
             }
     (output_dir / "latest.json").write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"eligible": len(candidates), "published": len(entries), "costBudgetReservedUsd": daily_cost}))
+    covered = [cluster_id for cluster_id in frontpage_ids if cluster_id in index["stories"]]
+    print(json.dumps({
+        "eligible": len(candidates),
+        "published": len(entries),
+        "top15Synthesized": len(covered),
+        "top15Target": len(frontpage_ids),
+        "costBudgetReservedUsd": daily_cost,
+    }))
+    if len(covered) < len(frontpage_ids):
+        print(f"WARNING: {len(frontpage_ids) - len(covered)} top-home stories still without AI synthesis")
 
 
 if __name__ == "__main__":
