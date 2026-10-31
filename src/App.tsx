@@ -245,16 +245,48 @@ function EditionPage({ syntheses, clusters, onOpen }: {
             {index === 0 ? <span className="eyebrow">Em destaque</span> : null}
             {cluster
               ? <ClusterCard cluster={cluster} synthesis={story} onOpen={onOpen} />
-              : <article className="edition-card">
-                  <h2>{cleanReaderText(story.headline)}</h2>
-                  <p>{cleanReaderText(story.subtitle)}</p>
-                  <p>Os dados de comparação deste cluster não estão disponíveis neste arquivo.</p>
-                </article>}
+              : <EditionFallbackCard id={id} story={story} />}
           </div>
         })}
       </div>
     </>}
   </main>
+}
+
+function EditionFallbackCard({ id, story }: { id: string; story: NewsSynthesisPreview }) {
+  const [synthesis, setSynthesis] = useState<NewsSynthesisDetail | null>(null)
+  const [failed, setFailed] = useState(false)
+  const [expanded, setExpanded] = useState(false)
+
+  useEffect(() => {
+    const controller = new AbortController()
+    setSynthesis(null)
+    setFailed(false)
+    setExpanded(false)
+    fetch(`${import.meta.env.BASE_URL}data/enrichment/news/${encodeURIComponent(id)}.json`, { signal: controller.signal })
+      .then((response) => response.ok ? response.json() : Promise.reject(new Error('Síntese indisponível')))
+      .then((detail: NewsSynthesisDetail) => {
+        if (!controller.signal.aborted) setSynthesis(detail)
+      })
+      .catch(() => { if (!controller.signal.aborted) setFailed(true) })
+    return () => controller.abort()
+  }, [id])
+
+  const sources = synthesis?.sourceArticles.filter((article) => /^https?:\/\//i.test(article.url)) ?? []
+  return <article className="edition-card">
+    <h2>{cleanReaderText(story.headline)}</h2>
+    <p>{cleanReaderText(story.subtitle)}</p>
+    {sources.length ? <div className="synthesis-citations">Fontes: {sources.map((article) =>
+      <a key={article.articleId} href={article.url} target="_blank" rel="noreferrer">{article.source} <ExternalLink size={12} /></a>
+    )}</div> : null}
+    {synthesis ? <>
+      <button type="button" onClick={() => setExpanded((value) => !value)}>
+        {expanded ? 'Ocultar notícia sintetizada' : 'Ler notícia sintetizada'}
+      </button>
+      {expanded ? <SynthesisArticle synthesis={synthesis} /> : null}
+    </> : failed ? <p>Não foi possível carregar os links das fontes desta notícia.</p> : <p>Carregando fontes…</p>}
+    <p>Os dados de comparação deste cluster não estão disponíveis neste arquivo.</p>
+  </article>
 }
 
 function ClusterDetail({ cluster, fallback, loading, error, onRetry, onBack, synthesis }: { cluster: ClusterDetail | null; fallback: Cluster | null; loading: boolean; error: string | null; onRetry: () => void; onBack: () => void; synthesis: NewsSynthesisDetail | null }) {
