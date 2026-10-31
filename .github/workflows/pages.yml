@@ -138,6 +138,10 @@ jobs:
                 exit 0
               fi
               echo "Push failed; rebasing on origin/${GITHUB_REF_NAME:-main} before retry $attempt..."
+              # Only approved public JSON is committed above. Archive extraction
+              # modifies tracked article bodies, which must not be pushed and
+              # otherwise prevent git pull --rebase due to a dirty worktree.
+              git reset --hard HEAD
               git pull --rebase origin "${GITHUB_REF_NAME:-main}"
             done
             git push
