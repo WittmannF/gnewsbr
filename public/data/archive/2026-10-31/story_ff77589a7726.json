@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 46
+      "topic-3": 50
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 46,
-    "bestSeedRank": 46,
+    "firstSeenRank": 50,
+    "bestSeedRank": 50,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/presidente-lula_0ed7d4-e1792755501895.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-10-27T10:24:39+00:00",
-  "updatedAt": "2026-10-31T17:17:18.288745+00:00",
+  "updatedAt": "2026-10-31T18:21:29.087267+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -190,20 +190,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_205747f4c4e8",
-      "title": "Pode convidar, mas Trump não vem",
-      "description": "Nem o presidente, nem o vice JD Vance, nem o secretário de Estado Marco Rubio devem viajar para Brasília em janeiro do ano que vem.",
-      "url": "https://crusoe.com.br/diario/pode-convidar-mas-trump-nao-vem/",
-      "source": "Crusoé",
-      "sourceCanonical": "Crusoé",
-      "sourceDomain": "crusoe.com.br",
-      "publishedAt": "2026-10-30T14:46:21+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_8d1dc4e7f0c5",
       "title": "LBE Transporte Executivo organiza caravana para Brasília, onde será realizada a posse do presidente Lula",
       "description": "Blog do Eloilton Cajuhy – BEC. Siga o canal do BEC no WhatsApp. A LBE Transporte Executivo está organizando uma caravana com destino a...",
@@ -240,7 +226,7 @@
       "sourceCanonical": "Capital News",
       "sourceDomain": "capitalnews.com.br",
       "publishedAt": "2026-10-31T12:12:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -258,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_97e45bf0d792",
+      "title": "Crusoé: Pode convidar, mas Trump não vem",
+      "description": "O governo Lula tem vazado para a imprensa que o presidente americano Donald Trump (foto) será convidado para participar da inauguração do...",
+      "url": "https://oantagonista.com.br/analise/crusoe-pode-convidar-mas-trump-nao-vem/",
+      "source": "O Antagonista",
+      "sourceCanonical": "O Antagonista",
+      "sourceDomain": "oantagonista.com.br",
+      "publishedAt": "2026-10-30T15:05:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_5f87d69ac34f",
@@ -296,7 +296,7 @@
       "sourceCanonical": "Correio do Interior",
       "sourceDomain": "correiodointerior.com.br",
       "publishedAt": "2026-10-31T13:34:01+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,26 +319,27 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.25,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.56,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 6,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 1,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
