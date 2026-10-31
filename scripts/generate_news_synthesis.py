@@ -23,6 +23,7 @@ from pydantic import BaseModel, ConfigDict, Field, ValidationError
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from enrichment.paths import CLUSTERS_LATEST, ENRICHMENT_DATA, ENRICHMENT_PUBLIC, article_content_dir, normalized_articles_dir
+from enrichment.editorial_text import clean_news_payload
 from enrichment.schemas import NormalizedArticle
 from ingest_article_content import ingest
 from select_articles_for_enrichment import select
@@ -79,6 +80,7 @@ Produza UMA notícia original: headline informativa; subtitle de 2-3 frases; 2-4
 Diferencie fatos documentados, declarações atribuídas, alegações, análise e pontos não verificados. Não transforme alegações em fato, não infira intenções ou previsões.
 Cada claim deve conter articleId válido de um dos artigos recebidos. Não gere excerpts nem invente URLs. Nunca atribua informação a artigo que não a sustenta.
 Cada seção factual deve citar pelo menos uma claimId existente. Não replique parágrafos inteiros do artigo.
+Nunca inclua identificadores internos como article_abc123, listas (article_...; article_...) ou claimIds dentro de headline, subtitle, headings, paragraphs, coverageAngles.focus ou openQuestions. As referências são tratadas separadamente pelo aplicativo.
 Datas e números precisam estar sustentados na fonte. Reconheça diferenças cronológicas entre reportagens, em vez de declarar divergência editorial artificial.
 Se houver fontes com evidenceType=summary_only, elas contêm apenas manchete/snippet: NÃO invente detalhes ausentes e seja conciso, atribuindo informações aos veículos. Não procure fontes externas; não invente consenso. Se os artigos não sustentam uma narrativa, escreva com baixa confiança e identifique lacunas.
 Prefira 180-350 palavras no total; com poucas informações disponíveis use 90-160 palavras e explique as lacunas."""
@@ -197,6 +199,11 @@ def chat_completion(
             if not isinstance(raw, str):
                 raise ValueError("Expected JSON string in model response")
             result = NewsSynthesis.model_validate_json(raw)
+            # Model-provided claim and source IDs remain structured for clickable links;
+            # only human-readable fields are cleaned before validation/publishing.
+            result = NewsSynthesis.model_validate(
+                clean_news_payload({"news": result.model_dump()})["news"]
+            )
             usage = data.get("usage") or {}
             cost = (int(usage.get("prompt_tokens", 0)) * COST_PER_M_INPUT
                     + int(usage.get("completion_tokens", 0)) * COST_PER_M_OUTPUT) / 1_000_000
