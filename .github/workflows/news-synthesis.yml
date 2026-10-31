@@ -1,6 +1,10 @@
 name: Generate grounded news syntheses
 
 on:
+  # One bounded initial run on merging this workflow; daily runs follow the archive.
+  push:
+    branches: [main]
+    paths: ['.github/workflows/news-synthesis.yml']
   workflow_dispatch:
     inputs:
       date:
@@ -10,7 +14,7 @@ on:
       max_clusters:
         description: 'Max eligible clusters (1-20)'
         required: false
-        default: '3'
+        default: '20'
         type: string
   schedule:
     # Archive job runs at 10:23 UTC. Leave time for it to finish.
@@ -25,9 +29,6 @@ concurrency:
 
 jobs:
   synthesize:
-    # Do not spend LLM credits on recurring runs until evidence grounding is fixed.
-    # Explicit manual workflow_dispatch remains available with a configured API key.
-    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_GNEWSBR_SYNTHESIS == 'true'
     runs-on: ubuntu-latest
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -52,7 +53,7 @@ jobs:
           DATE="${INPUT_DATE:-$(date -u +%F)}"
           # Keep smoke-test execution bounded, unlike the daily batch.
           if [ "$GITHUB_EVENT_NAME" = "push" ]; then
-            MAX=3
+            MAX=20
           else
             MAX="${INPUT_MAX_CLUSTERS:-20}"
           fi
