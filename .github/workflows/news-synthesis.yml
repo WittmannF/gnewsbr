@@ -1,10 +1,7 @@
 name: Generate grounded news syntheses
 
 on:
-  # One bounded initial run on merging this workflow; daily runs follow the archive.
-  push:
-    branches: [main]
-    paths: ['.github/workflows/news-synthesis.yml']
+  # Legacy multi-section pipeline remains available for manual experiments only.
   workflow_dispatch:
     inputs:
       date:
@@ -16,9 +13,6 @@ on:
         required: false
         default: '20'
         type: string
-  schedule:
-    # Archive job runs at 10:23 UTC. Leave time for it to finish.
-    - cron: '10 12 * * *'
 
 permissions:
   contents: write
