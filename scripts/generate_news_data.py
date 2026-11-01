@@ -707,28 +707,51 @@ def write_json_atomic(path: Path, payload: dict[str, Any]) -> None:
 
 
 def write_latest_partitioned(out: Path, base_payload: dict[str, Any], clusters: list[dict[str, Any]]) -> None:
+    """Keep previously published detail URLs available for the PWA's 30-day cache."""
+    from datetime import timedelta
+
     cluster_dir = out.parent / "clusters" / "latest"
     temp_cluster_dir = out.parent / "clusters" / ".latest_tmp"
     if temp_cluster_dir.exists():
         shutil.rmtree(temp_cluster_dir)
     temp_cluster_dir.mkdir(parents=True, exist_ok=True)
 
+    now = datetime.now(timezone.utc).date()
+    cutoff = (now - timedelta(days=30)).isoformat()
+    manifest_path = cluster_dir / "_last_seen.json"
+    try:
+        previous = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        previous = {}
+
+    current_ids = {cluster["id"] for cluster in clusters}
+    retained: dict[str, str] = {}
+    if cluster_dir.exists():
+        for file in cluster_dir.glob("story_*.json"):
+            identifier = file.stem
+            # First deployment migrates existing files without invalidating their URLs.
+            last_seen = previous.get(identifier, now.isoformat())
+            if identifier not in current_ids and last_seen >= cutoff:
+                shutil.copy2(file, temp_cluster_dir / file.name)
+                retained[identifier] = last_seen
+
     summaries = []
     for cluster in clusters:
         detail_file = temp_cluster_dir / f"{cluster['id']}.json"
         detail_file.write_text(json.dumps(cluster, ensure_ascii=False, indent=2), encoding="utf-8")
+        retained[cluster["id"]] = now.isoformat()
         detail_path = f"data/clusters/latest/{cluster['id']}.json"
         summaries.append(build_cluster_summary(cluster, detail_path))
 
-    index_payload = {
-        **base_payload,
-        "clusters": summaries,
-    }
-    write_json_atomic(out, index_payload)
-
+    (temp_cluster_dir / "_last_seen.json").write_text(
+        json.dumps(retained, ensure_ascii=False, sort_keys=True), encoding="utf-8"
+    )
+    # Switch the directory before publishing the new index, so no index
+    # can reference details that haven't been written yet.
     if cluster_dir.exists():
         shutil.rmtree(cluster_dir)
     temp_cluster_dir.rename(cluster_dir)
+    write_json_atomic(out, {**base_payload, "clusters": summaries})
 
     missing = [c["id"] for c in clusters if not (cluster_dir / f"{c['id']}.json").exists()]
     if missing:
