@@ -38,6 +38,26 @@ def make_cluster(story_id, urls, title="Repeated story", article_count=None):
 
 
 class GenerateNewsDataTest(unittest.TestCase):
+    def test_detail_urls_survive_a_second_collection_and_expire_by_manifest(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "data" / "latest.json"
+            base = {"generatedAt": "2026-11-01T10:00:00Z"}
+            first = make_cluster("first", ["https://a.example/1"])
+            second = make_cluster("second", ["https://b.example/1"])
+            generate_news_data.write_latest_partitioned(out, base, [first])
+            old_path = out.parent / "clusters/latest" / f"{first['id']}.json"
+            self.assertTrue(old_path.exists())
+            generate_news_data.write_latest_partitioned(out, base, [second])
+            self.assertTrue(old_path.exists(), "Previous index URLs must not disappear")
+            self.assertTrue((out.parent / "clusters/latest" / f"{second['id']}.json").exists())
+            manifest = out.parent / "clusters/latest/_last_seen.json"
+            retained = json.loads(manifest.read_text())
+            retained[first["id"]] = "2000-01-01"
+            manifest.write_text(json.dumps(retained))
+            generate_news_data.write_latest_partitioned(out, base, [second])
+            self.assertFalse(old_path.exists(), "Expired URLs are pruned")
+            self.assertTrue((out.parent / "clusters/latest" / f"{second['id']}.json").exists())
+
     def test_cluster_id_uses_full_story_id_hash_to_avoid_common_google_prefix_collisions(self):
         first = "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPMHFXWEVSSGs5Vkd4X19GSHlTZ0FQAQ"
         second = "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lPMHFXWEVSSE80N3VSeWdubGFTZ0FQAQ"
