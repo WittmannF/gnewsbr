@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmaFptZkVoRXlhc09VZXN5UjBpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pmaFptZkVoRXlhc09VZXN5UjBpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 15,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 15,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Reeleito, Lula fica \"off\" e vai estender o feriadão para descansar",
   "summary": "O presidente Luiz Inácio Lula da Silva (PT) reservou o feriado de Finados para descansar. O petista permanece em Brasília, na Granja do...",
@@ -28,14 +34,14 @@
     "lula",
     "vitória",
     "turno",
+    "virada",
     "reeleito",
-    "milhões",
-    "votos"
+    "flávio"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/Lula-Janja-Janones.jpg",
   "publishedAt": "2026-10-26T03:52:45+00:00",
-  "updatedAt": "2026-11-01T06:26:21.406783+00:00",
-  "sourceCount": 17,
+  "updatedAt": "2026-11-01T07:16:13.565133+00:00",
+  "sourceCount": 16,
   "articleCount": 20,
   "articles": [
     {
@@ -75,24 +81,10 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-01T06:00:00+00:00",
-      "postedLabel": "26 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/MEXCC2GR4NGFZORL23U4G6QQQA.png?quality=80&auth=cd21c70faa09c15d623466b3d86fbe305c1b53ac15b84672b00068f3c5093a35&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_1dfea6a72883",
-      "title": "MAPAS: veja como os estados votaram para presidente no 2º turno",
-      "description": "Reeleito presidente neste domingo (25), Lula (PT) foi o mais votado em 13 estados, enquanto Flávio Bolsonaro (PL) venceu em outros 13 e no...",
-      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/26/mapas-votacao-presidente-estados-segundo-turno.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-10-26T03:52:45+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/YaZs8r3OSzzqLQF-qz73d5ZmERo=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/P/uPyjXTT726c3lRfLov5A/capa-g1-4-.gif",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_6cf8d904566c",
@@ -107,6 +99,34 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f7a006183649",
+      "title": "Mobilização popular foi protagonista da vitória, afirma a Executiva Nacional do PT",
+      "description": "Comissão Executiva divulga nota política com avaliação da virada inédita de Lula e recondução para 4º mandato.",
+      "url": "https://pt.org.br/mobilizacao-popular-foi-protagonista-da-vitoria-diz-executiva-nacional-do-pt/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-10-29T20:13:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_1dfea6a72883",
+      "title": "MAPAS: veja como os estados votaram para presidente no 2º turno",
+      "description": "Reeleito presidente neste domingo (25), Lula (PT) foi o mais votado em 13 estados, enquanto Flávio Bolsonaro (PL) venceu em outros 13 e no...",
+      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/26/mapas-votacao-presidente-estados-segundo-turno.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-10-26T03:52:45+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/YaZs8r3OSzzqLQF-qz73d5ZmERo=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/P/uPyjXTT726c3lRfLov5A/capa-g1-4-.gif",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_5fb499bd0aec",
@@ -137,17 +157,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_dba96c2b5c10",
-      "title": "Lula tem 24,4 milhões de votos no Nordeste e bate recorde do PT na região",
-      "description": "Votação supera todas as participações do partido desde 1989; vantagem sobre Flávio Bolsonaro (PL) também é a maior em números absolutos.",
-      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-tem-244-milhoes-de-votos-no-nordeste-e-bate-recorde-do-pt-na-regiao/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-10-26T21:53:43+00:00",
-      "postedLabel": "5 dias atrás",
+      "id": "article_59d1fa5172d9",
+      "title": "História da virada prova que Lula terá que se reinventar para governar",
+      "description": "A virada histórica operada por Lula nesta eleição lhe dá um atestado de força e capacidade política capaz de silenciar muita gente que já o...",
+      "url": "https://oglobo.globo.com/blogs/malu-gaspar/coluna/2026/10/jornada-provou-que-presidente-tera-de-se-reinventar-para-governar.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-10-26T06:30:00+00:00",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -193,20 +213,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_2d5a35746afa",
-      "title": "A vitória de Lula e o efeito Janones",
-      "description": "Rita Figueiras: 'Não simplifiquemos, não foi só André Janones que deu a vitória a Lula, mas sem ele o quarto mandato não teria sido possível...",
-      "url": "https://www.publico.pt/2026/10/28/opiniao/opiniao/vitoria-lula-efeito-janones-2192769",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-10-28T00:15:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_b5150b7313be",
       "title": "Lula tem chance de fazer governo mais responsável",
       "description": "Logo depois de confirmada sua vitória na eleição, o presidente Luiz Inácio Lula da Silva (PT) fez um discurso em São Paulo. Antes de falar...",
@@ -215,7 +221,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-01T03:10:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -229,7 +235,7 @@
       "sourceCanonical": "O POVO+",
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-11-01T04:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -247,20 +253,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_f7a006183649",
-      "title": "Mobilização popular foi protagonista da vitória, afirma a Executiva Nacional do PT",
-      "description": "Comissão Executiva divulga nota política com avaliação da virada inédita de Lula e recondução para 4º mandato.",
-      "url": "https://pt.org.br/mobilizacao-popular-foi-protagonista-da-vitoria-diz-executiva-nacional-do-pt/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-10-29T20:13:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_66a5fe5cdc7e",
@@ -291,18 +283,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_2c845d525804",
-      "title": "Lula terá governo impopular mesmo após vitória histórica, diz analista",
-      "description": "Para Cila Schulman, presidente reeleito enfrentará resistência de parte do eleitorado, oposição fortalecida no Congresso e pressão por...",
-      "url": "https://exame.com/brasil/lula-tera-governo-impopular-mesmo-apos-vitoria-historica-diz-analista/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-10-30T19:43:43+00:00",
-      "postedLabel": "ontem",
+      "id": "article_99b01a160cf6",
+      "title": "Centrão isola golpismo de Flávio Bolsonaro e reforça respeito ao resultado das urnas",
+      "description": "Partidos do Centrão, como o PSDB, União Brasil e MDB se manifestaram nesta quarta-feira 28 rejeitando a narrativa golpista promovida pelo...",
+      "url": "https://www.cartacapital.com.br/politica/centrao-isola-golpismo-de-flavio-bolsonaro-e-reforca-respeito-ao-resultado-das-urnas/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-29T02:00:00+00:00",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_d3629079638e",
@@ -317,18 +309,32 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_c0218b751856",
+      "title": "Lula 4, com mais democracia e direitos",
+      "description": "As urnas deram um recado contundente no último dia 25 de outubro, reelegendo Luiz Inácio Lula da Silva com mais de 64 milhões de votos para...",
+      "url": "https://www.brasildefato.com.br/colunista/movimento-de-trabalhadoras-e-trabalhadores-por-direitos/2026/10/30/lula-4-com-mais-democracia-e-direitos/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-10-30T21:15:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.29,
+    "average": 4.06,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 3,
-      "centerLeft": 6,
-      "center": 7,
+      "left": 5,
+      "centerLeft": 5,
+      "center": 6,
       "centerRight": 1,
       "right": 0,
       "unknown": 3
