@@ -50,46 +50,47 @@ Formato de saída (particionado):
 ```
 
 
-## Leitura diária e ranking
+## Resumos de IA no top 15 (MVP)
 
-- **Hoje:** radar de cobertura, mantendo a ordem atual por quantidade de artigos e fontes classificadas; a síntese por IA não muda a posição.
-- **Edição:** clusters sintetizados agrupados por data (horário de Brasília), com foto, resumo e comparação de cobertura quando os metadados originais estiverem disponíveis. O índice de notícias passa a guardar um snapshot do cluster e os links das fontes na publicação: uma coleta horária posterior não apaga a comparação. Quando apenas os metadados de extração sobreviveram, a comparação usa esses dados, sem inventar imagem nem métricas; quando nenhum snapshot existir, as fontes originais continuam clicáveis. A notícia IA e a comparação usam os JSONs existentes, sem outra chamada ao LLM nem banco de dados.
-- **Top 15 da home:** o arquivamento diário agora prioriza as 15 primeiras histórias do snapshot utilizado; a síntese prioriza os mesmos IDs e, se houver espaço, inclui outros clusters. O ranking não é modificado. O número efetivamente sintetizado pode ser inferior a 15 quando o extrator não conseguir duas fontes úteis, houver falha de API ou orçamento esgotado; a home exibe a cobertura real. Como a coleta da home é horária e a síntese diária, a cobertura das *15 atuais* pode variar entre execuções.
+A página **Hoje** conserva o ranking original (número de artigos e fontes classificadas).
+A coleta horária produz `public/data/latest.json` e os detalhes dos clusters.
+No mesmo workflow de publicação, `scripts/summarize_home.py` percorre os **15
+primeiros IDs desse mesmo snapshot** e:
 
-## Síntese multifonte experimental (issue #16)
+1. Reutiliza `public/data/enrichment/briefs/{clusterId}.json` quando existe;
+2. Para um cluster novo com pelo menos duas fontes, envia até cinco manchetes e
+   descrições ao GLM via OpenRouter, solicitando **somente um resumo curto**;
+3. Adiciona `aiSummary` e `aiSources` ao índice e ao JSON de detalhe, para a
+   home e a página de comparação exibirem o mesmo texto e os links reais;
+4. Publica mesmo quando o LLM está indisponível: nessas situações, mantém o
+   resumo original e informa os IDs não atendidos no log.
 
-A interface mantém os dados brutos de Google News como fallback. Quando um cluster tiver um resultado **válido** em `public/data/enrichment/news/{clusterId}.json`, a home apresenta uma manchete e um subtítulo próprios, e o detalhe mostra seções e links das fontes efetivamente consultadas. A síntese é assistida por IA, não substitui a leitura das matérias e não constitui verificação factual independente.
+Não há regeneração de um resumo existente, extração integral obrigatória,
+atualização semântica com Jev ou novo banco de dados. A aba **Edição** permanece
+como acesso secundário às sínteses históricas já publicadas.
 
-### Configuração
+**Configuração:** `OPENROUTER_API_KEY` como secret de GitHub Actions; opcionalmente
+`OPENROUTER_MODEL` como variável (padrão `z-ai/glm-5.3-flash`). A geração simples
+fica habilitada por padrão e pode ser pausada com a variável
+`ENABLE_GNEWSBR_SYNTHESIS=false`. A chave nunca chega ao cliente React.
 
-1. Gere uma chave em https://openrouter.ai/settings/keys.
-2. Cadastre `OPENROUTER_API_KEY` em **Repository Settings > Secrets and variables > Actions** (não em `VITE_*`, `public/` ou arquivo versionado).
-3. Opcionalmente configure `OPENROUTER_MODEL` em **Actions Variables**; padrão: `z-ai/glm-5.3-flash`.
-4. Execute **Actions > Generate grounded news syntheses > Run workflow** com `max_clusters=3` antes de habilitar o fluxo normal. A geração paga agendada e o bootstrap de sínteses no deploy Pages ficam **desativados por padrão**. Para ativá-los explicitamente, configure a Actions Variable `ENABLE_GNEWSBR_SYNTHESIS=true` (o secret sozinho não ativa chamadas pagas). A execução manual (`workflow_dispatch`) permanece disponível para testes deliberados. Os limites normais são até 20 clusters novos/dia, US$ 0,25/dia e US$ 5/mês em reservas estimadas. A coleta horária e o deploy Pages continuam funcionando sem a variável.
+**Custos:** reserva conservadora de US$ 0,01 por tentativa, com máximo de
+US$ 0,25/dia e US$ 5/mês, compartilhando o ledger já existente em
+`data/enrichment/cost-ledger/`. São reservas estimadas, não a fatura efetiva do
+provedor. Configure um teto financeiro real também no OpenRouter.
 
-### Uso local
+**Testes locais:**
 
 ```bash
-python -m pip install -r requirements.txt
-export OPENROUTER_API_KEY='...'  # apenas na sua sessão; nunca commitar
-python scripts/generate_news_synthesis.py --date YYYY-MM-DD --max-clusters 3 --dry-run
-python scripts/generate_news_synthesis.py --date YYYY-MM-DD --max-clusters 3 --disable-jev
-python -m unittest discover -s tests -p 'test_news_synthesis.py'
-npm ci && npm run build
+python -m unittest discover -s tests -p 'test_summarize_home.py'
+python3 scripts/summarize_home.py --dry-run
+npm run build
 ```
 
-A execução usa `public/data/article-content/{date}/articles/` como entrada, aplica normalização e seleciona até cinco matérias válidas de domínios distintos por cluster. Não gera síntese com menos de duas fontes. A API solicita JSON Schema estrito e valida o resultado com Pydantic. Cada afirmação deve apontar para um artigo selecionado, com ID e URL válidos; o MVP não exige reproduzir excerpts literais. Resultados inválidos não são publicados, e nenhuma resposta mock entra no novo índice. A fonte original e seu link são preservados.
-
-O detector de mudanças Jev (`typesafe/jev-1.14`) existe, mas o workflow **desabilita atualizações automáticas via Jev** até haver necessidade real de atualizá-las durante o dia. O MVP usa uma única chamada do GLM por história, sem tentativa adicional apenas para corrigir uma citação literal.
-
-### Limites de custo (conservadores)
-
-- 20 histórias novas por dia;
-- 5 atualizações por dia e duas por história/dia;
-- 12 horas entre atualizações ordinárias e 6 horas entre verificações semânticas por história;
-- teto de reserva de US$ 0,25 por dia e US$ 5 por mês, registrados em `data/enrichment/cost-ledger/`.
-
-O teto controla **estimativas de custo reservadas por execução**, não limites financeiros garantidos pelo provedor. Configure também limites de gasto no OpenRouter. Falhas de rede, restrições do modelo, paywall ou insuficiência de evidências mantêm a UI original.
+O antigo workflow de sínteses estruturadas e o arquivamento integral de artigos
+continuam disponíveis **apenas manualmente**, sem agendamento redundante.
+Os detalhes de clusters já publicados são preservados por 30 dias para que
+índices ainda em cache no PWA não percam seus links.
 
 ### Segurança e limitações
 

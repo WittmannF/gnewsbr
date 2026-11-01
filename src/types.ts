@@ -46,6 +46,8 @@ export type Cluster = {
   storyUrl: string
   title: string
   summary: string
+  aiSummary?: string
+  aiSources?: { source: string; url: string }[]
   topic: string
   topicKeywords: string[]
   imageUrl: string

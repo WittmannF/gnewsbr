@@ -1,4 +1,4 @@
-"""Prevent accidental paid OpenRouter calls on scheduled or Pages runs."""
+"""Make legacy paid synthesis manual-only and allow explicit pause of homepage briefs."""
 from pathlib import Path
 import unittest
 
@@ -14,12 +14,14 @@ class OpenRouterWorkflowOptInTests(unittest.TestCase):
         )
         self.assertNotIn("vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'", workflow)
 
-    def test_pages_bootstrap_requires_exact_true(self):
+    def test_pages_briefs_have_an_explicit_opt_out(self):
         workflow = (ROOT / ".github/workflows/pages.yml").read_text(encoding="utf-8")
         self.assertIn(
-            "if: vars.ENABLE_GNEWSBR_SYNTHESIS == 'true' && github.event_name == 'push'",
+            "if: vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'",
             workflow,
         )
+        self.assertIn("scripts/summarize_home.py", workflow)
+        self.assertNotIn("scripts/generate_news_synthesis.py", workflow)
 
 
 if __name__ == "__main__":

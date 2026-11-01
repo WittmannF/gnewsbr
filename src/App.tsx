@@ -62,9 +62,9 @@ function ClusterCard({ cluster, onOpen, synthesis }: { cluster: Cluster; onOpen:
       </div>
       <div className="cluster-body">
         <div className="cluster-meta"><span>{articleCount} artigos</span><span>{cluster.spectrum.knownCount} fontes classificadas</span></div>
-        <h2>{synthesis ? cleanReaderText(synthesis.headline) : cluster.title}</h2>
-        <p>{synthesis ? cleanReaderText(synthesis.subtitle) : cluster.summary}</p>
-        {synthesis ? <div className="synthesis-label"><Sparkles size={13} /> Síntese IA · {synthesis.sourceCount} fontes</div> : null}
+        <h2>{cluster.title}</h2>
+        <p>{cluster.aiSummary ? cleanReaderText(cluster.aiSummary) : synthesis ? cleanReaderText(synthesis.subtitle) : cluster.summary}</p>
+        {cluster.aiSummary ? <div className="synthesis-label"><Sparkles size={13} /> Resumo IA · {cluster.aiSources?.length ?? 0} fontes</div> : synthesis ? <div className="synthesis-label"><Sparkles size={13} /> Síntese IA · {synthesis.sourceCount} fontes</div> : null}
         <SpectrumBar cluster={cluster} compact />
         <div className="flag-row">{cluster.flags.slice(0, 3).map((flag) => <span key={flag}>{flag}</span>)}</div>
         <div className="card-footer">
@@ -145,7 +145,7 @@ function HomePage({ data, onOpen, onNavigate, syntheses }: { data: NewsPayload; 
         <div className="topic-tabs"><Filter size={16} />{topics.map((t) => <button key={t} className={topic === t ? 'active' : ''} onClick={() => setTopic(t)}>{t}</button>)}{hiddenTopicCount > 0 ? <span className="topic-hint">+{hiddenTopicCount} temas via busca</span> : null}</div>
       </section>
 
-      <div className="edition-note">Sínteses IA disponíveis no top 15: {data.clusters.slice(0, 15).filter((cluster) => syntheses[cluster.id]).length}/15 · <button onClick={() => onNavigate('edition')}>Ler edição</button></div>
+      <div className="edition-note">Sínteses IA disponíveis no top 15: {data.clusters.slice(0, 15).filter((cluster) => cluster.aiSummary || syntheses[cluster.id]).length}/15 · <button onClick={() => onNavigate('edition')}>Ler edição</button></div>
       <section className="cluster-grid">
         {filtered.map((cluster) => <ClusterCard key={cluster.id} cluster={cluster} onOpen={onOpen} synthesis={syntheses[cluster.id]} />)}
       </section>
@@ -316,6 +316,8 @@ function ClusterDetail({ cluster, fallback, loading, error, onRetry, onBack, syn
     )
   }
 
+  const brief = cluster.aiSummary || fallback?.aiSummary
+  const briefSources = cluster.aiSources?.length ? cluster.aiSources : (fallback?.aiSources ?? [])
   const byBucket = bucketOrder.map((bucket) => ({ bucket, articles: cluster.articles.filter((a) => a.bucket === bucket) })).filter((g) => g.articles.length)
   return (
     <main className="detail-page">
@@ -323,14 +325,14 @@ function ClusterDetail({ cluster, fallback, loading, error, onRetry, onBack, syn
       <section className="detail-hero">
         <div>
           <span className="eyebrow">{cluster.topic}</span>
-          <h1>{synthesis ? cleanReaderText(synthesis.news.headline) : cluster.title}</h1>
-          <p>{synthesis ? cleanReaderText(synthesis.news.subtitle) : cluster.summary}</p>
-          {synthesis ? <div className="synthesis-label"><Sparkles size={15} /> Síntese por IA · {synthesis.sourceArticles.length} fontes · {new Date(synthesis.generatedAt).toLocaleString('pt-BR')}</div> : null}
+          <h1>{cluster.title}</h1>
+          <p>{brief ? cleanReaderText(brief) : synthesis ? cleanReaderText(synthesis.news.subtitle) : cluster.summary}</p>
+          {brief ? <div className="synthesis-label"><Sparkles size={15} /> Resumo por IA · {briefSources.length} fontes</div> : synthesis ? <div className="synthesis-label"><Sparkles size={15} /> Síntese por IA · {synthesis.sourceArticles.length} fontes</div> : null}
           <div className="flag-row large">{cluster.flags.map((flag) => <span key={flag}>{flag}</span>)}</div>
         </div>
         <img src={cluster.imageUrl || FALLBACK_CLUSTER_IMAGE} alt="" referrerPolicy="no-referrer" onError={onImageError} />
       </section>
-      {synthesis ? <SynthesisArticle synthesis={synthesis} /> : null}
+      {brief ? <section className="synthesis-article"><h2>Fontes do resumo</h2><p>{briefSources.map((source, i) => <span key={source.url}>{i ? ' · ' : ''}<a href={source.url} target="_blank" rel="noreferrer">{source.source}</a></span>)}</p></section> : synthesis ? <SynthesisArticle synthesis={synthesis} /> : null}
       <section className="analysis-grid">
         <div className="analysis-card wide"><h3>Distribuição editorial estimada</h3><SpectrumBar cluster={cluster} /><div className="metric-row"><ScorePill label="Média" value={cluster.spectrum.average?.toFixed(1) ?? '—'} icon={Gauge} /><ScorePill label="Amplitude" value={`${cluster.spectrum.min ?? '—'}–${cluster.spectrum.max ?? '—'}`} icon={BarChart3} /><ScorePill label="Divergência" value={`${cluster.scores.headlineDivergence}%`} icon={TrendingUp} /></div></div>
         <div className="analysis-card"><h3>Confiança do cluster</h3><div className="radial"><span>{cluster.scores.confidence}%</span></div><p>Baseado em fontes conhecidas, quantidade de artigos e completude de metadados.</p></div>

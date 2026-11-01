@@ -1,9 +1,7 @@
 name: Archive article content
 
 on:
-  schedule:
-    # Runs once a day after the hourly Google News refresh has had time to commit.
-    - cron: '23 10 * * *'
+  # Full-text archival is optional, not needed for homepage AI briefs.
   workflow_dispatch:
     inputs:
       date:
