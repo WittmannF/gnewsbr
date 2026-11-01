@@ -35,6 +35,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
+          # Queued push runs can start after a scheduled run commits newer data.
+          # Check out current main, not the stale triggering event SHA.
+          ref: main
           fetch-depth: 1
 
       - name: Setup Node
