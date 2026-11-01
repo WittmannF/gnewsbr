@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKMk55a0VoR1dBXzd4ai1wOGVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pKMk55a0VoR1dBXzd4ai1wOGVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 9,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 8,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 9,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Janones critica disputa por vitória de Lula: “A vaidade é uma merda”",
   "summary": "Deputado diz que a esquerda ignora a força da direita no Congresso ao discutir quem foi mais decisivo para a reeleição do presidente.",
@@ -30,11 +36,11 @@
     "exército",
     "esquerda",
     "vitória",
-    "digital"
+    "direita"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/10/lula-janones-eleicao-2026-25out2026-1200x675.jpg",
   "publishedAt": "2026-10-27T13:20:00+00:00",
-  "updatedAt": "2026-11-01T04:20:02.262119+00:00",
+  "updatedAt": "2026-11-01T05:16:23.920160+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -65,6 +71,20 @@
       "imageUrl": "https://s2-oglobo.glbimg.com/AWjsiAMtLQnlQpj44QbqRdvJx18=/1312x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/x/N/CzfsV3QrC15abOZjLwqw/116605841-pa-exclusiva-rio-de-janeiro-rj-16-10-2026-eleicoes-2026-lula-participa-de-ato-de.jpg",
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_b5e42ff546ab",
+      "title": "André Janones: de cobrador de ônibus a general do \"Exército do Lula\"",
+      "description": "Com trajetória iniciada na advocacia e nas redes sociais, parlamentar ganhou destaque na campanha petista, mas também enfrentou...",
+      "url": "https://mais.opovo.com.br/jornal/aguanambi-282/2026/11/01/andre-janones-de-cobrador-de-onibus-a-general-do-exercito-do-lula.html",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-11-01T04:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_f0e9cbd2d2b7",
@@ -109,20 +129,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_953303cde785",
-      "title": "‘Exército do Lula’ será replicado em campanhas de outros países",
-      "description": "Estratégia digital inspira partidos de esquerda na França, Espanha e Argentina.",
-      "url": "https://veja.abril.com.br/politica/exercito-do-lula-sera-replicado-em-campanhas-de-outros-paises/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-10-31T20:53:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_a87d75d8856f",
       "title": "Como 'método Janones' está inspirando a esquerda fora do Brasil",
       "description": "Na França, o responsável pela comunicação da França Insubmissa, partido de esquerda liderado por Jean-Luc Mélenchon, publicou lições de...",
@@ -137,6 +143,34 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_953303cde785",
+      "title": "‘Exército do Lula’ será replicado em campanhas de outros países",
+      "description": "A estratégia digital do deputado federal André Janones (Rede-MG), que se tornou o “general” do canal “Exército do Lula”, no WhatsApp,...",
+      "url": "https://veja.abril.com.br/politica/exercito-do-lula-sera-replicado-em-campanhas-de-outros-paises/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-10-31T20:53:11+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_f2f3e48130ef",
+      "title": "Canais da direita perdem força após eleição e ignoram últimos movimentos de Flávio Bolsonaro",
+      "description": "'Tropa do Flávio' no WhatsApp deixou de compartilhar conteúdos; bolsonaristas ignoraram ida aos EUA ou resultado da eleição.",
+      "url": "https://noticias.r7.com/prisma/r7-planalto/canais-da-direita-perdem-forca-apos-eleicao-e-ignoram-ultimos-movimentos-de-flavio-bolsonaro-01112026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-11-01T05:00:00+00:00",
+      "postedLabel": "16 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_26d54315c386",
       "title": "“Faz o L” ganha força internacional após reeleição de Lula e vira símbolo contra a extrema direita",
       "description": "De líderes políticos a artistas de Hollywood, o gesto aparece no México, Chile e Europa e ganha novos significados após a vitória do...",
@@ -149,20 +183,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_7995d3e32bed",
-      "title": "Janones, o Brizola que mandou a militância ficar sem banho",
-      "description": "O 'general' de Lula levou ao celular a urgência que Brizola pôs no rádio durante a Campanha da Legalidade, ambos em defesa da democracia.",
-      "url": "https://www.cartacapital.com.br/blogs/daniel-camargos/janones-o-brizola-que-mandou-a-militancia-ficar-sem-banho/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-10-27T13:20:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_e9aa4dcf3a94",
@@ -193,6 +213,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_7995d3e32bed",
+      "title": "Janones, o Brizola que mandou a militância ficar sem banho",
+      "description": "O 'general' de Lula levou ao celular a urgência que Brizola pôs no rádio durante a Campanha da Legalidade, ambos em defesa da democracia.",
+      "url": "https://www.cartacapital.com.br/blogs/daniel-camargos/janones-o-brizola-que-mandou-a-militancia-ficar-sem-banho/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-10-27T13:20:00+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_3f35d851af0e",
       "title": "Em áudio enviado ao ‘Exército do Lula’, presidente diz que falará em breve",
       "description": "Petista cancelou a transmissão ao vivo que faria com Janones na noite desta quinta (29) por estar com a voz rouca.",
@@ -207,20 +241,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_119dbc7ab695",
-      "title": "Dos caras-pintadas ao janonismo digital",
-      "description": "Os caras-pintadas reivindicavam a saída de um presidente; a mobilização associada a André Janones buscou fortalecer o apoio a Lula.",
-      "url": "https://mais.opovo.com.br/jornal/opiniao/2026/10/30/dos-caras-pintadas-ao-janonismo-digital.html",
-      "source": "O POVO",
-      "sourceCanonical": "O POVO",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-10-30T04:15:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_50962e69f09c",
       "title": "Papel de Janones na vitória de Lula expõe desafio da esquerda",
       "description": "Deputado contribuiu além da publicação de mensagens em grande quantidade na campanha do presidente Lula, destacou o filósofo Lucio...",
@@ -229,7 +249,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-10-31T22:52:05+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -303,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_deddfe3336ee",
-      "title": "Bolsonaro criou herdeiros nas redes, Lula não. Janones quer mudar isso",
-      "description": "André Janones ajudou Lula a virar a eleição com um canal de WhatsApp de 10 milhões de pessoas e agora quer levar o presidente a um segundo...",
-      "url": "https://www.metropoles.com/colunas/matheus-leitao/bolsonaro-criou-herdeiros-nas-redes-lula-nao-janones-quer-mudar-isso",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-10-30T13:55:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.82,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 4,
-      "centerLeft": 2,
-      "center": 7,
-      "centerRight": 3,
+      "centerLeft": 1,
+      "center": 6,
+      "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
