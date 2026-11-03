@@ -124,6 +124,13 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
     ledger = read_json(ledger_path, {"estimatedCostUsd": 0.0, "events": []})
     monthly = sum(float(read_json(p).get("estimatedCostUsd", 0)) for p in ledger_dir.glob(f"{today[:7]}-*.json"))
     daily = float(ledger.get("estimatedCostUsd", 0))
+    # One paid attempt per story per UTC day, even if that attempt fails.
+    # Keep existing reservations from earlier versions of the workflow valid.
+    attempted_today = {
+        event.get("clusterId")
+        for event in ledger.get("events", [])
+        if isinstance(event, dict) and event.get("kind") == "brief_reserved"
+    }
     count = 0
     reasons: dict[str, str] = {}
     staged: list[tuple[Path, dict]] = []
@@ -136,6 +143,13 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
             reasons[cid] = "missing_detail"
             continue
         cached = read_json(cache / f"{cid}.json")
+        if not cached.get("summary") and (item.get("aiSummary") or detail.get("aiSummary")):
+            # A snapshot can already contain a summary even if its cache was lost.
+            cached = {
+                "clusterId": cid,
+                "summary": item.get("aiSummary") or detail["aiSummary"],
+                "sources": item.get("aiSources") or detail.get("aiSources", []),
+            }
         if not cached.get("summary"):
             # Reuse previously validated synthesis when it exists, without a paid call.
             previous = read_json(root / "public/data/enrichment/news" / f"{cid}.json")
@@ -155,12 +169,16 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
             if not api_key:
                 reasons[cid] = "missing_api_key"
                 continue
+            if cid in attempted_today:
+                reasons[cid] = "already_attempted_today"
+                continue
             if count >= max_new or daily + RESERVE_USD > MAX_DAILY_USD + 1e-9 or monthly + RESERVE_USD > MAX_MONTHLY_USD + 1e-9:
                 reasons[cid] = "budget_or_run_limit"
                 continue
             if dry_run:
                 reasons[cid] = "would_generate"
                 continue
+            attempted_today.add(cid)
             daily += RESERVE_USD
             monthly += RESERVE_USD
             ledger["estimatedCostUsd"] = round(daily, 5)
@@ -174,6 +192,12 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
                 summary = call_model(api_key, item["title"], sources)
             except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
                 reasons[cid] = "llm_error"
+                ledger["events"].append({
+                    "kind": "brief_failed", "clusterId": cid,
+                    "errorType": type(exc).__name__,
+                    "at": datetime.now(timezone.utc).isoformat(),
+                })
+                write_json(ledger_path, ledger)
                 print(f"SKIP {cid}: {type(exc).__name__}", flush=True)
                 continue
             cached = {
@@ -183,6 +207,11 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
                 "generatedAt": datetime.now(timezone.utc).isoformat(),
             }
             write_json(cache / f"{cid}.json", cached)
+            ledger["events"].append({
+                "kind": "brief_succeeded", "clusterId": cid,
+                "at": datetime.now(timezone.utc).isoformat(),
+            })
+            write_json(ledger_path, ledger)
             count += 1
         if dry_run:
             continue
