@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3NW9tZUVoRURxNmhnOWdvR0VDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3NW9tZUVoRURxNmhnOWdvR0VDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre eleições • Trump • votos",
   "summary": "Governo norte-americano questiona cidadania de 20.000 eleitores e tenta suspender contagem a 1 dia da eleição. Leia no Poder360.",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/presidente-EUA-Donald-Trump-28out2026-1200x675.jpg",
   "publishedAt": "2026-10-31T18:57:56+00:00",
-  "updatedAt": "2026-11-03T03:28:11.970099+00:00",
+  "updatedAt": "2026-11-03T04:19:22.521820+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -78,20 +84,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_90db61e0b543",
-      "title": "Suprema Corte rejeita tentativa de Trump de separar votos na Califórnia",
-      "description": "Governo disse ter identificado 20 mil pessoas que \"provavelmente não são cidadãos dos Estados Unidos\" entre os eleitores; decisão representa...",
-      "url": "https://www.cnnbrasil.com.br/internacional/suprema-corte-rejeita-tentativa-de-trump-de-separar-votos-na-california/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-03T00:34:30+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportWorldNews/tagreuters.com2025binary_LYNXMPELAC159-BASEIMAGE.jpg?w=800&h=534&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_dc41b5b82a90",
       "title": "Governo Trump vai à Suprema Corte para tentar barrar mais de 20.000 votos na Califórnia",
       "description": "O governo do presidente Donald Trump recorreu à Suprema Corte dos Estados Unidos nesta segunda-feira, 2, para tentar suspender a contagem...",
@@ -101,9 +93,23 @@
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-02T18:38:16+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/11/gettyimages-2302280991-594x594-1.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_90db61e0b543",
+      "title": "Suprema Corte rejeita tentativa de Trump de separar votos na Califórnia",
+      "description": "Governo disse ter identificado 20 mil pessoas que \"provavelmente não são cidadãos dos Estados Unidos\" entre os eleitores; decisão representa...",
+      "url": "https://www.cnnbrasil.com.br/internacional/suprema-corte-rejeita-tentativa-de-trump-de-separar-votos-na-california/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-03T00:34:30+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_523fc0491ffd",
@@ -142,7 +148,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-03T00:03:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -198,7 +204,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-11-03T00:36:36+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -212,7 +218,7 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "opovo.com.br",
       "publishedAt": "2026-11-02T23:46:55+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -226,7 +232,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-03T00:10:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
