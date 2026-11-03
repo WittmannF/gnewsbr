@@ -14,14 +14,15 @@ class OpenRouterWorkflowOptInTests(unittest.TestCase):
         )
         self.assertNotIn("vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'", workflow)
 
-    def test_pages_briefs_have_an_explicit_opt_out(self):
-        workflow = (ROOT / ".github/workflows/pages.yml").read_text(encoding="utf-8")
-        self.assertIn(
-            "if: vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'",
-            workflow,
-        )
-        self.assertIn("scripts/summarize_home.py", workflow)
-        self.assertNotIn("scripts/generate_news_synthesis.py", workflow)
+    def test_briefs_have_dedicated_schedule_and_explicit_opt_out(self):
+        pages = (ROOT / ".github/workflows/pages.yml").read_text(encoding="utf-8")
+        briefs = (ROOT / ".github/workflows/top-15-summaries.yml").read_text(encoding="utf-8")
+        self.assertIn("cron: '7 * * * *'", pages)
+        self.assertNotIn("scripts/summarize_home.py", pages)
+        self.assertIn("cron: '20 11,17,23 * * *'", briefs)
+        self.assertIn("vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'", briefs)
+        self.assertIn("scripts/summarize_home.py --max-new 15", briefs)
+        self.assertNotIn("scripts/generate_news_synthesis.py", briefs)
 
 
 if __name__ == "__main__":
