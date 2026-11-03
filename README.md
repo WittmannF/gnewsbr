@@ -66,8 +66,9 @@ snapshot atual** em `public/data/latest.json` e:
 2. Para cada cluster ainda sem resumo e com pelo menos duas fontes, envia
    até cinco manchetes e descrições ao modelo via OpenRouter;
 3. Preenche `aiSummary` e `aiSources` no índice e nos JSONs de detalhe;
-4. Faz commit dos resumos, caches e reservas de custo. Esse commit aciona o
-   workflow de Pages para republicar a home;
+4. Faz commit dos resumos, caches e reservas de custo e solicita a
+   republicação do Pages via `workflow_dispatch` com `republish_only=true`,
+   sem refazer a coleta (um push com `GITHUB_TOKEN` não aciona outro workflow);
 5. Se a geração falhar, preserva o resumo editorial existente e registra
    o motivo no log. **Um mesmo cluster recebe no máximo uma tentativa paga
    por dia UTC**, para evitar repetir reservas de orçamento em falhas.
