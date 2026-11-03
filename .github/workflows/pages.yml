@@ -7,6 +7,12 @@ on:
     # GitHub schedules are UTC. This updates data and republishes hourly.
     - cron: '7 * * * *'
   workflow_dispatch:
+    inputs:
+      republish_only:
+        description: 'Publish the current news snapshot without collecting again'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   # Queue refreshes rather than cancelling a one-time synthesis recovery when
@@ -74,7 +80,7 @@ jobs:
 
       - name: Refresh Google News data
         id: refresh
-        if: github.event_name != 'push' || steps.integrity.outputs.missing == 'true'
+        if: (github.event_name != 'push' && inputs.republish_only != true) || steps.integrity.outputs.missing == 'true'
         run: npm run collect
 
       - name: Commit refreshed data and linked detail files
