@@ -1,0 +1,69 @@
+name: Refresh top-15 AI summaries
+
+on:
+  schedule:
+    # UTC: 08:20, 14:20, 20:20 in America/Sao_Paulo (UTC-3).
+    # Run after the hourly collection at minute 07.
+    - cron: '20 11,17,23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Share the Pages update lock: avoid racing the hourly news snapshot.
+concurrency:
+  group: pages-refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  summarize:
+    if: github.ref == 'refs/heads/main' && vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current news snapshot
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fill missing top-15 summaries
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
+        run: |
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::warning::OPENROUTER_API_KEY is missing; cannot generate new summaries."
+          fi
+          python3 scripts/summarize_home.py --max-new 15
+
+      - name: Commit summaries, cache and cost ledger
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public/data/latest.json public/data/clusters/latest/
+          git add -A public/data/enrichment/briefs/ data/enrichment/cost-ledger/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No new or recovered summaries to publish."
+            exit 0
+          fi
+          git commit -m "chore(data): fill missing top-15 AI summaries"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push conflict; retrying with the latest main."
+            git pull --rebase origin main
+          done
+          git push origin HEAD:main
