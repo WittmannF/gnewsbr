@@ -6,6 +6,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from requests.exceptions import Timeout
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -67,6 +68,41 @@ class Top15BriefTests(unittest.TestCase):
             self.assertEqual(report["top15Covered"], 0)
             self.assertEqual(set(report["reasons"].values()), {"missing_api_key"})
             self.assertNotIn("aiSummary", read_json(root / "public/data/latest.json")["clusters"][0])
+
+    def test_failed_story_is_not_charged_and_retried_again_same_day(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=1)
+            with patch("summarize_home.call_model", side_effect=Timeout("temporary")) as model:
+                first = run(root, api_key="test-key")
+                second = run(root, api_key="test-key")
+            self.assertEqual(model.call_count, 1)
+            self.assertEqual(first["reasons"][ids[0]], "llm_error")
+            self.assertEqual(second["reasons"][ids[0]], "already_attempted_today")
+            ledger_dir = root / "data/enrichment/cost-ledger"
+            ledgers = list(ledger_dir.glob("*.json"))
+            self.assertEqual(len(ledgers), 1)
+            ledger = read_json(ledgers[0])
+            self.assertEqual(ledger["estimatedCostUsd"], 0.01)
+            self.assertEqual([e["kind"] for e in ledger["events"]],
+                             ["brief_reserved", "brief_failed"])
+
+    def test_existing_snapshot_summary_is_reused_without_cache_or_api_call(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=1)
+            home_path = root / "public/data/latest.json"
+            home = read_json(home_path)
+            home["clusters"][0]["aiSummary"] = "Resumo de IA já publicado"
+            home["clusters"][0]["aiSources"] = [{"source": "Jornal 0", "url": "https://news0.example/noticia0"}]
+            home_path.write_text(json.dumps(home), encoding="utf-8")
+            with patch("summarize_home.call_model") as model:
+                result = run(root, api_key="test-key")
+            self.assertEqual(result["generated"], 0)
+            self.assertEqual(result["top15Covered"], 1)
+            detail = read_json(root / "public/data/clusters/latest" / f"{ids[0]}.json")
+            self.assertEqual(detail["aiSummary"], "Resumo de IA já publicado")
+            model.assert_not_called()
 
     def test_source_selection_limits_five_and_deduplicates_publishers(self):
         arts = [
