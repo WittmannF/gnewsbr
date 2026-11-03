@@ -52,37 +52,49 @@ Formato de saída (particionado):
 
 ## Resumos de IA no top 15 (MVP)
 
-A página **Hoje** conserva o ranking original (número de artigos e fontes classificadas).
-A coleta horária produz `public/data/latest.json` e os detalhes dos clusters.
-No mesmo workflow de publicação, `scripts/summarize_home.py` percorre os **15
-primeiros IDs desse mesmo snapshot** e:
+A página **Hoje** mantém o ranking original (número de artigos e fontes classificadas).
+A coleta e a publicação de notícias continuam **a cada hora**, por meio de
+`.github/workflows/pages.yml`.
 
-1. Reutiliza `public/data/enrichment/briefs/{clusterId}.json` quando existe;
-2. Para um cluster novo com pelo menos duas fontes, envia até cinco manchetes e
-   descrições ao GLM via OpenRouter, solicitando **somente um resumo curto**;
-3. Adiciona `aiSummary` e `aiSources` ao índice e ao JSON de detalhe, para a
-   home e a página de comparação exibirem o mesmo texto e os links reais;
-4. Publica mesmo quando o LLM está indisponível: nessas situações, mantém o
-   resumo original e informa os IDs não atendidos no log.
+Um workflow separado, `.github/workflows/top-15-summaries.yml`, roda **3 vezes
+por dia** (08:20, 14:20 e 20:20 no horário de Brasília; cron UTC:
+`20 11,17,23 * * *`) ou manualmente. Ele consulta os **15 primeiros IDs do
+snapshot atual** em `public/data/latest.json` e:
 
-Não há regeneração de um resumo existente, extração integral obrigatória,
-atualização semântica com Jev ou novo banco de dados. A aba **Edição** permanece
-como acesso secundário às sínteses históricas já publicadas.
+1. Reutiliza `public/data/enrichment/briefs/{clusterId}.json` ou um
+   `aiSummary` já publicado, quando disponível;
+2. Para cada cluster ainda sem resumo e com pelo menos duas fontes, envia
+   até cinco manchetes e descrições ao modelo via OpenRouter;
+3. Preenche `aiSummary` e `aiSources` no índice e nos JSONs de detalhe;
+4. Faz commit dos resumos, caches e reservas de custo. Esse commit aciona o
+   workflow de Pages para republicar a home;
+5. Se a geração falhar, preserva o resumo editorial existente e registra
+   o motivo no log. **Um mesmo cluster recebe no máximo uma tentativa paga
+   por dia UTC**, para evitar repetir reservas de orçamento em falhas.
 
-**Configuração:** `OPENROUTER_API_KEY` como secret de GitHub Actions; opcionalmente
-`OPENROUTER_MODEL` como variável (padrão `z-ai/glm-5.3-flash`). A geração simples
-fica habilitada por padrão e pode ser pausada com a variável
+Resumos são reaproveitados entre execuções pelo ID do cluster; não são
+regenerados apenas porque a coleta horária os retornou novamente.
+A geração não requer download integral de artigos, Jev nem banco novo.
+A aba **Edição** permanece como acesso secundário às sínteses históricas.
+
+**Configuração:** `OPENROUTER_API_KEY` como secret de GitHub Actions;
+opcionalmente `OPENROUTER_MODEL` como variável (padrão
+`z-ai/glm-5.3-flash`). O workflow dedicado pode ser pausado com a variável
 `ENABLE_GNEWSBR_SYNTHESIS=false`. A chave nunca chega ao cliente React.
 
 **Custos:** reserva conservadora de US$ 0,01 por tentativa, com máximo de
-US$ 0,25/dia e US$ 5/mês, compartilhando o ledger já existente em
-`data/enrichment/cost-ledger/`. São reservas estimadas, não a fatura efetiva do
-provedor. Configure um teto financeiro real também no OpenRouter.
+US$ 0,25/dia e US$ 5/mês, no ledger de
+`data/enrichment/cost-ledger/`. Tentativas com falha continuam reservadas,
+pois uma chamada pode ter custo mesmo quando a resposta falha. O ledger
+registra `brief_reserved`, `brief_succeeded` e `brief_failed` para auditoria.
+Essas reservas são estimativas, não a fatura efetiva do provedor.
+Configure um teto financeiro real também no OpenRouter.
 
 **Testes locais:**
 
 ```bash
 python -m unittest discover -s tests -p 'test_summarize_home.py'
+python -m unittest discover -s tests -p 'test_openrouter_workflow_optin.py'
 python3 scripts/summarize_home.py --dry-run
 npm run build
 ```
