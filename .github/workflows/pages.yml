@@ -77,17 +77,8 @@ jobs:
         if: github.event_name != 'push' || steps.integrity.outputs.missing == 'true'
         run: npm run collect
 
-      - name: Add cached top-15 AI summaries to this homepage snapshot
-        id: summarize
-        if: vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
-        run: |
-          python3 scripts/summarize_home.py --max-new 15
-
       - name: Commit refreshed data and linked detail files
-        if: steps.refresh.outcome == 'success' || steps.summarize.outcome == 'success'
+        if: steps.refresh.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
