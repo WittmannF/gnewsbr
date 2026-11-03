@@ -18,10 +18,12 @@ class OpenRouterWorkflowOptInTests(unittest.TestCase):
         pages = (ROOT / ".github/workflows/pages.yml").read_text(encoding="utf-8")
         briefs = (ROOT / ".github/workflows/top-15-summaries.yml").read_text(encoding="utf-8")
         self.assertIn("cron: '7 * * * *'", pages)
+        self.assertIn("inputs.republish_only != true", pages)
         self.assertNotIn("scripts/summarize_home.py", pages)
         self.assertIn("cron: '20 11,17,23 * * *'", briefs)
         self.assertIn("vars.ENABLE_GNEWSBR_SYNTHESIS != 'false'", briefs)
         self.assertIn("scripts/summarize_home.py --max-new 15", briefs)
+        self.assertIn("gh workflow run pages.yml --ref main -f republish_only=true", briefs)
         self.assertNotIn("scripts/generate_news_synthesis.py", briefs)
 
 
