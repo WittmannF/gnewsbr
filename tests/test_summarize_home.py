@@ -102,6 +102,8 @@ class Top15BriefTests(unittest.TestCase):
             self.assertEqual(result["top15Covered"], 1)
             detail = read_json(root / "public/data/clusters/latest" / f"{ids[0]}.json")
             self.assertEqual(detail["aiSummary"], "Resumo de IA já publicado")
+            cached = read_json(root / "public/data/enrichment/briefs" / f"{ids[0]}.json")
+            self.assertEqual(cached["summary"], "Resumo de IA já publicado")
             model.assert_not_called()
 
     def test_source_selection_limits_five_and_deduplicates_publishers(self):
