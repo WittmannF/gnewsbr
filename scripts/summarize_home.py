@@ -143,6 +143,7 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
             reasons[cid] = "missing_detail"
             continue
         cached = read_json(cache / f"{cid}.json")
+        had_cached_summary = bool(cached.get("summary"))
         if not cached.get("summary") and (item.get("aiSummary") or detail.get("aiSummary")):
             # A snapshot can already contain a summary even if its cache was lost.
             cached = {
@@ -161,6 +162,10 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
                                 for s in previous["sourceArticles"] if s.get("url")],
                     "generatedAt": previous.get("generatedAt", today),
                 }
+        if cached.get("summary") and not had_cached_summary and not dry_run:
+            # Persist summaries recovered from snapshots or legacy syntheses:
+            # otherwise the next hourly collection could lose them.
+            write_json(cache / f"{cid}.json", cached)
         if not cached.get("summary"):
             sources = sources_for(detail)
             if len(sources) < 2:
