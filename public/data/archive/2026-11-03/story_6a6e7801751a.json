@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 40
+      "topic-4": 42
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/01/552785682-domingo-legal.jpg",
   "publishedAt": "2026-11-01T21:16:38+00:00",
-  "updatedAt": "2026-11-03T10:23:40.130450+00:00",
+  "updatedAt": "2026-11-03T11:22:32.557813+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-02T11:06:41+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/schauane.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -94,16 +94,16 @@
     {
       "id": "article_ee34b835c038",
       "title": "Participante passa mal e desmaia durante quadro do ‘Domingo Legal’",
-      "description": "Neste domingo, 1º de novembro, uma participante passou mal e desmaiou durante uma disputa do quadro Comprar é Bom, Levar é Melhor, no...",
+      "description": "Situação aconteceu durante exibição da atração 'Comprar é Bom, Levar é Melhor' e mobilizou equipe de paramédicos na emissora.",
       "url": "https://veja.abril.com.br/cultura/participante-passa-mal-e-desmaia-durante-quadro-do-domingo-legal/",
-      "source": "Assine Abril",
-      "sourceCanonical": "Assine Abril",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-02T16:48:16+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_5df270975919",
@@ -128,7 +128,7 @@
       "sourceCanonical": "Jornal de Brasília",
       "sourceDomain": "jornaldebrasilia.com.br",
       "publishedAt": "2026-11-02T11:14:27+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -268,7 +268,7 @@
       "sourceCanonical": "Sim Notícias",
       "sourceDomain": "simnoticias.com.br",
       "publishedAt": "2026-11-02T11:21:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 5,
-    "average": 4.64,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 7,
+    "average": 4.83,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 9,
-      "centerRight": 0,
+      "centerRight": 1,
       "right": 0,
-      "unknown": 9
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
