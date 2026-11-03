@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5eTRHaEVoRVBibnhpLWs0U1FTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5eTRHaEVoRVBibnhpLWs0U1FTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 56
+      "topic-3": 55,
+      "topic-5": 66
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 56,
-    "bestSeedRank": 56,
+    "firstSeenRank": 55,
+    "bestSeedRank": 55,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "lula",
     "desafios",
+    "economia",
     "será",
-    "desafio",
     "social",
-    "vitória"
+    "desafio"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/XA72LCFN2FFANAKIXRG33E4WEU.jpg?quality=80&auth=7356ae81b2b3994cead1e8fd5976b4fa495905ee51849c56ed9c11c93ef525b7&width=1200&height=630&focal=2868,1674",
   "publishedAt": "2026-10-23T07:00:00+00:00",
-  "updatedAt": "2026-11-03T05:20:43.778257+00:00",
+  "updatedAt": "2026-11-03T06:29:48.002070+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -50,20 +53,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_5d3e4d8ba567",
-      "title": "O desafio econômico pede passagem a Lula",
-      "description": "A fuga de Flávio Bolsonaro e o rescaldo emocional da campanha ocuparam a cena pós-eleitoral. Mas não devem sobreviver por muitos dias.",
-      "url": "https://oglobo.globo.com/opiniao/fernando-gabeira/coluna/2026/11/o-desafio-economico-pede-passagem-a-lula.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-11-03T03:05:01+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://s2-oglobo.glbimg.com/hCoP2ekKYfomhxkHW0U_UhH4dnw=/1296x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/8/o/NfHV1sTAGwsCfxH4o9Xg/105648575-brasilia-df-10-04-2023-fachada-do-ministerio-da-fazenda.-share-on-whatsapp-share-on-3-.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_46a16fb46ebb",
       "title": "A caricatura do social não deve prevalecer – Valéria Guerra Reiter",
       "description": "No dia 26 de outubro do corrente, tivemos no Brasil o segundo turno da eleição para presidente da República. E o resultado foi o nome de...",
@@ -72,10 +61,24 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-11-03T01:07:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/11/Novo-Projeto-2026-11-01T064212.858.jpg?w=1200&quality=88&strip=all",
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_5d3e4d8ba567",
+      "title": "O desafio econômico pede passagem a Lula",
+      "description": "A fuga de Flávio Bolsonaro e o rescaldo emocional da campanha ocuparam a cena pós-eleitoral. Mas não devem sobreviver por muitos dias.",
+      "url": "https://oglobo.globo.com/opiniao/fernando-gabeira/coluna/2026/11/o-desafio-economico-pede-passagem-a-lula.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-11-03T03:05:01+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": "https://s2-oglobo.glbimg.com/hCoP2ekKYfomhxkHW0U_UhH4dnw=/1296x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/8/o/NfHV1sTAGwsCfxH4o9Xg/105648575-brasilia-df-10-04-2023-fachada-do-ministerio-da-fazenda.-share-on-whatsapp-share-on-3-.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_f2c72c245ca9",
@@ -246,15 +249,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_52698e6ff24c",
-      "title": "O Brasil depois das urnas: a dívida, o vazio na direita e os novos cálculos do poder",
-      "description": "Pedro do Coutto. A eleição presidencial terminou, mas a política brasileira está longe de entrar num período de tranquilidade. Enquanto o...",
-      "url": "https://tribunadainternet.com.br/2026/10/31/o-brasil-depois-das-urnas-a-divida-o-vazio-na-direita-e-os-calculos-do-poder/",
-      "source": "Tribuna da Internet",
-      "sourceCanonical": "Tribuna da Internet",
-      "sourceDomain": "tribunadainternet.com.br",
-      "publishedAt": "2026-10-31T13:03:18+00:00",
-      "postedLabel": "2 dias atrás",
+      "id": "article_3c9481aa7dce",
+      "title": "Uma vitória sustentada pela mentira constrangedora – Por Ronaldo Knack",
+      "description": "IA ChatGPT. \"Eu não acho que um homem de 81 anos deveria estar dirigindo um país tão importante quanto o Brasil. É um trabalho desafiador,...",
+      "url": "https://www.brasilagro.com.br/conteudo/uma-vitoria-sustentada-pela-mentira-constrangedora-por-ronaldo-knack.html",
+      "source": "brasilagro.com.br",
+      "sourceCanonical": "brasilagro.com.br",
+      "sourceDomain": "brasilagro.com.br",
+      "publishedAt": "2026-10-30T09:51:30+00:00",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -274,15 +277,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_3c9481aa7dce",
-      "title": "Uma vitória sustentada pela mentira constrangedora – Por Ronaldo Knack",
-      "description": "IA ChatGPT. \"Eu não acho que um homem de 81 anos deveria estar dirigindo um país tão importante quanto o Brasil. É um trabalho desafiador,...",
-      "url": "https://www.brasilagro.com.br/conteudo/uma-vitoria-sustentada-pela-mentira-constrangedora-por-ronaldo-knack.html",
-      "source": "brasilagro.com.br",
-      "sourceCanonical": "brasilagro.com.br",
-      "sourceDomain": "brasilagro.com.br",
-      "publishedAt": "2026-10-30T09:51:30+00:00",
-      "postedLabel": "3 dias atrás",
+      "id": "article_52698e6ff24c",
+      "title": "O Brasil depois das urnas: a dívida, o vazio na direita e os novos cálculos do poder",
+      "description": "Pedro do Coutto. A eleição presidencial terminou, mas a política brasileira está longe de entrar num período de tranquilidade. Enquanto o...",
+      "url": "https://tribunadainternet.com.br/2026/10/31/o-brasil-depois-das-urnas-a-divida-o-vazio-na-direita-e-os-calculos-do-poder/",
+      "source": "Tribuna da Internet",
+      "sourceCanonical": "Tribuna da Internet",
+      "sourceDomain": "tribunadainternet.com.br",
+      "publishedAt": "2026-10-31T13:03:18+00:00",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -302,15 +305,15 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_3ae1ffbd07bd",
-      "title": "Lula e a dificuldade de superar o palanque: o artigo 78 e a liturgia presidencial",
-      "description": "Uma eleição autoriza o vencedor a governar, mas não transforma a Presidência da República em uma extensão permanente do palanque. Lula é...",
-      "url": "https://www.atribunamt.com.br/opiniao-do-leitor/2026/10/lula-e-a-dificuldade-de-superar-o-palanque-o-artigo-78-e-a-liturgia-presidencial/",
-      "source": "A Tribuna MT",
-      "sourceCanonical": "A Tribuna MT",
-      "sourceDomain": "atribunamt.com.br",
-      "publishedAt": "2026-10-29T04:13:44+00:00",
-      "postedLabel": "5 dias atrás",
+      "id": "article_8d9789fba198",
+      "title": "Se Lula derrapar na economia, 4º mandato pode fracassar, diz analista da 4intelligence",
+      "description": "Em entrevista à Bloomberg Línea, o analista político Ricardo Ribeiro diz que Lula precisa conter a desconfiança do mercado para evitar uma...",
+      "url": "https://www.bloomberglinea.com.br/brasil/se-lula-derrapar-na-economia-4-mandato-pode-fracassar-diz-analista-da-4intelligence/",
+      "source": "Bloomberg Línea Brasil",
+      "sourceCanonical": "Bloomberg Línea Brasil",
+      "sourceDomain": "bloomberglinea.com.br",
+      "publishedAt": "2026-10-30T12:41:10+00:00",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"

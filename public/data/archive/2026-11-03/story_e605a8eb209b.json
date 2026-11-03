@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxdjhpbUVoR3c1Uy1RbTBETTdTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxdjhpbUVoR3c1Uy1RbTBETTdTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 1,
-      "topic-5": 16
+      "topic-5": 15
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Defesa de Daniel Vorcaro alega violações de direitos humanos em prisão",
   "summary": "Advogados do ex-dono do Banco Master pedem que o Estado brasileiro seja responsabilizado por “violações” que ele alega sofrer. Leia no...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/03/Daniel-Vorcaro-Esfera-Brasil-1080.png",
   "publishedAt": "2026-11-02T14:25:00+00:00",
-  "updatedAt": "2026-11-03T05:18:48.384267+00:00",
+  "updatedAt": "2026-11-03T06:26:07.073151+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -123,14 +129,14 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_44d181185b64",
-      "title": "Defesa de Vorcaro vai ser recebida por Fachin nesta terça",
-      "description": "A defesa do banqueiro Daniel Vorcaro terá audiência, nesta terça-feira (3), com o juiz auxiliar do presidente do Supremo Tribunal Federal,...",
-      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/defesa-de-vorcaro-vai-ser-recebida-por-fachin-nesta-terca",
+      "id": "article_ff7a6d571aad",
+      "title": "Juiz auxiliar de Fachin vai receber defesa de Vorcaro",
+      "description": "Advogados do banqueiro querem falar diretamente com Fachin e cobram liberdade de Vorcaro.",
+      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/juiz-auxiliar-de-fachin-vai-receber-defesa-de-vorcaro",
       "source": "SBT News",
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-02T20:24:00+00:00",
+      "publishedAt": "2026-11-02T19:08:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
@@ -179,20 +185,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_4ed4446698b7",
-      "title": "A ofensiva de Vorcaro contra Estado brasileiro na Comissão Interamericana de Direitos Humanos",
-      "description": "Os advogados de Daniel Vorcaro acionaram a Comissão Interamericana de Direitos Humanos para denunciar o Estado brasileiro por supostas...",
-      "url": "https://veja.abril.com.br/brasil/a-ofensiva-de-vorcaro-contra-estado-brasileiro-na-comissao-interamericana-de-direitos-humanos/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-02T18:32:45+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_6e681ab2f9b4",
       "title": "Defesa de Vorcaro pede soltura de banqueiro à Comissão Interamericana de Direitos Humanos",
       "description": "Advogados citam violações, vazamentos e alegam que não houve revisão da prisão ou indicação de um juiz para pedido de liberdade.",
@@ -201,6 +193,20 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-02T15:45:59+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_4ed4446698b7",
+      "title": "A ofensiva de Vorcaro contra Estado brasileiro na Comissão Interamericana de Direitos Humanos",
+      "description": "Os advogados de Daniel Vorcaro acionaram a Comissão Interamericana de Direitos Humanos para denunciar o Estado brasileiro por supostas...",
+      "url": "https://veja.abril.com.br/brasil/a-ofensiva-de-vorcaro-contra-estado-brasileiro-na-comissao-interamericana-de-direitos-humanos/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-02T18:32:45+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
