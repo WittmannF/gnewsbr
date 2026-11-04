@@ -3,22 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEX3J1bkVoR2dSMmtYTENQS1lpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEX3J1bkVoR2dSMmtYTENQS1lpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 39
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 30
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 39,
-    "bestSeedRank": 39,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre Trump • Israel",
+  "title": "Trump diz que vai cortar ajuda a Israel em 2027 e que está próximo de acordo com o Canadá",
   "summary": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta terça-feira (3), dia de eleições, que interromperá a ajuda financeira que dá a...",
   "topic": "Trump · Israel",
   "topicKeywords": [
@@ -27,12 +33,12 @@
     "ajuda",
     "eua",
     "fim",
-    "anuncia"
+    "bilhões"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/F4KN70Q2fSCx0EdzRY68qD4bqsY=/6500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/M/T/piz5KuTFCseBPdea3R5w/2026-10-29t174613z-292374100-rc25doazkjy1-rtrmadp-3-usa-trump.jpg",
   "publishedAt": "2026-11-03T13:32:00+00:00",
-  "updatedAt": "2026-11-04T01:24:24.337601+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-11-04T02:21:08.025932+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -58,7 +64,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-03T22:54:09+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,24 +92,24 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-04T00:01:12+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/11722_4BF6CA1CE76838AA.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_c70795bfda6a",
-      "title": "Trump diz que EUA deixarão de dar US$ 4 bilhões por ano em ajuda a Israel",
-      "description": "Presidente americano afirma que acordo com Netanyahu prevê fim dos repasses até dezembro, mas manutenção da venda de armas;...",
-      "url": "https://www.estadao.com.br/internacional/trump-diz-que-eua-deixarao-de-dar-us-4-bilhoes-por-ano-em-ajuda-a-israel-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-03T16:55:33+00:00",
+      "id": "article_761cff19f146",
+      "title": "Trump diz que EUA deixarão de financiar Israel após fim do ano",
+      "description": "Em entrevista a uma emissora americana ao vivo, o presidente dos Estados Unidos, disse que interromperia pagamentos de cifras bilionárias.",
+      "url": "https://www.cnnbrasil.com.br/internacional/trump-diz-que-eua-deixarao-de-financiar-israel-apos-fim-do-ano/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-03T13:33:20+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_64711ea66321",
@@ -120,6 +126,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_c70795bfda6a",
+      "title": "Trump diz que EUA deixarão de dar US$ 4 bilhões por ano em ajuda a Israel",
+      "description": "Presidente americano afirma que acordo com Netanyahu prevê fim dos repasses até dezembro, mas manutenção da venda de armas;...",
+      "url": "https://www.estadao.com.br/internacional/trump-diz-que-eua-deixarao-de-dar-us-4-bilhoes-por-ano-em-ajuda-a-israel-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-11-03T16:55:33+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_6a3d77de63b1",
       "title": "Trump anuncia fim da ajuda militar a Israel no dia da eleição",
       "description": "Trump diz que os EUA vão cortar a ajuda anual de US$ 4 bilhões a Israel no fim do ano e trocar a verba por vendas de armas. Leia no Blog do...",
@@ -128,24 +148,10 @@
       "sourceCanonical": "Blog do Esmael",
       "sourceDomain": "esmaelmorais.com.br",
       "publishedAt": "2026-11-04T00:13:59+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_19fb13be312a",
-      "title": "Trump afirma que EUA deixarão de pagar Israel após o fim do ano",
-      "description": "O ⁠presidente dos EUA, ‌Donald Trump, afirmou nesta terça-feira que fechou ‌um acordo com o primeiro-ministro israelense, Benjamin Netanyahu...",
-      "url": "https://www.infomoney.com.br/mundo/trump-afirma-que-eua-deixarao-de-pagar-israel-apos-o-fim-do-ano/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-03T13:48:50+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_32ce87538738",
@@ -204,6 +210,34 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_19fb13be312a",
+      "title": "Trump afirma que EUA deixarão de pagar Israel após o fim do ano",
+      "description": "O ⁠presidente dos EUA, ‌Donald Trump, afirmou nesta terça-feira que fechou ‌um acordo com o primeiro-ministro israelense, Benjamin Netanyahu...",
+      "url": "https://www.infomoney.com.br/mundo/trump-afirma-que-eua-deixarao-de-pagar-israel-apos-o-fim-do-ano/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-11-03T13:48:50+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_967c31b0eee0",
+      "title": "Trump diz que EUA vão suspender financiamento de US$4 bilhões para Israel no final de 2026",
+      "description": "O presidente dos EUA, Donald Trump, afirmou ‌nesta terça-feira que fez um acordo com o primeiro- ...",
+      "url": "https://www.terra.com.br/noticias/mundo/trump-diz-que-eua-vao-suspender-financiamento-de-us4-bilhoes-para-israel-no-final-de-2026,84dc5b912205472f1c62a4c339c3ff18vvnm99lz.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-03T13:33:37+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_10e84428135f",
       "title": "Trump anuncia fim da ajuda militar a Israel",
       "description": "Presidente norte-americano declarou ter selado acordo com Benjamin Netanyahu para interromper repasses anuais de US$ 4 bilhões.",
@@ -246,20 +280,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_bd6209c6a901",
-      "title": "Trump anuncia fim da ajuda militar dos EUA a Israel",
-      "description": "Presidente afirma que país tem condições de comprar os próprios armamentos; Netanyahu também defendeu reduzir o recurso.",
-      "url": "https://revistaoeste.com/mundo/trump-anuncia-fim-da-ajuda-militar-dos-eua-a-israel/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-11-03T21:58:45+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
       "id": "article_6ebbb71c1aee",
       "title": "Ações oscilam e petróleo cai após Trump anunciar que ajuda a Israel será suspensa",
       "description": "Por Chibuike OguhOs mercados acionários globais oscilavam nesta terça-feira, enquanto os preços do petróleo continuavam sua queda, após o...",
@@ -274,6 +294,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_bd6209c6a901",
+      "title": "Trump anuncia fim da ajuda militar dos EUA a Israel",
+      "description": "Presidente afirma que país tem condições de comprar os próprios armamentos; Netanyahu também defendeu reduzir o recurso.",
+      "url": "https://revistaoeste.com/mundo/trump-anuncia-fim-da-ajuda-militar-dos-eua-a-israel/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-11-03T21:58:45+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
       "id": "article_58a80485791a",
       "title": "Eisenkot exige explicações a Netanyahu sobre cortes de ajuda militar",
       "description": "O ex-chefe das forças armadas Gadi Eisenkot, que procura formar governo em Israel com outros partidos de oposição, exigiu hoje explicações...",
@@ -286,46 +320,18 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_d5336df46f81",
-      "title": "Trump anuncia corte de US$ 3,8 bilhões em ajuda anual à segurança de Israel",
-      "description": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta terça-feira (3) que encerrará um acordo de cooperação em segurança de 10 anos...",
-      "url": "https://www.folhape.com.br/noticias/trump-anuncia-corte-de-us-38-bilhoes-em-ajuda-anual-a-seguranca-de/522076/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-11-03T14:57:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_96f3816d9726",
-      "title": "EUA anuncia corte em ajuda anual à segurança de Israel",
-      "description": "O presidente dos Estados Unidos, Donald Trump, anunciou nesta terça-feira (3) que Washington vai encerrar um acordo de cooperação em matéria...",
-      "url": "https://jornaldebrasilia.com.br/noticias/mundo/eua-anuncia-corte-em-ajuda-anual-a-seguranca-de-israel/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-11-03T22:56:49+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.12,
+    "average": 5.18,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 3,
-      "centerLeft": 2,
-      "center": 8,
+      "centerLeft": 1,
+      "center": 9,
       "centerRight": 3,
       "right": 1,
       "unknown": 3
