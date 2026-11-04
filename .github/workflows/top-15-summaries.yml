@@ -15,6 +15,7 @@ permissions:
 concurrency:
   group: pages-refresh-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -39,17 +40,57 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Fill missing top-15 summaries
+      - name: Establish stable run/ledger identity
+        run: |
+          echo "BRIEF_BATCH_ID=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
+          echo "BRIEF_LEDGER_DATE=$(date -u +%F)" >> "$GITHUB_ENV"
+
+      - name: Reserve eligible briefs (no paid calls yet)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::warning::OPENROUTER_API_KEY is missing; cannot reserve new summaries."
+          fi
+          python3 scripts/summarize_home.py --max-new 15 \
+            --reserve-only --batch-id "$BRIEF_BATCH_ID" \
+            --ledger-date "$BRIEF_LEDGER_DATE"
+
+      # The first push makes each reservation durable on main BEFORE inference.
+      # A failed/canceled job cannot lose its accounting and re-spend the budget.
+      - name: Commit reserved IDs before inference
+        id: reserve_commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public/data/latest.json public/data/clusters/latest/
+          git add -A public/data/enrichment/briefs/ data/enrichment/cost-ledger/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No new reservations or recovered summaries."
+            exit 0
+          fi
+          git commit -m "chore(data): reserve top-15 summary attempts"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Generate only previously committed reservations
+        if: steps.reserve_commit.outputs.changed == 'true'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'z-ai/glm-5.3-flash' }}
         run: |
-          if [ -z "$OPENROUTER_API_KEY" ]; then
-            echo "::warning::OPENROUTER_API_KEY is missing; cannot generate new summaries."
-          fi
-          python3 scripts/summarize_home.py --max-new 15
+          python3 scripts/summarize_home.py --max-new 15 \
+            --reserved-batch "$BRIEF_BATCH_ID" \
+            --ledger-date "$BRIEF_LEDGER_DATE"
 
-      - name: Commit summaries, cache and cost ledger
+      - name: Commit generated summaries and outcomes
         id: commit
         run: |
           git config user.name "github-actions[bot]"
@@ -74,7 +115,7 @@ jobs:
 
       # A push made with GITHUB_TOKEN does not trigger another workflow's push event.
       - name: Republish Pages after summaries change
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.reserve_commit.outputs.changed == 'true' || steps.commit.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run pages.yml --ref main -f republish_only=true
