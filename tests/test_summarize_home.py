@@ -6,6 +6,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from requests.exceptions import Timeout
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -67,6 +68,115 @@ class Top15BriefTests(unittest.TestCase):
             self.assertEqual(report["top15Covered"], 0)
             self.assertEqual(set(report["reasons"].values()), {"missing_api_key"})
             self.assertNotIn("aiSummary", read_json(root / "public/data/latest.json")["clusters"][0])
+
+    def test_failed_story_is_not_charged_and_retried_again_same_day(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=1)
+            with patch("summarize_home.call_model", side_effect=Timeout("temporary")) as model:
+                first = run(root, api_key="test-key")
+                second = run(root, api_key="test-key")
+            self.assertEqual(model.call_count, 1)
+            self.assertEqual(first["reasons"][ids[0]], "llm_error")
+            self.assertEqual(second["reasons"][ids[0]], "already_attempted_today")
+            ledger_dir = root / "data/enrichment/cost-ledger"
+            ledgers = list(ledger_dir.glob("*.json"))
+            self.assertEqual(len(ledgers), 1)
+            ledger = read_json(ledgers[0])
+            self.assertEqual(ledger["estimatedCostUsd"], 0.01)
+            self.assertEqual([e["kind"] for e in ledger["events"]],
+                             ["brief_reserved", "brief_failed"])
+
+    def test_existing_snapshot_summary_is_reused_without_cache_or_api_call(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=1)
+            home_path = root / "public/data/latest.json"
+            home = read_json(home_path)
+            home["clusters"][0]["aiSummary"] = "Resumo de IA já publicado"
+            home["clusters"][0]["aiSources"] = [{"source": "Jornal 0", "url": "https://news0.example/noticia0"}]
+            home_path.write_text(json.dumps(home), encoding="utf-8")
+            with patch("summarize_home.call_model") as model:
+                result = run(root, api_key="test-key")
+            self.assertEqual(result["generated"], 0)
+            self.assertEqual(result["top15Covered"], 1)
+            detail = read_json(root / "public/data/clusters/latest" / f"{ids[0]}.json")
+            self.assertEqual(detail["aiSummary"], "Resumo de IA já publicado")
+            cached = read_json(root / "public/data/enrichment/briefs" / f"{ids[0]}.json")
+            self.assertEqual(cached["summary"], "Resumo de IA já publicado")
+            model.assert_not_called()
+
+    def test_reserved_batch_persists_ledger_before_paid_calls(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=2)
+            batch_id, day = "test-run-1", "2026-11-03"
+            with patch("summarize_home.call_model") as model:
+                prepared = run(root, api_key="key", reserve_only=True,
+                               batch_id=batch_id, ledger_date=day)
+            self.assertEqual(prepared["reserved"], 2)
+            self.assertEqual(prepared["generated"], 0)
+            model.assert_not_called()
+            ledger_path = root / "data/enrichment/cost-ledger" / f"{day}.json"
+            before = read_json(ledger_path)
+            self.assertEqual(before["estimatedCostUsd"], 0.02)
+            self.assertEqual([e["clusterId"] for e in before["events"]], ids)
+            self.assertTrue(all(e["batchId"] == batch_id for e in before["events"]))
+
+            # A different Actions run on the same UTC day must not reserve
+            # the same cluster again, even if the original job was cancelled.
+            with patch("summarize_home.call_model") as model:
+                duplicate = run(root, api_key="key", reserve_only=True,
+                                batch_id="different-run", ledger_date=day)
+            self.assertEqual(duplicate["reserved"], 0)
+            self.assertEqual(read_json(ledger_path)["estimatedCostUsd"], 0.02)
+            model.assert_not_called()
+
+            with patch("summarize_home.call_model",
+                       return_value="Resumo de IA gerado após a reserva no ledger.") as model:
+                published = run(root, api_key="key", reserved_batch=batch_id,
+                                ledger_date=day)
+            self.assertEqual(model.call_count, 2)
+            self.assertEqual(published["generated"], 2)
+            self.assertEqual(read_json(ledger_path)["estimatedCostUsd"], 0.02)
+
+            # Even if GitHub Actions retries the same execution, this batch is
+            # already finalized and should make zero additional paid calls.
+            with patch("summarize_home.call_model") as model:
+                rerun = run(root, api_key="key", reserved_batch=batch_id,
+                            ledger_date=day)
+            self.assertEqual(rerun["generated"], 0)
+            model.assert_not_called()
+
+    def test_uncommitted_batch_is_not_authorized_to_call_model(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_home(root, count=1)
+            with patch("summarize_home.call_model") as model:
+                result = run(root, api_key="key", reserved_batch="not-pushed",
+                             ledger_date="2026-11-03")
+            self.assertEqual(result["generated"], 0)
+            model.assert_not_called()
+
+    def test_hourly_rehydration_keeps_cached_summaries_without_payment(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=1)
+            with patch("summarize_home.call_model", return_value=(
+                "Resumo de IA preservado mesmo depois da nova coleta horária.")):
+                run(root, api_key="key")
+            index = root / "public/data/latest.json"
+            detail = root / "public/data/clusters/latest" / f"{ids[0]}.json"
+            # Simulates the hourly collector resetting both files.
+            self.make_home(root, count=1)
+            self.assertNotIn("aiSummary", read_json(index)["clusters"][0])
+            with patch("summarize_home.call_model") as model:
+                restored = run(root, api_key="", max_new=0)
+            self.assertEqual(restored["generated"], 0)
+            self.assertEqual(restored["top15Covered"], 1)
+            self.assertIn("aiSummary", read_json(index)["clusters"][0])
+            self.assertIn("aiSummary", read_json(detail))
+            model.assert_not_called()
 
     def test_source_selection_limits_five_and_deduplicates_publishers(self):
         arts = [

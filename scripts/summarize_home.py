@@ -111,20 +111,56 @@ def call_model(key: str, title: str, sources: list[dict[str, str]]) -> str:
     return Brief.model_validate_json(content).summary.strip()
 
 
-def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: bool = False) -> dict:
+def run(
+    root: Path = ROOT, *, max_new: int = 15, api_key: str = "",
+    dry_run: bool = False, reserve_only: bool = False,
+    reserved_batch: str = "", batch_id: str = "", ledger_date: str = "",
+) -> dict:
+    """Reserve a batch before paying for inference, or execute only that batch.
+
+    In CI, call reserve_only, commit the ledger to main, then execute with
+    reserved_batch. Direct runs remain supported for local use/testing.
+    """
+    if reserve_only and (not batch_id or reserved_batch):
+        raise ValueError("reserve_only requires batch_id and cannot execute a batch")
+    if reserved_batch and not ledger_date:
+        raise ValueError("reserved_batch requires the original UTC ledger date")
+
     home_path = root / "public/data/latest.json"
     home = read_json(home_path)
     top = home.get("clusters", [])[:15]
     if not top:
         raise ValueError("No homepage clusters; refusing to publish summaries")
     cache = root / "public/data/enrichment/briefs"
-    today = datetime.now(timezone.utc).date().isoformat()
+    today = ledger_date or datetime.now(timezone.utc).date().isoformat()
     ledger_dir = root / "data/enrichment/cost-ledger"
     ledger_path = ledger_dir / f"{today}.json"
     ledger = read_json(ledger_path, {"estimatedCostUsd": 0.0, "events": []})
     monthly = sum(float(read_json(p).get("estimatedCostUsd", 0)) for p in ledger_dir.glob(f"{today[:7]}-*.json"))
     daily = float(ledger.get("estimatedCostUsd", 0))
+    # One paid attempt per story per UTC day, even if that attempt fails.
+    # Keep existing reservations from earlier versions of the workflow valid.
+    attempted_today = {
+        event.get("clusterId")
+        for event in ledger.get("events", [])
+        if isinstance(event, dict) and event.get("kind") == "brief_reserved"
+    }
+    batch_reservations = {
+        event.get("clusterId")
+        for event in ledger.get("events", [])
+        if isinstance(event, dict)
+        and event.get("kind") == "brief_reserved"
+        and event.get("batchId") == reserved_batch
+    } if reserved_batch else set()
+    batch_completed = {
+        event.get("clusterId")
+        for event in ledger.get("events", [])
+        if isinstance(event, dict)
+        and event.get("kind") in ("brief_succeeded", "brief_failed")
+        and event.get("batchId") == reserved_batch
+    } if reserved_batch else set()
     count = 0
+    reserved_count = 0
     reasons: dict[str, str] = {}
     staged: list[tuple[Path, dict]] = []
 
@@ -136,6 +172,14 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
             reasons[cid] = "missing_detail"
             continue
         cached = read_json(cache / f"{cid}.json")
+        had_cached_summary = bool(cached.get("summary"))
+        if not cached.get("summary") and (item.get("aiSummary") or detail.get("aiSummary")):
+            # A snapshot can already contain a summary even if its cache was lost.
+            cached = {
+                "clusterId": cid,
+                "summary": item.get("aiSummary") or detail["aiSummary"],
+                "sources": item.get("aiSources") or detail.get("aiSources", []),
+            }
         if not cached.get("summary"):
             # Reuse previously validated synthesis when it exists, without a paid call.
             previous = read_json(root / "public/data/enrichment/news" / f"{cid}.json")
@@ -147,6 +191,10 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
                                 for s in previous["sourceArticles"] if s.get("url")],
                     "generatedAt": previous.get("generatedAt", today),
                 }
+        if cached.get("summary") and not had_cached_summary and not dry_run:
+            # Persist summaries recovered from snapshots or legacy syntheses:
+            # otherwise the next hourly collection could lose them.
+            write_json(cache / f"{cid}.json", cached)
         if not cached.get("summary"):
             sources = sources_for(detail)
             if len(sources) < 2:
@@ -155,25 +203,59 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
             if not api_key:
                 reasons[cid] = "missing_api_key"
                 continue
-            if count >= max_new or daily + RESERVE_USD > MAX_DAILY_USD + 1e-9 or monthly + RESERVE_USD > MAX_MONTHLY_USD + 1e-9:
-                reasons[cid] = "budget_or_run_limit"
-                continue
+            if reserved_batch:
+                # A paid call is only authorized by a reservation already pushed
+                # to GitHub. Never create new reservations in execution phase.
+                if cid not in batch_reservations or cid in batch_completed:
+                    reasons[cid] = "not_pending_in_batch"
+                    continue
+            else:
+                if cid in attempted_today:
+                    reasons[cid] = "already_attempted_today"
+                    continue
+                if count + reserved_count >= max_new or daily + RESERVE_USD > MAX_DAILY_USD + 1e-9 or monthly + RESERVE_USD > MAX_MONTHLY_USD + 1e-9:
+                    reasons[cid] = "budget_or_run_limit"
+                    continue
+                if dry_run:
+                    reasons[cid] = "would_generate"
+                    continue
+                attempted_today.add(cid)
+                daily += RESERVE_USD
+                monthly += RESERVE_USD
+                ledger["estimatedCostUsd"] = round(daily, 5)
+                reservation = {
+                    "kind": "brief_reserved", "clusterId": cid,
+                    "budgetReservedUsd": RESERVE_USD,
+                    "at": datetime.now(timezone.utc).isoformat(),
+                }
+                if reserve_only:
+                    reservation["batchId"] = batch_id
+                ledger.setdefault("events", []).append(reservation)
+                write_json(ledger_path, ledger)
+                if reserve_only:
+                    # The workflow must publish all reservations to main BEFORE
+                    # executing any OpenRouter requests. Unused ones stay charged
+                    # conservatively against the daily limit.
+                    reserved_count += 1
+                    reasons[cid] = "reserved"
+                    continue
             if dry_run:
                 reasons[cid] = "would_generate"
                 continue
-            daily += RESERVE_USD
-            monthly += RESERVE_USD
-            ledger["estimatedCostUsd"] = round(daily, 5)
-            ledger.setdefault("events", []).append({
-                "kind": "brief_reserved", "clusterId": cid, "budgetReservedUsd": RESERVE_USD,
-                "at": datetime.now(timezone.utc).isoformat(),
-            })
-            # Persist reservation BEFORE making the paid request.
-            write_json(ledger_path, ledger)
             try:
                 summary = call_model(api_key, item["title"], sources)
             except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
                 reasons[cid] = "llm_error"
+                failed = {
+                    "kind": "brief_failed", "clusterId": cid,
+                    "errorType": type(exc).__name__,
+                    "at": datetime.now(timezone.utc).isoformat(),
+                }
+                if reserved_batch:
+                    failed["batchId"] = reserved_batch
+                ledger["events"].append(failed)
+                batch_completed.add(cid)
+                write_json(ledger_path, ledger)
                 print(f"SKIP {cid}: {type(exc).__name__}", flush=True)
                 continue
             cached = {
@@ -183,6 +265,15 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
                 "generatedAt": datetime.now(timezone.utc).isoformat(),
             }
             write_json(cache / f"{cid}.json", cached)
+            success = {
+                "kind": "brief_succeeded", "clusterId": cid,
+                "at": datetime.now(timezone.utc).isoformat(),
+            }
+            if reserved_batch:
+                success["batchId"] = reserved_batch
+            ledger["events"].append(success)
+            batch_completed.add(cid)
+            write_json(ledger_path, ledger)
             count += 1
         if dry_run:
             continue
@@ -198,7 +289,8 @@ def run(root: Path = ROOT, *, max_new: int = 15, api_key: str = "", dry_run: boo
         write_json(home_path, home)
     covered = sum(bool(c.get("aiSummary")) for c in top)
     result = {"top15Covered": covered, "target": len(top), "generated": count,
-              "reasons": reasons, "reservedDailyUsd": round(daily, 5)}
+              "reserved": reserved_count, "reasons": reasons,
+              "reservedDailyUsd": round(daily, 5)}
     print(json.dumps(result, ensure_ascii=False))
     return result
 
@@ -207,8 +299,17 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--max-new", type=int, default=15)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--reserve-only", action="store_true")
+    parser.add_argument("--reserved-batch", default="")
+    parser.add_argument("--batch-id", default="")
+    parser.add_argument("--ledger-date", default="")
     args = parser.parse_args()
-    run(max_new=args.max_new, api_key=os.getenv("OPENROUTER_API_KEY", ""), dry_run=args.dry_run)
+    run(
+        max_new=args.max_new, api_key=os.getenv("OPENROUTER_API_KEY", ""),
+        dry_run=args.dry_run, reserve_only=args.reserve_only,
+        reserved_batch=args.reserved_batch, batch_id=args.batch_id,
+        ledger_date=args.ledger_date,
+    )
 
 
 if __name__ == "__main__":
