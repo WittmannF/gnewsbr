@@ -64,7 +64,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A public/data/latest.json public/data/clusters/latest/
-          git add -A public/data/enrichment/briefs/ data/enrichment/cost-ledger/ 2>/dev/null || true
+          git add -A public/data/enrichment/briefs/ 2>/dev/null || true
+          git add -A data/enrichment/cost-ledger/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No new reservations or recovered summaries."
             exit 0
@@ -96,7 +97,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A public/data/latest.json public/data/clusters/latest/
-          git add -A public/data/enrichment/briefs/ data/enrichment/cost-ledger/ 2>/dev/null || true
+          git add -A public/data/enrichment/briefs/ 2>/dev/null || true
+          git add -A data/enrichment/cost-ledger/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No new or recovered summaries to publish."
             exit 0
