@@ -106,6 +106,69 @@ class Top15BriefTests(unittest.TestCase):
             self.assertEqual(cached["summary"], "Resumo de IA já publicado")
             model.assert_not_called()
 
+    def test_reserved_batch_persists_ledger_before_paid_calls(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=2)
+            batch_id, day = "test-run-1", "2026-11-03"
+            with patch("summarize_home.call_model") as model:
+                prepared = run(root, api_key="key", reserve_only=True,
+                               batch_id=batch_id, ledger_date=day)
+            self.assertEqual(prepared["reserved"], 2)
+            self.assertEqual(prepared["generated"], 0)
+            model.assert_not_called()
+            ledger_path = root / "data/enrichment/cost-ledger" / f"{day}.json"
+            before = read_json(ledger_path)
+            self.assertEqual(before["estimatedCostUsd"], 0.02)
+            self.assertEqual([e["clusterId"] for e in before["events"]], ids)
+            self.assertTrue(all(e["batchId"] == batch_id for e in before["events"]))
+
+            with patch("summarize_home.call_model",
+                       return_value="Resumo de IA gerado após a reserva no ledger.") as model:
+                published = run(root, api_key="key", reserved_batch=batch_id,
+                                ledger_date=day)
+            self.assertEqual(model.call_count, 2)
+            self.assertEqual(published["generated"], 2)
+            self.assertEqual(read_json(ledger_path)["estimatedCostUsd"], 0.02)
+
+            # Even if GitHub Actions retries the same execution, this batch is
+            # already finalized and should make zero additional paid calls.
+            with patch("summarize_home.call_model") as model:
+                rerun = run(root, api_key="key", reserved_batch=batch_id,
+                            ledger_date=day)
+            self.assertEqual(rerun["generated"], 0)
+            model.assert_not_called()
+
+    def test_uncommitted_batch_is_not_authorized_to_call_model(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_home(root, count=1)
+            with patch("summarize_home.call_model") as model:
+                result = run(root, api_key="key", reserved_batch="not-pushed",
+                             ledger_date="2026-11-03")
+            self.assertEqual(result["generated"], 0)
+            model.assert_not_called()
+
+    def test_hourly_rehydration_keeps_cached_summaries_without_payment(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ids = self.make_home(root, count=1)
+            with patch("summarize_home.call_model", return_value=(
+                "Resumo de IA preservado mesmo depois da nova coleta horária.")):
+                run(root, api_key="key")
+            index = root / "public/data/latest.json"
+            detail = root / "public/data/clusters/latest" / f"{ids[0]}.json"
+            # Simulates the hourly collector resetting both files.
+            self.make_home(root, count=1)
+            self.assertNotIn("aiSummary", read_json(index)["clusters"][0])
+            with patch("summarize_home.call_model") as model:
+                restored = run(root, api_key="", max_new=0)
+            self.assertEqual(restored["generated"], 0)
+            self.assertEqual(restored["top15Covered"], 1)
+            self.assertIn("aiSummary", read_json(index)["clusters"][0])
+            self.assertIn("aiSummary", read_json(detail))
+            model.assert_not_called()
+
     def test_source_selection_limits_five_and_deduplicates_publishers(self):
         arts = [
             {"title": f"Artigo {i}", "description": "Descrição disponível",
