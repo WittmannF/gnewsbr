@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 3
+      "topic-2": 4
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "vacina",
     "vacinação",
     "liberada",
-    "todas",
-    "idades"
+    "toda",
+    "população"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/t7xyOxAH97DPx9qbN1KE8f426jA=/1700x0/filters:format(jpeg)/http://s.glbimg.com/jo/g1/f/original/2017/06/07/vacinacao3_andre_borges.jpg",
   "publishedAt": "2026-05-15T07:00:00+00:00",
-  "updatedAt": "2026-11-04T22:16:00.896931+00:00",
+  "updatedAt": "2026-11-04T23:16:35.072557+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-11-04T16:58:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/06/01/675x450/1_covid-still-life-with-vaccine-66793805.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -114,7 +114,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-11-04T19:18:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/5516456733366f2e226f3k-1afe08af.webp",
       "spectrumScore": 2,
       "bucket": "left"
@@ -128,10 +128,24 @@
       "sourceCanonical": "Portal O Dia",
       "sourceDomain": "portalodia.com",
       "publishedAt": "2026-11-04T20:08:33+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_807622b11f1f",
+      "title": "DF amplia vacinação contra gripe para toda a população",
+      "description": "Segundo a SES-DF, o estoque de doses é de 40 mil, e serão aplicadas uma única vez por pessoa. A exceção se aplica somente a crianças de 6...",
+      "url": "https://jornaldebrasilia.com.br/brasilia/df-amplia-vacinacao-contra-gripe-para-toda-a-populacao/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-04T22:19:31+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_63bc6c098455",
@@ -142,7 +156,7 @@
       "sourceCanonical": "Portal R10",
       "sourceDomain": "portalr10.com",
       "publishedAt": "2026-11-04T19:56:55+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -268,7 +282,7 @@
       "sourceCanonical": "Ao Vivo de Brasília",
       "sourceDomain": "aovivodebrasilia.com.br",
       "publishedAt": "2026-11-04T18:05:11+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,42 +314,28 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_fcb7e7943a5a",
-      "title": "Piauí lidera vacinação contra gripe e amplia público alvo",
-      "description": "Piauí lidera o ranking nacional de vacinação contra a influenza, com 61% de cobertura vacinal, de acordo com levantamento das unidades da...",
-      "url": "https://piauihoje.com/noticias/saude/piaui-lidera-vacinacao-contra-gripe-e-amplia-publico-alvo-469676.html",
-      "source": "Portal Piauí Hoje",
-      "sourceCanonical": "Portal Piauí Hoje",
-      "sourceDomain": "piauihoje.com",
-      "publishedAt": "2026-10-31T03:23:31+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 4.2,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 4.33,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 3,
+      "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 15
+      "unknown": 14
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 90
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
