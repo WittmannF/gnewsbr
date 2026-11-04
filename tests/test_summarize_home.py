@@ -123,6 +123,15 @@ class Top15BriefTests(unittest.TestCase):
             self.assertEqual([e["clusterId"] for e in before["events"]], ids)
             self.assertTrue(all(e["batchId"] == batch_id for e in before["events"]))
 
+            # A different Actions run on the same UTC day must not reserve
+            # the same cluster again, even if the original job was cancelled.
+            with patch("summarize_home.call_model") as model:
+                duplicate = run(root, api_key="key", reserve_only=True,
+                                batch_id="different-run", ledger_date=day)
+            self.assertEqual(duplicate["reserved"], 0)
+            self.assertEqual(read_json(ledger_path)["estimatedCostUsd"], 0.02)
+            model.assert_not_called()
+
             with patch("summarize_home.call_model",
                        return_value="Resumo de IA gerado após a reserva no ledger.") as model:
                 published = run(root, api_key="key", reserved_batch=batch_id,
