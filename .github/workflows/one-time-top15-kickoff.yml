@@ -1,0 +1,21 @@
+name: One-time top-15 summaries kickoff
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/one-time-top15-kickoff.yml'
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch:
+    if: github.event.head_commit.message == 'chore(ci): trigger one-time top15 summary run'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request top-15 summaries workflow run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run top-15-summaries.yml --repo WittmannF/gnewsbr --ref main
