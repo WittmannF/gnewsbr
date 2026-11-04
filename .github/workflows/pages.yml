@@ -94,7 +94,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A public/data/latest.json public/data/clusters/latest/ public/data/archive/ public/data/source-spectrum.json
-          git add -A public/data/enrichment/briefs/ data/enrichment/cost-ledger/ 2>/dev/null || true
+          git add -A public/data/enrichment/briefs/ 2>/dev/null || true
+          git add -A data/enrichment/cost-ledger/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
