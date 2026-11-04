@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   dispatch:
-    if: github.event.head_commit.message == 'chore(ci): trigger one-time top15 summary run'
     runs-on: ubuntu-latest
     steps:
       - name: Request top-15 summaries workflow run
