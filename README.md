@@ -54,7 +54,8 @@ Formato de saída (particionado):
 
 A página **Hoje** mantém o ranking original (número de artigos e fontes classificadas).
 A coleta e a publicação de notícias continuam **a cada hora**, por meio de
-`.github/workflows/pages.yml`.
+`.github/workflows/pages.yml`. Após cada coleta, o mesmo workflow **reaplica
+resumos em cache** usando `summarize_home.py --max-new 0`, sem chamadas à API.
 
 Um workflow separado, `.github/workflows/top-15-summaries.yml`, roda **3 vezes
 por dia** (08:20, 14:20 e 20:20 no horário de Brasília; cron UTC:
@@ -63,15 +64,18 @@ snapshot atual** em `public/data/latest.json` e:
 
 1. Reutiliza `public/data/enrichment/briefs/{clusterId}.json` ou um
    `aiSummary` já publicado, quando disponível;
-2. Para cada cluster ainda sem resumo e com pelo menos duas fontes, envia
-   até cinco manchetes e descrições ao modelo via OpenRouter;
-3. Preenche `aiSummary` e `aiSources` no índice e nos JSONs de detalhe;
-4. Faz commit dos resumos, caches e reservas de custo e solicita a
-   republicação do Pages via `workflow_dispatch` com `republish_only=true`,
-   sem refazer a coleta (um push com `GITHUB_TOKEN` não aciona outro workflow);
+2. Para cada cluster ainda sem resumo e com pelo menos duas fontes, **reserva
+   o orçamento e os IDs num ledger e faz commit dessas reservas em `main`
+   antes de chamar o modelo**;
+3. Só após confirmar o push, executa as chamadas autorizadas e preenche
+   `aiSummary` e `aiSources` no índice e nos JSONs de detalhe;
+4. Faz commit dos resumos e resultados de execução e solicita republicação
+   do Pages via `workflow_dispatch` com `republish_only=true`, sem refazer
+   a coleta (um push com `GITHUB_TOKEN` não aciona outro workflow);
 5. Se a geração falhar, preserva o resumo editorial existente e registra
-   o motivo no log. **Um mesmo cluster recebe no máximo uma tentativa paga
-   por dia UTC**, para evitar repetir reservas de orçamento em falhas.
+   o motivo no log. **Um mesmo cluster recebe no máximo uma reserva de tentativa paga
+   por dia UTC**, para evitar repetir o orçamento em falhas. Reservas
+   continuam contabilizadas mesmo se a execução for interrompida.
 
 Resumos são reaproveitados entre execuções pelo ID do cluster; não são
 regenerados apenas porque a coleta horária os retornou novamente.
@@ -88,6 +92,11 @@ US$ 0,25/dia e US$ 5/mês, no ledger de
 `data/enrichment/cost-ledger/`. Tentativas com falha continuam reservadas,
 pois uma chamada pode ter custo mesmo quando a resposta falha. O ledger
 registra `brief_reserved`, `brief_succeeded` e `brief_failed` para auditoria.
+Cada lote usa `batchId` por execução do Actions; as reservas são persistidas
+em `main` **antes** do primeiro request pago. Execuções canceladas podem deixar
+reservas sem uso, mas não podem causar cobranças repetidas do mesmo cluster
+naquele dia. A fila de publicação usa `queue: max` para não substituir um
+workflow agendado enquanto aguarda outra execução.
 Essas reservas são estimativas, não a fatura efetiva do provedor.
 Configure um teto financeiro real também no OpenRouter.
 
