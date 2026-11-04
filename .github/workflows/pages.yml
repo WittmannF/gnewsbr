@@ -15,10 +15,11 @@ on:
         default: false
 
 concurrency:
-  # Queue refreshes rather than cancelling a one-time synthesis recovery when
-  # an hourly schedule fires. GitHub retains at most one pending run per group.
+  # Serialize collection, synthesis and Pages publication without dropping a
+  # pending scheduled summary job when new hourly runs arrive.
   group: pages-refresh-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 # Opt in early to the GitHub Actions Node.js 24 runtime so the workflow does not
 # depend on the deprecated Node.js 20 action runtime.
@@ -83,8 +84,12 @@ jobs:
         if: (github.event_name != 'push' && inputs.republish_only != true) || steps.integrity.outputs.missing == 'true'
         run: npm run collect
 
+      - name: Reapply cached top-15 summaries (no paid calls)
+        id: hydrate
+        run: python3 scripts/summarize_home.py --max-new 0
+
       - name: Commit refreshed data and linked detail files
-        if: steps.refresh.outcome == 'success'
+        if: steps.refresh.outcome == 'success' || steps.hydrate.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
