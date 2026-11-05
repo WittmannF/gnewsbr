@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 30
+      "topic-7": 5
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,13 +27,13 @@
     "vitória",
     "israel",
     "rivais",
-    "democrata"
+    "oposição"
   ],
   "imageUrl": "https://s2-valor.glbimg.com/UnERC6t7x3Ang59MPRoG-ls07L8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/m/G/CAmZBBSeK6HlwDMPnp4w/2026-11-03t112707z-496333801-rc29goa693fu-rtrmadp-3-iran-crisis.jpg",
   "publishedAt": "2026-10-29T07:00:00+00:00",
-  "updatedAt": "2026-11-05T18:33:55.995664+00:00",
-  "sourceCount": 14,
-  "articleCount": 17,
+  "updatedAt": "2026-11-05T19:28:15.150437+00:00",
+  "sourceCount": 15,
+  "articleCount": 18,
   "articles": [
     {
       "id": "article_b6c3ea8f3574",
@@ -43,8 +43,8 @@
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-05T18:26:38+00:00",
-      "postedLabel": "7 minutos atrás",
+      "publishedAt": "2026-11-05T14:37:44+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +72,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-04T18:46:49+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/2XQEDZ4AH5FD5LRDC75CJTGV5E.png?smart=true&auth=f5d360a1085fe50082a68450549f73ee2b9cea90baa295867b8817058201031d&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -148,6 +148,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_c20de2df3b95",
+      "title": "Oposição israelense acusa Netanyahu de prejudicar relações com os EUA",
+      "description": "A oposição de Israel acusou o primeiro-ministro Benjamin Netanyahu de prejudicar as relações do país com os Estados Unidos, após os...",
+      "url": "https://www.diariodepernambuco.com.br/mundo/2026/11/11728443-oposicao-israelense-acusa-netanyahu-de-prejudicar-relacoes-com-os-eua.html",
+      "source": "Diario de Pernambuco",
+      "sourceCanonical": "Diario de Pernambuco",
+      "sourceDomain": "diariodepernambuco.com.br",
+      "publishedAt": "2026-11-05T18:31:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_25a6e2b32857",
       "title": "Além de Bibi: a eleição de Israel testa a aliança bipartidária dos EUA",
       "description": "Empasse eleitoral em Israel acirra debate em Washington, expondo o apoio republicano a Netanyahu e divergências democratas sobre a ajuda...",
@@ -184,7 +198,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-04T19:12:34+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -198,7 +212,7 @@
       "sourceCanonical": "BPMoney",
       "sourceDomain": "bpmoney.com.br",
       "publishedAt": "2026-11-04T19:08:45+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +240,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-04T18:46:33+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -268,7 +282,7 @@
       "sourceCanonical": "BOL",
       "sourceDomain": "bol.uol.com.br",
       "publishedAt": "2026-11-04T19:12:34+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -277,12 +291,12 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 5.2,
-    "knownCount": 10,
+    "average": 5.09,
+    "knownCount": 11,
     "unknownCount": 7,
     "buckets": {
       "left": 1,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 7,
       "centerRight": 2,
       "right": 0,
@@ -290,13 +304,14 @@
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
