@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psZzQyaUVoRTBpRG5BN3RDS2pDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psZzQyaUVoRTBpRG5BN3RDS2pDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Governo publica medida provisória com alíquotas do Imposto Seletivo",
   "summary": "O governo federal publicou nesta quarta-feira (4) a medida provisória (MP) do Imposto Seletivo, também conhecido como \"imposto do pecado\".",
@@ -37,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/VpewRQR7Lhr1VPaI0P80Essb03c=/6000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/A/3/YrqftWRoyWmrAjfV0LIA/pexels-clam-lo-3355400.jpg",
   "publishedAt": "2026-11-03T12:53:18+00:00",
-  "updatedAt": "2026-11-05T05:18:28.584953+00:00",
+  "updatedAt": "2026-11-05T06:32:10.970548+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,7 +44,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-05T01:16:39+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/VpewRQR7Lhr1VPaI0P80Essb03c=/6000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/A/3/YrqftWRoyWmrAjfV0LIA/pexels-clam-lo-3355400.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,23 +58,9 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-05T01:06:51+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/J-BSwHpvZykKQE84dJrF0eG4FcU=/648x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/A/Q/juOBBeRnA777Co0j8lEQ/imposto-pecado.jpg",
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d34c1bdc8049",
-      "title": "\"Imposto do pecado\": entenda o que muda a partir de 2027",
-      "description": "Medida tributária atinge produtos nocivos à saúde e ao meio ambiente com início de cobrança previsto para fevereiro de 2027.",
-      "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/imposto-do-pecado-entenda-o-que-muda-a-partir-de-2027/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-05T01:21:13+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/intoxicacao-metanol-e1759929420890.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -92,10 +72,24 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-05T02:03:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/02/05/17703019126984a9d8cccb2_1770301912_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_d34c1bdc8049",
+      "title": "\"Imposto do pecado\": entenda o que muda a partir de 2027",
+      "description": "Medida tributária atinge produtos nocivos à saúde e ao meio ambiente com início de cobrança previsto para fevereiro de 2027.",
+      "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/imposto-do-pecado-entenda-o-que-muda-a-partir-de-2027/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-05T01:21:13+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/intoxicacao-metanol-e1759929420890.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_16bfea48a8b1",
@@ -140,20 +134,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_23932a07bb65",
-      "title": "Governo publica MP com alíquotas do imposto seletivo para 2027",
-      "description": "Medida estabelece cobrança gradual sobre bebidas, cigarros e veículos; minerais terão alíquota zero em 2027. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/reforma-tributaria-2027/governo-publica-mp-com-aliquotas-do-imposto-seletivo-para-2027/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-11-05T01:41:20+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_3868c7bb5635",
       "title": "Governo Lula publica medida provisória do Imposto Seletivo",
       "description": "O presidente Lula (PT) assinou a Medida Provisória que estabelece as alíquotas e normas complementares do Imposto Seletivo para 2027.",
@@ -162,10 +142,24 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-11-05T01:42:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_23932a07bb65",
+      "title": "Governo publica MP com alíquotas do imposto seletivo para 2027",
+      "description": "Medida estabelece cobrança gradual sobre bebidas, cigarros e veículos; minerais terão alíquota zero em 2027. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/reforma-tributaria-2027/governo-publica-mp-com-aliquotas-do-imposto-seletivo-para-2027/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-05T01:41:20+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_9ed70716d9c0",
@@ -176,7 +170,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-05T02:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -190,24 +184,10 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-05T01:53:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_1dc25b01abd8",
-      "title": "Governo federal publica MP e fixa alíquotas do \"imposto do pecado\"",
-      "description": "Cobrança está prevista para começar em fevereiro de 2027. MP precisa ser aprovada pelo Congresso em até 120 dias para não perder a validade.",
-      "url": "https://www.metropoles.com/brasil/governo-federal-publica-mp-do-imposto-do-pecado-com-aliquota-de",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-05T02:21:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_81a7d806bbd6",
@@ -218,7 +198,7 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-11-05T02:41:21+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -238,20 +218,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_62c8d495dc26",
-      "title": "MP cria regime gradual para o “imposto do pecado” a partir de fevereiro de 2027",
-      "description": "Medida estabelece regime de implementação gradual do novo tributo, com início previsto para 2 de fevereiro de 2027, e preserva o nível...",
-      "url": "https://www.brasil247.com/economia/mp-cria-regime-gradual-para-o-imposto-do-pecado-a-partir-de-fevereiro-de-2027/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-11-05T02:35:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_5e82d77571bb",
       "title": "Governo assina MP com regras do Imposto Seletivo",
       "description": "Tributo sobre cigarros, bebidas e veículos vale a partir de fevereiro; texto prevê isenções para táxis e PCDs e alíquota de 0,5% para...",
@@ -266,6 +232,34 @@
       "bucket": "center"
     },
     {
+      "id": "article_1dc25b01abd8",
+      "title": "Governo federal publica MP e fixa alíquotas do \"imposto do pecado\"",
+      "description": "Cobrança está prevista para começar em fevereiro de 2027. MP precisa ser aprovada pelo Congresso em até 120 dias para não perder a validade.",
+      "url": "https://www.metropoles.com/brasil/governo-federal-publica-mp-do-imposto-do-pecado-com-aliquota-de",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-05T02:21:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_62c8d495dc26",
+      "title": "MP cria regime gradual para o “imposto do pecado” a partir de fevereiro de 2027",
+      "description": "Medida estabelece regime de implementação gradual do novo tributo, com início previsto para 2 de fevereiro de 2027, e preserva o nível...",
+      "url": "https://www.brasil247.com/economia/mp-cria-regime-gradual-para-o-imposto-do-pecado-a-partir-de-fevereiro-de-2027/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-11-05T02:35:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_41b9ccc57c80",
       "title": "Governo vai iniciar cobrança gradual do Imposto Seletivo a partir de 2027",
       "description": "O presidente Luiz Inácio Lula da Silva assinou nesta quarta-feira (4) uma MP (Medida Provisória) que define as alíquotas para a...",
@@ -274,7 +268,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-05T01:58:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -308,33 +302,33 @@
       "bucket": "center"
     },
     {
-      "id": "article_f70c08aa988a",
-      "title": "Imposto Seletivo terá alíquotas baseadas no IPI até 2027",
-      "description": "MP define regras de transição para o imposto do pecado, com alíquotas zeradas para elétricos e PcD. Leia mais na Tribuna do Paraná.",
-      "url": "https://www.tribunapr.com.br/noticias/economia/imposto-seletivo-tera-aliquotas-baseadas-no-ipi-ate-2027/",
-      "source": "Tribuna do Paraná",
-      "sourceCanonical": "Tribuna do Paraná",
-      "sourceDomain": "tribunapr.com.br",
-      "publishedAt": "2026-11-05T03:07:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_1d075d91b653",
+      "title": "Governo adia medida provisória com alíquotas do Imposto Seletivo",
+      "description": "O governo do presidente Luiz Inácio Lula da Silva adiou a publicação da medida provisória (MP) que fixa as alíquotas do imposto seletivo...",
+      "url": "https://www.folhape.com.br/economia/governo-adia-medida-provisoria-com-aliquotas-do-imposto-seletivo/522197/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-11-03T23:03:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.35,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.28,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 2,
-      "centerLeft": 1,
+      "centerLeft": 2,
       "center": 10,
       "centerRight": 3,
       "right": 1,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
