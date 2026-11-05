@@ -29,16 +29,23 @@
     {
       "type": "ranking_issue",
       "url": "https://github.com/WittmannF/gnewsbr/issues/38"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/776e878cd6aaced8d99bb2d07c410497a2eeb651"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
-  "diagnostic_workflow": null,
+  "diagnostic_workflow": ".github/workflows/ai-summary-diagnostics.yml",
   "diagnostic_harness": null,
-  "blockers": [],
+  "blockers": [
+    "No historical raw failed responses; replay can only use original inputs, not reproduce identical completions",
+    "Branch workflow may not be dispatchable through connected GitHub integration; do not claim live experiments ran"
+  ],
   "pending_actions": [
-    "Create isolated diagnostic harness with replay fixtures and metrics",
-    "Add branch-only diagnostic workflow",
-    "Validate workflow syntax and isolation before any paid test"
+    "Verify branch workflow is recognized and passes CI",
+    "Build replay harness and sanitized fixtures with real cluster inputs",
+    "Add budget-gated paid experiments only after offline harness passes"
   ],
   "updated_at": "2026-11-05T23:39:14Z"
 }
