@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYaWZtb0VoSEF1b0ZyWXc2SGd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYaWZtb0VoSEF1b0ZyWXc2SGd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 6
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Dino é sorteado como relator da ação que tenta adiar o fim da escala 6×1",
   "summary": "A petição foi protocolada pela Confederação Nacional do Comércio de Bens, Serviços e Turismo.",
@@ -25,13 +31,13 @@
     "fim",
     "escala",
     "6x1",
-    "6×1",
+    "stf",
     "jornada",
-    "stf"
+    "6×1"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/12/54962218269_cf4121015a_k.jpg",
   "publishedAt": "2026-11-04T13:13:50+00:00",
-  "updatedAt": "2026-11-05T17:24:51.943570+00:00",
+  "updatedAt": "2026-11-05T18:21:28.244834+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-05T13:51:17+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/mQZzG_POozG8z3PNuJMSslHE1z8=/1368x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/z/f/KqGi4DT2uF7RTwhKVPsQ/116598402-pa-brasilia-df-15-10-2026-senado-federal-presidente-do-senado-davi-alcolumbre-reti.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -66,13 +72,13 @@
     {
       "id": "article_38ec6d00c7c1",
       "title": "Construção defende período de transição de 5 anos para acabar com jornada 6×1",
-      "description": "A Câmara Brasileira da Indústria da Construção (CBIC) entregou ao Ministério do Trabalho um documento composto por 11 pleitos para amenizar...",
+      "description": "Documento entregue ao Ministério do Trabalho pede ampliação do prazo de transição para que empresas reorganizem suas operações.",
       "url": "https://www.infomoney.com.br/politica/construcao-defende-periodo-de-transicao-de-5-anos-para-acabar-com-jornada-6x1/",
       "source": "InfoMoney",
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-11-05T16:50:05+00:00",
-      "postedLabel": "34 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/10/construcao_civil_2306219892.webp",
       "spectrumScore": 6,
       "bucket": "center"
@@ -114,10 +120,24 @@
       "sourceCanonical": "Panrotas",
       "sourceDomain": "panrotas.com.br",
       "publishedAt": "2026-11-05T16:58:00+00:00",
-      "postedLabel": "26 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_31f6d22f4cb6",
+      "title": "Indústria e comércio vão ao STF com ações que questionam fim da 6x1",
+      "description": "Os empresários do comércio pedem ao Supremo que declare inconstitucionais seis pontos da emenda constitucional 141.",
+      "url": "https://www.jornaldocomercio.com/economia/2026/11/1269421-industria-e-comercio-vao-ao-stf-com-acoes-que-questionam-fim-da-6x1.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-11-05T17:58:37+00:00",
+      "postedLabel": "22 minutos atrás",
+      "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2026/09/15/600x800/1_55529051202_1a23c8a884_o-12028818.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_b6dbb54813f0",
@@ -129,34 +149,34 @@
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-05T07:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2022/09/28/1664391460633499243f8fa_1664391460_3x2_rt.jpg",
+      "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_257d77507beb",
-      "title": "Regulamentação do fim da escala 6X1 sai na segunda-feira, diz ministro",
-      "description": "O Brasil gerou 121.305 postos formais de trabalho em setembro, segundo dados do Novo Caged divulgados nesta quarta-feira (4). O número é...",
-      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/regulamentacao-do-fim-da-escala-6x1-sai-na-segunda-feira-diz-ministro",
+      "id": "article_bccdf721fdd2",
+      "title": "Governo prevê decreto do fim da escala 6x1 para segunda-feira",
+      "description": "O texto estabelecerá diretrizes para a organização das jornadas e garantir pelo menos oito folgas por mês aos trabalhadores.",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-preve-decreto-do-fim-da-escala-6x1-para-segunda-feira",
       "source": "Agência Brasil",
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-04T21:32:00+00:00",
+      "publishedAt": "2026-11-04T20:21:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_74a5938ba9ea",
-      "title": "MTE prevê publicar decreto sobre fim da escala 6×1 na próxima segunda-feira (9/11)",
-      "description": "Ministro Luiz Marinho diz que discutirá texto com Lula na quinta; regulamentação deverá orientar setores sobre diferentes modelos de jornada.",
-      "url": "https://www.jota.info/trabalho/mte-preve-publicar-decreto-sobre-fim-da-escala-6x1-na-proxima-segunda-feira-9-11",
+      "id": "article_c9e9fd669149",
+      "title": "CNC vai ao STF para adiar o fim da escala 6×1 e que redução da jornada só comece em 2027",
+      "description": "Confederação não questiona na ADI as mudanças constitucionais, mas o tempo que as empresas terão para se adaptar.",
+      "url": "https://www.jota.info/trabalho/cnc-vai-ao-stf-para-adiar-o-fim-da-escala-6x1-e-que-reducao-da-jornada-so-comece-em-2027",
       "source": "JOTA Info",
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
-      "publishedAt": "2026-11-04T20:57:57+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-11-04T18:21:19+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -204,20 +224,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_933cb09ec95d",
-      "title": "Governo prevê decreto do fim da escala 6×1 para segunda-feira",
-      "description": "Regulamentação da 6X1 permitirá flexibilidade para organização de escalas.",
-      "url": "https://iclnoticias.com.br/governo-decreto-do-fim-6x1-para-segunda-feira/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-04T22:39:17+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_5441f4d675f6",
       "title": "Fim da 6x1 pode pressionar salários e benefícios em 2027",
       "description": "Mudança na jornada deve tornar negociações coletivas mais disputadas, com empresas buscando compensar custos e sindicatos tentando preservar...",
@@ -230,6 +236,34 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_2487a0c966c1",
+      "title": "ACE São João da Boa Vista promove palestra sobre Escala 6x1",
+      "description": "A Associação Comercial e Empresarial de São João da Boa Vista (ACE São João) juntamente com o CMEC São João realizará, no dia 10 de novembro...",
+      "url": "https://www.parabrisa.com.br/noticias?ler=35490",
+      "source": "Jornal do Parabrisa",
+      "sourceCanonical": "Jornal do Parabrisa",
+      "sourceDomain": "parabrisa.com.br",
+      "publishedAt": "2026-11-05T11:04:30+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_0e162bf5236a",
+      "title": "CNI pede ao STF que fim da escala 6x1 não atinja contratos antigos",
+      "description": "Confederação Nacional da Indústria também pede suspensão, por ao menos um ano, dos prazos de redução da jornada e alega que a medida viola a...",
+      "url": "https://www.cnnbrasil.com.br/politica/cni-pede-ao-stf-que-fim-da-escala-6x1-nao-atinja-contratos-antigos/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-04T22:06:30+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_fc21c95b6757",
@@ -282,53 +316,25 @@
       "sourceCanonical": "Rádio Guaíba",
       "sourceDomain": "guaiba.com.br",
       "publishedAt": "2026-11-05T15:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_6a68e38fc6fd",
-      "title": "Advogado: fim da 6x1 em 60 dias terá impacto significativo",
-      "description": "CNC entrou com ação no STF para adiar início da transição para a jornada 5x2, prevista para iniciar em 16 de dezembro.",
-      "url": "https://sbtnews.sbt.com.br/noticia/economia/advogado-fim-da-6x1-em-60-dias-tera-impacto-significativo",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-05T11:56:30+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_ee9c990b8036",
-      "title": "Ministro do STF Flávio Dino é sorteado relator da ação da CNC que busca adiar fim da escala 6x1",
-      "description": "Primeira etapa da transição começa em 16 de dezembro deste ano, quando a jornada máxima semanal cai de 44 para 42 horas;...",
-      "url": "https://www.estadao.com.br/economia/ministro-do-stf-flavio-dino-e-sorteado-relator-da-acao-da-cnc-que-busca-adiar-fim-da-escala-6x1/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-04T18:39:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.2,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.22,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 1,
-      "center": 4,
-      "centerRight": 3,
+      "center": 5,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
