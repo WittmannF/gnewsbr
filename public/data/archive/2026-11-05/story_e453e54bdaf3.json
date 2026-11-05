@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pHOTZ1aUVoRWRXWTBPM05DSm1DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pHOTZ1aUVoRWRXWTBPM05DSm1DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 1,
-      "topic-5": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 2,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Alcolumbre • PEC • maioridade",
   "summary": "Planalto age para impedir aprovação da proposta, que contava com a articulação para votar nesta quarta-feira; presidente da Câmara disse ao...",
@@ -29,12 +35,12 @@
     "pec",
     "pública",
     "maioridade",
-    "senado",
-    "lula"
+    "lula",
+    "alcolumbre"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/Y4J4MIPCX5CBPJDIJSRZTZRAFA.jpg?quality=80&auth=c276d4983c56e9fefa68fe7a5645bf3a667cb2f913e5c899dfaf27d9a1fc821c&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-03T21:50:00+00:00",
-  "updatedAt": "2026-11-05T07:20:23.054112+00:00",
+  "updatedAt": "2026-11-05T08:22:46.292897+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -95,18 +101,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_5835d4ace592",
-      "title": "Depois de fugir aos EUA, Flávio participa de sessão do Senado sobre PEC da segurança",
-      "description": "Participação remota é a primeira desde a saída do país; Portinho afirma que senador habilitou novo celular para votar à distância.",
-      "url": "https://veja.abril.com.br/brasil/depois-de-fugir-aos-eua-flavio-participa-de-sessao-do-senado-sobre-pec-da-seguranca/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-03T22:10:00+00:00",
+      "id": "article_3b579f0a49d9",
+      "title": "Em vitória do governo, Senado aprova PEC da Segurança Pública sem redução da maioridade",
+      "description": "O texto agora vai à promulgação e deve abrir caminho para a criação do Ministério da Segurança Pública.",
+      "url": "https://www.cartacapital.com.br/politica/senado-aprova-texto-da-pec-da-seguranca-publica/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-11-03T21:50:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_3af6fd9e9731",
@@ -151,20 +157,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_85f884be0617",
-      "title": "Redução da maioridade penal: Senado aguardará votação de PEC da Câmara — Senado Notícias",
-      "description": "A redução da maioridade penal será discutida no Parlamento por meio da PEC 32/2015 , atualmente em análise em comissão especial na Câmara...",
-      "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/reducao-da-maioridade-penal-senado-aguardara-votacao-de-pec-da-camara",
-      "source": "Senado",
-      "sourceCanonical": "Senado",
-      "sourceDomain": "www12.senado.leg.br",
-      "publishedAt": "2026-11-04T22:03:20+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_74186760e1fc",
       "title": "Lula consegue apoio da direita em 3 votações no Congresso e cria dilema para oposição",
       "description": "PEC da Segurança, fim da escala 6x1 e ampliação do teto do MEI tiveram apoio de adversários do governo.",
@@ -179,29 +171,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_3b579f0a49d9",
-      "title": "Em vitória do governo, Senado aprova PEC da Segurança Pública sem redução da maioridade",
-      "description": "O texto agora vai à promulgação e deve abrir caminho para a criação do Ministério da Segurança Pública.",
-      "url": "https://www.cartacapital.com.br/politica/senado-aprova-texto-da-pec-da-seguranca-publica/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-11-03T21:50:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_3a73a455250c",
-      "title": "A segurança pública exige união de esforços",
-      "description": "Com a aprovação da PEC, o Brasil dá um passo decisivo para que o enfrentamento ao crime organizado tenha mais eficácia.",
-      "url": "https://mais.opovo.com.br/colunistas/editorial/2026/11/05/a-seguranca-publica-exige-uniao-de-esforcos.html",
-      "source": "O POVO+",
-      "sourceCanonical": "O POVO+",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-11-05T04:15:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_0f653df3d22a",
+      "title": "Eduardo Braga pede que redução da maioridade penal seja votada até 1º de dezembro no Senado",
+      "description": "O senador Eduardo Braga (MDB-AM), que reuniu 56 assinaturas num requerimento para votação imediata da redução da maioridade penal no...",
+      "url": "https://www12.senado.leg.br/tv/programas/noticias-1/2026/11/eduardo-braga-pede-que-reducao-da-maioridade-penal-seja-votada-ate-1o-de-dezembro-no-senado",
+      "source": "Senado",
+      "sourceCanonical": "Senado",
+      "sourceDomain": "www12.senado.leg.br",
+      "publishedAt": "2026-11-05T01:16:11+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -219,6 +197,48 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_3a73a455250c",
+      "title": "A segurança pública exige união de esforços",
+      "description": "Com a aprovação da PEC, o Brasil dá um passo decisivo para que o enfrentamento ao crime organizado tenha mais eficácia.",
+      "url": "https://mais.opovo.com.br/colunistas/editorial/2026/11/05/a-seguranca-publica-exige-uniao-de-esforcos.html",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-11-05T04:15:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_c0c127789e01",
+      "title": "‘Parece estelionato eleitoral’: a pauta que provoca ansiedade na base aliada de Lula",
+      "description": "O adiamento da votação da proposta de redução da maioridade penal no Congresso Nacional provocou desconforto entre aliados do presidente...",
+      "url": "https://veja.abril.com.br/politica/parece-estelionato-eleitoral-a-pauta-que-provoca-ansiedade-na-base-aliada-de-lula/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-05T01:40:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_960210ce1105",
+      "title": "Alcolumbre atende Motta e adia votação da redução da maioridade penal no Senado",
+      "description": "Alcolumbre afirma que a Câmara já está à frente na discussão do tema e defende alinhamento entre as duas Casas.",
+      "url": "https://www.gazetadopovo.com.br/republica/apos-conversa-com-motta-alcolumbre-adia-votacao-da-reducao-da-maioridade-penal-no-senado/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-11-04T20:14:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_4e4d3e832d69",
@@ -249,34 +269,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_f22babafc0d5",
-      "title": "Como votou cada senador na PEC da Segurança Pública",
-      "description": "No segundo, o placar ficou em 75 votos a 0. Veja abaixo os senadores que participaram da votação e os ausentes ou que não registraram seus...",
-      "url": "https://www.gazetadopovo.com.br/republica/como-votou-cada-senador-na-pec-da-seguranca-publica/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-11-03T22:38:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_34dc2fbc066b",
-      "title": "PEC da Segurança Pública é aprovada no Senado após articulação e trabalho coordenado do MJSP",
-      "description": "Brasília, 3/11/2026 – O Senado Federal aprovou, nesta terça-feira (3), a Proposta de Emenda à Constituição (PEC) da Segurança Pública (nº...",
-      "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/pec-da-seguranca-publica-e-aprovada-no-senado-apos-articulacao-e-trabalho-coordenado-do-mjsp",
-      "source": "Governo Federal",
-      "sourceCanonical": "Governo Federal",
-      "sourceDomain": "gov.br",
-      "publishedAt": "2026-11-03T23:52:18+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_aca96f40c130",
       "title": "Mais rigor contra facções e milícias e restrições à progressão de regime; entenda a PEC da Segurança Pública",
       "description": "Texto foi aprovado no Senado em dois turnos e será promulgado.",
@@ -305,29 +297,43 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_dd8ca4d17060",
-      "title": "PEC da Segurança: Senado aprova texto sem redução da maioridade penal",
-      "description": "Proposta passou na Casa em dois turnos sem votos contrários e abre caminho para governo Lula criar o Ministério da Segurança Pública.",
-      "url": "https://www.bbc.com/portuguese/articles/cw4g13g56zljo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-11-04T00:32:50+00:00",
+      "id": "article_34dc2fbc066b",
+      "title": "PEC da Segurança Pública é aprovada no Senado após articulação e trabalho coordenado do MJSP",
+      "description": "Brasília, 3/11/2026 – O Senado Federal aprovou, nesta terça-feira (3), a Proposta de Emenda à Constituição (PEC) da Segurança Pública (nº...",
+      "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/pec-da-seguranca-publica-e-aprovada-no-senado-apos-articulacao-e-trabalho-coordenado-do-mjsp",
+      "source": "Governo Federal",
+      "sourceCanonical": "Governo Federal",
+      "sourceDomain": "gov.br",
+      "publishedAt": "2026-11-03T23:52:18+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2b2c1175ae02",
+      "title": "PEC põe fim à era de empurrar para o outro o combate ao crime, diz chefe do FBSP",
+      "description": "(Folhapress) - A aprovação da PEC (Proposta de Emenda à Constituição) da Segurança Pública nesta terça-feira (3) acaba com o empurra-empurra...",
+      "url": "https://iclnoticias.com.br/pec-combate-ao-crime-seguranca/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-11-04T22:48:07+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.53,
+    "average": 5.4,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
-      "left": 1,
-      "centerLeft": 1,
+      "left": 2,
+      "centerLeft": 0,
       "center": 9,
       "centerRight": 4,
       "right": 0,
@@ -335,14 +341,13 @@
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
