@@ -1,0 +1,43 @@
+name: AI summary diagnostics (isolated)
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: 'Allow paid OpenRouter experiments (explicit opt-in only)'
+        type: boolean
+        default: false
+  push:
+    branches:
+      - work/gnewsbr-ai-diagnostic-program
+    paths:
+      - 'engineering/**'
+      - '.github/workflows/ai-summary-diagnostics.yml'
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify isolation and state contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          state=json.loads(Path('engineering/gnewsbr-program-state.json').read_text())
+          assert state['merge_approval']=='NOT_GRANTED'
+          assert state['diagnostic_budget_usd']==5
+          assert state['phase'] in ('DIAGNOSTIC_SETUP','DIAGNOSE','ROOT_CAUSE_REPORT')
+          print('offline state checks passed; no paid model calls')
+          PY
+      - name: Diagnostic preflight
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          assert Path('scripts/summarize_home.py').exists()
+          print('diagnostic workflow isolated from production cache, ledger, and deployment')
+          PY
