@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "program": "gnewsbr-ai-reliability",
+  "tracking_issue": 37,
+  "ranking_issue": 38,
+  "status": "IN_PROGRESS",
+  "phase": "DIAGNOSTIC_SETUP",
+  "plan_review_count": 0,
+  "implementation_review_round": 0,
+  "merge_approval": "NOT_GRANTED",
+  "diagnostic_budget_usd": 5,
+  "diagnostic_spend_usd_confirmed": 0,
+  "diagnostic_spend_status": "NOT_STARTED",
+  "confirmed_facts": [
+    "2026-11-05 ledger: 15 reservations, 8 success, 7 ValidationError",
+    "Existing Brief summary min_length=40 max_length=1700 and max_tokens=550",
+    "Historical raw failed responses not available in ledger"
+  ],
+  "hypotheses": [
+    "Output truncation due to max_tokens=550",
+    "Provider-specific JSON schema compliance",
+    "Validation failures due to length constraints"
+  ],
+  "evidence": [
+    {
+      "type": "issue",
+      "url": "https://github.com/WittmannF/gnewsbr/issues/37"
+    },
+    {
+      "type": "ranking_issue",
+      "url": "https://github.com/WittmannF/gnewsbr/issues/38"
+    }
+  ],
+  "branch": "work/gnewsbr-ai-diagnostic-program",
+  "diagnostic_workflow": null,
+  "diagnostic_harness": null,
+  "blockers": [],
+  "pending_actions": [
+    "Create isolated diagnostic harness with replay fixtures and metrics",
+    "Add branch-only diagnostic workflow",
+    "Validate workflow syntax and isolation before any paid test"
+  ],
+  "updated_at": "2026-11-05T23:39:14Z"
+}
