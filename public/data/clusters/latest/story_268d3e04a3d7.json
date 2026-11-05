@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5ejlXbkVoRXJpS2k1Q2ZCbTBpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5ejlXbkVoRXJpS2k1Q2ZCbTBpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 64
+      "topic-5": 60,
+      "topic-7": 26
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 64,
-    "bestSeedRank": 64,
+    "firstSeenRank": 60,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/04/17938023166aeb404ca0cbd_1793802316_3x2_xl.jpg",
   "publishedAt": "2026-11-03T17:58:21+00:00",
-  "updatedAt": "2026-11-04T23:25:18.111035+00:00",
-  "sourceCount": 6,
-  "articleCount": 6,
+  "updatedAt": "2026-11-05T00:47:48.367630+00:00",
+  "sourceCount": 7,
+  "articleCount": 7,
   "articles": [
     {
       "id": "article_4131a1667f6c",
@@ -72,7 +75,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-04T20:03:15+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/11/0706038_02.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -118,6 +121,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_51a1bb37f8d0",
+      "title": "Cientistas britânicos observam mundo minúsculo do 'zeptoverse' após busca de 42 anos",
+      "description": "Pesquisadores do Cern registraram um evento raríssimo na física de partículas, abrindo caminho para descobrir novas partículas em escalas .",
+      "url": "https://www.bra1.com.br/tecnologia/id-720569/cientistas_britanicos_observam_mundo_minusculo_do_e_39zeptoversee_39_apos_busca_de_42_anos",
+      "source": "www.bra1.com.br",
+      "sourceCanonical": "www.bra1.com.br",
+      "sourceDomain": "bra1.com.br",
+      "publishedAt": "2026-11-04T23:17:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
@@ -125,23 +142,24 @@
     "max": 7,
     "average": 5.25,
     "knownCount": 4,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 69
+    "confidence": 71
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
