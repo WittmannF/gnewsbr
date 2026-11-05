@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pQcWFtb0VoRVczZ2ZUbU5jdWxDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pQcWFtb0VoRVczZ2ZUbU5jdWxDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 5,
-      "topic-5": 10
+      "topic-5": 12
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Eleições nos EUA: brasileira eleita deputada começou no país como babá",
   "summary": "Sete brasileiros saíram vencedores das eleições de meio de mandato dos Estados Unidos e irão atuar como deputados estaduais em quatro...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "eua",
     "brasileiros",
-    "eleito",
-    "deputado",
     "eleitos",
-    "trump"
+    "eleito",
+    "flórida",
+    "deputado"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/WoKdv8a1sRO63ND8HQmquMX6Hx8=/4096x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/1/tuR7pJR96BOwskcAL8Eg/saveclip.app-886769613-17913621642561876-6509255506395107578-n.jpg",
-  "publishedAt": "2026-11-04T10:44:37+00:00",
-  "updatedAt": "2026-11-05T08:24:20.264081+00:00",
+  "publishedAt": "2026-11-04T11:54:16+00:00",
+  "updatedAt": "2026-11-05T09:20:07.849976+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -61,24 +67,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-05T03:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/a8IrjewT2w7HCB_1llG65zijpM8=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/r/VaB4FBRvS4BILO7yHVKQ/montagem-horizontal-1200px-20-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_005687c6074c",
-      "title": "Brasileiro eleito na Flórida diz que Trump ajuda quem foge da Justiça e deporta domésticas",
-      "description": "Filho de cearense, Felipe Sousa-Lazaballet aponta incoerências na política anti-imigrantes dos EUA. Entrevista. 5 de novembro de 2026.",
-      "url": "https://apublica.org/2026/11/felipe-sousa-lazaballet-brasileiro-eleito-pela-florida-critica-trump/",
-      "source": "Agência Pública",
-      "sourceCanonical": "Agência Pública",
-      "sourceDomain": "apublica.org",
-      "publishedAt": "2026-11-05T07:06:05+00:00",
+      "id": "article_a2cc55f38b81",
+      "title": "Filho de diarista, brasileiro eleito na Flórida vendia bolos na escola para comprar material de estudo",
+      "description": "Felipe Sousa-Lazaballet saiu da Baixada Fluminense sem falar inglês e sem documentação migratória; quase 25 anos depois, foi eleito deputado...",
+      "url": "https://oglobo.globo.com/rio/noticia/2026/11/05/filho-de-diarista-brasileiro-eleito-na-florida-vendia-bolos-na-escola-para-comprar-material-de-estudo.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-11-05T08:30:00+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://s2-oglobo.glbimg.com/zcThClB8lQJ8zwUOGXwdLp34W0s=/1100x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/1/BBlzw9S2O0M8EiI7Y4AA/arte-2026-11-04t101013.210.png",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_b19d51d9475a",
@@ -95,34 +101,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_a68e65bcf3dc",
-      "title": "Três brasileiros são reeleitos deputados estaduais em Massachusetts nos EUA",
-      "description": "Priscila Sousa, Rita Mendes e Danillo Sena, todos do Partido Democrata, garantiram novos mandatos sem enfrentar adversários nas cédulas.",
-      "url": "https://jovempan.com.br/colunistas/eliseu-caetano/tres-brasileiros-sao-reeleitos-deputados-estaduais-em-massachusetts-nos-eua/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-11-04T10:44:37+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/Padrao-Site-1.jpg?w=1000&h=600&crop=1",
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
-      "id": "article_ca4b56b6a82b",
-      "title": "Brasileiro eleito deputado nos EUA vendia bolos na escola e, ainda menino, cobrava prefeito de Duque de Caxias",
-      "description": "Filho de uma diarista, Felipe Sousa-Lazaballet saiu da Baixada Fluminense sem falar inglês e sem documentação migratória; quase 25 anos...",
-      "url": "https://oglobo.globo.com/rio/noticia/2026/11/05/de-uma-casa-sem-piso-em-duque-de-caxias-ao-parlamento-da-florida-a-trajetoria-do-brasileiro-que-chegou-aos-eua-aos-14-anos.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-11-05T07:00:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_5e78c13fe306",
       "title": "Sistema de imigração quebrou, diz deputada brasileira reeleita nos EUA",
       "description": "Rita Mendes, deputada reeleita em Massachusetts, fala sobre direitos de imigrantes e o resultado das midterms nos EUA ao CNN Prime Time. Da...",
@@ -131,24 +109,38 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-05T02:49:02+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_f4de4326a1d4",
-      "title": "Sete brasileiros são eleitos para assembleias estaduais nos EUA",
-      "description": "Candidatos venceram a disputa para deputados em assembleias locais de quatro estados: Massachusetts, Florida, Nevada e Connecticut.",
-      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/sete-brasileiros-sao-eleitos-para-assembleias-estaduais-nos-eua",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-04T22:30:00+00:00",
+      "id": "article_005687c6074c",
+      "title": "Brasileiro eleito na Flórida diz que Trump ajuda quem foge da Justiça e deporta domésticas",
+      "description": "Filho de cearense, Felipe Sousa-Lazaballet aponta incoerências na política anti-imigrantes dos EUA. Entrevista. 5 de novembro de 2026.",
+      "url": "https://apublica.org/2026/11/felipe-sousa-lazaballet-brasileiro-eleito-pela-florida-critica-trump/",
+      "source": "Agência Pública",
+      "sourceCanonical": "Agência Pública",
+      "sourceDomain": "apublica.org",
+      "publishedAt": "2026-11-05T07:06:05+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_90222cb74ca4",
+      "title": "Veja quem são os brasileiros eleitos nos EUA",
+      "description": "Danillo Sena, Elaine Marzola, Farley Santos, Felipe Sousa Lazaballet, Lorena Betts, Priscila Sousa e Rita Mendes conquistaram assentos nas...",
+      "url": "https://jovempan.com.br/mundo/veja-quem-sao-os-brasileiros-eleitos-nos-eua/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-11-05T00:01:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_b98f1313fcad",
@@ -165,18 +157,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_0e291441acca",
-      "title": "Quem são os brasileiros eleitos pelo Partido Democrata nos EUA",
-      "description": "Felipe Sousa-Lazaballet conquistou cadeira inédita no Legislativo da Flórida; outros quatro brasileiros foram reeleitos em Massachusetts e...",
-      "url": "https://veja.abril.com.br/mundo/quem-sao-os-brasileiros-eleitos-pelo-partido-democrata-nos-eua/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-04T13:32:55+00:00",
+      "id": "article_f4de4326a1d4",
+      "title": "Sete brasileiros são eleitos para assembleias estaduais nos EUA",
+      "description": "Candidatos venceram a disputa para deputados em assembleias locais de quatro estados: Massachusetts, Florida, Nevada e Connecticut.",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/sete-brasileiros-sao-eleitos-para-assembleias-estaduais-nos-eua",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-11-04T22:30:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_46f67115deb8",
@@ -193,18 +185,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_227c45273c35",
-      "title": "Sete brasileiros são eleitos ou reeleitos nos EUA; veja quem são",
-      "description": "Os eleitos vão representar quatro estados norte-americanos: Flórida, Massachusetts, Connecticut e Nevada.",
-      "url": "https://www.cartacapital.com.br/mundo/sete-brasileiros-sao-eleitos-ou-reeleitos-nos-eua-veja-quem-sao/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-11-04T20:18:00+00:00",
+      "id": "article_0e291441acca",
+      "title": "Quem são os brasileiros eleitos pelo Partido Democrata nos EUA",
+      "description": "Felipe Sousa-Lazaballet conquistou cadeira inédita no Legislativo da Flórida; outros quatro brasileiros foram reeleitos em Massachusetts e...",
+      "url": "https://veja.abril.com.br/mundo/quem-sao-os-brasileiros-eleitos-pelo-partido-democrata-nos-eua/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-04T13:32:55+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_ea1b82cc1e5a",
@@ -219,6 +211,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_227c45273c35",
+      "title": "Sete brasileiros são eleitos ou reeleitos nos EUA; veja quem são",
+      "description": "Os eleitos vão representar quatro estados norte-americanos: Flórida, Massachusetts, Connecticut e Nevada.",
+      "url": "https://www.cartacapital.com.br/mundo/sete-brasileiros-sao-eleitos-ou-reeleitos-nos-eua-veja-quem-sao/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-11-04T20:18:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_4195872be582",
@@ -305,30 +311,30 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_eed1c932482e",
-      "title": "Brasileiros conquistam sete cadeiras em assembleias legislativas dos EUA",
-      "description": "Todos os eleitos são do Partido Democrata e ocuparão cargos em quatro estados. Massachusetts concentra quatro representantes de origem...",
-      "url": "https://www.brasil247.com/mundo/brasileiros-conquistam-sete-cadeiras-em-assembleias-legislativas-dos-eua/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-11-04T19:36:21+00:00",
+      "id": "article_bf1eb3398c16",
+      "title": "Duas mineiras são reeleitas deputadas estaduais nos EUA; saiba quem são",
+      "description": "Belo Horizonte – As mineiras Rita Mendes e Priscila Sousa foram reeleitas para a Câmara dos Representantes estaduais do estado de...",
+      "url": "https://www.metropoles.com/minas-gerais/duas-mineiras-sao-reeleitas-deputadas-estaduais-nos-eua-saiba-quem-sao",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-04T13:44:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 9,
-    "average": 5.24,
+    "average": 5.47,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 2,
-      "center": 9,
+      "center": 10,
       "centerRight": 3,
       "right": 1,
       "unknown": 3
@@ -337,7 +343,7 @@
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 94,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
