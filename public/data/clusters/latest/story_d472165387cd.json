@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o4OElTb0VoRlJ0cUpoZXJWVHJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o4OElTb0VoRlJ0cUpoZXJWVHJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 14
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 12
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "EUA: James Talarico brinca com gíria brasileira em post antigo e viraliza com logo de ONG: 'Não vou roubar sua garota'",
   "summary": "James Talarico, senador eleito no Texas, viraliza entre brasileiros ao comentar o significado de seu sobrenome e a coincidência da sigla PT...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/aMPEJ4c2-ZQh_IdnLO89ZtZjOGo=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/V/daZyflQTmLT7PWZp2PTA/montagem-horizontal-1280x720px-6-.jpg",
   "publishedAt": "2026-11-04T04:13:00+00:00",
-  "updatedAt": "2026-11-05T01:26:40.118607+00:00",
+  "updatedAt": "2026-11-05T02:22:44.647131+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -114,7 +120,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-05T00:55:00+00:00",
-      "postedLabel": "31 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -218,20 +224,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_e84e6db2b3fc",
-      "title": "Talarico manda recado a Musk: 'O Texas não está à venda'",
-      "description": "Declaração veio após bilionário investir mais de US$ 150 milhões para apoiar Ken Paxton, derrotado pelo democrata na disputa pelo Senado.",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/talarico-manda-recado-a-musk-o-texas-nao-esta-a-venda",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-04T23:43:41+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_22f70f355774",
       "title": "\"Não vou roubar sua garota\": internet resgata interação de James Talarico com brasileiros",
       "description": "Parlamentar venceu com 55,07% dos votos e é o primeiro democrata no Senado do Texas desde 1988.",
@@ -241,6 +233,34 @@
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-11-04T18:53:48+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e84e6db2b3fc",
+      "title": "Talarico manda recado a Musk: 'O Texas não está à venda'",
+      "description": "Declaração veio após bilionário investir mais de US$ 150 milhões para apoiar Ken Paxton, derrotado pelo democrata na disputa pelo Senado.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/talarico-manda-recado-a-musk-o-texas-nao-esta-a-venda",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-04T23:43:41+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_971dafb8f558",
+      "title": "Texas, símbolo do conservadorismo nos EUA, protagoniza virada histórica dos democratas",
+      "description": "Insatisfação com o custo de vida e políticas migratórias do governo Trump contribuíram para resultado em estado tradicionalmente...",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/11/1269279-texas-simbolo-do-conservadorismo-nos-eua-protagoniza-virada-historica-dos-democratas.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-11-04T23:46:06+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -260,6 +280,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_2c4dcf4312fe",
+      "title": "James Talarico fez história ao ser eleito senador pelo Texas após um jejum de quase 40 anos dos democratas no estado. No entanto, o político já havia viralizado entre os brasileiros em 2020 por causa de seu sobrenome um tanto... curioso 😂 Ao descobrir o",
+      "description": "",
+      "url": "https://www.instagram.com/p/DfVJUNQIPzN/",
+      "source": "Instagram",
+      "sourceCanonical": "Instagram",
+      "sourceDomain": "instagram.com",
+      "publishedAt": "2026-11-05T00:55:15+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_490ac9caf89c",
       "title": "PT no Texas? Organização progressista usa estrela e sigla semelhantes às do partido brasileiro",
       "description": "Internacional. PT no Texas? Organização progressista usa estrela e sigla semelhantes às do partido brasileiro. Fundado em 2010, Progress...",
@@ -269,34 +303,6 @@
       "sourceDomain": "transmissaopolitica.com.br",
       "publishedAt": "2026-11-04T12:53:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_971dafb8f558",
-      "title": "Texas, símbolo do conservadorismo nos EUA, protagoniza virada histórica dos democratas",
-      "description": "Insatisfação com o custo de vida e políticas migratórias do governo Trump contribuíram para resultado em estado tradicionalmente...",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/11/1269279-texas-simbolo-do-conservadorismo-nos-eua-protagoniza-virada-historica-dos-democratas.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-11-04T23:46:06+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_2c4dcf4312fe",
-      "title": "James Talarico fez história ao ser eleito senador pelo Texas após um jejum de quase 40 anos dos democratas no estado. No entanto, o político já havia viralizado entre os brasileiros em 2020 por causa de seu sobrenome um tanto... curioso 😂 Ao descobrir o",
-      "description": "",
-      "url": "https://www.instagram.com/p/DfVJUNQIPzN/",
-      "source": "Instagram",
-      "sourceCanonical": "Instagram",
-      "sourceDomain": "instagram.com",
-      "publishedAt": "2026-11-05T00:55:15+00:00",
-      "postedLabel": "31 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
