@@ -47,6 +47,8 @@ jobs:
           assert Path('scripts/summarize_home.py').exists()
           print('diagnostic workflow isolated from production cache, ledger, and deployment')
           PY
+      - name: Historical recovery safety and provenance tests (offline)
+        run: python -m unittest discover -s engineering -p 'test_recover_historical_inputs.py' -v
       - name: Recover historical inputs from immutable commits (offline)
         run: python engineering/recover_historical_inputs.py --output /tmp/gnewsbr-replay-inputs.json
       - name: Upload historical replay inputs (diagnostic artifact)
