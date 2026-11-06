@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvNDRlVEVoR1hwajJibjJLcldDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvNDRlVEVoR1hwajJibjJLcldDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 26,
+      "home": 2,
+      "topstories": 2,
+      "topic-5": 25,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 26,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Trump • EUA",
   "summary": "Se o governo do presidente republicano dos Estados Unidos, Donald Trump, deverá encontrar obstáculos institucionais mais robustos para...",
@@ -28,13 +34,13 @@
     "trump",
     "eua",
     "eleições",
-    "derrota",
     "vitória",
-    "democrata"
+    "democrata",
+    "derrota"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/43d6/live/5ca66210-d913-11f1-a81d-35e942472442.jpg",
   "publishedAt": "2026-11-04T12:25:56+00:00",
-  "updatedAt": "2026-11-06T04:26:15.188420+00:00",
+  "updatedAt": "2026-11-06T05:18:02.006544+00:00",
   "sourceCount": 16,
   "articleCount": 20,
   "articles": [
@@ -81,18 +87,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_9e5badd35de8",
-      "title": "PT saúda vitória do Partido Democrata e de parlamentares progressistas nos EUA",
-      "description": "Nota do partido sobre eleições de meio de mandato diz que nova correlação de forças no Congresso será contrapeso para políticas de Trump na...",
-      "url": "https://pt.org.br/pt-sauda-vitoria-do-partido-democrata-e-de-parlamentares-progressistas-nos-eua/",
-      "source": "Partido dos Trabalhadores",
-      "sourceCanonical": "Partido dos Trabalhadores",
-      "sourceDomain": "pt.org.br",
-      "publishedAt": "2026-11-05T17:55:00+00:00",
+      "id": "article_e2c30880b18a",
+      "title": "O que pode mudar na América Latina diante do novo equilíbrio de poder no Congresso dos EUA",
+      "description": "Maioria democrata no Congresso americano poderá fiscalizar decisões de Trump e exercer pressão, mas há limitações para uma mudança de rumo na política...",
+      "url": "https://www.dw.com/pt-br/o-que-pode-mudar-na-am%C3%A9rica-latina-diante-do-novo-equil%C3%ADbrio-de-poder-no-congresso-dos-eua/a-79862458",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-11-05T11:06:38+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "imageUrl": "https://static.dw.com/image/79859193_6.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_59234837a06d",
@@ -104,7 +110,7 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-05T15:00:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ZIYDZ33JRRB3TB3VSZWTXKPMXU.jpg?quality=80&auth=c27792d19697d59745699041a3fc0deb22880d9c82b7c18fae3b4a483ff97b09&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
@@ -235,6 +241,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_9e5badd35de8",
+      "title": "PT saúda vitória do Partido Democrata e de parlamentares progressistas nos EUA",
+      "description": "Nota do partido sobre eleições de meio de mandato diz que nova correlação de forças no Congresso será contrapeso para políticas de Trump na...",
+      "url": "https://pt.org.br/pt-sauda-vitoria-do-partido-democrata-e-de-parlamentares-progressistas-nos-eua/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-11-05T17:55:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_720a7d2f7697",
       "title": "Democratas conquistam mais quatro cadeiras e ampliam vantagem na Câmara dos EUA",
       "description": "Com 247 representantes eleitos até o momento, partido consolida avanço nas eleições de meio de mandato.",
@@ -247,20 +267,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_e2c30880b18a",
-      "title": "O que pode mudar na América Latina diante do novo equilíbrio de poder no Congresso dos EUA",
-      "description": "Maioria democrata no Congresso americano poderá fiscalizar decisões de Trump e exercer pressão, mas há limitações para uma mudança de rumo na política...",
-      "url": "https://www.dw.com/pt-br/o-que-pode-mudar-na-am%C3%A9rica-latina-diante-do-novo-equil%C3%ADbrio-de-poder-no-congresso-dos-eua/a-79862458",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-11-05T11:06:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_1546273c8117",
@@ -305,39 +311,39 @@
       "bucket": "center"
     },
     {
-      "id": "article_2648cb558361",
-      "title": "Vance se afasta, investigações: a nova realidade de Trump após derrota nas eleições",
-      "description": "Presidente se depara com um cenário político radicalmente diferente daquele que vivenciou desde janeiro de 2025, quando assumiu seu segundo...",
-      "url": "https://jovempan.com.br/mundo/vance-se-afasta-investigacoes-a-nova-realidade-de-trump-apos-derrota-nas-eleicoes/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-11-05T16:09:49+00:00",
+      "id": "article_c634582209be",
+      "title": "Todos os erros do presidente",
+      "description": "Tsunami democrata foi ampliado por apostas erradas de Donald Trump, que pode deixar família Bolsonaro em segundo plano.",
+      "url": "https://apublica.org/2026/11/donald-trump-todos-os-erros-do-presidente/",
+      "source": "Agência Pública",
+      "sourceCanonical": "Agência Pública",
+      "sourceDomain": "apublica.org",
+      "publishedAt": "2026-11-05T20:42:46+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.26,
-    "knownCount": 19,
-    "unknownCount": 1,
+    "max": 8,
+    "average": 5.06,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 6,
       "center": 8,
       "centerRight": 3,
-      "right": 1,
-      "unknown": 1
+      "right": 0,
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
