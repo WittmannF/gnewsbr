@@ -12,9 +12,10 @@
   "diagnostic_spend_usd_confirmed": 0,
   "diagnostic_spend_status": "NOT_STARTED",
   "confirmed_facts": [
-    "2026-11-05 ledger: 15 reservations, 8 success, 7 ValidationError",
+    "2026-11-05 ledger (entire day): 25 reservations, 12 succeeded and 13 failed ValidationError across two batches; first batch 15 requests: 8 succeeded, 7 failed",
     "Existing Brief summary min_length=40 max_length=1700 and max_tokens=550",
-    "Historical raw failed responses not available in ledger"
+    "Historical raw failed responses not available in ledger",
+    "CI run 42137785848 failed due to missing requests dependency in isolated runner (ModuleNotFoundError), not because of a Pydantic contract assertion"
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -43,24 +44,30 @@
     {
       "type": "ci",
       "url": "https://github.com/WittmannF/gnewsbr/actions/runs/42137785848",
-      "result": "queued at inspection",
-      "scope": "offline production Brief contract regression"
+      "result": "failure",
+      "scope": "offline production Brief contract regression",
+      "cause": "ModuleNotFoundError: requests"
     },
     {
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/26daca913b03276f9c07c8c97287d86b465620a6"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/df7bb543edab050be40b4b4c623a2c81d3c19faa",
+      "scope": "Install minimal production schema dependencies in diagnostic workflow"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
   "diagnostic_workflow": ".github/workflows/ai-summary-diagnostics.yml",
   "diagnostic_harness": "engineering/diagnose_brief_contract.py",
   "blockers": [
-    "No historical raw failed responses; replay can only use original inputs, not reproduce identical completions"
+    "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit"
   ],
   "pending_actions": [
-    "Verify CI run 42137785848 passed at commit 26daca9; inspect logs if failed",
-    "Collect original failed cluster IDs and source inputs from historical ledger/snapshots without modifying production",
-    "Build deterministic offline replay fixtures and budget-gated model comparison harness; do not run paid experiments before validated preflight"
+    "Verify CI on commit df7bb54 (fix for missing requests); inspect logs and only mark DIAGNOSTIC_SETUP passed after success",
+    "Collect original 13 failed and 12 successful cluster IDs from two ledger batches on 2026-11-05; locate historical snapshots by commit rather than current latest",
+    "Build deterministic offline replay fixtures and budget-gated live model comparison harness after successful preflight"
   ],
-  "updated_at": "2026-11-06T00:34:30Z"
+  "updated_at": "2026-11-06T01:36:53Z"
 }
