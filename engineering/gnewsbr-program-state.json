@@ -28,7 +28,8 @@
     "Iteration 11 security review: isolated workflow previously uploaded raw historical article replay inputs as a GitHub Actions artifact; removed that upload in commit e1478b37342f3dfca8ce74535fa1570a259e578d. Aggregate audit artifact remains. New CI result not yet verified.",
     "Iteration 12: audit previously checked only ID count/uniqueness, allowing substituted cluster IDs or incorrect historical outcome labels to pass. Added canonical manifest cross-check for exact ID set and recovered outcomes; CI at new head not yet verified.",
     "Iteration 13: added offline response-envelope analysis of finish_reason, precise Pydantic errors, token usage and actual usage.cost; explicitly treats absent usage.cost as unknown, not reserved $0.01. Three offline self-test cases added to isolated CI; latest CI result unverified.",
-    "Iteration 14 code inspection: historical recovery previously replayed every detail article without production sources_for URL/domain filtering, 5-source cap, or minimum 2 distinct sources; comparisons would not reproduce production inputs. Recovery now uses production sources_for and rejects ineligible clusters; CI and new coverage unverified."
+    "Iteration 14 code inspection: historical recovery previously replayed every detail article without production sources_for URL/domain filtering, 5-source cap, or minimum 2 distinct sources; comparisons would not reproduce production inputs. Recovery now uses production sources_for and rejects ineligible clusters; CI and new coverage unverified.",
+    "Iteration 15: sanitized replay audit now stratifies missing historical inputs by failed/succeeded outcome to expose selection bias; code and deterministic test committed, latest CI not verified."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -167,6 +168,16 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/e40b4bbf8429e978d745874d1d73778b4e61cca7",
       "scope": "source selection regression tests"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/8a358263399de12c381003a1e7054934cec17fba",
+      "scope": "missing historical outcomes audit"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/4b991ee42b496d219c3bcb7b21b8fcb53303c3c8",
+      "scope": "selection bias regression test"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -176,8 +187,8 @@
     "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit"
   ],
   "pending_actions": [
-    "Verify CI for e40b4bbf8429e978d745874d1d73778b4e61cca7 and inspect sanitized replay audit; recovered eligible count may be lower than 14.",
-    "Build and execute budget-capped live comparison only on production-eligible inputs; no production writes."
+    "Verify CI for 4b991ee42b496d219c3bcb7b21b8fcb53303c3c8 and inspect sanitized missing_outcomes/recovered_outcomes; do not treat recovered cases as representative without stratification.",
+    "Proceed with bounded live comparisons on eligible recovered inputs, without production writes; preserve budget and causal caveats."
   ],
-  "updated_at": "2026-11-06T11:30:00Z"
+  "updated_at": "2026-11-06"
 }
