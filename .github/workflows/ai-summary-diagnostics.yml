@@ -54,7 +54,7 @@ jobs:
       - name: Recover historical inputs from immutable commits (offline)
         run: python engineering/recover_historical_inputs.py --output /tmp/gnewsbr-replay-inputs.json
       - name: Audit recovered inputs and provenance (offline)
-        run: python engineering/audit_replay_coverage.py --input /tmp/gnewsbr-replay-inputs.json --output /tmp/gnewsbr-replay-audit.json
+        run: python engineering/audit_replay_coverage.py --input /tmp/gnewsbr-replay-inputs.json --output /tmp/gnewsbr-replay-audit.json --manifest engineering/fixtures/2026-11-05-cluster-replay-manifest.json
       - name: Upload replay audit (no article text)
         uses: actions/upload-artifact@v4
         with:
