@@ -30,7 +30,8 @@
     "Iteration 13: added offline response-envelope analysis of finish_reason, precise Pydantic errors, token usage and actual usage.cost; explicitly treats absent usage.cost as unknown, not reserved $0.01. Three offline self-test cases added to isolated CI; latest CI result unverified.",
     "Iteration 14 code inspection: historical recovery previously replayed every detail article without production sources_for URL/domain filtering, 5-source cap, or minimum 2 distinct sources; comparisons would not reproduce production inputs. Recovery now uses production sources_for and rejects ineligible clusters; CI and new coverage unverified.",
     "Iteration 15: sanitized replay audit now stratifies missing historical inputs by failed/succeeded outcome to expose selection bias; code and deterministic test committed, latest CI not verified.",
-    "Iteration 16: added opt-in paired OpenRouter comparison runner for one historically failed and one succeeded recovered input across JSON_SCHEMA 550/2048/4096 (six calls maximum); sanitized metadata only, no production writes. Not executed; $0 confirmed; actual provider cost may exceed $0.01 per-call reservation, so this is not yet an enforceable spend ceiling."
+    "Iteration 16: added opt-in paired OpenRouter comparison runner for one historically failed and one succeeded recovered input across JSON_SCHEMA 550/2048/4096 (six calls maximum); sanitized metadata only, no production writes. Not executed; $0 confirmed; actual provider cost may exceed $0.01 per-call reservation, so this is not yet an enforceable spend ceiling.",
+    "Iteration 17: opt-in comparator now rejects live calls without explicit provider-side cap attestation and halts after first response without numeric actual usage.cost; offline regression tests added to isolated workflow. CI not verified. Attestation alone does not prove provider cap or guarantee US$5."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -184,17 +185,29 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/b2ff9ad4e22ffe2f17fa1c0c90d67d05d4d1eec1",
       "scope": "paired opt-in comparison runner, untested"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/17d1c16b11e037f82d5ce27ea5fa7ddaa818ed81",
+      "scope": "cost fail-closed gate"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/90d4480b2d29ced8b4c29f4d0d41855d722f4532",
+      "scope": "offline CI cost tests"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
   "diagnostic_workflow": ".github/workflows/ai-summary-diagnostics.yml",
   "diagnostic_harness": "engineering/diagnose_brief_contract.py",
   "blockers": [
-    "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit"
+    "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit",
+    "No independently verified provider-side hard budget cap or current CI result; live comparison remains blocked."
   ],
   "pending_actions": [
-    "Add enforced provider budget/preflight and offline tests for comparison runner before live execution; $0.01 reserve per call is NOT a hard actual-cost limit.",
-    "Verify CI for current head, run dry-run with recovered inputs, then bounded paid comparison only after cost safety verified."
+    "Verify CI at latest head; inspect recovered eligible cases and dry-run comparator.",
+    "Before paid replay, verify OpenRouter provider-side hard cap and implement stronger remaining-budget reconciliation; operator attestation is not independent verification.",
+    "Run paired JSON Schema and Instructor experiments under confirmed cap; do not modify production."
   ],
   "updated_at": "2026-11-06"
 }
