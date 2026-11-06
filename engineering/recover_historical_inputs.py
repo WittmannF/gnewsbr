@@ -11,6 +11,9 @@ import json
 import subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "engineering/fixtures/2026-11-05-cluster-replay-manifest.json"
@@ -100,13 +103,12 @@ def recover(manifest: dict):
             missing.append({"cluster_id": cid, "reason": "detail_not_in_commit", "ref": ref})
             continue
         articles = detail.get("articles", [])
-        sources = [
-            {"source": a.get("source", ""), "title": a.get("title", ""),
-             "description": a.get("description", "")}
-            for a in articles
-        ]
-        if not sources:
-            missing.append({"cluster_id": cid, "reason": "no_articles", "ref": ref})
+        # Replay the exact production selection policy, not every article in
+        # the detail file. Otherwise provider comparisons use different inputs.
+        from scripts.summarize_home import sources_for
+        sources = sources_for(detail)
+        if len(sources) < 2:
+            missing.append({"cluster_id": cid, "reason": "insufficient_distinct_sources", "ref": ref})
             continue
         recovered.append({
             "cluster_id": cid, "historical_outcome": entry["outcome"],
