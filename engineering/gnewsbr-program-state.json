@@ -17,7 +17,8 @@
     "Historical raw failed responses not available in ledger",
     "CI run 42137785848 failed due to missing requests dependency in isolated runner (ModuleNotFoundError), not because of a Pydantic contract assertion",
     "Isolated diagnostic CI passed on 2026-11-06 for head SHA 3d82cb7; offline six-case production Brief contract tests passed",
-    "2026-11-05 historical ledger yields 25 unique cluster IDs: 12 failed and 13 succeeded; manifest preserves IDs/outcomes only, not source content or raw completions"
+    "2026-11-05 historical ledger yields 25 unique cluster IDs: 12 failed and 13 succeeded; manifest preserves IDs/outcomes only, not source content or raw completions",
+    "Recovered immutable pre-inference collection commit SHAs: 2026-11-05 11:35 batch uses aff04e195cef4c17ab8e56bbbdd981f480f51bfe; 17:35 batch uses be66cf5d18a9451cb9fed8c0886fc3c9a1db92e0. At those exact snapshots, 8/15 and 6/10 manifest IDs occur in latest.json (14/25 total); other 11 require broader historical search or cannot be reconstructed from those snapshots."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -69,6 +70,16 @@
       "type": "fixture",
       "url": "https://github.com/WittmannF/gnewsbr/blob/work/gnewsbr-ai-diagnostic-program/engineering/fixtures/2026-11-05-cluster-replay-manifest.json",
       "scope": "25 historical cluster IDs and outcomes"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/9bea2abe2bf786591bd403bd5cbceec59692b749",
+      "scope": "read-only historical input recovery script"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/56def235ae8862baa74f32e6517efb1a3d2b11ea",
+      "scope": "offline CI recovery with full Git history and artifact"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -76,12 +87,12 @@
   "diagnostic_harness": "engineering/diagnose_brief_contract.py",
   "blockers": [
     "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit",
-    "Historical source payloads not yet recovered; manifest alone is insufficient for equivalent replay"
+    "Historical input recovery code committed but workflow result not yet verified; 11/25 IDs absent from their corresponding pre-inference latest.json snapshots."
   ],
   "pending_actions": [
-    "Locate historical cluster input snapshots at relevant 2026-11-05 commits; do not substitute current latest silently",
-    "Implement offline fixture extraction and paid diagnostic matrix with provider usage/cost, schema errors, token limits and strict <=$5 budget guard",
-    "Only execute paid experiments after independent safety check of workflow permissions and budget enforcement"
+    "Verify offline historical recovery workflow CI and artifact, inspect whether 14 matching IDs have detail payloads",
+    "Search neighboring collection commits for 11 missing cluster IDs; label provenance accurately and do not substitute newer content silently",
+    "Build controlled comparative LLM harness only after validating recovered inputs, safety and <=US$5 budget enforcement"
   ],
-  "updated_at": "2026-11-06T02:32:00Z"
+  "updated_at": "2026-11-06T03:31:00Z"
 }
