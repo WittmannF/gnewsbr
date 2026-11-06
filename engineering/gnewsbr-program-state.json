@@ -36,7 +36,8 @@
     "Iteration 19 code inspection: comparator accepted NaN/Infinity as unknown and stopped, but its final aggregate recomputed a sum from raw numeric records, allowing NaN/Infinity in actual_cost_usd_known. Now invalid provider cost is normalized to null and known total uses validated accumulator; regression assertion added. CI not verified.",
     "Iteration 20: paired comparator previously selected the first historical failure/success before checking source eligibility, aborting when an earlier ineligible case preceded a valid one. Now filters for >=2 sources before choosing one case per outcome; added two deterministic regression tests. Latest CI not verified.",
     "Iteration 21: paired comparator previously counted any two sources as eligible, even if required source/title/description fields were missing; request_payload would then raise KeyError before the request loop. Added complete input-shape filtering and deterministic regression test; CI at current head not verified.",
-    "Iteration 22: GitHub Actions push CI run 42281460648 succeeded on state SHA c959fb92d0cea08e0f937b9e4e63879da3112a19. Offline replay recovered 25/25 historical inputs (12 failed, 13 succeeded), 14 primary pre-inference and 11 adjacent pre-reservation; all recovered have 3-5 eligible sources. Replay equivalence to exact original request is NOT proven; original failed completions unavailable. No paid calls."
+    "Iteration 22: GitHub Actions push CI run 42281460648 succeeded on state SHA c959fb92d0cea08e0f937b9e4e63879da3112a19. Offline replay recovered 25/25 historical inputs (12 failed, 13 succeeded), 14 primary pre-inference and 11 adjacent pre-reservation; all recovered have 3-5 eligible sources. Replay equivalence to exact original request is NOT proven; original failed completions unavailable. No paid calls.",
+    "Iteration 23 inspection: paired comparator currently selects only 1 of 12 historical failures and 1 of 13 successes (6 requests total), so 25/25 recovered input coverage does not imply representative experimental coverage; Instructor modes remain absent. Live gate is a caller-provided --provider-cap-verified flag, not an independent provider-side verification. No live calls authorized on this evidence."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -259,11 +260,14 @@
   "diagnostic_harness": "engineering/diagnose_brief_contract.py",
   "blockers": [
     "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit",
-    "No independently verified provider-side hard budget cap; live comparison remains blocked."
+    "No independently verified provider-side hard budget cap; live comparison remains blocked.",
+    "Provider cap flag is manual attestation only; no independently verifiable cap or API credential available in this run. Do not enable live comparison.",
+    "Paired 2/25 replay cannot establish aggregate failure rate or factual quality; expand stratified experiment only after budget protection."
   ],
   "pending_actions": [
-    "Verify provider-side enforceable cap before paid calls; do not treat attestation as proof.",
-    "Run controlled paired comparison using recovered 25/25 historical inputs, compare modes including Instructor and produce causal report."
+    "Obtain independently verifiable OpenRouter key-level hard cap and safe diagnostic credential; do not use --provider-cap-verified without evidence.",
+    "After cap verification, run 550/2048/4096 paired comparison; expand stratified cases and Instructor JSON_SCHEMA/TOOLS when supported; record provider actual cost and blinded factual quality.",
+    "Prepare ROOT_CAUSE_REPORT only after causal evidence, otherwise explicitly separate confirmed defects from hypotheses."
   ],
   "updated_at": "2026-11-06"
 }
