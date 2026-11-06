@@ -18,7 +18,8 @@
     "CI run 42137785848 failed due to missing requests dependency in isolated runner (ModuleNotFoundError), not because of a Pydantic contract assertion",
     "Isolated diagnostic CI passed on 2026-11-06 for head SHA 3d82cb7; offline six-case production Brief contract tests passed",
     "2026-11-05 historical ledger yields 25 unique cluster IDs: 12 failed and 13 succeeded; manifest preserves IDs/outcomes only, not source content or raw completions",
-    "Recovered immutable pre-inference collection commit SHAs: 2026-11-05 11:35 batch uses aff04e195cef4c17ab8e56bbbdd981f480f51bfe; 17:35 batch uses be66cf5d18a9451cb9fed8c0886fc3c9a1db92e0. At those exact snapshots, 8/15 and 6/10 manifest IDs occur in latest.json (14/25 total); other 11 require broader historical search or cannot be reconstructed from those snapshots."
+    "Recovered immutable pre-inference collection commit SHAs: 2026-11-05 11:35 batch uses aff04e195cef4c17ab8e56bbbdd981f480f51bfe; 17:35 batch uses be66cf5d18a9451cb9fed8c0886fc3c9a1db92e0. At those exact snapshots, 8/15 and 6/10 manifest IDs occur in latest.json (14/25 total); other 11 require broader historical search or cannot be reconstructed from those snapshots.",
+    "CI run 42157153594 passed on 2026-11-06: offline historical recovery produced 14/25 full detail inputs; all 11 missing are absent_from_pre_inference_snapshot, not missing detail files. Artifact 13475227926 uploaded with 7-day retention."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -80,19 +81,30 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/56def235ae8862baa74f32e6517efb1a3d2b11ea",
       "scope": "offline CI recovery with full Git history and artifact"
+    },
+    {
+      "type": "ci",
+      "url": "https://github.com/WittmannF/gnewsbr/actions/runs/42157153594",
+      "result": "success",
+      "scope": "offline recovery and artifact upload",
+      "head_sha": "b29e543454def602a21976781f033cf6bdfd55bb"
+    },
+    {
+      "type": "artifact",
+      "url": "https://github.com/WittmannF/gnewsbr/actions/runs/42157153594/artifacts/13475227926",
+      "scope": "14 recovered historical inputs, 11 absent, 7-day retention"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
   "diagnostic_workflow": ".github/workflows/ai-summary-diagnostics.yml",
   "diagnostic_harness": "engineering/diagnose_brief_contract.py",
   "blockers": [
-    "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit",
-    "Historical input recovery code committed but workflow result not yet verified; 11/25 IDs absent from their corresponding pre-inference latest.json snapshots."
+    "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit"
   ],
   "pending_actions": [
-    "Verify offline historical recovery workflow CI and artifact, inspect whether 14 matching IDs have detail payloads",
-    "Search neighboring collection commits for 11 missing cluster IDs; label provenance accurately and do not substitute newer content silently",
-    "Build controlled comparative LLM harness only after validating recovered inputs, safety and <=US$5 budget enforcement"
+    "Search adjacent immutable collection snapshots for 11 missing cluster IDs, preserving precise provenance; do not silently substitute current news.",
+    "Add offline checks for recovered dataset completeness and output sanitization before any paid LLM comparison.",
+    "Implement bounded model comparison only after replay inputs and budget guard are verified; do not exceed $5."
   ],
-  "updated_at": "2026-11-06T03:31:00Z"
+  "updated_at": "2026-11-06T04:40:00Z"
 }
