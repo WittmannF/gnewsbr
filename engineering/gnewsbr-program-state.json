@@ -35,7 +35,8 @@
     "Iteration 18: offline comparator now rejects NaN/infinite usage.cost and stops further requests once cumulative reported actual cost reaches US$5; deterministic regression tests added. These guards do not enforce a hard per-request provider cap and CI is unverified.",
     "Iteration 19 code inspection: comparator accepted NaN/Infinity as unknown and stopped, but its final aggregate recomputed a sum from raw numeric records, allowing NaN/Infinity in actual_cost_usd_known. Now invalid provider cost is normalized to null and known total uses validated accumulator; regression assertion added. CI not verified.",
     "Iteration 20: paired comparator previously selected the first historical failure/success before checking source eligibility, aborting when an earlier ineligible case preceded a valid one. Now filters for >=2 sources before choosing one case per outcome; added two deterministic regression tests. Latest CI not verified.",
-    "Iteration 21: paired comparator previously counted any two sources as eligible, even if required source/title/description fields were missing; request_payload would then raise KeyError before the request loop. Added complete input-shape filtering and deterministic regression test; CI at current head not verified."
+    "Iteration 21: paired comparator previously counted any two sources as eligible, even if required source/title/description fields were missing; request_payload would then raise KeyError before the request loop. Added complete input-shape filtering and deterministic regression test; CI at current head not verified.",
+    "Iteration 22: GitHub Actions push CI run 42281460648 succeeded on state SHA c959fb92d0cea08e0f937b9e4e63879da3112a19. Offline replay recovered 25/25 historical inputs (12 failed, 13 succeeded), 14 primary pre-inference and 11 adjacent pre-reservation; all recovered have 3-5 eligible sources. Replay equivalence to exact original request is NOT proven; original failed completions unavailable. No paid calls."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -239,6 +240,18 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/975ce85888071e2e3f323f2433a59a94db55881d",
       "scope": "malformed input regression test"
+    },
+    {
+      "type": "ci",
+      "url": "https://github.com/WittmannF/gnewsbr/actions/runs/42281460648",
+      "result": "success",
+      "head_sha": "c959fb92d0cea08e0f937b9e4e63879da3112a19",
+      "scope": "offline tests and historical recovery 25/25"
+    },
+    {
+      "type": "artifact",
+      "url": "https://github.com/WittmannF/gnewsbr/actions/runs/42281460648/artifacts/13536090320",
+      "scope": "sanitized aggregate audit"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -246,12 +259,11 @@
   "diagnostic_harness": "engineering/diagnose_brief_contract.py",
   "blockers": [
     "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit",
-    "No independently verified provider-side hard budget cap or current CI result; live comparison remains blocked."
+    "No independently verified provider-side hard budget cap; live comparison remains blocked."
   ],
   "pending_actions": [
-    "Verify isolated CI at head including 975ce85888071e2e3f323f2433a59a94db55881d; inspect sanitized replay audit.",
     "Verify provider-side enforceable cap before paid calls; do not treat attestation as proof.",
-    "Run controlled paired comparison and produce causal report."
+    "Run controlled paired comparison using recovered 25/25 historical inputs, compare modes including Instructor and produce causal report."
   ],
   "updated_at": "2026-11-06"
 }
