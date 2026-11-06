@@ -122,6 +122,7 @@ def run(payload: dict, *, live: bool, key: str, provider_cap_verified: bool = Fa
         if (not isinstance(cost, (int, float)) or isinstance(cost, bool)
                 or not math.isfinite(cost) or cost < 0):
             record["cost_accounting_status"] = "UNKNOWN_STOPPED"
+            record["actual_cost_usd"] = None  # Invalid provider values are not known spend.
             break  # Fail closed: never equate a reservation with actual API cost.
         actual_total += float(cost)
         if actual_total >= MAX_DIAGNOSTIC_USD:
@@ -129,8 +130,7 @@ def run(payload: dict, *, live: bool, key: str, provider_cap_verified: bool = Fa
             break
     return {"mode": "live", "attempted": len(records),
             "reserved_usd": round(reserved, 4),
-            "actual_cost_usd_known": round(sum(float(x["actual_cost_usd"])
-                for x in records if isinstance(x.get("actual_cost_usd"), (int, float))), 8),
+            "actual_cost_usd_known": round(actual_total, 8),
             "actual_cost_unknown_attempts": sum(x.get("actual_cost_usd") is None for x in records),
             "results": records, "quality_review": "PENDING_HUMAN_OR_BLINDED_REVIEW"}
 
