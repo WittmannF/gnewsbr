@@ -24,7 +24,8 @@
     "Iteration 8: added six deterministic offline historical recovery tests for primary vs adjacent provenance, explicit missing inputs, invalid detail paths, bounded history command and git path safety. CI result for new test commit not yet verified.",
     "Iteration 9: code inspection found deterministic test defect: mocked git log stdout used literal backslash-n sequences instead of newline characters, so candidate_refs assertion would fail independently of historical recovery. Corrected in commit ef2d28bf85ecb9b33f5c3f5a6021071b05ea6def; latest CI result not verified.",
     "Iteration 10: GitHub commit workflow-runs connector filters to pull_request runs; returned no runs for 4403405, so push-triggered CI status cannot be established by that endpoint. Do not interpret empty result as success or failure.",
-    "Iteration 10: added offline replay audit and contract tests; audit rejects missing/duplicate IDs, unexpected provenance and empty recovered articles, summarizes outcome/provenance without printing article text. CI outcome for new head unverified."
+    "Iteration 10: added offline replay audit and contract tests; audit rejects missing/duplicate IDs, unexpected provenance and empty recovered articles, summarizes outcome/provenance without printing article text. CI outcome for new head unverified.",
+    "Iteration 11 security review: isolated workflow previously uploaded raw historical article replay inputs as a GitHub Actions artifact; removed that upload in commit e1478b37342f3dfca8ce74535fa1570a259e578d. Aggregate audit artifact remains. New CI result not yet verified."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -133,6 +134,11 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/74a6b696cd2df926839c29f9098d69912cbe6d1e",
       "scope": "CI replay audit gate; not yet verified"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/e1478b37342f3dfca8ce74535fa1570a259e578d",
+      "scope": "Stop publishing raw historical replay inputs as workflow artifacts; preserve aggregate audit"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -142,9 +148,9 @@
     "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit"
   ],
   "pending_actions": [
-    "Verify push-triggered diagnostic workflow at latest head using a GitHub Actions runs endpoint that supports push runs, then inspect job logs and gnewsbr-replay-audit artifact. Current connector only exposes PR-filtered workflow runs by commit.",
+    "Verify isolated CI at latest SHA and inspect only text-free gnewsbr-replay-audit artifact; historical raw inputs are now ephemeral and not uploaded.",
     "If CI fails, correct concrete test or recovery error; if successful, reconcile recovered/missing by historical outcome and provenance before running paid tests.",
     "Implement bounded live model comparison harness with real usage accounting and <=$5 cumulative cap, never using production ledger/cache."
   ],
-  "updated_at": "2026-11-06T08:32:00Z"
+  "updated_at": "2026-11-06T09:34:00Z"
 }
