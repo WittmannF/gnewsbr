@@ -31,6 +31,9 @@ def summarize(data: dict, manifest: dict | None = None) -> dict:
         raise ValueError("Unexpected snapshot provenance")
     outcomes = Counter(x.get("historical_outcome", "unspecified") for x in recovered)
     missing_reasons = Counter(x.get("reason", "unspecified") for x in missing)
+    missing_outcomes = Counter(expected[x["cluster_id"]] for x in missing) if manifest is not None else {}
+    if manifest is not None and sum(outcomes.values()) + sum(missing_outcomes.values()) != requested:
+        raise ValueError("Historical outcome coverage does not reconcile")
     article_counts = [len(x.get("sources", [])) for x in recovered]
     if any(n <= 0 for n in article_counts):
         raise ValueError("Recovered input without source articles")
@@ -41,6 +44,8 @@ def summarize(data: dict, manifest: dict | None = None) -> dict:
         "recovered_outcomes": dict(sorted(outcomes.items())),
         "recovered_provenance": dict(sorted(provenance.items())),
         "missing_reasons": dict(sorted(missing_reasons.items())),
+        "missing_outcomes": dict(sorted(missing_outcomes.items())),
+        "replay_selection_bias": "inspect recovered_outcomes versus missing_outcomes before causal conclusions",
         "article_count_min": min(article_counts, default=0),
         "article_count_max": max(article_counts, default=0),
         "replay_equivalence": "not_proven",
