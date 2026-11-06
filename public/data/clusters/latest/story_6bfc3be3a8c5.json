@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvNDRlVEVoR1hwajJibjJLcldDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvNDRlVEVoR1hwajJibjJLcldDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "home",
+      "topstories",
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 17
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 18,
+      "topic-7": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 17,
-    "bestSeedRank": 17,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Trump • EUA",
   "summary": "Se o governo do presidente republicano dos Estados Unidos, Donald Trump, deverá encontrar obstáculos institucionais mais robustos para...",
@@ -25,13 +34,13 @@
     "trump",
     "eua",
     "eleições",
+    "derrota",
     "vitória",
-    "democratas",
-    "derrota"
+    "democrata"
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/43d6/live/5ca66210-d913-11f1-a81d-35e942472442.jpg",
   "publishedAt": "2026-11-04T12:25:56+00:00",
-  "updatedAt": "2026-11-06T00:46:51.121053+00:00",
+  "updatedAt": "2026-11-06T01:18:58.978481+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -92,48 +101,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_63a506927fbe",
-      "title": "Apoio a democratas cresce em todos os segmentos do eleitorado americano",
-      "description": "Entre os grupos raciais, latinos lideram aumento do voto na 'onda azul', com crescimento de 28 pontos percentuais.",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/11/apoio-a-democratas-cresce-em-todos-os-segmentos-do-eleitorado-americano.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-11-05T02:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_9dca296f5763",
-      "title": "Por que os latinos abandonaram Trump e votaram nos democratas em 2026",
-      "description": "A virada ajudou o partido a retomar o controle da Câmara e do Senado, com vitórias no Texas e no Kansas, estados que não elegiam um senador...",
-      "url": "https://www.infomoney.com.br/mundo/por-que-os-latinos-abandonaram-trump-e-votaram-nos-democratas-em-2026/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-05T14:35:43+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_c2c7e8f1f84d",
-      "title": "Economia e democracia foram os temas mais importantes para americanos nas eleições, indica pesquisa",
-      "description": "Ampla pesquisa perguntou a dezenas de milhares de eleitores americanos suas opiniões e motivações, fornecendo uma análise por idade, sexo,...",
-      "url": "https://www.bbc.com/portuguese/articles/cmg4795366kdo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-11-04T12:25:56+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_cc95b7db22e1",
       "title": "Derrota de Trump enfraquece direita mundial",
       "description": "Vai ser um período difícil para o mundo, porque não se sabe qual será a reação do presidente dos EUA sem a perspectiva de poder.",
@@ -184,24 +151,52 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-05T19:07:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
-      "id": "article_86b9ea4b7a3f",
-      "title": "Democratas retomam Câmara e Senado dos EUA e conquistam vitória histórica no Texas",
-      "description": "Partido vira ao menos sete cadeiras no Senado. Fernando Brigidi, ex-integrante da equipe de Kamala Harris, analisa a derrota de Trump.",
-      "url": "https://midianinja.org/democratas-retomam-camara-e-senado-dos-eua-e-conquistam-vitoria-historica-no-texas/",
-      "source": "Mídia NINJA",
-      "sourceCanonical": "Mídia NINJA",
-      "sourceDomain": "midianinja.org",
-      "publishedAt": "2026-11-05T22:09:53+00:00",
-      "postedLabel": "2 horas atrás",
+      "id": "article_63a506927fbe",
+      "title": "Apoio a democratas cresce em todos os segmentos do eleitorado americano",
+      "description": "Entre os grupos raciais, latinos lideram aumento do voto na 'onda azul', com crescimento de 28 pontos percentuais.",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/apoio-a-democratas-cresce-em-todos-os-segmentos-do-eleitorado-americano.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-11-05T02:00:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_9dca296f5763",
+      "title": "Por que os latinos abandonaram Trump e votaram nos democratas em 2026",
+      "description": "A virada ajudou o partido a retomar o controle da Câmara e do Senado, com vitórias no Texas e no Kansas, estados que não elegiam um senador...",
+      "url": "https://www.infomoney.com.br/mundo/por-que-os-latinos-abandonaram-trump-e-votaram-nos-democratas-em-2026/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-11-05T14:35:43+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_c2c7e8f1f84d",
+      "title": "Economia e democracia foram os temas mais importantes para americanos nas eleições, indica pesquisa",
+      "description": "Ampla pesquisa perguntou a dezenas de milhares de eleitores americanos suas opiniões e motivações, fornecendo uma análise por idade, sexo,...",
+      "url": "https://www.bbc.com/portuguese/articles/cmg4795366kdo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-11-04T12:25:56+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_be0def337aa5",
@@ -314,27 +309,41 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_2648cb558361",
+      "title": "Vance se afasta, investigações: a nova realidade de Trump após derrota nas eleições",
+      "description": "Presidente se depara com um cenário político radicalmente diferente daquele que vivenciou desde janeiro de 2025, quando assumiu seu segundo...",
+      "url": "https://jovempan.com.br/mundo/vance-se-afasta-investigacoes-a-nova-realidade-de-trump-apos-derrota-nas-eleicoes/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-11-05T16:09:49+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 5.06,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "max": 9,
+    "average": 5.26,
+    "knownCount": 19,
+    "unknownCount": 1,
     "buckets": {
       "left": 1,
       "centerLeft": 6,
       "center": 8,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 2
+      "right": 1,
+      "unknown": 1
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
