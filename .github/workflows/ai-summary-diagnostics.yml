@@ -49,8 +49,18 @@ jobs:
           PY
       - name: Historical recovery safety and provenance tests (offline)
         run: python -m unittest discover -s engineering -p 'test_recover_historical_inputs.py' -v
+      - name: Offline replay audit contract tests
+        run: python -m unittest discover -s engineering -p 'test_audit_replay_coverage.py' -v
       - name: Recover historical inputs from immutable commits (offline)
         run: python engineering/recover_historical_inputs.py --output /tmp/gnewsbr-replay-inputs.json
+      - name: Audit recovered inputs and provenance (offline)
+        run: python engineering/audit_replay_coverage.py --input /tmp/gnewsbr-replay-inputs.json --output /tmp/gnewsbr-replay-audit.json
+      - name: Upload replay audit (no article text)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gnewsbr-replay-audit
+          path: /tmp/gnewsbr-replay-audit.json
+          retention-days: 7
       - name: Upload historical replay inputs (diagnostic artifact)
         uses: actions/upload-artifact@v4
         with:
