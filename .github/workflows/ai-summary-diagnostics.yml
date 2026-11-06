@@ -53,6 +53,8 @@ jobs:
         run: python -m unittest discover -s engineering -p 'test_recover_historical_inputs.py' -v
       - name: Offline replay audit contract tests
         run: python -m unittest discover -s engineering -p 'test_audit_replay_coverage.py' -v
+      - name: Offline comparison budget safety tests
+        run: python -m unittest discover -s engineering -p 'test_compare_brief_configs.py' -v
       - name: Recover historical inputs from immutable commits (offline)
         run: python engineering/recover_historical_inputs.py --output /tmp/gnewsbr-replay-inputs.json
       - name: Audit recovered inputs and provenance (offline)
