@@ -10,7 +10,7 @@ from collections import Counter
 from pathlib import Path
 
 
-def summarize(data: dict) -> dict:
+def summarize(data: dict, manifest: dict | None = None) -> dict:
     recovered = data.get("recovered", [])
     missing = data.get("missing", [])
     requested = data.get("total_requested")
@@ -19,6 +19,13 @@ def summarize(data: dict) -> dict:
         raise ValueError("total_requested must be a nonnegative integer")
     if len(ids) != requested or len(set(ids)) != len(ids):
         raise ValueError("Recovery result must partition all requested cluster IDs exactly once")
+    if manifest is not None:
+        expected = {entry["cluster_id"]: entry["outcome"] for entry in manifest["clusters"]}
+        if len(expected) != len(manifest["clusters"]) or set(ids) != set(expected):
+            raise ValueError("Recovered cluster IDs differ from canonical manifest")
+        if any(item.get("historical_outcome") != expected[item["cluster_id"]]
+               for item in recovered):
+            raise ValueError("Recovered historical outcomes differ from canonical manifest")
     provenance = Counter(x.get("snapshot_provenance", "unspecified") for x in recovered)
     if set(provenance) - {"primary_pre_inference", "adjacent_pre_reservation"}:
         raise ValueError("Unexpected snapshot provenance")
@@ -45,8 +52,10 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--manifest", type=Path, required=True)
     args = parser.parse_args()
-    summary = summarize(json.loads(args.input.read_text(encoding="utf-8")))
+    summary = summarize(json.loads(args.input.read_text(encoding="utf-8")),
+                        json.loads(args.manifest.read_text(encoding="utf-8")))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(summary, sort_keys=True))
