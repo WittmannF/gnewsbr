@@ -31,7 +31,8 @@
     "Iteration 14 code inspection: historical recovery previously replayed every detail article without production sources_for URL/domain filtering, 5-source cap, or minimum 2 distinct sources; comparisons would not reproduce production inputs. Recovery now uses production sources_for and rejects ineligible clusters; CI and new coverage unverified.",
     "Iteration 15: sanitized replay audit now stratifies missing historical inputs by failed/succeeded outcome to expose selection bias; code and deterministic test committed, latest CI not verified.",
     "Iteration 16: added opt-in paired OpenRouter comparison runner for one historically failed and one succeeded recovered input across JSON_SCHEMA 550/2048/4096 (six calls maximum); sanitized metadata only, no production writes. Not executed; $0 confirmed; actual provider cost may exceed $0.01 per-call reservation, so this is not yet an enforceable spend ceiling.",
-    "Iteration 17: opt-in comparator now rejects live calls without explicit provider-side cap attestation and halts after first response without numeric actual usage.cost; offline regression tests added to isolated workflow. CI not verified. Attestation alone does not prove provider cap or guarantee US$5."
+    "Iteration 17: opt-in comparator now rejects live calls without explicit provider-side cap attestation and halts after first response without numeric actual usage.cost; offline regression tests added to isolated workflow. CI not verified. Attestation alone does not prove provider cap or guarantee US$5.",
+    "Iteration 18: offline comparator now rejects NaN/infinite usage.cost and stops further requests once cumulative reported actual cost reaches US$5; deterministic regression tests added. These guards do not enforce a hard per-request provider cap and CI is unverified."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -195,6 +196,16 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/90d4480b2d29ced8b4c29f4d0d41855d722f4532",
       "scope": "offline CI cost tests"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/9d524306188d4009f594757f41800fce3e1f7492",
+      "scope": "finite actual-cost and cumulative stop guard"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/adcde2233c36d0c7e80a9dea80025bc15d883193",
+      "scope": "offline cost guard regression tests"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -205,9 +216,9 @@
     "No independently verified provider-side hard budget cap or current CI result; live comparison remains blocked."
   ],
   "pending_actions": [
-    "Verify CI at latest head; inspect recovered eligible cases and dry-run comparator.",
-    "Before paid replay, verify OpenRouter provider-side hard cap and implement stronger remaining-budget reconciliation; operator attestation is not independent verification.",
-    "Run paired JSON Schema and Instructor experiments under confirmed cap; do not modify production."
+    "Verify latest isolated CI on SHA adcde2233c36d0c7e80a9dea80025bc15d883193 and inspect sanitized replay audit.",
+    "Verify enforceable provider-side cap before any paid experiment; cumulative post-response checks alone cannot prevent a single request from overspending.",
+    "Run controlled paired comparison and Instructor modes only with verified budget protection."
   ],
   "updated_at": "2026-11-06"
 }
