@@ -3,25 +3,31 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvNDRlVEVoR1hwajJibjJLcldDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvNDRlVEVoR1hwajJibjJLcldDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-5",
-    "topic-7"
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 15,
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 2,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 15,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Notícias sobre Trump • EUA",
+  "title": "Nova maioria democrata afeta cenário político dos Estados Unidos",
   "summary": "Se o governo do presidente republicano dos Estados Unidos, Donald Trump, deverá encontrar obstáculos institucionais mais robustos para...",
   "topic": "Trump · Eua",
   "topicKeywords": [
@@ -34,8 +40,8 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/43d6/live/5ca66210-d913-11f1-a81d-35e942472442.jpg",
   "publishedAt": "2026-11-04T12:25:56+00:00",
-  "updatedAt": "2026-11-06T09:27:07.355033+00:00",
-  "sourceCount": 17,
+  "updatedAt": "2026-11-06T10:17:00.112428+00:00",
+  "sourceCount": 16,
   "articleCount": 20,
   "articles": [
     {
@@ -75,7 +81,7 @@
       "sourceCanonical": "Valor Econômico",
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-11-06T08:00:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-valor.glbimg.com/kK2IAsFrddE4D8_0V5P1xtqorIk=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/x/s/Qfk76wTBWVjscMEMqxPw/foto06esp-101-wolf-a20.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -193,6 +199,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_9275d94acad8",
+      "title": "‘Trump sabe que é do seu interesse cooperar’, diz analista",
+      "description": "Avanço progressista e aceno de líder a democratas antecipam articulações no novo Congresso, afirma analista Main, do CEPR.",
+      "url": "https://valor.globo.com/mundo/noticia/2026/11/06/trump-sabe-que-e-do-seu-interesse-cooperar-diz-analista.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-11-06T08:00:01+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_59234837a06d",
       "title": "Bastidores: Veja como Trump e sua equipe reagiram à derrota histórica nas eleições",
       "description": "Seis dias antes da eleição, mais de duas dezenas dos principais estrategistas do presidente Trump participaram de uma chamada de vídeo...",
@@ -303,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_c634582209be",
-      "title": "Todos os erros do presidente",
-      "description": "Tsunami democrata foi ampliado por apostas erradas de Donald Trump, que pode deixar família Bolsonaro em segundo plano.",
-      "url": "https://apublica.org/2026/11/donald-trump-todos-os-erros-do-presidente/",
-      "source": "Agência Pública",
-      "sourceCanonical": "Agência Pública",
-      "sourceDomain": "apublica.org",
-      "publishedAt": "2026-11-05T20:42:46+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.06,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.11,
+    "knownCount": 18,
+    "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 6,
-      "center": 7,
+      "center": 8,
       "centerRight": 3,
       "right": 0,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
