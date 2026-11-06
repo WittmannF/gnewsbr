@@ -26,6 +26,21 @@ class AuditTests(unittest.TestCase):
         self.assertEqual(result["replay_equivalence"], "not_proven")
         self.assertNotIn("sources", result)
 
+    def test_canonical_manifest_rejects_wrong_id_and_outcome(self):
+        manifest = {"clusters": [{"cluster_id": "a", "outcome": "failed"}]}
+        valid = {"total_requested": 1, "recovered": [
+            {"cluster_id": "a", "historical_outcome": "failed",
+             "snapshot_provenance": "primary_pre_inference", "sources": [{}]}
+        ], "missing": []}
+        self.assertEqual(summarize(valid, manifest)["recovered"], 1)
+        for field, value in (("cluster_id", "different"), ("historical_outcome", "succeeded")):
+            with self.subTest(field=field):
+                import copy
+                tampered = copy.deepcopy(valid)
+                tampered["recovered"][0][field] = value
+                with self.assertRaises(ValueError):
+                    summarize(tampered, manifest)
+
     def test_missing_or_duplicate_id_is_rejected(self):
         for missing in ([], [{"cluster_id": "a", "reason": "absent"}]):
             with self.subTest(missing=missing):
