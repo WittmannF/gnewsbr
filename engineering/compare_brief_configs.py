@@ -9,6 +9,7 @@ Only sanitized metadata is written; never upload raw input or provider responses
 from __future__ import annotations
 import argparse
 import json
+import math
 import os
 import sys
 import time
@@ -24,6 +25,7 @@ CONFIGS = (("json_schema_550", 550), ("json_schema_2048", 2048),
 RESERVATION_USD = 0.01
 MAX_CALLS = 6
 MAX_RESERVED_USD = 0.06
+MAX_DIAGNOSTIC_USD = 5.0
 
 
 def select_cases(payload: dict) -> list[dict]:
@@ -82,8 +84,10 @@ def run(payload: dict, *, live: bool, key: str, provider_cap_verified: bool = Fa
         raise ValueError("Live mode requires independent verification of a provider-side hard spend cap")
     records = []
     reserved = 0.0
+    actual_total = 0.0
     for name, limit, item in planned:
-        if reserved + RESERVATION_USD > MAX_RESERVED_USD + 1e-9:
+        if (reserved + RESERVATION_USD > MAX_RESERVED_USD + 1e-9
+                or actual_total >= MAX_DIAGNOSTIC_USD):
             break
         reserved += RESERVATION_USD  # Conservative cap, not provider's actual cost.
         start = time.monotonic()
@@ -115,9 +119,14 @@ def run(payload: dict, *, live: bool, key: str, provider_cap_verified: bool = Fa
         record["latency_ms"] = round((time.monotonic() - start) * 1000)
         records.append(record)
         cost = record.get("actual_cost_usd")
-        if not isinstance(cost, (int, float)) or isinstance(cost, bool) or cost < 0:
+        if (not isinstance(cost, (int, float)) or isinstance(cost, bool)
+                or not math.isfinite(cost) or cost < 0):
             record["cost_accounting_status"] = "UNKNOWN_STOPPED"
             break  # Fail closed: never equate a reservation with actual API cost.
+        actual_total += float(cost)
+        if actual_total >= MAX_DIAGNOSTIC_USD:
+            record["cost_accounting_status"] = "BUDGET_EXHAUSTED_STOPPED"
+            break
     return {"mode": "live", "attempted": len(records),
             "reserved_usd": round(reserved, 4),
             "actual_cost_usd_known": round(sum(float(x["actual_cost_usd"])
