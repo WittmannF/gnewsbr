@@ -31,14 +31,15 @@ MAX_DIAGNOSTIC_USD = 5.0
 def select_cases(payload: dict) -> list[dict]:
     """Same two historical inputs for each configuration, preferring one failure and one success."""
     items = payload.get("recovered", [])
-    failures = [x for x in items if x.get("historical_outcome") == "failed"]
-    successes = [x for x in items if x.get("historical_outcome") == "succeeded"]
+    # Historical recovery can contain ineligible clusters; skip rather than aborting
+    # when the first case in either outcome group lacks two usable sources.
+    eligible = [x for x in items if isinstance(x.get("sources"), list)
+                and len(x["sources"]) >= 2]
+    failures = [x for x in eligible if x.get("historical_outcome") == "failed"]
+    successes = [x for x in eligible if x.get("historical_outcome") == "succeeded"]
     if not failures or not successes:
         raise ValueError("Require one historically failed and one successful eligible case")
     selected = [failures[0], successes[0]]
-    for item in selected:
-        if len(item.get("sources", [])) < 2:
-            raise ValueError("Insufficient distinct sources")
     return selected
 
 
