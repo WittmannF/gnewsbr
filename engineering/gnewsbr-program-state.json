@@ -32,7 +32,8 @@
     "Iteration 15: sanitized replay audit now stratifies missing historical inputs by failed/succeeded outcome to expose selection bias; code and deterministic test committed, latest CI not verified.",
     "Iteration 16: added opt-in paired OpenRouter comparison runner for one historically failed and one succeeded recovered input across JSON_SCHEMA 550/2048/4096 (six calls maximum); sanitized metadata only, no production writes. Not executed; $0 confirmed; actual provider cost may exceed $0.01 per-call reservation, so this is not yet an enforceable spend ceiling.",
     "Iteration 17: opt-in comparator now rejects live calls without explicit provider-side cap attestation and halts after first response without numeric actual usage.cost; offline regression tests added to isolated workflow. CI not verified. Attestation alone does not prove provider cap or guarantee US$5.",
-    "Iteration 18: offline comparator now rejects NaN/infinite usage.cost and stops further requests once cumulative reported actual cost reaches US$5; deterministic regression tests added. These guards do not enforce a hard per-request provider cap and CI is unverified."
+    "Iteration 18: offline comparator now rejects NaN/infinite usage.cost and stops further requests once cumulative reported actual cost reaches US$5; deterministic regression tests added. These guards do not enforce a hard per-request provider cap and CI is unverified.",
+    "Iteration 19 code inspection: comparator accepted NaN/Infinity as unknown and stopped, but its final aggregate recomputed a sum from raw numeric records, allowing NaN/Infinity in actual_cost_usd_known. Now invalid provider cost is normalized to null and known total uses validated accumulator; regression assertion added. CI not verified."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -206,6 +207,16 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/adcde2233c36d0c7e80a9dea80025bc15d883193",
       "scope": "offline cost guard regression tests"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/e0005cf68f803ca2986e154d9f76cbad87c9e6da",
+      "scope": "normalize invalid provider cost and aggregate validated spend"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/323ed39827155044e21b0a5bca7e8c6d8fa3b97c",
+      "scope": "nonfinite cost regression assertions"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -216,9 +227,9 @@
     "No independently verified provider-side hard budget cap or current CI result; live comparison remains blocked."
   ],
   "pending_actions": [
-    "Verify latest isolated CI on SHA adcde2233c36d0c7e80a9dea80025bc15d883193 and inspect sanitized replay audit.",
-    "Verify enforceable provider-side cap before any paid experiment; cumulative post-response checks alone cannot prevent a single request from overspending.",
-    "Run controlled paired comparison and Instructor modes only with verified budget protection."
+    "Verify isolated CI on SHA 323ed39827155044e21b0a5bca7e8c6d8fa3b97c and inspect sanitized audit.",
+    "Verify enforceable provider-side hard cap before any paid replay; CLI attestation alone is insufficient.",
+    "Execute paired comparison, then produce root-cause report and implementation plan."
   ],
   "updated_at": "2026-11-06"
 }
