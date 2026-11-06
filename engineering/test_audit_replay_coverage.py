@@ -41,6 +41,24 @@ class AuditTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     summarize(tampered, manifest)
 
+    def test_missing_outcome_stratification(self):
+        manifest = {"clusters": [
+            {"cluster_id": "a", "outcome": "failed"},
+            {"cluster_id": "b", "outcome": "succeeded"},
+            {"cluster_id": "c", "outcome": "failed"},
+        ]}
+        data = {"total_requested": 3, "recovered": [
+            {"cluster_id": "b", "historical_outcome": "succeeded",
+             "snapshot_provenance": "primary_pre_inference", "sources": [{}, {}]}
+        ], "missing": [
+            {"cluster_id": "a", "reason": "insufficient_distinct_sources"},
+            {"cluster_id": "c", "reason": "absent_from_bounded_pre_reservation_history"},
+        ]}
+        result = summarize(data, manifest)
+        self.assertEqual(result["missing_outcomes"], {"failed": 2})
+        self.assertEqual(result["recovered_outcomes"], {"succeeded": 1})
+        self.assertNotIn("title", result)
+
     def test_missing_or_duplicate_id_is_rejected(self):
         for missing in ([], [{"cluster_id": "a", "reason": "absent"}]):
             with self.subTest(missing=missing):
