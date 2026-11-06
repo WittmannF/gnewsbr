@@ -20,6 +20,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -45,3 +47,11 @@ jobs:
           assert Path('scripts/summarize_home.py').exists()
           print('diagnostic workflow isolated from production cache, ledger, and deployment')
           PY
+      - name: Recover historical inputs from immutable commits (offline)
+        run: python engineering/recover_historical_inputs.py --output /tmp/gnewsbr-replay-inputs.json
+      - name: Upload historical replay inputs (diagnostic artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gnewsbr-replay-inputs
+          path: /tmp/gnewsbr-replay-inputs.json
+          retention-days: 7
