@@ -61,9 +61,5 @@ jobs:
           name: gnewsbr-replay-audit
           path: /tmp/gnewsbr-replay-audit.json
           retention-days: 7
-      - name: Upload historical replay inputs (diagnostic artifact)
-        uses: actions/upload-artifact@v4
-        with:
-          name: gnewsbr-replay-inputs
-          path: /tmp/gnewsbr-replay-inputs.json
-          retention-days: 7
+      # Raw historical article text remains local to the ephemeral runner.
+      # Only the aggregate, text-free audit is uploaded as an artifact.
