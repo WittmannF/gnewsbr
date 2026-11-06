@@ -23,7 +23,10 @@ class RecoveryTests(unittest.TestCase):
         return {"clusters": [{"id": cid, "title": "A title", "detailPath": detail}]}
 
     def detail(self):
-        return {"articles": [{"source": "Example", "title": "News", "description": "Description"}]}
+        return {"articles": [
+            {"source": "Example", "title": "News", "description": "Description", "url": "https://example.com/a"},
+            {"source": "Other", "title": "Other news", "description": "Other description", "url": "https://other.org/b"},
+        ]}
 
     def test_primary_snapshot_is_exactly_labeled(self):
         with patch.object(recovery, "git_json", side_effect=[self.index(), self.detail()]), patch.object(recovery, "candidate_refs") as candidates:
@@ -32,7 +35,8 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(out["recovered"][0]["snapshot_sha"], self.primary)
         self.assertEqual(out["recovered"][0]["snapshot_provenance"], "primary_pre_inference")
         self.assertEqual(out["recovered"][0]["historical_outcome"], "failed")
-        self.assertEqual(out["recovered"][0]["sources"], [{"source": "Example", "title": "News", "description": "Description"}])
+        self.assertEqual(len(out["recovered"][0]["sources"]), 2)
+        self.assertEqual(out["recovered"][0]["sources"][0]["url"], "https://example.com/a")
         candidates.assert_not_called()
 
     def test_adjacent_snapshot_is_not_mislabeled_as_exact(self):
@@ -55,6 +59,16 @@ class RecoveryTests(unittest.TestCase):
         with patch.object(recovery, "git_json", return_value=self.index(detail="../private.json")):
             out = recovery.recover({"clusters": [self.entry]})
         self.assertEqual(out["missing"][0]["reason"], "invalid_detail_path")
+
+    def test_single_publisher_is_not_replayed_as_eligible(self):
+        detail = {"articles": [
+            {"source": "A", "title": "News", "url": "https://example.com/a"},
+            {"source": "A", "title": "News 2", "url": "https://example.com/b"},
+        ]}
+        with patch.object(recovery, "git_json", side_effect=[self.index(), detail]):
+            out = recovery.recover({"clusters": [self.entry]})
+        self.assertEqual(out["recovered"], [])
+        self.assertEqual(out["missing"][0]["reason"], "insufficient_distinct_sources")
 
     def test_candidate_history_is_time_bounded(self):
         class Result:
