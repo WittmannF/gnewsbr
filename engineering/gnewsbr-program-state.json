@@ -19,7 +19,8 @@
     "Isolated diagnostic CI passed on 2026-11-06 for head SHA 3d82cb7; offline six-case production Brief contract tests passed",
     "2026-11-05 historical ledger yields 25 unique cluster IDs: 12 failed and 13 succeeded; manifest preserves IDs/outcomes only, not source content or raw completions",
     "Recovered immutable pre-inference collection commit SHAs: 2026-11-05 11:35 batch uses aff04e195cef4c17ab8e56bbbdd981f480f51bfe; 17:35 batch uses be66cf5d18a9451cb9fed8c0886fc3c9a1db92e0. At those exact snapshots, 8/15 and 6/10 manifest IDs occur in latest.json (14/25 total); other 11 require broader historical search or cannot be reconstructed from those snapshots.",
-    "CI run 42157153594 passed on 2026-11-06: offline historical recovery produced 14/25 full detail inputs; all 11 missing are absent_from_pre_inference_snapshot, not missing detail files. Artifact 13475227926 uploaded with 7-day retention."
+    "CI run 42157153594 passed on 2026-11-06: offline historical recovery produced 14/25 full detail inputs; all 11 missing are absent_from_pre_inference_snapshot, not missing detail files. Artifact 13475227926 uploaded with 7-day retention.",
+    "2026-11-06 iteration 7: recovery code now searches up to 80 collection-index commits within 24 hours strictly before each reservation, preserving primary vs adjacent snapshot provenance; no CI result verified yet."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -93,6 +94,11 @@
       "type": "artifact",
       "url": "https://github.com/WittmannF/gnewsbr/actions/runs/42157153594/artifacts/13475227926",
       "scope": "14 recovered historical inputs, 11 absent, 7-day retention"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/7c80e53902b55cb9c1a79a15fa120db2af6de14b",
+      "scope": "bounded pre-reservation history search; unverified in CI"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -102,9 +108,9 @@
     "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit"
   ],
   "pending_actions": [
-    "Search adjacent immutable collection snapshots for 11 missing cluster IDs, preserving precise provenance; do not silently substitute current news.",
-    "Add offline checks for recovered dataset completeness and output sanitization before any paid LLM comparison.",
-    "Implement bounded model comparison only after replay inputs and budget guard are verified; do not exceed $5."
+    "Verify isolated workflow run for 7c80e539; inspect recovered count, provenance, missing reasons and logs before claiming recovery improvement.",
+    "Review fallback validity: adjacent pre-reservation snapshots may differ from exact inputs; exclude them from exact replay claims.",
+    "Add offline completeness and sanitization tests before any paid comparison; preserve $5 cap."
   ],
-  "updated_at": "2026-11-06T04:40:00Z"
+  "updated_at": "2026-11-06T05:38:00Z"
 }
