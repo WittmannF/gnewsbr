@@ -34,6 +34,8 @@ jobs:
           assert state['phase'] in ('DIAGNOSTIC_SETUP','DIAGNOSE','ROOT_CAUSE_REPORT')
           print('offline state checks passed; no paid model calls')
           PY
+      - name: Offline Brief contract regression tests
+        run: python engineering/diagnose_brief_contract.py
       - name: Diagnostic preflight
         run: |
           python - <<'PY'
