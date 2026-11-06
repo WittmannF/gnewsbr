@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 17,
-      "topic-5": 12
+      "topic-3": 22,
+      "topic-5": 13
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 17,
-    "bestSeedRank": 12,
+    "firstSeenRank": 22,
+    "bestSeedRank": 13,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,12 +29,12 @@
     "tereza",
     "marinho",
     "cristina",
-    "pede",
-    "receber"
+    "senado",
+    "pede"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/Ia434NM_8zydtdObPXn3Vv41Ll4=/2099x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/i/n/M00pefStuBaBgm7iS0oQ/55592193339-26ae49a318-o.jpg",
   "publishedAt": "2026-11-05T14:39:15+00:00",
-  "updatedAt": "2026-11-06T11:18:21.965475+00:00",
+  "updatedAt": "2026-11-06T12:25:27.934075+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -179,6 +179,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_d2fda2d8ea78",
+      "title": "Tereza Cristina quer discutir eleição do Senado com Bolsonaro e evita falar em desistência",
+      "description": "BRASIL – A senadora Tereza Cristina (PP-MS) afirmou nesta quinta-feira (5) que pretende conversar com o ex-presidente Jair Bolsonaro (PL)...",
+      "url": "https://imirante.com/noticias/brasil/2026/11/06/ipolitica-tereza-cristina-discute-eleicao-senado-bolsonaro",
+      "source": "Imirante.com",
+      "sourceCanonical": "Imirante.com",
+      "sourceDomain": "imirante.com",
+      "publishedAt": "2026-11-06T11:13:03+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_7299a92131ab",
       "title": "Bolsonaro quer receber Marinho e Tereza Cristina em sua casa",
       "description": "O ex-presidente Jair Bolsonaro (PL) solicitou nesta quinta-feira (5) autorização junto ao Supremo Tribunal Federal (STF) para receber em sua...",
@@ -219,20 +233,6 @@
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
-    },
-    {
-      "id": "article_5b26ef4c6a95",
-      "title": "Tereza Cristina quer discutir disputa pela presidência do Senado com Jair Bolsonaro",
-      "description": "Senadora diz que não haverá embate com Rogério Marinho e que os dois devem chegar a um acordo para definir quem representará a oposição na...",
-      "url": "https://www.itatiaia.com.br/politica/tereza-cristina-quer-discutir-disputa-pela-presidencia-do-senado-com-jair-bolsonaro/",
-      "source": "Rádio Itatiaia",
-      "sourceCanonical": "Itatiaia",
-      "sourceDomain": "itatiaia.com.br",
-      "publishedAt": "2026-11-06T01:14:29+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_88632e29c3dc",
@@ -305,67 +305,44 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e1b0cad472b0",
-      "title": "Jair Bolsonaro pede autorização a Moraes para receber Marinho e Tereza Cristina",
-      "description": "Parlamentares articulam candidaturas à presidência do Senado em 2027, disputa que também terá Davi Alcolumbre.",
-      "url": "https://www.brasil247.com/brasil/jair-bolsonaro-pede-autorizacao-a-moraes-para-receber-marinho-e-tereza-cristina/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-11-05T18:55:01+00:00",
+      "id": "article_5b26ef4c6a95",
+      "title": "Tereza Cristina quer discutir disputa pela presidência do Senado com Jair Bolsonaro",
+      "description": "Senadora diz que não haverá embate com Rogério Marinho e que os dois devem chegar a um acordo para definir quem representará a oposição na...",
+      "url": "https://www.itatiaia.com.br/politica/tereza-cristina-quer-discutir-disputa-pela-presidencia-do-senado-com-jair-bolsonaro/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-11-06T01:14:29+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 4,
     "max": 10,
-    "average": 6.12,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 6.44,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 9,
       "centerRight": 3,
       "right": 3,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
-    "coverageDiversity": 100,
-    "spectrumBalance": 100,
-    "headlineDivergence": 97,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
     "Manchetes divergentes"
-  ],
-  "aiSummary": "O ex-presidente Jair Bolsonaro pediu, por meio de sua defesa, autorização ao ministro Alexandre de Moraes, do Supremo Tribunal Federal, para receber as visitas dos senadores Rogério Marinho e Tereza Cristina, segundo informações dos veículos O Globo, CNN Brasil, Folha de S.Paulo, Veja e Jovem Pan. Ambos foram ministros durante o governo Bolsonaro e disputarão a presidência do Senado nas eleições de 2027. De acordo com a Folha de S.Paulo, a candidatura de Rogério Marinho foi lançada pelo PL, enquanto Tereza Cristina será a candidata do PP na disputa pelo comando da Casa. A reportagem da Veja destaca que o movimento do ex-presidente pode influenciar os planas da articulação política, embora o objetivo exato do encontro ainda não tenha sido detalhado nos veículos. As informações são de apurações da imprensa, e a autorização do STF ainda não havia sido confirmada até o fechamento desta cobertura.",
-  "aiSources": [
-    {
-      "source": "O GLOBO",
-      "url": "https://oglobo.globo.com/politica/noticia/2026/11/05/bolsonaro-pede-para-receber-marinho-e-tereza-cristina-em-meio-a-articulacoes-da-campanha-a-presidencia-do-senado.ghtml"
-    },
-    {
-      "source": "CNN Brasil",
-      "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/bolsonaro-pede-a-moraes-para-receber-visita-de-marinho-e-tereza-cristina/"
-    },
-    {
-      "source": "Folha de S.Paulo",
-      "url": "https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/11/bolsonaro-pede-a-moraes-autorizacao-para-visita-de-candidatos-da-direita-a-presidencia-do-senado.shtml"
-    },
-    {
-      "source": "VEJA",
-      "url": "https://veja.abril.com.br/politica/o-que-esta-por-tras-do-movimento-de-jair-bolsonaro-na-disputa-pela-presidencia-do-senado/"
-    },
-    {
-      "source": "Jovem Pan",
-      "url": "https://jovempan.com.br/colunistas/bruno-pinheiro/bolsonaro-pede-para-receber-marinho-e-tereza-em-meio-a-disputa-pelo-senado/"
-    }
   ]
 }
