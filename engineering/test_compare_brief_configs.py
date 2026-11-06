@@ -11,6 +11,23 @@ def sample():
     return {"recovered": [item("failed", "f"), item("succeeded", "s")]}
 
 class BudgetGateTests(unittest.TestCase):
+    def test_baseline_payload_matches_production(self):
+        """Catch prompt/schema/provider drift before treating replay as causal evidence."""
+        from engineering.compare_brief_configs import request_payload
+        from scripts.summarize_home import call_model
+        case = sample()["recovered"][0]
+        captured = {}
+        response = type("Response", (), {
+            "raise_for_status": lambda self: None,
+            "json": lambda self: {"choices": [{"message": {"content": '{"summary":"' + 'A'*120 + '"}'}}]},
+        })()
+        def intercept(url, **kwargs):
+            captured["payload"] = kwargs["json"]
+            return response
+        with patch("scripts.summarize_home.requests.post", side_effect=intercept):
+            call_model("dummy", case["title"], case["sources"])
+        self.assertEqual(request_payload(case, 550), captured["payload"])
+
     def test_skips_ineligible_first_failure(self):
         payload = sample()
         payload['recovered'].insert(0, {'cluster_id': 'bad', 'historical_outcome': 'failed', 'sources': []})
