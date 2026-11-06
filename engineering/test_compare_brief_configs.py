@@ -17,6 +17,20 @@ class BudgetGateTests(unittest.TestCase):
         selected = select_cases(payload)
         self.assertEqual([x['cluster_id'] for x in selected], ['f', 's'])
 
+    def test_skips_malformed_sources_and_missing_title(self):
+        payload = sample()
+        payload["recovered"].insert(0, {
+            "cluster_id": "bad-source", "historical_outcome": "failed",
+            "title": "Example", "sources": [{"source": "A", "title": "A"},
+                                             {"source": "B", "title": "B", "description": "B"}]})
+        payload["recovered"].insert(1, {
+            "cluster_id": "bad-title", "historical_outcome": "failed",
+            "sources": payload["recovered"][-1]["sources"]})
+        self.assertEqual([x["cluster_id"] for x in select_cases(payload)], ["f", "s"])
+        with patch("engineering.compare_brief_configs.requests.post") as post:
+            self.assertEqual(run(payload, live=False, key="")["planned_calls"], 6)
+            post.assert_not_called()
+
     def test_requires_eligible_case_for_each_outcome(self):
         payload = sample()
         payload['recovered'][0]['sources'] = []
