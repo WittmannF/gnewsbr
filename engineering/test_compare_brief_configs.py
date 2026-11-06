@@ -1,7 +1,7 @@
 """Offline cost safety tests for the opt-in comparison runner."""
 import unittest
 from unittest.mock import patch
-from engineering.compare_brief_configs import run
+from engineering.compare_brief_configs import run, select_cases
 
 def sample():
     def item(outcome, ident):
@@ -11,6 +11,18 @@ def sample():
     return {"recovered": [item("failed", "f"), item("succeeded", "s")]}
 
 class BudgetGateTests(unittest.TestCase):
+    def test_skips_ineligible_first_failure(self):
+        payload = sample()
+        payload['recovered'].insert(0, {'cluster_id': 'bad', 'historical_outcome': 'failed', 'sources': []})
+        selected = select_cases(payload)
+        self.assertEqual([x['cluster_id'] for x in selected], ['f', 's'])
+
+    def test_requires_eligible_case_for_each_outcome(self):
+        payload = sample()
+        payload['recovered'][0]['sources'] = []
+        with self.assertRaisesRegex(ValueError, 'eligible case'):
+            select_cases(payload)
+
     def test_dry_run_never_calls_provider(self):
         with patch("engineering.compare_brief_configs.requests.post") as post:
             result = run(sample(), live=False, key="")
