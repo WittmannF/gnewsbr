@@ -33,7 +33,8 @@
     "Iteration 16: added opt-in paired OpenRouter comparison runner for one historically failed and one succeeded recovered input across JSON_SCHEMA 550/2048/4096 (six calls maximum); sanitized metadata only, no production writes. Not executed; $0 confirmed; actual provider cost may exceed $0.01 per-call reservation, so this is not yet an enforceable spend ceiling.",
     "Iteration 17: opt-in comparator now rejects live calls without explicit provider-side cap attestation and halts after first response without numeric actual usage.cost; offline regression tests added to isolated workflow. CI not verified. Attestation alone does not prove provider cap or guarantee US$5.",
     "Iteration 18: offline comparator now rejects NaN/infinite usage.cost and stops further requests once cumulative reported actual cost reaches US$5; deterministic regression tests added. These guards do not enforce a hard per-request provider cap and CI is unverified.",
-    "Iteration 19 code inspection: comparator accepted NaN/Infinity as unknown and stopped, but its final aggregate recomputed a sum from raw numeric records, allowing NaN/Infinity in actual_cost_usd_known. Now invalid provider cost is normalized to null and known total uses validated accumulator; regression assertion added. CI not verified."
+    "Iteration 19 code inspection: comparator accepted NaN/Infinity as unknown and stopped, but its final aggregate recomputed a sum from raw numeric records, allowing NaN/Infinity in actual_cost_usd_known. Now invalid provider cost is normalized to null and known total uses validated accumulator; regression assertion added. CI not verified.",
+    "Iteration 20: paired comparator previously selected the first historical failure/success before checking source eligibility, aborting when an earlier ineligible case preceded a valid one. Now filters for >=2 sources before choosing one case per outcome; added two deterministic regression tests. Latest CI not verified."
   ],
   "hypotheses": [
     "Output truncation due to max_tokens=550",
@@ -217,6 +218,16 @@
       "type": "commit",
       "url": "https://github.com/WittmannF/gnewsbr/commit/323ed39827155044e21b0a5bca7e8c6d8fa3b97c",
       "scope": "nonfinite cost regression assertions"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/b23e0d037d53e14865d6e6437f5053a4444a5086",
+      "scope": "eligible paired replay selection"
+    },
+    {
+      "type": "commit",
+      "url": "https://github.com/WittmannF/gnewsbr/commit/daebb86e2f6dc7b19351b1ea7631a90c10955a2e",
+      "scope": "eligibility regression tests"
     }
   ],
   "branch": "work/gnewsbr-ai-diagnostic-program",
@@ -227,9 +238,9 @@
     "No independently verified provider-side hard budget cap or current CI result; live comparison remains blocked."
   ],
   "pending_actions": [
-    "Verify isolated CI on SHA 323ed39827155044e21b0a5bca7e8c6d8fa3b97c and inspect sanitized audit.",
-    "Verify enforceable provider-side hard cap before any paid replay; CLI attestation alone is insufficient.",
-    "Execute paired comparison, then produce root-cause report and implementation plan."
+    "Verify isolated CI at head including daebb86e2f6dc7b19351b1ea7631a90c10955a2e and inspect sanitized replay audit.",
+    "Verify provider-side enforceable cap before paid calls; do not treat attestation as proof.",
+    "Run controlled paired comparison and produce causal report."
   ],
   "updated_at": "2026-11-06"
 }
