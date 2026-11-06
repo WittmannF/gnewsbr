@@ -67,7 +67,7 @@ def request_payload(item: dict, max_tokens: int) -> dict:
     }
 
 
-def run(payload: dict, *, live: bool, key: str) -> dict:
+def run(payload: dict, *, live: bool, key: str, provider_cap_verified: bool = False) -> dict:
     cases = select_cases(payload)
     planned = [(name, limit, item) for name, limit in CONFIGS for item in cases]
     assert len(planned) == MAX_CALLS
@@ -78,6 +78,8 @@ def run(payload: dict, *, live: bool, key: str) -> dict:
                            "historical_outcome": x["historical_outcome"]} for x in cases]}
     if not key:
         raise ValueError("Live mode requires OPENROUTER_API_KEY")
+    if not provider_cap_verified:
+        raise ValueError("Live mode requires independent verification of a provider-side hard spend cap")
     records = []
     reserved = 0.0
     for name, limit, item in planned:
@@ -112,6 +114,10 @@ def run(payload: dict, *, live: bool, key: str) -> dict:
             record["actual_cost_usd"] = None
         record["latency_ms"] = round((time.monotonic() - start) * 1000)
         records.append(record)
+        cost = record.get("actual_cost_usd")
+        if not isinstance(cost, (int, float)) or isinstance(cost, bool) or cost < 0:
+            record["cost_accounting_status"] = "UNKNOWN_STOPPED"
+            break  # Fail closed: never equate a reservation with actual API cost.
     return {"mode": "live", "attempted": len(records),
             "reserved_usd": round(reserved, 4),
             "actual_cost_usd_known": round(sum(float(x["actual_cost_usd"])
@@ -125,9 +131,11 @@ def main():
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--live", action="store_true")
+    parser.add_argument("--provider-cap-verified", action="store_true")
     args = parser.parse_args()
     data = json.loads(args.input.read_text(encoding="utf-8"))
-    result = run(data, live=args.live, key=os.getenv("OPENROUTER_API_KEY", ""))
+    result = run(data, live=args.live, key=os.getenv("OPENROUTER_API_KEY", ""),
+                 provider_cap_verified=args.provider_cap_verified)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps({"mode": result["mode"],
