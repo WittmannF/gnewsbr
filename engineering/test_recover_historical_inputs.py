@@ -58,7 +58,7 @@ class RecoveryTests(unittest.TestCase):
 
     def test_candidate_history_is_time_bounded(self):
         class Result:
-            stdout = "sha1\\nsha2\\n"
+            stdout = "sha1\nsha2\n"
         with patch.object(recovery.subprocess, "run", return_value=Result()) as run:
             refs = recovery.candidate_refs(self.entry["first_reserved_at"])
         self.assertEqual(refs, ["sha1", "sha2"])
