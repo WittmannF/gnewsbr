@@ -12,7 +12,7 @@
   "diagnostic_spend_usd_confirmed": 0,
   "diagnostic_spend_status": "NOT_STARTED",
   "confirmed_facts": [
-    "2026-11-05 ledger (entire day): 25 reservations, 12 succeeded and 13 failed ValidationError across two batches; first batch 15 requests: 8 succeeded, 7 failed",
+    "2026-11-05 ledger (entire day): 25 reservations, 13 succeeded and 12 failed ValidationError across two batches; first batch 15 requests: 8 succeeded, 7 failed; second batch 10 requests: 5 succeeded, 5 failed",
     "Existing Brief summary min_length=40 max_length=1700 and max_tokens=550",
     "Historical raw failed responses not available in ledger",
     "CI run 42137785848 failed due to missing requests dependency in isolated runner (ModuleNotFoundError), not because of a Pydantic contract assertion"
@@ -66,7 +66,7 @@
   ],
   "pending_actions": [
     "Verify CI on commit df7bb54 (fix for missing requests); inspect logs and only mark DIAGNOSTIC_SETUP passed after success",
-    "Collect original 13 failed and 12 successful cluster IDs from two ledger batches on 2026-11-05; locate historical snapshots by commit rather than current latest",
+    "Collect original 12 failed and 13 successful cluster IDs from two ledger batches on 2026-11-05; locate historical snapshots by commit rather than current latest",
     "Build deterministic offline replay fixtures and budget-gated live model comparison harness after successful preflight"
   ],
   "updated_at": "2026-11-06T01:36:53Z"
