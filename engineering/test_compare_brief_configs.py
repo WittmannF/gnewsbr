@@ -46,6 +46,9 @@ class BudgetGateTests(unittest.TestCase):
             self.assertEqual(result["attempted"], 1)
             self.assertEqual(result["results"][0]["cost_accounting_status"], "UNKNOWN_STOPPED")
             self.assertEqual(post.call_count, 1)
+            self.assertIsNone(result["results"][0]["actual_cost_usd"])
+            self.assertEqual(result["actual_cost_usd_known"], 0.0)
+            self.assertEqual(result["actual_cost_unknown_attempts"], 1)
 
     def test_cumulative_cost_stops_at_budget(self):
         response = type("Response", (), {
