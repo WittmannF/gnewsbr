@@ -33,8 +33,19 @@ def select_cases(payload: dict) -> list[dict]:
     items = payload.get("recovered", [])
     # Historical recovery can contain ineligible clusters; skip rather than aborting
     # when the first case in either outcome group lacks two usable sources.
-    eligible = [x for x in items if isinstance(x.get("sources"), list)
-                and len(x["sources"]) >= 2]
+    # Validate the exact fields request_payload reads, not only the source count.
+    # A malformed first case must not prevent replay of a later valid case.
+    def usable(item):
+        if not isinstance(item, dict) or not isinstance(item.get("title"), str) or not item["title"].strip():
+            return False
+        if not isinstance(item.get("cluster_id"), str) or not item["cluster_id"]:
+            return False
+        sources = item.get("sources")
+        return (isinstance(sources, list) and len(sources) >= 2
+                and all(isinstance(s, dict) and all(isinstance(s.get(k), str)
+                    for k in ("source", "title", "description")) for s in sources))
+
+    eligible = [x for x in items if usable(x)]
     failures = [x for x in eligible if x.get("historical_outcome") == "failed"]
     successes = [x for x in eligible if x.get("historical_outcome") == "succeeded"]
     if not failures or not successes:
