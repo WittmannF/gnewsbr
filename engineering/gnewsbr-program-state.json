@@ -3,7 +3,7 @@
   "program": "gnewsbr-ai-reliability",
   "tracking_issue": 37,
   "ranking_issue": 38,
-  "status": "IN_PROGRESS",
+  "status": "PAUSED_BY_OWNER",
   "phase": "DIAGNOSE",
   "plan_review_count": 0,
   "implementation_review_round": 0,
@@ -269,13 +269,11 @@
     "Historical raw failed completions absent; original inputs may require reconstruction from historical snapshot at corresponding commit",
     "No independently verified provider-side hard budget cap; live comparison remains blocked.",
     "Provider cap flag is manual attestation only; no independently verifiable cap or API credential available in this run. Do not enable live comparison.",
-    "Paired 2/25 replay cannot establish aggregate failure rate or factual quality; expand stratified experiment only after budget protection."
+    "Paired 2/25 replay cannot establish aggregate failure rate or factual quality; expand stratified experiment only after budget protection.",
+    "Owner explicitly terminated hourly engineering checks and requested handoff; do not resume without new instruction."
   ],
   "pending_actions": [
-    "Verify isolated push CI on current SHA including new production request parity regression; connector PR-only workflow lookup cannot establish push run status.",
-    "Obtain independently verifiable OpenRouter key-level hard cap and safe diagnostic credential; do not use --provider-cap-verified without evidence.",
-    "After cap verification, run 550/2048/4096 paired comparison; expand stratified cases and Instructor JSON_SCHEMA/TOOLS when supported; record provider actual cost and blinded factual quality.",
-    "Prepare ROOT_CAUSE_REPORT only after causal evidence, otherwise explicitly separate confirmed defects from hypotheses."
+    "No automated execution. Findings and handoff: https://github.com/WittmannF/gnewsbr/issues/37#issuecomment-6699596571 and https://github.com/WittmannF/gnewsbr/issues/38#issuecomment-6699596939."
   ],
-  "updated_at": "2026-11-06"
+  "updated_at": "2026-11-07T00:29:00Z"
 }
