@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYMVBxcEVoRmd3VEFnbi1SSVZDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYMVBxcEVoRmd3VEFnbi1SSVZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-6"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-6"
     ],
     "seedRanks": {
-      "topic-3": 58
+      "topic-3": 56,
+      "topic-6": 33
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 58,
-    "bestSeedRank": 58,
+    "firstSeenRank": 56,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/9MNVNl27VjojlLK1NiTKNHESXPk=/1250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/g/wgxIj2SFylnLZDRBvQEw/fotojet-125-.jpg",
   "publishedAt": "2026-11-05T20:05:13+00:00",
-  "updatedAt": "2026-11-07T00:40:04.039515+00:00",
-  "sourceCount": 11,
-  "articleCount": 11,
+  "updatedAt": "2026-11-07T01:21:31.085053+00:00",
+  "sourceCount": 12,
+  "articleCount": 12,
   "articles": [
     {
       "id": "article_fcb719dfcd24",
@@ -58,7 +61,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-06T20:41:56+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -142,7 +145,7 @@
       "sourceCanonical": "Propmark",
       "sourceDomain": "propmark.com.br",
       "publishedAt": "2026-11-06T19:15:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -160,6 +163,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_850cd5c264cc",
+      "title": "Luzes que imitavam largada da F1 confundem motoristas na Avenida Paulista",
+      "description": "Uma ação publicitária da Gatorade instalada ao lado de um semáforo na Avenida Paulista, em São Paulo, confundiu motoristas e acabou retirada...",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/luzes-formula-1-confundem-motoristas-avenida-paulista/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-11-06T23:38:34+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_1b030e5461b5",
@@ -191,13 +208,13 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 7,
-    "average": 5.6,
-    "knownCount": 5,
+    "average": 5,
+    "knownCount": 6,
     "unknownCount": 6,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 4,
       "centerRight": 1,
@@ -206,10 +223,10 @@
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 38,
-    "headlineDivergence": 76,
-    "confidence": 82
+    "coverageDiversity": 60,
+    "spectrumBalance": 80,
+    "headlineDivergence": 85,
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",
