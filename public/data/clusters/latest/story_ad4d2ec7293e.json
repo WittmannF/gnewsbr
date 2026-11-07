@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pfemRxaUVoRTFic3NSWktaemdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pfemRxaUVoRTFic3NSWktaemdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-3": 4,
-      "topic-5": 6
+      "topic-3": 8,
+      "topic-5": 11
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 8,
+    "bestSeedRank": 8,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Presidente Luiz Inácio Lula da Silva sanciona exame obrigatório Enamed",
   "summary": "Nova lei institui o Exame Nacional de Avaliação da Formação Médica.",
@@ -34,13 +28,13 @@
     "lula",
     "sanciona",
     "medicina",
-    "lei",
     "enamed",
+    "lei",
     "oab"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/33EULCIGHBF7NJ725CDULH2OS4.jpg?quality=80&auth=ee0d84ab6f08413d162be739cc9cbf622c7920b2a8337133e57205209202a2b0&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-06T16:46:00+00:00",
-  "updatedAt": "2026-11-07T12:20:47.997353+00:00",
+  "updatedAt": "2026-11-07T13:16:22.442109+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,7 +61,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-07T06:30:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/0yVj7H81CoHQPzYyTni9XaZqCHQ=/699x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/H/R/JXrUuhQl2BI3JnjQOAiQ/vet.png",
       "spectrumScore": 6,
       "bucket": "center"
@@ -101,18 +95,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_fe5ca3f8a41f",
-      "title": "Saiba o que é a ‘OAB da Medicina’ e como ela vai funcionar",
-      "description": "Enamed será obrigatória em duas etapas durante o curso de Medicina e necessária para o exercício da profissão médica.",
-      "url": "https://jovempan.com.br/educacao/saiba-o-que-e-a-oab-da-medicina-e-como-ela-vai-funcionar/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-11-07T02:54:12+00:00",
+      "id": "article_d1956c3369c7",
+      "title": "Lula sanciona exame que irá avaliar qualidade de alunos de medicina",
+      "description": "Presidente disse que Enamed vai melhorar o atendimento à população. Legislação prevê medidas de supervisão para instituições com resultados...",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-exame-que-ira-avaliar-qualidade-de-alunos-de-medicina",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-11-06T21:57:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2025/01/Fuvest-Vestibular-Sergio-Neves-Estadao-Conteudo-e1763942953784-1.jpg?w=1000&h=630&crop=1",
-      "spectrumScore": 9,
-      "bucket": "right"
+      "imageUrl": "https://imagens.ebc.com.br/3y5YyNlrrhlq3TZAi4thQNoE9BI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/06/0d7a2799.jpg.jpeg?itok=B8970upD",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_53423e81315a",
@@ -141,6 +135,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_fe5ca3f8a41f",
+      "title": "Saiba o que é a ‘OAB da Medicina’ e como ela vai funcionar",
+      "description": "Enamed será obrigatória em duas etapas durante o curso de Medicina e necessária para o exercício da profissão médica.",
+      "url": "https://jovempan.com.br/educacao/saiba-o-que-e-a-oab-da-medicina-e-como-ela-vai-funcionar/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-11-07T02:54:12+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_60385cb6082a",
@@ -199,20 +207,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_d1956c3369c7",
-      "title": "Lula sanciona exame que irá avaliar qualidade de alunos de medicina",
-      "description": "Presidente disse que Enamed vai melhorar o atendimento à população. Legislação prevê medidas de supervisão para instituições com resultados...",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-exame-que-ira-avaliar-qualidade-de-alunos-de-medicina",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-06T21:57:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_b955327dfcce",
       "title": "Lula diz que saúde “não tem ideologia” e defende acesso universal ao SUS ao sancionar Enamed",
       "description": "Avaliação terá três etapas ao longo da graduação e será exigida para o registro de estudantes que ingressaram desde junho.",
@@ -225,6 +219,20 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_7a3ab7543a7b",
+      "title": "Enamed pode contribuir para qualificar a formação médica no Brasil",
+      "description": "A construção do exame, com envolvimento de vários atores, instituições e organizações da área médica, responde à demanda crescente tanto da...",
+      "url": "https://www.acritica.com/colunas/editorial-do-jornal-a-critica/opiniao/enamed-pode-contribuir-para-qualificar-a-formacao-medica-no-brasil/",
+      "source": "A Crítica",
+      "sourceCanonical": "A Crítica",
+      "sourceDomain": "acritica.com",
+      "publishedAt": "2026-11-07T12:20:03+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b14c708651d1",
@@ -253,6 +261,20 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_e921f9e51835",
+      "title": "“A prova seria uma consequência da boa formação para se tornar um bom médico”, diz presidente do Cremego sobre a \"OAB da Medicina\"",
+      "description": "A sanção da lei que torna obrigatória a aprovação no Exame Nacional de Avaliação da Formação Médica (Enamed) para o exercício da medicina no...",
+      "url": "https://www.jornalopcao.com.br/educacao/a-prova-seria-uma-consequencia-da-boa-formacao-para-se-tornar-um-bom-medico-diz-presidente-do-cremego-sobre-a-oab-da-medicina-886477/",
+      "source": "Jornal Opção",
+      "sourceCanonical": "Jornal Opção",
+      "sourceDomain": "jornalopcao.com.br",
+      "publishedAt": "2026-11-07T12:49:00+00:00",
+      "postedLabel": "27 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_484d8352ac69",
@@ -295,49 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_4703c4bff69d",
-      "title": "Enamed: entenda como será a prova que vai avaliar estudantes e cursos de Medicina no Brasil",
-      "description": "Exame terá três etapas durante a graduação, será usado na seleção para residência médica e exigirá nota mínima para o exercício da profissão...",
-      "url": "https://www.correio24horas.com.br/brasil/enamed-entenda-como-sera-a-prova-que-vai-avaliar-estudantes-e-cursos-de-medicina-no-brasil-1126",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
-      "sourceDomain": "correio24horas.com.br",
-      "publishedAt": "2026-11-06T21:10:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_91c40d9d406d",
-      "title": "OAB da Medicina: Lula sanciona lei que exige exame nacional para novos médicos",
-      "description": "O presidente Luiz Inácio Lula da Silva sancionou, nesta sexta-feira (6), a lei que torna obrigatória a aprovação no Exame Nacional de...",
-      "url": "https://gauchazh.clicrbs.com.br/educacao/ensino-superior/noticia/2026/11/oab-da-medicina-lula-sanciona-lei-que-exige-exame-nacional-para-novos-medicos-cmw5frt1p0243015omlmblwn9.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-11-06T21:14:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.29,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.31,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
       "right": 1,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
