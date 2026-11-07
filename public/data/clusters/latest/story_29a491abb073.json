@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 46
+      "topic-8": 45
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 46,
-    "bestSeedRank": 46,
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "fgc",
     "dados",
     "vazamento",
+    "invasão",
     "pessoais",
-    "clientes",
-    "invasão"
+    "clientes"
   ],
   "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2025/11/fgc.jpg",
   "publishedAt": "2026-11-05T11:56:28+00:00",
-  "updatedAt": "2026-11-06T23:28:33.693564+00:00",
+  "updatedAt": "2026-11-07T00:51:42.346222+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b19a66deabde",
-      "title": "Sistema do FGC é invadido e clientes têm dados pessoais expostos",
-      "description": "Segundo o Fundo Garantidor, até o momento não há evidência de que os dados expostos tenham sido divulgados ou usados de forma indevida.",
-      "url": "https://www.metropoles.com/brasil/sistema-do-fgc-e-invadido-e-clientes-tem-dados-pessoais-expostos",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-05T12:36:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_678ccc968369",
       "title": "FGC informa que dados pessoais de clientes foram expostos após invasão em sistema",
       "description": "Um acesso não autorizado foi identificado pelo Fundo Garantidor de Créditos (FGC) em dados pessoais de clientes, como nome, CPF, e-mail e...",
@@ -314,27 +300,41 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_8d0ce3869094",
+      "title": "FGC sofre invasão e tem vazamento de dados pessoais de clientes",
+      "description": "O Fundo Garantidor de Créditos (FGC) informou investidores sobre um problema de segurança que resultou no vazamento de dados pessoais de...",
+      "url": "https://diariodonordeste.verdesmares.com.br/negocios/fgc-sofre-invasao-e-tem-vazamento-de-dados-pessoais-de-clientes-1.3803564",
+      "source": "Diário do Nordeste",
+      "sourceCanonical": "Diário do Nordeste",
+      "sourceDomain": "diariodonordeste.verdesmares.com.br",
+      "publishedAt": "2026-11-05T15:11:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 4,
     "max": 8,
-    "average": 5.64,
+    "average": 5.57,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
-      "center": 12,
+      "centerLeft": 1,
+      "center": 11,
       "centerRight": 2,
       "right": 0,
       "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
