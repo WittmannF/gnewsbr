@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYdTZPbEVoR3pVVmFXX2tseEdpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYdTZPbEVoR3pVVmFXX2tseEdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-6"
+    "home",
+    "topic-6",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-6"
     ],
     "seedRanks": {
+      "home": 1,
+      "topstories": 1,
       "topic-6": 2
     },
-    "firstSeenSeedPage": "topic-6",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Vitória e Fluminense se enfrentam pela 34ª rodada do Brasileirão",
   "summary": "Duelo entre Vitória e Fluminense acontece no Barradão, nesta sexta-feira (6), pelo Campeonato Brasileiro.",
@@ -26,12 +32,12 @@
     "vitória",
     "brasileirão",
     "assistir",
-    "vivo",
-    "pelo"
+    "escalações",
+    "vence"
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/esporte/33/2026/11/06/canobbio-e-savarino-comemora-gol-do-fluminense-contra-o-vitoria-1794009416969_v2_615x300.jpg",
-  "publishedAt": "2026-11-03T17:38:34+00:00",
-  "updatedAt": "2026-11-07T01:26:22.288358+00:00",
+  "publishedAt": "2026-11-04T20:37:00+00:00",
+  "updatedAt": "2026-11-07T02:20:35.361020+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -43,8 +49,22 @@
       "source": "ESPN Brasil",
       "sourceCanonical": "ESPN Brasil",
       "sourceDomain": "espn.com.br",
-      "publishedAt": "2026-11-06T22:19:25+00:00",
+      "publishedAt": "2026-11-06T23:02:00+00:00",
       "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_5892627273f8",
+      "title": "Marcão revela desejo de permanecer no comando do Fluminense em 2027: \"Muito disposto a trabalhar\"",
+      "description": "O técnico Marcão, do Fluminense, analisou o triunfo da equipe contra o Vitória, na noite desta sexta-feira, pelo Campeonato Brasileiro. Com...",
+      "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/06/marcao-valoriza-espirito-de-equipe-do-fluminense-e-elogia-atuacao-contra-o-vitoria-foi-perfeito.ghtml",
+      "source": "ge",
+      "sourceCanonical": "ge",
+      "sourceDomain": "ge.globo.com",
+      "publishedAt": "2026-11-07T01:21:42+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -58,7 +78,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
       "publishedAt": "2026-11-07T00:55:24+00:00",
-      "postedLabel": "30 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://conteudo.imguol.com.br/c/esporte/33/2026/11/06/canobbio-e-savarino-comemora-gol-do-fluminense-contra-o-vitoria-1794009416969_v2_615x300.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,21 +92,7 @@
       "sourceCanonical": "Fluminense Football Club",
       "sourceDomain": "fluminense.com.br",
       "publishedAt": "2026-11-07T01:00:00+00:00",
-      "postedLabel": "26 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_5bad83403651",
-      "title": "Vitória x Fluminense: onde assistir ao vivo, horário e escalações",
-      "description": "Vitória e Fluminense se enfrentam às 20h (de Brasília) desta sexta-feira, no Barradão, em Salvador, pela 34ª rodada do Campeonato Brasileiro...",
-      "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/11/06/vitoria-x-fluminense-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
-      "source": "ge",
-      "sourceCanonical": "ge",
-      "sourceDomain": "ge.globo.com",
-      "publishedAt": "2026-11-06T06:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -94,16 +100,44 @@
     {
       "id": "article_dc988621440b",
       "title": "Vitória é goleado pelo Fluminense em casa e resultado ajuda Grêmio e Inter; confira a tabela do Brasileirão",
-      "description": "O último jogo da 34ª rodada do Brasileirão animou os torcedores de Grêmio e Inter. O Vitória, rival na luta contra o rebaixamento,...",
+      "description": "Partida foi a última da 34ª rodada da competição.",
       "url": "https://gauchazh.clicrbs.com.br/esportes/brasileirao/noticia/2026/11/vitoria-e-goleado-pelo-fluminense-em-casa-e-resultado-ajuda-gremio-e-inter-confira-a-tabela-do-brasileirao-cmw5pjva600yt01ge188s9aqt.html",
       "source": "GZH",
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-11-07T01:13:36+00:00",
-      "postedLabel": "12 minutos atrás",
-      "imageUrl": null,
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.rbsdirect.com.br/filestore/9/1/8/8/1/2/6_d971f35dcdc0cd0/6218819_3b92ecb8d146143.jpg?w=1200&h=675&a=c&version=1575255600",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_1e80d1b39fdc",
+      "title": "Fluminense bate o Vitória e facilita vida do Corinthians na briga contra o Z-4",
+      "description": "Concorrente direto na luta pela permanência permanece com 38 pontos em 15º, enquanto clube alvinegro é o 17º com 37, a apenas um.",
+      "url": "https://www.estadao.com.br/esportes/futebol/fluminense-bate-o-vitoria-e-facilita-vida-do-corinthians-na-briga-contra-o-z-4/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-11-07T01:21:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/YVDVAN6EVJCMJMM5NKYP2YL2HI.jpg?quality=80&auth=5e56a0f811973f2ff1ce9418ed5ae8b1d823bebfca4081f2af909a469e5a9325&width=1200&height=630&focal=2293,1702",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_81eb5fa4d8fa",
+      "title": "Castillo celebra golaço pelo Fluminense e destaca luta por vaga na Libertadores",
+      "description": "Castillo marcou um golaço na vitória do Fluminense por 3 a 0 sobre o Vitória e destacou os três pontos na disputa pela Libertadores.",
+      "url": "https://www.lance.com.br/fluminense/castillo-celebra-golaco-pelo-fluminense-e-destaca-luta-por-vaga-na-libertadores.html",
+      "source": "LANCE!",
+      "sourceCanonical": "LANCE!",
+      "sourceDomain": "lance.com.br",
+      "publishedAt": "2026-11-07T02:02:47+00:00",
+      "postedLabel": "17 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_624a2c396b3a",
@@ -114,52 +148,24 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-11-06T21:09:07+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1762552:1793998588/SZ3A9182.JPG%20(2).jpeg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=c6db829",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_5d77d1ab9b17",
-      "title": "AO VIVO: siga os lances de Vitória x Fluminense pelo Brasileirão",
-      "description": "Vitória e Fluminense estão se enfrentando, na noite desta sexta-feira (6), às 20h (Brasília), em jogo válido pela 34° rodada do Campeonato...",
-      "url": "https://www.lance.com.br/fluminense/ao-vivo-siga-os-lances-de-vitoria-x-fluminense-pelo-brasileirao.html",
-      "source": "LANCE!",
-      "sourceCanonical": "LANCE!",
-      "sourceDomain": "lance.com.br",
-      "publishedAt": "2026-11-07T00:32:29+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_01ef4749f11a",
-      "title": "Fluminense pode aproveitar tropeços e ampliar vantagem pelo G4",
-      "description": "Tricolor enfrenta o Vitória, nesta sexta-feira (6), às 20h (de Brasília), no Barradão, pela 34ª rodada do Brasileirão.",
-      "url": "https://www.terra.com.br/esportes/fluminense/fluminense-pode-aproveitar-tropecos-e-ampliar-vantagem-pelo-g4,2cd9345c94da04c7af86a6c39f0a07e0xkw58j2b.html",
+      "id": "article_bc47cc55b4dc",
+      "title": "Fora de casa, Fluminense bate o Vitória e se consolida no G4",
+      "description": "No jogo isolado que encerrou a 34ª rodada do Brasileirão na noite desta sexta-feira (6), o Fluminense garantiu mais três pontos para se...",
+      "url": "https://www.terra.com.br/esportes/fluminense/fora-de-casa-fluminense-bate-o-vitoria-e-se-consolida-no-g4,cff05ce27e9be3358f438722e8cc7785e0o3fk4e.html",
       "source": "Terra",
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-03T17:38:34+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/06/1421412308-marcao-em-treino-do-fluminense-610x400.jpg",
+      "publishedAt": "2026-11-07T00:56:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_b17a63cf40fa",
-      "title": "Vitória x Fluminense: onde assistir e escalações – Brasileirão",
-      "description": "Vitória e Fluminense jogam nesta sexta (6), às 19h (de MS), no Barradão, pela 34ª rodada do Brasileirão. Veja prováveis escalações...",
-      "url": "https://www.campograndenews.com.br/esportes/em-duelo-de-opostos-vitoria-e-fluminense-se-enfrentam-pelo-brasileirao",
-      "source": "Campo Grande News",
-      "sourceCanonical": "Campo Grande News",
-      "sourceDomain": "campograndenews.com.br",
-      "publishedAt": "2026-11-06T09:56:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_49e817de608e",
@@ -176,6 +182,34 @@
       "bucket": "left"
     },
     {
+      "id": "article_b17a63cf40fa",
+      "title": "Vitória x Fluminense: onde assistir e escalações – Brasileirão",
+      "description": "Vitória e Fluminense jogam nesta sexta (6), às 19h (de MS), no Barradão, pela 34ª rodada do Brasileirão. Veja prováveis escalações...",
+      "url": "https://www.campograndenews.com.br/esportes/em-duelo-de-opostos-vitoria-e-fluminense-se-enfrentam-pelo-brasileirao",
+      "source": "Campo Grande News",
+      "sourceCanonical": "Campo Grande News",
+      "sourceDomain": "campograndenews.com.br",
+      "publishedAt": "2026-11-06T09:56:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_9a911b9eaac1",
+      "title": "Thiago Silva cobra 'organização' na defesa após vitória do Fluminense",
+      "description": "Capitão do Fluminense, o zagueiro Thiago Silva não perdoou os companheiros de cobrança, mesmo com vantagem ampla, no triunfo por 3 a 0 sobre...",
+      "url": "https://odia.ig.com.br/esporte/fluminense/2026/11/7320103-thiago-silva-cobra-organizacao-na-defesa-apos-vitoria-do-fluminense.html",
+      "source": "O Dia",
+      "sourceCanonical": "O Dia",
+      "sourceDomain": "odia.ig.com.br",
+      "publishedAt": "2026-11-07T01:20:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_098fcbd18707",
       "title": "Os Campeões da Bola transmitem Vitória x Fluminense pelo Campeonato Brasileiro",
       "description": "A equipe de Os Campeões da Bola transmite neste sexta-feira (6), a partida entre Vitória e Fluminense, pela 34ª rodada do Campeonato...",
@@ -184,38 +218,10 @@
       "sourceCanonical": "Rádio Metrópole",
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-11-06T20:32:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_15e0de4e5965",
-      "title": "Fluminense vence no Barradão, e Vitória se aproxima do Z4 do Brasileirão",
-      "description": "O Fluminense venceu o Vitória por 3 a 0 no Barradão, pela 34ª rodada do Campeonato Brasileiro, e se manteve firme no G4 da Série A.",
-      "url": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/fluminense-vence-no-barradao-e-vitoria-se-aproxima-do-z4-do-brasileirao/",
-      "source": "Gazeta Esportiva",
-      "sourceCanonical": "Gazeta Esportiva",
-      "sourceDomain": "gazetaesportiva.com",
-      "publishedAt": "2026-11-07T00:58:00+00:00",
-      "postedLabel": "28 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_ecd00a27426f",
-      "title": "Vitória x Fluminense pelo Brasileirão hoje: onde assistir ao vivo, horário e escalação",
-      "description": "Equipes se enfrentam nesta quinta-feira pela 34ª rodada, no Estádio do Barradão, em Salvador-BA.",
-      "url": "https://www.estadao.com.br/esportes/futebol/vitoria-x-fluminense-pelo-brasileirao-hoje-onde-assistir-ao-vivo-horario-e-escalacao-npres/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-06T22:00:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_6f4531e04fdc",
@@ -232,6 +238,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_d3fbd951f7b6",
+      "title": "Vitória perde para o Fluminense em casa e se complica na luta contra o rebaixamento",
+      "description": "O Vitória perdeu por 3x0 para o Fluminense na noite desta sexta-feira (6), no Barradão, pela 34ª rodada do Campeonato Brasileiro. Com o...",
+      "url": "https://www.correio24horas.com.br/esportes/vitoria-perde-para-o-fluminense-em-casa-e-se-complica-na-luta-contra-o-rebaixamento-1126",
+      "source": "Jornal Correio",
+      "sourceCanonical": "Jornal Correio",
+      "sourceDomain": "correio24horas.com.br",
+      "publishedAt": "2026-11-07T01:05:36+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_15e0de4e5965",
+      "title": "Fluminense vence no Barradão, e Vitória se aproxima do Z4 do Brasileirão",
+      "description": "O Fluminense venceu o Vitória por 3 a 0 no Barradão, pela 34ª rodada do Campeonato Brasileiro, e se manteve firme no G4 da Série A.",
+      "url": "https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/fluminense-vence-no-barradao-e-vitoria-se-aproxima-do-z4-do-brasileirao/",
+      "source": "Gazeta Esportiva",
+      "sourceCanonical": "Gazeta Esportiva",
+      "sourceDomain": "gazetaesportiva.com",
+      "publishedAt": "2026-11-07T00:58:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_d35b8706666e",
       "title": "Fluminense e Vitória fecham rodada do Brasileirão em clima de decisão",
       "description": "A 34ª rodada do Campeonato Brasileiro será fechada em clima de decisão na Bahia. O Fluminense vai ao barradão para enfrentar o Vitória,...",
@@ -244,6 +278,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_50662fd5674d",
+      "title": "Na briga por vaga na Liberta, Flu visita o ameaçado Vitória; ouça na RB",
+      "description": "Emmanuel Martínez recebe bom passe dentro da área e finaliza rasteiro, Fábio defende no centro da meta. Escudo do Vitória 192ºT.",
+      "url": "https://www.band.com.br/esportes/futebol/brasileiro-serie-a-2026-vitoria-x-fluminense-assista-ao-vivo",
+      "source": "Band",
+      "sourceCanonical": "Band",
+      "sourceDomain": "band.com.br",
+      "publishedAt": "2026-11-06T23:00:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_0713630c27cc",
@@ -260,20 +308,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0cdcdbc5c181",
-      "title": "Corinthians seca o Vitória nesta sexta-feira contra o Fluminense; saiba onde assistir",
-      "description": "A partida é válida pela 34ª rodada do Brasileirão e é crucial para o Timão.",
-      "url": "https://www.abcdoabc.com.br/corinthians-seca-o-vitoria-nesta-sexta-feira/",
-      "source": "Portal ABC do ABC",
-      "sourceCanonical": "Portal ABC do ABC",
-      "sourceDomain": "abcdoabc.com.br",
-      "publishedAt": "2026-11-06T13:39:45+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_014caccdfca2",
       "title": "Vitória x Fluminense: onde assistir ao vivo e horário",
       "description": "Vitória recebe o Fluminense no Barradão, em Salvador, pela 34ª rodada do Brasileirão.",
@@ -282,53 +316,25 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-06T20:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_50662fd5674d",
-      "title": "Brasileiro Série A 2026: Vitória x Fluminense - Assista ao Vivo",
-      "description": "Vitória x Fluminense — Brasileiro Série A 2026, no estádio Barradão, em 06/11/2026 às 20h00.",
-      "url": "https://www.band.com.br/esportes/futebol/brasileiro-serie-a-2026-vitoria-x-fluminense-assista-ao-vivo",
-      "source": "band.com.br",
-      "sourceCanonical": "band.com.br",
-      "sourceDomain": "band.com.br",
-      "publishedAt": "2026-11-06T04:03:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_9f6f62d61b68",
-      "title": "Esporte 93 – edição 06 de novembro",
-      "description": "O Fluminense enfrenta o Vitória, nesta sexta-feira (06), às 20h, no Barradão, em Salvador, com desfalque na defesa.",
-      "url": "https://radio93.com.br/noticias/esporte/esporte-93-edicao-06-de-novembro-4/",
-      "source": "Rádio 93 FM",
-      "sourceCanonical": "Rádio 93 FM",
-      "sourceDomain": "radio93.com.br",
-      "publishedAt": "2026-11-06T18:02:45+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 4.8,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.82,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 6,
+      "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 10
+      "unknown": 9
     }
   },
   "scores": {
