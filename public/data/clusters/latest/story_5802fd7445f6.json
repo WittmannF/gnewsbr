@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lmMUstakVoR2ptbDYyVWYxRVZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lmMUstakVoR2ptbDYyVWYxRVZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 58
+      "topic-3": 45,
+      "topic-5": 55
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 58,
-    "bestSeedRank": 58,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 45,
+    "bestSeedRank": 45,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,9 +33,9 @@
     "iss"
   ],
   "imageUrl": "https://s2-valor.glbimg.com/PgcLtrT7HbJYqiZ0Bk6tGAi-8lU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/Y/G/JF2AZUSpiOmMxBaFRYUw/334f0ec7-1e9c-4c0e-a52e-9d4ecf8b589f.jpg",
-  "publishedAt": "2026-10-29T19:03:00+00:00",
-  "updatedAt": "2026-11-07T05:26:15.775334+00:00",
-  "sourceCount": 20,
+  "publishedAt": "2026-10-29T07:00:00+00:00",
+  "updatedAt": "2026-11-07T06:27:47.930912+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -73,7 +76,7 @@
       "sourceDomain": "jota.info",
       "publishedAt": "2026-11-05T07:23:51+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://images.jota.info/wp-content/uploads/2026/08/pulso-reforma-thumb-d.png",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -197,7 +200,7 @@
       "source": "DComercio",
       "sourceCanonical": "DComercio",
       "sourceDomain": "dcomercio.com.br",
-      "publishedAt": "2026-10-29T20:24:00+00:00",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
       "postedLabel": "8 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -260,20 +263,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_33c71fa9f596",
-      "title": "STF propõe regra para evitar decisões conflitantes sobre IBS e CBS",
-      "description": "Modelo permitiria uma única ação judicial para discutir os dois tributos da reforma tributária.",
-      "url": "https://acritica.net/economia/stf-propoe-regra-para-evitar-decisoes-conflitantes-sobre-ibs-e-cbs/",
-      "source": "A Crítica de Campo Grande",
-      "sourceCanonical": "A Crítica de Campo Grande",
-      "sourceDomain": "acritica.net",
-      "publishedAt": "2026-10-29T22:00:00+00:00",
-      "postedLabel": "8 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ee4bbfc46a94",
       "title": "CBS pode afetar cálculo do ICMS e do ISS na transição tributária",
       "description": "Inclusão da CBS no cálculo do ICMS e do ISS gera debate durante a transição para o novo modelo tributário.",
@@ -314,28 +303,42 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_af358a859e0e",
+      "title": "Tributo sobre tributo: a primeira pegadinha da reforma",
+      "description": "A reforma tributária foi concebida para simplificar o sistema. Começá-la permitindo que um tributo novo aumente um tributo velho seria...",
+      "url": "https://valor.globo.com/legislacao/coluna/tributo-sobre-tributo-a-primeira-pegadinha-da-reforma.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-11-05T08:00:02+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 6,
     "max": 7,
-    "average": 6.5,
-    "knownCount": 2,
-    "unknownCount": 18,
+    "average": 6.33,
+    "knownCount": 3,
+    "unknownCount": 17,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 1,
+      "center": 2,
       "centerRight": 1,
       "right": 0,
-      "unknown": 18
+      "unknown": 17
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 81
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",

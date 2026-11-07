@@ -3,36 +3,39 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrMzhHcUVoRnBYeWN4em1DSGx5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrMzhHcUVoRnBYeWN4em1DSGx5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 14
+      "topic-5": 64,
+      "topic-7": 17
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 64,
+    "bestSeedRank": 17,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Manifestantes expulsam Paraguayo Cubas de ato em Assunção",
+  "title": "Político Paraguayo Cubas é retirado à força de ato em Assunção",
   "summary": "Payo Cubas tentou se juntar aos atos contra Peña em Assunção, mas foi vaiado e carregado do local por um grupo de manifestantes. Leia no...",
-  "topic": "Protesto · Expulso",
+  "topic": "Protesto · Paraguai",
   "topicKeywords": [
     "protesto",
-    "expulso",
     "paraguai",
+    "expulso",
     "paraguaio",
     "candidato",
     "presidência"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/payo-cubas-manifestantes-5nov2026-1200x675.jpg",
   "publishedAt": "2026-11-06T10:14:04+00:00",
-  "updatedAt": "2026-11-07T04:33:56.667699+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-11-07T06:35:17.849897+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -64,6 +67,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_fc6ea2209866",
+      "title": "'Payo' Cubas é vaiado e retirado de ato no centro de Assunção, no Paraguai",
+      "description": "Paraguayo \"Payo\" Cubas, ex-candidato à Presidência do Paraguai, foi recebido com vaias e protestos por um grupo de jovens ao se aproximar de...",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/payo-cubas-e-vaiado-e-retirado-de-ato-no-centro-de-assuncao-no-paraguai.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-11-07T05:43:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2023/05/05/168332361664557ae07fd00_1683323616_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_c2d6235a9005",
       "title": "Manifestantes expulsam \"Milei paraguaio\" de protesto em Assunção",
       "description": "Grupo de jovens carregou o ex-senador pelos braços e pelas pernas após críticas a parlamentares eleitos por seu partido e aliados de Peña.",
@@ -76,20 +93,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_9b4e908abaf4",
-      "title": "“Milei Paraguaio”, ex-candidato à Presidência, é arrancado de protestos pela população",
-      "description": "Durante protesto contra Santiago Peña, \"Payo\" Cubas foi vaiado e agredido, enquanto Milei Paraguaio também era mencionado pela população.",
-      "url": "https://revistaforum.com.br/global/milei-paraguaio-ex-candidato-a-presidencia-e-arrancado-de-protestos-pela-populacao/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-11-06T13:40:35+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://revistaforum.com.br/wp-content/uploads/2026/11/Payo-Cubas.jpg",
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_dfbf921101cd",
@@ -156,7 +159,7 @@
       "sourceCanonical": "BNews",
       "sourceDomain": "bnews.com.br",
       "publishedAt": "2026-11-07T00:33:19+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -319,12 +322,12 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.7,
+    "average": 4.9,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
-      "left": 2,
-      "centerLeft": 0,
+      "left": 1,
+      "centerLeft": 1,
       "center": 7,
       "centerRight": 1,
       "right": 0,
@@ -332,13 +335,14 @@
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
