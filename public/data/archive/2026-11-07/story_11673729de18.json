@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 12,
-      "topic-5": 20
+      "topic-3": 14,
+      "topic-5": 22
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 14,
+    "bestSeedRank": 14,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -33,8 +33,8 @@
     "fim"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/4tm2xiKM3CBK1qa6HTB8JoC3U18=/1300x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/N/e0GKAOSteYuAY44wIyJw/chuva-londrina-23.png",
-  "publishedAt": "2026-11-05T15:01:08+00:00",
-  "updatedAt": "2026-11-07T14:17:05.393703+00:00",
+  "publishedAt": "2026-11-05T15:59:00+00:00",
+  "updatedAt": "2026-11-07T15:16:52.373076+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,7 +47,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-06T15:06:25+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-g1.glbimg.com/4tm2xiKM3CBK1qa6HTB8JoC3U18=/1300x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/N/e0GKAOSteYuAY44wIyJw/chuva-londrina-23.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -118,7 +118,7 @@
       "sourceDomain": "estado.rs.gov.br",
       "publishedAt": "2026-11-06T18:59:18+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estado.rs.gov.br/upload/recortes/202607/14115322_2294132_GD.jpeg",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -201,7 +201,7 @@
       "sourceCanonical": "Simepar",
       "sourceDomain": "simepar.br",
       "publishedAt": "2026-11-06T14:40:07+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -229,7 +229,21 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-06T14:38:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_08878b6ebafd",
+      "title": "Ciclone e frente fria trazem temporal e ventos fortes ao País",
+      "description": "A atuação de uma frente fria e de um ciclone extratropical altera as condições meteorológicas em grande parte do País nesta quinta-feira, 5.",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/05/ciclone-e-frente-fria-trazem-temporal-e-ventos-fortes-ao-pais.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-11-05T15:59:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -261,20 +275,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_4acf43a775dc",
-      "title": "Ciclone e frente fria trazem temporal e ventos fortes ao País; veja onde",
-      "description": "Tempestades são esperadas até o sábado, 7; expectativa também é de queda de temperaturas em razão da chegada de uma massa de ar polar.",
-      "url": "https://www.estadao.com.br/brasil/ciclone-e-frente-fria-trazem-temporal-e-ventos-fortes-ao-pais-veja-onde/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-05T15:01:08+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_8484e307a1a8",
@@ -322,14 +322,14 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.25,
+    "average": 5.08,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 6,
-      "centerRight": 4,
+      "center": 7,
+      "centerRight": 3,
       "right": 0,
       "unknown": 8
     }

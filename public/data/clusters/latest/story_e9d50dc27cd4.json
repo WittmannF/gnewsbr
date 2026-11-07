@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lhMHJ5aEVoRXZEM25SdHRpVEd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lhMHJ5aEVoRXZEM25SdHRpVEd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 56
+      "topic-3": 54,
+      "topic-5": 65
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 56,
-    "bestSeedRank": 56,
+    "firstSeenRank": 54,
+    "bestSeedRank": 54,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,8 +33,8 @@
     "fávaro"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/AWRMZFZBHVFE3CHI7CEOPJFS7E.jpg?quality=80&auth=ff025877bbe72d96a63eac5f59bf95b4df2ab9f21896731c1497541773684229&width=1200&height=630&smart=true",
-  "publishedAt": "2026-10-30T12:04:06+00:00",
-  "updatedAt": "2026-11-07T14:19:12.884612+00:00",
+  "publishedAt": "2026-10-31T11:14:17+00:00",
+  "updatedAt": "2026-11-07T15:18:20.761889+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -246,20 +249,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4d8ddbf93a16",
-      "title": "Coluna da sexta | PSD abre caminho para Raquel",
-      "description": "A aproximação de Gilberto Kassab com Lula tende a produzir um efeito cascata em Pernambuco. Com o avanço do PL e da direita no Congresso,...",
-      "url": "https://www.cbnrecife.com/blogdoelielson/2026/10/30/coluna-da-sexta-psd-abre-caminho-para-raquel/",
-      "source": "CBN Recife",
-      "sourceCanonical": "CBN Recife",
-      "sourceDomain": "cbnrecife.com",
-      "publishedAt": "2026-10-30T12:04:06+00:00",
-      "postedLabel": "8 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_7f2268dbb6b3",
       "title": "Qual a cara do futuro ministro da Agricultura?",
       "description": "Disputa pelo comando do Mapa no próximo governo Lula começa a movimentar os bastidores políticos e capacidade de articulação política deve...",
@@ -314,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_dfeb260e39a8",
+      "title": "Kassab elogia campanha de Lula e diz que família Bolsonaro está fora do jogo político",
+      "description": "O presidente do PSD reconheceu que “a esquerda sai mais organizada da eleição”. “Quanto mais Flávio foi se apresentando na eleição,...",
+      "url": "https://horadopovo.com.br/kassab-elogia-campanha-de-lula-e-diz-que-familia-bolsonaro-esta-fora-do-jogo-politico/",
+      "source": "Hora do Povo",
+      "sourceCanonical": "Hora do Povo",
+      "sourceDomain": "horadopovo.com.br",
+      "publishedAt": "2026-10-31T11:14:17+00:00",
+      "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.62,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.11,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 2,
       "center": 2,
       "centerRight": 1,
       "right": 2,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
