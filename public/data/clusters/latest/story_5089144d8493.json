@@ -3,37 +3,40 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrbWVLcUVoRmRtU1FLTnF4VlBpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrbWVLcUVoRmRtU1FLTnF4VlBpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 52
+      "topic-3": 33,
+      "topic-5": 50
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 52,
-    "bestSeedRank": 52,
+    "firstSeenRank": 33,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
   "title": "Homem é preso após matar companheira em São Vicente",
   "summary": "Mulher de 38 anos foi morta pelo companheiro, de 33, após uma discussão em apartamento em São Vicente (SP). Ele confessou o crime e foi...",
-  "topic": "Mãe · Vicente",
+  "topic": "Vicente · Mãe",
   "topicKeywords": [
-    "mãe",
     "vicente",
+    "mãe",
+    "ajuda",
+    "porteiro",
     "corpo",
-    "preso",
-    "facadas",
-    "ajuda"
+    "preso"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/YRVMoX-_zMZ59hhgYi656vfvKZ0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/V/aUnsKtRCeDdGDbSIjHMQ/crianca-ajuda.jpg",
   "publishedAt": "2026-11-06T14:51:28+00:00",
-  "updatedAt": "2026-11-07T15:18:16.932245+00:00",
+  "updatedAt": "2026-11-07T16:18:54.560614+00:00",
   "sourceCount": 12,
-  "articleCount": 17,
+  "articleCount": 18,
   "articles": [
     {
       "id": "article_cb7b368928cc",
@@ -44,7 +47,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-07T09:19:33+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/YRVMoX-_zMZ59hhgYi656vfvKZ0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/V/aUnsKtRCeDdGDbSIjHMQ/crianca-ajuda.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -58,7 +61,7 @@
       "sourceCanonical": "sampi.net.br",
       "sourceDomain": "sampi.net.br",
       "publishedAt": "2026-11-07T12:11:40+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://sampi.net.br/dir-arquivo-imagem/2026/11/c071e68e1f7922ce1613bc988264d970.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -170,7 +173,7 @@
       "sourceCanonical": "A Tribuna",
       "sourceDomain": "atribuna.com.br",
       "publishedAt": "2026-11-06T15:27:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -260,6 +263,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_9efec4366d1c",
+      "title": "Feminicídio em São Vicente: menino de 4 anos pede ajuda a porteiro",
+      "description": "Um menino de 4 anos pediu ajuda ao porteiro de um condomínio em São Vicente após feminicídio da mãe dentro do apartamento onde mora.",
+      "url": "https://jornaldaorla.com.br/noticias/feminicidio-sao-vicente-menino-ajuda/",
+      "source": "Jornal da Orla",
+      "sourceCanonical": "Jornal da Orla",
+      "sourceDomain": "jornaldaorla.com.br",
+      "publishedAt": "2026-11-07T15:30:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_4c76ef27c989",
       "title": "Criança de 4 anos encontra corpo da própria mãe vítima",
       "description": "A Polícia Civil prendeu um homem suspeito de matar a companheira a facadas em São Vicente, no litoral de São Paulo, na madrugada desta...",
@@ -279,14 +296,14 @@
     "max": 5,
     "average": 5,
     "knownCount": 8,
-    "unknownCount": 9,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 8,
       "centerRight": 0,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
