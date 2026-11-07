@@ -3,36 +3,42 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2c01TbEVoSFZWR09JS0JGMm5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2c01TbEVoSFZWR09JS0JGMm5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 2,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Prédio de quatro andares desaba no Brás em São Paulo",
   "summary": "Equipes de resgate utilizaram cães farejadores na busca por possíveis vítimas sob os escombros na zona central paulistana; 27 pessoas já...",
-  "topic": "Prédio · Brás",
+  "topic": "Brás · Prédio",
   "topicKeywords": [
-    "prédio",
     "brás",
+    "prédio",
     "desaba",
+    "desabamento",
     "paulo",
-    "andares",
-    "desabamento"
+    "andares"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Design-sem-nome-48.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-11-06T22:22:13+00:00",
-  "updatedAt": "2026-11-07T10:25:08.710521+00:00",
-  "sourceCount": 20,
+  "publishedAt": "2026-11-06T22:12:00+00:00",
+  "updatedAt": "2026-11-07T11:14:14.444631+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -64,6 +70,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_934f467564c0",
+      "title": "Prédio que desabou no Brás, no Centro de SP, não tinha Auto de Vistoria do Corpo de Bombeiros",
+      "description": "O documento emitido pelo Corpo de Bombeiros atesta que uma edificação possui as condições de segurança contra incêndio e pânico exigidas por...",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/07/predio-que-desabou-no-bras-no-centro-de-sp-nao-tinha-auto-de-vistoria-do-corpo-de-bombeiros.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-07T10:43:00+00:00",
+      "postedLabel": "31 minutos atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/gdeRnRpTY55ZUAG8sOPXpl8URxM=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Z/6/uIU6eFSVmvTp8Jtr06hQ/feridos-nas-lonas.jpeg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_309f48180fed",
       "title": "'Tecido nos salvou', diz trabalhador de prédio que desabou no Brás, em SP",
       "description": "Trabalhadores que estavam no prédio de quatro andares que desabou no Brás, polo comercial na região central de São Paulo, afirmam que a...",
@@ -72,24 +92,38 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-07T05:46:09+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_b1c259e70351",
-      "title": "‘Se não fossem os tecidos, a gente morria’, diz vítima de queda de prédio no Brás",
-      "description": "35 pessoas estavam dentro do imóvel e quatro sofreram ferimentos leves.",
-      "url": "https://www.estadao.com.br/sao-paulo/se-nao-fossem-os-tecidos-a-gente-morria-diz-vitima-de-queda-de-predio-no-bras/",
+      "id": "article_6144ba59b38f",
+      "title": "Câmera registra exato momento do desabamento de prédio no Brás",
+      "description": "Uma câmera do Smart Sampa, programa de monitoramento da Prefeitura, flagrou o exato momento em que um prédio de quatro andares desabou no...",
+      "url": "https://www.estadao.com.br/sao-paulo/camera-registra-exato-momento-do-desabamento-de-predio-no-bras/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-07T02:24:09+00:00",
+      "publishedAt": "2026-11-07T02:27:16+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.estadao.com.br/resizer/v2/ZRILDLCPIFDPNIGZKYCJHE4BRA.jpeg?quality=80&auth=8e41d570d07e7ddbc97cd284361348be2fecef04d4d4d13203eecb76ba4653b3&width=1200&height=630&smart=true",
+      "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_1249045f4121",
+      "title": "Prédio de 4 andares desaba e deixa ao menos 20 feridos em São Paulo",
+      "description": "Imóvel funcionava como depósito de tecidos no Brás; bombeiros mobilizaram 16 viaturas. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-brasil/predio-de-4-andares-desaba-e-deixa-ao-menos-20-feridos-em-sao-paulo/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-07T00:24:33+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_0ca17b8f764e",
@@ -120,28 +154,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_f03dcb52bff3",
-      "title": "Câmera de segurança flagra o momento exato do desabamento de prédio no Brás Veja vídeo",
-      "description": "São Paulo — Uma câmeras de segurança do sistema Smart Sampa registrou o momento exato da queda de um prédio de 4 andares no Brás no começo...",
-      "url": "https://www.metropoles.com/sao-paulo/camera-de-seguranca-flagra-o-momento-exato-do-desabamento-de-predio-no-bras",
+      "id": "article_739e8d147065",
+      "title": "Prédio de 4 andares desaba no Brás e deixa 27 feridos",
+      "description": "Trabalhadores que faziam descarga de mercadorias estão entre feridos. Corpo de Bombeiros relatou o deslocamento de 51 agentes e 17 viaturas.",
+      "url": "https://www.metropoles.com/sao-paulo/predio-desaba-no-bras",
       "source": "Metrópoles",
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-07T01:29:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_a5ba21915570",
-      "title": "Prédio de quatro andares colapsa na cidade de São Paulo, no Brasil",
-      "description": "Não há, até ao momento, registo de vítimas mortais. As causas do desabamento permanecem por apurar.",
-      "url": "https://sicnoticias.pt/mundo/brasil/2026-11-06-predio-de-quatro-andares-colapsa-na-cidade-de-sao-paulo-no-brasil-90b538b9",
-      "source": "SIC Notícias",
-      "sourceCanonical": "SIC Notícias",
-      "sourceDomain": "sicnoticias.pt",
-      "publishedAt": "2026-11-06T22:38:40+00:00",
+      "publishedAt": "2026-11-06T22:12:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -162,6 +182,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_a5ba21915570",
+      "title": "Prédio de quatro andares colapsa na cidade de São Paulo, no Brasil",
+      "description": "Não há, até ao momento, registo de vítimas mortais. As causas do desabamento permanecem por apurar.",
+      "url": "https://sicnoticias.pt/mundo/brasil/2026-11-06-predio-de-quatro-andares-colapsa-na-cidade-de-sao-paulo-no-brasil-90b538b9",
+      "source": "SIC Notícias",
+      "sourceCanonical": "SIC Notícias",
+      "sourceDomain": "sicnoticias.pt",
+      "publishedAt": "2026-11-06T22:38:40+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_4b0af603be72",
       "title": "Bombeiros falam em pelo menos 20 vítimas em desabamento. 📲 #RecordNews #Notícias #Shorts",
       "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade.",
@@ -176,18 +210,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_1249045f4121",
-      "title": "Prédio de 4 andares desaba e deixa ao menos 20 feridos em São Paulo",
-      "description": "Imóvel funcionava como depósito de tecidos no Brás; bombeiros mobilizaram 16 viaturas. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-brasil/predio-de-4-andares-desaba-e-deixa-ao-menos-20-feridos-em-sao-paulo/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-11-07T00:24:33+00:00",
+      "id": "article_5260ee091bf4",
+      "title": "‘Não ter mortos é grata surpresa’, diz capitã dos Bombeiros sobre desabamento no Brás",
+      "description": "A capitã do Corpo de Bombeiros, Karoline Magalhães, classificou como uma 'grata surpresa' o fato de não ter nenhuma vítima fatal no...",
+      "url": "https://jovempan.com.br/brasil/nao-ter-mortos-e-grata-surpresa-diz-capita-dos-bombeiros-sobre-desabamento-no-bras/",
+      "source": "Jovem Pan",
+      "sourceCanonical": "Jovem Pan",
+      "sourceDomain": "jovempan.com.br",
+      "publishedAt": "2026-11-06T23:53:22+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_89283e1407b1",
@@ -260,20 +294,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e6a4a7597087",
-      "title": "Prédio de quatro andares desaba no Brás e deixa feridos",
-      "description": "Ocorrência foi na Rua Maria Joaquina, e equipe do Defesa Civil está no lugar para analisar se os prédio no entorno não precisar ser...",
-      "url": "https://jovempan.com.br/brasil/predio-de-quatro-andares-desaba-do-bras-e-deixa-vitimas/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-11-06T22:22:13+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
-    },
-    {
       "id": "article_1282ee81caf2",
       "title": "Sobrevivente relata excesso de peso de tecidos em prédio que desabou em SP",
       "description": "Um homem que escapou do desabamento de um prédio comercial de quatro andares no Brás, região central de São Paulo, relatou à equipe de...",
@@ -286,20 +306,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f2b63586031b",
-      "title": "Prédio de 4 andares desaba no Brás e 35 pessoas conseguem escapar",
-      "description": "Um prédio de quatro andares desabou no fim da tarde de ontem, na altura do número 192 da Rua Maria Joaquina, no Brás, região central de São...",
-      "url": "https://tribunadonorte.com.br/brasil/predio-de-4-andares-desaba-no-bras-e-35-pessoas-conseguem-escapar/",
-      "source": "Tribuna do Norte",
-      "sourceCanonical": "Tribuna do Norte",
-      "sourceDomain": "tribunadonorte.com.br",
-      "publishedAt": "2026-11-07T09:11:50+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_cd55cb9576fd",
