@@ -27,11 +27,11 @@
     "guerra",
     "trump",
     "ataques",
-    "atacam"
+    "não"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/S77OZ3SKQNDCLHMMKGNA2GYOKU.jpg?quality=80&auth=83267b40e9551a251b3ff54be28ae63696103f6a5cfc9297f17a0d89913d89dd&width=1200&height=630&smart=true",
   "publishedAt": "2026-10-31T11:51:00+00:00",
-  "updatedAt": "2026-11-07T09:29:07.240477+00:00",
+  "updatedAt": "2026-11-07T10:30:59.216651+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-07T03:57:07+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -58,7 +58,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-07T04:28:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/S77OZ3SKQNDCLHMMKGNA2GYOKU.jpg?quality=80&auth=83267b40e9551a251b3ff54be28ae63696103f6a5cfc9297f17a0d89913d89dd&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -148,6 +148,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_6911967ca9dd",
+      "title": "Exército iraniano adverte que não vai permitir que EUA reconstruam bases na região",
+      "description": "Teerão, 07 nov 2026 (Lusa) – O Exército iraniano advertiu hoje que não permitirá a reconstrução das bases militares norte-americanas no...",
+      "url": "https://www.correiodamanhacanada.com/exercito-iraniano-adverte-que-nao-vai-permitir-que-eua-reconstruam-bases-na-regiao/",
+      "source": "Correio da Manhã Canadá",
+      "sourceCanonical": "Correio da Manhã Canadá",
+      "sourceDomain": "correiodamanhacanada.com",
+      "publishedAt": "2026-11-07T09:34:17+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_1908a44e25e9",
       "title": "Será que os EUA poderiam retomar os ataques ao Irã na lua nova?",
       "description": "TPO - Realizar ataques na lua nova, quando quase não há luar, daria aos militares dos EUA uma vantagem.",
@@ -212,7 +226,7 @@
       "sourceCanonical": "RTP",
       "sourceDomain": "rtp.pt",
       "publishedAt": "2026-11-02T10:19:03+00:00",
-      "postedLabel": "4 dias atrás",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,35 +314,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_a2bd94be0ed8",
-      "title": "EUA atacam Irã poucas horas antes da abertura das urnas para as midterms",
-      "description": "As forças armadas dos Estados Unidos realizaram ataques contra a ilha de Qeshm, no Irã, nesta segunda-feira (2), poucas horas antes da...",
-      "url": "https://www.gazetadopovo.com.br/mundo/eua-atacam-ira-poucas-horas-antes-abertura-urnas-midterms/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-11-03T10:48:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 4.93,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.71,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 3,
       "centerLeft": 2,
       "center": 6,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
