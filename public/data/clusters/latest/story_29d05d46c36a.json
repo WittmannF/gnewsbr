@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYcy1tUEVoRkJnQndxMTY1TTNpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYcy1tUEVoRkJnQndxMTY1TTNpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-6"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-6"
     ],
     "seedRanks": {
-      "topic-5": 29
+      "topic-5": 30,
+      "topic-6": 2
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 29,
-    "bestSeedRank": 29,
+    "firstSeenRank": 30,
+    "bestSeedRank": 2,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "paulo",
     "bortoleto",
+    "fórmula",
     "interlagos",
-    "treino",
-    "câmara",
-    "fórmula"
+    "norris",
+    "pole"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/LMMKA2XUOJAPVHOLFHIMDJMHSQ.jpeg?quality=80&auth=295ce49ae2898302cba6a296f1724aec57a7da2f3529fc306755a15eecea36d6&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-06T12:00:00+00:00",
-  "updatedAt": "2026-11-08T04:27:50.776926+00:00",
+  "updatedAt": "2026-11-08T07:25:11.448466+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -72,7 +75,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
       "publishedAt": "2026-11-08T01:03:10+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://conteudo.imguol.com.br/c/esporte/df/2026/11/07/gabriel-bortoleto-piloto-brasileiro-da-audi-durante-o-classificatorio-da-f1-em-sao-paulo-1794080363430_v2_615x300.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -176,6 +179,48 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_87b2f2fc02fb",
+      "title": "Lando Norris faz pole position no GP do Brasil de F1",
+      "description": "Os brasileiros Rafa Câmara e Gabriel Bortoleto largam em 11º e 19º, respectivamente.",
+      "url": "https://mais.opovo.com.br/jornal/esportes/2026/11/08/lando-norris-faz-pole-position-no-gp-do-brasil-de-f1.html",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-11-08T04:00:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_a3d434230144",
+      "title": "Norris na pole, brasileiros em busca de reação: o que esperar do GP de São Paulo em Interlagos",
+      "description": "Interlagos chega ao domingo com todos os ingredientes para uma corrida movimentada. Depois de uma classificação marcada por chuva forte,...",
+      "url": "https://esportes.r7.com/prisma/entre-curvas/norris-na-pole-brasileiros-em-busca-de-reacao-o-que-esperar-do-gp-de-sao-paulo-em-interlagos-08112026/",
+      "source": "R7 Esportes",
+      "sourceCanonical": "R7 Esportes",
+      "sourceDomain": "esportes.r7.com",
+      "publishedAt": "2026-11-08T05:00:01+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f6865d2b668f",
+      "title": "Como foi o acidente de Rafael Câmara no treino de classificação do GP de São Paulo",
+      "description": "Brasileiro foi ao Q2, mas bateu na parte final da atividade; piloto da Haas larga em 11º.",
+      "url": "https://gauchazh.clicrbs.com.br/esportes/automobilismo/noticia/2026/11/como-foi-o-acidente-de-rafael-camara-no-treino-de-classificacao-do-gp-de-sao-paulo-cmw6wgl4c02e0015os5cucq5k.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-11-07T21:16:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_3f98a7d178a9",
       "title": "GP de SP mantém tradição de 'caos chuvoso' e fãs sofrem com transtornos dentro e fora do paddock",
       "description": "Além do caos vivido pelos fãs, temporal provocou a paralisação da sessão qualificatória deste sábado, 7, por mais de uma hora.",
@@ -190,28 +235,42 @@
       "bucket": "center"
     },
     {
-      "id": "article_6b1182560e25",
-      "title": "Norris navega em Interlagos e crava pole em dia de acidentes dos brasileiros na Fórmula 1",
-      "description": "Bortoleto ficou no Q1, Camara avançou no Q2 com boa performance, mas acabou no muro.",
-      "url": "https://www.correiodopovo.com.br/blogs/pitlane/norris-navega-em-interlagos-e-crava-pole-em-dia-de-acidentes-dos-brasileiros-na-formula-1-1.1762790",
+      "id": "article_abc111f202ab",
+      "title": "Fórmula 1 renova com GP do Brasil até 2035",
+      "description": "Acordo com a capital paulista é divulgado durante a etapa deste fim de semana e prevê investimentos para um espetáculo de nível mundial.",
+      "url": "https://www.correiodopovo.com.br/esportes/formula-1-renova-com-gp-do-brasil-ate-2035-1.1762765",
       "source": "Correio do Povo",
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-11-07T20:36:44+00:00",
+      "publishedAt": "2026-11-07T18:06:40+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_f6865d2b668f",
-      "title": "Como foi o acidente de Rafael Câmara no treino de classificação do GP de São Paulo",
-      "description": "Brasileiro foi ao Q2, mas bateu na parte final da atividade; piloto da Haas larga em 11º.",
-      "url": "https://gauchazh.clicrbs.com.br/esportes/automobilismo/noticia/2026/11/como-foi-o-acidente-de-rafael-camara-no-treino-de-classificacao-do-gp-de-sao-paulo-cmw6wgl4c02e0015os5cucq5k.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-11-07T21:16:19+00:00",
+      "id": "article_e995ea84f9bf",
+      "title": "Norris crava pole no GP de São Paulo em quali com chuva",
+      "description": "Lando Norris, da McLaren, conquistou a pole position do Grande Prêmio de São Paulo de Fórmula 1 neste sábado (7), em uma classificação...",
+      "url": "https://www.campograndenews.com.br/esportes/norris-larga-na-frente-no-brasil-apos-treino-com-chuva-e-acidentes",
+      "source": "Campo Grande News",
+      "sourceCanonical": "Campo Grande News",
+      "sourceDomain": "campograndenews.com.br",
+      "publishedAt": "2026-11-08T01:47:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_cbeaa4d2d521",
+      "title": "Fórmula 1 prorroga contrato com São Paulo até 2035",
+      "description": "A Fórmula 1 continuará a realizar corridas no circuito de Interlagos, em São Paulo, até 2035, após a prorrogação do contrato por cinco anos,...",
+      "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/formula-1-prorroga-contrato-com-sao-paulo-ate-2035",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-11-07T17:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -232,20 +291,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_cbeaa4d2d521",
-      "title": "Fórmula 1 prorroga contrato com São Paulo até 2035",
-      "description": "A Fórmula 1 continuará a realizar corridas no circuito de Interlagos, em São Paulo, até 2035, após a prorrogação do contrato por cinco anos,...",
-      "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/formula-1-prorroga-contrato-com-sao-paulo-ate-2035",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-07T17:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_8d3e1239007f",
       "title": "Chay Suede, de 'Quem Ama Cuida', fica frente a frente com Lewis Hamilton nos bastidores da F1 e entrega surpresa para piloto; Maisa aposta em visual militar e Erika Januza, de 'A Nobreza do Amor', chama atenção com vestido longo roxo",
       "description": "O sábado de classificação em Interlagos reuniu estrelas da TV e da música, encontros nos boxes da Ferrari e produções que foram do estilo...",
@@ -260,75 +305,33 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ff8bccb88ef7",
-      "title": "Chuva forte embaralha grid e abre chance de melhor corrida da temporada em São Paulo",
-      "description": "A forte chuva que desabou sob Interlagos não só atrasou o início da classificação, como também representou um ótimo teste para os poucos...",
-      "url": "https://grandepremio.com/br/f1/chuva-forte-embaralha-grid-e-abre-chance-de-melhor-corrida-da-temporada-em-sao-paulo/",
-      "source": "Grande Prêmio",
-      "sourceCanonical": "Grande Prêmio",
-      "sourceDomain": "grandepremio.com",
-      "publishedAt": "2026-11-08T00:30:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_5030537673bb",
+      "title": "No final de semana da Fórmula 1, Qatar Airways envia pela 1ª vez Boeing 777 temático para São Paulo",
+      "description": "A Qatar Airways enviou pela primeira vez para São Paulo uma aeronave temática da Fórmula 1, coincidindo com o final de semana em que é...",
+      "url": "https://aeroin.net/no-final-de-semana-da-formula-1-qatar-airways-envia-pela-1a-vez-boeing-777-tematico-para-sao-paulo/",
+      "source": "AEROIN",
+      "sourceCanonical": "AEROIN",
+      "sourceDomain": "aeroin.net",
+      "publishedAt": "2026-11-07T15:14:48+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f582cf161cf9",
-      "title": "F1 retoma treino classificatório após chuva em Interlagos",
-      "description": "A classificação da Fórmula 1 para o Grande Prêmio de São Paulo foi retomada neste sábado (7), após ser interrompida por causa da chuva na...",
-      "url": "https://sbtnews.sbt.com.br/noticia/esportes/chuva-interrompe-classificacao-da-f1-em-interlagos",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-07T18:51:49+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_e995ea84f9bf",
-      "title": "Norris crava pole no GP de São Paulo em quali com chuva",
-      "description": "Lando Norris, da McLaren, conquistou a pole position do Grande Prêmio de São Paulo de Fórmula 1 neste sábado (7), em uma classificação...",
-      "url": "https://www.campograndenews.com.br/esportes/norris-larga-na-frente-no-brasil-apos-treino-com-chuva-e-acidentes",
-      "source": "Campo Grande News",
-      "sourceCanonical": "Campo Grande News",
-      "sourceDomain": "campograndenews.com.br",
-      "publishedAt": "2026-11-08T01:47:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_2fc422c042e3",
-      "title": "Bortoleto larga em 19º no GP São Paulo e foca em corrida de recuperação",
-      "description": "Bortoleto tocou na Haas de Bearman e bateu em muro, terminando o qualy na última posição. Após punições de outros pilotos, ficou com a 19ª.",
-      "url": "https://www.metropoles.com/sao-paulo/bortoleto-larga-em-19o-no-gp-sao-paulo-e-foca-em-corrida-de-recuperacao",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-07T22:02:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.31,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.27,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
-      "center": 9,
+      "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 9
     }
   },
   "scores": {
