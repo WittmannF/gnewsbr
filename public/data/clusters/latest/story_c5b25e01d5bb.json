@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvajhlbkVoRTU0ZDhZemZJcGhTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvajhlbkVoRTU0ZDhZemZJcGhTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 2
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Governadores aliados de Flávio Bolsonaro buscam relação pragmática com Lula",
   "summary": "Governadores reeleitos ou eleitos que apoiaram a candidatura de Flávio Bolsonaro (PL), derrotado na disputa presidencial, pregam uma relação...",
@@ -31,8 +37,8 @@
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/10/14140546/flavio-caiado-tarcisio-bolsonarismo.jpg",
   "publishedAt": "2026-10-30T12:27:48+00:00",
-  "updatedAt": "2026-11-08T10:17:06.594620+00:00",
-  "sourceCount": 17,
+  "updatedAt": "2026-11-08T11:14:25.493493+00:00",
+  "sourceCount": 16,
   "articleCount": 20,
   "articles": [
     {
@@ -44,7 +50,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-08T09:00:09+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,18 +70,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_b44a9f28f3a3",
-      "title": "Após apoiar Flávio, Riedel precisa do presidente Lula para resguardar obras bilionárias em MS - Ponta Porã",
-      "description": "Governador reeleito ainda não confirmou contato com o presidente e deve retomar articulação depois de fim de licença.",
-      "url": "https://www.pontaporainforma.com.br/apos-apoiar-flavio-riedel-precisa-de-do-presidente-lula-para-resguardar-obras-bilionarias-em-ms/",
-      "source": "Ponta Porã Informa",
-      "sourceCanonical": "Ponta Porã Informa",
-      "sourceDomain": "pontaporainforma.com.br",
-      "publishedAt": "2026-11-04T11:41:00+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": "https://www.pontaporainforma.com.br/wp-content/uploads/2026/11/riedel-ms.png",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "id": "article_a930d59b0e26",
+      "title": "Governadores aliados de Flávio Bolsonaro adotam discurso de diálogo com Lula",
+      "description": "Governadores eleitos ou reeleitos com apoio de Flávio Bolsonaro (PL) na disputa presidencial passaram a defender uma relação institucional e...",
+      "url": "https://www.diariodocentrodomundo.com.br/aliados-flavio-bolsonaro-dialogo-lula-governadores/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-11-08T10:28:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/11/captura-de-tela-2026-11-08-as-07-19-13.png",
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_af0515fa6dac",
@@ -86,7 +92,7 @@
       "sourceCanonical": "TV Sim Brasil",
       "sourceDomain": "tvsimbrasil.com.br",
       "publishedAt": "2026-11-08T09:40:12+00:00",
-      "postedLabel": "36 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,7 +120,7 @@
       "sourceCanonical": "Jornal do Tocantins",
       "sourceDomain": "jornaldotocantins.com.br",
       "publishedAt": "2026-11-02T10:28:12+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -176,6 +182,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b44a9f28f3a3",
+      "title": "Após apoiar Flávio, Riedel precisa do presidente Lula para resguardar obras bilionárias em MS - Ponta Porã",
+      "description": "Governador reeleito ainda não confirmou contato com o presidente e deve retomar articulação depois de fim de licença.",
+      "url": "https://www.pontaporainforma.com.br/apos-apoiar-flavio-riedel-precisa-de-do-presidente-lula-para-resguardar-obras-bilionarias-em-ms/",
+      "source": "Ponta Porã Informa",
+      "sourceCanonical": "Ponta Porã Informa",
+      "sourceDomain": "pontaporainforma.com.br",
+      "publishedAt": "2026-11-04T11:41:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_589e61de758e",
       "title": "Governadores que apoiaram Flávio reconhecem vitória de Lula e buscam diálogo com o Planalto",
       "description": "Levantamento mostra que 13 dos 15 governadores que estiveram ao lado do senador reconheceram a reeleição do presidente. Pressões fiscais e...",
@@ -185,6 +205,20 @@
       "sourceDomain": "acessepolitica.com.br",
       "publishedAt": "2026-11-01T19:52:15+00:00",
       "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_b774ff15f85d",
+      "title": "Lula supera Flávio Bolsonaro em votos conquistados em SP, MG e GO",
+      "description": "Levantamento mostra que Lula ganhou mais votos que Flávio entre o 1º e o 2º turno nos três estados onde havia apoio declarado de...",
+      "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/05/lula-supera-flavio-bolsonaro-votos-conquistados-sp-mg-go",
+      "source": "TV Sim Brasil",
+      "sourceCanonical": "TV Sim Brasil",
+      "sourceDomain": "tvsimbrasil.com.br",
+      "publishedAt": "2026-11-05T09:21:10+00:00",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -202,20 +236,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_b774ff15f85d",
-      "title": "Lula supera Flávio Bolsonaro em votos conquistados em SP, MG e GO",
-      "description": "Levantamento mostra que Lula ganhou mais votos que Flávio entre o 1º e o 2º turno nos três estados onde havia apoio declarado de...",
-      "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/05/lula-supera-flavio-bolsonaro-votos-conquistados-sp-mg-go",
-      "source": "TV Sim Brasil",
-      "sourceCanonical": "TV Sim Brasil",
-      "sourceDomain": "tvsimbrasil.com.br",
-      "publishedAt": "2026-11-05T09:21:10+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_d92f08af8c53",
@@ -296,39 +316,25 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-11-02T10:57:00+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_b6a301ebb2c2",
-      "title": "Flávio Bolsonaro: Aliados não ajudam na transferência de votos no 2º turno",
-      "description": "Brasil - Principais aliados de Flávio Bolsonaro em três dos grandes colégios eleitorais do Brasil, os governadores Tarcísio de Freitas (SP),...",
-      "url": "https://oparana.com.br/politica/vendido-na-historia/",
-      "source": "O Paraná",
-      "sourceCanonical": "O Paraná",
-      "sourceDomain": "oparana.com.br",
-      "publishedAt": "2026-11-05T12:20:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 4.67,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
