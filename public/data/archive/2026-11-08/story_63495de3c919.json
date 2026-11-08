@@ -3,39 +3,45 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0MjcycEVoRWJZTWJicXItWTR5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0MjcycEVoRWJZTWJicXItWTR5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 3,
-      "topic-5": 4
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 4,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Lutador Lucas Portela Fontana Gomes alega não lembrar de agressões",
+  "title": "Lucas Portela Fontana Gomes agride vizinhas em condomínio na Tijuca",
   "summary": "Duas mulheres que foram agredidas em um edifício na Avenida Maracanã, na Tijuca, Zona Norte do Rio, pelo lutador de jiu-jítsu Lucas Portela...",
   "topic": "Lutador · Vizinhas",
   "topicKeywords": [
     "lutador",
     "vizinhas",
     "preso",
-    "jiu",
     "rio",
+    "jiu",
     "jítsu"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/xkCKL164emFkMUYoPEDRswJZ804=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/9/O/aQE538TJSzB31BdBoG6w/whatsapp-image-2026-11-07-at-15.30.45.jpeg",
   "publishedAt": "2026-11-06T16:31:56+00:00",
-  "updatedAt": "2026-11-08T16:17:00.378294+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-11-08T17:13:55.397141+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -47,7 +53,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-08T13:50:05+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/xkCKL164emFkMUYoPEDRswJZ804=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/9/O/aQE538TJSzB31BdBoG6w/whatsapp-image-2026-11-07-at-15.30.45.jpeg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -67,6 +73,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_beeb64d878c8",
+      "title": "Justiça mantém preso lutador que espancou vizinhas em condomínio no RJ",
+      "description": "Justiça converte em preventiva a prisão de Lucas Portela Fontana Gomes, suspeito de invadir apartamentos e agredir mulheres em prédio na...",
+      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/07/justica-do-rio-mantem-preso-suspeito-de-atacar-vizinhas-e-tentar-matar-duas.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-11-08T01:40:03+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_1d1b89f82126",
       "title": "Lutador agressor de vizinhas afirma usar cocaína, maconha e remédios controlados",
       "description": "Na ata da audiência que converteu prisão temporária em preventiva, o juiz escreveu que Lucas Portela não aparenta ter nenhum transtorno...",
@@ -75,7 +95,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-08T14:30:36+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/11/IMG_6413.jpeg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -90,7 +110,7 @@
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-07T18:17:22+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Agressao-vizinha-elevador-1.jpg?w=1200&h=630&crop=1",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -107,34 +127,6 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_ae4b1b39e41b",
-      "title": "'Perfil problemático', brigas e anabolizantes: quem é o lutador de jiu-jítsu preso por espancar vizinhas na Tijuca",
-      "description": "Segundo relatos à polícia, Lucas Portela tinha histórico de provocar vizinhos e de se envolver em brigas; investigação também apura seu...",
-      "url": "https://oglobo.globo.com/rio/noticia/2026/11/08/perfil-problematico-brigas-e-anabolizantes-quem-e-o-lutador-de-jiu-jitsu-preso-por-espancar-vizinhas-na-tijuca.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-11-08T09:00:02+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_beeb64d878c8",
-      "title": "Justiça mantém preso lutador que espancou vizinhas em condomínio no RJ",
-      "description": "Justiça converte em preventiva a prisão de Lucas Portela Fontana Gomes, suspeito de invadir apartamentos e agredir mulheres em prédio na...",
-      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/07/justica-do-rio-mantem-preso-suspeito-de-atacar-vizinhas-e-tentar-matar-duas.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-08T01:40:03+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_76f1e5230c81",
@@ -187,7 +179,7 @@
       "sourceCanonical": "O Dia",
       "sourceDomain": "odia.ig.com.br",
       "publishedAt": "2026-11-08T10:51:07+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -201,7 +193,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-11-06T16:31:56+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -243,7 +235,7 @@
       "sourceCanonical": "Band",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-11-06T16:54:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -291,6 +283,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_af36a2642556",
+      "title": "Vítimas espancadas por lutador de jiu-jítsu relatam medo e cobram por justiça",
+      "description": "Da Redação – As vítimas do ataque violento cometido por um lutador de jiu-jítsu, no bairro da Tijuca, na Zona Norte do Rio de Janeiro,...",
+      "url": "https://ricardoantunes.net/vitimas-espancadas-por-lutador-de-jiu-jitsu-relatam-medo-e-cobram-por-justica/",
+      "source": "Blog do Ricardo Antunes",
+      "sourceCanonical": "Blog do Ricardo Antunes",
+      "sourceDomain": "ricardoantunes.net",
+      "publishedAt": "2026-11-08T12:57:05+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_304dc573a016",
       "title": "Lutador preso por agredir vizinhas já tinha registro criminal e publicava rotina de treinos nas redes sociais",
       "description": "Uma das vítimas, de 40 anos, foi espancada dentro de um elevador; a outra, de 81, também foi atacada durante a madrugada.",
@@ -305,15 +311,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_af36a2642556",
-      "title": "Vítimas espancadas por lutador de jiu-jítsu relatam medo e cobram por justiça",
-      "description": "Da Redação – As vítimas do ataque violento cometido por um lutador de jiu-jítsu, no bairro da Tijuca, na Zona Norte do Rio de Janeiro,...",
-      "url": "https://ricardoantunes.net/vitimas-espancadas-por-lutador-de-jiu-jitsu-relatam-medo-e-cobram-por-justica/",
-      "source": "Blog do Ricardo Antunes",
-      "sourceCanonical": "Blog do Ricardo Antunes",
-      "sourceDomain": "ricardoantunes.net",
-      "publishedAt": "2026-11-08T12:57:05+00:00",
-      "postedLabel": "3 horas atrás",
+      "id": "article_811465a9070a",
+      "title": "Uso de anabolizantes, anotação criminal e posts sobre treinos de artes marciais: quem é o lutador preso por espancar vizinhas",
+      "description": "Blog O Potiguar, por Daniel Menezes. Análises políticas, notícias do Rio Grande do Norte e bastidores do poder em Natal e no RN.",
+      "url": "https://www.opotiguar.com.br/uso-de-anabolizantes-anotacao-criminal-e-posts-sobre-treinos-de-artes-marciais-quem-e-o-lutador-preso-por-espancar-vizinhas",
+      "source": "O Potiguar",
+      "sourceCanonical": "O Potiguar",
+      "sourceDomain": "opotiguar.com.br",
+      "publishedAt": "2026-11-07T17:21:59+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -322,16 +328,16 @@
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.27,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.21,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
       "right": 1,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +349,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
