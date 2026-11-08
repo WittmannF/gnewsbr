@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pSeXV1ckVoRzBwbXpteVFvcU5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pSeXV1ckVoRzBwbXpteVFvcU5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 8
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 13
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Defesa Civil Nacional recomenda kit de emergência para 72 horas",
   "summary": "Órgão fez uma publicação nas redes sociais de caráter preventivo orientando como preparar um kit de emergência para até três dias.",
@@ -26,12 +32,12 @@
     "civil",
     "kit",
     "emergência",
-    "orienta",
-    "alerta"
+    "alerta",
+    "orienta"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/XpSXwuktBH2eI42sXzTVz-LSwM0=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/f/7/KfohaLQ3OYRvvPr3AlWA/montagem-1794074812721.jpg",
   "publishedAt": "2026-11-07T13:22:00+00:00",
-  "updatedAt": "2026-11-08T02:28:22.732370+00:00",
+  "updatedAt": "2026-11-08T08:19:58.157694+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "GOV.BR",
       "sourceDomain": "gov.br",
       "publishedAt": "2026-11-07T23:55:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.gov.br/mdr/pt-br/noticias/midr-esclarece-que-kit-de-emergencia-e-medida-preventiva-e-nao-tem-relacao-com-alerta-nacional/foto-nota-oficial-site.png/@@images/1564c5fc-b74d-45f2-af9e-7ac88c8dc568.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +78,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-07T21:30:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://media.gazetadopovo.com.br/2026/09/11104558/Tornado-em-Sao-Paulo_Defesa-Civil.jpeg",
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -92,6 +98,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_767a9e88d11e",
+      "title": "Em campanha preventiva e sem risco iminente, Defesa Civil orienta sobre kit de emergência",
+      "description": "A Defesa Civil do Brasil publicou nesta sexta-feira (6) orientações em suas redes sociais recomendando que a população organize um kit de...",
+      "url": "https://www.terra.com.br/noticias/brasil/em-campanha-preventiva-e-sem-risco-iminente-defesa-civil-orienta-sobre-kit-de-emergencia,fc2ffd60c73258ae8638d2d315ea8ebag7lplzb9.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-07T13:22:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s1.trrsf.com/update-1698692222/fe/zaz-mod-t360-icons/svg/logos/terra-16x9-borda.png",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_086fd3ba7cdd",
       "title": "Kit de emergência para três dias? Entenda a postagem da Defesa Civil Nacional",
       "description": "Publicação nas redes sociais gerou dúvidas, mas órgão afirma que recomendação é preventiva e não está relacionada a ameaça específica.",
@@ -100,9 +120,23 @@
       "sourceCanonical": "GZH",
       "sourceDomain": "gauchazh.clicrbs.com.br",
       "publishedAt": "2026-11-08T01:00:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_dd19b2efd11c",
+      "title": "Defesa Civil orienta famílias a estocar água e alimentos; entenda recomendação",
+      "description": "Ter água e alimentos estocados em casa para até três dias é uma das recomendações da Defesa Civil Nacional para quem quer estar preparado...",
+      "url": "https://exame.com/brasil/defesa-civil-orienta-familias-a-estocar-agua-e-alimentos-entenda-recomendacao/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-11-07T15:03:07+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -120,17 +154,17 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dd19b2efd11c",
-      "title": "Defesa Civil orienta famílias a estocar água e alimentos; entenda recomendação",
-      "description": "Ter água e alimentos estocados em casa para até três dias é uma das recomendações da Defesa Civil Nacional para quem quer estar preparado...",
-      "url": "https://exame.com/brasil/defesa-civil-orienta-familias-a-estocar-agua-e-alimentos-entenda-recomendacao/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-11-07T15:03:07+00:00",
+      "id": "article_16c3fbc061f2",
+      "title": "Defesa Civil nacional orienta fazer kit para 72h de sobrevivência. Entenda",
+      "description": "Órgão recomenda conjunto de itens para situações de emergência. Repercussão imediata levou Defesa Civil a esclarecer objetivo da postagem.",
+      "url": "https://www.metropoles.com/brasil/defesa-civil-indica-fazer-kit-para-72h-de-sobrevivencia-veja-necessidade",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-07T20:20:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -148,20 +182,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_767a9e88d11e",
-      "title": "Em campanha preventiva e sem risco iminente, Defesa Civil orienta sobre kit de emergência",
-      "description": "A Defesa Civil do Brasil publicou nesta sexta-feira (6) orientações em suas redes sociais recomendando que a população organize um kit de...",
-      "url": "https://www.terra.com.br/noticias/brasil/em-campanha-preventiva-e-sem-risco-iminente-defesa-civil-orienta-sobre-kit-de-emergencia,fc2ffd60c73258ae8638d2d315ea8ebag7lplzb9.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-07T13:22:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_c526fe3573ab",
       "title": "Ceará corre risco nas próximas horas? Entenda o alerta da Defesa Civil",
       "description": "Órgão nacional emitiu um alerta recomendando a preparação de kits de emergência com suprimentos para até 72 horas.",
@@ -170,38 +190,24 @@
       "sourceCanonical": "O POVO",
       "sourceDomain": "opovo.com.br",
       "publishedAt": "2026-11-07T20:57:36+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_16c3fbc061f2",
-      "title": "Defesa Civil nacional orienta fazer kit para 72h de sobrevivência. Entenda",
-      "description": "Órgão recomenda conjunto de itens para situações de emergência. Repercussão imediata levou Defesa Civil a esclarecer objetivo da postagem.",
-      "url": "https://www.metropoles.com/brasil/defesa-civil-indica-fazer-kit-para-72h-de-sobrevivencia-veja-necessidade",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-07T20:20:00+00:00",
+      "id": "article_557257620e9c",
+      "title": "'Céu Negro': como seria viver sem energia, água e comunicação?",
+      "description": "A BBC mantém um plano de emergência para garantir a comunicação com a população por pelo menos 72 horas em caso de um apagão de grandes...",
+      "url": "https://www.correiobraziliense.com.br/mundo/2026/11/7535029-ceu-negro-como-seria-viver-sem-energia-agua-e-comunicacao.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-11-08T01:07:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_59ca51bff4f9",
-      "title": "Devo ter kit de emergência para 72h? Defesa Civil recomenda o preparo",
-      "description": "Reserva de água, alimentos e outros produtos é uma medida de prevenção; orientação não está relacionada a nenhuma ameaça específica.",
-      "url": "https://veja.abril.com.br/brasil/devo-ter-kit-de-emergencia-para-72h-defesa-civil-recomenda-o-preparo/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-07T20:48:36+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_70f0e62318c3",
@@ -218,18 +224,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_557257620e9c",
-      "title": "'Céu Negro': como seria viver sem energia, água e comunicação?",
-      "description": "A BBC mantém um plano de emergência para garantir a comunicação com a população por pelo menos 72 horas em caso de um apagão de grandes...",
-      "url": "https://www.correiobraziliense.com.br/mundo/2026/11/7535029-ceu-negro-como-seria-viver-sem-energia-agua-e-comunicacao.html",
-      "source": "Correio Braziliense",
-      "sourceCanonical": "Correio Braziliense",
-      "sourceDomain": "correiobraziliense.com.br",
-      "publishedAt": "2026-11-08T01:07:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_59ca51bff4f9",
+      "title": "Devo ter kit de emergência para 72h? Defesa Civil recomenda o preparo",
+      "description": "Reserva de água, alimentos e outros produtos é uma medida de prevenção; orientação não está relacionada a nenhuma ameaça específica.",
+      "url": "https://veja.abril.com.br/brasil/devo-ter-kit-de-emergencia-para-72h-defesa-civil-recomenda-o-preparo/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-07T20:48:36+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_2ea41aa8b4ee",
@@ -268,21 +274,21 @@
       "sourceCanonical": "Espaço do Povo",
       "sourceDomain": "espacodopovo.com.br",
       "publishedAt": "2026-11-07T20:39:42+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_4b3c3049d4fc",
-      "title": "Sem risco iminente, Defesa Civil orienta sobre kit de emergência",
-      "description": "Órgão recomenda que famílias mantenham água, alimentos e outros itens essenciais para até 72 horas em situações de emergência.",
-      "url": "https://imirante.com/noticias/brasil/2026/11/07/defesa-civil-divulga-campanha-preventiva-veja-itens",
-      "source": "Imirante.com",
-      "sourceCanonical": "Imirante.com",
-      "sourceDomain": "imirante.com",
-      "publishedAt": "2026-11-07T21:35:48+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_cccf1745856a",
+      "title": "Preciso de kit de emergência para desastres? Após viralizar, Defesa Civil esclarece que publicação “não representa alerta nacional vigente”",
+      "description": "Segundo a Defesa Civil Nacional, a publicação sobre kit de emergência tem caráter preventivo e não há alerta nacional vigente.",
+      "url": "https://www.bandab.com.br/nacional/defesa-civil-explica-publicacao-sobre-kit-emergencia-entenda/",
+      "source": "Banda B",
+      "sourceCanonical": "Banda B",
+      "sourceDomain": "bandab.com.br",
+      "publishedAt": "2026-11-07T22:10:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,21 +302,21 @@
       "sourceCanonical": "Diario de Pernambuco",
       "sourceDomain": "diariodepernambuco.com.br",
       "publishedAt": "2026-11-07T22:22:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_cccf1745856a",
-      "title": "Preciso de kit de emergência para desastres? Após viralizar, Defesa Civil esclarece que publicação “não representa alerta nacional vigente”",
-      "description": "Segundo a Defesa Civil Nacional, a publicação sobre kit de emergência tem caráter preventivo e não há alerta nacional vigente.",
-      "url": "https://www.bandab.com.br/nacional/defesa-civil-explica-publicacao-sobre-kit-emergencia-entenda/",
-      "source": "Banda B",
-      "sourceCanonical": "Banda B",
-      "sourceDomain": "bandab.com.br",
-      "publishedAt": "2026-11-07T22:10:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_f8c35eccad44",
+      "title": "Defesa Civil esclarece orientação sobre kit de emergência para 72 horas após repercussão nas redes sociais",
+      "description": "Publicação provocou preocupação entre internautas, que questionaram se havia algum risco iminente no país; órgão afirma que recomendação é...",
+      "url": "https://www.folhabv.com.br/cotidiano/defesa-civil-esclarece-orientacao-sobre-kit-de-emergencia-para-72-horas-apos-repercussao-nas-redes-sociais/",
+      "source": "Folha BV",
+      "sourceCanonical": "Folha BV",
+      "sourceDomain": "folhabv.com.br",
+      "publishedAt": "2026-11-07T23:15:52+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
