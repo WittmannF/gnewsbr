@@ -3,25 +3,31 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJb3RtbEVoSFY5RFJFUkRXQ0JTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJb3RtbEVoSFY5RFJFUkRXQ0JTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 3,
-      "topic-5": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 7,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Defesa Civil emite alerta para chuvas no Rio de Janeiro",
+  "title": "Defesa Civil emite alerta para temporais no Rio de Janeiro",
   "summary": "A Defesa Civil Municipal da Cidade do Rio de Janeiro acaba de emitir um alerta emergencial à população por meio de canais de SMS e WhatsApp.",
   "topic": "Rio · Chuva",
   "topicKeywords": [
@@ -33,8 +39,8 @@
     "civil"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/t_Z0FhaWNQL0EnzbGJuwSZl2MHA=/4032x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/L/k/ulOdShT5qHTS7PfTsy6w/5b50940b-3c90-4d82-82b8-9e6a1c2d499b.jpg",
-  "publishedAt": "2026-11-05T11:22:00+00:00",
-  "updatedAt": "2026-11-08T01:18:35.617185+00:00",
+  "publishedAt": "2026-11-05T16:26:58+00:00",
+  "updatedAt": "2026-11-08T10:16:03.019499+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -61,9 +67,37 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-07T21:09:27+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/t_Z0FhaWNQL0EnzbGJuwSZl2MHA=/4032x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/L/k/ulOdShT5qHTS7PfTsy6w/5b50940b-3c90-4d82-82b8-9e6a1c2d499b.jpg",
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_9806c78f784d",
+      "title": "Chuva deixa ruas alagadas e provoca transtornos em bairros do Rio",
+      "description": "Município entrou no estágio 2, na tarde deste sábado (7), devido temporal com raios e rajadas de ventos fortes em diferentes locais.",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7320254-temporal-atinge-o-rio.html",
+      "source": "O Dia",
+      "sourceCanonical": "O Dia",
+      "sourceDomain": "odia.ig.com.br",
+      "publishedAt": "2026-11-07T19:43:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://odia.ig.com.br/_midias/jpg/2026/11/07/1200x750/1_captura_de_tela_2026_11_07_163053-39687084.jpg?20261107174009",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_504fe7c7ae03",
+      "title": "Rio de Janeiro registra chuva intensa e rajadas de vento",
+      "description": "O estado do Rio de Janeiro registrou chuvas de moderadas a intensas e rajadas de vento na capital e em diversos municípios neste sábado (7).",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/rio-de-janeiro-registra-chuva-intensa-e-rajadas-de-vento",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-11-07T21:16:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://imagens.ebc.com.br/DB2WLq7ekKv0qK_U-u8Hlv05lDU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tnrgo_111119edit2444.jpg?itok=c1zS_4HL",
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -81,20 +115,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9806c78f784d",
-      "title": "Chuva deixa ruas alagadas e provoca transtornos em bairros do Rio",
-      "description": "Município entrou no estágio 2, na tarde deste sábado (7), devido temporal com raios e rajadas de ventos fortes em diferentes locais.",
-      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7320254-temporal-atinge-o-rio.html",
-      "source": "O Dia",
-      "sourceCanonical": "O Dia",
-      "sourceDomain": "odia.ig.com.br",
-      "publishedAt": "2026-11-07T19:43:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": "https://odia.ig.com.br/_midias/jpg/2026/11/07/1200x750/1_captura_de_tela_2026_11_07_163053-39687084.jpg?20261107174009",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_18ae6da17091",
       "title": "Defesa Civil dispara alerta extremo por chuva forte e ventania no Rio",
       "description": "A Defesa Civil do Rio de Janeiro emitiu um alerta direto nos celulares dos moradores fluminenses após o município entrar em estágio 2 às...",
@@ -103,22 +123,8 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-07T19:59:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://i.metroimg.com/YmicWA8kN6wJKZ88pnAmhb8pZBpfvOnMl4ka_y9kEB4/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/defesa-civil-rj.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_504fe7c7ae03",
-      "title": "Rio de Janeiro registra chuva intensa e rajadas de vento",
-      "description": "O estado do Rio de Janeiro registrou chuvas de moderadas a intensas e rajadas de vento na capital e em diversos municípios neste sábado (7).",
-      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/rio-de-janeiro-registra-chuva-intensa-e-rajadas-de-vento",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-07T21:16:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": "https://imagens.ebc.com.br/DB2WLq7ekKv0qK_U-u8Hlv05lDU=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tnrgo_111119edit2444.jpg?itok=c1zS_4HL",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -135,20 +141,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_a59166fa733e",
-      "title": "Rio registra mais de 3000 raios na madrugada de quinta (5). E vem mais chuva",
-      "description": "Quem estava acordado na madrugada desta quinta (5) no Rio tomou um susto: foram registrados 34000 raios durante o temporal que caiu sobre a...",
-      "url": "https://vejario.abril.com.br/cidade/rio-3000-raios-vem-mais-chuva/",
-      "source": "VEJA RIO",
-      "sourceCanonical": "VEJA RIO",
-      "sourceDomain": "vejario.abril.com.br",
-      "publishedAt": "2026-11-05T16:26:58+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_d0d05bcab361",
@@ -172,8 +164,78 @@
       "source": "Portal Grande Tijuca",
       "sourceCanonical": "Portal Grande Tijuca",
       "sourceDomain": "grandetijuca.com.br",
-      "publishedAt": "2026-11-07T22:28:12+00:00",
-      "postedLabel": "2 horas atrás",
+      "publishedAt": "2026-11-07T19:29:57+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_a59166fa733e",
+      "title": "Rio registra mais de 3000 raios na madrugada de quinta (5). E vem mais chuva",
+      "description": "Quem estava acordado na madrugada desta quinta (5) no Rio tomou um susto: foram registrados 34000 raios durante o temporal que caiu sobre a...",
+      "url": "https://vejario.abril.com.br/cidade/rio-3000-raios-vem-mais-chuva/",
+      "source": "VEJA RIO",
+      "sourceCanonical": "VEJA RIO",
+      "sourceDomain": "vejario.abril.com.br",
+      "publishedAt": "2026-11-05T16:26:58+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_0662fe5992de",
+      "title": "Município do Rio de Janeiro entrou em Calor 2 às 11h50 deste sábado, dia 7 de novembro de 2026",
+      "description": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que a cidade do Rio de Janeiro atingiu o segundo nível do...",
+      "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-calor-2-as-11h50-deste-sabado-dia-7-de-novembro-de-2026/",
+      "source": "Centro de Operações Rio (COR-Rio",
+      "sourceCanonical": "Centro de Operações Rio (COR-Rio",
+      "sourceDomain": "cor.rio",
+      "publishedAt": "2026-11-07T22:19:50+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_16b20e3f9450",
+      "title": "Douglas Ruas garante repasse de verbas estaduais para escolas de samba em 2027",
+      "description": "Douglas Ruas garante repasse de verbas estaduais para escolas de samba em 2027. RIO - O governador eleito do Rio se encontrou com o...",
+      "url": "https://jb.fm/noticia/douglas-ruas-garante-repasse-de-verbas-estaduais-para-escolas-de-samba-em-2027",
+      "source": "JB FM",
+      "sourceCanonical": "JB FM",
+      "sourceDomain": "jb.fm",
+      "publishedAt": "2026-11-07T05:16:57+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f9fc9596ee66",
+      "title": "Casa desaba e quiosques são destruídos após chuva no Rio de Janeiro",
+      "description": "Temporal causou estragos em várias partes da Região dos Lagos; vídeos publicados nas redes sociais mostram destruição em Arraial do Cabo e...",
+      "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/casa-desaba-e-quiosques-sao-destruidos-apos-chuva-no-rio-de-janeiro/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-08T04:39:06+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_201e05dc66f3",
+      "title": "Chuva e vento atingem Campos na noite deste sábado e alerta de tempestade segue no domingo",
+      "description": "Já chove e venta em Campos dos Goytacazes na noite deste sábado (7). O município está sob alerta amarelo de tempestade do Instituto Nacional...",
+      "url": "https://www.ururau.com.br/noticias/cidades/chuva-e-vento-atingem-campos-na-noite-deste-sabado-e-alerta-de-tempestade-segue-no-domingo/82975/",
+      "source": "Ururau Notícias",
+      "sourceCanonical": "Ururau Notícias",
+      "sourceDomain": "ururau.com.br",
+      "publishedAt": "2026-11-07T23:22:15+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -193,28 +255,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_fb586b6de809",
-      "title": "Chuva e ventos fortes atingem regiões do Grande Rio",
-      "description": "Fortes chuvas e ventos atingem bairros do Grande Rio na tarde deste sábado (7). Entre os bairros da capital com maior volume de chuva,...",
-      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/11/07/defesa-civil-pancadas-de-chuva-vento-e-raios-no-rio.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-07T18:14:50+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_16b20e3f9450",
-      "title": "Douglas Ruas garante repasse de verbas estaduais para escolas de samba em 2027",
-      "description": "Douglas Ruas garante repasse de verbas estaduais para escolas de samba em 2027. RIO - O governador eleito do Rio se encontrou com o...",
-      "url": "https://jb.fm/noticia/douglas-ruas-garante-repasse-de-verbas-estaduais-para-escolas-de-samba-em-2027",
-      "source": "JB FM",
-      "sourceCanonical": "JB FM",
-      "sourceDomain": "jb.fm",
-      "publishedAt": "2026-11-07T05:16:57+00:00",
+      "id": "article_0fc61fbe61d3",
+      "title": "Frente fria chega com previsão de chuva forte e queda de até 5°C na Capital",
+      "description": "Já o segundo alerta prevê declínio de temperatura neste sábado (07), com mínima de 19° C, e de 17° C para o domingo (08). Segundo o Inmet...",
+      "url": "https://www.diariodigital.com.br/geral/frente-fria-chega-com-previsao-de-chuva-forte-e-queda-de-ate-5-c-na-capital",
+      "source": "diariodigital.com.br",
+      "sourceCanonical": "diariodigital.com.br",
+      "sourceDomain": "diariodigital.com.br",
+      "publishedAt": "2026-11-07T14:04:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -229,38 +277,10 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-11-07T21:42:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_201e05dc66f3",
-      "title": "Chuva e vento atingem Campos na noite deste sábado e alerta de tempestade segue no domingo",
-      "description": "Já chove e venta em Campos dos Goytacazes na noite deste sábado (7). O município está sob alerta amarelo de tempestade do Instituto Nacional...",
-      "url": "https://www.ururau.com.br/noticias/cidades/chuva-e-vento-atingem-campos-na-noite-deste-sabado-e-alerta-de-tempestade-segue-no-domingo/82975/",
-      "source": "Ururau Notícias",
-      "sourceCanonical": "Ururau Notícias",
-      "sourceDomain": "ururau.com.br",
-      "publishedAt": "2026-11-07T23:22:15+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_0fc61fbe61d3",
-      "title": "Frente fria chega com previsão de chuva forte e queda de até 5°C na Capital",
-      "description": "Já o segundo alerta prevê declínio de temperatura neste sábado (07), com mínima de 19° C, e de 17° C para o domingo (08). Segundo o Inmet...",
-      "url": "https://www.diariodigital.com.br/geral/frente-fria-chega-com-previsao-de-chuva-forte-e-queda-de-ate-5-c-na-capital",
-      "source": "diariodigital.com.br",
-      "sourceCanonical": "diariodigital.com.br",
-      "sourceDomain": "diariodigital.com.br",
-      "publishedAt": "2026-11-07T14:04:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_1f2711df5e25",
@@ -277,20 +297,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_fb30fa45cb90",
-      "title": "Previsão do tempo em Rio de Janeiro hoje: veja como fica o clima nesta quinta-feira",
-      "description": "Temperaturas variam entre 24°C e 37°C, com previsão de sol com muitas nuvens e pancadas de chuva.",
-      "url": "https://www.terra.com.br/noticias/previsao-do-tempo/previsao-do-tempo-em-rio-de-janeiro-hoje-veja-como-fica-o-clima-nesta-quinta-feira,bb4c11e3585ff5a3d0de2d4a0b4b74e804ydf4fe.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-05T11:22:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_da37f3eb0a5c",
       "title": "Temporal provoca alagamentos em favelas do Rio e previsão indica mais chuva",
       "description": "Ruas ficaram alagadas na Maré e em Rio das Pedras; chuva forte e ventos intensos ainda podem atingir a cidade até domingo (8). Publicidade...",
@@ -299,21 +305,21 @@
       "sourceCanonical": "ANF - Agência de Notícias das Favelas",
       "sourceDomain": "anf.org.br",
       "publishedAt": "2026-11-07T22:15:12+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_caf958b37054",
-      "title": "El Niño pode aumentar tempestades no Rio nesta primavera; entenda o risco e a falha na previsão",
-      "description": "El Niño: Frentes frias, calor e umidade elevam o risco de temporais, enquanto alertas ainda enfrentam limitações.",
-      "url": "https://www.mercadoeeventos.com.br/brasil/el-nino-pode-aumentar-tempestades-no-rio-nesta-primavera-entenda-o-risco-e-a-falha-na-previsao/",
-      "source": "Mercado e Eventos",
-      "sourceCanonical": "Mercado e Eventos",
-      "sourceDomain": "mercadoeeventos.com.br",
-      "publishedAt": "2026-11-06T12:55:40+00:00",
-      "postedLabel": "ontem",
+      "id": "article_2ff82636ad4d",
+      "title": "Temporal no Rio provoca alagamentos, ventos de quase 80 km/h e alerta extremo da Defesa Civil",
+      "description": "Chuva forte atingiu diferentes regiões da capital fluminense neste sábado (7), com ruas inundadas e transtornos no trânsito.",
+      "url": "https://aloalobahia.com/noticias/2026/11/07/temporal-no-rio-provoca-alagamentos-ventos-de-quase-80-km-h-e-alerta-extremo-da-defesa-civil/",
+      "source": "Alô Alô Bahia",
+      "sourceCanonical": "Alô Alô Bahia",
+      "sourceDomain": "aloalobahia.com",
+      "publishedAt": "2026-11-07T21:54:27+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -322,16 +328,16 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.25,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.29,
+    "knownCount": 7,
+    "unknownCount": 13,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 6,
+      "center": 5,
       "centerRight": 1,
       "right": 0,
-      "unknown": 12
+      "unknown": 13
     }
   },
   "scores": {
