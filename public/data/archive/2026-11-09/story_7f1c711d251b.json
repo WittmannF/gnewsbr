@@ -3,36 +3,39 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYOHQtbEVoRTVUUWEwV0NvOEpDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pYOHQtbEVoRTVUUWEwV0NvOEpDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-7"
+      "home",
+      "topstories"
     ],
     "seedRanks": {
-      "topic-7": 3
+      "home": 1,
+      "topstories": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 1,
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Secretário de Defesa Pete Hegseth é alvo de impeachment",
   "summary": "Thomas Massie, republicano do Kentucky, protocolou uma resolução na Câmara dos Representantes contra Pete Hegseth.",
-  "topic": "Impeachment · Trump",
+  "topic": "Impeachment · Secretário",
   "topicKeywords": [
     "impeachment",
+    "secretário",
     "trump",
     "republicano",
-    "pedido",
-    "secretário",
-    "chefe"
+    "eua",
+    "pedido"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/GR1fk2Jml7NGEkjjiFKHfHjCwOE=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/I/e/GzxWF7QzK89nn2ClWYjA/design-sem-nome-2026-11-05t084409.372.jpg",
   "publishedAt": "2026-11-06T16:52:26+00:00",
-  "updatedAt": "2026-11-09T21:29:41.960382+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-11-09T22:15:45.595512+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -50,6 +53,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_09791329173f",
+      "title": "Câmara dos EUA abre processo de impeachment contra secretário de Defesa",
+      "description": "Pete Hegseth, principal arquiteto da guerra no Irã, diz não estar preocupado: 'Temos orgulho do nosso trabalho'",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/camara-dos-eua-abre-processo-de-impeachment-contra-secretario-de-defesa.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-11-09T20:54:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/09/17942569946af23062ac735_1794256994_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_05c66f5f98c5",
       "title": "Deputado republicano apresenta resolução para impeachment contra chefe do Pentágono",
       "description": "Thomas Massie apresentou moção para forçar votação sobre o impeachment do secretário de Defesa dos Estados Unidos, Pete Hegseth.",
@@ -58,7 +75,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-09T20:51:47+00:00",
-      "postedLabel": "37 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/VBWT2ICSRJAENJEKISNXNNS6EU.jpg?quality=80&auth=6a0a84e31b7be548c23e2c6b501aa45ff0ebf1d3082212648103ae783fc406f9&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -78,20 +95,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_c75293178128",
-      "title": "Representante republicano inicia processo de impeachment contra chefe do Pentágono",
-      "description": "Representante republicano inicia processo de impeachment contra chefe do Pentágonoft/jz/nn/mvv© Agence France-Presse.",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/11/09/representante-republicano-inicia-processo-de-impeachment-contra-chefe-do-pentagono.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-09T19:25:04+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_74f97ac994d8",
       "title": "Hegseth minimiza riscos de impeachment e diz estar pronto para defender sua gestão Por Reuters",
       "description": "WASHINGTON, 9 Nov (Reuters) - O secretário de Defesa dos EUA, Pete Hegseth, minimizou nesta segunda-feira os riscos de uma tentativa de...",
@@ -100,10 +103,24 @@
       "sourceCanonical": "Investing.com Brasil",
       "sourceDomain": "br.investing.com",
       "publishedAt": "2026-11-09T17:47:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_2c92d8187b2b",
+      "title": "Deputado republicano apresenta pedido de impeachment contra secretário de Defesa de Trump",
+      "description": "Thomas Massie acusa Pete Hegseth de violar a legislação americana ao manter operações militares contra o Irã sem o aval do Congresso.",
+      "url": "https://veja.abril.com.br/mundo/deputado-republicano-apresenta-pedido-de-impeachment-contra-secretario-de-defesa-de-trump/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-09T19:52:04+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_4605e087dc62",
@@ -120,20 +137,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_2c92d8187b2b",
-      "title": "Deputado republicano apresenta pedido de impeachment contra secretário de Defesa de Trump",
-      "description": "Thomas Massie acusa Pete Hegseth de violar a legislação americana ao manter operações militares contra o Irã sem o aval do Congresso.",
-      "url": "https://veja.abril.com.br/mundo/deputado-republicano-apresenta-pedido-de-impeachment-contra-secretario-de-defesa-de-trump/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-09T19:52:04+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_c7ff45df1501",
       "title": "Iniciativa para destituir Hegseth avança no Congresso",
       "description": "O republicano Thomas Massie acusa o secretário da Defesa de vários atos merecedores de destituição, incluindo levar a cabo uma guerra contra o Irão sem...",
@@ -142,7 +145,7 @@
       "sourceCanonical": "Jornal de Negócios",
       "sourceDomain": "jornaldenegocios.pt",
       "publishedAt": "2026-11-09T19:53:07+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -162,18 +165,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_e34a34cb2a0f",
-      "title": "Representante republicano inicia processo de impeachment contra chefe do Pentágono",
-      "description": "O congressista Thomas Massie, do Kentucky, apresentou oito artigos de impeachment acusando Hegseth de travar ilegalmente a guerra contra o...",
-      "url": "https://jornaldebrasilia.com.br/noticias/mundo/representante-republicano-inicia-processo-de-impeachment-contra-chefe-do-pentagono/",
-      "source": "Jornal de Brasília",
-      "sourceCanonical": "Jornal de Brasília",
-      "sourceDomain": "jornaldebrasilia.com.br",
-      "publishedAt": "2026-11-09T19:38:02+00:00",
+      "id": "article_dccd0c05ff18",
+      "title": "Deputado republicano apresenta pedido de impeachment contra secretário de Defesa dos EUA",
+      "description": "O deputado Thomas Massie, do Kentucky apresentou acusações contra Hegseth por conduzir a guerra no Irã sem autorização do Congresso e abusar...",
+      "url": "https://www.cartacapital.com.br/mundo/deputado-republicano-apresenta-pedido-de-impeachment-contra-secretario-de-defesa-dos-eua/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-11-09T21:31:00+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_6f37195ea2d6",
@@ -184,21 +187,21 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-09T19:43:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_94ef776cdb71",
-      "title": "Trump defende chefe do Pentágono após pedido de impeachment: 'Venceu duas guerras'",
-      "description": "O presidente dos Estados Unidos, Donald Trump, saiu em defesa do secretário de Defesa, Pete Hegseth, nesta segunda-feira (9), em meio à...",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/09/trump-defende-chefe-do-pentagono-contra-pedido-de-impeachment-ele-venceu-duas-guerras.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-09T20:22:35+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_e34a34cb2a0f",
+      "title": "Representante republicano inicia processo de impeachment contra chefe do Pentágono",
+      "description": "O congressista Thomas Massie, do Kentucky, apresentou oito artigos de impeachment acusando Hegseth de travar ilegalmente a guerra contra o...",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/representante-republicano-inicia-processo-de-impeachment-contra-chefe-do-pentagono/",
+      "source": "Jornal de Brasília",
+      "sourceCanonical": "Jornal de Brasília",
+      "sourceDomain": "jornaldebrasilia.com.br",
+      "publishedAt": "2026-11-09T19:38:02+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -212,7 +215,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-09T17:48:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -226,9 +229,23 @@
       "sourceCanonical": "Jornal de Notícias",
       "sourceDomain": "jn.pt",
       "publishedAt": "2026-11-09T19:47:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_dea7f8867628",
+      "title": "Republicano pede impeachment de secretário de Guerra dos EUA",
+      "description": "Guerra com o Irã defendida por Pete Hegseth teria pesado para derrota republicana nas eleições de meio de mandato, de acordo com integrantes...",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/republicano-pede-impeachment-de-secretario-de-guerra-dos-eua",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-09T21:03:36+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -246,32 +263,32 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dea7f8867628",
-      "title": "Republicano pede impeachment de secretário de Guerra dos EUA",
-      "description": "Guerra com o Irã defendida por Pete Hegseth teria pesado para derrota republicana nas eleições de meio de mandato, de acordo com integrantes...",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/republicano-pede-impeachment-de-secretario-de-guerra-dos-eua",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-09T21:03:36+00:00",
-      "postedLabel": "26 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_5f3fe98370db",
-      "title": "Rubio sai em defesa do chefe do Pentágono após pedido de impeachment: 'Acho injusto'",
-      "description": "Deputado republicano do Kentucky protocolou uma resolução na Câmara contra Pete Hegseth, que mais cedo minimizou a iniciativa e defendeu as...",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/09/rubio-comenta-pedido-de-impeachment-contra-chefe-do-pentagono-acho-injusto.ghtml",
+      "id": "article_94ef776cdb71",
+      "title": "Trump defende chefe do Pentágono após pedido de impeachment: 'Venceu duas guerras'",
+      "description": "O presidente dos Estados Unidos, Donald Trump, saiu em defesa do secretário de Defesa, Pete Hegseth, nesta segunda-feira (9), em meio à...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/11/09/trump-defende-chefe-do-pentagono-contra-pedido-de-impeachment-ele-venceu-duas-guerras.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-09T20:04:19+00:00",
+      "publishedAt": "2026-11-09T20:22:35+00:00",
       "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_c4189a17726d",
+      "title": "Maduro, Irão e mais: Iniciado processo de destituição contra Pete Hegseth",
+      "description": "Um congressista republicano iniciou hoje um processo de destituição (impeachment) contra o secretário da Defesa norte-americano,...",
+      "url": "https://www.noticiasaominuto.com/mundo/3081319/iniciado-processo-de-destituicao-contra-secretario-de-defesa-dos-eua-no-congresso",
+      "source": "Notícias ao Minuto",
+      "sourceCanonical": "Notícias ao Minuto",
+      "sourceDomain": "noticiasaominuto.com",
+      "publishedAt": "2026-11-09T22:02:00+00:00",
+      "postedLabel": "13 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_b330d0c92b11",
@@ -282,7 +299,7 @@
       "sourceCanonical": "TradingView",
       "sourceDomain": "br.tradingview.com",
       "publishedAt": "2026-11-09T17:45:28+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,49 +313,36 @@
       "sourceCanonical": "BPMoney",
       "sourceDomain": "bpmoney.com.br",
       "publishedAt": "2026-11-09T20:10:06+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_5ddb14f755e5",
-      "title": "Processo de impeachment é aberto contra Pete Hegseth, secretário de Defesa dos EUA",
-      "description": "Iniciativa foi de deputado republicano e aparentemente é só primeiro passo da oposição, agora maioria no Congresso, contra a gestão...",
-      "url": "https://revistaforum.com.br/global/impeachment-abert-pete-hegseth-secretario-defesa-eua/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-11-09T21:13:10+00:00",
-      "postedLabel": "16 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.06,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
-      "centerLeft": 0,
-      "center": 11,
+      "centerLeft": 1,
+      "center": 9,
       "centerRight": 3,
       "right": 0,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
