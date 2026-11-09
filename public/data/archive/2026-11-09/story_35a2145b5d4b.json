@@ -3,29 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkN2Nhc0VoSDNlZTJzRnVzTkl5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lkN2Nhc0VoSDNlZTJzRnVzTkl5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-3": 16,
+      "topic-3": 15,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 15,
     "bestSeedRank": 4,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Estudante de 16 anos morre após passar mal no Enem",
   "summary": "Uma estudante de 16 anos morreu após passar mal durante a realização do Exame Nacional do Ensino Médio (Enem), neste domingo (8), em...",
@@ -33,15 +27,15 @@
   "topicKeywords": [
     "enem",
     "mal",
-    "durante",
     "passar",
-    "morre",
-    "estudante"
+    "durante",
+    "estudante",
+    "morre"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/0DY5GAAUhnVNly9v57uG2QxxxTc=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/5/hWamtrStCyLaLF24dk4g/whatsapp-image-2026-11-08-1200w.jpg",
   "publishedAt": "2026-11-08T23:46:00+00:00",
-  "updatedAt": "2026-11-09T08:25:27.273179+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-11-09T09:24:51.784166+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -68,7 +62,7 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-09T02:17:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://i.metroimg.com/FpdLy-iL4q3IskWBZ9RCyLMMhXDyUTOUSKl5PR9fbdQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/jovem-enem-bahia.jpg",
+      "imageUrl": "https://i.metroimg.com/PLLeShnkBzFUto17b0VrJ1JH3DjSefLZHUapLqNZnyo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/jovem-enem-bahia-2.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -81,24 +75,10 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-09T05:45:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/09/whatsapp-image-2026-11-09-at-02-25-57-vf6xrd1fnad4.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_721ad387e930",
-      "title": "Estudante de 16 anos morre após passar mal durante prova do Enem na Bahia",
-      "description": "Uma estudante de 16 anos morreu neste domingo, 8, após passar mal durante a realização do primeiro dia de provas do Exame Nacional do Ensino...",
-      "url": "https://peperi.com.br/noticia-detalhes/estudante-de-16-anos-morre-apos-passar-mal-durante-prova-do-enem-na-bahia",
-      "source": "Peperi.com.br",
-      "sourceCanonical": "Peperi.com.br",
-      "sourceDomain": "peperi.com.br",
-      "publishedAt": "2026-11-09T01:12:17+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_b5deb5b46f4d",
@@ -109,20 +89,6 @@
       "sourceCanonical": "iG Último Segundo",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-11-09T03:05:00+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_034a39f405ef",
-      "title": "Estudante de 16 anos morre após passar mal durante o Enem",
-      "description": "Aulas na escola em que ela estudava foram suspensas após morte da estudante durante o Enem.",
-      "url": "https://ndmais.com.br/saude/estudante-de-16-anos-morre-apos-passar-mal-durante-o-enem/",
-      "source": "ND Mais",
-      "sourceCanonical": "ND Mais",
-      "sourceDomain": "ndmais.com.br",
-      "publishedAt": "2026-11-09T00:37:30+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -143,6 +109,34 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_034a39f405ef",
+      "title": "Estudante de 16 anos morre após passar mal durante o Enem",
+      "description": "Aulas na escola em que ela estudava foram suspensas após morte da estudante durante o Enem.",
+      "url": "https://ndmais.com.br/saude/estudante-de-16-anos-morre-apos-passar-mal-durante-o-enem/",
+      "source": "ND Mais",
+      "sourceCanonical": "ND Mais",
+      "sourceDomain": "ndmais.com.br",
+      "publishedAt": "2026-11-09T00:37:30+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_cfd4efd0e095",
+      "title": "Estudante de 16 anos morre após passar mal durante prova do Enem 2026",
+      "description": "Adolescente recebeu atendimento médico após apresentar problemas de saúde durante o exame, foi encaminhada ao hospital, mas não resistiu;...",
+      "url": "https://www.portaldecamaqua.com.br/noticias/113188/estudante-de-16-anos-morre-apos-passar-mal-durante-prova-do-enem-2026.html",
+      "source": "Portal de Camaquã",
+      "sourceCanonical": "Portal de Camaquã",
+      "sourceDomain": "portaldecamaqua.com.br",
+      "publishedAt": "2026-11-09T03:16:48+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b76e6eca0a49",
       "title": "Estudante baiano de 16 anos sofre mal súbito e falece durante realização do Enem em Cansanção",
       "description": "Estudante de 16 anos morre após passar mal durante o primeiro dia de provas do Enem em Cansanção, na Bahia.",
@@ -151,7 +145,7 @@
       "sourceCanonical": "Fato Paulista",
       "sourceDomain": "fatopaulista.com.br",
       "publishedAt": "2026-11-09T07:14:05+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -165,7 +159,7 @@
       "sourceCanonical": "Fala Matão",
       "sourceDomain": "falamatao.com.br",
       "publishedAt": "2026-11-09T03:59:26+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -185,20 +179,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_cfd4efd0e095",
-      "title": "Estudante de 16 anos morre após passar mal durante prova do Enem 2026",
-      "description": "Adolescente recebeu atendimento médico após apresentar problemas de saúde durante o exame, foi encaminhada ao hospital, mas não resistiu;...",
-      "url": "https://www.portaldecamaqua.com.br/noticias/113188/estudante-de-16-anos-morre-apos-passar-mal-durante-prova-do-enem-2026.html",
-      "source": "Portal de Camaquã",
-      "sourceCanonical": "Portal de Camaquã",
-      "sourceDomain": "portaldecamaqua.com.br",
-      "publishedAt": "2026-11-09T03:16:48+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_028dd078ce6a",
       "title": "Estudante morre no Enem na Bahia após passar mal durante a prova",
       "description": "A estudante Iza Lara, de 16 anos, morreu após passar mal no Enem na Bahia; a jovem tinha histórico de problemas cardíacos e sofreu uma...",
@@ -207,7 +187,35 @@
       "sourceCanonical": "avozdocampo",
       "sourceDomain": "avozdocampo.com",
       "publishedAt": "2026-11-09T03:02:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_721ad387e930",
+      "title": "Estudante de 16 anos morre após passar mal durante prova do Enem na Bahia",
+      "description": "Uma estudante de 16 anos morreu neste domingo, 8, após passar mal durante a realização do primeiro dia de provas do Exame Nacional do Ensino...",
+      "url": "https://peperi.com.br/noticia-detalhes/estudante-de-16-anos-morre-apos-passar-mal-durante-prova-do-enem-na-bahia",
+      "source": "Peperi.com.br",
+      "sourceCanonical": "Peperi.com.br",
+      "sourceDomain": "peperi.com.br",
+      "publishedAt": "2026-11-09T01:12:17+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_930a3dd96e7f",
+      "title": "Estudante de 16 anos morreu após ser reprovado no Enem na Bahia",
+      "description": "UM Iza Lara dos Santos Oliveira, estudante de 16 anos, morreu neste domingo (8) após passar no Exame Nacional do Ensino Médio (Enem), em...",
+      "url": "https://jornalimpressobrasil.com.br/estudante-de-16-anos-morreu-apos-ser-reprovado-no-enem-na-bahia/",
+      "source": "Jornal Impresso Brasil",
+      "sourceCanonical": "Jornal Impresso Brasil",
+      "sourceDomain": "jornalimpressobrasil.com.br",
+      "publishedAt": "2026-11-09T08:22:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -221,7 +229,7 @@
       "sourceCanonical": "Povo na Rua",
       "sourceDomain": "povonarua.com.br",
       "publishedAt": "2026-11-09T05:04:55+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -235,7 +243,7 @@
       "sourceCanonical": "YacoNews",
       "sourceDomain": "yaconews.com",
       "publishedAt": "2026-11-09T03:46:38+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -277,7 +285,7 @@
       "sourceCanonical": "Portal Leo Dias",
       "sourceDomain": "portalleodias.com",
       "publishedAt": "2026-11-09T03:02:55+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -291,7 +299,7 @@
       "sourceCanonical": "PAIPEE -",
       "sourceDomain": "br.paipee.com",
       "publishedAt": "2026-11-09T04:37:44+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -306,20 +314,6 @@
       "sourceDomain": "diariodopara.com.br",
       "publishedAt": "2026-11-08T23:51:53+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_c85667cf760b",
-      "title": "Adolescente de 16 anos sofre parada cardiorrespiratória e morre durante aplicação do Enem na Bahia",
-      "description": "Estudante de 16 anos morre após sofrer parada cardiorrespiratória ao passar mal durante a aplicação do Enem na Bahia.",
-      "url": "https://fatopaulista.com.br/estudante-morre-enem-bahia/",
-      "source": "Fato Paulista",
-      "sourceCanonical": "Fato Paulista",
-      "sourceDomain": "fatopaulista.com.br",
-      "publishedAt": "2026-11-09T03:57:06+00:00",
-      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
