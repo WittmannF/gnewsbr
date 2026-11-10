@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lldS0tckVoR1UzT0hCMVFXMmdDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lldS0tckVoR1UzT0hCMVFXMmdDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre PF",
   "summary": "Agentes serão exonerados após 'reestruturação' do setor que cuida de inquéritos no Supremo; o diretor-geral Andrei Rodrigues ainda não...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/04/64ba1d0f-c6f4-427a-bf0a-f565de996509.jpeg",
   "publishedAt": "2026-11-07T22:48:00+00:00",
-  "updatedAt": "2026-11-10T05:26:37.641455+00:00",
+  "updatedAt": "2026-11-10T06:25:39.780039+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -120,20 +126,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_79e996c76691",
-      "title": "PF troca delegados que investigam escândalo do Banco Master",
-      "description": "Corporação nega que mudança vá prejudicar investigações contra poderosos da República.",
-      "url": "https://veja.abril.com.br/brasil/pf-troca-delegados-que-investigam-escandalo-do-banco-master/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-09T19:02:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_3f3f4baf77c3",
       "title": "PF afasta delegados do Caso Master e impacta relatórios sobre o STF",
       "description": "Mudança no comando da Polícia Federal atinge delegados que organizavam relatórios sobre ministros do STF no Caso Master. Entenda os impactos...",
@@ -145,6 +137,20 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_79e996c76691",
+      "title": "PF troca delegados que investigam escândalo do Banco Master",
+      "description": "Corporação nega que mudança vá prejudicar investigações contra poderosos da República.",
+      "url": "https://veja.abril.com.br/brasil/pf-troca-delegados-que-investigam-escandalo-do-banco-master/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-09T19:02:39+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -170,7 +176,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-10T03:02:38+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -184,7 +190,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-11-10T01:10:42+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"

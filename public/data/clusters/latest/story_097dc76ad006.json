@@ -10,11 +10,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 42
+      "topic-8": 41
     },
     "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "firstSeenRank": 41,
+    "bestSeedRank": 41,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "imposto",
     "importação",
     "eleva",
-    "aumenta",
+    "importados",
     "tarifa"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/OHZKGgsyl9NLKyPWLIgmzPNUXS0=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/1/WfoUV8SfOiti8jhRsKJQ/continental.jpeg",
   "publishedAt": "2026-11-03T11:16:00+00:00",
-  "updatedAt": "2026-11-10T05:36:03.935523+00:00",
+  "updatedAt": "2026-11-10T06:42:57.840950+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -86,7 +86,7 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-11-10T05:26:15+00:00",
-      "postedLabel": "9 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://www.jornaldocomercio.com/_midias/jpg/2022/01/27/hands_only_mechanic_holding_a_tire_at_the_repair_garage_replacement_of_winter_and_summer_tires-9529322.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -170,7 +170,7 @@
       "sourceCanonical": "ND Mais",
       "sourceDomain": "ndmais.com.br",
       "publishedAt": "2026-11-10T02:54:50+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -212,7 +212,7 @@
       "sourceCanonical": "Estradas",
       "sourceDomain": "estradas.com.br",
       "publishedAt": "2026-11-10T03:40:58+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,20 +288,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_4de13975ec49",
-      "title": "Governo aumenta imposto de importação de pneus de 16% para 30%",
-      "description": "O governo federal elevou de 16% para 30% o Imposto de Importação sobre pneus novos destinados a automóveis de passeio.",
-      "url": "https://aconteceuemjoinville.com.br/governo-aumenta-imposto-de-importacao-de-pneus-de-16-para-30/",
-      "source": "Aconteceu em Joinville",
-      "sourceCanonical": "Aconteceu em Joinville",
-      "sourceDomain": "aconteceuemjoinville.com.br",
-      "publishedAt": "2026-11-10T00:14:17+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_f147c0ccc998",
       "title": "Governo aumenta imposto de importação de pneus de passeio para 30%",
       "description": "Governo aumenta para 30% o imposto de importação de pneus de passeio por 12 meses e reforça fiscalização sobre produtos estrangeiros.",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_6cd4cd126a33",
+      "title": "Importadores criticam imposto de 30% sobre pneus importados",
+      "description": "Câmara de Comércio Exterior elevou de 16% para 30% a tarifa sobre pneus de passeio por 12 meses, medida criticada por importadores pelo...",
+      "url": "https://www.ocafezinho.com/2026-11-10/importadores-criticam-imposto-de-30-sobre-pneus-importados/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-11-10T03:50:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.2,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "average": 4.67,
+    "knownCount": 6,
+    "unknownCount": 14,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 3,
       "centerRight": 1,
       "right": 0,
-      "unknown": 15
+      "unknown": 14
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
-    "confidence": 90
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
+    "confidence": 93
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
