@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2puaExTdEVoRmpQN2FYSy1WUVN5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2puaExTdEVoRmpQN2FYSy1WUVN5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 30
+      "topic-5": 70,
+      "topic-8": 14
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 70,
+    "bestSeedRank": 14,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "magazine",
     "luiza",
     "magalu",
-    "mglu3",
+    "crise",
     "casas",
     "bahia"
   ],
-  "imageUrl": "https://www.estadao.com.br/resizer/v2/CXXACK7EPRMLRG3ADTGAANKDDE.png?quality=80&auth=6a9d01002f4b34dfe9b5b3cff9dc8910bd7e290bea683601b4c2893f98ad61b2&width=1200&height=630&smart=true",
+  "imageUrl": "https://s2-valor.glbimg.com/UI3AZ7nFYXmNmdW-TUN0C0rj_B8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/O/C/16kLZRRVqjGeYbUHcJOA/magalu2.jpg",
   "publishedAt": "2026-11-09T08:00:00+00:00",
-  "updatedAt": "2026-11-10T17:31:25.261690+00:00",
+  "updatedAt": "2026-11-10T18:27:03.679692+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -51,17 +54,31 @@
     },
     {
       "id": "article_eb46ee4aab04",
-      "title": "BofA vira a mão no Magalu: de venda a compra, com potencial de alta de 88%",
+      "title": "BofA eleva Magalu para compra e prevê salto de 88% nas ações",
       "description": "O Bank of America (BofA) passou a recomendar compra das ações do Magazine Luiza (MGLU3), mantendo o preço-alvo em R$ 11, o que representa...",
       "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/11/10/bofa-vira-a-mao-no-magalu-de-venda-a-compra-com-potencial-de-alta-de-88.ghtm",
       "source": "UOL Economia",
       "sourceCanonical": "UOL Economia",
       "sourceDomain": "economia.uol.com.br",
       "publishedAt": "2026-11-10T17:11:02+00:00",
-      "postedLabel": "20 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_77d688ad4cd8",
+      "title": "Magazine Luiza reverte lucro e registra prejuízo de R$ 10,7 milhões no 3º trimestre",
+      "description": "No critério ajustado, registrou lucro de R$ 13,9 milhões, o que reverteu o prejuízo de R$ 50,4 milhões do segundo trimestre, mas que ainda...",
+      "url": "https://valor.globo.com/empresas/noticia/2026/11/09/magazine-luiza-reverte-lucro-e-registra-prejuizo-de-r-107-milhoes-no-3o-trimestre.ghtml",
+      "source": "Valor Econômico",
+      "sourceCanonical": "Valor Econômico",
+      "sourceDomain": "valor.globo.com",
+      "publishedAt": "2026-11-09T22:28:55+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-valor.glbimg.com/UI3AZ7nFYXmNmdW-TUN0C0rj_B8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/O/C/16kLZRRVqjGeYbUHcJOA/magalu2.jpg",
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_664ebfe476aa",
@@ -72,7 +89,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-10T15:10:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/CXXACK7EPRMLRG3ADTGAANKDDE.png?quality=80&auth=6a9d01002f4b34dfe9b5b3cff9dc8910bd7e290bea683601b4c2893f98ad61b2&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -100,7 +117,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-11-10T13:17:59+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2021/06/Magazine-Luiza.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -142,35 +159,21 @@
       "sourceCanonical": "ADVFN",
       "sourceDomain": "br.advfn.com",
       "publishedAt": "2026-11-10T12:39:22+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_5ba02e1e9f9d",
-      "title": "Ação do Magazine Luiza dispara após crescimento de vendas apoiado por crise da Casas Bahia Por Reuters",
-      "description": "10 Nov (Reuters) - As ações do Magazine Luiza saltavam no pregão desta terça-feira após a rede varejista publicar o balanço do terceiro...",
-      "url": "https://br.investing.com/news/stock-market-news/acao-do-magazine-luiza-dispara-apos-crescimento-de-vendas-apoiado-por-crise-da-casas-bahia-2122469",
+      "id": "article_31c6f33301f7",
+      "title": "Magalu (MGLU3) dispara 14% apesar do prejuízo; outubro muda a leitura",
+      "description": "Investing.com — As ações do Magazine Luiza (MGLU3) disparavam nesta terça-feira (10), depois que a varejista divulgou uma aceleração das...",
+      "url": "https://br.investing.com/news/stock-market-news/magalu-mglu3-dispara-14-apesar-do-prejuizo-outubro-muda-a-leitura-2122431",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "sourceCanonical": "Investing.com Brasil",
       "sourceDomain": "br.investing.com",
-      "publishedAt": "2026-11-10T14:47:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_846ead8043aa",
-      "title": "Magalu acelera vendas em outubro e cresce 16% nas lojas físicas",
-      "description": "O Magazine Luiza registrou crescimento de 16% nas vendas das lojas físicas e de 14% no comércio eletrônico com estoque próprio em outubro de...",
-      "url": "https://www.poder360.com.br/poder-economia/magalu-acelera-vendas-em-outubro-e-cresce-16-nas-lojas-fisicas/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-11-09T22:10:15+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-11-10T14:23:00+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -190,6 +193,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_846ead8043aa",
+      "title": "Magalu acelera vendas em outubro e cresce 16% nas lojas físicas",
+      "description": "O Magazine Luiza registrou crescimento de 16% nas vendas das lojas físicas e de 14% no comércio eletrônico com estoque próprio em outubro de...",
+      "url": "https://www.poder360.com.br/poder-economia/magalu-acelera-vendas-em-outubro-e-cresce-16-nas-lojas-fisicas/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-09T22:10:15+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_a93c66b3a229",
       "title": "Magazine Luiza (MGLU3) reverte lucro e registra prejuízo de R$ 10,7 milhões no 3T26, com e-commerce ainda sob pressão",
       "description": "Em um ambiente ainda marcado pelo elevado patamar das taxas de juros, que segue pressionando o consumo e os custos financeiros das empresas,...",
@@ -204,6 +221,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_3327a2c75104",
+      "title": "Ação do Magazine Luiza dispara após crescimento de vendas apoiado por crise da Casas Bahia",
+      "description": "As ações do Magazine Luiza saltavam no pregão desta terça-feira após ‌a rede varejista publicar o balanço do terceiro trimestre na véspera e...",
+      "url": "https://www.terra.com.br/economia/acao-do-magazine-luiza-dispara-apos-crescimento-de-vendas-apoiado-por-crise-da-casas-bahia,492b8e0f08900c2a7a2e451caf06752f11kiyjij.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-10T14:51:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_4b74babcfed5",
       "title": "Magalu volta a lucro de R$ 13,9 mi e dobra crescimento das lojas em meio à crise da Casas Bahia",
       "description": "O Magazine Luiza voltou ao lucro líquido ajustado no terceiro trimestre, enquanto acelerou o ganho de participação no varejo físico após o...",
@@ -215,20 +246,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_d519ecd04dfd",
-      "title": "Por que Magazine Luiza (MGLU3) sobe 14% após prejuízo de R$ 10,7 milhões?",
-      "description": "O prejuízo do terceiro trimestre não afastou os investidores do Magazine Luiza (MGLU3). Os papéis da varejista estão operando em forte alta...",
-      "url": "https://www.terra.com.br/economia/por-que-magazine-luiza-mglu3-sobe-14-apos-prejuizo-de-r-107-milhoes,a0bdb4d4fc461abd5aa742deac5b4325nhbui309.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-10T15:36:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -260,6 +277,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_bc5142ec8219",
+      "title": "Crise no varejo favorece Magazine Luiza: ações sobem até 17%",
+      "description": "A crise de redes tradicionais do varejo, como Casas Bahia, Marabraz, Tok&Stok e Mobly, pode favorecer o Magazine Luiza na disputa por...",
+      "url": "https://investnews.com.br/negocios/crise-varejo-abre-espaco-para-magalu/",
+      "source": "InvestNews",
+      "sourceCanonical": "InvestNews",
+      "sourceDomain": "investnews.com.br",
+      "publishedAt": "2026-11-10T17:41:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_c388e796a845",
       "title": "Magazine Luiza registrou prejuízo líquido de R$ 10,7 milhões no terceiro trimestre de 2026",
       "description": "Desconsiderando os efeitos extraordinários, a varejista obteve lucro líquido ajustado de R$ 13,9 milhões, queda de 34,6% na comparação...",
@@ -274,20 +305,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_9144683f9804",
-      "title": "Magazine Luiza (MGLU3): vendas aceleram, mas Ágora mantém cautela com ações",
-      "description": "Magazine Luiza (MGLU3) acelera vendas em outubro, mas Ágora mantém recomendação neutra para as ações após o balanço do 3T26.",
-      "url": "https://euqueroinvestir.com/acoes/magazine-luiza-mglu3-agora-vendas-resultados-3t26",
-      "source": "EuQueroInvestir",
-      "sourceCanonical": "EuQueroInvestir",
-      "sourceDomain": "euqueroinvestir.com",
-      "publishedAt": "2026-11-10T14:10:13+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_2f210fa2db4a",
       "title": "Magazine Luiza lidera altas, mesmo com prejuízo no 3TRI",
       "description": "Resultado veio em linha com as estimativas do Citi e do Bradesco BBI.",
@@ -300,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_dad82926dcb8",
-      "title": "Atualização: Magazine Luiza, Copasa, Log e outros destaques corporativos desta sessão",
-      "description": "Publicado às 13h12. Ibovespa. O Ibovespa virou para queda. Às 13h11 caía 0,46% aos 171.449 pontos. O dólar comercial tinha alta de 1,82% a...",
-      "url": "https://financenews.com.br/2026/11/atualizacao-magazine-luiza-copasa-log-e-outros-destaques-corporativos-desta-sessao/",
-      "source": "Finance News",
-      "sourceCanonical": "Finance News",
-      "sourceDomain": "financenews.com.br",
-      "publishedAt": "2026-11-10T16:17:49+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 5,
     "max": 7,
-    "average": 5.67,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 5.7,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
-      "center": 8,
+      "center": 9,
       "centerRight": 1,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
