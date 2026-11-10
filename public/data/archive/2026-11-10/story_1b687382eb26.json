@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p1ekxTc0VoR2VVWVZVRUE3Nm5DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p1ekxTc0VoR2VVWVZVRUE3Nm5DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "topic-7",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-7"
+      "topic-7",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-7": 45
+      "topic-7": 49,
+      "topic-8": 54
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 45,
-    "bestSeedRank": 45,
+    "firstSeenRank": 49,
+    "bestSeedRank": 49,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +28,15 @@
     "aviões",
     "los",
     "angeles",
-    "decolagem",
     "quase",
-    "aproximam"
+    "decolagem",
+    "colidem"
   ],
   "imageUrl": "https://i.metroimg.com/fs9rHV6P9niAvhSGCB3RhUhzTCtkfkZ9kD1o8Joi3BA/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/avioes-quase-colidem-eua.jpeg",
   "publishedAt": "2026-11-08T17:52:48+00:00",
-  "updatedAt": "2026-11-10T21:29:28.269834+00:00",
-  "sourceCount": 6,
-  "articleCount": 6,
+  "updatedAt": "2026-11-10T22:33:29.369021+00:00",
+  "sourceCount": 7,
+  "articleCount": 7,
   "articles": [
     {
       "id": "article_058fa6150fc7",
@@ -72,7 +75,7 @@
       "sourceCanonical": "AERO Magazine",
       "sourceDomain": "aeromagazine.uol.com.br",
       "publishedAt": "2026-11-10T16:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://aeromagazine.uol.com.br/media/_versions/aeronaves-em-rota-convergente_widelg.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
@@ -106,6 +109,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_8e98eb16aa50",
+      "title": "Aviões da Air France e American Airlines quase colidem em saída de aeroporto",
+      "description": "Dois aviões de passageiros quase colidiram durante a decolagem no Aeroporto Internacional de Los Angeles, nos Estados Unidos, na madrugada...",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/avioes-air-france-american-airlines-quase-colidem-los-angeles/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-11-10T21:44:17+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/11/imagem-principal-avioes-air-france-american-airlines-quase-colidem-los-angeles-aviao-2.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_7fb091f02298",
       "title": "Quase colisão entre aviões na decolagem em Los Angeles",
       "description": "Dois aviões de passageiros quase colidiram no aeroporto de Los Angeles após uma mudança de direção não autorizada; controladores evitaram a...",
@@ -121,13 +138,13 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 6,
-    "average": 5.5,
-    "knownCount": 2,
+    "average": 4.33,
+    "knownCount": 3,
     "unknownCount": 4,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 2,
       "centerRight": 0,
@@ -136,10 +153,10 @@
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 19,
-    "headlineDivergence": 73,
-    "confidence": 63
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
+    "confidence": 68
   },
   "flags": [
     "Muitas fontes não classificadas",
