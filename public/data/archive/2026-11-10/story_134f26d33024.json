@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1bnMtc0VoRk90d3BJRW5uRlVpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1bnMtc0VoRk90d3BJRW5uRlVpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 10
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre FHC",
   "summary": "Um homem entrou no apartamento de Fernando Henrique Cardoso, em Higienópolis, no centro de São Paulo, filmou o ex-presidente da República...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2026/11/Sem-titulo-2.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-11-09T02:19:27+00:00",
-  "updatedAt": "2026-11-10T06:27:17.840049+00:00",
+  "updatedAt": "2026-11-10T07:18:04.995903+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -170,7 +176,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-10T02:35:33+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -268,7 +274,7 @@
       "sourceCanonical": "Blog Edmar Lyra",
       "sourceDomain": "edmarlyra.com",
       "publishedAt": "2026-11-10T03:00:58+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
