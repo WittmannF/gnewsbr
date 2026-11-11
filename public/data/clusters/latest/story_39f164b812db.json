@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pVaUwyb0VoRkZhXzdLbDhsWEd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pVaUwyb0VoRkZhXzdLbDhsWEd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 3
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 1,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Equipe econômica debate metas de ajuste com o Congresso",
   "summary": "A ideia é que a primeira parte das medidas seja incluída por senadores da base governista em um projeto de lei complementar que trata do...",
@@ -27,12 +33,12 @@
     "lula",
     "gastos",
     "congresso",
-    "projeto"
+    "acerta"
   ],
   "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
   "publishedAt": "2026-11-06T00:47:46+00:00",
-  "updatedAt": "2026-11-11T05:26:39.593069+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-11-11T06:26:13.644515+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -50,30 +56,16 @@
       "bucket": "center"
     },
     {
-      "id": "article_083225fa2771",
-      "title": "Governo articula medida de ajuste nas contas que muda cálculo dos pisos da saúde e da educação; entenda",
-      "description": "O governo do presidente Luiz Inácio Lula da Silva (PT) articula com o Senado a apresentação ainda nesta semana de um Projeto de Lei...",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/11/governo-articula-medida-de-ajuste-nas-contas-que-muda-calculo-dos-pisos-da-saude-e-da-educacao-entenda.ghtml",
+      "id": "article_434582ce06a2",
+      "title": "Governo acerta com Congresso projeto de ajuste fiscal que pode chegar a R$ 80 bi em 2027",
+      "description": "Projeto de lei complementar (PLP) deve ser apresentado por um senador aliado ao governo ainda nesta semana e deve prever ajuste fiscal de 0...",
+      "url": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/10/governa-acerta-com-congresso-projeto-de-ajuste-fiscal-de-05percent-do-pib-para-2027.ghtml",
       "source": "G1",
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-11T03:00:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/Oa4jskWlnTeoIFZB-I_g5Mr3cFw=/3600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/E/p/iMC9ctQlqq6SkXVYRBxg/55636960030-d229c48702-o.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6c271a59d095",
-      "title": "Governo acorda com Congresso projeto de ajuste fiscal de 0,5% do PIB em 27",
-      "description": "Estão na mesa medidas como a retirada de receitas extraordinárias da conta para o reajuste de pisos e corte em incentivos tributários,...",
-      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-acorda-com-congresso-projeto-de-ajuste-fiscal-de-05-do-pib-em-27/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-10T22:55:41+00:00",
+      "publishedAt": "2026-11-10T22:03:53+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/LULA-29-10-26-e1794353364578.jpg?w=1200&h=630&crop=1",
+      "imageUrl": "https://s2-g1.glbimg.com/4GYteIrAIv-boCTJhuMYbmDtQHM=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/B/nFOcrFRYOky4b2lCstyA/rbs-noticias-limpo-rbsn-2210.sub.01-frame-8267.png",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -86,7 +78,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-11T01:31:55+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/MQPEGFLQPVC5PMEOUWSLAK6HFU.jpg?quality=80&auth=3a2dff07ac70e128031fea8d19e098c77ad214332b613ced3f81dc7811c0bcf3&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -101,9 +93,23 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-11T04:29:00+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/11/11012941/lula_16x9_2143x1200-1.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c0067e152ae1",
+      "title": "Governo quer 1,75% de superávit em 2030 e centro da meta fiscal como alvo",
+      "description": "Ajuste deve ser apresentado em projeto de lei complementar do senador Jaques Wagner (PT-BA) e relatado por Eduardo Braga (MDB-AM)",
+      "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/economia/money/macroeconomia/governo-quer-175-de-superavit-em-2030-e-menos-excecoes-ao-arcabouco/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-11T00:19:19+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_92f8feadaab9",
@@ -120,17 +126,17 @@
       "bucket": "left"
     },
     {
-      "id": "article_2d0db2d31e4c",
-      "title": "Lula e três economistas que realmente importam",
+      "id": "article_64b1b134c157",
+      "title": "Lula e três economistas que realmente importam – Paulo Henrique Arantes",
       "description": "É cansativo ler e ouvir diariamente os arautos de “o mercado” apontarem riscos de recessão em 2027, necessidade urgente de ajuste fiscal,...",
-      "url": "https://www.diariodocentrodomundo.com.br/lula-e-tres-economistas-que-realmente-importam/",
-      "source": "Diário do Centro do Mundo",
-      "sourceCanonical": "Diário do Centro do Mundo",
-      "sourceDomain": "diariodocentrodomundo.com.br",
-      "publishedAt": "2026-11-09T09:56:00+00:00",
+      "url": "https://www.brasil247.com/blog/lula-e-tres-economistas-que-realmente-importam/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-11-09T09:35:18+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
+      "spectrumScore": 1,
       "bucket": "left"
     },
     {
@@ -156,24 +162,24 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-11T00:19:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_7885244c3e87",
-      "title": "Governo acerta com Congresso projeto de ajuste fiscal de R$ 80 bi em 2027, diz fonte",
-      "description": "O projeto incluiria a retirada de receitas extraordinárias do cálculo dos pisos constitucionais de saúde e educação mesmo em caso de...",
-      "url": "https://www.infomoney.com.br/politica/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-em-2027-diz-fonte/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-11T00:21:44+00:00",
-      "postedLabel": "5 horas atrás",
+      "id": "article_8b97d420c15e",
+      "title": "Governo acerta com Congresso projeto de ajuste fiscal de 0,5% do PIB em 2027",
+      "description": "Para o ano que vem, medida representa um ajuste entre R$ 70 bilhões e R$ 80 bilhões.",
+      "url": "https://www.brasil247.com/economia/governo-lula-negocia-com-congresso-ajuste-fiscal-de-ate-r-80-bilhoes-em-2027/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-11-10T22:46:28+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_d7d3f8705d4d",
@@ -190,20 +196,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_a6d8839adce0",
-      "title": "Governo acerta com Congresso pacote de ajuste fiscal que pode chegar a R$ 80 bilhões em 2027",
-      "description": "Iniciativa busca garantir o cumprimento da meta de superávit primário de 0,5% do Produto Interno Bruto no próximo ano.",
-      "url": "https://gauchazh.clicrbs.com.br/economia/noticia/2026/11/governo-acerta-com-congresso-pacote-de-ajuste-fiscal-que-pode-chegar-a-r-80-bilhoes-em-2027-cmwbgiypb00tc015es0dtk83a.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-11-11T01:49:50+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_d0c23d4adc30",
       "title": "Lula promete melhorar contas públicas sem afetar gastos sociais, mas não detalha medidas",
       "description": "Dívida em alta, novas promessas e despesas obrigatórias pressionam o Orçamento; equipe econômica ainda trabalha em propostas.",
@@ -216,6 +208,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_a6d8839adce0",
+      "title": "Governo acerta com Congresso pacote de ajuste fiscal que pode chegar a R$ 80 bilhões em 2027",
+      "description": "Iniciativa busca garantir o cumprimento da meta de superávit primário de 0,5% do Produto Interno Bruto no próximo ano.",
+      "url": "https://gauchazh.clicrbs.com.br/economia/noticia/2026/11/governo-acerta-com-congresso-pacote-de-ajuste-fiscal-que-pode-chegar-a-r-80-bilhoes-em-2027-cmwbgiypb00tc015es0dtk83a.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-11-11T01:49:50+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_072209a87f3b",
@@ -254,20 +260,6 @@
       "sourceCanonical": "Bom Dia Mercado",
       "sourceDomain": "bomdiamercado.com.br",
       "publishedAt": "2026-11-11T04:24:54+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_358c345b7c71",
-      "title": "Governo projeta superávit de 1,75% do PIB em 2030 e prepara mudanças no arcabouço fiscal",
-      "description": "O governo federal prepara um novo pacote de medidas fiscais com o objetivo de alcançar superávit primário de 1,75% do Produto Interno Bruto...",
-      "url": "https://www.portalin.com.br/business/governo-projeta-superavit-de-175-do-pib-em-2030-e-prepara-mudancas-no-arcabouco-fiscal/",
-      "source": "Portal IN - Pompeu Vasconcelos",
-      "sourceCanonical": "Portal IN - Pompeu Vasconcelos",
-      "sourceDomain": "portalin.com.br",
-      "publishedAt": "2026-11-11T02:30:00+00:00",
       "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
@@ -314,18 +306,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_f14442bb3a5a",
+      "title": "Governo estuda mudar regra fiscal para reduzir teto de gasto | Juína News - A notícia certa, na hora certa",
+      "description": "O governo de Luiz Inácio Lula da Silva (PT) estuda mudar o arcabouço fiscal, conjunto de regras para controlar as contas públicas,...",
+      "url": "https://www.juinanews.com.br/politica/governo-estuda-mudar-regra-fiscal-para-reduzir-teto-de-gasto/76731",
+      "source": "Juína News",
+      "sourceCanonical": "Juína News",
+      "sourceDomain": "juinanews.com.br",
+      "publishedAt": "2026-11-09T13:23:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 8,
-    "average": 5.25,
+    "average": 4.88,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 2,
-      "center": 8,
+      "center": 7,
       "centerRight": 4,
       "right": 0,
       "unknown": 4
@@ -333,8 +339,8 @@
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
