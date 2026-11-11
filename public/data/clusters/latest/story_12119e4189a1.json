@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 37,
-      "topic-5": 37
+      "topic-3": 34,
+      "topic-5": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,12 +29,12 @@
     "deputado",
     "pix",
     "operação",
-    "bahia",
-    "buscas"
+    "buscas",
+    "bahia"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/STF-6x1-AudienciaPublica-FlavioDino-7-1200x675.jpg",
   "publishedAt": "2026-11-09T08:00:00+00:00",
-  "updatedAt": "2026-11-11T17:20:45.245451+00:00",
+  "updatedAt": "2026-11-11T18:21:48.131213+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -75,7 +75,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-11T15:55:19+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/QLciB6unUWwCeERxgQja3iG0cts=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/C/e/tZPQKaTDaACBlm4ZPYOA/manuel.png",
       "spectrumScore": 5,
       "bucket": "center"
@@ -89,7 +89,7 @@
       "sourceCanonical": "stf noticias",
       "sourceDomain": "noticias.stf.jus.br",
       "publishedAt": "2026-11-10T18:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -263,20 +263,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_b4cb7b63d096",
-      "title": "Investigada pela PF, mãe de Neto Carletto teria usado trabalhadora rural para sacar R$ 400 mil na Bahia",
-      "description": "Segundo decisão do STF, funcionária que recebia menos de um salário mínimo.",
-      "url": "https://www.correio24horas.com.br/bahia/investigada-pela-pf-mae-de-neto-carletto-teria-usado-trabalhadora-rural-para-sacar-r-400-mil-na-bahia-1126",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
-      "sourceDomain": "correio24horas.com.br",
-      "publishedAt": "2026-11-11T11:23:19+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e204863f78b7",
       "title": "Dino cita saques milionários para autorizar buscas contra pais de deputado do Avante",
       "description": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), autorizou buscas contra os pais do deputado Neto Carletto (Avante-BA) com base em...",
@@ -317,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_cb515edec825",
+      "title": "operação fluxo paralelo",
+      "description": "Polícia Polícia Federal investiga emendas Pix destinadas pelo deputado federal Neto Carletto a cidades baianas 10/11/2026 12:02...",
+      "url": "https://glomes.com.br/tag/operacao-fluxo-paralelo/",
+      "source": "Grupo Lomes de Comunicação",
+      "sourceCanonical": "Grupo Lomes de Comunicação",
+      "sourceDomain": "glomes.com.br",
+      "publishedAt": "2026-11-10T15:02:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.53,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.57,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 6,
+      "center": 5,
       "centerRight": 3,
       "right": 2,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +343,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
