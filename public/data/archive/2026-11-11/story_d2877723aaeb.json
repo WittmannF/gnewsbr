@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 41,
-      "topic-5": 43
+      "topic-3": 40,
+      "topic-5": 47
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 41,
-    "bestSeedRank": 41,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,12 +29,12 @@
     "raros",
     "real",
     "gabinete",
-    "operação",
-    "português"
+    "mira",
+    "operação"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/d3ZfMkYi6ksUne402XxGnVjVzQc=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/1/7/i34w9CRuue3nilU2CIOg/gabinete-1-.jpeg",
   "publishedAt": "2026-11-10T10:27:00+00:00",
-  "updatedAt": "2026-11-11T03:22:27.701202+00:00",
+  "updatedAt": "2026-11-11T04:23:44.213169+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -74,8 +74,8 @@
       "source": "VEJA RIO",
       "sourceCanonical": "VEJA RIO",
       "sourceDomain": "vejario.abril.com.br",
-      "publishedAt": "2026-11-10T21:40:39+00:00",
-      "postedLabel": "5 horas atrás",
+      "publishedAt": "2026-11-10T14:00:55+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -117,7 +117,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-10T23:29:16+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -201,7 +201,7 @@
       "sourceCanonical": "Band",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-11-10T22:43:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -291,6 +291,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_5554b4d7d123",
+      "title": "PF mira suspeitos de comercializar livros raros e objetos históricos furtados",
+      "description": "Ação da PF busca resgatar relíquias e livros raros desviados; grupo tentou cooptar funcionário do tradicional Real Gabinete Português no...",
+      "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7535916-operacao-da-pf-resgata-livros-raros-e-protege-acervos-historicos.html",
+      "source": "Correio Braziliense",
+      "sourceCanonical": "Correio Braziliense",
+      "sourceDomain": "correiobraziliense.com.br",
+      "publishedAt": "2026-11-10T11:44:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_a9cf6241b422",
       "title": "PF investiga rede de venda de livros raros furtados no Rio",
       "description": "Polícia Federal cumpre mandados no Rio e em São Paulo para recuperar livros raros e bens culturais furtados.",
@@ -299,21 +313,7 @@
       "sourceCanonical": "Jornal O Fluminense",
       "sourceDomain": "ofluminense.com.br",
       "publishedAt": "2026-11-10T23:22:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_f6605161073c",
-      "title": "PF deflagra operação contra receptação de bens culturais no Rio; Real Gabinete Português era alvo de grupo que tentou aliciar funcionário para acessar biblioteca",
-      "description": "A Polícia Federal (PF) deflagrou, na manhã desta terça-feira (10), a Operação Página Oculta, contra a receptação, ocultação e...",
-      "url": "https://temporealrj.com/pf-deflagra-operacao-receptacao-bens-culturais/",
-      "source": "Tempo Real",
-      "sourceCanonical": "Tempo Real",
-      "sourceDomain": "temporealrj.com",
-      "publishedAt": "2026-11-10T11:28:58+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -322,26 +322,27 @@
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.92,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 4.85,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 2,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 8,
       "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
     "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
