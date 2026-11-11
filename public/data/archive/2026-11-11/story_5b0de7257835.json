@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpak9hdUVoR2p1ckZCQmQzM0x5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpak9hdUVoR2p1ckZCQmQzM0x5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 3
+      "topic-3": 4,
+      "topic-5": 36
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +27,16 @@
   "topicKeywords": [
     "toffoli",
     "advogado",
-    "ligado",
     "flávio",
     "investigação",
+    "ligado",
     "bolsonaro"
   ],
   "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/Foto-Andressa-Anholete-STF-2.jpg",
   "publishedAt": "2026-11-11T10:55:01+00:00",
-  "updatedAt": "2026-11-11T13:19:20.560898+00:00",
-  "sourceCount": 4,
-  "articleCount": 4,
+  "updatedAt": "2026-11-11T14:19:41.454133+00:00",
+  "sourceCount": 5,
+  "articleCount": 5,
   "articles": [
     {
       "id": "article_88d1f7319e6f",
@@ -44,7 +47,7 @@
       "sourceCanonical": "NSC Total",
       "sourceDomain": "nsctotal.com.br",
       "publishedAt": "2026-11-11T10:55:01+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://img.nsctotal.com.br/wp-content/uploads/2026/08/Foto-Andressa-Anholete-STF-2.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -58,7 +61,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-11T13:01:16+00:00",
-      "postedLabel": "18 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,10 +75,24 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-11-11T11:31:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/11/imagem_2026-11-11_082935501.png",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_9971a1471af5",
+      "title": "Toffoli mandou arquivar investigação contra advogado que pagou R$ 2,1 milhões a escritório de Flávio Bolsonaro",
+      "description": "Foto: Antonio Augusto/STF. O ministro Dias Toffoli, do STF, determinou o encerramento de uma investigação da Polícia Federal contra o...",
+      "url": "https://www.blogdobg.com.br/toffoli-mandou-arquivar-investigacao-contra-advogado-que-pagou-r-21-milhoes-a-escritorio-de-flavio-bolsonaro/",
+      "source": "Blog do BG",
+      "sourceCanonical": "Blog do BG",
+      "sourceDomain": "blogdobg.com.br",
+      "publishedAt": "2026-11-11T14:18:32+00:00",
+      "postedLabel": "um minuto atrás",
+      "imageUrl": "https://assets.blogdobg.com.br/uploads/2026/11/ministro-dias-toffoli-em-sessao-plenaria-no-stf-1781199486987_v2_900x506.jpg.jpg",
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_a2c54cccfaf5",
@@ -86,7 +103,7 @@
       "sourceCanonical": "Agenda do Poder",
       "sourceDomain": "agendadopoder.com.br",
       "publishedAt": "2026-11-11T12:11:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -97,21 +114,21 @@
     "max": 5,
     "average": 4,
     "knownCount": 3,
-    "unknownCount": 1,
+    "unknownCount": 2,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 1
+      "unknown": 2
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 49,
     "headlineDivergence": 79,
-    "confidence": 62
+    "confidence": 64
   },
   "flags": [
     "Manchetes divergentes"
