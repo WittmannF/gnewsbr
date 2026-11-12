@@ -3,31 +3,25 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1bnMtc0VoRXJRQS1sZzJKQ19DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k1bnMtc0VoRXJRQS1sZzJKQ19DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
     "topic-3",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 1,
-      "topstories": 1,
-      "topic-3": 7,
-      "topic-5": 6
+      "topic-3": 6,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 6,
+    "bestSeedRank": 6,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
-  "title": "Notícias sobre FHC",
+  "title": "Polícia de São Paulo investiga vídeo gravado em apartamento de FHC",
   "summary": "Signatários afirmam ser \"difícil encontrar palavras para qualificar tamanha falta de respeito, sensibilidade e decência\"",
   "topic": "Fhc · Homem",
   "topicKeywords": [
@@ -38,9 +32,9 @@
     "vídeo",
     "presidente"
   ],
-  "imageUrl": "https://s2-oglobo.glbimg.com/__s2Z6xCML7mzlABeQuRp8tFcuw=/1296x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/N/O/eQJJr3SkiRuhNf12AkxA/85200641-sc-sao-paulo-sp-15-10-2019-entrevista-com-o-ex-presidente-da-republica-fernando-henriq.jpg",
+  "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/09/17942351956af1db3b062b3_1794235195_3x2_rt.jpg",
   "publishedAt": "2026-11-09T20:38:03+00:00",
-  "updatedAt": "2026-11-12T06:26:53.047738+00:00",
+  "updatedAt": "2026-11-12T07:20:12.481088+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -54,7 +48,7 @@
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-12T00:13:35+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-oglobo.glbimg.com/__s2Z6xCML7mzlABeQuRp8tFcuw=/1296x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/N/O/eQJJr3SkiRuhNf12AkxA/85200641-sc-sao-paulo-sp-15-10-2019-entrevista-com-o-ex-presidente-da-republica-fernando-henriq.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -101,20 +95,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_7d29a2592262",
-      "title": "Quem é Patrícia Kundrát, mulher de FHC citada em polêmica após vídeo do ex-presidente",
-      "description": "O nome de Patrícia Kundrát, mulher do ex-presidente Fernando Henrique Cardoso, ficou em evidência nesta segunda-feira, 9, após a divulgação...",
-      "url": "https://veja.abril.com.br/brasil/quem-e-patricia-kundrat-mulher-de-fhc-citada-em-polemica-apos-video-do-ex-presidente/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-10T13:44:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_77d72dc49c73",
       "title": "Caso FHC: veja crimes que podem ser apurados após vídeo em residência",
       "description": "Polícia Civil investiga gravação divulgada por influenciador; difamação e dispositivos do Estatuto da Pessoa Idosa estão entre as possíveis...",
@@ -143,6 +123,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_7d29a2592262",
+      "title": "Quem é Patrícia Kundrát, mulher de FHC citada em polêmica após vídeo do ex-presidente",
+      "description": "O nome de Patrícia Kundrát, mulher do ex-presidente Fernando Henrique Cardoso, ficou em evidência nesta segunda-feira, 9, após a divulgação...",
+      "url": "https://veja.abril.com.br/brasil/quem-e-patricia-kundrat-mulher-de-fhc-citada-em-polemica-apos-video-do-ex-presidente/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-10T13:44:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_1c8f2331a9de",
       "title": "O direito à privacidade no caso FHC, segundo um especialista",
       "description": "Para Rafael Zanatta, advogado e diretor da Data Privacy Brasil, influenciador que divulgou imagens do ex-presidente violou direitos...",
@@ -152,6 +146,20 @@
       "sourceDomain": "nexojornal.com.br",
       "publishedAt": "2026-11-11T21:48:33+00:00",
       "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_f989e42b4c19",
+      "title": "Polícia Civil de São Paulo indicia homem que gravou vídeos de FHC por difamação contra pessoa idosa",
+      "description": "Diagnosticado com Alzheimer, FHC teve sua interdição decretada pela Justiça neste ano, a pedido de seus filhos, diante do agravamento da...",
+      "url": "https://www.bbc.com/portuguese/articles/c6y43492vrzxo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-11-10T13:12:25+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -169,20 +177,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_f989e42b4c19",
-      "title": "Polícia Civil de São Paulo indicia homem que gravou vídeos de FHC por difamação contra pessoa idosa",
-      "description": "Diagnosticado com Alzheimer, FHC teve sua interdição decretada pela Justiça neste ano, a pedido de seus filhos, diante do agravamento da...",
-      "url": "https://www.bbc.com/portuguese/articles/c6y43492vrzxo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-11-10T13:12:25+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_31b2f1817e8d",
@@ -213,6 +207,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_f4d3b342e002",
+      "title": "Personalidades assinam carta de repúdio após vídeo de FHC",
+      "description": "FHC foi filmado em sua casa por jornalista e influenciador digital; família nega ter dado permissão para gravações. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-gente/personalidades-assinam-carta-de-repudio-apos-video-de-fhc/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-12T03:01:49+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_ae091f7656f0",
       "title": "Polícia Civil indicia influenciador e marido por vídeo na casa de FHC",
       "description": "No mês de outubro, os dois entraram no apartamento do ex-presidente, no bairro paulistano de Higienópolis, e gravaram imagens da residência...",
@@ -227,20 +235,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_f4d3b342e002",
-      "title": "Personalidades assinam carta de repúdio após vídeo de FHC",
-      "description": "FHC foi filmado em sua casa por jornalista e influenciador digital; família nega ter dado permissão para gravações. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-gente/personalidades-assinam-carta-de-repudio-apos-video-de-fhc/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-11-12T03:01:49+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e4c24fb5167f",
       "title": "A Justiça de São Paulo tomou uma decisão sobre Wesley Oliveira, responsável por divulgar vídeos de Fernando Henrique Cardoso em situação de vulnerabilidade dentro de seu apartamento. Segundo a coluna de @monica_bergamo, da @folhadespaulo, a",
       "description": "",
@@ -249,7 +243,7 @@
       "sourceCanonical": "Instagram",
       "sourceDomain": "instagram.com",
       "publishedAt": "2026-11-12T03:43:51+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"

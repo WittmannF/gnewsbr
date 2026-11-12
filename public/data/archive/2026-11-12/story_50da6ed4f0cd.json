@@ -12,11 +12,11 @@
       "topic-8"
     ],
     "seedRanks": {
-      "topic-5": 44,
+      "topic-5": 43,
       "topic-8": 3
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 44,
+    "firstSeenRank": 43,
     "bestSeedRank": 3,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/11/geov.png",
   "publishedAt": "2026-11-10T15:02:42+00:00",
-  "updatedAt": "2026-11-12T06:39:01.370720+00:00",
+  "updatedAt": "2026-11-12T07:28:23.332375+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -89,7 +89,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-11-12T01:20:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://imagens.ebc.com.br/1nlNn9uOdRUU_Ly1nLdbpUK3Tg4=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/banco-do-brasil_mcamgo_abr_280620211818-3.jpg?itok=2wwStPuz",
       "spectrumScore": 5,
       "bucket": "center"
@@ -169,14 +169,14 @@
       "title": "Banco do Brasil corta previsão de lucro pela metade após disparada da inadimplência",
       "description": "Resultado do terceiro trimestre despenca 67% e fica muito abaixo das estimativas do mercado.",
       "url": "https://veja.abril.com.br/economia/banco-do-brasil-corta-previsao-de-lucro-pela-metade-apos-disparada-da-inadimplencia/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
+      "source": "Assine Abril",
+      "sourceCanonical": "Assine Abril",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-11T23:10:56+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9c66e368cb2b",
@@ -243,7 +243,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-12T01:07:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -257,24 +257,10 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-11-12T01:12:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_fcc09308b7c8",
-      "title": "Banco do Brasil (BBAS3) registra lucro ajustado de R$ 8,6 bi em 9M26",
-      "description": "Banco do Brasil (BBAS3) registra lucro líquido ajustado de R$ 8,6 bi nos nove meses de 2026, com R$ 1,3 bi no 3T26, e revisa as projeções...",
-      "url": "https://visnoinvest.com.br/news/16440/banco-do-brasil-bbas3-registra-lucro-ajustado-de-r-86-bi-em-9m26",
-      "source": "Visno Invest",
-      "sourceCanonical": "Visno Invest",
-      "sourceDomain": "visnoinvest.com.br",
-      "publishedAt": "2026-11-11T22:34:44+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_1fa81ce11870",
@@ -289,6 +275,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_fcc09308b7c8",
+      "title": "Banco do Brasil (BBAS3) registra lucro ajustado de R$ 8,6 bi em 9M26",
+      "description": "Banco do Brasil (BBAS3) registra lucro líquido ajustado de R$ 8,6 bi nos nove meses de 2026, com R$ 1,3 bi no 3T26, e revisa as projeções...",
+      "url": "https://visnoinvest.com.br/news/16440/banco-do-brasil-bbas3-registra-lucro-ajustado-de-r-86-bi-em-9m26",
+      "source": "Visno Invest",
+      "sourceCanonical": "Visno Invest",
+      "sourceDomain": "visnoinvest.com.br",
+      "publishedAt": "2026-11-11T22:34:44+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_71de35375205",
@@ -322,16 +322,16 @@
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.87,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5.79,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 11,
-      "centerRight": 3,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -342,6 +342,7 @@
   },
   "flags": [
     "Alta cobertura",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
