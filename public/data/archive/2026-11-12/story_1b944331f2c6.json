@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 36
+      "topic-7": 34
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 36,
-    "bestSeedRank": 36,
+    "firstSeenRank": 34,
+    "bestSeedRank": 34,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/javier-milei.jpg?w=1000&h=600&crop=1",
   "publishedAt": "2026-11-11T06:37:32+00:00",
-  "updatedAt": "2026-11-12T21:32:14.809724+00:00",
+  "updatedAt": "2026-11-12T22:29:07.181532+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -48,20 +48,6 @@
       "imageUrl": "https://jovempan.com.br/wp-content/uploads/sites/2/2024/11/javier-milei.jpg?w=1000&h=600&crop=1",
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_4132f65ad116",
-      "title": "Irã rebate governo Milei e classifica Forças Armadas da Argentina como terroristas",
-      "description": "Comunicado cita Marinha e Força Aérea, mas deixa Exército de fora; Chancelaria iraniana diz que Buenos Aires arcará com 'todas as...",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/11/ira-rebate-governo-milei-e-classifica-forcas-armadas-da-argentina-como-terroristas.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-11-11T12:24:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/11/17943979896af457257b3b8_1794397989_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_3338bcc79dce",
@@ -101,9 +87,23 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-12T12:20:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/10/08112013/ira.repressao.exterior.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_6397b216637d",
+      "title": "Senadora chama Irã de 'Estado terrorista' após decisão contra Argentina",
+      "description": "A senadora argentina Patricia Bullrich chamou o Irã de \"Estado terrorista\" após o país classificar a Marinha e a Força Aérea argentinas como...",
+      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/11/bullrich-chama-ira-de-estado-terrorista-apos-decisao-contra-argentina.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-11-11T19:43:27+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_2dddefcd5c3e",
@@ -128,7 +128,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-11T22:14:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -240,7 +240,7 @@
       "sourceCanonical": "REDE BRASIL DE TELEVISÃO",
       "sourceDomain": "rbtv.com.br",
       "publishedAt": "2026-11-12T20:03:06+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,20 +319,20 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 6.08,
+    "average": 6.15,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
-      "center": 6,
+      "centerLeft": 0,
+      "center": 7,
       "centerRight": 3,
       "right": 2,
       "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 100,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 94,
     "confidence": 95
