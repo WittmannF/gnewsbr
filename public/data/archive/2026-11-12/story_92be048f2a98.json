@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lQbEttckVoRUl1MmFQUV95UDRTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lQbEttckVoRUl1MmFQUV95UDRTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Democratas elegem primeiro senador no Mississippi em 40 anos",
   "summary": "Vitória em reduto conservador amplia a maioria do partido na casa e sinaliza momento desfavorável para republicanos; líder democrata no...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "mississippi",
     "democrata",
+    "eua",
     "senador",
-    "negro",
     "senado",
-    "eua"
+    "negro"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Scott-Colom.jpg?w=1200&h=630&crop=1",
-  "publishedAt": "2026-11-05T15:27:00+00:00",
-  "updatedAt": "2026-11-12T04:29:49.723202+00:00",
+  "publishedAt": "2026-11-04T19:51:48+00:00",
+  "updatedAt": "2026-11-12T05:18:21.728099+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-11T23:00:30+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/mMrMZcdigaopbwCRo_0c13foOy4=/2252x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/N/n0SYjAQ5qIxeQ58DdhlQ/2026-11-07t110010z-794968720-rc2ngoa85rg2-rtrmadp-3-usa-election-democrats-1-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -71,8 +77,8 @@
       "source": "UOL Notícias",
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-12T03:38:52+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-11-11T23:06:43+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,24 +92,24 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-11-12T01:31:48+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/7b6e/live/0435e8a0-de39-11f1-a9ed-658311f31da9.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
     {
-      "id": "article_9eb8705e364f",
-      "title": "EUA ainda têm 17 disputas eleitorais sem vencedor definido",
-      "description": "Democratas já asseguraram maioria no Congresso dos EUA; indefinições atingem Senado, Câmara e governos estaduais. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-internacional/eua-ainda-tem-17-disputas-eleitorais-sem-vencedor-definido/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-11-11T12:32:56+00:00",
-      "postedLabel": "hoje",
+      "id": "article_74c53864c4d7",
+      "title": "Democrata surpreende ao vencer assento pelo Mississippi no Senado dos EUA",
+      "description": "Assine para ter acesso ilimitado a todo o conteúdo do streaming O POVO+ e também do portal O POVO. Reportagens, filmes, séries, clube de...",
+      "url": "https://mais.opovo.com.br/jornal/farol/2026/11/12/democrata-surpreende-ao-vencer-assento-pelo-mississippi-no-senado-dos-eua.html",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-11-12T04:15:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_dabdf783adb4",
@@ -120,6 +126,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_9eb8705e364f",
+      "title": "EUA ainda têm 17 disputas eleitorais sem vencedor definido",
+      "description": "Democratas já asseguraram maioria no Congresso dos EUA; indefinições atingem Senado, Câmara e governos estaduais. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-internacional/eua-ainda-tem-17-disputas-eleitorais-sem-vencedor-definido/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-11T12:32:56+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_a1525037913f",
       "title": "Democrata é eleito no Mississippi e será o primeiro senador negro do estado em 150 anos",
       "description": "Scott Colom derrotou por uma pequena margem a senadora republicana incumbente, conquistando uma cadeira em um histórico reduto conservador.",
@@ -132,34 +152,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_1b60d49b4d1a",
-      "title": "Mississippi elege 1º senador negro no estado em 150 anos",
-      "description": "O promotor público Scott Colom, de 43 anos, fez história ao vencer a eleição para o Senado dos Estados Unidos pelo estado do Mississippi.",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/mississippi-elege-1-senador-negro-no-estado-em-150-anos",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-11T23:59:02+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_2306ce8571e8",
-      "title": "Democrata faz história e será o 1º senador negro do Mississippi em 150 anos",
-      "description": "O democrata Scott Colom (foto em destaque), de 43 anos, venceu a republicana Cindy Hyde-Smith, que tentava a reeleição, e conquistou uma...",
-      "url": "https://www.metropoles.com/mundo/democrata-faz-historia-e-sera-o-1o-senador-negro-do-mississippi-em-150-anos",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-12T00:39:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_87b096ffe1fd",
@@ -176,20 +168,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_515b0bb8eaf8",
-      "title": "Democrata surpreende ao vencer assento pelo Mississippi no Senado dos EUA",
-      "description": "O democrata Scott Colom conquistou uma cadeira no Senado dos Estados Unidos pelo tradicionalmente conservador estado do Mississippi,...",
-      "url": "https://www.folhape.com.br/noticias/democrata-surpreende-ao-vencer-assento-pelo-mississippi-no-senado-dos/523779/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-11-12T01:03:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_6c6de58ad306",
       "title": "Democrata Colom vence disputa acirrada pelo Senado no Mississippi",
       "description": "Democrata Colom vence disputa acirrada pelo Senado no Mississippi. Ler o artigo completo. Tenha acesso ilimitado aos artigos da Reuters e de todas as outras...",
@@ -198,38 +176,24 @@
       "sourceCanonical": "TradingView",
       "sourceDomain": "br.tradingview.com",
       "publishedAt": "2026-11-11T23:13:34+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_d96f4be74563",
-      "title": "Dois estados ainda apuram votos para o Senado nos EUA; entenda o motivo de tanta demora",
-      "description": "Pleito foi realizado há uma semana, em 3 de novembro, e garantiu a maioria do Congresso para o Partido Democrata.",
-      "url": "https://noticias.r7.com/internacional/dois-estados-ainda-apuram-votos-para-o-senado-nos-eua-entenda-o-motivo-de-tanta-demora-10112026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-11-10T17:58:07+00:00",
-      "postedLabel": "ontem",
+      "id": "article_2249af95f993",
+      "title": "Scott Colom vence no Mississípi e pode ser o primeiro senador negro do estado em 146 anos, projecta a CNN",
+      "description": "Colom lidera a votação por pouco mais do que 4500 votos, ou 0,5 pontos percentuais, numa altura em que 99 por cento dos boletins de voto já...",
+      "url": "https://www.publico.pt/2026/11/11/mundo/noticia/democrata-scott-colom-derrota-republicana-cindy-hydesmith-mississipi-avanca-cnn-2194669",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-11-11T22:41:43+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_9d93f76db551",
-      "title": "Democrata vence no Mississippi e será primeiro senador negro desde 1881",
-      "description": "Scott Colom derrota a republicana Cindy Hyde-Smith por margem de 4.669 votos e amplia maioria democrata no Senado dos Estados Unidos.",
-      "url": "https://www.brasil247.com/mundo/democrata-vence-no-mississippi-e-sera-primeiro-senador-negro-desde-1881/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-11-11T23:42:56+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_703c0c66e7f7",
@@ -246,17 +210,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_6db98097deee",
-      "title": "Democrata Colom vence disputa acirrada pelo Senado no Mississippi",
-      "description": "O democrata Scott Colom conquistou ‌uma vitória surpreendente na disputa pelo Senado no Mississippi, após dias de apuração,...",
-      "url": "https://www.terra.com.br/noticias/mundo/democrata-colom-vence-disputa-acirrada-pelo-senado-no-mississippi,48e44a6b468aeea5db659828937392e3y2yb8srv.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-11T22:25:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_1b60d49b4d1a",
+      "title": "Mississippi elege 1º senador negro no estado em 150 anos",
+      "description": "O promotor público Scott Colom, de 43 anos, fez história ao vencer a eleição para o Senado dos Estados Unidos pelo estado do Mississippi.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/mississippi-elege-1-senador-negro-no-estado-em-150-anos",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-11T23:59:02+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -274,6 +238,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_d96f4be74563",
+      "title": "Dois estados ainda apuram votos para o Senado nos EUA; entenda o motivo de tanta demora",
+      "description": "Pleito foi realizado há uma semana, em 3 de novembro, e garantiu a maioria do Congresso para o Partido Democrata.",
+      "url": "https://noticias.r7.com/internacional/dois-estados-ainda-apuram-votos-para-o-senado-nos-eua-entenda-o-motivo-de-tanta-demora-10112026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-11-10T17:58:07+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_2306ce8571e8",
+      "title": "Democrata faz história e será o 1º senador negro do Mississippi em 150 anos",
+      "description": "O democrata Scott Colom (foto em destaque), de 43 anos, venceu a republicana Cindy Hyde-Smith, que tentava a reeleição, e conquistou uma...",
+      "url": "https://www.metropoles.com/mundo/democrata-faz-historia-e-sera-o-1o-senador-negro-do-mississippi-em-150-anos",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-12T00:39:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_82f48752dbbc",
       "title": "EUA ainda têm 17 disputas em aberto após eleições de meio de mandato",
       "description": "Duas cadeiras do Senado, 13 da Câmara dos Representantes e dois governos estaduais continuam em jogo. Regras e prazos de apuração variam de...",
@@ -288,6 +280,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_515b0bb8eaf8",
+      "title": "Democrata surpreende ao vencer assento pelo Mississippi no Senado dos EUA",
+      "description": "O democrata Scott Colom conquistou uma cadeira no Senado dos Estados Unidos pelo tradicionalmente conservador estado do Mississippi,...",
+      "url": "https://www.folhape.com.br/noticias/democrata-surpreende-ao-vencer-assento-pelo-mississippi-no-senado-dos/523779/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-11-12T01:03:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
+      "id": "article_a509b14a9474",
+      "title": "Os estados que ainda vão definir cadeiras no Senado e na Câmara dos EUA",
+      "description": "Embora os democratas já tenham conquistado a maioria nas duas Casas do Congresso, apuração dos votos ainda não terminou.",
+      "url": "https://veja.abril.com.br/mundo/quais-estados-ainda-faltam-definir-duas-cadeiras-no-senado-e-68-na-camara-dos-eua/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-04T19:51:48+00:00",
+      "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_eb762e2b675c",
       "title": "17 estados seguem com apuração em andamento; Democratas garantem maioria nos EUA",
       "description": "Os democratas já asseguraram a maioria no Senado e na Câmara dos Representantes dos Estados Unidos, mas 17 disputas das eleições de meio de...",
@@ -300,41 +320,27 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_1d8d5f0e10d1",
-      "title": "Mississippi elege primeiro senador democrata desde 1947",
-      "description": "O democrata Scott Colom venceu a eleição para o Senado dos EUA representando o Mississippi, derrotando a republicana Cindy Hyde-Smith nesta...",
-      "url": "https://www.oliberal.com/mundo/mississippi-elege-primeiro-senador-democrata-desde-1947-1.1193285",
-      "source": "O Liberal",
-      "sourceCanonical": "O Liberal",
-      "sourceDomain": "oliberal.com",
-      "publishedAt": "2026-11-12T01:06:58+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 8,
-    "average": 4.81,
+    "average": 5.06,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
-      "left": 3,
-      "centerLeft": 2,
-      "center": 8,
-      "centerRight": 3,
+      "left": 2,
+      "centerLeft": 3,
+      "center": 7,
+      "centerRight": 4,
       "right": 0,
       "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
