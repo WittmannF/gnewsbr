@@ -3,39 +3,45 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lCc2JHdUVoRVp1YVVmSk5DZ0VDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lCc2JHdUVoRVp1YVVmSk5DZ0VDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2,
-      "topic-5": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 4,
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Justiça reconhece OAS como dona de tríplex do Guarujá atribuído a Lula pela Lava Jato e libera dinheiro da venda à empresa",
   "summary": "A Justiça Federal determinou que a OAS Empreendimentos receba todo o dinheiro obtido com a venda do tríplex do Guarujá (SP), o imóvel que a...",
-  "topic": "Justiça · Lula",
+  "topic": "Justiça · Oas",
   "topicKeywords": [
     "justiça",
-    "lula",
     "oas",
-    "triplex",
+    "lula",
     "tríplex",
+    "triplex",
     "guarujá"
   ],
   "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/afp20200625agif342717v1midressaopaulotriplexguaruja-5e0126cb.webp",
   "publishedAt": "2026-11-11T02:18:00+00:00",
-  "updatedAt": "2026-11-12T01:19:19.092250+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-11-12T02:22:10.760456+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -81,32 +87,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_10c1eb84a6d4",
-      "title": "TCU condenou Deltan a devolver valor maior que o do tríplex atribuído a Lula",
-      "description": "Por Cleber Lourenço. O ex-procurador Deltan Dallagnol, que coordenou a força-tarefa da Lava Jato em Curitiba, foi condenado pelo Tribunal de...",
-      "url": "https://iclnoticias.com.br/tcu-condenacao-deltan-valor-triplex-lula/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-11T22:39:05+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/11/Design-sem-nome-e1794436346609.webp",
+      "id": "article_fb18c704c28f",
+      "title": "Decisão sobre o triplex do Guarujá expõe a farsa da Lava Jato, diz PT",
+      "description": "A operação atribuiu o imóvel a Lula. Posteriormente, o STF reconheceu a parcialidade de Sergio Moro e anulou condenações.",
+      "url": "https://www.cartacapital.com.br/cartaexpressa/decisao-sobre-o-triplex-do-guaruja-expoe-a-farsa-da-lava-jato-diz-pt/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-11-11T23:05:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2023/06/Sem-Título-12-1.jpg",
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_4df4748917cc",
-      "title": "Triplex no Guarujá: Justiça manda devolver R$ 2,4 milhões à OAS após leilão do imóvel, alvo de ação da Lava Jato contra Lula",
-      "description": "O Ministério Público Federal reconheceu que a propriedade do apartamento sempre foi da OAS e concordou com o pedido de liberação de valores.",
-      "url": "https://g1.globo.com/jornal-nacional/video/triplex-no-guaruja-justica-manda-devolver-r-24-milhoes-a-oas-apos-leilao-do-imovel-alvo-de-acao-da-lava-jato-contra-lula-15180430.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-12T00:00:42+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_a21ed3a7e2ab",
@@ -117,7 +109,7 @@
       "sourceCanonical": "Partido dos Trabalhadores",
       "sourceDomain": "pt.org.br",
       "publishedAt": "2026-11-11T21:10:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -165,20 +157,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_617774f515ff",
-      "title": "PT diz que decisão sobre triplex expõe “farsa da Lava Jato”",
-      "description": "Partido afirma que devolução de R$ 2,4 milhões à OAS reforça que imóvel atribuído a Lula nunca pertenceu ao presidente. Leia no Poder360.",
-      "url": "https://www.poder360.com.br/poder-partidos-politicos/pt-diz-que-decisao-sobre-triplex-expoe-farsa-da-lava-jato/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-11-11T21:31:51+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_7a5e7f2c386b",
       "title": "Justiça libera à OAS R$ 2,4 milhões do leilão do tríplex atribuído a Lula",
       "description": "Decisão da Justiça Federal de Brasília ocorreu após o encerramento das ações criminais e teve parecer favorável do Ministério Público...",
@@ -207,20 +185,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ebaea32eb49a",
-      "title": "Justiça diz que triplex não foi de Lula; caso lembra Escola Base",
-      "description": "Tanto o presidente quanto os donos da escola foram alvos de linchamento moral, condenação prévia sem provas e irresponsabilidade na apuração...",
-      "url": "https://ultimosegundo.ig.com.br/colunas/cenario-juridico/2026-11-11/justica-diz-que-triplex-nunca-foi-delula--caso-lembra-escola-base.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-11-11T21:50:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_98f1177e5a4d",
       "title": "Justiça determina devolução de R$ 2,4 mi à OAS por venda de triplex atribuído a Lula",
       "description": "Decisão considera arquivamento do processo contra o presidente e anulação de atos da Lava Jato pelo STF.",
@@ -233,6 +197,20 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
+    },
+    {
+      "id": "article_ebaea32eb49a",
+      "title": "Justiça diz que triplex não foi de Lula; caso lembra Escola Base",
+      "description": "Tanto o presidente quanto os donos da escola foram alvos de linchamento moral, condenação prévia sem provas e irresponsabilidade na apuração...",
+      "url": "https://ultimosegundo.ig.com.br/colunas/cenario-juridico/2026-11-11/justica-diz-que-triplex-nunca-foi-delula--caso-lembra-escola-base.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-11-11T21:50:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_81a41471c147",
@@ -263,20 +241,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_deb2ad7c68aa",
-      "title": "Justiça manda devolver à OAS dinheiro do leilão do tríplex usado para condenar Lula",
-      "description": "Justiça Federal determina a restituição de mais de R$ 2,42 milhões à empreiteira. O imóvel esteve no centro da condenação de Lula em...",
-      "url": "https://red.org.br/noticias/justica-manda-devolver-a-oas-dinheiro-do-leilao-do-triplex-usado-para-condenar-lula/",
-      "source": "Rede Estação Democracia",
-      "sourceCanonical": "Rede Estação Democracia",
-      "sourceDomain": "red.org.br",
-      "publishedAt": "2026-11-11T02:18:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_bddd0be9ec46",
       "title": "Tríplex que levou Lula à prisão tem dinheiro do leilão devolvido à OAS",
       "description": "O dinheiro arrecadado com a venda do tríplex do Guarujá (SP), imóvel que esteve no centro da primeira condenação de Luiz Inácio Lula da...",
@@ -291,15 +255,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_1fc5f0fb876a",
-      "title": "Justiça Federal reconhece que triplex do Guarujá não era de Lula e determina pagamento à OAS",
-      "description": "A Justiça Federal determinou que a empreiteira OAS Empreendimentos é dona e que deve receber os R$ 2,4 milhões obtidos com a venda do famoso...",
-      "url": "https://sul21.com.br/noticias/geral/2026/11/justica-federal-reconhece-que-triplex-do-guaruja-nao-era-de-lula-e-determina-pagamento-a-oas/",
-      "source": "Sul 21",
-      "sourceCanonical": "Sul 21",
-      "sourceDomain": "sul21.com.br",
-      "publishedAt": "2026-11-11T14:13:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_deb2ad7c68aa",
+      "title": "Justiça manda devolver à OAS dinheiro do leilão do tríplex usado para condenar Lula",
+      "description": "Justiça Federal determina a restituição de mais de R$ 2,42 milhões à empreiteira. O imóvel esteve no centro da condenação de Lula em...",
+      "url": "https://red.org.br/noticias/justica-manda-devolver-a-oas-dinheiro-do-leilao-do-triplex-usado-para-condenar-lula/",
+      "source": "Rede Estação Democracia",
+      "sourceCanonical": "Rede Estação Democracia",
+      "sourceDomain": "red.org.br",
+      "publishedAt": "2026-11-11T02:18:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,19 +281,61 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_5ebd2b2b70ce",
+      "title": "Justiça manda dar à OAS R$ 2,4 mi do leilão de tríplex de Guarujá",
+      "description": "Nova decisão reconheceu a propriedade do grupo da empreiteira sobre o apartamento atribuído a Lula. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-justica/justica-manda-dar-a-oas-r-24-mi-do-leilao-de-triplex-de-guaruja/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-11T07:06:38+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_1fc5f0fb876a",
+      "title": "Justiça Federal reconhece que triplex do Guarujá não era de Lula e determina pagamento à OAS",
+      "description": "A Justiça Federal determinou que a empreiteira OAS Empreendimentos é dona e que deve receber os R$ 2,4 milhões obtidos com a venda do famoso...",
+      "url": "https://sul21.com.br/noticias/geral/2026/11/justica-federal-reconhece-que-triplex-do-guaruja-nao-era-de-lula-e-determina-pagamento-a-oas/",
+      "source": "Sul 21",
+      "sourceCanonical": "Sul 21",
+      "sourceDomain": "sul21.com.br",
+      "publishedAt": "2026-11-11T14:13:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_01fa43f37c9a",
+      "title": "Tríplex do Guarujá: Justiça manda liberar à OAS R$ 2,4 milhões do leilão de imóvel que chegou a ser atribuído a Lula",
+      "description": "Quantia estava depositada em conta judicial desde venda do imóvel, em 2018; MPF se manifestou a favor do repasse.",
+      "url": "https://veja.abril.com.br/economia/justica-manda-liberar-a-oas-r-24-milhoes-do-leilao-de-triplex-atribuido-a-lula/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-11T16:43:12+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.1,
+    "average": 5.3,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 6,
-      "centerRight": 1,
+      "center": 5,
+      "centerRight": 2,
       "right": 1,
       "unknown": 10
     }
