@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p4bTkydUVoSEtUUnh4Zjk3cVZTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p4bTkydUVoSEtUUnh4Zjk3cVZTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 34
+      "topic-3": 31,
+      "topic-5": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 34,
-    "bestSeedRank": 34,
+    "firstSeenRank": 31,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/6xGiv5a9RnXaejqi2cAjBe6HxmY=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/u/w/EROj0OQeKmw5XpqKHqmw/fotojet-2026-11-12t074421.259.jpg",
   "publishedAt": "2026-11-12T10:34:51+00:00",
-  "updatedAt": "2026-11-13T17:18:54.446982+00:00",
+  "updatedAt": "2026-11-13T18:22:04.235831+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -162,6 +165,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_be66fe0b8c01",
+      "title": "Passageiros quebram janelas e caminham pelos trilhos após falha em trem em São Paulo",
+      "description": "Passageiros de um trem da Linha 8-Diamante, operada pela Motiva (antiga ViaMobilidade), precisaram quebrar janelas e caminhar pelos trilhos...",
+      "url": "https://iclnoticias.com.br/passageiros-quebram-janelas-metro/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-11-12T13:08:21+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_eb1e7f7a4aa7",
       "title": "Artesp critica concessionária após problemas em trem de SP",
       "description": "Agência considera serviço da ViaMobilidade inaceitável e poderá abrir processos sancionadores por falha na Linha 8-Diamante. Leia no...",
@@ -198,20 +215,6 @@
       "sourceCanonical": "Portal do Trânsito",
       "sourceDomain": "portaldotransito.com.br",
       "publishedAt": "2026-11-12T17:16:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_769faa5697c2",
-      "title": "Passageiros quebram janelas de trem e caminham pelos trilhos após falha em SP",
-      "description": "Passageiros da Linha 8-Diamante quebraram janelas de um trem e caminharam pelos trilhos após uma falha na manhã desta quinta-feira (12),...",
-      "url": "https://vejasp.abril.com.br/cidades/passageiros-quebram-janelas-de-trem-e-caminham-pelos-trilhos-apos-falha-em-sp/",
-      "source": "VEJA SÃO PAULO",
-      "sourceCanonical": "VEJA SÃO PAULO",
-      "sourceDomain": "vejasp.abril.com.br",
-      "publishedAt": "2026-11-12T14:24:45+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -319,16 +322,16 @@
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.43,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.2,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 1,
       "center": 9,
       "centerRight": 2,
       "right": 1,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
