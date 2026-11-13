@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 5
+      "topic-3": 4
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "vorcaro",
     "moraes",
     "celular",
-    "stf",
-    "banqueiro",
-    "master"
+    "master",
+    "suspeita",
+    "stf"
   ],
   "imageUrl": "https://media.gazetadopovo.com.br/2026/11/11161323/daniel-vorcaro.png",
   "publishedAt": "2026-11-04T13:30:00+00:00",
-  "updatedAt": "2026-11-13T11:17:57.548384+00:00",
+  "updatedAt": "2026-11-13T12:24:58.239762+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-13T08:30:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -100,7 +100,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-09T12:03:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -188,6 +188,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_e236d7a5ccb5",
+      "title": "Relatório proibido da PF citava suspeita de Moraes antecipar voto favorável a Vorcaro",
+      "description": "O relatório da Polícia Federal sobre as relações entre o ministro Alexandre de Moraes e o ex-banqueiro Daniel Vorcaro, do Banco Master,...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/relatorio-proibido-da-pf-citava-suspeita-de-moraes-antecipar-voto-favoravel-a-vorcaro",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-11-13T10:11:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_adfc538672b4",
@@ -300,41 +314,27 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_0329b8774409",
-      "title": "Defesa de banqueiro questiona perícia e tenta desqualificar provas que chegaram ao STF",
-      "description": "A defesa do banqueiro Daniel Vorcaro, ex-controlador do Banco Master, tenta invalidar provas extraídas de seu telefone celular pela Polícia...",
-      "url": "https://www.folhadoestado.com.br/brasil/defesa-de-banqueiro-questiona-pericia-e-tenta-desqualificar-provas-que-chegaram-ao-stf/645335",
-      "source": "Folha do Estado",
-      "sourceCanonical": "Folha do Estado",
-      "sourceDomain": "folhadoestado.com.br",
-      "publishedAt": "2026-11-11T19:50:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 5,
-    "max": 8,
-    "average": 6.12,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "max": 9,
+    "average": 6.44,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 12
+      "right": 1,
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 49,
-    "headlineDivergence": 79,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [

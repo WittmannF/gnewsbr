@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 25
+      "topic-9": 26
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 26,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +24,16 @@
   "topicKeywords": [
     "outlook",
     "microsoft",
-    "zero",
     "corrige",
-    "falhas",
-    "day"
+    "zero",
+    "falha",
+    "falhas"
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/noticias/73/2026/11/11/outlook-servico-de-e-mail-da-microsoft-1794399517426_v2_615x300.jpg",
   "publishedAt": "2026-11-05T21:27:03+00:00",
-  "updatedAt": "2026-11-13T11:31:22.371667+00:00",
+  "updatedAt": "2026-11-13T12:44:38.471448+00:00",
   "sourceCount": 10,
-  "articleCount": 12,
+  "articleCount": 11,
   "articles": [
     {
       "id": "article_98842c0d1ae8",
@@ -44,7 +44,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
       "publishedAt": "2026-11-11T12:27:45+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": "https://conteudo.imguol.com.br/c/noticias/73/2026/11/11/outlook-servico-de-e-mail-da-microsoft-1794399517426_v2_615x300.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -92,20 +92,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e450c6856d2e",
-      "title": "A atualização de segurança da Microsoft, lançada na terça-feira, corrige uma falha no Outlook que já estava sendo explorada.",
-      "description": "A atualização de segurança da Microsoft de novembro de 2026, lançada na terça-feira de patches, corrige uma vulnerabilidade do Outlook que...",
-      "url": "https://www.malwarebytes.com/pt-br/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
-      "source": "Malwarebytes",
-      "sourceCanonical": "Malwarebytes",
-      "sourceDomain": "malwarebytes.com",
-      "publishedAt": "2026-11-11T18:09:21+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_24680358b9f6",
       "title": "Microsoft resolve falhas no Exchange Server",
       "description": "Microsoft corrige falhas de login e entrega de e-mails no Exchange Server causadas pelas atualizações de outubro do Windows Server.",
@@ -120,6 +106,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_e450c6856d2e",
+      "title": "A atualização de segurança da Microsoft, lançada na terça-feira, corrige uma falha no Outlook que já estava sendo explorada.",
+      "description": "A atualização de segurança da Microsoft de novembro de 2026, lançada na terça-feira de patches, corrige uma vulnerabilidade do Outlook que...",
+      "url": "https://www.malwarebytes.com/pt-br/blog/bugs/2026/11/microsoft-patch-tuesday-fixes-outlook-flaw-already-under-attack",
+      "source": "Malwarebytes",
+      "sourceCanonical": "Malwarebytes",
+      "sourceDomain": "malwarebytes.com",
+      "publishedAt": "2026-11-11T18:09:21+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_815a77e7edea",
       "title": "Falha de dia zero explorada no Outlook foi descoberta por um pesquisador usando o Claude",
       "description": "A Patch Tuesday de novembro da Microsoft corrige 1.093 vulnerabilidades, segundo a Tenable. Uma delas é uma falha no Outlook que os...",
@@ -128,7 +128,7 @@
       "sourceCanonical": "Notebookcheck.info",
       "sourceDomain": "notebookcheck.info",
       "publishedAt": "2026-11-11T12:38:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -188,20 +188,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_17e4dbc84c98",
-      "title": "Microsoft, Patch Tuesday di novembre 2026 com mais de 1.000 falhas e um zero-day no Outlook",
-      "description": "A Microsoft corrige mais de mil falhas em novembro de 2026, incluindo um zero-day no Outlook que expõe hashes NTLMv2. Veja o que dizem as...",
-      "url": "https://meteoraweb.com/pt/news/microsoft-patch-tuesday-noviembre-2026-mas-de-1000-fallos-y-zero-day-en-outlook",
-      "source": "Meteora Web",
-      "sourceCanonical": "Meteora Web",
-      "sourceDomain": "meteoraweb.com",
-      "publishedAt": "2026-11-11T06:02:28+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
@@ -209,21 +195,21 @@
     "max": 5,
     "average": 5,
     "knownCount": 1,
-    "unknownCount": 11,
+    "unknownCount": 10,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 11
+      "unknown": 10
     }
   },
   "scores": {
     "coverageDiversity": 20,
     "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 72
+    "confidence": 70
   },
   "flags": [
     "Alta cobertura",
