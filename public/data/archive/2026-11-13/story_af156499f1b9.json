@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3aXVHckVoRXlaN20tZnVVU3JTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3aXVHckVoRXlaN20tZnVVU3JTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre PF • Andrei Rodrigues",
   "summary": "Só parte se encaixa no que fixa a Lei Orgânica da Magistratura, mas Fachin pediu relatórios individuais sobre todos os magistrados.",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "delegados",
     "andrei",
+    "stf",
     "caso",
     "master",
-    "stf",
     "ministros"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/minstros-stf-vorcaro-12-nov-2026-1200x675.png",
   "publishedAt": "2026-11-09T18:15:00+00:00",
-  "updatedAt": "2026-11-13T07:25:06.517008+00:00",
+  "updatedAt": "2026-11-13T08:21:09.316494+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-13T07:00:00+00:00",
-      "postedLabel": "25 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/36QC1mXcpVKbABlw9Zlvh3qhdDk=/6000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/p/n/yw7tT5S5WeYnwCTVkxIQ/113835406-pa-brasilia-df-11-02-2026-entrevista-exclusiva-andrei-rodrigues-diretor-geral-da-polic.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -142,10 +148,24 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-12T08:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_62981e61f77b",
+      "title": "Aliados veem força de Andrei com Lula para influenciar sucessão na PF",
+      "description": "Diretor-geral mantém a confiança do presidente apesar de escalada de crise interna causada por afastamento de delegados.",
+      "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/aliados-veem-forca-de-andrei-com-lula-para-influenciar-sucessao-na-pf/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-13T05:58:03+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f8e120e8129d",
@@ -174,20 +194,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_db7b40054b39",
-      "title": "Aliados de Lula apostam em saída de Andrei da chefia da PF",
-      "description": "Crise com associação de delegados escala e pressiona diretor-geral da corporação.",
-      "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/aliados-de-lula-apostam-em-saida-de-andrei-da-chefia-da-pf/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-12T07:00:08+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_80c8a16dd7d2",
@@ -232,14 +238,14 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_251bea214daa",
-      "title": "Decisão de Fachin levou cúpula da PF a descumprir ordem de Mendonça no caso Master",
-      "description": "Em setembro, o ministro André Mendonça, então relator do caso do Banco Master, determinou que apenas os investigadores do caso tivessem...",
-      "url": "https://veja.abril.com.br/brasil/decisao-de-fachin-levou-cupula-da-pf-a-descumprir-ordem-de-mendonca-no-caso-master/",
+      "id": "article_51e559324266",
+      "title": "Crise dos relatórios da PF está na conta de Fachin | Jorge Pontes",
+      "description": "Afastamento de delegados e rejeição de relatório sobre fraudes do Banco Master beneficiam cúmplices e questionam STF.",
+      "url": "https://veja.abril.com.br/coluna/jorge-pontes/crise-dos-relatorios-da-pf-esta-na-conta-de-fachin/",
       "source": "VEJA",
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-12T12:38:00+00:00",
+      "publishedAt": "2026-11-12T12:28:05+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
