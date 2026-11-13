@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 53
+      "topic-3": 48
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 53,
-    "bestSeedRank": 53,
+    "firstSeenRank": 48,
+    "bestSeedRank": 48,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/JZ7I6RLLLNDNPCG3PS5VSEYHFY.jpg?quality=80&auth=7a7a4d6c2edd01a32e0db1c0291819c5f854de454069435ad002da8242eaadc6&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-08T12:00:00+00:00",
-  "updatedAt": "2026-11-13T18:23:12.455687+00:00",
+  "updatedAt": "2026-11-13T19:18:01.759517+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-13T12:38:10+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -128,7 +128,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-11-13T14:49:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -142,10 +142,24 @@
       "sourceCanonical": "JOTA Info",
       "sourceDomain": "jota.info",
       "publishedAt": "2026-11-13T14:16:52+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_305367de342e",
+      "title": "Pesquisa nacional: Lula é reprovado por 50,3% dos brasileiros",
+      "description": "Um levantamento feito pelo Instituto AtlasIntel, divulgado nesta sexta-feira (13), mostra que o presidente Lula (PT) é reprovado por 50,3%...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/e07-brasil/pesquisa-nacional-lula-e-reprovado-por-503-dos-brasileiros",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-11-13T18:22:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_446d654c403b",
@@ -240,7 +254,7 @@
       "sourceCanonical": "Brasil no Centro",
       "sourceDomain": "brasilnocentro.com.br",
       "publishedAt": "2026-11-13T15:11:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -255,20 +269,6 @@
       "sourceDomain": "mais.opovo.com.br",
       "publishedAt": "2026-11-09T04:15:00+00:00",
       "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_1da5fb5e294c",
-      "title": "Governo Lula é desaprovado por 50,3% dos eleitores em 1ª pesquisa após reeleição",
-      "description": "Uma pesquisa da AtlasIntel/Bloomberg divulgada nesta sexta-feira (13) aponta que o desempenho do presidente Luiz Inácio Lula da Silva (PT) é...",
-      "url": "https://www.blogdobg.com.br/governo-lula-e-desaprovado-por-503-dos-eleitores-em-1a-pesquisa-apos-reeleicao/",
-      "source": "Blog do BG",
-      "sourceCanonical": "Blog do BG",
-      "sourceDomain": "blogdobg.com.br",
-      "publishedAt": "2026-11-13T13:50:39+00:00",
-      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -296,7 +296,7 @@
       "sourceCanonical": "Sindicato dos Bancários da Bahia",
       "sourceDomain": "bancariosbahia.org.br",
       "publishedAt": "2026-11-09T18:52:30+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 7,
-    "average": 5.55,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 9,
+    "average": 5.83,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 7,
       "centerRight": 3,
-      "right": 0,
-      "unknown": 9
+      "right": 1,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
