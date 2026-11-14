@@ -25,14 +25,14 @@
     "sarampo",
     "eua",
     "casos",
-    "eliminação",
     "status",
-    "estados"
+    "eliminação",
+    "perdem"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/NHFNH2J5ZVDRVBP55R57G4OZ44.jpg?quality=80&auth=d947c7d6677e1b038dff96204a5c56c56e7f24f037d2a949c793b2a0baf6cf73&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-09T13:30:00+00:00",
-  "updatedAt": "2026-11-14T16:17:18.257866+00:00",
-  "sourceCount": 14,
+  "updatedAt": "2026-11-14T17:14:30.672082+00:00",
+  "sourceCount": 15,
   "articleCount": 20,
   "articles": [
     {
@@ -58,7 +58,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-14T14:00:14+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/NHFNH2J5ZVDRVBP55R57G4OZ44.jpg?quality=80&auth=d947c7d6677e1b038dff96204a5c56c56e7f24f037d2a949c793b2a0baf6cf73&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -100,7 +100,7 @@
       "sourceCanonical": "Afya | Home",
       "sourceDomain": "portal.afya.com.br",
       "publishedAt": "2026-11-14T10:24:26+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,7 +114,7 @@
       "sourceCanonical": "Gazeta Brazilian News",
       "sourceDomain": "gazetanews.com",
       "publishedAt": "2026-11-13T16:33:10+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -132,6 +132,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_d214c4825327",
+      "title": "EUA retrocedem um quarto de século e perdem status de país livre de sarampo",
+      "description": "Jamil Chade, de Genebra. Os Estados Unidos perderam o status de país livre de sarampo, um retrocesso de um quarto de século e o resultado...",
+      "url": "https://iclnoticias.com.br/eua-retrocedem-um-quarto-de-seculo-e-perdem-status-de-pais-livre-de-sarampo/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-11-14T17:08:10+00:00",
+      "postedLabel": "6 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_af69a0f68a5f",
@@ -300,45 +314,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_b98424b6fd25",
-      "title": "EUA superam 5 mil casos de sarampo, maior número desde 1991",
-      "description": "EUA registram 5.182 casos de sarampo, maior número desde 1991, e enfrentam risco de perder o status de eliminação da doença.",
-      "url": "https://www.spacemoney.com.br/economia/exterior/sarampo-eua-5-mil-casos-recorde-1991/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-11-10T21:39:05+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 2,
     "max": 7,
-    "average": 5.43,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 4,
       "centerRight": 2,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 88,
+    "headlineDivergence": 85,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
