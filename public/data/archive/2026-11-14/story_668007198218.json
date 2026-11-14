@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvMGJPdkVoSGZaX0FWOXBKdkVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lvMGJPdkVoSGZaX0FWOXBKdkVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-5": 57
+      "topic-5": 55,
+      "topic-8": 19
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 57,
-    "bestSeedRank": 57,
+    "firstSeenRank": 55,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +30,11 @@
     "mercado",
     "juros",
     "gastos",
-    "não"
+    "lula"
   ],
   "imageUrl": "https://midia-cdn.nexojornal.com.br/wp-content/uploads/images/2026/11/bovespa-rovenarosaabr.webp",
   "publishedAt": "2026-11-05T08:00:00+00:00",
-  "updatedAt": "2026-11-14T12:30:34.713029+00:00",
+  "updatedAt": "2026-11-14T13:22:57.474112+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -72,7 +75,7 @@
       "sourceCanonical": "Valor Econômico",
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-11-14T11:01:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-valor.glbimg.com/wDfi6SclVpDTXWZ_gX0-iuynAiU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/l/a/IpZphVSAaopPA36NdXzg/foto03pri-401-moretti-a1.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -134,6 +137,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_0ba82aad0e56",
+      "title": "Contra os juros altos e o ajuste fiscal, UNE marca ato em frente à ‘Baleia da Faria Lima’ para terça (17)",
+      "description": "A União Nacional dos Estudantes (UNE) convocou um ato contra os juros altos e o ajuste fiscal para a próxima terça-feira (17),...",
+      "url": "https://www.brasildefato.com.br/2026/11/13/contra-os-juros-altos-e-o-ajuste-fiscal-une-marca-ato-em-frente-a-baleia-da-faria-lima-para-terca-17/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-11-13T22:40:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_f8b93167c70e",
       "title": "Debate fiscal para adultos",
       "description": "O debate fiscal do governo Lula conseguiu uma proeza: transformar uma discussão necessária sobre as contas públicas em uma.",
@@ -146,20 +163,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_eff221713231",
-      "title": "17 de novembro: dia nacional de mobilização contra o ajuste fiscal e os juros altos",
-      "description": "Em São Paulo, a manifestação está sendo convocada para as 17h na Avenida Faria Lima, em frente à escultura da baleia.",
-      "url": "https://psol50.org.br/17-de-novembro-dia-nacional-de-mobilizacao-contra-o-ajuste-fiscal-e-os-juros-altos/",
-      "source": "PSOL 50",
-      "sourceCanonical": "PSOL 50",
-      "sourceDomain": "psol50.org.br",
-      "publishedAt": "2026-11-14T00:09:52+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_6ab382d997ef",
@@ -176,6 +179,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_eff221713231",
+      "title": "17 de novembro: dia nacional de mobilização contra o ajuste fiscal e os juros altos",
+      "description": "Em São Paulo, a manifestação está sendo convocada para as 17h na Avenida Faria Lima, em frente à escultura da baleia.",
+      "url": "https://psol50.org.br/17-de-novembro-dia-nacional-de-mobilizacao-contra-o-ajuste-fiscal-e-os-juros-altos/",
+      "source": "PSOL 50",
+      "sourceCanonical": "PSOL 50",
+      "sourceDomain": "psol50.org.br",
+      "publishedAt": "2026-11-14T00:09:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b093fc5bd3b3",
       "title": "Lula pode fazer um ajuste fiscal sem quebrar promessas de campanha, diz Samuel Pessôa",
       "description": "Pesquisador da FGV Ibre e BTG Pactual elaborou conjunto de medidas para equilibrar as contas públicas e permitir queda dos juros;...",
@@ -188,20 +205,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_0ba82aad0e56",
-      "title": "Contra os juros altos e o ajuste fiscal, UNE marca ato em frente à ‘Baleia da Faria Lima’ para terça (17)",
-      "description": "A União Nacional dos Estudantes (UNE) convocou um ato contra os juros altos e o ajuste fiscal para a próxima terça-feira (17),...",
-      "url": "https://www.brasildefato.com.br/2026/11/13/contra-os-juros-altos-e-o-ajuste-fiscal-une-marca-ato-em-frente-a-baleia-da-faria-lima-para-terca-17/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-11-13T22:40:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_3de65e4f8ee9",
@@ -232,14 +235,28 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_32970a97d9bd",
-      "title": "“O mercado não manda no Brasil”: UNE convoca atos contra ajuste fiscal",
-      "description": "Mobilização nacional no dia 17 de novembro reúne UNE, UBES e ANPG em defesa da soberania popular, da redução dos juros e de mais...",
-      "url": "https://vermelho.org.br/2026/11/13/o-mercado-nao-manda-no-brasil-une-convoca-atos-contra-ajuste-fiscal/",
+      "id": "article_e061a326418c",
+      "title": "Mercado espera mais medidas fiscais, mas aliados de Lula resistem",
+      "description": "Novas iniciativas podem elevar ajuste a R$ 80 bilhões em 2027; congressistas, governadores e municípios cobram mudanças. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-economia/mercado-espera-mais-medidas-fiscais-mas-aliados-de-lula-resistem/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-14T13:04:41+00:00",
+      "postedLabel": "18 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_e8961ba84761",
+      "title": "Sociedade organizada põe em xeque proposta de ajuste fiscal",
+      "description": "Economistas criticam a lógica do Estado enxuto, defendem o investimento público como elemento fundante do capitalismo. por Davi Dmolir.",
+      "url": "https://vermelho.org.br/2026/11/13/sociedade-organizada-coloca-em-xeque-proposta-de-ajuste-fiscal/",
       "source": "Vermelho",
       "sourceCanonical": "Vermelho",
       "sourceDomain": "vermelho.org.br",
-      "publishedAt": "2026-11-13T20:16:00+00:00",
+      "publishedAt": "2026-11-13T16:29:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 1,
@@ -272,20 +289,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f094642a847a",
-      "title": "José Paulo Kupfer | Ajuste gradual",
-      "description": "O debate sobre os rumos da política fiscal, envolvendo a trajetória da dívida pública e das taxas de juros, ainda não encontrou o ponto...",
-      "url": "https://www.poder360.com.br/opiniao/ajuste-gradual/",
-      "source": "Poder360",
-      "sourceCanonical": "Poder360",
-      "sourceDomain": "poder360.com.br",
-      "publishedAt": "2026-11-12T14:18:19+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_cc0ec362c5c2",
