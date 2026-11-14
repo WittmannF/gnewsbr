@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pWeVBTcEVoRjB1M082UGRPVjJTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pWeVBTcEVoRjB1M082UGRPVjJTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 40
+      "topic-3": 43,
+      "topic-5": 69
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 43,
+    "bestSeedRank": 43,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +27,16 @@
   "topicKeywords": [
     "jato",
     "toffoli",
-    "preservação",
     "lava",
     "vota",
+    "preservação",
     "mensagens"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2023/06/Sem-Título-12-1.jpg",
   "publishedAt": "2026-11-13T14:56:00+00:00",
-  "updatedAt": "2026-11-14T19:16:29.309232+00:00",
-  "sourceCount": 9,
-  "articleCount": 9,
+  "updatedAt": "2026-11-14T20:18:51.082264+00:00",
+  "sourceCount": 11,
+  "articleCount": 11,
   "articles": [
     {
       "id": "article_0a9f57f552c6",
@@ -106,6 +109,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_8416539a4a11",
+      "title": "Toffoli vota para preservar mensagens obtidas de forma ilegal durante a Lava Jato",
+      "description": "Ministro afirma que material obtido por hackers pode ser usado em favor de acusados, mesmo tendo origem ilegal; julgamento ainda não terminou. O ministro...",
+      "url": "https://www.amazonasdireito.com.br/toffoli-vota-para-preservar-mensagens-obtidas-de-forma-ilegal-durante-a-lava-jato/",
+      "source": "Amazonas Direito",
+      "sourceCanonical": "Amazonas Direito",
+      "sourceDomain": "amazonasdireito.com.br",
+      "publishedAt": "2026-11-14T17:20:53+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b9c4a361d65c",
       "title": "Toffoli vota pela preservação de mensagens da Lava Jato obtidas por hackers",
       "description": "O ministro Dias Toffoli, do Supremo Tribunal Federal (STF), votou pela preservação definitiva das mensagens apreendidas na Operação Spoofing...",
@@ -114,10 +131,24 @@
       "sourceCanonical": "Vero Notícias",
       "sourceDomain": "veronoticias.com",
       "publishedAt": "2026-11-14T14:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_fbe05d872d47",
+      "title": "Toffoli vota por preservação de mensagens hackeadas da Lava Jato",
+      "description": "Relator da ação no Supremo Tribunal Federal (STF) argumenta que a destruição dos arquivos prejudicaria o direito à ampla defesa.",
+      "url": "https://revistaoeste.com/politica/toffoli-vota-por-preservacao-de-mensagens-ihackeadas-i-da-lava-jato/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-11-14T20:08:00+00:00",
+      "postedLabel": "10 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_65dfa119a84d",
@@ -142,7 +173,7 @@
       "sourceCanonical": "Muita Informação",
       "sourceDomain": "muitainformacao.com.br",
       "publishedAt": "2026-11-14T16:27:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -164,26 +195,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 4.6,
-    "knownCount": 5,
-    "unknownCount": 4,
+    "max": 10,
+    "average": 5.5,
+    "knownCount": 6,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 0,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 4
+      "right": 1,
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
-    "confidence": 78
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
+    "confidence": 85
   },
   "flags": [
+    "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
