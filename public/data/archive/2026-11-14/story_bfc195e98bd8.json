@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEcXY2b0VoRkNBTU1TOG90aGJ5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lEcXY2b0VoRkNBTU1TOG90aGJ5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 22
+      "topic-5": 65,
+      "topic-7": 26
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 65,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "casa",
     "branca",
     "perto",
-    "tiroteio",
-    "washington",
-    "ataque"
+    "ataque",
+    "tiros",
+    "washington"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/dN98sbLYmuC-ubrST3Mfzd8NBWU=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/o/I/VvWSAuS56Y0ifjQx29nQ/medico.jpg",
   "publishedAt": "2026-11-12T14:02:35+00:00",
-  "updatedAt": "2026-11-14T22:31:30.123894+00:00",
+  "updatedAt": "2026-11-14T23:26:05.129267+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -148,6 +151,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_5d54ef9cf49f",
+      "title": "Ataque a tiros em Washington deixa 2 mortos e 4 feridos",
+      "description": "Atirador está entre os mortos após atirar contra si mesmo, segundo a polícia; outras quatro pessoas ficaram feridas, uma delas em estado...",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/tiroteio-e-registrado-perto-da-casa-branca-nos-eua",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-12T14:13:25+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_54bd293ee0c7",
       "title": "Morre atirador que matou uma pessoa e feriu outras quatro perto da Casa Branca, diz polícia",
       "description": "Homem abriu fogo em uma academia de Washington, se barricou no próprio apartamento e tirou a própria vida; uma das vítimas está em estado...",
@@ -159,20 +176,6 @@
       "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_f1fa8520b5da",
-      "title": "Ataque a tiros perto da Casa Branca termina com dois mortos",
-      "description": "Ataque ocorreu em Logan Circle, bairro de Washington a cerca de 1,5 quilômetro da Casa Branca. Leia na Gazeta do Povo.",
-      "url": "https://www.gazetadopovo.com.br/mundo/ataque-tiros-perto-casa-branca-mortos/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-11-12T17:37:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
@@ -246,20 +249,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_38c0f738035d",
-      "title": "Polícia de Washington responde a tiros disparados perto da Casa Branca",
-      "description": "Ao menos quatro pessoas teriam sido baleadas e um suspeito estaria em um prédio residencial.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/policia-de-washington-responde-a-tiros-disparados-perto-da-casa-branca-1.1764111",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-11-12T20:12:46+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_dc5157cd0854",
       "title": "Tiroteio perto da Casa Branca deixa feridos e mobiliza polícia em Washington",
       "description": "Tiroteio perto da Casa Branca deixa feridos e mobiliza forças de segurança na capital dos Estados Unidos.",
@@ -272,6 +261,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_38c0f738035d",
+      "title": "Polícia de Washington responde a tiros disparados perto da Casa Branca",
+      "description": "Ao menos quatro pessoas teriam sido baleadas e um suspeito estaria em um prédio residencial.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/mundo/policia-de-washington-responde-a-tiros-disparados-perto-da-casa-branca-1.1764111",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-11-12T20:12:46+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_b322ea145b54",
@@ -288,6 +291,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_f1fa8520b5da",
+      "title": "Ataque a tiros perto da Casa Branca termina com dois mortos",
+      "description": "Ataque ocorreu em Logan Circle, bairro de Washington a cerca de 1,5 quilômetro da Casa Branca. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/mundo/ataque-tiros-perto-casa-branca-mortos/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-11-12T17:37:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_d6f194b7629c",
       "title": "Uma pessoa morreu e quatro ficaram feridas após disparos de tiros em Washington, diz polícia",
       "description": "Uma pessoa morreu e quatro ficaram feridas após disparos de tiros em Washington, diz polícia. 12 de nov. de 2026, 09:07 GMT-8. D. Ler o artigo completo.",
@@ -300,26 +317,12 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f1e14c2de97a",
-      "title": "Polícia captura suspeito de tiroteio em Washington, diz mídia",
-      "description": "O homem que abriu fogo contra uma academia no bairro de Logan Circle, em Washington D.C., nesta ...",
-      "url": "https://www.terra.com.br/noticias/mundo/policia-captura-suspeito-de-tiroteio-em-washington-diz-midia,b67fa51be7d5356fb861160e0fd97026np01f1yy.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-12T15:59:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 6.07,
+    "average": 6.13,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
