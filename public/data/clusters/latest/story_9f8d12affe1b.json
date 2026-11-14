@@ -3,26 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpdHFldUVoR1ptVTV6R185UFlpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpdHFldUVoR1ptVTV6R185UFlpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-5": 5
+      "topic-3": 23,
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 23,
     "bestSeedRank": 4,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Ruas põe polícias sob comando único, quer rever metas com STF e prioriza retomada de territórios dominados pelo crime",
   "summary": "O governador eleito do Rio, Douglas Ruas (PL), anunciou nesta sexta-feira uma reformulação na segurança pública do estado que altera a...",
@@ -37,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/S_0alO6JNt81U5LmNrG8czIwdKY=/4833x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/Y/n/l87eqzTQqxPZwrFuJsRA/116917509-ri-exclusiva-rio-de-janeiro-rj-13-11-2026-anuncio-da-cupula-da-seguranca-publica-do.jpg",
   "publishedAt": "2026-11-10T01:30:46+00:00",
-  "updatedAt": "2026-11-14T18:18:18.899489+00:00",
+  "updatedAt": "2026-11-14T21:17:57.923969+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -92,7 +89,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-11-13T18:22:54+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd22yf0mxeu0gma.cloudfront.net%2F11-13-2026%2Ft_b54eac6463b641fd8c2c5b6602f014d5_name_Captura_de_tela_2026_11_13_151922.png?smart=true&auth=11ad1ea66a8fe1476823cb0e3138fcc1b970330abee56abf250b932c4c3d5047&width=1200&height=630",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -154,20 +151,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_ff341f8041d4",
-      "title": "Coluna Magnavita | Douglas Ruas comanda pessoalmente reunião de transição na área de segurança e leva novos titulares",
-      "description": "A reunião de segurança pública do grupo de transição do governo do Rio, que estava prevista para esta quinta, 12, foi transferida para esta...",
-      "url": "https://www.correiodamanha.com.br/colunistas/magnavita/2026/11/335008-coluna-magnavita-douglas-ruas-comanda-pessoalmente-reuniao-de-transicao-na-area-de-seguranca-e-leva-novos-titulares.html",
-      "source": "www.correiodamanha.com.br",
-      "sourceCanonical": "www.correiodamanha.com.br",
-      "sourceDomain": "correiodamanha.com.br",
-      "publishedAt": "2026-11-13T02:49:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_55dafc70acfb",
       "title": "Ruas quer tirar mortes das metas da polícia e vai ao STF",
       "description": "Novo comandante da segurança do Rio quer medir o controle de território de facções, não mais a queda nas mortes em confrontos.",
@@ -182,6 +165,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_ff341f8041d4",
+      "title": "Coluna Magnavita | Douglas Ruas comanda pessoalmente reunião de transição na área de segurança e leva novos titulares",
+      "description": "A reunião de segurança pública do grupo de transição do governo do Rio, que estava prevista para esta quinta, 12, foi transferida para esta...",
+      "url": "https://www.correiodamanha.com.br/colunistas/magnavita/2026/11/335008-coluna-magnavita-douglas-ruas-comanda-pessoalmente-reuniao-de-transicao-na-area-de-seguranca-e-leva-novos-titulares.html",
+      "source": "www.correiodamanha.com.br",
+      "sourceCanonical": "www.correiodamanha.com.br",
+      "sourceDomain": "correiodamanha.com.br",
+      "publishedAt": "2026-11-13T02:49:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_777d6b52424d",
       "title": "Douglas Ruas quer discutir no STF mortes em operações",
       "description": "Governador eleito do Rio propõe retirar óbitos de intervenções policiais das metas da Segurança Pública do estado. Agência O Globo - 13/11/...",
@@ -190,10 +187,24 @@
       "sourceCanonical": "Tribuna do Sertão",
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-11-13T19:34:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_ebb9e2cff61a",
+      "title": "Quem é Gilbert dos Santos? Conheça o novo comandante da Polícia Militar no Rio",
+      "description": "Coronel atua na corporação desde 1995 e chefiará a Polícia Militar do Rio. Confira na íntegra.",
+      "url": "https://tmc.com.br/politica/quem-e-gilbert-dos-santos-conheca-o-novo-comandante-da-policia-militar-no-rio/",
+      "source": "tmc.com.br",
+      "sourceCanonical": "tmc.com.br",
+      "sourceDomain": "tmc.com.br",
+      "publishedAt": "2026-11-13T20:42:54+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_6c121c489201",
@@ -205,20 +216,6 @@
       "sourceDomain": "ofluminense.com.br",
       "publishedAt": "2026-11-13T14:48:00+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_ebb9e2cff61a",
-      "title": "Quem é Gilbert dos Santos? Conheça o novo comandante da Polícia Militar no Rio",
-      "description": "Coronel atua na corporação desde 1995 e chefiará a Polícia Militar do Rio. Confira na íntegra.",
-      "url": "https://tmc.com.br/politica/quem-e-gilbert-dos-santos-conheca-o-novo-comandante-da-policia-militar-no-rio/",
-      "source": "tmc.com.br",
-      "sourceCanonical": "tmc.com.br",
-      "sourceDomain": "tmc.com.br",
-      "publishedAt": "2026-11-13T20:42:54+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -280,18 +277,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5a3d7fee8e83",
-      "title": "Douglas Ruas confirma Lauro Rangel para a Segurança Pública do Rio",
-      "description": "O governador eleito do Rio de Janeiro, Douglas Ruas (PL), anunciou nesta sexta-feira (13) o delegado Lauro Rangel como futuro secretário de...",
-      "url": "https://diariodopoder.com.br/brasil-e-regioes/rio-de-janeiro/e12-rio-de-janeiro/douglas-ruas-confirma-lauro-rangel-para-a-seguranca-publica-do-rio",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-11-13T15:22:00+00:00",
+      "id": "article_df86e04e65fc",
+      "title": "Primeiro delegado da Polícia Civil comandará Segurança do Rio",
+      "description": "Lauro César Lethier Rangel será o primeiro delegado da Polícia Civil do Rio de Janeiro a comandar a Secretaria de Segurança Pública do...",
+      "url": "https://correiodopovopenedo.com.br/noticia/2026/11/13/primeiro-delegado-da-policia-civil-comandara-seguranca-do-rio",
+      "source": "Correio do Povo Penedo",
+      "sourceCanonical": "Correio do Povo Penedo",
+      "sourceDomain": "correiodopovopenedo.com.br",
+      "publishedAt": "2026-11-13T16:27:03+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ffe4dfe5436a",
@@ -308,18 +305,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_df86e04e65fc",
-      "title": "Primeiro delegado da Polícia Civil comandará Segurança do Rio",
-      "description": "Lauro César Lethier Rangel será o primeiro delegado da Polícia Civil do Rio de Janeiro a comandar a Secretaria de Segurança Pública do...",
-      "url": "https://correiodopovopenedo.com.br/noticia/2026/11/13/primeiro-delegado-da-policia-civil-comandara-seguranca-do-rio",
-      "source": "Correio do Povo Penedo",
-      "sourceCanonical": "Correio do Povo Penedo",
-      "sourceDomain": "correiodopovopenedo.com.br",
-      "publishedAt": "2026-11-13T16:27:03+00:00",
+      "id": "article_5a3d7fee8e83",
+      "title": "Douglas Ruas confirma Lauro Rangel para a Segurança Pública do Rio",
+      "description": "O governador eleito do Rio de Janeiro, Douglas Ruas (PL), anunciou nesta sexta-feira (13) o delegado Lauro Rangel como futuro secretário de...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/rio-de-janeiro/e12-rio-de-janeiro/douglas-ruas-confirma-lauro-rangel-para-a-seguranca-publica-do-rio",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-11-13T15:22:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
