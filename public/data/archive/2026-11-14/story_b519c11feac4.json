@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 42,
-      "topic-5": 65
+      "topic-3": 46,
+      "topic-5": 64
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "firstSeenRank": 46,
+    "bestSeedRank": 46,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -29,12 +29,12 @@
     "vorcaro",
     "voto",
     "relatório",
-    "suspeita",
-    "master"
+    "rejeitado",
+    "suspeita"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2023/09/13/16946265756501f30f074d8_1694626575_3x2_rt.jpg",
   "publishedAt": "2026-11-06T17:42:12+00:00",
-  "updatedAt": "2026-11-14T10:19:03.807128+00:00",
+  "updatedAt": "2026-11-14T11:18:02.474807+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -179,6 +179,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_363c07606fee",
+      "title": "Moraes antecipou voto a Vorcaro, sugere relatório rejeitado pela PF",
+      "description": "Mensagens do ex-banqueiro indicavam conhecimento prévio sobre posição de ministro em julgamento de interesse do Master.",
+      "url": "https://revistaoeste.com/politica/moraes-antecipou-voto-a-vorcaro-sugere-relatorio-rejeitado-pela-pf/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-11-13T22:54:52+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
       "id": "article_5eabbffc4b9b",
       "title": "Ricardo Melo | O STF, a PF e os esqueletos no armário",
       "description": "Irresolvido, escândalo do Master vai fazendo estragos cada vez maiores em instituições-chave para a democracia. Leia o artigo no Poder360.",
@@ -303,41 +317,27 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_9e673db43841",
-      "title": "Banqueiro Vorcaro esteve com ministro antes de ser preso",
-      "description": "Daniel Vorcaro (foto) planejava passar o domingo, 16 de novembro de 2025, com a família em Belo Horizonte. Pela manhã, malhou e correu com a...",
-      "url": "https://paraibaonline.com.br/brasil/2026/11/09/banqueiro-vorcaro-esteve-com-ministro-antes-de-ser-preso/",
-      "source": "ParaibaOnline",
-      "sourceCanonical": "ParaibaOnline",
-      "sourceDomain": "paraibaonline.com.br",
-      "publishedAt": "2026-11-09T15:21:12+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 5,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "max": 10,
+    "average": 5.38,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
       "center": 7,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 8
+      "right": 1,
+      "unknown": 7
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 100,
+    "spectrumBalance": 100,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
