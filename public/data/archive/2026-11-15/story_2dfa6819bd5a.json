@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpOGRDeUVoRnJQODJTSmNTbV9DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lpOGRDeUVoRnJQODJTSmNTbV9DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 47
+      "topic-3": 44,
+      "topic-5": 45
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 47,
-    "bestSeedRank": 47,
+    "firstSeenRank": 44,
+    "bestSeedRank": 44,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +28,15 @@
     "flávio",
     "carlos",
     "michelle",
-    "porta",
     "bolsonaro",
-    "espaço"
+    "espaço",
+    "porta"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/0eIhsZsohfjo0vzyewMPbDcD3Hk=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/Q/2/ejaBwrSsuQ8lhBWBvA3A/fotojet-18-.jpg",
   "publishedAt": "2026-11-13T19:29:00+00:00",
-  "updatedAt": "2026-11-15T20:19:11.854030+00:00",
-  "sourceCount": 3,
-  "articleCount": 3,
+  "updatedAt": "2026-11-15T21:19:23.343813+00:00",
+  "sourceCount": 5,
+  "articleCount": 5,
   "articles": [
     {
       "id": "article_425508b2a9b5",
@@ -64,6 +67,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_5ff18db3b66d",
+      "title": "Fuga de Flávio abre disputa entre Carlos e Michelle Bolsonaro",
+      "description": "Após fuga de Flávio, Carlos e Michelle Bolsonaro disputam influência no PL e espaço para transmitir orientações do ex-presidente Bolsonaro.",
+      "url": "https://www.diariodocentrodomundo.com.br/fuga-de-flavio-abre-disputa-entre-carlos-e-michelle-bolsonaro/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-11-15T20:21:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/11/fotojet-18.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_64e471505eef",
+      "title": "Sem Flávio, Carlos e Michelle disputam espaço como interlocutores de Bolsonaro no PL",
+      "description": "Com o filho do ex-presidente nos Estados Unidos, senador e ex-primeira-dama buscam influência nas decisões do partido e na comunicação com...",
+      "url": "https://imirante.com/noticias/brasil/2026/11/15/ipolitica-carlos-michelle-disputam-influencia-pl-flavio",
+      "source": "Imirante.com",
+      "sourceCanonical": "Imirante.com",
+      "sourceDomain": "imirante.com",
+      "publishedAt": "2026-11-15T15:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://imagens.imirante.com.br/imagens/noticias/2026/11/09/U3yo5HJXOzktoBIIm7ti7I0kBoIZDnYyHR53riEj.jpg?w=896&h=448&crop=660%2C+330%2C+0%2C+0&fit=crop&s=555b108a5efaf3962945c9271c0ff3bb",
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_dd3e1216ef43",
       "title": "Sem Flávio no Brasil, Carlos e Michelle disputam espaço como porta-vozes de Bolsonaro no PL",
       "description": "A ausência do senador Flávio Bolsonaro (PL-RJ), que permanece nos Estados Unidos após a derrota na eleição presidencial, abriu uma disputa...",
@@ -73,33 +104,34 @@
       "sourceDomain": "nilljunior.com.br",
       "publishedAt": "2026-11-15T19:33:02+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": "https://i0.wp.com/nilljunior.com.br/wp-content/uploads/2026/11/IMG_2975.jpeg?fit=888%2C500&ssl=1",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 6,
+    "min": 2,
     "max": 6,
-    "average": 6,
-    "knownCount": 1,
-    "unknownCount": 2,
+    "average": 4,
+    "knownCount": 2,
+    "unknownCount": 3,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 54
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
+    "confidence": 61
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
