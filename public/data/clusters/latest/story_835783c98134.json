@@ -12,29 +12,29 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 37,
-      "topic-5": 30
+      "topic-3": 38,
+      "topic-5": 35
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 37,
-    "bestSeedRank": 30,
+    "firstSeenRank": 38,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Especialistas reforçam a importância da vacinação contra Covid-19",
+  "title": "Especialistas reforçam importância da vacinação contra a Covid-19",
   "summary": "Dados da última edição do Boletim InfoGripe da Fiocruz alertam que os casos graves de Covid-19 seguem em alta no Brasil.",
   "topic": "Covid · Casos",
   "topicKeywords": [
     "covid",
     "casos",
     "fiocruz",
-    "graves",
     "alta",
-    "estados"
+    "graves",
+    "aumento"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/L-htaKlSGeFy_fovq3tuo1CUOJg=/837x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/R/F/Buq9I3Tdqaf6KZbxNhVg/vacina-contra-covid.jpg",
   "publishedAt": "2026-11-09T16:25:28+00:00",
-  "updatedAt": "2026-11-15T13:18:58.975684+00:00",
+  "updatedAt": "2026-11-15T14:19:32.636599+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -103,7 +103,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-12T14:11:38+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/B8o_1mkZcaEfxwOVneZRZnfbGQQ=/1000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/n/3/t9uZIaSqewws0iUsABww/lifestyle-adult-with-health-problems.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -159,10 +159,24 @@
       "sourceCanonical": "Diário do Grande ABC",
       "sourceDomain": "dgabc.com.br",
       "publishedAt": "2026-11-15T11:33:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ed175d42d77f",
+      "title": "Dr. Gonzalo Vecina Neto: ‘Pandemia acabou, mas Covid-19 continua em circulação’",
+      "description": "Em entrevista à TV 247, médico explica as causas do aumento de casos no Brasil, alerta para os riscos em idosos e crianças e defende a...",
+      "url": "https://www.brasil247.com/entrevistas/dr-gonzalo-vecina-neto-pandemia-acabou-mas-covid-19-continua-em-circulacao/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-11-12T00:47:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
     },
     {
       "id": "article_02c3f26b8ff7",
@@ -303,45 +317,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_724d9f79e904",
-      "title": "Casos graves de Covid-19 sobem em 5 estados e no DF, diz Fiocruz",
-      "description": "Os casos graves de Covid-19 voltaram a crescer em cinco estados e no Distrito Federal, segundo o boletim InfoGripe da Fiocruz divulgado na...",
-      "url": "https://tvsimbrasil.com.br/brasil/saude/noticia/2026/11/14/covid-19-casos-graves-sobem-5-estados-df-fiocruz",
-      "source": "TV Sim Brasil",
-      "sourceCanonical": "TV Sim Brasil",
-      "sourceDomain": "tvsimbrasil.com.br",
-      "publishedAt": "2026-11-15T02:38:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 7,
-    "average": 5.62,
-    "knownCount": 8,
-    "unknownCount": 12,
+    "average": 5.11,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 12
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
