@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 25
+      "topic-5": 24
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 25,
-    "bestSeedRank": 25,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/acidente-new-orleans-1200x675.jpg",
   "publishedAt": "2026-11-12T07:02:00+00:00",
-  "updatedAt": "2026-11-15T05:24:01.634037+00:00",
+  "updatedAt": "2026-11-15T06:33:45.324773+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -86,7 +86,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-15T00:05:14+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -114,7 +114,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-15T02:06:25+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -198,24 +198,10 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-15T00:51:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_c290dec498ef",
-      "title": "Petroleiro colide com navio de cruzeiro em Nova Orleães e faz 32 feridos | Acidentes",
-      "description": "Navio de passageiros da American Cruise Lines estava atracado em Nova Orleães, no rio Mississippi. Guarda Costeira resgatou vários...",
-      "url": "https://www.publico.pt/2026/11/13/mundo/noticia/eua-petroleiro-colide-navio-cruzeiro-guarda-costeira-resgata-14-pessoas-2194959",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-11-13T23:24:34+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
     },
     {
       "id": "article_5bbd3d81235b",
@@ -314,32 +300,45 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_48ddf392f78e",
+      "title": "PETROLEIRO COLIDE COM CRUZEIRO COM MAIS DE 130 PESSOAS A BORDO NO RIO MISSISSIPPI",
+      "description": "Em uma sexta-feira 13 pra lá de estranha, marcada pela explosão de uma fábrica em Salto (SP) e pela suspensão de voos nos Estados Unidos,...",
+      "url": "https://petronoticias.com.br/petroleiro-colide-com-cruzeiro-com-mais-de-130-pessoas-a-bordo-no-rio-mississippi/",
+      "source": "Petronotícias",
+      "sourceCanonical": "Petronotícias",
+      "sourceDomain": "petronoticias.com.br",
+      "publishedAt": "2026-11-13T22:44:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 3,
+    "min": 5,
     "max": 9,
-    "average": 5.64,
+    "average": 5.79,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 0,
-      "centerLeft": 1,
-      "center": 9,
+      "centerLeft": 0,
+      "center": 10,
       "centerRight": 3,
       "right": 1,
       "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
-    "headlineDivergence": 88,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
