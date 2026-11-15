@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 40
+      "topic-5": 43
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 43,
+    "bestSeedRank": 43,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "cruzeiro",
     "navio",
-    "eua",
     "petroleiro",
+    "eua",
     "colisão",
     "mississippi"
   ],
   "imageUrl": "https://medias.revistaoeste.com/wp-content/uploads/2026/11/feira-livre-2026-11-14T134842.213-910x568.jpg.webp",
   "publishedAt": "2026-11-13T20:24:00+00:00",
-  "updatedAt": "2026-11-15T17:23:23.808431+00:00",
+  "updatedAt": "2026-11-15T18:27:41.713454+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -232,6 +232,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_c290dec498ef",
+      "title": "Petroleiro colide com navio de cruzeiro em Nova Orleães e faz 32 feridos | Acidentes",
+      "description": "Navio de passageiros da American Cruise Lines estava atracado em Nova Orleães, no rio Mississippi. Guarda Costeira resgatou vários...",
+      "url": "https://www.publico.pt/2026/11/13/mundo/noticia/eua-petroleiro-colide-navio-cruzeiro-guarda-costeira-resgata-14-pessoas-2194959",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-11-13T23:24:34+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_08962eae57c6",
       "title": "Porto de Nova Orleans entra com ação judicial para obter controle do navio-tanque que colidiu com um navio de cruzeiro no rio Mississippi.",
       "description": "Apenas algumas horas depois de um navio-tanque em Nova Orleans perder o controle do leme e colidir com um barco de cruzeiro fluvial atracado...",
@@ -274,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e55fad1adb4d",
-      "title": "Navio-tanque atinge cruzeiro e passageiros caem em rio nos EUA",
-      "description": "American Heritage estava atracado em Nova Orleans; 32 pessoas foram levadas a hospitais e todos os ocupantes foram localizados.",
-      "url": "https://ultimosegundo.ig.com.br/mundo/2026-11-14/navio-tanque-atinge-cruzeiro-e-passageiros-caem-em-rio-nos-eua.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-11-14T19:56:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_690724e55a0a",
       "title": "Navio petroleiro colide com navio de cruzeiro em Nova Orleans, nos EUA",
       "description": "O acidente aconteceu nesta sexta-feira, 13, nas proximidades da ponte Crescent City Connection, na região de Jefferson Parish. Em vídeo, é...",
@@ -317,29 +317,29 @@
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 3,
     "max": 10,
-    "average": 6.14,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.93,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 0,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 9,
       "centerRight": 3,
       "right": 2,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
+    "Ampla diversidade editorial",
     "Manchetes divergentes"
   ]
 }
