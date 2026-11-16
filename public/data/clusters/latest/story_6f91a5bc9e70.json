@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0OFAteUVoSG5vUmpURkRFN1hpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2k0OFAteUVoSG5vUmpURkRFN1hpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-3",
-    "topstories"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-3": 3
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Geraldo Alckmin acompanha monitoramento do Enem 2026 no Inep",
   "summary": "Leonardo Barchini deu a declaração ao explicar para o presidente em exercício, Geraldo Alckmin, as ações do governo neste segundo dia do...",
@@ -31,13 +25,13 @@
     "inep",
     "enem",
     "ministro",
-    "educação",
     "ataques",
+    "tentativas",
     "alckmin"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/aEhZRxMVlnEoGRYqPBX3Ip4krqA=/1280x0/filters:format(jpeg)/https://thumbor.globoi.com/unsafe/fit-in/1280x720/s01.video.glbimg.com/deo/vi/36/99/15189936",
   "publishedAt": "2026-11-14T17:49:06+00:00",
-  "updatedAt": "2026-11-15T23:17:50.710882+00:00",
+  "updatedAt": "2026-11-16T00:46:03.518503+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,7 +58,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-15T21:59:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/15/17947796426afa29fa37d81_1794779642_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -74,14 +68,14 @@
       "title": "Presidente em Exercício e ministro da Educação visitam sala de monitoramento do Enem",
       "description": "O presidente da República em Exercício, Geraldo Alckmin, e o ministro da Educação, Leonardo Barchini, visitam a Sala de Monitoramento do...",
       "url": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enem/presidente-em-exercicio-e-ministro-da-educacao-visitam-sala-de-monitoramento-do-enem",
-      "source": "GOV.BR",
-      "sourceCanonical": "GOV.BR",
+      "source": "Governo Federal",
+      "sourceCanonical": "Governo Federal",
       "sourceDomain": "gov.br",
       "publishedAt": "2026-11-14T17:49:06+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enem/presidente-em-exercicio-e-ministro-da-educacao-visitam-sala-de-monitoramento-do-enem/coletiva-jpg.jpeg/@@images/7ebff747-bcc4-470e-ad24-ac7ec77577e5.jpeg",
-      "spectrumScore": 5,
-      "bucket": "center"
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4b0ef021705f",
@@ -92,7 +86,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-11-15T17:20:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://imagens.ebc.com.br/Z2mNsQ5lWQL4xHhftpdFlqEw8ws=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/15/pzzb0527.jpg?itok=LIjqokwH",
       "spectrumScore": 5,
       "bucket": "center"
@@ -107,7 +101,7 @@
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-15T15:48:14+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://sbtnews.sbt.com.br/imagens/alckmin_enem_5f88409234.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -120,7 +114,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-15T17:20:40+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -134,7 +128,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-11-15T19:55:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -162,10 +156,24 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-15T18:36:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_278cd57982fe",
+      "title": "Ministro relata tentativas de ataques hackers ao site do Inep durante o Enem 2026",
+      "description": "O site do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) tem sido alvo de tentativas de ataques hackers neste...",
+      "url": "https://gauchazh.clicrbs.com.br/educacao/enem-e-vestibular/noticia/2026/11/ministro-relata-tentativas-de-ataques-hackers-ao-site-do-inep-durante-o-enem-2026-cmwi5femp02be015eqerrs5nk.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-11-15T18:23:03+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_115e4d6b683b",
@@ -190,34 +198,6 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-15T18:56:57+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_278cd57982fe",
-      "title": "Ministro relata tentativas de ataques hackers ao site do Inep durante o Enem 2026",
-      "description": "O site do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) tem sido alvo de tentativas de ataques hackers neste...",
-      "url": "https://gauchazh.clicrbs.com.br/educacao/enem-e-vestibular/noticia/2026/11/ministro-relata-tentativas-de-ataques-hackers-ao-site-do-inep-durante-o-enem-2026-cmwi5femp02be015eqerrs5nk.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-11-15T18:23:03+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_337446601830",
-      "title": "Ministro fala em ataques hackers ao sistema do Inep em dia de Enem",
-      "description": "Segundo o ministro Leonardo Barchini, página do Inep sofre tentantiva de ataque, mas o governo controla a situação.",
-      "url": "https://www.metropoles.com/brasil/ministro-fala-em-ataques-hackers-ao-sistema-do-inep-em-dia-de-enem",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-15T18:14:00+00:00",
       "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -232,10 +212,24 @@
       "sourceCanonical": "Blog do Esmael",
       "sourceDomain": "esmaelmorais.com.br",
       "publishedAt": "2026-11-15T20:45:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_d5d0f63f50ee",
+      "title": "“São milhares de tentativas”, diz ministro sobre ataques hacker",
+      "description": "O ministro da Educação, Leonardo Barchini, afirmou neste domingo (15) que o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio...",
+      "url": "https://ultimosegundo.ig.com.br/educacao/enem/2026-11-15/sao-milhares-de-tentativas-diz-ministro-sobre-ataques-hacker.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-11-15T23:44:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_db861587636e",
@@ -246,24 +240,10 @@
       "sourceCanonical": "Fato Amazônico",
       "sourceDomain": "fatoamazonico.com.br",
       "publishedAt": "2026-11-15T21:59:37+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_17295206fe7e",
-      "title": "Ministério Educação e Inep falam sobre Enem",
-      "description": "O ministro da Educação, Leonardo Barchini, apresenta neste domingo um balaço do segundo e último dia de aplicação de provas do Exame...",
-      "url": "https://oglobo.globo.com/brasil/educacao/enem-e-vestibular/noticia/2026/11/15/ministerio-educacao-e-inep-enem-entrevista.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-11-15T22:12:33+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_f61cfa6ee9b5",
@@ -274,7 +254,7 @@
       "sourceCanonical": "Rádio Corredor",
       "sourceDomain": "radiocorredor.com.br",
       "publishedAt": "2026-11-15T20:51:26+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -288,21 +268,7 @@
       "sourceCanonical": "Tribuna do Sertão",
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-11-15T20:50:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_9e2651f5be16",
-      "title": "Página do Inep sofre tentativa de ataque hackers neste domingo",
-      "description": "A página do Instituto Nacional de Estudos e Pesquisas Educacionais (Inep) sofreu uma tentativa de ataque hacker neste domingo (15), no.",
-      "url": "https://www.portalsalvadorfm.com.br/bahia/pagina-do-inep-sofre-tentativa-de-ataque-hackers-neste-domingo/",
-      "source": "Portal Salvador FM",
-      "sourceCanonical": "Portal Salvador FM",
-      "sourceDomain": "portalsalvadorfm.com.br",
-      "publishedAt": "2026-11-15T18:07:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -316,7 +282,35 @@
       "sourceCanonical": "Rádio Metrópole",
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-11-15T18:21:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_9e2651f5be16",
+      "title": "Página do Inep sofre tentativa de ataque hackers neste domingo",
+      "description": "A página do Instituto Nacional de Estudos e Pesquisas Educacionais (Inep) sofreu uma tentativa de ataque hacker neste domingo (15), no.",
+      "url": "https://www.portalsalvadorfm.com.br/bahia/pagina-do-inep-sofre-tentativa-de-ataque-hackers-neste-domingo/",
+      "source": "Portal Salvador FM",
+      "sourceCanonical": "Portal Salvador FM",
+      "sourceDomain": "portalsalvadorfm.com.br",
+      "publishedAt": "2026-11-15T18:07:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_3c4b106db0b2",
+      "title": "Ministro confirma ataques hacker ao Inep durante Enem",
+      "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/11/15/1022387-ministro-confirma-ataques-hacker-ao-inep-durante-enem",
+      "source": "Tribuna do Agreste",
+      "sourceCanonical": "Tribuna do Agreste",
+      "sourceDomain": "tribunadoagreste.com.br",
+      "publishedAt": "2026-11-15T18:11:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -325,16 +319,16 @@
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.25,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.23,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 12,
+      "center": 9,
       "centerRight": 2,
       "right": 0,
-      "unknown": 4
+      "unknown": 7
     }
   },
   "scores": {
@@ -346,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

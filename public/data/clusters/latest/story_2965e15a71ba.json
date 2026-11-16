@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l0ak8yeEVoRUs2a2FYOEJyanZDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l0ak8yeEVoRUs2a2FYOEJyanZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 4
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
     "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Grande São Paulo enfrenta riscos de temporais e alagamentos neste domingo",
   "summary": "Alerta foi emitido pelo CGE às 18h26 deste domingo (15); alerta abrange as zonas Norte, Sul, Leste, Oeste, Sudeste e a região Central,...",
@@ -26,13 +32,13 @@
     "domingo",
     "neste",
     "alerta",
-    "chuvas",
-    "grande"
+    "estado",
+    "chuvas"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/LAAjyzjXVHREz-5dgvgHWPwHVpo=/4200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/l/OIZXBCSE2dpWFsP0KXMA/fta20260318059.jpg",
   "publishedAt": "2026-11-13T12:50:00+00:00",
-  "updatedAt": "2026-11-15T23:19:31.954622+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-11-16T00:44:20.495260+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -44,7 +50,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-15T21:58:59+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/LAAjyzjXVHREz-5dgvgHWPwHVpo=/4200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/J/l/OIZXBCSE2dpWFsP0KXMA/fta20260318059.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,32 +70,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_31c61ce7581a",
-      "title": "Fortes chuvas devem atingir estado de São Paulo neste domingo",
-      "description": "Condição para temporais é maior nas faixas leste, nordeste e norte paulista. Expectativa é decorrência da existência de um corredor de...",
-      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/fortes-chuvas-devem-atingir-estado-de-sao-paulo-neste-domingo",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-15T13:34:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://imagens.ebc.com.br/IShwg4JSw0SjZEtZS_s7060DObE=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/img_0020.jpg?itok=UH4u3UpA",
+      "id": "article_6cbc2fc3ab8e",
+      "title": "Chuva alaga ruas de SP e provoca transbordamento de córrego na Zona Leste; vídeos mostram estragos",
+      "description": "Imagens mostram bueiro jorrando água na Bela Vista, no Centro, e rua completamente alagada em Santana. Córrego Três Pontes transbordou na...",
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/15/chuva-alaga-ruas-de-sp-e-provoca-transbordamento-de-corrego-na-zona-leste-videos-mostram-estragos.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-16T00:24:52+00:00",
+      "postedLabel": "19 minutos atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/Lzf66Lv5nzN-UsfyqpBVRiW3A-0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/z/Y2tlc0RQKvg5iQBfNIpA/montagem-horizontal-1200px-19-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_485140b2cb5e",
-      "title": "Grande São Paulo volta a ficar em alerta para tempestades neste domingo: confira a previsão para as regiões do Brasil",
-      "description": "Climatempo aponta aumento das instabilidades em São Paulo e em outras áreas do país ao longo do dia.",
-      "url": "https://veja.abril.com.br/agenda-verde/grande-sao-paulo-volta-a-ficar-em-alerta-para-tempestades-neste-domingo-confira-a-previsao-para-as-regioes-do-brasil/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-14T23:00:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/09/GettyImages-2274062979.jpg?quality=70&strip=info&resize=1200,630&crop=1",
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_2c761d8acdea",
@@ -101,20 +93,34 @@
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-14T16:32:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": "https://www.estadao.com.br/resizer/v2/HTO5DF43MNHGXCWEQVV2DI7RIA.jpeg?quality=80&auth=0e3ebd1c660bff41d7633f2ff54a2c9d3ece87d4d885917d0ba9de40cd30c6e3&width=1200&height=630&focal=1314,550",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_485140b2cb5e",
+      "title": "Grande São Paulo volta a ficar em alerta para tempestades neste domingo: confira a previsão para as regiões do Brasil",
+      "description": "Climatempo aponta aumento das instabilidades em São Paulo e em outras áreas do país ao longo do dia.",
+      "url": "https://veja.abril.com.br/agenda-verde/grande-sao-paulo-volta-a-ficar-em-alerta-para-tempestades-neste-domingo-confira-a-previsao-para-as-regioes-do-brasil/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-14T23:00:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
-      "id": "article_6ec1c1e639ff",
-      "title": "Chuva forte provoca vazamento em estação do metrô e afeta região central de SP",
-      "description": "Chuva forte provoca vazamento em estação do metrô e afeta região central de SP. Uma forte chuva atingiu a região central da capital paulista...",
-      "url": "https://www.terra.com.br/noticias/videos/chuva-forte-provoca-vazamento-em-estacao-do-metro-e-afeta-regiao-central-de-sp,ab6e970d1cd8abff1db4ea81c68802afxqjdkpuc.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-15T22:57:12+00:00",
-      "postedLabel": "22 minutos atrás",
+      "id": "article_31c61ce7581a",
+      "title": "Fortes chuvas devem atingir estado de São Paulo neste domingo",
+      "description": "Condição para temporais é maior nas faixas leste, nordeste e norte paulista. Expectativa é decorrência da existência de um corredor de...",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/fortes-chuvas-devem-atingir-estado-de-sao-paulo-neste-domingo",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-11-15T13:34:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -128,7 +134,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-15T21:59:10+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -146,6 +152,20 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_2d1d41680523",
+      "title": "São Paulo entra em estado de atenção para alagamentos na noite deste domingo",
+      "description": "Alerta enviado pelo CGE abrange todas as regiões da capital paulista; Defesa Civil notificou celulares.",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/sao-paulo-entra-em-estado-de-atencao-para-alagamentos-na-noite-deste-domingo,029b0cdeda7e2197679fc4c6dabb9518a2ypvlro.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-15T22:37:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_e12c1fdd63a7",
@@ -226,7 +246,7 @@
       "sourceCanonical": "REDE BRASIL DE TELEVISÃO",
       "sourceDomain": "rbtv.com.br",
       "publishedAt": "2026-11-15T22:46:09+00:00",
-      "postedLabel": "33 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_7b36c869baad",
-      "title": "Defesa Civil alerta para possibilidade de temporais na região de Campinas neste domingo (15",
-      "description": "Previsão indica possibilidade de chuva forte, descargas elétricas, rajadas de vento e granizo em pontos isolados. A Prefeitura de Capivari,...",
-      "url": "https://capivari.sp.gov.br/portal/defesa-civil-alerta-para-possibilidade-de-temporais-na-regiao-de-campinas-neste-domingo-15/",
-      "source": "Prefeitura de Capivari",
-      "sourceCanonical": "Prefeitura de Capivari",
-      "sourceDomain": "capivari.sp.gov.br",
-      "publishedAt": "2026-11-13T20:05:06+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 5.25,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5.23,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 7,
+      "center": 8,
       "centerRight": 3,
       "right": 0,
-      "unknown": 8
+      "unknown": 7
     }
   },
   "scores": {
