@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMOGNlb0VoRnh6WVZoa3V5NEZDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMOGNlb0VoRnh6WVZoa3V5NEZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 4,
-      "topic-5": 8
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 2,
+      "topic-5": 7
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Lula chega a Madri para se reunir com Pedro Sánchez",
   "summary": "Presidente desembarca na Espanha para encontrar primeiro-ministro, que está em campanha eleitoral e tem celebrado vitória do petista.",
@@ -28,13 +34,13 @@
     "lula",
     "sánchez",
     "espanha",
-    "pedro",
     "madri",
-    "reúne"
+    "pedro",
+    "extrema"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/lula-sanchez-16nov2026-1200x675.jpeg",
   "publishedAt": "2026-11-14T21:28:00+00:00",
-  "updatedAt": "2026-11-16T17:21:05.547096+00:00",
+  "updatedAt": "2026-11-16T18:21:13.726896+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,22 +53,8 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-16T14:21:39+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/11/lula-sanchez-16nov2026-1200x675.jpeg",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_bf0275d101ca",
-      "title": "Lula se reúne com Sánchez na Espanha e encerra primeiro giro pelo exterior após reeleição",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) se reuniu nesta segunda-feira (16) com o primeiro-ministro espanhol, Pedro Sánchez, em Madri,...",
-      "url": "https://g1.globo.com/politica/noticia/2026/11/16/lula-se-reune-nesta-segunda-com-sanchez-na-espanha-e-encerra-primeiro-giro-pelo-exterior-apos-reeleicao.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-16T03:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/ySPBNfZByLK8pvPENsI0esgUD_8=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/i/a/Egya9SQ1m6g9k01b2YPw/whatsapp-image-2026-11-16-at-07.50.00.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -81,6 +73,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_ba780b43b962",
+      "title": "Brasil e Espanha unidos contra a extrema direita e em defesa da democracia",
+      "description": "Em Madri, Lula e Pedro Sánchez defendem inclusão social e enfrentamento à desinformação. Às vésperas da eleição, primeiro-ministro vê na...",
+      "url": "https://pt.org.br/brasil-e-espanha-unidos-contra-a-extrema-direita-e-em-defesa-da-democracia/",
+      "source": "Partido dos Trabalhadores",
+      "sourceCanonical": "Partido dos Trabalhadores",
+      "sourceDomain": "pt.org.br",
+      "publishedAt": "2026-11-16T17:54:00+00:00",
+      "postedLabel": "27 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_8e8c2f4e75d8",
       "title": "Lula e Sanchez defendem união de progressistas contra ‘ameaça da extrema direita’",
       "description": "O presidente Luiz Inácio Lula da Silva e o chefe do governo da Espanha, Pedro Sanchez, defenderam a necessidade de que governos se unam para...",
@@ -89,21 +95,49 @@
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-11-16T13:40:56+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/11/001e2699-fec8-442e-a7e4-33d68bd184fe.webp",
       "spectrumScore": 2,
       "bucket": "left"
     },
     {
-      "id": "article_04276cd6b3e9",
-      "title": "Lula se reúne com Pedro Sánchez em Madri e inicia retorno ao Brasil",
-      "description": "No último dia de viagem, o presidente Lula se reuniu na manhã desta segunda-feira (16), em Madri, com o primeiro-ministro Pedro Sánchez,...",
-      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-11/lula-se-reune-com-pedro-sanchez-em-madri-e-inicia-retorno-ao-brasil",
+      "id": "article_464ab94dcf46",
+      "title": "Lula encontra primeiro-ministro espanhol antes de eleição no país",
+      "description": "Reunião em Madri reúne o líder brasileiro e Pedro Sánchez em momento decisivo para a política local. Américo Martins, da CNN Brasil,...",
+      "url": "https://www.cnnbrasil.com.br/internacional/lula-encontra-primeiro-ministro-espanhol-antes-de-eleicao/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-16T10:10:35+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Visita-de-Lula-a-Espanha-para-encontrar-Pedro-Sanchez-16.11-6.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_89d5774e43bb",
+      "title": "Sánchez e Lula conversam sobre a ameaça da extrema direita antes das eleições na Espanha",
+      "description": "O primeiro-ministro da Espanha, Pedro Sánchez, conversou com o presidente do Brasil, Luiz Inácio Lula da Silva, sobre a defesa da democracia...",
+      "url": "https://g1.globo.com/mundo/noticia/2026/11/16/sanchez-e-lula-conversam-sobre-a-ameaca-da-extrema-direita-antes-das-eleicoes-na-espanha.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-16T17:48:12+00:00",
+      "postedLabel": "32 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_8bc7fd47a308",
+      "title": "Lula e Sánchez defendem união contra o avanço da extrema-direita",
+      "description": "O presidente Luiz Inácio Lula da Silva se encontrou, na manhã desta segunda-feira (16), com o presidente do governo da Espanha,...",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-sanchez-defendem-uniao-contra-avanco-da-extrema-direita",
       "source": "Agência Brasil",
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-16T16:09:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "publishedAt": "2026-11-16T18:09:00+00:00",
+      "postedLabel": "12 minutos atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -117,7 +151,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-11-16T12:47:46+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -151,43 +185,15 @@
       "bucket": "center"
     },
     {
-      "id": "article_63a4fa4fb82f",
-      "title": "Brasil e Espanha estão unidos pela democracia, diz Sánchez",
-      "description": "O primeiro-ministro da Espanha, Pedro Sánchez, disse nesta segunda-feira (16) que o país está unido ao Brasil na defesa à democracia e no...",
-      "url": "https://sbtnews.sbt.com.br/noticia/politica/brasil-e-espanha-estao-unidos-pela-democracia-diz-sanchez",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-16T15:45:25+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_cd00d826b6f6",
-      "title": "Na Espanha, Lula e Pedro Sánchez debatem futuro da ONU e laços bilaterais",
-      "description": "Lula chegou à Espanha no domingo (15) e esteve com Sánchez na manhã de segunda-feira.",
-      "url": "https://www.cnnbrasil.com.br/internacional/na-espanha-lula-e-pedro-sanchez-debatem-futuro-da-onu-e-lacos-bilaterais/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-16T12:28:15+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_80847e23bde0",
-      "title": "Após Asean e COP 31, Lula embarca para Madri para encontro com Pedro Sánchez",
-      "description": "O presidente participou da cúpula da Asean, em Manila, e da COP 31, na Turquia, e chega a Madri na noite deste domingo.",
-      "url": "https://www.infomoney.com.br/politica/apos-asean-e-cop-31-lula-embarca-para-madri-para-encontro-com-pedro-sanchez/",
+      "id": "article_6d92ca63a361",
+      "title": "Lula encerra viagem à Ásia com encontro com Sánchez na Espanha e volta ao Brasil",
+      "description": "O presidente Luiz Inácio Lula da Silva (PT) chegou nesta segunda-feira (16) a Madri para um encontro com o primeiro-ministro espanhol,...",
+      "url": "https://www.infomoney.com.br/politica/lula-encerra-viagem-a-asia-com-encontro-com-sanchez-na-espanha-e-volta-ao-brasil/",
       "source": "InfoMoney",
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-15T16:26:36+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-11-16T14:59:49+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -215,24 +221,38 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-11-16T15:18:42+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_b20372d05745",
-      "title": "Espanha: Sánchez recebe Lula para reforçar cooperação contra \"ameaça da ultradireita\"",
-      "description": "A viagem a Madrid realiza-se pouco depois de o chefe de Estado brasileiro ter faltado à Cimeira Ibero-Americana, realizada na mesma cidade,...",
-      "url": "https://pt.euronews.com/2026/11/16/espanha-sanchez-recebe-lula-para-reforcar-cooperacao-contra-ameaca-da-ultradireita",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-11-16T15:47:06+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_63a4fa4fb82f",
+      "title": "Brasil e Espanha estão unidos pela democracia, diz Sánchez",
+      "description": "O primeiro-ministro da Espanha, Pedro Sánchez, disse nesta segunda-feira (16) que o país está unido ao Brasil na defesa à democracia e no...",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/brasil-e-espanha-estao-unidos-pela-democracia-diz-sanchez",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-16T15:45:25+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_7d1f1bb1fc26",
+      "title": "Lula e Sánchez discutem multilateralismo e combate à extrema direita antes de eleição espanhola",
+      "description": "O presidente Luiz Inácio Lula da Silva (PT) e o presidente do governo da Espanha, Pedro Sánchez, discutiram nesta segunda-feira (16), em...",
+      "url": "https://www.brasildefato.com.br/2026/11/16/lula-e-sanchez-discutem-multilateralismo-e-combate-a-extrema-direita-antes-de-eleicao-espanhola/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-11-16T18:06:00+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_10481d3cb6b7",
@@ -243,24 +263,10 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-16T13:01:28+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_f9be67f46d4e",
-      "title": "Lula se reúne com Sánchez em meio à disputa eleitoral na Espanha",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) se reúne, nesta segunda-feira (16), com o primeiro-ministro da Espanha, Pedro Sánchez, no...",
-      "url": "https://www.brasildefato.com.br/2026/11/16/lula-se-reune-com-sanchez-em-meio-a-disputa-eleitoral-na-espanha/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-11-16T13:49:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_51ddb0972e5b",
@@ -271,7 +277,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-11-16T13:18:45+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -291,6 +297,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_b20372d05745",
+      "title": "Espanha: Sánchez recebe Lula para reforçar cooperação contra \"ameaça da ultradireita\"",
+      "description": "A viagem a Madrid realiza-se pouco depois de o chefe de Estado brasileiro ter faltado à Cimeira Ibero-Americana, realizada na mesma cidade,...",
+      "url": "https://pt.euronews.com/2026/11/16/espanha-sanchez-recebe-lula-para-reforcar-cooperacao-contra-ameaca-da-ultradireita",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-11-16T15:47:06+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_365289cc63d2",
       "title": "Janones encontra Pedro Sánchez ao lado de Lula na Espanha",
       "description": "Deputado acompanha presidente brasileiro no Palácio da Moncloa e relata conversa sobre combate à extrema-direita.",
@@ -299,24 +319,10 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-11-16T14:53:37+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
-    },
-    {
-      "id": "article_eb65889d5e43",
-      "title": "Lula e Milei levam rivalidade política da América Latina à disputa na eleição espanhola",
-      "description": "Recuperação eleitoral do brasileiro se tornou um modelo para líderes progressistas que tentam conter o avanço da direita em diferentes...",
-      "url": "https://www.bloomberglinea.com.br/internacional/lula-e-milei-levam-rivalidade-politica-da-america-latina-a-disputa-na-eleicao-espanhola/",
-      "source": "Bloomberg Línea Brasil",
-      "sourceCanonical": "Bloomberg Línea Brasil",
-      "sourceDomain": "bloomberglinea.com.br",
-      "publishedAt": "2026-11-16T14:14:54+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
