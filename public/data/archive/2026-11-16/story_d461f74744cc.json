@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lhck9LeUVoRlo5WEFiSGE5OFBpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lhck9LeUVoRlo5WEFiSGE5OFBpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 35
+      "topic-3": 40,
+      "topic-5": 53
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 35,
-    "bestSeedRank": 35,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,16 +27,16 @@
   "topicKeywords": [
     "médica",
     "morre",
+    "acidente",
     "feira",
     "santana",
-    "acidente",
     "carro"
   ],
   "imageUrl": "https://midias.correio24horas.com.br/2026/11/15/felicia-fernanda-goncalves-de-araujo-sofreu-um-acidente--3479505.jpg",
   "publishedAt": "2026-11-15T13:47:00+00:00",
-  "updatedAt": "2026-11-16T00:47:39.100863+00:00",
-  "sourceCount": 8,
-  "articleCount": 9,
+  "updatedAt": "2026-11-16T01:24:07.528172+00:00",
+  "sourceCount": 9,
+  "articleCount": 10,
   "articles": [
     {
       "id": "article_ef206625f73a",
@@ -44,7 +47,7 @@
       "sourceCanonical": "Jornal Correio",
       "sourceDomain": "correio24horas.com.br",
       "publishedAt": "2026-11-15T21:05:24+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://midias.correio24horas.com.br/2026/11/15/felicia-fernanda-goncalves-de-araujo-sofreu-um-acidente--3479505.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -72,7 +75,21 @@
       "sourceCanonical": "Farol da Bahia",
       "sourceDomain": "faroldabahia.com.br",
       "publishedAt": "2026-11-15T21:15:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4b9d47a78534",
+      "title": "Médica de 43 anos morre em capotamento após colisão no Interior baiano",
+      "description": "Uma tragédia abalou a comunidade de Feira de Santana, localizada no centro-norte da Bahia, durante a noite de um sábado. A médica Felícia Fernanda Gonçalves...",
+      "url": "https://oecojornal.com.br/medica-morre-apos-carro-capotar-em-feira-de-santana/",
+      "source": "O Eco Jornal Online",
+      "sourceCanonical": "O Eco Jornal Online",
+      "sourceDomain": "oecojornal.com.br",
+      "publishedAt": "2026-11-15T14:54:57+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -92,15 +109,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4b9d47a78534",
-      "title": "Médica de 43 anos morre em capotamento após colisão no Interior baiano",
-      "description": "Uma tragédia abalou a comunidade de Feira de Santana, localizada no centro-norte da Bahia, durante a noite de um sábado. A médica Felícia Fernanda Gonçalves...",
-      "url": "https://oecojornal.com.br/medica-morre-apos-carro-capotar-em-feira-de-santana/",
-      "source": "O Eco Jornal Online",
-      "sourceCanonical": "O Eco Jornal Online",
-      "sourceDomain": "oecojornal.com.br",
-      "publishedAt": "2026-11-15T14:54:57+00:00",
-      "postedLabel": "hoje",
+      "id": "article_6cec41ddc18d",
+      "title": "Médica morre em capotamento após sobreviver a acidente em setembro",
+      "description": "Felícia Fernanda ficou presa às ferragens após o veículo capotar em Feira de Santana.",
+      "url": "https://atarde.com.br/bahia/medica-morre-em-capotamento-apos-sobreviver-a-acidente-em-setembro-1409569",
+      "source": "A TARDE",
+      "sourceCanonical": "A TARDE",
+      "sourceDomain": "atarde.com.br",
+      "publishedAt": "2026-11-16T00:00:16+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -167,23 +184,24 @@
     "max": 5,
     "average": 5,
     "knownCount": 4,
-    "unknownCount": 5,
+    "unknownCount": 6,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 4,
       "centerRight": 0,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
     "coverageDiversity": 20,
     "spectrumBalance": 8,
     "headlineDivergence": 70,
-    "confidence": 75
+    "confidence": 77
   },
   "flags": [
+    "Alta cobertura",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
