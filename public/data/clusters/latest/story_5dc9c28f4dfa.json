@@ -26,13 +26,13 @@
     "vacina",
     "paciente",
     "russa",
-    "melanoma",
-    "metástase"
+    "reduz",
+    "risco"
   ],
   "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/11/065623c1-bed0-47a2-b3d2-d008e797256a-e1794743007859.png?w=1200&quality=88&strip=all",
   "publishedAt": "2026-10-24T07:00:00+00:00",
-  "updatedAt": "2026-11-16T08:37:10.280635+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-11-16T09:26:01.824360+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -190,6 +190,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_9ccdf95a992b",
+      "title": "Vacina personalizada reduz risco de retorno de câncer de pele; conheça estudo",
+      "description": "Uma vacina desenvolvida sob medida para cada paciente a partir das alterações de seu próprio tumor reduziu em 42% o risco de retorno do...",
+      "url": "https://noticias.r7.com/saude/feed-tv-saude/vacina-personalizada-reduz-risco-de-retorno-de-cancer-de-pele-conheca-estudo-11112026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-11-11T00:20:29+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_4492922c06ab",
       "title": "Centro russo diz que vacina personalizada fez metástase de melanoma sumir em paciente",
       "description": "Caso de homem de 60 anos tratado com a NeoOncovac reacende a corrida por vacinas de mRNA contra o câncer, mas ainda não é cura.",
@@ -268,7 +282,7 @@
       "sourceCanonical": "Correio Braziliense",
       "sourceDomain": "correiobraziliense.com.br",
       "publishedAt": "2026-11-12T09:10:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "postedLabel": "4 dias atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -300,45 +314,32 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_0529448ca929",
-      "title": "Vacinas personalizadas contra o câncer: o avanço no melanoma e o futuro do tratamento",
-      "description": "Vacina feita para cada paciente reduziu a volta do melanoma em estudo com 1.137 pessoas, e pesquisas em pulmão, rim e bexiga estão em...",
-      "url": "https://g1.globo.com/g1-em-1-minuto/video/vacinas-personalizadas-contra-o-cancer-o-avanco-no-melanoma-e-o-futuro-do-tratamento-15176476.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-10T19:49:41+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 5,
-    "average": 3.88,
+    "max": 7,
+    "average": 4.12,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 4,
-      "centerRight": 0,
+      "center": 3,
+      "centerRight": 1,
       "right": 0,
       "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
