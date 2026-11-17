@@ -3,41 +3,35 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l2dG82ekVoR0pIYzNjbjlZNGRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l2dG82ekVoR0pIYzNjbjlZNGRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 3,
-      "topstories": 3,
-      "topic-5": 6
+      "topic-5": 10
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Notícias sobre drones • Ucrânia • Rússia",
   "summary": "Defesa russa afirma ter interceptado 1.336 equipamentos em 16 regiões; ponte da Crimeia também foi atingida. Leia no Poder360.",
-  "topic": "Ucrânia · Rússia",
+  "topic": "Rússia · Ucrânia",
   "topicKeywords": [
-    "ucrânia",
     "rússia",
+    "ucrânia",
     "drones",
-    "ataque",
     "lança",
-    "ataques"
+    "ataque",
+    "desde"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/drone-destruido-russia-ucrania-1200x675.jpg",
   "publishedAt": "2026-11-15T11:47:12+00:00",
-  "updatedAt": "2026-11-17T08:22:58.274930+00:00",
+  "updatedAt": "2026-11-17T09:28:04.068621+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,7 +58,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-17T07:11:13+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://g1.globo.com/mundo/noticia/2026/11/17/None",
       "spectrumScore": 5,
       "bucket": "center"
@@ -78,7 +72,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-17T07:27:31+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -110,20 +104,6 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_0e4aa45d80ed",
-      "title": "Ataques russos atingem duas pontes principais em Kiev",
-      "description": "Na noite de segunda-feira, ataques russos atingiram duas pontes importantes em Kiev. Em resposta, também a Ucrânia atingiu, pelo segundo dia...",
-      "url": "https://pt.euronews.com/2026/11/17/ataques-russos-atingem-duas-pontes-principais-em-kiev",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-11-17T07:04:25+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_11ddec5fe1bf",
@@ -182,6 +162,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_7096cd549176",
+      "title": "Ucrânia e Rússia trocam ataques contra pontes estratégicas. Ponte da Crimeia danificada",
+      "description": "Ataques russos deixaram zonas da capital ucraniana sem água e luz. Foram também registadas explosões nas cidades ucranianas de Smila,...",
+      "url": "https://www.publico.pt/2026/11/17/mundo/noticia/ataques-russos-atingem-duas-pontes-kiev-deixam-zonas-capital-agua-luz-2195203",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-11-17T08:05:44+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_71954ed366c9",
       "title": "Ucrânia lança maior ataque com drones contra Rússia desde início da guerra",
       "description": "O Ministério da Defesa russo informou que as ​forças de defesa aérea abateram alguns dos drones ucranianos sobre a Crimeia.",
@@ -210,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e667ec1e5421",
-      "title": "Ataque ucraniano provoca incêndio em central petroquímica russa",
-      "description": "Drones ucranianos atingiram neste domingo (15) a zona industrial de Nizhnekamsk, no centro da Rússia, segundo as autoridades locais, e...",
-      "url": "https://www.folhape.com.br/noticias/ataque-ucraniano-provoca-incendio-em-central-petroquimica-russa/524347/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-11-15T12:31:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_8b2456caf9d9",
       "title": "Navio com suprimentos para forças ucranianas é atingido no mar Negro, diz MD russo",
       "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
@@ -238,18 +218,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_0ce743957156",
-      "title": "Ucrânia ataca ponte estratégica que liga a Rússia à Crimeia",
-      "description": "A Ucrânia atacou a ponte que liga a Crimeia à Rússia através do Estreito de Kerch na noite de domingo para segunda-feira.",
-      "url": "https://www.rfi.fr/pt/mundo/20261116-ucr%C3%A2nia-ataca-ponte-estrat%C3%A9gica-que-liga-a-r%C3%BAssia-%C3%A0-crimeia",
-      "source": "RFI",
-      "sourceCanonical": "RFI",
-      "sourceDomain": "rfi.fr",
-      "publishedAt": "2026-11-16T16:13:14+00:00",
-      "postedLabel": "hoje",
+      "id": "article_e667ec1e5421",
+      "title": "Ataque ucraniano provoca incêndio em central petroquímica russa",
+      "description": "Drones ucranianos atingiram neste domingo (15) a zona industrial de Nizhnekamsk, no centro da Rússia, segundo as autoridades locais, e...",
+      "url": "https://www.folhape.com.br/noticias/ataque-ucraniano-provoca-incendio-em-central-petroquimica-russa/524347/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-11-15T12:31:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_a69dbd21629d",
@@ -294,14 +274,14 @@
       "bucket": "left"
     },
     {
-      "id": "article_75b68fb486b3",
-      "title": "Ataques ucranianos atingem ponte da Crimeia. Circulação rodoviária condicionada",
-      "description": "Foi instalado um centro de resposta temporário perante o ataque.",
-      "url": "https://www.cmjornal.pt/mais-cm/especiais/guerra-na-ucrania/detalhe/ataques-ucranianos-atingem-ponte-da-crimeia-circulacao-rodoviaria-interrompida",
-      "source": "Correio da Manhã",
-      "sourceCanonical": "Correio da Manhã",
-      "sourceDomain": "cmjornal.pt",
-      "publishedAt": "2026-11-16T09:01:00+00:00",
+      "id": "article_48b23525ffa7",
+      "title": "Defesa da Rússia neutraliza recorde de drones ucranianos em um dia",
+      "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
+      "url": "https://www.tribunadoagreste.com.br/geral/2026/11/16/1022636-defesa-da-russia-neutraliza-recorde-de-drones-ucranianos-em-um-dia",
+      "source": "Tribuna do Agreste",
+      "sourceCanonical": "Tribuna do Agreste",
+      "sourceDomain": "tribunadoagreste.com.br",
+      "publishedAt": "2026-11-16T09:46:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -320,21 +300,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_ac599d700a93",
+      "title": "Ucrânia lança mais de 1,3 mil drones contra a Rússia e atinge ponte estratégica da Crimeia",
+      "description": "Ataque em larga escala durante a madrugada de segunda-feira (16) teve Moscou entre os alvos e interrompeu parcialmente o tráfego na ponte...",
+      "url": "https://www.terra.com.br/noticias/mundo/ucrania-lanca-mais-de-13-mil-drones-contra-a-russia-e-atinge-ponte-estrategica-da-crimeia,ada9cc189431c93f003c2663d1247976n59wz4er.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-16T10:44:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 5.08,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 4.93,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
-      "centerLeft": 1,
-      "center": 9,
+      "centerLeft": 2,
+      "center": 10,
       "centerRight": 2,
       "right": 0,
-      "unknown": 7
+      "unknown": 5
     }
   },
   "scores": {
@@ -346,7 +340,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

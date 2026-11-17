@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lmMHNHeUVoRzFJSW5UNlVZSlFDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lmMHNHeUVoRzFJSW5UNlVZSlFDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-8"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-8"
     ],
     "seedRanks": {
-      "topic-8": 26
+      "topic-5": 68,
+      "topic-8": 22
     },
-    "firstSeenSeedPage": "topic-8",
-    "firstSeenRank": 26,
-    "bestSeedRank": 26,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 68,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,8 +34,8 @@
   ],
   "imageUrl": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png",
   "publishedAt": "2026-11-13T17:00:00+00:00",
-  "updatedAt": "2026-11-17T08:42:44.265783+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-11-17T09:30:05.728411+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -156,7 +159,7 @@
       "sourceCanonical": "TV Sim Brasil",
       "sourceDomain": "tvsimbrasil.com.br",
       "publishedAt": "2026-11-17T03:06:21+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -197,8 +200,8 @@
       "source": "ativovirtual.com.br",
       "sourceCanonical": "ativovirtual.com.br",
       "sourceDomain": "ativovirtual.com.br",
-      "publishedAt": "2026-11-13T18:45:00+00:00",
-      "postedLabel": "3 dias atrás",
+      "publishedAt": "2026-11-16T17:47:39+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -212,7 +215,7 @@
       "sourceCanonical": "Tribuna do Paraná",
       "sourceDomain": "tribunapr.com.br",
       "publishedAt": "2026-11-17T03:07:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -302,43 +305,44 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6a238512c764",
-      "title": "Banco Master: Quem está pagando a conta?",
-      "description": "No mercado financeiro, é comum atribuir aos bancos o custo dos pagamentos feitos pelo FGC. Para Alexandre Jorge Chaia, professor do Insper,...",
-      "url": "https://www.gazetadopovo.com.br/economia/quem-paga-a-conta-do-banco-master-credores-ainda-esperam-recuperar-bilhoes/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-11-17T00:45:00+00:00",
+      "id": "article_7787e6bd74e5",
+      "title": "FGC já pagou R$ 54,8 bilhões após quebra do Master",
+      "description": "247 – O Fundo Garantidor de Créditos (FGC) desembolsou aproximadamente R$ 54,8 bilhões para ressarcir investidores e depositantes do Banco...",
+      "url": "https://www.brasil247.com/economia/fgc-ja-pagou-r-548-bilhoes-apos-quebra-do-master/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-11-17T00:02:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": 1,
+      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 4,
+    "min": 1,
     "max": 8,
-    "average": 6.33,
+    "average": 5.56,
     "knownCount": 9,
     "unknownCount": 11,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 1,
       "center": 4,
-      "centerRight": 4,
+      "centerRight": 3,
       "right": 0,
       "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
