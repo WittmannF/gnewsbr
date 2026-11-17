@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 21
+      "topic-4": 18
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 21,
-    "bestSeedRank": 21,
+    "firstSeenRank": 18,
+    "bestSeedRank": 18,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://i.metroimg.com/7Rgya_P_5K8UocQva0otGmllxXlRGD1UK8elNZLNiVw/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/sanderson-suzane-1200x800-1.jpg",
   "publishedAt": "2026-11-11T13:28:21+00:00",
-  "updatedAt": "2026-11-17T07:26:21.173216+00:00",
+  "updatedAt": "2026-11-17T08:30:09.624341+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +72,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
       "publishedAt": "2026-11-16T08:30:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/4c/2021/09/28/cristian-cravinhos-participa-de-reconstituicao-do-crime-na-residencia-da-familia-richthofen-1632850586054_v2_615x300.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,24 +254,10 @@
       "sourceCanonical": "Jornal Correio",
       "sourceDomain": "correio24horas.com.br",
       "publishedAt": "2026-11-17T01:38:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_5e58708bfe27",
-      "title": "‘Lei Suzane von Richthofen’: Sanderson quer barrar criminosos lucrando com seus atos brutais",
-      "description": "O deputado federal e senador eleito Ubiratan Sanderson (PL-RS) apresentou, nesta segunda-feira (16), o Projeto de Lei nº 5.861/2026,...",
-      "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/lei-suzane-von-richthofen-sanderson-quer-barrar-criminosos-lucrando-com-seus-atos-brutais",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-11-16T19:36:08+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
     },
     {
       "id": "article_56b682b36ac1",
@@ -282,6 +268,20 @@
       "sourceCanonical": "Fato Paulista",
       "sourceDomain": "fatopaulista.com.br",
       "publishedAt": "2026-11-16T07:48:38+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4da38f0b898b",
+      "title": "Rafinha Bastos questiona exposição de Suzane von Richthofen em documentário",
+      "description": "Rafinha Bastos usou o X no sábado (14) para ironizar o novo lançamento da Netflix sobre a vida de Suzane von Richthofen, 42, responsável por...",
+      "url": "https://www.uai.com.br/app/entretenimento/colunistas/coluna-do-bandeira/2026/11/16/interna-coluna-do-bandeira,394713/rafinha-bastos-questiona-exposicao-de-suzane-von-richthofen-em-documentario.shtml",
+      "source": "Portal UAI",
+      "sourceCanonical": "Portal UAI",
+      "sourceDomain": "uai.com.br",
+      "publishedAt": "2026-11-16T23:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -318,28 +318,27 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 9,
-    "average": 5.67,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "max": 8,
+    "average": 5.36,
+    "knownCount": 11,
+    "unknownCount": 9,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 8,
       "centerRight": 2,
-      "right": 1,
-      "unknown": 8
+      "right": 0,
+      "unknown": 9
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
