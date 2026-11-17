@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 22
+      "topic-3": 27
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 22,
-    "bestSeedRank": 22,
+    "firstSeenRank": 27,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "chuva",
     "semana",
     "temporais",
+    "feira",
     "alerta",
-    "regiões",
-    "nesta"
+    "regiões"
   ],
   "imageUrl": "https://imagens.ebc.com.br/-se_B_l-yrNyuM2fsF6FhaujNUg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/04/chuva_paraiba.jpg?itok=eLFEV_K9",
   "publishedAt": "2026-11-15T23:00:00+00:00",
-  "updatedAt": "2026-11-17T19:18:34.046514+00:00",
+  "updatedAt": "2026-11-17T20:21:35.797948+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -148,6 +148,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_aa0ea5888ac3",
+      "title": "Chuva forte atinge várias regiões do Brasil nesta terça-feira (17)",
+      "description": "A chuva forte deve atingir diversas regiões do Brasil nesta terça-feira (17). Segundo o INMET, há previsão de temporais em áreas do Sul,...",
+      "url": "https://iclnoticias.com.br/chuva-forte-atinge-varias-regioes-do-brasil/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-11-17T12:05:14+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_697de16f37c9",
       "title": "Inmet emite alerta amarelo de ventos e chuva para 19 estados e DF",
       "description": "O Inmet (Instituto Nacional de Meteorologia) emitiu um alerta amarelo, de perigo potencial, para tempestades em vários estados.",
@@ -159,20 +173,6 @@
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_a8f0ada68f8d",
-      "title": "Chuva forte atinge várias regiões do Brasil nesta terça",
-      "description": "Chuva intensa pode provocar alagamentos em diferentes estados, com risco de granizo no Sul; calor continua em grande parte do Brasil.",
-      "url": "https://sbtnews.sbt.com.br/noticia/brasil/chuva-forte-atinge-varias-regioes-do-brasil-nesta-terca",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-17T09:28:07+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -212,7 +212,7 @@
       "sourceCanonical": "Revista Cultivar",
       "sourceDomain": "revistacultivar.com.br",
       "publishedAt": "2026-11-16T19:35:02+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -319,13 +319,13 @@
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.9,
+    "average": 5.5,
     "knownCount": 10,
     "unknownCount": 10,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
-      "center": 5,
+      "center": 4,
       "centerRight": 3,
       "right": 1,
       "unknown": 10

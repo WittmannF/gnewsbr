@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 27
+      "topic-7": 28
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenRank": 28,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/15/17947970996afa6e2b1913d_1794797099_3x2_xl.jpg",
   "publishedAt": "2026-11-15T19:40:00+00:00",
-  "updatedAt": "2026-11-17T19:31:11.775847+00:00",
+  "updatedAt": "2026-11-17T20:34:32.851977+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -43,8 +43,8 @@
       "source": "Vatican News",
       "sourceCanonical": "Vatican News",
       "sourceDomain": "vaticannews.va",
-      "publishedAt": "2026-11-17T16:25:22+00:00",
-      "postedLabel": "3 horas atrás",
+      "publishedAt": "2026-11-16T16:47:54+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +226,7 @@
       "sourceCanonical": "Brasil de Fato",
       "sourceDomain": "brasildefato.com.br",
       "publishedAt": "2026-11-15T19:40:00+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -240,7 +240,7 @@
       "sourceCanonical": "Jornal do Comércio",
       "sourceDomain": "jornaldocomercio.com",
       "publishedAt": "2026-11-16T19:38:42+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -274,6 +274,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_120d9367bee7",
+      "title": "O papa que não esconde as lágrimas",
+      "description": "Leão XIV regressa a Roma esta terça-feira, 17 de novembro, depois de uma viagem de 12 dias pelo Uruguai, Argentina e Peru. Para o papa...",
+      "url": "https://www.dn.pt/opiniao-dn/o-papa-que-no-esconde-as-lgrimas",
+      "source": "Diário de Notícias",
+      "sourceCanonical": "Diário de Notícias",
+      "sourceDomain": "dn.pt",
+      "publishedAt": "2026-11-17T00:04:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_456754b7f659",
       "title": "Leão XIV conclui visita ao Peru com apelos à fraternidade",
       "description": "O que marcou os últimos dias de Leão XIV no Peru? Conheça os discursos, encontros e mensagens do Pontífice antes de retornar a Roma.",
@@ -300,35 +314,21 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_aa1b8b30f76b",
-      "title": "Papa retorna a Roma para continuar sua 'missão'",
-      "description": "O papa Leão XIV retornou a Roma, após celebrar uma grande missa em Lima, que marcou a sua despedida de uma visita emotiva à América do Sul,...",
-      "url": "https://www.folhape.com.br/noticias/papa-retorna-a-roma-para-continuar-sua-missao/524577/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-11-16T21:09:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.8,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.86,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
+      "centerLeft": 2,
       "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -340,6 +340,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
