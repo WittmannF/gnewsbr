@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMOGNlb0VoRVlWVmlyamhVWWZDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lMOGNlb0VoRVlWVmlyamhVWWZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 1,
-      "topic-5": 5
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 4,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Mercado quer que o povo pobre viva na miséria, diz Lula na Espanha",
   "summary": "Em Madri para apoiar reeleição de Sánchez, presidente disse que precisa fazer do seu 4º mandato \"o mais responsável\". Leia no Poder360.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/Pedro-Sanchez-Lula-Espanha-16nov2026-1200x675.jpg",
   "publishedAt": "2026-11-16T10:14:00+00:00",
-  "updatedAt": "2026-11-17T13:20:11.418497+00:00",
+  "updatedAt": "2026-11-17T14:18:31.309278+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-17T09:27:29+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/11/Pedro-Sanchez-Lula-Espanha-16nov2026-1200x675.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,24 +67,24 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-17T11:15:11+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Captura-de-tela-2026-11-17-082516-e1794914934238.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_134c6f59d5d0",
-      "title": "Lula se reúne com Sánchez em Madri a dias da eleição na Espanha",
-      "description": "Primeiro-ministro, que convocou eleição antecipada, busca reagir nas pesquisas; Direita espanhola critica aproximação com brasileiro;...",
-      "url": "https://www1.folha.uol.com.br/mundo/2026/11/lula-se-reune-com-sanchez-em-madri-a-dias-da-eleicao-na-espanha.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-11-16T10:14:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/16/17948242706afad84e12503_1794824270_3x2_rt.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "id": "article_2ad428226ec3",
+      "title": "Brasil e Espanha defendem o multilateralismo e a necessidade de reformas na ONU",
+      "description": "Nesta segunda-feira (16), o presidente Lula foi recebido no Palácio de La Moncloa pelo primeiro-ministro espanhol, Pedro Sánchez.",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/16/brasil-e-espanha-defendem-o-multilateralismo-e-a-necessidade-de-reformas-na-onu.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-17T00:31:41+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/ycBfH98J1u0v2EN1gNsU7Wzf86M=/3840x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/h/B/Nw4oBbTd6VrQBNvoTCVw/globo-canal-4-20261116-2000-frame-80097.jpeg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f98f03ef7a44",
@@ -95,18 +101,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_2ad428226ec3",
-      "title": "Brasil e Espanha defendem o multilateralismo e a necessidade de reformas na ONU",
-      "description": "Nesta segunda-feira (16), o presidente Lula foi recebido no Palácio de La Moncloa pelo primeiro-ministro espanhol, Pedro Sánchez.",
-      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/16/brasil-e-espanha-defendem-o-multilateralismo-e-a-necessidade-de-reformas-na-onu.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-17T00:31:41+00:00",
-      "postedLabel": "hoje",
+      "id": "article_4f20efc4e2bd",
+      "title": "Comentaristas da GloboNews se estranham ao analisar encontro entre Lula e Sánchez na Espanha",
+      "description": "Flávia Oliveira discordou de Guga Chacra, que criticou apoio do presidente brasileiro ao líder espanhol: 'O que ele chama de hipocrisia eu...",
+      "url": "https://www.em.com.br/politica/2026/11/7539730-comentaristas-da-globonews-se-estranham-ao-analisar-encontro-entre-lula-e-sanchez-na-espanha.html",
+      "source": "Estado de Minas",
+      "sourceCanonical": "Estado de Minas",
+      "sourceDomain": "em.com.br",
+      "publishedAt": "2026-11-17T11:43:00+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_134c6f59d5d0",
+      "title": "Lula se reúne com Sánchez em Madri a dias da eleição na Espanha",
+      "description": "Primeiro-ministro, que convocou eleição antecipada, busca reagir nas pesquisas; Direita espanhola critica aproximação com brasileiro;...",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/lula-se-reune-com-sanchez-em-madri-a-dias-da-eleicao-na-espanha.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-11-16T10:14:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_83f1ff934dbd",
@@ -117,24 +137,24 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-11-16T13:25:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_4f20efc4e2bd",
-      "title": "Comentaristas da GloboNews se estranham ao analisar encontro entre Lula e Sánchez na Espanha",
-      "description": "Flávia Oliveira discordou de Guga Chacra, que criticou apoio do presidente brasileiro ao líder espanhol: 'O que ele chama de hipocrisia eu...",
-      "url": "https://www.em.com.br/politica/2026/11/7539730-comentaristas-da-globonews-se-estranham-ao-analisar-encontro-entre-lula-e-sanchez-na-espanha.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-11-17T11:43:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_0257673b037a",
+      "title": "Por que Lula e Janones viraram trunfo na eleição da Espanha",
+      "description": "Presidente brasileiro e deputado federal discutem com Pedro Sánchez a estratégia digital que contribuiu para a virada do petista nas...",
+      "url": "https://www.nexojornal.com.br/expresso/2026/11/16/janones-lula-e-pedro-sanchez-madri-eleicao-espanha-2026",
+      "source": "Nexo Jornal",
+      "sourceCanonical": "Nexo Jornal",
+      "sourceDomain": "nexojornal.com.br",
+      "publishedAt": "2026-11-16T21:53:21+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_ba780b43b962",
@@ -159,23 +179,9 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-17T11:51:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_5258bc2d0f4d",
-      "title": "Lula e Janones se reúnem com Sánchez semanas antes de eleições gerais na Espanha",
-      "description": "Após a vitória do petista nas eleições presidenciais, primeiro-ministro espanhol disse se inspirar no Brasil e no 'Exército de Lula'.",
-      "url": "https://www.estadao.com.br/internacional/lula-sanchez-espanha-combate-desinformacao-extrema-direita-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-16T18:43:41+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -187,7 +193,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-17T12:03:55+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -205,6 +211,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_5258bc2d0f4d",
+      "title": "Lula e Janones se reúnem com Sánchez semanas antes de eleições gerais na Espanha",
+      "description": "Após a vitória do petista nas eleições presidenciais, primeiro-ministro espanhol disse se inspirar no Brasil e no 'Exército de Lula'.",
+      "url": "https://www.estadao.com.br/internacional/lula-sanchez-espanha-combate-desinformacao-extrema-direita-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-11-16T18:43:41+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_19689224a93f",
@@ -235,18 +255,18 @@
       "bucket": "left"
     },
     {
-      "id": "article_0257673b037a",
-      "title": "Por que Lula e Janones viraram trunfo na eleição da Espanha",
-      "description": "Presidente brasileiro e deputado federal discutem com Pedro Sánchez a estratégia digital que contribuiu para a virada do petista nas...",
-      "url": "https://www.nexojornal.com.br/expresso/2026/11/16/janones-lula-e-pedro-sanchez-madri-eleicao-espanha-2026",
-      "source": "Nexo Jornal",
-      "sourceCanonical": "Nexo Jornal",
-      "sourceDomain": "nexojornal.com.br",
-      "publishedAt": "2026-11-16T21:53:21+00:00",
+      "id": "article_3bbf0cad7468",
+      "title": "Tive encontro importante com Sánchez para reafirmar laços entre Brasil e Espanha, diz Lula",
+      "description": "Presidente se pronunciou sobre o encontro em publicação no X há pouco.",
+      "url": "https://www.jornaldocomercio.com/internacional/2026/11/1270620-tive-encontro-importante-com-sanchez-para-reafirmar-lacos-entre-brasil-e-espanha-diz-lula.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-11-16T15:18:42+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_f54acb8fbeb7",
@@ -261,20 +281,6 @@
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
-    },
-    {
-      "id": "article_3bbf0cad7468",
-      "title": "Tive encontro importante com Sánchez para reafirmar laços entre Brasil e Espanha, diz Lula",
-      "description": "Presidente se pronunciou sobre o encontro em publicação no X há pouco.",
-      "url": "https://www.jornaldocomercio.com/internacional/2026/11/1270620-tive-encontro-importante-com-sanchez-para-reafirmar-lacos-entre-brasil-e-espanha-diz-lula.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-11-16T15:18:42+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_e130272f1e4b",

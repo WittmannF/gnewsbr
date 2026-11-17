@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pweXNXeUVoR1RwUm1hbHFHbVNpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pweXNXeUVoR1RwUm1hbHFHbVNpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 12
+      "topic-3": 14,
+      "topic-5": 10
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 14,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/Y-3r8JqYvEAVF1qENP--5Q7zwq4=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/q/h/47AVheR7a4SBnYJFZvjw/header-enem-humanas.png",
   "publishedAt": "2026-11-15T19:35:00+00:00",
-  "updatedAt": "2026-11-17T13:25:40.193600+00:00",
+  "updatedAt": "2026-11-17T14:21:23.318392+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -128,7 +131,7 @@
       "sourceCanonical": "GOV.BR",
       "sourceDomain": "gov.br",
       "publishedAt": "2026-11-16T13:42:27+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -202,20 +205,6 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_1d12a785c47f",
-      "title": "Confira na íntegra os dois cadernos cor Branco/Cinza do Enem 2026",
-      "description": "Os candidatos que participaram do Enem 2026 já podem acessar, nesta matéria, os cadernos de questões em formato PDF, cor Branco/Cinza.",
-      "url": "https://mais.opovo.com.br/reportagens-especiais/enem/2026/11/15/confira-na-integra-os-dois-cadernos-cor-branco-cinza-do-enem-2026.html",
-      "source": "O POVO+",
-      "sourceCanonical": "O POVO+",
-      "sourceDomain": "mais.opovo.com.br",
-      "publishedAt": "2026-11-15T22:33:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_a1c1b113a937",
@@ -314,21 +303,35 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_43db53d65273",
+      "title": "Fui bem no 1º dia do Enem, mas não fui fazer o 2º. Ainda tenho chance de ingressar em uma universidade?",
+      "description": "Entenda se ainda é possível e o que fazer para recuperar o dia de Enem perdido; provas foram aplicadas nos dias 8 e 15 de novembro.",
+      "url": "https://www.terra.com.br/noticias/educacao/enem/fui-bem-no-1-dia-do-enem-mas-nao-fui-fazer-o-2-ainda-tenho-chance-de-ingressar-em-uma-universidade,6d466ff2df86efc75ec39944f51cd5af3m66hix5.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-16T08:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
     "average": 5.12,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 10,
+      "center": 11,
       "centerRight": 3,
       "right": 0,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
