@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oza19xekVoSF8yalA4VW5vNXhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oza19xekVoSF8yalA4VW5vNXhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 14
+      "home": 3,
+      "topstories": 3,
+      "topic-7": 12
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 14,
-    "bestSeedRank": 14,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Papa Leão XIV é atingido por terço no Peru",
   "summary": "Objeto, que aparentava ser um terço, foi arremessado por um fiel e atingiu a região próxima ao olho do pontífice durante despedida de viagem...",
@@ -24,14 +30,14 @@
   "topicKeywords": [
     "papa",
     "leão",
-    "peru",
     "xiv",
-    "terço",
-    "atingido"
+    "peru",
+    "atingido",
+    "rosto"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/qfduHx8Xoy0yK7t65i8alLX10kI=/2200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/5/XAVTRvTX6jG0vrxIU3JQ/2026-11-16t183528z-2096680738-rc21poainw61-rtrmadp-3-pope-latam-peru.jpg",
   "publishedAt": "2026-11-13T14:41:52+00:00",
-  "updatedAt": "2026-11-17T05:27:03.061172+00:00",
+  "updatedAt": "2026-11-17T06:27:04.207317+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -64,20 +70,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_c34f05fdabca",
-      "title": "De 'papacóptero' a lapso de idioma: os momentos curiosos do papa Leão XIV no Peru",
-      "description": "Pontíficie emocionou peruanos ao cantar o Hino Nacional com coro de crianças durante recepção oficial; nascido nos EUA, Robert Prevost viveu...",
-      "url": "https://oglobo.globo.com/mundo/noticia/2026/11/17/de-papacoptero-a-lapso-de-idioma-os-momentos-curiosos-do-papa-leao-xiv-no-peru.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-11-17T04:54:47+00:00",
-      "postedLabel": "32 minutos atrás",
-      "imageUrl": "https://s2-oglobo.glbimg.com/sOGvZTobE9GWPhcKcQXt7IX6jmk=/6063x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/u/s/aBWBNGTM2mbM93yVWBmA/116954353-this-handout-picture-released-by-the-vatican-media-shows-pope-leo-xiv-waving-before-boardi.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_8364fc575100",
       "title": "Vídeo: no Peru, papa Leão XIV é atingido no olho por terço arremessado por fiel",
       "description": "O papa Leão XIV foi atingido no rosto por um decenário (um pequeno terço) arremessado por um fiel nesta segunda-feira, 16, último dia de sua...",
@@ -86,7 +78,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-17T00:38:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/ZICDICYTGZBUFD4UIJXQFTLELE.jpg?quality=80&auth=e6fffb907bd9bfeedeb8ad15019116f29eda3a6acee8b2787d507a898f589097&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -101,9 +93,23 @@
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-16T21:07:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://media.gazetadopovo.com.br/2026/04/16153407/Papa-Leao-XIV-2-2.jpg",
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_c34f05fdabca",
+      "title": "De 'papacóptero' a lapso de idioma: os momentos curiosos do papa Leão XIV no Peru",
+      "description": "Pontíficie emocionou peruanos ao cantar o Hino Nacional com coro de crianças durante recepção oficial; nascido nos EUA, Robert Prevost viveu...",
+      "url": "https://oglobo.globo.com/mundo/noticia/2026/11/17/de-papacoptero-a-lapso-de-idioma-os-momentos-curiosos-do-papa-leao-xiv-no-peru.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-11-17T04:54:47+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_37b593915251",
@@ -184,7 +190,7 @@
       "sourceCanonical": "Rádio Pampa",
       "sourceDomain": "radiopampa.com.br",
       "publishedAt": "2026-11-17T02:34:07+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,7 +260,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-17T02:19:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -288,6 +294,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_bdced502fae9",
+      "title": "Papa Leão XIV é atingido por objeto no rosto a caminho de missa",
+      "description": "Fotos e vídeos mostram o papa levando a mão ao olho pouco depois de ser atingido, enquanto cumprimentava fiéis a caminho da missa. Em sua...",
+      "url": "https://avozdocampo.com/mundo/papa-leao-xiv-e-atingido-por-objeto-no-rosto-a-caminho-de-missa/",
+      "source": "avozdocampo.com",
+      "sourceCanonical": "avozdocampo.com",
+      "sourceDomain": "avozdocampo.com",
+      "publishedAt": "2026-11-16T22:03:34+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_7e7894808b8b",
       "title": "Mulher rompe barreira de segurança e surpreende papa no Peru",
       "description": "Ao perceber a aproximação, Robert Prevost desviou rapidamente o corpo para o lado esquerdo do banco, enquanto o carro acelerava para seguir...",
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_0594dc49a3f6",
-      "title": "Papa Leão XIV é atingido no rosto com terço durante visita ao Peru",
-      "description": "O Papa Leão XIV foi atingido no rosto por um terço atirado da multidão enquanto desfilava no papamóvel em meio a uma multidão de fiéis ao...",
-      "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/mundo/papa-leao-xiv-e-atingido-no-rosto-com-terco-durante-visita-ao-peru-1.3806404",
-      "source": "Diário do Nordeste",
-      "sourceCanonical": "Diário do Nordeste",
-      "sourceDomain": "diariodonordeste.verdesmares.com.br",
-      "publishedAt": "2026-11-16T21:47:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.62,
+    "knownCount": 13,
+    "unknownCount": 7,
     "buckets": {
       "left": 0,
-      "centerLeft": 2,
+      "centerLeft": 1,
       "center": 9,
       "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
