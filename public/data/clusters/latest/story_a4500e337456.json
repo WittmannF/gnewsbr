@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5bXNTeEVoSDRkQkl4el93MU55Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o5bXNTeEVoSDRkQkl4el93MU55Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-5": 9
+      "topic-5": 10
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Falha no sistema da United Airlines atrasa decolagens nos EUA",
   "summary": "Sindicato dos pilotos relatou problema para comunicar peso final das aeronaves. Problema já foi solucionado, segundo a United. No fim de...",
@@ -37,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/JwKUGK4heQGZUqvne_hSYZybQk0=/8425x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Y/p/4UkfjZS9OZXtObuZuqwQ/ap26318605741107.jpg",
   "publishedAt": "2026-11-13T18:11:00+00:00",
-  "updatedAt": "2026-11-17T11:16:17.159786+00:00",
+  "updatedAt": "2026-11-17T12:31:57.538528+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -280,20 +274,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_b5cb12a598f6",
-      "title": "Trump culpa Biden por crise aérea que provocou mais de 17 mil voos cancelados nos EUA",
-      "description": "Paralisação de quase cinco horas no tráfego aéreo na sexta-feira, 13, pode gerar prejuízo de pelo menos US$ 1 bilhão; autoridades investigam...",
-      "url": "https://exame.com/mundo/trump-culpa-biden-por-crise-aerea-que-provocou-mais-de-17-mil-voos-cancelados-nos-eua/",
-      "source": "Exame",
-      "sourceCanonical": "Exame Notícias",
-      "sourceDomain": "exame.com",
-      "publishedAt": "2026-11-15T15:34:50+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_b2d25932c200",
       "title": "Voos da United Airlines são afetados após interrupção ‘generalizada’ dos sistemas",
       "description": "A United Airlines registrou nesta segunda-feira (16) uma interrupção generalizada em seus sistemas que resultou em atrasos de decolagens.",
@@ -320,21 +300,35 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_75ca1ad6ff4a",
+      "title": "Trump pede US$ 50 bilhões para modernizar infraestrutura aérea após pane geral",
+      "description": "O transporte aéreo dos Estados Unidos passou por diversas falhas neste final de semana. O governo do presidente Donald Trump alegou que o...",
+      "url": "https://midiamax.com.br/mundo/2026/trump-pede-us-50-bilhoes-modernizar-infraestrutura-aerea-apos-pane-geral/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-11-16T13:51:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.47,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.44,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 2,
       "centerLeft": 2,
-      "center": 8,
+      "center": 7,
       "centerRight": 4,
       "right": 1,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
