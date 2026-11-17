@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psdVBXckVoSDFYUXlsejNLQUNDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2psdVBXckVoSDFYUXlsejNLQUNDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 4
+      "home": 3,
+      "topstories": 3,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Incidentes com petroleiros causam incêndios no Estreito de Ormuz",
   "summary": "Um petroleiro sofreu graves danos e pegou fogo após atingir uma mina em uma \"zona restrita\" na parte leste do Estreito de Ormuz, informou o...",
@@ -27,11 +33,11 @@
     "petroleiro",
     "irã",
     "petroleiros",
-    "tripulação"
+    "fogo"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/ugIePABGPYzEAiaN_qIzy0tTy64=/1422x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/1/EB67UORiuO0JArqqJWzA/navio.jpg",
   "publishedAt": "2026-11-10T20:31:00+00:00",
-  "updatedAt": "2026-11-17T12:36:00.001819+00:00",
+  "updatedAt": "2026-11-17T13:18:30.240606+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-17T11:08:32+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/ugIePABGPYzEAiaN_qIzy0tTy64=/1422x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/n/1/EB67UORiuO0JArqqJWzA/navio.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -120,20 +126,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_55bd0f104c34",
-      "title": "Tripulação de petroleiro está desaparecida após ataque no Estreito de Ormuz",
-      "description": "Petroleiro atingiu mina em uma \"zona restrita\" no Estreito de Ormuz, segundo o exército iraniano. Tripulação está desaparecida após...",
-      "url": "https://www.metropoles.com/mundo/tripulacao-de-petroleiro-esta-desaparecida-apos-ataque-no-estreito-de-ormuz",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-17T11:06:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e0b3de5e089c",
       "title": "Petroleiro atinge mina naval em Ormuz e tripulação desaparece após incêndio",
       "description": "Irã afirma que duas embarcações sofreram explosões enquanto navegavam pelo estreito sob escolta aérea dos Estados Unidos.",
@@ -142,7 +134,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-11-17T10:43:13+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -162,20 +154,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_476ced9ac59e",
-      "title": "Dois petroleiros explodem no Estreito de Ormuz. Estavam a ser acompanhados por caças dos EUA",
-      "description": "A Guarda Revolucionária do Irão revelou que os navios terão embatido em minas navais quando navegavam por uma rota não autorizada. Um deles incendiou-se.",
-      "url": "https://cnnportugal.iol.pt/videos/dois-petroleiros-explodem-no-estreito-de-ormuz-estavam-a-ser-acompanhados-por-cacas-dos-eua/6afb02660cf2cb2507aa8c6f",
-      "source": "CNN Portugal",
-      "sourceCanonical": "CNN Portugal",
-      "sourceDomain": "cnnportugal.iol.pt",
-      "publishedAt": "2026-11-16T14:18:26+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_2d64411aa0f4",
       "title": "Marinha britânica reporta ataque a petroleiro perto do Estreito de Ormuz",
       "description": "Um petroleiro com barris de petróleo a bordo foi atacado num incidente não identificado perto de Khasab, a cidade de Omã mais próxima do...",
@@ -190,15 +168,29 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_845103e46393",
-      "title": "Irán afirma que dos petroleros chocaron contra minas cerca del estrecho de Ormuz",
-      "description": "Por Redacción PortalPortuario/Agencia Anadolu @PortalPortuario El Cuerpo de la Guardia Revolucionaria Islámica de Irán (IRGC) informó que...",
-      "url": "https://jornalportuario.com.br/noticias/iran-afirma-que-dos-petroleros-chocaron-contra-minas-cerca-del-estrecho-de-ormuz",
-      "source": "Jornal Portuário",
-      "sourceCanonical": "Jornal Portuário",
-      "sourceDomain": "jornalportuario.com.br",
-      "publishedAt": "2026-11-15T20:07:08+00:00",
-      "postedLabel": "ontem",
+      "id": "article_476ced9ac59e",
+      "title": "Dois petroleiros explodem no Estreito de Ormuz. Estavam a ser acompanhados por caças dos EUA",
+      "description": "A Guarda Revolucionária do Irão revelou que os navios terão embatido em minas navais quando navegavam por uma rota não autorizada. Um deles incendiou-se.",
+      "url": "https://cnnportugal.iol.pt/videos/dois-petroleiros-explodem-no-estreito-de-ormuz-estavam-a-ser-acompanhados-por-cacas-dos-eua/6afb02660cf2cb2507aa8c6f",
+      "source": "CNN Portugal",
+      "sourceCanonical": "CNN Portugal",
+      "sourceDomain": "cnnportugal.iol.pt",
+      "publishedAt": "2026-11-16T14:18:26+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_d160a36ee89d",
+      "title": "Tripulação de petroleiro some após 2º ataque em Ormuz",
+      "description": "A tripulação de um petroleiro está desaparecida após 2º ataque em dois dias no Estreito de Ormuz, em meio à escalada entre EUA e Irã que...",
+      "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/17/tripulacao-petroleiro-desaparecida-ataque-ormuz",
+      "source": "TV Sim Brasil",
+      "sourceCanonical": "TV Sim Brasil",
+      "sourceDomain": "tvsimbrasil.com.br",
+      "publishedAt": "2026-11-17T12:27:07+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -240,7 +232,7 @@
       "sourceCanonical": "Jornal Opção",
       "sourceDomain": "jornalopcao.com.br",
       "publishedAt": "2026-11-17T12:06:00+00:00",
-      "postedLabel": "29 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -314,21 +306,35 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_45a7e87e5d99",
+      "title": "Três navios-tanque pegaram fogo após atingirem minas terrestres no Estreito de Ormuz.",
+      "description": "A Marinha iraniana anunciou em 14 de novembro que três petroleiros pegaram fogo naquele dia após atingirem minas navais no Estreito de...",
+      "url": "https://www.vietnam.vn/pt/3-tau-cho-dau-boc-chay-do-vuong-min-o-eo-bien-hormuz",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-11-15T09:48:25+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.15,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.17,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 8,
+      "center": 7,
       "centerRight": 1,
       "right": 1,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
