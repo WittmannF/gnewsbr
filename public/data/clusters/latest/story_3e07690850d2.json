@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3cV9leEVoRmNaaGRPUlJnTG55Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l3cV9leEVoRmNaaGRPUlJnTG55Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 14,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 13,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 14,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "‘Exército do Lula’ racha e já soma mais de 1 milhão de ‘desertores’",
   "summary": "Canal comandado por Janones perde seguidores em meio à reação de setores da esquerda ao ajuste fiscal do governo; deputado chama críticos de...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/andre-janones-e-lula-foto-ricardo-stuckert-campanha.jpg",
   "publishedAt": "2026-11-16T11:23:00+00:00",
-  "updatedAt": "2026-11-18T02:25:25.920865+00:00",
+  "updatedAt": "2026-11-18T03:20:34.900498+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -95,20 +101,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e95f4832bf3b",
-      "title": "DISPUTA NA ESQUERDA | O deputado federal eleito Jones Manoel (PSOL-PE) virou alvo de aliados do presidente Luiz Inácio Lula da Silva (PT) por críticas à proposta de ajuste fiscal do governo.⁣ ⁣ Em publicações nas redes sociais, o professor de Históri",
-      "description": "",
-      "url": "https://www.instagram.com/p/Df22KkDEz6t/",
-      "source": "Instagram",
-      "sourceCanonical": "Instagram",
-      "sourceDomain": "instagram.com",
-      "publishedAt": "2026-11-17T21:00:21+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_8a7b313110cb",
       "title": "Janones sobre ajuste fiscal: 'Não confundam crítica com irresponsabilidade'",
       "description": "O deputado federal André Janones (Rede-MG) voltou a rebater nesta terça-feira (17) as críticas de parte da esquerda sobre a proposta do...",
@@ -117,7 +109,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-18T00:49:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -135,6 +127,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_e95f4832bf3b",
+      "title": "DISPUTA NA ESQUERDA | O deputado federal eleito Jones Manoel (PSOL-PE) virou alvo de aliados do presidente Luiz Inácio Lula da Silva (PT) por críticas à proposta de ajuste fiscal do governo.⁣ ⁣ Em publicações nas redes sociais, o professor de Históri",
+      "description": "",
+      "url": "https://www.instagram.com/p/Df22KkDEz6t/",
+      "source": "Instagram",
+      "sourceCanonical": "Instagram",
+      "sourceDomain": "instagram.com",
+      "publishedAt": "2026-11-18T03:01:40+00:00",
+      "postedLabel": "18 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d27236ea1681",
@@ -277,20 +283,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_d9f423c790aa",
-      "title": "Janones reafirma defesa incondicional de Lula após onda de desinformação sobre o ajuste fiscal",
-      "description": "247 – O deputado federal André Janones reafirmou sua confiança no presidente Luiz Inácio Lula da Silva e sua disposição de defender o...",
-      "url": "https://www.brasil247.com/midia/janones-reafirma-defesa-incondicional-de-lula-apos-onda-de-desinformacao-sobre-o-ajuste-fiscal/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-11-18T00:37:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
-    },
-    {
       "id": "article_c1442ce1cccc",
       "title": "A cozinha brasileira e as panelas do 18 de Brumário. Por Moisés Mendes",
       "description": "Moisés Mendes critica Jones Manoel por ataques ao ajuste fiscal de Lula e questiona a reação do PSOL às críticas dirigidas ao deputado.",
@@ -299,9 +291,23 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-11-17T23:37:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_d9f423c790aa",
+      "title": "Janones reafirma defesa incondicional de Lula após onda de desinformação sobre o ajuste fiscal",
+      "description": "247 – O deputado federal André Janones reafirmou sua confiança no presidente Luiz Inácio Lula da Silva e sua disposição de defender o...",
+      "url": "https://www.brasil247.com/midia/janones-reafirma-defesa-incondicional-de-lula-apos-onda-de-desinformacao-sobre-o-ajuste-fiscal/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-11-18T00:37:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
       "bucket": "left"
     },
     {
