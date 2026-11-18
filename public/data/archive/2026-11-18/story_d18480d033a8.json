@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2preUt5cUVoSHhCMDdBTTVSNmNDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2preUt5cUVoSHhCMDdBTTVSNmNDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "topic-5",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5"
+      "topic-5",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 12
+      "topic-5": 11,
+      "topic-7": 6
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 12,
-    "bestSeedRank": 12,
+    "firstSeenRank": 11,
+    "bestSeedRank": 6,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +28,13 @@
     "irã",
     "eua",
     "bahrein",
+    "ataque",
     "drones",
-    "base",
-    "ataque"
+    "base"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/GettyImages-2264038905.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-11-11T19:52:00+00:00",
-  "updatedAt": "2026-11-18T05:27:48.039764+00:00",
+  "updatedAt": "2026-11-18T06:37:03.374223+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -190,6 +193,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_091617870f4b",
+      "title": "Irã ataca Kuwait e Bahrein enquanto impasse no Estreito de Ormuz persiste",
+      "description": "Investing.com - O Irã lançou ataques com mísseis e drones contra o Kuwait e o Bahrein, conforme reportagens da mídia local divulgadas na...",
+      "url": "https://br.investing.com/news/economy-news/ira-ataca-kuwait-e-bahrein-enquanto-impasse-no-estreito-de-ormuz-persiste-2130672",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "sourceCanonical": "Investing.com Brasil",
+      "sourceDomain": "br.investing.com",
+      "publishedAt": "2026-11-18T05:17:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_6e7733addee5",
       "title": "Irã faz alerta ao Bahrein em meio a ataques contra base americana no país",
       "description": "O porta-voz da Guarda Revolucionária Islâmica do Irã (IRGC, na sigla em inglês), Hossein Mohebi, publicou nesta terça-feira (17) um alerta...",
@@ -300,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_8197bbe7e19a",
-      "title": "Irã lança drones contra base dos EUA no Barein enquanto houthis avançam no Iêmen",
-      "description": "O Irã intensificou a pressão sobre os Estados Unidos neste domingo (15), ao lançar seis drones contra uma base militar americana no Barein.",
-      "url": "https://veronoticias.com/mundo/ira-lanca-drones-contra-base-dos-eua-no-barein-enquanto-houthis-avancam-no-iemen/",
-      "source": "Vero Notícias",
-      "sourceCanonical": "Vero Notícias",
-      "sourceDomain": "veronoticias.com",
-      "publishedAt": "2026-11-15T22:00:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.21,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.2,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 8,
+      "center": 9,
       "centerRight": 2,
       "right": 1,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -340,7 +343,6 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
