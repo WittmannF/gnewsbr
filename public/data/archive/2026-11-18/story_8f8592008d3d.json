@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 7
+      "topic-3": 11
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
+    "firstSeenRank": 11,
+    "bestSeedRank": 11,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "racismo",
     "pesquisa",
-    "negros",
-    "brancos",
     "desigualdade",
-    "racial"
+    "racial",
+    "negros",
+    "brancos"
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/16/17948632486afb70904fbaa_1794863248_3x2_rt.jpg",
   "publishedAt": "2026-11-11T18:08:00+00:00",
-  "updatedAt": "2026-11-18T16:20:55.076482+00:00",
+  "updatedAt": "2026-11-18T17:18:24.058679+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -162,20 +162,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1fb8c0455575",
-      "title": "Tratamento desigual entre negros e brancos é mais percebido no comércio e no trabalho, diz estudo",
-      "description": "(Folhapress) - O mestre de obras Antônio Carlos da Silva Conceição, 49, estava com a esposa na fila do caixa de um supermercado em Fátima,...",
-      "url": "https://iclnoticias.com.br/tratamento-desigual-entre-negros-e-brancos/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-17T20:58:05+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_0969db824da6",
       "title": "Discriminação racial é mais percebida no comércio e no ambiente de trabalho, aponta pesquisa",
       "description": "Levantamento em dez capitais brasileiras mostra que 66% identificam diferenças nas oportunidades de emprego e renda para negros e brancos.",
@@ -254,7 +240,7 @@
       "sourceCanonical": "Diário do Pará",
       "sourceDomain": "diariodopara.com.br",
       "publishedAt": "2026-11-18T15:06:48+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -314,27 +300,41 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_6f56b117f087",
+      "title": "RACISMO: DOS ESTADOS UNIDOS AO BRASIL, A FERIDA CONTINUA ABERTA",
+      "description": "Rogério Silva analisa a evolução do racismo nos Estados Unidos e no Brasil e destaca os desafios atuais da luta pela igualdade racial.",
+      "url": "https://diariodecaratinga.com.br/artigo/racismo-dos-estados-unidos-ao-brasil-a-ferida-continua-aberta/",
+      "source": "Diário de Caratinga",
+      "sourceCanonical": "Diário de Caratinga",
+      "sourceDomain": "diariodecaratinga.com.br",
+      "publishedAt": "2026-11-12T14:24:00+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 6,
-    "average": 4.6,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 4.89,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 0,
       "right": 0,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
     "confidence": 95
   },
   "flags": [
