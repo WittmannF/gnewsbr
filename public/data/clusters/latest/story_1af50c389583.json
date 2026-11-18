@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 50
+      "topic-7": 42
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 50,
-    "bestSeedRank": 50,
+    "firstSeenRank": 42,
+    "bestSeedRank": 42,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +31,9 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/OfmRS5GGNRVf0Lc9wTb1DcU8UjE=/2006x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/p/wVshe0TeeUTqLZDt2wCg/jornalista-costa-rica.jpg",
   "publishedAt": "2026-11-16T23:51:00+00:00",
-  "updatedAt": "2026-11-17T23:33:34.254981+00:00",
-  "sourceCount": 12,
-  "articleCount": 13,
+  "updatedAt": "2026-11-18T00:57:50.369545+00:00",
+  "sourceCount": 13,
+  "articleCount": 14,
   "articles": [
     {
       "id": "article_6137138aa299",
@@ -72,7 +72,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-16T23:51:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://sbtnews.sbt.com.br/imagens/Morte_jornalista_Costa_Rica_016943e803.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -86,7 +86,7 @@
       "sourceCanonical": "Folha de Pernambuco",
       "sourceDomain": "folhape.com.br",
       "publishedAt": "2026-11-17T18:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/11/afp-20261117-d7nh6qf-v1-midres-costaricaviolencecrimepress.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -146,6 +146,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_1df67f8d15ef",
+      "title": "Jornalista que denunciava crime organizado é morto a tiros na Costa Rica",
+      "description": "Camilo Rodríguez, de 51 anos, foi morto a tiros por dois homens em uma motocicleta. Clique neste link para saber os detalhes.",
+      "url": "https://revistaoeste.com/mundo/jornalista-que-denunciava-narcotrafico-e-assassinado-na-costa-rica/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-11-18T00:19:23+00:00",
+      "postedLabel": "38 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_d1d35650d85e",
@@ -212,7 +226,7 @@
       "sourceCanonical": "SWI swissinfo.ch",
       "sourceDomain": "swissinfo.ch",
       "publishedAt": "2026-11-17T00:09:02+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -220,27 +234,28 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 7,
-    "average": 5.12,
-    "knownCount": 8,
+    "max": 10,
+    "average": 5.67,
+    "knownCount": 9,
     "unknownCount": 5,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
       "center": 5,
       "centerRight": 1,
-      "right": 0,
+      "right": 1,
       "unknown": 5
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 57,
-    "headlineDivergence": 79,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
