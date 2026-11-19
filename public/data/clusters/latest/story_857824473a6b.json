@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUNjlldUVoSFRGVU4zMmNHWlVTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lUNjlldUVoSFRGVU4zMmNHWlVTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 2,
-      "topic-5": 5
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "“Loucura”, diz Valdemar sobre Nikolas na presidência da Câmara",
   "summary": "Presidente do PL afirma que deputado de 30 anos não tem idade mínima para assumir o posto na linha sucessória da Presidência. Leia mais.",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2022/11/Valdemar-Costa-Neto.jpeg",
   "publishedAt": "2026-11-13T22:18:44+00:00",
-  "updatedAt": "2026-11-19T03:21:23.523233+00:00",
+  "updatedAt": "2026-11-19T04:20:01.330461+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-18T21:26:43+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://static.poder360.com.br/uploads/2022/11/Valdemar-Costa-Neto.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -67,20 +73,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_81b2d5ea9ac6",
-      "title": "Valdermar elogia Nikolas após chamar de loucura seu nome à chefia da Câmara",
-      "description": "O presidente nacional do PL, Valdemar Costa Neto, fez elogios ao deputado federal Nikolas Ferreira (PL-MG) após dizer que seria uma...",
-      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/18/valdermar-elogia-nikolas-apos-chamar-de-loucura-seu-nome-a-chefia-da-camara.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-18T22:13:43+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_58405580bca7",
       "title": "Nikolas Ferreira ameaça deixar PL caso partido apoie reeleição de Hugo",
       "description": "Deputado federal afirma que possível apoio do partido à reeleição do presidente da Câmara dos Deputados tornaria sua permanência...",
@@ -89,24 +81,38 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-19T01:06:52+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/07/img20250212175125132_a7bd0f-e1794962594513.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_97c7107489d9",
-      "title": "Valdemar diz que Nikolas não tem idade para concorrer à presidência da Câmara",
-      "description": "Presidente do PL afirmou que candidatura de Nikolas era 'loucura'; em nota publicada em rede social, o dirigente do partido disse que sua...",
-      "url": "https://www.estadao.com.br/politica/valdemar-diz-que-nikolas-nao-tem-idade-para-concorrer-a-presidencia-da-camara-nprp/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-18T23:20:21+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_e4e76e715da2",
+      "title": "Flávio Bolsonaro quer liderar a oposição, mas não consegue comandar o próprio PL",
+      "description": "Senador tenta barrar apoio a Motta e impor candidatura própria na Câmara, mas deputados mostram pouca disposição para seguir seus comandos.",
+      "url": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-quer-liderar-a-oposicao-mas-nao-consegue-comandar-o-proprio-pl/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-11-17T11:41:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/10/FB2-2.jpg",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_81b2d5ea9ac6",
+      "title": "Valdermar elogia Nikolas após chamar de loucura seu nome à chefia da Câmara",
+      "description": "O presidente nacional do PL, Valdemar Costa Neto, fez elogios ao deputado federal Nikolas Ferreira (PL-MG) após dizer que seria uma...",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/18/valdermar-elogia-nikolas-apos-chamar-de-loucura-seu-nome-a-chefia-da-camara.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-11-18T22:13:43+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_de16ca0040ee",
@@ -151,20 +157,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e4e76e715da2",
-      "title": "Flávio Bolsonaro quer liderar a oposição, mas não consegue comandar o próprio PL",
-      "description": "Senador tenta barrar apoio a Motta e impor candidatura própria na Câmara, mas deputados mostram pouca disposição para seguir seus comandos.",
-      "url": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-quer-liderar-a-oposicao-mas-nao-consegue-comandar-o-proprio-pl/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-11-17T11:41:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_482f0f79edf5",
       "title": "Nikolas ameaça deixar PL se partido apoiar Hugo Motta",
       "description": "Deputado diz que permanência na sigla seria “insustentável” caso legenda declare apoio à reeleição do presidente da Câmara. Leia no...",
@@ -177,6 +169,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_97c7107489d9",
+      "title": "Valdemar diz que Nikolas não tem idade para concorrer à presidência da Câmara",
+      "description": "Presidente do PL afirmou que candidatura de Nikolas era 'loucura'; em nota publicada em rede social, o dirigente do partido disse que sua...",
+      "url": "https://www.estadao.com.br/politica/valdemar-diz-que-nikolas-nao-tem-idade-para-concorrer-a-presidencia-da-camara-nprp/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-11-18T23:20:21+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_53c3b7f9c9d8",
@@ -221,20 +227,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_2df6a77d9cea",
-      "title": "PL tem articulação para lançar Nikolas Ferreira ao comando da Câmara após racha sobre apoio a Motta",
-      "description": "Após um racha na bancada do PL, integrantes do partido articulam o anúncio ainda nesta semana de uma candidatura própria à presidência da...",
-      "url": "https://www.jornaldocomercio.com/politica/2026/11/1270929-pl-tem-articulacao-para-lancar-nikolas-ferreira-ao-comando-da-camara-apos-racha-sobre-apoio-a-motta.html",
-      "source": "Jornal do Comércio",
-      "sourceCanonical": "Jornal do Comércio",
-      "sourceDomain": "jornaldocomercio.com",
-      "publishedAt": "2026-11-17T23:48:05+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_e11c0871d067",
       "title": "Nikolas elogia esquerda por 'marcar posição' contra ajuste fiscal de Lula: 'Algo legítimo' #shorts",
       "description": "A declaração foi dada nesta terça-feira, 17, durante sessão na Câmara dos Deputados. Ao criticar a falta de um nome para concorrer à...",
@@ -243,6 +235,20 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-18T01:02:05+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_2df6a77d9cea",
+      "title": "PL tem articulação para lançar Nikolas Ferreira ao comando da Câmara após racha sobre apoio a Motta",
+      "description": "Após um racha na bancada do PL, integrantes do partido articulam o anúncio ainda nesta semana de uma candidatura própria à presidência da...",
+      "url": "https://www.jornaldocomercio.com/politica/2026/11/1270929-pl-tem-articulacao-para-lancar-nikolas-ferreira-ao-comando-da-camara-apos-racha-sobre-apoio-a-motta.html",
+      "source": "Jornal do Comércio",
+      "sourceCanonical": "Jornal do Comércio",
+      "sourceDomain": "jornaldocomercio.com",
+      "publishedAt": "2026-11-17T23:48:05+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -291,20 +297,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_50b242f3224e",
-      "title": "Valdemar diz que Nikolas não tem idade para concorrer à presidência da Câmara",
-      "description": "Valdemar da Costa Neto, presidente do Partido Liberal, afirmou que o deputado federal Nikolas Ferreira (PL) não tem a idade mínima para...",
-      "url": "https://noticias.r7.com/brasilia/valdemar-diz-que-nikolas-ferreira-nao-tem-idade-para-concorrer-a-presidencia-da-camara-19112026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "noticias.r7.com",
-      "publishedAt": "2026-11-19T01:26:00+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_727788f12986",
       "title": "O deputado que vale um partido inteiro e o que pode fazê-lo deixar o PL",
       "description": "Nikolas Ferreira ganha apoio de veteranos para disputar a Câmara e ameaça sair da legenda se Valdemar fechar com Hugo Motta.",
@@ -317,20 +309,34 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_71580a5f9be0",
+      "title": "Deputado do PL sobre presidência da Câmara: “Sou candidato”",
+      "description": "Nesta terça-feira (17), o deputado federal Luiz Philippe de Orleans e Bragança (PL-SP) anunciou que é candidato à presidência da Câmara dos...",
+      "url": "https://pleno.news/brasil/politica-nacional/deputado-do-pl-sobre-presidencia-da-camara-sou-candidato.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-11-18T02:18:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.81,
+    "average": 5.94,
     "knownCount": 16,
     "unknownCount": 4,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 9,
-      "centerRight": 3,
-      "right": 2,
+      "centerRight": 2,
+      "right": 3,
       "unknown": 4
     }
   },
