@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 4
+      "topic-7": 5
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 5,
+    "bestSeedRank": 5,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "irã",
     "eua",
-    "ataca",
     "base",
     "bahrein",
-    "ataques"
+    "ataques",
+    "ataca"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/2026-10-22T154623Z_2_LOP231122102026RP1_RTRMADP_BASEIMAGE-960X540_IRAN-CRISIS-ARMY.jpg?w=960&h=540&crop=1",
   "publishedAt": "2026-11-17T10:59:47+00:00",
-  "updatedAt": "2026-11-19T06:40:49.830104+00:00",
+  "updatedAt": "2026-11-19T07:29:42.457093+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-19T06:00:00+00:00",
-      "postedLabel": "40 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/o7hDEnKKn23aMbAS-4fhTzjw5q8=/5964x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/5/h/jbt42FTzOwhOo2VZ8ExQ/afp-20261026-d4f36dw-v1-highres-iranisraeluswareconomy.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -72,7 +72,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-19T02:04:11+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -288,20 +288,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_1cc3f6d5aaec",
-      "title": "Irã ataca sistema de radar militar dos EUA no Barein com drones",
-      "description": "Por Nayera Abdallah e Jana Choukeir DUBAI, 17 Nov (Reuters) - O Irã disparou drones contra um sistema de radar militar dos EUA no Barein...",
-      "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/431506-ira-ataca-sistema-de-radar-militar-dos-eua-no-barein-com-drones.html",
-      "source": "Notícias Agrícolas",
-      "sourceCanonical": "Notícias Agrícolas",
-      "sourceDomain": "noticiasagricolas.com.br",
-      "publishedAt": "2026-11-17T12:13:52+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_878e42ceb283",
       "title": "Irã ataca Bahrein e Kuwait após ofensiva dos EUA e ameaça ampliar guerra no Golfo Pérsico",
       "description": "O Exército do Kuwait anunciou ter \"interceptado ataques com drones\" e alertou a população para possíveis explosões decorrentes da...",
@@ -314,31 +300,46 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_d439f25bbff4",
+      "title": "Irã ameaça atacar os EUA e eleva tensão no Oriente Médio",
+      "description": "O Irã elevou o tom contra os Estados Unidos nesta quarta-feira (18). Em pronunciamento, o comandante-em-chefe do Exército iraniano,...",
+      "url": "https://diariodopoder.com.br/exteriores/e12-internacional/ira-ameaca-atacar-os-eua-e-eleva-tensao-no-oriente-medio",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-11-18T21:21:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 8,
-    "average": 5.57,
+    "max": 9,
+    "average": 5.71,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
       "center": 7,
-      "centerRight": 5,
-      "right": 0,
+      "centerRight": 4,
+      "right": 1,
       "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
