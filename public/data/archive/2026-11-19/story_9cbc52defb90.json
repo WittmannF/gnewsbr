@@ -10,11 +10,11 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 1
+      "topic-9": 2
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 1,
-    "bestSeedRank": 1,
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,8 +31,8 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/f567/live/1e628630-e2d9-11f1-ba34-c7d189b2efe2.jpg",
   "publishedAt": "2026-11-17T08:04:39+00:00",
-  "updatedAt": "2026-11-19T10:38:15.436122+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-11-19T11:38:06.308753+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -64,18 +64,18 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_10917b854e8f",
-      "title": "A mensagem secreta gravada pela Nasa para os alienígenas",
-      "description": "A bordo das sondas Voyager, lançadas em 1977, um disco banhado a ouro reúne sons, músicas e imagens que representam a vida na Terra.",
-      "url": "https://www.bbc.com/portuguese/watch/cjg4650491d1o",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-11-18T22:20:56+00:00",
+      "id": "article_a7f5771a8c83",
+      "title": "Voyager 1 chega a 1 dia-luz da Terra",
+      "description": "Sonda da NASA atinge distância histórica quase 50 anos depois de lançada.",
+      "url": "https://g1.globo.com/jornal-nacional/video/voyager-1-chega-a-1-dia-luz-da-terra-15235117.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-19T00:26:27+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/9c47/live/413b68f0-e399-11f1-99a1-253766e7ad8b.png",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "imageUrl": "https://s02.video.glbimg.com/x720/15235117.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_358e53723a90",
@@ -86,7 +86,7 @@
       "sourceCanonical": "Senado",
       "sourceDomain": "www12.senado.leg.br",
       "publishedAt": "2026-11-18T10:50:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -157,6 +157,20 @@
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-17T20:40:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_ea733da7b574",
+      "title": "Voyager 1 se torna o primeiro objeto humano a ficar a um dia-luz da Terra",
+      "description": "A marca da Voyager 1 faz com que os sinais de rádio enviados entre a sonda e os cientistas demorem dois dias no caminho de ida e volta.",
+      "url": "https://www.metropoles.com/ciencia/voyager-1-se-torna-o-primeiro-objeto-humano-a-ficar-a-um-dia-luz-da-terra",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-18T14:02:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -254,7 +268,7 @@
       "sourceCanonical": "Itatiaia",
       "sourceDomain": "itatiaia.com.br",
       "publishedAt": "2026-11-18T11:16:22+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -288,20 +302,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ea733da7b574",
-      "title": "Voyager 1 se torna o primeiro objeto humano a ficar a um dia-luz da Terra",
-      "description": "A marca da Voyager 1 faz com que os sinais de rádio enviados entre a sonda e os cientistas demorem dois dias no caminho de ida e volta.",
-      "url": "https://www.metropoles.com/ciencia/voyager-1-se-torna-o-primeiro-objeto-humano-a-ficar-a-um-dia-luz-da-terra",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-18T14:02:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_539831ce6fd9",
       "title": "Voyager 1 chega a um dia-luz da Terra e leva quase dois dias para 'conversar' com a humanidade",
       "description": "Primeiro objeto humano a alcançar essa distância está a 25,9 bilhões de quilômetros do planeta.",
@@ -319,13 +319,13 @@
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.08,
+    "average": 5.17,
     "knownCount": 12,
     "unknownCount": 8,
     "buckets": {
       "left": 0,
-      "centerLeft": 4,
-      "center": 6,
+      "centerLeft": 3,
+      "center": 7,
       "centerRight": 2,
       "right": 0,
       "unknown": 8
