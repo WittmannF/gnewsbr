@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otd0stdkVoSGZtVzZDWWpxdTdDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otd0stdkVoSGZtVzZDWWpxdTdDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 1,
+      "topstories": 1,
       "topic-3": 1,
       "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Senado aprova texto do projeto de ajuste fiscal",
   "summary": "Senadores concluem votação do ajuste fiscal com acordo na Lei Kandir e novas regras para créditos tributários, apesar das críticas de...",
@@ -30,12 +36,12 @@
     "senado",
     "votação",
     "conclui",
-    "texto"
+    "lula"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/KqJrWxIE_tb8lgNWnEfyoeVOQMQ=/3974x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/m/D/X46BXWRDu5GBtRQnjATg/55630660960-279b9cd611-4k.jpg",
-  "publishedAt": "2026-11-13T00:54:00+00:00",
-  "updatedAt": "2026-11-19T05:19:53.791509+00:00",
-  "sourceCount": 18,
+  "publishedAt": "2026-11-17T19:02:00+00:00",
+  "updatedAt": "2026-11-19T06:27:39.562826+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -53,6 +59,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_1d2b18da1696",
+      "title": "Após ceder à oposição e ao agro, Senado conclui votação do ajuste fiscal",
+      "description": "Por 69 votos a dois, o Senado aprovou nesta quarta-feira (18) um novo relatório do senador Eduardo Braga (MDB-AM) para o projeto de lei de...",
+      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/18/ajuste-fiscal-votacao-destaques-senado.ghtm",
+      "source": "UOL Economia",
+      "sourceCanonical": "UOL Economia",
+      "sourceDomain": "economia.uol.com.br",
+      "publishedAt": "2026-11-19T00:23:36+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_186527617958",
       "title": "Contagem voto a voto, fator Alcolumbre e reuniões a portas fechadas: os bastidores da vitória do governo no ajuste fiscal",
       "description": "Depois de uma terça-feira marcada por negociações frustradas e falta de votos, o governo mudou de estratégia para conseguir concluir a...",
@@ -61,66 +81,10 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-19T05:00:01+00:00",
-      "postedLabel": "19 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/ZJbaG3_MQjas8RgL6iR5xqZfcZM=/5472x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/3/r/uGOHcSRgiWf81ImgVKIw/6p3a9060.jpg",
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_488041a38db9",
-      "title": "Ajuste fiscal expõe dificuldade de articulação do governo Lula no Congresso",
-      "description": "Sem maioria para derrubar destaques, relator Eduardo Braga pediu mais tempo e votação foi transferida para quarta-feira. Da CNN Brasil...",
-      "url": "https://www.cnnbrasil.com.br/politica/ajuste-fiscal-expoe-dificuldade-de-articulacao-do-governo-lula-no-congresso/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-18T02:45:38+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/CONGRESSO-NACIONAL-12-11-25.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_711ae7d53a14",
-      "title": "Senado aprova texto-base de pacote que prevê economia de até R$ 60 bi",
-      "description": "Proposta prevê medidas para reduzir despesas e ampliar a arrecadação, com economia estimada entre R$ 50 bilhões e R$ 60 bilhões em 2027,",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-texto-base-de-pacote-que-preve-economia-de-ate-r-60-bi",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-13T00:54:00+00:00",
-      "postedLabel": "6 dias atrás",
-      "imageUrl": "https://imagens.ebc.com.br/TvOMb2Hb5US1-3Zj1B458fNfYng=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/12/sessao_do_congresso_12-11-26-2_0.jpg?itok=-u9GH371",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6406134c82c1",
-      "title": "Senado conclui votação do pacote fiscal; texto segue para a Câmara",
-      "description": "Projeto cria mecanismos para conter despesas e limita o crescimento de gastos a 2% acima da inflação.",
-      "url": "https://g1.globo.com/jornal-da-globo/video/senado-conclui-votacao-do-pacote-fiscal-texto-segue-para-a-camara-15260710.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-19T04:31:31+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_1d2b18da1696",
-      "title": "Após ceder à oposição e ao agro, Senado conclui votação do ajuste fiscal",
-      "description": "Por 69 votos a dois, o Senado aprovou nesta quarta-feira (18) um novo relatório do senador Eduardo Braga (MDB-AM) para o projeto de lei de...",
-      "url": "https://economia.uol.com.br/noticias/redacao/2026/11/18/ajuste-fiscal-votacao-destaques-senado.ghtm",
-      "source": "UOL Economia",
-      "sourceCanonical": "UOL Economia",
-      "sourceDomain": "economia.uol.com.br",
-      "publishedAt": "2026-11-18T19:23:36+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_1a4f695bec80",
@@ -137,6 +101,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_488041a38db9",
+      "title": "Ajuste fiscal expõe dificuldade de articulação do governo Lula no Congresso",
+      "description": "Sem maioria para derrubar destaques, relator Eduardo Braga pediu mais tempo e votação foi transferida para quarta-feira. Da CNN Brasil...",
+      "url": "https://www.cnnbrasil.com.br/politica/ajuste-fiscal-expoe-dificuldade-de-articulacao-do-governo-lula-no-congresso/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-18T02:45:38+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/CONGRESSO-NACIONAL-12-11-25.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_64eabfa3024b",
       "title": "Governo recusou proposta de R$ 75 bi no ajuste fiscal, diz Marinho",
       "description": "Segundo o senador, a contraproposta combina 3 fontes de espaço fiscal; votação dos destaques do projeto foi adiada. Leia no Poder360.",
@@ -146,7 +124,7 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-17T22:42:46+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://static.poder360.com.br/uploads/2026/11/rogerio-marinho-senado-1200x675.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -193,20 +171,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_dff28b681b4c",
-      "title": "Acuado por empresas, governadores, oposição (e até pela esquerda), governo tenta preservar pacote fiscal",
-      "description": "Governo enfrenta resistência no Senado para aprovar pacote fiscal de R$ 60 bilhões, com pressões de opositores e até do PT.",
-      "url": "https://neofeed.com.br/poder/acuado-por-empresas-governadores-oposicao-e-ate-pela-esquerda-governo-tenta-preservar-pacote-fiscal/",
-      "source": "NeoFeed",
-      "sourceCanonical": "NeoFeed",
-      "sourceDomain": "neofeed.com.br",
-      "publishedAt": "2026-11-18T19:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_1272150b4bd8",
       "title": "Senado rejeita destaques e pacote fiscal proposto pelo governo Lula segue para Câmara",
       "description": "O Senado federal aprovou nesta quarta-feira (18), em dois turnos, o Projeto de Lei Complementar proposto pelo governo que institui um ajuste...",
@@ -219,6 +183,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_dff28b681b4c",
+      "title": "Acuado por empresas, governadores, oposição (e até pela esquerda), governo tenta preservar pacote fiscal",
+      "description": "Governo enfrenta resistência no Senado para aprovar pacote fiscal de R$ 60 bilhões, com pressões de opositores e até do PT.",
+      "url": "https://neofeed.com.br/poder/acuado-por-empresas-governadores-oposicao-e-ate-pela-esquerda-governo-tenta-preservar-pacote-fiscal/",
+      "source": "NeoFeed",
+      "sourceCanonical": "NeoFeed",
+      "sourceDomain": "neofeed.com.br",
+      "publishedAt": "2026-11-18T19:05:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9b55f3836e0e",
@@ -263,6 +241,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_212e4b09df1b",
+      "title": "Da Argentina, Motta diz que pautará ajuste fiscal na segunda",
+      "description": "Presidente da Câmara deve começar análise do texto no início da próxima semana, com votação na terça-feira (24)",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/da-argentina-motta-diz-que-pautara-ajuste-fiscal-na-segunda",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-18T23:55:54+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_8aee7f26642a",
+      "title": "Senado conclui votação do ajuste fiscal do governo Lula; texto vai à Câmara",
+      "description": "Senado conclui votação do ajuste fiscal de Lula, mantém limite a créditos tributários e aprova mudanças nos repasses a estados e municípios.",
+      "url": "https://iclnoticias.com.br/senado-conclui-votacao-ajuste-fiscal-lula/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-11-18T22:04:29+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_e95e1c2fa944",
       "title": "Motta: votação do ajuste fiscal demonstra compromisso com a estabilidade econômica",
       "description": "O presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), afirmou que a votação da proposta de ajuste fiscal do governo demonstra...",
@@ -272,6 +278,20 @@
       "sourceDomain": "camara.leg.br",
       "publishedAt": "2026-11-17T19:02:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_a5c8b1830de3",
+      "title": "JOTA Principal | Governo avalia ceder em destaques ao ajuste fiscal no Senado após banho de realidade",
+      "description": "Permanece a expectativa de que o projeto de ajuste fiscal do governo Lula seja aprovado, com a apreciação dos destaques no Senado e a...",
+      "url": "https://www.jota.info/newsletters/jota-principal/governo-avalia-ceder-destaques-ajuste-fiscal-senado",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-11-18T11:51:06+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -299,39 +319,25 @@
       "sourceCanonical": "Campo Grande News",
       "sourceDomain": "campograndenews.com.br",
       "publishedAt": "2026-11-18T23:54:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_8aee7f26642a",
-      "title": "Senado conclui votação do ajuste fiscal do governo Lula; texto vai à Câmara",
-      "description": "Senado conclui votação do ajuste fiscal de Lula, mantém limite a créditos tributários e aprova mudanças nos repasses a estados e municípios.",
-      "url": "https://iclnoticias.com.br/senado-conclui-votacao-ajuste-fiscal-lula/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-18T22:04:29+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 4.93,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 5,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 5
+      "unknown": 6
     }
   },
   "scores": {
@@ -343,6 +349,7 @@
   "flags": [
     "Alta cobertura",
     "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
