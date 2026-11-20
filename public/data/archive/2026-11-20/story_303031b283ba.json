@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lDMHAyMkVoRm5CTEx2cVByeG9DZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lDMHAyMkVoRm5CTEx2cVByeG9DZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 27
+      "topic-5": 59,
+      "topic-7": 26
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 59,
+    "bestSeedRank": 26,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -30,8 +33,8 @@
     "viajar"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/FWPWQMWTW5AMVADURK4GALIKD4.png?quality=80&auth=8e44200f1cb9cd671580350358cdb814f9a3d05b2808b3f4ff064ab583182927&width=1200&height=630&smart=true",
-  "publishedAt": "2026-11-12T20:29:00+00:00",
-  "updatedAt": "2026-11-20T12:40:51.840046+00:00",
+  "publishedAt": "2026-11-16T17:41:00+00:00",
+  "updatedAt": "2026-11-20T13:28:05.693200+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -156,7 +159,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-11-18T13:20:32+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -190,20 +193,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_1a30d2133356",
-      "title": "Sheinbaum busca ampliar negócios com a China e atrair investidores para o México em fórum da Apec",
-      "description": "A presidente do México, Claudia Sheinbaum, disse, nesta quinta-feira (12), que buscará colaborar com a China em temas de saúde,...",
-      "url": "https://www.folhape.com.br/noticias/sheinbaum-busca-ampliar-negocios-com-a-china-e-atrair-investidores/523964/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-11-12T20:29:00+00:00",
-      "postedLabel": "7 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_040fbcbcd45f",
       "title": "China: Xi Jinping reforça laços com México e Canadá, vizinhos e parceiros comerciais dos EUA",
       "description": "Reuniões em Shenzhen destacam esforço de Pequim para aumentar influência na América do Norte.",
@@ -212,7 +201,7 @@
       "sourceCanonical": "Tribuna do Sertão",
       "sourceDomain": "tribunadosertao.com.br",
       "publishedAt": "2026-11-17T12:55:00+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -240,7 +229,7 @@
       "sourceCanonical": "Canal Rural",
       "sourceDomain": "canalrural.com.br",
       "publishedAt": "2026-11-17T13:08:03+00:00",
-      "postedLabel": "2 dias atrás",
+      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -258,6 +247,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_15baee75622d",
+      "title": "Sheinbaum leva hospitais inteligentes e economia circular à APEC",
+      "description": "Claudia Sheinbaum chega a Shenzhen com pauta de cooperação em saúde, resíduos e energia.",
+      "url": "https://www.ocafezinho.com/2026-11-17/sheinbaum-leva-hospitais-inteligentes-e-economia-circular-a-apec/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-11-17T07:37:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_25ba0eac865f",
@@ -319,12 +322,12 @@
   "spectrum": {
     "min": 1,
     "max": 7,
-    "average": 5,
+    "average": 4.82,
     "knownCount": 11,
     "unknownCount": 9,
     "buckets": {
-      "left": 2,
-      "centerLeft": 1,
+      "left": 3,
+      "centerLeft": 0,
       "center": 5,
       "centerRight": 3,
       "right": 0,
@@ -332,14 +335,13 @@
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 99,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
     "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

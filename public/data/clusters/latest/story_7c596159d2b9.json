@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 11
+      "topic-2": 10
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 11,
-    "bestSeedRank": 11,
+    "firstSeenRank": 10,
+    "bestSeedRank": 10,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/y1VdLU2wQR6y58FgEDD-TXho9C8=/1250x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/S/m/lgh5KMTPuKkxhsDT0Sqg/116887699-rio-branco-ac-07-05-2026-frasco-da-vacina-comirnaty-jn1-da-pfizer-que-e-indicada-par.jpg",
   "publishedAt": "2026-11-12T16:00:00+00:00",
-  "updatedAt": "2026-11-20T12:24:50.271962+00:00",
+  "updatedAt": "2026-11-20T13:18:35.233175+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -204,20 +204,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_0fdbcc67f60d",
-      "title": "Casos graves de Covid-19 aumentam no país, aponta Fiocruz",
-      "description": "Pelo menos três doenças respiratórias virais estão em crescimento no Brasil: o rinovírus, como é chamado o vírus do resfriado comum;...",
-      "url": "https://fpabramo.org.br/casos-graves-de-covid-19-aumentam-no-pais-aponta-fiocruz/",
-      "source": "Fundação Perseu Abramo",
-      "sourceCanonical": "Fundação Perseu Abramo",
-      "sourceDomain": "fpabramo.org.br",
-      "publishedAt": "2026-11-17T21:11:36+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_321460de1135",
       "title": "Onde fazer teste de covid? Alta de casos em seis estados acende alerta; veja os sintomas",
       "description": "Saiba onde fazer teste de covid, quais sintomas merecem atenção e quem deve se vacinar. Veja o que fazer diante do aumento de casos no...",
@@ -230,6 +216,20 @@
       "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/16/308314359-onde-fazer-teste-de-covid-1.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_0eefcc72da29",
+      "title": "Casos graves de Covid-19 aumentam no país, aponta Fiocruz",
+      "description": "Pelo menos três doenças respiratórias virais estão em crescimento no Brasil: o rinovírus, como é chamado o vírus do resfriado comum;...",
+      "url": "https://fpabramo.org.br/casos-graves-de-covid-19-aumentam/",
+      "source": "Fundação Perseu Abramo",
+      "sourceCanonical": "Fundação Perseu Abramo",
+      "sourceDomain": "fpabramo.org.br",
+      "publishedAt": "2026-11-17T21:11:36+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d02fdae18bd2",
@@ -288,18 +288,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_97821bd8991d",
-      "title": "Nova onda de covid-19? O que se sabe sobre número de casos da doença",
-      "description": "Informação sobre aumento levaram várias pessoas a redobrarem os cuidados com qualquer sintoma respiratório.",
-      "url": "https://jovempan.com.br/saude/nova-onda-de-covid-19-o-que-se-sabe-sobre-numero-de-casos-da-doenca/",
-      "source": "Jovem Pan",
-      "sourceCanonical": "Jovem Pan",
-      "sourceDomain": "jovempan.com.br",
-      "publishedAt": "2026-11-16T15:38:34+00:00",
-      "postedLabel": "3 dias atrás",
+      "id": "article_155a03988bd3",
+      "title": "João Pessoa está entre as capitais com tendência de risco para síndrome respiratória grave, aponta Fiocruz",
+      "description": "As últimas notícias da paraíba, do Brasil e do Mundo.",
+      "url": "https://www.pontopb.com.br/noticia/cotidiano-1778039863/joao-pessoa-esta-entre-as-capitais-com-tendencia-de-risco-para-sindrome-respiratoria-grave-aponta-fiocruz.html",
+      "source": "Portal Ponto PB",
+      "sourceCanonical": "Portal Ponto PB",
+      "sourceDomain": "pontopb.com.br",
+      "publishedAt": "2026-11-14T22:43:46+00:00",
+      "postedLabel": "5 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_acdd28779c63",
@@ -318,24 +318,24 @@
   ],
   "spectrum": {
     "min": 4,
-    "max": 9,
-    "average": 6,
-    "knownCount": 5,
-    "unknownCount": 15,
+    "max": 6,
+    "average": 5.25,
+    "knownCount": 4,
+    "unknownCount": 16,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 3,
       "centerRight": 0,
-      "right": 1,
-      "unknown": 15
+      "right": 0,
+      "unknown": 16
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
-    "confidence": 90
+    "coverageDiversity": 40,
+    "spectrumBalance": 38,
+    "headlineDivergence": 76,
+    "confidence": 87
   },
   "flags": [
     "Alta cobertura",
