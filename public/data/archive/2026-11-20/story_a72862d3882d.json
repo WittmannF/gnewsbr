@@ -3,20 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvai0ybkVoSHNlazliMkFhcXhpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvai0ybkVoSHNlazliMkFhcXhpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-5",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-5": 6,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Donald Trump, Xi Jinping e Vladimir Putin reúnem-se na China",
   "summary": "A cúpula ocorreu nesta quinta-feira 19 em Shenzhen, às margens do Fórum de Cooperação Econômica Ásia-Pacífico.",
@@ -27,11 +36,11 @@
     "china",
     "reunião",
     "rússia",
-    "encontro"
+    "jinping"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/China.jpg",
   "publishedAt": "2026-11-18T16:56:06+00:00",
-  "updatedAt": "2026-11-20T18:30:56.429845+00:00",
+  "updatedAt": "2026-11-20T19:16:04.947004+00:00",
   "sourceCount": 18,
   "articleCount": 20,
   "articles": [
@@ -64,31 +73,31 @@
       "bucket": "center"
     },
     {
-      "id": "article_e9ec20fcc90f",
-      "title": "Xi Jinping projeta a influência global da China após receber Trump e Putin na APEC",
-      "description": "Como anfitrião da cúpula anual da Cooperação Econômica Ásia-Pacífico (APEC), na quarta e quinta-feira, Xi recebeu os líderes de 21 economias...",
-      "url": "https://www.infomoney.com.br/mundo/xi-jinping-projeta-a-influencia-global-da-china-apos-receber-trump-e-putin-na-apec/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-20T17:48:53+00:00",
+      "id": "article_f2c7e77b2be7",
+      "title": "O que diz Trump sobre acordo nuclear com Rússia e China após reunião trilateral",
+      "description": "Arsenais das três maiores potências atômicas do mundo foram pauta em histórico encontro entre o presidente americano, Xi e Putin.",
+      "url": "https://veja.abril.com.br/mundo/o-que-diz-trump-sobre-acordo-nuclear-com-russia-e-china-apos-reuniao-trilateral/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-20T18:29:59+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/11/2026-11-19T222512Z_1638243014_RC22ROADKVML_RTRMADP_3_USA-TRUMP-AI-CHINA.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/11/GettyImages-2305844394.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
-      "id": "article_777322c1d445",
-      "title": "Perigo global: conheça as armas nucleares mais poderosas de Estados Unidos, Rússia e China",
-      "description": "Os três países concentram quase 90% das ogivas nucleares do mundo. Governo americano admite que um acordo para reduzir os arsenais será...",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/20/perigo-global-conheca-as-armas-nucleares-mais-poderosas-de-estados-unidos-russia-e-china.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-20T08:00:00+00:00",
+      "id": "article_6504d9d1bf11",
+      "title": "A ausência que marcou a reunião de Trump, Putin e Xi Jinping",
+      "description": "Excluída do encontro em Shenzhen, Europa perde protagonismo na nova ordem mundial.",
+      "url": "https://oglobo.globo.com/blogs/bernardo-mello-franco/coluna/2026/11/reuniao-na-china-interessa-mais-a-trump-putin-e-xi-jinping-que-ao-planeta.ghtml",
+      "source": "O GLOBO",
+      "sourceCanonical": "O Globo",
+      "sourceDomain": "oglobo.globo.com",
+      "publishedAt": "2026-11-20T03:00:01+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/7wcPH1pxZBjC3JYsOrw1K6XItEk=/3164x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/Y/V/A2Qls3S5AzWl8bnR4aBg/2026-11-19t095323z-614148405-rc2wqoasb2ox-rtrmadp-3-apec-summit.jpg",
-      "spectrumScore": 5,
+      "imageUrl": "https://s2-oglobo.glbimg.com/lLYeMedlEuwxdiKolClLEtRpOpo=/4357x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/w/V/a94AeiQoy8ERJ9FY4dpg/116968938-us-president-donald-trump-l-shakes-hands-with-russian-president-vladimir-putin-as-chin.jpg",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -134,6 +143,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_e9ec20fcc90f",
+      "title": "Xi Jinping projeta a influência global da China após receber Trump e Putin na APEC",
+      "description": "Como anfitrião da cúpula anual da Cooperação Econômica Ásia-Pacífico (APEC), na quarta e quinta-feira, Xi recebeu os líderes de 21 economias...",
+      "url": "https://www.infomoney.com.br/mundo/xi-jinping-projeta-a-influencia-global-da-china-apos-receber-trump-e-putin-na-apec/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-11-20T17:48:53+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_985396117e74",
       "title": "Como China, Rússia, Irã e Coreia do Norte se unem para tornar o mundo seguro para autocratas",
       "description": "Enquanto Trump enfraquece a rede de alianças mais ampla e profunda dos Estados Unidos, seus inimigos estão silenciosamente se ajudando...",
@@ -162,18 +185,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_9f4579fa961d",
-      "title": "Trump, Xi e Putin querem prevenir proliferação de armas nucleares",
-      "description": "Os presidentes da China, dos Estados Unidos e da Rússia se comprometeram a trabalhar para prevenir a proliferação de armas nucleares. Em...",
-      "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/internacional/audio/2026-11/trump-xi-e-putin-querem-prevenir-proliferacao-de-armas-nucleares",
-      "source": "Agência Brasil",
-      "sourceCanonical": "Agência Brasil",
-      "sourceDomain": "agenciabrasil.ebc.com.br",
-      "publishedAt": "2026-11-19T22:04:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_c2728f4e3f3c",
+      "title": "Putin, Xi e Trump defendem reforma da ONU e diálogo para evitar guerra nuclear em declaração conjunta sobre a paz; leia a íntegra",
+      "description": "Os presidentes da Rússia, Vladimir Putin, da China, Xi Jinping, e dos Estados Unidos, Donald Trump, adotaram uma declaração conjunta sobre a...",
+      "url": "https://www.brasildefato.com.br/2026/11/19/putin-xi-e-trump-defendem-reforma-da-onu-e-dialogo-para-evitar-guerra-nuclear-em-declaracao-conjunta-sobre-a-paz-leia-a-integra/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-11-19T11:33:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_4b7a9f3f0596",
@@ -204,32 +227,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_75d30a3f9842",
-      "title": "‘China está se consolidando com centro da diplomacia global’, avalia analista geopolítico",
-      "description": "O encontro trilateral histórico entre China, Rússia e Estados Unidos, que aconteceu às margens da 33ª reunião de líderes da Cooperação...",
-      "url": "https://www.brasildefato.com.br/2026/11/19/china-esta-se-consolidando-com-centro-da-diplomacia-global-avalia-analista-geopolitico/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-11-19T22:40:00+00:00",
+      "id": "article_80af7ad18061",
+      "title": "Xi, Trump e Putin sinalizam disposição para diálogo entre potências",
+      "description": "O encontro presencial entre os presidentes da China, Xi Jinping, dos Estados Unidos (EUA), Donald Trump, e da Rússia, Vladimir Putin,...",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/xi-trump-e-putin-sinalizam-disposicao-para-dialogo-entre-potencias",
+      "source": "Agência Brasil",
+      "sourceCanonical": "Agência Brasil",
+      "sourceDomain": "agenciabrasil.ebc.com.br",
+      "publishedAt": "2026-11-19T20:33:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_f4585d1b0139",
-      "title": "Professor aponta um risco imediato da aproximação entre Trump, Putin e Xi para a Europa",
-      "description": "No 'Ponto de Vista', convidados discutem a possibilidade de decisões sobre a Ucrânia serem negociadas sem participação europeia.",
-      "url": "https://veja.abril.com.br/mundo/professor-aponta-um-risco-imediato-da-aproximacao-entre-trump-putin-e-xi-para-a-europa/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-19T13:49:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_96bab6761491",
@@ -240,10 +249,24 @@
       "sourceCanonical": "R7",
       "sourceDomain": "record.r7.com",
       "publishedAt": "2026-11-20T12:48:32+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_a591b07f24c3",
+      "title": "A cúpula entre Xi Jinping, Trump e Putin pode mudar o mundo?",
+      "description": "O encontro reuniu três dos principais líderes globais da atualidade, mas qual é seu real impacto? Confira a análise de Rodrigo Lopes e...",
+      "url": "https://gauchazh.clicrbs.com.br/colunistas/rodrigo-lopes/noticia/2026/11/a-cupula-entre-xi-jinping-trump-e-putin-pode-mudar-o-mundo-cmwnykmo201j0015ugb783ydi.html",
+      "source": "GZH",
+      "sourceCanonical": "GZH",
+      "sourceDomain": "gauchazh.clicrbs.com.br",
+      "publishedAt": "2026-11-19T19:48:57+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_e99d24f77133",
@@ -260,17 +283,17 @@
       "bucket": "center"
     },
     {
-      "id": "article_a591b07f24c3",
-      "title": "A cúpula entre Xi Jinping, Trump e Putin pode mudar o mundo?",
-      "description": "O encontro reuniu três dos principais líderes globais da atualidade, mas qual é seu real impacto? Confira a análise de Rodrigo Lopes e...",
-      "url": "https://gauchazh.clicrbs.com.br/colunistas/rodrigo-lopes/noticia/2026/11/a-cupula-entre-xi-jinping-trump-e-putin-pode-mudar-o-mundo-cmwnykmo201j0015ugb783ydi.html",
-      "source": "GZH",
-      "sourceCanonical": "GZH",
-      "sourceDomain": "gauchazh.clicrbs.com.br",
-      "publishedAt": "2026-11-19T19:48:57+00:00",
-      "postedLabel": "hoje",
+      "id": "article_db02122a317d",
+      "title": "Trump, Xi e Putin anunciam plano sobre produção de petróleo",
+      "description": "Em reunião histórica na China, líderes defenderam a estabilidade do mercado global de energia e o diálogo para reduzir riscos de uma guerra...",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/trump-xi-e-putin-anunciam-aumento-na-producao-de-petroleo",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-19T11:26:00+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -288,47 +311,33 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_db02122a317d",
-      "title": "Trump, Xi e Putin anunciam plano sobre produção de petróleo",
-      "description": "Em reunião histórica na China, líderes defenderam a estabilidade do mercado global de energia e o diálogo para reduzir riscos de uma guerra...",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/trump-xi-e-putin-anunciam-aumento-na-producao-de-petroleo",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-19T11:26:00+00:00",
+      "id": "article_a3bf5d44746d",
+      "title": "Reunião histórica de Xi, Trump e Putin discute futuro da ordem global e alarma a Europa",
+      "description": "Presidentes das três principais potências nucleares do mundo discutiram questões de segurança internacional, incluindo a guerra na Ucrânia e...",
+      "url": "https://www.bloomberglinea.com.br/internacional/reuniao-historica-de-xi-trump-e-putin-discute-futuro-da-ordem-global-e-alarma-a-europa/",
+      "source": "Bloomberg Línea Brasil",
+      "sourceCanonical": "Bloomberg Línea Brasil",
+      "sourceDomain": "bloomberglinea.com.br",
+      "publishedAt": "2026-11-19T11:36:43+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_45b9820b4abe",
-      "title": "Xi, Putin e Trump: faz sentido se lembrar da Conferência de Ialta?",
-      "description": "Líderes dos Aliados se reuniram em 1945 para discutir os rumos globais após a Segunda Guerra. Controle de armas nucleares e Tribunal Penal...",
-      "url": "https://www.nexojornal.com.br/expresso/2026/11/18/conferencia-de-ialta-yalta-putin-trump-xi-jinping",
-      "source": "Nexo Jornal",
-      "sourceCanonical": "Nexo Jornal",
-      "sourceDomain": "nexojornal.com.br",
-      "publishedAt": "2026-11-18T21:35:48+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.3,
-    "knownCount": 20,
-    "unknownCount": 0,
+    "average": 5.42,
+    "knownCount": 19,
+    "unknownCount": 1,
     "buckets": {
       "left": 2,
-      "centerLeft": 3,
+      "centerLeft": 2,
       "center": 9,
       "centerRight": 6,
       "right": 0,
-      "unknown": 0
+      "unknown": 1
     }
   },
   "scores": {
