@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otd0stdkVoRUEwX2tIblNxc3ppZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otd0stdkVoRUEwX2tIblNxc3ppZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-3": 8,
       "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 8,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Senado faz acordo sobre Lei Kandir e aprova ajuste fiscal de Lula",
   "summary": "O Senado Federal rejeitou 3 dos 4 destaques da oposição ao Plano Moretti, projeto de ajuste fiscal (PLP 299 de 2026) do governo federal...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "fiscal",
     "ajuste",
-    "lula",
     "senado",
-    "câmara",
-    "pacote"
+    "lula",
+    "aprova",
+    "câmara"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/IMG_8687-1200x675.jpg",
   "publishedAt": "2026-11-13T19:49:00+00:00",
-  "updatedAt": "2026-11-20T04:21:34.636136+00:00",
+  "updatedAt": "2026-11-20T05:18:17.698756+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-19T04:36:06+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://static.poder360.com.br/uploads/2026/11/IMG_8687-1200x675.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -193,15 +199,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_dedbc3a2eb65",
-      "title": "Proposta de ajuste fiscal entra na pauta de sessão extraordinária da Câmara na próxima segunda-feira",
-      "description": "Anúncio foi feito em Buenos Aires pelo presidente da Câmara, Hugo Motta; ele destacou a maturidade e a solidez da democracia brasileira.",
-      "url": "https://www.camara.leg.br/noticias/1320935-proposta-de-ajuste-fiscal-entra-na-pauta-de-sessao-extraordinaria-da-camara-na-proxima-segunda-feira",
+      "id": "article_841030c03edc",
+      "title": "Câmara deve votar ajuste fiscal; proposta do governo pretende economizar R$ 70 bilhões",
+      "description": "Projetos em alusão à Semana da Consciência Negra também estão na pauta do Plenário na próxima semana. Da Agência Câmara - 19/11/2026 - 14:57. Comentário.",
+      "url": "https://www.camara.leg.br/noticias/1321186-camara-deve-votar-ajuste-fiscal-proposta-do-governo-pretende-economizar-r-70-bilhoes",
       "source": "Portal da Câmara dos Deputados",
       "sourceCanonical": "Portal da Câmara dos Deputados",
       "sourceDomain": "camara.leg.br",
-      "publishedAt": "2026-11-19T00:50:00+00:00",
-      "postedLabel": "ontem",
+      "publishedAt": "2026-11-19T17:57:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -235,6 +241,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_ce10327775ae",
+      "title": "Oposição defende mudar ajuste fiscal na Câmara, mas esbarra em acordo de Motta com governo",
+      "description": "Relator do projeto na Câmara, Mauro Benevides Filho (União-CE), divulga parecer sem alterações no texto aprovado pelos senadores;...",
+      "url": "https://www.estadao.com.br/economia/oposicao-defende-mudar-ajuste-fiscal-na-camara-mas-esbarra-em-acordo-de-motta-com-governo/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-11-19T22:53:03+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_3da10318530f",
+      "title": "Após mudanças do Senado, PLP do pacote fiscal segue para análise da Câmara",
+      "description": "Após votação no Senado impacto fiscal caiu de R$ 56 bi para R$ 50 bi; com articulação de Bruno Moretti, principais medidas foram...",
+      "url": "https://www.jota.info/legislativo/apos-mudancas-do-senado-plp-do-pacote-fiscal-segue-para-analise-da-camara",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-11-18T23:18:47+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_b382c9445559",
       "title": "Ajuste fiscal: Como cada senador votou nos destaques e no texto final",
       "description": "A oposição conseguiu reunir até 32 votos para tentar modificar pontos do ajuste fiscal do governo Lula, mas perdeu os três destaques votados...",
@@ -247,20 +281,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_ce10327775ae",
-      "title": "Oposição defende mudar ajuste fiscal na Câmara, mas esbarra em acordo de Motta com governo",
-      "description": "Relator do projeto na Câmara, Mauro Benevides Filho (União-CE), divulga parecer sem alterações no texto aprovado pelos senadores;...",
-      "url": "https://www.estadao.com.br/economia/oposicao-defende-mudar-ajuste-fiscal-na-camara-mas-esbarra-em-acordo-de-motta-com-governo/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-19T22:53:03+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_dd4c9476abf6",
@@ -291,47 +311,33 @@
       "bucket": "left"
     },
     {
-      "id": "article_3da10318530f",
-      "title": "Após mudanças do Senado, PLP do pacote fiscal segue para análise da Câmara",
-      "description": "Após votação no Senado impacto fiscal caiu de R$ 56 bi para R$ 50 bi; com articulação de Bruno Moretti, principais medidas foram...",
-      "url": "https://www.jota.info/legislativo/apos-mudancas-do-senado-plp-do-pacote-fiscal-segue-para-analise-da-camara",
-      "source": "JOTA Info",
-      "sourceCanonical": "JOTA Info",
-      "sourceDomain": "jota.info",
-      "publishedAt": "2026-11-18T23:18:47+00:00",
+      "id": "article_557e3d2c2aa6",
+      "title": "Senado aprova ajuste fiscal com corte de benefícios tributários",
+      "description": "O Senado concluiu, nesta quarta-feira (18), a aprovação do pacote de ajuste fiscal que prevê redução de benefícios tributários, novas regras...",
+      "url": "https://www.campograndenews.com.br/politica/senado-aprova-ajuste-fiscal-que-reduz-incentivos-e-limita-gastos-publicos",
+      "source": "Campo Grande News",
+      "sourceCanonical": "Campo Grande News",
+      "sourceDomain": "campograndenews.com.br",
+      "publishedAt": "2026-11-18T23:54:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_72c96d20dbe2",
-      "title": "Governo Lula tenta vencer resistências e concluir votação do ajuste fiscal",
-      "description": "Planalto busca acordo para manter texto aprovado pelo Senado e liberar medidas que podem aliviar as contas ainda em 2026.",
-      "url": "https://www.metropoles.com/brasil/governo-lula-tenta-vencer-resistencias-e-concluir-votacao-do-ajuste-fiscal",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-19T07:30:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.31,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.33,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 7,
+      "center": 6,
       "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
