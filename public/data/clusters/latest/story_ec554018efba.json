@@ -10,15 +10,15 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 37
+      "topic-9": 38
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 37,
-    "bestSeedRank": 37,
+    "firstSeenRank": 38,
+    "bestSeedRank": 38,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "BTCPay Server atualiza Nginx para corrigir falhas de segurança",
+  "title": "Falhas no Nginx afetam servidores com protocolo HTTP/2 ativado",
   "summary": "Uma vulnerabilidade crítica presente há mais de dez anos no NGINX pode permitir que hackers executem códigos remotamente em servidores com HTTP/2 habilitado...",
   "topic": "Nginx · Falhas",
   "topicKeywords": [
@@ -31,9 +31,9 @@
   ],
   "imageUrl": "https://static.wixstatic.com/media/02fa5c_220363a8050049e88a1a9311312ad7f2~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/02fa5c_220363a8050049e88a1a9311312ad7f2~mv2.png",
   "publishedAt": "2026-11-18T19:41:07+00:00",
-  "updatedAt": "2026-11-20T08:40:42.595831+00:00",
-  "sourceCount": 9,
-  "articleCount": 11,
+  "updatedAt": "2026-11-20T09:35:48.074316+00:00",
+  "sourceCount": 10,
+  "articleCount": 12,
   "articles": [
     {
       "id": "article_0cd0880015d2",
@@ -78,20 +78,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_2d631b44c724",
-      "title": "BTCPay Server lança atualização de emergência para cinco falhas de execução de código no NGINX",
-      "description": "Em 18 de novembro, o BTCPay Server emitiu uma atualização de emergência para corrigir cinco vulnerabilidades de segurança no NGINX.",
-      "url": "https://www.cryptopolitan.com/pt/btcpay-server-emergency-update-nginx-flaws/",
-      "source": "Cryptopolitan",
-      "sourceCanonical": "Cryptopolitan",
-      "sourceDomain": "cryptopolitan.com",
-      "publishedAt": "2026-11-18T23:03:34+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_ac66ce7b222c",
       "title": "Servidor BTCPay lança atualização emergencial para cinco falhas de segurança",
       "description": "O serviço de cibersegurança da UE afirmou que as falhas poderiam permitir que invasores executassem código malicioso remotamente em...",
@@ -101,7 +87,7 @@
       "sourceDomain": "cointelegraph.com.br",
       "publishedAt": "2026-11-19T08:28:03+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M7SBR8JPRT5JWCMRB1JZBYW5/update.jpg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -128,7 +114,21 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-11-20T04:43:11+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_c40730a2eb29",
+      "title": "nginx2root - Seu nginx está realmente exposto?",
+      "description": "O nginx 1.31.9 e o 1.30.7 corrigem cinco falhas de execução remota de código, e já existe um PoC público. Mas o que abre a porta é o HTTP/2...",
+      "url": "https://korben.info/pt-br/nginx2root-seu-nginx-esta-realmente-exposto.html",
+      "source": "Korben",
+      "sourceCanonical": "Korben",
+      "sourceDomain": "korben.info",
+      "publishedAt": "2026-11-19T06:57:06+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -142,7 +142,7 @@
       "sourceCanonical": "iMasters",
       "sourceDomain": "imasters.com.br",
       "publishedAt": "2026-11-19T09:05:19+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -156,6 +156,20 @@
       "sourceCanonical": "Webitcoin",
       "sourceDomain": "webitcoin.com.br",
       "publishedAt": "2026-11-18T21:22:18+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2d631b44c724",
+      "title": "BTCPay Server lança atualização de emergência para cinco falhas de execução de código no NGINX",
+      "description": "Em 18 de novembro, o BTCPay Server emitiu uma atualização de emergência para corrigir cinco vulnerabilidades de segurança no NGINX.",
+      "url": "https://www.cryptopolitan.com/pt/btcpay-server-emergency-update-nginx-flaws/",
+      "source": "Cryptopolitan",
+      "sourceCanonical": "Cryptopolitan",
+      "sourceDomain": "cryptopolitan.com",
+      "publishedAt": "2026-11-18T23:03:34+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
@@ -195,21 +209,21 @@
     "max": null,
     "average": null,
     "knownCount": 0,
-    "unknownCount": 11,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 0,
       "centerRight": 0,
       "right": 0,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
     "coverageDiversity": 0,
     "spectrumBalance": 0,
     "headlineDivergence": 70,
-    "confidence": 67
+    "confidence": 69
   },
   "flags": [
     "Alta cobertura",
