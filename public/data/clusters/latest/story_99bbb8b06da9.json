@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pfZ2JtM0VoRnlhX2Q4ODkxMG9pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pfZ2JtM0VoRnlhX2Q4ODkxMG9pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 47
+      "topic-3": 40,
+      "topic-5": 42
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 47,
-    "bestSeedRank": 47,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,15 +28,15 @@
     "lula",
     "não",
     "presidente",
+    "lulista",
     "luiz",
-    "inácio",
-    "silva"
+    "inácio"
   ],
   "imageUrl": "https://www.brasil247.com/wp-content/uploads/2026/11/4TZAOA7CGRLKHD2LFDOHJWZQAY-2560x1440-1.jpg?w=1200&quality=88&strip=all",
   "publishedAt": "2026-11-09T08:00:00+00:00",
-  "updatedAt": "2026-11-20T22:19:48.805272+00:00",
+  "updatedAt": "2026-11-20T23:20:15.637068+00:00",
   "sourceCount": 6,
-  "articleCount": 8,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_250d35924076",
@@ -64,6 +67,20 @@
       "bucket": "left"
     },
     {
+      "id": "article_622372f67f94",
+      "title": "Uma quase-crônica de um não lulista…",
+      "description": "Não sou lulista. Porém, nestas eleições, fiz campanha para Lula, como nunca antes havia feito para alguém. Levantei bandeira, usei adesivos.",
+      "url": "https://agazeta.net/uma-quase-cronica-de-um-nao-lulista/",
+      "source": "Agazeta.net",
+      "sourceCanonical": "Agazeta.net",
+      "sourceDomain": "agazeta.net",
+      "publishedAt": "2026-11-20T22:29:26+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://agazeta.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-20-at-19.26.39.jpeg",
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_10ad1ea4b443",
       "title": "GOVERNO LULA | Reeleito para o quarto mandato, o presidente Luiz Inácio Lula da Silva (PT) começará 2027 com o menor núcleo inicial de aliados no Congresso desde o governo Fernando Collor de Mello, em 1990. Ao todo, serão apenas 140 deputados",
       "description": "",
@@ -87,7 +104,7 @@
       "sourceDomain": "informeblumenau.com",
       "publishedAt": "2026-11-18T00:19:58+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://www.informeblumenau.com/wp-content/uploads/2026/11/marco-antonio-andre-1.jpg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -101,20 +118,6 @@
       "sourceDomain": "patrialatina.com.br",
       "publishedAt": "2026-11-19T22:02:26+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_3c004786558e",
-      "title": "Lula não é papa e crítica não é ataque",
-      "description": "Do ponto de vista democrático, o pior dos governos petistas seria preferível ao melhor dos governos bolsonaristas. Isto porque, como sabemos...",
-      "url": "https://agazeta.net/lula-nao-e-papa-e-critica-nao-e-ataque/",
-      "source": "Agazeta.net",
-      "sourceCanonical": "Agazeta.net",
-      "sourceDomain": "agazeta.net",
-      "publishedAt": "2026-11-17T18:21:06+00:00",
-      "postedLabel": "3 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -146,6 +149,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_3c004786558e",
+      "title": "Lula não é papa e crítica não é ataque",
+      "description": "Do ponto de vista democrático, o pior dos governos petistas seria preferível ao melhor dos governos bolsonaristas. Isto porque, como sabemos...",
+      "url": "https://agazeta.net/lula-nao-e-papa-e-critica-nao-e-ataque/",
+      "source": "Agazeta.net",
+      "sourceCanonical": "Agazeta.net",
+      "sourceDomain": "agazeta.net",
+      "publishedAt": "2026-11-17T18:21:06+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
@@ -153,21 +170,21 @@
     "max": 5,
     "average": 3,
     "knownCount": 2,
-    "unknownCount": 6,
+    "unknownCount": 7,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 60,
     "headlineDivergence": 82,
-    "confidence": 67
+    "confidence": 69
   },
   "flags": [
     "Muitas fontes não classificadas",
