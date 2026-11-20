@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 60
+      "topic-3": 57
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 57,
+    "bestSeedRank": 57,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/Celia-Xakriaba-1200x675.jpg",
   "publishedAt": "2026-11-17T17:05:09+00:00",
-  "updatedAt": "2026-11-20T19:19:14.222694+00:00",
+  "updatedAt": "2026-11-20T20:22:21.937373+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -148,20 +148,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_f5bd36be069f",
-      "title": "PL põe Paulo Bilynskyj, que foi investigado pela morte da ex, na Comissão da Mulher",
-      "description": "O deputado Paulo Bilynskyj (PL-SP) estreou como titular da Comissão de Defesa dos Direitos da Mulher da Câmara em meio a acusações de...",
-      "url": "https://revistaforum.com.br/politica/bilynskyj-titular-comissao-mulher/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-11-20T14:02:08+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_fab0eb10a846",
       "title": "PL INDICA PAULO BILYNSKYJ PARA COMISSÃO DA MULHER E PROVOCA REAÇÃO DA BASE GOVERNISTA",
       "description": "Escolha do deputado do PL-SP para integrar o colegiado da Câmara gera insatisfação entre parlamentares governistas e amplia a disputa...",
@@ -171,6 +157,20 @@
       "sourceDomain": "diario360.com.br",
       "publishedAt": "2026-11-18T23:34:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_7dc69c5518f1",
+      "title": "PL põe Paulo Bilynskyj, que foi investigado pela morte da ex, na Comissão da Mulher",
+      "description": "Portal focado em notícias nacionais e de todo o Piauí.",
+      "url": "https://expresso222.com.br/destaque/bilynskyj-titular-comissao-mulher/",
+      "source": "Expresso222",
+      "sourceCanonical": "Expresso222",
+      "sourceDomain": "expresso222.com.br",
+      "publishedAt": "2026-11-20T14:41:57+00:00",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 9,
-    "average": 5.67,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "average": 6.12,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 2,
       "right": 1,
-      "unknown": 11
+      "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

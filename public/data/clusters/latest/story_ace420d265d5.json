@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pUdDVhc0VoRVFqd0s1WTAxRUxTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pUdDVhc0VoRVFqd0s1WTAxRUxTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 4,
-      "topic-5": 7
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 2,
+      "topic-5": 9
     },
-    "firstSeenSeedPage": "topic-3",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Fuvest antecipa lista de convocados para a segunda fase",
   "summary": "Mais de 31 mil candidatos foram convocados para a próxima etapa do vestibular da USP, que será realizada nos dias 6 e 7 de dezembro.",
@@ -28,13 +34,13 @@
     "fuvest",
     "fase",
     "locais",
-    "antecipa",
-    "lista",
-    "convocados"
+    "convocados",
+    "vestibular",
+    "antecipa"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/hKj58CqSCr4jGOFpp7CVCsOchoM=/2200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/H/iuxIiRT3q8bnf4Wiigsw/dsc-9737.jpg",
   "publishedAt": "2026-11-12T08:00:00+00:00",
-  "updatedAt": "2026-11-20T19:17:10.803061+00:00",
+  "updatedAt": "2026-11-20T20:18:11.662164+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-20T15:17:07+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/hKj58CqSCr4jGOFpp7CVCsOchoM=/2200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/H/iuxIiRT3q8bnf4Wiigsw/dsc-9737.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -61,7 +67,7 @@
       "sourceCanonical": "UOL Educação",
       "sourceDomain": "educacao.uol.com.br",
       "publishedAt": "2026-11-20T17:56:14+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -75,7 +81,7 @@
       "sourceCanonical": "Jornal da USP",
       "sourceDomain": "jornal.usp.br",
       "publishedAt": "2026-11-20T18:02:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -89,10 +95,38 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-20T18:09:03+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/ZB5YTPCFTNDULGHTRFZQN4OROI.jpeg?quality=80&auth=3af2c2ea6ae0cd6f533cf5bffdd1390d5ae7c4b64c1ec8245b22c079ebe8b9ce&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_5a83a20ff9b1",
+      "title": "Fuvest antecipa resultado da 1ª fase do Vestibular 2027 da USP; confira aprovados",
+      "description": "O resultado da primeira fase da Fuvest foi antecipado nesta sexta-feira, 20 de novembro. Os candidatos já podem consultar a relação de...",
+      "url": "https://vestibular.brasilescola.uol.com.br/noticias/fuvest-antecipa-resultado-da-1-fase-do-vestibular-2027-da-usp-confira-aprovados/359282.html",
+      "source": "Vestibular – Brasil Escola",
+      "sourceCanonical": "Vestibular – Brasil Escola",
+      "sourceDomain": "vestibular.brasilescola.uol.com.br",
+      "publishedAt": "2026-11-20T19:29:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_093390b37af4",
+      "title": "Fuvest 2027 divulga lista de convocados para a segunda fase",
+      "description": "Os aprovados também já podem conferir os locais de prova da segunda fase, que será aplicada nos dias 6 e 7 de dezembro.",
+      "url": "https://guiadoestudante.abril.com.br/universidades/fuvest-2027-confira-a-lista-de-convocados-para-a-segunda-fase/",
+      "source": "Guia do Estudante",
+      "sourceCanonical": "Guia do Estudante",
+      "sourceDomain": "guiadoestudante.abril.com.br",
+      "publishedAt": "2026-11-20T15:16:22+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_06e70cba18cf",
@@ -103,7 +137,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-20T18:43:47+00:00",
-      "postedLabel": "33 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://sbtnews.sbt.com.br/imagens/USP_Imagens_492331e516.jpg",
       "spectrumScore": 6,
       "bucket": "center"
@@ -117,38 +151,10 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-11-20T19:00:00+00:00",
-      "postedLabel": "17 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/11/fuvest-vestibular.jpg",
       "spectrumScore": 6,
       "bucket": "center"
-    },
-    {
-      "id": "article_26207424b306",
-      "title": "Fuvest 2027 antecipa lista de convocados e locais de prova da segunda fase",
-      "description": "Ao todo, 31.681 candidatos avançaram para a próxima etapa do vestibular da USP, marcada para os dias 6 e 7 de dezembro; atenção às mudanças...",
-      "url": "https://vejasp.abril.com.br/cidades/fuvest-2027-antecipa-lista-de-convocados-e-locais-de-prova-da-segunda-fase/",
-      "source": "VEJA SÃO PAULO",
-      "sourceCanonical": "VEJA SÃO PAULO",
-      "sourceDomain": "vejasp.abril.com.br",
-      "publishedAt": "2026-11-20T16:32:24+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_8a4974a24185",
-      "title": "Fuvest 2027 divulga lista de aprovados para a 2ª fase",
-      "description": "Publicação dos resultados e dos locais de prova foi antecipada para esta sexta (20); segunda etapa do vestibular acontece nos dias 6 e 7 de...",
-      "url": "https://ultimosegundo.ig.com.br/educacao/2026-11-20/fuvest-2027-divulga-lista-de-aprovados-para-a-2-fase.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-11-20T16:17:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_9ff4fdd4d5ad",
@@ -159,7 +165,7 @@
       "sourceCanonical": "Band",
       "sourceDomain": "band.com.br",
       "publishedAt": "2026-11-20T16:26:07+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -179,6 +185,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_8a4974a24185",
+      "title": "Fuvest 2027 divulga lista de aprovados para a 2ª fase",
+      "description": "Publicação dos resultados e dos locais de prova foi antecipada para esta sexta (20); segunda etapa do vestibular acontece nos dias 6 e 7 de...",
+      "url": "https://ultimosegundo.ig.com.br/educacao/2026-11-20/fuvest-2027-divulga-lista-de-aprovados-para-a-2-fase.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-11-20T16:17:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_24cd4b078eea",
       "title": "Fuvest antecipa divulgação de convocados para 2ª fase do vestibular",
       "description": "Fundação também divulgou os locais de prova marcada para os dias 6 e 7 de dezembro; vestibular dá acesso aos cursos da USP.",
@@ -193,6 +213,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_89968c3ee0ee",
+      "title": "Fuvest 2027: Medicina exige 68 acertos na ampla; no PPI, 46 carreiras param no piso de 24",
+      "description": "Medicina corta em 68 acertos de 80; em 46 carreiras o grupo PPI parou no piso de 24. A nota por curso e as datas até a matrícula.",
+      "url": "https://espacodopovo.com.br/fuvest-2027-nota-de-corte-por-curso-e-cota/",
+      "source": "Espaço do Povo",
+      "sourceCanonical": "Espaço do Povo",
+      "sourceDomain": "espacodopovo.com.br",
+      "publishedAt": "2026-11-12T17:48:13+00:00",
+      "postedLabel": "8 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_c05182d57325",
       "title": "Fuvest divulga convocados para segunda fase e locais de prova; veja lista",
       "description": "Segunda etapa do processo seletivo para a USP será aplicada nos dias 6 e 7 de dezembro.",
@@ -201,7 +235,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-20T17:51:53+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -215,24 +249,10 @@
       "sourceCanonical": "Diário do Nordeste",
       "sourceDomain": "diariodonordeste.verdesmares.com.br",
       "publishedAt": "2026-11-20T15:38:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_89968c3ee0ee",
-      "title": "Fuvest 2027: Medicina exige 68 acertos na ampla; no PPI, 46 carreiras param no piso de 24",
-      "description": "Medicina corta em 68 acertos de 80; em 46 carreiras o grupo PPI parou no piso de 24. A nota por curso e as datas até a matrícula.",
-      "url": "https://espacodopovo.com.br/fuvest-2027-nota-de-corte-por-curso-e-cota/",
-      "source": "Espaço do Povo",
-      "sourceCanonical": "Espaço do Povo",
-      "sourceDomain": "espacodopovo.com.br",
-      "publishedAt": "2026-11-12T17:48:13+00:00",
-      "postedLabel": "8 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     },
     {
       "id": "article_29b939d3d6be",
@@ -263,6 +283,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_95945c22d420",
+      "title": "Confira a lista de convocados e locais da 2ª fase da Fuvest 2027",
+      "description": "Confira a lista de convocados da Fuvest e locais de prova da 2ª fase do Vestibular 2027 da USP. Provas serão em 6 e 7 de dezembro.",
+      "url": "https://tvtnews.com.br/lista-de-convocados-para-a-2a-fase-da-fuvest-usp/",
+      "source": "TVT News",
+      "sourceCanonical": "TVT News",
+      "sourceDomain": "tvtnews.com.br",
+      "publishedAt": "2026-11-20T17:52:01+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_fd367ce4f649",
       "title": "Fuvest 2027 tem 1.097 convocados à segunda fase em Medicina",
       "description": "Tabela oficial da Fuvest 2027 registra 1.097 convocados em Medicina para 244 vagas. Veja a distribuição por modalidade e dados de outras...",
@@ -277,43 +311,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5022400d5708",
-      "title": "USP antecipa lista de aprovados da Fuvest 2027: veja quem foi chamado",
-      "description": "A Fuvest antecipou a divulgação da lista de convocados para a segunda fase do vestibular 2027. Cerca de 31 mil candidatos passaram e agora...",
-      "url": "https://www.mthoje.com.br/educacao/id-729689/usp_antecipa_lista_de_aprovados_da_fuvest_2027__veja_quem_foi_chamado",
-      "source": "MT HOJE",
-      "sourceCanonical": "MT HOJE",
-      "sourceDomain": "mthoje.com.br",
-      "publishedAt": "2026-11-20T18:40:00+00:00",
-      "postedLabel": "37 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_343210c1ac8a",
-      "title": "Fuvest 2027 divulga lista de aprovados para a 2ª fase; consulte os convocados e locais de prova",
-      "description": "A lista de convocados da Fuvest 2027 para a segunda fase já está disponível. O resultado foi antecipado para esta sexta-feira (20/11).",
-      "url": "https://fiibrasil.com/noticia/fuvest-2027-divulga-lista-de-aprovados-para-a-2a-fase-consulte-os-convocados-e-locais-de-prova/",
-      "source": "FiiBrasil",
-      "sourceCanonical": "FiiBrasil",
-      "sourceDomain": "fiibrasil.com",
-      "publishedAt": "2026-11-20T17:17:07+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_95945c22d420",
-      "title": "Confira a lista de convocados e locais da 2ª fase da Fuvest 2027",
-      "description": "Confira a lista de convocados da Fuvest e locais de prova da 2ª fase do Vestibular 2027 da USP. Provas serão em 6 e 7 de dezembro.",
-      "url": "https://tvtnews.com.br/lista-de-convocados-para-a-2a-fase-da-fuvest-usp/",
-      "source": "TVT News",
-      "sourceCanonical": "TVT News",
-      "sourceDomain": "tvtnews.com.br",
-      "publishedAt": "2026-11-20T17:52:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_c28b14c938ca",
+      "title": "Vestibular 2027 da Fuvest libera antecipadamente locais de prova e convocados da segunda fase",
+      "description": "Fuvest antecipa lista de convocados e locais de prova da segunda fase do vestibular 2027 com mais de 31 mil estudantes na disputa.",
+      "url": "https://fatopaulista.com.br/fuvest-antecipa-lista-de-convocados-e-locais-da-segunda-fase/",
+      "source": "Fato Paulista",
+      "sourceCanonical": "Fato Paulista",
+      "sourceDomain": "fatopaulista.com.br",
+      "publishedAt": "2026-11-20T17:07:30+00:00",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
