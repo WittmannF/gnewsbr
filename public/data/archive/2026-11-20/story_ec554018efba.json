@@ -10,15 +10,15 @@
       "topic-9"
     ],
     "seedRanks": {
-      "topic-9": 28
+      "topic-9": 31
     },
     "firstSeenSeedPage": "topic-9",
-    "firstSeenRank": 28,
-    "bestSeedRank": 28,
+    "firstSeenRank": 31,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
-  "title": "Falhas de segurança afetam servidores Nginx com HTTP/2 ativado",
+  "title": "BTCPay Server atualiza Nginx para corrigir falhas de segurança",
   "summary": "Uma vulnerabilidade crítica presente há mais de dez anos no NGINX pode permitir que hackers executem códigos remotamente em servidores com HTTP/2 habilitado...",
   "topic": "Nginx · Falhas",
   "topicKeywords": [
@@ -26,13 +26,13 @@
     "falhas",
     "http",
     "cinco",
-    "críticas",
-    "btcpay"
+    "código",
+    "críticas"
   ],
   "imageUrl": "https://static.wixstatic.com/media/02fa5c_220363a8050049e88a1a9311312ad7f2~mv2.png/v1/fill/w_1024,h_576,al_c,q_90/02fa5c_220363a8050049e88a1a9311312ad7f2~mv2.png",
   "publishedAt": "2026-11-18T19:41:07+00:00",
-  "updatedAt": "2026-11-20T03:43:10.656640+00:00",
-  "sourceCount": 10,
+  "updatedAt": "2026-11-20T04:36:54.045125+00:00",
+  "sourceCount": 9,
   "articleCount": 11,
   "articles": [
     {
@@ -106,14 +106,14 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c40730a2eb29",
-      "title": "nginx2root - Seu nginx está realmente exposto?",
-      "description": "O nginx 1.31.9 e o 1.30.7 corrigem cinco falhas de execução remota de código, e já existe um PoC público. Mas o que abre a porta é o HTTP/2...",
-      "url": "https://korben.info/pt-br/nginx2root-seu-nginx-esta-realmente-exposto.html",
-      "source": "Korben",
-      "sourceCanonical": "Korben",
-      "sourceDomain": "korben.info",
-      "publishedAt": "2026-11-19T06:57:06+00:00",
+      "id": "article_9772ef5bba9a",
+      "title": "NGINX2Root, 5 falhas no NGINX com execução de código",
+      "description": "A F5 corrigiu 22 vulnerabilidades do NGINX2Root, cinco delas permitem execução remota de código. A ACN emitiu alerta sobre o caso.",
+      "url": "https://meteoraweb.com/pt/news/nginx2root-f5-corrige-22-vulnerabilidades-cinco-execucao-remota",
+      "source": "Meteora Web",
+      "sourceCanonical": "Meteora Web",
+      "sourceDomain": "meteoraweb.com",
+      "publishedAt": "2026-11-19T15:36:51+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
@@ -148,20 +148,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_4e99a8e9394c",
-      "title": "NGINX, falha HTTP/2 CVE-2026-123007 e como se proteger",
-      "description": "Falha de dez anos na vulnerabilidade NGINX HTTP/2 permite executar código sem login. Veja o risco e a atualização necessária.",
-      "url": "https://meteoraweb.com/pt/news/nginx-falha-http2-de-dez-anos-executar-codigo-sem-login",
-      "source": "Meteora Web",
-      "sourceCanonical": "Meteora Web",
-      "sourceDomain": "meteoraweb.com",
-      "publishedAt": "2026-11-18T19:56:58+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_2d631b44c724",
       "title": "BTCPay Server lança atualização de emergência para cinco falhas de execução de código no NGINX",
       "description": "Em 18 de novembro, o BTCPay Server emitiu uma atualização de emergência para corrigir cinco vulnerabilidades de segurança no NGINX.",
@@ -170,6 +156,20 @@
       "sourceCanonical": "Cryptopolitan",
       "sourceDomain": "cryptopolitan.com",
       "publishedAt": "2026-11-18T23:03:34+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_4e99a8e9394c",
+      "title": "NGINX, falha HTTP/2 CVE-2026-123007 e como se proteger",
+      "description": "Falha de dez anos na vulnerabilidade NGINX HTTP/2 permite executar código sem login. Veja o risco e a atualização necessária.",
+      "url": "https://meteoraweb.com/pt/news/nginx-falha-http2-de-dez-anos-executar-codigo-sem-login",
+      "source": "Meteora Web",
+      "sourceCanonical": "Meteora Web",
+      "sourceDomain": "meteoraweb.com",
+      "publishedAt": "2026-11-18T19:56:58+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
