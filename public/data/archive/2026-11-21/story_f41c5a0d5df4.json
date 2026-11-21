@@ -3,23 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2luMnN5MEVoSHdMMEZ1Nl9sdDR5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2luMnN5MEVoSHdMMEZ1Nl9sdDR5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5",
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-5",
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-5": 3,
+      "home": 3,
+      "topstories": 3,
       "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Trump • Filipinas",
   "summary": "Presidente afirma que país asiático passará a adquirir 100% dessas mercadorias dos EUA a partir de janeiro. Leia no Poder360.",
@@ -30,12 +33,12 @@
     "produtos",
     "eua",
     "agrícolas",
-    "agro"
+    "comprar"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/trump-casa-branca-20nov2026-1200x675.jpg",
   "publishedAt": "2026-11-18T18:27:32+00:00",
-  "updatedAt": "2026-11-21T03:26:37.403607+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-11-21T04:19:26.342476+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -103,7 +106,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-20T22:37:28+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -123,6 +126,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_50809906f3cf",
+      "title": "Trump diz que convenceu Filipinas a abandonar produtos agrícolas do Brasil",
+      "description": "Declaração ocorre após viagem à Ásia, onde o presidente americano teve encontros com líderes de pelo menos 20 países e disse ter encaminhado até 10 novos...",
+      "url": "https://www.dw.com/pt-br/trump-diz-que-filipinas-trocar%C3%A3o-produtos-agr%C3%ADcolas-do-brasil-pelos-dos-eua/a-80007345",
+      "source": "DW.com",
+      "sourceCanonical": "DW (Brasil)",
+      "sourceDomain": "dw.com",
+      "publishedAt": "2026-11-20T21:18:09+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_421bcd572d45",
       "title": "Trump menciona o Brasil ao citar pressão para que Filipinas comprem produtos dos EUA",
       "description": "\"O Brasil vai ajudá-los caso eles entrem em algum tipo de pequeno conflito com a China? Acho que não\", disse Trump em coletiva ao explicar...",
@@ -134,20 +151,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_20f032fb6416",
-      "title": "Frente Parlamentar repudia exigência comercial de Trump que atinge o Brasil",
-      "description": "Trump diz que exigiu das Filipinas fim da compra de produtos agrícolas do Brasil. Frente Parlamentar apresentou moção em defesa da...",
-      "url": "https://www.metropoles.com/brasil/frente-parlamentar-repudia-exigencia-comercial-de-trump-contra-o-brasil",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-21T00:01:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -165,18 +168,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_50809906f3cf",
-      "title": "Trump diz que convenceu Filipinas a abandonar produtos agrícolas do Brasil",
-      "description": "Declaração ocorre após viagem à Ásia, onde o presidente americano teve encontros com líderes de pelo menos 20 países e disse ter encaminhado até 10 novos...",
-      "url": "https://www.dw.com/pt-br/trump-diz-que-filipinas-trocar%C3%A3o-produtos-agr%C3%ADcolas-do-brasil-pelos-dos-eua/a-80007345",
-      "source": "DW.com",
-      "sourceCanonical": "DW (Brasil)",
-      "sourceDomain": "dw.com",
-      "publishedAt": "2026-11-20T21:18:09+00:00",
-      "postedLabel": "hoje",
+      "id": "article_20f032fb6416",
+      "title": "Frente Parlamentar repudia exigência comercial de Trump que atinge o Brasil",
+      "description": "Trump diz que exigiu das Filipinas fim da compra de produtos agrícolas do Brasil. Frente Parlamentar apresentou moção em defesa da...",
+      "url": "https://www.metropoles.com/brasil/frente-parlamentar-repudia-exigencia-comercial-de-trump-contra-o-brasil",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-21T00:01:00+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_1b707cd24368",
@@ -229,7 +232,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-11-20T22:00:32+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
@@ -249,18 +252,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_0ae4c356334a",
-      "title": "'Cobiçadas' por Trump, Filipinas lideram compra de carne suína do Brasil, mas são 22º destino das exportações do agro",
-      "description": "O presidente dos Estados Unidos afirmou nesta sexta-feira (20) que teria firmado um acordo com o país asiático para assegurar a preferência...",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/cobicadas-por-trump-filipinas-lideram-compra-de-carne-suina-do-brasil-mas-sao-22o-destino-das-exportacoes-do-agro.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-20T21:05:49+00:00",
+      "id": "article_e696352aeb00",
+      "title": "Trump diz que firmou acordo com Filipinas para diminuir as compras de carnes brasileiras",
+      "description": "O país é o maior destino da carne suína proveniente do Brasil.",
+      "url": "https://midiamax.com.br/brasil/2026/trump-diz-firmou-acordo-filipinas-diminuir-compras-carnes-brasileiras/",
+      "source": "Midiamax",
+      "sourceCanonical": "Midiamax",
+      "sourceDomain": "midiamax.com.br",
+      "publishedAt": "2026-11-20T19:17:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_9a1ee8e17037",
@@ -322,16 +325,16 @@
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.44,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "average": 5.47,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 10,
+      "center": 9,
       "centerRight": 4,
       "right": 1,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
