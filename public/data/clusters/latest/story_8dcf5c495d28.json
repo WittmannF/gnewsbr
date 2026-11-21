@@ -4,20 +4,23 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pCMjVxMkVoRlF4NV90a2FlazZDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topic-6"
   ],
   "discovery": {
     "seedPages": [
       "topic-3",
-      "topic-5"
+      "topic-5",
+      "topic-6"
     ],
     "seedRanks": {
       "topic-3": 42,
-      "topic-5": 48
+      "topic-5": 48,
+      "topic-6": 35
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 42,
-    "bestSeedRank": 42,
+    "bestSeedRank": 35,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +37,7 @@
   ],
   "imageUrl": "https://midias.correio24horas.com.br/2026/11/03/senado--3470267.jpg",
   "publishedAt": "2026-11-18T19:16:39+00:00",
-  "updatedAt": "2026-11-21T07:20:08.039402+00:00",
+  "updatedAt": "2026-11-21T08:24:26.023923+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -221,6 +224,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_7d42d265a62e",
+      "title": "Flexibilização de calendário escolar para Copa Feminina de 2027; saiba como funciona",
+      "description": "Proposta que dá autonomia a sistemas de ensino para ajustar férias segue para sanção presidencial após aprovação de projeto.",
+      "url": "https://www.itatiaia.com.br/educacao/flexibilizacao-de-calendario-escolar-para-copa-feminina-de-2027-saiba-como-funciona/",
+      "source": "Rádio Itatiaia",
+      "sourceCanonical": "Itatiaia",
+      "sourceDomain": "itatiaia.com.br",
+      "publishedAt": "2026-11-21T08:03:27+00:00",
+      "postedLabel": "20 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_ced69f9da919",
       "title": "Senado aprova autonomia para redes de ensino ajustarem férias durante a Copa do Mundo Feminina de 2027",
       "description": "O Plenário do Senado Federal aprovou nesta quarta-feira (18) o Projeto de Lei (PL) 3.481/2026, que garante autonomia aos sistemas de ensino...",
@@ -247,20 +264,6 @@
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_8fe33a34c8ef",
-      "title": "Calendário escolar na Copa Feminina de 2027 será flexível após aprovação no Senado",
-      "description": "Senado aprova projeto que derruba recesso obrigatório durante a Copa Feminina de 2027 e dá autonomia para escolas definirem férias.",
-      "url": "https://www.nsctotal.com.br/politica/calendario-escolar-na-copa-feminina-de-2027-sera-flexivel-apos-aprovacao-no-senado",
-      "source": "NSC Total",
-      "sourceCanonical": "NSC Total",
-      "sourceDomain": "nsctotal.com.br",
-      "publishedAt": "2026-11-19T22:37:38+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_02c3f17b8fbc",
@@ -305,33 +308,33 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_873460718b85",
-      "title": "Bahia suspende aulas em jogos do Brasil e em dias de partida na Fonte Nova na Copa de 2027",
-      "description": "As escolas vinculadas ao Sistema Estadual de Ensino da Bahia terão as aulas suspensas nos dias em que a Seleção Brasileira entrar em campo...",
-      "url": "https://jornalimpressobrasil.com.br/2026/11/20/bahia-suspende-aulas-em-jogos-do-brasil-e-em-dias-de-partida-na-fonte-nova-na-copa-de-2027/",
-      "source": "Jornal Impresso Brasil",
-      "sourceCanonical": "Jornal Impresso Brasil",
-      "sourceDomain": "jornalimpressobrasil.com.br",
-      "publishedAt": "2026-11-21T00:22:00+00:00",
-      "postedLabel": "hoje",
+      "id": "article_8fe33a34c8ef",
+      "title": "Calendário escolar na Copa Feminina de 2027 será flexível após aprovação no Senado",
+      "description": "Senado aprova projeto que derruba recesso obrigatório durante a Copa Feminina de 2027 e dá autonomia para escolas definirem férias.",
+      "url": "https://www.nsctotal.com.br/politica/calendario-escolar-na-copa-feminina-de-2027-sera-flexivel-apos-aprovacao-no-senado",
+      "source": "NSC Total",
+      "sourceCanonical": "NSC Total",
+      "sourceDomain": "nsctotal.com.br",
+      "publishedAt": "2026-11-19T22:37:38+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 9,
-    "average": 5.43,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5.38,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 5,
+      "center": 6,
       "centerRight": 0,
       "right": 1,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
