@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 30
+      "topic-5": 28
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenRank": 28,
+    "bestSeedRank": 28,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +24,14 @@
   "topicKeywords": [
     "ucrânia",
     "ponte",
-    "rússia",
     "putin",
+    "rússia",
     "crimeia",
-    "ataque"
+    "mísseis"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/7KE6U7HAKFBWHINYZRBVX5AFRQ.jpg?quality=80&auth=dc123bd7a1f41619474de9fbfb016ce7c716d7dde0ef9f1bc7741f6cbdd16d75&width=1200&height=630&focal=1997,1034",
   "publishedAt": "2026-11-18T19:22:52+00:00",
-  "updatedAt": "2026-11-20T23:26:20.525628+00:00",
+  "updatedAt": "2026-11-21T00:46:37.425807+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -268,24 +268,10 @@
       "sourceCanonical": "Observador",
       "sourceDomain": "observador.pt",
       "publishedAt": "2026-11-19T23:30:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_4cdde6d1bb7e",
-      "title": "Putin quer retaliar ataque ucraniano contra Ponte da Crimeia",
-      "description": "Presidente russo diz que vinha considerando uma trégua marítima e energética, mas descartou a ideia após ofensiva de Kiev.",
-      "url": "https://sbtnews.sbt.com.br/noticia/mundo/putin-quer-retaliar-ataque-ucraniano-contra-ponte-da-crimeia",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-19T17:41:42+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_9bcdfc9f7735",
@@ -302,29 +288,43 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_7bc32cd8d6ca",
-      "title": "Ponte que liga Crimeia à Rússia alvo de novo ataque, o terceiro em quatro dias",
-      "description": "A ofensiva ocorreu poucas horas antes de um encontro diplomático na China entre o Presidente russo, Vladimir Putin, o líder chinês,...",
-      "url": "https://www.publico.pt/2026/11/19/mundo/noticia/ponte-liga-crimeia-russia-alvo-novo-ataque-terceiro-quatro-dias-2195488",
-      "source": "Público",
-      "sourceCanonical": "Público",
-      "sourceDomain": "publico.pt",
-      "publishedAt": "2026-11-19T09:50:15+00:00",
+      "id": "article_e65b05acc5cd",
+      "title": "Mais de 110 mísseis e 400 drones russos atingem complexo militar-industrial da Ucrânia",
+      "description": "Além de instalações ligadas ao fornecimento de armas, equipamentos e materiais das forças ucranianas na linha de frente, ofensiva desta...",
+      "url": "https://horadopovo.com.br/mais-de-110-misseis-e-400-drones-russos-atingem-complexo-militar-industrial-da-ucrania/",
+      "source": "Hora do Povo",
+      "sourceCanonical": "Hora do Povo",
+      "sourceDomain": "horadopovo.com.br",
+      "publishedAt": "2026-11-20T23:46:37+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
+      "id": "article_4cdde6d1bb7e",
+      "title": "Putin quer retaliar ataque ucraniano contra Ponte da Crimeia",
+      "description": "Presidente russo diz que vinha considerando uma trégua marítima e energética, mas descartou a ideia após ofensiva de Kiev.",
+      "url": "https://sbtnews.sbt.com.br/noticia/mundo/putin-quer-retaliar-ataque-ucraniano-contra-ponte-da-crimeia",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-19T17:41:42+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 3,
-      "bucket": "centerLeft"
+      "spectrumScore": 6,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 9,
-    "average": 5.36,
+    "average": 5.21,
     "knownCount": 14,
     "unknownCount": 6,
     "buckets": {
-      "left": 1,
-      "centerLeft": 3,
+      "left": 2,
+      "centerLeft": 2,
       "center": 6,
       "centerRight": 3,
       "right": 1,
@@ -334,7 +334,7 @@
   "scores": {
     "coverageDiversity": 100,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
