@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lhcWVPNEVoRl83YmEzZkxuUGx5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lhcWVPNEVoRl83YmEzZkxuUGx5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-8"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-8"
     ],
     "seedRanks": {
-      "topic-3": 64
+      "topic-3": 61,
+      "topic-8": 52
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 64,
-    "bestSeedRank": 64,
+    "firstSeenRank": 61,
+    "bestSeedRank": 52,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "daniella",
     "marques",
-    "próximos",
-    "passos",
     "campanha",
-    "flávio"
+    "flávio",
+    "próximos",
+    "passos"
   ],
   "imageUrl": "https://i.metroimg.com/iNEL6CckCyc6jfRX2d1usGGPWXDe4tPStCvr2cMavFQ/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/Daniella-Marques-durante-Coletiva-de-imprensa-apos-a-solenidade-de-posse-da-nova-presidente-da-Caixa1.jpeg",
   "publishedAt": "2026-11-21T08:00:00+00:00",
-  "updatedAt": "2026-11-21T21:21:24.182881+00:00",
+  "updatedAt": "2026-11-21T22:20:50.225677+00:00",
   "sourceCount": 4,
   "articleCount": 4,
   "articles": [
@@ -64,6 +67,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_8e4c1f524f5f",
+      "title": "Daniella Marques negocia ida ao G4 Educação após campanha de Flávio Bolsonaro",
+      "description": "Daniella Marques conversa com Tallis Gomes sobre possível ida ao G4 Educação e pretende manter projetos de empreendedorismo em 2027.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/daniella-marques-negocia-ida-g4-educacao-campanha-flavio-bolsonaro/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-11-21T21:49:57+00:00",
+      "postedLabel": "30 minutos atrás",
+      "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/11/daniella-marques-durante-coletiva-de-imprensa-apos-a-solenidade-de-posse-da-nova-presidente-da-caixa1.webp",
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_71d2fec66875",
       "title": "Daniella Marques planeja 2027 com foco em liberdade econômica e empreendedorismo",
       "description": "Daniella Marques planeja 2027 com foco em liberdade econômica e empreendedorismo. Após uma participação ativa na campanha de Flávio...",
@@ -76,45 +93,30 @@
       "imageUrl": "https://povonarua.com.br/storage/2026/11/news-172606-1795250097.webp",
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_176ea92d25a5",
-      "title": "Os próximos passos de Daniella Marques após a campanha de Flávio",
-      "description": "Coordenadora do plano de governo de Flávio Bolsonaro (PL), Daniella Marques tem dito a aliados que vai dedicar o ano de 2027 à agenda que...",
-      "url": "https://yaconews.com/geral/os-proximos-passos-de-daniella-marques-apos-a-campanha-de-flavio/",
-      "source": "YacoNews",
-      "sourceCanonical": "YacoNews",
-      "sourceDomain": "yaconews.com",
-      "publishedAt": "2026-11-21T08:23:46+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 5,
-    "average": 5,
-    "knownCount": 1,
-    "unknownCount": 3,
+    "average": 3.5,
+    "knownCount": 2,
+    "unknownCount": 2,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 3
+      "unknown": 2
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 8,
-    "headlineDivergence": 70,
-    "confidence": 56
+    "coverageDiversity": 40,
+    "spectrumBalance": 49,
+    "headlineDivergence": 79,
+    "confidence": 59
   },
   "flags": [
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }

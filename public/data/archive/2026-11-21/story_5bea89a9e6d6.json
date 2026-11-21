@@ -10,11 +10,11 @@
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 13
+      "topic-7": 14
     },
     "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 13,
-    "bestSeedRank": 13,
+    "firstSeenRank": 14,
+    "bestSeedRank": 14,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,11 +27,11 @@
     "ter",
     "hipótese",
     "problema",
-    "resolvido"
+    "riemann"
   ],
   "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/11/anthropic-ny-01.jpg",
-  "publishedAt": "2026-11-20T16:38:46+00:00",
-  "updatedAt": "2026-11-21T21:31:58.772253+00:00",
+  "publishedAt": "2026-11-20T16:44:54+00:00",
+  "updatedAt": "2026-11-21T22:31:26.913086+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -162,6 +162,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_6b89f144f29c",
+      "title": "As comunidades Lean e Mathlib certificam uma demonstração da hipótese de Riemann assistida por Claude",
+      "description": "Pontos-chave A certificação confirma o artefato formal, mas deixa a explicação matemática da prova… Ver mais. A certificação confirma o...",
+      "url": "https://www.unite.ai/pt/lean-and-mathlib-communities-certify-claude-assisted-riemann-proof/",
+      "source": "Unite.AI",
+      "sourceCanonical": "Unite.AI",
+      "sourceDomain": "unite.ai",
+      "publishedAt": "2026-11-21T21:28:04+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_3978f69f480a",
       "title": "Claude e a hipótese de Riemann, o que já foi provado",
       "description": "Claude alza dal 41,6% al 67,2% la quota di zeri sulla retta critica. Poi Alpöge annuncia una prova completa, non verificata. Ecco fatti e...",
@@ -288,58 +302,43 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_09061f0fe382",
-      "title": "Matemático diz ter resolvido a hipótese de Riemann com IA",
-      "description": "Prova feita com o Claude passou nos primeiros testes de um matemático do MIT, mas ainda não é reconhecida.",
-      "url": "https://revistaforum.com.br/tecnologia/hipotese-de-riemann-ia-anthropic/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-11-21T02:00:26+00:00",
+      "id": "article_4e55b9406201",
+      "title": "Matemático da Anthropic publica prova da Hipótese de Riemann em nota de quatro páginas",
+      "description": "Matemático da Anthropic usa Claude para resolver a Hipótese de Riemann e muda para sempre o papel da IA na ciência.",
+      "url": "https://port.pravda.ru/news/science/66371-ai-solves-riemann-hypothesis/",
+      "source": "Правда.Ру",
+      "sourceCanonical": "Правда.Ру",
+      "sourceDomain": "port.pravda.ru",
+      "publishedAt": "2026-11-21T15:31:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_c3b2bc1990b6",
-      "title": "Hipótese de Riemann: matemático alega prova com Claude",
-      "description": "Matemático da Anthropic alega prova da hipótese de Riemann com Claude; resultado foi publicado em site pessoal e não passou por revisão.",
-      "url": "https://www.spacemoney.com.br/tecnologia/hipotese-de-riemann-prova-claude/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-11-20T16:38:46+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 5.36,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "average": 5.7,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 1,
       "center": 7,
       "centerRight": 2,
       "right": 0,
-      "unknown": 9
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
