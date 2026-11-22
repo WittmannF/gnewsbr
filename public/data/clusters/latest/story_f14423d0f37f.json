@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxcnBHMUVoRzR6d3hPNHJ5eFV5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lxcnBHMUVoRzR6d3hPNHJ5eFV5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
       "topic-3": 4,
-      "topic-5": 6
+      "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre COP31",
   "summary": "Negociações ultrapassaram o prazo de encerramento, previsto para sexta-feira (20), diante de impasses sobre financiamento climático e metas...",
@@ -34,7 +40,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/108I0v1HojWz8aI8Q27EiDK0OOs=/8192x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/N/r5N104TYa9odUAGPtQ8A/2026-11-08t135734z-2008179015-rc2pjoap5ed7-rtrmadp-3-climate-cop31.jpg",
   "publishedAt": "2026-11-19T14:39:00+00:00",
-  "updatedAt": "2026-11-22T07:19:04.160978+00:00",
+  "updatedAt": "2026-11-22T08:20:50.094145+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -47,7 +53,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-22T02:05:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/108I0v1HojWz8aI8Q27EiDK0OOs=/8192x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/N/r5N104TYa9odUAGPtQ8A/2026-11-08t135734z-2008179015-rc2pjoap5ed7-rtrmadp-3-climate-cop31.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -187,7 +193,7 @@
       "sourceCanonical": "Vatican News",
       "sourceDomain": "vaticannews.va",
       "publishedAt": "2026-11-22T01:56:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
