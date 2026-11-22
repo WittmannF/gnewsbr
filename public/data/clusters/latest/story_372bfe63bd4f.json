@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvai0ybkVoSE5CbndOSGRnVldDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pvai0ybkVoSE5CbndOSGRnVldDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 10
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 10,
-    "bestSeedRank": 10,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Trump elogia reunião com Putin e Xi Jinping e diz que tem \"ótima\" relação com os líderes",
   "summary": "Donald Trump destaca boa relação com Putin e Xi Jinping, projeta novos acordos comerciais e critica juros do Fed após retornar de viagem...",
@@ -30,8 +36,8 @@
     "líderes"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/zRN81JWEwOi7cuXrU0LZtzcsaT8=/6500x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/A/yxYdKOS2mRfxIH3M4BFw/2026-11-20t180212z-1698863269-rc2uroayz9hc-rtrmadp-3-usa-trump.jpg",
-  "publishedAt": "2026-11-17T12:27:39+00:00",
-  "updatedAt": "2026-11-22T04:29:48.719945+00:00",
+  "publishedAt": "2026-11-19T14:15:00+00:00",
+  "updatedAt": "2026-11-22T05:17:36.180130+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -50,20 +56,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_808e879f4f74",
-      "title": "Lula relembra telefonemas a Trump, Xi e Putin após fala de premiê do Canadá",
-      "description": "Presidente comentou ligações que fez aos líderes, no meio deste ano, pedindo que eles se reunissem para \"parar com a violência\";...",
-      "url": "https://www.cnnbrasil.com.br/politica/lula-relembra-telefonemas-a-trump-xi-e-putin-apos-fala-de-premie-do-canada/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-21T12:48:15+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Lula-Live-Youtube.png?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_d790be2c46ab",
       "title": "Opinião - Elio Gaspari: Dos Três Grandes de 1945 sobrou um",
       "description": "Na quinta-feira, os presidentes dos Estados Unidos, da China e da Rússia tiveram uma rodada de conversas na cidade de Shenzhen.",
@@ -72,7 +64,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-22T02:00:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/19/17951158836aff4b6bf1a0d_1795115883_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -86,9 +78,23 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-22T03:05:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-oglobo.glbimg.com/6mFZVQ5_iG60KD_3jz482sFHzz0=/4381x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/q/S/Bn4xYxRmWNDjpMmA6xkw/116978864-in-this-pool-photograph-distributed-by-the-russian-state-agency-sputnik-russias-president.jpg",
       "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
+      "id": "article_808e879f4f74",
+      "title": "Lula relembra telefonemas a Trump, Xi e Putin após fala de premiê do Canadá",
+      "description": "Presidente comentou ligações que fez aos líderes, no meio deste ano, pedindo que eles se reunissem para \"parar com a violência\";...",
+      "url": "https://www.cnnbrasil.com.br/politica/lula-relembra-telefonemas-a-trump-xi-e-putin-apos-fala-de-premie-do-canada/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-21T12:48:15+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Lula-Live-Youtube.png?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -148,6 +154,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_c1ce8eb4aff8",
+      "title": "O peso do encontro entre Trump, Putin e Xi",
+      "description": "Do histórico encontro geopolítico entre Trump, Putin e Xi Jinping, na China, o líder americano saiu em desvantagem sem colher dividendos de...",
+      "url": "https://mais.opovo.com.br/jornal/farol/2026/11/22/o-peso-do-encontro-entre-trump-putin-e-xi.html",
+      "source": "O POVO+",
+      "sourceCanonical": "O POVO+",
+      "sourceDomain": "mais.opovo.com.br",
+      "publishedAt": "2026-11-22T04:00:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_0c032f85a0e5",
       "title": "Donald Trump defende relações com Putin e acusa Irão de enganar nas negociações",
       "description": "Ao falar na Casa Branca após a viagem à Ásia, Trump defendeu as relações com Xi e Putin, afirmando que o líder russo queria pôr fim à guerra...",
@@ -176,20 +196,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_f2c1e563ac32",
-      "title": "Trump, Xi e Putin em encontro histórico na China: o que cada um falou e quer na cúpula",
-      "description": "Antes da conversa a três, Trump se reuniu separadamente com os presidentes russo e chinês. Trump chamou Putin de 'amigo' e disse que os dois...",
-      "url": "https://www.bbc.com/portuguese/articles/cjvg2922e50qo",
-      "source": "BBC",
-      "sourceCanonical": "BBC News Brasil",
-      "sourceDomain": "bbc.com",
-      "publishedAt": "2026-11-19T14:15:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_8a76b08e4da3",
       "title": "Trump disse a líderes europeus que estavam gastando muito com Ucrânia, diz Zelensky",
       "description": "Trump participou por teleconferência de uma reunião da “Coalizão dos Dispostos” da Ucrânia, em Berlim.",
@@ -198,7 +204,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-11-21T22:52:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -232,18 +238,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_54c54c0c5102",
-      "title": "Primeiro-ministro do Canadá: proposta de reunião entre Trump, Xi e Putin partiu de Lula",
-      "description": "Primeiro-ministro do Canadá, Mark Carney afirmou que Lula sugeriu encontro entre Trump, Putin e Xi Jinping para buscar o fim da guerra na...",
-      "url": "https://iclnoticias.com.br/primeiro-ministro-do-canada-proposta-de-reuniao-entre-trump-xi-e-putin-partiu-de-lula/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-17T12:27:39+00:00",
-      "postedLabel": "4 dias atrás",
+      "id": "article_f2c7e77b2be7",
+      "title": "O que diz Trump sobre acordo nuclear com Rússia e China após reunião trilateral",
+      "description": "Arsenais das três maiores potências atômicas do mundo foram pauta em histórico encontro entre o presidente americano, Xi e Putin.",
+      "url": "https://veja.abril.com.br/mundo/o-que-diz-trump-sobre-acordo-nuclear-com-russia-e-china-apos-reuniao-trilateral/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-20T18:29:59+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_c4f98d9ed7ed",
@@ -254,10 +260,24 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-21T05:00:01+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_f2c1e563ac32",
+      "title": "Trump, Xi e Putin em encontro histórico na China: o que cada um falou e quer na cúpula",
+      "description": "Antes da conversa a três, Trump se reuniu separadamente com os presidentes russo e chinês. Trump chamou Putin de 'amigo' e disse que os dois...",
+      "url": "https://www.bbc.com/portuguese/articles/cjvg2922e50qo",
+      "source": "BBC",
+      "sourceCanonical": "BBC News Brasil",
+      "sourceDomain": "bbc.com",
+      "publishedAt": "2026-11-19T14:15:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_cab8df11d096",
@@ -271,20 +291,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_f2c7e77b2be7",
-      "title": "O que diz Trump sobre acordo nuclear com Rússia e China após reunião trilateral",
-      "description": "Arsenais das três maiores potências atômicas do mundo foram pauta em histórico encontro entre o presidente americano, Xi e Putin.",
-      "url": "https://veja.abril.com.br/mundo/o-que-diz-trump-sobre-acordo-nuclear-com-russia-e-china-apos-reuniao-trilateral/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-20T18:29:59+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -319,16 +325,16 @@
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 5.17,
-    "knownCount": 18,
-    "unknownCount": 2,
+    "average": 5.35,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
-      "left": 3,
+      "left": 2,
       "centerLeft": 2,
       "center": 8,
       "centerRight": 5,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
