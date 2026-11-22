@@ -25,15 +25,15 @@
     "chá",
     "bebê",
     "tiroteio",
-    "mortos",
     "eua",
+    "mortos",
     "deixa"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/26A6K67UlsKdMCrHPYHp8P9vsGs=/3456x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/n/IYf5UnQ86CAGlTSPCDfg/ap26326656538919.jpg",
   "publishedAt": "2026-11-22T06:57:00+00:00",
-  "updatedAt": "2026-11-22T20:29:32.215116+00:00",
-  "sourceCount": 7,
-  "articleCount": 7,
+  "updatedAt": "2026-11-22T21:28:01.303546+00:00",
+  "sourceCount": 9,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_2c186ca9169f",
@@ -44,7 +44,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-22T18:51:41+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/26A6K67UlsKdMCrHPYHp8P9vsGs=/3456x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/n/IYf5UnQ86CAGlTSPCDfg/ap26326656538919.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,7 +86,7 @@
       "sourceCanonical": "Notícias ao Minuto",
       "sourceDomain": "noticiasaominuto.com",
       "publishedAt": "2026-11-22T19:04:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -114,10 +114,24 @@
       "sourceCanonical": "BNews",
       "sourceDomain": "bnews.com.br",
       "publishedAt": "2026-11-22T15:48:52+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.bnews.com.br/media/_versions/2026/11/viatura-sirene_4x134431499_widexl.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_7f5f264b0707",
+      "title": "Chá de bebê termina com 3 mortes após tiroteio nos EUA",
+      "description": "Três pessoas morreram e uma ficou ferida em um tiroteio durante um chá de bebê na cidade de Parma, em Ohio, nos Estados Unidos.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/tiroteio-cha-de-bebe-tres-mortos-ohio-eua/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-11-22T20:27:58+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_8ea327abecbe",
@@ -128,34 +142,49 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-22T14:34:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_efc3f121cc51",
+      "title": "Tiroteio em chá de bebê nos EUA deixa 3 mortos; pai é um dos suspeitos",
+      "description": "O tiroteio em chá de bebê nos EUA deixou três mortos em Ohio, incluindo o pai da criança e o avô materno; a gestante não se feriu.",
+      "url": "https://avozdocampo.com/mundo/tiroteio-em-cha-de-bebe-nos-eua-deixa-3-mortos-pai-e-um-dos-suspeitos/",
+      "source": "avozdocampo",
+      "sourceCanonical": "avozdocampo",
+      "sourceDomain": "avozdocampo.com",
+      "publishedAt": "2026-11-22T18:51:41+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
-    "min": 5,
+    "min": 2,
     "max": 6,
-    "average": 5.2,
-    "knownCount": 5,
-    "unknownCount": 2,
+    "average": 4.67,
+    "knownCount": 6,
+    "unknownCount": 3,
     "buckets": {
-      "left": 0,
+      "left": 1,
       "centerLeft": 0,
       "center": 5,
       "centerRight": 0,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 20,
-    "spectrumBalance": 19,
-    "headlineDivergence": 73,
-    "confidence": 74
+    "coverageDiversity": 40,
+    "spectrumBalance": 60,
+    "headlineDivergence": 82,
+    "confidence": 81
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
