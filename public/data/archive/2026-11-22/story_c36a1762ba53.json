@@ -3,14 +3,17 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFcWJ5MEVoRlVZeDNPSGMwdjlDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lFcWJ5MEVoRlVZeDNPSGMwdjlDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 53
+      "topic-3": 53,
+      "topic-5": 67
     },
     "firstSeenSeedPage": "topic-3",
     "firstSeenRank": 53,
@@ -24,14 +27,14 @@
   "topicKeywords": [
     "defesa",
     "satélites",
-    "comunicações",
     "sistema",
-    "estratégicas",
-    "cria"
+    "comunicações",
+    "cria",
+    "estratégicas"
   ],
-  "imageUrl": "https://static.poder360.com.br/uploads/2026/11/sistema-satelite-defesa-20-nov-2026-copia-2-1200x675.png",
+  "imageUrl": "https://imagens.ebc.com.br/OJg597OVOVNx2QiCX65briJlEJQ=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/17/visiona_conclui_com_sucesso_teste_critico_de_desenvolvimento_do_satelite_satvhr.jpg?itok=rT6zrpfp",
   "publishedAt": "2026-11-11T08:00:00+00:00",
-  "updatedAt": "2026-11-22T16:21:57.508161+00:00",
+  "updatedAt": "2026-11-22T17:19:20.175224+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -45,7 +48,7 @@
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-21T09:09:05+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://static.poder360.com.br/uploads/2026/11/sistema-satelite-defesa-20-nov-2026-copia-2-1200x675.png",
+      "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -114,7 +117,7 @@
       "sourceCanonical": "Diário da Guanabara",
       "sourceDomain": "dgrj.com.br",
       "publishedAt": "2026-11-22T11:58:39+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -152,14 +155,14 @@
       "title": "Ministério das Comunicações presidirá comitê interministerial de projetos espaciais no Brasil",
       "description": "O governo federal publicou, nesta terça-feira (17), decreto que organiza a gestão dos futuros satélites públicos do país, destinados à...",
       "url": "https://www.gov.br/mcom/pt-br/noticias/2026/novembro/ministerio-das-comunicacoes-presidira-comite-interministerial-de-projetos-espaciais-no-brasil",
-      "source": "GOV.BR",
-      "sourceCanonical": "GOV.BR",
+      "source": "Governo Federal",
+      "sourceCanonical": "Governo Federal",
       "sourceDomain": "gov.br",
       "publishedAt": "2026-11-17T22:22:36+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_4a4461b6c997",
@@ -199,7 +202,7 @@
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-11-17T15:14:14+00:00",
       "postedLabel": "5 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://s2-valor.glbimg.com/FZnhrFC4ui1Keqx5uuIliu6vhA0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/o/n/ZeEbRhT3iYn6IOgkwBhg/satelite-sky-brasil-1-rep.jpg",
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -274,20 +277,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_6cb6fb5a99db",
-      "title": "Decreto de Alckmin amplia poder do Ministério das Comunicações sobre satélites",
-      "description": "O governo federal criou um sistema para reunir os satélites de comunicações usados na defesa nacional e por outros órgãos públicos.",
-      "url": "https://www.aagencia.info/decreto-de-alckmin-amplia-poder-do-ministerio-das-comunicacoes-sobre-satelites/",
-      "source": "A Agência",
-      "sourceCanonical": "A Agência",
-      "sourceDomain": "aagencia.info",
-      "publishedAt": "2026-11-17T14:30:14+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_c2b89b0b1b16",
       "title": "Brasil cria novo sistema de satélites para defesa e comunicações estratégicas",
       "description": "Decreto prevê integração de equipamentos, transferência de tecnologia e participação de empresas brasileiras em projetos espaciais.",
@@ -314,27 +303,41 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_2069abfd5f5a",
+      "title": "Governo cria novo sistema de satélites de defesa com Telebras no centro da execução",
+      "description": "O governo federal instituiu uma nova estrutura para desenvolver, contratar, lançar e operar satélites para defesa nacional e comunicações...",
+      "url": "https://noticias.r7.com/brasilia/governo-cria-novo-sistema-de-satelites-de-defesa-com-telebras-no-centro-da-execucao-17112026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-11-17T11:18:21+00:00",
+      "postedLabel": "5 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     }
   ],
   "spectrum": {
     "min": 1,
-    "max": 6,
-    "average": 4.25,
+    "max": 7,
+    "average": 4.5,
     "knownCount": 8,
     "unknownCount": 12,
     "buckets": {
       "left": 2,
       "centerLeft": 0,
-      "center": 6,
-      "centerRight": 0,
+      "center": 5,
+      "centerRight": 1,
       "right": 0,
       "unknown": 12
     }
   },
   "scores": {
-    "coverageDiversity": 40,
-    "spectrumBalance": 72,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 91,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
