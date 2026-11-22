@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-14T10:24:26+00:00",
-  "updatedAt": "2026-11-22T05:17:43.314773+00:00",
+  "updatedAt": "2026-11-22T06:25:18.132287+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -44,7 +44,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-21T06:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/QFXAXZ3VOBH4TLR7DN2TAOVTKM.png?quality=80&auth=ca8e9ecd2c3e9968b8fde9b794b41d3281176ee0d66e69b213f10b315fef7fba&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -274,6 +274,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_e7bfce87ac69",
+      "title": "Doença eliminada há 26 anos volta a circular nos Estados Unidos e preocupa até o Brasil",
+      "description": "O sarampo voltou a circular de forma contínua nos Estados Unidos, e o país acaba de perder o reconhecimento internacional de território...",
+      "url": "https://diariodocomercio.com.br/trends/doenca-eliminada-ha-26-anos-volta-a-circular-nos-estados-unidos-e-preocupa-ate-o-brasil/",
+      "source": "Diário do Comércio",
+      "sourceCanonical": "Diário do Comércio",
+      "sourceDomain": "diariodocomercio.com.br",
+      "publishedAt": "2026-11-21T15:46:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_f653db2466e7",
       "title": "Criança morre nos EUA em primeiro óbito associado ao sarampo na Virgínia",
       "description": "Os EUA somam 5.838 casos confirmados de sarampo em 2026, mais que o dobro do total registrado em 2025.",
@@ -300,46 +314,31 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_0d2e6c40a9a7",
-      "title": "Brasil deve exigir vacina contra sarampo para dar visto a norte-americanos, diz especialista",
-      "description": "A pesquisadora Margareth Dalcolmo defende que, diante do surto de sarampo nos EUA, o governo brasileiro passe a exigir comprovação de...",
-      "url": "https://iclnoticias.com.br/brasil-deve-exigir-vacina-contra-sarampo-para-dar-visto-a-norte-americanos-diz-cientista/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-16T07:46:34+00:00",
-      "postedLabel": "5 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 4,
     "max": 7,
-    "average": 5.38,
-    "knownCount": 13,
-    "unknownCount": 7,
+    "average": 5.67,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 2,
       "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 7
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 88,
-    "headlineDivergence": 85,
+    "coverageDiversity": 60,
+    "spectrumBalance": 57,
+    "headlineDivergence": 79,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
