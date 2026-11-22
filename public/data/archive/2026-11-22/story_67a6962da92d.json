@@ -20,20 +20,20 @@
   },
   "title": "Notícias sobre Android • Malware",
   "summary": "O malware Bazuka usa imagens da tela de celulares Android para ocultar o roubo de credenciais e o controle dos aparelhos, segundo a empresa...",
-  "topic": "Malware · Usa",
+  "topic": "Malware · Android",
   "topicKeywords": [
     "malware",
-    "usa",
     "android",
+    "usa",
     "tela",
-    "falsa",
-    "esconder"
+    "grok",
+    "falsa"
   ],
   "imageUrl": "https://conteudo.imguol.com.br/c/noticias/f0/2022/05/30/celular-android-com-tela-do-google-1653912350238_v2_615x300.jpg",
   "publishedAt": "2026-11-17T20:00:00+00:00",
-  "updatedAt": "2026-11-22T13:35:07.382323+00:00",
-  "sourceCount": 5,
-  "articleCount": 5,
+  "updatedAt": "2026-11-22T14:35:58.309269+00:00",
+  "sourceCount": 6,
+  "articleCount": 6,
   "articles": [
     {
       "id": "article_1dbb0c3d9bce",
@@ -78,6 +78,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_42b643000034",
+      "title": "Zimperium relata uso do Grok pelo malware ArcticRAT no Android",
+      "description": "A Zimperium relata que a ArcticRAT usa Grok para classificar apps financeiros e filtrar SMS já coletados; entenda o método e as precauções...",
+      "url": "https://www.neoteo.com/pt/zimperium-relata-uso-do-grok-pelo-malware-arcticrat-no-android",
+      "source": "NeoTeo",
+      "sourceCanonical": "NeoTeo",
+      "sourceDomain": "neoteo.com",
+      "publishedAt": "2026-11-18T05:46:23+00:00",
+      "postedLabel": "4 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_8d201be40aa6",
       "title": "Malware Bazuka usa tela falsa para esconder roubo de dados em Android",
       "description": "Malware Bazuka usa uma imagem da tela do Android para esconder roubo de senhas, códigos de autenticação e controle remoto do celular.",
@@ -111,23 +125,24 @@
     "max": 7,
     "average": 4.67,
     "knownCount": 3,
-    "unknownCount": 2,
+    "unknownCount": 3,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 1,
       "centerRight": 1,
       "right": 0,
-      "unknown": 2
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 80,
     "headlineDivergence": 85,
-    "confidence": 64
+    "confidence": 66
   },
   "flags": [
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
