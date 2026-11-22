@@ -3,26 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pFc0ltM0VoRUh5a19uT01TbTJDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pFc0ltM0VoRUh5a19uT01TbTJDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 3,
-      "topstories": 3,
-      "topic-5": 1
+      "topic-3": 10,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 3,
-    "bestSeedRank": 1,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 10,
+    "bestSeedRank": 2,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "‘Não haverá nenhuma hipótese de eu tirar um centavo dos pobres para controlar o orçamento’, diz Lula",
   "summary": "Em uma live realizada ao lado do deputado André Janones neste sábado (21), o presidente Lula rebateu as críticas sobre o Projeto de Lei...",
@@ -37,7 +34,7 @@
   ],
   "imageUrl": "https://www.brasildefato.com.br/wp-content/uploads/2026/11/lula-1cc9e5ad.webp",
   "publishedAt": "2026-11-20T17:29:00+00:00",
-  "updatedAt": "2026-11-22T09:18:20.977304+00:00",
+  "updatedAt": "2026-11-22T10:18:19.478131+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -84,34 +81,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_9f7c3e55272d",
-      "title": "Josias de Souza: Desafio de Lula: ajustar contas sem concessões aos 'yuppies'",
-      "description": "Durante uma transmissão ao vivo nas redes sociais, ao lado de André Janones, Lula reconheceu neste sábado que \"não houve uma reforma fiscal\"...",
-      "url": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/11/21/desafio-de-lula-ajustar-contas-sem-concessoes-aos-yuppies.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-22T03:23:15+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_84cb7cd00460",
-      "title": "Lula rebate críticas de \"companheiros\" a ajuste fiscal e elogia Moretti",
-      "description": "Em transmissão ao vivo ao lado de André Janones neste sábado (21), presidente também falou sobre a reação negativa do mercado financeiro ao...",
-      "url": "https://www.cnnbrasil.com.br/politica/lula-rebate-criticas-de-companheiros-a-ajuste-fiscal-e-elogia-moretti/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-21T15:30:36+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_749272f65aa5",
       "title": "‘Se a gente não tiver controle do Orçamento, não consegue governar’, afirma Lula",
       "description": "Presidente defende ministro Bruno Moretti e diz achar estranho que \"companheiros da esquerda\" não reconheçam que ajuste fiscal preserva o...",
@@ -124,6 +93,34 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_9f7c3e55272d",
+      "title": "Josias de Souza: Desafio de Lula: ajustar contas sem concessões aos 'yuppies'",
+      "description": "Durante uma transmissão ao vivo nas redes sociais, ao lado de André Janones, Lula reconheceu neste sábado que \"não houve uma reforma fiscal\"...",
+      "url": "https://noticias.uol.com.br/colunas/josias-de-souza/2026/11/21/desafio-de-lula-ajustar-contas-sem-concessoes-aos-yuppies.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-11-22T03:23:15+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_84cb7cd00460",
+      "title": "Lula rebate críticas de \"companheiros\" a ajuste fiscal e elogia Moretti",
+      "description": "Em transmissão ao vivo ao lado de André Janones neste sábado (21), presidente também falou sobre a reação negativa do mercado financeiro ao pacote elaborado...",
+      "url": "https://www.cnnbrasil.com.br/politica/lula-rebate-criticas-de-companheiros-a-ajuste-fiscal-e-elogia-moretti/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-21T15:30:36+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_fe1a79ffc6a9",
@@ -196,6 +193,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_7812df974b73",
+      "title": "Lula defende ajuste fiscal e critica a Faria Lima",
+      "description": "Presidente defende o ministro do Orçamento, Bruno Moretti, de críticas tanto do mercado financeiro quanto de \"companheiros de esquerda\"",
+      "url": "https://sbtnews.sbt.com.br/noticia/economia/lula-defende-ajuste-fiscal-e-critica-a-faria-lima",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-21T15:51:04+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_40a0c3968511",
       "title": "Lula rebate críticas da esquerda ao ajuste fiscal e diz que governo está 'tirando dos ricos'",
       "description": "Em live com André Janones, presidente defendeu o projeto, criticou questionamentos de aliados e afirmou que proposta não prevê cortes na...",
@@ -221,20 +232,6 @@
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_7812df974b73",
-      "title": "Lula defende ajuste fiscal e critica a Faria Lima",
-      "description": "Presidente defende o ministro do Orçamento, Bruno Moretti, de críticas tanto do mercado financeiro quanto de \"companheiros de esquerda\"",
-      "url": "https://sbtnews.sbt.com.br/noticia/economia/lula-defende-ajuste-fiscal-e-critica-a-faria-lima",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-21T15:51:04+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
       "bucket": "center"
     },
     {

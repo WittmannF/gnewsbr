@@ -3,25 +3,28 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ltM2ZDeUVoSFg2SEUzQU9SaXV5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ltM2ZDeUVoSFg2SEUzQU9SaXV5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3",
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3",
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 2,
+      "home": 4,
+      "topstories": 4,
       "topic-5": 16
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
-  "title": "Tornados atingem Foz do Iguaçu e Manoel Ribas",
+  "title": "Dois tornados atingem cidades do Paraná na sexta-feira",
   "summary": "Fenômenos foram registrados na sexta-feira (20). Com esses novos casos, o Paraná registrou 15 tornados e dois landspouts em 2026.",
   "topic": "Paraná · Tornados",
   "topicKeywords": [
@@ -33,8 +36,8 @@
     "simepar"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/tblqd_XfmHLiFlBH4pqo-xWbE8g=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/T/q/iwFqvAS4uqn3AigQFe7w/a7bbf52d-c263-4d0a-b7f8-b08f45a010ad-1-.jpg",
-  "publishedAt": "2026-11-20T20:44:45+00:00",
-  "updatedAt": "2026-11-22T07:18:58.439712+00:00",
+  "publishedAt": "2026-11-20T22:16:03+00:00",
+  "updatedAt": "2026-11-22T10:16:15.077535+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -67,34 +70,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_2af152c031fe",
-      "title": "Temporal e vendaval atingem Foz do Iguaçu; secretário chama de minitornado",
-      "description": "Uma forte tempestade acompanhada de vendaval atingiu Foz do Iguaçu (PR), na região da Tríplice Fronteira, na tarde de hoje.",
-      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/20/temporal-e-vendaval-atingem-foz-do-iguacu-secretario-chama-de-minitornado.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-20T22:16:03+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_3137a9e014f6",
-      "title": "Paraná tem dois tornados em um único dia, confirma Simepar",
-      "description": "Fenômenos foram classificados como F1 na Escala Fujita, categoria que corresponde a ventos estimados entre 117 e 180 km/h; não há registro...",
-      "url": "https://www.cnnbrasil.com.br/nacional/sul/pr/parana-tem-dois-tornados-em-um-unico-dia-confirma-simepar/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-21T17:49:31+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Design-sem-nome-12.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_15c52bc1297e",
       "title": "Temporal no feriado deixa estragos em diversas cidades do Paraná; ventos chegaram a velocidade de 98 km/h",
       "description": "Os paranaenses ainda lidam com os resultados das fortes chuvas que atingiram todo o estado na sexta-feira (20). Ocorrências de quedas de...",
@@ -107,6 +82,48 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_3137a9e014f6",
+      "title": "Paraná tem dois tornados em um único dia, confirma Simepar",
+      "description": "Fenômenos foram classificados como F1 na Escala Fujita, categoria que corresponde a ventos estimados entre 117 e 180 km/h; não há registro...",
+      "url": "https://www.cnnbrasil.com.br/nacional/sul/pr/parana-tem-dois-tornados-em-um-unico-dia-confirma-simepar/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-21T20:49:31+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Design-sem-nome-12.jpg?w=1200&h=630&crop=1",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_7dfd337cff40",
+      "title": "Dois tornados atingem cidades do Paraná no mesmo dia",
+      "description": "Dois tornados atingiram as cidades de Manoel Ribas e Foz do Iguaçu, no Paraná, nesta sexta-feira, 20. Segundo o Sistema de Tecnologia e...",
+      "url": "https://veja.abril.com.br/brasil/dois-tornados-atingem-cidades-do-parana-no-mesmo-dia/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-21T22:02:43+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/11/Tornado-atinge-o-Parana-Reproducao.jpg?quality=70&strip=info&resize=1200,630&crop=1",
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_2af152c031fe",
+      "title": "Temporal e vendaval atingem Foz do Iguaçu; secretário chama de minitornado",
+      "description": "Uma forte tempestade acompanhada de vendaval atingiu Foz do Iguaçu (PR), na região da Tríplice Fronteira, na tarde de hoje.",
+      "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/20/temporal-e-vendaval-atingem-foz-do-iguacu-secretario-chama-de-minitornado.ghtm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-11-20T22:16:03+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_6c9cd2d67733",
@@ -146,23 +163,9 @@
       "sourceDomain": "esmaelmorais.com.br",
       "publishedAt": "2026-11-21T15:03:16+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://www.esmaelmorais.com.br/wp-content/uploads/2025/04/apagao.jpg",
+      "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_7dfd337cff40",
-      "title": "Dois tornados atingem cidades do Paraná no mesmo dia",
-      "description": "Dois tornados atingiram as cidades de Manoel Ribas e Foz do Iguaçu, no Paraná, nesta sexta-feira, 20. Segundo o Sistema de Tecnologia e...",
-      "url": "https://veja.abril.com.br/brasil/dois-tornados-atingem-cidades-do-parana-no-mesmo-dia/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-21T22:02:43+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
     },
     {
       "id": "article_cb0b237cc0a4",
@@ -173,7 +176,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-22T02:33:22+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -207,18 +210,18 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_9ac4d8acbd20",
-      "title": "Tempestade provoca estragos em Foz do Iguaçu; 36 mil imóveis ficam sem luz",
-      "description": "Uma tempestade atingiu Foz do Iguaçu, no oeste do Paraná, na tarde desta sexta-feira (20). O temporal provocou estragos em diferentes pontos...",
-      "url": "https://www.gazetadopovo.com.br/parana/tempestade-provoca-estragos-foz-do-imoveis-sem-luz-apos-chuva/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-11-20T23:53:00+00:00",
-      "postedLabel": "ontem",
+      "id": "article_97210c99dae2",
+      "title": "Vendaval e granizo atingem nove cidades do Paraná e deixam 745 pessoas afetadas",
+      "description": "Relatório da Defesa Civil do Paraná registra vendaval e granizo em nove cidades, com 745 pessoas afetadas, 249 casas danificadas e 12...",
+      "url": "https://agorarn.com.br/brasil/vendaval-granizo-nove-cidades-parana/",
+      "source": "Agora RN",
+      "sourceCanonical": "Agora RN",
+      "sourceDomain": "agorarn.com.br",
+      "publishedAt": "2026-11-22T08:43:03+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
-      "spectrumScore": 8,
-      "bucket": "centerRight"
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_319e172a77d2",
@@ -233,6 +236,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_9ac4d8acbd20",
+      "title": "Tempestade provoca estragos em Foz do Iguaçu; 36 mil imóveis ficam sem luz",
+      "description": "Uma tempestade atingiu Foz do Iguaçu, no oeste do Paraná, na tarde desta sexta-feira (20). O temporal provocou estragos em diferentes pontos...",
+      "url": "https://www.gazetadopovo.com.br/parana/tempestade-provoca-estragos-foz-do-imoveis-sem-luz-apos-chuva/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-11-20T23:53:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
     },
     {
       "id": "article_148f6b137240",
@@ -300,20 +317,6 @@
       "sourceDomain": "angelorigon.com.br",
       "publishedAt": "2026-11-21T13:32:26+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_7a39bd619cd4",
-      "title": "Queda de árvore interdita BR-158 em São Roque do Chopim",
-      "description": "Queda de árvore causada pelo vento interditou a BR-158 em São Roque do Chopim, em Pato Branco, nesta sexta-feira (20). Veja os detalhes.",
-      "url": "https://diariodosudoeste.com.br/queda-de-arvore-interdita-br-158-em-sao-roque-do-chopim/",
-      "source": "Diário do Sudoeste",
-      "sourceCanonical": "Diário do Sudoeste",
-      "sourceDomain": "diariodosudoeste.com.br",
-      "publishedAt": "2026-11-20T20:44:45+00:00",
-      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
