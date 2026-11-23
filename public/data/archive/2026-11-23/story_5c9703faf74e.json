@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 23,
-      "topic-5": 25
+      "topic-3": 22,
+      "topic-5": 26
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 22,
+    "bestSeedRank": 22,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -27,16 +27,16 @@
   "topicKeywords": [
     "aldo",
     "rebelo",
-    "lula",
     "amazônia",
+    "lula",
     "lança",
     "movimento"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/Aldo-Rebelo.jpg",
   "publishedAt": "2026-11-16T13:49:55+00:00",
-  "updatedAt": "2026-11-23T10:20:25.785431+00:00",
-  "sourceCount": 6,
-  "articleCount": 7,
+  "updatedAt": "2026-11-23T11:18:29.887405+00:00",
+  "sourceCount": 8,
+  "articleCount": 9,
   "articles": [
     {
       "id": "article_2e7afef0e27a",
@@ -103,10 +103,38 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-11-23T05:58:39+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://www.brasil247.com/wp-content/uploads/2022/07/20220708130716_4d7662c8393441512994c45c07f62a8be57648688ac5ac60e7539b9b1b94d2a7.jpg?w=1200&quality=88&strip=all",
       "spectrumScore": 1,
       "bucket": "left"
+    },
+    {
+      "id": "article_fee8dd661c72",
+      "title": "Aldo Rebelo lança movimento em defesa da exploração econômica da Amazônia",
+      "description": "Ex-ministro critica a política ambiental de Lula e afirma que o investimento na região é necessário para proteger a soberania nacional.",
+      "url": "https://revistaoeste.com/politica/aldo-rebelo-lanca-movimento-em-defesa-da-exploracao-economica-da-amazonia/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-11-23T10:58:27+00:00",
+      "postedLabel": "20 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
+    },
+    {
+      "id": "article_2a9f88bde6a8",
+      "title": "Aldo Rebelo acusa Lula de \"franquear\" a Amazônia",
+      "description": "O ex-ministro, jornalista e escritor algoano Aldo Rebelo lançou o movimento político “Brasil, Soberania e Democracia”, no qual defende...",
+      "url": "https://www.tnh1.com.br/noticia/nid/aldo-rebelo-acusa-lula-de-franquear-a-amazonia/",
+      "source": "TNH1",
+      "sourceCanonical": "TNH1",
+      "sourceDomain": "tnh1.com.br",
+      "publishedAt": "2026-11-23T11:00:00+00:00",
+      "postedLabel": "18 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d3995305080d",
@@ -139,26 +167,28 @@
   ],
   "spectrum": {
     "min": 1,
-    "max": 7,
-    "average": 5,
-    "knownCount": 5,
-    "unknownCount": 2,
+    "max": 10,
+    "average": 5.83,
+    "knownCount": 6,
+    "unknownCount": 3,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 2,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 2
+      "right": 1,
+      "unknown": 3
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
-    "confidence": 74
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 97,
+    "confidence": 81
   },
   "flags": [
+    "Ampla diversidade editorial",
+    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
