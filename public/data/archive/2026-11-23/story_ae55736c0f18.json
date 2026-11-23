@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 20
+      "topic-5": 25
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 20,
-    "bestSeedRank": 20,
+    "firstSeenRank": 25,
+    "bestSeedRank": 25,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -25,13 +25,13 @@
     "ice",
     "eua",
     "aeroporto",
-    "pelo",
     "seattle",
-    "pai"
+    "pai",
+    "filha"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/SO4woWA9b3cK_rE8KRfEm1a9ts4=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/5/n/tqJ4BfSpCzUcaJBP9BhQ/fotojet-44-.jpg",
   "publishedAt": "2026-11-22T03:32:00+00:00",
-  "updatedAt": "2026-11-23T19:23:53.696895+00:00",
+  "updatedAt": "2026-11-23T20:24:32.968117+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -85,7 +85,7 @@
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-23T09:31:29+00:00",
+      "publishedAt": "2026-11-23T12:31:29+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/aeroporto-ice.jpeg-e1795435534570.png?w=761&h=616&crop=1",
       "spectrumScore": 5,
@@ -99,7 +99,7 @@
       "source": "Exame",
       "sourceCanonical": "Exame Notícias",
       "sourceDomain": "exame.com",
-      "publishedAt": "2026-11-22T18:42:40+00:00",
+      "publishedAt": "2026-11-22T14:37:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
@@ -114,7 +114,7 @@
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-23T14:46:50+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -184,7 +184,7 @@
       "sourceCanonical": "Instagram",
       "sourceDomain": "instagram.com",
       "publishedAt": "2026-11-23T17:47:18+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -198,7 +198,7 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-11-23T13:37:21+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
@@ -232,20 +232,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_26f00f94b9fc",
-      "title": "Cena \"angustiante\": ICE detém dois passageiros que embarcavam em voo da Alaska Airlines em Seattle",
-      "description": "Um vídeo do momento foi partilhado nas redes sociais e mostra os agentes do ICE a arrastar pelo menos uma pessoa.",
-      "url": "https://www.cmjornal.pt/mundo/detalhe/cena-angustiante-ice-detem-dois-passageiros-que-embarcavam-em-voo-da-alaska-airlines-em-seattle",
-      "source": "Correio da Manhã",
-      "sourceCanonical": "Correio da Manhã",
-      "sourceDomain": "cmjornal.pt",
-      "publishedAt": "2026-11-22T15:36:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_acd3cc06ebdf",
       "title": "Eva Yi Xie: quem é neurocientista chinesa presa por agentes da imigração em aeroporto nos EUA",
       "description": "A neurocientista chinesa Eva Yi Xie, de 24 anos, foi presa por agentes do Serviço de Imigração e Controle de Alfândega dos Estados Unidos...",
@@ -258,6 +244,20 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_26f00f94b9fc",
+      "title": "Cena \"angustiante\": ICE detém dois passageiros que embarcavam em voo da Alaska Airlines em Seattle",
+      "description": "Um vídeo do momento foi partilhado nas redes sociais e mostra os agentes do ICE a arrastar pelo menos uma pessoa.",
+      "url": "https://www.cmjornal.pt/mundo/detalhe/cena-angustiante-ice-detem-dois-passageiros-que-embarcavam-em-voo-da-alaska-airlines-em-seattle",
+      "source": "Correio da Manhã",
+      "sourceCanonical": "Correio da Manhã",
+      "sourceDomain": "cmjornal.pt",
+      "publishedAt": "2026-11-22T15:36:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_71f86e30fd6a",
@@ -302,30 +302,30 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_e1674b626996",
-      "title": "Mexicanos são violentamente arrastados pelo ICE durante embarque nos EUA",
-      "description": "Abordagem do ICE ocorreu em voo com destino a Los Angeles. Governador de Washington criticou a operação e pediu o fim da agência.",
-      "url": "https://www.metropoles.com/mundo/mexicanos-sao-violentemente-arrastados-pelo-ice-durante-embarque-nos-eua",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-22T17:29:00+00:00",
+      "id": "article_795dccc738a7",
+      "title": "ICE prende neurocientista de Princeton e atrasa voo em aeroporto dos EUA",
+      "description": "ICE prendeu uma doutoranda de Princeton e realizou operação em Seattle que atrasou voo para Los Angeles, segundo NBC e AP.",
+      "url": "https://www.diariodocentrodomundo.com.br/essencial/ice-prende-neurocientista-princeton-atraso-voo-eua/",
+      "source": "Diário do Centro do Mundo",
+      "sourceCanonical": "Diário do Centro do Mundo",
+      "sourceDomain": "diariodocentrodomundo.com.br",
+      "publishedAt": "2026-11-22T11:03:59+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 9,
-    "average": 5.13,
+    "average": 4.93,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
-      "left": 2,
+      "left": 3,
       "centerLeft": 1,
-      "center": 8,
+      "center": 7,
       "centerRight": 3,
       "right": 1,
       "unknown": 5
