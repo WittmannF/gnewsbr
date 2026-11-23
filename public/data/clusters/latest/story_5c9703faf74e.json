@@ -12,12 +12,12 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 30,
-      "topic-5": 34
+      "topic-3": 33,
+      "topic-5": 42
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 30,
-    "bestSeedRank": 30,
+    "firstSeenRank": 33,
+    "bestSeedRank": 33,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -34,7 +34,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/06/Aldo-Rebelo.jpg",
   "publishedAt": "2026-11-16T13:49:55+00:00",
-  "updatedAt": "2026-11-23T14:22:41.612613+00:00",
+  "updatedAt": "2026-11-23T15:22:31.012081+00:00",
   "sourceCount": 10,
   "articleCount": 11,
   "articles": [
@@ -61,7 +61,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-22T15:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://www.estadao.com.br/resizer/v2/KQFQPGIGXFEW7LX5PXZXPDEUA4.jpg?quality=80&auth=83cec67fe48d4e6a7fff9edfaa84da50320073eb6196e54ecff6766e91e1eafa&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -103,10 +103,24 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-23T12:38:17+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_1a4d56f3e8ce",
+      "title": "A Amazônia que Aldo Rebelo não vê",
+      "description": "Miguel do Rosário confronta o discurso de Aldo Rebelo com dados de exportação, crescimento do Norte e os desafios da transição energética.",
+      "url": "https://www.ocafezinho.com/2026-11-23/a-amazonia-que-aldo-rebelo-nao-ve/",
+      "source": "O Cafezinho",
+      "sourceCanonical": "O Cafezinho",
+      "sourceDomain": "ocafezinho.com",
+      "publishedAt": "2026-11-23T14:11:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_c18bb36b0cce",
@@ -121,6 +135,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_fee8dd661c72",
+      "title": "Aldo Rebelo lança movimento em defesa da exploração econômica da Amazônia",
+      "description": "Ex-ministro critica a política ambiental de Lula e afirma que o investimento na região é necessário para proteger a soberania nacional.",
+      "url": "https://revistaoeste.com/politica/aldo-rebelo-lanca-movimento-em-defesa-da-exploracao-economica-da-amazonia/",
+      "source": "Revista Oeste",
+      "sourceCanonical": "Revista Oeste",
+      "sourceDomain": "revistaoeste.com",
+      "publishedAt": "2026-11-23T10:58:27+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 10,
+      "bucket": "right"
     },
     {
       "id": "article_e234c237f98c",
@@ -151,34 +179,6 @@
       "bucket": "left"
     },
     {
-      "id": "article_fee8dd661c72",
-      "title": "Aldo Rebelo lança movimento em defesa da exploração econômica da Amazônia",
-      "description": "Ex-ministro critica a política ambiental de Lula e afirma que o investimento na região é necessário para proteger a soberania nacional.",
-      "url": "https://revistaoeste.com/politica/aldo-rebelo-lanca-movimento-em-defesa-da-exploracao-economica-da-amazonia/",
-      "source": "Revista Oeste",
-      "sourceCanonical": "Revista Oeste",
-      "sourceDomain": "revistaoeste.com",
-      "publishedAt": "2026-11-23T10:58:27+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 10,
-      "bucket": "right"
-    },
-    {
-      "id": "article_2a9f88bde6a8",
-      "title": "Aldo Rebelo acusa Lula de \"franquear\" a Amazônia",
-      "description": "O ex-ministro, jornalista e escritor algoano Aldo Rebelo lançou o movimento político “Brasil, Soberania e Democracia”, no qual defende...",
-      "url": "https://www.tnh1.com.br/noticia/nid/aldo-rebelo-acusa-lula-de-franquear-a-amazonia/",
-      "source": "TNH1",
-      "sourceCanonical": "TNH1",
-      "sourceDomain": "tnh1.com.br",
-      "publishedAt": "2026-11-23T11:00:00+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_0613f4243fa8",
       "title": "Aldo Rebelo lança movimento político e acusa Lula de ‘franquear’ a Amazônia",
       "description": "Em entrevista à Coluna do Estadão, ele disse que a Amazônia é a “fronteira\" entre o Brasil “próspero” e o que é hoje,...",
@@ -196,23 +196,23 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.71,
-    "knownCount": 7,
-    "unknownCount": 4,
+    "average": 5.25,
+    "knownCount": 8,
+    "unknownCount": 3,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
       "center": 3,
       "centerRight": 2,
       "right": 1,
-      "unknown": 4
+      "unknown": 3
     }
   },
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 97,
-    "confidence": 88
+    "confidence": 91
   },
   "flags": [
     "Alta cobertura",

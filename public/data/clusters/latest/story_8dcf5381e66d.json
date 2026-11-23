@@ -4,19 +4,22 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2plOE9HNUVoRnNDd3NnT2lhTDRDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-7",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-7"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-7": 2
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
+    "firstSeenRank": 3,
     "bestSeedRank": 2,
     "isHomeTop": true,
     "isTopStoriesTop": true
@@ -28,41 +31,27 @@
     "líbia",
     "ucrânia",
     "navio",
-    "ataque",
     "costa",
+    "vídeo",
     "guerra"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/videoframe_1631.png?w=640&h=360&crop=1",
   "publishedAt": "2026-11-22T17:26:41+00:00",
-  "updatedAt": "2026-11-23T13:19:56.470893+00:00",
+  "updatedAt": "2026-11-23T15:19:09.429001+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
       "id": "article_c804437bd1f5",
-      "title": "Drones ucranianos afundam navio de guerra russo no norte da África",
+      "title": "Vídeo: Drones ucranianos afundam navio de guerra russo no norte da África",
       "description": "Navio de guerra — identificado como a corveta Merkury, de 105 metros da Marinha russa — foi atacado com sete drones marítimos, que afundaram...",
       "url": "https://www.cnnbrasil.com.br/internacional/drones-ucranianos-afundam-navio-de-guerra-russo-no-norte-da-africa/",
       "source": "CNN Brasil",
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-23T10:50:02+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/videoframe_1631.png?w=640&h=360&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_760b6047de88",
-      "title": "Zelensky reivindica ataque contra navio de guerra russo na costa da Líbia; VÍDEO mostra explosão",
-      "description": "Corveta Merkury foi destruída no domingo (23) após ser atingida por sete drones de ataque ucranianos, segundo Volodymyr Zelensky.",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/23/zelensky-reivindica-ataque-navio-de-guerra-russo-libia-video.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-23T09:31:15+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://s2-g1.glbimg.com/L6UAlYsc79Z5qLim5YbrMXTOkUY=/6645x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/t/kTR8rBRAuC4xOaMHuHJg/2026-11-23t090233z-26004991-rc2ysoavk78q-rtrmadp-3-ukraine-crisis-ships-1-.jpg",
       "spectrumScore": 5,
       "bucket": "center"
     },
@@ -75,10 +64,24 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-23T11:32:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/23/17954333526b0423888029c_1795433352_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_760b6047de88",
+      "title": "Zelensky reivindica ataque contra navio de guerra russo na costa da Líbia; VÍDEO mostra explosão",
+      "description": "Corveta Merkury foi destruída no domingo (23) após ser atingida por sete drones de ataque ucranianos, segundo Volodymyr Zelensky.",
+      "url": "https://g1.globo.com/mundo/noticia/2026/11/23/zelensky-reivindica-ataque-navio-de-guerra-russo-libia-video.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-23T09:31:15+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": "https://s2-g1.glbimg.com/L6UAlYsc79Z5qLim5YbrMXTOkUY=/6645x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/t/kTR8rBRAuC4xOaMHuHJg/2026-11-23t090233z-26004991-rc2ysoavk78q-rtrmadp-3-ukraine-crisis-ships-1-.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_9a92fcdae6d6",
@@ -89,23 +92,9 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-23T10:44:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://media.gazetadopovo.com.br/2026/11/23074402/ucrania.libia_.jpg",
       "spectrumScore": 8,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_8feb9755a6d6",
-      "title": "Zelenski reivindica ataque que atingiu corveta e cargueiro russos na costa da Líbia",
-      "description": "Operação utilizou sete drones navais de fabricação ucraniana e também destruiu um helicóptero militar, segundo o presidente; Rússia não se...",
-      "url": "https://www.estadao.com.br/em-alta/internacional/zelenski-reivindica-ataque-que-atingiu-corveta-e-cargueiro-russos-na-costa-da-libia-npr/",
-      "source": "Estadão",
-      "sourceCanonical": "Estadão",
-      "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-23T10:55:05+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 7,
       "bucket": "centerRight"
     },
     {
@@ -123,6 +112,20 @@
       "bucket": "centerLeft"
     },
     {
+      "id": "article_8feb9755a6d6",
+      "title": "Zelenski reivindica ataque que atingiu corveta e cargueiro russos na costa da Líbia",
+      "description": "Operação utilizou sete drones navais de fabricação ucraniana e também destruiu um helicóptero militar, segundo o presidente; Rússia não se...",
+      "url": "https://www.estadao.com.br/em-alta/internacional/zelenski-reivindica-ataque-que-atingiu-corveta-e-cargueiro-russos-na-costa-da-libia-npr/",
+      "source": "Estadão",
+      "sourceCanonical": "Estadão",
+      "sourceDomain": "estadao.com.br",
+      "publishedAt": "2026-11-23T10:55:05+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
       "id": "article_de9ab1e7b6e0",
       "title": "Ucrânia atacou dois navios russos na costa da Líbia, diz Zelensky",
       "description": "A missão das Nações Unidas na Líbia pediu investigação sobre o caso.",
@@ -131,24 +134,24 @@
       "sourceCanonical": "CartaCapital",
       "sourceDomain": "cartacapital.com.br",
       "publishedAt": "2026-11-23T09:45:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
     },
     {
-      "id": "article_09e127d5af82",
-      "title": "Zelensky reivindica ataque contra navios russos na costa da Líbia",
-      "description": "O presidente da Ucrânia, Volodymyr Zelensky, afirmou nesta segunda-feira, 23, que as forças do país afundaram um navio militar russo em um...",
-      "url": "https://veja.abril.com.br/mundo/zelensky-reivindica-ataque-contra-navios-russos-na-costa-da-libia/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-23T12:15:39+00:00",
-      "postedLabel": "uma hora atrás",
+      "id": "article_134874dcda41",
+      "title": "Ucrânia afunda navio de guerra russo na Líbia e conflito segue para além da Europa",
+      "description": "Por Lina Golovnya. 23 Nov (Reuters) – A Ucrânia afundou ⁠uma corveta da Marinha russa em um porto da Líbia ⁠usando drones navais no domingo,...",
+      "url": "https://www.infomoney.com.br/mundo/ucrania-afunda-navio-de-guerra-russo-na-libia-e-conflito-segue-para-alem-da-europa/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-11-23T13:17:22+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_9fb40fedead4",
@@ -159,10 +162,24 @@
       "sourceCanonical": "CNN Portugal",
       "sourceDomain": "cnnportugal.iol.pt",
       "publishedAt": "2026-11-23T10:09:55+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_09e127d5af82",
+      "title": "Zelensky reivindica ataque contra navios russos na costa da Líbia",
+      "description": "O presidente da Ucrânia, Volodymyr Zelensky, afirmou nesta segunda-feira, 23, que as forças do país afundaram um navio militar russo em um...",
+      "url": "https://veja.abril.com.br/mundo/zelensky-reivindica-ataque-contra-navios-russos-na-costa-da-libia/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-23T12:15:39+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_adf6a1590f02",
@@ -186,36 +203,22 @@
       "source": "Monitor do Oriente",
       "sourceCanonical": "Monitor do Oriente",
       "sourceDomain": "monitordooriente.com",
-      "publishedAt": "2026-11-23T04:42:30+00:00",
+      "publishedAt": "2026-11-23T05:17:20+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
     {
-      "id": "article_037a1c08e8aa",
-      "title": "Ataque a navio comercial na Líbia leva guerra dos drones ao Mediterrâneo",
-      "description": "Além de cargueiro com bandeira de Malta, navio russo atracado em Benghazi foi atingido; ninguém assumiu a autoria, e forças líbias dizem ter...",
-      "url": "https://www.infomoney.com.br/mundo/ataque-a-navio-comercial-na-libia-leva-guerra-dos-drones-ao-mediterraneo/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-22T19:10:35+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_b1324adb3510",
+      "id": "article_8fc3aee30cfb",
       "title": "Itália demonstra preocupação com ataques da Ucrânia a navios russos na Líbia",
       "description": "O governo da Itália demonstrou preocupação com os bombardeios da Ucrânia contra dois navios russos estacionados na costa da Líbia,...",
-      "url": "https://ansabrasil.com.br/brasil/noticias/ultimo_momento/2026/11/23/italia-demonstra-preocupacao-com-ataques-da-ucrania-a-navios-russos-na-libia_42bdb371-8e7f-4eb4-8dfb-6da2a8409a40.html",
+      "url": "https://ansabrasil.com.br/brasil/noticias/mundo/2026/11/23/italia-demonstra-preocupacao-com-ataques-da-ucrania-a-navios-russos-na-libia_c492b64f-c03d-4e13-978a-41b591337aec.html",
       "source": "ANSA Brasil",
       "sourceCanonical": "ANSA Brasil",
       "sourceDomain": "ansabrasil.com.br",
       "publishedAt": "2026-11-23T11:39:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -243,7 +246,7 @@
       "sourceCanonical": "Correio da Manhã",
       "sourceDomain": "cmjornal.pt",
       "publishedAt": "2026-11-23T09:57:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -257,7 +260,7 @@
       "sourceCanonical": "Demócrata",
       "sourceDomain": "democrata.es",
       "publishedAt": "2026-11-23T07:54:32+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -285,7 +288,7 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-23T10:58:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -299,7 +302,7 @@
       "sourceCanonical": "Vietnam.vn",
       "sourceDomain": "vietnam.vn",
       "publishedAt": "2026-11-23T10:46:51+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -313,7 +316,7 @@
       "sourceCanonical": "Brasil 247",
       "sourceDomain": "brasil247.com",
       "publishedAt": "2026-11-23T12:12:37+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 1,
       "bucket": "left"
