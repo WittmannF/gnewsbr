@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l0ak8yeEVoRjZud2psanQ3X3NTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l0ak8yeEVoRjZud2psanQ3X3NTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topic-3",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Defesa Civil emite alertas por fortes chuvas em São Paulo",
   "summary": "O mês de novembro já acumulou 158,4mm, o que equivale a 19% acima da média esperada que é de 133,1mm; novas tempestades podem ocorrer na...",
-  "topic": "Paulo · Temporal",
+  "topic": "Paulo · Chuva",
   "topicKeywords": [
     "paulo",
-    "temporal",
     "chuva",
-    "deixa",
+    "forte",
     "alagamentos",
-    "forte"
+    "alerta",
+    "temporal"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/CHUVAS-SP-1.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-11-21T08:00:00+00:00",
-  "updatedAt": "2026-11-24T04:22:07.658509+00:00",
+  "updatedAt": "2026-11-24T05:18:55.165022+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-23T23:40:18+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/CHUVAS-SP-1.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,20 +70,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_2075d7349a7d",
-      "title": "São Paulo terá segunda-feira (23) abafada e com pancadas de chuva à tarde",
-      "description": "Capital e Grande SP terão sol entre nuvens, máxima acima de 29°C e chuva com raios e ventos; No restante do país, massa de ar quente e úmido...",
-      "url": "https://www1.folha.uol.com.br/cotidiano/2026/11/sao-paulo-tera-segunda-feira23-abafada-e-com-pancadas-de-chuva-a-tarde.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-11-23T07:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/25/17929294456addeea515eab_1792929445_3x2_xl.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_e7cd425ca04d",
       "title": "Defesa Civil reforça alerta para chuva forte em todo o estado de SP entre domingo (22) e terça-feira (24)",
       "description": "Previsão indica pancadas intensas acompanhadas de raios, ventos de até 60 km/h e queda de granizo; Grande SP, Campinas e Vale do Paraíba...",
@@ -90,6 +82,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_2075d7349a7d",
+      "title": "São Paulo terá segunda-feira (23) abafada e com pancadas de chuva à tarde",
+      "description": "Capital e Grande SP terão sol entre nuvens, máxima acima de 29°C e chuva com raios e ventos; No restante do país, massa de ar quente e úmido...",
+      "url": "https://www1.folha.uol.com.br/cotidiano/2026/11/sao-paulo-tera-segunda-feira23-abafada-e-com-pancadas-de-chuva-a-tarde.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-11-23T07:00:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/25/17929294456addeea515eab_1792929445_3x2_xl.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_7713e99ab4a1",
@@ -106,20 +112,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_089237b6983e",
-      "title": "Temporal provoca destruição em cidades de SP e deixa quase 100 mil imóveis sem luz",
-      "description": "As fortes chuvas que atingiram o estado de São Paulo nesta segunda-feira (23) provocaram sérios danos em diversas localidades.",
-      "url": "https://record.r7.com/cidade-alerta/video/temporal-provoca-destruicao-em-cidades-de-sp-e-deixa-quase-100-mil-imoveis-sem-luz-23112026/",
-      "source": "R7",
-      "sourceCanonical": "R7",
-      "sourceDomain": "record.r7.com",
-      "publishedAt": "2026-11-23T22:00:39+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
       "id": "article_a75b92adae5e",
       "title": "Chuvas deixam 34 desalojados e um desaparecido em São Paulo",
       "description": "Defesa Civil informa que nesta segunda-feira o tempo segue instável em todo o estado, com previsão de pancadas de chuva acompanhadas de...",
@@ -132,6 +124,20 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_96163e15a848",
+      "title": "Chuva intensa coloca São Paulo em estado de atenção para alagamentos #CidadeAlerta #Shorts",
+      "description": "Utilizamos cookies e tecnologia para aprimorar sua experiência de navegação de acordo com oAviso de Privacidade. FECHAR.",
+      "url": "https://record.r7.com/cidade-alerta/chuva-intensa-coloca-sao-paulo-em-estado-de-atencao-para-alagamentos-cidadealerta-shorts-23112026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "record.r7.com",
+      "publishedAt": "2026-11-23T20:44:29+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_459f54ddd4c4",
@@ -162,32 +168,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_01c2d95511f6",
-      "title": "São Paulo entra em estado de atenção para alagamentos",
-      "description": "Com calor de 31°C e tempo abafado, CGE alerta para risco de enxurradas, ventania e transbordamentos em todas as regiões da capital,...",
-      "url": "https://ultimosegundo.ig.com.br/brasil/sp/2026-11-23/sao-paulo-entra-em-estado-de-atencao-para-alagamentos.html",
-      "source": "iG Último Segundo",
-      "sourceCanonical": "iG Último Segundo",
-      "sourceDomain": "ultimosegundo.ig.com.br",
-      "publishedAt": "2026-11-23T19:54:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_520a8f8c7f9a",
-      "title": "SP: Temporal deixa uma pessoa desaparecida e 34 desalojadas",
-      "description": "Bombeiros retomam buscas no rio Tamanduateí nesta segunda (23); temporal também provocou alagamentos, desabamento de muro e deixou famílias...",
-      "url": "https://sbtnews.sbt.com.br/noticia/brasil/sp-temporal-deixa-uma-pessoa-desaparecida-e-14-desalojadas",
+      "id": "article_28358d6a6a86",
+      "title": "VÍDEO: Chuva forte alaga escola infantil em São Paulo",
+      "description": "Bombeiros foram acionados para retirar crianças da EMEI, na Vila Nhocuné. Capital tinha 12 pontos de alagamento às 18h30.",
+      "url": "https://sbtnews.sbt.com.br/noticia/brasil/video-chuva-forte-alaga-escola-infantil-em-sao-paulo",
       "source": "SBT News",
       "sourceCanonical": "SBT",
       "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-23T11:46:11+00:00",
+      "publishedAt": "2026-11-23T22:41:50+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_371946795adb",
+      "title": "Mais de 47 mil imóveis ficam sem luz após temporais em SP",
+      "description": "Além da falta de energia, chuva forte causa pontos de alagamento na capital e na Grande SP; concessionária diz que número de afetados pode...",
+      "url": "https://ultimosegundo.ig.com.br/brasil/sp/2026-11-23/mais-de-47-mil-imoveis-ficam-sem-luz-apos-temporais-em-sp.html",
+      "source": "iG Último Segundo",
+      "sourceCanonical": "iG Último Segundo",
+      "sourceDomain": "ultimosegundo.ig.com.br",
+      "publishedAt": "2026-11-23T23:39:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_883d0617acd2",
@@ -198,7 +204,21 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-11-24T02:17:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_419884ac54cb",
+      "title": "Após temporal, SP retoma buscas por desaparecida, interdita casas e registra desabamentos",
+      "description": "O temporal que atingiu a cidade de São Paulo e a região metropolitana no último domingo, 22, provocou alagamentos, desabamentos e deixou...",
+      "url": "https://www.terra.com.br/noticias/brasil/cidades/apos-temporal-sp-retoma-buscas-por-desaparecida-interdita-casas-e-registra-desabamentos,fa41742403c04b3cdcdc9501aa39846bo9szsjym.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-23T12:00:00+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -216,34 +236,6 @@
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_dfef1d7ab476",
-      "title": "Temporal deixa desalojados, causa falhas nos trens e mobiliza buscas em São Paulo",
-      "description": "A cidade de São Paulo e a Região Metropolitana amanheceram sob o impacto do forte temporal que atingiu a região na tarde e noite de domingo...",
-      "url": "https://iclnoticias.com.br/temporal-deixa-desalojados-em-sp/",
-      "source": "ICL Notícias",
-      "sourceCanonical": "ICL Notícias",
-      "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-23T13:36:38+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_1ef3a83be5ee",
-      "title": "Temporal com granizo e ventos fortes atinge São Paulo e ABC paulista",
-      "description": "A chuva foi registrada nesta segunda-feira, 23, em Guaianases, Cidade Tiradentes, Bela Vista e Santo André. A Zona Leste da capital paulista...",
-      "url": "https://www.terra.com.br/noticias/brasil/cidades/videos/temporal-com-granizo-e-ventos-fortes-atinge-sao-paulo-e-abc-paulista,92ee73fc08d87641baee16927e2ea2c1yna4xf1l.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-23T19:42:49+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_20f5573e0473",
@@ -274,6 +266,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_dfef1d7ab476",
+      "title": "Temporal deixa desalojados, causa falhas nos trens e mobiliza buscas em São Paulo",
+      "description": "A cidade de São Paulo e a Região Metropolitana amanheceram sob o impacto do forte temporal que atingiu a região na tarde e noite de domingo...",
+      "url": "https://iclnoticias.com.br/temporal-deixa-desalojados-em-sp/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-11-23T13:36:38+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_9b0aee3a67c1",
       "title": "Temporal provoca alagamentos e deixa moradores ilhados em São Paulo",
       "description": "O temporal que atingiu São Paulo provocou alagamentos, deixou moradores ilhados e danificou um shopping em São Bernardo do Campo.",
@@ -302,33 +308,33 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_c86846f1223e",
-      "title": "Temporal deixa 14 desalojados e homem desaparecido em SP, aponta Defesa Civil",
-      "description": "Bombeiros retomaram as buscas no Tamanduateí nesta segunda; previsão indica novas pancadas a partir do meio da tarde.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/cidades/temporal-deixa-14-desalojados-e-homem-desaparecido-em-sp-aponta-defesa-civil-1.1766877",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-11-23T12:36:32+00:00",
+      "id": "article_399902292eec",
+      "title": "Defesa Civil emite alerta severo para chuva com raios e risco de granizo em Guarulhos",
+      "description": "A Defesa Civil emitiu um alerta severo nesta segunda-feira (23) após identificar a chegada de chuva forte em Guarulhos. O alerta informa que...",
+      "url": "https://www.clickguarulhos.com.br/2026/11/23/defesa-civil-emite-alerta-severo-para-chuva-com-raios-e-risco-de-granizo-em-guarulhos/",
+      "source": "Click Guarulhos",
+      "sourceCanonical": "Click Guarulhos",
+      "sourceDomain": "clickguarulhos.com.br",
+      "publishedAt": "2026-11-23T18:11:42+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 10,
-    "average": 5.81,
-    "knownCount": 16,
-    "unknownCount": 4,
+    "average": 5.87,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
-      "center": 9,
+      "center": 8,
       "centerRight": 3,
       "right": 2,
-      "unknown": 4
+      "unknown": 5
     }
   },
   "scores": {
