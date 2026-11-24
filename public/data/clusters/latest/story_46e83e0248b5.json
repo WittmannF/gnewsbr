@@ -3,26 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l0ak8yeEVoRjZud2psanQ3X3NTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l0ak8yeEVoRjZud2psanQ3X3NTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-3",
-    "topstories"
+    "topic-3"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
       "topic-3"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
       "topic-3": 3
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Defesa Civil emite alertas por fortes chuvas em São Paulo",
   "summary": "O mês de novembro já acumulou 158,4mm, o que equivale a 19% acima da média esperada que é de 133,1mm; novas tempestades podem ocorrer na...",
@@ -30,14 +24,14 @@
   "topicKeywords": [
     "paulo",
     "chuva",
-    "forte",
     "alagamentos",
+    "forte",
     "alerta",
-    "temporal"
+    "estado"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/CHUVAS-SP-1.png?w=1200&h=630&crop=1",
-  "publishedAt": "2026-11-21T08:00:00+00:00",
-  "updatedAt": "2026-11-24T05:18:55.165022+00:00",
+  "publishedAt": "2026-11-21T19:42:08+00:00",
+  "updatedAt": "2026-11-24T06:28:41.076987+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,7 +44,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-23T23:40:18+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/CHUVAS-SP-1.png?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -70,20 +64,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_e7cd425ca04d",
-      "title": "Defesa Civil reforça alerta para chuva forte em todo o estado de SP entre domingo (22) e terça-feira (24)",
-      "description": "Previsão indica pancadas intensas acompanhadas de raios, ventos de até 60 km/h e queda de granizo; Grande SP, Campinas e Vale do Paraíba...",
-      "url": "https://www.agenciasp.sp.gov.br/defesa-civil/defesa-civil-reforca-alerta-para-chuva-forte-em-todo-o-estado-de-sao-paulo-entre-domingo-e-terca-feira/",
-      "source": "agenciasp.sp.gov.br",
-      "sourceCanonical": "agenciasp.sp.gov.br",
-      "sourceDomain": "agenciasp.sp.gov.br",
-      "publishedAt": "2026-11-21T08:00:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_2075d7349a7d",
       "title": "São Paulo terá segunda-feira (23) abafada e com pancadas de chuva à tarde",
       "description": "Capital e Grande SP terão sol entre nuvens, máxima acima de 29°C e chuva com raios e ventos; No restante do país, massa de ar quente e úmido...",
@@ -96,6 +76,20 @@
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/10/25/17929294456addeea515eab_1792929445_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
+    },
+    {
+      "id": "article_e7cd425ca04d",
+      "title": "Defesa Civil reforça alerta para chuva forte em todo o estado de SP entre domingo (22) e terça-feira (24)",
+      "description": "Previsão indica pancadas intensas acompanhadas de raios, ventos de até 60 km/h e queda de granizo; Grande SP, Campinas e Vale do Paraíba...",
+      "url": "https://www.agenciasp.sp.gov.br/defesa-civil/defesa-civil-reforca-alerta-para-chuva-forte-em-todo-o-estado-de-sao-paulo-entre-domingo-e-terca-feira/",
+      "source": "agenciasp.sp.gov.br",
+      "sourceCanonical": "agenciasp.sp.gov.br",
+      "sourceDomain": "agenciasp.sp.gov.br",
+      "publishedAt": "2026-11-21T19:42:08+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_7713e99ab4a1",
@@ -190,7 +184,7 @@
       "sourceCanonical": "iG Último Segundo",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-11-23T23:39:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -204,7 +198,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-11-24T02:17:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -238,14 +232,14 @@
       "bucket": "right"
     },
     {
-      "id": "article_20f5573e0473",
-      "title": "Túnel do Anhangabaú é fechado em meio a risco de alagamento em São Paulo",
-      "description": "Capital paulista está em estado de atenção para alagamentos nesta segunda (23/11). Túnel do Anhangabaú ficou inundado há algumas semanas.",
-      "url": "https://www.metropoles.com/sao-paulo/tunel-do-anhangabau-e-fechado-em-meio-a-risco-de-alagamento-em-sao-paulo",
+      "id": "article_1969ea338770",
+      "title": "Cidade de São Paulo está em estado de atenção para alagamentos nesta 2ª",
+      "description": "Áreas de instabilidade vindas do interior devem atuar na capital paulista de forma isolada, mas com tendência a se espalhar durante a tarde.",
+      "url": "https://www.metropoles.com/sao-paulo/cidade-de-sao-paulo-esta-em-estado-de-atencao-para-alagamentos-nesta-2a",
       "source": "Metrópoles",
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-23T20:50:00+00:00",
+      "publishedAt": "2026-11-23T18:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -294,20 +288,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_627549862345",
-      "title": "Defesa Civil alerta para risco de temporais na região de Louveira",
-      "description": "A população de Louveira deve ficar em atenção às condições meteorológicas previstas para os próximos dias. A Defesa Civil do Estado de São...",
-      "url": "https://louveira.sp.gov.br/conteudo/defesa-civil-alerta-para-risco-de-temporais-na-regiao-de-louveira",
-      "source": "Prefeitura de Louveira",
-      "sourceCanonical": "Prefeitura de Louveira",
-      "sourceDomain": "louveira.sp.gov.br",
-      "publishedAt": "2026-11-23T19:48:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_399902292eec",
       "title": "Defesa Civil emite alerta severo para chuva com raios e risco de granizo em Guarulhos",
       "description": "A Defesa Civil emitiu um alerta severo nesta segunda-feira (23) após identificar a chegada de chuva forte em Guarulhos. O alerta informa que...",
@@ -316,6 +296,20 @@
       "sourceCanonical": "Click Guarulhos",
       "sourceDomain": "clickguarulhos.com.br",
       "publishedAt": "2026-11-23T18:11:42+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_627549862345",
+      "title": "Defesa Civil alerta para risco de temporais na região de Louveira",
+      "description": "A população de Louveira deve ficar em atenção às condições meteorológicas previstas para os próximos dias. A Defesa Civil do Estado de São...",
+      "url": "https://louveira.sp.gov.br/conteudo/defesa-civil-alerta-para-risco-de-temporais-na-regiao-de-louveira",
+      "source": "Prefeitura de Louveira",
+      "sourceCanonical": "Prefeitura de Louveira",
+      "sourceDomain": "louveira.sp.gov.br",
+      "publishedAt": "2026-11-23T19:48:48+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
