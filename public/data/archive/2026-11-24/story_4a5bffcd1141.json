@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPek1TMUVoSHpkMmUwZ0J2ZHJTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPek1TMUVoSHpkMmUwZ0J2ZHJTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-5": 3
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 3,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Vorcaro • PF",
   "summary": "Os documentos constavam de uma investigação anterior da PF, divulgada em setembro por determinação do ministro André Mendonça. Na ocasião, o...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/09/Viviane-Barci-e-Alexandre-de-Moraes-1200x675.png",
   "publishedAt": "2026-11-20T12:15:00+00:00",
-  "updatedAt": "2026-11-24T08:31:27.949529+00:00",
+  "updatedAt": "2026-11-24T09:21:02.874145+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "O Globo",
       "sourceDomain": "oglobo.globo.com",
       "publishedAt": "2026-11-24T03:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-oglobo.glbimg.com/_ZEFuygN_R-Tn77FZHXnhSCtqK4=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/i/S/Qg34mcR9qfyOADDYnkiA/arte-2026-03-05t164017.016.png",
       "spectrumScore": 6,
       "bucket": "center"
@@ -246,6 +252,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_bea0b07cdafd",
+      "title": "Ministro da Justiça vai à Câmara explicar mudanças na PF",
+      "description": "O ministro da Justiça e Segurança Pública, Wellington César Lima e Silva, vai à Câmara dos Deputados nesta terça-feira (24) para prestar...",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/ministro-da-justica-vai-a-camara-explicar-mudancas-na-pf",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-24T08:30:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_4d339b926730",
       "title": "Pedro Campos: Sigilo não pode blindar ministros do STF no caso Master",
       "description": "Jornalista cobra divulgação de relatórios da PF e diz que fala de Gilmar Mendes sobre o tema foi \"muito rasa\"",
@@ -300,35 +320,21 @@
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
-    },
-    {
-      "id": "article_0021610f3f28",
-      "title": "Comissão de Segurança Pública ouve ministro da Justiça sobre reestruturação na Polícia Federal",
-      "description": "A Comissão de Segurança Pública da Câmara dos Deputados ouve, nesta terça-feira (24), o ministro da Justiça e Segurança Pública,...",
-      "url": "https://diariodecuritiba.com/2026/11/23/comissao-de-seguranca-publica-ouve-ministro-da-justica-sobre-reestruturacao-na-policia-federal/",
-      "source": "Diário de Curitiba",
-      "sourceCanonical": "Diário de Curitiba",
-      "sourceDomain": "diariodecuritiba.com",
-      "publishedAt": "2026-11-23T18:23:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.07,
+    "knownCount": 15,
+    "unknownCount": 5,
     "buckets": {
       "left": 4,
       "centerLeft": 0,
-      "center": 6,
+      "center": 7,
       "centerRight": 4,
       "right": 0,
-      "unknown": 6
+      "unknown": 5
     }
   },
   "scores": {
@@ -339,7 +345,6 @@
   },
   "flags": [
     "Alta cobertura",
-    "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
 }
