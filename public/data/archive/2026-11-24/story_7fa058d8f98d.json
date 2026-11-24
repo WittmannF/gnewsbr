@@ -3,17 +3,20 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1eW9pMUVoRW84NkRoZVBaSnBTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2o1eW9pMUVoRW84NkRoZVBaSnBTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-5",
     "topic-7"
   ],
   "discovery": {
     "seedPages": [
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "topic-5": 51,
       "topic-7": 27
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 27,
+    "firstSeenSeedPage": "topic-5",
+    "firstSeenRank": 51,
     "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/23/17954731406b04bef4d51b2_1795473140_3x2_xl.jpg",
   "publishedAt": "2026-11-17T21:18:46+00:00",
-  "updatedAt": "2026-11-24T14:34:52.072452+00:00",
-  "sourceCount": 3,
-  "articleCount": 3,
+  "updatedAt": "2026-11-24T15:26:49.098565+00:00",
+  "sourceCount": 4,
+  "articleCount": 4,
   "articles": [
     {
       "id": "article_f4a10cd581d0",
@@ -44,7 +47,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-24T09:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/23/17954731406b04bef4d51b2_1795473140_3x2_xl.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -72,10 +75,24 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-11-24T12:39:32+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/11/imagem-principal-criancas-incas-cocaina-ayahuasca-sacrificios-estudo-17954731406b04bef4d51b2_1795473140_3x2_xl.jpg",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_57793c6f78d5",
+      "title": "Crianças dopadas meses antes: ritual inca mudou o destino das vítimas escolhidas",
+      "description": "Cientistas descobriram novas evidências de que crianças no Império Inca eram preparadas para a morte com drogas e álcool muito antes dos...",
+      "url": "https://port.pravda.ru/news/science/66006-incas-criancas-drogas-sacrificio/",
+      "source": "Правда.Ру",
+      "sourceCanonical": "Правда.Ру",
+      "sourceDomain": "port.pravda.ru",
+      "publishedAt": "2026-11-18T14:26:00+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": "https://port.pravda.ru/image/preview/article/0/0/6/66006_amp.jpeg",
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
@@ -83,21 +100,21 @@
     "max": 5,
     "average": 3.67,
     "knownCount": 3,
-    "unknownCount": 0,
+    "unknownCount": 1,
     "buckets": {
       "left": 1,
       "centerLeft": 1,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 0
+      "unknown": 1
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 60
+    "confidence": 62
   },
   "flags": [
     "Manchetes divergentes"
