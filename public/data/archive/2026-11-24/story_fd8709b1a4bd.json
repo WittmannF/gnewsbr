@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1cVBtNUVoRXkxaGlobVhMVTBpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2l1cVBtNUVoRXkxaGlobVhMVTBpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "topic-3",
+      "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 60
+      "topic-3": 40,
+      "topic-5": 61
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 40,
+    "bestSeedRank": 40,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/05/17859425546a73521a4e240_1785942554_3x2_rt.jpg",
   "publishedAt": "2026-11-19T19:09:28+00:00",
-  "updatedAt": "2026-11-24T12:28:48.750318+00:00",
-  "sourceCount": 17,
-  "articleCount": 17,
+  "updatedAt": "2026-11-24T13:22:35.450893+00:00",
+  "sourceCount": 18,
+  "articleCount": 18,
   "articles": [
     {
       "id": "article_fbcbff54a6f8",
@@ -86,7 +89,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-23T12:50:49+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/GettyImages-2273068488.jpg?w=1200&h=630&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -142,7 +145,7 @@
       "sourceCanonical": "TV Sim Brasil",
       "sourceDomain": "tvsimbrasil.com.br",
       "publishedAt": "2026-11-24T06:36:46+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -246,6 +249,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_5638c8bd9de2",
+      "title": "Janaína Figueiredo: Governo não vai convidar Milei para a cerimônia de posse do Lula 4",
+      "description": "As declarações do ministro das Relações Exteriores da Argentina, Pablo Quirno, no último fim de semana, questionando a legitimidade do...",
+      "url": "https://noticias.uol.com.br/colunas/janaina-figueiredo/2026/11/24/governo-nao-vai-convidar-milei-para-a-cerimonia-de-posse-do-lula-4.htm",
+      "source": "UOL Notícias",
+      "sourceCanonical": "UOL Notícias",
+      "sourceDomain": "noticias.uol.com.br",
+      "publishedAt": "2026-11-24T12:46:35+00:00",
+      "postedLabel": "35 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_6b5d3758fe56",
       "title": "Chanceler argentino repete Milei e, sem provas, coloca em dúvida vitória de Lula",
       "description": "Fala veio após Pablo Quirno ser questionado sobre o presidente argentino não ter cumprimentado o brasileiro. Milei não reconheceu vitória do...",
@@ -268,7 +285,7 @@
       "sourceCanonical": "Sim Notícias",
       "sourceDomain": "simnoticias.com.br",
       "publishedAt": "2026-11-23T13:05:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -277,13 +294,13 @@
   "spectrum": {
     "min": 1,
     "max": 10,
-    "average": 5.78,
-    "knownCount": 9,
+    "average": 5.7,
+    "knownCount": 10,
     "unknownCount": 8,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 2,
+      "center": 3,
       "centerRight": 2,
       "right": 2,
       "unknown": 8
