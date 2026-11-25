@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPek1TMUVoR3lMRDJZYTZpR3d5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pPek1TMUVoR3lMRDJZYTZpR3d5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 3
+      "home": 4,
+      "topstories": 4,
+      "topic-5": 4
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 3,
-    "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Relatórios da PF omitem dados sobre Daniel Vorcaro, dizem fontes",
   "summary": "Segundo \"O Globo\", documento deixou de fora 2 contratos de Viviane Barci com Master e 47 mensagens no celular de Vorcaro. Leia no Poder360.",
@@ -24,15 +30,15 @@
   "topicKeywords": [
     "relatório",
     "master",
-    "fachin",
     "moraes",
+    "fachin",
     "vorcaro",
     "stf"
   ],
   "imageUrl": "https://static.poder360.com.br/uploads/2026/11/fachada-pf-13nov26-1200x675.jpg",
-  "publishedAt": "2026-11-20T12:15:00+00:00",
-  "updatedAt": "2026-11-25T01:27:37.438467+00:00",
-  "sourceCount": 19,
+  "publishedAt": "2026-11-23T13:30:15+00:00",
+  "updatedAt": "2026-11-25T02:24:07.295208+00:00",
+  "sourceCount": 18,
   "articleCount": 20,
   "articles": [
     {
@@ -122,7 +128,7 @@
     {
       "id": "article_c1d16e6cd2eb",
       "title": "Um relatório sob encomenda",
-      "description": "Novo relatório da PF sobre ligações de Alexandre de Moraes com Daniel Vorcaro deixou de fora mensagens importantes que o Brasil inteiro já...",
+      "description": "O que mais impressiona é que os poderosos perderam a vergonha de vez. Eles partem para as mais vagabundas falcatruas, as maiores atrocidades...",
       "url": "https://www.gazetadopovo.com.br/vozes/luis-ernesto-lacombe/relatorio-pf-daniel-vorcaro-alexandre-de-moraes/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
@@ -132,20 +138,6 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_ee8b083d9000",
-      "title": "A generosidade de Fachin e o marketing precoce de Mendonça",
-      "description": "O presidente do Supremo Tribunal Federal, ministro Edson Fachin, merece respeito. E questionamentos. O envio à Procuradoria Geral de...",
-      "url": "https://revistaforum.com.br/opiniao/a-generosidade-de-fachin-e-o-marketing-precoce-de-mendonca/",
-      "source": "Revista Fórum",
-      "sourceCanonical": "Revista Fórum",
-      "sourceDomain": "revistaforum.com.br",
-      "publishedAt": "2026-11-21T16:04:08+00:00",
-      "postedLabel": "3 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_ea4bddfd7d88",
@@ -260,20 +252,6 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_00c93d0f1132",
-      "title": "Master: Fachin tira sigilo de relatório da PF sobre Mendonça a pedido do ministro",
-      "description": "Ministro renunciou expressamente ao sigilo e pediu que a íntegra dos autos fosse disponibilizada para consulta pública.",
-      "url": "https://www.migalhas.com.br/quentes/469017/fachin-tira-sigilo-de-relatorio-da-pf-sobre-mendonca-a-pedido-dele",
-      "source": "Migalhas",
-      "sourceCanonical": "Migalhas",
-      "sourceDomain": "migalhas.com.br",
-      "publishedAt": "2026-11-20T12:15:00+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_66ab09e0a8f7",
       "title": "Busca da PF no celular de Vorcaro se limitou a nomes de ministros e excluiu anexos e imagens",
       "description": "Relatórios entregues a Fachin se limitaram a menções literais; no caso de Moraes, 47 de 52 mensagens citadas antes pela corporação não...",
@@ -314,18 +292,46 @@
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_1a2f1ed81cdc",
+      "title": "PF afirma que ordem de Fachin não previa cruzamento de dados de Vorcaro",
+      "description": "A Polícia Federal (PF) afirmou, em nota divulgada nesta terça-feira (24/11), que a determinação do ministro Edson Fachin, do Supremo...",
+      "url": "https://www.metropoles.com/colunas/mirelle-pinheiro/pf-afirma-que-ordem-de-fachin-nao-previa-cruzamento-de-dados-de-vorcaro",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-24T12:09:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_f2a9b316b0aa",
+      "title": "CASO MASTER: ALESSANDRO VIEIRA COBRA RIGOR DE PAULO GONET NA ANÁLISE DE RELATÓRIOS SOBRE MINISTROS DO STF",
+      "description": "O senador Alessandro Vieira (MDB/SE) cobrou rigor do procurador-geral da República, Paulo Gonet, na análise dos relatórios da Polícia...",
+      "url": "https://www.faxaju.com.br/caso-master-alessandro-vieira-cobra-rigor-de-paulo-gonet-na-analise-de-relatorios-sobre-ministros-do-stf/",
+      "source": "FaxAju",
+      "sourceCanonical": "FaxAju",
+      "sourceDomain": "faxaju.com.br",
+      "publishedAt": "2026-11-24T17:34:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 8,
-    "average": 5.54,
+    "average": 5.77,
     "knownCount": 13,
     "unknownCount": 7,
     "buckets": {
-      "left": 2,
+      "left": 1,
       "centerLeft": 1,
-      "center": 5,
+      "center": 6,
       "centerRight": 5,
       "right": 0,
       "unknown": 7
