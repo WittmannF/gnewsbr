@@ -3,35 +3,41 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otLVBPMUVoSHk0a29LNDExTC1pZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otLVBPMUVoSHk0a29LNDExTC1pZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 3,
+      "topstories": 3,
       "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-7",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 3,
     "bestSeedRank": 3,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre soldados • Ucrânia • guerra",
   "summary": "Pelo menos 490.334 soldados russos morreram desde o início da guerra na Ucrânia, em fevereiro de 2022, segundo uma análise de dados vazados...",
-  "topic": "Ucrânia · Mil",
+  "topic": "Ucrânia · Guerra",
   "topicKeywords": [
     "ucrânia",
-    "mil",
     "guerra",
+    "mil",
     "soldados",
     "russos",
     "dados"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/4rj1ldF9MXjCu7_Wj1KM06RjTr0=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/s/Y/IAdIEyQKiz1WNGCKNVAg/afp-20261125-d8kk8g3-v1-midres-ukrainerussiaconflictwar.jpg",
   "publishedAt": "2026-11-23T20:38:47+00:00",
-  "updatedAt": "2026-11-25T21:28:21.511765+00:00",
+  "updatedAt": "2026-11-25T22:18:26.271317+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -72,7 +78,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-11-25T19:34:29+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/1e4e/live/dce0d700-e8c5-11f1-99b6-a35a62fa4264.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -114,7 +120,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-25T19:46:57+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -146,6 +152,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_16b646e90d36",
+      "title": "Quase meio milhão de militares russos mortos na guerra da Ucrânia",
+      "description": "Os registos mostram que 65 por cento dos jovens militares russos entre os 18 e os 24 anos morreram na guerra em 2025. De acordo com a...",
+      "url": "https://www.rtp.pt/noticias/guerra-na-ucrania/quase-meio-milhao-de-militares-russos-mortos-na-guerra-da-ucrania_n1781512",
+      "source": "RTP",
+      "sourceCanonical": "RTP",
+      "sourceDomain": "rtp.pt",
+      "publishedAt": "2026-11-25T14:47:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_68838d0f2e7b",
@@ -190,20 +210,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_13fc030eeeb6",
-      "title": "Kremlin recusa comentar estimativa de 700.000 russos mortos na Ucrânia",
-      "description": "Moscovo, 25 nov 2026 (Lusa) — A presidência russa recusou hoje comentar as estimativas baseadas em dados pirateados segundo as quais as...",
-      "url": "https://www.correiodamanhacanada.com/kremlin-recusa-comentar-estimativa-de-700-000-russos-mortos-na-ucrania/",
-      "source": "Correio da Manhã Canadá",
-      "sourceCanonical": "Correio da Manhã Canadá",
-      "sourceDomain": "correiodamanhacanada.com",
-      "publishedAt": "2026-11-25T13:06:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_63a996db1227",
       "title": "Segundo órgãos independentes, mais de 700 mil soldados russos morreram na Ucrânia",
       "description": "É um balanço sobre o qual as autoridades russas têm tentado manter o segredo. De acordo com informações obtidas por hackers, os Cyber...",
@@ -212,7 +218,7 @@
       "sourceCanonical": "RFI",
       "sourceDomain": "rfi.fr",
       "publishedAt": "2026-11-25T18:18:05+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -226,7 +232,7 @@
       "sourceCanonical": "A Referência",
       "sourceDomain": "areferencia.com",
       "publishedAt": "2026-11-25T19:43:56+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -254,7 +260,7 @@
       "sourceCanonical": "Jornal Opinião",
       "sourceDomain": "jornalopiniao.net",
       "publishedAt": "2026-11-25T18:18:02+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -302,15 +308,15 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_033b84f86cb7",
-      "title": "Estimativa aponta mais de 720 mil soldados russos mortos na guerra da Ucrânia",
-      "description": "Mais de 720 mil soldados russos podem ter morrido desde o início da invasão em larga escala da Ucrânia, em fevereiro de 2022. A estimativa foi elaborada...",
-      "url": "https://www.gazetadevarginha.com.br/post/estimativa-aponta-mais-de-720-mil-soldados-russos-mortos-na-guerra-da-ucr%C3%A2nia",
-      "source": "Jornal Gazeta de Varginha",
-      "sourceCanonical": "Jornal Gazeta de Varginha",
-      "sourceDomain": "gazetadevarginha.com.br",
-      "publishedAt": "2026-11-24T17:59:05+00:00",
-      "postedLabel": "ontem",
+      "id": "article_4bb26746a426",
+      "title": "Quase 500mil soldados russos morreram na Guerra da Ucrânia,",
+      "description": "ATAQUE HACKER REVELA | Pelo menos 490.334 soldados russos morreram desde o início da guerra na Ucrânia, em fevereiro de 2022,...",
+      "url": "https://blogdomiltonfigueiredo.com.br/noticias/geral/quase-500mil-soldados-russos-morreram-na-guerra-da-ucrania-mostra-dado-vazado-de-agencia-de-estatistica-da-russia/",
+      "source": "Blog Milton Figueiredo",
+      "sourceCanonical": "Blog Milton Figueiredo",
+      "sourceDomain": "blogdomiltonfigueiredo.com.br",
+      "publishedAt": "2026-11-25T22:00:34+00:00",
+      "postedLabel": "17 minutos atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
