@@ -3,38 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJXy1lMkVoRWVodC0tQkNPTWl5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pJXy1lMkVoRWVodC0tQkNPTWl5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 5,
+      "home": 4,
+      "topstories": 4,
+      "topic-3": 4,
       "topic-5": 5
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
+    "bestSeedRank": 4,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Após pressão da oposição, Alcolumbre afirma que advogados do Senado vão defender Van Hattem em ação no STF",
   "summary": "Deputado é réu pelos crimes de calúnia e injúria contra o delegado da Polícia Federal Fábio Alvarez Shor.",
-  "topic": "Hattem · Van",
+  "topic": "Van · Hattem",
   "topicKeywords": [
-    "hattem",
     "van",
+    "hattem",
     "stf",
-    "alcolumbre",
     "oposição",
-    "senado"
+    "alcolumbre",
+    "defesa"
   ],
   "imageUrl": "https://s2-oglobo.glbimg.com/kUewx6jKLbJaTx3wzsuZTBOqi9g=/3009x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/P/j/owUXlVQs6WZuZGBoJRjQ/whatsapp-image-2026-11-18-at-17.10.33.jpeg",
   "publishedAt": "2026-11-23T02:00:00+00:00",
-  "updatedAt": "2026-11-25T06:29:21.046559+00:00",
+  "updatedAt": "2026-11-25T07:20:36.531715+00:00",
   "sourceCount": 17,
   "articleCount": 20,
   "articles": [
@@ -75,7 +81,7 @@
       "sourceCanonical": "Senado",
       "sourceDomain": "www12.senado.leg.br",
       "publishedAt": "2026-11-25T04:42:49+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -165,14 +171,14 @@
       "bucket": "center"
     },
     {
-      "id": "article_dc8546047139",
-      "title": "STF julga Marcel van Hattem por críticas à PF e partido Novo cita precedentes",
-      "description": "Entenda o julgamento de Marcel van Hattem no STF e os casos de Marina Silva e Gleisi Hoffmann citados como exemplos de imunidade...",
-      "url": "https://www.gazetadopovo.com.br/republica/partido-novo-resgata-falas-de-parlamentares-contra-a-policia-federal-no-stf/",
+      "id": "article_9668c763dec0",
+      "title": "Caso Marcel van Hattem no STF escancara a censura e o cerceamento à defesa no Brasil de hoje",
+      "description": "Caso a malfadada denúncia da PGR contra van Hattem seja recebida, o STF imporá censura ao Parlamento. Leia na Gazeta do Povo.",
+      "url": "https://www.gazetadopovo.com.br/opiniao/artigos/caso-marcel-van-hattem-no-stf-escancara-a-censura-e-o-cerceamento-a-defesa-no-brasil-de-hoje/",
       "source": "Gazeta do Povo",
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-11-24T18:39:00+00:00",
+      "publishedAt": "2026-11-24T11:00:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 8,
@@ -221,20 +227,6 @@
       "bucket": "right"
     },
     {
-      "id": "article_d41403c00835",
-      "title": "Congresso vai atuar em defesa de Van Hattem em ação no STF, diz Alcolumbre",
-      "description": "Deputado pode se tornar réu por injúria e calúnia contra delegado da Polícia Federal; presidente do Senado colocou advocacia da Casa à...",
-      "url": "https://www.cnnbrasil.com.br/politica/congresso-vai-atuar-em-defesa-de-van-hattem-em-acao-no-stf-diz-alcolumbre/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-24T21:59:06+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_5ac8f7e85c76",
       "title": "Oposição defende Van Hattem e cobra mobilização do Congresso",
       "description": "Parlamentares pedem que Câmara e Senado entrem no processo em que Van Hattem pode se tornar réu por críticas a um delegado da PF.",
@@ -263,6 +255,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_d41403c00835",
+      "title": "Congresso vai atuar em defesa de Van Hattem em ação no STF, diz Alcolumbre",
+      "description": "Deputado pode se tornar réu por injúria e calúnia contra delegado da Polícia Federal; presidente do Senado colocou advocacia da Casa à...",
+      "url": "https://www.cnnbrasil.com.br/politica/congresso-vai-atuar-em-defesa-de-van-hattem-em-acao-no-stf-diz-alcolumbre/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-24T21:59:06+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_ff8a7350f399",
       "title": "Além de Van Hattem",
       "description": "Supremo julga se recebe denúncia do procurador-geral contra um deputado – Marcel van Hattem – que denunciou um delegado federal – Fábio...",
@@ -271,7 +277,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-11-25T04:07:10+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -305,32 +311,32 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_02074103649b",
-      "title": "Hattem promete triplicar reação a tentativas do ‘STF abusador’ de silenciá-lo",
-      "description": "O deputado federal Marcel van Hattem (Novo-RS) subiu à tribuna da Câmara para reagir ao julgamento no Supremo Tribunal Federal (STF) que...",
-      "url": "https://diariodopoder.com.br/justica/ttc-justica/hattem-promete-triplicar-reacao-a-tentativas-do-stf-abusador-de-silencia-lo",
-      "source": "Diário do Poder",
-      "sourceCanonical": "Diário do Poder",
-      "sourceDomain": "diariodopoder.com.br",
-      "publishedAt": "2026-11-24T13:52:00+00:00",
+      "id": "article_45237f2c1f7d",
+      "title": "Após votos de Dino e Moraes, oposição sai em defesa de Van Hattem: ‘Não é possível normalizar’",
+      "description": "Após votos de Dino e Moraes, oposição sai em defesa de Van Hattem: 'Não é possível normalizar'. Parlamentares da oposição realizaram nesta...",
+      "url": "https://www.terra.com.br/noticias/videos/apos-votos-de-dino-e-moraes-oposicao-sai-em-defesa-de-van-hattem-nao-e-possivel-normalizar,2303d12f316c4fdeac5c5df91696fad7osalltmy.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-24T22:19:09+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": 9,
-      "bucket": "right"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.88,
+    "average": 5.65,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
       "left": 1,
       "centerLeft": 2,
-      "center": 8,
+      "center": 9,
       "centerRight": 4,
-      "right": 2,
+      "right": 1,
       "unknown": 3
     }
   },
