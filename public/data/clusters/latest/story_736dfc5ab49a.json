@@ -4,20 +4,23 @@
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pOcE9xNUVoRVVOWFU5QVdUTTdpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
     "home",
+    "topic-3",
     "topstories"
   ],
   "discovery": {
     "seedPages": [
       "home",
-      "topstories"
+      "topstories",
+      "topic-3"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4
+      "home": 2,
+      "topstories": 2,
+      "topic-3": 1
     },
     "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
+    "firstSeenRank": 2,
+    "bestSeedRank": 1,
     "isHomeTop": true,
     "isTopStoriesTop": true
   },
@@ -28,14 +31,14 @@
     "lula",
     "congresso",
     "aprovar",
+    "fiscal",
     "até",
-    "prioridades",
-    "bets"
+    "econômicas"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/XgoFmL30wDfiG8qEymjK45sKt6Y=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/J/aSmEpOQYAJ8Z0UtBkBJw/palacio-do-congresso-nacional-camara-e-senado.jpg",
   "publishedAt": "2026-11-19T17:57:41+00:00",
-  "updatedAt": "2026-11-25T10:19:40.543240+00:00",
-  "sourceCount": 19,
+  "updatedAt": "2026-11-25T11:18:08.876238+00:00",
+  "sourceCount": 20,
   "articleCount": 20,
   "articles": [
     {
@@ -53,18 +56,32 @@
       "bucket": "center"
     },
     {
-      "id": "article_1c095e5e0b49",
-      "title": "Além do pacote fiscal, veja pautas econômicas que governo tenta aprovar até dezembro",
-      "description": "Após avançar com o primeiro pacote de medidas fiscais no Senado, que deve ser votado hoje na Câmara dos Deputados, o governo buscará avançar...",
-      "url": "https://www.infomoney.com.br/politica/alem-do-pacote-fiscal-veja-pautas-economicas-que-governo-tenta-aprovar-ate-dezembro/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-23T11:51:38+00:00",
+      "id": "article_ae90c5107400",
+      "title": "Após ajuste fiscal, governo mira medidas para evitar perda da arrecadação",
+      "description": "... evitar perda da arrecadação. PEC do Imposto sobre Produtos Industrializados é uma das alternativas da administração. 24/11/2026 | 7:40. Correio do Povo.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/apos-ajuste-fiscal-governo-mira-medidas-para-evitar-perda-da-arrecadacao-1.1767151",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-11-24T10:47:07+00:00",
       "postedLabel": "ontem",
-      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/10/Camara-dos-deputados.png",
-      "spectrumScore": 6,
+      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1717864:1780078145/pzzb0289_0.jpg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=b9aca2b",
+      "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_87b10f259701",
+      "title": "Painel: Prorrogação do IPI será prioridade da equipe econômica após avanço do plano Moretti",
+      "description": "Texto busca manter arrecadação até o início da cobrança do \"imposto do pecado\" em fevereiro; Equipe econômica tenta evitar vazio de receita...",
+      "url": "https://www1.folha.uol.com.br/colunas/painel/2026/11/prorrogacao-do-ipi-sera-prioridade-da-equipe-economica-apos-avanco-do-plano-moretti.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-11-22T02:00:00+00:00",
+      "postedLabel": "3 dias atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/08/31/17882219636a961a0b33317_1788221963_3x2_rt.jpg",
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_1b7d182c7fd2",
@@ -78,20 +95,6 @@
       "postedLabel": "ontem",
       "imageUrl": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2025/12/congressonacional.jpg",
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_ea451548292f",
-      "title": "MP das bets e Desenrola 3: Centrão e oposição tentam mudar planos de Lula",
-      "description": "Parlamentares apresentam centenas de emendas aos textos. Movimentação ocorre para frear a agenda econômica antes da nova composição do...",
-      "url": "https://www.em.com.br/politica/2026/11/7542565-mp-das-bets-e-desenrola-3-centrao-e-oposicao-tentam-mudar-planos-de-lula.html",
-      "source": "Estado de Minas",
-      "sourceCanonical": "Estado de Minas",
-      "sourceDomain": "em.com.br",
-      "publishedAt": "2026-11-23T13:06:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://midias.em.com.br/_midias/jpg/2026/11/23/1000x1000/1_7542565-1760c2d52e9f46f796e489689fb79605-68281274.jpg?20261123100728?20261123100728",
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -109,6 +112,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_1c095e5e0b49",
+      "title": "Além do pacote fiscal, veja pautas econômicas que governo tenta aprovar até dezembro",
+      "description": "Após avançar com o primeiro pacote de medidas fiscais no Senado, que deve ser votado hoje na Câmara dos Deputados, o governo buscará avançar...",
+      "url": "https://www.infomoney.com.br/politica/alem-do-pacote-fiscal-veja-pautas-economicas-que-governo-tenta-aprovar-ate-dezembro/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-11-23T11:51:38+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
+    },
+    {
       "id": "article_b2fdaea9cf17",
       "title": "A janela de Lula: ajustes e STF",
       "description": "Este é o grande momento para a agenda do governo petista, encabeçada pelo pacote fiscal e a indicação da vaga ao Supremo Tribunal Federal.",
@@ -117,7 +134,7 @@
       "sourceCanonical": "Estado de Minas",
       "sourceDomain": "em.com.br",
       "publishedAt": "2026-11-25T05:00:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -131,10 +148,24 @@
       "sourceCanonical": "Metrópoles",
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-25T07:00:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_327ca6ef5f18",
+      "title": "Os desafios da equipe econômica do Lula no Congresso depois do Plano Moretti",
+      "description": "Fazenda e Planejamento correm contra o tempo para garantir aprovação de dois outros projetos ainda este ano.",
+      "url": "https://noticias.r7.com/prisma/r7-planalto/os-desafios-da-equipe-economica-do-lula-no-congresso-apos-plano-moretti-23112026/",
+      "source": "R7",
+      "sourceCanonical": "R7",
+      "sourceDomain": "noticias.r7.com",
+      "publishedAt": "2026-11-23T15:00:10+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
     },
     {
       "id": "article_e77b936d5609",
@@ -159,7 +190,7 @@
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-11-25T08:00:24+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
@@ -202,6 +233,20 @@
       "sourceDomain": "brasilnocentro.com.br",
       "publishedAt": "2026-11-23T18:45:00+00:00",
       "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_2dd36f2bcbec",
+      "title": "Governo tenta aprovar ao menos oito medidas econômicas no Congresso antes do recesso",
+      "description": "Após a aprovação do pacote de ajuste fiscal que prevê economia de até R$ 56 bilhões, o governo Lula busca acelerar a votação de ao menos...",
+      "url": "https://veronoticias.com/politica/governo-tenta-aprovar-ao-menos-oito-medidas-economicas-no-congresso-antes-do-recesso/",
+      "source": "Vero Notícias",
+      "sourceCanonical": "Vero Notícias",
+      "sourceDomain": "veronoticias.com",
+      "publishedAt": "2026-11-25T10:30:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -257,7 +302,7 @@
       "sourceCanonical": "O Potiguar",
       "sourceDomain": "opotiguar.com.br",
       "publishedAt": "2026-11-23T10:52:18+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -275,73 +320,32 @@
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
-    },
-    {
-      "id": "article_1dc3b088c9d7",
-      "title": "Corrida contra o relógio: governo tenta aprovar ao menos 8 projetos econômicos antes do fim do ano",
-      "description": "Entre os projetos estão MP das bets, imposto seletivo, Desenrola 3.0 e regulamentação das big techs; recesso começa em 23/12.",
-      "url": "https://tmc.com.br/politica/lula-oito-projetos-economicos-recesso-congresso-2026/",
-      "source": "tmc.com.br",
-      "sourceCanonical": "tmc.com.br",
-      "sourceDomain": "tmc.com.br",
-      "publishedAt": "2026-11-25T09:44:11+00:00",
-      "postedLabel": "35 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_0743f1cf6af1",
-      "title": "Governo Lula se apressa para aprovar medidas econômicas até recesso",
-      "description": "O governo do presidente Luiz Inácio Lula da Silva (PT) está trabalhando rapidamente para aprovar uma série de medidas econômicas antes do recesso...",
-      "url": "https://boca.com.br/politica/governo-lula-apressa-aprovacao-medidas-economicas",
-      "source": "boca.com.br",
-      "sourceCanonical": "boca.com.br",
-      "sourceDomain": "boca.com.br",
-      "publishedAt": "2026-11-25T09:24:55+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_4cfa1798ef1a",
-      "title": "Fora da lista de prioridades, a MP das Bets cede lugar a um PL que não proíbe nada sozinho",
-      "description": "Fora das prioridades de Lula, a MP das Bets dá lugar ao PL 5.477, que poupa operadoras com autorização da Fazenda e pode valer só contra o...",
-      "url": "https://bnldata.com.br/fora-da-lista-de-prioridades-a-mp-das-bets-cede-lugar-a-um-pl-que-nao-proibe-nada-sozinho/",
-      "source": "BNLData",
-      "sourceCanonical": "BNLData",
-      "sourceDomain": "bnldata.com.br",
-      "publishedAt": "2026-11-20T21:45:47+00:00",
-      "postedLabel": "4 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 1,
     "max": 8,
-    "average": 4.92,
-    "knownCount": 12,
-    "unknownCount": 8,
+    "average": 5,
+    "knownCount": 14,
+    "unknownCount": 6,
     "buckets": {
       "left": 2,
-      "centerLeft": 0,
+      "centerLeft": 1,
       "center": 9,
-      "centerRight": 1,
+      "centerRight": 2,
       "right": 0,
-      "unknown": 8
+      "unknown": 6
     }
   },
   "scores": {
-    "coverageDiversity": 60,
+    "coverageDiversity": 80,
     "spectrumBalance": 100,
     "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]

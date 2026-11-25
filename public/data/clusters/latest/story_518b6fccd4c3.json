@@ -10,11 +10,11 @@
       "topic-2"
     ],
     "seedRanks": {
-      "topic-2": 23
+      "topic-2": 19
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 23,
-    "bestSeedRank": 23,
+    "firstSeenRank": 19,
+    "bestSeedRank": 19,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/NlZhsloK6r1mTGUKxlBEOzUu2f8=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/R/m/RXiyVFTAO9bD3o0MDpaQ/midia-de-distribuicao-g1-42-.jpg",
   "publishedAt": "2026-11-22T20:47:01+00:00",
-  "updatedAt": "2026-11-25T09:22:31.685831+00:00",
+  "updatedAt": "2026-11-25T11:19:41.944214+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -59,7 +59,7 @@
       "sourceDomain": "pmvc.ba.gov.br",
       "publishedAt": "2026-11-22T20:47:01+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://www.pmvc.ba.gov.br/wp-content/uploads/Laboratório-Central-Municipal-de-Vitória-da-Conquista-e1795380277794-474x315.jpeg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -72,7 +72,7 @@
       "sourceCanonical": "Rádio Metrópole",
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-11-24T10:04:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -128,7 +128,7 @@
       "sourceCanonical": "Bahia Econômica",
       "sourceDomain": "bahiaeconomica.com.br",
       "publishedAt": "2026-11-24T10:00:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -170,7 +170,7 @@
       "sourceCanonical": "Portal Salvador FM",
       "sourceDomain": "portalsalvadorfm.com.br",
       "publishedAt": "2026-11-24T10:26:50+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://uploads.psnoticias.com.br/2026/11/edicasea-mpox-e-uma-doenca-viral-transmitida-por-contato-direto-com-lesoes-ou-superficies-contaminadas-imagem-qinqie99-shutterstock-21umcbgis.webp",
       "spectrumScore": 5,
       "bucket": "center"
@@ -274,6 +274,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_7714aba9823d",
+      "title": "Mpox registra novos casos na Bahia",
+      "description": "Três pessoas receberam diagnóstico positivo para Mpox no sudoeste da Bahia nos últimos dias. Os registros foram identificados em Vitória da...",
+      "url": "https://www.bradojornal.com/noticias/saude/2026/11/25/mpox-registra-novos-casos-na-bahia/",
+      "source": "brado jornal",
+      "sourceCanonical": "brado jornal",
+      "sourceDomain": "bradojornal.com",
+      "publishedAt": "2026-11-25T11:04:25+00:00",
+      "postedLabel": "15 minutos atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_2c842def2bb8",
       "title": "Três novos casos de Mpox são confirmados na região sudoeste da Bahia",
       "description": "A região sudoeste da Bahia registrou a confirmação de três casos de Mpox nos últimos dias, sendo um no município de...",
@@ -300,42 +314,28 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f1b9205dc6d5",
-      "title": "Bahia tem três casos de Mpox confirmados e investiga nova suspeita da doença",
-      "description": "Um paciente foi diagnosticado em Vitória da Conquista e permanece em isolamento domiciliar; outros dois casos foram confirmados em...",
-      "url": "https://www.correio24horas.com.br/bahia/bahia-tem-novo-caso-de-mpox-confirmado-e-investiga-nova-suspeita-da-doenca-1126",
-      "source": "Jornal Correio",
-      "sourceCanonical": "Jornal Correio",
-      "sourceDomain": "correio24horas.com.br",
-      "publishedAt": "2026-11-23T20:39:41+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://midias.correio24horas.com.br/2024/09/18/edicasea-mpox-e-uma-doenca-viral-transmitida-por-contato-direto-com-lesoes-ou-superficies-contaminadas-imagem-qinqie99--shutterstock-21umcbgis.jpg",
-      "spectrumScore": 5,
-      "bucket": "center"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 5,
-    "average": 4.75,
-    "knownCount": 4,
-    "unknownCount": 16,
+    "average": 4.67,
+    "knownCount": 3,
+    "unknownCount": 17,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 3,
+      "center": 2,
       "centerRight": 0,
       "right": 0,
-      "unknown": 16
+      "unknown": 17
     }
   },
   "scores": {
     "coverageDiversity": 40,
     "spectrumBalance": 27,
     "headlineDivergence": 73,
-    "confidence": 87
+    "confidence": 84
   },
   "flags": [
     "Alta cobertura",
