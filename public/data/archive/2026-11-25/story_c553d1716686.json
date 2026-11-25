@@ -10,11 +10,11 @@
       "topic-4"
     ],
     "seedRanks": {
-      "topic-4": 40
+      "topic-4": 27
     },
     "firstSeenSeedPage": "topic-4",
-    "firstSeenRank": 40,
-    "bestSeedRank": 40,
+    "firstSeenRank": 27,
+    "bestSeedRank": 27,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/thomas-markle-pai-meghan-markle.jpg?w=1200&h=630&crop=1",
   "publishedAt": "2026-11-18T09:29:23+00:00",
-  "updatedAt": "2026-11-25T18:26:26.837495+00:00",
+  "updatedAt": "2026-11-25T19:21:24.111068+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "f5.folha.uol.com.br",
       "publishedAt": "2026-11-25T16:33:40+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/25/17956237966b070b7443b90_1795623796_3x2_lg.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -86,7 +86,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-25T12:48:04+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/11/GettyImages-2301126335.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -118,6 +118,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_a10a94bd4976",
+      "title": "Juíza manda transferir pai de Meghan Markle para a Califórnia",
+      "description": "Thomas Markle está detido em prisão do condado de Pinellas, na Flórida.",
+      "url": "https://pleno.news/mundo/juiza-manda-transferir-pai-de-meghan-markle-para-a-california.html",
+      "source": "Pleno.News",
+      "sourceCanonical": "Pleno.News",
+      "sourceDomain": "pleno.news",
+      "publishedAt": "2026-11-25T18:31:00+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_05a8e5f04f6e",
@@ -274,20 +288,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_dcc23a92c84a",
-      "title": "Um grande júri acusa Thomas Markle, pai de Meghan, de dois crimes de pornografia infantil",
-      "description": "Thomas Markle, pai de Meghan Markle, enfrenta duas acusações federais por posse de pornografia infantil na Califórnia, com penas de até 20...",
-      "url": "https://www.democrata.es/pt/internacional/um-grande-juri-acusa-thomas-markle-pai-de-meghan-de-dois-crimes-de-pornografia-infantil/",
-      "source": "Demócrata",
-      "sourceCanonical": "Demócrata",
-      "sourceDomain": "democrata.es",
-      "publishedAt": "2026-11-25T02:22:33+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_7d3a5ac8bfd3",
       "title": "Meghan Markle enfrenta caos familiar: pai é considerado apto pela Justiça em caso de material de abuso sexual infantil, e Harry estaria em guerra com William por causa de Charles III",
       "description": "Thomas Markle foi considerado mentalmente apto para responder às acusações criminais nos EUA; paralelamente, Harry estaria convencido de que...",
@@ -310,7 +310,7 @@
       "sourceCanonical": "www.radio96fmns.com.br",
       "sourceDomain": "radio96fmns.com.br",
       "publishedAt": "2026-11-25T13:55:27+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 3,
-    "max": 7,
-    "average": 5.45,
-    "knownCount": 11,
-    "unknownCount": 9,
+    "max": 9,
+    "average": 5.75,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
       "center": 8,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 9
+      "right": 1,
+      "unknown": 8
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 68,
-    "headlineDivergence": 82,
+    "coverageDiversity": 80,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
