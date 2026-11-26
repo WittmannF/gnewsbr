@@ -3,27 +3,33 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJcmRpMkVoRkR2RGpoWkh2aTRTZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lJcmRpMkVoRkR2RGpoWkh2aTRTZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Kim Jong Un diz que status nuclear do país é inviolável",
   "summary": "Líder também defendeu a ampliação da produção de materiais nucleares e o desenvolvimento de armas táticas. Em outro episódio, governo...",
-  "topic": "Kim · Norte",
+  "topic": "Norte · Kim",
   "topicKeywords": [
-    "kim",
     "norte",
+    "kim",
     "jong",
     "coreia",
     "embaixadores",
@@ -31,8 +37,8 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/P2Fm1bshRuQCOGxJIU_v0P_cq40=/5849x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/3/BuCX48STqLltlblXTMrA/2026-11-19t045108z-1532546279-rc2208a9vrqw-rtrmadp-3-northkorea-ai.jpg",
   "publishedAt": "2026-11-22T08:00:00+00:00",
-  "updatedAt": "2026-11-26T04:32:30.951001+00:00",
-  "sourceCount": 18,
+  "updatedAt": "2026-11-26T05:18:51.015190+00:00",
+  "sourceCount": 17,
   "articleCount": 20,
   "articles": [
     {
@@ -58,7 +64,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "noticias.uol.com.br",
       "publishedAt": "2026-11-26T00:03:25+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -100,7 +106,7 @@
       "sourceCanonical": "Correio do Povo",
       "sourceDomain": "correiodopovo.com.br",
       "publishedAt": "2026-11-26T02:37:22+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -114,7 +120,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-26T02:15:00+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -232,20 +238,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_e8fda440853a",
-      "title": "Kim Jong-un reforça uso de armas nucleares táticas",
-      "description": "O líder da Coreia do Norte, Kim Jong-un, visitou na quarta-feira (25) instalações de produção de material nuclear e um centro de pesquisa de...",
-      "url": "https://www.spacemoney.com.br/economia/exterior/kim-jong-un-reforca-armas-nucleares-taticas/",
-      "source": "SpaceMoney",
-      "sourceCanonical": "SpaceMoney",
-      "sourceDomain": "spacemoney.com.br",
-      "publishedAt": "2026-11-26T03:10:25+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_94e06283edc5",
       "title": "Kim Jong Un reforça laços com países amigos em Pyongyang",
       "description": "Líder norte-coreano Kim Jong Un recebe credenciais de dez embaixadores e defende cooperação entre países amigos.",
@@ -297,6 +289,20 @@
       "sourceDomain": "operamundi.uol.com.br",
       "publishedAt": "2026-11-26T01:30:18+00:00",
       "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_a4dc481f5690",
+      "title": "A Coreia do Norte está avançando com o desenvolvimento de armas nucleares táticas para uma variedade de missões militares.",
+      "description": "A Agência Central de Notícias da Coreia (KCNA) informou em 26 de novembro que o líder Kim Jong Un inspecionou instalações de produção de...",
+      "url": "https://www.vietnam.vn/pt/trieu-tien-thuc-day-trien-khai-vu-khi-hat-nhan-chien-thuat-cho-nhieu-nhiem-vu-quan-su",
+      "source": "Vietnam.vn",
+      "sourceCanonical": "Vietnam.vn",
+      "sourceDomain": "vietnam.vn",
+      "publishedAt": "2026-11-26T02:40:41+00:00",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
