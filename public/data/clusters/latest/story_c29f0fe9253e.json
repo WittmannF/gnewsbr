@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKczRtOUVoRS1EYXFEUmhYOHd5Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKczRtOUVoRS1EYXFEUmhYOHd5Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-2"
+    "topic-2",
+    "topic-7"
   ],
   "discovery": {
     "seedPages": [
-      "topic-2"
+      "topic-2",
+      "topic-7"
     ],
     "seedRanks": {
-      "topic-2": 8
+      "topic-2": 12,
+      "topic-7": 50
     },
     "firstSeenSeedPage": "topic-2",
-    "firstSeenRank": 8,
-    "bestSeedRank": 8,
+    "firstSeenRank": 12,
+    "bestSeedRank": 12,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/4a09/live/61ab5300-e76f-11f1-99a1-253766e7ad8b.jpg",
   "publishedAt": "2026-11-25T17:35:07+00:00",
-  "updatedAt": "2026-11-26T14:20:05.025100+00:00",
+  "updatedAt": "2026-11-26T20:18:52.404285+00:00",
   "sourceCount": 4,
   "articleCount": 4,
   "articles": [
@@ -44,22 +47,8 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-11-25T17:35:07+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/4a09/live/61ab5300-e76f-11f1-99a1-253766e7ad8b.jpg",
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
-      "id": "article_c0463e3e41ca",
-      "title": "A influenciadora que ficou 2 meses internada em clínica psiquiátrica por um erro: 'Fui rotulada como psicótica por ser mulher'",
-      "description": "Sabrina Bahsoon ficou conhecida mundialmente como \"Tube Girl\" depois que vídeos gravados por ela mesma, dançando e dublando músicas no metrô...",
-      "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/a-influenciadora-que-ficou-2-meses-internada-em-clinica-psiquiatrica-por-um-erro-fui-rotulada-como-psicotica-por-ser-mulher.shtml",
-      "source": "Folha de S.Paulo",
-      "sourceCanonical": "Folha de S.Paulo",
-      "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-11-26T14:06:00+00:00",
-      "postedLabel": "14 minutos atrás",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/26/17957010066b08390e528bd_1795701006_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -86,32 +75,46 @@
       "sourceCanonical": "Diário do Centro do Mundo",
       "sourceDomain": "diariodocentrodomundo.com.br",
       "publishedAt": "2026-11-26T13:21:36+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://www.diariodocentrodomundo.com.br/wp-content/uploads/2026/11/imagem-principal-tube-girl-internacao-psiquiatrica-encefalite-anti-receptor-nmda-imagem-cortada-56.jpg",
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_bc5e46b6a1d6",
+      "title": "A influenciadora que ficou 2 meses internada em clínica psiquiátrica por um erro: 'Fui rotulada como psicótica por ser mulher'",
+      "description": "Sabrina Bahsoon ficou conhecida mundialmente como \"Tube Girl\" depois que vídeos gravados por ela mesma, dançando e dublando músicas no metrô...",
+      "url": "https://www.reporterpb.com.br/noticia-extra/2026/11/26/a-influenciadora-que-ficou-2-meses-internada-em-clinica-psiquiatrica-por-um-erro-fui-rotulada-como-psicotica-por-ser-mulher/145072.html",
+      "source": "Repórter PB",
+      "sourceCanonical": "Repórter PB",
+      "sourceDomain": "reporterpb.com.br",
+      "publishedAt": "2026-11-26T14:06:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://res.cloudinary.com/jmultimidia/image/upload/v1643491095/reporterpb/reporter-pb-bg.png",
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 5,
-    "average": 3.75,
-    "knownCount": 4,
-    "unknownCount": 0,
+    "average": 3.67,
+    "knownCount": 3,
+    "unknownCount": 1,
     "buckets": {
       "left": 1,
-      "centerLeft": 2,
+      "centerLeft": 1,
       "center": 1,
       "centerRight": 0,
       "right": 0,
-      "unknown": 0
+      "unknown": 1
     }
   },
   "scores": {
     "coverageDiversity": 60,
     "spectrumBalance": 57,
     "headlineDivergence": 79,
-    "confidence": 65
+    "confidence": 62
   },
   "flags": [
     "Manchetes divergentes"
