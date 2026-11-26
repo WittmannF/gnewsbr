@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p3bzdhN0VoRUxFN0xVOW41QWlpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p3bzdhN0VoRUxFN0xVOW41QWlpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 7
+      "home": 2,
+      "topstories": 2,
+      "topic-5": 2
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 7,
-    "bestSeedRank": 7,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
+    "bestSeedRank": 2,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Sem mandato, aliados de Lula buscam espaço no novo governo",
   "summary": "Entre derrotados e ex-ministros, o presidente deve anunciar nova equipe em bloco e quer combinar experiência e renovação.",
@@ -26,13 +32,13 @@
     "segurança",
     "pública",
     "ministros",
-    "justiça",
-    "ministério"
+    "ministérios",
+    "justiça"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/lula-no-palacio-do-planalto-foto-evaristo-sa-afp-3.jpg",
   "publishedAt": "2026-11-25T12:01:00+00:00",
-  "updatedAt": "2026-11-26T13:25:06.775996+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-11-26T16:20:29.104837+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -64,32 +70,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_afbb3233b300",
-      "title": "Mesmo sem Haddad no governo, Lula tem desafio de acomodar outros aliados derrotados; veja quem são",
-      "description": "Ex-ministros e parlamentares que perderam eleição aparecem entre nomes cotados para quarto mandato de petista.",
-      "url": "https://www1.folha.uol.com.br/poder/2026/11/mesmo-sem-haddad-no-governo-lula-tem-desafio-de-acomodar-outros-aliados-derrotados-veja-quem-sao.shtml",
+      "id": "article_a73cc6276c42",
+      "title": "Centrão escolhe nomes 'coringa' para ministérios enquanto espera Lula distribuir pastas",
+      "description": "Partidos definem escolhidos que podem ocupar diferentes cargos para sinalizar unidade das bancadas; Definição de Lula pode ser estendida até...",
+      "url": "https://www1.folha.uol.com.br/poder/2026/11/centrao-escolhe-nomes-coringa-para-ministerios-enquanto-espera-lula-distribuir-pastas.shtml",
       "source": "Folha de S.Paulo",
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
-      "publishedAt": "2026-11-26T02:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/09/18/17897690686aadb56c72629_1789769068_3x2_rt.jpg",
+      "publishedAt": "2026-11-26T15:50:00+00:00",
+      "postedLabel": "30 minutos atrás",
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2026/11/26/17957070366b08509c3750d_1795707036_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
-    },
-    {
-      "id": "article_0710b6b4a989",
-      "title": "Aliados derrotados nas eleições buscam espaço no novo governo Lula",
-      "description": "De acordo com apuração de Jussara Soares para o CNN Prime Time, presidente é cobrado a acomodar quem \"cumpriu a missão\" nas eleições. Da CNN...",
-      "url": "https://www.cnnbrasil.com.br/politica/aliados-derrotados-nas-eleicoes-buscam-espaco-no-novo-governo-lula/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-26T06:36:44+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/Pronunciamento-Lula-e-Haddad-4-.jpeg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_d9a25bcb6849",
@@ -101,20 +93,48 @@
       "sourceDomain": "iclnoticias.com.br",
       "publishedAt": "2026-11-25T20:03:55+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
+      "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/11/Design-sem-nome-5-e1795636860418.webp",
       "spectrumScore": 2,
       "bucket": "left"
     },
     {
-      "id": "article_376761634230",
-      "title": "Lula agora cogita Alckmin para o novo Ministério da Segurança Pública",
-      "description": "Presidente disse a interlocutores que o vice-presidente, ex-governador de São Paulo, também tem perfil adequado para esta pasta.",
-      "url": "https://www.estadao.com.br/politica/lula-agora-cogita-alckmin-para-o-novo-ministerio-da-seguranca-publica/",
+      "id": "article_0710b6b4a989",
+      "title": "Aliados derrotados nas eleições buscam espaço no novo governo Lula",
+      "description": "De acordo com apuração de Jussara Soares para o CNN Prime Time, presidente é cobrado a acomodar quem \"cumpriu a missão\" nas eleições. Da CNN...",
+      "url": "https://www.cnnbrasil.com.br/politica/aliados-derrotados-nas-eleicoes-buscam-espaco-no-novo-governo-lula/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-26T06:36:44+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b3ba2b17887e",
+      "title": "JOTA Principal | Planos para a economia e montagem da Esplanada de Lula 4 avançam lado a lado",
+      "description": "Esta é a versão online da newsletter JOTA Principal. Quer receber as próximas edições e acompanhar os principais temas do momento?",
+      "url": "https://www.jota.info/newsletters/jota-principal/planos-economia-esplanada-lula-4",
+      "source": "JOTA Info",
+      "sourceCanonical": "JOTA Info",
+      "sourceDomain": "jota.info",
+      "publishedAt": "2026-11-26T14:29:58+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_f9dfd8253868",
+      "title": "Lula deve replicar maioria de políticos na Esplanada dos Ministérios no quarto mandato",
+      "description": "Primeiros dois governos do petista tiveram mais nomes que não tinham disputado eleições entre os ministros; veja levantamento.",
+      "url": "https://www.estadao.com.br/politica/lula-deve-replicar-maioria-de-politicos-na-esplanada-dos-ministerios-no-quarto-mandato/",
       "source": "Estadão",
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
-      "publishedAt": "2026-11-26T00:23:43+00:00",
-      "postedLabel": "hoje",
+      "publishedAt": "2026-11-26T15:00:00+00:00",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -128,10 +148,24 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-26T09:01:46+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_f25cf282591d",
+      "title": "Lula avalia Alckmin no comando da Segurança Pública em seu 4º mandato",
+      "description": "Auxiliares do presidente dão a escolha como certa e esperam anúncio até a próxima semana. Pesa a favor do vice a experiência no comando das...",
+      "url": "https://www.cartacapital.com.br/politica/lula-avalia-alckmin-no-comando-da-seguranca-publica-em-seu-4o-mandato/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-11-26T13:19:00+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     },
     {
       "id": "article_60f2def2b19e",
@@ -142,21 +176,7 @@
       "sourceCanonical": "InfoMoney",
       "sourceDomain": "infomoney.com.br",
       "publishedAt": "2026-11-25T15:35:18+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6ff923591e56",
-      "title": "Lula deve anunciar ministros antes de viagem para Uruguai",
-      "description": "Presidente tem feito reuniões com aliados e quer fechar desenho da equipe econômica e ministério da segurança.",
-      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-carla/lula-deve-anunciar-ministros-antes-de-viagem-para-uruguai",
-      "source": "SBT News",
-      "sourceCanonical": "SBT",
-      "sourceDomain": "sbtnews.sbt.com.br",
-      "publishedAt": "2026-11-25T13:43:55+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -174,6 +194,20 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_6ff923591e56",
+      "title": "Lula deve anunciar ministros antes de viagem para Uruguai",
+      "description": "Presidente tem feito reuniões com aliados e quer fechar desenho da equipe econômica e ministério da segurança.",
+      "url": "https://sbtnews.sbt.com.br/colunas/coluna-da-carla/lula-deve-anunciar-ministros-antes-de-viagem-para-uruguai",
+      "source": "SBT News",
+      "sourceCanonical": "SBT",
+      "sourceDomain": "sbtnews.sbt.com.br",
+      "publishedAt": "2026-11-25T13:43:55+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_779fdbf69198",
@@ -198,7 +232,7 @@
       "sourceCanonical": "iG Último Segundo",
       "sourceDomain": "ultimosegundo.ig.com.br",
       "publishedAt": "2026-11-26T13:04:00+00:00",
-      "postedLabel": "21 minutos atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -212,20 +246,6 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-25T16:47:48+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_a02dd5869917",
-      "title": "Lula vai divulgar nomes para ministérios no tempo dele, diz ministro do Planejamento",
-      "description": "O ministro do Planejamento, Bruno Moretti, disse nesta quarta-feira, 25, que o presidente Luiz Inácio Lula da Silva definirá os nomes que...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/lula-vai-divulgar-nomes-para-ministerios-no-tempo-dele-diz-ministro-do-planejamento,75b6cbca9c57cc2581aa19ab7abd7b67psbr5d1i.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-25T15:40:00+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
@@ -246,6 +266,34 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_a02dd5869917",
+      "title": "Lula vai divulgar nomes para ministérios no tempo dele, diz ministro do Planejamento",
+      "description": "O ministro do Planejamento, Bruno Moretti, disse nesta quarta-feira, 25, que o presidente Luiz Inácio Lula da Silva definirá os nomes que...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/lula-vai-divulgar-nomes-para-ministerios-no-tempo-dele-diz-ministro-do-planejamento,75b6cbca9c57cc2581aa19ab7abd7b67psbr5d1i.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-25T15:40:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b37dab09a12f",
+      "title": "O quebra-cabeça ministerial de Lula 4",
+      "description": "Lembra dos dias seguintes ao primeiro turno, quando União Brasil, PP e Republicanos declararam apoio oficial a Flávio Bolsonaro no segundo...",
+      "url": "https://www.metropoles.com/blog-do-noblat/o-quebra-cabeca-ministerial-de-lula-4",
+      "source": "Metrópoles",
+      "sourceCanonical": "Metrópoles",
+      "sourceDomain": "metropoles.com",
+      "publishedAt": "2026-11-25T15:00:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_b6e02e233d83",
       "title": "Lula se reúne com ex-ministros da Justiça para discutir criação de pasta para segurança pública",
       "description": "Para o Ministério da Fazenda, um nome ganhou força: o do executivo Luiz Carlos Trabuco.",
@@ -260,81 +308,39 @@
       "bucket": "centerRight"
     },
     {
-      "id": "article_b37dab09a12f",
-      "title": "O quebra-cabeça ministerial de Lula 4",
-      "description": "Lembra dos dias seguintes ao primeiro turno, quando União Brasil, PP e Republicanos declararam apoio oficial a Flávio Bolsonaro no segundo...",
-      "url": "https://www.metropoles.com/blog-do-noblat/o-quebra-cabeca-ministerial-de-lula-4",
-      "source": "Metrópoles",
-      "sourceCanonical": "Metrópoles",
-      "sourceDomain": "metropoles.com",
-      "publishedAt": "2026-11-25T15:00:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_9a0445014038",
-      "title": "Alckmin é cotado para comandar Ministério da Segurança Pública no governo Lula em 2027",
-      "description": "Pasta deve ser criada no quarto mandato do petista, com foco no combate ao crime organizado. Experiência do vice-presidente como governador...",
-      "url": "https://www.jornalopcao.com.br/seguranca/alckmin-e-cotado-para-comandar-ministerio-da-seguranca-publica-no-governo-lula-em-2027-900072/",
-      "source": "Jornal Opção",
-      "sourceCanonical": "Jornal Opção",
-      "sourceDomain": "jornalopcao.com.br",
-      "publishedAt": "2026-11-26T12:14:00+00:00",
+      "id": "article_e92b43829517",
+      "title": "Alckmin é cotado para Segurança Pública, e Camilo ganha força para Casa Civil",
+      "description": "O nome do vice-presidente Geraldo Alckmin começou a ganhar força para ser o novo ministro da Segurança Pública, segundo aliados do...",
+      "url": "https://guaiba.com.br/alckmin-cotado-para-segurana-pblica-e-camilo-ganha-fora-para-casa-civil/",
+      "source": "Rádio Guaíba",
+      "sourceCanonical": "Rádio Guaíba",
+      "sourceDomain": "guaiba.com.br",
+      "publishedAt": "2026-11-26T15:04:00+00:00",
       "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_6f8afacf0ef9",
-      "title": "Presidente Lula deverá divulgar novo ministro da Fazenda na próxima semana",
-      "description": "O presidente Lula sinalizou ao setor econômico que até o dia 2 de dezembro (próxima semana) informará o nome do próximo ministro da Fazenda.",
-      "url": "https://paraibaonline.com.br/brasil/2026/11/25/presidente-lula-devera-divulgar-novo-ministro-da-fazenda-na-proxima-semana/",
-      "source": "ParaibaOnline",
-      "sourceCanonical": "ParaibaOnline",
-      "sourceDomain": "paraibaonline.com.br",
-      "publishedAt": "2026-11-25T23:25:39+00:00",
-      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_64e57746e297",
-      "title": "Lula quer turbinar Ministério da Segurança e planeja secretaria contra o crime organizado",
-      "description": "Presidente defende autonomia orçamentária para a nova pasta, que poderá ser comandada pelo vice-presidente Geraldo Alckmin.",
-      "url": "https://www.brasil247.com/brasil/lula-quer-turbinar-ministerio-da-seguranca-e-planeja-secretaria-contra-o-crime-organizado/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-11-26T12:21:38+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 8,
-    "average": 5.06,
-    "knownCount": 17,
-    "unknownCount": 3,
+    "average": 5.12,
+    "knownCount": 16,
+    "unknownCount": 4,
     "buckets": {
       "left": 3,
       "centerLeft": 1,
-      "center": 9,
+      "center": 8,
       "centerRight": 4,
       "right": 0,
-      "unknown": 3
+      "unknown": 4
     }
   },
   "scores": {
     "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "spectrumBalance": 99,
+    "headlineDivergence": 88,
     "confidence": 95
   },
   "flags": [
