@@ -10,11 +10,11 @@
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 26
+      "topic-5": 24
     },
     "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 26,
-    "bestSeedRank": 26,
+    "firstSeenRank": 24,
+    "bestSeedRank": 24,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -26,12 +26,12 @@
     "inter",
     "goleada",
     "série",
-    "internacional",
-    "beira"
+    "pelo",
+    "pode"
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/Z6CRWCZAGJNVTGG2LGF6YQQ5YE.jpg?quality=80&auth=fa16eeb35ab6740b8b21e8b67794d0fde6a71bd1f4f7325dcdf9df2b56e80070&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-24T00:36:48+00:00",
-  "updatedAt": "2026-11-26T06:37:44.109599+00:00",
+  "updatedAt": "2026-11-26T07:30:21.421826+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -58,7 +58,7 @@
       "sourceCanonical": "ge",
       "sourceDomain": "ge.globo.com",
       "publishedAt": "2026-11-26T01:04:13+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -100,7 +100,7 @@
       "sourceCanonical": "UOL Notícias",
       "sourceDomain": "uol.com.br",
       "publishedAt": "2026-11-26T01:26:45+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://conteudo.imguol.com.br/c/esporte/0b/2026/11/25/bernard-do-atletico-mg-em-disputa-com-bidu-do-corinthians-durante-partida-na-arena-mrv-1795649191344_v2_615x300.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -246,6 +246,20 @@
       "bucket": "right"
     },
     {
+      "id": "article_6cc7367dcd45",
+      "title": "Vitória goleia Inter por 5 a 2 e se afasta do rebaixamento",
+      "description": "Vitória venceu o Internacional por 5 a 2 no Beira-Rio, chegou a 44 pontos e subiu para 13º. O Inter segue no Z-4 com 38 pontos a duas...",
+      "url": "https://www.campograndenews.com.br/esportes/goleada-do-vitoria-mantem-internacional-na-zona-de-rebaixamento",
+      "source": "Campo Grande News",
+      "sourceCanonical": "Campo Grande News",
+      "sourceDomain": "campograndenews.com.br",
+      "publishedAt": "2026-11-24T00:37:00+00:00",
+      "postedLabel": "2 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_cc93416b716a",
       "title": "Empate do Corinthians garante Vitória na Série A em 2027",
       "description": "Clube baiano alcança 44 pontos, celebra quarta edição seguida nos pontos corridos pela primeira vez e volta suas atenções para a...",
@@ -254,7 +268,7 @@
       "sourceCanonical": "Terra",
       "sourceDomain": "terra.com.br",
       "publishedAt": "2026-11-26T03:09:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -272,20 +286,6 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_f5db47652456",
-      "title": "Vitória atropela o Internacional no Beira-Rio e afunda o adversário no Z4",
-      "description": "Goleada conta com gols de Renê, Tarzia, Ramon, Baralhas e Renato Kayzer, sendo o primeiro o mais rápido do Brasileirão; Inter fica a três...",
-      "url": "https://www.cartacapital.com.br/esporte/vitoria-atropela-o-internacional-no-beira-rio-e-afunda-o-adversario-no-z4/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-11-24T01:22:00+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
     },
     {
       "id": "article_3b388162b3b0",
@@ -317,29 +317,28 @@
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 5,
     "max": 9,
-    "average": 5.3,
-    "knownCount": 10,
-    "unknownCount": 10,
+    "average": 5.67,
+    "knownCount": 9,
+    "unknownCount": 11,
     "buckets": {
-      "left": 1,
+      "left": 0,
       "centerLeft": 0,
       "center": 7,
       "centerRight": 1,
       "right": 1,
-      "unknown": 10
+      "unknown": 11
     }
   },
   "scores": {
-    "coverageDiversity": 80,
-    "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "coverageDiversity": 60,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
-    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
