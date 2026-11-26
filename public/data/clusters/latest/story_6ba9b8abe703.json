@@ -3,28 +3,25 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDaHZDdEVoR2ZUOUtNNDEzbWhpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pDaHZDdEVoR2ZUOUtNNDEzbWhpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 4,
-      "topstories": 4,
-      "topic-5": 8
+      "topic-3": 25,
+      "topic-5": 22
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 4,
-    "bestSeedRank": 4,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 25,
+    "bestSeedRank": 22,
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
-  "title": "Comissão da Câmara vota obrigatoriedade de disciplinas curriculares",
+  "title": "Comissão aprova obrigatoriedade de filosofia e sociologia no ensino médio",
   "summary": "Projeto aprovado pela Comissão de Educação da Câmara prevê ao menos duas aulas semanais de cada disciplina e professores com formação.",
   "topic": "Filosofia · Sociologia",
   "topicKeywords": [
@@ -37,7 +34,7 @@
   ],
   "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/11/0d9a6416.webp",
   "publishedAt": "2026-11-24T11:00:00+00:00",
-  "updatedAt": "2026-11-26T19:15:57.221793+00:00",
+  "updatedAt": "2026-11-26T23:19:14.223812+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -49,7 +46,7 @@
       "source": "ICL Notícias",
       "sourceCanonical": "ICL Notícias",
       "sourceDomain": "iclnoticias.com.br",
-      "publishedAt": "2026-11-26T11:34:56+00:00",
+      "publishedAt": "2026-11-26T17:15:35+00:00",
       "postedLabel": "hoje",
       "imageUrl": "https://iclnoticias.com.br/app/uploads/2026/11/0d9a6416.webp",
       "spectrumScore": 2,
@@ -64,10 +61,24 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-11-25T19:34:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://imagens.ebc.com.br/fzzk_eW0rm3F28OJyaFyuhdAJ2s=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/25/0d9a6416.jpg?itok=UI7mYSIT",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_61ceb1bdf954",
+      "title": "Sindiupes cobra retomada do espaço de Filosofia e Sociologia no ensino médio",
+      "description": "Gean Carlos, dirigente da entidade, diz que retirada das disciplinas compromete formação. Sindiupes. A Comissão de Educação da Câmara dos...",
+      "url": "https://www.seculodiario.com.br/educacao/sindiupes-cobra-retomada-do-espaco-de-filosofia-e-sociologia-no-ensino-medio/",
+      "source": "Século Diário",
+      "sourceCanonical": "Século Diário",
+      "sourceDomain": "seculodiario.com.br",
+      "publishedAt": "2026-11-26T21:34:07+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_109b21db4abb",
@@ -78,7 +89,21 @@
       "sourceCanonical": "Andes-SN",
       "sourceDomain": "andes.org.br",
       "publishedAt": "2026-11-25T20:39:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_9d05196d4198",
+      "title": "Entenda projeto que obriga Filosofia e Sociologia no ensino médio",
+      "description": "Proposta busca garantir que estudantes de diferentes Estados tenham acesso regular aos conteúdos, independentemente da organização...",
+      "url": "https://www.congressoemfoco.com.br/noticia/131885/entenda-projeto-que-obriga-filosofia-e-sociologia-no-ensino-medio",
+      "source": "Congresso em Foco",
+      "sourceCanonical": "Congresso em Foco",
+      "sourceDomain": "congressoemfoco.com.br",
+      "publishedAt": "2026-11-25T19:34:44+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -98,20 +123,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_288fcfc83946",
-      "title": "Comissão de Educação vota mudanças no currículo",
-      "description": "Projeto de lei propõe restabelecer a obrigatoriedade de Filosofia e Sociologia no Ensino Médio. 25/11/2026 | 14:05. Correio do Povo.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/ensino/comissao-de-educacao-vota-mudancas-no-curriculo-1.1767603",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-11-25T17:17:14+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": "https://www.correiodopovo.com.br/image/contentid/policy:1.1738017:1786384482/Escolas%20de%20tempo%20Integral.jpeg?a=191%3A100&q=0.6&w=1200&$p$a$q$w=99e2b29",
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
       "id": "article_0552b959f0a0",
       "title": "Projeto propõe retomar obrigatoriedade de aulas de sociologia e filosofia em todo o ensino médio",
       "description": "Lei de 2008 tornou as disciplinas obrigatórias nas três séries, mas reforma do ensino médio revogou exigência em 2017.",
@@ -121,7 +132,7 @@
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-24T11:00:00+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": null,
+      "imageUrl": "https://f.i.uol.com.br/fotografia/2024/02/22/170863934065d7c46c249ae_1708639340_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -140,6 +151,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_93fc7027e875",
+      "title": "Enquanto projeto de lei amplia sociologia e filosofia no ensino médio, SP abre concurso sem vaga para as disciplinas",
+      "description": "Avança na Câmara o projeto que torna obrigatório o ensino de filosofia e sociologia nas três séries do ensino médio, com pelo menos duas...",
+      "url": "https://www.brasildefato.com.br/2026/11/26/enquanto-projeto-de-lei-amplia-sociologia-e-filosofia-no-ensino-medio-sp-abre-concurso-sem-vaga-para-as-disciplinas/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-11-26T19:18:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
       "id": "article_a8ea1bc1a399",
       "title": "Comissão de Educação aprova projeto que torna Filosofia e Sociologia obrigatórias no Ensino Médio",
       "description": "A Comissão de Educação da Câmara dos Deputados aprovou nesta quarta-feira (25) o PL 1.466/2026, que restabelece a obrigatoriedade do ensino...",
@@ -154,6 +179,34 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_745cd610f963",
+      "title": "Comissão aprova carga horária mínima para Filosofia e Sociologia no ensino médio",
+      "description": "Lei já define disciplinas como obrigatórias, mas não estipula carga horária nem a oferta em todos os três anos do ensino médio;...",
+      "url": "https://www.camara.leg.br/noticias/1323336-comissao-aprova-carga-horaria-minima-para-filosofia-e-sociologia-no-ensino-medio",
+      "source": "Portal da Câmara dos Deputados",
+      "sourceCanonical": "Portal da Câmara dos Deputados",
+      "sourceDomain": "camara.leg.br",
+      "publishedAt": "2026-11-26T19:09:00+00:00",
+      "postedLabel": "4 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_288fcfc83946",
+      "title": "Comissão de Educação vota mudanças no currículo",
+      "description": "Projeto de lei propõe restabelecer a obrigatoriedade de Filosofia e Sociologia no Ensino Médio. 25/11/2026 | 14:05. Correio do Povo.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/ensino/comissao-de-educacao-vota-mudancas-no-curriculo-1.1767603",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-11-25T17:17:14+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_0e6e07d0cfd2",
       "title": "“Uma conquista para a formação crítica na educação brasileira” – Por Acrísio Sena",
       "description": "Com o título \"Uma conquista para a formação crítica na educação brasileira\", eis artigo de Acrísio Sena, historiador e presidente do...",
@@ -162,7 +215,7 @@
       "sourceCanonical": "Blog do Eliomar",
       "sourceDomain": "blogdoeliomar.com",
       "publishedAt": "2026-11-26T18:05:01+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -176,7 +229,7 @@
       "sourceCanonical": "zecadirceu.com.br",
       "sourceDomain": "zecadirceu.com.br",
       "publishedAt": "2026-11-26T14:33:53+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -190,7 +243,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-25T22:58:15+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -218,24 +271,10 @@
       "sourceCanonical": "PSB 40",
       "sourceDomain": "psb40.org.br",
       "publishedAt": "2026-11-26T17:19:35+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_1442e9c56bab",
-      "title": "Câmara analisa nesta quarta volta de filosofia e sociologia em todo o ensino médio",
-      "description": "De autoria da deputada federal Lenir de Assis (PT-PR), o Projeto de Lei 1.466/2026 tramita no Congresso Nacional desde março e conta com o...",
-      "url": "https://www.brasil247.com/brasil/camara-analisa-nesta-quarta-volta-de-filosofia-e-sociologia-em-todo-o-ensino-medio/",
-      "source": "Brasil 247",
-      "sourceCanonical": "Brasil 247",
-      "sourceDomain": "brasil247.com",
-      "publishedAt": "2026-11-25T09:56:15+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": 1,
-      "bucket": "left"
     },
     {
       "id": "article_c513d69ab780",
@@ -246,7 +285,7 @@
       "sourceCanonical": "sinasefe-sc.org.br",
       "sourceDomain": "sinasefe-sc.org.br",
       "publishedAt": "2026-11-24T20:52:57+00:00",
-      "postedLabel": "ontem",
+      "postedLabel": "2 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -266,81 +305,39 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b685e00e8d42",
-      "title": "O que está em jogo na formação intelectual do adolescente brasileiro?",
-      "description": "Enquanto a Câmara dos Deputados analisa projeto que fixa carga horária mínima para Filosofia e Sociologia no Ensino Médio, a pergunta que se...",
-      "url": "https://www.folhadedourados.com.br/o-que-esta-em-jogo-na-formacao-intelectual-do-adolescente-brasileiro/",
-      "source": "Folha de Dourados",
-      "sourceCanonical": "Folha de Dourados",
-      "sourceDomain": "folhadedourados.com.br",
-      "publishedAt": "2026-11-25T21:21:10+00:00",
+      "id": "article_acf74db166f4",
+      "title": "Comissão fixa carga mínima de filosofia e sociologia no ensino médio",
+      "description": "Disciplinas perderam obrigatoriedade em 2017; no entanto, ainda não há definição de carga horária mínima. Leia no Poder360.",
+      "url": "https://www.poder360.com.br/poder-educacao/comissao-fixa-carga-minima-de-filosofia-e-sociologia-no-ensino-medio/",
+      "source": "Poder360",
+      "sourceCanonical": "Poder360",
+      "sourceDomain": "poder360.com.br",
+      "publishedAt": "2026-11-25T23:36:45+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_d4bf22b88f0c",
-      "title": "Ufes manifesta apoio à aprovação do PL que reestabelece a obrigatoriedade do ensino de Filosofia e Sociologia",
-      "description": "A Administração Central da Ufes manifesta seu apoio à aprovação do Projeto de Lei (PL) nº 1.466/2026, que propõe restabelecer a...",
-      "url": "https://www.ufes.br/conteudo/ufes-manifesta-apoio-aprovacao-do-pl-que-reestabelece-obrigatoriedade-do-ensino-de",
-      "source": "Universidade Federal do Espírito Santo",
-      "sourceCanonical": "Universidade Federal do Espírito Santo",
-      "sourceDomain": "ufes.br",
-      "publishedAt": "2026-11-25T16:43:00+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_de37ea417bf6",
-      "title": "Contee apoia PL 1.466/2026 que obriga o ensino de filosofia e sociologia no ensino médio",
-      "description": "O Projeto de Lei nº 1.466/2026, que torna Filosofia e Sociologia disciplinas obrigatórias em todas as séries do Ensino Médio, com carga...",
-      "url": "https://contee.org.br/contee-apoia-pl-1-466-2026-que-obriga-o-ensino-de-filosofia-e-sociologia-no-ensino-medio/",
-      "source": "CONTEE",
-      "sourceCanonical": "CONTEE",
-      "sourceDomain": "contee.org.br",
-      "publishedAt": "2026-11-24T17:56:18+00:00",
-      "postedLabel": "2 dias atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_101d331ab12a",
-      "title": "Filosofia e Sociologia voltam ao ensino médio",
-      "description": "Uma vitória para a educação e para o pensamento crítico. Nesta quarta-feira (25/11), foi aprovado o projeto de lei, que torna obrigatória a...",
-      "url": "https://www.bancariosbahia.org.br/noticias/1-geral/44341,filosofia-e-sociologia-voltam-ao-ensino-medio.html",
-      "source": "Sindicato dos Bancários da Bahia",
-      "sourceCanonical": "Sindicato dos Bancários da Bahia",
-      "sourceDomain": "bancariosbahia.org.br",
-      "publishedAt": "2026-11-26T17:00:08+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 5,
+      "bucket": "center"
     }
   ],
   "spectrum": {
-    "min": 1,
+    "min": 2,
     "max": 6,
-    "average": 4,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 4.25,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 2,
       "centerLeft": 1,
-      "center": 4,
+      "center": 5,
       "centerRight": 0,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
     "coverageDiversity": 60,
-    "spectrumBalance": 80,
-    "headlineDivergence": 85,
+    "spectrumBalance": 68,
+    "headlineDivergence": 82,
     "confidence": 95
   },
   "flags": [
