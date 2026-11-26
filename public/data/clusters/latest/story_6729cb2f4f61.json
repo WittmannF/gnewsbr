@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2prdXBlOUVoRnZvNXhKT1NFUnhDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2prdXBlOUVoRnZvNXhKT1NFUnhDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 4,
+      "topstories": 4,
       "topic-3": 2,
-      "topic-5": 16
+      "topic-5": 19
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 4,
     "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "TCU afasta punições a Dilma Rousseff por gestão fiscal",
   "summary": "O processo analisado pelo tribunal tratava de sanções pecuniárias impostas a Dilma e a auxiliares que atuaram na área econômica durante seu...",
@@ -28,13 +34,13 @@
     "dilma",
     "tcu",
     "multas",
-    "afasta",
     "fiscais",
-    "rousseff"
+    "afasta",
+    "irregularidades"
   ],
   "imageUrl": "https://www.cartacapital.com.br/wp-content/uploads/2025/11/1000001932.jpg",
   "publishedAt": "2026-11-25T20:50:37+00:00",
-  "updatedAt": "2026-11-26T07:22:22.966326+00:00",
+  "updatedAt": "2026-11-26T08:23:05.225781+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -173,7 +179,7 @@
       "sourceCanonical": "Jornal Metropolitan",
       "sourceDomain": "jornalmetropolitan.com.br",
       "publishedAt": "2026-11-26T06:57:47+00:00",
-      "postedLabel": "24 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -221,6 +227,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_f6ccb077518c",
+      "title": "TCU livra Dilma de multas por irregularidades fiscais em 2014",
+      "description": "O TCU (Tribunal de Contas da União) livrou a ex-presidente Dilma Rousseff (PT) e ex-integrantes de sua equipe econômica de punições por...",
+      "url": "https://www.reporterpb.com.br/noticia-extra/2026/11/25/tcu-livra-dilma-de-multas-por-irregularidades-fiscais-em-2014/144869.html",
+      "source": "Repórter PB",
+      "sourceCanonical": "Repórter PB",
+      "sourceDomain": "reporterpb.com.br",
+      "publishedAt": "2026-11-25T21:36:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_beab95864b80",
       "title": "TCU livra Dilma de punições por irregularidades fiscais de 2014",
       "description": "O Tribunal de Contas da União (TCU) decidiu, nesta quarta-feira, 25, afastar a aplicação de sanções à ex-presidente Dilma Rousseff e a...",
@@ -229,7 +249,7 @@
       "sourceCanonical": "Revista Oeste",
       "sourceDomain": "revistaoeste.com",
       "publishedAt": "2026-11-26T02:05:13+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 10,
       "bucket": "right"
@@ -249,20 +269,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_ee0204dfcc49",
-      "title": "TCU afasta multas contra Dilma Rousseff por irregularidades fiscais de 2014",
-      "description": "O Tribunal de Contas da União (TCU) decidiu por unanimidade, nesta quarta-feira (25), afastar a aplicação de multas à ex-presidente Dilma...",
-      "url": "https://www.tvguararapes.com.br/politica/2026/11/25/tcu-afasta-multas-contra-dilma-rousseff-por-irregularidades-fiscais-de-2014.html",
-      "source": "TV Guararapes",
-      "sourceCanonical": "TV Guararapes",
-      "sourceDomain": "tvguararapes.com.br",
-      "publishedAt": "2026-11-25T22:41:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_8d28175cfd3e",
       "title": "TCU não multa Dilma e ex-ministros por falhas fiscais de 2014",
       "description": "O Tribunal de Contas da União (TCU) decidiu, por unanimidade, não aplicar multas à ex-presidente Dilma Rousseff (PT) nem a integrantes de...",
@@ -275,6 +281,20 @@
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_ee0204dfcc49",
+      "title": "TCU afasta multas contra Dilma Rousseff por irregularidades fiscais de 2014",
+      "description": "O Tribunal de Contas da União (TCU) decidiu por unanimidade, nesta quarta-feira (25), afastar a aplicação de multas à ex-presidente Dilma...",
+      "url": "https://www.tvguararapes.com.br/politica/2026/11/25/tcu-afasta-multas-contra-dilma-rousseff-por-irregularidades-fiscais-de-2014.html",
+      "source": "TV Guararapes",
+      "sourceCanonical": "TV Guararapes",
+      "sourceDomain": "tvguararapes.com.br",
+      "publishedAt": "2026-11-25T22:41:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_d577ac4d2911",
@@ -299,20 +319,6 @@
       "sourceCanonical": "boca.com.br",
       "sourceDomain": "boca.com.br",
       "publishedAt": "2026-11-26T00:48:53+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_92f9e697d835",
-      "title": "TCU afasta multas contra Dilma Rousseff e ex-auxiliares por irregularidades fiscais de 2014",
-      "description": "Por unanimidade, o Tribunal de Contas da União (TCU) decidiu nesta quarta-feira (25) livrar a ex-presidente Dilma Rousseff (PT) e...",
-      "url": "https://prensamercosur.org/2026/11/25/tcu-afasta-multas-contra-dilma-rousseff-e-ex-auxiliares-por-irregularidades-fiscais-de-2014/",
-      "source": "Prensa Mercosur",
-      "sourceCanonical": "Prensa Mercosur",
-      "sourceDomain": "prensamercosur.org",
-      "publishedAt": "2026-11-25T23:20:44+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
