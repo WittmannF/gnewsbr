@@ -3,20 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pFc0ltM0VoR0FsUGROTWF3aHRpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pFc0ltM0VoR0FsUGROTWF3aHRpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-3"
+    "home",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
-      "topic-3"
+      "home",
+      "topstories"
     ],
     "seedRanks": {
-      "topic-3": 5
+      "home": 3,
+      "topstories": 3
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 5,
-    "bestSeedRank": 5,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Não podemos gastar dinheiro à toa, diz Lula ao defender ajuste fiscal",
   "summary": "Um dia após o governo anunciar o nome de Luiz Carlos Trabuco para chefiar o Ministério da Fazenda, o presidente reiterou que não promoverá...",
@@ -31,7 +34,7 @@
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/Design-sem-nome-6.png?w=1200&h=630&crop=1",
   "publishedAt": "2026-11-27T14:34:14+00:00",
-  "updatedAt": "2026-11-27T22:20:23.829025+00:00",
+  "updatedAt": "2026-11-27T23:16:29.249115+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -128,7 +131,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-11-27T21:05:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -142,37 +145,9 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-27T17:21:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
-      "bucket": "centerRight"
-    },
-    {
-      "id": "article_c84dd628870a",
-      "title": "Lula promete preservar benefícios sociais e educação, mas defende 'ajustes' para economia crescer",
-      "description": "Um dia após escolher o banqueiro Luiz Carlos Trabuco para chefiar o Ministério da Fazenda a partir de janeiro, o presidente Lula (PT)...",
-      "url": "https://www.cartacapital.com.br/politica/lula-promete-preservar-beneficios-sociais-e-educacao-mas-defende-ajustes-para-economia-crescer/",
-      "source": "CartaCapital",
-      "sourceCanonical": "CartaCapital",
-      "sourceDomain": "cartacapital.com.br",
-      "publishedAt": "2026-11-27T18:15:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
-      "id": "article_1b2325ba5b6a",
-      "title": "Lula admite necessidade de ajuste e defende cautela em gastos com saúde e educação",
-      "description": "Presidente diz que governo precisa controlar despesas para fazer a economia crescer, mas descarta cortes em benefícios sociais.",
-      "url": "https://www.gazetadopovo.com.br/republica/lula-necessidade-ajuste-defende-cautela-gastos-saude-educacao/",
-      "source": "Gazeta do Povo",
-      "sourceCanonical": "Gazeta do Povo",
-      "sourceDomain": "gazetadopovo.com.br",
-      "publishedAt": "2026-11-27T17:45:00+00:00",
-      "postedLabel": "4 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 8,
       "bucket": "centerRight"
     },
     {
@@ -190,6 +165,48 @@
       "bucket": "center"
     },
     {
+      "id": "article_1b2325ba5b6a",
+      "title": "Lula admite necessidade de ajuste e defende cautela em gastos com saúde e educação",
+      "description": "Presidente diz que governo precisa controlar despesas para fazer a economia crescer, mas descarta cortes em benefícios sociais.",
+      "url": "https://www.gazetadopovo.com.br/republica/lula-necessidade-ajuste-defende-cautela-gastos-saude-educacao/",
+      "source": "Gazeta do Povo",
+      "sourceCanonical": "Gazeta do Povo",
+      "sourceDomain": "gazetadopovo.com.br",
+      "publishedAt": "2026-11-27T17:45:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 8,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_c84dd628870a",
+      "title": "Lula promete preservar benefícios sociais e educação, mas defende 'ajustes' para economia crescer",
+      "description": "Um dia após escolher o banqueiro Luiz Carlos Trabuco para chefiar o Ministério da Fazenda a partir de janeiro, o presidente Lula (PT)...",
+      "url": "https://www.cartacapital.com.br/politica/lula-promete-preservar-beneficios-sociais-e-educacao-mas-defende-ajustes-para-economia-crescer/",
+      "source": "CartaCapital",
+      "sourceCanonical": "CartaCapital",
+      "sourceDomain": "cartacapital.com.br",
+      "publishedAt": "2026-11-27T18:15:00+00:00",
+      "postedLabel": "5 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
+    },
+    {
+      "id": "article_915afa3ce62a",
+      "title": "Lula: não vamos cortar benefícios do povo pobre desse País",
+      "description": "O presidente Luiz Inácio Lula da Silva (PT) reforçou, mais uma vez, que seu quarto mandato está comprometido com a melhoria da qualidade de...",
+      "url": "https://www.terra.com.br/noticias/brasil/politica/lula-nao-vamos-cortar-beneficios-do-povo-pobre-desse-pais,fb9466c74e997415df471bc75f6d7dadh9sewame.html",
+      "source": "Terra",
+      "sourceCanonical": "Terra",
+      "sourceDomain": "terra.com.br",
+      "publishedAt": "2026-11-27T16:18:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_2c8d29e01685",
       "title": "Lula diz que não pode gastar dinheiro à toa no governo",
       "description": "O presidente Luiz Inácio Lula da Silva (PT) disse nesta 6ª feira (27.nov.2026) que terá de fazer ajustes nas contas públicas para permitir o...",
@@ -198,21 +215,7 @@
       "sourceCanonical": "Poder360",
       "sourceDomain": "poder360.com.br",
       "publishedAt": "2026-11-27T18:24:17+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_a0e064ffa954",
-      "title": "Lula: não vamos cortar benefícios do povo pobre desse País",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) reforçou, mais uma vez, que seu quarto mandato está comprometido com a melhoria da qualidade de...",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/lula-nao-vamos-cortar-beneficios-do-povo-pobre-desse-pais-1.1768359",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-11-27T16:43:29+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -226,24 +229,10 @@
       "sourceCanonical": "Diário do Poder",
       "sourceDomain": "diariodopoder.com.br",
       "publishedAt": "2026-11-27T20:48:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
-    },
-    {
-      "id": "article_75a87424a414",
-      "title": "Lula defende ajuste fiscal e diz que Brasil não pode ‘gastar dinheiro à toa’",
-      "description": "A declaração foi dada nesta sexta-feira, 27, durante evento com lideranças da juventude e do movimento estudantil em Niterói (RJ). O...",
-      "url": "https://www.terra.com.br/noticias/brasil/politica/videos/lula-defende-ajuste-fiscal-e-diz-que-brasil-nao-pode-gastar-dinheiro-a-toa,10eaccd5e420519b630826d5b9896beey895vebk.html",
-      "source": "Terra",
-      "sourceCanonical": "Terra",
-      "sourceDomain": "terra.com.br",
-      "publishedAt": "2026-11-27T20:29:01+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_099975cee1dd",
@@ -254,7 +243,7 @@
       "sourceCanonical": "Rádio Metrópole",
       "sourceDomain": "metro1.com.br",
       "publishedAt": "2026-11-27T17:53:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -268,7 +257,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "r7.com",
       "publishedAt": "2026-11-27T16:57:09+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -282,7 +271,7 @@
       "sourceCanonical": "Instagram",
       "sourceDomain": "instagram.com",
       "publishedAt": "2026-11-27T21:02:19+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -302,6 +291,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_1a6b307ca092",
+      "title": "Lula diz que “o país não pode gastar dinheiro à toa” e garante que ajuste fiscal não atingirá os mais pobres",
+      "description": "Presidente defende ampliação dos investimentos produtivos, geração de empregos de qualidade e preservação dos recursos destinados à...",
+      "url": "https://www.brasil247.com/brasil/lula-garante-que-ajuste-fiscal-nao-atingira-os-mais-pobres-nao-havera-hipotese-de-eu-cortar-qualquer-beneficio/",
+      "source": "Brasil 247",
+      "sourceCanonical": "Brasil 247",
+      "sourceDomain": "brasil247.com",
+      "publishedAt": "2026-11-27T15:33:32+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 1,
+      "bucket": "left"
+    },
+    {
       "id": "article_7142d175fc5e",
       "title": "Após anunciar Trabuco, Lula defende ajuste fiscal e diz que país não pode gastar dinheiro à toa",
       "description": "Presidente afirma que controle dos gastos públicos será necessário para garantir o crescimento econômico; petista diz que estão descartados...",
@@ -310,22 +313,22 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-11-27T17:32:45+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
     }
   ],
   "spectrum": {
-    "min": 2,
+    "min": 1,
     "max": 9,
-    "average": 5.94,
+    "average": 5.71,
     "knownCount": 17,
     "unknownCount": 3,
     "buckets": {
-      "left": 1,
+      "left": 2,
       "centerLeft": 0,
-      "center": 10,
+      "center": 9,
       "centerRight": 4,
       "right": 2,
       "unknown": 3
@@ -334,7 +337,7 @@
   "scores": {
     "coverageDiversity": 80,
     "spectrumBalance": 100,
-    "headlineDivergence": 91,
+    "headlineDivergence": 94,
     "confidence": 95
   },
   "flags": [
