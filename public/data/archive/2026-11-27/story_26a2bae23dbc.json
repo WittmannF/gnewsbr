@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2eWVLMkVoR2RrYTI0M2FaakZpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2p2eWVLMkVoR2RrYTI0M2FaakZpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 27
+      "topic-3": 31,
+      "topic-5": 31
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 27,
-    "bestSeedRank": 27,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 31,
+    "bestSeedRank": 31,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,9 +34,9 @@
   ],
   "imageUrl": "https://api.tjsp.jus.br/Handlers/Handler/Imagem.ashx?src=199327&length=563&fix=width",
   "publishedAt": "2026-11-19T11:30:23+00:00",
-  "updatedAt": "2026-11-27T13:26:22.782238+00:00",
+  "updatedAt": "2026-11-27T14:22:05.350685+00:00",
   "sourceCount": 2,
-  "articleCount": 6,
+  "articleCount": 7,
   "articles": [
     {
       "id": "article_a183f09d5def",
@@ -46,6 +49,34 @@
       "publishedAt": "2026-11-26T03:00:55+00:00",
       "postedLabel": "ontem",
       "imageUrl": "https://api.tjsp.jus.br/Handlers/Handler/Imagem.ashx?src=199327&length=563&fix=width",
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_3c020b4016b5",
+      "title": "TJ-SP consolida movimento de especialização, afirma Mac Cracken",
+      "description": "A reformulação geral aprovada em agosto deste ano aprofunda e consolida o movimento de especialização na Seção de Direito Privado do...",
+      "url": "https://conjur.com.br/2026-nov-27/tj-sp-consolida-movimento-de-especializacao-diz-mac-cracken/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-11-27T13:49:21+00:00",
+      "postedLabel": "32 minutos atrás",
+      "imageUrl": "https://conjur.com.br/wp-content/uploads/2022/07/roberto-mac-cracken-desembargador-1-scaled.jpeg",
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_cd088683c823",
+      "title": "Reestruturação da Seção de Direito Privado do TJ-SP: isonomia, especialização e racionalidade",
+      "description": "Responsável por cerca de 60% de toda a movimentação processual do Tribunal de Justiça de São Paulo no ano de 2025, a Seção de Direito...",
+      "url": "https://conjur.com.br/2026-nov-27/reestruturacao-da-secao-de-direito-privado-do-tj-sp/",
+      "source": "Consultor Jurídico",
+      "sourceCanonical": "Consultor Jurídico",
+      "sourceDomain": "conjur.com.br",
+      "publishedAt": "2026-11-27T11:00:35+00:00",
+      "postedLabel": "3 horas atrás",
+      "imageUrl": "https://conjur.com.br/wp-content/uploads/2021/10/jose-rogerio-tucci-tarja1.jpeg",
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -64,20 +95,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_cd088683c823",
-      "title": "Reestruturação da Seção de Direito Privado do TJ-SP: isonomia, especialização e racionalidade",
-      "description": "Responsável por cerca de 60% de toda a movimentação processual do Tribunal de Justiça de São Paulo no ano de 2025, a Seção de Direito...",
-      "url": "https://conjur.com.br/2026-nov-27/reestruturacao-da-secao-de-direito-privado-do-tj-sp/",
-      "source": "Consultor Jurídico",
-      "sourceCanonical": "Consultor Jurídico",
-      "sourceDomain": "conjur.com.br",
-      "publishedAt": "2026-11-27T11:00:35+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": "https://conjur.com.br/wp-content/uploads/2021/10/jose-rogerio-tucci-tarja1.jpeg",
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_0a399f077be8",
       "title": "Desembargadora comenta reformas no Direito Privado do TJ-SP",
       "description": "Márcia Dalla Déa Barone explicou à ConJur como a reestruturação levará diversidade de temas, mas não dificuldade, para a rotina dos...",
@@ -87,7 +104,7 @@
       "sourceDomain": "conjur.com.br",
       "publishedAt": "2026-11-24T14:45:03+00:00",
       "postedLabel": "2 dias atrás",
-      "imageUrl": "https://conjur.com.br/wp-content/uploads/2026/11/marcia_barone_gdestemas_2026.jpg",
+      "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
     },
@@ -125,21 +142,21 @@
     "max": null,
     "average": null,
     "knownCount": 0,
-    "unknownCount": 6,
+    "unknownCount": 7,
     "buckets": {
       "left": 0,
       "centerLeft": 0,
       "center": 0,
       "centerRight": 0,
       "right": 0,
-      "unknown": 6
+      "unknown": 7
     }
   },
   "scores": {
     "coverageDiversity": 0,
     "spectrumBalance": 0,
     "headlineDivergence": 70,
-    "confidence": 57
+    "confidence": 59
   },
   "flags": [
     "Muitas fontes não classificadas",
