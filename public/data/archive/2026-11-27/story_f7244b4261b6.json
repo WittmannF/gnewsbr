@@ -3,18 +3,21 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2plcXFTLUVoRko0eXdEOXFwZXlpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2plcXFTLUVoRko0eXdEOXFwZXlpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "topic-3",
     "topic-5"
   ],
   "discovery": {
     "seedPages": [
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-5": 6
+      "topic-3": 10,
+      "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-5",
-    "firstSeenRank": 6,
-    "bestSeedRank": 6,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 10,
+    "bestSeedRank": 8,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,8 +34,8 @@
   ],
   "imageUrl": "https://s2-g1.glbimg.com/PiJmXjg8qyaYjZPdhF3yoNrlG2U=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/u/AOvE5ASM6hIE61lLmoow/rj2-limpo-20261126-1830-frame-83125.jpeg",
   "publishedAt": "2026-11-24T13:13:00+00:00",
-  "updatedAt": "2026-11-27T09:29:41.888232+00:00",
-  "sourceCount": 20,
+  "updatedAt": "2026-11-27T10:20:47.139952+00:00",
+  "sourceCount": 19,
   "articleCount": 20,
   "articles": [
     {
@@ -45,6 +48,20 @@
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-26T22:20:25+00:00",
       "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/PiJmXjg8qyaYjZPdhF3yoNrlG2U=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/u/AOvE5ASM6hIE61lLmoow/rj2-limpo-20261126-1830-frame-83125.jpeg",
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_b7aebf0fb40e",
+      "title": "Grupo que espancou professor no Centro do Rio fez quatro vítimas em minutos de intervalo",
+      "description": "O professor espancado no Centro do Rio segue em estado grave após ser atacado por um grupo que agrediu outras três pessoas em poucos minutos...",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/11/27/grupo-que-espancou-professor-no-centro-do-rio-fez-quatro-vitimas-em-minutos-de-intervalo.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-27T06:00:00+00:00",
+      "postedLabel": "4 horas atrás",
       "imageUrl": "https://s2-g1.glbimg.com/PiJmXjg8qyaYjZPdhF3yoNrlG2U=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/u/AOvE5ASM6hIE61lLmoow/rj2-limpo-20261126-1830-frame-83125.jpeg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -115,7 +132,7 @@
       "sourceDomain": "sbtnews.sbt.com.br",
       "publishedAt": "2026-11-26T16:04:41+00:00",
       "postedLabel": "hoje",
-      "imageUrl": "https://sbtnews.sbt.com.br/imagens/FOTOS_CORTE_2026_11_26_T125907_521_55103c9bd7.jpg",
+      "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
     },
@@ -300,35 +317,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_771b032af60e",
-      "title": "Imagens mostram que mais de 30 pessoas viram professor ser espancado: ‘Ninguém fazia nada’, diz testemunha",
-      "description": "Novas imagens da Central de Inteligência e Apoio à Segurança Pública da Prefeitura do Rio mostram que o professor André Aires, de 42 anos,...",
-      "url": "https://www.folhadedourados.com.br/imagens-mostram-que-mais-de-30-pessoas-viram-professor-ser-espancado-ninguem-fazia-nada-diz-testemunha/",
-      "source": "Folha de Dourados",
-      "sourceCanonical": "Folha de Dourados",
-      "sourceDomain": "folhadedourados.com.br",
-      "publishedAt": "2026-11-26T18:33:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 7,
-    "average": 5.57,
-    "knownCount": 7,
-    "unknownCount": 13,
+    "average": 5.5,
+    "knownCount": 8,
+    "unknownCount": 12,
     "buckets": {
       "left": 0,
       "centerLeft": 1,
-      "center": 4,
+      "center": 5,
       "centerRight": 2,
       "right": 0,
-      "unknown": 13
+      "unknown": 12
     }
   },
   "scores": {
