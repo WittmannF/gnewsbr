@@ -3,23 +3,29 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrdmRhM0VoRWh5QS1Kc2VkTUNDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lrdmRhM0VoRWh5QS1Kc2VkTUNDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
+    "home",
     "topic-3",
-    "topic-5"
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "topic-3": 10,
+      "home": 3,
+      "topstories": 3,
+      "topic-3": 9,
       "topic-5": 8
     },
-    "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 10,
-    "bestSeedRank": 8,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Apagão afeta Amazonas, Pará e Roraima nesta quinta",
   "summary": "Falta de energia em Manaus atinge bairros como Centro e Alvorada nesta quinta-feira (26); Ambar Energia foi questionada sobre a causa da...",
@@ -27,14 +33,14 @@
   "topicKeywords": [
     "apagão",
     "manaus",
-    "atinge",
     "energia",
+    "atinge",
     "roraima",
     "desligamento"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/fDQRoef2XyhoB2EGy-kiaPsNP2U=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/c/P/QP5A0rRuuc2rJ11TB1Qg/whatsapp-image-2026-11-26-at-17.21.23.jpeg",
   "publishedAt": "2026-11-26T05:05:00+00:00",
-  "updatedAt": "2026-11-27T04:22:43.901739+00:00",
+  "updatedAt": "2026-11-27T05:19:13.906275+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -75,7 +81,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-26T22:38:00+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://f.i.uol.com.br/fotografia/2026/03/24/177439217169c3136b4ffd8_1774392171_3x2_rt.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -89,7 +95,7 @@
       "sourceCanonical": "Agência Brasil",
       "sourceDomain": "agenciabrasil.ebc.com.br",
       "publishedAt": "2026-11-26T23:58:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://imagens.ebc.com.br/Vwu5gdpryPpX3pQsrxPc1G0qsAY=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/966337-03072015-dsc_9383.jpg?itok=ulB9wC1N",
       "spectrumScore": 5,
       "bucket": "center"
@@ -103,7 +109,7 @@
       "sourceCanonical": "R7",
       "sourceDomain": "noticias.r7.com",
       "publishedAt": "2026-11-27T02:38:55+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -123,6 +129,20 @@
       "bucket": "unknown"
     },
     {
+      "id": "article_0f81f47ff4fd",
+      "title": "Apagão atinge Manaus e Roraima após desligamento de linhas de transmissão",
+      "description": "Interrupção total do fornecimento de energia ocorreu na tarde desta quinta-feira.",
+      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/apagao-atinge-manaus-e-roraima-apos-desligamento-de-linhas-de-transmissao-1.1768138",
+      "source": "Correio do Povo",
+      "sourceCanonical": "Correio do Povo",
+      "sourceDomain": "correiodopovo.com.br",
+      "publishedAt": "2026-11-26T23:17:17+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
       "id": "article_2b8796b6145b",
       "title": "Fumaça, calor de 42°C e apagão agravam crise e deixam Manaus vulnerável",
       "description": "Um dia de caos em Manaus. A cidade enfrentou nesta quinta-feira (26) uma combinação de problemas que agravou as condições de vida da...",
@@ -131,7 +151,7 @@
       "sourceCanonical": "Jornal do Commercio do Amazonas",
       "sourceDomain": "jcam.com.br",
       "publishedAt": "2026-11-26T22:42:41+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -145,10 +165,24 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-26T23:35:19+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_e1c55166d76b",
+      "title": "Após apagão, ONS autoriza retomada gradual do fornecimento de energia no Amazonas",
+      "description": "Desligamento de duas linhas de transmissão provocou interrupção total das cargas nas áreas de Manaus e Roraima. Causas da ocorrência estão...",
+      "url": "https://www.acritica.com/geral/apos-apagao-ons-autoriza-retomada-gradual-do-fornecimento-de-energia-no-amazonas/",
+      "source": "A Crítica",
+      "sourceCanonical": "A Crítica",
+      "sourceDomain": "acritica.com",
+      "publishedAt": "2026-11-26T21:20:54+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_ff6d76b05bc8",
@@ -159,21 +193,7 @@
       "sourceCanonical": "Portal do Holanda",
       "sourceDomain": "novo2026.portaldoholanda.com.br",
       "publishedAt": "2026-11-26T05:05:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_5f73f2924f9d",
-      "title": "Oscilações de energia afetam abastecimento de água em 29 localidades de Manaus; veja lista",
-      "description": "Funcionamento do Setor Hidráulico Mocó foi comprometido na manhã desta quinta-feira (26), segundo a Águas de Manaus.",
-      "url": "https://www.acritica.com/geral/oscilacoes-de-energia-afetam-abastecimento-de-agua-em-29-localidades-de-manaus-veja-lista/",
-      "source": "A Crítica",
-      "sourceCanonical": "A Crítica",
-      "sourceDomain": "acritica.com",
-      "publishedAt": "2026-11-26T20:52:28+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -235,6 +255,20 @@
       "bucket": "center"
     },
     {
+      "id": "article_b8e4728c0b61",
+      "title": "Apagão de energia impacta abastecimento de água em Manaus",
+      "description": "A Águas de Manaus informa que o apagão elétrico que afetou a capital na tarde desta quinta-feira (26/11) também impactou o sistema de...",
+      "url": "https://radioriomarfm.com.br/apagao-de-energia-impacta-abastecimento-de-agua-em-manaus/",
+      "source": "Rádio Rio Mar",
+      "sourceCanonical": "Rádio Rio Mar",
+      "sourceDomain": "radioriomarfm.com.br",
+      "publishedAt": "2026-11-26T23:16:43+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
       "id": "article_230ef7db0de0",
       "title": "Apagão atinge Roraima após desligamento no sistema elétrico nacional",
       "description": "Falha foi registrada às 15h35 desta quinta-feira (26); restabelecimento depende de liberação do Operador Nacional do Sistema Elétrico.",
@@ -244,34 +278,6 @@
       "sourceDomain": "metropoles.com",
       "publishedAt": "2026-11-26T21:34:00+00:00",
       "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_87e1be5db230",
-      "title": "Apagão atinge bairros de Boa Vista nesta quinta-feira (26) e distribuidora aponta desligamento no SIN",
-      "description": "Moradores de diferentes pontos de Boa Vista enfrentam falta de energia elétrica desde o meio da tarde desta quinta-feira (26).",
-      "url": "https://roraima1.com.br/apagao-atinge-bairros-de-boa-vista-nesta-quinta-feira-26-e-distribuidora-aponta-desligamento-no-sin/",
-      "source": "Roraima 1",
-      "sourceCanonical": "Roraima 1",
-      "sourceDomain": "roraima1.com.br",
-      "publishedAt": "2026-11-26T21:40:50+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_0f81f47ff4fd",
-      "title": "Apagão atinge Manaus e Roraima após desligamento de linhas de transmissão",
-      "description": "Interrupção total do fornecimento de energia ocorreu na tarde desta quinta-feira.",
-      "url": "https://www.correiodopovo.com.br/not%C3%ADcias/economia/apagao-atinge-manaus-e-roraima-apos-desligamento-de-linhas-de-transmissao-1.1768138",
-      "source": "Correio do Povo",
-      "sourceCanonical": "Correio do Povo",
-      "sourceDomain": "correiodopovo.com.br",
-      "publishedAt": "2026-11-26T23:15:00+00:00",
-      "postedLabel": "5 horas atrás",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
@@ -291,20 +297,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_b8e4728c0b61",
-      "title": "Apagão de energia impacta abastecimento de água em Manaus",
-      "description": "A Águas de Manaus informa que o apagão elétrico que afetou a capital na tarde desta quinta-feira (26/11) também impactou o sistema de...",
-      "url": "https://radioriomarfm.com.br/apagao-de-energia-impacta-abastecimento-de-agua-em-manaus/",
-      "source": "Rádio Rio Mar",
-      "sourceCanonical": "Rádio Rio Mar",
-      "sourceDomain": "radioriomarfm.com.br",
-      "publishedAt": "2026-11-26T23:16:43+00:00",
-      "postedLabel": "5 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_bc112a0424c7",
       "title": "Apagão atinge Manaus e Roraima e agrava transtornos em meio à fumaça na capital",
       "description": "Falha em duas linhas de transmissão provocou corte de 2.027 MW no sistema elétrico; moradores também relataram problemas de telefonia e...",
@@ -313,6 +305,20 @@
       "sourceCanonical": "Amazonas1",
       "sourceDomain": "amazonas1.com.br",
       "publishedAt": "2026-11-26T20:30:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_859c56ef4442",
+      "title": "Por que o Brasil tem apagões repetidos nas linhas de 500 kV",
+      "description": "Apagão em Manaus e Roraima na quinta é o terceiro evento do tipo em pouco mais de três anos no país. Redação TV Sim Brasil.",
+      "url": "https://tvsimbrasil.com.br/am/manaus/infra/noticia/2026/11/26/por-que-brasil-tem-apagoes-linhas-500kv",
+      "source": "TV Sim Brasil",
+      "sourceCanonical": "TV Sim Brasil",
+      "sourceDomain": "tvsimbrasil.com.br",
+      "publishedAt": "2026-11-26T22:02:52+00:00",
       "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": null,
