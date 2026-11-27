@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKMFptNEVoRWhHV0FWRWp2U1lpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2lKMFptNEVoRWhHV0FWRWp2U1lpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-7"
     ],
     "seedRanks": {
-      "topic-7": 2
+      "home": 3,
+      "topstories": 3,
+      "topic-7": 3
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 2,
-    "bestSeedRank": 2,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 3,
+    "bestSeedRank": 3,
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Notícias sobre Putin • Trump • Zelensky",
   "summary": "Zelensky deu a entrevista uma semana depois de Trump ter tratado Putin como “amigo” durante uma cúpula na China. Da Reuters 27/11/26 às...",
@@ -30,8 +36,8 @@
     "eua"
   ],
   "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-19T043228Z_1_LOP962019112026RP1_RTRMADP_BASEIMAGE-960X540_APEC-SUMMIT-USA-RUSSIA-1.jpg?w=960&h=540&crop=1",
-  "publishedAt": "2026-11-20T22:07:00+00:00",
-  "updatedAt": "2026-11-27T14:32:25.975775+00:00",
+  "publishedAt": "2026-11-20T18:48:40+00:00",
+  "updatedAt": "2026-11-27T15:17:57.039065+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -44,7 +50,7 @@
       "sourceCanonical": "CNN Brasil",
       "sourceDomain": "cnnbrasil.com.br",
       "publishedAt": "2026-11-27T10:13:00+00:00",
-      "postedLabel": "4 horas atrás",
+      "postedLabel": "5 horas atrás",
       "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/2026-11-19T043228Z_1_LOP962019112026RP1_RTRMADP_BASEIMAGE-960X540_APEC-SUMMIT-USA-RUSSIA-1.jpg?w=960&h=540&crop=1",
       "spectrumScore": 5,
       "bucket": "center"
@@ -64,34 +70,6 @@
       "bucket": "centerLeft"
     },
     {
-      "id": "article_3435326237e1",
-      "title": "Zelensky critica Trump por chamar Putin de amigo e cobra pressão dos EUA",
-      "description": "O presidente da Ucrânia, Volodymyr Zelensky, pediu que os Estados Unidos pressionem mais o líder russo, Vladimir Putin, para acabar com a...",
-      "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/27/zelensky-critica-trump-por-chamar-putin-de-amigo-e-pede-pressao-dos-eua.ghtm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-27T14:07:23+00:00",
-      "postedLabel": "25 minutos atrás",
-      "imageUrl": null,
-      "spectrumScore": 5,
-      "bucket": "center"
-    },
-    {
-      "id": "article_2aca045e97cd",
-      "title": "Zelensky critica 'amizade' entre Trump e Putin em entrevista a BBC: 'o mesmo que chamar Hitler de bom amigo'",
-      "description": "Presidente americano fez gestos ao líder russo em encontro trilateral com Xi Jinping na China.",
-      "url": "https://oglobo.globo.com/mundo/noticia/2026/11/27/zelensky-critica-amizade-entre-trump-e-putin-em-entrevista-a-bbc-o-mesmo-que-chamar-hitler-de-bom-amigo.ghtml",
-      "source": "O GLOBO",
-      "sourceCanonical": "O Globo",
-      "sourceDomain": "oglobo.globo.com",
-      "publishedAt": "2026-11-27T11:13:56+00:00",
-      "postedLabel": "3 horas atrás",
-      "imageUrl": "https://s2-oglobo.glbimg.com/--hMNe4UkPgA90ErenDug8HptcY=/6535x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/3/V/1YDJXTT2AAUuWxYR9x5g/117038367-ukraines-president-volodymyr-zelensky-speaks-during-joint-press-conference-with-hungarys.jpg",
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_775a424c294a",
       "title": "Zelensky critica 'estranha amizade' entre Trump e Putin em entrevista à BBC: 'Putin é um agressor e assassino'",
       "description": "O presidente da Ucrânia, Volodymyr Zelensky, expressou frustração com os Estados Unidos, criticou o presidente americano, Donald Trump,...",
@@ -101,8 +79,22 @@
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-27T12:24:14+00:00",
       "postedLabel": "2 horas atrás",
-      "imageUrl": null,
+      "imageUrl": "https://s2-g1.glbimg.com/qkti0z64AdN9rmIc9y2lXAKCM7g=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/z/U/SZjedbSWKskRV0ZKYlFQ/design-sem-nome-2026-11-27t092013.450.jpg",
       "spectrumScore": 5,
+      "bucket": "center"
+    },
+    {
+      "id": "article_09d88437a1a8",
+      "title": "Zelenskiy compara amizade de Trump com Putin à amizade com Hitler",
+      "description": "LONDRES, 27 Nov (Reuters) – O ⁠presidente da Ucrânia, Volodymyr ⁠Zelenskiy, afirmou que é estranho o ‌presidente dos Estados Unidos,...",
+      "url": "https://www.infomoney.com.br/mundo/zelenskiy-compara-amizade-de-trump-com-putin-a-amizade-com-hitler/",
+      "source": "InfoMoney",
+      "sourceCanonical": "InfoMoney",
+      "sourceDomain": "infomoney.com.br",
+      "publishedAt": "2026-11-27T13:42:20+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": "https://www.infomoney.com.br/wp-content/uploads/2026/02/Zelensky.jpg",
+      "spectrumScore": 6,
       "bucket": "center"
     },
     {
@@ -114,7 +106,7 @@
       "sourceCanonical": "Estadão",
       "sourceDomain": "estadao.com.br",
       "publishedAt": "2026-11-27T13:08:03+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -128,24 +120,10 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-27T11:17:00+00:00",
-      "postedLabel": "3 horas atrás",
+      "postedLabel": "4 horas atrás",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_09d88437a1a8",
-      "title": "Zelenskiy compara amizade de Trump com Putin à amizade com Hitler",
-      "description": "LONDRES, 27 Nov (Reuters) – O ⁠presidente da Ucrânia, Volodymyr ⁠Zelenskiy, afirmou que é estranho o ‌presidente dos Estados Unidos,...",
-      "url": "https://www.infomoney.com.br/mundo/zelenskiy-compara-amizade-de-trump-com-putin-a-amizade-com-hitler/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-27T13:42:20+00:00",
-      "postedLabel": "uma hora atrás",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
     },
     {
       "id": "article_cae379d7616d",
@@ -162,6 +140,20 @@
       "bucket": "centerRight"
     },
     {
+      "id": "article_5fc5f14019e4",
+      "title": "Zelenski pede que EUA pressionem Putin e estranha Trump chamá-lo de meu amigo",
+      "description": "O presidente da Ucrânia, Volodimir Zelenski, manifestou frustração com a postura dos Estados Unidos em relação ao líder russo,...",
+      "url": "https://www.folhape.com.br/noticias/zelenski-pede-que-eua-pressionem-putin-e-estranha-trump-chama-lo-de/526558/",
+      "source": "Folha PE",
+      "sourceCanonical": "Folha de Pernambuco",
+      "sourceDomain": "folhape.com.br",
+      "publishedAt": "2026-11-27T12:25:00+00:00",
+      "postedLabel": "2 horas atrás",
+      "imageUrl": null,
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
+    },
+    {
       "id": "article_ce7d11f21fde",
       "title": "Zelensky critica Trump por amizade com Putin e cita Hitler",
       "description": "Em entrevista à BBC, presidente ucraniano considerou estranha a declaração e fez um paralelo com a Segunda Guerra Mundial. Para compartilhar...",
@@ -170,7 +162,7 @@
       "sourceCanonical": "Istoé Dinheiro",
       "sourceDomain": "istoedinheiro.com.br",
       "publishedAt": "2026-11-27T14:18:49+00:00",
-      "postedLabel": "13 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
@@ -226,7 +218,7 @@
       "sourceCanonical": "Rolling Stone Brasil",
       "sourceDomain": "rollingstone.com.br",
       "publishedAt": "2026-11-21T15:04:04+00:00",
-      "postedLabel": "5 dias atrás",
+      "postedLabel": "6 dias atrás",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -274,20 +266,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_5fc5f14019e4",
-      "title": "Zelenski pede que EUA pressionem Putin e estranha Trump chamá-lo de meu amigo",
-      "description": "O presidente da Ucrânia, Volodimir Zelenski, manifestou frustração com a postura dos Estados Unidos em relação ao líder russo,...",
-      "url": "https://www.folhape.com.br/noticias/zelenski-pede-que-eua-pressionem-putin-e-estranha-trump-chama-lo-de/526558/",
-      "source": "Folha PE",
-      "sourceCanonical": "Folha de Pernambuco",
-      "sourceDomain": "folhape.com.br",
-      "publishedAt": "2026-11-27T12:25:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": 4,
-      "bucket": "centerLeft"
-    },
-    {
       "id": "article_0337cfdb1d50",
       "title": "Zelensky busca provocação para atrair EUA ao conflito ucraniano, diz analista",
       "description": "Notícias de Alagoas, do Brasil e do mundo, sobre política, economia, emprego, educação, saúde, meio ambiente, celebridades, ciência.",
@@ -314,21 +292,49 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
+    },
+    {
+      "id": "article_9257c1aea617",
+      "title": "Zelensky critica suspensão de sanções contra a Rússia determinada por Trump",
+      "description": "O presidente da Ucrânia, Volodymyr Zelensky, criticou a decisão de Donald Trump de suspender sanções e tarifas contra a Rússia previstas na...",
+      "url": "https://sentidohorario.com.br/zelensky-critica-suspensao-de-sancoes-contra-a-russia-determinada-por-trump/",
+      "source": "sentidohorario.com.br",
+      "sourceCanonical": "sentidohorario.com.br",
+      "sourceDomain": "sentidohorario.com.br",
+      "publishedAt": "2026-11-21T00:16:02+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_c4b632ba0a43",
+      "title": "Elogio de Trump a Putin repete padrão que já falhou com a Ucrânia",
+      "description": "O presidente dos Estados Unidos, Donald Trump, chamou o presidente da Rússia, Vladimir Putin, de \"amigo\" após o encontro entre os dois na...",
+      "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/20/elogio-trump-putin-repete-padrao-falhou-ucrania",
+      "source": "TV Sim Brasil",
+      "sourceCanonical": "TV Sim Brasil",
+      "sourceDomain": "tvsimbrasil.com.br",
+      "publishedAt": "2026-11-20T18:48:40+00:00",
+      "postedLabel": "6 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 4,
     "max": 8,
-    "average": 5.57,
-    "knownCount": 14,
-    "unknownCount": 6,
+    "average": 5.58,
+    "knownCount": 12,
+    "unknownCount": 8,
     "buckets": {
       "left": 0,
       "centerLeft": 2,
-      "center": 9,
+      "center": 7,
       "centerRight": 3,
       "right": 0,
-      "unknown": 6
+      "unknown": 8
     }
   },
   "scores": {
