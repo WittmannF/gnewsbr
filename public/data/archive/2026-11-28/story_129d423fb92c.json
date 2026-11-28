@@ -10,11 +10,11 @@
       "topic-3"
     ],
     "seedRanks": {
-      "topic-3": 60
+      "topic-3": 58
     },
     "firstSeenSeedPage": "topic-3",
-    "firstSeenRank": 60,
-    "bestSeedRank": 60,
+    "firstSeenRank": 58,
+    "bestSeedRank": 58,
     "isHomeTop": false,
     "isTopStoriesTop": false
   },
@@ -31,7 +31,7 @@
   ],
   "imageUrl": "https://www.estadao.com.br/resizer/v2/GQ7S26QOKJGX5A6BQLRI2WQ7OE.png?quality=80&auth=d5e84a5a022b3e57aa6e14e9eeb38f02cbec80ef62c274db3f20b73ed60ced8d&width=1200&height=630&smart=true",
   "publishedAt": "2026-11-17T08:00:00+00:00",
-  "updatedAt": "2026-11-28T08:25:39.558030+00:00",
+  "updatedAt": "2026-11-28T09:23:10.981327+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -162,18 +162,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_9a965d121190",
+      "id": "article_97d83f7535cd",
       "title": "Deputado quer CPI para investigar fraude milionária no crédito rural",
       "description": "O deputado federal Rodolfo Nogueira (PL-MS) apresentou um requerimento para a criação de uma Comissão Parlamentar de Inquérito (CPI),...",
-      "url": "https://www.blogdoalberesxavier.com/noticias/82937/deputado-quer-cpi-para-investigar-fraude-milionaria-no-credito-rural",
-      "source": "Blog do Alberes Xavier",
-      "sourceCanonical": "Blog do Alberes Xavier",
-      "sourceDomain": "blogdoalberesxavier.com",
-      "publishedAt": "2026-11-23T13:00:00+00:00",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/deputado-quer-cpi-para-investigar-fraude-milionaria-no-credito-rural",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-11-23T11:13:00+00:00",
       "postedLabel": "4 dias atrás",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 9,
+      "bucket": "right"
     },
     {
       "id": "article_a2f51dac3553",
@@ -260,20 +260,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_53566bb99537",
-      "title": "Câmara aprova audiência para discutir endividamento de produtores rurais",
-      "description": "Requerimento apresentado pela deputada catarinense Daniela Reinehr prevê que Banco do Brasil apresente dados sobre inadimplência e...",
-      "url": "https://rco.com.br/noticias/politica/camara-aprova-audiencia-para-discutir-endividamento-de-produtores-rurais",
-      "source": "Rádio Centro Oeste",
-      "sourceCanonical": "Rádio Centro Oeste",
-      "sourceDomain": "rco.com.br",
-      "publishedAt": "2026-11-26T16:48:08+00:00",
-      "postedLabel": "ontem",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
       "id": "article_66f50ace491a",
       "title": "FAZENDAS FANTASMAS",
       "description": "Uma fazenda que apareceu no meio de um rio, um CPF inexistente associado a 113 outras propriedades rurais e um empréstimo de R$ 8,5 milhões...",
@@ -283,6 +269,20 @@
       "sourceDomain": "radiorural.com.br",
       "publishedAt": "2026-11-21T08:00:00+00:00",
       "postedLabel": "7 dias atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
+    },
+    {
+      "id": "article_53566bb99537",
+      "title": "Câmara aprova audiência para discutir endividamento de produtores rurais",
+      "description": "Requerimento apresentado pela deputada catarinense Daniela Reinehr prevê que Banco do Brasil apresente dados sobre inadimplência e...",
+      "url": "https://rco.com.br/noticias/politica/camara-aprova-audiencia-para-discutir-endividamento-de-produtores-rurais",
+      "source": "Rádio Centro Oeste",
+      "sourceCanonical": "Rádio Centro Oeste",
+      "sourceDomain": "rco.com.br",
+      "publishedAt": "2026-11-26T16:48:08+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
@@ -318,27 +318,28 @@
   ],
   "spectrum": {
     "min": 2,
-    "max": 8,
-    "average": 5.33,
-    "knownCount": 9,
-    "unknownCount": 11,
+    "max": 9,
+    "average": 5.7,
+    "knownCount": 10,
+    "unknownCount": 10,
     "buckets": {
       "left": 1,
       "centerLeft": 0,
       "center": 6,
       "centerRight": 2,
-      "right": 0,
-      "unknown": 11
+      "right": 1,
+      "unknown": 10
     }
   },
   "scores": {
-    "coverageDiversity": 60,
-    "spectrumBalance": 91,
-    "headlineDivergence": 88,
+    "coverageDiversity": 80,
+    "spectrumBalance": 100,
+    "headlineDivergence": 91,
     "confidence": 95
   },
   "flags": [
     "Alta cobertura",
+    "Ampla diversidade editorial",
     "Muitas fontes não classificadas",
     "Manchetes divergentes"
   ]
