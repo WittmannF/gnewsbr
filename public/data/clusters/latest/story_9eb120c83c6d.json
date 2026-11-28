@@ -3,20 +3,26 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pMcnBpOEVoRVN5aEF4UU9uSE95Z0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pMcnBpOEVoRVN5aEF4UU9uSE95Z0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-5"
+    "home",
+    "topic-5",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
       "topic-5"
     ],
     "seedRanks": {
+      "home": 1,
+      "topstories": 1,
       "topic-5": 1
     },
-    "firstSeenSeedPage": "topic-5",
+    "firstSeenSeedPage": "home",
     "firstSeenRank": 1,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Trabuco é ‘o banqueiro mais socialista que conheci na vida’, diz ex-diretor do Bradesco",
   "summary": "Alfredo Menezes, CIO da Armor Capital, aposta na habilidade do ex-chefe para negociar com o Congresso, mas diz que zerou as posições em...",
@@ -31,7 +37,7 @@
   ],
   "imageUrl": "https://s2-valor.glbimg.com/FS3KXgaGRa4jhUjXMx_iPkXwSwU=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/8/B/ZArCBAREAEELChiBBwJw/080525armorcapital9.jpg",
   "publishedAt": "2026-11-27T02:17:40+00:00",
-  "updatedAt": "2026-11-28T16:26:51.044793+00:00",
+  "updatedAt": "2026-11-28T17:15:30.003080+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -58,7 +64,7 @@
       "sourceCanonical": "BBC News Brasil",
       "sourceDomain": "bbc.com",
       "publishedAt": "2026-11-27T17:03:08+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://ichef.bbci.co.uk/news/1200/branded_portuguese/78fb/live/105574c0-ea82-11f1-a739-457c2295eaba.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -72,7 +78,7 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-28T15:58:04+00:00",
-      "postedLabel": "28 minutos atrás",
+      "postedLabel": "uma hora atrás",
       "imageUrl": "https://s2-g1.glbimg.com/4hjrSv9Z_x6zlaaAd8n2_RcmKUw=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/w/x/lwYgxJS9OcsAWUnX0ymQ/54075991548-7feeea8a25-k.jpg",
       "spectrumScore": 5,
       "bucket": "center"
@@ -170,7 +176,7 @@
       "sourceCanonical": "Folha de S.Paulo",
       "sourceDomain": "www1.folha.uol.com.br",
       "publishedAt": "2026-11-28T15:00:00+00:00",
-      "postedLabel": "uma hora atrás",
+      "postedLabel": "2 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -184,7 +190,7 @@
       "sourceCanonical": "VEJA",
       "sourceDomain": "veja.abril.com.br",
       "publishedAt": "2026-11-28T14:11:43+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 7,
       "bucket": "centerRight"
@@ -254,7 +260,7 @@
       "sourceCanonical": "Gazeta do Povo",
       "sourceDomain": "gazetadopovo.com.br",
       "publishedAt": "2026-11-27T17:02:00+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 8,
       "bucket": "centerRight"
@@ -288,20 +294,6 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_37525f69508f",
-      "title": "Escolha de Trabuco mostra ‘Lula sendo Lula’ e críticas são ‘prévia de 2030’, analisa pesquisadora",
-      "description": "A indicação do banqueiro Luiz Carlos Trabuco para o Ministério da Fazenda não surpreende a cientista política Larissa Peixoto,...",
-      "url": "https://www.brasildefato.com.br/2026/11/27/escolha-de-trabuco-mostra-lula-sendo-lula-e-criticas-sao-previa-de-2030-analisa-pesquisadora/",
-      "source": "Brasil de Fato",
-      "sourceCanonical": "Brasil de Fato",
-      "sourceDomain": "brasildefato.com.br",
-      "publishedAt": "2026-11-27T22:50:00+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 2,
-      "bucket": "left"
-    },
-    {
       "id": "article_d93780df11a8",
       "title": "Trabuco tirou 'argentinização da cabeça do gringo', mas Brasil ainda é 'nota dois', diz gestor",
       "description": "João Braga, da Encore, diz que o maior ganho está fora do Ibovespa e lista Localiza, Equatorial, Smart Fit e construtoras de baixa renda.",
@@ -314,6 +306,20 @@
       "imageUrl": null,
       "spectrumScore": 6,
       "bucket": "center"
+    },
+    {
+      "id": "article_37525f69508f",
+      "title": "Escolha de Trabuco mostra ‘Lula sendo Lula’ e críticas são ‘prévia de 2030’, analisa pesquisadora",
+      "description": "A indicação do banqueiro Luiz Carlos Trabuco para o Ministério da Fazenda não surpreende a cientista política Larissa Peixoto,...",
+      "url": "https://www.brasildefato.com.br/2026/11/27/escolha-de-trabuco-mostra-lula-sendo-lula-e-criticas-sao-previa-de-2030-analisa-pesquisadora/",
+      "source": "Brasil de Fato",
+      "sourceCanonical": "Brasil de Fato",
+      "sourceDomain": "brasildefato.com.br",
+      "publishedAt": "2026-11-27T22:50:00+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": 2,
+      "bucket": "left"
     }
   ],
   "spectrum": {
