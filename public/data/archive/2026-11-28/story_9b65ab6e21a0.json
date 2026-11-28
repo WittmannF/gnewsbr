@@ -3,35 +3,44 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laMWJPNUVoRWJpM3RWeEg3SnBpZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2laMWJPNUVoRWJpM3RWeEg3SnBpZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "topic-7"
+    "home",
+    "topic-5",
+    "topic-7",
+    "topstories"
   ],
   "discovery": {
     "seedPages": [
+      "home",
+      "topstories",
+      "topic-5",
       "topic-7"
     ],
     "seedRanks": {
+      "home": 2,
+      "topstories": 2,
+      "topic-5": 6,
       "topic-7": 1
     },
-    "firstSeenSeedPage": "topic-7",
-    "firstSeenRank": 1,
+    "firstSeenSeedPage": "home",
+    "firstSeenRank": 2,
     "bestSeedRank": 1,
-    "isHomeTop": false,
-    "isTopStoriesTop": false
+    "isHomeTop": true,
+    "isTopStoriesTop": true
   },
   "title": "Protestos por moradia, desastres ferroviários e crise migratória: as crises na Espanha que podem impactar a eleição",
   "summary": "Milhões de eleitores vão às urnas neste domingo (29). Pedro Sánchez tenta conquistar mais um mandato, apesar do desgaste da imagem diante do...",
-  "topic": "Espanha · Eleições",
+  "topic": "Espanha · Sánchez",
   "topicKeywords": [
     "espanha",
-    "eleições",
     "sánchez",
-    "campanha",
+    "eleições",
     "direita",
+    "campanha",
     "eleição"
   ],
   "imageUrl": "https://s2-g1.glbimg.com/T_hNi5TGx-Whl6J5QPHWbOUyMJg=/5900x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/q/igiOesTwacSAxwgvGy7g/2026-10-03t105838z-2044990418-rc2mvnaxmenq-rtrmadp-3-spain-housing-protest.jpg",
   "publishedAt": "2026-11-25T16:53:09+00:00",
-  "updatedAt": "2026-11-28T14:31:33.940928+00:00",
+  "updatedAt": "2026-11-28T15:16:12.222697+00:00",
   "sourceCount": 19,
   "articleCount": 20,
   "articles": [
@@ -44,10 +53,24 @@
       "sourceCanonical": "G1",
       "sourceDomain": "g1.globo.com",
       "publishedAt": "2026-11-28T09:00:01+00:00",
-      "postedLabel": "5 horas atrás",
+      "postedLabel": "hoje",
       "imageUrl": "https://s2-g1.glbimg.com/T_hNi5TGx-Whl6J5QPHWbOUyMJg=/5900x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/q/igiOesTwacSAxwgvGy7g/2026-10-03t105838z-2044990418-rc2mvnaxmenq-rtrmadp-3-spain-housing-protest.jpg",
       "spectrumScore": 5,
       "bucket": "center"
+    },
+    {
+      "id": "article_2dc63232c458",
+      "title": "Espanha enfrenta eleições decisivas: Feijóo viaja a Ceuta e Sánchez passa dia em família",
+      "description": "Mais de 38,6 milhões de espanhóis votam este domingo nas eleições que podem mudar o governo ou manter Pedro Sánchez no cargo.",
+      "url": "https://pt.euronews.com/2026/11/28/espanha-enfrenta-eleicoes-decisivas-feijoo-viaja-a-ceuta-e-sanchez-passa-dia-em-familia",
+      "source": "Euronews.com",
+      "sourceCanonical": "Euronews.com",
+      "sourceDomain": "pt.euronews.com",
+      "publishedAt": "2026-11-28T14:24:47+00:00",
+      "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     },
     {
       "id": "article_bcadd241b7d8",
@@ -62,20 +85,6 @@
       "imageUrl": "https://www.estadao.com.br/resizer/v2/BXXE6PQYVRAZHLY3OZO7JLBKKA.jpg?quality=80&auth=48aefcc14fa86b0079cc4f5532e19210b4c14e07b88250212079783e8a278368&width=1200&height=630&smart=true",
       "spectrumScore": 7,
       "bucket": "centerRight"
-    },
-    {
-      "id": "article_f69916f55570",
-      "title": "Conheça os principais candidatos da eleição parlamentar na Espanha",
-      "description": "Pedro Sánchez, atual primeiro-ministro do país europeu, tenta reeleição, enquanto ultradireita avança pelo continente.",
-      "url": "https://www.cnnbrasil.com.br/internacional/conheca-os-principais-candidatos-da-eleicao-parlamentar-na-espanha/",
-      "source": "CNN Brasil",
-      "sourceCanonical": "CNN Brasil",
-      "sourceDomain": "cnnbrasil.com.br",
-      "publishedAt": "2026-11-27T23:28:53+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/pedro-sanchez-alberto-feijoo-santiago-abascal-ada-colau-eleicao-espanha.jpg?w=1200&h=630&crop=1",
-      "spectrumScore": 5,
-      "bucket": "center"
     },
     {
       "id": "article_cc2bb32dd5ab",
@@ -101,7 +110,7 @@
       "sourceDomain": "dw.com",
       "publishedAt": "2026-11-26T20:19:50+00:00",
       "postedLabel": "ontem",
-      "imageUrl": null,
+      "imageUrl": "https://static.dw.com/image/80049989_6.jpg",
       "spectrumScore": 4,
       "bucket": "centerLeft"
     },
@@ -120,32 +129,46 @@
       "bucket": "center"
     },
     {
-      "id": "article_b322d0e8bf4f",
+      "id": "article_2a0e5b145f75",
       "title": "Espanha se prepara para eleições decisivas no domingo",
-      "description": "A Espanha se prepara, neste sábado (28), para eleições decisivas no domingo, nas quais o socialista Pedro Sánchez coloca em jogo sua...",
-      "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/11/28/espanha-se-prepara-para-eleicoes-decisivas-no-domingo.htm",
-      "source": "UOL Notícias",
-      "sourceCanonical": "UOL Notícias",
-      "sourceDomain": "noticias.uol.com.br",
-      "publishedAt": "2026-11-28T12:57:02+00:00",
+      "description": "Partido de direita pode vencer as eleições devido à crise de moradia enfrentada pelo esquerdista Pedro Sanchez.",
+      "url": "https://veja.abril.com.br/mundo/espanha-se-prepara-para-eleicoes-decisivas-no-domingo/",
+      "source": "VEJA",
+      "sourceCanonical": "VEJA",
+      "sourceDomain": "veja.abril.com.br",
+      "publishedAt": "2026-11-28T14:25:52+00:00",
       "postedLabel": "uma hora atrás",
+      "imageUrl": null,
+      "spectrumScore": 7,
+      "bucket": "centerRight"
+    },
+    {
+      "id": "article_f69916f55570",
+      "title": "Conheça os principais candidatos da eleição parlamentar na Espanha",
+      "description": "Pedro Sánchez, atual primeiro-ministro do país europeu, tenta reeleição, enquanto ultradireita avança pelo continente.",
+      "url": "https://www.cnnbrasil.com.br/internacional/conheca-os-principais-candidatos-da-eleicao-parlamentar-na-espanha/",
+      "source": "CNN Brasil",
+      "sourceCanonical": "CNN Brasil",
+      "sourceDomain": "cnnbrasil.com.br",
+      "publishedAt": "2026-11-27T23:28:53+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 5,
       "bucket": "center"
     },
     {
-      "id": "article_b5b9de26cdc4",
-      "title": "Santiago Abascal: o fenômeno eleitoral que muda o jogo na Espanha",
-      "description": "O político da direita populista radical terá em torno de 18% dos votos e será a figura chave para que seja formado um governo conservador.",
-      "url": "https://veja.abril.com.br/mundo/santiago-abascal-o-fenomeno-eleitoral-que-muda-o-jogo-na-espanha/",
-      "source": "VEJA",
-      "sourceCanonical": "VEJA",
-      "sourceDomain": "veja.abril.com.br",
-      "publishedAt": "2026-11-27T10:06:58+00:00",
+      "id": "article_f2ea814c702a",
+      "title": "Pedro Sánchez tenta frear ultradireita na Espanha; veja vídeo",
+      "description": "Com a direita à frente nas pesquisas, Pedro Sánchez tenta mobilizar os eleitores de esquerda para conter o avanço da oposição.",
+      "url": "https://www1.folha.uol.com.br/tv/2026/11/pedro-sanchez-tenta-frear-ultradireita-na-espanha-veja-video.shtml",
+      "source": "Folha de S.Paulo",
+      "sourceCanonical": "Folha de S.Paulo",
+      "sourceDomain": "www1.folha.uol.com.br",
+      "publishedAt": "2026-11-26T21:25:00+00:00",
       "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": 7,
-      "bucket": "centerRight"
+      "spectrumScore": 4,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_b71266f0792d",
@@ -170,7 +193,7 @@
       "sourceCanonical": "DW (Brasil)",
       "sourceDomain": "dw.com",
       "publishedAt": "2026-11-28T11:54:57+00:00",
-      "postedLabel": "2 horas atrás",
+      "postedLabel": "3 horas atrás",
       "imageUrl": null,
       "spectrumScore": 4,
       "bucket": "centerLeft"
@@ -190,18 +213,18 @@
       "bucket": "center"
     },
     {
-      "id": "article_46a71c380bf1",
-      "title": "Espanha: último debate antes das eleições mostra dois modelos de país e Feijóo desafia Sánchez",
-      "description": "Líder socialista, Sánchez, voltou a demorar a atacar e interpelou mais Abascal do que Núñez Feijóo, em sintonia com Ada Colau,...",
-      "url": "https://pt.euronews.com/2026/11/27/espanha-ultimo-debate-antes-das-eleicoes-mostra-dois-modelos-de-pais-e-feijoo-desafia-sanc",
-      "source": "Euronews.com",
-      "sourceCanonical": "Euronews.com",
-      "sourceDomain": "pt.euronews.com",
-      "publishedAt": "2026-11-27T08:55:28+00:00",
-      "postedLabel": "ontem",
+      "id": "article_26f84950e01e",
+      "title": "Espanha vai às urnas: entre impasse e avanço da direita, o que muda para Europa e Brasil",
+      "description": "Pesquisador em Relações Internacionais avalia que disputa segue aberta na reta final, projeta \"jogo mais duro\" com Bruxelas se a direita...",
+      "url": "https://exame.com/mundo/espanha-vai-as-urnas-entre-impasse-e-avanco-da-direita-o-que-muda-para-europa-e-brasil/",
+      "source": "Exame",
+      "sourceCanonical": "Exame Notícias",
+      "sourceDomain": "exame.com",
+      "publishedAt": "2026-11-27T21:15:28+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 6,
+      "bucket": "center"
     },
     {
       "id": "article_1896506f4b61",
@@ -274,18 +297,18 @@
       "bucket": "unknown"
     },
     {
-      "id": "article_caf9ffa3ac35",
-      "title": "Eleições espanholas vão custar 234 milhões de euros",
-      "description": "Do total de cidadãos com direito de voto, 35.953.542 residem em Espanha e 2.663.407 no estrangeiro.",
-      "url": "https://cnnportugal.iol.pt/espanha/espanha2026/eleicoes-espanholas-vao-custar-234-milhoes-de-euros/20261128/6b0aa1270cf294b9345ec144",
-      "source": "CNN Portugal",
-      "sourceCanonical": "CNN Portugal",
-      "sourceDomain": "cnnportugal.iol.pt",
-      "publishedAt": "2026-11-28T09:44:41+00:00",
-      "postedLabel": "4 horas atrás",
+      "id": "article_a962eb79170a",
+      "title": "Pedro Sánchez acordou para o debate a quatro que foi um “dois contra um”",
+      "description": "PSOE e Frente Ampla unidos em ataque à direita no debate a quatro. Apesar de reunirem maioira absoluta nas sondagens, Feijóo e Abascal mal...",
+      "url": "https://www.publico.pt/2026/11/27/mundo/noticia/pedro-sanchez-acordou-debate-quatro-dois-2196496",
+      "source": "Público",
+      "sourceCanonical": "Público",
+      "sourceDomain": "publico.pt",
+      "publishedAt": "2026-11-27T01:32:41+00:00",
+      "postedLabel": "ontem",
       "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
+      "spectrumScore": 3,
+      "bucket": "centerLeft"
     },
     {
       "id": "article_1695d1d1b89d",
@@ -300,35 +323,21 @@
       "imageUrl": null,
       "spectrumScore": null,
       "bucket": "unknown"
-    },
-    {
-      "id": "article_e553206b3b57",
-      "title": "A política do medo. Opinião de Miguel Baumgartner sobre as eleições em Espanha",
-      "description": "Um eleitor que pondera votar no PP tem o direito de saber o que Feijóo está disposto a negociar e o que considera inegociável.",
-      "url": "https://visao.pt/opiniao/2026-11-28-a-politica-do-medo-opiniao-de-miguel-baumgartner-sobre-as-eleicoes-em-espanha/",
-      "source": "Visão",
-      "sourceCanonical": "Visão",
-      "sourceDomain": "visao.pt",
-      "publishedAt": "2026-11-28T12:00:00+00:00",
-      "postedLabel": "2 horas atrás",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 7,
-    "average": 4.93,
-    "knownCount": 15,
-    "unknownCount": 5,
+    "average": 4.82,
+    "knownCount": 17,
+    "unknownCount": 3,
     "buckets": {
       "left": 2,
-      "centerLeft": 2,
+      "centerLeft": 4,
       "center": 8,
       "centerRight": 3,
       "right": 0,
-      "unknown": 5
+      "unknown": 3
     }
   },
   "scores": {
