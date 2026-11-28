@@ -3,26 +3,23 @@
   "storyId": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxM3BDX0VoSEIzYlU2cm8zeERDZ0FQAQ",
   "storyUrl": "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kxM3BDX0VoSEIzYlU2cm8zeERDZ0FQAQ?ceid=BR:pt-419&oc=3&hl=pt-BR&gl=BR",
   "seedPages": [
-    "home",
-    "topic-5",
-    "topstories"
+    "topic-3",
+    "topic-5"
   ],
   "discovery": {
     "seedPages": [
-      "home",
-      "topstories",
+      "topic-3",
       "topic-5"
     ],
     "seedRanks": {
-      "home": 2,
-      "topstories": 2,
+      "topic-3": 32,
       "topic-5": 2
     },
-    "firstSeenSeedPage": "home",
-    "firstSeenRank": 2,
+    "firstSeenSeedPage": "topic-3",
+    "firstSeenRank": 32,
     "bestSeedRank": 2,
-    "isHomeTop": true,
-    "isTopStoriesTop": true
+    "isHomeTop": false,
+    "isTopStoriesTop": false
   },
   "title": "Após 'sim' de Trabuco, Lula anunciará Camilo Santana na Casa Civil, Alckmin na Segurança e mais; veja próximos passos",
   "summary": "Com a confirmação de que Luiz Carlos Trabuco será o próximo ministro da Fazenda, o presidente Luiz Inácio Lula da Silva dará largada na...",
@@ -36,8 +33,8 @@
     "alckmin"
   ],
   "imageUrl": "https://s2-valor.glbimg.com/Y6o9eWlvTf0QAjYxF2a7sj1SxHY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/m/Y/M6hVr6TByc45rj9UqL6Q/foto18pol-201-lula-a14.jpg",
-  "publishedAt": "2023-01-06T08:00:00+00:00",
-  "updatedAt": "2026-11-28T11:16:07.318307+00:00",
+  "publishedAt": "2026-11-26T19:44:00+00:00",
+  "updatedAt": "2026-11-28T12:24:40.825293+00:00",
   "sourceCount": 20,
   "articleCount": 20,
   "articles": [
@@ -50,23 +47,9 @@
       "sourceCanonical": "Valor Econômico",
       "sourceDomain": "valor.globo.com",
       "publishedAt": "2026-11-27T12:04:19+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": "https://s2-valor.glbimg.com/Y6o9eWlvTf0QAjYxF2a7sj1SxHY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/m/Y/M6hVr6TByc45rj9UqL6Q/foto18pol-201-lula-a14.jpg",
       "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
-      "id": "article_ec648ed56105",
-      "title": "Lula convida Camilo Santana para ser ministro da Casa Civil",
-      "description": "Aliados do petista afirmam que Lula recebeu o senador na noite dessa quinta-feira (26), e fez o convite. Expectativa é que o anúncio seja...",
-      "url": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/27/lula-convida-camilo-santana-para-ser-ministro-da-casa-civil.ghtml",
-      "source": "G1",
-      "sourceCanonical": "G1",
-      "sourceDomain": "g1.globo.com",
-      "publishedAt": "2026-11-27T16:01:23+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": "https://s2-g1.glbimg.com/TTan4Y9wLzr9bLqX2cy6tCKhifU=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/R/UBBHQoQmWilroNBKKKqw/55178641445-9ecac2b82a-k.jpg",
-      "spectrumScore": 5,
       "bucket": "center"
     },
     {
@@ -82,6 +65,20 @@
       "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/11/lula_-janones.jpg?quality=70&strip=info&resize=1200,630&crop=1",
       "spectrumScore": 7,
       "bucket": "centerRight"
+    },
+    {
+      "id": "article_ec648ed56105",
+      "title": "Lula convida Camilo Santana para ser ministro da Casa Civil",
+      "description": "Aliados do petista afirmam que Lula recebeu o senador na noite dessa quinta-feira (26), e fez o convite. Expectativa é que o anúncio seja...",
+      "url": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/27/lula-convida-camilo-santana-para-ser-ministro-da-casa-civil.ghtml",
+      "source": "G1",
+      "sourceCanonical": "G1",
+      "sourceDomain": "g1.globo.com",
+      "publishedAt": "2026-11-27T16:01:23+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": "https://s2-g1.glbimg.com/TTan4Y9wLzr9bLqX2cy6tCKhifU=/2048x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/R/UBBHQoQmWilroNBKKKqw/55178641445-9ecac2b82a-k.jpg",
+      "spectrumScore": 5,
+      "bucket": "center"
     },
     {
       "id": "article_a904856bdc62",
@@ -224,20 +221,6 @@
       "bucket": "center"
     },
     {
-      "id": "article_f7d277c20723",
-      "title": "Lula escolhe Camilo Santana para comandar a Casa Civil, dizem aliados",
-      "description": "O presidente Luiz Inácio Lula da Silva (PT) escolheu o senador Camilo Santana (PT-CE) para comandar a Casa Civil no quarto mandato.",
-      "url": "https://www.infomoney.com.br/politica/lula-escolhe-camilo-santana-para-comandar-a-casa-civil-dizem-aliados/",
-      "source": "InfoMoney",
-      "sourceCanonical": "InfoMoney",
-      "sourceDomain": "infomoney.com.br",
-      "publishedAt": "2026-11-27T17:04:11+00:00",
-      "postedLabel": "hoje",
-      "imageUrl": null,
-      "spectrumScore": 6,
-      "bucket": "center"
-    },
-    {
       "id": "article_fc60c3a7a52b",
       "title": "Sem Haddad no governo, Camilo Santana ganha força para chefiar a Casa Civil de Lula",
       "description": "O senador Camilo Santana (PT-CE), que comandou o Ministério da Educação, virou o favorito para chefiar a Casa Civil no quarto mandato do...",
@@ -288,52 +271,66 @@
       "sourceCanonical": "Jovem Pan",
       "sourceDomain": "jovempan.com.br",
       "publishedAt": "2026-11-27T11:34:28+00:00",
-      "postedLabel": "hoje",
+      "postedLabel": "ontem",
       "imageUrl": null,
       "spectrumScore": 9,
       "bucket": "right"
     },
     {
-      "id": "article_3c3bd999161b",
-      "title": "Vídeo: Além de Camilo, Lula explica a importância de Izolda no MEC: \"Ela tem sido uma grande educadora",
-      "description": "O presidente Lula (PT), em sua primeira reunião ministerial de governo, explicou que escolheu o ex-governador do Ceará e atual ministro da...",
-      "url": "https://focuspoder.com.br/alem-de-camilo-lula-explica-a-importancia-de-izolda-no-mec-ela-tem-sido-uma-grande-educadora/",
-      "source": "Focus Poder",
-      "sourceCanonical": "Focus Poder",
-      "sourceDomain": "focuspoder.com.br",
-      "publishedAt": "2023-01-06T08:00:00+00:00",
-      "postedLabel": "",
-      "imageUrl": null,
-      "spectrumScore": null,
-      "bucket": "unknown"
-    },
-    {
-      "id": "article_a46efac3c58c",
-      "title": "Camilo se reúne com Lula e aguarda decisão da Casa Civil",
-      "description": "Camilo Santana se reúne com Lula enquanto o governo define a Casa Civil de 2027. Ainda não há anúncio oficial da escolha. Leia no Blog do...",
-      "url": "https://www.esmaelmorais.com.br/camilo-reuniao-lula-casa-civil-26-novembro/",
-      "source": "Blog do Esmael",
-      "sourceCanonical": "Blog do Esmael",
-      "sourceDomain": "esmaelmorais.com.br",
-      "publishedAt": "2026-11-27T01:49:50+00:00",
-      "postedLabel": "ontem",
+      "id": "article_e1182658bb7d",
+      "title": "Lula define Camilo Santana para comandar Casa Civil, dizem aliados",
+      "description": "O presidente Lula (PT) escolheu o senador Camilo Santana (PT-CE) como novo ministro-chefe da Casa Civil.",
+      "url": "https://iclnoticias.com.br/lula-define-camilo-santana-casa-civil/",
+      "source": "ICL Notícias",
+      "sourceCanonical": "ICL Notícias",
+      "sourceDomain": "iclnoticias.com.br",
+      "publishedAt": "2026-11-27T20:00:26+00:00",
+      "postedLabel": "hoje",
       "imageUrl": null,
       "spectrumScore": 2,
       "bucket": "left"
+    },
+    {
+      "id": "article_bdcf877caf2a",
+      "title": "Camilo Santana é cotado para assumir a Casa Civil em novo governo",
+      "description": "O presidente Lula (PT) já trabalhou conosco nos bastidores e encaminha alguns nomes que farão parte das pastas em Brasília a partir de...",
+      "url": "https://diariodopoder.com.br/brasil-e-regioes/e07-brasil/camilo-santana-e-cotado-para-assumir-a-casa-civil-em-novo-governo",
+      "source": "Diário do Poder",
+      "sourceCanonical": "Diário do Poder",
+      "sourceDomain": "diariodopoder.com.br",
+      "publishedAt": "2026-11-27T12:05:00+00:00",
+      "postedLabel": "ontem",
+      "imageUrl": null,
+      "spectrumScore": 9,
+      "bucket": "right"
+    },
+    {
+      "id": "article_e02e4598ea1f",
+      "title": "Reginaldo prevê papel central de Camilo na Casa Civil de Lula",
+      "description": "O deputado federal Reginaldo Lopes (PT-MG) afirmou nesta sexta-feira (27) que o senador Camilo Santana (PT-CE) terá papel fundamental na...",
+      "url": "https://veronoticias.com/politica/reginaldo-preve-papel-central-de-camilo-na-casa-civil-de-lula/",
+      "source": "Vero Notícias",
+      "sourceCanonical": "Vero Notícias",
+      "sourceDomain": "veronoticias.com",
+      "publishedAt": "2026-11-27T22:27:27+00:00",
+      "postedLabel": "hoje",
+      "imageUrl": null,
+      "spectrumScore": null,
+      "bucket": "unknown"
     }
   ],
   "spectrum": {
     "min": 2,
     "max": 9,
-    "average": 5.13,
+    "average": 5.33,
     "knownCount": 15,
     "unknownCount": 5,
     "buckets": {
       "left": 3,
       "centerLeft": 0,
-      "center": 9,
+      "center": 8,
       "centerRight": 2,
-      "right": 1,
+      "right": 2,
       "unknown": 5
     }
   },
